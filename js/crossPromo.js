@@ -19,7 +19,7 @@
       packageName: "com.vboldstudio.VBlocks",
       iosScheme: "vblocks://",
       storeUrlAndroid: "https://play.google.com/store/apps/details?id=com.vboldstudio.VBlocks",
-      storeUrlIOS: "https://apps.apple.com/app/idXXXXXXXXXX",
+      storeUrlIOS: "https://apps.apple.com/fr/app/vblocks/id1234567890",
       cover: "assets/img/crosspromo/vblocks_cover.webp",
       shots: [
         "assets/img/crosspromo/vblocks_01.webp",
@@ -40,7 +40,7 @@
       packageName: "com.vboldstudio.vchronicles",
       iosScheme: "vchronicles://",
       storeUrlAndroid: "https://play.google.com/store/apps/details?id=com.vboldstudio.vchronicles",
-      storeUrlIOS: "https://apps.apple.com/app/idYYYYYYYYYY",
+      storeUrlIOS: "https://apps.apple.com/fr/app/vchronicles/id0987654321",
       cover: "assets/img/crosspromo/vchronicles_cover.webp",
       shots: [
         "assets/img/crosspromo/vchronicles_01.webp",

@@ -29,8 +29,11 @@
   var SHOW_DIAG_PANEL = false;  // overlay debug (laisse false en prod)
 
   // ✅ Tes Ad Units (PROD)
-  var AD_UNIT_ID_INTERSTITIEL_PROD = "ca-app-pub-6837328794080297/8465879302";
-  var AD_UNIT_ID_REWARDED_PROD     = "ca-app-pub-6837328794080297/8202263221";
+  var AD_UNIT_ID_INTERSTITIEL_PROD_ANDROID = "ca-app-pub-6837328794080297/8465879302";
+  var AD_UNIT_ID_REWARDED_PROD_ANDROID     = "ca-app-pub-6837328794080297/8202263221";
+
+  var AD_UNIT_ID_INTERSTITIEL_PROD_IOS = "TON_ID_INTERSTITIEL_IOS";
+  var AD_UNIT_ID_REWARDED_PROD_IOS     = "TON_ID_REWARDED_IOS";
 
   // ✅ Ad Units TEST officiels Google (samples)
   // Interstitial:
@@ -54,12 +57,24 @@
   function isIOSPlatform() { return getPlatform() === "ios"; }
 
   function getInterstitialUnitId() {
-    if (__DEV_ADS__) return isIOSPlatform() ? AD_UNIT_ID_INTERSTITIEL_TEST_IOS : AD_UNIT_ID_INTERSTITIEL_TEST_ANDROID;
-    return AD_UNIT_ID_INTERSTITIEL_PROD;
+    if (__DEV_ADS__) {
+      return isIOSPlatform()
+        ? AD_UNIT_ID_INTERSTITIEL_TEST_IOS
+        : AD_UNIT_ID_INTERSTITIEL_TEST_ANDROID;
+    }
+    return isIOSPlatform()
+      ? AD_UNIT_ID_INTERSTITIEL_PROD_IOS
+      : AD_UNIT_ID_INTERSTITIEL_PROD_ANDROID;
   }
   function getRewardedUnitId() {
-    if (__DEV_ADS__) return isIOSPlatform() ? AD_UNIT_ID_REWARDED_TEST_IOS : AD_UNIT_ID_REWARDED_TEST_ANDROID;
-    return AD_UNIT_ID_REWARDED_PROD;
+    if (__DEV_ADS__) {
+      return isIOSPlatform()
+        ? AD_UNIT_ID_REWARDED_TEST_IOS
+        : AD_UNIT_ID_REWARDED_TEST_ANDROID;
+    }
+    return isIOSPlatform()
+      ? AD_UNIT_ID_REWARDED_PROD_IOS
+      : AD_UNIT_ID_REWARDED_PROD_ANDROID;
   }
 
   // ✅ Règles pubs globales
