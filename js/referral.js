@@ -5,7 +5,7 @@
   const PENDING_INVITER_KEY = "vuniverse_install_referrer_pending_inviter_v1";
   const PENDING_RAW_KEY = "vuniverse_install_referrer_pending_raw_v1";
 
-  const PLAY_URL_BASE = "https://play.google.com/store/apps/details?id=com.vboldstudio.vuniverse";
+  const INVITE_BASE_URL = "https://ton-domaine.com/invite?code=";
 
   function t(key, fallback) {
     try {
@@ -82,8 +82,7 @@
   }
 
   function buildInviteUrl(uid) {
-    const raw = "inviter_uuid=" + encodeURIComponent(uid);
-    return PLAY_URL_BASE + "&referrer=" + encodeURIComponent(raw);
+    return INVITE_BASE_URL + encodeURIComponent(uid);
   }
 
   async function shareInvite() {
