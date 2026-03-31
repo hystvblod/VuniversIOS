@@ -1,0 +1,3603 @@
+﻿{
+  "vampire_001": {
+    "title": "Kantung darah organik",
+    "body": "Sebuah stok darah menghilang. Seseorang menimbun cadangan tanpa izin.",
+    "choices": {
+      "A": "Mengatur perburuan diam-diam",
+      "B": "Menegosiasikan donor sukarela",
+      "C": "Beralih ke mode penjatahan"
+    }
+  },
+  "vampire_002": {
+    "title": "Rumor peluru perak",
+    "body": "Seorang manusia menatapmu seolah dia tahu namamu dan peti matimu.",
+    "choices": {
+      "A": "Memindahkan klan",
+      "B": "Tetap dan melindungi wilayah",
+      "C": "Membuat pengalihan"
+    }
+  },
+  "vampire_003": {
+    "title": "Perselisihan garis keturunan",
+    "body": "Dua garis keturunan klan memperebutkan kendali atas sebuah sarang. Ketegangan naik dan semua menunggu keputusanmu.",
+    "choices": {
+      "A": "Menengahi dengan tegas",
+      "B": "Biarkan klan menyelesaikannya sendiri",
+      "C": "Menjanjikan segalanya kepada semua orang"
+    }
+  },
+  "vampire_004": {
+    "title": "Influencer rahasia",
+    "body": "Rahasia vampir makin membesar. Itu menyanjung, tapi juga menarik masalah.",
+    "choices": {
+      "A": "Mengizinkan ritual besar",
+      "B": "Membatasi dan mengawasi",
+      "C": "Melarang semuanya"
+    }
+  },
+  "vampire_005": {
+    "title": "Foto tanpa pantulan",
+    "body": "Seorang manusia mengunggah foto di mana kamu tidak punya pantulan. Foto itu cepat menyebar.",
+    "choices": {
+      "A": "Menyewa para ahli",
+      "B": "Membungkam penyebar di internet",
+      "C": "Mengubahnya menjadi mitos"
+    }
+  },
+  "vampire_006": {
+    "title": "Pabrik bir darah",
+    "body": "Harga darah naik, bahkan di sini.",
+    "choices": {
+      "A": "Menjarah diam-diam",
+      "B": "Berinvestasi secara legal",
+      "C": "Mengenakan pajak pada rahasia"
+    }
+  },
+  "vampire_007": {
+    "title": "Kripta terbangun",
+    "body": "Sebuah retakan di kripta membiarkan hembusan dingin yang membeku keluar.",
+    "choices": {
+      "A": "Menyegel kripta",
+      "B": "Menjelajahinya",
+      "C": "Mengirim saingan"
+    }
+  },
+  "vampire_008": {
+    "title": "Gigi palsu vampir",
+    "body": "Masalah kecil abadi: detail yang konyol bisa merusak semalam penuh.",
+    "choices": {
+      "A": "Mengubahnya jadi cerita",
+      "B": "Memanggil klan",
+      "C": "Mencoba tetap diam-diam"
+    }
+  },
+  "vampire_009": {
+    "title": "Relik darah dingin",
+    "body": "Sebuah relik menjanjikan darah tanpa batas. Semua menginginkannya, terutama para pemburu.",
+    "choices": {
+      "A": "Membeli relik itu",
+      "B": "Menghancurkannya",
+      "C": "Memberikannya pada pemburu untuk menjebak mereka"
+    }
+  },
+  "vampire_010": {
+    "title": "Pengiriman yang terlambat",
+    "body": "Truk pendingin menghilang bersama tiga peti. Darah mencair dan rumor mulai naik.",
+    "choices": {
+      "A": "Merebut kembali truk malam ini",
+      "B": "Membayar untuk keheningan yang rapi",
+      "C": "Menyalahkan para pemburu"
+    }
+  },
+  "vampire_011": {
+    "title": "Pesta topeng",
+    "body": "Sebuah gala mewah mengundang para tokoh penting. Ideal untuk memberi makan klan, ideal juga untuk ketahuan.",
+    "choices": {
+      "A": "Mengirim para pemikat",
+      "B": "Menolak dan tetap bersembunyi",
+      "C": "Datang sendiri"
+    }
+  },
+  "vampire_012": {
+    "title": "Pendeta yang insomnia",
+    "body": "Seorang pendeta tidak bisa tidur lagi. Dia memberkati air keran sebagai balas dendam.",
+    "choices": {
+      "A": "Membungkamnya dengan lembut",
+      "B": "Menyuap paroki",
+      "C": "Membiarkannya dan beradaptasi"
+    }
+  },
+  "vampire_013": {
+    "title": "Kamera gang",
+    "body": "Sebuah kamera jalan merekammu saat berlari cepat. Dalam gambar itu, kamu bergerak terlalu cepat.",
+    "choices": {
+      "A": "Menyabotase sistem",
+      "B": "Membeli rekamannya",
+      "C": "Membuat jejak palsu"
+    }
+  },
+  "vampire_014": {
+    "title": "Perburuan vampir palsu",
+    "body": "Seorang peniru berpura-pura menjadi dirimu. Dia menggigit sembarang orang dan meninggalkan jejak.",
+    "choices": {
+      "A": "Merekrutnya",
+      "B": "Menghukumnya di depan umum",
+      "C": "Menyerahkannya kepada para pemburu"
+    }
+  },
+  "vampire_015": {
+    "title": "Perjanjian lingkungan",
+    "body": "Geng setempat menginginkan kesepakatan. Perlindungan ditukar dengan kerahasiaan.",
+    "choices": {
+      "A": "Menerima dan menetapkan aturan",
+      "B": "Menolak dan menakut-nakuti mereka",
+      "C": "Mengadu domba mereka"
+    }
+  },
+  "vampire_016": {
+    "title": "Darah vegan",
+    "body": "Manusia menjual darah yang katanya etis. Baunya seperti penipuan dan polisi.",
+    "choices": {
+      "A": "Membeli untuk diuji",
+      "B": "Menghancurkan peredarannya",
+      "C": "Mengambil resepnya"
+    }
+  },
+  "vampire_017": {
+    "title": "Peti mati yang hilang",
+    "body": "Peti mati cadanganmu menghilang. Seseorang mengiranya peti vintage.",
+    "choices": {
+      "A": "Meluncurkan pencarian cepat",
+      "B": "Menawarkan hadiah",
+      "C": "Mengganti tempat persembunyian"
+    }
+  },
+  "vampire_018": {
+    "title": "Patroli diperketat",
+    "body": "Polisi memperbanyak patroli malam. Para pemburu bersembunyi di balik seragam.",
+    "choices": {
+      "A": "Menyuap seorang kepala",
+      "B": "Menghindari wilayah itu",
+      "C": "Membuat skandal"
+    }
+  },
+  "vampire_019": {
+    "title": "Rapat serikat",
+    "body": "Vampir kelas bawah ingin kondisi berburu yang lebih baik. Mereka bahkan mulai bicara soal mogok.",
+    "choices": {
+      "A": "Mengalah sedikit",
+      "B": "Menindas mereka",
+      "C": "Memecah para pemimpinnya"
+    }
+  },
+  "vampire_020": {
+    "title": "Patung yang menangis",
+    "body": "Sebuah patung di kripta mengeluarkan darah. Rahasia menyukainya, klan panik.",
+    "choices": {
+      "A": "Menjelaskannya sebagai mukjizat",
+      "B": "Menutup akses",
+      "C": "Memanfaatkan fenomena itu"
+    }
+  },
+  "vampire_021": {
+    "title": "Kelelawar muda",
+    "body": "Seorang vampir muda berubah terlalu cepat. Dia bergelantungan di langit-langit sambil menjerit.",
+    "choices": {
+      "A": "Melatih si pemula",
+      "B": "Menyembunyikannya dari klan",
+      "C": "Menyerahkannya kepada Kaum Rahasia"
+    }
+  },
+  "vampire_022": {
+    "title": "Pemburu yang sopan",
+    "body": "Seorang pemburu meminta pertemuan. Senyumnya terlalu lebar. Dia tahu sesuatu.",
+    "choices": {
+      "A": "Mendengarkannya",
+      "B": "Menjebaknya",
+      "C": "Melumpuhkannya"
+    }
+  },
+  "vampire_023": {
+    "title": "Dana besar dari Kaum Rahasia",
+    "body": "Kaum Rahasia menawarkan sumbangan besar. Baunya seperti manipulasi, tapi menggoda.",
+    "choices": {
+      "A": "Menerima dengan pengawasan",
+      "B": "Menolak",
+      "C": "Mengambil semuanya lalu kabur"
+    }
+  },
+  "vampire_024": {
+    "title": "Jamuan terlarang",
+    "body": "Sebuah garis keturunan mengusulkan jamuan makan. Menunya meragukan, rencananya juga.",
+    "choices": {
+      "A": "Melarangnya",
+      "B": "Mengawasi",
+      "C": "Ikut untuk memeriksa"
+    }
+  },
+  "vampire_025": {
+    "title": "Bau bawang putih",
+    "body": "Seseorang memenuhi jalan dengan aroma bawang putih. Itu jadi olahraga lokal.",
+    "choices": {
+      "A": "Mencari pelakunya",
+      "B": "Mengganti rute",
+      "C": "Membalikkan suasana warga sekitar"
+    }
+  },
+  "vampire_026": {
+    "title": "Pemburu terkenal",
+    "body": "Seorang pemburu tampil di TV. Dia menunjukkan kotamu di peta.",
+    "choices": {
+      "A": "Mempermalukannya di depan umum",
+      "B": "Memindahkan sebuah persembunyian",
+      "C": "Memulai perang dingin"
+    }
+  },
+  "vampire_027": {
+    "title": "Kontrak pembersihan",
+    "body": "Sebuah perusahaan menawarkan membersihkan jejak. Terlalu profesional untuk jujur.",
+    "choices": {
+      "A": "Menandatangani kontrak",
+      "B": "Memata-matai perusahaan itu",
+      "C": "Menutupnya"
+    }
+  },
+  "vampire_028": {
+    "title": "Klub gotik",
+    "body": "Sebuah klub gotik ingin menobatkanmu sebagai vampir bulan ini. Kamu tidak suka lampu kilat.",
+    "choices": {
+      "A": "Bermain sebagai maskot",
+      "B": "Menolak mentah-mentah",
+      "C": "Mengirim orang mirip dirimu"
+    }
+  },
+  "vampire_029": {
+    "title": "Darah tercemar",
+    "body": "Beberapa vampir jatuh sakit. Kiriman terakhir buruk.",
+    "choices": {
+      "A": "Memblokir stok",
+      "B": "Mencari sumbernya",
+      "C": "Menyalahkan sebuah klan"
+    }
+  },
+  "vampire_030": {
+    "title": "Pesan berkode",
+    "body": "Seorang manusia meninggalkan pesan berkode untukmu. Dia mengaku tahu nama aslimu.",
+    "choices": {
+      "A": "Menjawab dengan kode",
+      "B": "Mengabaikannya",
+      "C": "Menangkapnya"
+    }
+  },
+  "vampire_031": {
+    "title": "Pemberian bulan",
+    "body": "Bulan purnama membuat klan gelisah. Kesalahan makin banyak.",
+    "choices": {
+      "A": "Menerapkan jam malam",
+      "B": "Mengatur perburuan yang diawasi",
+      "C": "Membiarkan semua orang mengurus diri sendiri"
+    }
+  },
+  "vampire_032": {
+    "title": "Radio malam",
+    "body": "Sebuah radio lokal membacakan pesan untukmu. Seseorang menantangmu secara langsung di siaran.",
+    "choices": {
+      "A": "Mematikan pemancar",
+      "B": "Masuk ke permainannya",
+      "C": "Membalikkan penyiar itu"
+    }
+  },
+  "vampire_033": {
+    "title": "Festival cahaya",
+    "body": "Kota memasang sorotan di mana-mana. Indah, tapi buruk untukmu.",
+    "choices": {
+      "A": "Menyabotase dengan halus",
+      "B": "Menegosiasikan zona gelap",
+      "C": "Pergi beberapa hari"
+    }
+  },
+  "vampire_034": {
+    "title": "Pact rumah sakit",
+    "body": "Seorang direktur rumah sakit menawarkan kesepakatan. Dia ingin perlindunganmu.",
+    "choices": {
+      "A": "Menerima dengan kontrak",
+      "B": "Menolak",
+      "C": "Mengambil stok tanpa kesepakatan"
+    }
+  },
+  "vampire_035": {
+    "title": "Perburuan lewat aplikasi",
+    "body": "Aplikasi kencan menargetkan wilayahmu. Jebakan sudah jadi modern.",
+    "choices": {
+      "A": "Menyusup ke aplikasi",
+      "B": "Mengganti wilayah berburu",
+      "C": "Menutup aplikasi itu"
+    }
+  },
+  "vampire_036": {
+    "title": "Akuntan baru",
+    "body": "Seorang akuntan manusia mengurus keuanganmu. Dia terlalu banyak bertanya.",
+    "choices": {
+      "A": "Menenangkannya",
+      "B": "Menghipnotisnya",
+      "C": "Menggantinya"
+    }
+  },
+  "vampire_037": {
+    "title": "Makam terbuka",
+    "body": "Sebuah makam terbuka di pemakamanmu. Seseorang mencari kunci kuno.",
+    "choices": {
+      "A": "Menutupnya kembali dan memasang jebakan",
+      "B": "Mengikuti jejaknya",
+      "C": "Mengirim Kaum Rahasia"
+    }
+  },
+  "vampire_038": {
+    "title": "Cermin curang",
+    "body": "Seorang pengrajin menjual cermin yang memantulkan dirimu. Klan jadi iri.",
+    "choices": {
+      "A": "Membelinya banyak-banyak",
+      "B": "Menghancurkan tokonya",
+      "C": "Mengambil si pengrajin"
+    }
+  },
+  "vampire_039": {
+    "title": "Hujan yang diberkati",
+    "body": "Turun hujan air yang sedikit membakar. Seseorang memberkati awan, ya.",
+    "choices": {
+      "A": "Mencari sumbernya",
+      "B": "Bersembunyi",
+      "C": "Meluncurkan ritual berisiko"
+    }
+  },
+  "vampire_040": {
+    "title": "Taksi yang penasaran",
+    "body": "Seorang sopir taksi bilang dia pernah melihatmu mati. Dia ingin cerita, kalau tidak dia akan bicara.",
+    "choices": {
+      "A": "Membayarnya",
+      "B": "Menceritakan kebohongan padanya",
+      "C": "Membuatnya lupa"
+    }
+  },
+  "vampire_041": {
+    "title": "Tebusan darah",
+    "body": "Sebuah geng menangkap anggota klan. Mereka menuntut darah dan rahasia.",
+    "choices": {
+      "A": "Membayar tebusan",
+      "B": "Menyerang",
+      "C": "Menegosiasikan pertukaran"
+    }
+  },
+  "vampire_042": {
+    "title": "Perpustakaan tersegel",
+    "body": "Sebuah perpustakaan melarang akses ke sebuah ruangan. Kaum Rahasia bilang ruangan itu bernyanyi pada malam hari.",
+    "choices": {
+      "A": "Membuka paksa",
+      "B": "Meminta izin resmi",
+      "C": "Membiarkannya untuk Kaum Rahasia"
+    }
+  },
+  "vampire_043": {
+    "title": "Tetangga yang terlalu baik",
+    "body": "Tetanggamu membawa kue setiap malam. Terlalu banyak bawang putih, anehnya.",
+    "choices": {
+      "A": "Mengundangnya bicara",
+      "B": "Membuatnya pergi",
+      "C": "Pindah sarang"
+    }
+  },
+  "vampire_044": {
+    "title": "Sapu abu",
+    "body": "Seorang pelayan menumpahkan abu suci ke mana-mana. Kulit jadi gatal.",
+    "choices": {
+      "A": "Menghukum pelayan itu",
+      "B": "Cepat membersihkan",
+      "C": "Menyalahkan Kaum Rahasia"
+    }
+  },
+  "vampire_045": {
+    "title": "Komet merah",
+    "body": "Langit memerah semalam. Kaum Rahasia mengumumkan kiamat, para pemburu bersiap.",
+    "choices": {
+      "A": "Menenangkan Kaum Rahasia",
+      "B": "Mempersiapkan perang",
+      "C": "Memanfaatkan kekacauan"
+    }
+  },
+  "vampire_046": {
+    "title": "Cakar di pintu",
+    "body": "Seseorang menggores pintu kriptamu. Pesan jelas: mereka sudah menemukanmu.",
+    "choices": {
+      "A": "Memperkuat pertahanan",
+      "B": "Mengganti persembunyian",
+      "C": "Menyerang balik"
+    }
+  },
+  "vampire_047": {
+    "title": "Janji keabadian",
+    "body": "Seorang manusia kaya ingin jadi vampir. Dia membayar, memaksa, dan punya tim.",
+    "choices": {
+      "A": "Menerimanya",
+      "B": "Memanipulasinya",
+      "C": "Menyingkirkannya untuk selamanya"
+    }
+  },
+  "vampire_048": {
+    "title": "Malam karaoke",
+    "body": "Klan ingin malam karaoke demi kekompakan. Ide buruk, tapi lucu.",
+    "choices": {
+      "A": "Menerima dan mengawasi",
+      "B": "Melarangnya",
+      "C": "Menggunakannya untuk menemukan pengkhianat"
+    }
+  },
+  "vampire_049": {
+    "title": "Drone di atas",
+    "body": "Sebuah drone terbang di atas persembunyianmu setiap malam. Selalu kembali.",
+    "choices": {
+      "A": "Meretasnya",
+      "B": "Menembaknya jatuh",
+      "C": "Pindah"
+    }
+  },
+  "vampire_050": {
+    "title": "Bursa darah",
+    "body": "Para penyelundup menetapkan harga. Mereka ingin pajak atas wilayahmu.",
+    "choices": {
+      "A": "Bernegosiasi",
+      "B": "Menghancurkan mereka",
+      "C": "Membuat jaringanmu sendiri"
+    }
+  },
+  "vampire_051": {
+    "title": "Kereta malam",
+    "body": "Sebuah kereta malam datang kosong. Kursinya hangat. Sangat hangat.",
+    "choices": {
+      "A": "Naik ke dalam",
+      "B": "Memperingatkan klan",
+      "C": "Memanggil pemburu untuk menguji"
+    }
+  },
+  "vampire_052": {
+    "title": "Relik yang dicuri",
+    "body": "Relik darah dingin telah dicuri. Pelakunya meninggalkan simbol Kaum Rahasia.",
+    "choices": {
+      "A": "Menyalahkan Kaum Rahasia",
+      "B": "Memburu diam-diam",
+      "C": "Menawarkan amnesti"
+    }
+  },
+  "vampire_053": {
+    "title": "Perjanjian para serigala",
+    "body": "Sebuah kawanan menawarkan gencatan senjata. Mereka ingin perbatasan yang jelas.",
+    "choices": {
+      "A": "Menandatangani gencatan senjata",
+      "B": "Menolak",
+      "C": "Menggunakan mereka melawan para pemburu"
+    }
+  },
+  "vampire_054": {
+    "title": "Lagu terlarang",
+    "body": "Sebuah lagu bercerita tentangmu. Saat diputar, anjing-anjing melolong.",
+    "choices": {
+      "A": "Melarang lagu itu",
+      "B": "Menemui penciptanya",
+      "C": "Membalikkan tren demi keuntunganmu"
+    }
+  },
+  "vampire_055": {
+    "title": "Piala yang retak",
+    "body": "Piala ritualmu retak. Tanpanya, klan mulai meragukanmu.",
+    "choices": {
+      "A": "Memperbaikinya",
+      "B": "Menggantinya dengan yang baru",
+      "C": "Menjadikan retakan itu simbol"
+    }
+  },
+  "vampire_056": {
+    "title": "Parfum kesucian",
+    "body": "Sebuah toko menjual parfum yang mengusir vampir. Langsung sukses.",
+    "choices": {
+      "A": "Membeli untuk dianalisis",
+      "B": "Menyabotase toko",
+      "C": "Membuat versi palsu"
+    }
+  },
+  "vampire_057": {
+    "title": "Sumpah darah",
+    "body": "Seorang sesepuh menuntut sumpah di depan umum. Dia ingin menguji kesetiaanmu.",
+    "choices": {
+      "A": "Bersumpah dan menepatinya",
+      "B": "Menolak",
+      "C": "Curang dengan sumpah palsu"
+    }
+  },
+  "vampire_058": {
+    "title": "Anjing yang melihat segalanya",
+    "body": "Seekor anjing menatapmu dan menggeram. Manusia bilang dia bisa melihat monster.",
+    "choices": {
+      "A": "Membeli anjing itu",
+      "B": "Menjauhkannya",
+      "C": "Membuatnya terlihat berbahaya"
+    }
+  },
+  "vampire_059": {
+    "title": "Pemadaman listrik",
+    "body": "Listrik padam total di kota. Malam jadi sempurna, terlalu sempurna.",
+    "choices": {
+      "A": "Berburu cepat",
+      "B": "Melindungi klan",
+      "C": "Menjebak para pemburu"
+    }
+  },
+  "vampire_060": {
+    "title": "Kantor polisi",
+    "body": "Seseorang menaruh kantung darah di depan kantor polisi. Sebuah provokasi.",
+    "choices": {
+      "A": "Membersihkan tempat kejadian",
+      "B": "Menyalahkan saingan",
+      "C": "Mengalihkan polisi ke tempat lain"
+    }
+  },
+  "vampire_061": {
+    "title": "Perjanjian para dokter",
+    "body": "Beberapa dokter ingin mempelajari darahmu. Mereka menjanjikan kerahasiaan dan kemajuan.",
+    "choices": {
+      "A": "Menerima dengan pengawasan",
+      "B": "Menolak",
+      "C": "Menggunakan mereka untuk obat palsu"
+    }
+  },
+  "vampire_062": {
+    "title": "Pelarian si pemula",
+    "body": "Seorang pemula panik dan kabur ke tengah kota. Dia meninggalkan jejak di mana-mana.",
+    "choices": {
+      "A": "Menangkapnya kembali",
+      "B": "Menyembunyikannya di Kaum Rahasia",
+      "C": "Mengasingkannya sebagai contoh"
+    }
+  },
+  "vampire_063": {
+    "title": "Pengadilan Kaum Rahasia",
+    "body": "Kaum Rahasia ingin mengadili manusia yang menghina dirimu. Mereka meminta restumu.",
+    "choices": {
+      "A": "Menolak pengadilan itu",
+      "B": "Mengizinkan penghakiman simbolis",
+      "C": "Membiarkan Kaum Rahasia memutuskan"
+    }
+  },
+  "vampire_064": {
+    "title": "Gudang bawah tanah banjir",
+    "body": "Ruang bawah tanah rahasiamu kebanjiran. Peti-peti mati mengapung, suasananya konyol.",
+    "choices": {
+      "A": "Menyelamatkan cadangan",
+      "B": "Mengganti sarang",
+      "C": "Mengubahnya jadi atraksi Kaum Rahasia"
+    }
+  },
+  "vampire_065": {
+    "title": "Matahari palsu",
+    "body": "Sebuah perusahaan memasang lampu yang sangat kuat. Rasanya seperti matahari palsu.",
+    "choices": {
+      "A": "Menyabotase proyek",
+      "B": "Menegosiasikan pemadaman",
+      "C": "Memindahkan persembunyian"
+    }
+  },
+  "vampire_066": {
+    "title": "Utang klan",
+    "body": "Klan berutang pada seorang kriminal manusia. Dia ingin dibayar sekarang.",
+    "choices": {
+      "A": "Membayar",
+      "B": "Menakut-nakutinya",
+      "C": "Merekrutnya"
+    }
+  },
+  "vampire_067": {
+    "title": "Perjanjian para seniman",
+    "body": "Beberapa seniman ingin melukis legendamu di dinding. Itu menarik keramaian.",
+    "choices": {
+      "A": "Menerima dan mengontrol",
+      "B": "Melarang",
+      "C": "Menggunakan seni untuk menyembunyikan tanda"
+    }
+  },
+  "vampire_068": {
+    "title": "Perburuan rumor",
+    "body": "Sebuah forum lokal mengumpulkan bukti. Postingan terus bertambah.",
+    "choices": {
+      "A": "Menyusup ke forum",
+      "B": "Mengancam seorang admin",
+      "C": "Menyebarkan rumor-rumor konyol"
+    }
+  },
+  "vampire_069": {
+    "title": "Pasar malam",
+    "body": "Sebuah pasar malam menjual jimat. Beberapa benar-benar bekerja, sayangnya.",
+    "choices": {
+      "A": "Menyita jimat-jimat itu",
+      "B": "Membelinya diam-diam",
+      "C": "Bersekutu dengan penjualnya"
+    }
+  },
+  "vampire_070": {
+    "title": "Duel para sesepuh",
+    "body": "Dua sesepuh saling menantang. Mereka ingin duel kuno, jadi pasti berdarah.",
+    "choices": {
+      "A": "Melarangnya",
+      "B": "Menjadi wasit duel yang terkontrol",
+      "C": "Membiarkannya"
+    }
+  },
+  "vampire_071": {
+    "title": "Foto buram",
+    "body": "Sebuah foto buram menunjukkanmu di balik tirai. Terlihat cukup jelas untuk membuat panik.",
+    "choices": {
+      "A": "Menghapus foto itu",
+      "B": "Menyangkal dengan humor",
+      "C": "Menyalahkan filter"
+    }
+  },
+  "vampire_072": {
+    "title": "Hadiah beracun",
+    "body": "Sebuah paket datang dengan pita. Di dalamnya, sebuah benda yang berbau pemberkatan.",
+    "choices": {
+      "A": "Membukanya dengan hati-hati",
+      "B": "Membuangnya jauh-jauh",
+      "C": "Mengirimkannya pada saingan"
+    }
+  },
+  "vampire_073": {
+    "title": "Pernikahan Kaum Rahasia",
+    "body": "Kaum Rahasia mengadakan pernikahan malam hari. Mereka ingin kamu jadi saksi.",
+    "choices": {
+      "A": "Menerima",
+      "B": "Menolak",
+      "C": "Mengirim pengganti"
+    }
+  },
+  "vampire_074": {
+    "title": "Pemberontakan lembut",
+    "body": "Beberapa vampir menuntut lebih banyak darah untuk yang lemah. Mereka bicara soal keadilan.",
+    "choices": {
+      "A": "Mereformasi distribusi",
+      "B": "Menindas",
+      "C": "Berjanji lalu melupakan"
+    }
+  },
+  "vampire_075": {
+    "title": "Terowongan rahasia",
+    "body": "Sebuah terowongan di bawah kripta menuju jalan keluar. Seseorang sudah memakainya.",
+    "choices": {
+      "A": "Menutup terowongan",
+      "B": "Menjelajahi terowongan",
+      "C": "Menjebak jalan keluarnya"
+    }
+  },
+  "vampire_076": {
+    "title": "Hujan abu",
+    "body": "Sebuah cerobong menyemburkan abu ke seluruh kota. Manusia menganggapnya pertanda.",
+    "choices": {
+      "A": "Memanfaatkan ketakutan",
+      "B": "Menenangkan kota",
+      "C": "Menyalahkan pemburu"
+    }
+  },
+  "vampire_077": {
+    "title": "Penjaga kuburan",
+    "body": "Penjaga pemakaman mengenalmu. Dia meminta gaji dan rasa hormat.",
+    "choices": {
+      "A": "Membayarnya",
+      "B": "Mengancamnya",
+      "C": "Merekrutnya"
+    }
+  },
+  "vampire_078": {
+    "title": "Ramuan yang terlalu enak",
+    "body": "Kaum Rahasia menciptakan minuman darah. Semua orang menginginkannya, bahkan manusia.",
+    "choices": {
+      "A": "Melarangnya",
+      "B": "Menjualnya di pasar gelap",
+      "C": "Mengatur dosis dan mengontrolnya"
+    }
+  },
+  "vampire_079": {
+    "title": "Perjanjian para peretas",
+    "body": "Beberapa peretas menawarkan membersihkan internet. Mereka ingin dibayar dengan darah.",
+    "choices": {
+      "A": "Menerima",
+      "B": "Menolak",
+      "C": "Menjebak mereka"
+    }
+  },
+  "vampire_080": {
+    "title": "Lonceng tengah malam",
+    "body": "Sebuah lonceng berbunyi tengah malam tanpa alasan. Setiap dentangnya, para pemburu bergerak.",
+    "choices": {
+      "A": "Menghancurkan lonceng",
+      "B": "Mengawasi sekitar",
+      "C": "Menggunakan lonceng sebagai umpan"
+    }
+  },
+  "vampire_081": {
+    "title": "Simbol baru",
+    "body": "Sebuah simbol tak dikenal muncul di dindingmu. Bukan milik klan atau Kaum Rahasia. Sesuatu yang lain.",
+    "choices": {
+      "A": "Menyelidiki",
+      "B": "Menghapus semuanya",
+      "C": "Membuatnya tampak seperti ritual Kaum Rahasia"
+    }
+  },
+  "vampire_082": {
+    "title": "Perburuan terlarang",
+    "body": "Sebuah wilayah suci dilarang untuk berburu. Tapi rasa lapar makin kuat.",
+    "choices": {
+      "A": "Menghormati larangan",
+      "B": "Berburu diam-diam",
+      "C": "Menawarkan pertukaran pada penjaganya"
+    }
+  },
+  "vampire_083": {
+    "title": "Jamuan para pemburu",
+    "body": "Para pemburu mengadakan jamuan. Mereka mengundang seorang pengkhianat dari klan.",
+    "choices": {
+      "A": "Memata-matai jamuan itu",
+      "B": "Menyerang jamuan itu",
+      "C": "Membalikkan si pengkhianat"
+    }
+  },
+  "vampire_084": {
+    "title": "Mahkota besi",
+    "body": "Seseorang menawarkan mahkota kuno padamu. Itu menjanjikan wibawa, tapi menuntut harga.",
+    "choices": {
+      "A": "Memakainya",
+      "B": "Menguncinya",
+      "C": "Memberikannya pada saingan"
+    }
+  },
+  "vampire_085": {
+    "title": "Malam yang sempurna",
+    "body": "Semuanya tenang. Terlalu tenang. Bahkan tikus-tikus pun diam. Sebuah serangan sedang disiapkan.",
+    "choices": {
+      "A": "Memperkuat penjaga",
+      "B": "Kabur sebelum serangan",
+      "C": "Melancarkan serangan pendahuluan"
+    }
+  },
+  "vampire_086": {
+    "title": "Kulkas yang berbicara",
+    "body": "Kulkas menampilkan pesan dengan sendirinya. Klan panik. Kamu benci kejutan.",
+    "choices": {
+      "A": "Menyuruh memeriksa kulkas",
+      "B": "Mengganti seluruh stok",
+      "C": "Menyalahkan sabotase"
+    }
+  },
+  "vampire_087": {
+    "title": "Sopir yang terlalu ramah",
+    "body": "Dia bercerita ke mana-mana bahwa kamu tidak pernah tidur. Itu baik. Juga sangat berbahaya.",
+    "choices": {
+      "A": "Mempertahankannya tapi membatasinya",
+      "B": "Cepat menggantinya",
+      "C": "Merekrutnya ke Kaum Rahasia"
+    }
+  },
+  "vampire_088": {
+    "title": "Tur keliling ruang bawah tanah",
+    "body": "Manusia keluar bergerombol. Mudah terlihat, lebih sulit didekati tanpa meninggalkan jejak.",
+    "choices": {
+      "A": "Memindahkan area berburu",
+      "B": "Mengendalikan bar",
+      "C": "Menggunakan bar sebagai kedok"
+    }
+  },
+  "vampire_089": {
+    "title": "Penjaga museum",
+    "body": "Dia mengambil foto dan mengirimkannya ke teman yang fanatik. Orang fanatik sering berakhir jadi pemburu.",
+    "choices": {
+      "A": "Membayarnya agar diam",
+      "B": "Mengalihkannya dengan jejak palsu",
+      "C": "Mengambil benda itu malam ini"
+    }
+  },
+  "vampire_090": {
+    "title": "Mogok para pelayan",
+    "body": "Para pelayan punya tuntutan. Istana milikmu tiba-tiba terasa seperti perusahaan.",
+    "choices": {
+      "A": "Bernegosiasi dengan tenang",
+      "B": "Menegaskan wewenangmu",
+      "C": "Mengganti seluruh staf"
+    }
+  },
+  "vampire_091": {
+    "title": "Kalung bawang putih",
+    "body": "Manusia menganggapnya lucu. Kamu menganggapnya agresif. Dan baunya mengikutimu seperti hinaan.",
+    "choices": {
+      "A": "Menutup toko itu",
+      "B": "Meluncurkan kampanye yang mengejek",
+      "C": "Mengabaikannya dan mengganti rute"
+    }
+  },
+  "vampire_092": {
+    "title": "Kunci yang hilang",
+    "body": "Kunci perlindungan lama menghilang. Seseorang tahu di mana itu disimpan.",
+    "choices": {
+      "A": "Menginterogasi klan",
+      "B": "Mengganti semua kunci",
+      "C": "Menjebak peti"
+    }
+  },
+  "vampire_093": {
+    "title": "Janji temu dengan notaris",
+    "body": "Notaris terlalu suka detail. Detail selalu mengancam rahasia.",
+    "choices": {
+      "A": "Datang sendiri",
+      "B": "Mengirim ahli waris palsu",
+      "C": "Membuat janji temunya ditunda"
+    }
+  },
+  "vampire_094": {
+    "title": "Gigitan di tempat umum",
+    "body": "Katanya dia terbawa suasana. Suasana itu sekarang berubah jadi penyelidikan.",
+    "choices": {
+      "A": "Membersihkan dan menutupinya",
+      "B": "Menghukum si muda di depan semua orang",
+      "C": "Menyalahkan narkoba"
+    }
+  },
+  "vampire_095": {
+    "title": "Darah dengan rasa aneh",
+    "body": "Bahkan para makhluk abadi menolak darah ini. Jadi masalahnya serius.",
+    "choices": {
+      "A": "Mengganti pemasok",
+      "B": "Menguji stok",
+      "C": "Menegakkan disiplin"
+    }
+  },
+  "vampire_096": {
+    "title": "Dokumenter palsu",
+    "body": "Mereka bicara soal terowongan dan orang hilang. Detailnya salah, idenya tidak.",
+    "choices": {
+      "A": "Menyuruh episode itu ditarik",
+      "B": "Membeli produksinya",
+      "C": "Menenggelamkan urusan ini dalam olok-olok"
+    }
+  },
+  "vampire_097": {
+    "title": "Parfum matahari",
+    "body": "Manusia memakainya dengan senang hati. Kamu merasa keabadianmu baru saja kehilangan sedikit kenyamanan.",
+    "choices": {
+      "A": "Mengidentifikasi bahannya",
+      "B": "Melarang pemakaiannya dekat sarang",
+      "C": "Memindahkan area berburu"
+    }
+  },
+  "vampire_098": {
+    "title": "Cincin sumpah",
+    "body": "Cincin ini tidak pernah kembali tanpa alasan. Ia menandakan janji, atau ancaman. Kadang keduanya.",
+    "choices": {
+      "A": "Menyegelnya",
+      "B": "Memakainya",
+      "C": "Mencari siapa yang meletakkannya"
+    }
+  },
+  "vampire_099": {
+    "title": "Tetangga tukang kebun",
+    "body": "Dia baik, ramah, dan sangat menyukai sekop kecil. Semua yang paling kamu benci saat ini.",
+    "choices": {
+      "A": "Mengalihkannya dengan hadiah",
+      "B": "Mengubah pintu masuk rahasia",
+      "C": "Membuatnya pindah"
+    }
+  },
+  "vampire_100": {
+    "title": "Sunyi di radio",
+    "body": "Saat seorang vampir menghilang, itu tidak pernah kebetulan. Entah jebakan, entah pengkhianatan. Atau keduanya.",
+    "choices": {
+      "A": "Mengirim tim",
+      "B": "Menunggu dan mengamati",
+      "C": "Menganggap yang terburuk dan membalas"
+    }
+  },
+  "vampire_101": {
+    "title": "Pasar barang antik",
+    "body": "Penjual bilang benda itu berasal dari ruang bawah tanah. Tentu saja. Ruang bawah tanah selalu enak dijadikan alasan.",
+    "choices": {
+      "A": "Membelinya diam-diam",
+      "B": "Mencurinya malam ini",
+      "C": "Menjebak penjualnya"
+    }
+  },
+  "vampire_102": {
+    "title": "Kaum Rahasia ingin logo",
+    "body": "Mereka ingin identitas yang terlihat. Kamu justru ingin mereka tetap tidak terlihat.",
+    "choices": {
+      "A": "Memberi simbol sederhana",
+      "B": "Menolak dan menenangkan",
+      "C": "Membuat simbol palsu yang berjebak"
+    }
+  },
+  "vampire_103": {
+    "title": "Juru kamera yang insomnia",
+    "body": "Dia suka bayangan, gang, siluet. Dia tinggal selangkah lagi dari merekam siluet yang salah.",
+    "choices": {
+      "A": "Meyakinkannya untuk berhenti",
+      "B": "Menyabotase peralatannya",
+      "C": "Menggunakan rekamannya sebagai kedok"
+    }
+  },
+  "vampire_104": {
+    "title": "Kode baru klan",
+    "body": "Rapatnya terasa abadi. Ironis, karena kalian memang punya keabadian.",
+    "choices": {
+      "A": "Menyetujui para sesepuh",
+      "B": "Memodernisasi perlahan",
+      "C": "Memaksakan kompromi"
+    }
+  },
+  "vampire_105": {
+    "title": "Keluhan lingkungan",
+    "body": "Sebuah petisi beredar. Manusia ketakutan. Tatapan mulai mengarah kepadamu.",
+    "choices": {
+      "A": "Menenangkan lingkungan",
+      "B": "Menakuti para tetangga",
+      "C": "Mengganti sarang"
+    }
+  },
+  "vampire_106": {
+    "title": "Ponsel yang tertinggal",
+    "body": "Ponsel itu berisi foto dan pesan. Ancaman nyata bagi rahasia.",
+    "choices": {
+      "A": "Cepat ambil ponselnya kembali",
+      "B": "Menghancurkannya",
+      "C": "Menyelidikinya dan mengawasi"
+    }
+  },
+  "vampire_107": {
+    "title": "Kantong darah bocor",
+    "body": "Jejak merah seperti benang Ariadne. Hanya saja labirinmu punya taring.",
+    "choices": {
+      "A": "Mengikuti jejaknya",
+      "B": "Menghukum semua orang",
+      "C": "Memasang pemeriksaan"
+    }
+  },
+  "vampire_108": {
+    "title": "Kunjungan mendadak",
+    "body": "Dia tersenyum seperti raja yang sedang berkunjung. Dia melihat sarangmu seolah semuanya sudah miliknya.",
+    "choices": {
+      "A": "Menyambutnya dengan hormat",
+      "B": "Membiarkannya menunggu di luar",
+      "C": "Menyiapkan jebakan yang sopan"
+    }
+  },
+  "vampire_109": {
+    "title": "Pemburu terluka",
+    "body": "Dia berdarah, gemetar, tapi kebenciannya tetap utuh. Hewan terluka menggigit lebih keras.",
+    "choices": {
+      "A": "Menangkapnya",
+      "B": "Mengobatinya untuk bernegosiasi",
+      "C": "Menyerahkannya pada saingan"
+    }
+  },
+  "vampire_110": {
+    "title": "Kunci rusak",
+    "body": "Pintu yang terbuka adalah undangan. Dan kamu tidak suka tamu.",
+    "choices": {
+      "A": "Memperbaikinya segera",
+      "B": "Menempatkan penjaga",
+      "C": "Menutup area itu"
+    }
+  },
+  "vampire_111": {
+    "title": "Aroma kebohongan",
+    "body": "Kebohongan punya bau. Kamu terlalu mengenalnya. Pertanyaannya, kenapa dia berbohong sekarang.",
+    "choices": {
+      "A": "Menghadapinya",
+      "B": "Menguji diam-diam",
+      "C": "Membiarkannya bicara lalu menjebaknya"
+    }
+  },
+  "vampire_112": {
+    "title": "Rumor obat",
+    "body": "Sebuah obat membuat sebagian bermimpi dan yang lain panik. Para pemburu sudah mengawasi.",
+    "choices": {
+      "A": "Mencari obat itu",
+      "B": "Menghancurkan rumor",
+      "C": "Menggunakannya untuk memanipulasi"
+    }
+  },
+  "vampire_113": {
+    "title": "Bus malam",
+    "body": "Setiap malam, jendela penuh mata. Mata-mata itu melihat. Suatu hari, mereka akan benar-benar melihat.",
+    "choices": {
+      "A": "Menyuruh rutenya diubah",
+      "B": "Menyamarkan pintu masuk",
+      "C": "Memanfaatkan bus itu"
+    }
+  },
+  "vampire_114": {
+    "title": "Pelayan yang terlalu cerewet",
+    "body": "Dia bilang kamu misterius. Dia meniru cara jalanmu. Dia menambahkan detail. Detail itu seperti pisau.",
+    "choices": {
+      "A": "Menegurnya dengan lembut",
+      "B": "Memecatnya",
+      "C": "Menjadikannya umpan"
+    }
+  },
+  "vampire_115": {
+    "title": "Paket anonim",
+    "body": "Paket itu tidak berbau manusia. Baunya tua. Dan terlalu mudah sampai kepadamu.",
+    "choices": {
+      "A": "Membukanya dengan hati-hati",
+      "B": "Membakarnya",
+      "C": "Memberikannya untuk dianalisis"
+    }
+  },
+  "vampire_116": {
+    "title": "Rapat para pemburu",
+    "body": "Mereka bahkan tidak bersembunyi. Saat musuh jadi percaya diri, berarti dia sedang menyiapkan sesuatu.",
+    "choices": {
+      "A": "Menyusup ke rapat",
+      "B": "Menyerang lebih dulu",
+      "C": "Memindahkan seluruh klan"
+    }
+  },
+  "vampire_117": {
+    "title": "Musisi malam",
+    "body": "Dia bermain terlalu bagus. Seolah ingin menarik seseorang. Pertanyaannya, siapa.",
+    "choices": {
+      "A": "Menyuruhnya pergi",
+      "B": "Merekrutnya",
+      "C": "Membiarkannya dan mengamati"
+    }
+  },
+  "vampire_118": {
+    "title": "Peta yang hilang",
+    "body": "Seorang pengikut setia bilang dia menemukannya secara kebetulan. Kebetulan punya selera humor, tapi kamu tidak.",
+    "choices": {
+      "A": "Mengambil peta itu",
+      "B": "Mengubah terowongan",
+      "C": "Membuat orang percaya pada peta palsu"
+    }
+  },
+  "vampire_119": {
+    "title": "Darah langka",
+    "body": "Klan bertengkar seperti anak-anak. Bedanya, anak-anak tidak punya taring dan dendam seabad.",
+    "choices": {
+      "A": "Menyimpannya untuk dewan",
+      "B": "Membaginya dengan adil",
+      "C": "Menyimpannya untuk dirimu sendiri"
+    }
+  },
+  "vampire_120": {
+    "title": "Ruangan terlarang",
+    "body": "Dia pucat, bahkan untuk ukuran vampir. Katanya dia mendengar hembusan napas di balik dinding.",
+    "choices": {
+      "A": "Menghukumnya",
+      "B": "Mendengarkannya dan menyelidiki",
+      "C": "Membuatnya lupa"
+    }
+  },
+  "vampire_121": {
+    "title": "Kontrak keamanan",
+    "body": "Lebih banyak kamera berarti lebih banyak bukti. Tapi mengendalikan kamera berarti mengendalikan cerita.",
+    "choices": {
+      "A": "Menolak dan menyabotase",
+      "B": "Menerima dan mengendalikan",
+      "C": "Membeli perusahaan itu"
+    }
+  },
+  "vampire_122": {
+    "title": "Aroma mawar",
+    "body": "Kamu harus diam seharian di dalam peti pengangkut. Itu benar-benar cobaan.",
+    "choices": {
+      "A": "Menyuruh semua mawar dicabut",
+      "B": "Melindungi diri dan beradaptasi",
+      "C": "Mengubah pintu masuk rahasia"
+    }
+  },
+  "vampire_123": {
+    "title": "Pelukis yang terobsesi",
+    "body": "Katanya tatapanmu unik. Dia ingin melukismu dalam cahaya. Ide buruk.",
+    "choices": {
+      "A": "Menolak dengan tegas",
+      "B": "Menerima tapi mengendalikan",
+      "C": "Menyuruhnya pergi dari lingkungan itu"
+    }
+  },
+  "vampire_124": {
+    "title": "Utang Kaum Rahasia",
+    "body": "Mereka pernah membantu sekali. Sekarang mereka merasa tak tersentuh.",
+    "choices": {
+      "A": "Membayar dengan sumbangan",
+      "B": "Memberi satu hak istimewa",
+      "C": "Menolak dan menenangkan"
+    }
+  },
+  "vampire_125": {
+    "title": "Pengawal manusia",
+    "body": "Dia setia, cakap, dan terlalu penasaran. Tiga kualitas yang biasanya berakhir buruk jika digabung.",
+    "choices": {
+      "A": "Mempertahankannya tapi membatasi",
+      "B": "Memecatnya",
+      "C": "Menjadikannya sekutu"
+    }
+  },
+  "vampire_126": {
+    "title": "Lampu yang terlalu terang",
+    "body": "Sebuah lampu sederhana mengubah segalanya. Manusia menyukai cahaya. Kamu harus menanggungnya.",
+    "choices": {
+      "A": "Menyuruh lampu itu dilepas",
+      "B": "Menyamarkan jalurnya",
+      "C": "Memakai bayangan di tempat lain"
+    }
+  },
+  "vampire_127": {
+    "title": "Peti yang berderit",
+    "body": "Peti itu tidak pernah bersuara. Sekarang ia mengerang. Arsip-arsip punya rasa rahasia.",
+    "choices": {
+      "A": "Membukanya dan memeriksa",
+      "B": "Menyegelnya",
+      "C": "Memanggil seorang sesepuh"
+    }
+  },
+  "vampire_128": {
+    "title": "Kejar-kejaran",
+    "body": "Mesin meraung, lampu depan menempel, dan ketenanganmu mulai retak. Seseorang ingin memaksamu membuat kesalahan.",
+    "choices": {
+      "A": "Lepas dari mobil itu",
+      "B": "Menjebak pengemudinya",
+      "C": "Kembali ke sarang lewat jalan memutar"
+    }
+  },
+  "vampire_129": {
+    "title": "Kantin klan",
+    "body": "Mereka menginginkan keteraturan dan kenyamanan. Kamu menginginkan rahasia dan kendali.",
+    "choices": {
+      "A": "Membuat kantin",
+      "B": "Menolak dan memaksakan perburuan",
+      "C": "Membuat sistem kupon"
+    }
+  },
+  "vampire_130": {
+    "title": "Khotbah ketakutan",
+    "body": "Semakin keras dia berteriak, semakin orang mendengarkan. Semakin orang mendengarkan, semakin banyak telinga buruk datang.",
+    "choices": {
+      "A": "Membungkamnya",
+      "B": "Menegurnya dengan lembut",
+      "C": "Memakai ketakutannya sebagai layar"
+    }
+  },
+  "vampire_131": {
+    "title": "Rencana si saingan",
+    "body": "Dia tidak memukulmu, dia mengepungmu. Lebih lambat, tapi lebih kejam.",
+    "choices": {
+      "A": "Membeli lebih cepat darinya",
+      "B": "Menegosiasikan perbatasan",
+      "C": "Menyabotase pembeliannya"
+    }
+  },
+  "vampire_132": {
+    "title": "Hujan asam",
+    "body": "Ini bukan matahari. Ini sesuatu yang lain. Dan sesuatu yang lain sering berarti jebakan.",
+    "choices": {
+      "A": "Tetap di sarang",
+      "B": "Mencari sumbernya",
+      "C": "Mengirim pengintai"
+    }
+  },
+  "vampire_133": {
+    "title": "Perjanjian apotek",
+    "body": "Beberapa apotek ingin mengaitkan citramu dengan kampanye mereka. Mereka meminta foto, wawancara, dan kehadiran publik.",
+    "choices": {
+      "A": "Menerima demi kendali",
+      "B": "Menolak dan tetap diam-diam",
+      "C": "Menerima tapi lewat layar"
+    }
+  },
+  "vampire_134": {
+    "title": "Vampir vegetarian",
+    "body": "Dia bicara soal moral dan damai. Para sesepuh bicara soal kelemahan. Kamu bicara soal kestabilan.",
+    "choices": {
+      "A": "Mendukungnya",
+      "B": "Mengasingkannya",
+      "C": "Mengawasinya"
+    }
+  },
+  "vampire_135": {
+    "title": "Gembok perak",
+    "body": "Perak itu menyengat hanya dari melihatnya. Seseorang ingin memperlambatmu, bukan membunuhmu. Belum.",
+    "choices": {
+      "A": "Menghancurkannya",
+      "B": "Menyuruh menganalisisnya",
+      "C": "Mencari jalan lain ke pintu"
+    }
+  },
+  "vampire_136": {
+    "title": "Kebocoran air",
+    "body": "Air menarik para pekerja. Para pekerja terlalu banyak bertanya.",
+    "choices": {
+      "A": "Cepat memperbaiki",
+      "B": "Menutup ruangan",
+      "C": "Memindahkan isinya"
+    }
+  },
+  "vampire_137": {
+    "title": "Kereta terakhir",
+    "body": "Satu jam saja mengubah perburuan, perjalanan, dan waktu. Dan hidupmu bergantung pada waktu.",
+    "choices": {
+      "A": "Mengubah rute",
+      "B": "Membuat jalur baru",
+      "C": "Mengendalikan stasiun"
+    }
+  },
+  "vampire_138": {
+    "title": "Kaca pecah",
+    "body": "Kaca pecah berarti jalan masuk. Atau pesan. Dan kamu tidak suka keduanya.",
+    "choices": {
+      "A": "Menginterogasi semua orang",
+      "B": "Memperkuat keamanan",
+      "C": "Menyalahkan musuh"
+    }
+  },
+  "vampire_139": {
+    "title": "Anak magang berjubah putih",
+    "body": "Dia muda, cerdas, dan termotivasi. Jenis orang terburuk saat kamu ingin tetap tersembunyi.",
+    "choices": {
+      "A": "Merekrutnya",
+      "B": "Membungkamnya",
+      "C": "Mengganti jalur"
+    }
+  },
+  "vampire_140": {
+    "title": "Surat beraroma",
+    "body": "Aroma ini bukan manusia. Ini mengingatkanmu pada masa ketika kamu kurang kuat. Jadi lebih hati-hati.",
+    "choices": {
+      "A": "Membakarnya",
+      "B": "Membacanya dengan perlindungan",
+      "C": "Menyerahkannya pada Kaum Rahasia"
+    }
+  },
+  "vampire_141": {
+    "title": "Topeng karnaval",
+    "body": "Untuk sekali ini, kamu bisa berjalan tanpa menarik perhatian. Dan itu membuat para pemburu gelisah.",
+    "choices": {
+      "A": "Memanfaatkan kekacauan",
+      "B": "Menutup sarang",
+      "C": "Mengendalikan jalan-jalan"
+    }
+  },
+  "vampire_142": {
+    "title": "Penjaga yang tersenyum",
+    "body": "Dia tidak mundur. Dia memberi isyarat padamu. Dia tahu. Atau dia sedang bermain. Dua-duanya berbahaya.",
+    "choices": {
+      "A": "Mengintimidasinya",
+      "B": "Mengikutinya diam-diam",
+      "C": "Mengubah rencana"
+    }
+  },
+  "vampire_143": {
+    "title": "Gudang bawah tanah yang disegel",
+    "body": "Papan, pita, gembok. Manusia suka menutup pintu. Kamu suka membukanya lagi.",
+    "choices": {
+      "A": "Menyuap pemeriksa",
+      "B": "Membuka akses lain",
+      "C": "Membuka paksa akses pada malam hari"
+    }
+  },
+  "vampire_144": {
+    "title": "Perjanjian diam",
+    "body": "Dia takut dan bisa saja bicara. Kamu harus memilih risiko mana yang akan diambil.",
+    "choices": {
+      "A": "Menerima dan melindungi",
+      "B": "Menolak dan mengawasinya",
+      "C": "Menggantinya"
+    }
+  },
+  "vampire_145": {
+    "title": "Debu suci",
+    "body": "Ini bukan serangan langsung. Ini ujian. Seseorang sedang mengukur reaksimu.",
+    "choices": {
+      "A": "Membersihkan dan menyelidiki",
+      "B": "Melakukan ritual perlindungan",
+      "C": "Membalas dengan peringatan"
+    }
+  },
+  "vampire_146": {
+    "title": "Jamuan wajib",
+    "body": "Jamuan memberi kekuasaan, tapi juga membuka kelemahanmu.",
+    "choices": {
+      "A": "Mengadakan jamuan besar",
+      "B": "Menolak dan menanggung akibatnya",
+      "C": "Membuat jamuan diam-diam"
+    }
+  },
+  "vampire_147": {
+    "title": "Pencuri dana",
+    "body": "Uang tidak berbau darah, tapi bisa membuat air mata mengalir. Dan air mata vampir itu langka.",
+    "choices": {
+      "A": "Mengaudit rekening",
+      "B": "Menjebak kas",
+      "C": "Menyalahkan saingan"
+    }
+  },
+  "vampire_148": {
+    "title": "Jurnalis malam",
+    "body": "Dia suka kisah gelap. Lambat laun dia akan menulis kisah yang nyata. Tentangmu.",
+    "choices": {
+      "A": "Menyuapnya",
+      "B": "Mengalihkannya",
+      "C": "Membungkamnya"
+    }
+  },
+  "vampire_149": {
+    "title": "Lilin yang tak padam",
+    "body": "Apinya menari seolah menatapmu. Api yang menatap jarang membawa kebaikan.",
+    "choices": {
+      "A": "Memadamkannya dengan paksa",
+      "B": "Memahami ritualnya",
+      "C": "Menyegel ruangan"
+    }
+  },
+  "vampire_150": {
+    "title": "Anjing yang menggeram",
+    "body": "Seekor anjing bisa membangunkan seluruh gedung. Dan manusia cepat bangun saat seekor anjing panik.",
+    "choices": {
+      "A": "Menghindari area itu",
+      "B": "Menjinakkan anjing itu",
+      "C": "Menakut-nakuti pemiliknya"
+    }
+  },
+  "vampire_151": {
+    "title": "Cermin saku",
+    "body": "Di cermin ini, kamu tidak ada. Itu menghibur sebagian orang. Kamu tahu itu justru menarik rasa penasaran.",
+    "choices": {
+      "A": "Menghancurkannya",
+      "B": "Menyimpannya sebagai petunjuk",
+      "C": "Mencari pemiliknya"
+    }
+  },
+  "vampire_152": {
+    "title": "Pintu yang mengetuk",
+    "body": "Tiga ketukan, selalu pada jam yang sama. Rutinitas adalah ancaman saat datang dari musuh.",
+    "choices": {
+      "A": "Membuka dan menghadapi",
+      "B": "Menjebak pintu masuk",
+      "C": "Mengabaikan dan mengawasi"
+    }
+  },
+  "vampire_153": {
+    "title": "Sumpah si muda",
+    "body": "Dia ingin berbuat baik. Dia ingin berguna. Vampir yang terlalu terburu-buru sering membuat kesalahan yang terlihat.",
+    "choices": {
+      "A": "Menerima sumpahnya",
+      "B": "Menundanya",
+      "C": "Menguji dia lebih dulu"
+    }
+  },
+  "vampire_154": {
+    "title": "Suntikan aneh",
+    "body": "Seseorang punya senjata yang bisa melukaimu. Bukan membunuhmu, belum. Tapi cukup untuk membuatmu ragu.",
+    "choices": {
+      "A": "Mencari penawarnya",
+      "B": "Mengisolasi vampir itu",
+      "C": "Memburu pelakunya"
+    }
+  },
+  "vampire_155": {
+    "title": "Pesta tetangga",
+    "body": "Musik, tawa, gelas pecah. Dan kamu harus lewat di bawah kaki mereka seperti rahasia yang gelisah.",
+    "choices": {
+      "A": "Menghentikan pesta",
+      "B": "Menunggu sampai selesai",
+      "C": "Membuat pengalihan di tempat lain"
+    }
+  },
+  "vampire_156": {
+    "title": "Suara di bawah batu",
+    "body": "Goresan, napas, hening. Tiga tahap dari masalah yang sedang tumbuh.",
+    "choices": {
+      "A": "Membuka dan melihat",
+      "B": "Menyegel dan melupakan",
+      "C": "Mengirim pengintai"
+    }
+  },
+  "vampire_157": {
+    "title": "Penasihat yang korup",
+    "body": "Dia sadar kamu punya rahasia. Manusia jadi berani saat mencium uang.",
+    "choices": {
+      "A": "Membayar dan mengontrol",
+      "B": "Menggantinya",
+      "C": "Menghancurkannya secara politik"
+    }
+  },
+  "vampire_158": {
+    "title": "Perburuan yang berlebihan",
+    "body": "Wilayah tanpa manusia hanyalah kuburan. Kamu tidak ingin berkuasa atas kuburan kosong.",
+    "choices": {
+      "A": "Memperlambat perburuan",
+      "B": "Mengganti wilayah",
+      "C": "Mendatangkan manusia dengan janji"
+    }
+  },
+  "vampire_159": {
+    "title": "Buku terlarang kembali",
+    "body": "Seseorang ingin kamu membaca ini. Itu tidak pernah jadi pertanda baik.",
+    "choices": {
+      "A": "Membaca halamannya",
+      "B": "Membakar bukunya",
+      "C": "Mencari siapa yang menaruhnya"
+    }
+  },
+  "vampire_160": {
+    "title": "Ruang dingin",
+    "body": "Dinginnya tidak normal. Ia menggigit batu, mematikan api, dan membungkam para pelayan.",
+    "choices": {
+      "A": "Memutus listrik",
+      "B": "Menyelidiki sumbernya",
+      "C": "Memindahkan stok"
+    }
+  },
+  "vampire_161": {
+    "title": "Duel yang diminta",
+    "body": "Dia ingin menantangmu di depan semua orang. Duel selalu menarik terlalu banyak tatapan.",
+    "choices": {
+      "A": "Menerima duel",
+      "B": "Menolak dan menghukum",
+      "C": "Mengalihkan duel menjadi ujian"
+    }
+  },
+  "vampire_162": {
+    "title": "Bom media",
+    "body": "Lingkaran merah itu membidik wajahmu. Kamu tahu lingkaran merah berikutnya akan membidik sarangmu.",
+    "choices": {
+      "A": "Menghapus sumbernya",
+      "B": "Menciptakan skandal palsu di tempat lain",
+      "C": "Mengakui identitas publik"
+    }
+  },
+  "vampire_163": {
+    "title": "Perjanjian sang dokter",
+    "body": "Dia tidak takut. Dia ingin kontrak. Kontrak di duniamu jarang berakhir di pengadilan.",
+    "choices": {
+      "A": "Menerima dan mengawasi",
+      "B": "Menolak dan menghapus jejak",
+      "C": "Merekrutnya untuk jangka panjang"
+    }
+  },
+  "vampire_164": {
+    "title": "Pintu bersimbol",
+    "body": "Simbol ini tidak ada kemarin. Seseorang telah masuk sampai sini. Atau sesuatu.",
+    "choices": {
+      "A": "Mengikis dan menghapusnya",
+      "B": "Mempelajari simbol itu",
+      "C": "Menyegel pintu"
+    }
+  },
+  "vampire_165": {
+    "title": "Perkelahian di dewan",
+    "body": "Sebuah kursi terlempar, jubah robek, seorang sesepuh menghina yang muda. Kekuasaan terlihat saat segalanya kacau.",
+    "choices": {
+      "A": "Menghentikannya dengan wibawa",
+      "B": "Membiarkannya dan mengamati kesetiaan",
+      "C": "Menyuruh semua orang keluar"
+    }
+  },
+  "vampire_166": {
+    "title": "Nabi palsu",
+    "body": "Semakin dia berbicara, semakin berbahaya dia. Bukan langsung untukmu, tapi untuk kerahasiaanmu.",
+    "choices": {
+      "A": "Mendukung dan mengendalikannya",
+      "B": "Membungkamnya",
+      "C": "Mempermalukannya di depan umum"
+    }
+  },
+  "vampire_167": {
+    "title": "Jebakan garam",
+    "body": "Sederhana, efektif, memalukan. Tidak seharusnya seorang lord terjebak oleh garam. Tapi ternyata bisa.",
+    "choices": {
+      "A": "Menjinakkan jebakan dan mengikuti pelakunya",
+      "B": "Mengganti terowongan",
+      "C": "Menjebak jebakannya"
+    }
+  },
+  "vampire_168": {
+    "title": "Serbuk perak",
+    "body": "Kamu batuk, mundur, marah. Dan musuh mengandalkan kemarahanmu untuk memancingmu keluar.",
+    "choices": {
+      "A": "Menutup sarang",
+      "B": "Memburu para penyusup",
+      "C": "Mengevakuasi klan"
+    }
+  },
+  "vampire_169": {
+    "title": "Makan malam diplomatik",
+    "body": "Jamuan makan adalah jebakan berdasi. Tapi kadang jebakan memberi informasi berharga.",
+    "choices": {
+      "A": "Menerima dan bersiap",
+      "B": "Menolak dan memperkuat pertahanan",
+      "C": "Mengirim utusan"
+    }
+  },
+  "vampire_170": {
+    "title": "Si pembisik",
+    "body": "Dia tidak lari. Dia berbisik. Dan bayangan hampir menjawab. Hal seperti itu tidak pernah gratis.",
+    "choices": {
+      "A": "Mendekatinya dengan lembut",
+      "B": "Menjauhkannya dengan rasa takut",
+      "C": "Mengawasinya"
+    }
+  },
+  "vampire_171": {
+    "title": "Rencana evakuasi",
+    "body": "Pasukan tanpa rencana lari dengan buruk. Klan tanpa rencana cepat panik. Dan kepanikan meninggalkan jejak.",
+    "choices": {
+      "A": "Membuat rencana ketat",
+      "B": "Membuat rencana fleksibel",
+      "C": "Menolak dan memaksakan disiplin"
+    }
+  },
+  "vampire_172": {
+    "title": "Terowongan runtuh",
+    "body": "Batu-batu jatuh seperti gigi. Dan di balik batu, kadang ada sesuatu yang menunggu.",
+    "choices": {
+      "A": "Segera membersihkannya",
+      "B": "Menggali jalan memutar",
+      "C": "Meninggalkan jalur itu"
+    }
+  },
+  "vampire_173": {
+    "title": "Nyanyian terlarang",
+    "body": "Nyanyian itu mengingatkanmu pada masa ketika klan takut pada dinding mereka sendiri. Dan kamu tidak suka ketakutan.",
+    "choices": {
+      "A": "Melarang semua upacara",
+      "B": "Mencari asalnya",
+      "C": "Membalas dengan ritual tandingan"
+    }
+  },
+  "vampire_174": {
+    "title": "Koleksi taring",
+    "body": "Taring di etalase itu konyol. Tapi jika beberapa asli, berarti ada kebocoran dari klanmu.",
+    "choices": {
+      "A": "Menyuruhnya ditangkap",
+      "B": "Membeli seluruh koleksi",
+      "C": "Mengawasinya untuk menelusuri sumbernya"
+    }
+  },
+  "vampire_175": {
+    "title": "Alarm palsu",
+    "body": "Alarm membangunkan saraf, bukan vampir. Tapi itu menarik manusia, dan itu lebih buruk.",
+    "choices": {
+      "A": "Mematikan alarm dan menyelidiki",
+      "B": "Mengevakuasi klan",
+      "C": "Mencari sabotase teknis"
+    }
+  },
+  "vampire_176": {
+    "title": "Pasar identitas",
+    "body": "Identitas adalah topengmu. Jika seseorang menjual topengmu, dia juga menjual wajahmu.",
+    "choices": {
+      "A": "Membayar untuk mengambilnya kembali",
+      "B": "Memburu peretasnya",
+      "C": "Mengganti identitas"
+    }
+  },
+  "vampire_177": {
+    "title": "Jamuan Kaum Rahasia",
+    "body": "Mereka sudah menghias, bernyanyi, berdoa, dan memasak. Niatnya baik. Akhirnya sering jadi drama.",
+    "choices": {
+      "A": "Menolak dengan sopan",
+      "B": "Menerima dan memainkan peran",
+      "C": "Mengirim pengganti"
+    }
+  },
+  "vampire_178": {
+    "title": "Pemburu tak terlihat",
+    "body": "Tak ada suara, tak ada bau, tak ada saksi. Seseorang yang sangat serius sedang bermain melawanmu.",
+    "choices": {
+      "A": "Memasang jebakan",
+      "B": "Memperkuat patroli",
+      "C": "Mengubah ritme"
+    }
+  },
+  "vampire_179": {
+    "title": "Botol mencurigakan",
+    "body": "Itu bukan stokmu. Berarti ini provokasi, jebakan, atau upaya menuduhmu.",
+    "choices": {
+      "A": "Menyitanya dan menganalisisnya",
+      "B": "Menghancurkannya",
+      "C": "Menggunakannya sebagai umpan"
+    }
+  },
+  "vampire_180": {
+    "title": "Rencana renovasi",
+    "body": "Para pekerja, lampu, denah, dan jadwal. Semua yang tidak bisa kamu gigit.",
+    "choices": {
+      "A": "Membatalkan pekerjaan itu",
+      "B": "Memindahkan akses",
+      "C": "Menyusup ke proyek"
+    }
+  },
+  "vampire_181": {
+    "title": "Perjanjian para muda",
+    "body": "Mereka ingin otonomi. Kamu menginginkan ketertiban. Otonomi tanpa ketertiban adalah kehancuran.",
+    "choices": {
+      "A": "Membubarkan kelompok itu",
+      "B": "Mengintegrasikan ide mereka",
+      "C": "Menyusup dan mengawasi"
+    }
+  },
+  "vampire_182": {
+    "title": "Kostum yang terlalu modern",
+    "body": "Kostumnya indah, tapi membuatmu terlihat. Kamu ingin dihormati, bukan diperhatikan.",
+    "choices": {
+      "A": "Menerima dan mencobanya",
+      "B": "Menolak karena harga diri",
+      "C": "Menyuruh orang lain memakainya"
+    }
+  },
+  "vampire_183": {
+    "title": "Kotak terkunci",
+    "body": "Kotaknya berat dan sunyi. Keheningan itu terasa seperti ancaman.",
+    "choices": {
+      "A": "Membuka paksa",
+      "B": "Menyegelnya",
+      "C": "Mencari pengirimnya"
+    }
+  },
+  "vampire_184": {
+    "title": "Patung yang pecah",
+    "body": "Batu itu pecah tanpa puing. Sebuah kehadiran kuno tampaknya mulai bangun.",
+    "choices": {
+      "A": "Memperbaiki dan memurnikannya",
+      "B": "Menyelidiki penyebabnya",
+      "C": "Menyalahkan musuh dan membalas"
+    }
+  },
+  "vampire_185": {
+    "title": "Pengiriman malam terlambat",
+    "body": "Kurir menghilang bersama petimu. Darahnya juga.",
+    "choices": {
+      "A": "Melancarkan perburuan cepat",
+      "B": "Membayar kurir kedua",
+      "C": "Bertahan dengan stok klan"
+    }
+  },
+  "vampire_186": {
+    "title": "Aplikasi anti vampir",
+    "body": "Sebuah aplikasi berjanji bisa mendeteksi vampir. Ia mengincarmu lewat notifikasi.",
+    "choices": {
+      "A": "Menyusup ke para pengembang",
+      "B": "Membuat pembaruan palsu",
+      "C": "Mengubah kebiasaanmu"
+    }
+  },
+  "vampire_187": {
+    "title": "Peti mati ergonomis",
+    "body": "Seorang pengrajin menawarkan peti mati yang nyaman. Klan ingin mencobanya sebelum kamu.",
+    "choices": {
+      "A": "Memaksakan hak istimewamu",
+      "B": "Mengadakan demo yang terkontrol",
+      "C": "Menolak dan mempertahankan yang lama"
+    }
+  },
+  "vampire_188": {
+    "title": "Kebocoran di kripta",
+    "body": "Air menetes ke cadangan. Bahkan vampir pun tidak suka bau apek.",
+    "choices": {
+      "A": "Segera memperbaiki semuanya",
+      "B": "Memindahkan cadangan",
+      "C": "Menyalahkan saingan"
+    }
+  },
+  "vampire_189": {
+    "title": "Pemburu dengan walkie-talkie",
+    "body": "Kamu mendengar radio di luar. Para pemburu sedang menyisir lingkungan.",
+    "choices": {
+      "A": "Menjebak tim mereka",
+      "B": "Merendah dan berdiam diri",
+      "C": "Memindahkan sarang"
+    }
+  },
+  "vampire_190": {
+    "title": "Pesta dadakan Kaum Rahasia",
+    "body": "Kaum Rahasia mengadakan pesta untuk menghormatimu. Dengan poster dan asap warna.",
+    "choices": {
+      "A": "Membatalkannya dengan tegas",
+      "B": "Mengaturnya dan mengamankannya",
+      "C": "Menggunakannya sebagai pengalihan"
+    }
+  },
+  "vampire_191": {
+    "title": "Bank yang curiga",
+    "body": "Rekeningmu mulai menarik perhatian. Terlalu banyak belanja malam dan terlalu sedikit matahari.",
+    "choices": {
+      "A": "Mengirim manajer palsu",
+      "B": "Mengganti identitas",
+      "C": "Beralih ke uang tunai"
+    }
+  },
+  "vampire_192": {
+    "title": "Rekrutan baru yang terlalu bersemangat",
+    "body": "Vampir muda ingin berburu tiap malam. Dia ribut dan membuat story.",
+    "choices": {
+      "A": "Menenangkannya dengan keras",
+      "B": "Melatihnya dengan benar",
+      "C": "Menugaskannya ke Kaum Rahasia"
+    }
+  },
+  "vampire_193": {
+    "title": "Penjatahan klan",
+    "body": "Klan menginginkan kuota darah. Semua menuduhmu pilih kasih.",
+    "choices": {
+      "A": "Menetapkan aturan yang jelas",
+      "B": "Memberi lebih banyak pada yang setia",
+      "C": "Membiarkan rasa lapar menyeleksi"
+    }
+  },
+  "vampire_194": {
+    "title": "Koran lokal yang penasaran",
+    "body": "Sebuah koran menyelidiki kasus gigitan. Mereka punya wilayah dan tanggal yang tepat.",
+    "choices": {
+      "A": "Membungkam artikelnya",
+      "B": "Mengalihkannya ke arah mitos",
+      "C": "Menyalahkan pemangsa lain"
+    }
+  },
+  "vampire_195": {
+    "title": "Dokter yang terlalu jeli",
+    "body": "Seorang dokter memperhatikan jejak mencurigakan pada beberapa pasien. Dia mulai menghubungkannya.",
+    "choices": {
+      "A": "Merekrutnya dengan paksa",
+      "B": "Meyakinkannya dengan lembut",
+      "C": "Menyuruhnya dipindah jauh"
+    }
+  },
+  "vampire_196": {
+    "title": "Peti Kaum Rahasia kosong",
+    "body": "Peti persembahan kosong. Kaum Rahasia saling bertengkar dan itu mulai terlihat di depan umum.",
+    "choices": {
+      "A": "Mengembalikan uang dan meluruskan keadaan",
+      "B": "Menunjuk seorang yang bertanggung jawab",
+      "C": "Mengabaikannya dan membiarkannya terbakar"
+    }
+  },
+  "vampire_197": {
+    "title": "Tetangga yang merekam",
+    "body": "Seorang tetangga memasang kamera di lorong. Dia menyebutnya keamanan.",
+    "choices": {
+      "A": "Menyabotase kameranya",
+      "B": "Mempesonanya dengan tenang",
+      "C": "Mengganti jalur"
+    }
+  },
+  "vampire_198": {
+    "title": "Parfum bawang putih",
+    "body": "Sebuah tren datang. Semua orang memakai bawang putih sebagai liontin. Sangat modis. Sangat menyebalkan.",
+    "choices": {
+      "A": "Meluncurkan tren tandingan",
+      "B": "Menghindari keramaian",
+      "C": "Menakut-nakuti para influencer"
+    }
+  },
+  "vampire_199": {
+    "title": "Pemadaman listrik",
+    "body": "Listrik di sarang mati. Tanpa alarm, semuanya terlalu mudah bagi para pemburu.",
+    "choices": {
+      "A": "Cepat memperbaiki",
+      "B": "Menempatkan penjaga",
+      "C": "Meninggalkan zona itu"
+    }
+  },
+  "vampire_200": {
+    "title": "Komplotan di dalam klan",
+    "body": "Keponakanmu mengusulkan modernisasi logistik peti mati. Mereka memanggilmu kepala malam.",
+    "choices": {
+      "A": "Menghadapi mereka",
+      "B": "Memecah mereka",
+      "C": "Memberi mereka jabatan palsu"
+    }
+  },
+  "vampire_201": {
+    "title": "Darah oplosan",
+    "body": "Satu kiriman darah mencurigakan. Para vampir meringis, dan itu hal yang jarang.",
+    "choices": {
+      "A": "Membuang kiriman itu",
+      "B": "Mencampurnya dengan yang bagus",
+      "C": "Memberikannya pada Kaum Rahasia"
+    }
+  },
+  "vampire_202": {
+    "title": "Telepon dari wali kota",
+    "body": "Wali kota ingin bertemu denganmu. Dia bicara soal keamanan malam dan pendanaan.",
+    "choices": {
+      "A": "Memanipulasinya",
+      "B": "Mengancamnya dengan sopan",
+      "C": "Menolak mentah-mentah"
+    }
+  },
+  "vampire_203": {
+    "title": "Kaum Rahasia yang terlalu bersemangat",
+    "body": "Kaum Rahasia ingin menato simbolmu. Pada mereka. Pada semua hal. Bahkan di dinding.",
+    "choices": {
+      "A": "Melarang dan menghukum",
+      "B": "Membatasi pada tanda yang samar",
+      "C": "Menggunakannya untuk menandai wilayah"
+    }
+  },
+  "vampire_204": {
+    "title": "Buku terlarang",
+    "body": "Sebuah grimoire dari sarang menghilang. Dan orang terakhir yang menyentuhnya tersenyum terlalu lebar.",
+    "choices": {
+      "A": "Menggeledah seluruh klan",
+      "B": "Menawarkan amnesti",
+      "C": "Meluncurkan kutukan palsu"
+    }
+  },
+  "vampire_205": {
+    "title": "Taksi malam yang cerewet",
+    "body": "Seorang sopir bercerita bahwa dia pernah mendapat penumpang sedingin batu. Kedengarannya seperti dirimu.",
+    "choices": {
+      "A": "Membungkamnya",
+      "B": "Membayarnya untuk berbohong",
+      "C": "Mengubah rute perjalanan"
+    }
+  },
+  "vampire_206": {
+    "title": "Pesta topeng modern",
+    "body": "Sebuah klub mengadakan pesta vampir. Terlalu realistis. Para pemburu juga datang.",
+    "choices": {
+      "A": "Menyusup ke pesta",
+      "B": "Membuat klub itu ditutup",
+      "C": "Mengawasi dari jauh"
+    }
+  },
+  "vampire_207": {
+    "title": "Jaringan terputus",
+    "body": "Tidak ada sinyal di wilayahmu. Klan panik. Kaum Rahasia juga. Pertanda buruk.",
+    "choices": {
+      "A": "Mengirim pengintai",
+      "B": "Tetap bersembunyi",
+      "C": "Menyiapkan pelarian"
+    }
+  },
+  "vampire_208": {
+    "title": "Pendeta yang terlalu penasaran",
+    "body": "Seorang pendeta memberkati pintu-pintu di lingkungan ini. Dia menatapmu terlalu lama.",
+    "choices": {
+      "A": "Mengalihkannya dari area itu",
+      "B": "Merekrutnya lewat Kaum Rahasia",
+      "C": "Membuatnya kehilangan kredibilitas"
+    }
+  },
+  "vampire_209": {
+    "title": "Kostum yang gatal",
+    "body": "Mantel kunomu menarik perhatian. Mode malam sekarang menuntut sesuatu yang biasa.",
+    "choices": {
+      "A": "Menyesuaikan diri dengan gaya modern",
+      "B": "Memaksakan gaya lama",
+      "C": "Tetap tak terlihat"
+    }
+  },
+  "vampire_210": {
+    "title": "Darah di trotoar",
+    "body": "Sebuah adegan gigitan terlihat orang. Para pejalan kaki memotretnya.",
+    "choices": {
+      "A": "Membersihkan dan menghapus jejak",
+      "B": "Menyalahkan hewan",
+      "C": "Menakut-nakuti para saksi"
+    }
+  },
+  "vampire_211": {
+    "title": "Majelis klan",
+    "body": "Klan menuntut pertemuan. Tidak ada yang suka rapat. Tapi semua suka mengeluh.",
+    "choices": {
+      "A": "Mendengarkan lalu memutuskan",
+      "B": "Menundanya lagi",
+      "C": "Membiarkan seorang juru bicara berbicara"
+    }
+  },
+  "vampire_212": {
+    "title": "Tawaran perlindungan",
+    "body": "Sebuah geng manusia menawarkan perlindungan dari para pemburu. Mereka ingin bayaran yang aneh.",
+    "choices": {
+      "A": "Menerima dan mengendalikan",
+      "B": "Menolak dan mengusir mereka",
+      "C": "Memanipulasi mereka tanpa membayar"
+    }
+  },
+  "vampire_213": {
+    "title": "Cermin ruang tamu",
+    "body": "Sebuah cermin antik tiba di sarang. Semua orang ingin memeriksa siapa yang masih punya pantulan.",
+    "choices": {
+      "A": "Menyembunyikan cermin",
+      "B": "Mengadakan tes resmi",
+      "C": "Memecahkan cermin"
+    }
+  },
+  "vampire_214": {
+    "title": "Klinik swasta",
+    "body": "Sebuah klinik menawarkan darah yang sangat mahal. Mereka ingin kerja sama. Mencurigakan dan praktis.",
+    "choices": {
+      "A": "Menandatangani kesepakatan",
+      "B": "Mencuri dari mereka diam-diam",
+      "C": "Mengawasi mereka dulu"
+    }
+  },
+  "vampire_215": {
+    "title": "Saingan baru yang elegan",
+    "body": "Seorang vampir asing datang. Dia sopan. Terlalu sopan. Baunya ambisi.",
+    "choices": {
+      "A": "Menyambut dan membatasinya",
+      "B": "Menguji dia dengan misi",
+      "C": "Mengusirnya dari wilayah"
+    }
+  },
+  "vampire_216": {
+    "title": "Donatur penggemar",
+    "body": "Seorang manusia ingin mendonorkan darahnya. Dia meminta tanda tangan. Di lehernya.",
+    "choices": {
+      "A": "Menolak dan tetap tenang",
+      "B": "Menerima dan mengaturnya",
+      "C": "Menyerahkannya pada Kaum Rahasia"
+    }
+  },
+  "vampire_217": {
+    "title": "Ramuan si sesepuh",
+    "body": "Seorang sesepuh menawarkan ramuan. Katanya itu bisa menenangkan haus. Tak seorang pun percaya padanya.",
+    "choices": {
+      "A": "Mencobanya pada dirimu",
+      "B": "Mencobanya pada sukarelawan",
+      "C": "Membuang ramuannya"
+    }
+  },
+  "vampire_218": {
+    "title": "Perburuan yang terlalu terlihat",
+    "body": "Satu perburuan berubah jadi tontonan. Sirene. Video. Pertunjukan gratis sungguhan.",
+    "choices": {
+      "A": "Menghukum pelakunya",
+      "B": "Menutupi urusan ini",
+      "C": "Menyalahkan para pemburu"
+    }
+  },
+  "vampire_219": {
+    "title": "Pemeriksaan kesehatan",
+    "body": "Pemeriksaan kesehatan datang dekat persembunyianmu. Mereka mencari stok ilegal.",
+    "choices": {
+      "A": "Memindahkan persembunyian",
+      "B": "Menyuap inspektur",
+      "C": "Menyiapkan umpan palsu"
+    }
+  },
+  "vampire_220": {
+    "title": "Nyanyian Kaum Rahasia",
+    "body": "Kaum Rahasia menggubah lagu tentangmu. Lagu itu terus terngiang. Bahkan bagi para makhluk abadi.",
+    "choices": {
+      "A": "Melarang lagu itu",
+      "B": "Menjadikannya resmi",
+      "C": "Mengubahnya menjadi kode rahasia"
+    }
+  },
+
+  "vampire_221": {
+    "title": "Bar malam",
+    "body": "Sebuah bar menjadi wilayah barumu. Tapi pemiliknya terlalu banyak bertanya.",
+    "choices": {
+      "A": "Membeli bar itu",
+      "B": "Pindah tempat",
+      "C": "Menjadikan pemiliknya sekutu"
+    }
+  },
+  "vampire_222": {
+    "title": "Sarung tangan yang tertinggal",
+    "body": "Kamu meninggalkan sarung tangan di tempat yang salah. Baunya seperti tanah kripta.",
+    "choices": {
+      "A": "Cepat mengambilnya kembali",
+      "B": "Membakarnya dari jauh",
+      "C": "Membuat jejak palsu"
+    }
+  },
+  "vampire_223": {
+    "title": "Duel para sesepuh",
+    "body": "Dua sesepuh ingin berduel untuk memutuskan segalanya. Bahkan menu makan malam.",
+    "choices": {
+      "A": "Mengizinkan duel",
+      "B": "Melarang dan menjadi penengah",
+      "C": "Mengatur duel simbolis"
+    }
+  },
+  "vampire_224": {
+    "title": "Paket berjebak",
+    "body": "Sebuah paket tiba di sarang. Terlalu rapi. Terlalu dibungkus dengan baik. Terlalu mencurigakan.",
+    "choices": {
+      "A": "Membukanya dengan hati-hati",
+      "B": "Mengirimkannya kembali",
+      "C": "Menyuruh saingan membukanya"
+    }
+  },
+  "vampire_225": {
+    "title": "Anjing yang menggonggong",
+    "body": "Seekor anjing menggonggong setiap kali kamu lewat. Pemiliknya mulai mencatat jam-jamnya.",
+    "choices": {
+      "A": "Menghindari jalan itu",
+      "B": "Mempesona pemiliknya",
+      "C": "Membungkam anjing itu"
+    }
+  },
+  "vampire_226": {
+    "title": "Alarm matahari",
+    "body": "Sarangmu punya alarm matahari. Alarm itu menyala di tengah malam. Semua panik.",
+    "choices": {
+      "A": "Segera memperbaikinya",
+      "B": "Mematikan sistemnya",
+      "C": "Menyalahkan seorang penyabot"
+    }
+  },
+  "vampire_227": {
+    "title": "Kostum Kaum Rahasia",
+    "body": "Kaum Rahasia membuatkan pakaian resmi untukmu. Terlalu berkilau. Dan menarik lampu kilat.",
+    "choices": {
+      "A": "Menolak pakaian itu",
+      "B": "Menerima versi yang lebih samar",
+      "C": "Memakainya dan menanggung akibatnya"
+    }
+  },
+  "vampire_228": {
+    "title": "Pemburu yang menyamar",
+    "body": "Anggota baru Kaum Rahasia mengajukan pertanyaan yang terlalu tepat. Baunya seperti penggemar palsu.",
+    "choices": {
+      "A": "Menguji dia diam-diam",
+      "B": "Langsung mengusirnya",
+      "C": "Membalikkannya melawan para pemburu"
+    }
+  },
+  "vampire_229": {
+    "title": "Perjanjian jalanan",
+    "body": "Beberapa manusia menawarkan perjanjian. Mereka memberi keheningan sebagai imbalan perlindungan. Ini bisnis.",
+    "choices": {
+      "A": "Menerima dan mengawasi",
+      "B": "Menolak dan memaksakan ketakutan",
+      "C": "Bermain di dua sisi"
+    }
+  },
+  "vampire_230": {
+    "title": "Parfum mawar",
+    "body": "Sebuah parfum menyamarkan bau darah. Seluruh klan memakainya. Kamu batuk. Ini memalukan.",
+    "choices": {
+      "A": "Melarang parfum itu",
+      "B": "Membatasinya untuk keluar malam",
+      "C": "Mencari campuran yang lebih baik"
+    }
+  },
+  "vampire_231": {
+    "title": "Daftar yang hilang",
+    "body": "Dua vampir tidak datang saat dipanggil. Klan mulai berbisik. Para pemburu tersenyum.",
+    "choices": {
+      "A": "Meluncurkan pencarian",
+      "B": "Memperkuat pertahanan",
+      "C": "Menyalahkan saingan"
+    }
+  },
+  "vampire_232": {
+    "title": "Pasar relik",
+    "body": "Sebuah relik anti vampir dijual di kota. Semua menginginkannya. Terutama kamu.",
+    "choices": {
+      "A": "Membelinya diam-diam",
+      "B": "Mencurinya",
+      "C": "Menghancurkannya"
+    }
+  },
+  "vampire_233": {
+    "title": "Pengadilan klan",
+    "body": "Seorang vampir dituduh berkhianat. Dia menuntut pengadilan. Kaum Rahasia ingin menonton.",
+    "choices": {
+      "A": "Penghakiman ketat",
+      "B": "Pengampunan sebagai imbalan jasa",
+      "C": "Pengasingan langsung"
+    }
+  },
+  "vampire_234": {
+    "title": "Drama darah hangat",
+    "body": "Seseorang memanaskan darah demi rasa. Klan terbelah antara penikmat dan kaum murni.",
+    "choices": {
+      "A": "Melarang praktik itu",
+      "B": "Membuat aturan",
+      "C": "Membiarkannya"
+    }
+  },
+  "vampire_235": {
+    "title": "Misi kabut",
+    "body": "Kabut aneh menutupi area. Para pemburu masuk ke dalamnya. Klan ragu.",
+    "choices": {
+      "A": "Menjelajahi kabut",
+      "B": "Tetap berlindung",
+      "C": "Menarik para pemburu masuk lebih jauh"
+    }
+  },
+  "vampire_236": {
+    "title": "Pesan anonim",
+    "body": "Kamu menerima pesan. Pengirimnya tahu sarangmu. Dia meminta pertemuan.",
+    "choices": {
+      "A": "Menerima dengan jebakan",
+      "B": "Mengabaikan dan memperkuat pertahanan",
+      "C": "Mencari pengirimnya"
+    }
+  },
+  "vampire_237": {
+    "title": "Cadangan rahasia",
+    "body": "Sebuah cadangan darah tersembunyi ditemukan. Itu bukan milikmu. Jadi milik siapa.",
+    "choices": {
+      "A": "Mengambilnya untuk klan",
+      "B": "Menjebaknya",
+      "C": "Mengembalikannya dan menyelidiki"
+    }
+  },
+  "vampire_238": {
+    "title": "Perjanjian bungkam",
+    "body": "Seorang jurnalis menawarkan kesepakatan. Dia akan diam sebagai imbalan kisah eksklusif. Sangat berisiko.",
+    "choices": {
+      "A": "Menolak dan melumpuhkannya",
+      "B": "Menerima dan mengendalikan ceritanya",
+      "C": "Membalikkannya melawan para pemburu"
+    }
+  },
+  "vampire_239": {
+    "title": "Darah pesta",
+    "body": "Kaum Rahasia mengadakan pengumpulan darah. Terlalu banyak orang. Terlalu banyak kamera. Terlalu banyak godaan.",
+    "choices": {
+      "A": "Membatalkan pengumpulan",
+      "B": "Mengawasinya dengan ketat",
+      "C": "Cepat mengambil semuanya lalu pergi"
+    }
+  },
+  "vampire_240": {
+    "title": "Topeng yang jatuh",
+    "body": "Seseorang dari klan terlihat tanpa kehati-hatian. Wajahnya beredar di media sosial.",
+    "choices": {
+      "A": "Menghapus jejaknya",
+      "B": "Mengganti semua identitas",
+      "C": "Menyalahkan rekayasa palsu"
+    }
+  },
+  "vampire_241": {
+    "title": "Dewan bayangan",
+    "body": "Klan menuntut dewan resmi. Mereka ingin pemungutan suara. Bahkan atas keputusanmu.",
+    "choices": {
+      "A": "Menolak dan mempertahankan kekuasaan",
+      "B": "Menerima dan mengawasi",
+      "C": "Menerima dan memanipulasinya"
+    }
+  },
+  "vampire_242": {
+    "title": "Jebakan UV",
+    "body": "Lampu UV ditemukan dekat sarang. Seseorang sedang menguji medan.",
+    "choices": {
+      "A": "Menghancurkan peralatannya",
+      "B": "Menjebak jebakannya",
+      "C": "Memindahkan pintu masuk"
+    }
+  },
+  "vampire_243": {
+    "title": "Vampir romantis",
+    "body": "Seorang vampir menulis surat cinta untuk manusia. Dia menandatanganinya dengan namamu. Bencana.",
+    "choices": {
+      "A": "Menghentikannya segera",
+      "B": "Menegurnya dan memperbaiki keadaan",
+      "C": "Menggunakannya sebagai kedok"
+    }
+  },
+  "vampire_244": {
+    "title": "Ban kempis",
+    "body": "Kendaraan Kaum Rahasia disabotase. Mereka menyalahkan pemburu. Klan menyalahkan Kaum Rahasia.",
+    "choices": {
+      "A": "Menyelidiki dengan serius",
+      "B": "Menyalahkan saingan",
+      "C": "Mengabaikannya dan lanjut"
+    }
+  },
+  "vampire_245": {
+    "title": "Hujan uang",
+    "body": "Sejumlah besar uang jatuh ke tanganmu. Terlalu indah. Ini terasa seperti jebakan keuangan.",
+    "choices": {
+      "A": "Menolak uang itu",
+      "B": "Cepat mencucinya",
+      "C": "Mengembalikannya dengan ancaman"
+    }
+  },
+  "vampire_246": {
+    "title": "Ritual yang salah dibaca",
+    "body": "Kaum Rahasia salah membaca teks. Sekarang mereka memanggil sesuatu yang menghantam dinding.",
+    "choices": {
+      "A": "Menghentikan ritual",
+      "B": "Menyelesaikannya dengan rapi",
+      "C": "Memanggil seorang sesepuh"
+    }
+  },
+  "vampire_247": {
+    "title": "Stok yang membeku",
+    "body": "Sebagian darah membeku. Klan berteriak. Kamu juga bisa berteriak, tapi kamu bermartabat.",
+    "choices": {
+      "A": "Menyelamatkan apa yang masih bisa diselamatkan",
+      "B": "Membuangnya dan mengamankan sisa stok",
+      "C": "Membagi kerugiannya"
+    }
+  },
+  "vampire_248": {
+    "title": "Festival lentera",
+    "body": "Festival menerangi jalan-jalan sepanjang malam. Nol bayangan. Wilayahmu berubah jadi akuarium.",
+    "choices": {
+      "A": "Menghentikan perburuan sementara",
+      "B": "Berburu di pinggiran",
+      "C": "Menyabotase pencahayaan"
+    }
+  },
+  "vampire_249": {
+    "title": "Janji seorang pemburu",
+    "body": "Seorang pemburu menawarkan gencatan senjata. Dia bilang ingin bertemu pemimpin sejati. Dia mengincarmu.",
+    "choices": {
+      "A": "Menerima pertemuan",
+      "B": "Menolak dan menyerang",
+      "C": "Mengirim pengganti"
+    }
+  },
+  "vampire_250": {
+    "title": "Klan ingin aturan",
+    "body": "Klan meminta kode etik. Kedengarannya mulia. Biasanya selalu berakhir jadi pertengkaran.",
+    "choices": {
+      "A": "Menulis aturan sederhana",
+      "B": "Menulis aturan yang keras",
+      "C": "Menolak dan memutuskan kasus per kasus"
+    }
+  },
+  "vampire_251": {
+    "title": "Perdagangan darah palsu",
+    "body": "Manusia menjual darah palsu pada vampir muda. Itu membuat mereka sakit. Dan konyol.",
+    "choices": {
+      "A": "Membongkar perdagangannya",
+      "B": "Mengenakan pajak atas perdagangannya",
+      "C": "Membiarkannya untuk menghukum yang naif"
+    }
+  },
+  "vampire_252": {
+    "title": "Pintu bertanda",
+    "body": "Simbol pemburu dicat pada sebuah pintu dekat sini. Tak ada yang tahu siapa yang pertama melihatnya.",
+    "choices": {
+      "A": "Menghapus tandanya",
+      "B": "Memasang penyergapan",
+      "C": "Kabur dari area itu"
+    }
+  },
+  "vampire_253": {
+    "title": "Undangan mewah",
+    "body": "Kamu diundang ke pesta pribadi. Terlalu banyak cermin. Terlalu banyak tatapan. Terlalu banyak risiko.",
+    "choices": {
+      "A": "Pergi dengan topeng",
+      "B": "Mengirim pelayan",
+      "C": "Menolak dan mengawasi"
+    }
+  },
+  "vampire_254": {
+    "title": "Perjanjian darah",
+    "body": "Seorang sesepuh mengusulkan perjanjian darah untuk menyatukan klan. Itu berhasil. Itu mengikat. Itu memenjarakan.",
+    "choices": {
+      "A": "Menerima perjanjian",
+      "B": "Menolak dengan sopan",
+      "C": "Mengusulkan perjanjian yang lebih ringan"
+    }
+  },
+  "vampire_255": {
+    "title": "Kaum Rahasia ingin lencana",
+    "body": "Kaum Rahasia ingin memberi lencana kepada yang setia. Mereka juga ingin wajahmu ada di atasnya.",
+    "choices": {
+      "A": "Melarang lencana",
+      "B": "Mengizinkan tanpa wajahmu",
+      "C": "Mengizinkan dan memonetisasinya"
+    }
+  },
+  "vampire_256": {
+    "title": "Ruang bawah tanah manusia",
+    "body": "Sebuah ruang bawah tanah tersembunyi berisi cadangan manusia. Siapa yang melakukan ini. Dan kenapa di sini.",
+    "choices": {
+      "A": "Membebaskan mereka dan menghapus jejak",
+      "B": "Menggunakan mereka dan mengendalikan situasi",
+      "C": "Menyerahkannya pada para pemburu"
+    }
+  },
+  "vampire_257": {
+    "title": "Keheningan sarang",
+    "body": "Semuanya terlalu sunyi. Bahkan tikus-tikus. Ada sesuatu yang berubah di dalam dinding.",
+    "choices": {
+      "A": "Memeriksa setiap ruangan",
+      "B": "Memanggil para sesepuh",
+      "C": "Memindahkan semua orang"
+    }
+  },
+  "vampire_258": {
+    "title": "Stok cadangan",
+    "body": "Sebuah cadangan darurat memang ada. Tapi tak seorang pun punya kuncinya. Dan semua orang menatapmu.",
+    "choices": {
+      "A": "Membuka paksa kuncinya",
+      "B": "Mencari kuncinya",
+      "C": "Membuat cadangan baru"
+    }
+  },
+  "vampire_259": {
+    "title": "Perburuan drone",
+    "body": "Drone terbang pada malam hari. Mereka mencari panas. Vampir tidak menghangat, tapi mereka mengawasi.",
+    "choices": {
+      "A": "Menembak jatuh drone-drone itu",
+      "B": "Mengalihkannya",
+      "C": "Bersembunyi lebih dalam"
+    }
+  },
+  "vampire_260": {
+    "title": "Klan ingin simbol",
+    "body": "Klan ingin simbol resmi. Kaum Rahasia mengusulkan mahkota raksasa. Jelas tidak.",
+    "choices": {
+      "A": "Memilih simbol yang samar",
+      "B": "Memaksakan simbol lama",
+      "C": "Membiarkan klan memilih"
+    }
+  },
+  "vampire_261": {
+    "title": "Bau asap",
+    "body": "Asap masuk ke kripta. Datangnya dari luar. Dan di luar ada para pemburu.",
+    "choices": {
+      "A": "Keluar dan menghentikannya",
+      "B": "Menutup semua akses",
+      "C": "Memindahkan para vampir yang sedang tidur"
+    }
+  },
+  "vampire_262": {
+    "title": "Jamuan klan",
+    "body": "Klan ingin jamuan. Kaum Rahasia ingin melayani. Para pemburu suka meja-meja besar.",
+    "choices": {
+      "A": "Membatalkan jamuan",
+      "B": "Mengadakannya diam-diam",
+      "C": "Membuat jamuan palsu berisi jebakan"
+    }
+  },
+  "vampire_263": {
+    "title": "Klan melawan Kaum Rahasia",
+    "body": "Klan menuduh Kaum Rahasia terlalu banyak bicara. Kaum Rahasia menuduh klan terlalu banyak menggigit. Suasana memanas.",
+    "choices": {
+      "A": "Memaksakan perdamaian",
+      "B": "Memihak klan",
+      "C": "Memihak Kaum Rahasia"
+    }
+  },
+  "vampire_264": {
+    "title": "Kurir bunga",
+    "body": "Seorang kurir bunga bersikeras masuk. Katanya ini kejutan. Kamu membenci kejutan.",
+    "choices": {
+      "A": "Mengusirnya",
+      "B": "Mengendalikannya dan memeriksa kirimannya",
+      "C": "Membiarkannya masuk dengan penjagaan"
+    }
+  },
+  "vampire_265": {
+    "title": "Wabah rumor",
+    "body": "Sebuah rumor bilang kamu punya kelemahan yang konyol. Kota menertawakannya. Klan juga.",
+    "choices": {
+      "A": "Menghancurkan rumor itu",
+      "B": "Mengubahnya jadi lelucon",
+      "C": "Menakut-nakuti para pengejek"
+    }
+  },
+  "vampire_266": {
+    "title": "Peta selokan",
+    "body": "Sebuah peta selokan beredar. Itu menunjukkan akses menuju sarangmu. Seseorang sudah mengendus terlalu jauh.",
+    "choices": {
+      "A": "Mengubah akses",
+      "B": "Menjebak jalurnya",
+      "C": "Memindahkan sarang"
+    }
+  },
+  "vampire_267": {
+    "title": "Perselisihan pembagian",
+    "body": "Klan bertengkar soal pembagian darah. Rasanya seperti rapat warga apartemen.",
+    "choices": {
+      "A": "Menetapkan pembagian",
+      "B": "Membagi berdasarkan jasa",
+      "C": "Membiarkan kekacauan memilih"
+    }
+  },
+  "vampire_268": {
+    "title": "Kaum Rahasia ingin slogan",
+    "body": "Kaum Rahasia ingin slogan resmi. Mereka mengusulkan Hidup malam. Kurang halus.",
+    "choices": {
+      "A": "Memilih slogan yang samar",
+      "B": "Melarang slogan",
+      "C": "Menerima dan meluncurkan kampanye"
+    }
+  },
+  "vampire_269": {
+    "title": "Penjaga parkir",
+    "body": "Seorang penjaga mengawasi terlalu baik. Dia tahu plat nomor. Dia tahu jadwal. Dia tahu terlalu banyak.",
+    "choices": {
+      "A": "Menyuapnya",
+      "B": "Menggantinya",
+      "C": "Menghindari parkiran"
+    }
+  },
+  "vampire_270": {
+    "title": "Datangnya hawa dingin",
+    "body": "Cuaca dingin datang. Jalanan kosong. Berburu jadi lebih sulit. Para pemburu tetap ada.",
+    "choices": {
+      "A": "Menjatah dan bertahan",
+      "B": "Berburu lebih jauh",
+      "C": "Bernegosiasi dengan Kaum Rahasia"
+    }
+  },
+  "vampire_271": {
+    "title": "Saksi yang kembali",
+    "body": "Seorang saksi lama melihatmu lagi. Dia mengenalimu. Dia tersenyum. Itu berarti masalah.",
+    "choices": {
+      "A": "Meyakinkannya",
+      "B": "Mengancamnya",
+      "C": "Membungkamnya"
+    }
+  },
+  "vampire_272": {
+    "title": "Kelompok anti rahasia",
+    "body": "Sebuah kelompok manusia melawan Kaum Rahasia. Mereka menempelkan selebaran. Mereka mencari pemimpin.",
+    "choices": {
+      "A": "Membubarkan kelompok itu",
+      "B": "Menyusup ke kelompok itu",
+      "C": "Memindahkan Kaum Rahasia"
+    }
+  },
+  "vampire_273": {
+    "title": "Rencana darurat Kaum Rahasia",
+    "body": "Kaum Rahasia punya rencana cadangan kalau kamu mati. Sangat baik hati. Sangat menghina.",
+    "choices": {
+      "A": "Menghukum gagasan itu",
+      "B": "Mengawasi dan memperbaikinya",
+      "C": "Memakai rencana itu untuk menguji kesetiaan"
+    }
+  },
+  "vampire_274": {
+    "title": "Penyelidikan swasta",
+    "body": "Seorang detektif swasta mengacak-acak lingkunganmu. Dia tidak takut. Itu hal baru.",
+    "choices": {
+      "A": "Mengalihkannya dari penyelidikan",
+      "B": "Merekrutnya",
+      "C": "Melumpuhkannya"
+    }
+  },
+  "vampire_275": {
+    "title": "Perjanjian akhir malam",
+    "body": "Klan menginginkan arah yang jelas. Kaum Rahasia menginginkan pertanda. Para pemburu menginginkan alamatmu.",
+    "choices": {
+      "A": "Memperkuat wilayah",
+      "B": "Menegosiasikan ketenangan sementara",
+      "C": "Menyiapkan pelarian terorganisasi"
+    }
+  },
+  "vampire_276": {
+    "title": "Penjual bunga malam",
+    "body": "Seorang penjual bunga buka malam tepat di bawah sarangmu. Dia melihat terlalu banyak wajah pucat.",
+    "choices": {
+      "A": "Mempesonanya diam-diam",
+      "B": "Mengganti jalan keluar",
+      "C": "Membeli tokonya"
+    }
+  },
+  "vampire_277": {
+    "title": "Pesan dari kulkas",
+    "body": "Kulkas penyimpanan mengeluarkan pesan aneh. Klan bersumpah itu berbicara padamu.",
+    "choices": {
+      "A": "Membukanya sendirian",
+      "B": "Memanggil seorang sesepuh",
+      "C": "Membuangnya keluar"
+    }
+  },
+  "vampire_278": {
+    "title": "Bulan yang sedang promo",
+    "body": "Sebuah merek menjual minuman bernama Purnama. Kaum Rahasia sudah menyukainya.",
+    "choices": {
+      "A": "Mensponsori tren itu",
+      "B": "Menjauh darinya",
+      "C": "Menyusup ke kampanyenya"
+    }
+  },
+  "vampire_279": {
+    "title": "Taring patah",
+    "body": "Seorang vampir klan mematahkan taring saat berburu. Dia berteriak lebih keras daripada mangsanya.",
+    "choices": {
+      "A": "Membayar spesialis",
+      "B": "Memaksakan ketenangan",
+      "C": "Menertawakannya di depan semua orang"
+    }
+  },
+  "vampire_280": {
+    "title": "Terowongan terlupakan",
+    "body": "Terowongan tua menghubungkan sarangmu ke ruang bawah tanah hotel. Menggoda dan mengkhawatirkan.",
+    "choices": {
+      "A": "Menjelajahinya malam ini",
+      "B": "Menutup jalurnya",
+      "C": "Mengirim saingan"
+    }
+  },
+  "vampire_281": {
+    "title": "Kurir yang setia",
+    "body": "Kurir malam tidak pernah bertanya. Justru itu yang mencurigakan.",
+    "choices": {
+      "A": "Menguji dia",
+      "B": "Merekrutnya",
+      "C": "Menghentikan layanannya"
+    }
+  },
+  "vampire_282": {
+    "title": "Ruang bawah tanah yang lembap",
+    "body": "Ruang bawah tanah sarang bocor di mana-mana. Bahkan peti mati mulai mengeluh.",
+    "choices": {
+      "A": "Cepat memperbaiki",
+      "B": "Memindahkan stok",
+      "C": "Menyalahkan klan"
+    }
+  },
+  "vampire_283": {
+    "title": "Tetangga tanpa tirai",
+    "body": "Seorang tetangga tidak pernah tidur dan terus melihat jalan. Dia mengumpulkan detail.",
+    "choices": {
+      "A": "Mengalihkannya",
+      "B": "Mengubah kebiasaanmu",
+      "C": "Membuatnya pergi"
+    }
+  },
+  "vampire_284": {
+    "title": "Pesta dansa bayangan",
+    "body": "Seorang sesepuh menginginkan pesta privat. Klan ingin menari. Kamu ingin selamat.",
+    "choices": {
+      "A": "Mengizinkan dengan aturan",
+      "B": "Menolak mentah-mentah",
+      "C": "Memindahkannya ke tempat lain"
+    }
+  },
+  "vampire_285": {
+    "title": "Drone di atap",
+    "body": "Sebuah drone berputar di atas sarang setiap malam. Baunya rasa ingin tahu yang dibayar.",
+    "choices": {
+      "A": "Meretasnya",
+      "B": "Menjatuhkannya",
+      "C": "Mengikuti pemiliknya"
+    }
+  },
+  "vampire_286": {
+    "title": "Potret hidup",
+    "body": "Sebuah potret tua berubah ekspresi setiap kali kamu melewatinya.",
+    "choices": {
+      "A": "Menutupinya",
+      "B": "Menyuruh mempelajarinya",
+      "C": "Membakarnya"
+    }
+  },
+  "vampire_287": {
+    "title": "Ruang bawah tanah mogok",
+    "body": "Para penjaga stok menolak bergerak tanpa lebih banyak darah.",
+    "choices": {
+      "A": "Mengalah sedikit",
+      "B": "Mengganti para penjaga",
+      "C": "Membuat contoh"
+    }
+  },
+  "vampire_288": {
+    "title": "Pastor dalam story",
+    "body": "Seorang pastor mengunggah video tiap malam tentang kejahatan yang mengintai dekat tempatmu.",
+    "choices": {
+      "A": "Mempermalukannya",
+      "B": "Mengawasinya",
+      "C": "Menyuapnya"
+    }
+  },
+  "vampire_289": {
+    "title": "Ruang merah",
+    "body": "Sebuah klub privat ingin menyewakan ruangan rahasia untukmu. Harganya aneh.",
+    "choices": {
+      "A": "Menerima tawaran itu",
+      "B": "Menegosiasikan yang lebih baik",
+      "C": "Menolak dan menyelidiki"
+    }
+  },
+  "vampire_290": {
+    "title": "Pemula yang terlalu bergaya",
+    "body": "Seorang pemula datang dengan setelan putih. Sangat tampan. Sangat mencolok. Sangat menyebalkan.",
+    "choices": {
+      "A": "Cepat mendisiplinkannya",
+      "B": "Menyerahkannya pada klan",
+      "C": "Menyembunyikannya"
+    }
+  },
+  "vampire_291": {
+    "title": "Pasar gelap",
+    "body": "Sebuah pasar menjual benda anti vampir dan suvenir dari lingkunganmu.",
+    "choices": {
+      "A": "Membeli semua kios",
+      "B": "Menutupnya",
+      "C": "Mengamatinya diam-diam"
+    }
+  },
+  "vampire_292": {
+    "title": "Abu di atas kota",
+    "body": "Abu halus turun di seluruh kota. Klan melihatnya sebagai pertanda.",
+    "choices": {
+      "A": "Menenangkan rumor",
+      "B": "Mencari sumbernya",
+      "C": "Memanfaatkan simbolnya"
+    }
+  },
+  "vampire_293": {
+    "title": "Pelayan yang cerewet",
+    "body": "Seorang pelayan terlalu mengenal kebiasaan malammu. Dia tersenyum saat kamu berbohong.",
+    "choices": {
+      "A": "Membayarnya",
+      "B": "Merekrutnya",
+      "C": "Pindah tempat"
+    }
+  },
+  "vampire_294": {
+    "title": "Museum tertutup",
+    "body": "Sebuah museum tutup untuk renovasi. Relik darah sedang tidur di sana tanpa penjaga.",
+    "choices": {
+      "A": "Mencurinya",
+      "B": "Menunggu lebih lama",
+      "C": "Mengirim manusia"
+    }
+  },
+  "vampire_295": {
+    "title": "Peti mati macet",
+    "body": "Peti matimu menolak menutup. Kemewahan punya batasnya.",
+    "choices": {
+      "A": "Memperbaikinya diam-diam",
+      "B": "Mengganti model",
+      "C": "Tidur di tempat lain"
+    }
+  },
+  "vampire_296": {
+    "title": "Anjing yang menatap",
+    "body": "Anjing tetangga menggeram setiap kali kamu keluar. Ia telah memahami sesuatu.",
+    "choices": {
+      "A": "Menghindari area itu",
+      "B": "Menjinakkan anjing itu",
+      "C": "Menakut-nakuti tetangganya"
+    }
+  },
+  "vampire_297": {
+    "title": "Loto Kaum Rahasia",
+    "body": "Kaum Rahasia mengadakan loto untuk membiayai malam-malammu. Ide itu mengerikan dan menguntungkan.",
+    "choices": {
+      "A": "Mengawasi permainan",
+      "B": "Melarang aib itu",
+      "C": "Mengambil uang kasnya"
+    }
+  },
+  "vampire_298": {
+    "title": "Taksi tanpa pantulan",
+    "body": "Seorang sopir menunjukkan foto cermin belakang. Kamu tidak muncul di sana.",
+    "choices": {
+      "A": "Membeli fotonya",
+      "B": "Mengancamnya dengan sopan",
+      "C": "Mengubah rute perjalanan"
+    }
+  },
+  "vampire_299": {
+    "title": "Parfum matahari",
+    "body": "Sebuah parfum menjanjikan aroma matahari. Klan ingin mencobanya. Ide buruk.",
+    "choices": {
+      "A": "Melarang produk itu",
+      "B": "Mencobanya pada saingan",
+      "C": "Menjualnya lagi"
+    }
+  },
+  "vampire_300": {
+    "title": "Kripta yang disewakan",
+    "body": "Kripta lamamu ditawarkan untuk disewa di internet.",
+    "choices": {
+      "A": "Menghapus iklannya",
+      "B": "Menjebak para pengunjung",
+      "C": "Membeli kembali tempat itu"
+    }
+  },
+  "vampire_301": {
+    "title": "Biola di peron",
+    "body": "Seorang musisi bermain setiap malam di bawah jendelamu. Klan jadi sentimental.",
+    "choices": {
+      "A": "Menyuruhnya pergi",
+      "B": "Mendengarkannya lagi",
+      "C": "Merekrutnya"
+    }
+  },
+  "vampire_302": {
+    "title": "Peti berkarat",
+    "body": "Sebuah peti muncul dari ruang bawah tanah yang banjir. Peti itu membawa segel lamamu.",
+    "choices": {
+      "A": "Cepat membukanya",
+      "B": "Menyembunyikannya",
+      "C": "Memanggil ahli"
+    }
+  },
+  "vampire_303": {
+    "title": "Cermin klub",
+    "body": "Sebuah klub memasang cermin di mana-mana. Swafoto berubah jadi jebakan.",
+    "choices": {
+      "A": "Menyabotase dekorasinya",
+      "B": "Menghindari klub itu",
+      "C": "Mengirim orang yang mirip"
+    }
+  },
+  "vampire_304": {
+    "title": "Jamuan dingin",
+    "body": "Klan mengkritik suhu darah. Keabadian menciptakan banyak tingkah.",
+    "choices": {
+      "A": "Meningkatkan pelayanannya",
+      "B": "Menghukum keluhan",
+      "C": "Membiarkan rasa lapar bicara"
+    }
+  },
+  "vampire_305": {
+    "title": "Pendeta malam",
+    "body": "Seorang pendeta datang memberkati jalan-jalan setelah tengah malam. Waktunya sangat mengganggumu.",
+    "choices": {
+      "A": "Mengalihkannya",
+      "B": "Mengawasi rutenya",
+      "C": "Membuatnya kehilangan kredibilitas"
+    }
+  },
+  "vampire_306": {
+    "title": "Ruang tamu beludru",
+    "body": "Sebuah salon rahasia menyambut para pecinta hal gaib. Namamu sudah beredar di sana.",
+    "choices": {
+      "A": "Menyusupkan orang dekatmu ke sana",
+      "B": "Membuat tempat itu ditutup",
+      "C": "Menggunakannya untuk berbohong"
+    }
+  },
+  "vampire_307": {
+    "title": "Getaran pelabuhan",
+    "body": "Peti-peti datang ke pelabuhan pada malam hari. Bau darah mengalir sampai kepadamu.",
+    "choices": {
+      "A": "Mencegat kirimannya",
+      "B": "Mengamati tanpa bergerak",
+      "C": "Membeli para buruh dermaga"
+    }
+  },
+  "vampire_308": {
+    "title": "Kunci loteng",
+    "body": "Kunci kuno muncul di dalam mantelmu. Kamu tidak pernah menaruhnya di sana.",
+    "choices": {
+      "A": "Mencari kuncinya untuk pintu mana",
+      "B": "Membuangnya jauh-jauh",
+      "C": "Menyerahkannya pada klan"
+    }
+  },
+  "vampire_309": {
+    "title": "Koki manusia",
+    "body": "Seorang koki ingin membuat hidangan untuk vampir. Konyol dan menarik.",
+    "choices": {
+      "A": "Menguji dia",
+      "B": "Membayarnya agar diam",
+      "C": "Membiarkannya bermimpi"
+    }
+  },
+  "vampire_310": {
+    "title": "Ruangan tanpa bayangan",
+    "body": "Sebuah ruangan di sarang tidak lagi punya bayangan. Kaum Rahasia menganggapnya indah.",
+    "choices": {
+      "A": "Menutup ruangan itu",
+      "B": "Mempelajarinya",
+      "C": "Menunjukkannya pada klan"
+    }
+  },
+  "vampire_311": {
+    "title": "Satpam yang terlalu tenang",
+    "body": "Satpam parkir memanggilmu dengan namamu. Kamu tidak pernah memberitahunya.",
+    "choices": {
+      "A": "Menginterogasinya",
+      "B": "Mengganti parkiran",
+      "C": "Merekrutnya"
+    }
+  },
+  "vampire_312": {
+    "title": "Lukisan yang dicuri",
+    "body": "Lukisan tua milik klan menghilang. Nilainya lebih besar sebagai simbol daripada uang.",
+    "choices": {
+      "A": "Menggeledah sarang",
+      "B": "Menawarkan hadiah",
+      "C": "Menyalahkan saingan"
+    }
+  },
+  "vampire_313": {
+    "title": "Terowongan panas",
+    "body": "Terowongan rahasia jadi terlalu panas. Seseorang sedang menggali dekat dindingmu.",
+    "choices": {
+      "A": "Menjebak area itu",
+      "B": "Menutup aksesnya",
+      "C": "Mengikuti sumber suara"
+    }
+  },
+  "vampire_314": {
+    "title": "Sommelier merah",
+    "body": "Seorang sommelier mengusulkan daftar khusus untuk para abadi. Elegan dan berbahaya.",
+    "choices": {
+      "A": "Menandatangani kesepakatan",
+      "B": "Menguji diam-diam",
+      "C": "Membungkamnya"
+    }
+  },
+  "vampire_315": {
+    "title": "Malam para tetangga",
+    "body": "Para tetangga mengadakan pesta jalanan. Banyak cahaya. Terlalu banyak.",
+    "choices": {
+      "A": "Menyabotase listrik",
+      "B": "Menahan satu malam",
+      "C": "Memindahkan klan"
+    }
+  },
+  "vampire_316": {
+    "title": "Balkon retak",
+    "body": "Balkon sarang mulai rapuh. Jatuh dari sana akan sangat terlihat publik.",
+    "choices": {
+      "A": "Memperbaikinya sebelum fajar",
+      "B": "Menutup aksesnya",
+      "C": "Menyuruh klan bekerja"
+    }
+  },
+  "vampire_317": {
+    "title": "Notaris pucat",
+    "body": "Seorang notaris tampaknya sudah tahu terlalu banyak tentang harta dan malam-malammu.",
+    "choices": {
+      "A": "Mempesonanya",
+      "B": "Mengawasinya",
+      "C": "Mengganti identitas"
+    }
+  },
+  "vampire_318": {
+    "title": "Grafiti menggigit",
+    "body": "Simbolmu muncul di beberapa dinding. Kaum Rahasia sudah bertepuk tangan.",
+    "choices": {
+      "A": "Menghapus semuanya",
+      "B": "Mengakuinya",
+      "C": "Mencari pembuatnya"
+    }
+  },
+  "vampire_319": {
+    "title": "Piano di aula",
+    "body": "Sebuah piano mulai bermain sendiri di aula. Sangat berkelas. Sangat pertanda buruk.",
+    "choices": {
+      "A": "Mematikan suaranya",
+      "B": "Memanggil seorang sesepuh",
+      "C": "Memindahkan pianonya"
+    }
+  },
+  "vampire_320": {
+    "title": "Kontrak ruang bawah tanah",
+    "body": "Seorang pemilik restoran ingin menyewa ruang bawah tanahmu tanpa tahu siapa yang tidur di atasnya.",
+    "choices": {
+      "A": "Menerima dengan aturan",
+      "B": "Menolak mentah-mentah",
+      "C": "Menaikkan harganya"
+    }
+  },
+  "vampire_321": {
+    "title": "Topeng kuno",
+    "body": "Sebuah topeng muncul kembali di stokmu. Itu milik saingan lama.",
+    "choices": {
+      "A": "Menghancurkannya",
+      "B": "Menyembunyikannya",
+      "C": "Memakainya semalam"
+    }
+  },
+  "vampire_322": {
+    "title": "Penjaga pintu yang gelisah",
+    "body": "Penjaga pintu klub mengenali beberapa anggota klan. Dia mulai mencatat.",
+    "choices": {
+      "A": "Membayarnya",
+      "B": "Merekrutnya",
+      "C": "Membuatnya dipindahkan"
+    }
+  },
+  "vampire_323": {
+    "title": "Rumah kaca di atap",
+    "body": "Sebuah rumah kaca tumbuh di atap sebelah. Terlalu banyak cahaya. Terlalu banyak tatapan dari atas.",
+    "choices": {
+      "A": "Menyabotase rumah kaca",
+      "B": "Membeli atapnya",
+      "C": "Mengganti jalan keluar"
+    }
+  },
+  "vampire_324": {
+    "title": "Penjahit yang rapi",
+    "body": "Seorang penjahit tahu cara menyembunyikan pakaian berburu milikmu. Berguna atau mencurigakan.",
+    "choices": {
+      "A": "Menjaganya dekat",
+      "B": "Menguji kesetiaannya",
+      "C": "Berhenti datang ke sana"
+    }
+  },
+  "vampire_325": {
+    "title": "Peron tertutup",
+    "body": "Peron metro rahasia ditutup. Perjalananmu jadi kacau.",
+    "choices": {
+      "A": "Menggali jalan memutar",
+      "B": "Menunggu dibuka lagi",
+      "C": "Lewat jalan biasa"
+    }
+  },
+  "vampire_326": {
+    "title": "Surat tanpa perangko",
+    "body": "Sebuah surat tiba tanpa perangko dan tanpa jejak. Isinya menyebut nama pertamamu.",
+    "choices": {
+      "A": "Membalasnya",
+      "B": "Membakarnya",
+      "C": "Mencari si pembawa pesan"
+    }
+  },
+  "vampire_327": {
+    "title": "Penjaga yang sakit",
+    "body": "Seorang manusia menawarkan diri memberi makan yang paling lemah di klan. Senyumnya terlalu meyakinkan.",
+    "choices": {
+      "A": "Menerima dengan pengawasan",
+      "B": "Menolak",
+      "C": "Menguji dia langsung di tempat"
+    }
+  },
+  "vampire_328": {
+    "title": "Salon tato",
+    "body": "Seorang penato menyalin simbol-simbol vampir. Kaum Rahasia sudah antre.",
+    "choices": {
+      "A": "Menutup salonnya",
+      "B": "Membatasinya",
+      "C": "Memanfaatkannya"
+    }
+  },
+  "vampire_329": {
+    "title": "Api di bawah pintu",
+    "body": "Cahaya menyelinap di bawah pintu kripta. Di dalam, tak seorang pun bergerak.",
+    "choices": {
+      "A": "Cepat membukanya",
+      "B": "Tetap berhati-hati",
+      "C": "Mengirim klan"
+    }
+  },
+  "vampire_330": {
+    "title": "Terapis fisik klan",
+    "body": "Klan menemukan bahwa keabadian juga bisa pegal. Memalukan tapi nyata.",
+    "choices": {
+      "A": "Membantu diam-diam",
+      "B": "Sedikit menertawakan mereka",
+      "C": "Memaksakan latihan"
+    }
+  },
+  "vampire_331": {
+    "title": "Teras yang merekam",
+    "body": "Sebuah teras merekammu tanpa sengaja setiap malam. Sudut kameranya mengerikan.",
+    "choices": {
+      "A": "Membeli rekamannya",
+      "B": "Menyabotase kameranya",
+      "C": "Menghindari area itu"
+    }
+  },
+  "vampire_332": {
+    "title": "Khotbah di ruang bawah tanah",
+    "body": "Sekelompok manusia berkumpul di ruang bawah tanah untuk memburu bayangan.",
+    "choices": {
+      "A": "Memata-matai mereka",
+      "B": "Menutup ruang bawah tanah itu",
+      "C": "Menyebarkan jejak palsu"
+    }
+  },
+  "vampire_333": {
+    "title": "Mantel yang hilang",
+    "body": "Mantel kunomu menghilang dari ruang ganti. Tanpanya, kamu kehilangan lebih dari sekadar gaya.",
+    "choices": {
+      "A": "Menggeledah semuanya",
+      "B": "Menawarkan hadiah",
+      "C": "Mengganti citra"
+    }
+  },
+  "vampire_334": {
+    "title": "Penjaga gedung tersenyum",
+    "body": "Penjaga gedung mengucapkan selamat malam bahkan sebelum kamu membuka pintu.",
+    "choices": {
+      "A": "Menginterogasinya",
+      "B": "Menjaganya dekat",
+      "C": "Mengganti pintu masuk"
+    }
+  },
+  "vampire_335": {
+    "title": "Ruang bawah tanah penuh bunga",
+    "body": "Bunga-bunga putih tumbuh di salah satu ruang bawah tanah sarang. Klan membencinya.",
+    "choices": {
+      "A": "Mencabut semuanya",
+      "B": "Mempelajari tanahnya",
+      "C": "Menyuruh area itu diberkati"
+    }
+  },
+  "vampire_336": {
+    "title": "Inventaris besar",
+    "body": "Stok tak lagi cocok dengan catatan. Seseorang minum di luar jatah.",
+    "choices": {
+      "A": "Menghitung semuanya",
+      "B": "Memasang jebakan",
+      "C": "Mengurangi jatah"
+    }
+  },
+  "vampire_337": {
+    "title": "Radio bajak laut",
+    "body": "Sebuah radio membacakan nama-nama pemburu. Namamu tidak jauh dari sana.",
+    "choices": {
+      "A": "Memutus antenanya",
+      "B": "Terus mendengarkan",
+      "C": "Membalikkan penyiar itu"
+    }
+  },
+  "vampire_338": {
+    "title": "Pengantar surat malam",
+    "body": "Seorang pengantar surat mengirim paket setelah tengah malam selama tiga malam berturut-turut. Dia tidak tampak manusia.",
+    "choices": {
+      "A": "Mengikutinya",
+      "B": "Merekrutnya",
+      "C": "Mengabaikannya"
+    }
+  },
+  "vampire_339": {
+    "title": "Etalase hitam",
+    "body": "Etalase toko sebelah menjadi gelap pekat setiap malam. Seseorang menyembunyikan sesuatu.",
+    "choices": {
+      "A": "Memata-matai tempat itu",
+      "B": "Masuk dari belakang",
+      "C": "Membuat tokonya ditutup"
+    }
+  },
+  "vampire_340": {
+    "title": "Kata yang terukir",
+    "body": "Sebuah kata terukir di lift. Kata itu mengucapkan selamat bangun padamu.",
+    "choices": {
+      "A": "Menghapus jejaknya",
+      "B": "Memasang pengawasan",
+      "C": "Pindah gedung"
+    }
+  },
+  "vampire_341": {
+    "title": "Penjual dupa",
+    "body": "Seorang penjual mewangikan jalan setiap malam. Klan batuk demi martabat.",
+    "choices": {
+      "A": "Membayarnya agar pergi",
+      "B": "Memanipulasinya",
+      "C": "Memindahkan jalan keluar"
+    }
+  },
+  "vampire_342": {
+    "title": "Loteng hidup",
+    "body": "Loteng sarang tampak bernapas pada malam hari. Klan menolak naik ke sana.",
+    "choices": {
+      "A": "Naik sendirian",
+      "B": "Mengirim seorang sesepuh ke sana",
+      "C": "Menutupnya"
+    }
+  },
+  "vampire_343": {
+    "title": "Logo Kaum Rahasia",
+    "body": "Kaum Rahasia mengusulkan logo sungguhan. Kamu tidak yakin menyukai kemajuan.",
+    "choices": {
+      "A": "Menyetujui tanda yang samar",
+      "B": "Menolak semuanya",
+      "C": "Mencobanya di satu area"
+    }
+  },
+  "vampire_344": {
+    "title": "Bus fajar",
+    "body": "Sebuah bus lewat terlalu dekat dengan sarang. Kaca-kacanya memantulkan segalanya.",
+    "choices": {
+      "A": "Mengubah rutenya",
+      "B": "Menegosiasikan jadwalnya",
+      "C": "Membuat jalan memutar"
+    }
+  },
+  "vampire_345": {
+    "title": "Mentor yang iri",
+    "body": "Seorang sesepuh sulit menerima otoritasmu. Dia sudah membentuk lingkarannya sendiri.",
+    "choices": {
+      "A": "Menegurnya",
+      "B": "Menyanjungnya",
+      "C": "Memisahkannya dari klan"
+    }
+  },
+  "vampire_346": {
+    "title": "Taman malam",
+    "body": "Sebuah taman tumbuh di kaki sarang. Terlalu banyak lalu lalang, terlalu pagi.",
+    "choices": {
+      "A": "Menyabotase proyeknya",
+      "B": "Membelinya",
+      "C": "Mengitarinya"
+    }
+  },
+  "vampire_347": {
+    "title": "Pasar kunci",
+    "body": "Salinan kunci lingkungan beredar. Kabar buruk bagi pintumu.",
+    "choices": {
+      "A": "Mengganti semua kunci",
+      "B": "Menemukan penjualnya",
+      "C": "Menjebak akses-aksesnya"
+    }
+  },
+  "vampire_348": {
+    "title": "Potret wali kota",
+    "body": "Wali kota ingin berpose malam hari di lingkunganmu. Dia terlalu suka kamera.",
+    "choices": {
+      "A": "Mengalihkannya ke tempat lain",
+      "B": "Memanfaatkan kunjungannya",
+      "C": "Menyabotase acaranya"
+    }
+  },
+  "vampire_349": {
+    "title": "Lampu jalan baru",
+    "body": "Lampu jalan putih menerangi tepat di depan pintu masukmu. Rasanya pribadi.",
+    "choices": {
+      "A": "Memecahkannya",
+      "B": "Meminta agar dicabut",
+      "C": "Mengganti pintu masuk"
+    }
+  },
+  "vampire_350": {
+    "title": "Peti darah",
+    "body": "Sebuah peti berpendingin datang tanpa pernah dipesan. Di dalamnya terlalu banyak darah dan tanpa nama.",
+    "choices": {
+      "A": "Mengambil isinya",
+      "B": "Mencari pengirimnya",
+      "C": "Membiarkannya tetap tertutup"
+    }
+  },
+  "vampire_351": {
+    "title": "Ruangan berantai",
+    "body": "Sebuah ruangan tertutup tembok menyimpan rantai-rantai tua yang masih tegang.",
+    "choices": {
+      "A": "Membukanya",
+      "B": "Melupakannya",
+      "C": "Memanggil klan"
+    }
+  },
+  "vampire_352": {
+    "title": "Pelayan yang berkeringat",
+    "body": "Seorang pelayan bar gemetar saat melihatmu. Cepat atau lambat dia akan bicara.",
+    "choices": {
+      "A": "Menenangkannya",
+      "B": "Merekrutnya",
+      "C": "Tidak kembali lagi"
+    }
+  },
+  "vampire_353": {
+    "title": "Jembatan bayangan",
+    "body": "Di bawah jembatan tua, tanda-tanda baru menandakan perburuan yang akan datang.",
+    "choices": {
+      "A": "Menghapus tanda-tandanya",
+      "B": "Menjebak tempat itu",
+      "C": "Menyebarkan rumor"
+    }
+  },
+  "vampire_354": {
+    "title": "Ruang tamu emas",
+    "body": "Klan ingin memperbarui ruangan utama. Sangat mewah. Sangat terlihat. Sangat mahal.",
+    "choices": {
+      "A": "Menerima dengan sederhana",
+      "B": "Menolak pengeluaran itu",
+      "C": "Menyuruh Kaum Rahasia yang membayar"
+    }
+  },
+  "vampire_355": {
+    "title": "Notaris ruang bawah tanah",
+    "body": "Seorang notaris gelap menawarkan mencuci warisanmu. Baunya seperti jebakan.",
+    "choices": {
+      "A": "Mencobanya",
+      "B": "Mengawasinya",
+      "C": "Memutus kontak"
+    }
+  },
+  "vampire_356": {
+    "title": "Gang yang sedang diperbaiki",
+    "body": "Gang favoritmu dibongkar para pekerja. Kebiasaanmu tidak lagi berharga.",
+    "choices": {
+      "A": "Menyuap proyeknya",
+      "B": "Mengganti rute",
+      "C": "Bekerja pada malam hari"
+    }
+  },
+  "vampire_357": {
+    "title": "Piano tetangga",
+    "body": "Tetangga bermain piano saat fajar dan mengganggu tidurmu. Ini hampir seperti perang.",
+    "choices": {
+      "A": "Membungkamnya",
+      "B": "Membelinya",
+      "C": "Mengubah ritme harimu"
+    }
+  },
+  "vampire_358": {
+    "title": "Papan utang",
+    "body": "Seseorang memajang daftar utang klan di aula. Suasana jadi nikmat dengan cara yang buruk.",
+    "choices": {
+      "A": "Menghukum pelakunya",
+      "B": "Menghapus papan itu",
+      "C": "Memakai rasa malu itu"
+    }
+  },
+  "vampire_359": {
+    "title": "Pedagang sarung tangan",
+    "body": "Seorang pedagang menawarkan sarung tangan yang menyembunyikan dinginnya kulitmu.",
+    "choices": {
+      "A": "Membeli banyak",
+      "B": "Mencobanya pada klan",
+      "C": "Merekrutnya"
+    }
+  },
+  "vampire_360": {
+    "title": "Ruang bawah tanah teater",
+    "body": "Ruang bawah tanah teater berbau darah segar. Seseorang sedang bermain di sana sebelum kamu.",
+    "choices": {
+      "A": "Turun sendirian",
+      "B": "Menyuruh tempat itu diawasi",
+      "C": "Menutup teater"
+    }
+  },
+  "vampire_361": {
+    "title": "Akun anonim",
+    "body": "Sebuah akun daring menceritakan detail akurat tentang malam-malammu. Terlalu akurat.",
+    "choices": {
+      "A": "Meretasnya",
+      "B": "Mengabaikannya",
+      "C": "Mengubah kebiasaanmu"
+    }
+  },
+  "vampire_362": {
+    "title": "Kode baru",
+    "body": "Kaum Rahasia mengubah semua kode mereka tanpa memberitahumu. Ide bodoh yang hebat.",
+    "choices": {
+      "A": "Mengambil kembali kendali",
+      "B": "Menghukum para pemimpinnya",
+      "C": "Membiarkannya semalam"
+    }
+  },
+  "vampire_363": {
+    "title": "Pasar mawar",
+    "body": "Pasar mawar buka malam hari. Indah sekali. Penuh saksi sekali.",
+    "choices": {
+      "A": "Memindahkannya",
+      "B": "Melebur di dalam keramaian",
+      "C": "Membuat lampunya dipadamkan"
+    }
+  },
+  "vampire_364": {
+    "title": "Lorong dingin",
+    "body": "Sebuah lorong di sarang tiba-tiba membeku. Bahkan dinding seolah sedang menunggu.",
+    "choices": {
+      "A": "Menjelajahinya sampai ujung",
+      "B": "Menutup jalurnya",
+      "C": "Memanggil seorang sesepuh"
+    }
+  },
+  "vampire_365": {
+    "title": "Sopir wali kota",
+    "body": "Sopir wali kota mengenalimu dari foto lama. Dia menunggu bayaran.",
+    "choices": {
+      "A": "Membayarnya",
+      "B": "Membuatnya berbohong",
+      "C": "Menyuruhnya diikuti"
+    }
+  },
+  "vampire_366": {
+    "title": "Tren jubah",
+    "body": "Kaum Rahasia menghidupkan lagi jubah hitam. Para pemburu belum pernah sesibuk ini.",
+    "choices": {
+      "A": "Melarang sirkus ini",
+      "B": "Meluncurkan versi yang lebih sederhana",
+      "C": "Memanfaatkannya sebagai umpan"
+    }
+  },
+  "vampire_367": {
+    "title": "Sumur tersumbat",
+    "body": "Sebuah sumur tua di sarang tersumbat oleh sesuatu yang berat.",
+    "choices": {
+      "A": "Membukanya kembali",
+      "B": "Menutupnya selamanya",
+      "C": "Mendengarkan dulu"
+    }
+  },
+  "vampire_368": {
+    "title": "Penjual bunga yang penasaran",
+    "body": "Penjual bunga kini menjual lili putih kepada semua tetanggamu.",
+    "choices": {
+      "A": "Membeli seluruh stoknya",
+      "B": "Mengawasinya",
+      "C": "Membuatnya pergi"
+    }
+  },
+  "vampire_369": {
+    "title": "Utang sang saingan",
+    "body": "Seorang saingan mengakui utang yang sangat besar. Klan ingin melihatnya jatuh.",
+    "choices": {
+      "A": "Membantunya dengan harga mahal",
+      "B": "Menghancurkannya",
+      "C": "Membeli kesetiaannya"
+    }
+  },
+  "vampire_370": {
+    "title": "Pita polisi",
+    "body": "Pita polisi menutup sebuah jalan yang berguna bagi klan. Baunya seperti jebakan besar.",
+    "choices": {
+      "A": "Mengitari sektornya",
+      "B": "Menguji area itu",
+      "C": "Menciptakan insiden palsu"
+    }
+  },
+  "vampire_371": {
+    "title": "Peti milik penjaga pintu",
+    "body": "Penjaga pintu menyembunyikan sebuah peti di posnya. Di dalamnya ada simbolmu.",
+    "choices": {
+      "A": "Membukanya malam ini",
+      "B": "Mengamati lebih lama",
+      "C": "Membuat penjaga itu bicara"
+    }
+  },
+  "vampire_372": {
+    "title": "Ruang tanpa suara",
+    "body": "Sebuah ruangan di sarang menelan semua suara. Kaum Rahasia ingin menjadikannya kuil.",
+    "choices": {
+      "A": "Menutup ruangan itu",
+      "B": "Mempelajarinya dengan serius",
+      "C": "Memberikannya pada Kaum Rahasia"
+    }
+  },
+  "vampire_373": {
+    "title": "Pelayan fajar",
+    "body": "Sebuah kafe buka lebih awal dari biasanya tepat di depan sarang.",
+    "choices": {
+      "A": "Membeli kafe itu",
+      "B": "Menegosiasikan jadwalnya",
+      "C": "Mengganti jalan keluar"
+    }
+  },
+  "vampire_374": {
+    "title": "Surat hitam",
+    "body": "Surat bersegel hitam mengumumkan penghakiman atas dirimu. Tanpa nama. Tanpa tanggal.",
+    "choices": {
+      "A": "Membukanya sendiri",
+      "B": "Mengumpulkan klan",
+      "C": "Membakarnya tanpa membaca"
+    }
+  },
+  "vampire_375": {
+    "title": "Tawa dari ruang bawah tanah",
+    "body": "Tawa naik dari ruang bawah tanah yang tertutup. Kamu mengenali suara yang seharusnya sudah mati.",
+    "choices": {
+      "A": "Segera turun",
+      "B": "Menguncinya lebih kuat lagi",
+      "C": "Memanggil seorang sesepuh"
+    }
+  },
+  "vampire_376": {
+    "title": "Penjual bunga yang terluka",
+    "body": "Penjual bunga malam kembali dengan lengan tergantung. Dia melihat sesuatu.",
+    "choices": {
+      "A": "Membuatnya bicara",
+      "B": "Melindunginya",
+      "C": "Menjauhkannya"
+    }
+  },
+  "vampire_377": {
+    "title": "Ruang bawah tanah neon",
+    "body": "Ruang bawah tanah sebelah menyala merah neon setiap malam. Klan gelisah.",
+    "choices": {
+      "A": "Pergi melihat",
+      "B": "Mengamati dari jauh",
+      "C": "Memutus listriknya"
+    }
+  },
+  "vampire_378": {
+    "title": "Peti metro",
+    "body": "Sebuah peti terlupakan terletak di bawah peron tertutup. Ada tanggal kuno di atasnya.",
+    "choices": {
+      "A": "Membuka paksa",
+      "B": "Menyembunyikannya",
+      "C": "Membiarkannya tertidur"
+    }
+  },
+  "vampire_379": {
+    "title": "Pemula yang kelaparan",
+    "body": "Seorang pemula menolak menunggu aturan klan. Dia ingin keluar sekarang.",
+    "choices": {
+      "A": "Menahannya",
+      "B": "Mengikutinya",
+      "C": "Menghukumnya"
+    }
+  },
+  "vampire_380": {
+    "title": "Tukang ledeng yang diam",
+    "body": "Seorang tukang ledeng tahu terlalu banyak tentang ruang bawah tanahmu. Dia bekerja tanpa bertanya.",
+    "choices": {
+      "A": "Membayarnya lebih mahal",
+      "B": "Merekrutnya",
+      "C": "Mengganti timnya"
+    }
+  },
+  "vampire_381": {
+    "title": "Pendeta berbaju putih",
+    "body": "Seorang pendeta berbaju putih memberkati sebuah pintu di lingkungan ini. Ini bukan kebetulan.",
+    "choices": {
+      "A": "Menghapus berkatnya",
+      "B": "Mengawasi pendetanya",
+      "C": "Mengalihkan kerumunan"
+    }
+  },
+  "vampire_382": {
+    "title": "Alarm rusak",
+    "body": "Alarm sarang mati sendiri tiga kali dalam seminggu.",
+    "choices": {
+      "A": "Mengambil alih sistemnya",
+      "B": "Menempatkan penjaga",
+      "C": "Mengganti akses"
+    }
+  },
+  "vampire_383": {
+    "title": "Bar tanpa jendela",
+    "body": "Sebuah bar tanpa jendela buka dua jalan dari sini. Kaum Rahasia sudah ingin pergi ke sana.",
+    "choices": {
+      "A": "Menguji tempat itu",
+      "B": "Mengawasinya",
+      "C": "Melarang tempat itu"
+    }
+  },
+  "vampire_384": {
+    "title": "Berkas wali kota",
+    "body": "Sebuah berkas tentang wali kota tiba di mejamu. Baunya seperti jebakan yang berguna.",
+    "choices": {
+      "A": "Menggunakannya segera",
+      "B": "Memeriksanya dulu",
+      "C": "Menjualnya kembali"
+    }
+  },
+  "vampire_385": {
+    "title": "Ruang bawah tanah runtuh",
+    "body": "Sebuah ruang bawah tanah kecil di sarang runtuh. Sebuah lorong tua muncul di bawahnya.",
+    "choices": {
+      "A": "Turun sendirian",
+      "B": "Menutup areanya",
+      "C": "Menyuruh klan menggeledahnya"
+    }
+  },
+  "vampire_386": {
+    "title": "Kelompok hari Kamis",
+    "body": "Sekelompok manusia berkumpul tiap Kamis dekat tempatmu. Mereka terlalu banyak berbisik.",
+    "choices": {
+      "A": "Menyusup ke mereka",
+      "B": "Membubarkan mereka",
+      "C": "Terus mendengarkan"
+    }
+  },
+  "vampire_387": {
+    "title": "Penjahit yang lancang",
+    "body": "Penjahit di lingkunganmu memanggilmu pangeran di depan semua orang.",
+    "choices": {
+      "A": "Menegurnya",
+      "B": "Membayarnya",
+      "C": "Berhenti menemuinya"
+    }
+  },
+  "vampire_388": {
+    "title": "Telepon yang ditemukan",
+    "body": "Sebuah telepon tertinggal berisi foto sarang dan jalan di depannya.",
+    "choices": {
+      "A": "Menghancurkannya",
+      "B": "Menyelidikinya",
+      "C": "Menjebak orang yang kembali mencarinya"
+    }
+  },
+  "vampire_389": {
+    "title": "Baron bisu",
+    "body": "Seorang baron tua kembali ke sarang. Dia tak lagi bicara, tapi semua gemetar.",
+    "choices": {
+      "A": "Menerimanya",
+      "B": "Menjaganya tetap jauh",
+      "C": "Mendorongnya untuk memilih pihak"
+    }
+  },
+  "vampire_390": {
+    "title": "Lorong tenggelam",
+    "body": "Sebuah lorong tertutup air hitam. Tak seorang pun tahu dari mana asalnya.",
+    "choices": {
+      "A": "Mengikuti jejak airnya",
+      "B": "Cepat memompanya",
+      "C": "Menutup area itu"
+    }
+  },
+  "vampire_391": {
+    "title": "Penjaga pintu terluka",
+    "body": "Penjaga pintu yang kamu bayar kembali dengan bibir pecah. Dia telah bicara pada seseorang.",
+    "choices": {
+      "A": "Menginterogasinya",
+      "B": "Mengobatinya",
+      "C": "Menggantinya"
+    }
+  },
+  "vampire_392": {
+    "title": "Pasar pagi",
+    "body": "Pasar muncul terlalu pagi dekat sarang. Tatapan datang bersama fajar.",
+    "choices": {
+      "A": "Menyuruh pasar itu dipindah",
+      "B": "Membeli beberapa kios",
+      "C": "Mengganti jalan keluar"
+    }
+  },
+  "vampire_393": {
+    "title": "Penjaga atap",
+    "body": "Seseorang naik ke atap sebelah setiap malam dengan teropong.",
+    "choices": {
+      "A": "Mengikutinya",
+      "B": "Membuatnya pergi",
+      "C": "Membuat umpan"
+    }
+  },
+  "vampire_394": {
+    "title": "Kunci yang meleleh",
+    "body": "Kunci sebuah ruangan terlarang meleleh dari sisi dalam.",
+    "choices": {
+      "A": "Masuk sekarang",
+      "B": "Memanggil seorang sesepuh",
+      "C": "Menyegelnya lagi"
+    }
+  },
+  "vampire_395": {
+    "title": "Tetangga yang terlalu sopan",
+    "body": "Seorang tetangga menahan pintu untukmu dengan senyum yang terlalu tenang. Dia sudah menunggumu.",
+    "choices": {
+      "A": "Mempesonanya",
+      "B": "Menghindarinya setelah ini",
+      "C": "Mengawasinya"
+    }
+  },
+  "vampire_396": {
+    "title": "Terowongan pelabuhan",
+    "body": "Sebuah jalur muncul dari pelabuhan menuju lingkunganmu. Jalur itu baru.",
+    "choices": {
+      "A": "Mengunjunginya",
+      "B": "Menjebaknya",
+      "C": "Membuatnya runtuh"
+    }
+  },
+  "vampire_397": {
+    "title": "Saingan yang memesona",
+    "body": "Seorang saingan membuat klanmu tertawa. Itu buruk bagi otoritasmu.",
+    "choices": {
+      "A": "Menegurnya",
+      "B": "Ikut menyanjungnya",
+      "C": "Memisahkannya dari kelompok"
+    }
+  },
+  "vampire_398": {
+    "title": "Kotak tanpa nama",
+    "body": "Sebuah kotak berat datang tanpa nama. Di dalamnya, sesuatu menggaruk perlahan.",
+    "choices": {
+      "A": "Membukanya",
+      "B": "Membuangnya jauh-jauh",
+      "C": "Membiarkannya tetap tertutup"
+    }
+  },
+  "vampire_399": {
+    "title": "Peron kosong",
+    "body": "Peron rahasia kosong selama berhari-hari. Bahkan tikus-tikus pun menghilang.",
+    "choices": {
+      "A": "Menjelajahinya sendirian",
+      "B": "Mengirim klan",
+      "C": "Meninggalkan peron itu"
+    }
+  },
+  "vampire_400": {
+    "title": "Perjanjian pagi",
+    "body": "Klan menginginkan janji. Kaum Rahasia menginginkan pertanda. Fajar sudah mendekat.",
+    "choices": {
+      "A": "Memilih klan",
+      "B": "Memilih Kaum Rahasia",
+      "C": "Memilih pelarian"
+    }
+  }
+}

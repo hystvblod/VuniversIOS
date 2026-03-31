@@ -1,0 +1,185 @@
+﻿{
+  "version": 1,
+  "events": {
+    "mega_corp_ceo_ev_001": {
+      "title": "Nota de analistas",
+      "body": "Un gran banco publica una nota muy positiva. Las curvas suben y los fondos sonríen.",
+      "effect": "Inversores: +5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "mega_corp_ceo_ev_002": {
+      "title": "Semana de los equipos",
+      "body": "Los managers agradecen públicamente a los equipos. El ambiente por fin gana un poco de aire.",
+      "effect": "Empleados: +5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "mega_corp_ceo_ev_003": {
+      "title": "Control sorpresa",
+      "body": "Un expediente llega al despacho equivocado. Las autoridades empiezan a mirar más de cerca.",
+      "effect": "Reguladores: -5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "mega_corp_ceo_ev_004": {
+      "title": "Campaña exitosa",
+      "body": "La nueva campaña gusta. Incluso a los críticos les cuesta encontrar algo que atacar.",
+      "effect": "Imagen de marca: +5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "mega_corp_ceo_ev_005": {
+      "title": "Trimestre decepcionante",
+      "body": "Los resultados caen un poco demasiado bajos. Los inversores se vuelven de repente muy creativos con sus preocupaciones.",
+      "effect": "Inversores: -5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "mega_corp_ceo_ev_006": {
+      "title": "Procedimiento validado",
+      "body": "Una auditoría termina sin drama. Por una vez, todo estaba en su sitio.",
+      "effect": "Reguladores: +5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "mega_corp_ceo_ev_007": {
+      "title": "Rotación silenciosa",
+      "body": "Las salidas se acumulan sin ruido. Es discreto, así que resulta aún más inquietante.",
+      "effect": "Empleados: -5 por carta",
+      "duration": "Duración: 7 cartas"
+    },
+    "mega_corp_ceo_ev_008": {
+      "title": "Pequeño escándalo",
+      "body": "Una pequeña polémica crece en línea. No es enorme, pero sí lo bastante como para quedarse unos días.",
+      "effect": "Imagen de marca: -5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "mega_corp_ceo_ev_009": {
+      "title": "Auditoría ejemplar",
+      "body": "Los inspectores se marchan casi relajados. Eso es raro, así que todo el mundo lo nota.",
+      "effect": "Reguladores: +5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "mega_corp_ceo_ev_010": {
+      "title": "Bono de equipo",
+      "body": "Un gesto concreto llega en el momento justo. Los pasillos respiran un poco mejor.",
+      "effect": "Empleados: +5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "mega_corp_ceo_ev_011": {
+      "title": "Artículo demoledor",
+      "body": "Un medio publica un retrato frío de tu grupo. La fórmula hace daño, así que circula por todas partes.",
+      "effect": "Imagen de marca: -5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "mega_corp_ceo_ev_012": {
+      "title": "Entrevista viral",
+      "body": "Una intervención pública sale sorprendentemente bien. Los fragmentos circulan en la buena dirección.",
+      "effect": "Imagen de marca: +5 por carta",
+      "duration": "Duración: 7 cartas"
+    },
+    "mega_corp_ceo_ev_013": {
+      "title": "Previsiones revisadas",
+      "body": "Los objetivos se corrigen a la baja. El mercado finge entenderlo y aun así vende.",
+      "effect": "Inversores: -5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "mega_corp_ceo_ev_014": {
+      "title": "Herramienta interna fluida",
+      "body": "Una nueva herramienta por fin simplifica el trabajo diario. Nadie aplaude, pero todos respiran.",
+      "effect": "Empleados: +5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "mega_corp_ceo_ev_015": {
+      "title": "Contrato gigante",
+      "body": "Un contrato muy grande cae en tus manos. A los accionistas les encantan las firmas con muchos ceros.",
+      "effect": "Inversores: +5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "mega_corp_ceo_ev_016": {
+      "title": "Aviso oficial",
+      "body": "Llega una solicitud de explicación con un tono muy educado y muy poco tranquilizador.",
+      "effect": "Reguladores: -5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "mega_corp_ceo_ev_017": {
+      "title": "Producto muy querido",
+      "body": "Un producto del grupo se convierte en el favorito del momento. Los clientes hablan mejor de él que tu equipo de comunicación.",
+      "effect": "Imagen de marca: +5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "mega_corp_ceo_ev_018": {
+      "title": "Managers bajo presión",
+      "body": "La tensión sube un nivel en varios equipos. Los resultados se mantienen, el ánimo mucho menos.",
+      "effect": "Empleados: -5 por carta",
+      "duration": "Duración: 7 cartas"
+    },
+    "mega_corp_ceo_ev_019": {
+      "title": "Expediente limpio",
+      "body": "Todo está impecable sobre el papel. Es casi demasiado bonito, pero esta vez funciona.",
+      "effect": "Reguladores: +5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "mega_corp_ceo_ev_020": {
+      "title": "Consejo glacial",
+      "body": "El consejo escucha en silencio. Nunca es una buena señal para la paciencia del mercado.",
+      "effect": "Inversores: -5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "mega_corp_ceo_ev_021": {
+      "title": "Rumor de producto",
+      "body": "Un rumor absurdo prende demasiado bien. Cuanto más difuso es, más lejos viaja.",
+      "effect": "Imagen de marca: -5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "mega_corp_ceo_ev_022": {
+      "title": "Contratación sólida",
+      "body": "Varios perfiles clave se unen al grupo. Los equipos empiezan a pensar que quizá no todo se está rompiendo.",
+      "effect": "Empleados: +5 por carta",
+      "duration": "Duración: 7 cartas"
+    },
+    "mega_corp_ceo_ev_023": {
+      "title": "Objetivo superado",
+      "body": "Un indicador clave supera las expectativas. A los inversores les encanta cuando las cifras hacen el trabajo por ti.",
+      "effect": "Inversores: +5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "mega_corp_ceo_ev_024": {
+      "title": "Cláusula ambigua",
+      "body": "Una vieja cláusula atrae de repente una atención nueva. Los juristas fruncen el ceño en cadena.",
+      "effect": "Reguladores: -5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "mega_corp_ceo_ev_025": {
+      "title": "Reorganización brutal",
+      "body": "El nuevo organigrama va rápido. Los empleados también, pero más bien hacia la salida.",
+      "effect": "Empleados: -5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "mega_corp_ceo_ev_026": {
+      "title": "Certificación obtenida",
+      "body": "Por fin llega una certificación importante. Es oficial, está sellada y resulta muy práctica para enseñarla en todas partes.",
+      "effect": "Reguladores: +5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "mega_corp_ceo_ev_027": {
+      "title": "Dividendo aplaudido",
+      "body": "El pago anunciado calma bastantes nervios. El amor del mercado sigue siendo interesado, pero vuelve rápido.",
+      "effect": "Inversores: +5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "mega_corp_ceo_ev_028": {
+      "title": "Foto desafortunada",
+      "body": "Una imagen tomada en el peor momento circula demasiado bien. Tú querías control, internet quería un meme.",
+      "effect": "Imagen de marca: -5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "mega_corp_ceo_ev_029": {
+      "title": "Demasiadas reuniones",
+      "body": "Las agendas se desbordan y los equipos se saturan. Nadie sabe ya cuándo empieza el trabajo real.",
+      "effect": "Empleados: -5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "mega_corp_ceo_ev_030": {
+      "title": "Alfombra roja regulatoria",
+      "body": "Las autoridades citan a tu grupo como ejemplo. Es raro, así que resulta muy rentable en credibilidad.",
+      "effect": "Reguladores: +5 por carta",
+      "duration": "Duración: 7 cartas"
+    }
+  }
+}

@@ -1,0 +1,185 @@
+﻿{
+  "version": 1,
+  "events": {
+    "hell_king_ev_001": {
+      "title": "Tax Chest",
+      "body": "A chest creaks and opens all by itself. The ledgers love that.",
+      "effect": "Souls: +5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "hell_king_ev_002": {
+      "title": "Legion Review",
+      "body": "The troops parade. Everyone is under pressure... even order.",
+      "effect": "Legions: +5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "hell_king_ev_003": {
+      "title": "Soul Market",
+      "body": "The bids keep rising. The scribes note every sigh.",
+      "effect": "Order: -5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "hell_king_ev_004": {
+      "title": "Party on the Surface",
+      "body": "A night far too loud up above. The consequences come down fast.",
+      "effect": "Surface: +5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "hell_king_ev_005": {
+      "title": "Fast Recruitment",
+      "body": "They recruit nonstop. Efficient... but the corridors are groaning.",
+      "effect": "Souls: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "hell_king_ev_006": {
+      "title": "Order Decree",
+      "body": "A new decree comes down. It calms the crowds, not the leaders.",
+      "effect": "Order: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "hell_king_ev_007": {
+      "title": "Profitable Pact",
+      "body": "A pact brings in a lot. But everyone wants a share.",
+      "effect": "Legions: -5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "hell_king_ev_008": {
+      "title": "Rumor Above",
+      "body": "A rumor spreads on the surface. You can already feel the wave coming.",
+      "effect": "Surface: -5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "hell_king_ev_009": {
+      "title": "Order Audit",
+      "body": "The inspectors arrive. The rules tighten.",
+      "effect": "Order: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "hell_king_ev_010": {
+      "title": "Drills",
+      "body": "The legions train day and night. It looks impressive... and exhausting.",
+      "effect": "Legions: +5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "hell_king_ev_011": {
+      "title": "Harvest Bonus",
+      "body": "An unexpected soul harvest. You take it, obviously.",
+      "effect": "Surface: -5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "hell_king_ev_012": {
+      "title": "Forbidden Carnival",
+      "body": "An improvised carnival. Laughter rises, order falls.",
+      "effect": "Surface: +5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "hell_king_ev_013": {
+      "title": "Week of Discipline",
+      "body": "They tighten the screws. Some are grinding their teeth.",
+      "effect": "Souls: -5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "hell_king_ev_014": {
+      "title": "Banner Parade",
+      "body": "The banners snap in the wind. Appearances matter.",
+      "effect": "Legions: +5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "hell_king_ev_015": {
+      "title": "Signing Bonuses",
+      "body": "Contracts are being signed. Lots of them. Very quickly.",
+      "effect": "Souls: +5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "hell_king_ev_016": {
+      "title": "Barracks Inspection",
+      "body": "Surprise inspection. The officers pretend to be calm.",
+      "effect": "Order: -5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "hell_king_ev_017": {
+      "title": "Tiny Riot",
+      "body": "A small riot. Not a big deal... unless it lasts.",
+      "effect": "Surface: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "hell_king_ev_018": {
+      "title": "Desk Stampede",
+      "body": "Too many requests, not enough patience. Classic.",
+      "effect": "Legions: -5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "hell_king_ev_019": {
+      "title": "Administrative Calm",
+      "body": "Everything works. Suspicious, but pleasant.",
+      "effect": "Order: +5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "hell_king_ev_020": {
+      "title": "VIP Evening",
+      "body": "A very exclusive dinner. Alliances are made over dessert.",
+      "effect": "Souls: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "hell_king_ev_021": {
+      "title": "Rule of the Day",
+      "body": "New rule. Nobody likes it, so it works.",
+      "effect": "Surface: -5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "hell_king_ev_022": {
+      "title": "Shortage",
+      "body": "Something is missing. No one knows what, but everyone panics.",
+      "effect": "Legions: +5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "hell_king_ev_023": {
+      "title": "Tempting Offer",
+      "body": "A brilliant offer. You know there's a catch. You take it anyway.",
+      "effect": "Souls: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "hell_king_ev_024": {
+      "title": "Fast Negotiation",
+      "body": "A handshake, three signatures, and on to the next thing.",
+      "effect": "Order: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "hell_king_ev_025": {
+      "title": "Surprise Transfer",
+      "body": "Units are moved around. It reorganizes everything, including tempers.",
+      "effect": "Legions: -5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "hell_king_ev_026": {
+      "title": "Citation",
+      "body": "A write-up lands on the desk. Nobody laughs.",
+      "effect": "Order: +5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "hell_king_ev_027": {
+      "title": "Ritual Reward",
+      "body": "The loyal are rewarded. The others glare.",
+      "effect": "Souls: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "hell_king_ev_028": {
+      "title": "Surface Panic",
+      "body": "Up above, panic spreads. Down below, you cash in.",
+      "effect": "Surface: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "hell_king_ev_029": {
+      "title": "Test of Strength",
+      "body": "Small test. Big egos. Result... mixed.",
+      "effect": "Legions: -5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "hell_king_ev_030": {
+      "title": "Internal Memo",
+      "body": "A memo circulates. It always ends up on the wrong desk.",
+      "effect": "Order: +5 per card",
+      "duration": "Duration: 7 cards"
+    }
+  }
+}

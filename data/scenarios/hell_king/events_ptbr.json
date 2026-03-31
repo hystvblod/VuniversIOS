@@ -1,0 +1,185 @@
+﻿{
+  "version": 1,
+  "events": {
+    "hell_king_ev_001": {
+      "title": "Cofre dos Impostos",
+      "body": "Um cofre range e se abre sozinho. Os registros adoram isso.",
+      "effect": "Almas: +5 por carta",
+      "duration": "Duração: 5 cartas"
+    },
+    "hell_king_ev_002": {
+      "title": "Revista das Legiões",
+      "body": "As tropas desfilam. Todo mundo está sob pressão... até a ordem.",
+      "effect": "Legiões: +5 por carta",
+      "duration": "Duração: 6 cartas"
+    },
+    "hell_king_ev_003": {
+      "title": "Mercado das Almas",
+      "body": "Os lances sobem. Os escribas anotam cada suspiro.",
+      "effect": "Ordem: -5 por carta",
+      "duration": "Duração: 4 cartas"
+    },
+    "hell_king_ev_004": {
+      "title": "Festa na Superfície",
+      "body": "Uma noite barulhenta demais lá em cima. As consequências descem rápido.",
+      "effect": "Superfície: +5 por carta",
+      "duration": "Duração: 5 cartas"
+    },
+    "hell_king_ev_005": {
+      "title": "Recrutamento Expresso",
+      "body": "O recrutamento corre solto. Eficiente... mas os corredores reclamam.",
+      "effect": "Almas: -5 por carta",
+      "duration": "Duração: 6 cartas"
+    },
+    "hell_king_ev_006": {
+      "title": "Decreto de Ordem",
+      "body": "Um novo decreto cai. Isso acalma as multidões, não os chefes.",
+      "effect": "Ordem: +5 por carta",
+      "duration": "Duração: 4 cartas"
+    },
+    "hell_king_ev_007": {
+      "title": "Pacto Vantajoso",
+      "body": "Um pacto rende muito. Mas todo mundo quer a sua parte.",
+      "effect": "Legiões: -5 por carta",
+      "duration": "Duração: 7 cartas"
+    },
+    "hell_king_ev_008": {
+      "title": "Boato na Superfície",
+      "body": "Um boato corre lá em cima. Você já sente a onda chegando.",
+      "effect": "Superfície: -5 por carta",
+      "duration": "Duração: 5 cartas"
+    },
+    "hell_king_ev_009": {
+      "title": "Auditoria da Ordem",
+      "body": "Os inspetores chegam. As regras ficam mais rígidas.",
+      "effect": "Ordem: +5 por carta",
+      "duration": "Duração: 4 cartas"
+    },
+    "hell_king_ev_010": {
+      "title": "Manobras",
+      "body": "As legiões treinam dia e noite. Impressiona... e cansa.",
+      "effect": "Legiões: +5 por carta",
+      "duration": "Duração: 6 cartas"
+    },
+    "hell_king_ev_011": {
+      "title": "Bônus de Colheita",
+      "body": "Uma colheita de almas inesperada. Você aproveita, claro.",
+      "effect": "Superfície: -5 por carta",
+      "duration": "Duração: 3 cartas"
+    },
+    "hell_king_ev_012": {
+      "title": "Carnaval Proibido",
+      "body": "Um carnaval improvisado. As risadas sobem, a ordem desce.",
+      "effect": "Superfície: +5 por carta",
+      "duration": "Duração: 7 cartas"
+    },
+    "hell_king_ev_013": {
+      "title": "Semana da Disciplina",
+      "body": "A pressão aumenta. Alguns rangem os dentes.",
+      "effect": "Almas: -5 por carta",
+      "duration": "Duração: 4 cartas"
+    },
+    "hell_king_ev_014": {
+      "title": "Desfile das Bandeiras",
+      "body": "As bandeiras estalam. As aparências importam.",
+      "effect": "Legiões: +5 por carta",
+      "duration": "Duração: 6 cartas"
+    },
+    "hell_king_ev_015": {
+      "title": "Bônus por Assinatura",
+      "body": "Contratos são assinados. Muitos. Muito rápido.",
+      "effect": "Almas: +5 por carta",
+      "duration": "Duração: 3 cartas"
+    },
+    "hell_king_ev_016": {
+      "title": "Inspeção dos Quartéis",
+      "body": "Inspeção surpresa. Os oficiais fingem estar tranquilos.",
+      "effect": "Ordem: -5 por carta",
+      "duration": "Duração: 5 cartas"
+    },
+    "hell_king_ev_017": {
+      "title": "Pequena Revolta",
+      "body": "Uma pequena revolta. Nada grave... a não ser que dure.",
+      "effect": "Superfície: +5 por carta",
+      "duration": "Duração: 4 cartas"
+    },
+    "hell_king_ev_018": {
+      "title": "Empurra-Empurra no Guichê",
+      "body": "Pedidos demais, paciência de menos. Clássico.",
+      "effect": "Legiões: -5 por carta",
+      "duration": "Duração: 7 cartas"
+    },
+    "hell_king_ev_019": {
+      "title": "Calmaria Administrativa",
+      "body": "Tudo funciona. É suspeito, mas agradável.",
+      "effect": "Ordem: +5 por carta",
+      "duration": "Duração: 3 cartas"
+    },
+    "hell_king_ev_020": {
+      "title": "Noite VIP",
+      "body": "Um jantar muito seleto. As alianças se formam na sobremesa.",
+      "effect": "Almas: -5 por carta",
+      "duration": "Duração: 6 cartas"
+    },
+    "hell_king_ev_021": {
+      "title": "Regra do Dia",
+      "body": "Nova regra. Ninguém gosta dela, então ela funciona.",
+      "effect": "Superfície: -5 por carta",
+      "duration": "Duração: 5 cartas"
+    },
+    "hell_king_ev_022": {
+      "title": "Falta de Estoque",
+      "body": "Está faltando alguma coisa. Ninguém sabe o quê, mas todo mundo entra em pânico.",
+      "effect": "Legiões: +5 por carta",
+      "duration": "Duração: 7 cartas"
+    },
+    "hell_king_ev_023": {
+      "title": "Oferta Tentadora",
+      "body": "Uma oferta brilhante. Você sabe que tem algo escondido aí. Mesmo assim, aceita.",
+      "effect": "Almas: +5 por carta",
+      "duration": "Duração: 4 cartas"
+    },
+    "hell_king_ev_024": {
+      "title": "Negociação Expresso",
+      "body": "Um aperto de mão, três assinaturas e seguimos em frente.",
+      "effect": "Ordem: -5 por carta",
+      "duration": "Duração: 6 cartas"
+    },
+    "hell_king_ev_025": {
+      "title": "Transferência Surpresa",
+      "body": "Unidades são deslocadas. Isso reorganiza tudo, inclusive os humores.",
+      "effect": "Legiões: -5 por carta",
+      "duration": "Duração: 3 cartas"
+    },
+    "hell_king_ev_026": {
+      "title": "Auto de Infração",
+      "body": "Um auto cai na mesa. Ninguém acha graça.",
+      "effect": "Ordem: +5 por carta",
+      "duration": "Duração: 5 cartas"
+    },
+    "hell_king_ev_027": {
+      "title": "Recompensa Ritual",
+      "body": "Os leais são recompensados. Os outros olham torto.",
+      "effect": "Almas: +5 por carta",
+      "duration": "Duração: 4 cartas"
+    },
+    "hell_king_ev_028": {
+      "title": "Pânico na Superfície",
+      "body": "Lá em cima, tudo entra em pânico. Aqui embaixo, você lucra.",
+      "effect": "Superfície: -5 por carta",
+      "duration": "Duração: 6 cartas"
+    },
+    "hell_king_ev_029": {
+      "title": "Teste de Força",
+      "body": "Pequeno teste. Grandes egos. Resultado... misto.",
+      "effect": "Legiões: -5 por carta",
+      "duration": "Duração: 3 cartas"
+    },
+    "hell_king_ev_030": {
+      "title": "Nota Interna",
+      "body": "Uma nota circula. Ela sempre acaba na mesa errada.",
+      "effect": "Ordem: +5 por carta",
+      "duration": "Duração: 7 cartas"
+    }
+  }
+}

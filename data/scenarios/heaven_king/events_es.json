@@ -1,0 +1,185 @@
+﻿{
+  "version": 1,
+  "events": {
+    "heaven_king_ev_001": {
+      "title": "Ola de Recogimiento",
+      "body": "Una calma suave atraviesa las nubes. Incluso los ángeles más habladores susurran con elegancia.",
+      "effect": "Oraciones: +5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "heaven_king_ev_002": {
+      "title": "Gran Coro de la Mañana",
+      "body": "Los fieles cantan con tanto entusiasmo que hasta las columnas celestiales vibran un poco.",
+      "effect": "Culto: +5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "heaven_king_ev_003": {
+      "title": "Día de Cuestionamiento",
+      "body": "Los mortales reflexionan, dudan, vacilan. Nada malo. Solo una gran reunión interior.",
+      "effect": "Libre albedrío: -5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "heaven_king_ev_004": {
+      "title": "Pequeños Milagros Bien Colocados",
+      "body": "Algunos pequeños impulsos llegan en el momento justo. Sutiles, limpios, casi elegantes.",
+      "effect": "Intervención: +5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "heaven_king_ev_005": {
+      "title": "Silencio de las Capillas",
+      "body": "Una fatiga pasajera flota entre los fieles. El cielo no juzga. Solo suspira un poco.",
+      "effect": "Oraciones: -5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "heaven_king_ev_006": {
+      "title": "Impulso de Conciencia",
+      "body": "Los mortales deciden pensar por sí mismos con una energía casi insolente. Molesto, pero noble.",
+      "effect": "Libre albedrío: +5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "heaven_king_ev_007": {
+      "title": "Bajada de Fervor",
+      "body": "Los grandes ritos atraen a un poco menos de gente. Las velas, al menos, siguen siendo dignas.",
+      "effect": "Culto: -5 por carta",
+      "duration": "Duración: 7 cartas"
+    },
+    "heaven_king_ev_008": {
+      "title": "Política de No Intervención",
+      "body": "El reino decide dejar respirar al mundo. Muy sabio. Muy frustrante para los ángeles nerviosos.",
+      "effect": "Intervención: -5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "heaven_king_ev_009": {
+      "title": "Arrebato de Independencia",
+      "body": "Allá abajo se toman decisiones valientes sin señales luminosas ni voces en el cielo. Qué audacia.",
+      "effect": "Libre albedrío: +5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "heaven_king_ev_010": {
+      "title": "Procesión Luminosa",
+      "body": "Los cantos suben, los pasos se acompasan y todo el mundo parece saber exactamente adónde va.",
+      "effect": "Culto: +5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "heaven_king_ev_011": {
+      "title": "Expediente de Milagros Retrasados",
+      "body": "Algunas peticiones se quedan amontonadas. Nadie entra oficialmente en pánico, así que todos entran en pánico con cortesía.",
+      "effect": "Intervención: -5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "heaven_king_ev_012": {
+      "title": "Lluvia de Señales Favorables",
+      "body": "Las coincidencias felices se multiplican. Los arcángeles lo llaman una orquestación fina. Los mortales dicen wow.",
+      "effect": "Intervención: +5 por carta",
+      "duration": "Duración: 7 cartas"
+    },
+    "heaven_king_ev_013": {
+      "title": "Noche sin Respuesta",
+      "body": "Las llamadas del corazón se vuelven más escasas. El silencio no es cruel. Solo está un poco vacío.",
+      "effect": "Oraciones: -5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "heaven_king_ev_014": {
+      "title": "Fiesta de las Voces Unidas",
+      "body": "Los fieles se reúnen con gracia. Cantan tan fuerte que una nube pide una pausa.",
+      "effect": "Culto: +5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "heaven_king_ev_015": {
+      "title": "Amanecer del Recogimiento",
+      "body": "Una suavidad sube desde la Tierra. Por una vez, incluso la administración celestial lo encuentra hermoso sin añadir nada.",
+      "effect": "Oraciones: +5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "heaven_king_ev_016": {
+      "title": "Espíritus Demasiado Curiosos",
+      "body": "Muchos se preguntan si de verdad deben seguir el camino señalado. Spoiler, no necesariamente.",
+      "effect": "Libre albedrío: -5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "heaven_king_ev_017": {
+      "title": "Señal en el Momento Justo",
+      "body": "Un pequeño empujón bien colocado evita un gran desastre. Limpio. Discreto. Satisfactorio.",
+      "effect": "Intervención: +5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "heaven_king_ev_018": {
+      "title": "Fieles Distraídos",
+      "body": "Las miradas se pierden, los cantos aflojan y alguien está claramente revisando otra cosa durante el oficio.",
+      "effect": "Culto: -5 por carta",
+      "duration": "Duración: 7 cartas"
+    },
+    "heaven_king_ev_019": {
+      "title": "Elecciones Valientes",
+      "body": "Los mortales avanzan sin red, con dignidad y un poco de pánico. El cielo respeta eso muchísimo.",
+      "effect": "Libre albedrío: +5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "heaven_king_ev_020": {
+      "title": "Susurros Cansados",
+      "body": "Las oraciones siguen llegando, pero con menos impulso. Un poco como un mensaje enviado a las dos de la mañana.",
+      "effect": "Oraciones: -5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "heaven_king_ev_021": {
+      "title": "Observación Respetuosa",
+      "body": "El paraíso observa sin actuar. Es noble, medido y francamente insoportable para quienes aman pulsar botones.",
+      "effect": "Intervención: -5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "heaven_king_ev_022": {
+      "title": "Renovación Litúrgica",
+      "body": "Los ritos recuperan su brillo. Hasta los viejos incensarios se mantienen más rectos.",
+      "effect": "Culto: +5 por carta",
+      "duration": "Duración: 7 cartas"
+    },
+    "heaven_king_ev_023": {
+      "title": "Manos Unidas",
+      "body": "Las llamadas sinceras ascienden con calidez. Es simple, humilde y muy eficaz.",
+      "effect": "Oraciones: +5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "heaven_king_ev_024": {
+      "title": "Ola de Autonomía",
+      "body": "Los mortales quieren decidir solos. El cielo duda entre la admiración y un pequeño tic nervioso.",
+      "effect": "Libre albedrío: -5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "heaven_king_ev_025": {
+      "title": "Templo Medio Vacío",
+      "body": "Los bancos suenan un poco huecos. No es una catástrofe. Solo un recordatorio punzante.",
+      "effect": "Culto: -5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "heaven_king_ev_026": {
+      "title": "Gran Despertar Interior",
+      "body": "Las conciencias se iluminan, las decisiones se enderezan y el destino debe compartir el escenario.",
+      "effect": "Libre albedrío: +5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "heaven_king_ev_027": {
+      "title": "Coro de Corazones Sinceros",
+      "body": "Las oraciones suben sin decorado, sin postura, solo verdaderas. Al cielo le encanta cuando todo es sobrio.",
+      "effect": "Oraciones: +5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "heaven_king_ev_028": {
+      "title": "Pausa Celestial",
+      "body": "Las intervenciones se vuelven más raras durante un tiempo. No por olvido. Por lo que oficialmente se llama confianza.",
+      "effect": "Intervención: -5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "heaven_king_ev_029": {
+      "title": "Rito un Poco Demasiado Largo",
+      "body": "El culto sigue, sigue todavía, y hasta las estatuas parecen desconectarse un instante.",
+      "effect": "Culto: -5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "heaven_king_ev_030": {
+      "title": "Impulso Libre",
+      "body": "El mundo avanza por sí mismo con una dignidad sorprendente. Para el cielo, es molesto y magnífico.",
+      "effect": "Libre albedrío: +5 por carta",
+      "duration": "Duración: 7 cartas"
+    }
+  }
+}

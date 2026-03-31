@@ -1,0 +1,3603 @@
+﻿{
+  "nw_001": {
+    "title": "Natürlicher Hafen",
+    "body": "Eine perfekte Bucht kann unser Eingangstor oder nur ein einfacher Halt werden.",
+    "choices": {
+      "A": "Dort ein Fort bauen",
+      "B": "Dort einen Markt eröffnen",
+      "C": "Sie geheim halten"
+    }
+  },
+  "nw_002": {
+    "title": "Steuer des Königs",
+    "body": "Der Hof fordert seinen Anteil, noch bevor die Kasse atmen kann.",
+    "choices": {
+      "A": "Ohne Diskussion zahlen",
+      "B": "Die Zahlung verzögern",
+      "C": "Stattdessen Geschenke schicken"
+    }
+  },
+  "nw_003": {
+    "title": "Listiger Dolmetscher",
+    "body": "Unser Dolmetscher vereinfacht die Verträge, wenn es ihm passt.",
+    "choices": {
+      "A": "Ihn behalten, weil er nützlich ist",
+      "B": "Ihn schnell ersetzen",
+      "C": "Ihn genau beobachten"
+    }
+  },
+  "nw_004": {
+    "title": "Versteckte Mine",
+    "body": "Ein Führer spricht von einer Mine fern der Küste und nah am Ärger.",
+    "choices": {
+      "A": "Soldaten schicken",
+      "B": "Bergleute schicken",
+      "C": "Nur das Geheimnis kaufen"
+    }
+  },
+  "nw_005": {
+    "title": "Verbündetes Dorf",
+    "body": "Ein Nachbardorf bietet seinen Frieden gegen Werkzeuge und Respekt an.",
+    "choices": {
+      "A": "Das Bündnis annehmen",
+      "B": "Das Gebiet sofort nehmen",
+      "C": "Höflich ablehnen"
+    }
+  },
+  "nw_006": {
+    "title": "Hungrige Besatzung",
+    "body": "Die Seeleute wollen ein richtiges Festmahl und nicht schon wieder traurigen Fisch.",
+    "choices": {
+      "A": "Ein großes Essen bezahlen",
+      "B": "Später etwas Besseres versprechen",
+      "C": "Vor Ort einkaufen und den Hafen einladen"
+    }
+  },
+  "nw_007": {
+    "title": "Fort oder Markt",
+    "body": "Wir haben weder genug Männer noch genug Geld, um alles zu tun.",
+    "choices": {
+      "A": "Zuerst das Fort",
+      "B": "Zuerst den Markt",
+      "C": "Vorerst nichts tun"
+    }
+  },
+  "nw_008": {
+    "title": "Verkaufte Karten",
+    "body": "Ein Kartograf will unsere Routen an den Meistbietenden verkaufen.",
+    "choices": {
+      "A": "Ihn für sein Schweigen bezahlen",
+      "B": "Ihn beim König anzeigen",
+      "C": "Ihn unter Aufsicht verkaufen lassen"
+    }
+  },
+  "nw_009": {
+    "title": "Flagge zu früh",
+    "body": "Hier unsere Farben zu pflanzen wäre glorreich oder sehr unklug.",
+    "choices": {
+      "A": "Die Flagge hissen",
+      "B": "Auf ein Abkommen warten",
+      "C": "Sie hissen und dann Geschenke anbieten"
+    }
+  },
+  "nw_010": {
+    "title": "Lokale Ernte",
+    "body": "Die Ernten sind gut. Jeder will seinen Anteil noch vor dem Abend.",
+    "choices": {
+      "A": "Für die Krone kaufen",
+      "B": "Den Markt entscheiden lassen",
+      "C": "Mit dem Dorf teilen"
+    }
+  },
+  "nw_011": {
+    "title": "Landesinnere Route",
+    "body": "Ein Pfad ins Landesinnere verspricht Land und Fallen in gleichen Mengen.",
+    "choices": {
+      "A": "Die Route anlegen",
+      "B": "Eine kleine Gruppe schicken",
+      "C": "An der Küste bleiben"
+    }
+  },
+  "nw_012": {
+    "title": "Verletzter Bote",
+    "body": "Der königliche Bote stürzt vom Pferd mit unseren Befehlen und unserem Ansehen.",
+    "choices": {
+      "A": "Den Boten versorgen",
+      "B": "Die Befehle selbst lesen",
+      "C": "Einen anderen Bericht schreiben"
+    }
+  },
+  "nw_013": {
+    "title": "Piratenbucht",
+    "body": "Eine unauffällige Bucht gefällt ehrlichen Händlern ebenso wie den anderen.",
+    "choices": {
+      "A": "Dort eine Garnison stationieren",
+      "B": "Dort alle Schiffe besteuern",
+      "C": "Dort ein Auge zudrücken"
+    }
+  },
+  "nw_014": {
+    "title": "Schule des Hofes",
+    "body": "Der Gouverneur will eine Schule, um unsere Gesetze und Sitten zu verbreiten.",
+    "choices": {
+      "A": "Sie finanzieren",
+      "B": "Sie dem Dorf überlassen",
+      "C": "Sagen, dass es nicht dringend ist"
+    }
+  },
+  "nw_015": {
+    "title": "Salzmonopol",
+    "body": "Das lokale Salz ist fast so viel wert wie Gold und weniger als die Gerüchte.",
+    "choices": {
+      "A": "Ein Monopol schaffen",
+      "B": "Frei verkaufen lassen",
+      "C": "Ein gemeinsames Abkommen unterzeichnen"
+    }
+  },
+  "nw_016": {
+    "title": "Nutzloser Adliger",
+    "body": "Ein Adliger verlangt eine Eskorte, um einen leeren Strand mit Stil zu besuchen.",
+    "choices": {
+      "A": "Ihm eine Eskorte geben",
+      "B": "Ihn warten lassen",
+      "C": "Ihn mit dem Koch schicken"
+    }
+  },
+  "nw_017": {
+    "title": "Verschwundener Führer",
+    "body": "Unser bester Führer ist mit einem sehr sichtbaren Geldbeutel verschwunden.",
+    "choices": {
+      "A": "Ihn verfolgen",
+      "B": "Einen anderen Führer bezahlen",
+      "C": "Die Sache vergessen"
+    }
+  },
+  "nw_018": {
+    "title": "Schwimmender Markt",
+    "body": "Verkäufer kommen in Pirogen an und sprechen lieber über Preise als über Politik.",
+    "choices": {
+      "A": "In großen Mengen kaufen",
+      "B": "Den Markt besteuern",
+      "C": "Die Verkäufer in den Hafen einladen"
+    }
+  },
+  "nw_019": {
+    "title": "Gemeinsamer Brunnen",
+    "body": "Der Brunnen des Lagers interessiert auch das Nachbardorf und seine Krüge.",
+    "choices": {
+      "A": "Das Wasser teilen",
+      "B": "Das Wasser für das Lager reservieren",
+      "C": "Den Zugang bezahlen lassen"
+    }
+  },
+  "nw_020": {
+    "title": "Diebischer Matrose",
+    "body": "Ein unauffälliger Matrose hat schwerere Taschen als sein Lohn.",
+    "choices": {
+      "A": "Öffentlich bestrafen",
+      "B": "Ihm eine Chance lassen",
+      "C": "Die Geschichte vertuschen"
+    }
+  },
+  "nw_021": {
+    "title": "Tempel am Ufer",
+    "body": "Ein kleiner Tempel wacht über den Hafen und über die Blicke des Dorfes.",
+    "choices": {
+      "A": "Ihn öffentlich respektieren",
+      "B": "Ihn als Lager nutzen",
+      "C": "Dem Ort Öl schenken"
+    }
+  },
+  "nw_022": {
+    "title": "Nützlicher Wald",
+    "body": "Das lokale Holz kann unsere Baustellen versorgen oder alle verärgern.",
+    "choices": {
+      "A": "Großflächig fällen",
+      "B": "Wenig fällen und bezahlen",
+      "C": "Holz anderswo kaufen"
+    }
+  },
+  "nw_023": {
+    "title": "Flusszoll",
+    "body": "Ein lokaler Anführer verlangt ein Wegerecht auf dem Fluss.",
+    "choices": {
+      "A": "Den Zoll zahlen",
+      "B": "Mit Gewalt passieren",
+      "C": "Eine Aufteilung aushandeln"
+    }
+  },
+  "nw_024": {
+    "title": "Gerücht einer Revolte",
+    "body": "Gemurmel läuft in den Straßen des Hafens schneller als unsere Stiefel.",
+    "choices": {
+      "A": "Die Wache schicken",
+      "B": "Eine Steuer senken",
+      "C": "Die Anführer zum Gespräch einladen"
+    }
+  },
+  "nw_025": {
+    "title": "Leere königliche Kasse",
+    "body": "Die Kasse des Forts macht ein sehr überzeugendes leeres Geräusch.",
+    "choices": {
+      "A": "Eine neue Steuer erheben",
+      "B": "Bestände verkaufen",
+      "C": "Den König um Aufschub bitten"
+    }
+  },
+  "nw_026": {
+    "title": "Geheime Bucht",
+    "body": "Eine versteckte Bucht wäre ideal für ein Lager oder eine Flucht.",
+    "choices": {
+      "A": "Dort einen Schatz verstecken",
+      "B": "Dort einen Posten bauen",
+      "C": "Nichts daran ändern"
+    }
+  },
+  "nw_027": {
+    "title": "Lokales Fest",
+    "body": "Das Dorf bereitet ein Fest vor. Wir sind eingeladen oder werden beobachtet, vielleicht beides.",
+    "choices": {
+      "A": "Mit Geschenken kommen",
+      "B": "Mit Soldaten kommen",
+      "C": "Nicht hingehen"
+    }
+  },
+  "nw_028": {
+    "title": "Ehrgeiziger Kundschafter",
+    "body": "Ein Kundschafter will mehr Männer, um sehr weit zu erkunden und reich zurückzukehren.",
+    "choices": {
+      "A": "Ihm Männer geben",
+      "B": "Ihm wenige Männer geben",
+      "C": "Ihn im Lager behalten"
+    }
+  },
+  "nw_029": {
+    "title": "Fremder Händler",
+    "body": "Ein Händler von anderswo bietet einen diskreten und lukrativen Pakt an.",
+    "choices": {
+      "A": "Schnell unterschreiben",
+      "B": "Ihn stark besteuern",
+      "C": "Ihn ablehnen"
+    }
+  },
+  "nw_030": {
+    "title": "Lokaler Leuchtturm",
+    "body": "Ein bescheidener Leuchtturm führt die Bucht schon besser als unsere Karten.",
+    "choices": {
+      "A": "Ihn auf unsere Kosten reparieren",
+      "B": "Ihn für die Krone beanspruchen",
+      "C": "Ihn dem Dorf lassen"
+    }
+  },
+  "nw_031": {
+    "title": "Umherirrendes Vieh",
+    "body": "Tiere irren nahe unserer Felder und nahe den Gelüsten der Seeleute umher.",
+    "choices": {
+      "A": "Die Herde kaufen",
+      "B": "Sie beschlagnahmen",
+      "C": "Sie dem Anführer zurückgeben"
+    }
+  },
+  "nw_032": {
+    "title": "Gefälschte Karte",
+    "body": "Eine neue Karte vergrößert unser Land, ohne auch nur einen Stein zu versetzen.",
+    "choices": {
+      "A": "Sie an den König schicken",
+      "B": "Sie korrigieren",
+      "C": "Die falsche Version für uns behalten"
+    }
+  },
+  "nw_033": {
+    "title": "Fischfang geschlossen",
+    "body": "Die örtlichen Fischer verlangen zwei Tage ohne Boote in ihrem Gebiet.",
+    "choices": {
+      "A": "Ihre Pause akzeptieren",
+      "B": "Trotzdem fischen",
+      "C": "Ein anderes Gebiet öffnen"
+    }
+  },
+  "nw_034": {
+    "title": "Verlangsamter Hafen",
+    "body": "Eine allgemeine Müdigkeit verlangsamt den Hafen. Nichts Ernstes, aber alles verzögert sich.",
+    "choices": {
+      "A": "Behandlungen bezahlen",
+      "B": "Den Markt schließen",
+      "C": "So tun, als wäre nichts"
+    }
+  },
+  "nw_035": {
+    "title": "Haus des Anführers",
+    "body": "Der lokale Anführer erlaubt einen Besuch, aber keine Lektion.",
+    "choices": {
+      "A": "Mit Geschenken kommen",
+      "B": "Mit Karten kommen",
+      "C": "Mit Wachen kommen"
+    }
+  },
+  "nw_036": {
+    "title": "Waise des Hafens",
+    "body": "Ein schlaues Kind kennt alle Kais und alle Abkürzungen.",
+    "choices": {
+      "A": "Es als Führer bezahlen",
+      "B": "Es in Ruhe lassen",
+      "C": "Es in den Dienst des Forts stellen"
+    }
+  },
+  "nw_037": {
+    "title": "Glocke ohne Herrn",
+    "body": "Eine alte Glocke liegt auf dem Platz herum und alle beanspruchen sie.",
+    "choices": {
+      "A": "Sie dem Fort schenken",
+      "B": "Sie verkaufen",
+      "C": "Sie dem Dorf zurückgeben"
+    }
+  },
+  "nw_038": {
+    "title": "Vergrabener Schatz",
+    "body": "Arbeiter schwören, unter einem alten Stein Gold gesehen zu haben.",
+    "choices": {
+      "A": "Mit Nachdruck graben",
+      "B": "Unauffällig graben",
+      "C": "Das Gerücht verkaufen"
+    }
+  },
+  "nw_039": {
+    "title": "Straße der Hügel",
+    "body": "Eine Straße in die Hügel öffnet den Handel und schließt den Schlaf.",
+    "choices": {
+      "A": "Die Straße sichern",
+      "B": "Die Straße besteuern",
+      "C": "Die Straße den Einheimischen überlassen"
+    }
+  },
+  "nw_040": {
+    "title": "Schmuggelrum",
+    "body": "Ein Fass zieht schneller durch die Nacht als ein königliches Dokument.",
+    "choices": {
+      "A": "Den Rum beschlagnahmen",
+      "B": "Den Rum selbst verkaufen",
+      "C": "Gegen einen Gefallen weiterziehen lassen"
+    }
+  },
+  "nw_041": {
+    "title": "Schlammiger Kanal",
+    "body": "Einen Kanal zu graben würde Zeit sparen und den Geldbeutel leeren.",
+    "choices": {
+      "A": "Den Kanal finanzieren",
+      "B": "Das Dorf graben lassen",
+      "C": "Die Idee aufgeben"
+    }
+  },
+  "nw_042": {
+    "title": "Indiskreter Papagei",
+    "body": "Der Papagei des Hafens wiederholt unsere Geheimnisse besser als unsere Schreiber.",
+    "choices": {
+      "A": "Ihn kaufen",
+      "B": "Ihn zum Schweigen bringen",
+      "C": "Ihn als Unterhaltung behalten"
+    }
+  },
+  "nw_043": {
+    "title": "Ideale Flut",
+    "body": "Die perfekte Flut kann einer Landung oder einem Gewürzkonvoi dienen.",
+    "choices": {
+      "A": "Männer anlanden lassen",
+      "B": "Waren entladen",
+      "C": "Auf die nächste Flut warten"
+    }
+  },
+  "nw_044": {
+    "title": "Lokaler Handwerker",
+    "body": "Ein Handwerker arbeitet besser als unsere Werkstätten und schneller als unsere Klagen.",
+    "choices": {
+      "A": "Ihn für die Krone anstellen",
+      "B": "Seine Produktion kaufen",
+      "C": "Ihm helfen, einen Laden zu eröffnen"
+    }
+  },
+  "nw_045": {
+    "title": "Gefährdeter Hof",
+    "body": "Ein Hof nahe dem Fort zieht ebenso sehr Handel wie Diebe an.",
+    "choices": {
+      "A": "Dort Wachen postieren",
+      "B": "Ihn näher an den Hafen verlegen",
+      "C": "Ihn den Bauern überlassen"
+    }
+  },
+  "nw_046": {
+    "title": "Zwei Anführer",
+    "body": "Zwei benachbarte Anführer verlangen unsere Unterstützung gegen ihren gemeinsamen Rivalen.",
+    "choices": {
+      "A": "Den Stärkeren unterstützen",
+      "B": "Den Ruhigeren unterstützen",
+      "C": "Niemanden unterstützen"
+    }
+  },
+  "nw_047": {
+    "title": "Kaputtes Küstenschiff",
+    "body": "Ein kleines Boot des Hafens sinkt langsam und sehr öffentlich.",
+    "choices": {
+      "A": "Es reparieren",
+      "B": "Es für fast nichts kaufen",
+      "C": "Es untergehen lassen"
+    }
+  },
+  "nw_048": {
+    "title": "Regenzeit",
+    "body": "Der Regen kann die Straßen ruinieren oder unsere Fehler wegwaschen, je nach Laune.",
+    "choices": {
+      "A": "Die Straßen verstärken",
+      "B": "Vorräte lagern und warten",
+      "C": "Weitermachen, als wäre nichts"
+    }
+  },
+  "nw_049": {
+    "title": "Bunter Stoff",
+    "body": "Ein lokaler Stoff verdreht Köpfe und Gewinnideen.",
+    "choices": {
+      "A": "Den gesamten Bestand kaufen",
+      "B": "Die Verkäufe besteuern",
+      "C": "Den Anführern Stoffrollen schenken"
+    }
+  },
+  "nw_050": {
+    "title": "Defekte Bake",
+    "body": "Die Bake am Kap ist umgestürzt. Das Meer liebt solche Kleinigkeiten.",
+    "choices": {
+      "A": "Sie schnell wieder aufrichten",
+      "B": "Die Schiffe zahlen lassen",
+      "C": "Die Reparatur verschieben"
+    }
+  },
+  "nw_051": {
+    "title": "Arbeiten am Kai",
+    "body": "Der Kai knarrt. Er kann noch eine Weile halten oder gar nicht mehr.",
+    "choices": {
+      "A": "Gründlich reparieren",
+      "B": "Nur wenig reparieren",
+      "C": "Den Kai eine Zeit lang schließen"
+    }
+  },
+  "nw_052": {
+    "title": "Redseliger Spion",
+    "body": "Ein Mann spricht unsere Sprache zu gut, um nur ein Händler zu sein.",
+    "choices": {
+      "A": "Ihn umdrehen",
+      "B": "Ihn ausweisen",
+      "C": "Ihn reden lassen, um zuzuhören"
+    }
+  },
+  "nw_053": {
+    "title": "Steuer der Stege",
+    "body": "Private Stege wachsen schnell, wenn das Gold noch schneller zirkuliert.",
+    "choices": {
+      "A": "Jeden Steg besteuern",
+      "B": "Die Stege kaufen",
+      "C": "Sie frei wachsen lassen"
+    }
+  },
+  "nw_054": {
+    "title": "Lokales Banner",
+    "body": "Das Dorf will, dass sein Banner neben unserem weht.",
+    "choices": {
+      "A": "Akzeptieren",
+      "B": "Ablehnen",
+      "C": "Gegen Steuer akzeptieren"
+    }
+  },
+  "nw_055": {
+    "title": "Salzige Quelle",
+    "body": "Eine Quelle gibt seltsames Wasser, das aber nützlich zum Konservieren ist.",
+    "choices": {
+      "A": "Sie nutzen",
+      "B": "Sie für das Lager behalten",
+      "C": "Sie dem Markt überlassen"
+    }
+  },
+  "nw_056": {
+    "title": "Nützlicher Deserteur",
+    "body": "Ein Mann aus einem rivalisierenden Königreich will uns seine Pläne verkaufen.",
+    "choices": {
+      "A": "Seine Pläne kaufen",
+      "B": "Ihn dem König ausliefern",
+      "C": "Ihn nutzen und dann verstecken"
+    }
+  },
+  "nw_057": {
+    "title": "Gemeinsame Scheune",
+    "body": "Das Dorf schlägt eine gemeinsame Scheune vor, um die schlechte Jahreszeit zu überstehen.",
+    "choices": {
+      "A": "Die Scheune finanzieren",
+      "B": "Das Dorf allein machen lassen",
+      "C": "Die Scheune für das Fort nehmen"
+    }
+  },
+  "nw_058": {
+    "title": "Schnelle Boote",
+    "body": "Die örtlichen Pirogen sind schneller als unsere schweren Dienstboote.",
+    "choices": {
+      "A": "Welche kaufen",
+      "B": "Sie nachbauen",
+      "C": "Sie in Fortnähe verbieten"
+    }
+  },
+  "nw_059": {
+    "title": "Schwarzpulver",
+    "body": "Der Pulvervorrat sinkt und die Berichte steigen in Panik an.",
+    "choices": {
+      "A": "Teuer einkaufen",
+      "B": "Die Schüsse reduzieren",
+      "C": "Einen Teil an den Nachbarn verkaufen"
+    }
+  },
+  "nw_060": {
+    "title": "Marktplatz",
+    "body": "Der zentrale Platz kann zu einer Verkaufs- oder Kontrollzone werden.",
+    "choices": {
+      "A": "Dort unsere Wachen postieren",
+      "B": "Dort einen Jahrmarkt veranstalten",
+      "C": "Ihn dem Dorf überlassen"
+    }
+  },
+  "nw_061": {
+    "title": "Müde Bergleute",
+    "body": "Die Bergleute wollen einen Bonus, bevor sie noch tiefer hinabsteigen.",
+    "choices": {
+      "A": "Den Bonus zahlen",
+      "B": "Für später versprechen",
+      "C": "Die Lautesten ersetzen"
+    }
+  },
+  "nw_062": {
+    "title": "Post vom König",
+    "body": "Der König verlangt eine starke Geste, um unsere Präsenz hier zu markieren.",
+    "choices": {
+      "A": "Einen Turm bauen",
+      "B": "Eine gut gefüllte Truhe schicken",
+      "C": "Eine große Parade organisieren"
+    }
+  },
+  "nw_063": {
+    "title": "Kartenhändler",
+    "body": "Ein Mann verkauft Karten von Orten, die wir nicht gesehen haben.",
+    "choices": {
+      "A": "Sein Paket kaufen",
+      "B": "Den Mann festnehmen",
+      "C": "Ihn als Kundschafter nehmen"
+    }
+  },
+  "nw_064": {
+    "title": "Ort der Ruhe",
+    "body": "Die Arbeiter verlangen einen würdigen Ort, um jene zu ehren, die auf der Baustelle verloren gingen.",
+    "choices": {
+      "A": "Das Grundstück bezahlen",
+      "B": "Das Dorf sich darum kümmern lassen",
+      "C": "Die Entscheidung verschieben"
+    }
+  },
+  "nw_065": {
+    "title": "Seltene Kräuter",
+    "body": "Lokale Kräuter heilen gut und verkaufen sich noch besser.",
+    "choices": {
+      "A": "Einen Handel aufbauen",
+      "B": "Für das Lager reservieren",
+      "C": "Den Nachbardörfern anbieten"
+    }
+  },
+  "nw_066": {
+    "title": "Rivalisierender Steg",
+    "body": "Ein rivalisierender Händler baut seinen Steg schneller als unsere Entscheidungen.",
+    "choices": {
+      "A": "Ihn stark besteuern",
+      "B": "Seinen Steg kaufen",
+      "C": "Ihn machen lassen und beobachten"
+    }
+  },
+  "nw_067": {
+    "title": "Unklare Grenze",
+    "body": "Die Nordgrenze hängt vor allem davon ab, wer am lautesten spricht.",
+    "choices": {
+      "A": "Die Grenze selbst ziehen",
+      "B": "Die Anführer zum Ziehen einladen",
+      "C": "Sie vorerst unklar lassen"
+    }
+  },
+  "nw_068": {
+    "title": "Getreidereserve",
+    "body": "Unsere Getreidevorräte ermöglichen einen sicheren Winter oder einen sehr guten Gewinn.",
+    "choices": {
+      "A": "Einen Teil verkaufen",
+      "B": "Alles behalten",
+      "C": "Dem Dorf leihen"
+    }
+  },
+  "nw_069": {
+    "title": "Nachbarinselchen",
+    "body": "Ein kleines Inselchen beherrscht die Bucht. Es ist hübsch und sehr strategisch.",
+    "choices": {
+      "A": "Dort einen Turm bauen",
+      "B": "Dort ein Lagerhaus bauen",
+      "C": "Es neutral lassen"
+    }
+  },
+  "nw_070": {
+    "title": "Kreativer Buchhalter",
+    "body": "Der Buchhalter findet immer die richtige Zahl für das falsche Problem.",
+    "choices": {
+      "A": "Ihn nützlich behalten",
+      "B": "Ihn ersetzen",
+      "C": "Ihn unter Bewachung stellen"
+    }
+  },
+  "nw_071": {
+    "title": "Jagd verboten",
+    "body": "Das Dorf verbietet die Jagd in einem wildreichen Gebiet.",
+    "choices": {
+      "A": "Das Verbot respektieren",
+      "B": "Es ignorieren",
+      "C": "Ein begrenztes Recht bezahlen"
+    }
+  },
+  "nw_072": {
+    "title": "Laute Taverne",
+    "body": "Die Hafentaverne bringt gut Geld ein, ertränkt aber die Disziplin.",
+    "choices": {
+      "A": "Sie besteuern",
+      "B": "Sie früh schließen",
+      "C": "Sie kaufen"
+    }
+  },
+  "nw_073": {
+    "title": "Gemeinsames Feld",
+    "body": "Leeres Land nahe dem Fort kann unsere Männer oder ihre ernähren.",
+    "choices": {
+      "A": "Es für das Fort nehmen",
+      "B": "Es teilen",
+      "C": "Es vermieten"
+    }
+  },
+  "nw_074": {
+    "title": "Nützliche Schiffbrüchige",
+    "body": "Schiffbrüchige kommen mit Werkzeugen und fragwürdigen Gewohnheiten an.",
+    "choices": {
+      "A": "Sie anwerben",
+      "B": "Sie ausplündern",
+      "C": "Ihnen beim Aufbruch helfen"
+    }
+  },
+  "nw_075": {
+    "title": "Gerichtshof",
+    "body": "Der Hafen will einen echten Ort, um Streitigkeiten zu entscheiden, bevor die Messer sprechen.",
+    "choices": {
+      "A": "Ein Gericht bauen",
+      "B": "Den Anführer urteilen lassen",
+      "C": "Unsere Soldaten urteilen lassen"
+    }
+  },
+  "nw_076": {
+    "title": "Langsamer Konvoi",
+    "body": "Ein Metallkonvoi bewegt sich so langsam, dass er die Träume der Diebe anzieht.",
+    "choices": {
+      "A": "Eine Eskorte hinzufügen",
+      "B": "Ihn in kleine Ladungen teilen",
+      "C": "Ihn vor Ort verkaufen"
+    }
+  },
+  "nw_077": {
+    "title": "Tore des Forts",
+    "body": "Die Tore des Forts sind schön, schwer und zu oft offen.",
+    "choices": {
+      "A": "Sie verstärken",
+      "B": "Ein Eintrittsgeld verlangen",
+      "C": "Sie lassen, wie sie sind"
+    }
+  },
+  "nw_078": {
+    "title": "Schmuggel-Salz",
+    "body": "Das Salz entweicht den Lagern schneller, als Wasser aus Fässern entweicht.",
+    "choices": {
+      "A": "Hart bestrafen",
+      "B": "Die Steuer senken",
+      "C": "Den versteckten Bestand zurückkaufen"
+    }
+  },
+  "nw_079": {
+    "title": "Stolzer Führer",
+    "body": "Unser Führer weigert sich zu gehen, wenn man seinen Wert nicht anerkennt.",
+    "choices": {
+      "A": "Ihm einen Bonus geben",
+      "B": "Ihn ersetzen",
+      "C": "Ihn schmeicheln und mit leichtem Gepäck aufbrechen"
+    }
+  },
+  "nw_080": {
+    "title": "Dorf im Übergang",
+    "body": "Der Anführer des Nachbardorfes ist nicht mehr da. Alle warten auf unsere Geste.",
+    "choices": {
+      "A": "Einen Nachfolger unterstützen",
+      "B": "Das Dorf wählen lassen",
+      "C": "Das Gebiet vor dem Ende der Trauer nehmen"
+    }
+  },
+  "nw_081": {
+    "title": "Hafenbüro",
+    "body": "Das Hafenbüro versinkt unter Papieren und kaum unter Effizienz.",
+    "choices": {
+      "A": "Mehr Schreiber bezahlen",
+      "B": "Die Regeln vereinfachen",
+      "C": "Die Posten an den Meistbietenden verkaufen"
+    }
+  },
+  "nw_082": {
+    "title": "Tempelschatz",
+    "body": "Der Tempel bewahrt eine alte Truhe, die niemand ohne Zittern öffnet.",
+    "choices": {
+      "A": "Sie geschlossen lassen",
+      "B": "Bitten, sie gemeinsam zu öffnen",
+      "C": "Sie im Namen des Königs beschlagnahmen"
+    }
+  },
+  "nw_083": {
+    "title": "Rivalisierende Kompanie",
+    "body": "Eine andere europäische Kompanie bietet ein Abkommen an, das nach höflicher Falle riecht.",
+    "choices": {
+      "A": "Einen kurzen Pakt schließen",
+      "B": "Ihnen einen Durchgang verkaufen",
+      "C": "Sie vom Hafen fernhalten"
+    }
+  },
+  "nw_084": {
+    "title": "Blockierte Mühle",
+    "body": "Die Mühle des Hafens ist durch einen Stein und einen Streit blockiert.",
+    "choices": {
+      "A": "Die Mühle reparieren",
+      "B": "Den Streit schlichten",
+      "C": "Die Mühle kaufen"
+    }
+  },
+  "nw_085": {
+    "title": "Lokale Flagge",
+    "body": "Ein Dorf will während unserer offiziellen Parade seine Flagge hissen.",
+    "choices": {
+      "A": "Akzeptieren",
+      "B": "Klar ablehnen",
+      "C": "Gegen öffentliche Huldigung akzeptieren"
+    }
+  },
+  "nw_086": {
+    "title": "Schleuder des Schiffsjungen",
+    "body": "Der Schiffsjunge zielt gut und will Kundschafter anführen wie ein Großer.",
+    "choices": {
+      "A": "Ihm eine Chance geben",
+      "B": "Ihm sagen, er soll warten",
+      "C": "Ihn in den Vorratsdienst stellen"
+    }
+  },
+  "nw_087": {
+    "title": "Nützliches Riff",
+    "body": "Ein Riff schützt die Bucht. Es kann auch eine Landung ruinieren.",
+    "choices": {
+      "A": "Es nur für uns markieren",
+      "B": "Es für alle markieren",
+      "C": "Nichts ändern"
+    }
+  },
+  "nw_088": {
+    "title": "Haus der Gewürze",
+    "body": "Ein Haus im Hafen will unseren Schutz gegen eine lokale Bande.",
+    "choices": {
+      "A": "Es schützen",
+      "B": "Es für den Schutz besteuern",
+      "C": "Es sich selbst überlassen"
+    }
+  },
+  "nw_089": {
+    "title": "Indigofeld",
+    "body": "Der lokale Indigo ist wertvoll, frisst aber Land, das besser ernährt.",
+    "choices": {
+      "A": "Mehr Indigo pflanzen",
+      "B": "Gemischte Kulturen behalten",
+      "C": "Die Ausweitung ablehnen"
+    }
+  },
+  "nw_090": {
+    "title": "Alter Turm",
+    "body": "Ein alter Turm am Ufer kann als Posten dienen oder uns auf die Stiefel fallen.",
+    "choices": {
+      "A": "Ihn restaurieren",
+      "B": "Ihn abbauen und den Stein verkaufen",
+      "C": "Ihn schließen und vergessen"
+    }
+  },
+  "nw_091": {
+    "title": "Nachtmarkt",
+    "body": "Der Nachtmarkt verkauft alles, sogar das, was wir gestern verloren haben.",
+    "choices": {
+      "A": "Ihn legalisieren und besteuern",
+      "B": "Ihn schließen",
+      "C": "Ihn still überwachen"
+    }
+  },
+  "nw_092": {
+    "title": "Heilige Lichtung",
+    "body": "Eine als heilig geltende Lichtung blockiert unsere beste Wagenroute.",
+    "choices": {
+      "A": "Die Lichtung umgehen",
+      "B": "Die Straße trotzdem öffnen",
+      "C": "Einen anderen heiligen Ort vorschlagen"
+    }
+  },
+  "nw_093": {
+    "title": "Verschwundene Truhe",
+    "body": "Eine Truhe ist zwischen Kai, Fort und sehr unschuldigen Blicken verschwunden.",
+    "choices": {
+      "A": "Alle durchsuchen",
+      "B": "Eine Belohnung anbieten",
+      "C": "Stillschweigend ausgleichen"
+    }
+  },
+  "nw_094": {
+    "title": "Fruchtbares Land",
+    "body": "Eine fruchtbare Ebene kann den Hafen ernähren oder drei Notable bereichern.",
+    "choices": {
+      "A": "Königliche Höfe schaffen",
+      "B": "Das Land verkaufen",
+      "C": "Parzellen verteilen"
+    }
+  },
+  "nw_095": {
+    "title": "Waffenwerkstatt",
+    "body": "Ein Schmied will eine Werkstatt für unsere Klingen und unsere Nachbarn eröffnen.",
+    "choices": {
+      "A": "Die Werkstatt finanzieren",
+      "B": "Sie gegen Steuer erlauben",
+      "C": "Sie verbieten"
+    }
+  },
+  "nw_096": {
+    "title": "Verletzter Anführer",
+    "body": "Ein verbündeter Anführer ist verletzt. Seine Familie schaut uns schon schief an.",
+    "choices": {
+      "A": "Einen Arzt schicken",
+      "B": "Gold schicken",
+      "C": "Abstand halten"
+    }
+  },
+  "nw_097": {
+    "title": "Goldsteuer",
+    "body": "Das Gold zirkuliert besser, wenn alle die offizielle Steuer vergessen.",
+    "choices": {
+      "A": "Die Kontrollen verschärfen",
+      "B": "Die Steuer senken",
+      "C": "Gegen eine Zahlung ein Auge zudrücken"
+    }
+  },
+  "nw_098": {
+    "title": "Eingang des Forts",
+    "body": "Das Fort wächst. Man muss wählen, wer eintritt und wer draußen wartet.",
+    "choices": {
+      "A": "Für Händler öffnen",
+      "B": "Für lokale Verbündete öffnen",
+      "C": "Nur für Soldaten öffnen"
+    }
+  },
+  "nw_099": {
+    "title": "Wachturm",
+    "body": "Ein Wachturm sieht weit, kostet aber viel im Unterhalt.",
+    "choices": {
+      "A": "Ihn im Norden bauen",
+      "B": "Ihn am Hafen bauen",
+      "C": "Die Baustelle verschieben"
+    }
+  },
+  "nw_100": {
+    "title": "Bucht ohne Herrn",
+    "body": "Die schönste Bucht der Küste gehört noch niemandem.",
+    "choices": {
+      "A": "Sie im Namen des Königs nehmen",
+      "B": "Dort eine offene Stadt gründen",
+      "C": "Mit den Dörfern einen Pakt schließen"
+    }
+  },
+  "nw_101": {
+    "title": "Zu langsame Boote",
+    "body": "Unsere Boote bewegen sich wie schwimmende Möbel, und der Hafen macht sich darüber lustig.",
+    "choices": {
+      "A": "Neue Segel kaufen",
+      "B": "Bessere Ruderer ausbilden",
+      "C": "Lokale Boote mieten"
+    }
+  },
+  "nw_102": {
+    "title": "Riesenfisch",
+    "body": "Ein riesiger Fisch blockiert die Hafeneinfahrt, als würde er Miete zahlen.",
+    "choices": {
+      "A": "Ihn in der Gruppe vertreiben",
+      "B": "Ihn stückweise verkaufen",
+      "C": "Ein Fest darum veranstalten"
+    }
+  },
+  "nw_103": {
+    "title": "Eingeschlafener Schreiber",
+    "body": "Der Schreiber am Kai stempelt alles außer den richtigen Blättern.",
+    "choices": {
+      "A": "Ihn schnell ersetzen",
+      "B": "Ihn mit einem Bonus aufwecken",
+      "C": "Die Papiere vereinfachen"
+    }
+  },
+  "nw_104": {
+    "title": "Markt im Regen",
+    "body": "Der Markt hält durch, aber die Stände schwimmen fast besser als die Verkäufer.",
+    "choices": {
+      "A": "Vordächer bauen",
+      "B": "Den Markt ins Fort verlegen",
+      "C": "Jeden selbst klarkommen lassen"
+    }
+  },
+  "nw_105": {
+    "title": "Trommel des Ufers",
+    "body": "Eine lokale Trommel ruft das Dorf schneller zusammen als unsere Glocke.",
+    "choices": {
+      "A": "Die Trommel kaufen",
+      "B": "Unsere Glocke lauter läuten lassen",
+      "C": "Die Trommel für Feste leihen"
+    }
+  },
+  "nw_106": {
+    "title": "Löchriger Geldbeutel",
+    "body": "Der Einnehmer verliert Münzen wie ein Baum Blätter verliert.",
+    "choices": {
+      "A": "Alles vor seinen Augen zählen",
+      "B": "Ihm einen Assistenten geben",
+      "C": "Einen Monat lang die Augen schließen"
+    }
+  },
+  "nw_107": {
+    "title": "Wundernetz",
+    "body": "Ein Fischer holt mehr Fische heraus als unsere Salzvorräte.",
+    "choices": {
+      "A": "Sein Geheimnis kaufen",
+      "B": "Ihn frei verkaufen lassen",
+      "C": "Ihn ins Fort einladen"
+    }
+  },
+  "nw_108": {
+    "title": "Überfüllter Kai",
+    "body": "Der Kai ist voller Kisten, Ziegen und Ausreden.",
+    "choices": {
+      "A": "Mit Wachen Ordnung schaffen",
+      "B": "Den Kai vergrößern",
+      "C": "Einfache Regeln schaffen"
+    }
+  },
+  "nw_109": {
+    "title": "Orakel des Hafens",
+    "body": "Ein alter Seemann sagt die Gezeiten und manchmal auch die Preise voraus.",
+    "choices": {
+      "A": "Ihn für seinen Rat bezahlen",
+      "B": "Ihn ignorieren",
+      "C": "Ihm öffentlich zuhören"
+    }
+  },
+  "nw_110": {
+    "title": "Schweine des Lagers",
+    "body": "Die Schweine des Lagers fressen besser als manche Soldaten.",
+    "choices": {
+      "A": "Einen Teil verkaufen",
+      "B": "Die Männer besser ernähren",
+      "C": "Das Gehege einzäunen"
+    }
+  },
+  "nw_111": {
+    "title": "Sturer Fluss",
+    "body": "Der Fluss wechselt seinen Lauf wie ein Händler seine Preise.",
+    "choices": {
+      "A": "Einen kleinen Kanal graben",
+      "B": "Dem neuen Lauf folgen",
+      "C": "Die Einheimischen führen lassen"
+    }
+  },
+  "nw_112": {
+    "title": "Duftendes Holz",
+    "body": "Ein seltenes Holz duftet so gut, dass sogar der Schatzmeister es bemerkt.",
+    "choices": {
+      "A": "Es weit entfernt verkaufen",
+      "B": "Es für Schiffe reservieren",
+      "C": "Es den benachbarten Anführern schenken"
+    }
+  },
+  "nw_113": {
+    "title": "Redseliger Wächter",
+    "body": "Ein Wächter erzählt zwischen zwei Schlucken unsere Pläne weiter.",
+    "choices": {
+      "A": "Ihn an die Nordmauer versetzen",
+      "B": "Ihn für sein Schweigen bezahlen",
+      "C": "Ihn woanders zum Lachen bringen"
+    }
+  },
+  "nw_114": {
+    "title": "Kaputter Wagen",
+    "body": "Der einzige große Wagen des Hafens hält nur noch durch guten Willen.",
+    "choices": {
+      "A": "Ihn reparieren",
+      "B": "Zwei lokale Wagen kaufen",
+      "C": "Noch eine Weile von Hand tragen"
+    }
+  },
+  "nw_115": {
+    "title": "Neuer Pavillon",
+    "body": "Ein sauberer Pavillon würde dem sehr müden Fort ein stolzes Aussehen geben.",
+    "choices": {
+      "A": "Ihn morgen hissen",
+      "B": "Ihn mit dem Dorf besticken",
+      "C": "Den alten Lumpen behalten"
+    }
+  },
+  "nw_116": {
+    "title": "Verlorene Gewürze",
+    "body": "Eine Kiste Gewürze riecht stark, bleibt aber unauffindbar.",
+    "choices": {
+      "A": "Alle Docks durchsuchen",
+      "B": "Die Kiste diskret zurückkaufen",
+      "C": "Das Geheimnis verkaufen"
+    }
+  },
+  "nw_117": {
+    "title": "Seilbrücke",
+    "body": "Eine Seilbrücke verkürzt den Weg und verlängert die Gebete.",
+    "choices": {
+      "A": "Sie verstärken",
+      "B": "Den Übergang bezahlen lassen",
+      "C": "Sie den Einheimischen überlassen"
+    }
+  },
+  "nw_118": {
+    "title": "Lokaler Honig",
+    "body": "Der lokale Honig klebt an den Fingern und an den Gewinnideen.",
+    "choices": {
+      "A": "Alle Krüge kaufen",
+      "B": "Die Verkäufe besteuern",
+      "C": "Dem Dorf Honig schenken"
+    }
+  },
+  "nw_119": {
+    "title": "Verwischter Pfad",
+    "body": "Der Pfad zu den Hügeln existiert vor allem in Erzählungen.",
+    "choices": {
+      "A": "Markierer schicken",
+      "B": "Einen lokalen Fährtensucher bezahlen",
+      "C": "Auf eine klarere Jahreszeit warten"
+    }
+  },
+  "nw_120": {
+    "title": "Königlicher Trödel",
+    "body": "Abgenutzte Gegenstände aus dem Fort könnten mehr einbringen, als sie noch nützen.",
+    "choices": {
+      "A": "Alles verkaufen",
+      "B": "Nur das Überflüssige verkaufen",
+      "C": "Alles aus Stolz behalten"
+    }
+  },
+  "nw_121": {
+    "title": "Eifersüchtige Seeleute",
+    "body": "Die Seeleute des Königs beneiden die schnelleren lokalen Pirogen.",
+    "choices": {
+      "A": "Auch Pirogen kaufen",
+      "B": "Ein Rennen veranstalten",
+      "C": "Vergleiche verbieten"
+    }
+  },
+  "nw_122": {
+    "title": "Nachbarlicher Obstgarten",
+    "body": "Ein benachbarter Obstgarten bringt Früchte und Siedlungsideen.",
+    "choices": {
+      "A": "Ein Ernteabkommen unterzeichnen",
+      "B": "Den Obstgarten nehmen",
+      "C": "Nur den Überschuss kaufen"
+    }
+  },
+  "nw_123": {
+    "title": "Bemaltes Boot",
+    "body": "Ein bunt bemaltes lokales Boot zieht den ganzen Kai an.",
+    "choices": {
+      "A": "Es für das Fort kaufen",
+      "B": "Es für den Handel mieten",
+      "C": "Es aus der Ferne beklatschen"
+    }
+  },
+  "nw_124": {
+    "title": "Feinschmecker-Anführer",
+    "body": "Der benachbarte Anführer liebt unser Brot, hasst aber unsere langen Reden.",
+    "choices": {
+      "A": "Ihn zum Abendessen einladen",
+      "B": "Ihm das Brot teuer verkaufen",
+      "C": "Ihm nur das Rezept schicken"
+    }
+  },
+  "nw_125": {
+    "title": "Leeres Lagerhaus",
+    "body": "Unser Lagerhaus hallt hohl, und das wird langsam peinlich.",
+    "choices": {
+      "A": "Es mit Einkäufen füllen",
+      "B": "Es an Händler vermieten",
+      "C": "Es schließen, um zu sparen"
+    }
+  },
+  "nw_126": {
+    "title": "Seltenes Seil",
+    "body": "Gutes Seil fehlt und schlechtes reißt im entscheidenden Moment.",
+    "choices": {
+      "A": "Zum hohen Preis kaufen",
+      "B": "Lokale Seilmacher ausbilden",
+      "C": "Die Arbeiten verschieben"
+    }
+  },
+  "nw_127": {
+    "title": "Heilige Krabbe",
+    "body": "Krabben überrennen das Lager, und niemand wagt es, sie anzufassen.",
+    "choices": {
+      "A": "Sie schnell vertreiben",
+      "B": "Das Dorf um Rat fragen",
+      "C": "Das Lager verlegen"
+    }
+  },
+  "nw_128": {
+    "title": "Charmanter Händler",
+    "body": "Ein Händler lächelt so sehr, dass man seinen Geldbeutel zweimal prüfen sollte.",
+    "choices": {
+      "A": "Ein kleines Abkommen schließen",
+      "B": "Ihn überwachen lassen",
+      "C": "Ihn in Konkurrenz setzen"
+    }
+  },
+  "nw_129": {
+    "title": "Dach des Forts",
+    "body": "Das Dach des Forts tropft mit echtem Sinn für Dramatik.",
+    "choices": {
+      "A": "Es mit neuem Holz erneuern",
+      "B": "Nur das Schlimmste reparieren",
+      "C": "Überall Eimer aufstellen"
+    }
+  },
+  "nw_130": {
+    "title": "Fischereiabkommen",
+    "body": "Zwei Dörfer wollen dasselbe Fischgebiet und unsere Meinung dazu.",
+    "choices": {
+      "A": "Die Tage aufteilen",
+      "B": "Das Gebiet an den Meistbietenden verkaufen",
+      "C": "Das Gebiet für uns behalten"
+    }
+  },
+  "nw_131": {
+    "title": "Verdächtiger Rauch",
+    "body": "Ein seltsamer Rauch steigt aus den Hügeln auf und nicht aus unserer Küche.",
+    "choices": {
+      "A": "Kundschafter schicken",
+      "B": "Die Anführer um eine Erklärung bitten",
+      "C": "Den Rauch ignorieren"
+    }
+  },
+  "nw_132": {
+    "title": "Boot ohne Ruder",
+    "body": "Ein neues Boot kommt ohne Ruder an, aber mit viel Selbstvertrauen.",
+    "choices": {
+      "A": "Ruder kaufen",
+      "B": "Es sofort weiterverkaufen",
+      "C": "Es dem Dorf geben"
+    }
+  },
+  "nw_133": {
+    "title": "Herberge am Kai",
+    "body": "Eine Herberge öffnet und verspricht Ruhe, Gerüchte und weiche Rechnungen.",
+    "choices": {
+      "A": "Sie besteuern",
+      "B": "Unsere Besucher dort unterbringen",
+      "C": "Sie kaufen"
+    }
+  },
+  "nw_134": {
+    "title": "Nasse Karte",
+    "body": "Unsere beste Karte hat würdevoll Wasser gezogen.",
+    "choices": {
+      "A": "Sie schnell kopieren",
+      "B": "Eine lokale Karte kaufen",
+      "C": "Nach Erinnerung navigieren"
+    }
+  },
+  "nw_135": {
+    "title": "Tomaten des Lagers",
+    "body": "Der Gemüsegarten des Lagers bringt endlich etwas Rundes zustande.",
+    "choices": {
+      "A": "Den Überschuss verkaufen",
+      "B": "Die Ernte teilen",
+      "C": "Für die Offiziere reservieren"
+    }
+  },
+  "nw_136": {
+    "title": "Ausflug des Adligen",
+    "body": "Ein Adliger will die Sümpfe in weißen Stiefeln besuchen.",
+    "choices": {
+      "A": "Ihn begleiten",
+      "B": "Ihn mit der Wahrheit entmutigen",
+      "C": "Ihn nur am Hafen herumführen"
+    }
+  },
+  "nw_137": {
+    "title": "Diebische Möwen",
+    "body": "Die Möwen am Kai stehlen mehr Brot als die Kinder.",
+    "choices": {
+      "A": "Die Vorräte schützen",
+      "B": "Das Brot teurer verkaufen",
+      "C": "Die Möwen anderswo füttern"
+    }
+  },
+  "nw_138": {
+    "title": "Rote Erde",
+    "body": "Eine rote Erde verspricht gute Ziegel und sehr schmutzige Stiefel.",
+    "choices": {
+      "A": "Eine Ziegelei eröffnen",
+      "B": "Die Einheimischen produzieren lassen",
+      "C": "Das Gebiet für das Fort reservieren"
+    }
+  },
+  "nw_139": {
+    "title": "Geschmack des Salzes",
+    "body": "Das lokale Salz ist hervorragend und unsere Köche werden überheblich.",
+    "choices": {
+      "A": "Dieses Salz weit weg verkaufen",
+      "B": "Das Beste für das Fort behalten",
+      "C": "Einen Teil mit den Nachbarn teilen"
+    }
+  },
+  "nw_140": {
+    "title": "Unauffälliges Boot",
+    "body": "Jede Nacht kommt ein kleines Boot an, ohne jemals eilig zu wirken.",
+    "choices": {
+      "A": "Ihm folgen",
+      "B": "Es heimlich besteuern",
+      "C": "Es für unsere Nachrichten nutzen"
+    }
+  },
+  "nw_141": {
+    "title": "Tiefer Brunnen",
+    "body": "Der neue Brunnen gibt klares Wasser und viele Meinungen.",
+    "choices": {
+      "A": "Ihn für das Fort reservieren",
+      "B": "Ihn teilen",
+      "C": "Jeden Krug bezahlen lassen"
+    }
+  },
+  "nw_142": {
+    "title": "Seltenes Mehl",
+    "body": "Mehl fehlt, und die Bäcker schauen ohne Hilfe zum Himmel.",
+    "choices": {
+      "A": "Einen Notvorrat kaufen",
+      "B": "Die Rationen der Soldaten senken",
+      "C": "Mit dem Dorf verhandeln"
+    }
+  },
+  "nw_143": {
+    "title": "Gerissener Deich",
+    "body": "Ein Deich knackt, und das Meer hat schon seine Meinung dazu.",
+    "choices": {
+      "A": "Ihn schnell reparieren",
+      "B": "Nur den Durchgang reparieren",
+      "C": "Auf Ebbe warten"
+    }
+  },
+  "nw_144": {
+    "title": "Gefundenes Schmuckstück",
+    "body": "Ein am Strand gefundenes Schmuckstück bringt alle Augen zum Leuchten.",
+    "choices": {
+      "A": "Es verkaufen",
+      "B": "Es dem Nachbaranführer schenken",
+      "C": "Es im Schatz aufbewahren"
+    }
+  },
+  "nw_145": {
+    "title": "Weinberg des Südens",
+    "body": "Ein lokaler Weinberg liefert leichten Wein und sehr schwere Debatten.",
+    "choices": {
+      "A": "Die Ernte kaufen",
+      "B": "Die Anführer zur Verkostung einladen",
+      "C": "Die Fässer für das Fort reservieren"
+    }
+  },
+  "nw_146": {
+    "title": "Nützlicher Sand",
+    "body": "Der Sand der Bucht eignet sich besser für Arbeiten als unsere Launen.",
+    "choices": {
+      "A": "Ihn nutzen",
+      "B": "Das Dorf ihn verkaufen lassen",
+      "C": "Den Zugang blockieren"
+    }
+  },
+  "nw_147": {
+    "title": "Stolzer Zimmermann",
+    "body": "Der beste Zimmermann will mehr Geld und mehr Lob.",
+    "choices": {
+      "A": "Die Erhöhung zahlen",
+      "B": "Zwei Lehrlinge ausbilden",
+      "C": "Ihn gehen lassen"
+    }
+  },
+  "nw_148": {
+    "title": "Mahl des Hafens",
+    "body": "Das gemeinsame Essen des Hafens kann die Klagen beruhigen oder nähren.",
+    "choices": {
+      "A": "Das Essen bezahlen",
+      "B": "Jeden Platz bezahlen lassen",
+      "C": "Im letzten Moment absagen"
+    }
+  },
+  "nw_149": {
+    "title": "Lokale Pastete",
+    "body": "Eine lokale Pastete gefällt sehr, wenn man ihr einen königlichen Namen gibt.",
+    "choices": {
+      "A": "Das Rezept kaufen",
+      "B": "Das Dorf davon leben lassen",
+      "C": "Die Pastete besteuern"
+    }
+  },
+  "nw_150": {
+    "title": "Baustellenschlamm",
+    "body": "Die Baustelle kommt langsamer voran als der Schlamm auf unseren Stiefeln.",
+    "choices": {
+      "A": "Bretter verlegen",
+      "B": "Auf Sonne warten",
+      "C": "Mehr Arbeiter bezahlen"
+    }
+  },
+  "nw_151": {
+    "title": "Schiefer Steg",
+    "body": "Der neue Steg hängt schon wie ein Seemann nach einem Fest.",
+    "choices": {
+      "A": "Ihn verstärken",
+      "B": "Seine Nutzung begrenzen",
+      "C": "Trotzdem vermieten"
+    }
+  },
+  "nw_152": {
+    "title": "Hund am Kai",
+    "body": "Ein lokaler Hund bewacht Kisten besser als zwei wache Männer.",
+    "choices": {
+      "A": "Ihn für das Fort adoptieren",
+      "B": "Ihn den Händlern lassen",
+      "C": "Ihn für den ganzen Hafen füttern"
+    }
+  },
+  "nw_153": {
+    "title": "Abwesende Ruderer",
+    "body": "Die Hälfte der Ruderer hat eine bessere Ausrede als das Meer gefunden.",
+    "choices": {
+      "A": "Einen Bonus zahlen",
+      "B": "Im Dorf anwerben",
+      "C": "Die Ausfahrten reduzieren"
+    }
+  },
+  "nw_154": {
+    "title": "Unauffälliger Pfeffer",
+    "body": "Pfeffer geht unter dem Kai durch, als hätte er Beine.",
+    "choices": {
+      "A": "Die Durchsuchungen verstärken",
+      "B": "Weniger stark besteuern",
+      "C": "Den Weg zurückkaufen"
+    }
+  },
+  "nw_155": {
+    "title": "Steinmauer",
+    "body": "Eine Steinmauer würde das Lager beruhigen und die Kasse leeren.",
+    "choices": {
+      "A": "Sie bauen",
+      "B": "Nur den Eingang verstärken",
+      "C": "Noch einmal verschieben"
+    }
+  },
+  "nw_156": {
+    "title": "Messe der Inseln",
+    "body": "Händler von den Inseln wollen eine Messe voller Lärm und Gerüche.",
+    "choices": {
+      "A": "Die Messe aufnehmen",
+      "B": "Jeden Stand besteuern",
+      "C": "Die Messe ablehnen"
+    }
+  },
+  "nw_157": {
+    "title": "Brutale Sonne",
+    "body": "Die Hitze raubt die Kräfte schneller als die Feldflaschen.",
+    "choices": {
+      "A": "Sonnensegel kaufen",
+      "B": "Die Tage verkürzen",
+      "C": "Alle durchhalten lassen"
+    }
+  },
+  "nw_158": {
+    "title": "Fehlender Nagel",
+    "body": "Die Arbeiten am Kai stehen wegen eines Nagels still, den man nicht findet.",
+    "choices": {
+      "A": "Einen ganzen Vorrat kaufen",
+      "B": "Vor Ort schmieden lassen",
+      "C": "Auf ein Schiff warten"
+    }
+  },
+  "nw_159": {
+    "title": "Ruhiges Becken",
+    "body": "Ein natürliches Becken könnte kleine Schiffe ohne Drama aufnehmen.",
+    "choices": {
+      "A": "Dort einen Nebenhafen anlegen",
+      "B": "Es für das Militär behalten",
+      "C": "Es den Fischern überlassen"
+    }
+  },
+  "nw_160": {
+    "title": "Unauffindbare Stiefel",
+    "body": "Die Stiefel des Lagers verschwinden, als würde der Schlamm sie fressen.",
+    "choices": {
+      "A": "Den ganzen Bestand zählen",
+      "B": "Vor Ort bestellen",
+      "C": "Die Männer selbst klarkommen lassen"
+    }
+  },
+  "nw_161": {
+    "title": "Gravierter Stein",
+    "body": "Ein gravierter Stein beschäftigt den Hafen mehr als unsere morgendlichen Befehle.",
+    "choices": {
+      "A": "Ihn dem König zeigen",
+      "B": "Ihn dem Dorf lassen",
+      "C": "Die Neugierigen bezahlen lassen"
+    }
+  },
+  "nw_162": {
+    "title": "Neue Räucherkammer",
+    "body": "Eine Räucherkammer würde den Fisch länger haltbar machen als unsere Versprechen.",
+    "choices": {
+      "A": "Sie bauen",
+      "B": "Sie dem Dorf anvertrauen",
+      "C": "Nichts ändern"
+    }
+  },
+  "nw_163": {
+    "title": "Eiliger Nachbar",
+    "body": "Ein Nachbar will einen schnellen Vertrag noch vor dem Kaffee.",
+    "choices": {
+      "A": "Ein einfaches Abkommen unterzeichnen",
+      "B": "Tribut verlangen",
+      "C": "Ihn warten lassen"
+    }
+  },
+  "nw_164": {
+    "title": "Gebrochener Mast",
+    "body": "Ein Schiff verliert im Hafen seinen Mast mit einem sehr überzeugenden Geräusch.",
+    "choices": {
+      "A": "Beim Reparieren helfen",
+      "B": "Das Schiff kaufen",
+      "C": "Den Kai für unsere reservieren"
+    }
+  },
+  "nw_165": {
+    "title": "Reis im Überfluss",
+    "body": "Der lokale Reis wächst so gut, dass sogar die Mäuse dicker werden.",
+    "choices": {
+      "A": "Den ganzen Reis kaufen",
+      "B": "Für den Winter lagern",
+      "C": "Einen Teil teilen"
+    }
+  },
+  "nw_166": {
+    "title": "Zu ordentliches Büro",
+    "body": "Der neue Büroleiter räumt alles weg, vor allem das, was man finden muss.",
+    "choices": {
+      "A": "Ihm vertrauen",
+      "B": "Seine Bücher prüfen",
+      "C": "Ihm einen Einheimischen zur Seite stellen"
+    }
+  },
+  "nw_167": {
+    "title": "Kurze Flut",
+    "body": "Die Flut sinkt schnell, und unsere großen Schiffe murren bereits.",
+    "choices": {
+      "A": "Sofort entladen",
+      "B": "Pirogen benutzen",
+      "C": "Bis morgen warten"
+    }
+  },
+  "nw_168": {
+    "title": "Stroh des Forts",
+    "body": "Das Stroh des Forts zieht Feuer und Mäuse mit demselben Talent an.",
+    "choices": {
+      "A": "Es ersetzen",
+      "B": "Es verkaufen",
+      "C": "Es den Viehzüchtern geben"
+    }
+  },
+  "nw_169": {
+    "title": "Lachendes Dorf",
+    "body": "Das Dorf lacht über unsere zu heißen und zu glänzenden Helme.",
+    "choices": {
+      "A": "Leichtere schmieden lassen",
+      "B": "Mit ihnen lachen",
+      "C": "Schweigen anordnen"
+    }
+  },
+  "nw_170": {
+    "title": "Salzstraße",
+    "body": "Eine Salzstraße könnte die Bucht bereichern oder unsere Wachen leeren.",
+    "choices": {
+      "A": "Sie öffnen und besteuern",
+      "B": "Sie militärisch halten",
+      "C": "Sie Händlern überlassen"
+    }
+  },
+  "nw_171": {
+    "title": "Redseliger Schuhmacher",
+    "body": "Der Schuhmacher weiß alles über den Hafen und sagt es nur zu gut.",
+    "choices": {
+      "A": "Ihn für seine Informationen bezahlen",
+      "B": "Ihn im Fort anstellen",
+      "C": "Ihn reden lassen"
+    }
+  },
+  "nw_172": {
+    "title": "Kaputte Körbe",
+    "body": "Die Körbe des Marktes machen die Ananas schneller als den Verkäufer.",
+    "choices": {
+      "A": "Neue Körbe kaufen",
+      "B": "Vor Ort flechten lassen",
+      "C": "Trotzdem besteuern"
+    }
+  },
+  "nw_173": {
+    "title": "Ruhetage",
+    "body": "Die Arbeiter verlangen einen Ruhetag, bevor sie zu Statuen werden.",
+    "choices": {
+      "A": "Die Ruhe gewähren",
+      "B": "Einen Bonus fürs Weitermachen zahlen",
+      "C": "Klar ablehnen"
+    }
+  },
+  "nw_174": {
+    "title": "Neues Signalhorn",
+    "body": "Ein neues Horn würde mehr Lärm machen als Strategie.",
+    "choices": {
+      "A": "Ein neues Horn bestellen",
+      "B": "Es der Parade überlassen",
+      "C": "Die Idee dem Adligen verkaufen"
+    }
+  },
+  "nw_175": {
+    "title": "Werkzeugkiste",
+    "body": "Eine vollständige Werkzeugkiste kommt endlich an, ohne den Schlüssel zur Kiste.",
+    "choices": {
+      "A": "Das Schloss aufbrechen",
+      "B": "Den lokalen Schlosser bezahlen",
+      "C": "Die geschlossene Kiste weiterverkaufen"
+    }
+  },
+  "nw_176": {
+    "title": "Zuckerrohr",
+    "body": "Das Zuckerrohr wächst gut und macht die Rechnungen sehr gierig.",
+    "choices": {
+      "A": "Ein großes Feld anlegen",
+      "B": "Eine kleine Kultur behalten",
+      "C": "Die Ausweitung ablehnen"
+    }
+  },
+  "nw_177": {
+    "title": "Offizielle Hängematte",
+    "body": "Ein Offizier will Hängematten, um die Strategie des Schlafes zu verbessern.",
+    "choices": {
+      "A": "Welche kaufen",
+      "B": "Sie den Verletzten vorbehalten",
+      "C": "Diese Idee ablehnen"
+    }
+  },
+  "nw_178": {
+    "title": "Goldenes Paddel",
+    "body": "Ein verziertes Paddel kursiert wie eine sehr wenig nützliche Trophäe.",
+    "choices": {
+      "A": "Es dem besten Ruderer geben",
+      "B": "Es auf dem Markt verkaufen",
+      "C": "Es im Fort aufstellen"
+    }
+  },
+  "nw_179": {
+    "title": "Überflutetes Feld",
+    "body": "Ein Feld nahe dem Hafen trinkt mehr Wasser als erwartet.",
+    "choices": {
+      "A": "Gräben ziehen",
+      "B": "Die Kulturen verlegen",
+      "C": "Die Bauern entschädigen"
+    }
+  },
+  "nw_180": {
+    "title": "Singendes Schiff",
+    "body": "Eine Besatzung singt so laut, dass der ganze Hafen unsere Zeiten kennt.",
+    "choices": {
+      "A": "Sie zum Schweigen bringen",
+      "B": "Sie auf dem Markt singen lassen",
+      "C": "Die Zeiten ändern"
+    }
+  },
+  "nw_181": {
+    "title": "Gefälschte Gewichte",
+    "body": "Manche Marktgewichte sind leichter als die Wahrheit.",
+    "choices": {
+      "A": "Die falschen Gewichte beschlagnahmen",
+      "B": "Eine öffentliche Waage schaffen",
+      "C": "Die schuldigen Händler besteuern"
+    }
+  },
+  "nw_182": {
+    "title": "Kleiner Leuchtturm",
+    "body": "Ein kleiner privater Leuchtturm führt besser als unsere große Rede.",
+    "choices": {
+      "A": "Ihn kaufen",
+      "B": "Ihn subventionieren",
+      "C": "Ihn frei lassen"
+    }
+  },
+  "nw_183": {
+    "title": "Kaffee an den Docks",
+    "body": "Eine Kaffeeecke eröffnet, und Entscheidungen werden dort vor dem Büro getroffen.",
+    "choices": {
+      "A": "Einen Offizier hinschicken",
+      "B": "Den Kaffee besteuern",
+      "C": "Die erste Runde ausgeben"
+    }
+  },
+  "nw_184": {
+    "title": "Gestohlener Anker",
+    "body": "Ein Anker verschwindet, und plötzlich schaut jeder aufs Meer.",
+    "choices": {
+      "A": "Den Hafen durchsuchen",
+      "B": "Einen anderen Anker kaufen",
+      "C": "Eine Belohnung anbieten"
+    }
+  },
+  "nw_185": {
+    "title": "Zu voller Laderaum",
+    "body": "Der Laderaum des königlichen Schiffs verschlingt alles außer Ordnung.",
+    "choices": {
+      "A": "Schnell entladen",
+      "B": "Einen Teil vor Ort verkaufen",
+      "C": "Die Ladung dem König vorbehalten"
+    }
+  },
+  "nw_186": {
+    "title": "Kluger Bambus",
+    "body": "Der lokale Bambus taugt für alles und weiß es sehr gut.",
+    "choices": {
+      "A": "Einen großen Vorrat kaufen",
+      "B": "Die Handwerker machen lassen",
+      "C": "Den Bambus für das Fort reservieren"
+    }
+  },
+  "nw_187": {
+    "title": "Höfliche Rivalen",
+    "body": "Zwei Rivalen wollen unsere Unterstützung mit einem allzu glatten Lächeln.",
+    "choices": {
+      "A": "Den Zuverlässigeren unterstützen",
+      "B": "Ihnen unsere Vorräte verkaufen",
+      "C": "Neutral bleiben"
+    }
+  },
+  "nw_188": {
+    "title": "Feuchte Bücher",
+    "body": "Die Register des Hafens ziehen Wasser und verlieren ihr Gedächtnis.",
+    "choices": {
+      "A": "Sie abschreiben",
+      "B": "Eine Kopie den Händlern bezahlen lassen",
+      "C": "Die Register vereinfachen"
+    }
+  },
+  "nw_189": {
+    "title": "Platz im Schatten",
+    "body": "Ein schattiger Platz könnte Verkäufe anziehen und die Gemüter beruhigen.",
+    "choices": {
+      "A": "Dort den Markt abhalten",
+      "B": "Dort die Wache aufstellen",
+      "C": "Ihn dem Dorf überlassen"
+    }
+  },
+  "nw_190": {
+    "title": "Unauffällige Perlen",
+    "body": "Perlen zirkulieren eher in Taschen als in der Kasse.",
+    "choices": {
+      "A": "Die Partie im Hafen kaufen",
+      "B": "Die Kontrollen verstärken",
+      "C": "Einen offiziellen Markt erlauben"
+    }
+  },
+  "nw_191": {
+    "title": "Königliche Piroge",
+    "body": "Eine dem König geschenkte Piroge würde guten Eindruck machen und dem Budget wehtun.",
+    "choices": {
+      "A": "Sie schicken",
+      "B": "Sie hier behalten",
+      "C": "Sie zeigen und dann verkaufen"
+    }
+  },
+  "nw_192": {
+    "title": "Pflaster des Kais",
+    "body": "Der unbefestigte Kai verschlingt Räder mit großem Appetit.",
+    "choices": {
+      "A": "Pflastersteine verlegen",
+      "B": "Große Wagen zahlen lassen",
+      "C": "Den Schlamm entscheiden lassen"
+    }
+  },
+  "nw_193": {
+    "title": "Heißer Speicher",
+    "body": "Der Speicher wird zu warm, und das Korn beginnt nachzudenken.",
+    "choices": {
+      "A": "Den Speicher lüften",
+      "B": "Den Vorrat schnell verkaufen",
+      "C": "Dem Dorf einen Teil leihen"
+    }
+  },
+  "nw_194": {
+    "title": "Handelsstraße",
+    "body": "Eine Straße des Hafens will reich werden, noch bevor sie sauber ist.",
+    "choices": {
+      "A": "Sie pflastern",
+      "B": "Dort Wachen aufstellen",
+      "C": "Die Händler zahlen lassen"
+    }
+  },
+  "nw_195": {
+    "title": "Zeichen des Königs",
+    "body": "Der König will sein Symbol überall sehen, sogar auf Kisten mit Rüben.",
+    "choices": {
+      "A": "Alle Kisten markieren",
+      "B": "Nur das Fort markieren",
+      "C": "Um eine lokale Version bitten"
+    }
+  },
+  "nw_196": {
+    "title": "Ziege des Marktes",
+    "body": "Eine lokale Ziege frisst die Stände mit echtem Sinn für Auswahl.",
+    "choices": {
+      "A": "Sie schnell verkaufen",
+      "B": "Sie dem Besitzer zurückgeben",
+      "C": "Sie zum Saubermachen behalten"
+    }
+  },
+  "nw_197": {
+    "title": "Treibholz",
+    "body": "Das Ufer bringt Treibholz, ohne Lohn zu verlangen.",
+    "choices": {
+      "A": "Es für das Fort lagern",
+      "B": "Es an Handwerker verkaufen",
+      "C": "Es im Dorf verteilen"
+    }
+  },
+  "nw_198": {
+    "title": "Gerissenes Segel",
+    "body": "Ein großes Segel reißt vor der einfachsten Überfahrt.",
+    "choices": {
+      "A": "Ein neues Segel bestellen",
+      "B": "Es vor Ort reparieren",
+      "C": "Die Abfahrt verschieben"
+    }
+  },
+  "nw_199": {
+    "title": "Eilige Händler",
+    "body": "Die Händler wollen vor der Morgendämmerung öffnen und vor unseren Kontrollen schließen.",
+    "choices": {
+      "A": "Gegen Steuer akzeptieren",
+      "B": "Die Stunden begrenzen",
+      "C": "Eine kurze Öffnung testen"
+    }
+  },
+  "nw_200": {
+    "title": "Hügel des Hafens",
+    "body": "Ein naher Hügel sieht den ganzen Hafen und träumt schon von einem Turm.",
+    "choices": {
+      "A": "Dort einen Posten bauen",
+      "B": "Dort einen hohen Markt halten",
+      "C": "Dort ein gemeinsames Fest veranstalten"
+    }
+  },
+  "nw_201": {
+    "title": "Rostige Glocke",
+    "body": "Die Glocke des Hafens klingt wie ein beleidigter Kochtopf, und niemand weiß, ob das Alarm ist.",
+    "choices": {
+      "A": "Sie ersetzen",
+      "B": "Sie vor Ort reparieren",
+      "C": "Zur Pfeife wechseln"
+    }
+  },
+  "nw_202": {
+    "title": "Zu reife Bananen",
+    "body": "Bananen bedrohen den Kai und die Nasen der Passanten.",
+    "choices": {
+      "A": "Sie schnell verkaufen",
+      "B": "Sie trocknen",
+      "C": "Sie dem Dorf geben"
+    }
+  },
+  "nw_203": {
+    "title": "Spöttischer Nebel",
+    "body": "Ein dichter Nebel verbirgt den Hafen und macht Befehle sehr imaginär.",
+    "choices": {
+      "A": "Mehr Feuer anzünden",
+      "B": "Abfahrten aussetzen",
+      "C": "Führer einstellen"
+    }
+  },
+  "nw_204": {
+    "title": "Kiste ohne Namen",
+    "body": "Eine Kiste kommt ohne Zeichen, ohne Papiere und mit viel Dreistigkeit an.",
+    "choices": {
+      "A": "Sie öffnen",
+      "B": "Sie besteuern",
+      "C": "Sie öffentlich machen"
+    }
+  },
+  "nw_205": {
+    "title": "Lange Reihe",
+    "body": "Am Kai bildet sich eine lange Schlange, und jeder schwört, Vorrang zu haben.",
+    "choices": {
+      "A": "Eine klare Ordnung schaffen",
+      "B": "Vorrang bezahlen lassen",
+      "C": "Den Hafen selbst sortieren lassen"
+    }
+  },
+  "nw_206": {
+    "title": "Lackiertes Boot",
+    "body": "Ein lokales Boot glänzt so sehr, dass man sein Spiegelbild vor den Segeln sieht.",
+    "choices": {
+      "A": "Es für eine Parade kaufen",
+      "B": "Es für den Handel mieten",
+      "C": "Seinen Stil kopieren"
+    }
+  },
+  "nw_207": {
+    "title": "Hinterhältige Welle",
+    "body": "Eine niedrige Welle durchnässt die Ladungen, wenn der Hafen stolz tut.",
+    "choices": {
+      "A": "Die Vorräte höher lagern",
+      "B": "Eine Kante bauen",
+      "C": "Schnell verkaufen, was trocknet"
+    }
+  },
+  "nw_208": {
+    "title": "Verdrehtes Schild",
+    "body": "Das Schild am Kai zeigt drei Richtungen an, und keine hilft.",
+    "choices": {
+      "A": "Es neu machen",
+      "B": "Die Einheimischen fragen",
+      "C": "Es entfernen"
+    }
+  },
+  "nw_209": {
+    "title": "Durchlöcherter Korb",
+    "body": "Die Fischkörbe verlieren mehr Fang als die Fischer.",
+    "choices": {
+      "A": "Neue Körbe kaufen",
+      "B": "Sie vor Ort reparieren lassen",
+      "C": "Das Gebiet wechseln"
+    }
+  },
+  "nw_210": {
+    "title": "Pfeife des Hafens",
+    "body": "Die neue Pfeife weckt alle auf, außer die richtigen Leute.",
+    "choices": {
+      "A": "Sie den Notfällen vorbehalten",
+      "B": "Die Wachen schulen",
+      "C": "Zur Glocke zurückkehren"
+    }
+  },
+  "nw_211": {
+    "title": "Überfluteter Garten",
+    "body": "Der Garten des Lagers sieht nach dem Regen aus wie eine grüne Suppe.",
+    "choices": {
+      "A": "Rinnen graben",
+      "B": "Die Aussaat verlegen",
+      "C": "Das Gelände teilen"
+    }
+  },
+  "nw_212": {
+    "title": "Gegenwind",
+    "body": "Der Wind drückt unsere Segel mit echter Überzeugung in die falsche Richtung.",
+    "choices": {
+      "A": "Warten",
+      "B": "Mit Rudern nachhelfen",
+      "C": "Pirogen benutzen"
+    }
+  },
+  "nw_213": {
+    "title": "Nachtregen",
+    "body": "Der Nachtregen verwandelt das Lager in einen Chor aus Tropfen.",
+    "choices": {
+      "A": "Die Dächer verstärken",
+      "B": "Die Säcke verlegen",
+      "C": "Trocken im Fort schlafen"
+    }
+  },
+  "nw_214": {
+    "title": "Riesenkürbisse",
+    "body": "Riesige Kürbisse überwuchern den Gemüsegarten wie große orangefarbene Herren.",
+    "choices": {
+      "A": "Sie verkaufen",
+      "B": "Sie verschenken",
+      "C": "Vorräte daraus machen"
+    }
+  },
+  "nw_215": {
+    "title": "Sonne auf dem Teer",
+    "body": "Der Teer des Kais schmilzt etwas, und die Stiefel behalten Erinnerungen.",
+    "choices": {
+      "A": "Früher arbeiten",
+      "B": "Bretter verlegen",
+      "C": "Die Karren verschieben"
+    }
+  },
+  "nw_216": {
+    "title": "Zu trockene Erde",
+    "body": "Die Erde reißt auf, und selbst die Samen zögern.",
+    "choices": {
+      "A": "Einen Brunnen graben",
+      "B": "Die Kulturen verringern",
+      "C": "Bei den Nachbarn kaufen"
+    }
+  },
+  "nw_217": {
+    "title": "Gefräßiges Feld",
+    "body": "Ein Feld verschlingt unsere Saatbeutel schneller, als es Versprechen macht.",
+    "choices": {
+      "A": "Weiter investieren",
+      "B": "Ein kleines Stück testen",
+      "C": "Es aufgeben"
+    }
+  },
+  "nw_218": {
+    "title": "Nest auf dem Turm",
+    "body": "Vögel haben den Turm zu ihrem offiziellen Palast gemacht.",
+    "choices": {
+      "A": "Das Nest verlegen",
+      "B": "Sie machen lassen",
+      "C": "Die Aussicht bezahlen lassen"
+    }
+  },
+  "nw_219": {
+    "title": "Hohes Gras",
+    "body": "Das Gras nahe dem Fort verbirgt mehr Dinge als unsere Register.",
+    "choices": {
+      "A": "Alles mähen",
+      "B": "Einen Teil stehen lassen",
+      "C": "Das Gelände jemandem anvertrauen"
+    }
+  },
+  "nw_220": {
+    "title": "Zu frühe Ernte",
+    "body": "Arbeiter wollen schnell ernten, bevor der Himmel seine Meinung ändert.",
+    "choices": {
+      "A": "Jetzt ernten",
+      "B": "Zwei Tage warten",
+      "C": "Das Risiko teilen"
+    }
+  },
+
+  "nw_221": {
+    "title": "Zerfetztes Zelt",
+    "body": "Das große Zelt lässt den Wind herein wie einen bekannten Gast.",
+    "choices": {
+      "A": "Es zunähen",
+      "B": "Ein anderes kaufen",
+      "C": "Alles im Fort zusammenziehen"
+    }
+  },
+  "nw_222": {
+    "title": "Verärgerter Kessel",
+    "body": "Der große Kessel brennt am Boden an und gleich mit der Laune des Kochs.",
+    "choices": {
+      "A": "Ihn ersetzen",
+      "B": "Einen Helfer ausbilden",
+      "C": "Einfacher kochen"
+    }
+  },
+  "nw_223": {
+    "title": "Barfüßige Soldaten",
+    "body": "Einige Stiefel sind verschwunden, und die Soldaten schauen den Boden vorwurfsvoll an.",
+    "choices": {
+      "A": "Stiefel bestellen",
+      "B": "Vor Ort kaufen",
+      "C": "Die Patrouillen einschränken"
+    }
+  },
+  "nw_224": {
+    "title": "Unaufmerksamer Wächter",
+    "body": "Der Wächter schaut aufs Meer, vergisst aber den Kai.",
+    "choices": {
+      "A": "Ihn austauschen",
+      "B": "Einen zweiten dazustellen",
+      "C": "Ihn besser bezahlen"
+    }
+  },
+  "nw_225": {
+    "title": "Kaputte Bank",
+    "body": "Die Bank im Büro gibt unter den schwersten Besuchern nach.",
+    "choices": {
+      "A": "Sie reparieren",
+      "B": "Sie durch zwei Sitze ersetzen",
+      "C": "Draußen warten lassen"
+    }
+  },
+  "nw_226": {
+    "title": "Vergessene Feldflasche",
+    "body": "Die Arbeiter vergessen ihre Feldflaschen und klagen am Ende mit trockenem Hals.",
+    "choices": {
+      "A": "Feldflaschen verteilen",
+      "B": "Einen Wasservorrat anlegen",
+      "C": "Das Vergessen bestrafen"
+    }
+  },
+  "nw_227": {
+    "title": "Teure Laternen",
+    "body": "Laternen kosten mehr als das Lächeln eines Händlers.",
+    "choices": {
+      "A": "Trotzdem kaufen",
+      "B": "Vor Ort herstellen",
+      "C": "Weniger beleuchten"
+    }
+  },
+  "nw_228": {
+    "title": "Lokale Decke",
+    "body": "Eine lokale Decke hält warm und kostet weniger als unsere Klagen.",
+    "choices": {
+      "A": "Viele davon kaufen",
+      "B": "Jeden selbst ausrüsten lassen",
+      "C": "Sie den Verletzten schenken"
+    }
+  },
+  "nw_229": {
+    "title": "Schlecht verstautes Paddel",
+    "body": "Die Paddel im Lager verschwinden im eigenen Chaos.",
+    "choices": {
+      "A": "Nach Größe sortieren",
+      "B": "Einen Verantwortlichen ernennen",
+      "C": "Leihgebühren erheben"
+    }
+  },
+  "nw_230": {
+    "title": "Schlange am Brunnen",
+    "body": "Die Schlange am Brunnen wächst jeden Morgen wie eine geduldige Liane.",
+    "choices": {
+      "A": "Einen zweiten Wasserpunkt eröffnen",
+      "B": "Das Lager zuerst dranlassen",
+      "C": "Schichten organisieren"
+    }
+  },
+  "nw_231": {
+    "title": "Lied des Dorfes",
+    "body": "Ein lokales Lied macht sich über das Fort lustig, und jeder kennt den Refrain.",
+    "choices": {
+      "A": "Mit ihnen lachen",
+      "B": "Die Sänger einladen",
+      "C": "Den Platz zum Schweigen bringen"
+    }
+  },
+  "nw_232": {
+    "title": "Sperriges Geschenk",
+    "body": "Ein benachbarter Anführer schenkt eine große Trommel, die mehr Platz als Sinn einnimmt.",
+    "choices": {
+      "A": "Sie annehmen",
+      "B": "Sie weiterverkaufen",
+      "C": "Sie den Festen leihen"
+    }
+  },
+  "nw_233": {
+    "title": "Abendlicher Tanz",
+    "body": "Das Dorf lädt das Lager zu einem Tanz ein, der vielleicht mehr wert ist als ein Vertrag.",
+    "choices": {
+      "A": "Hingehen",
+      "B": "Nur wenige schicken",
+      "C": "Höflich ablehnen"
+    }
+  },
+  "nw_234": {
+    "title": "Verspäteter Anführer",
+    "body": "Der benachbarte Anführer kommt immer zu spät, aber immer lächelnd.",
+    "choices": {
+      "A": "Auf ihn warten",
+      "B": "Ohne ihn beginnen",
+      "C": "Ihm eine Erinnerung schicken"
+    }
+  },
+  "nw_235": {
+    "title": "Kartenverkäufer",
+    "body": "Ein lokaler Verkäufer verspricht genaue Karten und ein teures Lächeln.",
+    "choices": {
+      "A": "Ihm welche abkaufen",
+      "B": "Ihn zuerst testen",
+      "C": "Ihn verkaufen lassen"
+    }
+  },
+  "nw_236": {
+    "title": "Gemeinsamer Fischfang",
+    "body": "Das Dorf schlägt einen gemeinsamen Angeltag vor, um zwei Streitereien zu beruhigen.",
+    "choices": {
+      "A": "Akzeptieren",
+      "B": "Die Nutzung bezahlen lassen",
+      "C": "Unsere Männer im Fort behalten"
+    }
+  },
+  "nw_237": {
+    "title": "Zweifelhafte Übersetzung",
+    "body": "Unser Dolmetscher verwandelt manchmal einen Gruß in eine Debatte.",
+    "choices": {
+      "A": "Ihm einen Helfer suchen",
+      "B": "Einfacher sprechen",
+      "C": "Ihn ersetzen"
+    }
+  },
+  "nw_238": {
+    "title": "Offizieller Hut",
+    "body": "Die benachbarten Anführer lachen über unseren großen zeremoniellen Hut.",
+    "choices": {
+      "A": "Ihn stolz behalten",
+      "B": "Ihn vereinfachen",
+      "C": "Hüte verschenken"
+    }
+  },
+  "nw_239": {
+    "title": "Gemeinsamer Weg",
+    "body": "Das Lager und das Dorf benutzen denselben Weg und denselben Staub.",
+    "choices": {
+      "A": "Ihn verbreitern",
+      "B": "Zeiten festlegen",
+      "C": "Den Durchgang frei lassen"
+    }
+  },
+  "nw_240": {
+    "title": "Gerücht von einem Geschenk",
+    "body": "Ein Gerücht kündigt ein königliches Geschenk an, das noch gar nicht existiert.",
+    "choices": {
+      "A": "Schnell dementieren",
+      "B": "Ein wenig träumen lassen",
+      "C": "Ein echtes kleines Geschenk vorbereiten"
+    }
+  },
+  "nw_241": {
+    "title": "Affe im Speicher",
+    "body": "Ein Affe stiehlt das Korn mit der Präzision eines Steuereintreibers.",
+    "choices": {
+      "A": "Ihn vertreiben",
+      "B": "Den Speicher besser schließen",
+      "C": "Ihn den Besuchern zeigen"
+    }
+  },
+  "nw_242": {
+    "title": "Enten am Kai",
+    "body": "Enten besetzen den Kai, als würden sie die Wache bezahlen.",
+    "choices": {
+      "A": "Sie umsetzen",
+      "B": "Ein kleines Becken anlegen",
+      "C": "Sie verkaufen"
+    }
+  },
+  "nw_243": {
+    "title": "Berühmter Esel",
+    "body": "Ein lokaler Esel trägt Lasten so gut, dass alle von ihm sprechen.",
+    "choices": {
+      "A": "Ihn mieten",
+      "B": "Einen anderen Esel kaufen",
+      "C": "Ihn dem Dorf lassen"
+    }
+  },
+  "nw_244": {
+    "title": "Redseliger Papagei",
+    "body": "Ein Papagei wiederholt die Befehle, noch bevor sie nützlich sind.",
+    "choices": {
+      "A": "Ihn verkaufen",
+      "B": "Ihn fern vom Büro halten",
+      "C": "Ihn verschenken"
+    }
+  },
+  "nw_245": {
+    "title": "Hartnäckige Schildkröte",
+    "body": "Jeden Tag überquert eine Schildkröte den Hof wie ein langsamer Inspektor.",
+    "choices": {
+      "A": "Sie umsetzen",
+      "B": "Sie lassen",
+      "C": "Sie zum Maskottchen machen"
+    }
+  },
+  "nw_246": {
+    "title": "Kletterziege",
+    "body": "Eine Ziege klettert auf die Kisten und wählt immer die teuersten aus.",
+    "choices": {
+      "A": "Sie anbinden",
+      "B": "Die Ziege zurückgeben",
+      "C": "Die Vorräte schützen"
+    }
+  },
+  "nw_247": {
+    "title": "Katze des Lagers",
+    "body": "Eine Katze aus dem Lager jagt Mäuse gut, schläft aber während der Abrechnungen.",
+    "choices": {
+      "A": "Sie füttern",
+      "B": "Zwei Katzen adoptieren",
+      "C": "Sie frei lassen"
+    }
+  },
+  "nw_248": {
+    "title": "Diebischer Reiher",
+    "body": "Ein Reiher stiehlt die kleinen Fische des Marktes mit beleidigender Ruhe.",
+    "choices": {
+      "A": "Ihn vertreiben",
+      "B": "Die Wannen verlegen",
+      "C": "Die Fläche bezahlen lassen"
+    }
+  },
+  "nw_249": {
+    "title": "Champion-Mücken",
+    "body": "Die Mücken des Sumpfes gewinnen jeden Abend alle Schlachten.",
+    "choices": {
+      "A": "Netze kaufen",
+      "B": "Mehr Rauch machen",
+      "C": "Das Gebiet nachts verlassen"
+    }
+  },
+  "nw_250": {
+    "title": "Nervöses Pferd",
+    "body": "Das Pferd des Boten erschrickt sogar vor einem leeren Eimer.",
+    "choices": {
+      "A": "Es ersetzen",
+      "B": "Es mit einem Trainer beruhigen",
+      "C": "Ihm eine kurze Strecke geben"
+    }
+  },
+  "nw_251": {
+    "title": "Rutschiges Ufer",
+    "body": "Das neue Ufer rutscht mehr, als es nützt.",
+    "choices": {
+      "A": "Trockenen Sand auslegen",
+      "B": "Es eine Zeit lang schließen",
+      "C": "Die Pirogen durchlassen"
+    }
+  },
+  "nw_252": {
+    "title": "Treppe am Kai",
+    "body": "Die Treppe am Kai verliert bei jedem ernsthaften Regen eine Stufe.",
+    "choices": {
+      "A": "Sie neu bauen",
+      "B": "Den unteren Teil reparieren",
+      "C": "Ein Seil anbringen"
+    }
+  },
+  "nw_253": {
+    "title": "Beobachtungsturm",
+    "body": "Ein kleiner Turm würde eine schöne Aussicht und lange Ausgaben bringen.",
+    "choices": {
+      "A": "Ihn bauen",
+      "B": "Eine einfache Plattform errichten",
+      "C": "Den Hügel nutzen"
+    }
+  },
+  "nw_254": {
+    "title": "Nasses Seil",
+    "body": "Nasse Seile wiegen wie schlecht gehaltene Versprechen.",
+    "choices": {
+      "A": "Sie unter einem Unterstand trocknen",
+      "B": "Neue kaufen",
+      "C": "Die Ladungen begrenzen"
+    }
+  },
+  "nw_255": {
+    "title": "Kleine Schleuse",
+    "body": "Eine kleine Schleuse könnte das Wasser im Becken beruhigen.",
+    "choices": {
+      "A": "Sie bauen",
+      "B": "Einen Test aus Holz machen",
+      "C": "Verzichten"
+    }
+  },
+  "nw_256": {
+    "title": "Schlecht gesetzte Pfähle",
+    "body": "Einige Pfähle bewegen sich im Schlamm, als wollten sie weggehen.",
+    "choices": {
+      "A": "Sie neu setzen",
+      "B": "Einen lokalen Fachmann holen",
+      "C": "Den Ort wechseln"
+    }
+  },
+  "nw_257": {
+    "title": "Rollendes Fass",
+    "body": "Ein Fass rollt allein den Kai hinunter, und niemand hat sich bei ihm bedankt.",
+    "choices": {
+      "A": "Die Hänge blockieren",
+      "B": "Anders stapeln",
+      "C": "Das Fass schnell verkaufen"
+    }
+  },
+  "nw_258": {
+    "title": "Behelfskran",
+    "body": "Ein zusammengebastelter Kran hebt die Kisten und unsere Sorge zugleich.",
+    "choices": {
+      "A": "Ihn verstärken",
+      "B": "Eine richtige Konstruktion kaufen",
+      "C": "Von Hand tragen"
+    }
+  },
+  "nw_259": {
+    "title": "Bretterweg",
+    "body": "Ein Bretterweg würde viele lächerliche Stürze verhindern.",
+    "choices": {
+      "A": "Ihn verlegen",
+      "B": "Die Händler dafür zahlen lassen",
+      "C": "Ihn dem Lager vorbehalten"
+    }
+  },
+  "nw_260": {
+    "title": "Schlüssel des Lagers",
+    "body": "Der Schlüssel des Lagers wechselt schneller die Tasche als die Abrechnungen.",
+    "choices": {
+      "A": "Eine Kopie machen",
+      "B": "Nur einen Wächter ernennen",
+      "C": "Tagsüber offen lassen"
+    }
+  },
+  "nw_261": {
+    "title": "Lokale Seife",
+    "body": "Eine lokale Seife riecht gut und wäscht besser als unsere Reden.",
+    "choices": {
+      "A": "Sie für das Lager kaufen",
+      "B": "Sie auf dem Markt verkaufen",
+      "C": "Seifen verschenken"
+    }
+  },
+  "nw_262": {
+    "title": "Glänzender Stoff",
+    "body": "Ein glänzender Stoff zieht Blicke und vielleicht Münzen an.",
+    "choices": {
+      "A": "Ihn zum Weiterverkauf kaufen",
+      "B": "Ihn den Anführern vorbehalten",
+      "C": "Das Dorf ihn verkaufen lassen"
+    }
+  },
+  "nw_263": {
+    "title": "Polierte Muscheln",
+    "body": "Polierte Muscheln gefallen den Besuchern mehr als unseren Soldaten.",
+    "choices": {
+      "A": "Mit ihnen Handel treiben",
+      "B": "Das Fort damit schmücken",
+      "C": "Sie verschenken"
+    }
+  },
+  "nw_264": {
+    "title": "Wunderwerkzeug",
+    "body": "Ein Handwerker preist ein Werkzeug an, das alles schneidet außer den Preis.",
+    "choices": {
+      "A": "Es kaufen",
+      "B": "Es testen",
+      "C": "Unsere Handwerker ausbilden"
+    }
+  },
+  "nw_265": {
+    "title": "Rauchiger Duft",
+    "body": "Ein geräuchertes Holz gibt dem Fleisch einen fast unverschämten Erfolg.",
+    "choices": {
+      "A": "Diese Spezialität verkaufen",
+      "B": "Sie den Anführern servieren",
+      "C": "Das Geheimnis bewahren"
+    }
+  },
+  "nw_266": {
+    "title": "Leichter Stein",
+    "body": "Ein heller Stein erleichtert Mauern und Arme.",
+    "choices": {
+      "A": "Ihn abbauen",
+      "B": "Die Handwerker ihn nutzen lassen",
+      "C": "Den Steinbruch reservieren"
+    }
+  },
+  "nw_267": {
+    "title": "Seltene Feder",
+    "body": "Eine seltene Feder gefällt den Schreibern so sehr, dass sie die Tinte vergessen.",
+    "choices": {
+      "A": "Die Partie kaufen",
+      "B": "Sie besteuern",
+      "C": "Sie dem Büro schenken"
+    }
+  },
+  "nw_268": {
+    "title": "Solide Keramik",
+    "body": "Eine lokale Keramik hält endlich auch eiligen Händen stand.",
+    "choices": {
+      "A": "In großer Zahl bestellen",
+      "B": "Den Markt laufen lassen",
+      "C": "Sie dem Lager vorbehalten"
+    }
+  },
+  "nw_269": {
+    "title": "Gut gemachte Eimer",
+    "body": "Lokale Eimer halten das Wasser besser als unsere alten Modelle.",
+    "choices": {
+      "A": "Den ganzen Bestand ersetzen",
+      "B": "Wenig zum Test kaufen",
+      "C": "Jeden selbst wählen lassen"
+    }
+  },
+  "nw_270": {
+    "title": "Lokale Tinte",
+    "body": "Eine lokale Tinte trocknet schnell und verschmiert mit Talent.",
+    "choices": {
+      "A": "Sie übernehmen",
+      "B": "Sie weiterverkaufen",
+      "C": "Bei unserer alten Tinte bleiben"
+    }
+  },
+  "nw_271": {
+    "title": "Kleine Steuer",
+    "body": "Eine kleine Steuer am Kai würde einbringen, ohne zu sehr zu knirschen.",
+    "choices": {
+      "A": "Sie einführen",
+      "B": "Sie eine Woche testen",
+      "C": "Darauf verzichten"
+    }
+  },
+  "nw_272": {
+    "title": "Streit auf dem Markt",
+    "body": "Zwei Verkäufer streiten sich um einen Schattenplatz wie um einen Thron.",
+    "choices": {
+      "A": "Die Plätze markieren",
+      "B": "Den besten Platz bezahlen lassen",
+      "C": "Sie weit voneinander trennen"
+    }
+  },
+  "nw_273": {
+    "title": "Zerknitterter Vertrag",
+    "body": "Ein Vertrag kommt zerknittert, nass und heftig umstritten an.",
+    "choices": {
+      "A": "Ihn sauber neu machen",
+      "B": "Ihn von allen bestätigen lassen",
+      "C": "Ihn wegwerfen"
+    }
+  },
+  "nw_274": {
+    "title": "Übereifriger Wächter",
+    "body": "Ein Wächter kontrolliert alles, sogar leere Körbe und Stimmungen.",
+    "choices": {
+      "A": "Ihn bremsen",
+      "B": "Ihn auf seinem Posten behalten",
+      "C": "Ihn an die Mauer versetzen"
+    }
+  },
+  "nw_275": {
+    "title": "Nacht ohne Runde",
+    "body": "Die Nachtwache vergisst sich manchmal ganz von allein.",
+    "choices": {
+      "A": "Die Runde verdoppeln",
+      "B": "Eine Nachtprämie zahlen",
+      "C": "Den Hafen früher schließen"
+    }
+  },
+  "nw_276": {
+    "title": "Waage des Königs",
+    "body": "Die große offizielle Waage beeindruckt, blockiert aber die halbe Markttätigkeit.",
+    "choices": {
+      "A": "Sie nur für große Mengen behalten",
+      "B": "Eine eigene Reihe schaffen",
+      "C": "Sie wegräumen"
+    }
+  },
+  "nw_277": {
+    "title": "Warteschlange",
+    "body": "Die Schlange vor dem Büro reicht fast bis zur Küche.",
+    "choices": {
+      "A": "Ein zweites Büro öffnen",
+      "B": "Dringlichkeit bezahlen lassen",
+      "C": "Die Papiere vereinfachen"
+    }
+  },
+  "nw_278": {
+    "title": "Halb offene Tür",
+    "body": "Die Tür des Lagers bleibt aus Gewohnheit oder Faulheit oft halb offen.",
+    "choices": {
+      "A": "Das Schloss wechseln",
+      "B": "Einen Aufseher hinstellen",
+      "C": "Sie tagsüber so lassen"
+    }
+  },
+  "nw_279": {
+    "title": "Salzbüro",
+    "body": "Das Salz geht durch zu viele Hände, bevor es in den Büchern ankommt.",
+    "choices": {
+      "A": "Die Schritte reduzieren",
+      "B": "Ein eigenes Büro schaffen",
+      "C": "Es dem Dorf überlassen"
+    }
+  },
+  "nw_280": {
+    "title": "Durchfahrtsrecht",
+    "body": "Die Karren wollen schnell durch und langsam zahlen.",
+    "choices": {
+      "A": "Eine klare Abgabe festlegen",
+      "B": "Einen leichten Tarif machen",
+      "C": "Ohne Steuer passieren lassen"
+    }
+  },
+  "nw_281": {
+    "title": "Gemeinsames Boot",
+    "body": "Zwei Händler wollen am selben Morgen dasselbe Boot.",
+    "choices": {
+      "A": "Einen Zeitplan festlegen",
+      "B": "Ein zweites Boot mieten",
+      "C": "Vorrang verkaufen"
+    }
+  },
+  "nw_282": {
+    "title": "Müdes Maultier",
+    "body": "Das Maultier des Lagers bewegt sich nur noch durch Lob vorwärts.",
+    "choices": {
+      "A": "Es ersetzen",
+      "B": "Es entlasten",
+      "C": "Es behandeln lassen"
+    }
+  },
+  "nw_283": {
+    "title": "Eierndes Rad",
+    "body": "Ein schiefes Rad gibt dem Wagen den Stil eines traurigen Tänzers.",
+    "choices": {
+      "A": "Es wechseln",
+      "B": "Es im Dorf reparieren lassen",
+      "C": "Die Last verringern"
+    }
+  },
+  "nw_284": {
+    "title": "Zu schwere Last",
+    "body": "Eine zu schwere Ladung droht mehr als nur die Stimmung zu brechen.",
+    "choices": {
+      "A": "Sie aufteilen",
+      "B": "Den Wagen verstärken",
+      "C": "Sie vor Ort verkaufen"
+    }
+  },
+  "nw_285": {
+    "title": "Zerbrechliche Fracht",
+    "body": "Feine Töpferwaren kommen mit der Nervosität von sehr teurem Glas an.",
+    "choices": {
+      "A": "Sie von Hand tragen",
+      "B": "Den Transport abfedern",
+      "C": "Einen Teil weiterverkaufen"
+    }
+  },
+  "nw_286": {
+    "title": "Abfahrt vor der Dämmerung",
+    "body": "Ein Konvoi will vor der Morgendämmerung aufbrechen, um die Kühle zu nutzen.",
+    "choices": {
+      "A": "Akzeptieren",
+      "B": "Eine Wache mitschicken",
+      "C": "Auf den Tag warten"
+    }
+  },
+  "nw_287": {
+    "title": "Leeres Schiff",
+    "body": "Ein Schiff fährt fast leer zurück, und das verletzt unseren Stolz.",
+    "choices": {
+      "A": "Es billig beladen",
+      "B": "Es an andere vermieten",
+      "C": "Es im Hafen behalten"
+    }
+  },
+  "nw_288": {
+    "title": "Abgekürzter Pfad",
+    "body": "Ein kurzer Pfad führt über ein Gelände, das niemandem wirklich gehört.",
+    "choices": {
+      "A": "Es kaufen",
+      "B": "Den Durchgang aushandeln",
+      "C": "Auf der alten Straße bleiben"
+    }
+  },
+  "nw_289": {
+    "title": "Neues Ladegestell",
+    "body": "Ein Ladegestell würde die Manöver weniger lächerlich machen.",
+    "choices": {
+      "A": "Es bauen",
+      "B": "Die Händler dafür zahlen lassen",
+      "C": "Ein lokales Gestell mieten"
+    }
+  },
+  "nw_290": {
+    "title": "Wechselnde Arbeitskräfte",
+    "body": "Arbeiter wechseln die Baustelle wie Fische die Strömung.",
+    "choices": {
+      "A": "Die Zuverlässigen besser bezahlen",
+      "B": "Ein festes Team aufstellen",
+      "C": "Sie wechseln lassen"
+    }
+  },
+  "nw_291": {
+    "title": "Fest der Flagge",
+    "body": "Die neue Flagge verdient ein Fest, aber die Kasse hustet schon.",
+    "choices": {
+      "A": "Ein kleines Fest machen",
+      "B": "Groß feiern",
+      "C": "Verschieben"
+    }
+  },
+  "nw_292": {
+    "title": "Zu lange Rede",
+    "body": "Die Rede des Kommandanten dauert länger als eine langsame Flut.",
+    "choices": {
+      "A": "Sie kürzen",
+      "B": "Sie auf dem Platz halten",
+      "C": "Sie fürs Büro behalten"
+    }
+  },
+  "nw_293": {
+    "title": "Lokale Medaille",
+    "body": "Das Dorf schlägt eine geflochtene Medaille für die Nützlichsten vor.",
+    "choices": {
+      "A": "Sie übernehmen",
+      "B": "Unsere eigene schaffen",
+      "C": "Mit Münzen belohnen"
+    }
+  },
+  "nw_294": {
+    "title": "Schürze des Küchenchefs",
+    "body": "Der Küchenchef will eine bestickte Schürze wie ein Minister.",
+    "choices": {
+      "A": "Sie ihm schenken",
+      "B": "Ihn selbst zahlen lassen",
+      "C": "Später versprechen"
+    }
+  },
+  "nw_295": {
+    "title": "Besticktes Banner",
+    "body": "Ein vom Dorf besticktes Banner würde im Fort gut aussehen.",
+    "choices": {
+      "A": "Es in Auftrag geben",
+      "B": "Es gegen Hilfe aushandeln",
+      "C": "Das alte behalten"
+    }
+  },
+  "nw_296": {
+    "title": "Ehrenbank",
+    "body": "Der Platz will eine Ehrenbank für wichtige Besucher.",
+    "choices": {
+      "A": "Sie bauen lassen",
+      "B": "Sie zur Hälfte finanzieren",
+      "C": "Das Dorf sich darum kümmern lassen"
+    }
+  },
+  "nw_297": {
+    "title": "Nasser Umzug",
+    "body": "Der Regen bedroht den kleinen Umzug, der am Kai geplant ist.",
+    "choices": {
+      "A": "Ihn beibehalten",
+      "B": "Ins Fort verlegen",
+      "C": "Ihn absagen"
+    }
+  },
+  "nw_298": {
+    "title": "Krone aus Blättern",
+    "body": "Eine Krone aus Blättern wird unter den Anführern des Hafens zur Mode.",
+    "choices": {
+      "A": "Der Mode folgen",
+      "B": "Ein paar verschenken",
+      "C": "Sie ignorieren"
+    }
+  },
+  "nw_299": {
+    "title": "Platz des Königs",
+    "body": "Es wird vorgeschlagen, den Marktplatz nach dem König umzubenennen.",
+    "choices": {
+      "A": "Akzeptieren",
+      "B": "Einen Doppelnamen wählen",
+      "C": "Ablehnen"
+    }
+  },
+  "nw_300": {
+    "title": "Tag des Hafens",
+    "body": "Ein Tag ohne Steuer würde den Kai mit Menschen und Lärm füllen.",
+    "choices": {
+      "A": "Die Idee starten",
+      "B": "Einen halben Tag machen",
+      "C": "Beim normalen System bleiben"
+    }
+  },
+  "nw_301": {
+    "title": "Königliche Schubkarre",
+    "body": "Die alte Schubkarre des Kais quietscht lauter als der Kommandant.",
+    "choices": {
+      "A": "Zwei Schubkarren kaufen",
+      "B": "Die alte reparieren",
+      "C": "Eine vom Dorf mieten"
+    }
+  },
+  "nw_302": {
+    "title": "Regen auf den Registern",
+    "body": "Die Papiere des Büros trinken den Regen mit zu viel Begeisterung.",
+    "choices": {
+      "A": "Im Trockenen kopieren",
+      "B": "Das Büro verlegen",
+      "C": "Die Papiermenge verringern"
+    }
+  },
+  "nw_303": {
+    "title": "Ruhige Bucht",
+    "body": "Eine ruhige Bucht könnte nützlicher sein, als sie schläft.",
+    "choices": {
+      "A": "Dort einen kleinen Kai bauen",
+      "B": "Sie militärisch behalten",
+      "C": "Sie den Fischern öffnen"
+    }
+  },
+  "nw_304": {
+    "title": "Zu stolze Bohnen",
+    "body": "Die Bohnen des Lagers wachsen so gut, dass sie auf den Markt herabblicken.",
+    "choices": {
+      "A": "Sie schnell verkaufen",
+      "B": "Sie im Lager behalten",
+      "C": "Dem Dorf etwas davon schenken"
+    }
+  },
+  "nw_305": {
+    "title": "Reserve-Seil",
+    "body": "Das letzte gute Seil im Lager hat schon zu viel erlebt.",
+    "choices": {
+      "A": "Eine große Rolle kaufen",
+      "B": "Vor Ort flechten",
+      "C": "Auf die Lieferung warten"
+    }
+  },
+  "nw_306": {
+    "title": "Drängender Händler",
+    "body": "Ein Händler will unterschreiben, noch bevor er sich setzt.",
+    "choices": {
+      "A": "Ein kurzes Abkommen unterschreiben",
+      "B": "Ihn einen Monat testen",
+      "C": "Ihn warten lassen"
+    }
+  },
+  "nw_307": {
+    "title": "Schwarzer Sand",
+    "body": "Ein dunkler Sand zieht Blicke ebenso an wie Gewinnideen.",
+    "choices": {
+      "A": "Ihn weit weg verkaufen",
+      "B": "Ihn für unsere Arbeiten behalten",
+      "C": "Ihn den Anführern schenken"
+    }
+  },
+  "nw_308": {
+    "title": "Fenster des Büros",
+    "body": "Dem Büro fehlt Luft, und den Abrechnungen auch.",
+    "choices": {
+      "A": "Es vergrößern",
+      "B": "Es morgens öffnen",
+      "C": "Es so lassen"
+    }
+  },
+  "nw_309": {
+    "title": "Schiefer Baum",
+    "body": "Ein Baum am Kai lehnt sich, als würde er allem zuhören.",
+    "choices": {
+      "A": "Ihn fällen",
+      "B": "Ihn stützen",
+      "C": "Eine Bank daraus machen"
+    }
+  },
+  "nw_310": {
+    "title": "Leere Schüsseln",
+    "body": "Die Schüsseln des Lagers sind schneller verschwunden als die Ausreden.",
+    "choices": {
+      "A": "Welche kaufen",
+      "B": "Den lokalen Töpfer fragen",
+      "C": "Die Ausgabe verringern"
+    }
+  },
+  "nw_311": {
+    "title": "Lokale Sandalen",
+    "body": "Die lokalen Sandalen halten den Schlamm besser aus als unsere stolzen Stiefel.",
+    "choices": {
+      "A": "Sie für das Lager kaufen",
+      "B": "Jeden selbst wählen lassen",
+      "C": "Sie den Arbeitern schenken"
+    }
+  },
+  "nw_312": {
+    "title": "Nützlicher Felsen",
+    "body": "Ein großer Felsen am Ufer scheint für uns arbeiten zu wollen.",
+    "choices": {
+      "A": "Stufen hineinschlagen",
+      "B": "Dort einen Posten aufstellen",
+      "C": "Ihn den Fischern lassen"
+    }
+  },
+  "nw_313": {
+    "title": "Zu helle Nacht",
+    "body": "Die Feuer des Lagers leuchten so stark, dass selbst die Krabben uns kommen sehen.",
+    "choices": {
+      "A": "Die Feuer reduzieren",
+      "B": "Die Runden verlegen",
+      "C": "Das Licht behalten"
+    }
+  },
+  "nw_314": {
+    "title": "Tisch der Abrechnungen",
+    "body": "Der Tisch des Büros wackelt wie das Versprechen eines Händlers.",
+    "choices": {
+      "A": "Ihn ersetzen",
+      "B": "Ihn besser unterlegen",
+      "C": "Draußen rechnen"
+    }
+  },
+  "nw_315": {
+    "title": "Nachtfischfang",
+    "body": "Einige Fischer wollen nach Sonnenuntergang ausfahren.",
+    "choices": {
+      "A": "Es erlauben",
+      "B": "Den Fang besteuern",
+      "C": "Es verbieten"
+    }
+  },
+  "nw_316": {
+    "title": "Glänzender Stand",
+    "body": "Ein neuer Stand zieht den ganzen Markt und viel Neid an.",
+    "choices": {
+      "A": "Ihn teuer vermieten",
+      "B": "Ihn dem Fort vorbehalten",
+      "C": "Den Verkäufer glänzen lassen"
+    }
+  },
+  "nw_317": {
+    "title": "Hahn des Lagers",
+    "body": "Der Hahn weckt alle auf, außer den Nützlichsten.",
+    "choices": {
+      "A": "Ihn behalten",
+      "B": "Ihn verkaufen",
+      "C": "Ihn dem Dorf schenken"
+    }
+  },
+  "nw_318": {
+    "title": "Schilfmatten",
+    "body": "Schilfmatten machen die Böden weniger traurig und weniger rutschig.",
+    "choices": {
+      "A": "Welche kaufen",
+      "B": "Den Markt sie verkaufen lassen",
+      "C": "Sie ins Büro legen"
+    }
+  },
+  "nw_319": {
+    "title": "Undichtes Boot",
+    "body": "Ein Boot nimmt mit vorbildlicher Regelmäßigkeit Wasser auf.",
+    "choices": {
+      "A": "Es reparieren",
+      "B": "Es weiterverkaufen",
+      "C": "Es den Fischern leihen"
+    }
+  },
+  "nw_320": {
+    "title": "Offizieller Blumenstrauß",
+    "body": "Der Saal des Forts riecht mehr nach Staub als nach dem kommenden Besuch.",
+    "choices": {
+      "A": "Blumen kaufen",
+      "B": "Das Dorf fragen",
+      "C": "Den Saal kahl lassen"
+    }
+  },
+  "nw_321": {
+    "title": "Krabben auf dem Weg",
+    "body": "Der Pfad am Kai wimmelt von sehr unkooperativen Krabben.",
+    "choices": {
+      "A": "Den Durchgang säubern",
+      "B": "Einen Umweg machen",
+      "C": "Die Krabben verkaufen"
+    }
+  },
+  "nw_322": {
+    "title": "Warmer Stein",
+    "body": "Ein flacher Stein speichert Wärme besser als unsere Feuerstellen.",
+    "choices": {
+      "A": "Mit dem Stein kochen",
+      "B": "Eine Feuerstelle bauen",
+      "C": "Den Stein lassen"
+    }
+  },
+  "nw_323": {
+    "title": "Tor des Marktes",
+    "body": "Das Tor des Marktes klemmt Kisten und Gemüter ein.",
+    "choices": {
+      "A": "Es verbreitern",
+      "B": "Einen Wächter hinstellen",
+      "C": "Den Eingang frei lassen"
+    }
+  },
+  "nw_324": {
+    "title": "Unauffällige Quelle",
+    "body": "Eine kleine Quelle fließt hinter dem Gras, ohne groß aufzutreten.",
+    "choices": {
+      "A": "Sie schützen",
+      "B": "Das Lager dorthin führen",
+      "C": "Sie teilen"
+    }
+  },
+  "nw_325": {
+    "title": "Bemalte Piroge",
+    "body": "Eine bunte Piroge sorgt für mehr Gesprächsstoff als ein Vertrag.",
+    "choices": {
+      "A": "Sie mieten",
+      "B": "Die Dekoration kopieren",
+      "C": "Sie kaufen"
+    }
+  },
+  "nw_326": {
+    "title": "Salzkarren",
+    "body": "Der Salzkarren droht als weißer Haufen auf dem Weg zu enden.",
+    "choices": {
+      "A": "Ihn verstärken",
+      "B": "Die Last aufteilen",
+      "C": "Ihn später durchlassen"
+    }
+  },
+  "nw_327": {
+    "title": "Dach der Werkstatt",
+    "body": "Das Dach der Werkstatt tropft auf die teuersten Werkzeuge.",
+    "choices": {
+      "A": "Es neu machen",
+      "B": "Eine Plane darüberlegen",
+      "C": "Die Werkzeuge verlegen"
+    }
+  },
+  "nw_328": {
+    "title": "Kranke Wache",
+    "body": "Die Wache hustet mehr, als sie beobachtet.",
+    "choices": {
+      "A": "Ihr Ruhe geben",
+      "B": "Einen Ersatz suchen",
+      "C": "Die Runde verkürzen"
+    }
+  },
+  "nw_329": {
+    "title": "Zu großes Feuer",
+    "body": "Das große Abendfeuer beeindruckt, frisst aber das Holz.",
+    "choices": {
+      "A": "Es kleiner machen",
+      "B": "Mehr kochen, um zu verkaufen",
+      "C": "Es den Anführern zeigen"
+    }
+  },
+  "nw_330": {
+    "title": "Ausgerichtete Krüge",
+    "body": "Eine Reihe von Krügen macht Lust, noch zehn weitere zu füllen.",
+    "choices": {
+      "A": "Mehr davon lagern",
+      "B": "Sie verkaufen",
+      "C": "Sie dem Lager geben"
+    }
+  },
+  "nw_331": {
+    "title": "Buntes Glas",
+    "body": "Stücke von glänzendem Glas verdrehen allen den Kopf.",
+    "choices": {
+      "A": "Sie kaufen",
+      "B": "Sie dem Büro schenken",
+      "C": "Sie auf dem Markt lassen"
+    }
+  },
+  "nw_332": {
+    "title": "Parademast",
+    "body": "Ein großer Mast würde dem Hafen ein sehr offizielles Aussehen geben.",
+    "choices": {
+      "A": "Ihn aufrichten",
+      "B": "Etwas Einfacheres machen",
+      "C": "Die Parade absagen"
+    }
+  },
+  "nw_333": {
+    "title": "Holzbüro",
+    "body": "Dem Kai fehlt eine echte trockene Ecke, um ohne Drama zu unterschreiben.",
+    "choices": {
+      "A": "Es bauen lassen",
+      "B": "Einen lokalen Raum mieten",
+      "C": "Das jetzige Büro behalten"
+    }
+  },
+  "nw_334": {
+    "title": "Heilkräuter",
+    "body": "Ein Heiler preist Kräuter an, die stark riechen und gut beruhigen.",
+    "choices": {
+      "A": "Sie kaufen",
+      "B": "Sie anbauen",
+      "C": "Sie den Heilern schenken"
+    }
+  },
+  "nw_335": {
+    "title": "Salzige Pastete",
+    "body": "Eine Pastete aus dem Hafen würde sich fast von selbst verkaufen.",
+    "choices": {
+      "A": "Sie verkaufen",
+      "B": "Sie den Gästen servieren",
+      "C": "Das Rezept behalten"
+    }
+  },
+  "nw_336": {
+    "title": "Feiner Regen",
+    "body": "Ein leichter Regen stört ein wenig alles, hält aber nichts wirklich auf.",
+    "choices": {
+      "A": "Weiterarbeiten",
+      "B": "Die Männer hineinholen",
+      "C": "Tücher spannen"
+    }
+  },
+  "nw_337": {
+    "title": "Rotes Seil",
+    "body": "Ein rot gefärbtes Seil zieht mehr Blicke als Arme an.",
+    "choices": {
+      "A": "Es für den Kai behalten",
+      "B": "Es verkaufen",
+      "C": "Es dem Platz schenken"
+    }
+  },
+  "nw_338": {
+    "title": "Tiefe Reede",
+    "body": "Eine tiefe Zone kann Größeres aufnehmen als unsere Gewohnheiten.",
+    "choices": {
+      "A": "Dort große Schiffe aufnehmen",
+      "B": "Sie geheim halten",
+      "C": "Sie für alle öffnen"
+    }
+  },
+  "nw_339": {
+    "title": "Schlecht verschlossene Säcke",
+    "body": "Die Säcke im Lager lassen ihren Inhalt heraus wie Plaudertaschen.",
+    "choices": {
+      "A": "Gute Bänder kaufen",
+      "B": "Die Träger ausbilden",
+      "C": "Den Vorrat schnell verkaufen"
+    }
+  },
+  "nw_340": {
+    "title": "Schlammiger Weg",
+    "body": "Ein Weg des Lagers verschlingt Sandalen wie ein weiches Tier.",
+    "choices": {
+      "A": "Kies auslegen",
+      "B": "Den Weg schließen",
+      "C": "Einen anderen Weg nutzen"
+    }
+  },
+  "nw_341": {
+    "title": "Starfrucht",
+    "body": "Eine lokale Frucht gefällt so sehr, dass man mehr über sie als über den König spricht.",
+    "choices": {
+      "A": "Sie weit weg verkaufen",
+      "B": "Sie dem Fort vorbehalten",
+      "C": "Sie teilen"
+    }
+  },
+  "nw_342": {
+    "title": "Nasse Trommel",
+    "body": "Die Trommel des Hafens klingt wie eine traurige Socke.",
+    "choices": {
+      "A": "Sie trocknen lassen",
+      "B": "Eine andere kaufen",
+      "C": "Zur Glocke zurückkehren"
+    }
+  },
+  "nw_343": {
+    "title": "Schiefer Tisch",
+    "body": "Ein Sortiertisch neigt sich so stark, dass die Säcke eine Seite wählen.",
+    "choices": {
+      "A": "Ihn ausrichten",
+      "B": "Einen neuen bestellen",
+      "C": "Im Stehen sortieren"
+    }
+  },
+  "nw_344": {
+    "title": "Kleine Mühle",
+    "body": "Eine kleine Mühle könnte viele Arme entlasten.",
+    "choices": {
+      "A": "Sie bauen",
+      "B": "Sie klein testen",
+      "C": "Mehl kaufen"
+    }
+  },
+  "nw_345": {
+    "title": "Abgabe am Kai",
+    "body": "Eine leichte Steuer würde genau richtig knirschen.",
+    "choices": {
+      "A": "Sie festsetzen",
+      "B": "Sie etwas senken",
+      "C": "Sie abschaffen"
+    }
+  },
+  "nw_346": {
+    "title": "Öffentliche Hängematten",
+    "body": "Hängematten am Hafen würden müde Männer seltener umfallen lassen.",
+    "choices": {
+      "A": "Welche aufhängen",
+      "B": "Sie dem Lager vorbehalten",
+      "C": "Sie vermieten"
+    }
+  },
+  "nw_347": {
+    "title": "Überdachter Markt",
+    "body": "Der Markt träumt seit vielen nassen Monden von einem Dach.",
+    "choices": {
+      "A": "Es bauen",
+      "B": "Klein anfangen",
+      "C": "Ihn draußen lassen"
+    }
+  },
+  "nw_348": {
+    "title": "Verlorene Leiter",
+    "body": "Eine Leiter fehlt immer dann, wenn Höhe plötzlich dringend wird.",
+    "choices": {
+      "A": "Eine kaufen",
+      "B": "Vor Ort bauen",
+      "C": "Hohe Arbeiten verschieben"
+    }
+  },
+  "nw_349": {
+    "title": "Geräucherter Honig",
+    "body": "Ein geräucherter Honig überrascht alle und gefällt zu schnell.",
+    "choices": {
+      "A": "Ihn verkaufen",
+      "B": "Ihn verschenken",
+      "C": "Etwas fürs Fort behalten"
+    }
+  },
+  "nw_350": {
+    "title": "Weg zum Leuchtturm",
+    "body": "Der Weg zum Leuchtturm verstaucht Knöchel und nimmt die Lust am Aufstieg.",
+    "choices": {
+      "A": "Ihn reparieren",
+      "B": "Ihn vor Ort instand halten lassen",
+      "C": "Ihn nachts schließen"
+    }
+  },
+  "nw_351": {
+    "title": "Arbeitshandschuhe",
+    "body": "Die Hände auf der Baustelle sehen zu sehr wie alte Netze aus.",
+    "choices": {
+      "A": "Sie verteilen",
+      "B": "Sie zum Selbstkostenpreis verkaufen",
+      "C": "Jeden machen lassen"
+    }
+  },
+  "nw_352": {
+    "title": "Goldene Ähre",
+    "body": "Eine sehr kräftige Ähre gibt dem Speicher große Ideen.",
+    "choices": {
+      "A": "Sie dem König zeigen",
+      "B": "Sie überall aussäen",
+      "C": "Sie teilen"
+    }
+  },
+  "nw_353": {
+    "title": "Hund des Anführers",
+    "body": "Der Hund des benachbarten Anführers liebt unsere Küche und unsere Flure.",
+    "choices": {
+      "A": "Ihn füttern",
+      "B": "Ihn vom Kai fernhalten",
+      "C": "Ihn im Lager spazieren führen"
+    }
+  },
+  "nw_354": {
+    "title": "Holzreserve",
+    "body": "Der Holzstapel schrumpft schneller als die Klagen des Kochs.",
+    "choices": {
+      "A": "Ihn vergrößern",
+      "B": "Ein wenig davon verkaufen",
+      "C": "Ihn teilen"
+    }
+  },
+  "nw_355": {
+    "title": "Schmales Tor",
+    "body": "Die kleine Tür des Lagers hasst große Kisten.",
+    "choices": {
+      "A": "Sie breiter öffnen",
+      "B": "Nach Reihenfolge durchlassen",
+      "C": "So lassen"
+    }
+  },
+  "nw_356": {
+    "title": "Redseliger Verkäufer",
+    "body": "Ein Verkäufer zieht so viele Leute an, dass man weniger den Hafen als ihn hört.",
+    "choices": {
+      "A": "Ihn in die Mitte setzen",
+      "B": "Ihn besteuern",
+      "C": "Ihn einstellen"
+    }
+  },
+  "nw_357": {
+    "title": "Werkzeughütte",
+    "body": "Die Hämmer reisen zu viel und kommen selten zurück.",
+    "choices": {
+      "A": "Sie bauen",
+      "B": "Einen Raum im Fort nutzen",
+      "C": "Die Werkzeuge im Lager lassen"
+    }
+  },
+  "nw_358": {
+    "title": "Großer Spiegel",
+    "body": "Ein riesiger Spiegel kommt mit mehr Stolz als Vorsicht am Kai an.",
+    "choices": {
+      "A": "Ihn kaufen",
+      "B": "Ihn für den Besuch mieten",
+      "C": "Ihn weiterziehen lassen"
+    }
+  },
+  "nw_359": {
+    "title": "Langsame Patrouille",
+    "body": "Die Abendpatrouille bewegt sich wie eine kalte Suppe.",
+    "choices": {
+      "A": "Einen Bonus geben",
+      "B": "Den Weg ändern",
+      "C": "Die Runde verkürzen"
+    }
+  },
+  "nw_360": {
+    "title": "Steiles Ufer",
+    "body": "Ein nützliches Ufer ist für die Stiefel des Lagers zu steil.",
+    "choices": {
+      "A": "Einen Durchgang hineinschlagen",
+      "B": "Den Zugang verbieten",
+      "C": "Seile benutzen"
+    }
+  },
+  "nw_361": {
+    "title": "Blaue Laterne",
+    "body": "Eine blaue Laterne leuchtet besser als all unser Ernst.",
+    "choices": {
+      "A": "Sie am Kai übernehmen",
+      "B": "Sie als Kuriosität verkaufen",
+      "C": "Sie den Anführern schenken"
+    }
+  },
+  "nw_362": {
+    "title": "Ofen des Hafens",
+    "body": "Der Ofen am Kai heizt schlecht und verärgert gut.",
+    "choices": {
+      "A": "Ihn reparieren",
+      "B": "Einen anderen bauen",
+      "C": "Im Dorf kaufen"
+    }
+  },
+  "nw_363": {
+    "title": "Wäsche im Wind",
+    "body": "Die Wäsche der Seeleute verwandelt den Kai in einen Wald aus Tüchern.",
+    "choices": {
+      "A": "Einen eigenen Bereich schaffen",
+      "B": "Es am Kai verbieten",
+      "C": "Die Fläche bezahlen lassen"
+    }
+  },
+  "nw_364": {
+    "title": "Neues Ruder",
+    "body": "Ein gut gemachtes Ruder macht Lust, den ganzen Bestand zu erneuern.",
+    "choices": {
+      "A": "Zehn davon kaufen",
+      "B": "Zwei davon testen",
+      "C": "Die alten behalten"
+    }
+  },
+  "nw_365": {
+    "title": "Fest des Fisches",
+    "body": "Ein Fest des Fisches würde den Hafen mit Gerüchen und Münzen füllen.",
+    "choices": {
+      "A": "Es starten",
+      "B": "Es auf den Hafen beschränken",
+      "C": "Es absagen"
+    }
+  },
+  "nw_366": {
+    "title": "Stille Docks",
+    "body": "Der Kai wirkt so ruhig, dass man fast glaubt, etwas verpasst zu haben.",
+    "choices": {
+      "A": "Musiker schicken",
+      "B": "Einen Tag lang die Steuern senken",
+      "C": "Die Ruhe lassen"
+    }
+  },
+  "nw_367": {
+    "title": "Glatter Stein",
+    "body": "Ein polierter Stein rutscht wenig und kostet noch weniger als ein Sturz.",
+    "choices": {
+      "A": "Den Eingang pflastern",
+      "B": "Ihn in Blöcken verkaufen",
+      "C": "Den Platz schmücken"
+    }
+  },
+  "nw_368": {
+    "title": "Regenkleidung",
+    "body": "Die Wache ist schon vor der Tagesmitte durchnässt.",
+    "choices": {
+      "A": "Welche für die Wache kaufen",
+      "B": "Sie den Arbeitern verkaufen",
+      "C": "Auf Sonne warten"
+    }
+  },
+  "nw_369": {
+    "title": "Ziegenpfad",
+    "body": "Ein kleiner Ziegenpfad steigt besser hinauf als unsere große Straße.",
+    "choices": {
+      "A": "Ihm folgen",
+      "B": "Ihn markieren",
+      "C": "Ihn schließen"
+    }
+  },
+  "nw_370": {
+    "title": "Nebenbüro",
+    "body": "Das Hauptbüro quillt schon über Bänke und Nerven hinaus.",
+    "choices": {
+      "A": "Es öffnen",
+      "B": "Es jeden zweiten Tag betreiben",
+      "C": "Bei einem einzigen Büro bleiben"
+    }
+  },
+  "nw_371": {
+    "title": "Trockene Netze",
+    "body": "Gut getrocknete Netze sind fast mehr wert als eine gute Rede.",
+    "choices": {
+      "A": "Sie lagern",
+      "B": "Sie verkaufen",
+      "C": "Sie verleihen"
+    }
+  },
+  "nw_372": {
+    "title": "Bemalte Mauer",
+    "body": "Eine bunte Mauer zieht die Menge viel stärker an als eine sehr gerade Mauer.",
+    "choices": {
+      "A": "Das Wandbild lassen",
+      "B": "Das Zeichen des Königs malen",
+      "C": "Die Mauer überstreichen"
+    }
+  },
+  "nw_373": {
+    "title": "Rundes Brot",
+    "body": "Ein neues Brot verbreitet sich schon schneller als die Neuigkeiten des Hafens.",
+    "choices": {
+      "A": "Es überall verkaufen",
+      "B": "Es fürs Lager behalten",
+      "C": "Den Nachbarn etwas schenken"
+    }
+  },
+  "nw_374": {
+    "title": "Zerbrechliches Paket",
+    "body": "Das Paket zittert fast von allein, wenn man es ansieht.",
+    "choices": {
+      "A": "Es von Hand tragen",
+      "B": "Es im Fort lagern",
+      "C": "Es weiterverkaufen"
+    }
+  },
+  "nw_375": {
+    "title": "Leerer Käfig",
+    "body": "Ein Käfig steht leer im Lager wie eine Idee, die noch wartet.",
+    "choices": {
+      "A": "Ihn mit Hühnern füllen",
+      "B": "Ihn verkaufen",
+      "C": "Ihn verschenken"
+    }
+  },
+  "nw_376": {
+    "title": "Altes Boot",
+    "body": "Ein altes Boot hält noch eher aus Gewohnheit als durch Holz zusammen.",
+    "choices": {
+      "A": "Es reparieren",
+      "B": "Es zerlegen",
+      "C": "Es verleihen"
+    }
+  },
+  "nw_377": {
+    "title": "Nahes Riff",
+    "body": "Ein sehr nahes Riff könnte nützlich oder sehr ärgerlich sein.",
+    "choices": {
+      "A": "Es markieren",
+      "B": "Es geheim halten",
+      "C": "Es für den Fischfang nutzen"
+    }
+  },
+  "nw_378": {
+    "title": "Laken des Lagers",
+    "body": "Die Laken des Lagers haben die Farbe der Müdigkeit.",
+    "choices": {
+      "A": "Sie wechseln",
+      "B": "Sie im Dorf waschen lassen",
+      "C": "Die neuen den Verletzten vorbehalten"
+    }
+  },
+  "nw_379": {
+    "title": "Königliches Siegel",
+    "body": "Das große Siegel gibt den Papieren Gewicht und den Schlangen Zeit.",
+    "choices": {
+      "A": "Alles siegeln",
+      "B": "Nur die Verträge siegeln",
+      "C": "Das Siegel in der Truhe lassen"
+    }
+  },
+  "nw_380": {
+    "title": "Garten der Gewürze",
+    "body": "Der Garten hinter dem Fort riecht schon nach Geld.",
+    "choices": {
+      "A": "Ihn vergrößern",
+      "B": "Ihn in Tütchen verkaufen",
+      "C": "Ihn teilen"
+    }
+  },
+  "nw_381": {
+    "title": "Kaputtes Brett",
+    "body": "Ein gebrochenes Brett wählt immer den schlimmsten Moment.",
+    "choices": {
+      "A": "Es austauschen",
+      "B": "Es schnell reparieren",
+      "C": "Den Durchgang schließen"
+    }
+  },
+  "nw_382": {
+    "title": "Schneller Schreiber",
+    "body": "Ein Schreiber kopiert so schnell, dass man ihm gut noch ein anderes Bündel geben könnte.",
+    "choices": {
+      "A": "Ihm mehr Arbeit geben",
+      "B": "Ihm einen Helfer suchen",
+      "C": "Ihn in seinem Tempo lassen"
+    }
+  },
+  "nw_383": {
+    "title": "Privater Steg",
+    "body": "Ein Händler hat seinen kleinen Steg gebaut, ohne auf unsere Laune zu warten.",
+    "choices": {
+      "A": "Ihn verbieten",
+      "B": "Ihn besteuern",
+      "C": "Ihn mieten"
+    }
+  },
+  "nw_384": {
+    "title": "Süßes Fass",
+    "body": "Ein sehr süßes Fass zieht Zungen und Ideen an.",
+    "choices": {
+      "A": "Es verkaufen",
+      "B": "Es am Tisch servieren",
+      "C": "Es für den Winter behalten"
+    }
+  },
+  "nw_385": {
+    "title": "Seifenkiste",
+    "body": "Eine Kiste Seife riecht nach Sauberkeit und Handel.",
+    "choices": {
+      "A": "Sie kaufen",
+      "B": "Sie weiterverkaufen",
+      "C": "Dem Lager etwas davon geben"
+    }
+  },
+  "nw_386": {
+    "title": "Ebenes Gelände",
+    "body": "Ein schön flaches Gelände lässt von Lagerung und Märkten träumen.",
+    "choices": {
+      "A": "Dort ein Lager anlegen",
+      "B": "Dort Markt halten",
+      "C": "Es frei lassen"
+    }
+  },
+  "nw_387": {
+    "title": "Schatten des Feigenbaums",
+    "body": "Der Schatten eines großen Feigenbaums ist schon drei Bänke wert.",
+    "choices": {
+      "A": "Eine Bank aufstellen",
+      "B": "Den Schatten fürs Büro reservieren",
+      "C": "Alle dort hinkommen lassen"
+    }
+  },
+  "nw_388": {
+    "title": "Nasser Wächter",
+    "body": "Der Wächter am Tor sieht aus wie ein bewaffneter Schwamm.",
+    "choices": {
+      "A": "Ihm einen Umhang geben",
+      "B": "Den Posten wechseln",
+      "C": "Ihn die Schicht zu Ende machen lassen"
+    }
+  },
+  "nw_389": {
+    "title": "Wegmarke",
+    "body": "Nur eine einzige Markierung weist den Weg, obwohl es fünf bräuchte.",
+    "choices": {
+      "A": "Mehr davon setzen",
+      "B": "Die Steine bemalen lassen",
+      "C": "Die Führer lassen"
+    }
+  },
+  "nw_390": {
+    "title": "Markt am Morgen",
+    "body": "Der Markt will früher öffnen als die Sonne des Büros.",
+    "choices": {
+      "A": "Früher öffnen",
+      "B": "Es einen Tag testen",
+      "C": "Bei der jetzigen Zeit bleiben"
+    }
+  },
+  "nw_391": {
+    "title": "Markierter Stein",
+    "body": "Ein gravierter Stein zieht Blicke an, die wir nicht bestellt haben.",
+    "choices": {
+      "A": "Ihn zeigen",
+      "B": "Ihn im Fort behalten",
+      "C": "Ihn an Ort und Stelle lassen"
+    }
+  },
+  "nw_392": {
+    "title": "Hohe Welle",
+    "body": "Eine höhere Welle als sonst trifft den Kai mit Nachdruck.",
+    "choices": {
+      "A": "Den Kai erhöhen",
+      "B": "Weiter draußen entladen",
+      "C": "Auf ruhiges Meer warten"
+    }
+  },
+  "nw_393": {
+    "title": "Beschwerdebüro",
+    "body": "Die Beschwerden stapeln sich wie schlecht sortierte Säcke.",
+    "choices": {
+      "A": "Es eröffnen",
+      "B": "Einen Tag pro Woche machen",
+      "C": "Die Beschwerden ignorieren"
+    }
+  },
+  "nw_394": {
+    "title": "Frisches Stroh",
+    "body": "Neues Stroh würde Tieren und Nasen guttun.",
+    "choices": {
+      "A": "Es kaufen",
+      "B": "Es verkaufen",
+      "C": "Es den Ställen geben"
+    }
+  },
+  "nw_395": {
+    "title": "Nachbarschiff",
+    "body": "Ein Schiff aus einem Nachbarhafen zögert, mit uns Handel zu treiben.",
+    "choices": {
+      "A": "Handel treiben",
+      "B": "Es überwachen",
+      "C": "Es in den Hafen einladen"
+    }
+  },
+  "nw_396": {
+    "title": "Öffentliche Laube",
+    "body": "Eine Laube würde dem Platz Schatten und den Schlangen Ruhe geben.",
+    "choices": {
+      "A": "Sie bauen",
+      "B": "Sie bezahlen lassen",
+      "C": "Sie dem Dorf anvertrauen"
+    }
+  },
+  "nw_397": {
+    "title": "Fehlender Pfosten",
+    "body": "Ein Loch im Zaun reicht, um den ganzen Kai nervös zu machen.",
+    "choices": {
+      "A": "Ihn ersetzen",
+      "B": "Die ganze Kante verstärken",
+      "C": "Das Gebiet schließen"
+    }
+  },
+  "nw_398": {
+    "title": "Lokale Kopfbedeckung",
+    "body": "Eine lokale Kopfbedeckung gefällt so sehr, dass man sie schon im Fort tragen will.",
+    "choices": {
+      "A": "Für den Besuch welche kaufen",
+      "B": "Den Anführern welche schenken",
+      "C": "Die Mode laufen lassen"
+    }
+  },
+  "nw_399": {
+    "title": "Mehlsäcke",
+    "body": "Mehlsäcke mögen weder Wasser noch Verzögerungen.",
+    "choices": {
+      "A": "Sie trocken lagern",
+      "B": "Sie schnell verkaufen",
+      "C": "Sie verteilen"
+    }
+  },
+  "nw_400": {
+    "title": "Turm am Ufer",
+    "body": "Ein Turm am Wasser würde alles sehen und ebenso alles kosten.",
+    "choices": {
+      "A": "Ihn bauen",
+      "B": "Eine Plattform errichten",
+      "C": "Den Hügel nutzen"
+    }
+  }
+}

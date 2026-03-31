@@ -1,0 +1,709 @@
+{
+  "app": {
+    "title": "Vuniverse"
+  },
+  "common": {
+    "continue": "Lanjutkan",
+    "cancel": "Batal",
+    "close": "Tutup",
+    "back": "Kembali",
+    "settings": "Pengaturan",
+    "shop": "Toko",
+    "use": "Pakai",
+    "buy": "Beli",
+    "owned": "Dimiliki",
+    "locked": "Perlu dibuka",
+    "equipped": "Dipakai",
+    "error_generic": "Kesalahan",
+    "unavailable": "Tidak tersedia"
+  },
+  "auth": {
+    "username": {
+      "title": "Pilih nama pengguna",
+      "subtitle": "Nama ini akan terlihat di aplikasi.",
+      "label": "Nama pengguna",
+      "placeholder": "Contoh: Martin_7",
+      "cta": "Konfirmasi",
+      "skip": "Nanti saja",
+      "rules": "3 sampai 20 karakter • huruf, angka, _ atau -",
+      "errors": {
+        "length": "Nama pengguna harus terdiri dari 3 hingga 20 karakter.",
+        "chars": "Gunakan hanya huruf, angka, _ atau -.",
+        "taken": "Nama pengguna ini sudah dipakai, coba yang lain.",
+        "generic": "Tidak dapat menyimpan nama pengguna."
+      }
+    }
+  },
+  "ui": {
+    "symbol_help": "?",
+    "language": "Bahasa",
+    "subtitle": "Pilih takdirmu.",
+    "subtitle_desc": "Jadilah penguasa, presiden, vampir, atau penjelajah. Setiap pilihan memengaruhi meter, duniamu, dan generasi berikutnya.",
+    "choose_universe": "Pilih semesta",
+    "footer": "Vuniverse · Vboldstudio",
+    "profile": "Profil",
+    "settings": "Pengaturan",
+    "shop": "Toko",
+    "aria_back": "Kembali",
+    "aria_settings": "Buka pengaturan",
+    "aria_shop": "Buka toko",
+    "aria_badge_modal": "Pratinjau lencana",
+    "aria_close": "Tutup",
+    "settings_title": "Pengaturan",
+    "settings_lang_desc": "Pilih bahasa. Bahasa disimpan di perangkat dan profilmu.",
+    "settings_back_home_aria": "Kembali ke beranda",
+    "settings_open_profile_aria": "Buka profil",
+    "settings_choose_lang_aria": "Pilih bahasa: {code}",
+    "settings_ads_title": "Iklan",
+    "settings_ads_personalized_label": "Iklan yang dipersonalisasi",
+    "settings_ads_personalized_desc": "Izinkan iklan yang lebih relevan. Kamu bisa mengubahnya kapan saja.",
+    "settings_ads_saved": "Preferensi iklan disimpan.",
+    "settings_music_label": "Audio",
+    "settings_music_desc": "Aktifkan atau matikan semua suara game.",
+    "settings_music_saved": "Preferensi audio disimpan.",
+    "music_prompt": {
+      "title": "Audio",
+      "text": "Apakah kamu ingin membiarkan audio tetap aktif?",
+      "note": "Kamu selalu bisa mengubah pilihan ini nanti di Pengaturan.",
+      "disable": "Matikan",
+      "enable": "Biarkan aktif"
+    },
+    "settings_privacy_options_label": "Pilihan privasi",
+    "settings_privacy_options_desc": "Buka formulir Google untuk meninjau atau mengubah pilihan iklanmu.",
+    "settings_privacy_options_button": "Buka",
+    "settings_privacy_options_opened": "Opsi privasi dibuka.",
+    "settings_privacy_options_unavailable": "Saat ini tidak ada opsi privasi yang tersedia.",
+    "settings_faq_title": "FAQ",
+    "settings_faq_label": "Buka FAQ",
+    "settings_faq_desc": "Jawaban tentang koin, tahun, token, lencana, dan nama pengguna.",
+    "settings_open_faq_aria": "Buka FAQ",
+    "settings_help_title": "Bantuan",
+    "settings_help_email_label": "Kontak:",
+    "settings_help_email": "help.vboldstudio@gmail.com",
+    "settings_msg_saved": "Bahasa disimpan.",
+    "settings_msg_saved_local": "Bahasa disimpan di perangkat. Sinkronisasi server nanti.",
+    "faq_title": "FAQ",
+    "faq_subtitle": "Temukan jawaban atas pertanyaan yang paling sering diajukan di sini.",
+    "faq_back_settings_aria": "Kembali ke pengaturan",
+    "faq_open_profile_aria": "Buka profil",
+    "faq_q1": "Bagaimana cara mendapatkan VCoins?",
+    "faq_a1": "Di akhir permainan, kamu mendapatkan 10 VCoins untuk setiap 1 tahun penuh. 1 tahun setara dengan 4 pilihan. Beberapa event juga bisa mengubah hadiahmu.",
+    "faq_q2": "Bagaimana cara kerja tahun?",
+    "faq_a2": "Game menghitung 4 pilihan untuk memvalidasi 1 tahun penuh. Selama kamu belum mencapai 4 pilihan, kamu tetap berada di tahun yang sama seperti yang ditampilkan.",
+    "faq_q3": "Untuk apa token digunakan?",
+    "faq_a3": "Token digunakan sebagai bantuan selama permainan. Token bisa dipakai untuk hidup kembali, melihat efek dari 15 pilihan berikutnya pada bar, mundur 3 pilihan, atau mengembalikan satu bar ke 50%.",
+    "faq_q4": "Bagaimana cara meningkatkan hadiah akhir?",
+    "faq_a4": "Saat permainan berakhir, ada tombol untuk menonton iklan berhadiah. Jika hadiah dasarmu di bawah 100, hadiah itu menjadi 100 VCoins. Jika tidak, hadiah akan digandakan. Jika iklan tidak selesai ditonton atau tidak tersedia, hadiah tetap normal.",
+    "faq_q5": "Bagaimana cara kerja badge profil?",
+    "faq_a5": "Lencana dipisahkan per semesta. Lencana terbuka selama permainan jika kamu masih hidup pada saat yang tepat: kayu pada 20 pilihan, perunggu pada 40, perak pada 60, emas pada 100, dan kristal pada 150.",
+    "faq_q6": "Bagaimana cara mengubah nama pengguna saya?",
+    "faq_a6": "Buka Profil, tekan tombol untuk mengubah nama pengguna, masukkan nama baru, lalu simpan. Nama pengguna harus unik, terdiri dari 3 sampai 20 karakter, dan hanya boleh menggunakan huruf tanpa aksen, angka, underscore _, atau tanda hubung -.",
+    "faq_q7": "Untuk apa VCoins digunakan?",
+    "faq_a7": "VCoins digunakan untuk membuka universe dan beberapa kustomisasi dalam game.",
+    "faq_q8": "Bagaimana cara membuka universe?",
+    "faq_a8": "Dari layar utama, kamu bisa membuka universe dengan VCoins jika universe itu belum termasuk dalam aksesmu saat ini.",
+    "faq_q9": "Universe mana yang gratis di awal?",
+    "faq_a9": "Di awal, ada dua universe yang terbuka.",
+    "faq_q10": "Berapa harga satu universe?",
+    "faq_a10": "Saat ini, satu universe berharga 600 VCoins jika belum dibuka.",
+    "faq_q11": "Apa fungsi penawaran No Ads?",
+    "faq_a11": "No Ads menghapus iklan interstisial. Iklan berhadiah tetap tersedia saat kamu ingin mendapatkan hadiah opsional.",
+    "faq_q12": "Apa isi Diamond?",
+    "faq_a12": "Diamond mengaktifkan No Ads dan membuka semua universe yang ada saat ini di dalam game.",
+    "faq_q13": "Bagaimana cara kerja undangan teman dan cross-promo?",
+    "faq_a13": "Undangan teman memberimu VCoins saat instalasi yang valid terdeteksi. Cross-promo dengan aplikasi VBoldStudio lain juga bisa memberi hadiah terpisah jika syarat yang ditentukan terpenuhi.",
+    "lang_name": {
+      "en": "Inggris",
+      "fr": "Prancis",
+      "de": "Jerman",
+      "es": "Spanyol",
+      "pt": "Portugis",
+      "ptbr": "Portugis (Brasil)",
+      "it": "Italia",
+      "ko": "Korea",
+      "ja": "Jepang",
+      "id": "Indonesia"
+    },
+    "profile_title": "Profil",
+    "profile_subtitle": "Statistik dan progresmu.",
+    "profile_vcoins": "VCoins",
+    "profile_jetons": "Token",
+    "profile_username_label": "Nama pengguna",
+    "profile_username_edit": "Ubah nama pengguna",
+    "profile_username_placeholder": "Nama pengguna baru",
+    "profile_username_save": "Simpan",
+    "profile_username_cancel": "Batal",
+    "profile_username_hint": "3 sampai 20 karakter. Huruf, angka, _ atau -. Nama pengguna harus unik.",
+    "profile_username_missing": "Nama pengguna tidak ada",
+    "profile_username_err_format": "Format nama pengguna tidak valid.",
+    "profile_err_not_ready": "Profil belum siap.",
+    "profile_username_ok_nochange": "Tidak ada perubahan terdeteksi.",
+    "profile_username_err_nojeton": "Token tidak cukup.",
+    "profile_username_working": "Sedang diperbarui...",
+    "profile_username_err_taken": "Nama pengguna ini sudah dipakai.",
+    "profile_username_err_generic": "Tidak dapat mengubah nama pengguna.",
+    "profile_username_err_cost_failed": "Nama pengguna sudah diubah tetapi biaya tidak dapat dipotong.",
+    "profile_username_ok_saved": "Nama pengguna diperbarui.",
+    "profile_scenarios_title": "Skenario",
+    "universe_buy": {
+      "desc": "Semesta ini terkunci. Kamu bisa membukanya dengan {price} VCoins, membukanya langsung lewat toko, atau membuka toko.",
+      "pay_prefix": "Buka untuk",
+      "pay_balance_inline": "Saldo: {balance}",
+      "unlock_store_prefix": "Buka:",
+      "unlock_store_no_price": "Buka",
+      "iap_direct": "Buka semesta ini {price}",
+      "iap_direct_no_price": "Buka semesta ini",
+      "open_shop": "Buka toko",
+      "cancel": "Batal",
+      "err_unlock": "Tidak dapat membuka semesta ini.",
+      "err_unlock_insufficient": "VCoins kamu tidak cukup. Saldo: {balance} / Harga: {price}",
+      "err_app_only": "Pembelian Play Store hanya tersedia di aplikasi.",
+      "err_not_ready": "Sistem pembelian belum siap.",
+      "err_buy_failed": "Pembelian dibatalkan atau gagal.",
+      "err_unlock_after_buy": "Pembelian berhasil, tetapi pembukaan gagal. Coba lagi nanti.",
+      "err_unlock_after_iap": "Pembelian berhasil, tetapi semesta belum bisa dibuka sekarang. Coba lagi dari toko."
+    },
+    "settings_licenses_label": "Lisensi",
+    "settings_open_licenses_aria": "Buka lisensi",
+    "faq_q14": "Apakah ada rahasia di aplikasi ini?",
+    "faq_a14": "Kadang, beberapa tempat bereaksi terhadap ide yang agak aneh. Misalnya mengetik ladybugcometome di kolom nama... atau baudelaire, tanpa perlu membicarakan penyair favorit sekalipun."
+  },
+  "gauges": {
+    "hell_king": {
+      "souls": "Jiwa",
+      "legions": "Legiun",
+      "order": "Tatanan",
+      "surface": "Permukaan"
+    }
+  },
+  "token": {
+    "popup": {
+      "title": "Token",
+      "ad": {
+        "title": "Tonton iklan",
+        "text": "Dapatkan 1 token"
+      },
+      "gauge50": {
+        "title": "Atur satu meter ke 50%",
+        "text": "Pilih satu meter"
+      },
+      "back3": {
+        "title": "Kembali",
+        "text": "Batalkan 3 pilihan terakhirmu"
+      },
+      "peek": {
+        "title": "Lihat 15 efek",
+        "text": "Selama 15 pilihan, meter yang terkait akan berkedip dan menampilkan pratinjau."
+      },
+      "close": {
+        "text": "Tutup menu ini"
+      },
+      "pickGauge": {
+        "title": "Pilih satu meter",
+        "text": "Klik satu meter untuk mengaturnya kembali ke 50%."
+      }
+    },
+    "toast": {
+      "select_gauge": "Pilih satu meter untuk diatur ke 50%",
+      "reward_ok": "+1 token ditambahkan",
+      "reward_fail": "Iklan tidak tersedia",
+      "no_tokens": "Kamu tidak punya token",
+      "undo_fail": "Tidak dapat kembali",
+      "undo_done": "Kembali -3 berhasil",
+      "gauge_set_50": "Meter diatur ke 50%",
+      "peek_on": "Pratinjau aktif: 15 keputusan berikutnya"
+    },
+    "undo": {
+      "fail": {
+        "title": "Kembali",
+        "body": "Tidak dapat kembali. Tidak ada yang diubah."
+      },
+      "ok": {
+        "title": "Kembali",
+        "body": "3 pilihan dibatalkan. Kamu bisa melanjutkan."
+      }
+    }
+  },
+  "coins": {
+    "popup": {
+      "title": "Koin",
+      "ad": {
+        "title": "Tonton iklan",
+        "text": "Dapatkan 100 koin"
+      },
+      "shop": {
+        "title": "Ke toko",
+        "text": "Beli koin"
+      },
+      "close": {
+        "text": "Tutup jendela ini"
+      }
+    },
+    "toast": {
+      "reward_ok": "+100 koin ditambahkan",
+      "reward_fail": "Iklan tidak tersedia"
+    }
+  },
+  "crosspromo": {
+    "open_page_aria": "Buka halaman promosi silang",
+    "page_title": "Temukan game lain",
+    "page_subtitle": "Temukan dunia kami yang lain dan dapatkan hadiah.",
+    "cta_install": "Unduh",
+    "cta_open": "Buka",
+    "cta_claim": "Klaim",
+    "cta_claiming": "Sedang mengklaim...",
+    "cta_claimed": "Sudah diklaim",
+    "cta_later": "Nanti",
+    "reward_prefix": "DAPATKAN:",
+    "reward_granted": "{app} terdeteksi. +{amount} dikreditkan.",
+    "aria": {
+      "open_image": "Buka gambar",
+      "close": "Tutup"
+    },
+    "apps": {
+      "vblocks": {
+        "name": "VBlocks",
+        "store_desc": "Game yang lebih tenang dan ringan untuk bernapas di antara dua keputusan.",
+        "popup1": {
+          "title": "Kehabisan koin?",
+          "body": "Unduh VBlocks dan terima hadiah."
+        },
+        "popup2": {
+          "title": "Terlalu banyak tekanan?",
+          "body": "Terlalu stres dan terlalu berat dengan semua keputusan? Santai sejenak dengan VBlocks."
+        },
+        "popup3": {
+          "title": "Ingin suasana baru?",
+          "body": "Temukan dunia lain dengan VBlocks."
+        }
+      },
+      "vchronicles": {
+        "name": "VChronicles",
+        "store_desc": "Jelajahi dunia yang gelap, buat pilihanmu, dan cobalah bertahan hidup.",
+        "popup1": {
+          "title": "Kehabisan koin?",
+          "body": "Unduh VChronicles dan terima hadiah."
+        },
+        "popup2": {
+          "title": "Ingin menjelajahi dunia yang lebih gelap?",
+          "body": "Mainkan VChronicles."
+        },
+        "popup3": {
+          "title": "Bisakah kamu selamat?",
+          "body": "VChronicles menunggumu."
+        }
+      }
+    }
+  },
+  "revive": {
+    "popup": {
+      "title": "Hidup kembali",
+      "text": "Pilih cara menggunakan kesempatan keduamu.",
+      "use_token": {
+        "title": "Gunakan 1 token",
+        "text": "Gunakan 1 token untuk hidup kembali sekarang."
+      },
+      "use_ad": {
+        "title": "Tonton iklan",
+        "text": "Tonton iklan berhadiah untuk hidup kembali."
+      },
+      "cancel": {
+        "text": "Kembali ke layar akhir"
+      }
+    },
+    "toast": {
+      "ad_fail": "Iklan tidak tersedia"
+    }
+  },
+  "game": {
+    "title": "Permainan berlangsung",
+    "subtitle": "Buat pilihanmu.",
+    "restart": "Mulai lagi",
+    "revive": "Hidup kembali",
+    "return": "Kembali",
+    "customize": {
+      "aria": "Kustomisasi",
+      "title": "Kustomisasi",
+      "close_text": "Kembali ke permainan"
+    },
+    "ending": {
+      "title": "Akhir pemerintahan",
+      "body": "Pemerintahanmu berakhir di sini.",
+      "double_gain": "Gandakan hadiahmu",
+      "double_gain_sub": "Tonton iklan berhadiah",
+      "reward_claimed": "Hadiah ganda dikreditkan",
+      "reward_claimed_sub": "Sekarang kamu bisa mulai lagi atau kembali",
+      "revive_token": "Hidup kembali dengan 1 token"
+    },
+    "year_label": "Tahun"
+  },
+  "event": {
+    "title": "Peristiwa"
+  },
+  "profile": {
+    "title": "Profil",
+    "subtitle": "Statistik dan progresmu.",
+    "vc": "VCoins",
+    "vcoins": "VCoins",
+    "rank": "Peringkat",
+    "streak": "Rangkaian",
+    "inventory": "Inventaris",
+    "bestReign": "Pemerintahan terbaik",
+    "totalRuns": "Jumlah permainan",
+    "editUsername": "Ubah nama pengguna",
+    "usernamePlaceholder": "Nama pengguna baru",
+    "usernameSave": "Simpan",
+    "usernameCancel": "Batal",
+    "usernameHint": "3 sampai 20 karakter. Huruf, angka, _ atau -. Nama pengguna harus unik.",
+    "usernameMissing": "Nama pengguna tidak ada",
+    "usernameErrFormat": "Format nama pengguna tidak valid.",
+    "errNotReady": "Profil belum siap.",
+    "usernameOkNochange": "Tidak ada perubahan terdeteksi.",
+    "usernameErrNojeton": "Token tidak cukup.",
+    "usernameWorking": "Sedang diperbarui...",
+    "usernameErrTaken": "Nama pengguna ini sudah dipakai.",
+    "usernameErrGeneric": "Tidak dapat mengubah nama pengguna.",
+    "usernameErrCostFailed": "Nama pengguna sudah diubah tetapi biaya tidak dapat dipotong.",
+    "usernameOkSaved": "Nama pengguna diperbarui.",
+    "universesTitle": "Semesta",
+    "scenariosTitle": "Skenario",
+    "badgeBronze": "Lencana perunggu",
+    "badgeSilver": "Lencana perak",
+    "badgeGold": "Lencana emas",
+    "badgeUnlockBronze": "Terbuka mulai 40 pilihan dalam satu permainan.",
+    "badgeUnlockSilver": "Terbuka mulai 60 pilihan dalam satu permainan.",
+    "badgeUnlockGold": "Terbuka mulai 100 pilihan dalam satu permainan.",
+    "badge_bronze_aria": "Perbesar lencana perunggu",
+    "badge_silver_aria": "Perbesar lencana perak",
+    "badge_gold_aria": "Perbesar lencana emas",
+    "secretErrGeneric": "Rahasianya berhasil ditemukan, tetapi ada error yang mencegah pembukaan dengan benar.",
+    "ladybugSecretTitle": "Rahasia kepik",
+    "ladybugSecretSub": "Pecahkan semua 10 gelembung",
+    "ladybugSecretFinishTitleClaimed": "Bagus",
+    "ladybugSecretFinishBodyClaimed": "Kamu mendapatkan 50 VCoins.",
+    "ladybugSecretFinishTitleSeen": "Sudah diambil",
+    "ladybugSecretFinishBodySeen": "Kamu sudah menerima 50 VCoins untuk yang ini.",
+    "baudelaireSecretTitle": "Baudelaire — Kehancuran",
+    "baudelaireSecretBody": "Tanpa henti Iblis bergeliat di sisiku;\nIa berenang di sekelilingku seperti udara yang tak kasatmata;\nAku menghirupnya dan merasakan ia membakar paru-paruku\nSerta memenuhinya dengan hasrat yang abadi dan berdosa.\n\nKadang-kadang, karena tahu betapa besar cintaku pada Seni,\nIa mengambil wujud perempuan yang paling menggoda,\nDan, dengan dalih muram yang tampak meyakinkan,\nMembiasakan bibirku pada ramuan-ramuan hina.\n\nDemikianlah ia menuntunku, jauh dari tatapan Tuhan,\nTerengah-engah dan remuk oleh kelelahan, ke tengah\nPadang-padang Kebosanan yang dalam dan tandus,\n\nLalu melempar ke dalam mataku yang penuh kebingungan\nPakaian-pakaian kotor, luka-luka yang terbuka,\nDan seluruh arak-arakan berdarah dari Kehancuran!",
+    "baudelaireSecretButton": "Lanjutkan",
+    "badgeWood": "Lencana kayu",
+    "badgeCrystal": "Lencana kristal",
+    "badgeUnlockWood": "Terbuka mulai 20 pilihan dalam satu permainan.",
+    "badgeUnlockCrystal": "Terbuka mulai 150 pilihan dalam satu permainan.",
+    "badge_wood_aria": "Perbesar lencana kayu",
+    "badge_crystal_aria": "Perbesar lencana kristal"
+  },
+  "shop": {
+    "title": "TOKO",
+    "subtitle": "Belanjakan VCoins-mu",
+    "soon": "Segera tersedia",
+    "store_title": "STORE",
+    "watch": "Tonton",
+    "loading": "Memuat...",
+    "unavailable": "Tidak tersedia",
+    "reward_jeton_x1": "x1",
+    "reward_vcoins_x100": "x100",
+    "pack_jetons_12": "12",
+    "pack_jetons_30": "30",
+    "pack_vcoins_100": "100",
+    "pack_vcoins_1200": "1200",
+    "pack_vcoins_3000": "3000",
+    "pack_no_ads": "Tanpa Iklan",
+    "pack_diamond": "Diamond",
+    "rewarded_title": "Hadiah",
+    "rewarded_desc": "Tonton iklan untuk mendapatkan hadiah kecil.",
+    "reward_title": "Hadiah",
+    "reward_desc": "Tonton iklan untuk mendapatkan hadiah kecil.",
+    "get_jeton": "Dapatkan +1 token",
+    "get_1_jeton": "Dapatkan +1 token",
+    "get_200_coins": "Dapatkan 200 koin",
+    "get_300_coins": "Dapatkan +300 koin",
+    "noads_title": "Tanpa Iklan",
+    "noads_desc": "Menonaktifkan iklan interstisial. Iklan berhadiah tetap tersedia.",
+    "noads_buy": "Aktifkan Tanpa Iklan",
+    "coins_title": "Koin",
+    "coins_desc": "Beli koin untuk membuka lebih cepat.",
+    "coins_1200": "+1200 koin",
+    "coins_3000": "+3000 koin",
+    "jetons_title": "Token",
+    "jetons_desc": "Token memberi akses ke aksi khusus.",
+    "jetons_12": "+12 token",
+    "jetons_30": "+30 token",
+    "diamond_title": "Diamond",
+    "diamond_badge": "Tanpa Iklan + semua semesta",
+    "diamond_desc": "Tanpa Iklan + semua semesta saat ini terbuka. Semesta mendatang juga bisa termasuk jika backend-mu mengaktifkan akses Diamond.",
+    "diamond_buy": "Aktifkan Diamond",
+    "aria_top": "Bilah aksi",
+    "aria_profile": "Profil",
+    "carousel": {
+      "prev": "Sebelumnya",
+      "next": "Berikutnya"
+    },
+    "universes": {
+      "hell_king": "Neraka",
+      "heaven_king": "Surga",
+      "western_president": "Presiden",
+      "mega_corp_ceo": "CEO",
+      "new_world_explorer": "Penjelajah",
+      "vampire_lord": "Vampir"
+    },
+    "cosmetics": {
+      "background": "Latar belakang",
+      "message": "Kartu pesan",
+      "choice": "Kartu pilihan",
+      "hell": {
+        "background_1": "Latar reruntuhan membara",
+        "background_2": "Latar tungku kerajaan",
+        "background_3": "Latar takhta lava",
+        "background_4": "Latar jurang merah",
+        "message_1": "Kartu dekret neraka",
+        "message_2": "Kartu abu hitam",
+        "message_3": "Kartu segel iblis",
+        "choice_1": "Pilihan hukuman bara",
+        "choice_2": "Pilihan perjanjian darah",
+        "choice_3": "Pilihan perintah jurang"
+      },
+      "heaven": {
+        "background_1": "Latar awan keemasan",
+        "background_2": "Latar taman suci",
+        "background_3": "Latar gerbang malaikat",
+        "message_1": "Kartu cahaya murni",
+        "message_2": "Kartu marmer ilahi",
+        "message_3": "Kartu sayap surgawi",
+        "message_4": "Kartu matahari",
+        "message_5": "Kartu cahaya",
+        "choice_1": "Pilihan rahmat tertinggi",
+        "choice_2": "Pilihan penghakiman surgawi",
+        "choice_3": "Pilihan marmer",
+        "choice_4": "Pilihan cahaya",
+        "choice_5": "Pilihan sumpah malaikat"
+      },
+      "president": {
+        "background_1": "Latar ruang krisis",
+        "background_2": "Latar kantor oval",
+        "background_3": "Latar ibu kota berlapis baja",
+        "message_1": "Kartu dokumen rahasia",
+        "message_2": "Kartu memo eksekutif",
+        "message_3": "Kartu pengarahan negara",
+        "choice_1": "Pilihan veto presiden",
+        "choice_2": "Pilihan dekret nasional",
+        "choice_3": "Pilihan perintah eksekutif"
+      },
+      "ceo": {
+        "background_1": "Latar menara kaca",
+        "background_2": "Latar ruang dewan",
+        "background_3": "Latar kejatuhan pasar",
+        "message_1": "Kartu laporan premium",
+        "message_2": "Kartu dokumen investor",
+        "message_3": "Kartu memo strategis",
+        "choice_1": "Pilihan merger cepat",
+        "choice_2": "Pilihan rencana agresif",
+        "choice_3": "Pilihan keputusan dewan"
+      },
+      "explorer": {
+        "background_1": "Latar pantai yang hilang",
+        "background_2": "Latar hutan lebat",
+        "background_3": "Latar kamp kolonial",
+        "message_1": "Kartu jurnal pelayaran",
+        "message_2": "Kartu perkamen kerajaan",
+        "message_3": "Kartu catatan ekspedisi",
+        "choice_1": "Pilihan jalur tak dikenal",
+        "choice_2": "Pilihan perintah misi",
+        "choice_3": "Pilihan haluan menuju kekaisaran"
+      },
+      "vampire": {
+        "background_1": "Latar kastel malam",
+        "background_2": "Latar bulan darah",
+        "background_3": "Latar kripta kekaisaran",
+        "message_1": "Kartu beludru hitam",
+        "message_2": "Kartu segel merah tua",
+        "message_3": "Kartu dekret abadi",
+        "choice_1": "Pilihan gigitan kerajaan",
+        "choice_2": "Pilihan hukum klan",
+        "choice_3": "Pilihan hukuman malam"
+      }
+    },
+    "toast": {
+      "insufficient_vcoins": "VCoins tidak cukup",
+      "not_owned": "Item tidak dimiliki"
+    },
+    "preview": {
+      "sample_title": "Keputusan",
+      "sample_text": "Pratinjau kosmetik yang dipilih dalam situasi.",
+      "sample_choice_a": "Terima",
+      "sample_choice_b": "Tolak",
+      "sample_choice_c": "Tunda"
+    },
+    "status": {
+      "noads_on": "✅ Tanpa iklan: aktif",
+      "noads_off": "ℹ️ Tanpa iklan: nonaktif",
+      "purchase_restored": "✅ Pembelian dipulihkan",
+      "pending": "…",
+      "purchase_credited": "✅ Pembelian dikreditkan",
+      "purchase_not_credited": "❌ Pembelian tidak dikreditkan",
+      "ad_not_ready": "Sistem iklan belum siap",
+      "reward_not_validated": "❌ Iklan tidak tervalidasi",
+      "reward_validated": "✅ Hadiah tervalidasi",
+      "reward_error": "❌ Kesalahan iklan berhadiah",
+      "iap_unavailable_web": "⚠️ IAP tidak tersedia di web.",
+      "product_not_found_prefix": "⚠️ Produk tidak ditemukan: "
+    }
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "subtitle": "Preferensi dan bahasa",
+    "sound": "Suara",
+    "music": "Musik",
+    "notifications": "Notifikasi",
+    "language": "Bahasa",
+    "language_hint": "Pilih bahasa. Bahasa disimpan di perangkat dan profilmu.",
+    "back_home_aria": "Kembali ke beranda",
+    "open_profile_aria": "Buka profil",
+    "choose_lang_aria": "Pilih bahasa: {code}",
+    "ads_title": "Iklan",
+    "ads_personalized_label": "Iklan yang dipersonalisasi",
+    "ads_personalized_desc": "Izinkan iklan yang lebih relevan. Kamu bisa mengubahnya kapan saja.",
+    "ads_saved": "Preferensi iklan disimpan.",
+    "faq_title": "FAQ",
+    "faq_label": "Buka FAQ",
+    "faq_desc": "Jawaban tentang koin, tahun, token, lencana, dan nama pengguna.",
+    "open_faq_aria": "Buka FAQ",
+    "help_title": "Bantuan",
+    "help_email_label": "Kontak:",
+    "help_email": "help.vboldstudio@gmail.com",
+    "msg_saved": "Bahasa disimpan.",
+    "msg_saved_local": "Bahasa disimpan di perangkat. Sinkronisasi server nanti."
+  },
+  "universe": {
+    "hell_king": {
+      "title": "Raja Neraka",
+      "desc": "Pimpin legiun iblis, kelola arus jiwa terkutuk, dan jaga ketertiban di neraka sambil memengaruhi dunia permukaan."
+    },
+    "heaven_king": {
+      "title": "Penguasa Surga",
+      "desc": "Hakimi doa, kendalikan fanatisme, dan putuskan sejauh mana Surga harus campur tangan di dunia manusia."
+    },
+    "medieval_king": {
+      "title": "Raja abad pertengahan",
+      "desc": "Gereja, tentara, rakyat, harta. Setiap pilihan mendekatkan kerajaanmu pada kemakmuran atau pemberontakan."
+    },
+    "western_president": {
+      "title": "Presiden",
+      "desc": "Opini publik, ekonomi, pertahanan, dan krisis diplomatik. Satu tanda tangan bisa mengubah segalanya."
+    },
+    "mega_corp_ceo": {
+      "title": "CEO",
+      "desc": "Investor, karyawan, regulator, dan citra merek. Tingkatkan valuasi tanpa membuat semuanya meledak."
+    },
+    "new_world_explorer": {
+      "title": "Penjelajah",
+      "desc": "Taklukkan, ubah keyakinan, dan cari kekayaan setempat sambil tetap bertanggung jawab kepada mahkotamu."
+    },
+    "vampire_lord": {
+      "title": "Penguasa vampir",
+      "desc": "Perluas pengaruhmu dalam bayangan. Terlalu banyak darah akan menarik pemburu, terlalu banyak kehati-hatian akan melemahkan klanmu."
+    }
+  },
+  "intro": {
+    "finish": {
+      "title": "Selamat",
+      "body": "Kamu siap memerintah banyak semesta.",
+      "info_html": "<p>Saat bermain, kamu mendapatkan <img class=\"vr-intro-inline-icon\" src=\"assets/img/ui/vcoins.webp\" alt=\"\"> dan <img class=\"vr-intro-inline-icon\" src=\"assets/img/ui/jeton.webp\" alt=\"\"></p><p><img class=\"vr-intro-inline-icon\" src=\"assets/img/ui/vcoins.webp\" alt=\"\"> digunakan untuk membuka semesta dan kustomisasi.</p><p><img class=\"vr-intro-inline-icon\" src=\"assets/img/ui/jeton.webp\" alt=\"\"> digunakan untuk mendapatkan bantuan selama permainan.</p><p>Kamu bisa menyesuaikan permainanmu dengan mengeklik palet di bagian atas setiap semesta atau pergi ke toko.</p>",
+      "gift": "Untuk memulai petualanganmu, ini untukmu:",
+      "token": "token",
+      "cta": "Mulai",
+      "name_title": "Dengan siapa saya mendapat kehormatan?",
+      "name_placeholder": "Namamu",
+      "name_save": "Konfirmasi",
+      "name_confirm": "Apakah kamu yakin ingin memakai nama ini: {name}?",
+      "name_missing": "Masukkan nama.",
+      "name_err_length": "Nama harus terdiri dari 3 sampai 20 karakter.",
+      "name_err_invalid": "Gunakan hanya huruf, angka, _ atau -.",
+      "name_err_taken": "Nama ini sudah dipakai.",
+      "name_err_generic": "Tidak dapat menyimpan nama.",
+      "name_working": "Menyimpan..."
+    }
+  },
+  "onesignal": {
+    "popup": {
+      "title": "Tetap terhubung",
+      "text": "Izinkan notifikasi untuk menerima kabar terbaru dan hadiah penting.",
+      "accept": "Izinkan",
+      "cancel": "Nanti"
+    }
+  },
+  "adsConsent": {
+    "popup": {
+      "title": "Iklan yang dipersonalisasi",
+      "text": "Apakah kamu menerima iklan yang dipersonalisasi untuk mendapatkan iklan yang lebih relevan? Kamu bisa mengubah pilihan ini kapan saja di pengaturan.",
+      "accept": "Terima",
+      "refuse": "Tolak"
+    }
+  },
+  "referral": {
+    "invite_btn": "Undang",
+    "invite_and_earn_title": "Undang dan dapatkan:",
+    "invite_and_earn_btn": "Undang dan dapatkan",
+    "share_title": "Undang teman",
+    "share_text": "Unduh VUniverse di sini: {url}",
+    "link_copied": "Tautan disalin",
+    "crosspromo_reward_label": "Referral",
+    "crosspromo_desc": "Undang teman untuk menginstal VUniverse dan dapatkan 200 VCoins untuk setiap instalasi yang tervalidasi, hingga 5 undangan.",
+    "android_only_popup": {
+      "text": "Untuk saat ini hanya versi Android yang tersedia. Versi iOS sedang dalam proses dan belum bisa diunduh."
+    }
+  },
+  "guideMentor": {
+    "common": {"introGoal": "Pertahankan keseimbangan selama {target} pilihan untuk mendapatkan promosi pertamamu.","nextGoal": "Pertahankan keseimbangan selama {remaining} pilihan lagi untuk mencapai promosi berikutnya.","promotionNow": "Selamat. Sekarang kamu adalah {rank}.","maxGoal": "Kamu telah mencapai peringkat tertinggi di semesta ini. Sekarang buktikan bahwa kamu bisa mempertahankannya."},
+    "hell_king": {"ranks": {"wood": "jiwa terkutuk","bronze": "iblis tingkat pertama","silver": "penguasa neraka","gold": "pangeran neraka","crystal": "raja neraka"},"intro": "Selamat datang, jiwa yang tersesat. Di Neraka, setiap keputusan meninggalkan jejak.","wood": "Kamu tidak lagi berkeliaran tanpa tujuan. Sekarang kamu melayani tatanan neraka.","bronze": "Kamu telah mendapatkan tempatmu di antara para pelayan Neraka. Jangan goyah.","silver": "Pengaruhmu semakin besar. Iblis-iblis rendahan mulai mematuhimu.","gold": "Api kini lebih mudah tunduk pada kehendakmu. Kini kamu ditakuti.","crystal": "Kamu berdiri di puncak. Kuasai Neraka seperti raja sejati."},
+    "heaven_king": {"ranks": {"wood": "jiwa bercahaya","bronze": "penjaga surgawi","silver": "malaikat tingkat tinggi","gold": "malaikat agung","crystal": "raja surga"},"intro": "Selamat datang, jiwa yang murni. Di sini, setiap pilihan harus menjaga harmoni Surga.","wood": "Kamu telah melangkah pertama kali ke dalam cahaya. Tetaplah di jalur ini.","bronze": "Peranmu kini melampaui sekadar utusan biasa. Surga mengawasimu.","silver": "Kamu telah menjadi penjaga Surga yang sejati. Tanggung jawabmu semakin besar.","gold": "Wibawamu bersinar seperti malaikat agung. Teruslah mengangkat semesta ini lebih tinggi.","crystal": "Kamu telah mencapai peringkat tertinggi. Pimpin Surga dengan kebijaksanaan."},
+    "vampire_lord": {"ranks": {"wood": "inisiasi malam","bronze": "vampir bangsawan","silver": "tuan vampir","gold": "penguasa bayangan","crystal": "tuan vampir tertinggi"},"intro": "Selamat datang di malam hari. Setiap pilihan akan memperkuat atau melemahkan kenaikanmu.","wood": "Darah sudah memanggilmu. Kamu tidak lagi sepenuhnya manusia.","bronze": "Kamu telah memasuki malam yang sesungguhnya. Namamu mulai menyebar.","silver": "Sekarang kamu adalah vampir sejati yang sempurna. Bayangan mengenalimu.","gold": "Kehadiranmu menimbulkan ketakutan. Hanya sedikit yang masih berani menantangmu.","crystal": "Kamu telah menjadi penguasa kegelapan. Kuasai malam."},
+    "mega_corp_ceo": {"ranks": {"wood": "karyawan","bronze": "manajer","silver": "direktur","gold": "direktur eksekutif","crystal": "CEO"},"intro": "Selamat datang, magang. Di sini, setiap keputusan penting dan setiap kesalahan mahal harganya.","wood": "Bagus sekali. Kamu bukan lagi sekadar anak magang. Sekarang kamu adalah karyawan.","bronze": "Kerjamu membuahkan hasil. Kini kamu memegang tanggung jawab nyata.","silver": "Sekarang kamu memimpin orang lain. Hasil kerjamu berbicara untukmu.","gold": "Kamu telah mencapai tingkat di mana perusahaan benar-benar bergantung pada keputusanmu.","crystal": "Sekarang kamu adalah CEO. Menjaga perusahaan tetap di puncak ada di tanganmu."},
+    "western_president": {"ranks": {"wood": "penasihat","bronze": "wali kota","silver": "gubernur","gold": "kepala negara","crystal": "presiden"},"intro": "Selamat datang, penasihat. Di Barat, keseimbangan kekuasaan tidak pernah bertahan lama.","wood": "Bobot politikmu bertambah. Orang-orang mulai mendengarkanmu.","bronze": "Kamu tidak lagi hanya mengikuti arus. Sekarang kamu ikut memimpinnya.","silver": "Sekarang kamu adalah gubernur. Pilihanmu sudah membentuk wilayah ini.","gold": "Sekarang kamu memerintah dalam skala yang lebih besar. Negara menaruh harapan besar padamu.","crystal": "Sekarang kamu adalah presiden. Menyatukan bangsa ada di tanganmu."},
+    "new_world_explorer": {"ranks": {"wood": "pelaut","bronze": "pengintai","silver": "penjelajah","gold": "komandan","crystal": "wakil Mahkota"},"intro": "Selamat datang, pelaut. Dunia Baru tidak memaafkan keraguan maupun tindakan berlebihan.","wood": "Kamu telah meninggalkan peran sederhana sebagai awak kapal. Kamu mengamati dan belajar.","bronze": "Kamu melangkah lebih jauh daripada yang lain. Pandanganmu menjadi semakin berharga.","silver": "Sekarang kamu adalah penjelajah sejati. Orang-orang mengandalkan penilaianmu.","gold": "Sekarang kamu memimpin ekspedisi. Setiap pilihan dapat mengubah nasib perjalanan ini.","crystal": "Kamu mewakili Mahkota. Dunia yang ditemukan kini akan berbicara atas namamu."}
+  },
+  "jobs": {
+    "hell_king": {
+      "wood": "Jiwa tersesat",
+      "bronze": "Pelayan neraka",
+      "silver": "Asisten iblis",
+      "gold": "Penguasa api",
+      "crystal": "Raja Neraka"
+    },
+    "heaven_king": {
+      "wood": "Jiwa murni",
+      "bronze": "Utusan surga",
+      "silver": "Penjaga langit",
+      "gold": "Malaikat agung",
+      "crystal": "Raja Surga"
+    },
+    "vampire_lord": {
+      "wood": "Manusia korup",
+      "bronze": "Pelayan malam",
+      "silver": "Vampir",
+      "gold": "Tuan vampir",
+      "crystal": "Raja kegelapan"
+    },
+    "mega_corp_ceo": {
+      "wood": "Magang",
+      "bronze": "Karyawan",
+      "silver": "Manajer",
+      "gold": "Direktur",
+      "crystal": "CEO"
+    },
+    "western_president": {
+      "wood": "Penasihat",
+      "bronze": "Wakil",
+      "silver": "Wali Kota",
+      "gold": "Gubernur",
+      "crystal": "Presiden"
+    },
+    "new_world_explorer": {
+      "wood": "Pelaut",
+      "bronze": "Pengintai",
+      "silver": "Penjelajah",
+      "gold": "Komandan",
+      "crystal": "Perwakilan Mahkota"
+    }
+  }
+}

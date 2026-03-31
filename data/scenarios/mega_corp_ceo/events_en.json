@@ -1,0 +1,185 @@
+﻿{
+  "version": 1,
+  "events": {
+    "mega_corp_ceo_ev_001": {
+      "title": "Analyst Note",
+      "body": "A major bank releases a very positive note. The charts go up and the funds are smiling.",
+      "effect": "Investors: +5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "mega_corp_ceo_ev_002": {
+      "title": "Team Week",
+      "body": "Managers publicly thank the teams. The atmosphere finally gets a little breathing room.",
+      "effect": "Employees: +5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "mega_corp_ceo_ev_003": {
+      "title": "Surprise Inspection",
+      "body": "A file lands on the wrong desk. The authorities start looking more closely.",
+      "effect": "Regulators: -5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "mega_corp_ceo_ev_004": {
+      "title": "Successful Campaign",
+      "body": "The new campaign is well received. Even critics struggle to find something to attack.",
+      "effect": "Brand Image: +5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "mega_corp_ceo_ev_005": {
+      "title": "Disappointing Quarter",
+      "body": "The results come in a little too low. Investors suddenly become very creative with their worries.",
+      "effect": "Investors: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "mega_corp_ceo_ev_006": {
+      "title": "Procedure Approved",
+      "body": "An audit ends without drama. For once, everything was in the right place.",
+      "effect": "Regulators: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "mega_corp_ceo_ev_007": {
+      "title": "Silent Turnover",
+      "body": "Departures keep piling up quietly. It is discreet, which makes it even more worrying.",
+      "effect": "Employees: -5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "mega_corp_ceo_ev_008": {
+      "title": "Mild Bad Buzz",
+      "body": "A small controversy grows online. Not huge, but enough to stick around for a few days.",
+      "effect": "Brand Image: -5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "mega_corp_ceo_ev_009": {
+      "title": "Exemplary Audit",
+      "body": "The inspectors leave almost relaxed. That is rare, so everyone notices.",
+      "effect": "Regulators: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "mega_corp_ceo_ev_010": {
+      "title": "Team Bonus",
+      "body": "A concrete gesture arrives at the right time. The hallways breathe a little easier.",
+      "effect": "Employees: +5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "mega_corp_ceo_ev_011": {
+      "title": "Harsh Article",
+      "body": "A media outlet publishes a cold portrait of your group. The wording stings, so it spreads everywhere.",
+      "effect": "Brand Image: -5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "mega_corp_ceo_ev_012": {
+      "title": "Viral Interview",
+      "body": "A public appearance goes surprisingly well. The clips spread in the right direction.",
+      "effect": "Brand Image: +5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "mega_corp_ceo_ev_013": {
+      "title": "Forecast Revised",
+      "body": "Targets are revised downward. The market claims it understands, then sells anyway.",
+      "effect": "Investors: -5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "mega_corp_ceo_ev_014": {
+      "title": "Smooth Internal Tool",
+      "body": "A new tool finally makes daily work easier. Nobody applauds, but everyone exhales.",
+      "effect": "Employees: +5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "mega_corp_ceo_ev_015": {
+      "title": "Massive Contract",
+      "body": "A very large contract lands in your lap. Shareholders love signatures with lots of zeros.",
+      "effect": "Investors: +5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "mega_corp_ceo_ev_016": {
+      "title": "Official Reminder",
+      "body": "A request for clarification arrives in a very polite and not very reassuring tone.",
+      "effect": "Regulators: -5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "mega_corp_ceo_ev_017": {
+      "title": "Well-Loved Product",
+      "body": "One of the group's products becomes the favorite of the moment. Customers talk about it better than your PR team does.",
+      "effect": "Brand Image: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "mega_corp_ceo_ev_018": {
+      "title": "Managers Under Pressure",
+      "body": "Tension rises another notch across several teams. Results hold up, morale much less so.",
+      "effect": "Employees: -5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "mega_corp_ceo_ev_019": {
+      "title": "Clean File",
+      "body": "Everything looks tidy on paper. It is almost too perfect, but this time it goes through.",
+      "effect": "Regulators: +5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "mega_corp_ceo_ev_020": {
+      "title": "Icy Board Meeting",
+      "body": "The board listens in silence. That is never a good sign for the market's patience.",
+      "effect": "Investors: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "mega_corp_ceo_ev_021": {
+      "title": "Product Rumor",
+      "body": "An absurd rumor catches on far too well. The vaguer it is, the farther it travels.",
+      "effect": "Brand Image: -5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "mega_corp_ceo_ev_022": {
+      "title": "Strong Recruitment",
+      "body": "Several key profiles join the group. The teams start thinking maybe everything is not falling apart after all.",
+      "effect": "Employees: +5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "mega_corp_ceo_ev_023": {
+      "title": "Target Exceeded",
+      "body": "A key indicator beats expectations. Investors love it when numbers do the work for you.",
+      "effect": "Investors: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "mega_corp_ceo_ev_024": {
+      "title": "Ambiguous Clause",
+      "body": "An old clause suddenly draws fresh attention. Lawyers start frowning one after another.",
+      "effect": "Regulators: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "mega_corp_ceo_ev_025": {
+      "title": "Brutal Reorganization",
+      "body": "The new org chart moves fast. So do the employees, but mostly toward the exit.",
+      "effect": "Employees: -5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "mega_corp_ceo_ev_026": {
+      "title": "Certification Obtained",
+      "body": "An important certification finally comes through. It is official, stamped, and very convenient to show everywhere.",
+      "effect": "Regulators: +5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "mega_corp_ceo_ev_027": {
+      "title": "Applauded Dividend",
+      "body": "The announced payout calms quite a few nerves. The market's love stays self-interested, but it comes back fast.",
+      "effect": "Investors: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "mega_corp_ceo_ev_028": {
+      "title": "Unfortunate Photo",
+      "body": "A badly timed picture spreads a little too well. You wanted control, the internet wanted a meme.",
+      "effect": "Brand Image: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "mega_corp_ceo_ev_029": {
+      "title": "Too Many Meetings",
+      "body": "Schedules overflow and teams hit saturation. Nobody knows when the real work is supposed to start anymore.",
+      "effect": "Employees: -5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "mega_corp_ceo_ev_030": {
+      "title": "Regulatory Red Carpet",
+      "body": "Authorities cite your group as an example. That is rare, so it pays off greatly in credibility.",
+      "effect": "Regulators: +5 per card",
+      "duration": "Duration: 7 cards"
+    }
+  }
+}

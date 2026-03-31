@@ -1,0 +1,1105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title data-i18n="shop.title"></title>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    :root{
+      --vr-bg: radial-gradient(circle at top, #f6e7cf 0, #1b6688 62%, #03279e 100%);
+      --vr-overlay: none;
+
+      --shop-gap: 8px;
+      --shop-item-radius: 16px;
+      --shop-item-pad: 10px;
+      --shop-icon: 42px;
+      --shop-btn-h: 38px;
+
+      --u-gap: 14px;
+      --u-radius: 20px;
+
+      --cos-arrow: 36px;
+      --cos-card-r: 18px;
+      --cos-card-h: 124px;
+    }
+
+    .vr-header{
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      display:block !important;
+    }
+
+    .vr-top-actions{
+      width:100%;
+      display:grid;
+      grid-template-columns: 44px minmax(0,1fr) 44px;
+      align-items:center;
+      gap:12px;
+      padding: calc(8px + env(safe-area-inset-top)) 12px 6px;
+    }
+
+    .vr-top-slot{
+      display:flex;
+      align-items:center;
+      min-width:0;
+    }
+
+    .vr-top-left{ justify-content:flex-start; }
+    .vr-top-center{ justify-content:center; }
+    .vr-top-right{ justify-content:flex-end; }
+
+    .vr-top-balances{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:22px;
+      width:100%;
+    }
+
+    .vr-top-balance{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      padding:0;
+      min-width:0;
+      height:auto;
+      background:none;
+      border:0;
+      box-shadow:none;
+      border-radius:0;
+      backdrop-filter:none;
+      -webkit-backdrop-filter:none;
+    }
+
+    .vr-top-balance img{
+      width:22px;
+      height:22px;
+      object-fit:contain;
+      display:block;
+      flex:0 0 auto;
+      filter: drop-shadow(0 3px 8px rgba(0,0,0,0.48));
+      pointer-events:none;
+      user-select:none;
+    }
+
+    .vr-top-balance span{
+      font-weight:1000;
+      font-size:18px;
+      line-height:1;
+      color:rgba(255,255,255,.98);
+      text-shadow:0 8px 18px rgba(0,0,0,.45);
+      white-space:nowrap;
+    }
+
+    .vr-icon-button{
+      width:44px;
+      height:44px;
+      border-radius:999px;
+      border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(0,0,0,0.26);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.22);
+      padding:0;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      cursor:pointer;
+      text-decoration:none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .vr-icon-button:active{ transform: scale(.98); }
+
+    .vr-icon-button img{
+      width:30px;
+      height:30px;
+      object-fit:contain;
+      display:block;
+      pointer-events:none;
+      user-select:none;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.65)) contrast(1.15) brightness(1.08);
+    }
+
+    .vr-back-ico{
+      width:24px;
+      height:24px;
+      display:block;
+      opacity:.98;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.65));
+    }
+
+    .vr-section-title,
+    .vr-profile-title{
+      text-align:center !important;
+      color: rgba(255,255,255,.96) !important;
+      margin-left:auto !important;
+      margin-right:auto !important;
+    }
+
+    #view-shop .vr-section-title{
+      margin-top: 4px !important;
+      margin-bottom: 10px !important;
+    }
+
+    .vr-profile-title{
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+    }
+
+    .vr-shop-block{
+      margin: 8px 0 12px;
+    }
+
+    .vr-shop-grid{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--shop-gap);
+    }
+
+    .vr-shop-item{
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--shop-item-radius);
+      padding: var(--shop-item-pad);
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(0,0,0,.22);
+      box-shadow: 0 18px 34px rgba(0,0,0,.30);
+    }
+
+    .vr-shop-item::before{
+      content:"";
+      position:absolute;
+      inset:-1px;
+      pointer-events:none;
+      background:
+        radial-gradient(420px 180px at 20% 12%, rgba(255,255,255,.08), transparent 60%),
+        radial-gradient(420px 220px at 75% 18%, rgba(255,59,59,.10), transparent 60%),
+        linear-gradient(180deg, rgba(255,255,255,.04), transparent 45%);
+      opacity:.9;
+    }
+
+    .vr-shop-top{
+      position: relative;
+      z-index: 1;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap: 8px;
+      min-height: 74px;
+      margin-bottom: 10px;
+    }
+
+    .vr-shop-icon{
+      width: var(--shop-icon);
+      height: var(--shop-icon);
+      max-width: var(--shop-icon);
+      max-height: var(--shop-icon);
+      object-fit: contain;
+      flex: 0 0 auto;
+      filter: drop-shadow(0 12px 20px rgba(0,0,0,.50));
+      user-select:none;
+      pointer-events:none;
+    }
+
+    .vr-shop-qty{
+      position: relative;
+      z-index: 1;
+      width:100%;
+      font-weight: 950;
+      font-size: 16px;
+      letter-spacing: .2px;
+      color: rgba(255,255,255,.96);
+      text-shadow: 0 10px 20px rgba(0,0,0,.50);
+      line-height: 1;
+      text-align:center;
+    }
+
+    .vr-shop-item .vr-choice-button{
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      border-radius: 13px;
+      padding: 9px 10px;
+      min-height: var(--shop-btn-h);
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(0,0,0,.22);
+      box-shadow: 0 10px 22px rgba(0,0,0,.22);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      color: rgba(255,255,255,.96) !important;
+    }
+
+    .vr-shop-item .vr-choice-button span{
+      color: inherit !important;
+      opacity: 1 !important;
+    }
+
+    .vr-shop-item .vr-choice-button:active{
+      transform: translateY(1px);
+    }
+
+    .vr-shop-item img,
+    .vr-shop-item svg{
+      max-width: 100%;
+      height: auto;
+    }
+
+    .vr-shop-item[data-sku="vuniverse_no_ads"] .vr-shop-top{
+      justify-content:center;
+    }
+
+    #store-grid .vr-shop-item[data-sku="vuniverse_diamond"] .vr-shop-top{
+      flex-direction:column !important;
+      align-items:center !important;
+      justify-content:flex-start !important;
+      gap:3px !important;
+      min-height:82px !important;
+      padding-top:10px;
+    }
+
+    #store-grid .vr-shop-item[data-sku="vuniverse_diamond"] .vr-shop-icon{
+      transform: translateY(2px);
+      animation: vrDiamondPulse 0.95s ease-in-out infinite;
+      filter:
+        drop-shadow(0 0 14px rgba(255,210,90,.58))
+        drop-shadow(0 10px 18px rgba(0,0,0,.42));
+    }
+
+    #store-grid .vr-shop-item[data-sku="vuniverse_diamond"] .vr-shop-badge-subtitle{
+      margin-top:2px;
+      max-width:112px;
+      font-weight:1000;
+      font-size:11px;
+      line-height:1.08;
+      text-align:center;
+      color:#f7d46e;
+      letter-spacing:.2px;
+      text-shadow:
+        0 2px 10px rgba(0,0,0,.42),
+        0 0 16px rgba(247,212,110,.42);
+    }
+
+    @keyframes vrDiamondPulse{
+      0%, 100%{
+        opacity:1;
+        transform:translateY(2px) scale(1);
+      }
+      50%{
+        opacity:.55;
+        transform:translateY(0px) scale(1.09);
+      }
+    }
+
+    #shop-status,
+    #store-status{
+      display:none !important;
+    }
+
+    .vr-cosmetics{
+      display:flex;
+      flex-direction:column;
+      gap: var(--u-gap);
+      margin-top: 14px;
+      padding-bottom: 10px;
+    }
+
+    .vr-universe-block{
+      position:relative;
+      overflow:hidden;
+      border-radius: var(--u-radius);
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(0,0,0,.18);
+      box-shadow: 0 18px 34px rgba(0,0,0,.26);
+      padding: 14px 12px 12px;
+    }
+
+    .vr-universe-block::before{
+      content:"";
+      position:absolute;
+      inset:-2px;
+      pointer-events:none;
+      background:
+        radial-gradient(520px 220px at 15% 12%, rgba(255,255,255,.08), transparent 60%),
+        radial-gradient(520px 260px at 85% 18%, rgba(255,214,156,.08), transparent 60%),
+        linear-gradient(180deg, rgba(255,255,255,.03), transparent 40%);
+      opacity:.9;
+    }
+
+    .vr-universe-title{
+      position:relative;
+      z-index:1;
+      text-align:center;
+      font-weight:950;
+      font-size: 19px;
+      line-height:1.1;
+      color: rgba(255,255,255,.96);
+      margin: 0 0 12px;
+      text-shadow: 0 12px 24px rgba(0,0,0,.55);
+    }
+
+    .vr-cos-row{
+      position:relative;
+      z-index:1;
+      margin: 0 0 14px;
+    }
+
+    .vr-cos-row:last-child{
+      margin-bottom: 0;
+    }
+
+    .vr-cos-subtitle{
+      text-align:center;
+      font-weight:900;
+      font-size:13px;
+      color: rgba(255,255,255,.92);
+      margin: 0 0 8px;
+      letter-spacing:.15px;
+    }
+
+    .vr-cos-carousel{
+      display:grid;
+      grid-template-columns: var(--cos-arrow) minmax(0, 1fr) var(--cos-arrow);
+      align-items:center;
+      gap: 8px;
+    }
+
+    /* ✅ flèches SANS encadré rond */
+    .vr-cos-arrow{
+      width: var(--cos-arrow);
+      height: var(--cos-arrow);
+      border:none;
+      background: transparent;
+      box-shadow:none;
+      border-radius:0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      cursor:pointer;
+      padding:0;
+      color: rgba(255,255,255,.96);
+      font-size: 28px;
+      font-weight: 900;
+      line-height:1;
+      user-select:none;
+      text-shadow: 0 10px 22px rgba(0,0,0,.45);
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .vr-cos-arrow:active{
+      transform: scale(.97);
+    }
+
+    .vr-cos-arrow[disabled]{
+      opacity:.42;
+      cursor:default;
+    }
+
+    .vr-cos-viewport{
+      min-width:0;
+      overflow:hidden;
+      touch-action: pan-y;
+    }
+
+    .vr-cos-track{
+      display:flex;
+      transition: transform .24s ease;
+      will-change: transform;
+    }
+
+    .vr-cos-slide{
+      min-width:100%;
+      width:100%;
+      box-sizing:border-box;
+    }
+
+    .vr-cos-card{
+      position:relative;
+      overflow:hidden;
+      border-radius: var(--cos-card-r);
+      height: var(--cos-card-h);
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(0,0,0,.24);
+      box-shadow: 0 16px 28px rgba(0,0,0,.28);
+    }
+
+    .vr-cos-card::before{
+      content:"";
+      position:absolute;
+      inset:-1px;
+      pointer-events:none;
+      background:
+        radial-gradient(260px 120px at 18% 12%, rgba(255,255,255,.10), transparent 62%),
+        linear-gradient(180deg, rgba(255,255,255,.05), transparent 55%);
+      opacity:.95;
+      z-index:1;
+    }
+
+    .vr-cos-card > img{
+      position:absolute;
+      inset:0;
+      width:100%;
+      height:100%;
+      object-fit: cover;
+      display:block;
+      z-index:0;
+      user-select:none;
+      pointer-events:none;
+    }
+
+    .vr-cos-card.is-ui > img{
+      object-fit: contain;
+      padding: 14px;
+      background:
+        radial-gradient(circle at 50% 40%, rgba(255,255,255,.10), transparent 46%),
+        linear-gradient(180deg, rgba(255,255,255,.03), rgba(0,0,0,.08));
+    }
+
+    .vr-cos-overlay{
+      position:absolute;
+      inset:auto 0 0 0;
+      z-index:2;
+      padding: 30px 10px 10px;
+      background: linear-gradient(180deg, transparent, rgba(0,0,0,.72));
+    }
+
+    .vr-cos-name{
+      text-align:center;
+      font-weight:900;
+      font-size:13px;
+      color: rgba(255,255,255,.96);
+      line-height:1.15;
+      margin-bottom: 8px;
+      text-shadow: 0 8px 18px rgba(0,0,0,.45);
+    }
+
+    .vr-cos-bottom{
+      display:flex;
+      align-items:center;
+      justify-content:flex-end;
+      gap: 8px;
+    }
+
+    .vr-cos-count{
+      color: rgba(255,255,255,.86);
+      font-size:12px;
+      font-weight:900;
+      text-shadow: 0 8px 18px rgba(0,0,0,.45);
+    }
+
+    .vr-cos-action{
+      width:100%;
+      margin-top:8px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:10px 12px;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(0,0,0,.22);
+      color:#fff;
+      font-weight:900;
+      cursor:pointer;
+    }
+
+    .vr-cos-action-content{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:6px;
+      line-height:1;
+    }
+
+    .vr-cos-action-ico{
+      width:14px;
+      height:14px;
+      min-width:14px;
+      min-height:14px;
+      object-fit:contain;
+      display:block;
+      flex:0 0 auto;
+      filter:drop-shadow(0 2px 6px rgba(0,0,0,.45));
+    }
+
+    .vr-cos-action.is-owned{
+      background:rgba(255,255,255,.10);
+    }
+
+    .vr-cos-action.is-equipped{
+      background:rgba(138,197,95,.22);
+      border-color:rgba(138,197,95,.55);
+    }
+
+    .vr-cos-dots{
+      display:flex;
+      justify-content:center;
+      gap:6px;
+      margin-top: 8px;
+    }
+
+    .vr-cos-dot{
+      width:7px;
+      height:7px;
+      border-radius:999px;
+      background: rgba(255,255,255,.28);
+      box-shadow: 0 4px 10px rgba(0,0,0,.22);
+    }
+
+    .vr-cos-dot.active{
+      background: rgba(255,255,255,.92);
+    }
+
+
+    /* ==========================================================
+   SHOP responsive proportionnel avec clamp
+   Un seul système, sans double logique
+   ========================================================== */
+
+body.page-shop{
+  --page-max: clamp(760px, 94vw, 1080px);
+  --page-pad-x: clamp(14px, 2.2vw, 26px);
+
+  --top-btn: clamp(44px, 4.2vw, 58px);
+  --top-btn-ico: clamp(24px, 2.8vw, 34px);
+  --top-gap: clamp(12px, 1.5vw, 18px);
+
+  --balance-gap: clamp(22px, 3vw, 38px);
+  --balance-icon: clamp(22px, 2.5vw, 30px);
+  --balance-font: clamp(18px, 2vw, 28px);
+
+  --title-mt: clamp(4px, .8vw, 12px);
+  --title-mb: clamp(10px, 1.3vw, 18px);
+
+  --shop-gap: clamp(8px, 1.2vw, 16px);
+  --shop-item-radius: clamp(16px, 1.8vw, 24px);
+  --shop-item-pad: clamp(10px, 1.4vw, 18px);
+  --shop-icon: clamp(42px, 5vw, 72px);
+  --shop-top-gap: clamp(8px, 1vw, 12px);
+  --shop-top-minh: clamp(74px, 8.5vw, 116px);
+  --shop-qty-size: clamp(16px, 2vw, 28px);
+  --shop-btn-h: clamp(38px, 4.8vw, 62px);
+  --shop-btn-radius: clamp(13px, 1.4vw, 18px);
+  --shop-btn-font: clamp(12px, 1.4vw, 17px);
+  --shop-btn-py: clamp(9px, 1vw, 14px);
+  --shop-btn-px: clamp(10px, 1.2vw, 16px);
+
+  --u-gap: clamp(14px, 1.6vw, 22px);
+  --u-radius: clamp(20px, 2vw, 28px);
+  --u-pad-y: clamp(14px, 1.7vw, 22px);
+  --u-pad-x: clamp(12px, 1.6vw, 18px);
+  --u-title-size: clamp(19px, 2.2vw, 30px);
+  --u-title-mb: clamp(12px, 1.3vw, 18px);
+
+  --cos-arrow: clamp(36px, 3.8vw, 50px);
+  --cos-arrow-font: clamp(28px, 2.8vw, 38px);
+  --cos-card-r: clamp(18px, 1.8vw, 24px);
+  --cos-card-h: clamp(124px, 14vw, 190px);
+  --cos-subtitle-size: clamp(13px, 1.5vw, 18px);
+  --cos-name-size: clamp(13px, 1.5vw, 18px);
+  --cos-count-size: clamp(12px, 1.3vw, 15px);
+  --cos-action-font: clamp(12px, 1.3vw, 16px);
+  --cos-action-radius: clamp(14px, 1.5vw, 18px);
+  --cos-action-py: clamp(10px, 1.1vw, 14px);
+  --cos-action-px: clamp(12px, 1.3vw, 16px);
+  --cos-action-ico: clamp(14px, 1.3vw, 18px);
+}
+
+body.page-shop .vr-main{
+  width: min(100%, var(--page-max));
+  margin: 0 auto;
+  padding-left: var(--page-pad-x);
+  padding-right: var(--page-pad-x);
+}
+
+body.page-shop .vr-top-actions{
+  grid-template-columns: var(--top-btn) minmax(0,1fr) var(--top-btn);
+  gap: var(--top-gap);
+  padding:
+    calc(clamp(8px, 1vw, 12px) + env(safe-area-inset-top))
+    var(--page-pad-x)
+    clamp(6px, .8vw, 10px);
+}
+
+body.page-shop .vr-top-balances{
+  gap: var(--balance-gap);
+}
+
+body.page-shop .vr-top-balance img{
+  width: var(--balance-icon);
+  height: var(--balance-icon);
+}
+
+body.page-shop .vr-top-balance span{
+  font-size: var(--balance-font);
+}
+
+body.page-shop .vr-icon-button{
+  width: var(--top-btn);
+  height: var(--top-btn);
+}
+
+body.page-shop .vr-icon-button img{
+  width: var(--top-btn-ico);
+  height: var(--top-btn-ico);
+}
+
+body.page-shop .vr-back-ico{
+  width: clamp(24px, 2.4vw, 30px);
+  height: clamp(24px, 2.4vw, 30px);
+}
+
+body.page-shop #view-shop .vr-section-title{
+  margin-top: var(--title-mt) !important;
+  margin-bottom: var(--title-mb) !important;
+}
+
+body.page-shop .vr-profile-title{
+  margin-top: var(--title-mb) !important;
+  margin-bottom: var(--title-mb) !important;
+}
+
+body.page-shop .vr-shop-block{
+  margin: clamp(8px, 1vw, 14px) 0 clamp(12px, 1.5vw, 20px);
+  max-width: 100%;
+}
+
+body.page-shop .vr-shop-grid{
+  gap: var(--shop-gap);
+}
+
+body.page-shop .vr-shop-item{
+  border-radius: var(--shop-item-radius);
+  padding: var(--shop-item-pad);
+}
+
+body.page-shop .vr-shop-top{
+  gap: var(--shop-top-gap);
+  min-height: var(--shop-top-minh);
+  margin-bottom: clamp(10px, 1vw, 14px);
+}
+
+body.page-shop .vr-shop-icon{
+  width: var(--shop-icon);
+  height: var(--shop-icon);
+  max-width: var(--shop-icon);
+  max-height: var(--shop-icon);
+}
+
+body.page-shop .vr-shop-qty{
+  font-size: var(--shop-qty-size);
+}
+
+body.page-shop .vr-shop-item .vr-choice-button{
+  min-height: var(--shop-btn-h);
+  border-radius: var(--shop-btn-radius);
+  padding: var(--shop-btn-py) var(--shop-btn-px);
+  font-size: var(--shop-btn-font);
+}
+
+body.page-shop #store-grid .vr-shop-item[data-sku="vuniverse_diamond"] .vr-shop-top{
+  gap: clamp(3px, .4vw, 6px) !important;
+  min-height: clamp(82px, 9vw, 126px) !important;
+  padding-top: clamp(10px, 1vw, 14px);
+}
+
+body.page-shop #store-grid .vr-shop-item[data-sku="vuniverse_diamond"] .vr-shop-icon{
+  transform: translateY(clamp(2px, .3vw, 5px));
+}
+
+body.page-shop #store-grid .vr-shop-item[data-sku="vuniverse_diamond"] .vr-shop-badge-subtitle{
+  margin-top: clamp(2px, .3vw, 5px);
+  max-width: clamp(112px, 12vw, 170px);
+  font-size: clamp(11px, 1.1vw, 15px);
+  line-height: 1.08;
+}
+
+body.page-shop .vr-cosmetics{
+  gap: var(--u-gap);
+  margin-top: clamp(14px, 1.6vw, 22px);
+  padding-bottom: clamp(10px, 1vw, 16px);
+}
+
+body.page-shop .vr-universe-block{
+  border-radius: var(--u-radius);
+  padding: var(--u-pad-y) var(--u-pad-x) var(--u-pad-x);
+}
+
+body.page-shop .vr-universe-title{
+  font-size: var(--u-title-size);
+  margin: 0 0 var(--u-title-mb);
+}
+
+body.page-shop .vr-cos-row{
+  margin: 0 0 clamp(14px, 1.4vw, 20px);
+}
+
+body.page-shop .vr-cos-subtitle{
+  font-size: var(--cos-subtitle-size);
+  margin: 0 0 clamp(8px, .9vw, 12px);
+}
+
+body.page-shop .vr-cos-carousel{
+  gap: clamp(8px, 1vw, 12px);
+}
+
+body.page-shop .vr-cos-arrow{
+  width: var(--cos-arrow);
+  height: var(--cos-arrow);
+  font-size: var(--cos-arrow-font);
+}
+
+body.page-shop .vr-cos-card{
+  border-radius: var(--cos-card-r);
+  height: var(--cos-card-h);
+}
+
+body.page-shop .vr-cos-card.is-ui > img{
+  padding: clamp(14px, 1.5vw, 22px);
+}
+
+body.page-shop .vr-cos-overlay{
+  padding:
+    clamp(30px, 3vw, 44px)
+    clamp(10px, 1.1vw, 16px)
+    clamp(10px, 1.1vw, 16px);
+}
+
+body.page-shop .vr-cos-name{
+  font-size: var(--cos-name-size);
+  margin-bottom: clamp(8px, .9vw, 12px);
+}
+
+body.page-shop .vr-cos-count{
+  font-size: var(--cos-count-size);
+}
+
+body.page-shop .vr-cos-action{
+  margin-top: clamp(8px, .9vw, 12px);
+  padding: var(--cos-action-py) var(--cos-action-px);
+  border-radius: var(--cos-action-radius);
+  font-size: var(--cos-action-font);
+}
+
+body.page-shop .vr-cos-action-content{
+  gap: clamp(6px, .7vw, 9px);
+}
+
+body.page-shop .vr-cos-action-ico{
+  width: var(--cos-action-ico);
+  height: var(--cos-action-ico);
+  min-width: var(--cos-action-ico);
+  min-height: var(--cos-action-ico);
+}
+
+body.page-shop .vr-cos-dots{
+  gap: clamp(6px, .7vw, 9px);
+  margin-top: clamp(8px, .9vw, 12px);
+}
+
+body.page-shop .vr-cos-dot{
+  width: clamp(7px, .8vw, 10px);
+  height: clamp(7px, .8vw, 10px);
+}
+
+@media (min-width: 700px) and (max-width: 1366px){
+
+  body.page-shop{
+    --page-max: min(96vw, 1180px);
+    --page-pad-x: clamp(18px, 2.4vw, 30px);
+
+    --top-btn: clamp(50px, 5.4vw, 68px);
+    --top-btn-ico: clamp(28px, 3.1vw, 38px);
+    --top-gap: clamp(14px, 1.8vw, 22px);
+
+    --balance-gap: clamp(24px, 3.5vw, 44px);
+    --balance-icon: clamp(26px, 3.2vw, 38px);
+    --balance-font: clamp(20px, 2.6vw, 32px);
+
+    --title-mt: clamp(8px, 1vw, 14px);
+    --title-mb: clamp(14px, 1.5vw, 22px);
+
+    --shop-gap: clamp(12px, 1.5vw, 18px);
+    --shop-item-radius: clamp(18px, 2vw, 26px);
+    --shop-item-pad: clamp(14px, 1.8vw, 22px);
+    --shop-icon: clamp(58px, 6.8vw, 86px);
+    --shop-top-gap: clamp(10px, 1.2vw, 14px);
+    --shop-top-minh: clamp(104px, 12vw, 150px);
+    --shop-qty-size: clamp(20px, 2.4vw, 32px);
+    --shop-btn-h: clamp(48px, 5.4vw, 72px);
+    --shop-btn-radius: clamp(15px, 1.6vw, 20px);
+    --shop-btn-font: clamp(14px, 1.6vw, 18px);
+    --shop-btn-py: clamp(11px, 1.2vw, 16px);
+    --shop-btn-px: clamp(14px, 1.4vw, 18px);
+
+    --u-gap: clamp(18px, 1.9vw, 26px);
+    --u-radius: clamp(22px, 2.2vw, 30px);
+    --u-pad-y: clamp(18px, 1.9vw, 24px);
+    --u-pad-x: clamp(16px, 1.8vw, 22px);
+    --u-title-size: clamp(22px, 2.5vw, 34px);
+    --u-title-mb: clamp(14px, 1.4vw, 20px);
+
+    --cos-arrow: clamp(40px, 4.2vw, 56px);
+    --cos-arrow-font: clamp(30px, 3.2vw, 42px);
+    --cos-card-r: clamp(20px, 2vw, 26px);
+    --cos-card-h: clamp(150px, 16vw, 220px);
+    --cos-subtitle-size: clamp(15px, 1.7vw, 20px);
+    --cos-name-size: clamp(15px, 1.7vw, 20px);
+    --cos-count-size: clamp(13px, 1.4vw, 16px);
+    --cos-action-font: clamp(13px, 1.4vw, 17px);
+    --cos-action-radius: clamp(15px, 1.6vw, 20px);
+    --cos-action-py: clamp(11px, 1.2vw, 15px);
+    --cos-action-px: clamp(14px, 1.4vw, 18px);
+    --cos-action-ico: clamp(16px, 1.5vw, 20px);
+  }
+
+  body.page-shop .vr-shop-item{
+    min-height: clamp(170px, 22vw, 240px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  body.page-shop .vr-shop-top{
+    flex: 1 1 auto;
+  }
+
+  body.page-shop .vr-shop-item .vr-choice-button{
+    width: 100%;
+  }
+
+  body.page-shop .vr-cos-card.is-ui > img{
+    padding: clamp(18px, 2vw, 24px);
+  }
+}
+
+  </style>
+</head>
+
+<body class="vr-body page-shop" data-page="shop">
+
+  <header class="vr-header" aria-label="" data-i18n-aria="shop.aria_top">
+    <div class="vr-top-actions">
+      <div class="vr-top-slot vr-top-left">
+        <a id="btn-back" class="vr-icon-button" href="index.html" aria-label="" data-i18n-aria="common.back">
+          <svg class="vr-back-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="white" d="M15.5 5.5a1 1 0 0 1 0 1.4L10.4 12l5.1 5.1a1 1 0 1 1-1.4 1.4l-5.8-5.8a1.2 1.2 0 0 1 0-1.4l5.8-5.8a1 1 0 0 1 1.4 0z"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="vr-top-slot vr-top-center">
+        <div class="vr-top-balances" aria-hidden="true">
+          <div class="vr-top-balance">
+            <img src="assets/img/ui/vcoins.webp" alt="" draggable="false" />
+            <span id="top-vcoins-balance">0</span>
+          </div>
+
+          <div class="vr-top-balance">
+            <img src="assets/img/ui/jeton.webp" alt="" draggable="false" />
+            <span id="top-jetons-balance">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="vr-top-slot vr-top-right">
+        <a id="btn-profile" class="vr-icon-button" href="profile.html" aria-label="" data-i18n-aria="shop.aria_profile">
+          <img src="assets/img/ui/btn_profile.webp" alt="" draggable="false" />
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="vr-main">
+    <section id="view-shop" class="vr-view vr-view-active">
+
+      <h2 class="vr-section-title" data-i18n="shop.title"></h2>
+
+      <div class="vr-shop-block">
+        <div class="vr-shop-grid" id="reward-grid">
+
+          <div class="vr-shop-item">
+            <div class="vr-shop-top">
+              <img class="vr-shop-icon" src="assets/img/ui/jeton.webp" alt="" draggable="false">
+              <div class="vr-shop-qty" data-i18n="shop.reward_jeton_x1"></div>
+            </div>
+            <button
+              class="vr-choice-button"
+              id="btn-reward-jeton"
+              type="button"
+              data-reward-placement="shop_jeton">
+              <span data-i18n="shop.watch"></span>
+            </button>
+          </div>
+
+          <div class="vr-shop-item">
+            <div class="vr-shop-top">
+              <img class="vr-shop-icon" src="assets/img/ui/vcoins.webp" alt="" draggable="false">
+              <div class="vr-shop-qty" data-i18n="shop.reward_vcoins_x100"></div>
+            </div>
+            <button
+              class="vr-choice-button"
+              id="btn-reward-coins"
+              type="button"
+              data-reward-placement="shop_coins">
+              <span data-i18n="shop.watch"></span>
+            </button>
+          </div>
+
+        </div>
+
+        <p class="vr-profile-text" id="shop-status"></p>
+      </div>
+
+      <h3 class="vr-profile-title" data-i18n="shop.store_title"></h3>
+
+      <div class="vr-shop-block">
+        <div class="vr-shop-grid" id="store-grid">
+
+          <div class="vr-shop-item" data-sku="vuniverse_jetons_12">
+            <div class="vr-shop-top">
+              <img class="vr-shop-icon" src="assets/img/ui/jeton.webp" alt="" draggable="false">
+              <div class="vr-shop-qty" data-i18n="shop.pack_jetons_12"></div>
+            </div>
+            <button
+              class="vr-choice-button vr-iap-button"
+              id="btn-buy-jetons-12"
+              type="button"
+              data-iap="vuniverse_jetons_12"
+              data-product-id="vuniverse_jetons_12">
+              <span class="vr-iap-label" data-i18n="shop.loading"></span>
+            </button>
+          </div>
+
+          <div class="vr-shop-item" data-sku="vuniverse_jetons_30">
+            <div class="vr-shop-top">
+              <img class="vr-shop-icon" src="assets/img/ui/jeton.webp" alt="" draggable="false">
+              <div class="vr-shop-qty" data-i18n="shop.pack_jetons_30"></div>
+            </div>
+            <button
+              class="vr-choice-button vr-iap-button"
+              id="btn-buy-jetons-30"
+              type="button"
+              data-iap="vuniverse_jetons_30"
+              data-product-id="vuniverse_jetons_30">
+              <span class="vr-iap-label" data-i18n="shop.loading"></span>
+            </button>
+          </div>
+
+          <div class="vr-shop-item" data-sku="vuniverse_coins_1200">
+            <div class="vr-shop-top">
+              <img class="vr-shop-icon" src="assets/img/ui/vcoins.webp" alt="" draggable="false">
+              <div class="vr-shop-qty" data-i18n="shop.pack_vcoins_1200"></div>
+            </div>
+            <button
+              class="vr-choice-button vr-iap-button"
+              id="btn-buy-coins-1200"
+              type="button"
+              data-iap="vuniverse_coins_1200"
+              data-product-id="vuniverse_coins_1200">
+              <span class="vr-iap-label" data-i18n="shop.unavailable"></span>
+            </button>
+          </div>
+
+          <div class="vr-shop-item" data-sku="vuniverse_coins_3000">
+            <div class="vr-shop-top">
+              <img class="vr-shop-icon" src="assets/img/ui/vcoins.webp" alt="" draggable="false">
+              <div class="vr-shop-qty" data-i18n="shop.pack_vcoins_3000"></div>
+            </div>
+            <button
+              class="vr-choice-button vr-iap-button"
+              id="btn-buy-coins-3000"
+              type="button"
+              data-iap="vuniverse_coins_3000"
+              data-product-id="vuniverse_coins_3000">
+              <span class="vr-iap-label" data-i18n="shop.loading"></span>
+            </button>
+          </div>
+
+          <div class="vr-shop-item" data-sku="vuniverse_no_ads">
+            <div class="vr-shop-top">
+              <img class="vr-shop-icon" src="assets/img/ui/noads.webp" alt="" draggable="false">
+            </div>
+            <button
+              class="vr-choice-button vr-iap-button"
+              id="btn-buy-noads"
+              type="button"
+              data-iap="vuniverse_no_ads"
+              data-product-id="vuniverse_no_ads">
+              <span class="vr-iap-label" data-i18n="shop.loading"></span>
+            </button>
+          </div>
+
+          <div class="vr-shop-item" data-sku="vuniverse_diamond">
+            <div class="vr-shop-top">
+              <img class="vr-shop-icon" src="assets/img/ui/diamond.webp" alt="" draggable="false">
+              <div class="vr-shop-badge-subtitle" data-i18n="shop.diamond_badge"></div>
+            </div>
+            <button
+              class="vr-choice-button vr-iap-button"
+              id="btn-buy-diamond"
+              type="button"
+              data-iap="vuniverse_diamond"
+              data-product-id="vuniverse_diamond">
+              <span class="vr-iap-label" data-i18n="shop.loading"></span>
+            </button>
+          </div>
+
+        </div>
+
+        <p class="vr-profile-text" id="store-status"></p>
+
+        <div class="vr-cosmetics" id="cosmetics-block"></div>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="js/supabase.min.js"></script>
+  <script src="js/supabaseBootstrap.js"></script>
+  <script src="js/analytics.js"></script>
+
+  <script>
+    (function () {
+      async function ensureBootstrap() {
+        if (window.__vr_bootstrap_ready) return;
+        try {
+          if (typeof window.bootstrapAuthAndProfile === "function") {
+            await window.bootstrapAuthAndProfile();
+          }
+        } catch (_) {}
+        window.__vr_bootstrap_ready = true;
+      }
+
+      ensureBootstrap();
+
+      window.vrWaitBootstrap = async function () {
+        if (window.__vr_bootstrap_ready) return true;
+        var t0 = Date.now();
+        while (!window.__vr_bootstrap_ready && (Date.now() - t0) < 3000) {
+          await new Promise(function (r) { setTimeout(r, 50); });
+        }
+        return !!window.__vr_bootstrap_ready;
+      };
+    })();
+  </script>
+
+  <script src="js/userData.js"></script>
+  <script src="js/onesignal.js"></script>
+  <script src="js/ads.js"></script>
+  <script src="js/purchases.js"></script>
+  <script src="js/audio.js"></script>
+  <script>
+    window.VRAudio?.startMenuBg?.();
+  </script>
+  <script src="js/shop.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/crossPromo.js"></script>
+</body>
+</html>

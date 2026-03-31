@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vuniverse</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    :root{
+      --vr-bg: radial-gradient(circle at top, #f6e7cf 0, #1b6688 62%, #03279e 100%);
+      --vr-overlay: none;
+    }
+
+    *,
+    *::before,
+    *::after{
+      box-sizing:border-box;
+    }
+
+    html,
+    body{
+      width:100%;
+      max-width:100%;
+      overflow-x:hidden;
+    }
+
+    body.vr-crosspromo-body{
+      min-height:100vh;
+      background:var(--vr-bg);
+    }
+
+    .vr-crosspromo-shell{
+      width:calc(100vw - 12px);
+      max-width:980px;
+      margin:0 auto;
+      padding:12px 0 28px;
+    }
+
+    .vr-crosspromo-top{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      margin-bottom:14px;
+      padding:10px 12px;
+      border-radius:18px;
+      background:linear-gradient(180deg, rgba(0,0,0,.22), rgba(0,0,0,.12));
+      backdrop-filter:blur(4px);
+      -webkit-backdrop-filter:blur(4px);
+    }
+
+    .vr-crosspromo-back{
+      width:44px;
+      height:44px;
+      border:none;
+      background:transparent;
+      padding:0;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      text-decoration:none;
+      box-shadow:none;
+      flex:0 0 44px;
+    }
+
+    .vr-crosspromo-back img{
+      width:44px;
+      height:44px;
+      object-fit:contain;
+      display:block;
+      filter:drop-shadow(0 4px 10px rgba(0,0,0,.35));
+    }
+
+    .vr-crosspromo-title-wrap{
+      flex:1 1 auto;
+      min-width:0;
+      text-align:center;
+    }
+
+    .vr-crosspromo-title{
+      margin:0;
+      color:#fff;
+      font-size:22px;
+      font-weight:900;
+      text-shadow:
+        0 2px 6px rgba(0,0,0,.58),
+        0 6px 18px rgba(0,0,0,.40);
+    }
+
+    .vr-crosspromo-subtitle{
+      margin:6px 0 0;
+      color:rgba(255,255,255,.99);
+      font-size:13px;
+      line-height:1.35;
+      text-shadow:
+        0 2px 6px rgba(0,0,0,.54),
+        0 4px 12px rgba(0,0,0,.32);
+    }
+
+    .vr-crosspromo-spacer{
+      width:44px;
+      height:44px;
+      flex:0 0 44px;
+    }
+
+    .vr-crosspromo-grid{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:16px;
+    }
+
+    .vr-crosspromo-referral-card{
+      margin-bottom:16px;
+    }
+
+    .vr-crosspromo-invite-pill{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      flex-wrap:nowrap;
+      width:fit-content;
+      max-width:100%;
+      margin:0 auto 14px;
+      padding:10px 18px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.18);
+      background:rgba(255,255,255,.10);
+      box-shadow:0 6px 18px rgba(0,0,0,.14);
+    }
+
+    .vr-crosspromo-invite-title{
+      display:block;
+      font-size:18px;
+      font-weight:950;
+      color:#fff;
+      text-align:center;
+      text-shadow:0 2px 8px rgba(0,0,0,.28);
+      line-height:1;
+    }
+
+    .vr-crosspromo-invite-pill img{
+      width:28px;
+      height:28px;
+      object-fit:contain;
+      display:block;
+      flex:0 0 28px;
+      transform:translateY(4px);
+    }
+
+    .vr-crosspromo-invite-reward-value{
+      display:block;
+      font-size:18px;
+      font-weight:950;
+      color:#fff;
+      line-height:1;
+      text-shadow:0 2px 8px rgba(0,0,0,.28);
+    }
+
+    .vr-crosspromo-referral-card .vr-crosspromo-desc{
+      max-width:36ch;
+      margin:4px auto 14px auto;
+    }
+
+    .vr-crosspromo-referral-card .vr-crosspromo-actions{
+      max-width:360px;
+      margin:0 auto;
+    }
+
+    .vr-crosspromo-card{
+      position:relative;
+      overflow:hidden;
+      border-radius:22px;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(10,16,28,.28);
+      backdrop-filter:blur(8px);
+      -webkit-backdrop-filter:blur(8px);
+      box-shadow:0 16px 40px rgba(0,0,0,.28);
+    }
+
+    .vr-crosspromo-hero{
+      position:relative;
+      height:172px;
+      overflow:hidden;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,0)),
+        radial-gradient(circle at top right, rgba(255,255,255,.16), transparent 45%),
+        rgba(0,0,0,.08);
+    }
+
+    .vr-crosspromo-hero img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+
+    .vr-crosspromo-badge{
+      display:none !important;
+    }
+
+    .vr-crosspromo-content{
+      padding:12px;
+      color:#fff;
+    }
+
+    .vr-crosspromo-head{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      margin-bottom:12px;
+    }
+
+    .vr-crosspromo-head--reward-only{
+      justify-content:center;
+    }
+
+    .vr-crosspromo-name{
+      display:none !important;
+    }
+
+    .vr-crosspromo-reward{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:7px;
+      padding:10px 16px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.18);
+      background:rgba(255,255,255,.10);
+      font-size:15px;
+      font-weight:900;
+      white-space:nowrap;
+      text-align:center;
+      flex-shrink:0;
+      margin-inline:auto;
+      animation:vrRewardPulse 2.2s ease-in-out infinite;
+      box-shadow:0 6px 18px rgba(0,0,0,.14);
+    }
+
+    .vr-crosspromo-reward-label{
+      font-size:14px;
+      font-weight:950;
+      letter-spacing:.2px;
+      opacity:1;
+    }
+
+    .vr-crosspromo-reward img{
+      width:28px;
+      height:28px;
+      object-fit:contain;
+      display:block;
+      flex:0 0 28px;
+      transform:translateY(2px);
+    }
+
+    .vr-crosspromo-reward-value{
+      font-size:16px;
+      font-weight:950;
+    }
+
+    @keyframes vrRewardPulse{
+      0%{
+        transform:scale(1);
+        opacity:1;
+      }
+      50%{
+        transform:scale(1.04);
+        opacity:.88;
+      }
+      100%{
+        transform:scale(1);
+        opacity:1;
+      }
+    }
+
+    .vr-crosspromo-desc{
+      margin:4px auto 14px auto;
+      color:rgba(255,255,255,.96);
+      font-size:14px;
+      line-height:1.45;
+      text-align:center;
+      max-width:28ch;
+      text-shadow:0 2px 8px rgba(0,0,0,.18);
+    }
+
+    .vr-crosspromo-gallery{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0, 1fr));
+      gap:8px;
+      margin-bottom:12px;
+      align-items:start;
+    }
+
+    .vr-crosspromo-shot{
+      width:100%;
+      aspect-ratio:9 / 16;
+      border:none;
+      border-radius:22px;
+      overflow:hidden;
+      background:transparent;
+      padding:0;
+      box-shadow:none;
+      cursor:pointer;
+      appearance:none;
+      -webkit-appearance:none;
+      display:block;
+      line-height:0;
+    }
+
+    .vr-crosspromo-shot img{
+      width:100%;
+      height:100%;
+      display:block;
+      object-fit:contain;
+      object-position:center;
+      border-radius:22px;
+      overflow:hidden;
+      background:transparent;
+    }
+
+    .vr-crosspromo-actions{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:10px;
+    }
+
+    .vr-crosspromo-btn{
+      min-height:50px;
+      padding:12px 14px;
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,.16);
+      background:rgba(255,255,255,.10);
+      color:#fff;
+      font-weight:900;
+      text-decoration:none;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      cursor:pointer;
+      -webkit-tap-highlight-color:transparent;
+    }
+
+    .vr-crosspromo-btn.primary{
+      background:rgba(122,167,255,.24);
+      border-color:rgba(122,167,255,.36);
+    }
+
+    .vr-crosspromo-referral-card .vr-crosspromo-btn.primary{
+      animation: vrCrossInvitePulse 1.15s ease-in-out infinite;
+      box-shadow:0 0 0 rgba(122,167,255,0);
+    }
+
+    .vr-crosspromo-btn:active{
+      transform:scale(.99);
+    }
+
+    @keyframes vrCrossInvitePulse{
+      0%{
+        transform:scale(1);
+        opacity:1;
+        box-shadow:0 0 0 rgba(122,167,255,0);
+      }
+      50%{
+        transform:scale(1.035);
+        opacity:.9;
+        box-shadow:0 0 22px rgba(122,167,255,.34);
+      }
+      100%{
+        transform:scale(1);
+        opacity:1;
+        box-shadow:0 0 0 rgba(122,167,255,0);
+      }
+    }
+
+    .vr-shot-viewer{
+      position:fixed;
+      inset:0;
+      z-index:300000;
+      display:none;
+      align-items:center;
+      justify-content:center;
+      padding:20px;
+      background:rgba(0,0,0,.82);
+      backdrop-filter:blur(6px);
+      -webkit-backdrop-filter:blur(6px);
+    }
+
+    .vr-shot-viewer.is-open{
+      display:flex;
+    }
+
+    .vr-shot-viewer-dialog{
+      position:relative;
+      width:min(92vw, 520px);
+      max-height:90vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .vr-shot-viewer-close{
+      position:absolute;
+      top:-10px;
+      right:-10px;
+      width:42px;
+      height:42px;
+      border:none;
+      border-radius:999px;
+      background:rgba(20,28,44,.92);
+      color:#fff;
+      font-size:24px;
+      font-weight:900;
+      cursor:pointer;
+      box-shadow:0 10px 24px rgba(0,0,0,.34);
+      z-index:2;
+    }
+
+    .vr-shot-viewer-img{
+      width:100%;
+      max-height:90vh;
+      object-fit:contain;
+      display:block;
+      border-radius:22px;
+      background:transparent;
+      box-shadow:0 18px 40px rgba(0,0,0,.35);
+    }
+
+    /* Desktop large uniquement */
+    @media (min-width: 1200px){
+      .vr-crosspromo-grid{
+        grid-template-columns:1fr 1fr;
+      }
+
+      .vr-crosspromo-hero{
+        height:200px;
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 520px){
+      .vr-crosspromo-shell{
+        width:calc(100vw - 10px);
+        padding:10px 0 22px;
+      }
+
+      .vr-crosspromo-title{
+        font-size:20px;
+      }
+
+      .vr-crosspromo-hero{
+        height:156px;
+      }
+
+      .vr-crosspromo-top{
+        padding:8px 10px;
+      }
+
+      .vr-crosspromo-reward{
+        padding:9px 14px;
+      }
+
+      .vr-crosspromo-reward-label{
+        font-size:13px;
+      }
+
+      .vr-crosspromo-reward-value{
+        font-size:15px;
+      }
+
+      .vr-crosspromo-reward img{
+        width:28px;
+        height:28px;
+        flex:0 0 28px;
+        transform:translateY(2px);
+      }
+    }
+
+    /* TABLETTE : large, 1 colonne, gros texte */
+    @media (min-width: 700px) and (max-width: 1199px){
+      .vr-crosspromo-shell{
+        width:calc(100vw - 8px);
+        max-width:none;
+        padding:14px 0 32px;
+      }
+
+      .vr-crosspromo-grid{
+        grid-template-columns:1fr !important;
+        gap:18px;
+      }
+
+      .vr-crosspromo-top{
+        padding:14px 16px;
+        border-radius:22px;
+      }
+
+      .vr-crosspromo-title{
+        font-size:30px;
+      }
+
+      .vr-crosspromo-subtitle{
+        font-size:17px;
+        line-height:1.4;
+      }
+
+      .vr-crosspromo-card{
+        border-radius:24px;
+      }
+
+      .vr-crosspromo-content{
+        padding:18px;
+      }
+
+      .vr-crosspromo-invite-pill{
+        padding:13px 22px;
+        gap:10px;
+      }
+
+      .vr-crosspromo-invite-title{
+        font-size:24px;
+      }
+
+      .vr-crosspromo-invite-pill img{
+        width:34px;
+        height:34px;
+        flex:0 0 34px;
+      }
+
+      .vr-crosspromo-invite-reward-value{
+        font-size:24px;
+      }
+
+      .vr-crosspromo-referral-card .vr-crosspromo-actions{
+        max-width:420px;
+      }
+
+      .vr-crosspromo-hero{
+        height:260px;
+      }
+
+      .vr-crosspromo-reward{
+        padding:12px 20px;
+        gap:9px;
+      }
+
+      .vr-crosspromo-reward-label{
+        font-size:18px;
+      }
+
+      .vr-crosspromo-reward img{
+        width:34px;
+        height:34px;
+        flex:0 0 34px;
+      }
+
+      .vr-crosspromo-reward-value{
+        font-size:20px;
+      }
+
+      .vr-crosspromo-desc{
+        font-size:18px;
+        line-height:1.5;
+        max-width:34ch;
+      }
+
+      .vr-crosspromo-gallery{
+        gap:12px;
+        margin-bottom:16px;
+      }
+
+      .vr-crosspromo-btn{
+        min-height:60px;
+        padding:14px 18px;
+        font-size:20px;
+        border-radius:18px;
+      }
+    }
+  </style>
+</head>
+
+<body class="vr-body vr-crosspromo-body">
+  <main class="vr-crosspromo-shell">
+
+    <div class="vr-crosspromo-top">
+      <a
+        class="vr-crosspromo-back"
+        href="index.html"
+        aria-label=""
+        data-i18n-aria="ui.aria_back"
+      >
+        <img src="assets/img/ui/btn_home.webp" alt="" draggable="false" />
+      </a>
+
+      <div class="vr-crosspromo-title-wrap">
+        <h1 class="vr-crosspromo-title" data-i18n="crosspromo.page_title"></h1>
+        <p class="vr-crosspromo-subtitle" data-i18n="crosspromo.page_subtitle"></p>
+      </div>
+
+      <div class="vr-crosspromo-spacer" aria-hidden="true"></div>
+    </div>
+
+    <section class="vr-crosspromo-card vr-crosspromo-referral-card">
+      <div class="vr-crosspromo-content">
+        <div class="vr-crosspromo-invite-pill">
+          <span class="vr-crosspromo-invite-title" data-i18n="referral.invite_and_earn_title"></span>
+          <img src="assets/img/ui/vcoins.webp" alt="" draggable="false" />
+          <span class="vr-crosspromo-invite-reward-value">+ 200</span>
+        </div>
+
+        <p class="vr-crosspromo-desc" data-i18n="referral.crosspromo_desc"></p>
+
+        <div class="vr-crosspromo-actions">
+          <button
+            class="vr-crosspromo-btn primary"
+            id="cp_invite_btn"
+            type="button"
+            data-i18n="referral.invite_and_earn_btn"
+          ></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="vr-crosspromo-grid" id="vr-crosspromo-grid"></section>
+  </main>
+
+  <div class="vr-shot-viewer" id="vr-shot-viewer" aria-hidden="true">
+    <div class="vr-shot-viewer-dialog">
+      <button class="vr-shot-viewer-close" id="vr-shot-viewer-close" type="button" aria-label="Fermer">×</button>
+      <img class="vr-shot-viewer-img" id="vr-shot-viewer-img" src="" alt="" />
+    </div>
+  </div>
+
+  <script src="js/supabase.min.js"></script>
+  <script src="js/supabaseBootstrap.js"></script>
+  <script src="js/analytics.js"></script>
+  <script src="js/userData.js"></script>
+  <script src="js/onesignal.js"></script>
+  <script src="js/ads.js"></script>
+  <script src="js/purchases.js"></script>
+  <script src="js/shop.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/audio.js"></script>
+  <script>
+    window.VRAudio?.startMenuBg?.();
+  </script>
+  <script src="js/crossPromo.js"></script>
+  <script src="js/referral.js"></script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+﻿{
+  "version": 1,
+  "events": {
+    "new_world_explorer_ev_001": {
+      "title": "Mappa favorevole",
+      "body": "Un navigatore torna con una mappa chiara. All improvviso la costa sembra più piccola.",
+      "effect": "Territori : +5 per carta",
+      "duration": "Durata : 5 carte"
+    },
+    "new_world_explorer_ev_002": {
+      "title": "Stiva ben piena",
+      "body": "Un convoglio rientra con casse pesanti e sorrisi ancora più pesanti.",
+      "effect": "Ricchezze : +5 per carta",
+      "duration": "Durata : 6 carte"
+    },
+    "new_world_explorer_ev_003": {
+      "title": "Missione mal accolta",
+      "body": "Dei predicatori parlano troppo in fretta e ascoltano troppo poco. Il villaggio si chiude.",
+      "effect": "Popolazione convertita : -5 per carta",
+      "duration": "Durata : 4 carte"
+    },
+    "new_world_explorer_ev_004": {
+      "title": "Lettera dal palazzo",
+      "body": "La corte saluta i tuoi ultimi risultati. Per una volta, il sigillo reale porta altro oltre a un ordine.",
+      "effect": "Appoggio reale : +5 per carta",
+      "duration": "Durata : 5 carte"
+    },
+    "new_world_explorer_ev_005": {
+      "title": "Frontiera contestata",
+      "body": "Un capo vicino rimette in discussione i nostri confini. Le nostre terre sembrano improvvisamente molto meno sicure.",
+      "effect": "Territori : -5 per carta",
+      "duration": "Durata : 6 carte"
+    },
+    "new_world_explorer_ev_006": {
+      "title": "Cappella del porto",
+      "body": "Una piccola cappella apre vicino al molo. I sermoni circolano veloci quanto le voci.",
+      "effect": "Popolazione convertita : +5 per carta",
+      "duration": "Durata : 4 carte"
+    },
+    "new_world_explorer_ev_007": {
+      "title": "Convoglio saccheggiato",
+      "body": "Una parte della scorta sparisce sulla strada interna. Il commercio odia questo genere di sorprese.",
+      "effect": "Ricchezze : -5 per carta",
+      "duration": "Durata : 7 carte"
+    },
+    "new_world_explorer_ev_008": {
+      "title": "Corte offesa",
+      "body": "Un rapporto arriva in ritardo e con troppe scuse. Il palazzo ama ancora meno il ritardo della verità.",
+      "effect": "Appoggio reale : -5 per carta",
+      "duration": "Durata : 5 carte"
+    },
+    "new_world_explorer_ev_009": {
+      "title": "Predicatore applaudito",
+      "body": "Un predicatore sa parlare in modo semplice. Le folle restano fino alla fine e tornano il giorno dopo.",
+      "effect": "Popolazione convertita : +5 per carta",
+      "duration": "Durata : 4 carte"
+    },
+    "new_world_explorer_ev_010": {
+      "title": "Filone redditizio",
+      "body": "Un filone discreto comincia a rendere più del previsto. Perfino gli scribi sembrano felici.",
+      "effect": "Ricchezze : +5 per carta",
+      "duration": "Durata : 6 carte"
+    },
+
+    "new_world_explorer_ev_011": {
+      "title": "Ordini contraddittori",
+      "body": "Due messaggi reali dicono due cose opposte. Tu perdi tempo, e la corte perde pazienza.",
+      "effect": "Appoggio reale : -5 per carta",
+      "duration": "Durata : 3 carte"
+    },
+    "new_world_explorer_ev_012": {
+      "title": "Visita annunciata",
+      "body": "Un inviato del re parla della tua colonia come di un esempio. È lusinghiero e molto utile.",
+      "effect": "Appoggio reale : +5 per carta",
+      "duration": "Durata : 7 carte"
+    },
+    "new_world_explorer_ev_013": {
+      "title": "Posto abbandonato",
+      "body": "Un piccolo avamposto viene abbandonato dopo diverse notti agitate. La mappa si ritira di colpo.",
+      "effect": "Territori : -5 per carta",
+      "duration": "Durata : 4 carte"
+    },
+    "new_world_explorer_ev_014": {
+      "title": "Mercato delle isole",
+      "body": "Mercanti arrivati dalle isole riempiono il porto di beni rari e idee di guadagno.",
+      "effect": "Ricchezze : +5 per carta",
+      "duration": "Durata : 6 carte"
+    },
+    "new_world_explorer_ev_015": {
+      "title": "Forte avanzato",
+      "body": "Un piccolo forte sorge in un punto ben scelto. La costa sembra improvvisamente più ampia.",
+      "effect": "Territori : +5 per carta",
+      "duration": "Durata : 3 carte"
+    },
+    "new_world_explorer_ev_016": {
+      "title": "Zelo maldestro",
+      "body": "Uomini troppo frettolosi vogliono convincere con la forza del tono. Ottengono soprattutto diffidenza.",
+      "effect": "Popolazione convertita : -5 per carta",
+      "duration": "Durata : 5 carte"
+    },
+    "new_world_explorer_ev_017": {
+      "title": "Cassa del regno",
+      "body": "Una cassa arriva dal continente con materiale, ordini e un po di fiducia.",
+      "effect": "Appoggio reale : +5 per carta",
+      "duration": "Durata : 4 carte"
+    },
+    "new_world_explorer_ev_018": {
+      "title": "Tempesta sulle stive",
+      "body": "Una serie di piogge danneggia le scorte. Il porto odora di legno bagnato e di perdita secca.",
+      "effect": "Ricchezze : -5 per carta",
+      "duration": "Durata : 7 carte"
+    },
+    "new_world_explorer_ev_019": {
+      "title": "Scuola del litorale",
+      "body": "Una scuola apre vicino al porto. I bambini arrivano per le parole e tornano per le abitudini.",
+      "effect": "Popolazione convertita : +5 per carta",
+      "duration": "Durata : 3 carte"
+    },
+    "new_world_explorer_ev_020": {
+      "title": "Mappa troppo ottimista",
+      "body": "Una vecchia mappa promette terre già contese. L errore costa tempo e presenza.",
+      "effect": "Territori : -5 per carta",
+      "duration": "Durata : 6 carte"
+    },
+
+    "new_world_explorer_ev_021": {
+      "title": "Voce a corte",
+      "body": "Una voce di cattiva gestione attraversa l oceano. Il palazzo adora i racconti, tranne quando arrivano da qui.",
+      "effect": "Appoggio reale : -5 per carta",
+      "duration": "Durata : 5 carte"
+    },
+    "new_world_explorer_ev_022": {
+      "title": "Via delle spezie",
+      "body": "Una rotta commerciale diventa finalmente sicura. Le navi ripartono piene e tornano ancora più motivate.",
+      "effect": "Ricchezze : +5 per carta",
+      "duration": "Durata : 7 carte"
+    },
+    "new_world_explorer_ev_023": {
+      "title": "Baia protetta",
+      "body": "La baia è meglio controllata, meglio sorvegliata, e molto più facile da rivendicare.",
+      "effect": "Territori : +5 per carta",
+      "duration": "Durata : 4 carte"
+    },
+    "new_world_explorer_ev_024": {
+      "title": "Tempio offeso",
+      "body": "Un luogo sacro viene urtato per goffaggine o per orgoglio. Le porte si chiudono subito.",
+      "effect": "Popolazione convertita : -5 per carta",
+      "duration": "Durata : 6 carte"
+    },
+    "new_world_explorer_ev_025": {
+      "title": "Magazzino umido",
+      "body": "L umidità invade le riserve. Una parte della scorta perde valore ancora prima di essere venduta.",
+      "effect": "Ricchezze : -5 per carta",
+      "duration": "Durata : 3 carte"
+    },
+    "new_world_explorer_ev_026": {
+      "title": "Festa della missione",
+      "body": "Una grande festa religiosa riunisce il porto e diversi villaggi. Il momento è ben scelto e ben gestito.",
+      "effect": "Popolazione convertita : +5 per carta",
+      "duration": "Durata : 5 carte"
+    },
+    "new_world_explorer_ev_027": {
+      "title": "Trattato della riva",
+      "body": "Un accordo semplice stabilisce finalmente chi tiene cosa sulla costa. È meno glorioso di una bandiera, ma molto più solido.",
+      "effect": "Territori : +5 per carta",
+      "duration": "Durata : 4 carte"
+    },
+    "new_world_explorer_ev_028": {
+      "title": "Inviato scontento",
+      "body": "Un inviato reale riparte con il volto chiuso e un taccuino ben pieno. Nulla di buono ama attraversare il mare in questo modo.",
+      "effect": "Appoggio reale : -5 per carta",
+      "duration": "Durata : 6 carte"
+    },
+    "new_world_explorer_ev_029": {
+      "title": "Miniera deludente",
+      "body": "La miniera che si credeva promettente produce soprattutto fatica e conti tristi.",
+      "effect": "Ricchezze : -5 per carta",
+      "duration": "Durata : 3 carte"
+    },
+    "new_world_explorer_ev_030": {
+      "title": "Settimana dei battesimi",
+      "body": "La missione vive una settimana molto seguita. Perfino i più prudenti vengono a guardare più da vicino.",
+      "effect": "Popolazione convertita : +5 per carta",
+      "duration": "Durata : 7 carte"
+    }
+  }
+}

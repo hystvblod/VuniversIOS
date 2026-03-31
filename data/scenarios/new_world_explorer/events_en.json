@@ -1,0 +1,185 @@
+﻿{
+  "version": 1,
+  "events": {
+    "new_world_explorer_ev_001": {
+      "title": "Favorable Map",
+      "body": "A navigator returns with a clear map. Suddenly the coast seems smaller.",
+      "effect": "Territories: +5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "new_world_explorer_ev_002": {
+      "title": "Well-Filled Hold",
+      "body": "A convoy returns with heavy crates and even heavier smiles.",
+      "effect": "Wealth: +5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "new_world_explorer_ev_003": {
+      "title": "Poorly Received Mission",
+      "body": "Some preachers speak too quickly and listen too little. The village closes itself off.",
+      "effect": "Converted Population: -5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "new_world_explorer_ev_004": {
+      "title": "Letter from the Palace",
+      "body": "The court praises your latest results. For once, the royal seal brings something other than an order.",
+      "effect": "Royal Support: +5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "new_world_explorer_ev_005": {
+      "title": "Disputed Frontier",
+      "body": "A neighboring chief challenges our boundary markers. Our lands suddenly seem much less secure.",
+      "effect": "Territories: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "new_world_explorer_ev_006": {
+      "title": "Harbor Chapel",
+      "body": "A small chapel opens near the dock. Sermons spread as quickly as rumors.",
+      "effect": "Converted Population: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "new_world_explorer_ev_007": {
+      "title": "Plundered Convoy",
+      "body": "Part of the stock disappears on the inland road. Trade hates this kind of surprise.",
+      "effect": "Wealth: -5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "new_world_explorer_ev_008": {
+      "title": "Offended Court",
+      "body": "A report arrives late and with too many excuses. The palace likes delays even less than the truth.",
+      "effect": "Royal Support: -5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "new_world_explorer_ev_009": {
+      "title": "Applauded Preacher",
+      "body": "A preacher knows how to speak simply. Crowds stay until the end and return the next day.",
+      "effect": "Converted Population: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "new_world_explorer_ev_010": {
+      "title": "Profitable Vein",
+      "body": "A discreet vein begins to yield more than expected. Even the scribes seem pleased.",
+      "effect": "Wealth: +5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "new_world_explorer_ev_011": {
+      "title": "Conflicting Orders",
+      "body": "Two royal messages say two opposite things. You lose time, and the court loses patience.",
+      "effect": "Royal Support: -5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "new_world_explorer_ev_012": {
+      "title": "Announced Visit",
+      "body": "An envoy of the king speaks of your colony as an example. It is flattering and very useful.",
+      "effect": "Royal Support: +5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "new_world_explorer_ev_013": {
+      "title": "Abandoned Outpost",
+      "body": "A small outpost is deserted after several restless nights. The map suddenly folds inward.",
+      "effect": "Territories: -5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "new_world_explorer_ev_014": {
+      "title": "Island Market",
+      "body": "Merchants from the islands fill the port with rare goods and ideas of profit.",
+      "effect": "Wealth: +5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "new_world_explorer_ev_015": {
+      "title": "Forward Fort",
+      "body": "A small fort rises on well-chosen ground. The shoreline suddenly feels wider.",
+      "effect": "Territories: +5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "new_world_explorer_ev_016": {
+      "title": "Clumsy Zeal",
+      "body": "Men in too much of a hurry try to convince people by force of tone. They mostly earn mistrust.",
+      "effect": "Converted Population: -5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "new_world_explorer_ev_017": {
+      "title": "Kingdom Chest",
+      "body": "A chest arrives from the continent with supplies, orders, and a little confidence.",
+      "effect": "Royal Support: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "new_world_explorer_ev_018": {
+      "title": "Storm over the Holds",
+      "body": "A stretch of rain damages the stock. The port smells of wet wood and clear loss.",
+      "effect": "Wealth: -5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "new_world_explorer_ev_019": {
+      "title": "Shore School",
+      "body": "A school opens near the harbor. The children come for the words and return for the habits.",
+      "effect": "Converted Population: +5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "new_world_explorer_ev_020": {
+      "title": "Overly Optimistic Map",
+      "body": "An old map promises lands already disputed. The mistake costs time and presence.",
+      "effect": "Territories: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "new_world_explorer_ev_021": {
+      "title": "Rumor at Court",
+      "body": "A rumor of poor management crosses the ocean. The palace loves stories, except when they come from here.",
+      "effect": "Royal Support: -5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "new_world_explorer_ev_022": {
+      "title": "Spice Route",
+      "body": "A trade route finally becomes safe. Ships leave full and come back even more eager.",
+      "effect": "Wealth: +5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "new_world_explorer_ev_023": {
+      "title": "Secured Bay",
+      "body": "The bay is better held, better watched, and much easier to claim.",
+      "effect": "Territories: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "new_world_explorer_ev_024": {
+      "title": "Offended Temple",
+      "body": "A sacred place is disturbed through clumsiness or pride. The doors close at once.",
+      "effect": "Converted Population: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "new_world_explorer_ev_025": {
+      "title": "Damp Warehouse",
+      "body": "Humidity spreads through the reserves. Part of the stock loses value before it is even sold.",
+      "effect": "Wealth: -5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "new_world_explorer_ev_026": {
+      "title": "Mission Festival",
+      "body": "A great religious celebration gathers the harbor and several villages. The moment is well chosen and well managed.",
+      "effect": "Converted Population: +5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "new_world_explorer_ev_027": {
+      "title": "Shore Treaty",
+      "body": "A simple agreement finally settles who keeps what along the coast. It is less glorious than a flag, but far more solid.",
+      "effect": "Territories: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "new_world_explorer_ev_028": {
+      "title": "Displeased Envoy",
+      "body": "A royal envoy leaves with a closed face and a very full notebook. Nothing good likes to cross the sea like that.",
+      "effect": "Royal Support: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "new_world_explorer_ev_029": {
+      "title": "Disappointing Mine",
+      "body": "The mine that seemed promising produces mostly fatigue and grim accounts.",
+      "effect": "Wealth: -5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "new_world_explorer_ev_030": {
+      "title": "Week of Baptisms",
+      "body": "The mission enjoys a very busy week. Even the most cautious come to look more closely.",
+      "effect": "Converted Population: +5 per card",
+      "duration": "Duration: 7 cards"
+    }
+  }
+}

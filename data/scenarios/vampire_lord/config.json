@@ -1,0 +1,63 @@
+{
+  "id": "vampire_lord",
+  "gauges": [
+    {
+      "id": "blood",
+      "label_fr": "Sang",
+      "label_en": "Blood",
+      "label_de": "Blut",
+      "label_es": "Sangre",
+      "label_it": "Sangue",
+      "label_pt": "Sangue",
+      "label_ptbr": "Sangue",
+      "label_ko": "피",
+      "label_ja": "血",
+      "label_id": "Darah"
+    },
+    {
+      "id": "hunters",
+      "label_fr": "Chasseurs",
+      "label_en": "Hunters",
+      "label_de": "Jäger",
+      "label_es": "Cazadores",
+      "label_it": "Cacciatori",
+      "label_pt": "Caçadores",
+      "label_ptbr": "Caçadores",
+      "label_ko": "사냥꾼",
+      "label_ja": "狩人",
+      "label_id": "Pemburu"
+    },
+    {
+      "id": "clan",
+      "label_fr": "Clan",
+      "label_en": "Clan",
+      "label_de": "Clan",
+      "label_es": "Clan",
+      "label_it": "Clan",
+      "label_pt": "Clã",
+      "label_ptbr": "Clã",
+      "label_ko": "클랜",
+      "label_ja": "一族",
+      "label_id": "Klan"
+    },
+    {
+      "id": "secret",
+      "label_fr": "Secret",
+      "label_en": "Secret",
+      "label_de": "Geheimnis",
+      "label_es": "Secreto",
+      "label_it": "Segreto",
+      "label_pt": "Segredo",
+      "label_ptbr": "Segredo",
+      "label_ko": "비밀",
+      "label_ja": "秘密",
+      "label_id": "Rahasia"
+    }
+  ],
+  "initialGauges": {
+    "blood": 50,
+    "hunters": 50,
+    "clan": 50,
+    "secret": 50
+  }
+}

@@ -1,0 +1,2174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vuniverse</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    :root{
+      --vr-bg: radial-gradient(circle at top, #f6e7cf 0, #1b6688 62%, #03279e 100%);
+      --vr-overlay: none;
+    }
+
+    .vr-header{ display:none !important; }
+
+    .vr-top-actions{
+      display:flex !important;
+      align-items:center !important;
+      justify-content:space-between !important;
+      gap:10px !important;
+      padding: 10px 12px 8px !important;
+      position: relative !important;
+      z-index: 10 !important;
+      width:100% !important;
+    }
+
+    .vr-top-slot{
+      flex:1 1 0 !important;
+      display:flex !important;
+      align-items:center !important;
+    }
+    .vr-top-left{ justify-content:flex-start !important; }
+    .vr-top-center{ justify-content:center !important; }
+    .vr-top-right{ justify-content:flex-end !important; }
+
+    .vr-icon-button{
+      width:44px !important;
+      height:44px !important;
+      border-radius:999px !important;
+      border: 1px solid rgba(255,255,255,0.28) !important;
+      background: rgba(0,0,0,0.28) !important;
+      backdrop-filter: blur(6px) !important;
+      -webkit-backdrop-filter: blur(6px) !important;
+      box-shadow: 0 10px 22px rgba(0,0,0,0.22) !important;
+      padding:0 !important;
+      display:inline-flex !important;
+      align-items:center !important;
+      justify-content:center !important;
+      cursor:pointer !important;
+      text-decoration:none !important;
+      -webkit-tap-highlight-color: transparent !important;
+    }
+
+    .vr-icon-button img{
+      width:30px !important;
+      height:30px !important;
+      object-fit:contain !important;
+      display:block !important;
+      pointer-events:none !important;
+      user-select:none !important;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.65)) contrast(1.2) brightness(1.08) !important;
+    }
+
+    .vr-main{
+      width: 100% !important;
+      max-width: 100% !important;
+      padding-top: clamp(8px, 2.4vw, 12px) !important;
+      padding-left: clamp(10px, 3vw, 16px) !important;
+      padding-right: clamp(10px, 3vw, 16px) !important;
+      box-sizing: border-box !important;
+    }
+
+    .vr-intro{
+      margin-top: 6px !important;
+      margin-bottom: 12px !important;
+      display:flex !important;
+      justify-content:center !important;
+    }
+
+    .vr-main-logo{
+      margin-top: 0 !important;
+      width: min(78vw, 420px) !important;
+      height: auto !important;
+      max-height: clamp(72px, 16vw, 132px) !important;
+      object-fit: contain !important;
+      display: block !important;
+      filter: drop-shadow(0 12px 30px rgba(0,0,0,0.45)) !important;
+    }
+
+    .vr-universe-grid{
+      display:grid !important;
+      grid-template-columns:1fr !important;
+      gap:clamp(10px, 2.8vw, 14px) !important;
+      width:100% !important;
+    }
+
+    .vr-card{
+      position:relative !important;
+      overflow:hidden !important;
+      width:100% !important;
+      min-height:clamp(52px, 12vw, 64px) !important;
+      height:clamp(52px, 12vw, 64px) !important;
+      border-radius:clamp(14px, 3.5vw, 18px) !important;
+      cursor:pointer !important;
+      border:0 !important;
+      outline:0 !important;
+      background:transparent !important;
+      box-shadow:none !important;
+      -webkit-tap-highlight-color: transparent !important;
+    }
+
+    .vr-card-bg{
+      position:absolute !important;
+      inset:0 !important;
+      background-size:cover !important;
+      background-position:center !important;
+      opacity:1 !important;
+      z-index:0 !important;
+    }
+
+    .vr-card::after{
+      content:"" !important;
+      position:absolute !important;
+      inset:0 !important;
+      background: rgba(0,0,0,.05) !important;
+      backdrop-filter: blur(2px) !important;
+      -webkit-backdrop-filter: blur(2px) !important;
+      pointer-events:none !important;
+      z-index:1 !important;
+    }
+
+    .vr-card::before{
+      content:"" !important;
+      position:absolute !important;
+      inset:0 !important;
+      border-radius:inherit !important;
+      border: 1px solid rgba(255,255,255,.08) !important;
+      pointer-events:none !important;
+      z-index:2 !important;
+    }
+
+    .vr-card-content{
+      position:relative !important;
+      z-index:3 !important;
+      height:100% !important;
+      display:flex !important;
+      align-items:center !important;
+    }
+
+    .vr-card-header-line{
+      width:100% !important;
+      display:flex !important;
+      align-items:center !important;
+      justify-content:space-between !important;
+      gap:clamp(8px, 2vw, 12px) !important;
+      padding:0 clamp(10px, 3vw, 14px) !important;
+      box-sizing:border-box !important;
+    }
+
+    .vr-card-title{
+      margin:0 !important;
+      color:#fff !important;
+      font-weight:900 !important;
+      font-size:clamp(13px, 3.7vw, 16px) !important;
+      letter-spacing:.2px !important;
+      line-height:1.1 !important;
+      text-shadow:0 2px 10px rgba(0,0,0,.65) !important;
+      min-width:0 !important;
+    }
+
+    .vr-info-btn{
+      width:clamp(32px, 8.5vw, 40px) !important;
+      height:clamp(32px, 8.5vw, 40px) !important;
+      border-radius:999px !important;
+      background:rgba(255,255,255,.10) !important;
+      border:1px solid rgba(255,255,255,.18) !important;
+      color:rgba(255,255,255,.95) !important;
+      font-weight:900 !important;
+      font-size:clamp(13px, 3.7vw, 16px) !important;
+      display:inline-flex !important;
+      align-items:center !important;
+      justify-content:center !important;
+      box-shadow:none !important;
+      user-select:none !important;
+      flex:0 0 auto !important;
+      cursor:pointer !important;
+      position:relative !important;
+      z-index:4 !important;
+      -webkit-tap-highlight-color: transparent !important;
+    }
+    .vr-info-btn:hover{ background:rgba(255,255,255,.14) !important; }
+    .vr-info-btn:active{ transform:scale(.96) !important; }
+
+    .vr-tooltip{
+      width: min(360px, calc(100vw - 32px)) !important;
+      max-width: 360px !important;
+      padding: 12px 14px !important;
+      font-size: 13px !important;
+      line-height: 1.35 !important;
+      border-radius: 14px !important;
+    }
+
+    @media (orientation: portrait) and (min-width: 600px) and (max-width: 1100px){
+      .vr-top-actions,
+      .vr-top-actions-4{
+        gap:22px !important;
+        padding: 18px 22px 14px !important;
+      }
+
+      .vr-icon-button{
+        width:58px !important;
+        height:58px !important;
+      }
+
+      .vr-icon-button img{
+        width:36px !important;
+        height:36px !important;
+      }
+
+      .vr-main{
+        padding-top:14px !important;
+        padding-left:22px !important;
+        padding-right:22px !important;
+      }
+
+      .vr-main-logo{
+        width:min(60vw, 400px) !important;
+        max-height:150px !important;
+      }
+
+      .vr-section-title{
+        font-size:24px !important;
+        margin:18px 0 14px !important;
+      }
+
+      .vr-universe-grid{
+        gap:18px !important;
+      }
+
+      .vr-card{
+        min-height:84px !important;
+        height:84px !important;
+        border-radius:22px !important;
+      }
+
+      .vr-card-header-line{
+        padding:0 20px !important;
+        gap:16px !important;
+      }
+
+      .vr-card-title{
+        font-size:clamp(18px, 2.4vw, 22px) !important;
+        line-height:1.08 !important;
+      }
+
+      .vr-info-btn{
+        width:44px !important;
+        height:44px !important;
+        font-size:17px !important;
+      }
+    }
+
+    @media (max-width: 520px){
+      .vr-main{
+        padding-top:8px !important;
+        padding-left:10px !important;
+        padding-right:10px !important;
+      }
+      .vr-icon-button{ width:38px !important; height:38px !important; }
+      .vr-icon-button img{ width:26px !important; height:26px !important; }
+
+      .vr-main-logo{
+        width: min(84vw, 340px) !important;
+        height: auto !important;
+        max-height: 110px !important;
+        display: block !important;
+        margin: 0 auto 12px auto !important;
+      }
+    }
+
+    #vr-username-popup{
+      position:fixed;
+      inset:0;
+      display:none;
+      align-items:center;
+      justify-content:center;
+      padding:18px;
+      z-index:9999;
+      background: rgba(0,0,0,.55);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+    #vr-username-popup .vr-username-inner{
+      width: min(520px, calc(100vw - 36px));
+      border-radius: 18px;
+      padding: 16px 16px 14px 16px;
+      background: rgba(12, 16, 32, 0.92);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 14px 40px rgba(0,0,0,.35);
+      color: #fff;
+    }
+    #vr-username-title{ margin:0 0 8px 0; font-weight:900; font-size:18px; }
+    #vr-username-desc{ margin:0 0 10px 0; opacity:.9; font-size:13px; line-height:1.35; }
+    #vr-username-rules{ margin:8px 0 0 0; opacity:.85; font-size:12px; line-height:1.35; }
+
+    #vr-username-row{ display:flex; gap:10px; align-items:center; }
+    #vr-username-input{
+      flex:1;
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.16);
+      background: rgba(0,0,0,.22);
+      color:#fff;
+      outline:none;
+      font-size:14px;
+    }
+    #vr-username-save{
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.18);
+      background: rgba(255,255,255,.12);
+      color:#fff;
+      font-weight:900;
+      cursor:pointer;
+      white-space:nowrap;
+    }
+    #vr-username-save:disabled{ opacity:.7; cursor:default; }
+    #vr-username-error{
+      margin-top:10px;
+      font-size:13px;
+      opacity:.95;
+      display:none;
+      color: rgba(255, 220, 220, 0.95);
+    }
+
+    .vr-card.vr-card-locked::after{
+      background: rgba(0,0,0,.22) !important;
+      backdrop-filter: blur(3px) !important;
+      -webkit-backdrop-filter: blur(3px) !important;
+    }
+    .vr-card.vr-card-locked .vr-card-bg{
+      filter: blur(1.2px) saturate(.92) !important;
+      transform: scale(1.02);
+    }
+
+    .vr-locked-overlay{
+      position:absolute;
+      inset:0;
+      z-index:6;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      pointer-events:none;
+      user-select:none;
+    }
+
+    .vr-locked-bubble{
+      width:44px;
+      height:44px;
+      border-radius:999px;
+      border: 1px solid rgba(255,255,255,0.28);
+      background: rgba(0,0,0,0.28);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.22);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .vr-locked-bubble svg{
+      width:24px;
+      height:24px;
+      display:block;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.65)) contrast(1.2) brightness(1.08);
+      opacity:.98;
+    }
+
+    #vr-universe-buy-popup{
+      position:fixed;
+      inset:0;
+      display:none;
+      align-items:center;
+      justify-content:center;
+      padding:18px;
+      z-index:10000;
+      background: rgba(0,0,0,.55);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    #vr-universe-buy-popup .vr-buy-inner{
+      width: min(520px, calc(100vw - 36px));
+      border-radius: 18px;
+      padding: 16px 16px 14px 16px;
+      background: rgba(12, 16, 32, 0.92);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 14px 40px rgba(0,0,0,.35);
+      color: #fff;
+    }
+
+    #vr-buy-title{
+      margin:0 0 8px 0;
+      font-weight:900;
+      font-size:18px;
+      line-height:1.15;
+      text-align:center;
+    }
+
+    #vr-buy-desc{
+      margin:0 0 12px 0;
+      opacity:.92;
+      font-size:13px;
+      line-height:1.35;
+      text-align:center;
+    }
+
+    #vr-buy-actions{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      margin-top:12px;
+    }
+
+    .vr-buy-btn{
+      width:100%;
+      min-height:54px;
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.18);
+      background: rgba(255,255,255,.12);
+      color:#fff;
+      font-weight:900;
+      cursor:pointer;
+      text-align:center;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .vr-buy-btn.primary{
+      background: rgba(122,167,255,.22);
+      border-color: rgba(122,167,255,.35);
+    }
+
+    .vr-buy-btn.ghost{
+      background: rgba(0,0,0,.18);
+      border-color: rgba(255,255,255,.16);
+      font-weight:800;
+      opacity:.95;
+    }
+
+    .vr-buy-btn:active{ transform: scale(.99); }
+
+    .vr-buy-btn-line{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      flex-wrap:wrap;
+      width:100%;
+      text-align:center;
+    }
+
+    .vr-buy-btn-icon{
+      width:18px;
+      height:18px;
+      object-fit:contain;
+      display:block;
+      flex:0 0 auto;
+    }
+
+    .vr-buy-inline-note{
+      opacity:.92;
+    }
+
+    #vr-buy-error{
+      margin-top:10px;
+      font-size:13px;
+      opacity:.95;
+      display:none;
+      color: rgba(255, 220, 220, 0.95);
+      text-align:center;
+    }
+
+    .vr-top-actions-4{
+      display:flex !important;
+      align-items:center !important;
+      justify-content:space-between !important;
+      gap:12px !important;
+      padding:10px 12px 8px !important;
+      width:100% !important;
+    }
+
+    .vr-top-slot-4{
+      flex:1 1 0 !important;
+      display:flex !important;
+      align-items:center !important;
+      justify-content:center !important;
+    }
+
+    #vr-update-banner{
+      position: fixed;
+      left: 16px;
+      right: 16px;
+      bottom: 16px;
+      z-index: 10030;
+      display: none;
+      border-radius: 18px;
+      padding: 14px 14px 12px 14px;
+      background: rgba(12, 16, 32, 0.94);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 14px 40px rgba(0,0,0,.35);
+      color: #fff;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    #vr-update-title{
+      margin:0 0 6px 0;
+      font-weight:900;
+      font-size:16px;
+      line-height:1.2;
+    }
+
+    #vr-update-body{
+      margin:0 0 12px 0;
+      opacity:.92;
+      font-size:13px;
+      line-height:1.35;
+    }
+
+    .vr-update-actions{
+      display:flex;
+      align-items:center;
+      justify-content:flex-end;
+      gap:10px;
+    }
+
+    .vr-update-btn{
+      min-height:44px;
+      padding:10px 14px;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.18);
+      background: rgba(255,255,255,.12);
+      color:#fff;
+      font-weight:900;
+      cursor:pointer;
+      text-align:center;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .vr-update-btn.primary{
+      background: rgba(122,167,255,.22);
+      border-color: rgba(122,167,255,.35);
+    }
+
+    .vr-update-btn.ghost{
+      background: rgba(0,0,0,.18);
+      border-color: rgba(255,255,255,.16);
+      opacity:.95;
+    }
+
+    .vr-update-btn:active{
+      transform: scale(.99);
+    }
+  </style>
+</head>
+
+<body class="vr-body">
+
+  <main class="vr-main">
+
+    <div class="vr-top-actions vr-top-actions-4">
+
+      <div class="vr-top-slot vr-top-slot-4">
+        <a class="vr-icon-button" href="profile.html" aria-label="" data-i18n-aria="ui.profile_title">
+          <img src="assets/img/ui/btn_profile.webp" alt="" draggable="false" />
+        </a>
+      </div>
+
+      <div class="vr-top-slot vr-top-slot-4">
+        <a class="vr-icon-button" href="settings.html" aria-label="" data-i18n-aria="ui.settings_title">
+          <img src="assets/img/ui/btn_settings.webp" alt="" draggable="false" />
+        </a>
+      </div>
+
+      <div class="vr-top-slot vr-top-slot-4">
+        <a class="vr-icon-button" href="shop.html" aria-label="" data-i18n-aria="ui.shop_title">
+          <img src="assets/img/ui/btn_shop.webp" alt="" draggable="false" />
+        </a>
+      </div>
+
+      <div class="vr-top-slot vr-top-slot-4">
+        <a class="vr-icon-button" href="cross-promo.html" aria-label="" data-i18n-aria="crosspromo.open_page_aria">
+          <img src="assets/img/ui/btn_crosspromo.webp" alt="" draggable="false" />
+        </a>
+      </div>
+
+    </div>
+
+    <section class="vr-intro">
+      <img
+        src="assets/img/ui/logo_vuniverse.webp"
+        alt=""
+        class="vr-main-logo"
+        draggable="false"
+      />
+    </section>
+
+    <section class="vr-universes">
+      <h2 class="vr-section-title" data-i18n="ui.choose_universe"></h2>
+
+      <div class="vr-universe-grid">
+        <button class="vr-card" data-universe="vampire_lord" type="button">
+          <div class="vr-card-bg" style="background-image:url('assets/img/ui/universes/vampire_lord.webp');"></div>
+          <div class="vr-card-content">
+            <div class="vr-card-header-line">
+              <h3 class="vr-card-title" data-i18n="universe.vampire_lord.title"></h3>
+              <span class="vr-info-btn" role="button" tabindex="0" data-i18n-tip="universe.vampire_lord.desc">?</span>
+            </div>
+          </div>
+        </button>
+
+        <button class="vr-card" data-universe="hell_king" type="button">
+          <div class="vr-card-bg" style="background-image:url('assets/img/ui/universes/hell_king.webp');"></div>
+          <div class="vr-card-content">
+            <div class="vr-card-header-line">
+              <h3 class="vr-card-title" data-i18n="universe.hell_king.title"></h3>
+              <span class="vr-info-btn" role="button" tabindex="0" data-i18n-tip="universe.hell_king.desc">?</span>
+            </div>
+          </div>
+        </button>
+
+        <button class="vr-card" data-universe="heaven_king" type="button">
+          <div class="vr-card-bg" style="background-image:url('assets/img/ui/universes/heaven_king.webp');"></div>
+          <div class="vr-card-content">
+            <div class="vr-card-header-line">
+              <h3 class="vr-card-title" data-i18n="universe.heaven_king.title"></h3>
+              <span class="vr-info-btn" role="button" tabindex="0" data-i18n-tip="universe.heaven_king.desc">?</span>
+            </div>
+          </div>
+        </button>
+
+        <button class="vr-card" data-universe="new_world_explorer" type="button">
+          <div class="vr-card-bg" style="background-image:url('assets/img/ui/universes/new_world_explorer.webp');"></div>
+          <div class="vr-card-content">
+            <div class="vr-card-header-line">
+              <h3 class="vr-card-title" data-i18n="universe.new_world_explorer.title"></h3>
+              <span class="vr-info-btn" role="button" tabindex="0" data-i18n-tip="universe.new_world_explorer.desc">?</span>
+            </div>
+          </div>
+        </button>
+
+        <button class="vr-card" data-universe="western_president" type="button">
+          <div class="vr-card-bg" style="background-image:url('assets/img/ui/universes/western_president.webp');"></div>
+          <div class="vr-card-content">
+            <div class="vr-card-header-line">
+              <h3 class="vr-card-title" data-i18n="universe.western_president.title"></h3>
+              <span class="vr-info-btn" role="button" tabindex="0" data-i18n-tip="universe.western_president.desc">?</span>
+            </div>
+          </div>
+        </button>
+
+        <button class="vr-card" data-universe="mega_corp_ceo" type="button">
+          <div class="vr-card-bg" style="background-image:url('assets/img/ui/universes/mega_corp_ceo.webp');"></div>
+          <div class="vr-card-content">
+            <div class="vr-card-header-line">
+              <h3 class="vr-card-title" data-i18n="universe.mega_corp_ceo.title"></h3>
+              <span class="vr-info-btn" role="button" tabindex="0" data-i18n-tip="universe.mega_corp_ceo.desc">?</span>
+            </div>
+          </div>
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="vr-footer">
+    <span class="vr-footer-text" data-i18n="ui.footer"></span>
+  </footer>
+
+  <div id="vr-tooltip" class="vr-tooltip"></div>
+
+  <div id="vr-username-popup" aria-hidden="true">
+    <div class="vr-username-inner">
+      <h2 id="vr-username-title"></h2>
+      <p id="vr-username-desc"></p>
+
+      <div id="vr-username-row">
+        <input id="vr-username-input" type="text" autocomplete="off" maxlength="20" />
+        <button id="vr-username-save" type="button"></button>
+      </div>
+
+      <div id="vr-username-rules"></div>
+      <div id="vr-username-error"></div>
+    </div>
+  </div>
+
+  <div id="vr-universe-buy-popup" aria-hidden="true">
+    <div class="vr-buy-inner" role="dialog" aria-modal="true" aria-labelledby="vr-buy-title">
+      <h2 id="vr-buy-title"></h2>
+      <p id="vr-buy-desc"></p>
+
+      <div id="vr-buy-actions">
+        <button id="vr-buy-pay" class="vr-buy-btn primary" type="button">
+          <span class="vr-buy-btn-line">
+            <span id="vr-buy-pay-prefix"></span>
+            <img
+              class="vr-buy-btn-icon"
+              src="assets/img/ui/vcoins.webp"
+              alt=""
+              aria-hidden="true"
+              draggable="false"
+            />
+            <span id="vr-buy-pay-price"></span>
+            <span id="vr-buy-pay-balance" class="vr-buy-inline-note"></span>
+          </span>
+        </button>
+
+        <button id="vr-buy-iap" class="vr-buy-btn primary" type="button"></button>
+        <button id="vr-buy-getcoins" class="vr-buy-btn ghost" type="button"></button>
+        <button id="vr-buy-cancel" class="vr-buy-btn" type="button"></button>
+      </div>
+
+      <div id="vr-buy-error"></div>
+    </div>
+  </div>
+
+  <div id="vr-update-banner" aria-hidden="true">
+    <h2 id="vr-update-title"></h2>
+    <p id="vr-update-body"></p>
+    <div class="vr-update-actions">
+      <button id="vr-update-later" class="vr-update-btn ghost" type="button"></button>
+      <button id="vr-update-now" class="vr-update-btn primary" type="button"></button>
+    </div>
+  </div>
+
+  <script src="js/supabase.min.js"></script>
+  <script src="js/supabaseBootstrap.js"></script>
+  <script src="js/analytics.js"></script>
+  <script src="js/userData.js"></script>
+  <script src="js/onesignal.js"></script>
+  <script src="js/ads.js"></script>
+  <script src="js/purchases.js"></script>
+  <script src="js/shop.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/crossPromo.js"></script>
+  <script src="js/referral.js"></script>
+
+  <script>
+    function _t(key, fallback, vars) {
+      let s = "";
+      try {
+        if (window.VRI18n && typeof window.VRI18n.t === "function") s = window.VRI18n.t(key) || "";
+        else if (typeof window.i18nGet === "function") s = window.i18nGet(key) || "";
+      } catch (_) {}
+
+      if (!s) s = (fallback || "");
+
+      if (vars && s) {
+        try {
+          Object.keys(vars).forEach((k) => {
+            s = s.split("{" + k + "}").join(String(vars[k]));
+          });
+        } catch (_) {}
+      }
+
+      return s || "";
+    }
+  </script>
+
+  <script>
+    (function () {
+      try {
+        const introDone = localStorage.getItem("vrealms_intro_done") === "1";
+        if (!introDone) {
+          localStorage.setItem("vrealms_universe", "intro");
+          window.location.replace("game.html?universe=intro");
+        }
+      } catch (_) {}
+    })();
+  </script>
+
+  <script>
+    (function () {
+      const K_PENDING = "vr_music_pending_index_prompt_v1";
+      const K_SHOWN = "vr_music_prompt_shown_v1";
+
+      function lsGet(key) {
+        try { return localStorage.getItem(key); } catch (_) { return null; }
+      }
+
+      function lsSet(key, value) {
+        try { localStorage.setItem(key, value); } catch (_) {}
+      }
+
+      function lsDel(key) {
+        try { localStorage.removeItem(key); } catch (_) {}
+      }
+
+      function hasExplicitMusicChoice() {
+        const v = lsGet("vrealms_music_enabled");
+        return v === "1" || v === "0";
+      }
+
+      function ensureMusicPromptStyle() {
+        if (document.getElementById("vr-music-prompt-style")) return;
+
+        const style = document.createElement("style");
+        style.id = "vr-music-prompt-style";
+        style.textContent = `
+          #vr-music-prompt-overlay{
+            position:fixed;
+            inset:0;
+            display:none;
+            align-items:center;
+            justify-content:center;
+            padding:16px;
+            z-index:260000;
+            background:rgba(8,12,22,.78);
+            backdrop-filter:blur(10px);
+            -webkit-backdrop-filter:blur(10px);
+          }
+          #vr-music-prompt-overlay.is-open{
+            display:flex;
+          }
+          #vr-music-prompt-overlay .vr-music-prompt-card{
+            width:min(430px, calc(100vw - 24px));
+            display:flex;
+            flex-direction:column;
+            gap:12px;
+            padding:18px;
+            border-radius:24px;
+            color:#fff;
+            text-align:center;
+            background:linear-gradient(180deg, rgba(18,25,43,.98), rgba(11,16,28,.98));
+            border:1px solid rgba(255,255,255,.12);
+            box-shadow:0 24px 55px rgba(0,0,0,.42);
+          }
+          #vr-music-prompt-overlay .vr-music-prompt-title{
+            margin:0;
+            font-size:clamp(21px, 5.4vw, 28px);
+            font-weight:950;
+            line-height:1.06;
+          }
+          #vr-music-prompt-overlay .vr-music-prompt-text{
+            margin:0;
+            font-size:clamp(14px, 3.8vw, 16px);
+            line-height:1.45;
+            color:rgba(255,255,255,.92);
+          }
+          #vr-music-prompt-overlay .vr-music-prompt-note{
+            margin:0;
+            font-size:clamp(12px, 3.2vw, 13px);
+            line-height:1.4;
+            color:rgba(255,255,255,.72);
+          }
+          #vr-music-prompt-overlay .vr-music-prompt-actions{
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:10px;
+            margin-top:4px;
+          }
+          #vr-music-prompt-overlay button{
+            min-height:48px;
+            border:none;
+            border-radius:16px;
+            font:900 15px/1.15 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+            cursor:pointer;
+          }
+          #vr-music-prompt-overlay .vr-music-prompt-off{
+            background:rgba(255,255,255,.08);
+            color:#fff;
+            border:1px solid rgba(255,255,255,.12);
+          }
+          #vr-music-prompt-overlay .vr-music-prompt-on{
+            background:#ffffff;
+            color:#0f172a;
+          }
+        `;
+        document.head.appendChild(style);
+      }
+
+      function ensureMusicPromptDom() {
+        let overlay = document.getElementById("vr-music-prompt-overlay");
+        if (overlay) return overlay;
+
+        ensureMusicPromptStyle();
+
+        overlay = document.createElement("div");
+        overlay.id = "vr-music-prompt-overlay";
+        overlay.setAttribute("aria-hidden", "true");
+        overlay.innerHTML = `
+          <div class="vr-music-prompt-card" role="dialog" aria-modal="true" aria-labelledby="vr-music-prompt-title">
+            <h3 class="vr-music-prompt-title" id="vr-music-prompt-title"></h3>
+            <p class="vr-music-prompt-text" id="vr-music-prompt-text"></p>
+            <p class="vr-music-prompt-note" id="vr-music-prompt-note"></p>
+            <div class="vr-music-prompt-actions">
+              <button type="button" class="vr-music-prompt-off" id="vr-music-prompt-off"></button>
+              <button type="button" class="vr-music-prompt-on" id="vr-music-prompt-on"></button>
+            </div>
+          </div>
+        `;
+
+        document.body.appendChild(overlay);
+        return overlay;
+      }
+
+      function applyMusicChoice(enabled) {
+        const on = !!enabled;
+
+        try { localStorage.setItem("vrealms_music_enabled", on ? "1" : "0"); } catch (_) {}
+        try { localStorage.setItem("vrealms_sfx_enabled", on ? "1" : "0"); } catch (_) {}
+
+        try {
+          window.VRAudio?.setMusicEnabled?.(on);
+        } catch (_) {}
+
+        try {
+          window.VRAudio?.setSfxEnabled?.(on);
+        } catch (_) {}
+
+        if (on) {
+          try { window.VRAudio?.startMenuBg?.(); } catch (_) {}
+        } else {
+          try { window.VRAudio?.stopBackground?.(); } catch (_) {}
+        }
+      }
+
+      async function maybeShowAfterRealGame() {
+        if (lsGet(K_SHOWN) === "1") {
+          lsDel(K_PENDING);
+          return false;
+        }
+
+        if (hasExplicitMusicChoice()) {
+          lsSet(K_SHOWN, "1");
+          lsDel(K_PENDING);
+          return false;
+        }
+
+        if (lsGet(K_PENDING) !== "1") return false;
+
+        const overlay = ensureMusicPromptDom();
+        const titleEl = document.getElementById("vr-music-prompt-title");
+        const textEl = document.getElementById("vr-music-prompt-text");
+        const noteEl = document.getElementById("vr-music-prompt-note");
+        const offBtn = document.getElementById("vr-music-prompt-off");
+        const onBtn = document.getElementById("vr-music-prompt-on");
+
+        if (!overlay || !offBtn || !onBtn) return false;
+
+        if (titleEl) titleEl.textContent = _t("ui.music_prompt.title", "Music");
+        if (textEl) textEl.textContent = _t("ui.music_prompt.text", "Do you want to enable background music?");
+        if (noteEl) noteEl.textContent = _t("ui.music_prompt.note", "You can always change this later in Settings.");
+        if (offBtn) offBtn.textContent = _t("ui.music_prompt.disable", "Not now");
+        if (onBtn) onBtn.textContent = _t("ui.music_prompt.enable", "Enable");
+
+        overlay.classList.add("is-open");
+        overlay.setAttribute("aria-hidden", "false");
+
+        return await new Promise((resolve) => {
+          const close = (enabled) => {
+            offBtn.onclick = null;
+            onBtn.onclick = null;
+
+            overlay.classList.remove("is-open");
+            overlay.setAttribute("aria-hidden", "true");
+
+            applyMusicChoice(enabled);
+            lsSet(K_SHOWN, "1");
+            lsDel(K_PENDING);
+
+            resolve(true);
+          };
+
+          offBtn.onclick = () => close(false);
+          onBtn.onclick = () => close(true);
+        });
+      }
+
+      window.VRIndexMusicPrompt = {
+        maybeShowAfterRealGame
+      };
+    })();
+  </script>
+
+  <script>
+  window.addEventListener("load", async function () {
+    try {
+      await window.VRI18n?.initI18n?.();
+    } catch (_) {}
+
+    try {
+      const introJustFinished = localStorage.getItem("vrealms_intro_just_finished") === "1";
+
+      if (introJustFinished) {
+        try {
+          await window.VRAds?.maybeShowGoogleConsentFormOnIndexAfterIntro?.();
+        } catch (_) {}
+
+        try {
+          localStorage.removeItem("vrealms_intro_just_finished");
+        } catch (_) {}
+      }
+
+      try {
+        await window.VROneSignal?.maybePromptNativeAfterAdmobOnIndex?.();
+      } catch (_) {}
+
+      try {
+        await window.VRIndexMusicPrompt?.maybeShowAfterRealGame?.();
+      } catch (_) {}
+    } catch (_) {}
+  });
+</script>
+
+  <script>
+    (function () {
+      const banner = document.getElementById("vr-update-banner");
+      const titleEl = document.getElementById("vr-update-title");
+      const bodyEl = document.getElementById("vr-update-body");
+      const btnLater = document.getElementById("vr-update-later");
+      const btnNow = document.getElementById("vr-update-now");
+
+      let cachedInfo = null;
+      let flexibleListenerBound = false;
+
+      function setTexts() {
+        if (titleEl) titleEl.textContent = _t("ui.update.title", "");
+        if (bodyEl) bodyEl.textContent = _t("ui.update.body", "");
+        if (btnLater) btnLater.textContent = _t("ui.update.later", "");
+        if (btnNow) btnNow.textContent = _t("ui.update.now", "");
+      }
+
+      function showBanner() {
+        if (!banner) return;
+        banner.style.display = "block";
+        banner.setAttribute("aria-hidden", "false");
+      }
+
+      function hideBanner() {
+        if (!banner) return;
+        banner.style.display = "none";
+        banner.setAttribute("aria-hidden", "true");
+      }
+
+      function isUpdateAvailable(info) {
+        const v = info?.updateAvailability;
+        return (
+          v === 2 ||
+          v === "2" ||
+          v === "UPDATE_AVAILABLE" ||
+          v === "update_available"
+        );
+      }
+
+      async function openStore() {
+        try {
+          const AppUpdate = window.Capacitor?.Plugins?.AppUpdate;
+          if (AppUpdate?.openAppStore) {
+            await AppUpdate.openAppStore();
+          }
+        } catch (_) {}
+      }
+
+      async function handleFlexibleState(state) {
+        try {
+          const status = String(state?.installStatus ?? "").toUpperCase();
+          if (
+            status === "DOWNLOADED" ||
+            status === "INSTALL_STATUS_DOWNLOADED" ||
+            status === "11"
+          ) {
+            const AppUpdate = window.Capacitor?.Plugins?.AppUpdate;
+            if (AppUpdate?.completeFlexibleUpdate) {
+              await AppUpdate.completeFlexibleUpdate();
+            }
+          }
+        } catch (_) {}
+      }
+
+      async function bindFlexibleListener() {
+        if (flexibleListenerBound) return;
+        flexibleListenerBound = true;
+
+        try {
+          const AppUpdate = window.Capacitor?.Plugins?.AppUpdate;
+          if (!AppUpdate?.addListener) return;
+
+          await AppUpdate.addListener("onFlexibleUpdateStateChange", (state) => {
+            void handleFlexibleState(state);
+          });
+        } catch (_) {}
+      }
+
+      async function handleUpdateNow() {
+        try {
+          const CapacitorObj = window.Capacitor;
+          const AppUpdate = CapacitorObj?.Plugins?.AppUpdate;
+          if (!AppUpdate) return;
+
+          const platform = CapacitorObj?.getPlatform?.() || "";
+
+          if (platform === "android") {
+            if (cachedInfo?.immediateUpdateAllowed && AppUpdate.performImmediateUpdate) {
+              await AppUpdate.performImmediateUpdate();
+              return;
+            }
+
+            if (cachedInfo?.flexibleUpdateAllowed && AppUpdate.startFlexibleUpdate) {
+              await bindFlexibleListener();
+              await AppUpdate.startFlexibleUpdate();
+              hideBanner();
+              return;
+            }
+          }
+
+          await openStore();
+        } catch (_) {
+          await openStore();
+        }
+      }
+
+      async function checkAppUpdate() {
+        if (window.__vrUpdateCheckStarted) return;
+        window.__vrUpdateCheckStarted = true;
+
+        try {
+          const AppUpdate = window.Capacitor?.Plugins?.AppUpdate;
+          if (!AppUpdate?.getAppUpdateInfo) return;
+
+          cachedInfo = await AppUpdate.getAppUpdateInfo();
+          if (!isUpdateAvailable(cachedInfo)) return;
+
+          setTexts();
+          showBanner();
+        } catch (_) {}
+      }
+
+      if (btnLater) {
+        btnLater.addEventListener("click", hideBanner);
+      }
+
+      if (btnNow) {
+        btnNow.addEventListener("click", () => {
+          void handleUpdateNow();
+        });
+      }
+
+      setTexts();
+
+      window.__vrRefreshUpdateBannerTexts = function () {
+        setTexts();
+      };
+
+      window.__vrCheckAppUpdate = checkAppUpdate;
+    })();
+  </script>
+
+  <script>
+    (function () {
+      const tooltip = document.getElementById("vr-tooltip");
+      if (!tooltip) return;
+
+      function hideTooltip() {
+        tooltip.classList.remove("vr-tooltip-visible");
+        tooltip.style.display = "none";
+      }
+
+      function showTooltip(el) {
+        const key = el.getAttribute("data-i18n-tip");
+        const tr = key ? _t(key, "") : "";
+        const text = tr || "?";
+
+        const rect = el.getBoundingClientRect();
+
+        tooltip.textContent = text;
+        tooltip.style.display = "block";
+
+        const vw = document.documentElement.clientWidth || window.innerWidth;
+        const vh = document.documentElement.clientHeight || window.innerHeight;
+
+        const tw = tooltip.offsetWidth || 0;
+        const th = tooltip.offsetHeight || 0;
+
+        const pad = 12;
+
+        const desiredCenter = rect.left + rect.width / 2;
+        const minCenter = pad + tw / 2;
+        const maxCenter = vw - pad - tw / 2;
+        const clampedCenter = Math.max(minCenter, Math.min(maxCenter, desiredCenter));
+
+        let top = rect.bottom + 8;
+        if (top + th > vh - pad) {
+          top = rect.top - 8 - th;
+        }
+        if (top < pad) top = pad;
+
+        tooltip.style.left = clampedCenter + "px";
+        tooltip.style.top = top + "px";
+        tooltip.classList.add("vr-tooltip-visible");
+      }
+
+      document.querySelectorAll(".vr-info-btn").forEach((el) => {
+        el.addEventListener("click", function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          showTooltip(el);
+        });
+
+        el.addEventListener("keydown", function (e) {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            e.stopPropagation();
+            showTooltip(el);
+          }
+        });
+      });
+
+      document.addEventListener("click", hideTooltip);
+      window.addEventListener("scroll", hideTooltip, { passive: true });
+      window.addEventListener("resize", hideTooltip);
+    })();
+  </script>
+
+  <script>
+    (function () {
+      const PRICE = 600;
+
+      const KEY_PREFIX = "vuniverse";
+      const LEGACY_PREFIX = "vrealms";
+      const IAP_TARGET_KEY = KEY_PREFIX + "_iap_unlock_target";
+      const IAP_TARGET_KEY_LEGACY = LEGACY_PREFIX + "_iap_unlock_target";
+      const UNIVERSE_SKU_PREFIX = "vuniverse_universe_";
+
+      function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (_) {} }
+      function lsGet(k) { try { return localStorage.getItem(k); } catch (_) { return null; } }
+      function lsDel(k) { try { localStorage.removeItem(k); } catch (_) {} }
+
+      function universeSku(universeId) {
+        return UNIVERSE_SKU_PREFIX + String(universeId || "").trim().toLowerCase();
+      }
+
+      function currentUniverseIapPrice(universeId) {
+        const sku = universeSku(universeId);
+        return String(window.VRIAP?.getPrice?.(sku) || "").trim();
+      }
+
+      function getUniverseStoreButtonLabel(universeId) {
+        const storePrice = currentUniverseIapPrice(universeId);
+        const prefix = _t("ui.universe_buy.unlock_store_prefix", "").trim();
+        const noPrice = _t("ui.universe_buy.unlock_store_no_price", "").trim();
+
+        if (storePrice) {
+          return prefix ? (prefix + " " + storePrice) : storePrice;
+        }
+
+        return noPrice || "";
+      }
+
+      async function getCurrentVCoins() {
+        try {
+          const me = await window.VRRemoteStore?.getMe?.();
+
+          if (me && typeof me === "object") {
+            const cur = window.VUserData?.load?.() || {};
+            window.VUserData?.save?.({
+              ...cur,
+              vcoins: Number(me.vcoins ?? cur.vcoins ?? 0) || 0,
+              jetons: Number(me.jetons ?? cur.jetons ?? 0) || 0
+            });
+
+            return Number(me.vcoins ?? 0) || 0;
+          }
+        } catch (_) {}
+
+        try {
+          if (window.VUserData && typeof window.VUserData.getVcoins === "function") {
+            return Number(window.VUserData.getVcoins() || 0) || 0;
+          }
+        } catch (_) {}
+
+        try {
+          const u = window.VUserData?.load?.() || {};
+          return Number(u.vcoins || 0) || 0;
+        } catch (_) {}
+
+        return 0;
+      }
+
+      function setUniverseToLaunch(universeId) {
+        lsSet(KEY_PREFIX + "_universe", universeId);
+        lsSet(LEGACY_PREFIX + "_universe", universeId);
+      }
+
+      function setShopFocusUniverse(universeId) {
+        lsSet(KEY_PREFIX + "_shop_focus_universe", universeId);
+        lsSet(LEGACY_PREFIX + "_shop_focus_universe", universeId);
+      }
+
+      function isUnlocked(id) {
+        try {
+          if (window.VUserData && typeof window.VUserData.isUniverseUnlocked === "function") {
+            return !!window.VUserData.isUniverseUnlocked(id);
+          }
+        } catch (_) {}
+
+        try {
+          const raw =
+            localStorage.getItem("vuniverse_user_data") ||
+            localStorage.getItem("vrealms_user_data");
+
+          if (raw) {
+            const data = JSON.parse(raw);
+            const list = Array.isArray(data?.unlocked_universes)
+              ? data.unlocked_universes
+              : [];
+            if (list.includes(id)) return true;
+          }
+        } catch (_) {}
+
+        return (id === "hell_king" || id === "vampire_lord");
+      }
+
+      const LOCK_SVG = `
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path fill="white" d="M17 9h-1V7a4 4 0 0 0-8 0v2H7a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Zm-7-2a2 2 0 1 1 4 0v2h-4V7Zm2 11a2 2 0 0 1-1-3.732V13a1 1 0 1 1 2 0v1.268A2 2 0 0 1 12 18Z"/>
+        </svg>
+      `;
+
+      function ensureLockedOverlay(card) {
+        let ov = card.querySelector(".vr-locked-overlay");
+        if (ov) return;
+
+        ov = document.createElement("div");
+        ov.className = "vr-locked-overlay";
+
+        const bubble = document.createElement("div");
+        bubble.className = "vr-locked-bubble";
+        bubble.innerHTML = LOCK_SVG;
+
+        ov.appendChild(bubble);
+        card.appendChild(ov);
+      }
+
+      function removeLockedOverlay(card) {
+        const ov = card.querySelector(".vr-locked-overlay");
+        if (ov) ov.remove();
+      }
+
+      function applyLocks() {
+        document.querySelectorAll(".vr-card[data-universe]").forEach((card) => {
+          const id = card.getAttribute("data-universe");
+          if (!id) return;
+
+          if (isUnlocked(id)) {
+            card.classList.remove("vr-card-locked");
+            removeLockedOverlay(card);
+            card.removeAttribute("aria-disabled");
+          } else {
+            card.classList.add("vr-card-locked");
+            ensureLockedOverlay(card);
+            card.setAttribute("aria-disabled", "true");
+          }
+        });
+      }
+
+      function launchUniverse(universeId) {
+        if (!universeId) return;
+        setUniverseToLaunch(universeId);
+        try { window.VRCrossPromo?.notifySessionStart?.(); } catch (_) {}
+        window.location.href = "game.html";
+      }
+
+      const buyPopup      = document.getElementById("vr-universe-buy-popup");
+      const buyTitle      = document.getElementById("vr-buy-title");
+      const buyDesc       = document.getElementById("vr-buy-desc");
+      const buyPay        = document.getElementById("vr-buy-pay");
+      const buyIap        = document.getElementById("vr-buy-iap");
+      const buyGet        = document.getElementById("vr-buy-getcoins");
+      const buyCancel     = document.getElementById("vr-buy-cancel");
+      const buyErr        = document.getElementById("vr-buy-error");
+      const buyPayPrefix  = document.getElementById("vr-buy-pay-prefix");
+      const buyPayPrice   = document.getElementById("vr-buy-pay-price");
+      const buyPayBalance = document.getElementById("vr-buy-pay-balance");
+
+      let pendingUniverseId = null;
+
+      function showBuyError(msg) {
+        if (!buyErr) return;
+        buyErr.textContent = msg || "";
+        buyErr.style.display = msg ? "block" : "none";
+      }
+
+      function closeBuyPopup() {
+        pendingUniverseId = null;
+        showBuyError("");
+        if (buyPopup) {
+          buyPopup.style.display = "none";
+          buyPopup.setAttribute("aria-hidden", "true");
+        }
+      }
+
+      async function refreshPopupTexts() {
+        if (!pendingUniverseId) return;
+
+        const balance = await getCurrentVCoins();
+
+        if (buyTitle) {
+          buyTitle.textContent = _t("universe." + pendingUniverseId + ".title", "");
+        }
+
+        if (buyDesc) {
+          const rawDesc = _t("ui.universe_buy.desc", "", { price: PRICE });
+          buyDesc.textContent = rawDesc
+            .replace(/l[’']acheter directement/gi, "le débloquer directement")
+            .replace(/\bacheter directement\b/gi, "débloquer directement");
+        }
+
+        if (buyPayPrefix) {
+          buyPayPrefix.textContent = _t("ui.universe_buy.pay_prefix", "");
+        }
+
+        if (buyPayPrice) {
+          buyPayPrice.textContent = String(PRICE);
+        }
+
+        if (buyPayBalance) {
+          buyPayBalance.textContent = _t(
+            "ui.universe_buy.pay_balance_inline",
+            "",
+            { balance: balance }
+          );
+        }
+
+        if (buyIap) {
+          buyIap.textContent = getUniverseStoreButtonLabel(pendingUniverseId);
+        }
+
+        if (buyGet) buyGet.textContent = _t("ui.universe_buy.open_shop", "");
+        if (buyCancel) buyCancel.textContent = _t("common.cancel", "");
+      }
+
+      async function openBuyPopup(universeId) {
+        pendingUniverseId = universeId;
+        await refreshPopupTexts();
+        showBuyError("");
+
+        if (buyPopup) {
+          buyPopup.style.display = "flex";
+          buyPopup.setAttribute("aria-hidden", "false");
+        }
+      }
+
+      async function tryUnlockWithVcoins(universeId) {
+        showBuyError("");
+
+        const balance = await getCurrentVCoins();
+        if (balance < PRICE) {
+          showBuyError(
+            _t(
+              "ui.universe_buy.err_unlock_insufficient",
+              "",
+              { balance: balance, price: PRICE }
+            )
+          );
+
+          try {
+            await window.VRCrossPromo?.showLowVcoinsPopupNow?.();
+          } catch (_) {}
+
+          return;
+        }
+
+        const res = await window.VUserData?.unlockUniverseWithVcoins?.(universeId, PRICE);
+        if (!res?.ok) {
+          if (String(res?.reason || "") === "insufficient_vcoins") {
+            showBuyError(
+              _t(
+                "ui.universe_buy.err_unlock_insufficient",
+                "",
+                { balance: Number(res?.balance || 0), price: PRICE }
+              )
+            );
+
+            try {
+              await window.VRCrossPromo?.showLowVcoinsPopupNow?.();
+            } catch (_) {}
+
+            return;
+          }
+
+          showBuyError(_t("ui.universe_buy.err_unlock", ""));
+          return;
+        }
+
+        await refreshPopupTexts();
+        applyLocks();
+        closeBuyPopup();
+        launchUniverse(universeId);
+      }
+
+      async function buyUniverseDirect(universeId) {
+        showBuyError("");
+
+        if (!window.VRIAP?.isAvailable?.()) {
+          showBuyError(_t("ui.universe_buy.err_app_only", ""));
+          return;
+        }
+
+        const sku = universeSku(universeId);
+        lsSet(IAP_TARGET_KEY, universeId);
+        lsSet(IAP_TARGET_KEY_LEGACY, universeId);
+
+        try {
+          if (typeof window.safeOrder === "function") {
+            await window.safeOrder(sku);
+          } else if (window.VRIAP?.order) {
+            await window.VRIAP.order(sku);
+          } else {
+            showBuyError(_t("ui.universe_buy.err_not_ready", ""));
+          }
+        } catch (_) {
+          showBuyError(_t("ui.universe_buy.err_buy_failed", ""));
+        }
+      }
+
+      if (buyPay) {
+        buyPay.addEventListener("click", () => {
+          if (pendingUniverseId) void tryUnlockWithVcoins(pendingUniverseId);
+        });
+      }
+
+      if (buyIap) {
+        buyIap.addEventListener("click", () => {
+          if (pendingUniverseId) void buyUniverseDirect(pendingUniverseId);
+        });
+      }
+
+      if (buyGet) {
+        buyGet.addEventListener("click", () => {
+          if (pendingUniverseId) setShopFocusUniverse(pendingUniverseId);
+          window.location.href = "shop.html";
+        });
+      }
+
+      if (buyCancel) buyCancel.addEventListener("click", closeBuyPopup);
+
+      if (buyPopup) {
+        buyPopup.addEventListener("click", (e) => {
+          if (e.target === buyPopup) closeBuyPopup();
+        });
+      }
+
+      window.addEventListener("vr:iap_price", () => {
+        try {
+          if (buyPopup && buyPopup.style.display === "flex") {
+            void refreshPopupTexts();
+          }
+        } catch (_) {}
+      });
+
+      window.addEventListener("vr:profile", () => {
+        try {
+          applyLocks();
+          if (buyPopup && buyPopup.style.display === "flex") {
+            void refreshPopupTexts();
+          }
+        } catch (_) {}
+      });
+
+      window.addEventListener("vr:iap_credited", async (ev) => {
+        try {
+          const d = ev?.detail || {};
+          const target = String(lsGet(IAP_TARGET_KEY) || lsGet(IAP_TARGET_KEY_LEGACY) || "");
+          if (!target) return;
+
+          const expectedSku = universeSku(target);
+          if (String(d.productId || "") !== expectedSku) return;
+
+          lsDel(IAP_TARGET_KEY);
+          lsDel(IAP_TARGET_KEY_LEGACY);
+
+          try { await window.VUserData?.refresh?.(); } catch (_) {}
+          try { await getCurrentVCoins(); } catch (_) {}
+
+          applyLocks();
+          closeBuyPopup();
+          launchUniverse(target);
+        } catch (_) {}
+      });
+
+      window.addEventListener("vr:iap_credit_failed", (ev) => {
+        try {
+          const d = ev?.detail || {};
+          const target = String(pendingUniverseId || lsGet(IAP_TARGET_KEY) || lsGet(IAP_TARGET_KEY_LEGACY) || "");
+          if (!target) return;
+
+          const expectedSku = universeSku(target);
+          if (String(d.productId || "") !== expectedSku) return;
+
+          showBuyError(_t("ui.universe_buy.err_buy_failed", ""));
+        } catch (_) {}
+      });
+
+      window.addEventListener("vr:iap_order_failed", (ev) => {
+        try {
+          const d = ev?.detail || {};
+          const target = String(pendingUniverseId || lsGet(IAP_TARGET_KEY) || lsGet(IAP_TARGET_KEY_LEGACY) || "");
+          if (!target) return;
+
+          const expectedSku = universeSku(target);
+          if (String(d.productId || "") !== expectedSku) return;
+
+          showBuyError(_t("ui.universe_buy.err_buy_failed", ""));
+        } catch (_) {}
+      });
+
+      document.querySelectorAll(".vr-card[data-universe]").forEach((card) => {
+        card.addEventListener("click", (e) => {
+          const id = card.getAttribute("data-universe");
+          if (!id) return;
+
+          if (isUnlocked(id)) {
+            launchUniverse(id);
+          } else {
+            e.preventDefault();
+            void openBuyPopup(id);
+          }
+        });
+      });
+
+      window.__vrIndexInitPromise = window.__vrIndexInitPromise || null;
+      try {
+        if (!window.__vrIndexInitPromise) {
+          window.__vrIndexInitPromise = window.VUserData?.init?.() || null;
+        }
+      } catch (_) {}
+
+      applyLocks();
+
+      (async function refreshLater(){
+        try { await window.__vrIndexInitPromise; } catch (_) {}
+        try { await getCurrentVCoins(); } catch (_) {}
+        try { applyLocks(); } catch (_) {}
+      })();
+
+    })();
+  </script>
+
+  <script src="js/audio.js"></script>
+  <script>
+    window.VRAudio?.startMenuBg?.();
+  </script>
+
+  <script>
+    (function () {
+      const popup = document.getElementById("vr-username-popup");
+      const titleEl = document.getElementById("vr-username-title");
+      const descEl = document.getElementById("vr-username-desc");
+      const rulesEl = document.getElementById("vr-username-rules");
+      const inputEl = document.getElementById("vr-username-input");
+      const btnEl = document.getElementById("vr-username-save");
+      const errEl = document.getElementById("vr-username-error");
+
+      function showError(msg) {
+        if (!errEl) return;
+        errEl.textContent = msg || "";
+        errEl.style.display = msg ? "block" : "none";
+      }
+
+      function openPopup() {
+        if (!popup) return;
+
+        if (titleEl) titleEl.textContent = _t("auth.username.title", "");
+        if (descEl)  descEl.textContent  = _t("auth.username.subtitle", "");
+        if (inputEl) inputEl.placeholder = _t("auth.username.placeholder", "");
+        if (btnEl)   btnEl.textContent   = _t("auth.username.cta", "");
+        if (rulesEl) rulesEl.textContent = _t("auth.username.rules", "");
+
+        showError("");
+
+        popup.style.display = "flex";
+        popup.setAttribute("aria-hidden", "false");
+        setTimeout(() => { try { inputEl.focus(); } catch (_) {} }, 50);
+      }
+
+      async function submit() {
+        const name = (inputEl?.value || "").trim();
+        showError("");
+
+        if (btnEl) btnEl.disabled = true;
+
+        try {
+          const res = await window.VUserData?.setUsername?.(name);
+
+          if (res?.ok) {
+            popup.style.display = "none";
+            popup.setAttribute("aria-hidden", "true");
+            return;
+          }
+
+          if (res?.reason === "taken") {
+            showError(_t("auth.username.errors.taken", ""));
+          } else if (res?.reason === "invalid") {
+            showError(_t("auth.username.errors.chars", ""));
+          } else if (res?.reason === "length") {
+            showError(_t("auth.username.errors.length", ""));
+          } else {
+            showError(_t("auth.username.errors.generic", ""));
+          }
+        } catch (_) {
+          showError(_t("auth.username.errors.generic", ""));
+        } finally {
+          if (btnEl) btnEl.disabled = false;
+        }
+      }
+
+      if (btnEl) btnEl.addEventListener("click", submit);
+      if (inputEl) {
+        inputEl.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") submit();
+        });
+      }
+
+      (async function boot() {
+        try { await window.bootstrapAuthAndProfile?.(); } catch (_) {}
+
+        try {
+          window.__vrIndexInitPromise = window.__vrIndexInitPromise || window.VUserData?.init?.() || null;
+          await window.__vrIndexInitPromise;
+        } catch (_) {}
+
+        try {
+          if (window.VRI18n && typeof window.VRI18n.initI18n === "function") {
+            await window.VRI18n.initI18n();
+          }
+        } catch (_) {}
+
+        try { window.__vrRefreshUpdateBannerTexts?.(); } catch (_) {}
+        try { await window.__vrCheckAppUpdate?.(); } catch (_) {}
+
+        try {
+          const u = window.VUserData?.load?.() || {};
+          if (!((u.username || "").toString().trim())) openPopup();
+        } catch (_) {
+          openPopup();
+        }
+      })();
+    })();
+  </script>
+
+  <script>
+  (function () {
+    "use strict";
+
+    let vrAdminPopupOpen = false;
+    let vrAdminPopupBooted = false;
+    let vrAdminPopupCurrent = null;
+
+    function vrAdminNormalizeLang(code) {
+      const s = String(code || "").trim().toLowerCase();
+      if (!s) return "en";
+      if (s === "jp") return "ja";
+      if (s === "pt-br" || s === "ptbr") return "ptbr";
+      if (s === "pt-pt") return "pt";
+      return s;
+    }
+
+    function vrAdminGetLang() {
+      try {
+        const l = window.VRI18n?.getLang?.();
+        if (l) return vrAdminNormalizeLang(l);
+      } catch (_) {}
+
+      try {
+        const u = window.VUserData?.load?.();
+        if (u?.lang) return vrAdminNormalizeLang(u.lang);
+      } catch (_) {}
+
+      return "en";
+    }
+
+    function vrAdminPickLocalized(value) {
+      if (!value) return "";
+
+      if (typeof value === "string") {
+        return value.trim();
+      }
+
+      if (typeof value !== "object" || Array.isArray(value)) {
+        return "";
+      }
+
+      const lang = vrAdminGetLang();
+
+      return String(
+        value[lang] ??
+        value.en ??
+        value.fr ??
+        value.de ??
+        value.es ??
+        value.it ??
+        value.pt ??
+        value.ptbr ??
+        value.ko ??
+        value.ja ??
+        value.jp ??
+        value.id ??
+        ""
+      ).trim();
+    }
+
+    function vrAdminLooksLikeLangMap(obj) {
+      if (!obj || typeof obj !== "object" || Array.isArray(obj)) return false;
+      const keys = Object.keys(obj).map(k => vrAdminNormalizeLang(k));
+      const known = ["fr", "en", "de", "es", "it", "pt", "ptbr", "ko", "ja", "id"];
+      return keys.some(k => known.includes(k));
+    }
+
+    function vrAdminNormalizePayload(raw) {
+      if (!raw) return null;
+
+      if (typeof raw === "string") {
+        return {
+          title: {},
+          body: raw,
+          cta: {}
+        };
+      }
+
+      if (typeof raw !== "object" || Array.isArray(raw)) {
+        return null;
+      }
+
+      if ("title" in raw || "body" in raw || "cta" in raw) {
+        return {
+          title: raw.title || {},
+          body: raw.body || raw.message || "",
+          cta: raw.cta || {}
+        };
+      }
+
+      if (vrAdminLooksLikeLangMap(raw)) {
+        return {
+          title: {},
+          body: raw,
+          cta: {}
+        };
+      }
+
+      return null;
+    }
+
+    function vrAdminT(key, fallback) {
+      try {
+        const out = window.VRI18n?.t?.(key);
+        if (out && out !== key) return out;
+      } catch (_) {}
+      return fallback || "";
+    }
+
+    function vrAdminEnsureStyles() {
+      if (document.getElementById("vr-admin-popup-style")) return;
+
+      const style = document.createElement("style");
+      style.id = "vr-admin-popup-style";
+      style.textContent = `
+        #vr-admin-popup-overlay{
+          position:fixed;
+          inset:0;
+          display:none;
+          align-items:center;
+          justify-content:center;
+          padding:16px;
+          background:rgba(0,0,0,.62);
+          z-index:290000;
+        }
+        #vr-admin-popup-overlay.is-open{
+          display:flex;
+        }
+        #vr-admin-popup-card{
+          width:min(460px, calc(100vw - 24px));
+          max-height:82vh;
+          overflow:auto;
+          border-radius:22px;
+          padding:18px;
+          background:linear-gradient(180deg, rgba(17,24,39,.98), rgba(15,23,42,.98));
+          color:#fff;
+          border:1px solid rgba(255,255,255,.12);
+          box-shadow:0 24px 60px rgba(0,0,0,.45);
+        }
+        #vr-admin-popup-title{
+          margin:0 0 10px 0;
+          font-size:clamp(20px, 5vw, 28px);
+          line-height:1.12;
+          font-weight:900;
+        }
+        #vr-admin-popup-body{
+          margin:0;
+          white-space:pre-wrap;
+          font-size:clamp(14px, 3.8vw, 16px);
+          line-height:1.5;
+          color:rgba(255,255,255,.92);
+        }
+        #vr-admin-popup-actions{
+          margin-top:16px;
+          display:grid;
+          grid-template-columns:1fr;
+          gap:10px;
+        }
+        #vr-admin-popup-close{
+          min-height:48px;
+          border:none;
+          border-radius:14px;
+          cursor:pointer;
+          font:800 15px/1.2 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+          background:#fff;
+          color:#0f172a;
+        }
+      `;
+      document.head.appendChild(style);
+    }
+
+    function vrAdminEnsureDom() {
+      let overlay = document.getElementById("vr-admin-popup-overlay");
+      if (overlay) return overlay;
+
+      vrAdminEnsureStyles();
+
+      overlay = document.createElement("div");
+      overlay.id = "vr-admin-popup-overlay";
+      overlay.setAttribute("aria-hidden", "true");
+      overlay.innerHTML = `
+        <div id="vr-admin-popup-card" role="dialog" aria-modal="true" aria-labelledby="vr-admin-popup-title">
+          <h3 id="vr-admin-popup-title"></h3>
+          <p id="vr-admin-popup-body"></p>
+          <div id="vr-admin-popup-actions">
+            <button type="button" id="vr-admin-popup-close"></button>
+          </div>
+        </div>
+      `;
+
+      document.body.appendChild(overlay);
+
+      overlay.addEventListener("click", (e) => {
+        if (e.target === overlay) {
+          void vrAdminClosePopup();
+        }
+      });
+
+      const closeBtn = document.getElementById("vr-admin-popup-close");
+      if (closeBtn) {
+        closeBtn.addEventListener("click", () => void vrAdminClosePopup());
+      }
+
+      return overlay;
+    }
+
+    function vrAdminUsernamePopupOpen() {
+      const p = document.getElementById("vr-username-popup");
+      if (!p) return false;
+      return p.getAttribute("aria-hidden") === "false" || p.style.display === "flex";
+    }
+
+    async function vrAdminGetUid() {
+      try {
+        const local = window.VUserData?.load?.();
+        if (local?.user_id) return String(local.user_id);
+      } catch (_) {}
+
+      try {
+        const uid = window.VUserData?.getUserId?.();
+        if (uid) return String(uid);
+      } catch (_) {}
+
+      try {
+        const boot = await window.bootstrapAuthAndProfile?.();
+        if (boot?.id) return String(boot.id);
+      } catch (_) {}
+
+      return null;
+    }
+
+    async function vrAdminFetchRow() {
+      const sb = window.sb;
+      if (!sb || typeof sb.from !== "function") return null;
+
+      const uid = await vrAdminGetUid();
+      if (!uid) return null;
+
+      const r = await sb
+        .from("admin_user_popups")
+        .select("id,user_id,payload,sent_at,shown_at,read_at,is_active")
+        .eq("user_id", uid)
+        .eq("is_active", true)
+        .is("read_at", null)
+        .order("sent_at", { ascending: false })
+        .limit(1)
+        .maybeSingle();
+
+      if (r?.error || !r?.data || !r.data.payload) return null;
+
+      return {
+        id: r.data.id,
+        admin_popup_payload: r.data.payload,
+        admin_popup_sent_at: r.data.sent_at,
+        admin_popup_shown_at: r.data.shown_at,
+        admin_popup_read_at: r.data.read_at
+      };
+    }
+
+    async function vrAdminMarkShown() {
+      const sb = window.sb;
+      if (!sb || typeof sb.from !== "function") return false;
+
+      const popupId = vrAdminPopupCurrent?.id;
+      if (!popupId) return false;
+
+      const now = new Date().toISOString();
+
+      try {
+        await sb
+          .from("admin_user_popups")
+          .update({
+            shown_at: now
+          })
+          .eq("id", popupId)
+          .is("shown_at", null);
+
+        if (vrAdminPopupCurrent && !vrAdminPopupCurrent.admin_popup_shown_at) {
+          vrAdminPopupCurrent.admin_popup_shown_at = now;
+        }
+
+        return true;
+      } catch (_) {
+        return false;
+      }
+    }
+
+    async function vrAdminMarkRead() {
+      const sb = window.sb;
+      if (!sb || typeof sb.from !== "function") return false;
+
+      const popupId = vrAdminPopupCurrent?.id;
+      if (!popupId) return false;
+
+      const now = new Date().toISOString();
+      const shownAt = vrAdminPopupCurrent?.admin_popup_shown_at || now;
+
+      try {
+        await sb
+          .from("admin_user_popups")
+          .update({
+            shown_at: shownAt,
+            read_at: now,
+            is_active: false
+          })
+          .eq("id", popupId);
+
+        if (vrAdminPopupCurrent) {
+          vrAdminPopupCurrent.admin_popup_shown_at = shownAt;
+          vrAdminPopupCurrent.admin_popup_read_at = now;
+        }
+
+        return true;
+      } catch (_) {
+        return false;
+      }
+    }
+
+    function vrAdminRenderPopup(row) {
+      const payload = vrAdminNormalizePayload(row?.admin_popup_payload);
+      if (!payload) return false;
+
+      const overlay = vrAdminEnsureDom();
+      const titleEl = document.getElementById("vr-admin-popup-title");
+      const bodyEl = document.getElementById("vr-admin-popup-body");
+      const closeBtn = document.getElementById("vr-admin-popup-close");
+
+      const title = vrAdminPickLocalized(payload.title) || vrAdminT("common.information", "Information");
+      const body = vrAdminPickLocalized(payload.body);
+      const cta = vrAdminPickLocalized(payload.cta) || vrAdminT("common.close", "OK");
+
+      if (!body) return false;
+
+      titleEl.textContent = title;
+      bodyEl.textContent = body;
+      closeBtn.textContent = cta;
+
+      overlay.classList.add("is-open");
+      overlay.setAttribute("aria-hidden", "false");
+      vrAdminPopupOpen = true;
+      return true;
+    }
+
+    async function vrAdminClosePopup() {
+      if (!vrAdminPopupOpen) return;
+
+      const overlay = document.getElementById("vr-admin-popup-overlay");
+      if (overlay) {
+        overlay.classList.remove("is-open");
+        overlay.setAttribute("aria-hidden", "true");
+      }
+
+      vrAdminPopupOpen = false;
+      await vrAdminMarkRead();
+      vrAdminPopupCurrent = null;
+    }
+
+    async function vrAdminMaybeShowPopup() {
+      if (vrAdminPopupOpen) return;
+      if (vrAdminUsernamePopupOpen()) return;
+
+      let row = null;
+      try {
+        row = await vrAdminFetchRow();
+      } catch (e) {
+        console.warn("[vrAdminPopup] fetch error:", e?.message || e);
+        return;
+      }
+
+      if (!row) return;
+
+      vrAdminPopupCurrent = row;
+
+      const ok = vrAdminRenderPopup(row);
+      if (!ok) return;
+
+      await vrAdminMarkShown();
+    }
+
+    async function vrAdminBoot() {
+      if (vrAdminPopupBooted) return;
+      vrAdminPopupBooted = true;
+
+      try { await window.bootstrapAuthAndProfile?.(); } catch (_) {}
+      try {
+        window.__vrIndexInitPromise = window.__vrIndexInitPromise || window.VUserData?.init?.() || null;
+        await window.__vrIndexInitPromise;
+      } catch (_) {}
+      try { await window.VRI18n?.initI18n?.(); } catch (_) {}
+
+      vrAdminEnsureDom();
+
+      document.addEventListener("visibilitychange", () => {
+        if (!document.hidden) {
+          void vrAdminMaybeShowPopup();
+        }
+      });
+
+      window.addEventListener("vr:profile", () => {
+        void vrAdminMaybeShowPopup();
+      });
+
+      await vrAdminMaybeShowPopup();
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", () => void vrAdminBoot(), { once: true });
+    } else {
+      void vrAdminBoot();
+    }
+
+    window.VRAdminPopup = {
+      refresh: vrAdminMaybeShowPopup,
+      close: vrAdminClosePopup
+    };
+  })();
+  </script>
+
+</body>
+</html>

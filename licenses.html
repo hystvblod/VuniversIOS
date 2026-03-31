@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    :root{
+      --vr-bg: radial-gradient(circle at top, #f6e7cf 0, #1b6688 62%, #03279e 100%);
+      --vr-overlay: none;
+    }
+
+    body.vr-body.page-licenses{
+      overflow-x:hidden;
+    }
+
+    .vr-header{
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+
+    .vr-top-actions{
+      width:100%;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      padding: calc(10px + env(safe-area-inset-top)) 12px 8px;
+    }
+
+    .vr-top-slot{
+      flex:1 1 0;
+      display:flex;
+      align-items:center;
+    }
+
+    .vr-top-left{ justify-content:flex-start; }
+    .vr-top-center{ justify-content:center; }
+    .vr-top-right{ justify-content:flex-end; }
+
+    .vr-icon-button{
+      width:44px;
+      height:44px;
+      border-radius:999px;
+      border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(0,0,0,0.26);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.22);
+      padding:0;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      cursor:pointer;
+      text-decoration:none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .vr-icon-button:active{ transform: scale(.98); }
+
+    .vr-icon-button img{
+      width:30px;
+      height:30px;
+      object-fit:contain;
+      display:block;
+      pointer-events:none;
+      user-select:none;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.65)) contrast(1.15) brightness(1.08);
+    }
+
+    .vr-back-ico{
+      width:24px;
+      height:24px;
+      display:block;
+      opacity:.98;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.65));
+    }
+
+    .vr-main{
+      padding-left: calc(16px + env(safe-area-inset-left));
+      padding-right: calc(16px + env(safe-area-inset-right));
+      padding-bottom: calc(18px + env(safe-area-inset-bottom));
+    }
+
+    .vr-section-headCentered{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      gap:6px;
+      padding-top:2px;
+      margin-bottom:8px;
+    }
+
+    .vr-section-headCentered .vr-section-title{
+      margin:0;
+      text-align:center;
+      width:100%;
+    }
+
+    .vr-section-subtitle{
+      margin:14px 0 0 0;
+      text-align:center;
+      max-width:520px;
+      font-size:13px;
+      line-height:1.35;
+      opacity:.86;
+    }
+
+    .vr-licenseList{
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      margin-top:18px;
+    }
+
+    .vr-licenseItem{
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.10);
+      background:rgba(255,255,255,.04);
+      overflow:hidden;
+      box-shadow:0 10px 20px rgba(0,0,0,.14);
+      padding:14px;
+    }
+
+    .vr-licenseItem h2{
+      margin:0;
+      font-size:18px;
+      line-height:1.2;
+    }
+
+    .vr-licenseMeta{
+      margin:8px 0 0;
+      font-size:12px;
+      line-height:1.45;
+      opacity:.82;
+      white-space:pre-line;
+    }
+
+    .vr-licensePre{
+      margin:12px 0 0;
+      white-space:pre-wrap;
+      word-break:break-word;
+      font-size:12px;
+      line-height:1.45;
+      max-height:none;
+      overflow:visible;
+      border-radius:12px;
+      background:rgba(6, 22, 59, .42);
+      border:1px solid rgba(255,255,255,.08);
+      padding:12px;
+    }
+
+    .vr-licenseStatus{
+      margin-top:18px;
+      font-size:13px;
+      line-height:1.45;
+      text-align:center;
+      opacity:.86;
+    }
+  </style>
+</head>
+<body class="vr-body page-licenses">
+  <header class="vr-header">
+    <div class="vr-top-actions">
+      <div class="vr-top-slot vr-top-left">
+        <a id="btnBackSettings" class="vr-icon-button" href="settings.html" aria-label="">
+          <svg class="vr-back-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="white" d="M15.5 5.5a1 1 0 0 1 0 1.4L10.4 12l5.1 5.1a1 1 0 1 1-1.4 1.4l-5.8-5.8a1.2 1.2 0 0 1 0-1.4l5.8-5.8a1 1 0 0 1 1.4 0z"/>
+          </svg>
+        </a>
+      </div>
+      <div class="vr-top-slot vr-top-center"></div>
+      <div class="vr-top-slot vr-top-right">
+        <a id="btnGoProfile" class="vr-icon-button" href="profile.html" aria-label="">
+          <img src="assets/img/ui/btn_profile.webp" alt="" draggable="false" />
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="vr-overlay"></div>
+
+  <main class="vr-main">
+    <section class="vr-view vr-view-active">
+      <div class="vr-section-headCentered">
+        <h1 id="licensesTitle" class="vr-section-title"></h1>
+      </div>
+
+      <div class="vr-profile-grid">
+        <div class="vr-profile-card">
+          <div id="licensesStatus" class="vr-licenseStatus"></div>
+          <div id="licensesList" class="vr-licenseList"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/supabase.min.js"></script>
+  <script src="js/supabaseBootstrap.js"></script>
+  <script src="js/analytics.js"></script>
+  <script src="js/userData.js"></script>
+  <script src="js/onesignal.js"></script>
+  <script src="js/i18n.js"></script>
+
+  <script>
+  (async () => {
+    "use strict";
+
+    function $(id){
+      return document.getElementById(id);
+    }
+
+    function t(key){
+      try{
+        if(window.VRI18n && typeof window.VRI18n.t === "function"){
+          return window.VRI18n.t(key) || "";
+        }
+      }catch(_){ }
+      return "";
+    }
+
+    let licensesJsonCache = null;
+
+    async function loadLicensesJson(){
+      if(licensesJsonCache) return licensesJsonCache;
+      const res = await fetch("assets/licenses/licences.json", { cache:"no-cache" });
+      if(!res.ok) throw new Error(`licenses fetch failed: ${res.status}`);
+      licensesJsonCache = await res.json();
+      return licensesJsonCache;
+    }
+
+    function renderTexts(){
+      const title = $("licensesTitle");
+      const back = $("btnBackSettings");
+      const profile = $("btnGoProfile");
+
+      if(title) title.textContent = t("ui.settings_licenses_label");
+      if(t("ui.settings_licenses_label")) document.title = t("ui.settings_licenses_label");
+      if(back) back.setAttribute("aria-label", t("ui.faq_back_settings_aria"));
+      if(profile) profile.setAttribute("aria-label", t("ui.settings_open_profile_aria"));
+    }
+
+    function renderLicenses(items){
+      const host = $("licensesList");
+      const status = $("licensesStatus");
+      if(!host || !status) return;
+
+      host.innerHTML = "";
+      status.textContent = "";
+
+      items.forEach((license) => {
+        const card = document.createElement("article");
+        card.className = "vr-licenseItem";
+
+        const heading = document.createElement("h2");
+        heading.textContent = license.title || license.file || "License";
+
+        const meta = document.createElement("p");
+        meta.className = "vr-licenseMeta";
+        meta.textContent = license.copyright || license.file || "";
+
+        const body = document.createElement("pre");
+        body.className = "vr-licensePre";
+        body.textContent = license.text || "";
+
+        card.appendChild(heading);
+        if(meta.textContent) card.appendChild(meta);
+        card.appendChild(body);
+        host.appendChild(card);
+      });
+
+      if(!items.length){
+        status.textContent = "No licenses found.";
+      }
+    }
+
+    async function initLicenses(){
+      const status = $("licensesStatus");
+      if(status) status.textContent = "...";
+
+      try{
+        const data = await loadLicensesJson();
+        renderLicenses(Array.isArray(data?.licenses) ? data.licenses : []);
+      }catch(err){
+        if(status) status.textContent = String(err && err.message ? err.message : err || "Unable to load licenses.");
+      }
+    }
+
+    try{ await window.bootstrapAuthAndProfile?.(); }catch(_){ }
+    try{ await window.VUserData?.init?.(); }catch(_){ }
+    try{ await window.VRI18n?.initI18n?.(); }catch(_){ }
+
+    renderTexts();
+    await initLicenses();
+  })();
+  </script>
+</body>
+</html>

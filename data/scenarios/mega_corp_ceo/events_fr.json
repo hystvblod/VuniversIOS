@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "events": {
+    "mega_corp_ceo_ev_001": {
+      "title": "Note des analystes",
+      "body": "Une grande banque publie une note très positive. Les courbes montent et les fonds sourient.",
+      "effect": "Investisseurs : +5 par carte",
+      "duration": "Durée : 5 cartes"
+    },
+    "mega_corp_ceo_ev_002": {
+      "title": "Semaine des équipes",
+      "body": "Les managers remercient publiquement les équipes. L’ambiance gagne enfin un peu d’air.",
+      "effect": "Employés : +5 par carte",
+      "duration": "Durée : 6 cartes"
+    },
+    "mega_corp_ceo_ev_003": {
+      "title": "Contrôle surprise",
+      "body": "Un dossier remonte au mauvais bureau. Les autorités commencent à regarder de plus près.",
+      "effect": "Régulateurs : -5 par carte",
+      "duration": "Durée : 4 cartes"
+    },
+    "mega_corp_ceo_ev_004": {
+      "title": "Campagne réussie",
+      "body": "La nouvelle campagne plaît. Même les critiques ont du mal à trouver quoi attaquer.",
+      "effect": "Image de marque : +5 par carte",
+      "duration": "Durée : 5 cartes"
+    },
+    "mega_corp_ceo_ev_005": {
+      "title": "Trimestre décevant",
+      "body": "Les résultats tombent un peu trop bas. Les investisseurs deviennent soudain très créatifs dans leurs inquiétudes.",
+      "effect": "Investisseurs : -5 par carte",
+      "duration": "Durée : 6 cartes"
+    },
+    "mega_corp_ceo_ev_006": {
+      "title": "Procédure validée",
+      "body": "Un audit se termine sans drame. Pour une fois, tout était au bon endroit.",
+      "effect": "Régulateurs : +5 par carte",
+      "duration": "Durée : 4 cartes"
+    },
+    "mega_corp_ceo_ev_007": {
+      "title": "Turnover silencieux",
+      "body": "Les départs s’enchaînent sans bruit. C’est discret, donc encore plus inquiétant.",
+      "effect": "Employés : -5 par carte",
+      "duration": "Durée : 7 cartes"
+    },
+    "mega_corp_ceo_ev_008": {
+      "title": "Bad buzz léger",
+      "body": "Une petite polémique enfle en ligne. Pas énorme, mais assez pour coller quelques jours.",
+      "effect": "Image de marque : -5 par carte",
+      "duration": "Durée : 5 cartes"
+    },
+    "mega_corp_ceo_ev_009": {
+      "title": "Audit exemplaire",
+      "body": "Les contrôleurs repartent presque détendus. C’est rare, donc tout le monde le remarque.",
+      "effect": "Régulateurs : +5 par carte",
+      "duration": "Durée : 4 cartes"
+    },
+    "mega_corp_ceo_ev_010": {
+      "title": "Bonus d’équipe",
+      "body": "Un geste concret tombe au bon moment. Les couloirs respirent un peu mieux.",
+      "effect": "Employés : +5 par carte",
+      "duration": "Durée : 6 cartes"
+    },
+
+    "mega_corp_ceo_ev_011": {
+      "title": "Article cassant",
+      "body": "Un média publie un portrait froid de ton groupe. La formule fait mal, donc elle tourne partout.",
+      "effect": "Image de marque : -5 par carte",
+      "duration": "Durée : 3 cartes"
+    },
+    "mega_corp_ceo_ev_012": {
+      "title": "Interview virale",
+      "body": "Une prise de parole passe étonnamment bien. Les extraits circulent dans le bon sens.",
+      "effect": "Image de marque : +5 par carte",
+      "duration": "Durée : 7 cartes"
+    },
+    "mega_corp_ceo_ev_013": {
+      "title": "Prévisions revues",
+      "body": "Les objectifs sont corrigés à la baisse. Le marché prétend comprendre, puis vend quand même.",
+      "effect": "Investisseurs : -5 par carte",
+      "duration": "Durée : 4 cartes"
+    },
+    "mega_corp_ceo_ev_014": {
+      "title": "Outil interne fluide",
+      "body": "Un nouvel outil simplifie enfin le travail quotidien. Personne n’applaudit, mais tout le monde souffle.",
+      "effect": "Employés : +5 par carte",
+      "duration": "Durée : 6 cartes"
+    },
+    "mega_corp_ceo_ev_015": {
+      "title": "Contrat géant",
+      "body": "Un très gros contrat tombe dans ton escarcelle. Les actionnaires adorent les signatures à beaucoup de zéros.",
+      "effect": "Investisseurs : +5 par carte",
+      "duration": "Durée : 3 cartes"
+    },
+    "mega_corp_ceo_ev_016": {
+      "title": "Rappel officiel",
+      "body": "Une demande d’explication arrive avec un ton très poli et très peu rassurant.",
+      "effect": "Régulateurs : -5 par carte",
+      "duration": "Durée : 5 cartes"
+    },
+    "mega_corp_ceo_ev_017": {
+      "title": "Produit très aimé",
+      "body": "Un produit du groupe devient le favori du moment. Les clients en parlent mieux que ton service com’.",
+      "effect": "Image de marque : +5 par carte",
+      "duration": "Durée : 4 cartes"
+    },
+    "mega_corp_ceo_ev_018": {
+      "title": "Managers sous pression",
+      "body": "La tension remonte d’un cran dans plusieurs équipes. Les résultats tiennent, l’humeur beaucoup moins.",
+      "effect": "Employés : -5 par carte",
+      "duration": "Durée : 7 cartes"
+    },
+    "mega_corp_ceo_ev_019": {
+      "title": "Dossier propre",
+      "body": "Tout est carré sur le papier. C’est presque trop beau, mais cette fois ça passe.",
+      "effect": "Régulateurs : +5 par carte",
+      "duration": "Durée : 3 cartes"
+    },
+    "mega_corp_ceo_ev_020": {
+      "title": "Conseil glacial",
+      "body": "Le conseil écoute en silence. Ce n’est jamais bon signe pour la patience du marché.",
+      "effect": "Investisseurs : -5 par carte",
+      "duration": "Durée : 6 cartes"
+    },
+
+    "mega_corp_ceo_ev_021": {
+      "title": "Rumeur produit",
+      "body": "Une rumeur absurde prend trop bien. Plus elle est floue, plus elle voyage.",
+      "effect": "Image de marque : -5 par carte",
+      "duration": "Durée : 5 cartes"
+    },
+    "mega_corp_ceo_ev_022": {
+      "title": "Recrutement solide",
+      "body": "Plusieurs profils clés rejoignent le groupe. Les équipes se disent que tout n’est peut-être pas en train de casser.",
+      "effect": "Employés : +5 par carte",
+      "duration": "Durée : 7 cartes"
+    },
+    "mega_corp_ceo_ev_023": {
+      "title": "Objectif dépassé",
+      "body": "Un indicateur clé dépasse les attentes. Les investisseurs adorent quand les chiffres font le travail à ta place.",
+      "effect": "Investisseurs : +5 par carte",
+      "duration": "Durée : 4 cartes"
+    },
+    "mega_corp_ceo_ev_024": {
+      "title": "Clause ambiguë",
+      "body": "Une vieille clause attire soudain une attention neuve. Les juristes froncent les sourcils en chaîne.",
+      "effect": "Régulateurs : -5 par carte",
+      "duration": "Durée : 6 cartes"
+    },
+    "mega_corp_ceo_ev_025": {
+      "title": "Réorganisation brutale",
+      "body": "Le nouvel organigramme va vite. Les employés aussi, mais plutôt vers la sortie.",
+      "effect": "Employés : -5 par carte",
+      "duration": "Durée : 3 cartes"
+    },
+    "mega_corp_ceo_ev_026": {
+      "title": "Certification obtenue",
+      "body": "Une certification importante tombe enfin. C’est officiel, tamponné, et très pratique à montrer partout.",
+      "effect": "Régulateurs : +5 par carte",
+      "duration": "Durée : 5 cartes"
+    },
+    "mega_corp_ceo_ev_027": {
+      "title": "Dividende applaudi",
+      "body": "Le versement annoncé calme bien des nerfs. L’amour du marché reste intéressé, mais il revient vite.",
+      "effect": "Investisseurs : +5 par carte",
+      "duration": "Durée : 4 cartes"
+    },
+    "mega_corp_ceo_ev_028": {
+      "title": "Photo malheureuse",
+      "body": "Une image prise au mauvais moment tourne trop bien. Tu voulais du contrôle, internet voulait un mème.",
+      "effect": "Image de marque : -5 par carte",
+      "duration": "Durée : 6 cartes"
+    },
+    "mega_corp_ceo_ev_029": {
+      "title": "Réunions de trop",
+      "body": "Les agendas débordent et les équipes saturent. Plus personne ne sait quand le travail réel commence.",
+      "effect": "Employés : -5 par carte",
+      "duration": "Durée : 3 cartes"
+    },
+    "mega_corp_ceo_ev_030": {
+      "title": "Tapis rouge réglementaire",
+      "body": "Les autorités citent ton groupe en exemple. C’est rare, donc très rentable en crédibilité.",
+      "effect": "Régulateurs : +5 par carte",
+      "duration": "Durée : 7 cartes"
+    }
+  }
+}

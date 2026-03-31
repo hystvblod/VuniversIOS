@@ -1,0 +1,1140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Vuniverse</title>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    :root{
+      --gapAfterBtn: 42px;
+
+      --badgeGap: 10px;
+      --badgeMin: 56px;
+      --badgeMax: 100px;
+      --badgePad: 7%;
+
+      --badgeModalMax: 78vmin;
+      --badgeModalPad: 14px;
+      --badgeModalRadius: 20px;
+
+      --vr-bg: radial-gradient(circle at top, #f6e7cf 0, #1b6688 62%, #03279e 100%);
+      --vr-overlay: none;
+
+      --vr-text: rgba(255,255,255,.92);
+      --vr-muted: rgba(255,255,255,.70);
+      --vr-text-shadow: 0 3px 16px rgba(0,0,0,.45);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
+    img { display:block; max-width:100%; height:auto; }
+
+    body.vr-body{
+      margin: 0;
+      min-height: 100vh;
+      background: var(--vr-bg);
+      color: var(--vr-text);
+      position: relative;
+    }
+
+    .vr-overlay{
+      display: none !important;
+    }
+
+    .vr-header{
+      position: relative;
+      z-index: 10;
+      width: 100%;
+    }
+
+    .vr-top-actions{
+      position: relative;
+      z-index: 10;
+      width: 100%;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 10px;
+      padding: calc(10px + env(safe-area-inset-top)) 12px 8px;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    .vr-top-slot{
+      flex: 1 1 0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .vr-icon-button{
+      width:44px;
+      height:44px;
+      border-radius:999px;
+      border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(0,0,0,0.26);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.22);
+      padding:0;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      cursor:pointer;
+      text-decoration:none;
+      -webkit-tap-highlight-color: transparent;
+      flex-shrink: 0;
+    }
+
+    .vr-icon-button:active{
+      transform: scale(.98);
+    }
+
+    .vr-icon-image{
+      width:30px;
+      height:30px;
+      display:block;
+      background-size: contain;
+      background-repeat:no-repeat;
+      background-position:center;
+      pointer-events:none;
+      user-select:none;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.65)) contrast(1.15) brightness(1.08);
+    }
+
+    .vr-icon-home{
+      background-image: url("assets/img/ui/btn_home.webp");
+    }
+
+    .vr-icon-settings{
+      background-image: url("assets/img/ui/btn_settings.webp");
+    }
+
+    .vr-icon-crosspromo{
+      background-image: url("assets/img/ui/btn_crosspromo.webp");
+    }
+
+    .vr-icon-shop{
+      background-image: url("assets/img/ui/btn_shop.webp");
+    }
+
+    .vr-main{
+      position:relative;
+      z-index:1;
+      width: min(100%, 860px);
+      margin: 0 auto;
+      padding: 0 12px 22px;
+    }
+
+    .vr-view{
+      display:block;
+    }
+
+    .vr-section-title{
+      margin: 10px 0 0;
+      font-weight: 950;
+      letter-spacing:.2px;
+      font-size: 18px;
+      text-align:center;
+      text-shadow: var(--vr-text-shadow);
+      line-height: 1.15;
+    }
+
+    .vr-page-sub{
+      display:none !important;
+    }
+
+    .vr-profile-grid{
+      margin: 14px 0 0;
+    }
+
+    .vr-profile-card{
+      border: none;
+      background: transparent;
+      box-shadow: none;
+      overflow: visible;
+      padding: 0;
+      margin: 0;
+    }
+
+    .vr-balances{
+      margin-top: 10px;
+      display:flex;
+      justify-content:center;
+      width:100%;
+    }
+
+    .vr-balances-row{
+      width: min(520px, 100%);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 14px;
+    }
+
+    .vr-pill{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      padding: 0;
+      border: none;
+      background: transparent;
+      min-width: 0;
+    }
+
+    .vr-pill img{
+      width:30px;
+      height:30px;
+      object-fit:contain;
+      filter: drop-shadow(0 2px 10px rgba(0,0,0,.5));
+      flex-shrink: 0;
+    }
+
+    .vr-pill .k{ display:none !important; }
+
+    .vr-pill .v{
+      display:block;
+      font-weight: 950;
+      font-size: 18px;
+      letter-spacing:.2px;
+      line-height:1;
+      text-shadow: var(--vr-text-shadow);
+      white-space: nowrap;
+    }
+
+    .vr-username-block{
+      margin-top: 16px;
+      text-align:center;
+    }
+
+    .vr-row-head{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      margin-bottom: 8px;
+    }
+
+    .vr-row-head .lbl{
+      font-size: 12px;
+      color: var(--vr-muted);
+      font-weight: 900;
+      letter-spacing: .2px;
+      text-align:center;
+      text-shadow: var(--vr-text-shadow);
+    }
+
+    .vr-username-display{
+      border: none;
+      background: transparent;
+      padding: 0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      width: 100%;
+    }
+
+    .vr-username-display .name{
+      overflow:hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 18px;
+      font-weight: 950;
+      letter-spacing: .2px;
+      max-width: 100%;
+      text-shadow: var(--vr-text-shadow);
+    }
+
+    .vr-actions-under{
+      margin-top: 10px !important;
+      margin-bottom: var(--gapAfterBtn) !important;
+      display:flex;
+      justify-content:center;
+    }
+
+    .vr-mini-btn{
+      border-radius: 999px;
+      border: none;
+      background: rgba(255,255,255,.07);
+      color:#fff;
+      padding: 10px 14px;
+      font-weight: 950;
+      cursor:pointer;
+      -webkit-tap-highlight-color: transparent;
+      text-shadow: var(--vr-text-shadow);
+      line-height: 1.1;
+    }
+
+    .vr-mini-btn:active{ transform: scale(.99); }
+
+    .vr-referral-card{
+      width:min(560px,100%);
+      margin: 12px auto 18px;
+      padding: 18px 16px 16px;
+      border-radius:22px;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(10,16,28,.28);
+      backdrop-filter:blur(8px);
+      -webkit-backdrop-filter:blur(8px);
+      box-shadow:0 16px 40px rgba(0,0,0,.28);
+    }
+
+    .vr-referral-pill{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      flex-wrap:nowrap;
+      width:fit-content;
+      max-width:100%;
+      margin:0 auto 14px;
+      padding:10px 18px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.18);
+      background:rgba(255,255,255,.10);
+      box-shadow:0 6px 18px rgba(0,0,0,.14);
+    }
+
+    .vr-referral-pill-label{
+      display:block;
+      font-size:18px;
+      font-weight:950;
+      color:#fff;
+      text-align:center;
+      text-shadow: var(--vr-text-shadow);
+      line-height:1;
+    }
+
+    .vr-referral-pill img{
+      width:28px;
+      height:28px;
+      object-fit:contain;
+      display:block;
+      flex:0 0 28px;
+      transform:translateY(4px);
+    }
+
+    .vr-referral-pill-value{
+      display:block;
+      font-size:18px;
+      font-weight:950;
+      color:#fff;
+      text-shadow: var(--vr-text-shadow);
+      line-height:1;
+      white-space: nowrap;
+    }
+
+    .vr-referral-desc{
+      max-width:36ch;
+      margin:4px auto 14px auto;
+      color:rgba(255,255,255,.96);
+      font-size:14px;
+      line-height:1.45;
+      text-align:center;
+      text-shadow:0 2px 8px rgba(0,0,0,.18);
+    }
+
+    .vr-referral-actions{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:10px;
+      max-width:320px;
+      margin:0 auto;
+    }
+
+    .vr-referral-btn{
+      min-height:50px;
+      padding:12px 14px;
+      border-radius:16px;
+      border:1px solid rgba(122,167,255,.36);
+      background:rgba(122,167,255,.24);
+      color:#fff;
+      font-weight:900;
+      text-decoration:none;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      cursor:pointer;
+      -webkit-tap-highlight-color:transparent;
+      animation: vrInvitePulse 1.15s ease-in-out infinite;
+      line-height: 1.2;
+    }
+
+    .vr-referral-btn:active{
+      transform:scale(.99);
+    }
+
+    @keyframes vrInvitePulse{
+      0%{
+        transform:scale(1);
+        opacity:1;
+        box-shadow:0 0 0 rgba(122,167,255,0);
+      }
+      50%{
+        transform:scale(1.035);
+        opacity:.9;
+        box-shadow:0 0 22px rgba(122,167,255,.34);
+      }
+      100%{
+        transform:scale(1);
+        opacity:1;
+        box-shadow:0 0 0 rgba(122,167,255,0);
+      }
+    }
+
+    .vr-edit-wrap{
+      display:none;
+      margin-top: 10px;
+    }
+
+    .vr-edit-wrap.is-open{
+      display:block;
+    }
+
+    .vr-username-row{
+      display:flex;
+      gap:10px;
+      align-items:stretch;
+      flex-wrap:wrap;
+      margin-top: 10px;
+      justify-content:center;
+    }
+
+    .vr-input{
+      flex: 1 1 220px;
+      min-width: 180px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(0,0,0,.22);
+      color: #fff;
+      padding: 12px 12px;
+      outline: none;
+      font-weight: 800;
+      letter-spacing: .2px;
+      min-height: 48px;
+    }
+
+    .vr-btn{
+      flex: 0 0 auto;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.16);
+      background: rgba(255,255,255,.10);
+      color: #fff;
+      padding: 12px 14px;
+      font-weight: 950;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      text-shadow: var(--vr-text-shadow);
+      min-height: 48px;
+      line-height: 1.1;
+    }
+
+    .vr-btn:active{ transform: scale(.99); }
+
+    .vr-hint{
+      margin-top: 10px;
+      font-size: 12px;
+      color: var(--vr-muted);
+      line-height:1.35;
+      text-align:center;
+      text-shadow: var(--vr-text-shadow);
+    }
+
+    .vr-msg{
+      margin-top: 10px;
+      font-size: 12px;
+      line-height:1.35;
+      display:none;
+      text-align:center;
+      text-shadow: var(--vr-text-shadow);
+    }
+
+    .vr-msg.ok{ color: rgba(220,255,230,.95); }
+    .vr-msg.err{ color: rgba(255,220,220,.95); }
+
+    .vr-section-head{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      margin: 0;
+    }
+
+    .vr-section-subtitle{
+      margin:0;
+      font-weight: 950;
+      font-size: 16px;
+      letter-spacing: .2px;
+      text-align:center;
+      text-shadow: var(--vr-text-shadow);
+      line-height: 1.15;
+    }
+
+    .vr-universe-grid{
+      margin: 12px auto 0;
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 28px 14px;
+      align-items:start;
+      width:100%;
+      max-width: 720px;
+    }
+
+    .vr-universe-card{
+      border: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+      overflow: visible !important;
+      padding: 0 4px !important;
+      min-width: 0 !important;
+      text-align:center;
+      opacity: 1 !important;
+      filter: none !important;
+
+      --badgeSize: clamp(
+        var(--badgeMin),
+        calc((100% - (2 * var(--badgeGap))) / 3),
+        var(--badgeMax)
+      );
+    }
+
+    .vr-universe-inner{
+      padding: 0 !important;
+      min-width:0;
+    }
+
+    .vr-universe-name{
+      margin:0;
+      font-weight: 950;
+      font-size: 13px;
+      letter-spacing:.2px;
+      overflow:hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-align:center;
+      color: var(--vr-text) !important;
+      opacity: 1 !important;
+      text-shadow: var(--vr-text-shadow);
+      line-height: 1.2;
+    }
+
+    .vr-universe-badges{
+      margin-top: 10px;
+      width: 100%;
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap: clamp(6px, 1.8vw, var(--badgeGap));
+      align-items:center;
+      overflow: visible;
+    }
+
+    .vr-badge{
+      flex: 0 0 calc(33.333% - 12px);
+      width: 100% !important;
+      aspect-ratio: 1 / 1 !important;
+      max-width: var(--badgeSize) !important;
+      border: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+      position: relative !important;
+      overflow: hidden !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      line-height: 0 !important;
+      filter: none !important;
+      opacity: 1 !important;
+      cursor: pointer !important;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .vr-badge:active{ transform: scale(.99); }
+
+    .vr-badge img{
+      position:absolute !important;
+      inset:0 !important;
+      width:100% !important;
+      height:100% !important;
+      object-fit: contain !important;
+      padding: var(--badgePad) !important;
+      box-sizing: border-box !important;
+      border:0 !important;
+      outline:0 !important;
+      background: transparent !important;
+      box-shadow:none !important;
+      filter:none !important;
+      opacity: 1;
+      pointer-events:none;
+      user-select:none;
+    }
+
+    .vr-badge .full{
+      opacity:0 !important;
+      transition: opacity .18s ease;
+    }
+
+    .vr-badge.unlocked .full{
+      opacity:1 !important;
+    }
+
+    .vr-modal{
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: calc(14px + env(safe-area-inset-top)) 14px calc(14px + env(safe-area-inset-bottom));
+    }
+
+    .vr-modal.is-open{
+      display:flex;
+    }
+
+    .vr-modal__backdrop{
+      position:absolute;
+      inset:0;
+      background: rgba(0,0,0,.62);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+
+    .vr-modal__panel{
+      position: relative;
+      width: min(520px, 96vw);
+      border-radius: var(--badgeModalRadius);
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(10,12,18,.72);
+      box-shadow: 0 24px 80px rgba(0,0,0,.55);
+      overflow: hidden;
+      transform: translateZ(0);
+    }
+
+    .vr-modal__top{
+      display:flex;
+      align-items:center;
+      justify-content:flex-end;
+      padding: 10px 10px 0;
+    }
+
+    .vr-modal__close{
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.16);
+      background: rgba(255,255,255,.08);
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      cursor:pointer;
+      -webkit-tap-highlight-color: transparent;
+      flex-shrink: 0;
+    }
+
+    .vr-modal__close:active{ transform: scale(.99); }
+
+    .vr-modal__close svg{
+      width: 22px;
+      height: 22px;
+      filter: drop-shadow(0 2px 10px rgba(0,0,0,.55));
+    }
+
+    .vr-modal__content{
+      padding: var(--badgeModalPad);
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap: 14px;
+      text-align:center;
+    }
+
+    .vr-modal__img{
+      width: min(var(--badgeModalMax), 420px);
+      height: auto;
+      aspect-ratio: 1 / 1;
+      object-fit: contain;
+      border-radius: 18px;
+      background: radial-gradient(60% 60% at 50% 40%, rgba(255,255,255,.06), transparent 70%);
+      filter: drop-shadow(0 18px 46px rgba(0,0,0,.55));
+      user-select:none;
+      pointer-events:none;
+    }
+
+    .vr-modal__title{
+      width: 100%;
+      font-size: clamp(20px, 4.6vw, 28px);
+      line-height: 1.1;
+      font-weight: 900;
+      color: #fff;
+      text-align: center;
+    }
+
+    .vr-modal__desc{
+      width: min(100%, 420px);
+      font-size: clamp(14px, 3.2vw, 18px);
+      line-height: 1.45;
+      font-weight: 700;
+      color: rgba(255,255,255,.88);
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    /* ===== TABLETTE : même rendu mobile, juste plus grand et mieux lisible ===== */
+    @media (min-width: 768px){
+      :root{
+        --gapAfterBtn: 54px;
+        --badgeGap: 16px;
+        --badgeMin: 84px;
+        --badgeMax: 132px;
+        --badgePad: 6%;
+        --badgeModalMax: 56vmin;
+        --badgeModalPad: 24px;
+        --badgeModalRadius: 26px;
+      }
+
+      .vr-top-actions{
+        width: min(100%, 860px);
+        padding: calc(16px + env(safe-area-inset-top)) 22px 14px;
+        gap: 18px;
+      }
+
+      .vr-icon-button{
+        width: 62px;
+        height: 62px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.24);
+      }
+
+      .vr-icon-image{
+        width: 40px;
+        height: 40px;
+      }
+
+      .vr-main{
+        width: min(100%, 900px);
+        padding: 0 22px 34px;
+      }
+
+      .vr-section-title{
+        margin-top: 14px;
+        font-size: clamp(28px, 3.4vw, 36px);
+      }
+
+      .vr-profile-grid{
+        margin-top: 20px;
+      }
+
+      .vr-balances{
+        margin-top: 18px;
+      }
+
+      .vr-balances-row{
+        width: min(700px, 100%);
+        gap: 30px;
+      }
+
+      .vr-pill{
+        gap: 14px;
+      }
+
+      .vr-pill img{
+        width: 44px;
+        height: 44px;
+      }
+
+      .vr-pill .v{
+        font-size: clamp(28px, 3vw, 34px);
+      }
+
+      .vr-referral-card{
+        width: min(720px, 100%);
+        margin: 16px auto 28px;
+        padding: 24px 24px 22px;
+        border-radius: 28px;
+      }
+
+      .vr-referral-pill{
+        gap: 12px;
+        padding: 14px 24px;
+        margin-bottom: 18px;
+      }
+
+      .vr-referral-pill-label{
+        font-size: clamp(24px, 2.5vw, 30px);
+      }
+
+      .vr-referral-pill img{
+        width: 40px;
+        height: 40px;
+        flex: 0 0 40px;
+        transform: translateY(4px);
+      }
+
+      .vr-referral-pill-value{
+        font-size: clamp(24px, 2.5vw, 30px);
+      }
+
+      .vr-referral-desc{
+        max-width: 44ch;
+        margin: 6px auto 18px auto;
+        font-size: clamp(18px, 2vw, 22px);
+        line-height: 1.5;
+      }
+
+      .vr-referral-actions{
+        max-width: 420px;
+      }
+
+      .vr-referral-btn{
+        min-height: 66px;
+        padding: 16px 20px;
+        border-radius: 18px;
+        font-size: clamp(20px, 2vw, 24px);
+      }
+
+      .vr-username-block{
+        margin-top: 24px;
+      }
+
+      .vr-row-head{
+        margin-bottom: 10px;
+      }
+
+      .vr-row-head .lbl{
+        font-size: 16px;
+      }
+
+      .vr-username-display .name{
+        font-size: clamp(28px, 3vw, 34px);
+      }
+
+      .vr-actions-under{
+        margin-top: 14px !important;
+      }
+
+      .vr-mini-btn{
+        padding: 14px 22px;
+        font-size: clamp(18px, 1.9vw, 22px);
+        min-height: 56px;
+      }
+
+      .vr-username-row{
+        gap: 12px;
+        margin-top: 14px;
+      }
+
+      .vr-input{
+        flex: 1 1 300px;
+        min-height: 58px;
+        padding: 14px 16px;
+        border-radius: 16px;
+        font-size: clamp(18px, 1.8vw, 21px);
+      }
+
+      .vr-btn{
+        min-height: 58px;
+        padding: 14px 18px;
+        border-radius: 16px;
+        font-size: clamp(18px, 1.8vw, 21px);
+      }
+
+      .vr-hint,
+      .vr-msg{
+        font-size: 15px;
+        line-height: 1.45;
+      }
+
+      .vr-section-subtitle{
+        font-size: clamp(24px, 2.6vw, 30px);
+      }
+
+      .vr-universe-grid{
+        max-width: 820px;
+        margin-top: 20px;
+        gap: 36px 26px;
+      }
+
+      .vr-universe-card{
+        padding: 0 8px !important;
+      }
+
+      .vr-universe-name{
+        font-size: clamp(20px, 2vw, 24px);
+      }
+
+      .vr-universe-badges{
+        margin-top: 14px;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap: 16px;
+      }
+
+      .vr-modal{
+        padding: calc(22px + env(safe-area-inset-top)) 22px calc(22px + env(safe-area-inset-bottom));
+      }
+
+      .vr-modal__panel{
+        width: min(680px, 94vw);
+      }
+
+      .vr-modal__top{
+        padding: 14px 14px 0;
+      }
+
+      .vr-modal__close{
+        width: 52px;
+        height: 52px;
+      }
+
+      .vr-modal__close svg{
+        width: 26px;
+        height: 26px;
+      }
+
+      .vr-modal__content{
+        gap: 18px;
+      }
+
+      .vr-modal__img{
+        width: min(var(--badgeModalMax), 500px);
+      }
+
+      .vr-modal__title{
+        font-size: clamp(28px, 3vw, 36px);
+      }
+
+      .vr-modal__desc{
+        width: min(100%, 520px);
+        font-size: clamp(18px, 2vw, 22px);
+      }
+    }
+
+    /* ===== Très grandes tablettes / iPad Pro ===== */
+    @media (min-width: 1024px){
+      :root{
+        --badgeMin: 96px;
+        --badgeMax: 144px;
+        --badgeGap: 18px;
+      }
+
+      .vr-main{
+        width: min(100%, 960px);
+        padding-left: 28px;
+        padding-right: 28px;
+      }
+
+      .vr-top-actions{
+        width: min(100%, 920px);
+        padding-left: 28px;
+        padding-right: 28px;
+      }
+
+      .vr-universe-grid{
+        max-width: 860px;
+        gap: 42px 30px;
+      }
+
+      .vr-referral-card{
+        width: min(760px, 100%);
+      }
+    }
+
+    /* ===== Très petit écran ===== */
+    @media (max-width: 380px){
+      .vr-balances-row{
+        gap: 10px;
+      }
+
+      .vr-pill img{
+        width: 26px;
+        height: 26px;
+      }
+
+      .vr-pill .v{
+        font-size: 16px;
+      }
+
+      .vr-referral-pill{
+        padding: 10px 14px;
+      }
+
+      .vr-referral-pill-label,
+      .vr-referral-pill-value{
+        font-size: 16px;
+      }
+
+      .vr-referral-pill img{
+        width: 24px;
+        height: 24px;
+        flex: 0 0 24px;
+      }
+
+      .vr-universe-grid{
+        gap: 24px 10px;
+      }
+
+      .vr-universe-name{
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body class="vr-body">
+
+  <header class="vr-header" aria-label="Top actions">
+    <div class="vr-top-actions">
+      <div class="vr-top-slot">
+        <a id="btn-back-home" class="vr-icon-button" href="index.html" data-i18n-aria="common.back">
+          <span class="vr-icon-image vr-icon-home"></span>
+        </a>
+      </div>
+
+      <div class="vr-top-slot">
+        <a id="btn-settings" class="vr-icon-button" href="settings.html" data-i18n-aria="common.settings">
+          <span class="vr-icon-image vr-icon-settings"></span>
+        </a>
+      </div>
+
+      <div class="vr-top-slot">
+        <a id="btn-crosspromo" class="vr-icon-button" href="cross-promo.html" data-i18n-aria="crosspromo.open_page_aria">
+          <span class="vr-icon-image vr-icon-crosspromo"></span>
+        </a>
+      </div>
+
+      <div class="vr-top-slot">
+        <a id="btn-shop" class="vr-icon-button" href="shop.html" data-i18n-aria="common.shop">
+          <span class="vr-icon-image vr-icon-shop"></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="vr-overlay"></div>
+
+  <main class="vr-main">
+    <section id="view-profile" class="vr-view vr-view-active">
+      <h2 class="vr-section-title" data-i18n="profile.title"></h2>
+      <p class="vr-page-sub" data-i18n="profile.subtitle"></p>
+
+      <div class="vr-profile-grid">
+        <div class="vr-profile-card">
+
+          <div class="vr-balances">
+            <div class="vr-balances-row">
+              <div class="vr-pill vr-pill--left">
+                <img src="assets/img/ui/vcoins.webp" alt="" />
+                <div>
+                  <span class="k" data-i18n="profile.vcoins"></span>
+                  <span class="v" id="pf_vcoins">0</span>
+                </div>
+              </div>
+
+              <div class="vr-pill vr-pill--right">
+                <div>
+                  <span class="k" data-i18n="shop.jetons_title"></span>
+                  <span class="v" id="pf_jetons">0</span>
+                </div>
+                <img src="assets/img/ui/jeton.webp" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="vr-referral-card">
+            <div class="vr-referral-pill">
+              <span class="vr-referral-pill-label" data-i18n="referral.invite_and_earn_title"></span>
+              <img src="assets/img/ui/vcoins.webp" alt="" draggable="false" />
+              <span class="vr-referral-pill-value">+ 200</span>
+            </div>
+
+            <p class="vr-referral-desc" data-i18n="referral.crosspromo_desc"></p>
+
+            <div class="vr-referral-actions">
+              <button
+                class="vr-referral-btn"
+                id="pf_invite_btn"
+                type="button"
+                data-i18n="referral.invite_and_earn_btn"
+              ></button>
+            </div>
+          </div>
+
+          <div class="vr-username-block">
+            <div class="vr-row-head">
+              <div class="lbl" data-i18n="auth.username.label"></div>
+            </div>
+
+            <div class="vr-username-display">
+              <div class="name" id="pf_username_text">—</div>
+            </div>
+
+            <div class="vr-actions-under">
+              <button class="vr-mini-btn" id="pf_edit_toggle" type="button" data-i18n="profile.editUsername"></button>
+            </div>
+
+            <div class="vr-edit-wrap" id="pf_edit_wrap">
+              <div class="vr-username-row">
+                <input
+                  class="vr-input"
+                  id="pf_username_input"
+                  type="text"
+                  inputmode="text"
+                  autocomplete="off"
+                  spellcheck="false"
+                  data-i18n-placeholder="auth.username.placeholder"
+                />
+                <button class="vr-btn" id="pf_save" type="button" data-i18n="profile.usernameSave"></button>
+                <button class="vr-mini-btn" id="pf_cancel" type="button" data-i18n="common.cancel"></button>
+              </div>
+
+              <div class="vr-hint" id="pf_hint" data-i18n="auth.username.rules"></div>
+              <div class="vr-msg" id="pf_msg"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="vr-section-head">
+        <h2 class="vr-section-subtitle" data-i18n="profile.universes_title"></h2>
+      </div>
+
+      <section class="vr-universe-grid" id="pf_universes"></section>
+    </section>
+  </main>
+
+  <div class="vr-modal" id="badgeModal" aria-hidden="true">
+    <div class="vr-modal__backdrop" id="badgeModalBackdrop"></div>
+    <div class="vr-modal__panel" role="dialog" aria-modal="true" data-i18n-aria="ui.aria_badge_modal">
+      <div class="vr-modal__top">
+        <button class="vr-modal__close" id="badgeModalClose" type="button" data-i18n-aria="common.close">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="white" d="M18.3 5.7a1 1 0 0 1 0 1.4L13.4 12l4.9 4.9a1 1 0 1 1-1.4 1.4L12 13.4l-4.9 4.9a1 1 0 1 1-1.4-1.4l4.9-4.9-4.9-4.9a1 1 0 1 1 1.4-1.4L12 10.6l4.9-4.9a1 1 0 0 1 1.4 0z"/>
+          </svg>
+        </button>
+      </div>
+      <div class="vr-modal__content">
+        <img class="vr-modal__img" id="badgeModalImg" alt="" draggable="false" />
+        <div class="vr-modal__title" id="badgeModalTitle"></div>
+        <div class="vr-modal__desc" id="badgeModalDesc"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/supabase.min.js"></script>
+  <script src="js/supabaseBootstrap.js"></script>
+  <script src="js/analytics.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/ads.js"></script>
+  <script src="js/userData.js"></script>
+  <script src="js/onesignal.js"></script>
+  <script src="js/audio.js"></script>
+  <script>
+    window.VRAudio?.startMenuBg?.();
+  </script>
+  <script src="js/profile.js"></script>
+  <script src="js/referral.js"></script>
+</body>
+</html>

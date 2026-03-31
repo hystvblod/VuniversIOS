@@ -1,0 +1,4052 @@
+﻿{
+  "wp_001": {
+    "title": "Pemogokan transportasi",
+    "body": "Serikat pekerja mengumumkan pemogokan transportasi nasional mulai Senin. Gambar-gambarnya beredar di mana-mana.",
+    "choices": {
+      "A": "Berunding dan melonggarkan sedikit tuntutan.",
+      "B": "Tetap tegas: layanan minimum dan ketegasan.",
+      "C": "Mengerahkan bus militer untuk menjaga negara tetap berjalan."
+    }
+  },
+  "wp_002": {
+    "title": "KTT iklim",
+    "body": "Sebuah KTT internasional tentang iklim berlangsung di negaramu. Semua orang menunggu pengumuman yang kuat.",
+    "choices": {
+      "A": "Mengumumkan rencana ambisius dengan investasi hijau.",
+      "B": "Menetapkan target bertahap dengan klausul evaluasi.",
+      "C": "Membuat pernyataan simbolis besar tanpa angka."
+    }
+  },
+  "wp_003": {
+    "title": "Serangan siber terhadap rumah sakit",
+    "body": "Beberapa rumah sakit mengalami sistem yang terkunci. Tebusan diminta dan media berbicara tentang kekacauan.",
+    "choices": {
+      "A": "Membayar diam-diam agar cepat pulih.",
+      "B": "Menolak membayar dan mengerahkan unit siber.",
+      "C": "Menuduh negara rival tanpa bukti publik."
+    }
+  },
+  "wp_004": {
+    "title": "Pertandingan bersejarah",
+    "body": "Tim nasional mencapai final bersejarah. Semua menunggu reaksimu.",
+    "choices": {
+      "A": "Mendukung perayaan dan berinvestasi dalam olahraga amatir.",
+      "B": "Tetap sederhana: pidato singkat, tanpa pengeluaran.",
+      "C": "Mengadakan parade raksasa mulai besok."
+    }
+  },
+  "wp_005": {
+    "title": "Flu musiman parah",
+    "body": "Flu yang ganas membebani unit gawat darurat. Para ahli ingin bertindak cepat.",
+    "choices": {
+      "A": "Meluncurkan kampanye vaksinasi dan pencegahan.",
+      "B": "Menunggu: 'jangan panik'.",
+      "C": "Menetapkan pembatasan sementara yang terarah."
+    }
+  },
+  "wp_006": {
+    "title": "Penurunan tajam mata uang",
+    "body": "Mata uang jatuh di pasar. Impor menjadi lebih mahal, oposisi menuduh pemerintah amatir.",
+    "choices": {
+      "A": "Mengumumkan rencana stabilitas dan mengurangi pengeluaran.",
+      "B": "Menyuntikkan bantuan besar-besaran dan menenangkan publik.",
+      "C": "Mencari perjanjian dukungan dengan sekutu."
+    }
+  },
+  "wp_007": {
+    "title": "Bencana alam",
+    "body": "Badai luar biasa menghantam pantai. Beberapa kota meminta bantuan darurat segera.",
+    "choices": {
+      "A": "Mengirim militer untuk bantuan darurat.",
+      "B": "Membuka dana khusus dan bantuan langsung.",
+      "C": "Membiarkan daerah menangani, negara hanya mengoordinasikan."
+    }
+  },
+  "wp_008": {
+    "title": "Skandal korupsi",
+    "body": "Sebuah video menunjukkan seorang penasihat menerima 'hadiah'. Media sosial meledak.",
+    "choices": {
+      "A": "Memecatnya segera dan membuka penyelidikan.",
+      "B": "Membelanya: 'rekayasa dan dibesar-besarkan'.",
+      "C": "Mengalihkan perhatian dengan reformasi mendadak."
+    }
+  },
+  "wp_009": {
+    "title": "Bergabung dengan aliansi",
+    "body": "Sebuah negara tetangga kecil meminta bergabung dengan aliansi pertahananmu. Ini bisa membuat beberapa mitra kesal.",
+    "choices": {
+      "A": "Mendukung keanggotaan dengan cepat.",
+      "B": "Menunda: kajian dan syarat ketat.",
+      "C": "Menolak untuk menghindari ketegangan."
+    }
+  },
+  "wp_010": {
+    "title": "Kelangkaan kopi",
+    "body": "Kelangkaan kopi membuat harga melonjak. Kafe-kafe memasang tulisan 'jatah dibatasi' dan seluruh negeri mengeluh keras.",
+    "choices": {
+      "A": "Menurunkan sementara pajak impor.",
+      "B": "Meluncurkan kampanye 'teh nasional' dengan humor resmi.",
+      "C": "Stok strategis: membeli besar-besaran sekarang."
+    }
+  },
+  "wp_011": {
+    "title": "Kebocoran data pajak",
+    "body": "Data pajak beredar online. Banyak orang menuduh negara lalai.",
+    "choices": {
+      "A": "Transparansi: mengakui dan memperbaiki dengan cepat.",
+      "B": "Meremehkan: 'tidak ada yang serius'.",
+      "C": "Membentuk badan siber nasional yang diperkuat."
+    }
+  },
+  "wp_012": {
+    "title": "Investasi pabrik raksasa",
+    "body": "Seorang industrialis menawarkan pabrik raksasa pencipta lapangan kerja, tetapi boros energi.",
+    "choices": {
+      "A": "Menerima dengan standar lingkungan yang ketat.",
+      "B": "Menerima tanpa syarat agar cepat berjalan.",
+      "C": "Menolak: fokus pada UKM lokal."
+    }
+  },
+  "wp_013": {
+    "title": "Insiden perbatasan",
+    "body": "Insiden tanpa korban jiwa terjadi di perbatasan laut. Media menyebutnya sebagai penghinaan.",
+    "choices": {
+      "A": "Menanggapi tegas dengan patroli yang diperkuat.",
+      "B": "Mengusulkan komisi penyelidikan bilateral.",
+      "C": "Mengabaikan untuk meredakan situasi."
+    }
+  },
+  "wp_014": {
+    "title": "Peretasan satelit cuaca",
+    "body": "Satelit cuaca rusak setelah penyusupan. Prakiraan menjadi kabur.",
+    "choices": {
+      "A": "Berinvestasi cepat dalam satelit baru.",
+      "B": "Mengandalkan data sekutu untuk sementara.",
+      "C": "Mengubah insiden ini menjadi proyek antariksa ambisius."
+    }
+  },
+  "wp_015": {
+    "title": "Reformasi pensiun",
+    "body": "Reformasi pensiun ada di meja. Mustahil membuat semua orang puas.",
+    "choices": {
+      "A": "Reformasi yang lunak dan bertahap.",
+      "B": "Reformasi cepat dan ketat.",
+      "C": "Menunda setahun dan membuka konsultasi."
+    }
+  },
+  "wp_016": {
+    "title": "Harga energi naik",
+    "body": "Tagihan energi melonjak. Rumah tangga meminta keringanan, perusahaan mengancam pindah.",
+    "choices": {
+      "A": "Perlindungan tarif sementara.",
+      "B": "Bantuan terarah hanya untuk yang paling rentan.",
+      "C": "Perjanjian impor energi dengan mitra."
+    }
+  },
+  "wp_017": {
+    "title": "Pemadaman besar jaringan",
+    "body": "Gangguan besar memutus internet selama berjam-jam. Orang bertanya: 'siapa yang melindungi negara?'.",
+    "choices": {
+      "A": "Rencana ketahanan digital nasional.",
+      "B": "Menghukum operator secara terbuka.",
+      "C": "Memiliterisasi sebagian infrastruktur kritis."
+    }
+  },
+  "wp_018": {
+    "title": "Festival budaya dunia",
+    "body": "Sebuah festival budaya dunia ingin menetap di negaramu. Pamor terjamin, biayanya sangat besar.",
+    "choices": {
+      "A": "Membiayai besar-besaran untuk bersinar.",
+      "B": "Dukungan moderat ditambah kemitraan swasta.",
+      "C": "Menolak: prioritas pada keadaan darurat nasional."
+    }
+  },
+  "wp_019": {
+    "title": "Kedatangan pengungsi iklim",
+    "body": "Sebuah pulau hancur akibat kenaikan permukaan air laut. Para pengungsi meminta suaka.",
+    "choices": {
+      "A": "Menerima dengan rencana integrasi dan bantuan.",
+      "B": "Menerima sementara, lalu relokasi internasional.",
+      "C": "Menolak dan mengirim bantuan ke lokasi."
+    }
+  },
+  "wp_020": {
+    "title": "Demonstrasi teknologi",
+    "body": "Sebuah startup menawarkan jaringan drone pengantar. Ini bisa mendongkrak ekonomi, tetapi menakutkan publik.",
+    "choices": {
+      "A": "Mengizinkan dengan aturan ketat dan zona uji coba.",
+      "B": "Mengizinkan di mana-mana: 'kita berinovasi!'.",
+      "C": "Melarang: utamakan ketenangan dan keamanan."
+    }
+  },
+  "wp_021": {
+    "title": "Krisis perumahan",
+    "body": "Harga sewa meledak. Kaum muda berdemonstrasi: 'kami sudah tidak bisa hidup lagi'.",
+    "choices": {
+      "A": "Rencana pembangunan besar-besaran dan bantuan.",
+      "B": "Mengatur harga sewa secara ketat.",
+      "C": "Membiarkan pasar menyesuaikan dengan insentif pajak."
+    }
+  },
+  "wp_022": {
+    "title": "Insiden saat jamuan kenegaraan",
+    "body": "Saat jamuan kenegaraan, menterimu membuat lelucon yang buruk dan menyinggung tamu. Sudah jadi berita utama.",
+    "choices": {
+      "A": "Permintaan maaf resmi segera.",
+      "B": "Meremehkan: 'humor yang disalahpahami'.",
+      "C": "Reshuffle: mengganti menteri itu saat itu juga."
+    }
+  },
+  "wp_023": {
+    "title": "Perompakan di lepas pantai",
+    "body": "Kapal kargo terancam bajak laut di sebuah zona maritim. Para pemilik kapal menuntut respons.",
+    "choices": {
+      "A": "Mengirim fregat untuk pengawalan.",
+      "B": "Merundingkan koalisi pengawasan internasional.",
+      "C": "Membayar perlindungan swasta yang disubsidi."
+    }
+  },
+  "wp_024": {
+    "title": "Mogok guru",
+    "body": "Para guru mengancam akan memblokir ujian. Para orang tua panik.",
+    "choices": {
+      "A": "Menaikkan gaji dan melonggarkan reformasi.",
+      "B": "Mempertahankan reformasi, janji bonus nanti.",
+      "C": "Mengganti dengan kelas online darurat."
+    }
+  },
+  "wp_025": {
+    "title": "AI dalam administrasi",
+    "body": "Kamu ditawari penggunaan AI untuk mempercepat proses administrasi. Efektif, tetapi menimbulkan kekhawatiran.",
+    "choices": {
+      "A": "Menerapkan sebagai pilot dengan pengawasan manusia wajib.",
+      "B": "Menerapkan secara luas untuk menghemat waktu.",
+      "C": "Menolak: 'kita tetap mengutamakan manusia'."
+    }
+  },
+  "wp_026": {
+    "title": "Latihan militer yang disorot media",
+    "body": "Latihan militer raksasa diusulkan untuk menunjukkan kekuatan negara. Negara tetangga memperhatikan.",
+    "choices": {
+      "A": "Melakukannya, tetapi mengundang pengamat asing.",
+      "B": "Melakukannya tanpa mengundang siapa pun: pesan yang jelas.",
+      "C": "Membatalkan untuk menghindari ketegangan."
+    }
+  },
+  "wp_027": {
+    "title": "Juara ilmuwan",
+    "body": "Seorang peneliti nasional memenangkan penghargaan dunia. Kamu diminta meningkatkan anggaran riset.",
+    "choices": {
+      "A": "Menaikkan besar-besaran: beasiswa dan laboratorium.",
+      "B": "Menaikkan sedikit, tetapi banyak berkomunikasi.",
+      "C": "Mengucapkan selamat lalu lanjut ke hal lain."
+    }
+  },
+  "wp_028": {
+    "title": "Krisis sampah",
+    "body": "Tempat pembuangan penuh. Wali kota mengancam menutup lokasi. Semua ingin solusi dipindahkan ke tempat lain.",
+    "choices": {
+      "A": "Berinvestasi dalam daur ulang dan pusat modern.",
+      "B": "Mengekspor sementara sampah melalui perjanjian.",
+      "C": "Membatasi dan langsung menaikkan denda."
+    }
+  },
+  "wp_029": {
+    "title": "Rangkaian kebakaran",
+    "body": "Serangkaian kebakaran melalap hutan. Gambarnya terus berulang di layar.",
+    "choices": {
+      "A": "Memperkuat sarana pemadam dan pencegahan.",
+      "B": "Mengerahkan militer untuk membantu penyelamatan.",
+      "C": "Menyita sarana swasta, langkah kontroversial."
+    }
+  },
+  "wp_030": {
+    "title": "Perjanjian dagang yang menggiurkan",
+    "body": "Sebuah perjanjian dagang menjanjikan lapangan kerja, tetapi mengharuskan konsesi regulasi.",
+    "choices": {
+      "A": "Menandatangani dengan klausul pengaman.",
+      "B": "Menandatangani segera tanpa perubahan.",
+      "C": "Menolak dan melindungi pasar domestik."
+    }
+  },
+  "wp_031": {
+    "title": "Peluncuran antariksa",
+    "body": "Misi antariksa nasional bisa diluncurkan. Sukses berarti prestise, gagal berarti ejekan global.",
+    "choices": {
+      "A": "Meluncurkan dengan keamanan maksimal, meski lebih mahal.",
+      "B": "Meluncurkan cepat demi jadi yang pertama.",
+      "C": "Menunda dan bekerja sama dengan mitra."
+    }
+  },
+  "wp_032": {
+    "title": "Skandal stadion",
+    "body": "Stadion baru dituduh menelan biaya dua kali lipat. Gambar-gambarnya beredar di mana-mana.",
+    "choices": {
+      "A": "Audit publik dan sanksi.",
+      "B": "Menerima: 'ini adalah investasi'.",
+      "C": "Mengubahnya menjadi museum olahraga nasional untuk menyelamatkan citra."
+    }
+  },
+  "wp_033": {
+    "title": "Ketegangan pasokan",
+    "body": "Komponen penting langka. Beberapa pabrik terancam berhenti.",
+    "choices": {
+      "A": "Mensubsidi produksi lokal.",
+      "B": "Menegosiasikan prioritas akses dengan mitra.",
+      "C": "Membangun stok strategis yang mahal."
+    }
+  },
+  "wp_034": {
+    "title": "Kebocoran rancangan undang-undang",
+    "body": "Rancangan undang-undang bocor sebelum diumumkan. Rumor mengambil alih.",
+    "choices": {
+      "A": "Menerbitkan teks lengkap dan menjelaskannya.",
+      "B": "Mengatakan itu palsu dan membuka penyelidikan internal.",
+      "C": "Mempercepat dan mengajukan teks besok."
+    }
+  },
+  "wp_035": {
+    "title": "Kasus drone tak dikenal",
+    "body": "Drone tak dikenal terbang di atas situs sensitif. Teori konspirasi meledak.",
+    "choices": {
+      "A": "Komunikasi transparan dan penyelidikan teknis.",
+      "B": "Melarang sementara drone sipil.",
+      "C": "Diam total: operasi rahasia."
+    }
+  },
+  "wp_036": {
+    "title": "Harga roti",
+    "body": "Harga roti tiba-tiba naik. Para pembuat roti bicara soal biaya, warga bicara soal ketidakadilan.",
+    "choices": {
+      "A": "Bantuan terarah untuk pengrajin dan kontrol anti-spekulasi.",
+      "B": "Biarkan saja: 'pasar bebas'.",
+      "C": "Subsidi umum untuk menurunkan harga."
+    }
+  },
+  "wp_037": {
+    "title": "Krisis pariwisata",
+    "body": "Pariwisata runtuh setelah serangkaian gambar viral yang buruk. Hotel-hotel meminta bantuan.",
+    "choices": {
+      "A": "Kampanye internasional dan pengurangan pajak pariwisata.",
+      "B": "Dukungan nasional saja, tanpa citra eksternal.",
+      "C": "Tidak melakukan apa-apa: 'nanti juga pulih'."
+    }
+  },
+  "wp_038": {
+    "title": "Program layanan sipil",
+    "body": "Program layanan sipil yang diperluas diusulkan: berguna, tetapi sebagian orang melihatnya sebagai beban.",
+    "choices": {
+      "A": "Sukarela yang sangat didorong dengan keuntungan.",
+      "B": "Kewajiban singkat untuk semua orang.",
+      "C": "Membatalkan dan mendanai asosiasi sebagai gantinya."
+    }
+  },
+  "wp_039": {
+    "title": "Krisis air",
+    "body": "Kekeringan mengancam beberapa wilayah. Para petani menuntut keputusan cepat.",
+    "choices": {
+      "A": "Pembatasan dan investasi irigasi.",
+      "B": "Memprioritaskan industri untuk menjaga ekonomi.",
+      "C": "Membeli air melalui perjanjian internasional sementara."
+    }
+  },
+  "wp_040": {
+    "title": "Perdebatan tentang pengawasan",
+    "body": "Dinas meminta lebih banyak sarana pengawasan terhadap ancaman yang masih samar. Warga khawatir.",
+    "choices": {
+      "A": "Menambah sarana dengan kontrol independen.",
+      "B": "Menambah tanpa kontrol: efektivitas dulu.",
+      "C": "Menolak dan fokus pada pencegahan sosial."
+    }
+  },
+  "wp_041": {
+    "title": "Pameran senjata dunia",
+    "body": "Pameran senjata dunia ingin datang ke negaramu. Ekonomi diuntungkan, tetapi citra bisa rusak.",
+    "choices": {
+      "A": "Menyambut dengan piagam etika yang ketat.",
+      "B": "Menyambut tanpa syarat: kontrak besar.",
+      "C": "Menolak: memilih citra damai."
+    }
+  },
+  "wp_042": {
+    "title": "Reformasi pajak",
+    "body": "Reformasi pajak diusulkan. Sederhana di atas kertas, meledak di jalanan.",
+    "choices": {
+      "A": "Menurunkan pajak bagi kelompok berpenghasilan rendah, menutupnya di tempat lain.",
+      "B": "Menurunkan untuk semua dan memotong pengeluaran.",
+      "C": "Menaikkan pajak bagi pendapatan tertinggi."
+    }
+  },
+  "wp_043": {
+    "title": "Wabah informasi palsu",
+    "body": "Gelombang berita palsu menebar kebingungan sebelum pengumuman besar. Sebagian orang menginginkan pembatasan.",
+    "choices": {
+      "A": "Membentuk unit verifikasi publik yang independen.",
+      "B": "Undang-undang cepat melawan disinformasi, versi tegas.",
+      "C": "Membiarkan beredar: 'kebebasan berekspresi'."
+    }
+  },
+  "wp_044": {
+    "title": "Gangguan di kedutaan",
+    "body": "Sebuah kedutaan sahabat mengalami pemadaman aneh di negaramu. Sekutu meminta jaminan.",
+    "choices": {
+      "A": "Penyelidikan segera dan perlindungan diperkuat.",
+      "B": "Permintaan maaf diplomatik dan kompensasi.",
+      "C": "Mengatakan itu insiden biasa, tidak lebih."
+    }
+  },
+  "wp_045": {
+    "title": "Proyek kereta besar",
+    "body": "Sebuah proyek kereta menghubungkan dua wilayah yang sedang sulit. Mahal, tetapi simbolis.",
+    "choices": {
+      "A": "Meluncurkan proyek dengan pendanaan publik.",
+      "B": "Meluncurkan dengan kemitraan publik-swasta.",
+      "C": "Membatalkan dan hanya merenovasi yang sudah ada."
+    }
+  },
+  "wp_046": {
+    "title": "Krisis perekrutan militer",
+    "body": "Militer kesulitan merekrut. Para jenderal bicara tentang 'lubang besar' yang akan datang.",
+    "choices": {
+      "A": "Menaikkan gaji dan kondisi kerja.",
+      "B": "Kampanye patriotik besar-besaran.",
+      "C": "Mengurangi ambisi militer dan berinvestasi di tempat lain."
+    }
+  },
+  "wp_047": {
+    "title": "Polemik soal patung",
+    "body": "Patung tua membelah warga: tradisi melawan modernitas. Media menyukai drama ini.",
+    "choices": {
+      "A": "Mengadakan referendum lokal.",
+      "B": "Memindahkan patung diam-diam ke museum.",
+      "C": "Mengabaikan dan membicarakan hal lain."
+    }
+  },
+  "wp_048": {
+    "title": "Insiden di konsulat",
+    "body": "Sebuah konsulat nasional di luar negeri menjadi sasaran vandalisme. Opini publik menuntut reaksi.",
+    "choices": {
+      "A": "Memprotes secara resmi dan meminta ganti rugi.",
+      "B": "Mengirim tim keamanan tambahan.",
+      "C": "Tetap diam demi menghindari eskalasi."
+    }
+  },
+  "wp_049": {
+    "title": "Krisis obat-obatan",
+    "body": "Kekosongan stok obat umum menimbulkan kekhawatiran. Apotek memasang tulisan 'stok habis'.",
+    "choices": {
+      "A": "Mensubsidi produksi nasional cepat.",
+      "B": "Membeli darurat dari luar negeri.",
+      "C": "Membatasi dan memprioritaskan kasus utama."
+    }
+  },
+  "wp_050": {
+    "title": "Pidato akhir tahun",
+    "body": "Pidato akhir tahunmu semakin dekat. Negara ingin sesuatu yang konkret dan sedikit harapan.",
+    "choices": {
+      "A": "Pidato sangat faktual: angka dan rencana yang jelas.",
+      "B": "Pidato yang menyatukan dan humoris.",
+      "C": "Pidato bernada tegas: 'masa sulit, persatuan'."
+    }
+  },
+  "wp_051": {
+    "title": "Skandal mikrofon",
+    "body": "Saat keluar dari rapat, mikrofonmu masih menyala. Ucapan yang canggung tertangkap semua orang.",
+    "choices": {
+      "A": "Mengakuinya dan menertawakan diri sendiri di depan publik.",
+      "B": "Mengatakan itu di luar konteks dan menyerang media.",
+      "C": "Mengumumkan reformasi anti-birokrasi untuk mengambil kendali kembali."
+    }
+  },
+  "wp_052": {
+    "title": "Pelabuhan strategis macet",
+    "body": "Pelabuhan terbesar negara macet. Ribuan kontainer menghambat pasokan.",
+    "choices": {
+      "A": "Berinvestasi darurat dalam logistik dan dermaga.",
+      "B": "Menyita sementara sarana militer.",
+      "C": "Menegosiasikan rute alternatif dengan mitra."
+    }
+  },
+  "wp_053": {
+    "title": "Bank di ambang krisis",
+    "body": "Sebuah bank besar menunjukkan tanda-tanda kelemahan. Rumor saja cukup memicu kepanikan.",
+    "choices": {
+      "A": "Menjamin simpanan dan menyelamatkan bank.",
+      "B": "Membiarkan jatuh: 'pasar yang menentukan'.",
+      "C": "Merger paksa dengan pelaku yang kuat."
+    }
+  },
+  "wp_054": {
+    "title": "Konferensi perdamaian",
+    "body": "Kamu diminta menjadi tuan rumah konferensi perdamaian antara dua negara yang saling membenci secara terbuka.",
+    "choices": {
+      "A": "Menerima dan menawarkan mediasi aktif.",
+      "B": "Menerima tetapi tetap netral dan tenang.",
+      "C": "Menolak: terlalu berisiko secara politik."
+    }
+  },
+  "wp_055": {
+    "title": "Harga bahan bakar",
+    "body": "Harga bahan bakar naik. Para pengendara mengancam memblokir jalan.",
+    "choices": {
+      "A": "Menurunkan sementara pajak.",
+      "B": "Bantuan terarah ditambah rencana transportasi umum.",
+      "C": "Tidak melakukan apa-apa: 'transisi memang perlu'."
+    }
+  },
+  "wp_056": {
+    "title": "Serangkaian kecelakaan",
+    "body": "Beberapa kecelakaan serius menimpa infrastruktur. Orang-orang berkata: 'negara ini sedang retak'.",
+    "choices": {
+      "A": "Rencana nasional renovasi infrastruktur.",
+      "B": "Audit, sanksi, dan komunikasi krisis.",
+      "C": "Mengerahkan korps teknik militer untuk memperbaiki cepat."
+    }
+  },
+  "wp_057": {
+    "title": "Krisis visa",
+    "body": "Waktu tunggu visa meledak. Tekanan meningkat.",
+    "choices": {
+      "A": "Menyederhanakan prosedur dengan portal digital.",
+      "B": "Memperketat: 'keamanan dulu'.",
+      "C": "Perjanjian timbal balik yang dipercepat dengan beberapa negara."
+    }
+  },
+  "wp_058": {
+    "title": "Kebocoran air besar",
+    "body": "Kebocoran air besar membuat satu kota metropolitan kehilangan air minum. Gambar botol kosong memicu panik.",
+    "choices": {
+      "A": "Membuka rencana darurat dan distribusi massal.",
+      "B": "Menerapkan pembatasan ketat segera.",
+      "C": "Meminta bantuan logistik dari sekutu."
+    }
+  },
+  "wp_059": {
+    "title": "Kampanye anti-rokok yang keras",
+    "body": "Kementerian mengusulkan kampanye anti-rokok yang sangat keras. Efektif atau berlebihan?",
+    "choices": {
+      "A": "Meluncurkan kampanye ditambah bantuan berhenti merokok.",
+      "B": "Versi lembut: kurang mengejutkan, lebih edukatif.",
+      "C": "Membatalkan: terlalu banyak keluhan yang diperkirakan."
+    }
+  },
+  "wp_060": {
+    "title": "Industri pertahanan perlu dihidupkan kembali",
+    "body": "Pabrik pertahananmu berjalan lambat. Para ahli berkata negara kuat harus memproduksi sendiri.",
+    "choices": {
+      "A": "Berinvestasi untuk menghidupkan kembali produksi nasional.",
+      "B": "Membeli dari luar negeri: lebih cepat dan lebih murah.",
+      "C": "Kerja sama industri dengan sekutu."
+    }
+  },
+  "wp_061": {
+    "title": "Polemik seputar komedian",
+    "body": "Seorang komedian mengejek pemerintah dan TV publik ingin membatalkan penampilannya. Reaksimu dinanti.",
+    "choices": {
+      "A": "Biarkan saja: kebebasan berekspresi.",
+      "B": "Batalkan: menjaga otoritas.",
+      "C": "Mengundang komedian itu ke debat, tetapi itu berisiko."
+    }
+  },
+  "wp_062": {
+    "title": "Bursa naik turun",
+    "body": "Bursa bergejolak. Penabung kecil panik, investor besar tersenyum terlalu lebar.",
+    "choices": {
+      "A": "Menenangkan publik dan mengambil langkah stabilitas finansial.",
+      "B": "Memajaki sebagian transaksi spekulatif.",
+      "C": "Tidak ikut campur: 'pasar bebas'."
+    }
+  },
+  "wp_063": {
+    "title": "Peralatan polisi",
+    "body": "Aparat meminta perlengkapan modern. Tekanan meningkat.",
+    "choices": {
+      "A": "Memodernisasi dengan pelatihan dan kontrol independen.",
+      "B": "Memodernisasi habis-habisan tanpa debat: efisiensi.",
+      "C": "Menunda dan berinvestasi pada mediasi serta pencegahan."
+    }
+  },
+  "wp_064": {
+    "title": "Defisit membengkak",
+    "body": "Defisit melampaui perkiraan. Mitra ekonomi meminta jalur yang kredibel.",
+    "choices": {
+      "A": "Rencana penghematan bertahap dan investasi terarah.",
+      "B": "Pemotongan cepat dan ketat.",
+      "C": "Menegosiasikan tenggat dan dukungan eksternal."
+    }
+  },
+  "wp_065": {
+    "title": "Peringatan soal teknologi impor",
+    "body": "Para ahli menandai bahwa peralatan impor mungkin memiliki celah. Muncul ketakutan soal spionase.",
+    "choices": {
+      "A": "Mengganti dengan solusi nasional.",
+      "B": "Melarang segera peralatan yang dicurigai.",
+      "C": "Menegosiasikan jaminan dan audit dengan pemasok."
+    }
+  },
+  "wp_066": {
+    "title": "Krisis kereta",
+    "body": "Jaringan kereta terus-menerus rusak. Meme menyebutnya 'kereta hantu'.",
+    "choices": {
+      "A": "Rencana besar modernisasi.",
+      "B": "Privatisasi sebagian untuk mempercepat.",
+      "C": "Membeli kereta dari luar negeri secara darurat."
+    }
+  },
+  "wp_067": {
+    "title": "Perdebatan tentang wajib layanan",
+    "body": "Sebagian orang mengusulkan wajib militer singkat yang 'sipil'. Yang lain menyebutnya kuno.",
+    "choices": {
+      "A": "Versi sukarela dengan keuntungan.",
+      "B": "Kewajiban singkat untuk memperkuat pertahanan.",
+      "C": "Menolak dan berinvestasi dalam tentara profesional."
+    }
+  },
+  "wp_068": {
+    "title": "Krisis pertanian",
+    "body": "Musim buruk membuat petani kesulitan. Harga naik, kemarahan juga.",
+    "choices": {
+      "A": "Bantuan langsung dan rencana transisi pertanian.",
+      "B": "Membuka impor untuk menurunkan harga.",
+      "C": "Menegosiasikan perjanjian dagang untuk mendukung ekspor."
+    }
+  },
+  "wp_069": {
+    "title": "Kebocoran laporan rahasia",
+    "body": "Laporan internal mengkritik strategimu. Itu bocor. Oposisimu bergembira.",
+    "choices": {
+      "A": "Transparansi: mengakui dan menyesuaikan.",
+      "B": "Memburu pembocor dan bersikap tegas.",
+      "C": "Serangan balik: menerbitkan laporan yang lebih memuji."
+    }
+  },
+  "wp_070": {
+    "title": "Penerbangan perdana pesawat nasional",
+    "body": "Pesawat buatan lokal harus menjalani penerbangan perdana. Sukses berarti kebanggaan, gagal berarti malu sedunia.",
+    "choices": {
+      "A": "Keamanan maksimal, meskipun tertunda.",
+      "B": "Luncurkan cepat: simbolisme dulu.",
+      "C": "Bekerja sama dengan mitra untuk mengurangi risiko."
+    }
+  },
+  "wp_071": {
+    "title": "Demonstrasi besar",
+    "body": "Demonstrasi besar dijadwalkan. Para pemimpin ingin bertemu denganmu sebelum Sabtu.",
+    "choices": {
+      "A": "Menerima para pemimpin dan memberi kompromi.",
+      "B": "Mempertahankan garis dan mengamankan pusat kota.",
+      "C": "Mengusulkan debat publik nasional besar."
+    }
+  },
+  "wp_072": {
+    "title": "Perjanjian pertahanan regional",
+    "body": "Sebuah perjanjian pertahanan regional ditawarkan kepadamu. Sebagian melihatnya sebagai perlindungan, yang lain sebagai provokasi.",
+    "choices": {
+      "A": "Menandatangani: pencegahan diperkuat.",
+      "B": "Menandatangani tetapi dengan klausul penurunan eskalasi.",
+      "C": "Menolak dan mengutamakan diplomasi."
+    }
+  },
+  "wp_073": {
+    "title": "Peringatan radioaktif ringan",
+    "body": "Kebocoran kecil dilaporkan di sebuah fasilitas energi. Tidak dramatis, tetapi opini publik panik.",
+    "choices": {
+      "A": "Transparansi total dan inspeksi yang diperkuat.",
+      "B": "Komunikasi minimal untuk menghindari kepanikan.",
+      "C": "Menutup sementara fasilitas."
+    }
+  },
+  "wp_074": {
+    "title": "Ledakan harga sewa",
+    "body": "Harga sewa meledak di kota-kota besar. Kaum muda berkata: 'kami bayar hanya untuk bernapas'.",
+    "choices": {
+      "A": "Pembatasan sewa dan pembangunan.",
+      "B": "Insentif pajak bagi pemilik dan pembangunan.",
+      "C": "Jangan campur tangan: 'pasar'."
+    }
+  },
+  "wp_075": {
+    "title": "Turnamen e-sport dunia",
+    "body": "Sebuah turnamen e-sport ingin menetap di ibu kotamu. Ada yang menyebutnya jenius, ada yang menyebutnya pemborosan.",
+    "choices": {
+      "A": "Mendukung dan mempromosikan inovasi digital.",
+      "B": "Dukungan swasta saja, tanpa uang publik.",
+      "C": "Menolak: prioritas ada di tempat lain."
+    }
+  },
+  "wp_076": {
+    "title": "Pengangguran naik lagi",
+    "body": "Pengangguran naik lagi. Media meminta rencana yang jelas, dan cepat.",
+    "choices": {
+      "A": "Rencana pelatihan dan investasi publik.",
+      "B": "Pengurangan beban bagi perusahaan.",
+      "C": "Rencana besar reindustrialisasi jangka panjang."
+    }
+  },
+  "wp_077": {
+    "title": "Aliansi tersinggung",
+    "body": "Seorang sekutu lama merasa kamu mengabaikannya. Ia mengancam akan 'meninjau ulang hubungan'.",
+    "choices": {
+      "A": "Telepon langsung dan isyarat simbolis yang kuat.",
+      "B": "Tetap tegas: 'kita tidak memohon'.",
+      "C": "Kompensasi ekonomi dengan perjanjian dagang."
+    }
+  },
+  "wp_078": {
+    "title": "Peredaran narkoba meningkat",
+    "body": "Angka peredaran narkoba naik. Publik ingin hasil, bukan pidato.",
+    "choices": {
+      "A": "Memperkuat polisi dan kerja sama internasional.",
+      "B": "Pendekatan kesehatan publik dan pencegahan.",
+      "C": "Operasi besar dan spektakuler."
+    }
+  },
+  "wp_079": {
+    "title": "Pelarian dari penjara",
+    "body": "Terjadi pelarian penjara yang spektakuler. Orang-orang berkata: 'kalau penjara saja bisa bocor, negara mau ke mana?'.",
+    "choices": {
+      "A": "Reformasi keamanan pemasyarakatan dan penambahan sarana.",
+      "B": "Sanksi dan reshuffle segera.",
+      "C": "Rencana reintegrasi yang diperkuat, langkah kontroversial."
+    }
+  },
+  "wp_080": {
+    "title": "Pakta teknologi",
+    "body": "Sebuah negara mitra menawarkan pakta teknologi: pertukaran paten dan riset bersama.",
+    "choices": {
+      "A": "Menandatangani: mempercepat inovasi.",
+      "B": "Menandatangani tetapi melindungi sektor sensitif.",
+      "C": "Menolak untuk mempertahankan kendali nasional."
+    }
+  },
+  "wp_081": {
+    "title": "Krisis maskapai penerbangan",
+    "body": "Sebuah maskapai nasional sedang kesulitan. Menyelamatkannya mahal.",
+    "choices": {
+      "A": "Menyelamatkan dengan syarat yang ketat.",
+      "B": "Membiarkan jatuh: persaingan.",
+      "C": "Menasionalisasi sementara."
+    }
+  },
+  "wp_082": {
+    "title": "Perayaan nasional yang tegang",
+    "body": "Perayaan nasional semakin dekat. Risiko kerusuhan ada, tetapi larangan berarti kemarahan.",
+    "choices": {
+      "A": "Tetap mengadakan dengan keamanan diperkuat.",
+      "B": "Membatalkan demi kehati-hatian.",
+      "C": "Tetap mengadakan tetapi sangat dibatasi dan diawasi."
+    }
+  },
+  "wp_083": {
+    "title": "Perselisihan soal perjanjian",
+    "body": "Sebuah perjanjian ekonomi diperdebatkan di parlemen. Kubu politikmu terbelah.",
+    "choices": {
+      "A": "Menegosiasikan ulang beberapa poin untuk menyatukan.",
+      "B": "Memaksa lolos: otoritas.",
+      "C": "Menarik teks dan memulai dari nol."
+    }
+  },
+  "wp_084": {
+    "title": "Krisis donor darah",
+    "body": "Stok darah rendah. Rumah sakit memberi peringatan. Situasi serius, tetapi masih bisa dimobilisasi.",
+    "choices": {
+      "A": "Kampanye nasional besar dan insentif.",
+      "B": "Seruan sederhana tanpa insentif.",
+      "C": "Meminta bantuan logistik dari sekutu."
+    }
+  },
+  "wp_085": {
+    "title": "Ketegangan di zona maritim",
+    "body": "Beberapa kapal saling berhadapan di zona maritim strategis. Masing-masing menguji yang lain.",
+    "choices": {
+      "A": "Patroli diperkuat dan pencegahan.",
+      "B": "Diskusi segera dan penurunan eskalasi.",
+      "C": "Koalisi dengan sekutu untuk kehadiran bersama."
+    }
+  },
+  "wp_086": {
+    "title": "Reformasi peradilan",
+    "body": "Sistem peradilan dinilai terlalu lambat. Sebagian ingin lebih banyak sarana, sebagian lagi lebih tegas.",
+    "choices": {
+      "A": "Lebih banyak sarana dan penyederhanaan prosedur.",
+      "B": "Ketegasan lebih tinggi dan hukuman lebih cepat.",
+      "C": "Proyek besar partisipatif, tetapi akan lama."
+    }
+  },
+  "wp_087": {
+    "title": "Boikot budaya",
+    "body": "Sebuah gerakan menyerukan boikot terhadap acara budaya yang terkait dengan mitra asing. Dilema.",
+    "choices": {
+      "A": "Tetap menggelar acara: budaya di atas ketegangan.",
+      "B": "Membatalkan: menghindari polemik.",
+      "C": "Mengubahnya menjadi acara internasional yang lebih luas."
+    }
+  },
+  "wp_088": {
+    "title": "Krisis nelayan",
+    "body": "Para nelayan memprotes kuota, biaya, dan persaingan. Mereka mengancam memblokir pelabuhan.",
+    "choices": {
+      "A": "Bantuan dan negosiasi internasional soal kuota.",
+      "B": "Subsidi sementara tanpa bernegosiasi.",
+      "C": "Memperketat: kontrol dan sanksi terhadap penangkapan ilegal."
+    }
+  },
+  "wp_089": {
+    "title": "Kelangkaan dokter",
+    "body": "Beberapa wilayah kekurangan dokter. Warga berkata: 'kami tinggal jauh, kami mati cepat'.",
+    "choices": {
+      "A": "Bonus dan pusat kesehatan publik.",
+      "B": "Telekonsultasi massal dan insentif.",
+      "C": "Kewajiban layanan sementara untuk lulusan baru."
+    }
+  },
+  "wp_090": {
+    "title": "Kebocoran prototipe militer",
+    "body": "Sebuah prototipe militer muncul di forum. Detail teknis beredar. Memalukan.",
+    "choices": {
+      "A": "Penyelidikan diam-diam dan memperkuat keamanan internal.",
+      "B": "Berkomunikasi: meremehkan dan mengaburkan jejak.",
+      "C": "Mempercepat program: 'kita tidak akan diperlambat'."
+    }
+  },
+  "wp_091": {
+    "title": "Krisis perfilman nasional",
+    "body": "Perfilman nasional kehilangan pijakan. Sebagian orang meminta rencana untuk menjaga budaya.",
+    "choices": {
+      "A": "Dukungan publik dan ekspor budaya.",
+      "B": "Bantuan terbatas, ekonomi prioritas.",
+      "C": "Kemitraan dengan platform asing."
+    }
+  },
+  "wp_092": {
+    "title": "Anggaran pertahanan diperdebatkan",
+    "body": "Anggaran pertahananmu meningkat. Sebagian warga merasa uang itu seharusnya digunakan di tempat lain.",
+    "choices": {
+      "A": "Mempertahankan dan menjelaskan strategi dengan transparansi.",
+      "B": "Mengurangi dan berinvestasi di sosial.",
+      "C": "Mempertahankan tetapi menyeimbangkan dengan rencana ekonomi."
+    }
+  },
+  "wp_093": {
+    "title": "Krisis kepercayaan ilmiah",
+    "body": "Polemik tentang obat yang tidak mematikan membuat kepercayaan merosot. Para ahli marah, publik juga.",
+    "choices": {
+      "A": "Membentuk komisi independen publik.",
+      "B": "Membela institusi tanpa kompromi.",
+      "C": "Mengubah aturan dan memperketat validasi."
+    }
+  },
+  "wp_094": {
+    "title": "Sebuah pulau ingin lebih otonom",
+    "body": "Sebuah pulau di negaramu menuntut otonomi lebih besar. Perdebatan memanas, tetapi kamu ingin menghindari perpecahan.",
+    "choices": {
+      "A": "Menegosiasikan status yang lebih otonom.",
+      "B": "Menolak mentah-mentah: persatuan nasional.",
+      "C": "Mengusulkan referendum yang diawasi."
+    }
+  },
+  "wp_095": {
+    "title": "Diplomasi olahraga",
+    "body": "Sebuah pertandingan persahabatan dengan rival bisa meredakan hubungan. Atau memicu skandal sejak menit pertama.",
+    "choices": {
+      "A": "Mengadakan pertandingan dan mengatur keamanannya.",
+      "B": "Menolak untuk menghindari insiden diplomatik.",
+      "C": "Menggelar acara budaya bersama sebagai gantinya."
+    }
+  },
+  "wp_096": {
+    "title": "Krisis startup",
+    "body": "Startup mengeluh: pajak, kerumitan, kurang investor. Mereka mengancam pergi.",
+    "choices": {
+      "A": "Menyederhanakan dan memberi kredit pajak inovasi.",
+      "B": "Bantuan terarah untuk sektor strategis.",
+      "C": "Biarkan saja: hanya yang terbaik yang bertahan."
+    }
+  },
+  "wp_097": {
+    "title": "Insiden di bandara",
+    "body": "Insiden keamanan menunda ribuan penerbangan. Opini publik marah, diplomat juga.",
+    "choices": {
+      "A": "Memperkuat keamanan dan menyampaikan permintaan maaf resmi.",
+      "B": "Menghukum pimpinan secara terbuka.",
+      "C": "Mendelegasikan ke badan swasta khusus."
+    }
+  },
+  "wp_098": {
+    "title": "KTT ekonomi",
+    "body": "Sebuah KTT ekonomi dunia menginginkan arah yang jelas: pertumbuhan, redistribusi, atau kehati-hatian.",
+    "choices": {
+      "A": "Mengumumkan rencana besar pro-investasi.",
+      "B": "Mengumumkan disiplin anggaran yang tegas.",
+      "C": "Mengumumkan kompromi seimbang, posisi moderat."
+    }
+  },
+  "wp_099": {
+    "title": "Nuklir sipil",
+    "body": "Program nuklir sipil diusulkan demi kemandirian energi. Topik ini sangat membelah.",
+    "choices": {
+      "A": "Meluncurkan dengan transparansi dan kontrol ketat.",
+      "B": "Meluncurkan cepat dan kuat: kedaulatan dulu.",
+      "C": "Meninggalkan dan berinvestasi pada energi lain."
+    }
+  },
+  "wp_100": {
+    "title": "Hadiah diplomatik yang canggung",
+    "body": "Seorang mitra memberimu hadiah raksasa. Opini publik menjerit propaganda, tetapi menolak akan terasa sulit.",
+    "choices": {
+      "A": "Menerima dan membalas dengan hadiah budaya.",
+      "B": "Menolak dengan sopan: 'terima kasih, tapi tidak'.",
+      "C": "Menerima dan memamerkannya ke publik."
+    }
+  },
+  "wp_101": {
+    "title": "Gangguan kartu bank",
+    "body": "Pembayaran kartu mengalami gangguan. Antrean memanjang dan para pedagang panik.",
+    "choices": {
+      "A": "Menjamin kompensasi bagi para pedagang.",
+      "B": "Menyita kendali operator untuk memulihkan darurat.",
+      "C": "Membiarkan bank sentral menangani tanpa komunikasi."
+    }
+  },
+  "wp_102": {
+    "title": "KTT lautan",
+    "body": "Sebuah KTT tentang perlindungan lautan menginginkan pengumuman yang kuat. Nelayan dan LSM menatapmu.",
+    "choices": {
+      "A": "Menciptakan kawasan laut lindung yang ambisius.",
+      "B": "Langkah bertahap dan bantuan pada sektor terkait.",
+      "C": "Pidato simbolis tanpa kewajiban."
+    }
+  },
+  "wp_103": {
+    "title": "Insiden pesawat sipil",
+    "body": "Insiden teknis memaksa pesawat mendarat darurat. Tidak serius, tetapi ketakutan menyebar.",
+    "choices": {
+      "A": "Audit keselamatan penerbangan dan transparansi total.",
+      "B": "Memperkuat keselamatan, komunikasi minimal.",
+      "C": "Menghukum maskapai secara terbuka."
+    }
+  },
+  "wp_104": {
+    "title": "Reformasi izin mengemudi",
+    "body": "Izin mengemudi dinilai terlalu mahal dan terlalu lama. Kaum muda menuntut perubahan segera.",
+    "choices": {
+      "A": "Menurunkan biaya melalui bantuan dan penyederhanaan.",
+      "B": "Digitalisasi dan pengetatan: lebih sedikit gagal, lebih banyak kontrol.",
+      "C": "Tidak mengubah apa pun: 'ada prioritas lain'."
+    }
+  },
+  "wp_105": {
+    "title": "Hampir jadi krisis kesehatan",
+    "body": "Virus ringan tetapi sangat menular menyebar. Perusahaan khawatir dengan absensi massal.",
+    "choices": {
+      "A": "Pencegahan dan anjuran kerja jarak jauh.",
+      "B": "Tidak ada instruksi: 'hidup normal'.",
+      "C": "Langkah sementara yang ketat di ruang tertutup."
+    }
+  },
+  "wp_106": {
+    "title": "Pembengkakan anggaran daerah",
+    "body": "Sebuah daerah melampaui anggarannya dan meminta negara menutupinya. Daerah lain menjerit tidak adil.",
+    "choices": {
+      "A": "Membantu, tetapi dengan syarat dan audit.",
+      "B": "Menolak: tanggung jawab lokal.",
+      "C": "Membuat dana nasional untuk mencegah krisis."
+    }
+  },
+  "wp_107": {
+    "title": "Perdebatan tentang bahasa resmi",
+    "body": "Sebuah gerakan ingin memperkuat bahasa nasional dalam administrasi. Perdebatan membelah negara.",
+    "choices": {
+      "A": "Memperkuat dengan pendekatan edukatif dan pengecualian.",
+      "B": "Menerapkan secara ketat tanpa pengecualian.",
+      "C": "Menolak: prioritas pada keterbukaan."
+    }
+  },
+  "wp_108": {
+    "title": "Rute dagang terancam",
+    "body": "Sebuah rute dagang internasional menjadi tidak stabil. Perusahaan asuransi menaikkan tarif.",
+    "choices": {
+      "A": "Mengawal kapal kargo dengan angkatan laut.",
+      "B": "Koalisi internasional untuk pengamanan.",
+      "C": "Memutar: rute baru meski lebih mahal."
+    }
+  },
+  "wp_109": {
+    "title": "Krisis les privat",
+    "body": "Les privat meledak dan memperlebar ketimpangan. Para orang tua meminta solusi.",
+    "choices": {
+      "A": "Dukungan belajar publik yang diperkuat.",
+      "B": "Voucher pendidikan untuk keluarga berpenghasilan rendah.",
+      "C": "Biarkan saja: 'kebebasan memilih'."
+    }
+  },
+  "wp_110": {
+    "title": "Kebocoran rencana pertahanan",
+    "body": "Dokumen internal tentang pertahanan bocor. Tidak ada yang rahasia, tetapi citra penguasaan terkena pukulan.",
+    "choices": {
+      "A": "Penyelidikan dan modernisasi prosedur.",
+      "B": "Menuduh aktor asing tanpa bukti publik.",
+      "C": "Meremehkan dan lanjut seperti biasa."
+    }
+  },
+  "wp_111": {
+    "title": "Krisis limbah elektronik",
+    "body": "Limbah elektronik menumpuk. Media menyebutnya 'gunung ponsel lama'.",
+    "choices": {
+      "A": "Rencana daur ulang dan bonus tukar tambah.",
+      "B": "Pajak pada perangkat baru untuk membiayai pemilahan.",
+      "C": "Perjanjian ekspor internasional sementara."
+    }
+  },
+  "wp_112": {
+    "title": "Duel kepala negara",
+    "body": "Seorang kepala negara rival memprovokasimu dengan halus di depan umum. Kamera menunggu balasanmu.",
+    "choices": {
+      "A": "Menjawab dengan humor dan meredakan.",
+      "B": "Menjawab tegas untuk menandai otoritas.",
+      "C": "Mengabaikan dan menerbitkan pernyataan resmi yang tenang."
+    }
+  },
+  "wp_113": {
+    "title": "Krisis kemacetan",
+    "body": "Kemacetan mencapai tingkat rekor. Perusahaan membicarakan kerugian besar.",
+    "choices": {
+      "A": "Berinvestasi pada transportasi umum dan berbagi kendaraan.",
+      "B": "Menerapkan jalan berbayar perkotaan, tetapi ini tidak populer.",
+      "C": "Membangun lajur tambahan dengan cepat."
+    }
+  },
+  "wp_114": {
+    "title": "Rekor panas",
+    "body": "Gelombang panas yang tidak biasa melanda negara. Rumah sakit memperingatkan soal warga rentan.",
+    "choices": {
+      "A": "Rencana gelombang panas dan pusat pendinginan.",
+      "B": "Membiarkan kota menangani sendiri.",
+      "C": "Langkah luar biasa: jam kerja disesuaikan dan pembatasan."
+    }
+  },
+  "wp_115": {
+    "title": "Industri budaya menurun",
+    "body": "Gedung pertunjukan kosong. Para seniman meminta rencana dukungan.",
+    "choices": {
+      "A": "Dukungan publik dan ekspor budaya.",
+      "B": "Kemitraan swasta dan bantuan terarah.",
+      "C": "Menolak: 'biarkan pasar yang memutuskan'."
+    }
+  },
+  "wp_116": {
+    "title": "Reformasi layanan publik",
+    "body": "Kamu ditawari untuk menggabungkan beberapa lembaga publik demi penghematan. Serikat sudah protes lebih dulu.",
+    "choices": {
+      "A": "Penggabungan bertahap dengan jaminan sosial.",
+      "B": "Penggabungan cepat dan ketat.",
+      "C": "Membatalkan dan berinvestasi untuk memperbaiki saja."
+    }
+  },
+  "wp_117": {
+    "title": "Krisis asuransi rumah",
+    "body": "Asuransi rumah meledak di beberapa wilayah. Orang-orang berkata: 'kami bahkan tak bisa lagi terlindungi'.",
+    "choices": {
+      "A": "Menciptakan mekanisme reasuransi publik.",
+      "B": "Bantuan terarah untuk wilayah yang paling terdampak.",
+      "C": "Tidak campur tangan: persaingan."
+    }
+  },
+  "wp_118": {
+    "title": "Skandal pilih kasih",
+    "body": "Sebuah tender publik tampaknya menguntungkan teman seorang menteri. Terasa seperti drama panjang.",
+    "choices": {
+      "A": "Membatalkan tender dan membuka penyelidikan.",
+      "B": "Membela prosedur: 'semuanya legal'.",
+      "C": "Mengganti menteri dan menutup bab itu."
+    }
+  },
+  "wp_119": {
+    "title": "Perdebatan tentang seragam sekolah",
+    "body": "Beberapa sekolah ingin mewajibkan seragam. Orang-orang bicara soal kesetaraan atau nostalgia.",
+    "choices": {
+      "A": "Mengizinkan secara lokal sebagai eksperimen.",
+      "B": "Mewajibkan secara nasional.",
+      "C": "Menolak demi kebebasan individu."
+    }
+  },
+  "wp_120": {
+    "title": "Perjanjian antariksa",
+    "body": "Seorang mitra menawarkan perjanjian antariksa: berbagi data dan misi bersama. Pihak militer tertarik.",
+    "choices": {
+      "A": "Menandatangani: kerja sama terbuka.",
+      "B": "Menandatangani tetapi mengklasifikasikan sebagian yang strategis.",
+      "C": "Menolak untuk mempertahankan kendali antariksa."
+    }
+  },
+  "wp_121": {
+    "title": "Krisis perumahan mahasiswa",
+    "body": "Perumahan mahasiswa kurang. Universitas khawatir akan tahun akademik yang kacau.",
+    "choices": {
+      "A": "Rencana kilat: hunian modular.",
+      "B": "Bantuan keuangan kepada mahasiswa, tanpa pembangunan.",
+      "C": "Kemitraan dengan swasta untuk membangun cepat."
+    }
+  },
+  "wp_122": {
+    "title": "Kelangkaan suku cadang",
+    "body": "Bengkel kekurangan suku cadang. Waktu tunggu meledak, sopir taksi mengeluh, semua orang mengeluh.",
+    "choices": {
+      "A": "Merelokasi sebagian produksi.",
+      "B": "Perjanjian impor prioritas.",
+      "C": "Stok strategis, mahal tetapi aman."
+    }
+  },
+  "wp_123": {
+    "title": "Krisis polisi kota",
+    "body": "Para wali kota meminta lebih banyak sarana keamanan lokal. Kelompok masyarakat khawatir akan eskalasi.",
+    "choices": {
+      "A": "Lebih banyak sarana plus kontrol dan pelatihan.",
+      "B": "Lebih banyak sarana tanpa debat.",
+      "C": "Berinvestasi pada pencegahan dan mediasi."
+    }
+  },
+  "wp_124": {
+    "title": "Perjanjian ilmiah",
+    "body": "Sebuah perjanjian ilmiah menjanjikan kemajuan, tetapi mengharuskan berbagi data sensitif.",
+    "choices": {
+      "A": "Menandatangani dengan pengaman ketat.",
+      "B": "Menandatangani segera: percaya saja.",
+      "C": "Menolak: risiko terlalu besar."
+    }
+  },
+  "wp_125": {
+    "title": "Krisis seniman jalanan",
+    "body": "Para seniman jalanan mengeluh tentang aturan yang terlalu ketat. Mereka mengancam mogok berjuggling.",
+    "choices": {
+      "A": "Melonggarkan aturan dan membuat zona khusus.",
+      "B": "Mempertahankan: ketertiban umum dulu.",
+      "C": "Membuat izin berbayar, langkah kontroversial."
+    }
+  },
+  "wp_126": {
+    "title": "Peringatan pada jembatan",
+    "body": "Sebuah jembatan utama menunjukkan tanda-tanda kelelahan. Menutup berarti kacau, tidak menutup berarti berisiko.",
+    "choices": {
+      "A": "Menutup sebagian dan memperbaiki cepat.",
+      "B": "Membiarkan tetap terbuka dan mengawasi ketat.",
+      "C": "Membangun alternatif darurat."
+    }
+  },
+  "wp_127": {
+    "title": "Konflik soal kuota impor",
+    "body": "Para industrialis ingin membatasi impor yang dianggap tidak adil. Mitramu mengancam membalas.",
+    "choices": {
+      "A": "Membatasi dengan pengecualian dan negosiasi.",
+      "B": "Membatasi secara brutal.",
+      "C": "Menolak dan mengimbanginya dengan bantuan internal."
+    }
+  },
+  "wp_128": {
+    "title": "Festival gastronomi",
+    "body": "Festival gastronomi besar bisa mendongkrak pariwisata. Tapi biayanya sangat mahal, terutama dalam mentega.",
+    "choices": {
+      "A": "Membiayai: etalase dunia.",
+      "B": "Dukungan moderat dan sponsor swasta.",
+      "C": "Menolak: bukan prioritas."
+    }
+  },
+  "wp_129": {
+    "title": "Krisis kebakaran perkotaan",
+    "body": "Kebakaran dengan asal tidak diketahui melanda beberapa kawasan. Rumor menyebar ke segala arah.",
+    "choices": {
+      "A": "Penyelidikan, bala bantuan pemadam, dan pencegahan.",
+      "B": "Operasi keamanan besar dan terlihat jelas.",
+      "C": "Komunikasi minimal untuk menghindari panik."
+    }
+  },
+  "wp_130": {
+    "title": "Rumor kelangkaan bensin",
+    "body": "Sekadar rumor memicu antrean di SPBU. Belum ada yang dikonfirmasi, tetapi kepanikan sudah terjadi.",
+    "choices": {
+      "A": "Segera berkomunikasi dan membuka stok.",
+      "B": "Membiarkan lewat: nanti juga reda.",
+      "C": "Membatasi pembelian per kendaraan untuk sementara."
+    }
+  },
+  "wp_131": {
+    "title": "Proyek besar serat optik",
+    "body": "Rencana serat optik nasional siap. Bisa mendongkrak ekonomi, tetapi mahal dan mengganggu jalan.",
+    "choices": {
+      "A": "Meluncurkan rencana lengkap sekarang.",
+      "B": "Meluncurkan bertahap untuk meratakan biaya.",
+      "C": "Membiarkan swasta melakukannya tanpa dukungan."
+    }
+  },
+  "wp_132": {
+    "title": "Perjanjian non-agresi",
+    "body": "Negara rival menawarkan perjanjian non-agresi. Sebagian melihat tipu muslihat, sebagian melihat peluang.",
+    "choices": {
+      "A": "Menandatangani dengan verifikasi dan mekanisme.",
+      "B": "Menolak: dianggap lemah.",
+      "C": "Menandatangani cepat untuk menenangkan pasar."
+    }
+  },
+  "wp_133": {
+    "title": "Reformasi bea cukai",
+    "body": "Bea cukai dituduh terlalu lambat. Tekanan meningkat.",
+    "choices": {
+      "A": "Memodernisasi dengan teknologi dan perekrutan.",
+      "B": "Memperketat kontrol semaksimal mungkin.",
+      "C": "Menyederhanakan dengan mengurangi beberapa kontrol."
+    }
+  },
+  "wp_134": {
+    "title": "Krisis taksi",
+    "body": "Pengemudi taksi memprotes aplikasi mobilitas baru. Pengguna cuma ingin tiba tepat waktu.",
+    "choices": {
+      "A": "Menegosiasikan kompromi dan aturan yang adil.",
+      "B": "Mendukung inovasi: biarkan aplikasinya.",
+      "C": "Memblokir aplikasi sementara."
+    }
+  },
+  "wp_135": {
+    "title": "Perundungan siber di sekolah",
+    "body": "Skandal perundungan online mengguncang negara. Orang tua menuntut langkah nyata.",
+    "choices": {
+      "A": "Rencana pencegahan dan sel bantuan.",
+      "B": "Undang-undang lebih ketat dan sanksi cepat.",
+      "C": "Membuat platform bertanggung jawab lewat perjanjian."
+    }
+  },
+  "wp_136": {
+    "title": "Insiden di laut",
+    "body": "Kapal nasional diperiksa secara kasar oleh kekuatan asing. Gambarnya beredar di mana-mana.",
+    "choices": {
+      "A": "Memprotes dan mengirim pengawalan.",
+      "B": "Bernegosiasi dengan tenang melalui jalur diplomatik.",
+      "C": "Menanggapi dengan sanksi ekonomi."
+    }
+  },
+  "wp_137": {
+    "title": "Krisis perpustakaan",
+    "body": "Perpustakaan tutup lebih awal karena kekurangan anggaran. Warga meluncurkan tagar #BukuAtauTidakSamaSekali.",
+    "choices": {
+      "A": "Menaikkan anggaran budaya lokal.",
+      "B": "Digitalisasi besar-besaran dan mengurangi jam buka.",
+      "C": "Mencari sponsor swasta."
+    }
+  },
+  "wp_138": {
+    "title": "Pariwisata antariksa",
+    "body": "Sebuah perusahaan ingin meluncurkan pariwisata antariksa dari wilayahmu. Prestise besar, risiko dan perdebatan juga besar.",
+    "choices": {
+      "A": "Mengizinkan dengan standar sangat ketat.",
+      "B": "Mengizinkan untuk menarik investasi.",
+      "C": "Menolak untuk menghindari kecelakaan besar."
+    }
+  },
+  "wp_139": {
+    "title": "Krisis barang palsu",
+    "body": "Barang palsu meledak. Merek-merek berteriak, konsumen tertipu.",
+    "choices": {
+      "A": "Memperkuat bea cukai dan kerja sama internasional.",
+      "B": "Undang-undang cepat dan sanksi berat.",
+      "C": "Kampanye edukasi dan tindakan terarah."
+    }
+  },
+  "wp_140": {
+    "title": "Reformasi jam kerja",
+    "body": "Ada usulan membuat kerja lebih fleksibel. Ada yang bertepuk tangan, ada yang menjerit soal ketidakpastian.",
+    "choices": {
+      "A": "Fleksibilitas dengan perlindungan kuat.",
+      "B": "Fleksibilitas luas untuk mendongkrak ekonomi.",
+      "C": "Menolak: mempertahankan model saat ini."
+    }
+  },
+  "wp_141": {
+    "title": "Insiden kedutaan",
+    "body": "Seorang demonstran melempar cat ke sebuah kedutaan asing. Sekutu menuntut permintaan maaf.",
+    "choices": {
+      "A": "Permintaan maaf resmi dan penguatan keamanan.",
+      "B": "Mengatakan itu kejadian terisolasi: tanpa permintaan maaf.",
+      "C": "Menghukum keras untuk menunjukkan keteladanan."
+    }
+  },
+  "wp_142": {
+    "title": "Krisis harga obat",
+    "body": "Harga beberapa obat naik. Asosiasi meminta regulasi segera.",
+    "choices": {
+      "A": "Membatasi sementara harga tertentu.",
+      "B": "Bantuan terarah untuk yang paling rentan.",
+      "C": "Menegosiasikan dengan industri sebagai imbalan keuntungan."
+    }
+  },
+  "wp_143": {
+    "title": "Pertukaran tahanan",
+    "body": "Pertukaran tahanan diusulkan dengan seorang rival. Opini publik terbelah.",
+    "choices": {
+      "A": "Menerima dengan diam-diam dan jaminan.",
+      "B": "Menolak: prinsip otoritas.",
+      "C": "Menerima secara publik sebagai isyarat damai."
+    }
+  },
+  "wp_144": {
+    "title": "Rencana besar reboisasi",
+    "body": "Rencana reboisasi bisa memperbaiki citra negara dan lingkungan, tetapi sebagian industrialis keberatan.",
+    "choices": {
+      "A": "Rencana ambisius dan lapangan kerja hijau.",
+      "B": "Rencana moderat dan sukarela.",
+      "C": "Membatalkan: ekonomi prioritas."
+    }
+  },
+  "wp_145": {
+    "title": "Rekrutmen kesehatan dalam krisis",
+    "body": "Rumah sakit kesulitan merekrut. Tenaga kesehatan menuntut hal konkret, bukan tepuk tangan.",
+    "choices": {
+      "A": "Menaikkan gaji dan kondisi kerja.",
+      "B": "Bonus satu kali dan reorganisasi.",
+      "C": "Merekrut internasional melalui perjanjian."
+    }
+  },
+  "wp_146": {
+    "title": "Perdebatan tentang kamera",
+    "body": "Beberapa wali kota ingin lebih banyak kamera di jalan. Yang lain khawatir akan pengawasan massal.",
+    "choices": {
+      "A": "Menerapkan dengan kontrol independen dan transparansi.",
+      "B": "Menerapkan secara massal: keamanan dulu.",
+      "C": "Menolak dan mendanai pencegahan sosial."
+    }
+  },
+  "wp_147": {
+    "title": "Krisis guru sains",
+    "body": "Guru sains kurang. Murid tertinggal, industri khawatir.",
+    "choices": {
+      "A": "Rencana rekrutmen dan bonus.",
+      "B": "Kelas online nasional sebagai tambahan.",
+      "C": "Kemitraan perusahaan-universitas."
+    }
+  },
+  "wp_148": {
+    "title": "Insiden di KTT ekonomi",
+    "body": "Di KTT ekonomi, seorang penerjemah salah bicara dan menciptakan salah paham. Delegasi lain tersinggung.",
+    "choices": {
+      "A": "Segera meminta maaf dan memperbaiki.",
+      "B": "Meremehkan: 'detail teknis'.",
+      "C": "Memberi konsesi ekonomi untuk menenangkan."
+    }
+  },
+  "wp_149": {
+    "title": "Krisis air mineral",
+    "body": "Merek air mineral populer dicurigai bermasalah dalam kualitas. Media sosial panik.",
+    "choices": {
+      "A": "Penarikan preventif dan penyelidikan transparan.",
+      "B": "Pemeriksaan diam-diam, tanpa pengumuman.",
+      "C": "Sanksi segera dan komunikasi tegas."
+    }
+  },
+  "wp_150": {
+    "title": "Pidato besar tentang kekuatan",
+    "body": "Kamu diminta menyampaikan pidato tentang 'kekuatan' negara. Ada yang ingin mimpi, ada yang ingin pragmatisme.",
+    "choices": {
+      "A": "Menekankan diplomasi dan stabilitas.",
+      "B": "Menekankan pertahanan dan kedaulatan.",
+      "C": "Menekankan ekonomi dan inovasi."
+    }
+  },
+  "wp_151": {
+    "title": "Pidato terlalu panjang",
+    "body": "Pidatomu begitu panjang sampai teleprompter menampilkan 'mode tidur'. Gambar-gambarnya beredar di mana-mana.",
+    "choices": {
+      "A": "Membuat pidato singkat dan menertawakan diri sendiri keesokan harinya.",
+      "B": "Menyalahkan teleprompter: 'sabotase teknis'.",
+      "C": "Meluncurkan reformasi: 'lebih sedikit omong, lebih banyak aksi'."
+    }
+  },
+  "wp_152": {
+    "title": "KTT... memasak",
+    "body": "Sebuah KTT internasional diadakan oleh acara memasak. Para koki ingin berfoto denganmu.",
+    "choices": {
+      "A": "Datang dan menandatangani 'pakta gastronomi' simbolis.",
+      "B": "Mengirim menterimu: kamu resmi tetap bekerja.",
+      "C": "Menolak: 'diplomasi tidak dilakukan dengan sendok sayur'."
+    }
+  },
+  "wp_153": {
+    "title": "Drone di parade",
+    "body": "Drone amatir melintas di atas parade resmi. Keamanan tegang, publik terpesona.",
+    "choices": {
+      "A": "Melarang dengan tegas dan memperkuat pengawasan.",
+      "B": "Membuat zona yang diizinkan dan pendaftaran sederhana.",
+      "C": "Mengundang klub drone ke program teknologi nasional."
+    }
+  },
+  "wp_154": {
+    "title": "Gangguan pembayaran",
+    "body": "Bug memblokir pembayaran elektronik selama 6 jam. Orang-orang menemukan kembali koin.",
+    "choices": {
+      "A": "Rencana darurat siber dan kompensasi terarah.",
+      "B": "Meremehkan: 'insiden kecil', lalu lanjut saja.",
+      "C": "Berinvestasi besar-besaran pada infrastruktur nasional yang tangguh."
+    }
+  },
+  "wp_155": {
+    "title": "Duta besar canggung",
+    "body": "Seorang duta besar melontarkan lelucon yang gagal total. Sangat gagal. Tingkat geopolitik: ubin lantai.",
+    "choices": {
+      "A": "Permintaan maaf resmi dan isyarat diplomatik.",
+      "B": "Memanggil pulang segera: nol toleransi.",
+      "C": "Membuat acara budaya bersama."
+    }
+  },
+  "wp_156": {
+    "title": "Kereta presiden terlambat",
+    "body": "Kereta resmi Anda datang terlambat. Slogan 'ketepatan waktu' dari kampanyemu muncul lagi dari arsip.",
+    "choices": {
+      "A": "Mengakuinya secara publik dan mengumumkan rencana kereta yang serius.",
+      "B": "Menyalahkan serikat: adu kekuatan langsung.",
+      "C": "Memprivatisasi sebagian operasional untuk mempercepat."
+    }
+  },
+  "wp_157": {
+    "title": "Museum mogok",
+    "body": "Museum tutup sebagai bentuk protes. Wisatawan memotret pintunya.",
+    "choices": {
+      "A": "Menaikkan anggaran budaya dan bernegosiasi cepat.",
+      "B": "Tetap tegas: ekonomi prioritas.",
+      "C": "Membuat dana publik-swasta dan reformasi tata kelola."
+    }
+  },
+  "wp_158": {
+    "title": "Robot pemotong rumput nasional",
+    "body": "Program inovasi mengusulkan robot pemotong rumput 'buatan dalam negeri'. Semua orang menilai rumputnya.",
+    "choices": {
+      "A": "Mensubsidi: etalase teknologi.",
+      "B": "Membatalkan: terlalu mirip gadget.",
+      "C": "Mengalihkan fokus ke robot yang berguna untuk rumah sakit dan logistik."
+    }
+  },
+  "wp_159": {
+    "title": "Kelangkaan cokelat",
+    "body": "Krisis logistik menyebabkan kelangkaan cokelat. Warga menyebutnya 'garis merah moral'.",
+    "choices": {
+      "A": "Mengamankan pasokan lewat perjanjian cepat.",
+      "B": "Meluncurkan produksi lokal dipercepat, tetapi mahal.",
+      "C": "Membatasi sementara dan bertaruh pada transparansi."
+    }
+  },
+  "wp_160": {
+    "title": "Festival di bawah perlindungan",
+    "body": "Festival besar terancam risiko keamanan. Penyelenggara ingin keputusan besok.",
+    "choices": {
+      "A": "Tetap mengadakan dengan keamanan diperkuat dan rencana jelas.",
+      "B": "Membatalkan: 'nol risiko'.",
+      "C": "Tetap mengadakan tetapi mengurangi kapasitas dan berkoordinasi dengan sekutu."
+    }
+  },
+  "wp_161": {
+    "title": "Startup mengasingkan diri",
+    "body": "Startup berkata: 'kami pergi'. Mereka bahkan membuat kaus. Tanda yang sangat buruk.",
+    "choices": {
+      "A": "Menyederhanakan secara besar-besaran dan menurunkan beberapa pajak.",
+      "B": "Bantuan terarah hanya untuk sektor strategis.",
+      "C": "Tetap tegas: 'kita tidak memerintah di bawah ancaman'."
+    }
+  },
+  "wp_162": {
+    "title": "Perbatasan para troll",
+    "body": "Gelombang disinformasi menargetkan negaramu. Para troll lebih terorganisir daripada agendamu.",
+    "choices": {
+      "A": "Membentuk unit anti-hoaks independen plus transparansi.",
+      "B": "Respons siber keras dan sanksi diplomatik.",
+      "C": "Kampanye literasi media dan kemitraan dengan platform."
+    }
+  },
+  "wp_163": {
+    "title": "Mogok pengiriman",
+    "body": "Para kurir berhenti bekerja. Warga menemukan kembali arti kata 'berjalan'.",
+    "choices": {
+      "A": "Mediasi dan kesepakatan sosial cepat.",
+      "B": "Rekuisisi terbatas untuk barang-barang penting.",
+      "C": "Mempercepat otomatisasi logistik, tetapi itu tidak populer."
+    }
+  },
+  "wp_164": {
+    "title": "Anggaran bocor",
+    "body": "Kesalahan akuntansi menampakkan lubang anggaran. Seorang penasihat berbisik: 'ups, satu nol kebanyakan'.",
+    "choices": {
+      "A": "Rencana penghematan bertahap dan audit publik.",
+      "B": "Pemotongan segera dan besar.",
+      "C": "Stimulus ekonomi untuk menutupnya lewat pertumbuhan."
+    }
+  },
+  "wp_165": {
+    "title": "Kapal terlalu dekat",
+    "body": "Sebuah kapal militer asing mendekat terlalu dekat. Para pelaut saling menyapa dengan agak terlalu dingin.",
+    "choices": {
+      "A": "Memperkuat kehadiran angkatan laut dan pencegahan.",
+      "B": "Panggilan langsung dan penurunan eskalasi diplomatik.",
+      "C": "Koalisi dengan sekutu untuk patroli bersama."
+    }
+  },
+  "wp_166": {
+    "title": "Operasi 'Kota bersih'",
+    "body": "Beberapa kota mengeluh soal sampah. Media meluncurkan tagar #TempatSampahNasional.",
+    "choices": {
+      "A": "Rencana kebersihan nasional dan lapangan kerja lokal.",
+      "B": "Sanksi dan kontrol yang diperkuat.",
+      "C": "Kemitraan swasta untuk memodernisasi pengumpulan."
+    }
+  },
+  "wp_167": {
+    "title": "Perombakan paspor",
+    "body": "Paspor saat ini 'terlalu mudah dipalsukan'. Dan 'terlalu jelek', tambah internet.",
+    "choices": {
+      "A": "Paspor biometrik nasional baru, tetapi biayanya besar.",
+      "B": "Solusi cepat yang dibeli dari luar negeri.",
+      "C": "Pengembangan bersama dengan sekutu dan standar bersama."
+    }
+  },
+  "wp_168": {
+    "title": "Stadion yang nyaris runtuh",
+    "body": "Stadion besar harus menjadi tuan rumah final. Inspeksi: 'ini bertahan berkat iman'.",
+    "choices": {
+      "A": "Renovasi kilat yang dibiayai negara.",
+      "B": "Memindahkan acara ke luar negeri, sungguh memalukan.",
+      "C": "Kemitraan publik-swasta dan pekerjaan cepat."
+    }
+  },
+  "wp_169": {
+    "title": "Diplomasi selfie",
+    "body": "Seorang kepala negara sangat ingin selfie denganmu. Stafmu berkata: 'jebakan viral'.",
+    "choices": {
+      "A": "Menerima dan mengarahkan pesan pada persahabatan.",
+      "B": "Menolak dengan sopan: protokol ketat.",
+      "C": "Menerima tetapi sebagai imbalan perjanjian konkret."
+    }
+  },
+  "wp_170": {
+    "title": "Inflasi suvenir",
+    "body": "Harga suvenir wisata melonjak. Wisatawan pulang hanya dengan foto.",
+    "choices": {
+      "A": "Meringankan pajak lokal sementara.",
+      "B": "Kontrol dan plafon harga di beberapa area.",
+      "C": "Mendukung kerajinan lokal untuk meningkatkan pasokan."
+    }
+  },
+  "wp_171": {
+    "title": "Serangan siber pada rumah sakit",
+    "body": "Sebuah rumah sakit terkena serangan siber. Direktur berkata: 'kami menulis di kertas seperti tahun 1998'.",
+    "choices": {
+      "A": "Rencana siber kesehatan dan investasi besar-besaran.",
+      "B": "Serangan balasan siber dan sanksi internasional.",
+      "C": "Mengalihdayakan keamanan ke aktor khusus."
+    }
+  },
+  "wp_172": {
+    "title": "Kelangkaan guru",
+    "body": "Beberapa sekolah kekurangan guru. Para orang tua berimprovisasi mengajar kerajinan tangan.",
+    "choices": {
+      "A": "Bonus, rekrutmen, dan pelatihan dipercepat.",
+      "B": "Digitalisasi besar sebagai penguat, tetapi ini tidak populer.",
+      "C": "Reformasi jangka panjang: karier dinilai ulang, biayanya tinggi."
+    }
+  },
+  "wp_173": {
+    "title": "KTT perdamaian... virtual",
+    "body": "Sebuah platform mengusulkan KTT diplomatik dalam realitas virtual. Keuntungannya: tidak ada jet lag.",
+    "choices": {
+      "A": "Menguji: inovasi diplomatik.",
+      "B": "Menolak: terlalu seperti gimik, terlalu berisiko bagi citra.",
+      "C": "Menerima tetapi dalam format hibrida dan aman."
+    }
+  },
+  "wp_174": {
+    "title": "Pemadaman listrik",
+    "body": "Pemadaman melanda beberapa wilayah. Orang-orang kembali menyalakan lilin dan teori-teori.",
+    "choices": {
+      "A": "Rencana jaringan dan modernisasi, tetapi mahal.",
+      "B": "Langkah penghematan energi segera, tetapi ini tidak populer.",
+      "C": "Perjanjian impor energi sementara dengan mitra."
+    }
+  },
+  "wp_175": {
+    "title": "Mogok pengatur lalu lintas udara",
+    "body": "Petugas pengatur lalu lintas udara mengancam mogok. Negara bersiap menemukan kembali kereta. Lagi.",
+    "choices": {
+      "A": "Bernegosiasi dan berinvestasi dalam modernisasi.",
+      "B": "Rekuisisi minimal untuk penerbangan penting.",
+      "C": "Mengotomatisasi sebagian dalam jangka menengah."
+    }
+  },
+  "wp_176": {
+    "title": "Gelembung properti",
+    "body": "Harga properti naik terlalu cepat. Katanya bahkan burung merpati ingin mengambil pinjaman.",
+    "choices": {
+      "A": "Membangun dan memberi bantuan terarah kepada pembeli pertama.",
+      "B": "Pembatasan yang lebih ketat pada sewa dan transaksi.",
+      "C": "Membiarkan pasar bernapas: intervensi lebih sedikit."
+    }
+  },
+  "wp_177": {
+    "title": "Pangkalan militer perlu dimodernisasi",
+    "body": "Sebuah pangkalan strategis sudah tua. Seorang tentara berkata: 'mesin kopi adalah senjata utama kami'.",
+    "choices": {
+      "A": "Memodernisasi cepat, anggaran pertahanan naik.",
+      "B": "Bekerja sama dengan sekutu untuk berbagi beban.",
+      "C": "Menunda dan berinvestasi dulu pada ekonomi."
+    }
+  },
+  "wp_178": {
+    "title": "Kontrak ekspor sensitif",
+    "body": "Sebuah perusahaan ingin mengekspor teknologi sensitif. Untungnya besar, tetapi menimbulkan kekhawatiran.",
+    "choices": {
+      "A": "Mengizinkan dengan kontrol dan klausul yang ketat.",
+      "B": "Menolak: kedaulatan dan keamanan dulu.",
+      "C": "Mengizinkan hanya kepada sekutu terpilih."
+    }
+  },
+  "wp_179": {
+    "title": "Wawancara TV yang agresif",
+    "body": "Sebuah stasiun besar menyiapkan wawancara 'tanpa sarung tangan'. Stafmu sudah mencari helm.",
+    "choices": {
+      "A": "Datang: transparansi dan penjelasan.",
+      "B": "Menolak: kamu berbicara pada rakyat dengan cara lain.",
+      "C": "Mengusulkan format panjang yang lebih tenang di tempat lain."
+    }
+  },
+  "wp_180": {
+    "title": "Kecelakaan satelit",
+    "body": "Satelit nasional kecil mengalami kerusakan. Media: 'kekalahan di antariksa'.",
+    "choices": {
+      "A": "Menghidupkan kembali program antariksa, tetapi mahal.",
+      "B": "Membeli layanan dari luar negeri, lebih cepat.",
+      "C": "Kerja sama internasional dan berbagi biaya."
+    }
+  },
+  "wp_181": {
+    "title": "Kelangkaan obat-obatan",
+    "body": "Obat-obatan umum langka. Orang-orang menimbun. Apotek menghela napas serempak.",
+    "choices": {
+      "A": "Merelokasi sebagian produksi, tetapi mahal.",
+      "B": "Perjanjian impor darurat dan stok strategis.",
+      "C": "Kontrol harga dan prioritas rumah sakit."
+    }
+  },
+  "wp_182": {
+    "title": "Peretasan kementerian",
+    "body": "Situs sebuah kementerian menampilkan spanduk 'halo'. Bukan 'halo' resmi.",
+    "choices": {
+      "A": "Audit total dan pelatihan siber bagi pegawai.",
+      "B": "Serangan balasan siber dan komunikasi tegas.",
+      "C": "Mengalihdayakan infrastruktur kritis ke operator bersertifikat."
+    }
+  },
+  "wp_183": {
+    "title": "Kebangkitan pariwisata",
+    "body": "Pariwisata menurun. Seorang penasihat mengusulkan: 'pasang panda raksasa di poster'.",
+    "choices": {
+      "A": "Rencana pariwisata dan penyederhanaan visa.",
+      "B": "Acara internasional besar, berisiko tetapi terlihat.",
+      "C": "Kampanye sederhana dan perbaikan infrastruktur."
+    }
+  },
+  "wp_184": {
+    "title": "Pertukaran universitas",
+    "body": "Sebuah negara menawarkan 10.000 beasiswa pertukaran. Sama-sama untung, kecuali untuk anggaranmu.",
+    "choices": {
+      "A": "Menerima dan ikut membiayai: soft power.",
+      "B": "Menerima tetapi mengurangi volume dan menargetkan.",
+      "C": "Menolak: prioritas pada keuangan internal."
+    }
+  },
+  "wp_185": {
+    "title": "Kemacetan rekor",
+    "body": "Kemacetan menjadi legendaris. Seorang wali kota berkata: 'kita akan membuka museum mobil yang tidak bergerak'.",
+    "choices": {
+      "A": "Berinvestasi dalam transportasi umum dan insentif.",
+      "B": "Langkah tegas: jalan berbayar perkotaan, tetapi ini tidak populer.",
+      "C": "Rencana jalan dan parkir: solusi cepat."
+    }
+  },
+  "wp_186": {
+    "title": "Konferensi iklim fiktif",
+    "body": "Kamu ditawari menjadi tuan rumah konferensi tentang udara dan air. Sangat mudah disetujui sampai menyangkut pembiayaan.",
+    "choices": {
+      "A": "Menjadi tuan rumah dan berinvestasi: citra internasional.",
+      "B": "Menjadi tuan rumah tanpa pengeluaran publik.",
+      "C": "Menolak: prioritas nasional dulu."
+    }
+  },
+  "wp_187": {
+    "title": "Protes veteran",
+    "body": "Para veteran meminta penanganan yang lebih baik. Media menulis: 'penghormatan atau dilupakan?'.",
+    "choices": {
+      "A": "Meningkatkan sarana dan layanan khusus.",
+      "B": "Reformasi administratif tanpa anggaran tambahan.",
+      "C": "Program dengan mitra dan patronase yang diawasi."
+    }
+  },
+  "wp_188": {
+    "title": "Lotere nasional diperdebatkan",
+    "body": "Lotere membiayai proyek publik. Sebagian orang menyebutnya 'anggaran lewat kartu gosok'.",
+    "choices": {
+      "A": "Mempertahankan tetapi mengaturnya lebih baik dan menampilkan transparansi.",
+      "B": "Mengurangi drastis: etika dulu.",
+      "C": "Memperluas: membiayai infrastruktur dengan cepat."
+    }
+  },
+  "wp_189": {
+    "title": "KTT kota kembar",
+    "body": "Kota-kota kembar ingin menggelar KTT besar. Salah satu wali kota ingin 'bendera raksasa'.",
+    "choices": {
+      "A": "Mendukung: diplomasi lokal dan pertukaran.",
+      "B": "Mendukung tetapi tanpa anggaran: simbol saja.",
+      "C": "Menolak: memusatkan kembali pada diplomasi nasional."
+    }
+  },
+  "wp_190": {
+    "title": "Kebocoran data olahraga",
+    "body": "Data program olahraga publik bocor. Terungkap bahwa anggaran 'bola' sangat besar.",
+    "choices": {
+      "A": "Transparansi, audit, dan koreksi.",
+      "B": "Sanksi segera dan komunikasi tegas.",
+      "C": "Reformasi digital dan investasi keamanan."
+    }
+  },
+  "wp_191": {
+    "title": "Pakta pertahanan siber",
+    "body": "Seorang sekutu menawarkan pakta pertahanan siber. Kelebihannya perlindungan, kekurangannya ketergantungan.",
+    "choices": {
+      "A": "Menandatangani: keamanan diperkuat.",
+      "B": "Menandatangani tetapi menjaga otonomi nasional yang kuat.",
+      "C": "Menolak untuk menjaga otonomi siber."
+    }
+  },
+  "wp_192": {
+    "title": "Koran satir",
+    "body": "Sebuah koran satir menggambarkanmu sebagai pinguin. Sangat elegan, sangat memalukan.",
+    "choices": {
+      "A": "Menertawakannya dan mengundang kartunis itu untuk meredakan situasi.",
+      "B": "Menggugat, dengan suasana yang tegang.",
+      "C": "Mengabaikan dan meluncurkan aksi populer yang konkret."
+    }
+  },
+  "wp_193": {
+    "title": "Jembatan strategis retak",
+    "body": "Sebuah jembatan besar menunjukkan retakan. Para sopir truk spontan berdoa.",
+    "choices": {
+      "A": "Memperbaiki cepat: anggaran besar, keamanan utama.",
+      "B": "Mengalihkan lalu lintas dan membuat rencana jangka panjang.",
+      "C": "Bantuan sekutu dan insinyur militer untuk mempercepat."
+    }
+  },
+  "wp_194": {
+    "title": "Pendinginan hubungan dagang",
+    "body": "Seorang mitra mengumumkan hambatan perdagangan. Secara resmi 'penyesuaian'. Secara tidak resmi sindiran.",
+    "choices": {
+      "A": "Bernegosiasi dengan tenang dan menawarkan kompromi.",
+      "B": "Membalas dengan langkah balasan.",
+      "C": "Cepat melakukan diversifikasi ke mitra lain."
+    }
+  },
+  "wp_195": {
+    "title": "Krisis antrean",
+    "body": "Administrasi memiliki antrean yang mengerikan. Seorang warga berkata: 'saya tumbuh besar di sini'.",
+    "choices": {
+      "A": "Digitalisasi cepat dan perekrutan sementara.",
+      "B": "Kontrol dan target ketat ala 'komando'.",
+      "C": "Mengalihdayakan sebagian proses, tetapi berisiko."
+    }
+  },
+  "wp_196": {
+    "title": "Parade militer diperdebatkan",
+    "body": "Parade militer dijadwalkan. Ada yang ingin kebanggaan, ada yang ingin anggaran sosial.",
+    "choices": {
+      "A": "Tetap menggelar tetapi mengurangi biaya dan menjelaskannya.",
+      "B": "Membatalkan dan mengalihkan ke layanan publik.",
+      "C": "Tetap menggelar dan mengundang mitra untuk pesan aliansi."
+    }
+  },
+  "wp_197": {
+    "title": "Insiden di lounge VIP bandara",
+    "body": "Insiden di lounge VIP menjadi viral. Bahkan ban berjalan pun punya pendapat.",
+    "choices": {
+      "A": "Permintaan maaf, audit keamanan, dan perbaikan cepat.",
+      "B": "Menghukum pimpinan secara terbuka.",
+      "C": "Menyerahkan pengelolaan kepada badan khusus."
+    }
+  },
+  "wp_198": {
+    "title": "Sindrom 'semua gratis'",
+    "body": "Sebuah rumor mengumumkan transportasi gratis sepenuhnya. Itu salah, tetapi sangat populer.",
+    "choices": {
+      "A": "Membantah dan menawarkan bantuan terarah yang nyata.",
+      "B": "Menguji gratis di akhir pekan, tetapi mahal.",
+      "C": "Mengabaikan rumor dan memperkuat kontrol."
+    }
+  },
+  "wp_199": {
+    "title": "Kabel bawah laut terputus",
+    "body": "Kabel internet bawah laut terputus. Negara melambat. Rapat kembali menjadi tatap muka.",
+    "choices": {
+      "A": "Memperbaiki darurat dan mengamankan infrastruktur.",
+      "B": "Menuduh aktor secara terbuka dan menaikkan tensi.",
+      "C": "Menciptakan redundansi melalui mitra dan satelit."
+    }
+  },
+  "wp_200": {
+    "title": "Anjing istana",
+    "body": "Anjing istana kabur dan masuk ke rapat resmi. Ia duduk di atas berkas rahasia.",
+    "choices": {
+      "A": "Menertawakannya dan menjadikannya momen komunikasi yang manusiawi.",
+      "B": "Bereaksi keras: protokol diperkuat.",
+      "C": "Mengubah insiden menjadi kampanye 'keamanan dan disiplin'."
+    }
+  },
+  "wp_201": {
+    "title": "Insiden drone yang hilang",
+    "body": "Sebuah drone pengawas tersesat dan jatuh di sebuah kedutaan. Gambarnya beredar di mana-mana.",
+    "choices": {
+      "A": "Menyampaikan permintaan maaf dan membuka penyelidikan transparan.",
+      "B": "Mengatakan itu drone cuaca dan lanjut seperti biasa.",
+      "C": "Mengusulkan perjanjian bersama tentang penerbangan drone."
+    }
+  },
+  "wp_202": {
+    "title": "Latihan yang terlalu realistis",
+    "body": "Sebuah latihan militer menimbulkan kepanikan. Tekanan meningkat.",
+    "choices": {
+      "A": "Meminta maaf dan memperbaiki peringatan sipil serta komunikasi.",
+      "B": "Mengakuinya: 'itu bukti bahwa kita siap'.",
+      "C": "Mengurangi latihan-latihan ini dan berinvestasi pada diplomasi."
+    }
+  },
+  "wp_203": {
+    "title": "Tetangga bikin 'boom'",
+    "body": "Negara tetangga menguji senjata baru. Rakyatmu ingin jawaban dan menterimu ingin kopi.",
+    "choices": {
+      "A": "Sanksi dan koalisi diplomatik.",
+      "B": "Memperkuat pertahanan dan menunjukkan otot.",
+      "C": "Mengusulkan inspeksi dan penurunan eskalasi."
+    }
+  },
+  "wp_204": {
+    "title": "Anggaran pertahanan atau kursi",
+    "body": "Pertahanan meminta anggaran lebih, tetapi kebocoran mengungkap pembelian 4.000 kursi kantor.",
+    "choices": {
+      "A": "Mengabulkan kenaikan, tetapi dengan audit publik yang ketat.",
+      "B": "Membekukan anggaran dan mengalihkannya ke ekonomi.",
+      "C": "Kenaikan yang terarah hanya pada kemampuan kritis."
+    }
+  },
+  "wp_205": {
+    "title": "Aliansi yang susah bangun",
+    "body": "Sekutu meneleponmu pukul 4 pagi: 'Kami punya masalah'. Penasihatmu mengusulkan menjawab lewat SMS.",
+    "choices": {
+      "A": "Dukungan segera dan terlihat jelas.",
+      "B": "Dukungan diam-diam dan bersyarat.",
+      "C": "Menolak: bukan konflik kami."
+    }
+  },
+  "wp_206": {
+    "title": "Manuver laut dan camar",
+    "body": "Seekor camar hinggap di radar saat latihan laut. Gambarnya beredar di mana-mana.",
+    "choices": {
+      "A": "Menertawakannya dan memperkuat pemeliharaan dengan serius.",
+      "B": "Berkomunikasi tegas: 'kemampuan tetap utuh' dan latihan diperkuat.",
+      "C": "Mengundang sekutu ke demonstrasi bersama."
+    }
+  },
+  "wp_207": {
+    "title": "Perang siber mesin fotokopi",
+    "body": "Serangan siber memblokir mesin fotokopi pemerintahan. Kekacauan meningkat di layanan publik.",
+    "choices": {
+      "A": "Rencana siber nasional dan anggaran keamanan.",
+      "B": "Menuduh aktor asing secara terbuka dan memberi sanksi.",
+      "C": "Perjanjian internasional penurunan eskalasi siber."
+    }
+  },
+  "wp_208": {
+    "title": "Tentara dengan sepatu bot hujan",
+    "body": "Foto resmi menunjukkan tentara memakai sepatu bot hujan. Publik tertawa, oposisi bersorak.",
+    "choices": {
+      "A": "Memodernisasi peralatan dengan cepat meski mahal, lalu meminta maaf.",
+      "B": "Mengakuinya: 'pragmatisme' dan memperbaiki citra lewat tindakan.",
+      "C": "Menggabungkan pembelian dengan sekutu untuk menurunkan biaya."
+    }
+  },
+  "wp_209": {
+    "title": "KTT damai dan prasmanan",
+    "body": "Kamu menjadi tuan rumah KTT perdamaian. Semua memanas gara-gara sofa terakhir di area prasmanan.",
+    "choices": {
+      "A": "Mediasi aktif dan komitmen publik.",
+      "B": "Netral sepenuhnya: kamu menyediakan ruangan, bukan khotbah.",
+      "C": "Menunda: terlalu tidak stabil, terlalu berisiko."
+    }
+  },
+  "wp_210": {
+    "title": "Mata-mata tertangkap... cosplay",
+    "body": "Seorang tersangka mata-mata ditangkap dengan kostum maskot taman hiburan. Ini jadi meme dunia.",
+    "choices": {
+      "A": "Pengadilan diam-diam dan jalur diplomatik paralel.",
+      "B": "Mengekspos secara publik: 'lihat siapa yang mereka kirim'.",
+      "C": "Pertukaran yang dinegosiasikan dengan imbalan konsesi."
+    }
+  },
+  "wp_211": {
+    "title": "Perbatasan dan turnamen petanque",
+    "body": "Sebuah zona perbatasan memanas. Tekanan meningkat.",
+    "choices": {
+      "A": "Mendukung inisiatif itu dan dialog lokal resmi.",
+      "B": "Menolak: memperkuat kontrol dan kehadiran militer.",
+      "C": "Mengusulkan mediasi nasional dan pengamat."
+    }
+  },
+  "wp_212": {
+    "title": "Sanksi yang berbalik arah",
+    "body": "Kamu mempertimbangkan sanksi. Tekanan meningkat.",
+    "choices": {
+      "A": "Sanksi terarah dan pengecualian strategis.",
+      "B": "Sanksi besar-besaran untuk menghantam keras.",
+      "C": "Tanpa sanksi: negosiasi dan kompromi."
+    }
+  },
+  "wp_213": {
+    "title": "Telepon merah... rusak",
+    "body": "Saluran darurat diplomatik rusak pada saat terburuk. Tekanan meningkat.",
+    "choices": {
+      "A": "Memperbaiki dan memodernisasi seluruh protokol darurat.",
+      "B": "Menggunakan saluran alternatif dan menunjukkan ketenangan.",
+      "C": "Memanfaatkan situasi untuk memaksakan pertemuan fisik segera."
+    }
+  },
+  "wp_214": {
+    "title": "Penyergapan media",
+    "body": "Saat kunjungan, seorang jurnalis meneriakimu: 'Perang atau damai?'. Kamera sudah merekam.",
+    "choices": {
+      "A": "Jawaban tenang: damai plus ketegasan defensif.",
+      "B": "Jawaban keras: pencegahan maksimal.",
+      "C": "Jawaban samar: 'kami menyesuaikan sesuai situasi'."
+    }
+  },
+  "wp_215": {
+    "title": "Pengiriman senjata... paintball",
+    "body": "Pesanan peralatan tiba. Masalahnya: itu perlengkapan paintball. Sangat berwarna, sangat tidak berguna.",
+    "choices": {
+      "A": "Audit pembelian dan penggantian segera, meski mahal.",
+      "B": "Mengubahnya menjadi latihan menyenangkan dan memperbaiki diam-diam.",
+      "C": "Menggabungkan pembelian dengan sekutu dan menegosiasikan ulang kontrak."
+    }
+  },
+  "wp_216": {
+    "title": "Pangkalan rahasia... terlalu berisik",
+    "body": "Sebuah pangkalan rahasia menimbulkan kebisingan. Tekanan meningkat.",
+    "choices": {
+      "A": "Transparansi sebagian dan kompensasi lokal.",
+      "B": "Diam total dan keamanan diperkuat.",
+      "C": "Memindahkan proyek dan bertaruh pada pertahanan berteknologi tinggi."
+    }
+  },
+  "wp_217": {
+    "title": "Pertempuran bendera",
+    "body": "Konflik pecah tentang bendera bersama. Para ahli ingin bertindak cepat.",
+    "choices": {
+      "A": "Kompromi diplomatik dan berbagi.",
+      "B": "Memaksakan benderamu: otoritas.",
+      "C": "Mencabut semua bendera: netralitas."
+    }
+  },
+  "wp_218": {
+    "title": "Rumor mobilisasi",
+    "body": "Sebuah rumor mengumumkan mobilisasi umum. Anak muda bertanya apakah ada 'opsi kerja jarak jauh'.",
+    "choices": {
+      "A": "Membantah dan memperkuat kesiapan sipil.",
+      "B": "Membiarkan ambiguitas menggantung untuk mencegah lawan.",
+      "C": "Mengumumkan layanan sukarela yang menarik."
+    }
+  },
+  "wp_219": {
+    "title": "Membeli pesawat atau rumah sakit",
+    "body": "Kamu ditawari membeli pesawat tempur baru. Tekanan meningkat.",
+    "choices": {
+      "A": "Membeli sebagian ditambah rencana kesehatan sebagai kompensasi.",
+      "B": "Prioritas kesehatan: menunda pembelian.",
+      "C": "Kerja sama dengan sekutu: berbagi armada."
+    }
+  },
+  "wp_220": {
+    "title": "Diplomasi balon",
+    "body": "Sebuah balon, ya balon, melintasi perbatasan dan mendarat di sebuah pangkalan. Semua orang berteriak soal insiden.",
+    "choices": {
+      "A": "Memperlakukan ini sebagai insiden kecil dan meredakannya.",
+      "B": "Respons tegas: protes resmi.",
+      "C": "Membuat protokol bersama untuk insiden konyol."
+    }
+  },
+  "wp_221": {
+    "title": "Embargo atas keripik",
+    "body": "Seorang rival mengancam embargo fiktif atas keripik favoritmu. Rakyat menganggap ini urusan pribadi.",
+    "choices": {
+      "A": "Respons ekonomi: diversifikasi dan produksi lokal.",
+      "B": "Tindakan balasan segera dan tegas.",
+      "C": "Negosiasi: 'damai demi camilan'."
+    }
+  },
+  "wp_222": {
+    "title": "Pers dengan seragam kamuflase",
+    "body": "Menterimu datang dengan pakaian kamuflase ke konferensi pers. Tekanan meningkat.",
+    "choices": {
+      "A": "Menegur: kesederhanaan dan strategi yang jelas.",
+      "B": "Mengakuinya: komunikasi kekuatan.",
+      "C": "Menggantinya untuk menenangkan opini publik."
+    }
+  },
+  "wp_223": {
+    "title": "Gencatan senjata dan penghitung waktu",
+    "body": "Kamu ditawari gencatan senjata. Para pihak menginginkan 'timer' dan foto. Sangat modern.",
+    "choices": {
+      "A": "Menerima dan mengirim para pengamat.",
+      "B": "Menolak: tanpa kepercayaan, tanpa kesepakatan.",
+      "C": "Menerima tetapi menuntut jaminan ekonomi."
+    }
+  },
+  "wp_224": {
+    "title": "Drone di perbatasan",
+    "body": "Drone pengantar salah GPS dan menjatuhkan paket di tempat lain. Tekanan meningkat.",
+    "choices": {
+      "A": "Perjanjian teknis dan kerja sama lintas perbatasan.",
+      "B": "Larangan ketat dan kontrol udara yang diperkuat.",
+      "C": "Mengubahnya menjadi proyek bersama logistik aman."
+    }
+  },
+  "wp_225": {
+    "title": "Tebusan diplomatik",
+    "body": "Sebuah kelompok menuntut tebusan untuk sebuah kapal kargo. Tekanan meningkat.",
+    "choices": {
+      "A": "Bernegosiasi melalui mediator dan operasi keamanan.",
+      "B": "Menolak membayar dan memperkuat pencegahan.",
+      "C": "Perjanjian ekonomi sementara demi pembebasan cepat."
+    }
+  },
+  "wp_226": {
+    "title": "Perdebatan tentang tempat perlindungan",
+    "body": "Masyarakat meminta tempat perlindungan sipil. Tekanan meningkat.",
+    "choices": {
+      "A": "Rencana tempat perlindungan dan kesiapan sipil, tetapi mahal.",
+      "B": "Kampanye informasi tanpa investasi besar.",
+      "C": "Perjanjian dengan sekutu untuk bantuan saat krisis."
+    }
+  },
+  "wp_227": {
+    "title": "Paspor diplomatik... hilang",
+    "body": "Seorang diplomat kehilangan paspornya. Di bandara. Di depan kamera. Seperti sketsa komedi.",
+    "choices": {
+      "A": "Reformasi keamanan diplomatik dan pelatihan.",
+      "B": "Meremehkan di depan publik, menyelesaikannya di balik layar.",
+      "C": "Perombakan segera: sebagai contoh."
+    }
+  },
+  "wp_228": {
+    "title": "Senjata atau jembatan",
+    "body": "Negara ragu antara jembatan dan rudal. Tekanan meningkat.",
+    "choices": {
+      "A": "Seimbang: pertahanan moderat dan infrastruktur.",
+      "B": "Pertahanan dulu: pencegahan maksimal.",
+      "C": "Infrastruktur dulu: diplomasi diperkuat."
+    }
+  },
+  "wp_229": {
+    "title": "Propaganda terlalu norak",
+    "body": "Sebuah kampanye propaganda bocor. Publik mengejeknya.",
+    "choices": {
+      "A": "Membatalkan dan memakai komunikasi yang jujur.",
+      "B": "Mengakuinya: 'ini untuk moral'.",
+      "C": "Membuat unit komunikasi modern dan transparan."
+    }
+  },
+  "wp_230": {
+    "title": "KTT militer dan kursi kosong",
+    "body": "Di KTT militer, sebuah kursi kosong memicu banyak pembicaraan. Gambar-gambarnya beredar di mana-mana.",
+    "choices": {
+      "A": "Menjelaskan di depan publik dan memperkuat aliansi.",
+      "B": "Merespons dengan demonstrasi kekuatan.",
+      "C": "Meninggalkan KTT dan meluncurkan inisiatif perdamaian."
+    }
+  },
+  "wp_231": {
+    "title": "Perlombaan rudal secara verbal",
+    "body": "Pidato-pidato makin memanas. Semua orang mengancam, terutama dengan kata-kata yang sangat panjang.",
+    "choices": {
+      "A": "Menurunkan eskalasi: telepon dan mediasi.",
+      "B": "Memperkeras: sanksi dan sikap militer.",
+      "C": "Perjanjian tentang 'garis merah' dan komunikasi langsung."
+    }
+  },
+  "wp_232": {
+    "title": "Kapal terblokir",
+    "body": "Sebuah kapal strategis terblokir oleh gangguan perangkat lunak. Tekanan meningkat.",
+    "choices": {
+      "A": "Berinvestasi dalam perawatan dan modernisasi.",
+      "B": "Menuduh pemasok dan memutus kontrak.",
+      "C": "Berbagi pemeliharaan dengan sekutu agar lebih andal."
+    }
+  },
+  "wp_233": {
+    "title": "Insiden dalam kunjungan kenegaraan",
+    "body": "Saat kunjungan kenegaraan, lagu kebangsaan diputar dalam versi karaoke. Lirik bergulir. Tak ada yang ikut.",
+    "choices": {
+      "A": "Meredakannya dengan humor dan gestur diplomatik.",
+      "B": "Meminta maaf secara resmi, protokol diperkuat.",
+      "C": "Acara tandingan: pengumuman perjanjian konkret."
+    }
+  },
+  "wp_234": {
+    "title": "Perburuan kapal selam",
+    "body": "Rumor menyebut ada kapal selam musuh. Tak ada yang melihat apa pun, tetapi semua orang punya 'pendapat'.",
+    "choices": {
+      "A": "Penyelidikan dan pengawasan diperkuat.",
+      "B": "Menenangkan: transparansi dan verifikasi publik.",
+      "C": "Aksi bersama dengan sekutu agar lebih kredibel."
+    }
+  },
+  "wp_235": {
+    "title": "Pengungsi perang",
+    "body": "Konflik fiktif memicu arus pengungsi. Negara ingin tetap manusiawi dan terorganisir.",
+    "choices": {
+      "A": "Penerimaan terstruktur dan bantuan internasional.",
+      "B": "Penerimaan terbatas dengan prioritas keamanan.",
+      "C": "Bantuan di tempat dan diplomasi aktif untuk menghentikan konflik."
+    }
+  },
+  "wp_236": {
+    "title": "Pertempuran satelit",
+    "body": "Seorang rival mengacaukan satelitmu. Tekanan meningkat.",
+    "choices": {
+      "A": "Berinvestasi di antariksa dan siber, tetapi mahal.",
+      "B": "Balasan diplomatik dan sanksi.",
+      "C": "Kerja sama dengan sekutu untuk redundansi."
+    }
+  },
+  "wp_237": {
+    "title": "Negosiasi di lift",
+    "body": "Dua delegasi bertemu di lift. Hanya 20 detik untuk menghindari krisis. Hening. Sangat hening.",
+    "choices": {
+      "A": "Membuat saluran dialog formal dengan cepat.",
+      "B": "Memanfaatkan momen untuk menunjukkan ketegasan di depan publik.",
+      "C": "Mengusulkan pertemuan informal untuk meredakan."
+    }
+  },
+  "wp_238": {
+    "title": "Pasar gelap suku cadang",
+    "body": "Terungkap pasar gelap suku cadang militer. Skandalnya: bahkan baut punya jaringan sendiri.",
+    "choices": {
+      "A": "Penyelidikan total, sanksi, dan reformasi pembelian.",
+      "B": "Menanganinya diam-diam agar tak memicu panik.",
+      "C": "Merelokasi produksi dan memperkuat kontrol."
+    }
+  },
+  "wp_239": {
+    "title": "Pertahanan anti... nyamuk",
+    "body": "Sebuah wilayah perbatasan diserbu nyamuk. Pihak militer meminta 'rencana operasional'.",
+    "choices": {
+      "A": "Rencana kesehatan dan logistik militer lokal.",
+      "B": "Mengabaikan: ini bukan urusan pertahanan.",
+      "C": "Kerja sama lintas perbatasan: aksi bersama."
+    }
+  },
+  "wp_240": {
+    "title": "Parade tank... mogok",
+    "body": "Parade militer sedang dipersiapkan. Tekanan meningkat.",
+    "choices": {
+      "A": "Memodernisasi armada dan mengakui kegagalan.",
+      "B": "Menyembunyikan insiden, komunikasi dikendalikan.",
+      "C": "Demo bersama dengan sekutu untuk menyelamatkan citra."
+    }
+  },
+  "wp_241": {
+    "title": "Ultimatum yang terlalu teatrikal",
+    "body": "Seorang rival mengirim ultimatum yang tidak biasa. Tekanan meningkat.",
+    "choices": {
+      "A": "Menjawab dengan tenang: dialog dan ketegasan.",
+      "B": "Jawaban keras: sikap militer dan sanksi.",
+      "C": "Menjadikannya bahan tertawaan di depan publik, tetapi itu berisiko."
+    }
+  },
+  "wp_242": {
+    "title": "Perbatasan dan festival musik",
+    "body": "Sebuah festival dekat perbatasan menarik banyak orang. Tekanan meningkat.",
+    "choices": {
+      "A": "Tetap mengadakan dengan keamanan diperkuat dan dialog.",
+      "B": "Membatalkan: risiko terlalu tinggi.",
+      "C": "Mengubahnya menjadi acara lintas negara yang diawasi."
+    }
+  },
+  "wp_243": {
+    "title": "Senjata ajaib... powerpoint",
+    "body": "Seorang industrialis menjual kepadamu senjata revolusioner fiktif. Demonya cuma PowerPoint.",
+    "choices": {
+      "A": "Mendanai prototipe yang diawasi, dengan risiko yang disadari.",
+      "B": "Menolak dan berinvestasi pada kemampuan yang sudah terbukti.",
+      "C": "Bekerja sama dengan sekutu untuk berbagi litbang."
+    }
+  },
+  "wp_244": {
+    "title": "Perselisihan antar sekutu",
+    "body": "Dua sekutu bertengkar dan memintamu memilih. Tekanan meningkat.",
+    "choices": {
+      "A": "Mediasi aktif, kamu jadi penengah.",
+      "B": "Kamu memilih satu pihak, jelas tapi merusak keseimbangan.",
+      "C": "Netralitas: kamu menolak memihak."
+    }
+  },
+  "wp_245": {
+    "title": "Pasokan yang rumit",
+    "body": "Sebuah operasi luar negeri kekurangan pasokan. Tekanan meningkat.",
+    "choices": {
+      "A": "Menaikkan anggaran logistik dan memperbaiki cepat.",
+      "B": "Mengurangi operasi: terlalu mahal.",
+      "C": "Berbagi pasokan dengan sekutu."
+    }
+  },
+  "wp_246": {
+    "title": "Kampanye rekrutmen yang aneh",
+    "body": "Pertahanan meluncurkan iklan rekrutmen yang sangat mencolok. Tekanan meningkat.",
+    "choices": {
+      "A": "Mempertahankan kampanye dan memodernisasi citra.",
+      "B": "Membatalkan: keseriusan dulu.",
+      "C": "Mempertahankan, tetapi menambahkan versi yang lebih sederhana."
+    }
+  },
+  "wp_247": {
+    "title": "Damai dirusak cuaca",
+    "body": "Badai menghalangi delegasi. Negosiasi dilakukan lewat video... dengan gangguan.",
+    "choices": {
+      "A": "Melanjutkan secara online, sabar dan diplomatis.",
+      "B": "Menunda dan meningkatkan tekanan politik.",
+      "C": "Mengirim mediator ke lokasi sesegera mungkin."
+    }
+  },
+  "wp_248": {
+    "title": "Pedagang senjata yang terlalu banyak bicara",
+    "body": "Seorang pedagang senjata fiktif terlalu banyak bicara ke media. Ia menyebut namamu dan menambahkan bahwa ia memberi harga bagus.",
+    "choices": {
+      "A": "Penyelidikan, transparansi, dan memutus kontrak yang meragukan.",
+      "B": "Membantah dan masuk mode diam total.",
+      "C": "Menegosiasikan ulang secara resmi dengan kontrol parlemen."
+    }
+  },
+  "wp_249": {
+    "title": "Eskalasi di turnamen olahraga",
+    "body": "Pertandingan internasional berubah jadi insiden diplomatik. Gambar-gambarnya beredar di mana-mana.",
+    "choices": {
+      "A": "Meredakan: pesan bersama dan pertemuan para pemimpin.",
+      "B": "Respons tegas: penarikan simbolis duta besar.",
+      "C": "Mengubahnya menjadi proyek budaya bersama dua negara."
+    }
+  },
+  "wp_250": {
+    "title": "Gencatan senjata... dan kucing",
+    "body": "Di tengah krisis fiktif, konferensi videomu terganggu oleh kucingmu yang berjalan di keyboard.",
+    "choices": {
+      "A": "Mengakuinya dengan humor lalu memusatkan kembali pada perdamaian.",
+      "B": "Komunikasi ketat: tanpa lelucon, sikap keras.",
+      "C": "Memanfaatkan viralitas untuk mendorong inisiatif diplomatik."
+    }
+  },
+  "wp_251": {
+    "title": "Peta harta karun militer",
+    "body": "Rencana operasi fiktif bocor dan terlihat seperti peta harta karun dengan tanda silang merah.",
+    "choices": {
+      "A": "Transparansi, penyelidikan, dan perbaikan prosedur.",
+      "B": "Berteriak manipulasi dan memperketat kontrol.",
+      "C": "Mengubahnya menjadi latihan ketahanan publik."
+    }
+  },
+  "wp_252": {
+    "title": "Rangkaian sanksi",
+    "body": "Pemerintahanmu sedang menyiapkan sanksi. Tekanan meningkat.",
+    "choices": {
+      "A": "Sanksi terarah dan koordinasi diplomatik.",
+      "B": "Sanksi besar-besaran dan segera.",
+      "C": "Membekukan sanksi dan membuka saluran rahasia."
+    }
+  },
+  "wp_253": {
+    "title": "Ketegangan di selat",
+    "body": "Selat strategis fiktif memanas. Seorang laksamana mengusulkan mengirim banyak kapal ke sana.",
+    "choices": {
+      "A": "Patroli diperkuat dan pesan penurunan eskalasi.",
+      "B": "Demonstrasi kekuatan: armada penuh.",
+      "C": "Mediasi internasional dan koridor maritim yang aman."
+    }
+  },
+  "wp_254": {
+    "title": "Duta besar terlalu blak-blakan",
+    "body": "Duta besarmu berkata siaran langsung: 'Mereka tidak bisa diatur'. Hening, lalu badai diplomatik.",
+    "choices": {
+      "A": "Permintaan maaf resmi dan pemanggilan pulang sementara.",
+      "B": "Mendukung duta besar: ketegasan.",
+      "C": "Meredakan dengan humor dan pertemuan bilateral."
+    }
+  },
+  "wp_255": {
+    "title": "Drone dan merpati",
+    "body": "Drone fiktifmu diusir oleh merpati terlatih. Oposisi bicara tentang kekalahan udara.",
+    "choices": {
+      "A": "Memodernisasi teknologi dan menghindari jadi bahan tertawaan.",
+      "B": "Komunikasi keras: 'kami sedang menguji langkah penangkal'.",
+      "C": "Mengusulkan kerja sama anti-drone dengan sekutu."
+    }
+  },
+  "wp_256": {
+    "title": "Gencatan senjata menit demi menit",
+    "body": "Gencatan senjata fiktif ditandatangani. Satu pihak ingin timer publik, pihak lain ingin jam pasir.",
+    "choices": {
+      "A": "Pengamat dan protokol jelas serta terbuka.",
+      "B": "Protokol diam-diam tanpa pertunjukan media.",
+      "C": "Menolak: tak ada jaminan yang kuat."
+    }
+  },
+  "wp_257": {
+    "title": "Serangan siber di museum",
+    "body": "Serangan siber fiktif menargetkan museum nasional: semua karya diubah namanya menjadi 'Tanpa judul 1'.",
+    "choices": {
+      "A": "Rencana siber dan bantuan kepada lembaga budaya.",
+      "B": "Menuduh secara terbuka dan menjatuhkan sanksi.",
+      "C": "Perjanjian budaya-siber dengan mitra."
+    }
+  },
+  "wp_258": {
+    "title": "Jenderal dan kumis strategis",
+    "body": "Jenderalmu menjadi sasaran media sosial. Gambar-gambarnya beredar di mana-mana.",
+    "choices": {
+      "A": "Menertawakannya dan memusatkan kembali pada strategi.",
+      "B": "Menegurnya: citra serius wajib.",
+      "C": "Mengirimnya berkeliling ke sekutu dalam diplomasi militer."
+    }
+  },
+  "wp_259": {
+    "title": "Embargo atas suku cadang",
+    "body": "Seorang rival memutus akses ke suku cadang penting. Tekanan meningkat.",
+    "choices": {
+      "A": "Merelokasi produksi, tetapi mahal.",
+      "B": "Mempercepat stok dan pembelian alternatif.",
+      "C": "Menegosiasikan perjanjian teknis lewat diplomasi."
+    }
+  },
+  "wp_260": {
+    "title": "KTT krisis lewat video",
+    "body": "KTT krisis via video. Tekanan meningkat.",
+    "choices": {
+      "A": "Mengoordinasikan posisi bersama dan meredakan.",
+      "B": "Mengumumkan sikap tegas secara sepihak.",
+      "C": "Mengusulkan pertemuan fisik cepat."
+    }
+  },
+  "wp_261": {
+    "title": "Perbatasan dan lomba memasak",
+    "body": "Insiden perbatasan nyaris berhasil dihindari berkat inisiatif improvisasi.",
+    "choices": {
+      "A": "Mendorong hubungan lokal dan dialog resmi.",
+      "B": "Menghentikan: memperkuat keamanan dan disiplin.",
+      "C": "Mengadakan pertemuan bilateral yang simbolis."
+    }
+  },
+  "wp_262": {
+    "title": "Bunker atau perpustakaan",
+    "body": "Anggaran bimbang antara bunker dan perpustakaan. Tekanan meningkat.",
+    "choices": {
+      "A": "Bunker plus rencana pendidikan kompensasi.",
+      "B": "Perpustakaan plus diplomasi dan pencegahan krisis.",
+      "C": "Campuran: kesiapan sipil ringan plus budaya."
+    }
+  },
+  "wp_263": {
+    "title": "Insiden di kedutaan",
+    "body": "Sebuah insiden di depan kedutaan memburuk. Tekanan meningkat.",
+    "choices": {
+      "A": "Meminta maaf, menyelidiki, dan membuka saluran diplomatik.",
+      "B": "Balasan tegas: pengusiran dan sanksi.",
+      "C": "Mediasi dengan mitra netral."
+    }
+  },
+  "wp_264": {
+    "title": "Perang siaran pers",
+    "body": "Setiap hari ada siaran pers yang lebih agresif dari sebelumnya. Para analis menyebutnya 'eskalasi dalam PDF'.",
+    "choices": {
+      "A": "Menghentikannya: telepon langsung dan penurunan eskalasi.",
+      "B": "Membalas setimpal: ketegasan.",
+      "C": "Membuat kelompok kerja rahasia yang stabil."
+    }
+  },
+  "wp_265": {
+    "title": "Pasukan cadangan yang jadi influencer",
+    "body": "Pasukan cadangan mengunggah video 'behind the scenes'. Populer, tetapi mengungkap terlalu banyak.",
+    "choices": {
+      "A": "Kerangka ketat dan pelatihan, sambil menjaga momentum.",
+      "B": "Larangan total dan sanksi.",
+      "C": "Komunikasi resmi yang dimodernisasi dan dikendalikan."
+    }
+  },
+  "wp_266": {
+    "title": "Sebuah rudal... berupa tweet",
+    "body": "Pemimpin rival men-tweet ancaman fiktif. Timmu mengusulkan menjawab dengan GIF.",
+    "choices": {
+      "A": "Jawaban tenang dan resmi plus saluran privat.",
+      "B": "Jawaban keras di depan publik: sikap defensif.",
+      "C": "Mengabaikan di depan publik, bertindak di belakang layar."
+    }
+  },
+  "wp_267": {
+    "title": "Latihan yang mengganggu turis",
+    "body": "Latihan fiktif menakuti para turis. Pembatalan beruntun dan pelaku hotel memohon.",
+    "choices": {
+      "A": "Menyesuaikan latihan dan komunikasi yang menenangkan.",
+      "B": "Mengakuinya: keamanan dulu.",
+      "C": "Memindahkan latihan dan memperkuat diplomasi."
+    }
+  },
+  "wp_268": {
+    "title": "Perlombaan senjata... yang ramah lingkungan",
+    "body": "Kamu ditawari tank hijau fiktif, katanya kurang mencemari. Publik tak tahu apakah ini serius.",
+    "choices": {
+      "A": "Investasi litbang: memodernisasi pertahanan yang lebih bersih.",
+      "B": "Menolak: efektivitas adalah prioritas.",
+      "C": "Kerja sama teknologi dengan sekutu."
+    }
+  },
+  "wp_269": {
+    "title": "Perjanjian anti-spionase",
+    "body": "Seorang rival mengusulkan perjanjian anti-spionase. Semua orang berdehem. Kamu juga.",
+    "choices": {
+      "A": "Menandatangani dengan audit dan klausul ketat.",
+      "B": "Menolak: terlalu naif.",
+      "C": "Menegosiasikan perjanjian parsial untuk sektor sipil."
+    }
+  },
+  "wp_270": {
+    "title": "Kelangkaan helm",
+    "body": "Stok helm rendah. Seorang pemasok menawarkan pengiriman cepat dengan helm merah muda neon.",
+    "choices": {
+      "A": "Menerima sementara dan memulai lagi produksi.",
+      "B": "Menolak: martabat militer.",
+      "C": "Membeli lewat sekutu dan menyeragamkan perlengkapan."
+    }
+  },
+  "wp_271": {
+    "title": "Krisis satelit cuaca",
+    "body": "Satelit cuacamu rusak. Tekanan meningkat.",
+    "choices": {
+      "A": "Segera berinvestasi di antariksa.",
+      "B": "Berbagi dengan sekutu dan menyiapkan rencana cadangan.",
+      "C": "Menunda: terlalu mahal, ekonomi dulu."
+    }
+  },
+  "wp_272": {
+    "title": "Peringatan sonar di laut",
+    "body": "Insiden maritim fiktif disebabkan ikan raksasa di sonar. Rival menyebutnya serangan.",
+    "choices": {
+      "A": "Transparansi dan penyelidikan bersama.",
+      "B": "Sikap tegas: patroli dan protes.",
+      "C": "Mediasi internasional dan protokol anti-kecelakaan."
+    }
+  },
+  "wp_273": {
+    "title": "Kedutaan dan AC rusak",
+    "body": "AC mati saat rapat krisis di kedutaan. Tekanan meningkat.",
+    "choices": {
+      "A": "Istirahat, menenangkan situasi, lalu lanjut dengan mediasi.",
+      "B": "Mempercepat dan memaksakan keputusan.",
+      "C": "Memindahkan negosiasi ke wilayah netral."
+    }
+  },
+  "wp_274": {
+    "title": "Ekspor disandera",
+    "body": "Konflik regional fiktif memblokir ekspormu. Perusahaan menuntut respons cepat.",
+    "choices": {
+      "A": "Penurunan eskalasi diplomatik dan rute alternatif.",
+      "B": "Perlindungan militer untuk rute, tetapi berisiko.",
+      "C": "Sanksi ekonomi dan tekanan internasional."
+    }
+  },
+  "wp_275": {
+    "title": "Ancaman pada kabel bawah laut",
+    "body": "Ancaman fiktif dilaporkan terhadap kabel bawah laut. Penasihatmu memperingatkan adanya risiko besar.",
+    "choices": {
+      "A": "Perlindungan diperkuat dan pertahanan siber.",
+      "B": "Tuduhan publik dan sanksi.",
+      "C": "Perjanjian internasional untuk melindungi infrastruktur."
+    }
+  },
+  "wp_276": {
+    "title": "Parade drone... artistik",
+    "body": "Parade drone harus menunjukkan kekuatanmu. Tekanan meningkat.",
+    "choices": {
+      "A": "Pilihan simbolis yang menenangkan dengan hati plus pesan damai.",
+      "B": "Pilihan pencegahan dengan elang dan sikap tegas.",
+      "C": "Campuran: simbol plus demonstrasi teknis."
+    }
+  },
+  "wp_277": {
+    "title": "Tuduhan campur tangan",
+    "body": "Kamu dituduh ikut campur dalam pemilu asing. Tekanan meningkat.",
+    "choices": {
+      "A": "Penyelidikan independen dan transparansi.",
+      "B": "Bantahan tegas dan serangan balik diplomatik.",
+      "C": "Saluran rahasia untuk meredakan krisis."
+    }
+  },
+  "wp_278": {
+    "title": "Perjanjian yang 'terlalu panjang'",
+    "body": "Perjanjian keamanan datang: 800 halaman. Stafmu bertanya apakah ada versi 'ringkasan 3 emoji'.",
+    "choices": {
+      "A": "Menandatangani setelah debat dan kontrol demokratis.",
+      "B": "Menandatangani cepat: darurat strategis.",
+      "C": "Menolak dan menegosiasikan ulang teks yang lebih jelas."
+    }
+  },
+  "wp_279": {
+    "title": "Rival dan latihan antariksa",
+    "body": "Seorang rival meluncurkan latihan antariksa. Tekanan meningkat.",
+    "choices": {
+      "A": "Berinvestasi di antariksa, mahal tetapi bergengsi.",
+      "B": "Tetap di bumi: memperkuat pertahanan klasik.",
+      "C": "Aliansi antariksa dengan mitra."
+    }
+  },
+  "wp_280": {
+    "title": "Insiden di zona demiliterisasi",
+    "body": "Insiden fiktif di zona demiliterisasi pecah ketika seorang tentara tersesat mencari toilet.",
+    "choices": {
+      "A": "Permintaan maaf dan protokol bersama, penurunan eskalasi.",
+      "B": "Sikap tegas: kehadiran militer diperkuat.",
+      "C": "Pertemuan bilateral dan hotline diperkuat."
+    }
+  },
+  "wp_281": {
+    "title": "Rumor blokade",
+    "body": "Sebuah rumor mengumumkan blokade. Tekanan meningkat.",
+    "choices": {
+      "A": "Menenangkan dan mengamankan logistik.",
+      "B": "Memobilisasi pertahanan dan mengumumkan langkah tegas.",
+      "C": "Perjanjian diplomatik untuk menjamin rute."
+    }
+  },
+  "wp_282": {
+    "title": "Spionase industri",
+    "body": "Sebuah perusahaan strategis kehilangan rencana-rencananya. Tekanan meningkat.",
+    "choices": {
+      "A": "Respons hukum ditambah perlindungan siber.",
+      "B": "Sanksi dan balasan diplomatik.",
+      "C": "Berinvestasi pada pertahanan industri nasional."
+    }
+  },
+  "wp_283": {
+    "title": "Perang air",
+    "body": "Tetanggamu memindahkan kapal-kapal. Tekanan meningkat.",
+    "choices": {
+      "A": "Perjanjian regional dan investasi hidrolik.",
+      "B": "Prioritas nasional: pembatasan dan kontrol.",
+      "C": "Bantuan internasional dan mediasi."
+    }
+  },
+  "wp_284": {
+    "title": "Teriakan alarm di parlemen",
+    "body": "Di parlemen, sidang tentang perang fiktif berubah jadi teater: teriakan, poster, dan bel.",
+    "choices": {
+      "A": "Mencari konsensus dan menenangkan situasi.",
+      "B": "Memaksakan jalannya: otoritas.",
+      "C": "Referendum konsultatif, tetapi itu berisiko."
+    }
+  },
+  "wp_285": {
+    "title": "Operasi kemanusiaan",
+    "body": "Seorang rival menyebarkan lagu ejekan tentangmu. Gambar-gambarnya beredar di mana-mana.",
+    "choices": {
+      "A": "Mengirim bantuan ditambah perlindungan militer minimal.",
+      "B": "Mengirim bantuan hanya lewat LSM.",
+      "C": "Menolak dan mendorong solusi diplomatik."
+    }
+  },
+  "wp_286": {
+    "title": "Sebuah aliansi menginginkan lebih",
+    "body": "Pangkalan udara dibuka untuk umum di tengah ketegangan. Tekanan meningkat.",
+    "choices": {
+      "A": "Menambah kontribusi dan memberi kompensasi ekonomi.",
+      "B": "Menolak: prioritas dalam negeri.",
+      "C": "Mengusulkan dukungan teknologi alih-alih pasukan."
+    }
+  },
+  "wp_287": {
+    "title": "Rudal yang berbalik arah",
+    "body": "Pemasok penting mengancam menghentikan pengirimannya. Tekanan meningkat.",
+    "choices": {
+      "A": "Transparansi dan audit keamanan, menenangkan ketakutan.",
+      "B": "Menyembunyikannya dan memperkuat pengujian secara rahasia.",
+      "C": "Kerja sama dengan sekutu untuk mengamankan program."
+    }
+  },
+  "wp_288": {
+    "title": "Perbatasan dan drone-jurnalis",
+    "body": "Drone milik jurnalis melintas di zona tegang. Seorang tentara melambaikan tangan. Viral, tetapi berisiko.",
+    "choices": {
+      "A": "Mengatur pers dan keamanan tanpa sensor.",
+      "B": "Melarang penerbangan dan memberi sanksi.",
+      "C": "Membuat zona media resmi yang aman."
+    }
+  },
+  "wp_289": {
+    "title": "Perang visa",
+    "body": "Skandal menimpa latihan yang disebut sukses meski ada kesalahan besar. Tekanan meningkat.",
+    "choices": {
+      "A": "Menegosiasikan timbal balik dan meredakan.",
+      "B": "Balasan simetris: visa dibatasi.",
+      "C": "Membuka diri ke negara lain sebagai kompensasi."
+    }
+  },
+  "wp_290": {
+    "title": "KTT rahasia... terbongkar",
+    "body": "Sekutu-sekutu ingin pusat komando bersama. Tekanan meningkat.",
+    "choices": {
+      "A": "Mengakuinya dan mengubahnya menjadi negosiasi resmi.",
+      "B": "Membantah dan menyelidiki secara internal.",
+      "C": "Menunda dan memperkuat keamanan informasi."
+    }
+  },
+  "wp_291": {
+    "title": "Perselisihan seputar monumen",
+    "body": "Monumen bersama menjadi titik ketegangan. Gambar-gambarnya beredar di mana-mana.",
+    "choices": {
+      "A": "Perjanjian budaya bersama.",
+      "B": "Memaksakan versimu: otoritas.",
+      "C": "Melepas plakat dan menenangkan lewat diplomasi."
+    }
+  },
+  "wp_292": {
+    "title": "Blokade pelabuhan",
+    "body": "Konflik memblokir beberapa pelabuhan. Tekanan meningkat.",
+    "choices": {
+      "A": "Rute alternatif dan diplomasi krisis.",
+      "B": "Pengawalan militer untuk kapal kargo.",
+      "C": "Sanksi dan tekanan internasional."
+    }
+  },
+  "wp_293": {
+    "title": "Rival dekat perbatasan",
+    "body": "Seorang rival menempatkan pasukan dekat perbatasanmu. Menterimu mengusulkan respons yang konyol.",
+    "choices": {
+      "A": "Memperkuat pertahanan dan tetap menjaga saluran dialog.",
+      "B": "Respons agresif: mobilisasi dan ultimatum.",
+      "C": "Mediasi internasional dan para pengamat."
+    }
+  },
+  "wp_294": {
+    "title": "Perjanjian pelucutan senjata",
+    "body": "Sebuah perjanjian pelucutan senjata diusulkan. Tekanan meningkat.",
+    "choices": {
+      "A": "Menandatangani dengan verifikasi ketat.",
+      "B": "Menolak: risiko strategis.",
+      "C": "Menandatangani sebagian dengan kategori terbatas."
+    }
+  },
+  "wp_295": {
+    "title": "Radio darurat memutar jazz",
+    "body": "Radio darurat aktif dan menimbulkan kebingungan. Tekanan meningkat.",
+    "choices": {
+      "A": "Memperbaiki sistem dan kampanye informasi.",
+      "B": "Meremehkan: 'uji teknis'.",
+      "C": "Memodernisasi dan membuat hotline darurat."
+    }
+  },
+  "wp_296": {
+    "title": "Insiden di konsulat",
+    "body": "Sebuah konsulat dirusak. Kamu harus menghindari eskalasi.",
+    "choices": {
+      "A": "Mengutuk dan bekerja sama mencari pelakunya.",
+      "B": "Pengusiran dan langkah tegas.",
+      "C": "Mediasi dan gestur simbolis perdamaian."
+    }
+  },
+  "wp_297": {
+    "title": "Janji 'perisai total'",
+    "body": "Seorang industrialis menjual kepadamu perisai total. Ahlimu ragu.",
+    "choices": {
+      "A": "Mendanai riset yang diawasi, tetap berhati-hati.",
+      "B": "Membeli cepat: menunjukkan kekuatan.",
+      "C": "Menolak dan berinvestasi pada pertahanan berlapis klasik."
+    }
+  },
+  "wp_298": {
+    "title": "Diplomasi kopi",
+    "body": "Sebuah kapal kemanusiaan hanyut menuju zona tegang. Tekanan meningkat.",
+    "choices": {
+      "A": "Menerima, perdamaian jadi prioritas.",
+      "B": "Menolak: tanpa tingkah.",
+      "C": "Menerima tetapi di wilayah netral."
+    }
+  },
+  "wp_299": {
+    "title": "Pernyataan palsu",
+    "body": "KTT virtual harus menenangkan konflik. Tekanan meningkat.",
+    "choices": {
+      "A": "Bantahan segera dan penguatan siber.",
+      "B": "Menuduh rival: sanksi dan sikap tegas.",
+      "C": "Membuat protokol bersama anti-disinformasi."
+    }
+  },
+  "wp_300": {
+    "title": "Merpati mekanik",
+    "body": "Kamu ditawari pencegahan yang katanya hijau. Tekanan meningkat.",
+    "choices": {
+      "A": "Tertawa, mengakuinya, dan mengumumkan inisiatif damai.",
+      "B": "Membatalkan acara dan tetap tegas.",
+      "C": "Menjadwalkan ulang: simbol ditambah perjanjian diplomatik."
+    }
+  },
+  "wp_301": {
+    "title": "Kekeringan berkepanjangan",
+    "body": "Kekeringan yang berkepanjangan menguras cadangan. Para ahli ingin bertindak cepat.",
+    "choices": {
+      "A": "Pembatasan nasional dan bantuan bagi sektor terdampak.",
+      "B": "Berinvestasi besar-besaran pada air: jaringan, tampungan, dan daur ulang.",
+      "C": "Perjanjian pasokan dengan mitra."
+    }
+  },
+  "wp_302": {
+    "title": "Banjir luar biasa",
+    "body": "Pemadaman menghantam jaringan listrik saat cuaca dingin. Tekanan meningkat.",
+    "choices": {
+      "A": "Rencana darurat, bala bantuan logistik, dan percepatan perbaikan.",
+      "B": "Memprioritaskan pencegahan, tanggul, dan standar.",
+      "C": "Menggalang bantuan internasional untuk peralatan dan keahlian."
+    }
+  },
+  "wp_303": {
+    "title": "Gelombang panas dan permintaan listrik",
+    "body": "Permintaan gas naik tajam. Tekanan meningkat.",
+    "choices": {
+      "A": "Langkah penghematan energi dan bantuan terarah bagi rumah tangga.",
+      "B": "Mempercepat produksi dan penyimpanan, meski mahal.",
+      "C": "Impor energi dan perjanjian sementara dengan negara tetangga."
+    }
+  },
+  "wp_304": {
+    "title": "Badai dan jaringan seluler",
+    "body": "Badai merusak antena dan jaringan seluler menjadi tidak stabil. Ekonomi lokal melambat.",
+    "choices": {
+      "A": "Rencana perbaikan kilat dengan prioritas zona utama.",
+      "B": "Berinvestasi dalam ketahanan dengan cadangan dan redundansi.",
+      "C": "Kemitraan publik-swasta untuk mempercepat dan berbagi biaya."
+    }
+  },
+  "wp_305": {
+    "title": "Kebakaran hutan",
+    "body": "Kebakaran meningkat. Otoritas lokal meminta lebih banyak sarana pencegahan dan penanganan.",
+    "choices": {
+      "A": "Memperkuat sarana pemadaman dan koordinasi nasional.",
+      "B": "Rencana jangka panjang: pencegahan, pembersihan semak, penataan wilayah.",
+      "C": "Kerja sama regional: sarana udara bersama dan latihan."
+    }
+  },
+  "wp_306": {
+    "title": "Longsor",
+    "body": "Longsor memutus jalan utama. Transportasi dan logistik terganggu.",
+    "choices": {
+      "A": "Memperbaiki darurat dan mengatur jalur alternatif.",
+      "B": "Merelokasi dan mengamankan infrastruktur, lebih lama dan lebih mahal.",
+      "C": "Meminta keahlian eksternal untuk stabilisasi cepat."
+    }
+  },
+  "wp_307": {
+    "title": "Risiko banjir perkotaan",
+    "body": "Hujan deras membuat saluran pembuangan meluap. Para wali kota meminta pendanaan nasional.",
+    "choices": {
+      "A": "Dana darurat untuk kota dan pekerjaan cepat.",
+      "B": "Rencana besar adaptasi kota selama beberapa tahun.",
+      "C": "Asuransi dan insentif swasta untuk mempercepat pencegahan."
+    }
+  },
+  "wp_308": {
+    "title": "Ketegangan pada sereal",
+    "body": "Harga sereal naik di pasar. Industri pangan ingin jaminan.",
+    "choices": {
+      "A": "Bantuan terarah dan stok strategis sementara.",
+      "B": "Mempermudah produksi nasional dan mengurangi beberapa kendala.",
+      "C": "Perjanjian dagang yang beragam untuk mengamankan pasokan."
+    }
+  },
+  "wp_309": {
+    "title": "Guncangan bahan baku",
+    "body": "Lonjakan tajam harga bahan baku melemahkan industri. Perusahaan menuntut langkah.",
+    "choices": {
+      "A": "Dukungan sementara untuk sektor kritis dan kontrol penyalahgunaan.",
+      "B": "Rencana relokasi, inovasi, dan daur ulang.",
+      "C": "Negosiasi internasional untuk menstabilkan akses ke sumber daya."
+    }
+  },
+  "wp_310": {
+    "title": "Putusnya rantai logistik",
+    "body": "Perlambatan global menyebabkan putusnya pasokan komponen. Pabrik berjalan lambat.",
+    "choices": {
+      "A": "Dukungan jangka pendek dan prioritas untuk sektor penting.",
+      "B": "Rencana kedaulatan industri dan diversifikasi pemasok.",
+      "C": "Perjanjian regional berbagi stok dan produksi."
+    }
+  },
+  "wp_311": {
+    "title": "Konflik dagang terarah",
+    "body": "Seorang mitra mengenakan bea masuk pada sektor kunci. Para eksportir menuntut balasan.",
+    "choices": {
+      "A": "Balasan proporsional dan gugatan dalam kerangka internasional.",
+      "B": "Subsidi dan dukungan internal agar bertahan sampai negosiasi.",
+      "C": "Negosiasi langsung: kompromi dengan imbalan konsesi."
+    }
+  },
+  "wp_312": {
+    "title": "Pembatasan teknologi",
+    "body": "Ekspor teknologi sensitif diperketat. Perusahaanmu khawatir kehilangan pasar.",
+    "choices": {
+      "A": "Berinvestasi pada litbang nasional untuk mengurangi ketergantungan.",
+      "B": "Menegosiasikan pengecualian dan jaminan dengan mitra.",
+      "C": "Mengalihkan ke pasar lain dan memperkuat daya saing."
+    }
+  },
+  "wp_313": {
+    "title": "Kenaikan suku bunga dan kredit",
+    "body": "Kenaikan suku bunga menghambat kredit. Rumah tangga dan UKM meminta kelonggaran.",
+    "choices": {
+      "A": "Bantuan terarah untuk UKM dan jaminan publik terbatas.",
+      "B": "Rencana pemulihan melalui investasi publik dan pesanan.",
+      "C": "Disiplin anggaran dan insentif swasta untuk investasi."
+    }
+  },
+  "wp_314": {
+    "title": "Inflasi pangan",
+    "body": "Inflasi pangan menimbulkan tekanan sosial yang kuat. Tekanan meningkat.",
+    "choices": {
+      "A": "Kontrol margin yang diperkuat dan bantuan terarah kepada rumah tangga.",
+      "B": "Menurunkan beberapa pajak dengan kompensasi.",
+      "C": "Perjanjian sektor untuk menstabilkan harga selama beberapa bulan."
+    }
+  },
+  "wp_315": {
+    "title": "Kekurangan obat",
+    "body": "Obat-obatan penting langka. Para ahli ingin bertindak cepat.",
+    "choices": {
+      "A": "Rencana pasokan darurat dengan transparansi dan prioritas.",
+      "B": "Merelokasi sebagian produksi, mahal tetapi berkelanjutan.",
+      "C": "Perjanjian internasional untuk produksi dan stok bersama."
+    }
+  },
+  "wp_316": {
+    "title": "Kualitas udara menurun",
+    "body": "Polusi kembali meningkat. Pemerintah daerah meminta langkah yang jelas.",
+    "choices": {
+      "A": "Langkah sementara dan bantuan untuk mobilitas bersih.",
+      "B": "Aturan lebih ketat dan rencana industri/transportasi 3 tahun.",
+      "C": "Insentif pajak dan kemitraan untuk mempercepat transisi."
+    }
+  },
+  "wp_317": {
+    "title": "Risiko air untuk industri",
+    "body": "Beberapa lokasi industri kekurangan air. Tekanan meningkat.",
+    "choices": {
+      "A": "Memprioritaskan air bagi aktivitas penting disertai kompensasi.",
+      "B": "Berinvestasi pada daur ulang industri dan modernisasi jaringan.",
+      "C": "Memindahkan sebagian produksi dan mendiversifikasi lokasi."
+    }
+  },
+  "wp_318": {
+    "title": "Ketegangan pasokan gas",
+    "body": "Pasokan gas menjadi tidak pasti. Tekanan meningkat.",
+    "choices": {
+      "A": "Perlindungan terarah dan penghematan yang terorganisasi.",
+      "B": "Mempercepat alternatif dan penyimpanan energi.",
+      "C": "Menegosiasikan kontrak jangka panjang dengan beberapa mitra."
+    }
+  },
+  "wp_319": {
+    "title": "Keamanan pangan",
+    "body": "Para ahli meminta rencana keamanan pangan. Para ahli ingin bertindak cepat.",
+    "choices": {
+      "A": "Meluncurkan rencana nasional dengan target dan pendanaan.",
+      "B": "Membiarkan pasar menyesuaikan dengan jaring pengaman minimal.",
+      "C": "Kerja sama regional: produksi dan stok terkoordinasi."
+    }
+  },
+  "wp_320": {
+    "title": "Retakan di bendungan",
+    "body": "Retakan terdeteksi pada sebuah bendungan. Para ahli ingin bertindak cepat.",
+    "choices": {
+      "A": "Inspeksi segera, pekerjaan prioritas, dan transparansi.",
+      "B": "Pekerjaan besar dan modernisasi penuh dengan anggaran tinggi.",
+      "C": "Memanggil keahlian internasional untuk mempercepat diagnosis."
+    }
+  },
+  "wp_321": {
+    "title": "Ketegangan pada semikonduktor",
+    "body": "Semikonduktor langka. Industri otomotif dan elektronik meminta rencana kedaulatan.",
+    "choices": {
+      "A": "Bantuan jangka pendek dan alokasi prioritas ke sektor utama.",
+      "B": "Berinvestasi dalam kapasitas nasional/sekutu selama beberapa tahun.",
+      "C": "Perjanjian dagang dan stok strategis bersama."
+    }
+  },
+  "wp_322": {
+    "title": "Persaingan di pelabuhan",
+    "body": "Pelabuhan asing menurunkan biaya. Pelaku logistik berkata negaramu kehilangan lalu lintas.",
+    "choices": {
+      "A": "Berinvestasi pada pelabuhan dan memperlancar prosedur.",
+      "B": "Menurunkan beban biaya agar tetap kompetitif.",
+      "C": "Perjanjian logistik regional dan spesialisasi pelabuhan."
+    }
+  },
+  "wp_323": {
+    "title": "Tekanan pada asuransi",
+    "body": "Bencana iklim meningkat dan perusahaan asuransi menaikkan tarif. Rumah tangga memprotes.",
+    "choices": {
+      "A": "Regulasi dan pembatasan terarah plus pencegahan.",
+      "B": "Dana reasuransi publik dan rencana adaptasi.",
+      "C": "Mendorong pencegahan swasta dan menyesuaikan standar."
+    }
+  },
+  "wp_324": {
+    "title": "Ketegangan pada air minum",
+    "body": "Sebuah wilayah mengalami kesulitan air minum. Para pejabat meminta respons yang segera dan berkelanjutan.",
+    "choices": {
+      "A": "Rencana darurat dan dukungan bagi pemerintah daerah.",
+      "B": "Proyek besar jaringan dan perlindungan air tanah.",
+      "C": "Perjanjian antarwilayah dan investasi bersama."
+    }
+  },
+  "wp_325": {
+    "title": "Konflik soal standar",
+    "body": "Seorang mitra memberlakukan standar yang merugikan perusahaanmu. Mereka menyebutnya hambatan tersembunyi.",
+    "choices": {
+      "A": "Negosiasi tegas dan harmonisasi yang seimbang.",
+      "B": "Balasan: standar nasional diperketat dan kontrol impor.",
+      "C": "Dukungan untuk adaptasi industri dan diversifikasi pasar."
+    }
+  },
+  "wp_326": {
+    "title": "Rumor gagal bayar bank",
+    "body": "Rumor tentang kekuatan sebuah bank beredar. Nasabah mulai menarik uang.",
+    "choices": {
+      "A": "Komunikasi yang menenangkan dan jaminan terarah.",
+      "B": "Intervensi publik yang kuat dan kontrol sementara.",
+      "C": "Merger yang diawasi dengan aktor yang solid."
+    }
+  },
+  "wp_327": {
+    "title": "Ketegangan pada mata uang",
+    "body": "Mata uang melemah. Impor lebih mahal, tetapi eksportir melihat peluang.",
+    "choices": {
+      "A": "Menstabilkan dengan langkah anggaran dan pesan yang kredibel.",
+      "B": "Mendukung ekspor dan meredam inflasi secara terarah.",
+      "C": "Koordinasi dengan mitra untuk membatasi volatilitas."
+    }
+  },
+  "wp_328": {
+    "title": "Investasi asing dibekukan",
+    "body": "Beberapa investor asing menunda proyek mereka. Mereka meminta kejelasan dan stabilitas.",
+    "choices": {
+      "A": "Paket kepercayaan: stabilitas pajak dan penyederhanaan.",
+      "B": "Rencana kedaulatan: memprioritaskan investasi nasional.",
+      "C": "Perjanjian bilateral dan jaminan untuk menghidupkan kembali proyek."
+    }
+  },
+  "wp_329": {
+    "title": "Konflik soal perikanan",
+    "body": "Konflik soal kuota tangkap menimbulkan ketegangan. Para profesional ingin keputusan cepat.",
+    "choices": {
+      "A": "Menegosiasikan kompromi dan memperkuat kontrol.",
+      "B": "Membalas dengan langkah dagang yang terarah.",
+      "C": "Rencana transisi untuk mengurangi ketergantungan pada sektor ini."
+    }
+  },
+  "wp_330": {
+    "title": "Kekurangan tenaga kerja",
+    "body": "Beberapa sektor kekurangan tenaga kerja. Perusahaan ingin bertindak tanpa lonjakan biaya besar.",
+    "choices": {
+      "A": "Pelatihan dipercepat dan insentif kerja.",
+      "B": "Membuka jalur rekrutmen internasional yang diawasi.",
+      "C": "Otomatisasi dan dukungan produktivitas."
+    }
+  },
+  "wp_331": {
+    "title": "Blokade koridor dagang",
+    "body": "Koridor dagang internasional melambat. Eksportirmu kehilangan waktu dan uang.",
+    "choices": {
+      "A": "Langkah diplomatik untuk memulihkan kelancaran.",
+      "B": "Rute alternatif: investasi logistik nasional.",
+      "C": "Tekanan ekonomi yang dikoordinasikan dengan sekutu."
+    }
+  },
+  "wp_332": {
+    "title": "Ketegangan pada logam tanah jarang",
+    "body": "Logam tanah jarang makin sulit didapat. Industri hijau dan teknologimu khawatir.",
+    "choices": {
+      "A": "Strategi daur ulang dan substitusi dengan litbang.",
+      "B": "Mengamankan beberapa pemasok selama beberapa tahun.",
+      "C": "Mengembangkan rantai nasional, mahal dan lama."
+    }
+  },
+  "wp_333": {
+    "title": "Risiko pada jaringan air",
+    "body": "Kebocoran air besar membuat sumber daya terbuang. Warga menuntut perbaikan.",
+    "choices": {
+      "A": "Rencana besar perbaikan dan transparansi hasil.",
+      "B": "Memprioritaskan zona kritis dan menyebar sisanya.",
+      "C": "Kemitraan swasta yang diawasi untuk mempercepat."
+    }
+  },
+  "wp_334": {
+    "title": "Konflik soal baja",
+    "body": "Seorang mitra sangat mensubsidi baja mereka, para industrialismu berteriak soal persaingan tak adil.",
+    "choices": {
+      "A": "Aksi internasional dan langkah anti-dumping terarah.",
+      "B": "Dukungan sementara bagi industri nasional.",
+      "C": "Modernisasi: berinvestasi pada baja rendah karbon."
+    }
+  },
+  "wp_335": {
+    "title": "Gempa dan standar",
+    "body": "Gempa mengungkap bangunan-bangunan rapuh. Para pejabat ingin rencana standar dan renovasi.",
+    "choices": {
+      "A": "Memperkuat standar dan mendanai renovasi prioritas.",
+      "B": "Bantuan terbatas, biarkan pemerintah daerah memimpin.",
+      "C": "Rencana nasional dengan pembiayaan bersama publik-swasta."
+    }
+  },
+  "wp_336": {
+    "title": "Badai petir dan jaringan kereta",
+    "body": "Badai petir hebat mengganggu jaringan kereta. Keterlambatan menumpuk dan ekonomi lokal menderita.",
+    "choices": {
+      "A": "Rencana perbaikan dan bala bantuan di jalur kritis.",
+      "B": "Modernisasi besar untuk ketahanan iklim.",
+      "C": "Mengalihdayakan sebagian operasi untuk mempercepat."
+    }
+  },
+  "wp_337": {
+    "title": "Keamanan bendungan",
+    "body": "Sebuah laporan merekomendasikan penguatan pengawasan bendungan dan tanggul menghadapi peristiwa ekstrem.",
+    "choices": {
+      "A": "Mendanai pengawasan dan pekerjaan prioritas.",
+      "B": "Mereformasi tata kelola dan mewajibkan audit ketat.",
+      "C": "Berbagi keahlian dan standar dengan mitra."
+    }
+  },
+  "wp_338": {
+    "title": "Krisis transportasi laut",
+    "body": "Transportasi laut menjadi lebih mahal. Importir ingin menghindari kenaikan berantai.",
+    "choices": {
+      "A": "Dukungan sementara dan pengurangan beberapa biaya logistik.",
+      "B": "Relokasi terarah produksi dan stok strategis.",
+      "C": "Perjanjian transportasi regional dan kapasitas pelabuhan."
+    }
+  },
+  "wp_339": {
+    "title": "Ketegangan pada agroindustri",
+    "body": "Seorang mitra memblokir produk agroindustri. Produsenmu khawatir.",
+    "choices": {
+      "A": "Bernegosiasi dan membuka blokir lewat diplomasi ekonomi.",
+      "B": "Tindakan balasan terarah.",
+      "C": "Mendiversifikasi pasar dan mendukung pengolahan lokal."
+    }
+  },
+  "wp_340": {
+    "title": "Tekanan pada perumahan",
+    "body": "Kenaikan biaya konstruksi memperlambat proyek. Pasar perumahan makin tegang.",
+    "choices": {
+      "A": "Bantuan terarah dan penyederhanaan izin.",
+      "B": "Rencana pembangunan nasional dengan investasi publik.",
+      "C": "Insentif swasta dan kemitraan dengan pemerintah daerah."
+    }
+  },
+  "wp_341": {
+    "title": "Konflik soal pajak karbon",
+    "body": "Seorang mitra ingin mengenakan pajak pada produkmu berdasarkan jejak karbonnya. Eksportirmu ingin bertindak.",
+    "choices": {
+      "A": "Mempercepat dekarbonisasi industri.",
+      "B": "Menegosiasikan pengecualian dan jadwal yang realistis.",
+      "C": "Mendukung peningkatan kualitas produk."
+    }
+  },
+  "wp_342": {
+    "title": "Ketegangan di penerbangan",
+    "body": "Bahan bakar mahal dan aturan hijau membebani penerbangan. Sektor ini meminta arah yang jelas.",
+    "choices": {
+      "A": "Mendukung transisi ke bahan bakar berkelanjutan dengan syarat.",
+      "B": "Mengurangi bantuan dan membiarkan pasar menyesuaikan.",
+      "C": "Perjanjian internasional untuk menyelaraskan aturan."
+    }
+  },
+  "wp_343": {
+    "title": "Konflik soal data",
+    "body": "Seorang mitra ingin memberlakukan aturan transfer data yang mempersulit layanan digitalmu.",
+    "choices": {
+      "A": "Menegosiasikan kerangka yang seimbang dan melindungi perusahaan.",
+      "B": "Memperkuat kedaulatan digital dan melokalkan lebih banyak data.",
+      "C": "Membentuk aliansi digital dengan negara-negara yang cocok."
+    }
+  },
+  "wp_344": {
+    "title": "Ketegangan pada tender publik",
+    "body": "Seorang mitra mengecualikan perusahaanmu dari tender publik. Sektor terdampak ingin membalas.",
+    "choices": {
+      "A": "Upaya hukum dan negosiasi dalam kerangka yang ada.",
+      "B": "Timbal balik ketat di tender publikmu.",
+      "C": "Dukungan ekspor ke wilayah lain."
+    }
+  },
+  "wp_345": {
+    "title": "Air untuk berenang",
+    "body": "Kualitas air menurun di zona wisata. Para pejabat lokal ingin bantuan dan aturan yang jelas.",
+    "choices": {
+      "A": "Rencana sanitasi cepat dan kontrol diperkuat.",
+      "B": "Investasi besar selama beberapa tahun.",
+      "C": "Kemitraan lokal dan insentif untuk mempercepat."
+    }
+  },
+  "wp_346": {
+    "title": "Badai dan pertanian",
+    "body": "Badai merusak panen dan rumah kaca. Para petani meminta rencana.",
+    "choices": {
+      "A": "Bantuan terarah ditambah asuransi dan pencegahan.",
+      "B": "Modernisasi pertanian dan infrastruktur perlindungan.",
+      "C": "Perjanjian pasokan dan diversifikasi tanaman."
+    }
+  },
+  "wp_347": {
+    "title": "Ketegangan pada mineral",
+    "body": "Negara produsen mengubah aturan ekspornya. Para industrialis khawatir pabrik berhenti.",
+    "choices": {
+      "A": "Menegosiasikan keamanan pasokan dan kontrak stabil.",
+      "B": "Mengembangkan daur ulang dan ekonomi sirkular dengan cepat.",
+      "C": "Berinvestasi dalam proyek tambang alternatif dengan mitra."
+    }
+  },
+  "wp_348": {
+    "title": "Tarif angkutan kereta barang",
+    "body": "Angkutan kereta barang kekurangan kapasitas. Perusahaan ingin memindahkan lebih banyak arus ke rel.",
+    "choices": {
+      "A": "Berinvestasi pada rel dan insentif perpindahan moda.",
+      "B": "Memprivatisasi sebagian layanan untuk mempercepat.",
+      "C": "Campuran: investasi publik dan kontrak kinerja swasta."
+    }
+  },
+  "wp_349": {
+    "title": "Sengketa paten",
+    "body": "Seorang mitra menuduh perusahaanmu melanggar paten. Ia mengancam sanksi.",
+    "choices": {
+      "A": "Memperkuat kontrol dan kerja sama yudisial.",
+      "B": "Membantah secara hukum sambil menyiapkan respons dagang.",
+      "C": "Menegosiasikan perjanjian kepatuhan dan jadwal."
+    }
+  },
+  "wp_350": {
+    "title": "Embun beku terlambat",
+    "body": "Embun beku terlambat menghantam tanaman. Harga dan rantai pangan bisa terganggu.",
+    "choices": {
+      "A": "Bantuan terarah dan dukungan pada sektor terdampak.",
+      "B": "Rencana pertanian tentang varietas, perlindungan, dan kalender.",
+      "C": "Impor sementara dan perjanjian untuk menstabilkan harga."
+    }
+  },
+  "wp_351": {
+    "title": "Kelangkaan air regional",
+    "body": "Sebuah wilayah kekurangan air. Para pejabat ingin bertindak cepat, perusahaan khawatir pabrik berhenti.",
+    "choices": {
+      "A": "Mengaktifkan rencana darurat dengan pembatasan terarah.",
+      "B": "Mendanai prioritas modernisasi jaringan dan kebocoran.",
+      "C": "Perjanjian sementara dengan wilayah tetangga."
+    }
+  },
+  "wp_352": {
+    "title": "Puncak konsumsi listrik",
+    "body": "Panas menciptakan lonjakan konsumsi. Jaringan bertahan, tetapi berada di bawah tekanan tinggi.",
+    "choices": {
+      "A": "Meluncurkan rencana penghematan dengan insentif segera.",
+      "B": "Mempercepat investasi penyimpanan dan penguatan jaringan.",
+      "C": "Mengimpor energi sementara lewat perjanjian regional."
+    }
+  },
+  "wp_353": {
+    "title": "Asap kebakaran",
+    "body": "Asap kebakaran menurunkan kualitas udara di beberapa kota. Layanan publik kewalahan.",
+    "choices": {
+      "A": "Langkah sementara pada lalu lintas dan kerja jarak jauh, plus bantuan.",
+      "B": "Rencana pencegahan dan pengelolaan hutan yang diperkuat selama 3 tahun.",
+      "C": "Koordinasi internasional untuk sarana udara dan berbagi peringatan."
+    }
+  },
+  "wp_354": {
+    "title": "Erosi pantai",
+    "body": "Garis pantai mundur. Para pejabat lokal ingin perlindungan dan perusahaan asuransi khawatir.",
+    "choices": {
+      "A": "Mendanai perlindungan segera untuk zona yang paling terpapar.",
+      "B": "Rencana adaptasi: relokasi bertahap dan standar baru.",
+      "C": "Program riset dan pembiayaan bersama dengan mitra."
+    }
+  },
+  "wp_355": {
+    "title": "Jalan terputus oleh longsor",
+    "body": "Beberapa longsor memutus jalur utama. Keterlambatan membebani ekonomi lokal.",
+    "choices": {
+      "A": "Memperbaiki cepat dan mengatur rute darurat.",
+      "B": "Membangun ulang jalur dalam versi yang lebih aman, lebih lama dan lebih mahal.",
+      "C": "Menyerahkan operasi pada konsorsium publik-swasta yang diawasi."
+    }
+  },
+  "wp_356": {
+    "title": "Badai dan pemadaman",
+    "body": "Badai menghantam listrik dan telekomunikasi. Perusahaan menuntut jaminan.",
+    "choices": {
+      "A": "Mengerahkan bala bantuan dan perbaikan kilat.",
+      "B": "Berinvestasi pada penanaman kabel bawah tanah dan redundansi jaringan.",
+      "C": "Perjanjian dengan operator dan kewajiban ketahanan yang diperkuat."
+    }
+  },
+  "wp_357": {
+    "title": "Hujan es pada tanaman",
+    "body": "Hujan es merusak tanaman. Sektor pertanian ingin bantuan dan adaptasi.",
+    "choices": {
+      "A": "Bantuan segera dan skema asuransi yang lebih baik.",
+      "B": "Rencana pertanian untuk jaring, varietas, dan rumah kaca.",
+      "C": "Perjanjian impor sementara untuk menstabilkan harga."
+    }
+  },
+  "wp_358": {
+    "title": "Permukaan sungai terlalu rendah",
+    "body": "Permukaan sungai mengganggu transportasi sungai. Lalu lintas beralih ke jalan dan jadi lebih mahal.",
+    "choices": {
+      "A": "Mendukung perusahaan terdampak dan mengatur alternatif.",
+      "B": "Berinvestasi pada infrastruktur sungai dan pengelolaan air.",
+      "C": "Menegosiasikan koridor logistik regional sementara."
+    }
+  },
+  "wp_359": {
+    "title": "Kualitas air menurun",
+    "body": "Ganggang menurunkan kualitas air di beberapa wilayah. Para pejabat lokal menginginkan rencana berkelanjutan.",
+    "choices": {
+      "A": "Perawatan dan kontrol diperkuat segera.",
+      "B": "Rencana jangka panjang untuk pertanian, limbah, dan sanitasi.",
+      "C": "Program riset nasional dan kemitraan ilmiah."
+    }
+  },
+  "wp_360": {
+    "title": "Inspeksi bangunan publik",
+    "body": "Setelah serangkaian guncangan kecil, otoritas meminta inspeksi sekolah dan bangunan publik.",
+    "choices": {
+      "A": "Meluncurkan inspeksi cepat dan menerbitkan jadwal yang jelas.",
+      "B": "Berinvestasi pada penyesuaian standar secara bertahap selama beberapa tahun.",
+      "C": "Mengalihdayakan sebagian inspeksi untuk mempercepat."
+    }
+  },
+  "wp_361": {
+    "title": "Abu vulkanik dan lalu lintas udara",
+    "body": "Awan abu mengganggu penerbangan regional. Pariwisata dan bisnis terdampak.",
+    "choices": {
+      "A": "Memprioritaskan keamanan dan rencana kesinambungan dengan kereta dan jalan.",
+      "B": "Bantuan terarah kepada sektor dan rencana ketahanan transportasi.",
+      "C": "Koordinasi diplomatik untuk koridor udara alternatif."
+    }
+  },
+  "wp_362": {
+    "title": "Salju dan rantai logistik",
+    "body": "Gelombang salju memblokir sementara beberapa jalur. Keterlambatan distribusi menumpuk.",
+    "choices": {
+      "A": "Pengerahan logistik darurat dan prioritas lalu lintas.",
+      "B": "Berinvestasi pada peralatan serta antisipasi cuaca/penyimpanan.",
+      "C": "Perjanjian dengan negara tetangga untuk rute alternatif."
+    }
+  },
+  "wp_363": {
+    "title": "Asuransi di bawah tekanan",
+    "body": "Biaya asuransi meningkat di beberapa wilayah. Rumah tangga dan UKM ingin kerangka yang stabil.",
+    "choices": {
+      "A": "Mengatur beberapa tarif dan memperkuat pencegahan.",
+      "B": "Membuat dana reasuransi publik-swasta.",
+      "C": "Insentif pajak untuk pencegahan dan standar diperkuat."
+    }
+  },
+  "wp_364": {
+    "title": "Bea masuk sektoral",
+    "body": "Seorang mitra memberlakukan bea masuk pada sektor utama. Perusahaan ingin membalas.",
+    "choices": {
+      "A": "Balasan proporsional dan gugatan dalam kerangka internasional.",
+      "B": "Dukungan internal sementara kepada eksportir.",
+      "C": "Negosiasi kompromi dengan konsesi terbatas."
+    }
+  },
+  "wp_365": {
+    "title": "Boikot produk",
+    "body": "Kampanye boikot menargetkan produk nasional. Penjualan turun dan citra merosot.",
+    "choices": {
+      "A": "Diplomasi ekonomi aktif dan komunikasi yang menenangkan.",
+      "B": "Membalas dengan langkah dagang yang terarah.",
+      "C": "Mendiversifikasi pasar dan mendanai peningkatan kualitas."
+    }
+  },
+  "wp_366": {
+    "title": "Kecurigaan terhadap mata uang",
+    "body": "Sebuah negara menuduhmu memanipulasi mata uang demi mendorong ekspor. Nada negosiasi makin tegang.",
+    "choices": {
+      "A": "Transparansi, diskusi teknis, dan audit bersama.",
+      "B": "Tetap tegas dan menyiapkan balasan ekonomi.",
+      "C": "Mengusulkan kerangka koordinasi moneter regional."
+    }
+  },
+  "wp_367": {
+    "title": "Kebangkrutan subkontraktor utama",
+    "body": "Subkontraktor penting sedang kesulitan. Sebagian produksi terancam.",
+    "choices": {
+      "A": "Penyelamatan bersyarat dan cepat.",
+      "B": "Penggantian lewat persaingan: pasar dan reorganisasi.",
+      "C": "Nasionalisasi sementara lalu penjualan kembali yang diawasi."
+    }
+  },
+  "wp_368": {
+    "title": "Tekanan pada pusat data",
+    "body": "Pusat data mengonsumsi lebih banyak energi dan air. Para pejabat meminta pengawasan.",
+    "choices": {
+      "A": "Regulasi ketat dan kewajiban efisiensi.",
+      "B": "Insentif inovasi untuk pendinginan dan daur ulang panas.",
+      "C": "Perjanjian dengan pelaku sektor untuk target yang mengikat."
+    }
+  },
+  "wp_369": {
+    "title": "Serangan pada sistem pembayaran",
+    "body": "Sebuah serangan mengganggu pembayaran digital. Tekanan meningkat.",
+    "choices": {
+      "A": "Komunikasi transparan dan penguatan keamanan siber segera.",
+      "B": "Langkah keamanan ketat, dengan konsekuensi gangguan bagi pengguna.",
+      "C": "Kerja sama internasional diperkuat melawan kejahatan siber."
+    }
+  },
+  "wp_370": {
+    "title": "Gangguan telekomunikasi besar",
+    "body": "Gangguan telekomunikasi nasional menghantam beberapa wilayah. Tekanan meningkat.",
+    "choices": {
+      "A": "Menghukum operator dan memaksakan rencana perbaikan cepat.",
+      "B": "Berinvestasi dalam infrastruktur cadangan nasional.",
+      "C": "Membuka pasar lebih luas untuk meningkatkan ketahanan."
+    }
+  },
+  "wp_371": {
+    "title": "Harga pangan naik",
+    "body": "Harga pangan naik karena pasokan global. Tekanan meningkat.",
+    "choices": {
+      "A": "Bantuan terarah dan kontrol yang lebih kuat atas penyalahgunaan.",
+      "B": "Penurunan pajak sementara pada beberapa produk.",
+      "C": "Perjanjian sektor untuk menstabilkan harga dan volume."
+    }
+  },
+  "wp_372": {
+    "title": "Guncangan harga minyak",
+    "body": "Harga minyak naik tajam. Tekanan meningkat.",
+    "choices": {
+      "A": "Perlindungan sementara yang terarah dan penghematan terorganisasi.",
+      "B": "Mempercepat transisi dan alternatif nasional.",
+      "C": "Menegosiasikan kontrak yang beragam dan stok strategis."
+    }
+  },
+  "wp_373": {
+    "title": "Pembatasan logam tanah jarang",
+    "body": "Seorang pemasok membatasi ekspor logam tanah jarang. Tekanan meningkat.",
+    "choices": {
+      "A": "Menandatangani perjanjian jangka panjang dengan beberapa pemasok.",
+      "B": "Berinvestasi besar pada daur ulang dan substitusi.",
+      "C": "Mengembangkan rantai ekstraksi/pemurnian dengan mitra."
+    }
+  },
+  "wp_374": {
+    "title": "Kemacetan maritim",
+    "body": "Kemacetan maritim global memperlambat pengiriman. Tekanan meningkat.",
+    "choices": {
+      "A": "Bantuan terarah kepada sektor penting dan manajemen krisis.",
+      "B": "Rencana relokasi sebagian dan stok strategis.",
+      "C": "Perjanjian transportasi regional dan kapasitas pelabuhan."
+    }
+  },
+  "wp_375": {
+    "title": "Konflik slot penerbangan",
+    "body": "Slot penerbangan dipersengketakan antar maskapai. Sektor ini mengancam mengurangi beberapa rute.",
+    "choices": {
+      "A": "Arbitrase publik yang transparan dan aturan stabil.",
+      "B": "Membiarkan pasar memutuskan, tanpa campur tangan.",
+      "C": "Menegosiasikan perjanjian sektor dengan komitmen layanan."
+    }
+  },
+  "wp_376": {
+    "title": "Sengketa paten",
+    "body": "Sengketa paten memblokir teknologi utama. Perusahaan ingin solusi cepat.",
+    "choices": {
+      "A": "Mencapai perjanjian lisensi sementara yang diawasi.",
+      "B": "Mendukung alternatif nasional dengan mempercepat litbang.",
+      "C": "Membawa perkara ke tingkat internasional dan menunda sedikit."
+    }
+  },
+  "wp_377": {
+    "title": "Gelombang barang palsu",
+    "body": "Gelombang barang palsu merugikan beberapa merek. Para industrialis ingin lebih banyak kontrol.",
+    "choices": {
+      "A": "Memperkuat bea cukai dan sanksi dengan operasi terarah.",
+      "B": "Pendekatan diplomatik: perjanjian kerja sama dengan negara asal.",
+      "C": "Bantuan kepada perusahaan untuk pelacakan dan autentikasi."
+    }
+  },
+  "wp_378": {
+    "title": "Pariwisata menurun",
+    "body": "Pariwisata menurun karena harga dan masalah logistik. Daerah-daerah menginginkan rencana.",
+    "choices": {
+      "A": "Kampanye pemulihan dan perbaikan transportasi.",
+      "B": "Dukungan terarah bagi pelaku sektor yang rapuh.",
+      "C": "Diversifikasi ke pariwisata bisnis dan acara internasional."
+    }
+  },
+  "wp_379": {
+    "title": "Peringatan soal utang",
+    "body": "Sebuah lembaga menyinggung risiko pada jalur utang. Pasar menginginkan sinyal kredibilitas.",
+    "choices": {
+      "A": "Rencana disiplin anggaran yang bertahap dan terbaca jelas.",
+      "B": "Pemulihan lewat investasi untuk mendukung pertumbuhan dan penerimaan.",
+      "C": "Menegosiasikan ruang gerak dengan mitra dan lembaga."
+    }
+  },
+  "wp_380": {
+    "title": "Dana pensiun terguncang",
+    "body": "Kerugian pasar melemahkan dana tabungan jangka panjang. Warga meminta jaminan.",
+    "choices": {
+      "A": "Memperkuat pengawasan dan transparansi segera.",
+      "B": "Jaminan publik terbatas untuk yang paling terekspos.",
+      "C": "Mereformasi tata kelola dana dan mendiversifikasi investasi."
+    }
+  },
+  "wp_381": {
+    "title": "Rem pada pasar properti",
+    "body": "Pasar properti melambat dan pembangunan mundur. Sektor bangunan meminta langkah.",
+    "choices": {
+      "A": "Menyederhanakan izin dan mendukung renovasi energi.",
+      "B": "Bantuan kepemilikan yang terarah dan sementara.",
+      "C": "Membiarkan pasar mengoreksi diri, anggaran prioritas."
+    }
+  },
+  "wp_382": {
+    "title": "Rencana PHK industri",
+    "body": "Perusahaan besar mengumumkan pengurangan tenaga kerja. Wilayah terdampak menuntut intervensi.",
+    "choices": {
+      "A": "Rencana alih profesi dan pelatihan yang didanai.",
+      "B": "Menegosiasikan kelanjutan aktivitas lewat bantuan bersyarat.",
+      "C": "Mempercepat diversifikasi ekonomi lokal dengan investasi."
+    }
+  },
+  "wp_383": {
+    "title": "Kelangkaan sopir",
+    "body": "Transportasi kekurangan sopir dan tenggat makin panjang. Perusahaan ingin bertahan.",
+    "choices": {
+      "A": "Pelatihan dipercepat dan perbaikan kondisi kerja profesi ini.",
+      "B": "Rekrutmen internasional yang diawasi untuk menutup kekurangan dengan cepat.",
+      "C": "Otomatisasi dan peralihan ke rel/sungai."
+    }
+  },
+  "wp_384": {
+    "title": "Pekerjaan pelabuhan terhambat",
+    "body": "Pekerjaan di pelabuhan terlambat. Importir mengecam kurangnya kapasitas.",
+    "choices": {
+      "A": "Mempercepat prosedur dan mendanai peralatan kunci.",
+      "B": "Menyerahkan ke swasta dengan kontrak kinerja yang ketat.",
+      "C": "Perjanjian regional untuk membagi lalu lintas sementara."
+    }
+  },
+  "wp_385": {
+    "title": "Perlombaan bantuan industri",
+    "body": "Beberapa negara mensubsidi industri strategis. Tekanan meningkat.",
+    "choices": {
+      "A": "Dukungan terarah dan sementara untuk proyek strategis.",
+      "B": "Membentuk koalisi sekutu untuk rencana bersama.",
+      "C": "Mengandalkan inovasi dan pelatihan alih-alih subsidi langsung."
+    }
+  },
+  "wp_386": {
+    "title": "Dumping baja",
+    "body": "Impor baja melemahkan industri lokal. Tekanan meningkat.",
+    "choices": {
+      "A": "Langkah anti-dumping dan kontrol diperkuat.",
+      "B": "Membantu industri memodernisasi ke baja rendah karbon.",
+      "C": "Menegosiasikan kuota/perjanjian untuk menstabilkan pasar."
+    }
+  },
+  "wp_387": {
+    "title": "Ketegangan pada pupuk",
+    "body": "Pupuk menjadi lebih mahal dan tidak stabil. Tekanan meningkat.",
+    "choices": {
+      "A": "Bantuan terarah dan pembelian bersama sementara.",
+      "B": "Mengembangkan produksi nasional dan alternatif agronomi.",
+      "C": "Perjanjian dagang yang beragam untuk mengamankan volume."
+    }
+  },
+  "wp_388": {
+    "title": "Konflik penggunaan air",
+    "body": "Dua wilayah berselisih soal penggunaan air. Tekanan meningkat.",
+    "choices": {
+      "A": "Arbitrase nasional dengan kuota sementara.",
+      "B": "Berinvestasi dalam penghematan air dan infrastruktur transfer.",
+      "C": "Membentuk otoritas daerah aliran sungai dengan tata kelola bersama."
+    }
+  },
+  "wp_389": {
+    "title": "Perjanjian sungai yang harus dinegosiasikan ulang",
+    "body": "Negara tetangga ingin menegosiasikan ulang perjanjian sungai. Tekanan meningkat.",
+    "choices": {
+      "A": "Menegosiasikan kompromi dan mekanisme krisis.",
+      "B": "Tetap tegas dan menyiapkan langkah balasan.",
+      "C": "Mengusulkan rencana bersama investasi dan pembagian."
+    }
+  },
+  "wp_390": {
+    "title": "Gangguan navigasi satelit",
+    "body": "Gangguan navigasi satelit memengaruhi transportasi dan penerbangan. Para ahli ingin bertindak cepat.",
+    "choices": {
+      "A": "Memperkuat kemampuan cadangan dan prosedur keselamatan.",
+      "B": "Berinvestasi pada solusi yang berdaulat dan redundan.",
+      "C": "Kerja sama internasional untuk pengawasan dan pengurangan risiko."
+    }
+  },
+  "wp_391": {
+    "title": "Insiden dekat bandara",
+    "body": "Insiden di dekat bandara mengganggu lalu lintas. Tekanan meningkat.",
+    "choices": {
+      "A": "Memperkuat keamanan dan kontrol dengan komunikasi yang jelas.",
+      "B": "Penyelidikan mendalam secara diam-diam untuk menghindari panik.",
+      "C": "Satuan gabungan dengan para mitra."
+    }
+  },
+  "wp_392": {
+    "title": "Bea cukai lumpuh",
+    "body": "Masalah IT memperlambat bea cukai. Tekanan meningkat.",
+    "choices": {
+      "A": "Rencana darurat IT dan jalur prioritas sementara.",
+      "B": "Perombakan penuh sistem dan audit keamanan.",
+      "C": "Perjanjian penyederhanaan sementara dengan negara tetangga agar lebih lancar."
+    }
+  },
+  "wp_393": {
+    "title": "Acara besar dengan cuaca berat",
+    "body": "Sebuah acara besar berisiko terganggu cuaca. Tekanan meningkat.",
+    "choices": {
+      "A": "Tetap mengadakan dengan logistik diperkuat dan penyesuaian.",
+      "B": "Menunda demi mengamankan organisasi dan citra.",
+      "C": "Mengubahnya menjadi format yang lebih kecil dan lebih terkendali."
+    }
+  },
+  "wp_394": {
+    "title": "Bantuan diminta sekutu",
+    "body": "Sekutu mengalami kebakaran dan meminta bantuan. Tekanan meningkat.",
+    "choices": {
+      "A": "Mengirim bantuan logistik dan koordinasi segera.",
+      "B": "Bantuan terbatas: dukungan material, tanpa pengerahan besar.",
+      "C": "Mengusulkan koalisi regional dengan sarana bersama."
+    }
+  },
+  "wp_395": {
+    "title": "Bencana di luar negeri",
+    "body": "Seorang mitra mengalami bencana dan meminta bantuan cepat.",
+    "choices": {
+      "A": "Bantuan cepat dan terlihat jelas dengan koordinasi diplomatik.",
+      "B": "Dukungan diam-diam dan terarah untuk membatasi biaya.",
+      "C": "Bantuan dengan syarat perjanjian kerja sama ekonomi."
+    }
+  },
+  "wp_396": {
+    "title": "Kontribusi ke dana global",
+    "body": "Sebuah dana iklim meminta sarana lebih besar. Tekanan meningkat.",
+    "choices": {
+      "A": "Menaikkan kontribusi dan meraih pengaruh diplomatik.",
+      "B": "Mempertahankan tingkat saat ini dan memusatkan usaha di dalam negeri.",
+      "C": "Berkontribusi lewat proyek yang terarah dan terukur."
+    }
+  },
+  "wp_397": {
+    "title": "Perjanjian dagang untuk dinegosiasikan ulang",
+    "body": "Sebuah perjanjian dagang harus dinegosiasikan ulang. Tekanan meningkat.",
+    "choices": {
+      "A": "Menegosiasikan ulang untuk membuka lebih luas dengan perlindungan terarah.",
+      "B": "Memperketat perjanjian untuk melindungi sektor sensitif.",
+      "C": "Maju bertahap dengan peninjauan berkala."
+    }
+  },
+  "wp_398": {
+    "title": "Insiden maritim",
+    "body": "Insiden di laut menciptakan ketegangan pada perikanan dan lalu lintas. Gambar-gambarnya beredar di mana-mana.",
+    "choices": {
+      "A": "Menurunkan eskalasi: diskusi segera dan kerangka aturan.",
+      "B": "Demonstrasi kehadiran dan kontrol diperkuat.",
+      "C": "Koalisi dengan sekutu untuk pengawasan bersama."
+    }
+  },
+  "wp_399": {
+    "title": "Pasokan kemanusiaan",
+    "body": "Organisasi-organisasi meminta bantuan logistik di zona sulit. Tekanan meningkat.",
+    "choices": {
+      "A": "Dukungan logistik nasional untuk transportasi dan koordinasi.",
+      "B": "Bantuan keuangan kepada pelaku khusus tanpa pengerahan besar.",
+      "C": "Operasi bersama dengan mitra untuk berbagi beban."
+    }
+  },
+  "wp_400": {
+    "title": "Arbitrase internasional yang kalah",
+    "body": "Sebuah arbitrase internasional merugikan aktor nasional. Tekanan meningkat.",
+    "choices": {
+      "A": "Menghormati keputusan dan menegosiasikan syarat keluar.",
+      "B": "Mengajukan banding dan menyiapkan langkah dagang terarah.",
+      "C": "Mendukung perusahaan lewat diplomasi ekonomi dan diversifikasi."
+    }
+  },
+  "wp_401": {
+    "title": "Banjir dan lalu lintas",
+    "body": "Hujan deras membuat air naik. Tekanan meningkat.",
+    "choices": {
+      "A": "Mengerahkan sarana darurat dan mengamankan titik-titik kritis.",
+      "B": "Rencana anti-banjir 2 tahun dengan tanggul, kolam retensi, dan peringatan.",
+      "C": "Meminta dukungan teknis dan material dari para mitra."
+    }
+  },
+  "wp_402": {
+    "title": "Gelombang panas berkepanjangan",
+    "body": "Panas terus berlanjut dan kebutuhan air serta energi naik. Tekanan meningkat.",
+    "choices": {
+      "A": "Pembatasan sementara dan bantuan bagi sektor yang paling terpapar.",
+      "B": "Rencana adaptasi untuk peneduhan kota, bangunan, dan jaringan.",
+      "C": "Berbagi air dan energi dengan kawasan sekitar."
+    }
+  },
+  "wp_403": {
+    "title": "Pasokan terhambat",
+    "body": "Insiden logistik memperlambat impor. Beberapa harga naik.",
+    "choices": {
+      "A": "Rencana pembukaan hambatan segera dan prioritas barang penting.",
+      "B": "Berinvestasi pada redundansi dengan rel, pelabuhan, dan gudang.",
+      "C": "Menegosiasikan rute alternatif dengan mitra dagang."
+    }
+  },
+  "wp_404": {
+    "title": "Koridor dagang dalam ketegangan",
+    "body": "Sebuah koridor dagang memanas. Pelaku ekonomi ingin mengamankannya.",
+    "choices": {
+      "A": "Memperkuat perlindungan konvoi dan pengawasan.",
+      "B": "Cepat mendiversifikasi rute dan pemasok meski lebih mahal.",
+      "C": "Membentuk koalisi diplomatik untuk menstabilkan wilayah."
+    }
+  },
+  "wp_405": {
+    "title": "Blokade di perbatasan",
+    "body": "Formalitas baru memperlambat penyeberangan. Truk-truk menumpuk.",
+    "choices": {
+      "A": "Negosiasi kilat untuk menyederhanakan prosedur.",
+      "B": "Langkah timbal balik: kontrol diperkuat di pihak nasional.",
+      "C": "Bantuan logistik internal dan digitalisasi formalitas yang dipercepat."
+    }
+  },
+  "wp_406": {
+    "title": "Lonjakan biaya transportasi",
+    "body": "Biaya transportasi meningkat selama beberapa bulan. UKM bicara tentang margin yang tertekan.",
+    "choices": {
+      "A": "Bantuan terarah sementara untuk UKM strategis.",
+      "B": "Rencana efisiensi logistik dengan rel, konsolidasi, dan hub.",
+      "C": "Perjanjian dagang untuk menstabilkan sebagian tarif."
+    }
+  },
+  "wp_407": {
+    "title": "Kelangkaan komponen",
+    "body": "Komponen penting menjadi langka. Industri berjalan lambat dan menuntut respons cepat.",
+    "choices": {
+      "A": "Mengamankan pasokan lewat kontrak jangka panjang.",
+      "B": "Berinvestasi dalam produksi lokal dan alternatif teknologi.",
+      "C": "Perjanjian dengan sekutu untuk berbagi pembelian dan stok."
+    }
+  },
+  "wp_408": {
+    "title": "Kekeringan dan pertanian",
+    "body": "Kekeringan menurunkan sebagian hasil panen. Harga masih bertahan, tetapi sektor ini khawatir.",
+    "choices": {
+      "A": "Bantuan adaptasi pada irigasi, penyimpanan, dan varietas.",
+      "B": "Arbitrase air: kuota sementara dan kontrol diperkuat.",
+      "C": "Impor sementara untuk menstabilkan harga."
+    }
+  },
+  "wp_409": {
+    "title": "Risiko pada tanggul",
+    "body": "Sebuah laporan menandai risiko pada tanggul besar. Harus bertindak cepat.",
+    "choices": {
+      "A": "Pekerjaan darurat segera, keamanan jadi prioritas.",
+      "B": "Rencana konsolidasi penuh dengan pendanaan multi-tahun.",
+      "C": "Audit eksternal dan pekerjaan bertahap."
+    }
+  },
+  "wp_410": {
+    "title": "Ketegangan di pasar",
+    "body": "Volatilitas yang kuat membuat rumah tangga dan perusahaan khawatir. Investor ingin diyakinkan.",
+    "choices": {
+      "A": "Mengumumkan kerangka anggaran yang stabil dan dapat diprediksi.",
+      "B": "Langkah sementara untuk melindungi tabungan yang paling terekspos.",
+      "C": "Koordinasi dengan mitra untuk menenangkan dan menstabilkan."
+    }
+  },
+  "wp_411": {
+    "title": "Konflik pajak digital",
+    "body": "Seorang mitra mengkritik kebijakan pajak digitalmu dan mengancam. Sektor ini khawatir akan eskalasi.",
+    "choices": {
+      "A": "Menegosiasikan kompromi internasional dan sebagian harmonisasi.",
+      "B": "Tetap tegas dan siap dengan respons timbal balik.",
+      "C": "Mengusulkan pengecualian terarah untuk menghindari perang dagang."
+    }
+  },
+  "wp_412": {
+    "title": "Kekosongan stok farmasi",
+    "body": "Obat-obatan sementara langka. Para pelaku ingin mengamankan rantai logistik.",
+    "choices": {
+      "A": "Pembelian darurat dan prioritas untuk penggunaan penting.",
+      "B": "Relokasi sebagian dan stok strategis.",
+      "C": "Perjanjian internasional berbagi dan produksi terkoordinasi."
+    }
+  },
+  "wp_413": {
+    "title": "Ketegangan akses logam",
+    "body": "Logam industri menjadi lebih mahal. Para industrialis menuntut strategi pengamanan.",
+    "choices": {
+      "A": "Mendiversifikasi pemasok dan menandatangani kontrak jangka panjang.",
+      "B": "Berinvestasi dalam daur ulang, substitusi, dan penghematan material.",
+      "C": "Membuat aliansi pembelian dengan para mitra."
+    }
+  },
+  "wp_414": {
+    "title": "Banjir lokal",
+    "body": "Zona-zona perkotaan mengalami banjir. Layanan lokal menginginkan dukungan nasional.",
+    "choices": {
+      "A": "Dukungan darurat dan dana perbaikan cepat.",
+      "B": "Rencana adaptasi kota dengan drainase, tanah, dan peringatan.",
+      "C": "Kerja sama teknis dengan kota asing yang berpengalaman."
+    }
+  },
+  "wp_415": {
+    "title": "Persaingan agresif",
+    "body": "Sebuah negara mensubsidi sektor tempat perusahaanmu kuat. Pangsa pasarmu terancam.",
+    "choices": {
+      "A": "Dukungan sementara terarah dan gugatan dalam kerangka internasional.",
+      "B": "Mempercepat inovasi dan peningkatan kualitas agar tidak bergantung pada harga.",
+      "C": "Menegosiasikan perjanjian pembatasan atau kompensasi."
+    }
+  },
+  "wp_416": {
+    "title": "Ekonomi dan suku bunga",
+    "body": "Biaya kredit meningkat. Tekanan meningkat.",
+    "choices": {
+      "A": "Jaminan terarah untuk UKM dan proyek strategis.",
+      "B": "Mengurangi beberapa pengeluaran untuk menenangkan pasar.",
+      "C": "Rencana investasi publik terarah untuk mendukung permintaan."
+    }
+  },
+  "wp_417": {
+    "title": "Pencemaran sungai",
+    "body": "Pencemaran memaksa pembatasan beberapa penggunaan. Para ahli ingin bertindak cepat.",
+    "choices": {
+      "A": "Kontrol diperkuat dan rencana pembersihan segera.",
+      "B": "Reformasi standar dan sanksi lebih keras, dengan risiko ketegangan.",
+      "C": "Berinvestasi pada air dan sanitasi."
+    }
+  },
+  "wp_418": {
+    "title": "Tender publik diperdebatkan",
+    "body": "Seorang mitra membatasi akses ke tender publiknya. Tekanan meningkat.",
+    "choices": {
+      "A": "Negosiasi diplomatik dan hukum tanpa eskalasi.",
+      "B": "Timbal balik: membatasi sebagian akses sebagai balasan.",
+      "C": "Kompensasi internal: mendukung ekspor ke pasar lain."
+    }
+  },
+  "wp_419": {
+    "title": "Risiko longsoran logistik",
+    "body": "Risiko musiman mengganggu pengiriman di pegunungan. Tekanan meningkat.",
+    "choices": {
+      "A": "Rencana cadangan dan prioritas barang-barang penting.",
+      "B": "Berinvestasi pada pencegahan, terowongan pelindung, dan sensor.",
+      "C": "Berbagi dengan wilayah tetangga sebuah perangkat permanen."
+    }
+  },
+  "wp_420": {
+    "title": "Insiden platform ekspor",
+    "body": "Insiden mengurangi kapasitas platform ekspor. Tekanan meningkat.",
+    "choices": {
+      "A": "Perbaikan cepat dan rencana kesinambungan sementara.",
+      "B": "Modernisasi penuh dan pengamanan, lebih mahal.",
+      "C": "Perjanjian sementara untuk menyerap arus."
+    }
+  },
+  "wp_421": {
+    "title": "Konflik standar produk",
+    "body": "Seorang mitra memberlakukan standar baru terhadap eksportirmu. Tekanan meningkat.",
+    "choices": {
+      "A": "Menegosiasikan masa transisi dan pengakuan timbal balik.",
+      "B": "Balasan: kontrol dan standar setara di pihak nasional.",
+      "C": "Membantu perusahaan memenuhi standar."
+    }
+  },
+  "wp_422": {
+    "title": "Perlambatan global",
+    "body": "Indikator global memburuk. Tekanan meningkat.",
+    "choices": {
+      "A": "Rencana dukungan yang terarah, sementara, dan terukur.",
+      "B": "Disiplin anggaran ketat untuk melindungi kredibilitas.",
+      "C": "Koordinasi internasional untuk rencana bersama."
+    }
+  },
+  "wp_423": {
+    "title": "Tekanan pada energi",
+    "body": "Beberapa fasilitas harus dimodernisasi. Tekanan meningkat.",
+    "choices": {
+      "A": "Mempercepat pekerjaan dengan kontrol diperkuat dan transparansi.",
+      "B": "Memperlambat untuk memprioritaskan konsultasi dan keselamatan.",
+      "C": "Kemitraan internasional untuk berbagi keahlian dan pendanaan."
+    }
+  },
+  "wp_424": {
+    "title": "Harga transportasi tidak stabil",
+    "body": "Harga transportasi tetap tidak stabil. Tekanan meningkat.",
+    "choices": {
+      "A": "Bantuan terarah sementara dan target penurunan biaya.",
+      "B": "Mereformasi sektor dengan regulasi, persaingan, dan investasi.",
+      "C": "Menegosiasikan kontrak jangka panjang untuk mengamankan tarif."
+    }
+  },
+  "wp_425": {
+    "title": "Guncangan asuransi pertanian",
+    "body": "Premi asuransi pertanian meningkat tajam. Tekanan meningkat.",
+    "choices": {
+      "A": "Mensubsidi sebagian premi untuk sementara.",
+      "B": "Membuat mekanisme reasuransi nasional.",
+      "C": "Berinvestasi dalam pencegahan dan adaptasi untuk mengurangi risiko."
+    }
+  },
+  "wp_426": {
+    "title": "Kenaikan impor",
+    "body": "Impor naik lebih cepat daripada ekspor. Tekanan meningkat.",
+    "choices": {
+      "A": "Rencana daya saing 2 tahun: inovasi, energi, penyederhanaan.",
+      "B": "Langkah perlindungan terarah pada sektor sensitif.",
+      "C": "Perjanjian dagang untuk memperbaiki akses ke pasar baru."
+    }
+  },
+  "wp_427": {
+    "title": "Kepercayaan perusahaan rendah",
+    "body": "Perusahaan menunda investasi karena kurangnya visibilitas. Tekanan meningkat.",
+    "choices": {
+      "A": "Mengumumkan jalur pajak dan regulasi yang stabil.",
+      "B": "Insentif investasi segera dan terarah.",
+      "C": "Pakta sosial-ekonomi besar dengan mitra dan serikat."
+    }
+  },
+  "wp_428": {
+    "title": "Tekanan pada angkutan kereta barang",
+    "body": "Angkutan kereta barang jenuh. Tekanan meningkat.",
+    "choices": {
+      "A": "Berinvestasi darurat pada kapasitas dan perawatan.",
+      "B": "Membuka lebih jauh pada persaingan dengan aturan ketat.",
+      "C": "Perjanjian logistik dengan negara tetangga untuk membagi arus."
+    }
+  },
+  "wp_429": {
+    "title": "Ketegangan harga gas",
+    "body": "Harga gas berfluktuasi kuat. Tekanan meningkat.",
+    "choices": {
+      "A": "Perlindungan terarah sementara dan penghematan yang dibingkai.",
+      "B": "Mendiversifikasi kontrak dan memperkuat stok strategis.",
+      "C": "Mempercepat alternatif lewat investasi."
+    }
+  },
+  "wp_430": {
+    "title": "Kerusakan pada infrastruktur",
+    "body": "Peristiwa cuaca merusak jalan dan jaringan. Daerah-daerah meminta tindakan cepat.",
+    "choices": {
+      "A": "Membuka dana darurat dan memprioritaskan perbaikan.",
+      "B": "Meluncurkan rencana ketahanan yang lebih ambisius dan berkelanjutan.",
+      "C": "Pendanaan campuran di bawah kontrol publik."
+    }
+  },
+  "wp_431": {
+    "title": "Sengketa agroindustri",
+    "body": "Seorang mitra memblokir produk agroindustri. Sektor terkait ingin reaksi.",
+    "choices": {
+      "A": "Negosiasi segera dan jaminan kesehatan serta teknis.",
+      "B": "Balasan terarah pada sektor yang setara.",
+      "C": "Mendiversifikasi pasar ekspor dan mendukung transisi sektor."
+    }
+  },
+  "wp_432": {
+    "title": "Ketegangan pada kuota",
+    "body": "Kuota impor dikurangi di luar negeri. Perusahaanmu kehilangan akses penting.",
+    "choices": {
+      "A": "Upaya hukum dan diplomatik dalam kerangka yang ada.",
+      "B": "Perjanjian bilateral alternatif dengan konsesi terbatas.",
+      "C": "Bantuan untuk reconversi dagang ke pasar lain."
+    }
+  },
+  "wp_433": {
+    "title": "Proyek strategis terblokir",
+    "body": "Proyek industri strategis tertunda oleh gugatan. Investor ingin keputusan.",
+    "choices": {
+      "A": "Mempercepat prosedur sambil tetap menjaga kerangka kontrol.",
+      "B": "Mempertahankan prosedur penuh, mengutamakan penerimaan publik.",
+      "C": "Mengurangi proyek dan membantu pihak yang terdampak."
+    }
+  },
+  "wp_434": {
+    "title": "Konflik lisensi ekspor",
+    "body": "Seorang mitra membatasi lisensi ekspor pada beberapa peralatan. Perusahaanmu terhambat.",
+    "choices": {
+      "A": "Menegosiasikan dan memperoleh pengecualian terarah.",
+      "B": "Mengurangi ketergantungan: mengembangkan alternatif nasional.",
+      "C": "Koalisi dengan sekutu untuk tekanan terkoordinasi."
+    }
+  },
+  "wp_435": {
+    "title": "Krisis penyimpanan pangan",
+    "body": "Gudang kekurangan kapasitas setelah gangguan. Beberapa produk menjadi langka.",
+    "choices": {
+      "A": "Rencana darurat: prioritas dan logistik sementara.",
+      "B": "Berinvestasi pada stok strategis dan kapasitas penyimpanan.",
+      "C": "Perjanjian dengan distributor untuk optimalisasi dan berbagi."
+    }
+  },
+  "wp_436": {
+    "title": "Sengketa hak milik industri",
+    "body": "Seorang mitra menuduh perusahaanmu melanggar paten. Ancaman sanksi dagang membayangi.",
+    "choices": {
+      "A": "Meluncurkan mediasi dan menetapkan lisensi sementara.",
+      "B": "Membantah dengan tegas dan menyiapkan langkah balasan.",
+      "C": "Membuat kerangka bilateral untuk penyelesaian sengketa cepat."
+    }
+  },
+  "wp_437": {
+    "title": "Kenaikan biaya konstruksi",
+    "body": "Bahan bangunan melonjak. Proyek melambat dan para pejabat lokal meminta dukungan.",
+    "choices": {
+      "A": "Bantuan terarah untuk proyek prioritas dan renovasi.",
+      "B": "Meluncurkan rencana industri nasional untuk bahan utama.",
+      "C": "Menegosiasikan pembelian bersama dengan beberapa mitra."
+    }
+  },
+  "wp_438": {
+    "title": "Tender publik dan persaingan",
+    "body": "Beberapa pihak menuduh kurangnya persaingan dalam beberapa tender publik. Kepercayaan menurun.",
+    "choices": {
+      "A": "Transparansi diperkuat dan kontrol anti-penipuan.",
+      "B": "Menyederhanakan akses UKM ke tender publik.",
+      "C": "Reformasi menyeluruh dengan sanksi lebih keras, meski berisiko memicu ketegangan."
+    }
+  },
+  "wp_439": {
+    "title": "Ketidakseimbangan regional",
+    "body": "Beberapa wilayah merasa kurang dibantu setelah guncangan iklim. Mereka ingin mekanisme yang adil.",
+    "choices": {
+      "A": "Membuat dana solidaritas wilayah yang stabil.",
+      "B": "Membagi kasus per kasus berdasarkan dampak ekonomi yang terukur.",
+      "C": "Mendesentralisasi lebih banyak sarana dan tanggung jawab ke daerah."
+    }
+  },
+  "wp_440": {
+    "title": "Kerja sama ekonomi yang tegang",
+    "body": "Seorang mitra ingin menegosiasikan ulang perjanjian ekonomi besar. Ia ingin lebih, jika tidak kerja sama akan dikurangi.",
+    "choices": {
+      "A": "Menegosiasikan ulang sambil menjaga garis merah yang jelas.",
+      "B": "Menolak dan menyiapkan rencana pengganti ekonomi.",
+      "C": "Mengusulkan perjanjian bertahap dengan evaluasi terjadwal."
+    }
+  },
+  "wp_441": {
+    "title": "Pasar tenaga kerja: kelangkaan",
+    "body": "Sektor-sektor penting kekurangan tenaga kerja. Biaya naik dan tenggat semakin panjang.",
+    "choices": {
+      "A": "Rencana pelatihan cepat dan perbaikan kondisi kerja.",
+      "B": "Mempermudah rekrutmen internasional yang diawasi.",
+      "C": "Mempercepat otomatisasi dan kenaikan produktivitas."
+    }
+  },
+  "wp_442": {
+    "title": "Ketegangan pada riset",
+    "body": "Seorang mitra ingin membatasi pertukaran ilmiah di beberapa bidang. Para penelitimu khawatir.",
+    "choices": {
+      "A": "Menegosiasikan kerangka aman untuk mempertahankan pertukaran.",
+      "B": "Mengembangkan program nasional yang mandiri, lebih mahal.",
+      "C": "Membuat aliansi riset dengan beberapa mitra."
+    }
+  },
+  "wp_443": {
+    "title": "Ketidakpastian proyek besar",
+    "body": "Sebuah proyek besar terlambat. Biaya membengkak dan opini publik menuntut jawaban.",
+    "choices": {
+      "A": "Transparansi, jadwal revisi, dan kontrol diperkuat.",
+      "B": "Mempercepat dengan mengerahkan sarana luar biasa.",
+      "C": "Mengurangi cakupan untuk menjaga anggaran dan tenggat."
+    }
+  },
+  "wp_444": {
+    "title": "Tekanan pada air",
+    "body": "Industri yang sangat boros air meminta jaminan. Warga ingin kebutuhan pokok didahulukan.",
+    "choices": {
+      "A": "Memprioritaskan penggunaan penting dan kuota sementara bagi industri.",
+      "B": "Berinvestasi pada penggunaan ulang dan teknologi penghemat air.",
+      "C": "Perjanjian pasokan dan transfer sementara yang diawasi."
+    }
+  },
+  "wp_445": {
+    "title": "Pasar pertanian terblokir",
+    "body": "Seorang mitra membatasi akses produk pertanian. Sektor ekspor ingin solusi.",
+    "choices": {
+      "A": "Menegosiasikan standar dan kontrol bersama untuk mencabut pembatasan.",
+      "B": "Balasan terarah pada sektor ekonomi setara.",
+      "C": "Mendukung diversifikasi pasar dan peningkatan kualitas."
+    }
+  },
+  "wp_446": {
+    "title": "Ketegangan harga air",
+    "body": "Biaya pengolahan dan distribusi air naik. Para pengguna khawatir.",
+    "choices": {
+      "A": "Bantuan terarah kepada pemerintah daerah dan rencana anti-kebocoran.",
+      "B": "Reformasi tarif bertahap dengan perlindungan sosial.",
+      "C": "Investasi nasional besar untuk menurunkan biaya jangka panjang."
+    }
+  },
+  "wp_447": {
+    "title": "Guncangan angkutan jalan",
+    "body": "Angkutan jalan naik karena biaya eksternal. Perusahaan menginginkan alternatif.",
+    "choices": {
+      "A": "Bantuan sementara dan rencana optimalisasi logistik.",
+      "B": "Mempercepat peralihan ke rel/sungai dan hub multimoda.",
+      "C": "Menegosiasikan perjanjian regional untuk menstabilkan kondisi."
+    }
+  },
+  "wp_448": {
+    "title": "Keraguan pada ekspor teknologi",
+    "body": "Seorang mitra ingin membatasi ekspor teknologi penting. Para industrialismu khawatir akan kelangkaan.",
+    "choices": {
+      "A": "Menegosiasikan pengecualian dan jaminan pasokan.",
+      "B": "Membuat rantai alternatif nasional/sekutu.",
+      "C": "Perjanjian berbagi dan stok strategis dengan sekutu."
+    }
+  },
+  "wp_449": {
+    "title": "Tekanan pada anggaran lokal",
+    "body": "Setelah beberapa guncangan iklim, beberapa kota meminta dukungan anggaran. Keuangan sedang ketat.",
+    "choices": {
+      "A": "Dana dukungan terarah dengan kriteria ketat.",
+      "B": "Pinjaman lunak dan pendampingan teknis alih-alih subsidi.",
+      "C": "Desentralisasi sumber pajak untuk memperkuat otonomi."
+    }
+  },
+  "wp_450": {
+    "title": "Perjanjian ekonomi yang mendesak",
+    "body": "Beberapa sektor meminta doktrin ketahanan yang lebih jelas.",
+    "choices": {
+      "A": "Menandatangani dengan jaminan minimal dan klausul revisi cepat.",
+      "B": "Menolak dan mengaktifkan rencana pengganti internal.",
+      "C": "Menegosiasikan 48 jam lagi untuk mendapatkan keseimbangan yang lebih baik."
+    }
+  }
+}

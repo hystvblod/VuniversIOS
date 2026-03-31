@@ -1,0 +1,185 @@
+﻿{
+  "version": 1,
+  "events": {
+    "vampire_lord_ev_001": {
+      "title": "Reservas intactas",
+      "body": "Uma entrega chega fria e completa. Pela primeira vez, nada vaza, nada falta.",
+      "effect": "Sangue: +5 por carta",
+      "duration": "Duração: 5 cartas"
+    },
+    "vampire_lord_ev_002": {
+      "title": "Juramento dos antigos",
+      "body": "Os antigos do clã juram manter a linha. Os corredores recuperam um pouco de ordem.",
+      "effect": "Clã: +5 por carta",
+      "duration": "Duração: 6 cartas"
+    },
+    "vampire_lord_ev_003": {
+      "title": "Noite sem rasto",
+      "body": "Os caçadores seguem uma pista falsa longe do esconderijo. A cidade respira um pouco melhor.",
+      "effect": "Caçadores: -5 por carta",
+      "duration": "Duração: 4 cartas"
+    },
+    "vampire_lord_ev_004": {
+      "title": "Culto discreto",
+      "body": "O segredo vampírico recruta em silêncio. Pouco barulho, muita fidelidade.",
+      "effect": "Segredo vampírico: +5 por carta",
+      "duration": "Duração: 5 cartas"
+    },
+    "vampire_lord_ev_005": {
+      "title": "Stock estragado",
+      "body": "Um lote de sangue estraga-se mais depressa do que o previsto. O cheiro basta para arruinar a noite.",
+      "effect": "Sangue: -5 por carta",
+      "duration": "Duração: 6 cartas"
+    },
+    "vampire_lord_ev_006": {
+      "title": "Batida local",
+      "body": "Está a formar-se uma batida no bairro. As lanternas, os rádios e os cães aproximam-se.",
+      "effect": "Caçadores: +5 por carta",
+      "duration": "Duração: 4 cartas"
+    },
+    "vampire_lord_ev_007": {
+      "title": "Querela da cripta",
+      "body": "Duas linhagens disputam uma velha sala. O clã perde tempo e paciência.",
+      "effect": "Clã: -5 por carta",
+      "duration": "Duração: 7 cartas"
+    },
+    "vampire_lord_ev_008": {
+      "title": "Flash mal colocado",
+      "body": "Uma foto noturna fica um pouco boa demais. Os curiosos fazem as perguntas certas.",
+      "effect": "Segredo vampírico: -5 por carta",
+      "duration": "Duração: 5 cartas"
+    },
+    "vampire_lord_ev_009": {
+      "title": "Pista quebrada",
+      "body": "Um informador humano envia os caçadores para outro túnel. A noite deles está perdida.",
+      "effect": "Caçadores: -5 por carta",
+      "duration": "Duração: 4 cartas"
+    },
+    "vampire_lord_ev_010": {
+      "title": "Conselho apaziguado",
+      "body": "O conselho termina sem gritos nem ameaças. É quase um milagre.",
+      "effect": "Clã: +5 por carta",
+      "duration": "Duração: 6 cartas"
+    },
+    "vampire_lord_ev_011": {
+      "title": "Fórum demasiado falador",
+      "body": "Alguns humanos compilam rumores demasiado precisos. O segredo vampírico torna-se menos secreto.",
+      "effect": "Segredo vampírico: -5 por carta",
+      "duration": "Duração: 3 cartas"
+    },
+    "vampire_lord_ev_012": {
+      "title": "Ritual fechado",
+      "body": "Um ritual bem conduzido une os fiéis. Ninguém fala demais, toda a gente escuta.",
+      "effect": "Segredo vampírico: +5 por carta",
+      "duration": "Duração: 7 cartas"
+    },
+    "vampire_lord_ev_013": {
+      "title": "Bolsas desaparecidas",
+      "body": "Algumas bolsas desaparecem do stock secundário. Alguém bebe ou revende antes de ti.",
+      "effect": "Sangue: -5 por carta",
+      "duration": "Duração: 4 cartas"
+    },
+    "vampire_lord_ev_014": {
+      "title": "Recrutas leais",
+      "body": "Alguns jovens vampiros alinham finalmente com as tuas regras. O esconderijo ganha disciplina.",
+      "effect": "Clã: +5 por carta",
+      "duration": "Duração: 6 cartas"
+    },
+    "vampire_lord_ev_015": {
+      "title": "Clínica cúmplice",
+      "body": "Abre-se na cidade uma pequena fonte segura. O sangue chega limpo e regular.",
+      "effect": "Sangue: +5 por carta",
+      "duration": "Duração: 3 cartas"
+    },
+    "vampire_lord_ev_016": {
+      "title": "Prata nos limiares",
+      "body": "Marcas de prata aparecem perto dos acessos. Alguém está a testar a defesa.",
+      "effect": "Caçadores: +5 por carta",
+      "duration": "Duração: 5 cartas"
+    },
+    "vampire_lord_ev_017": {
+      "title": "Muro dos fiéis",
+      "body": "O segredo vampírico espalha sinais discretos pela cidade. Os leais reconhecem-se depressa.",
+      "effect": "Segredo vampírico: +5 por carta",
+      "duration": "Duração: 4 cartas"
+    },
+    "vampire_lord_ev_018": {
+      "title": "Rancor antigo",
+      "body": "Uma velha dívida volta ao conselho. O clã recomeça a olhar-se de lado.",
+      "effect": "Clã: -5 por carta",
+      "duration": "Duração: 7 cartas"
+    },
+    "vampire_lord_ev_019": {
+      "title": "Falso alerta UV",
+      "body": "Um falso sinal atrai os caçadores para fora da tua zona. Eles perdem tempo, tu ganhas a noite.",
+      "effect": "Caçadores: -5 por carta",
+      "duration": "Duração: 3 cartas"
+    },
+    "vampire_lord_ev_020": {
+      "title": "Entrega cortada",
+      "body": "O camião de apoio não passa. As reservas baixam antes do amanhecer.",
+      "effect": "Sangue: -5 por carta",
+      "duration": "Duração: 6 cartas"
+    },
+    "vampire_lord_ev_021": {
+      "title": "Rosto identificado",
+      "body": "Um rosto ligado ao esconderijo circula num grupo fechado. O véu rasga-se um pouco.",
+      "effect": "Segredo vampírico: -5 por carta",
+      "duration": "Duração: 5 cartas"
+    },
+    "vampire_lord_ev_022": {
+      "title": "Vigília do clã",
+      "body": "Uma noite calma passada em conjunto aperta os laços. O clã segue melhor as tuas ordens.",
+      "effect": "Clã: +5 por carta",
+      "duration": "Duração: 7 cartas"
+    },
+    "vampire_lord_ev_023": {
+      "title": "Banco da noite",
+      "body": "Um acordo discreto com uma rede noturna abastece as caves. Os stocks finalmente sobem outra vez.",
+      "effect": "Sangue: +5 por carta",
+      "duration": "Duração: 4 cartas"
+    },
+    "vampire_lord_ev_024": {
+      "title": "Caçadora metódica",
+      "body": "Uma caçadora muito séria cartografa os teus hábitos. Avança sem ruído e sem erro.",
+      "effect": "Caçadores: +5 por carta",
+      "duration": "Duração: 6 cartas"
+    },
+    "vampire_lord_ev_025": {
+      "title": "Ordem contestada",
+      "body": "As tuas regras são vistas como demasiado duras por parte do clã. Os murmúrios regressam.",
+      "effect": "Clã: -5 por carta",
+      "duration": "Duração: 3 cartas"
+    },
+    "vampire_lord_ev_026": {
+      "title": "Cão distraído",
+      "body": "O cão dos caçadores é levado por outra pista. A equipa deles procura no lugar errado.",
+      "effect": "Caçadores: -5 por carta",
+      "duration": "Duração: 5 cartas"
+    },
+    "vampire_lord_ev_027": {
+      "title": "Reserva fria",
+      "body": "As caves aguentam bem e o stock mantém-se perfeito. Uma noite destas quase merece um sorriso.",
+      "effect": "Sangue: +5 por carta",
+      "duration": "Duração: 4 cartas"
+    },
+    "vampire_lord_ev_028": {
+      "title": "Testemunha nervosa",
+      "body": "Uma testemunha humana fala depressa demais com gente a mais. O segredo vampírico sofre um golpe.",
+      "effect": "Segredo vampírico: -5 por carta",
+      "duration": "Duração: 6 cartas"
+    },
+    "vampire_lord_ev_029": {
+      "title": "Duelo adiado",
+      "body": "Um duelo de orgulho continua a envenenar o esconderijo. O clã divide-se em vez de caçar.",
+      "effect": "Clã: -5 por carta",
+      "duration": "Duração: 3 cartas"
+    },
+    "vampire_lord_ev_030": {
+      "title": "Silêncio dos fiéis",
+      "body": "Os fiéis obedecem e calam-se. Nada vaza, nada se destaca.",
+      "effect": "Segredo vampírico: +5 por carta",
+      "duration": "Duração: 7 cartas"
+    }
+  }
+}

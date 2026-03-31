@@ -1,0 +1,185 @@
+﻿{
+  "version": 1,
+  "events": {
+    "mega_corp_ceo_ev_001": {
+      "title": "Analystenbericht",
+      "body": "Eine große Bank veröffentlicht einen sehr positiven Bericht. Die Kurven steigen und die Fonds lächeln.",
+      "effect": "Investoren: +5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "mega_corp_ceo_ev_002": {
+      "title": "Woche der Teams",
+      "body": "Die Manager bedanken sich öffentlich bei den Teams. Die Stimmung bekommt endlich etwas Luft.",
+      "effect": "Mitarbeitende: +5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "mega_corp_ceo_ev_003": {
+      "title": "Überraschungskontrolle",
+      "body": "Eine Akte landet auf dem falschen Schreibtisch. Die Behörden schauen nun genauer hin.",
+      "effect": "Aufsichtsbehörden: -5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "mega_corp_ceo_ev_004": {
+      "title": "Erfolgreiche Kampagne",
+      "body": "Die neue Kampagne kommt gut an. Selbst Kritiker haben Mühe, etwas zum Angreifen zu finden.",
+      "effect": "Markenimage: +5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "mega_corp_ceo_ev_005": {
+      "title": "Enttäuschendes Quartal",
+      "body": "Die Ergebnisse fallen etwas zu schwach aus. Die Investoren werden plötzlich sehr kreativ mit ihren Sorgen.",
+      "effect": "Investoren: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "mega_corp_ceo_ev_006": {
+      "title": "Verfahren bestätigt",
+      "body": "Ein Audit endet ohne Drama. Zum ersten Mal war alles am richtigen Platz.",
+      "effect": "Aufsichtsbehörden: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "mega_corp_ceo_ev_007": {
+      "title": "Stille Fluktuation",
+      "body": "Die Abgänge häufen sich leise. Es bleibt diskret und genau das macht es noch beunruhigender.",
+      "effect": "Mitarbeitende: -5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "mega_corp_ceo_ev_008": {
+      "title": "Leichter Shitstorm",
+      "body": "Eine kleine Kontroverse wächst online. Nicht riesig, aber genug, um ein paar Tage haften zu bleiben.",
+      "effect": "Markenimage: -5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "mega_corp_ceo_ev_009": {
+      "title": "Vorbildliches Audit",
+      "body": "Die Prüfer gehen fast entspannt wieder. Das ist selten, also bemerkt es jeder.",
+      "effect": "Aufsichtsbehörden: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "mega_corp_ceo_ev_010": {
+      "title": "Team-Bonus",
+      "body": "Eine konkrete Geste kommt genau zur richtigen Zeit. Auf den Fluren lässt es sich etwas leichter atmen.",
+      "effect": "Mitarbeitende: +5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "mega_corp_ceo_ev_011": {
+      "title": "Harter Artikel",
+      "body": "Ein Medium veröffentlicht ein kaltes Porträt deines Konzerns. Die Formulierung trifft hart und wird deshalb überall geteilt.",
+      "effect": "Markenimage: -5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "mega_corp_ceo_ev_012": {
+      "title": "Virales Interview",
+      "body": "Ein öffentlicher Auftritt läuft überraschend gut. Die Ausschnitte verbreiten sich in die richtige Richtung.",
+      "effect": "Markenimage: +5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "mega_corp_ceo_ev_013": {
+      "title": "Prognose gesenkt",
+      "body": "Die Ziele werden nach unten korrigiert. Der Markt behauptet, es zu verstehen, und verkauft trotzdem.",
+      "effect": "Investoren: -5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "mega_corp_ceo_ev_014": {
+      "title": "Flüssiges internes Tool",
+      "body": "Ein neues Tool erleichtert endlich die tägliche Arbeit. Niemand applaudiert, aber alle atmen auf.",
+      "effect": "Mitarbeitende: +5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "mega_corp_ceo_ev_015": {
+      "title": "Riesenvertrag",
+      "body": "Ein sehr großer Vertrag landet in deinem Schoß. Aktionäre lieben Unterschriften mit vielen Nullen.",
+      "effect": "Investoren: +5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "mega_corp_ceo_ev_016": {
+      "title": "Offizielle Mahnung",
+      "body": "Eine Bitte um Erklärung trifft in einem sehr höflichen und sehr wenig beruhigenden Ton ein.",
+      "effect": "Aufsichtsbehörden: -5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "mega_corp_ceo_ev_017": {
+      "title": "Sehr beliebtes Produkt",
+      "body": "Ein Produkt des Konzerns wird zum Favoriten des Moments. Die Kunden sprechen besser darüber als deine PR-Abteilung.",
+      "effect": "Markenimage: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "mega_corp_ceo_ev_018": {
+      "title": "Manager unter Druck",
+      "body": "In mehreren Teams steigt die Spannung noch eine Stufe. Die Ergebnisse halten stand, die Stimmung deutlich weniger.",
+      "effect": "Mitarbeitende: -5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "mega_corp_ceo_ev_019": {
+      "title": "Saubere Akte",
+      "body": "Auf dem Papier ist alles sauber. Es wirkt fast zu schön, aber diesmal geht es durch.",
+      "effect": "Aufsichtsbehörden: +5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "mega_corp_ceo_ev_020": {
+      "title": "Eisiger Vorstand",
+      "body": "Der Vorstand hört schweigend zu. Das ist nie ein gutes Zeichen für die Geduld des Marktes.",
+      "effect": "Investoren: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "mega_corp_ceo_ev_021": {
+      "title": "Produktrumor",
+      "body": "Ein absurder Rumor verbreitet sich viel zu gut. Je vager er ist, desto weiter reist er.",
+      "effect": "Markenimage: -5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "mega_corp_ceo_ev_022": {
+      "title": "Starke Rekrutierung",
+      "body": "Mehrere Schlüsselprofile stoßen zum Konzern. Die Teams denken sich, dass vielleicht doch nicht alles auseinanderfällt.",
+      "effect": "Mitarbeitende: +5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "mega_corp_ceo_ev_023": {
+      "title": "Ziel übertroffen",
+      "body": "Ein Schlüsselindikator übertrifft die Erwartungen. Investoren lieben es, wenn Zahlen die Arbeit für dich machen.",
+      "effect": "Investoren: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "mega_corp_ceo_ev_024": {
+      "title": "Mehrdeutige Klausel",
+      "body": "Eine alte Klausel zieht plötzlich neue Aufmerksamkeit auf sich. Die Juristen runzeln reihenweise die Stirn.",
+      "effect": "Aufsichtsbehörden: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "mega_corp_ceo_ev_025": {
+      "title": "Brutale Reorganisation",
+      "body": "Das neue Organigramm geht schnell. Die Mitarbeitenden auch, aber eher Richtung Ausgang.",
+      "effect": "Mitarbeitende: -5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "mega_corp_ceo_ev_026": {
+      "title": "Zertifizierung erhalten",
+      "body": "Eine wichtige Zertifizierung kommt endlich an. Sie ist offiziell, abgestempelt und sehr praktisch, um sie überall zu zeigen.",
+      "effect": "Aufsichtsbehörden: +5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "mega_corp_ceo_ev_027": {
+      "title": "Bejubelte Dividende",
+      "body": "Die angekündigte Auszahlung beruhigt viele Nerven. Die Liebe des Marktes bleibt eigennützig, aber sie kehrt schnell zurück.",
+      "effect": "Investoren: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "mega_corp_ceo_ev_028": {
+      "title": "Unglückliches Foto",
+      "body": "Ein Bild, das im falschen Moment aufgenommen wurde, verbreitet sich etwas zu gut. Du wolltest Kontrolle, das Internet wollte ein Meme.",
+      "effect": "Markenimage: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "mega_corp_ceo_ev_029": {
+      "title": "Zu viele Meetings",
+      "body": "Die Kalender laufen über und die Teams sind gesättigt. Niemand weiß noch, wann die echte Arbeit anfangen soll.",
+      "effect": "Mitarbeitende: -5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "mega_corp_ceo_ev_030": {
+      "title": "Regulatorischer roter Teppich",
+      "body": "Die Behörden nennen deinen Konzern als Beispiel. Das ist selten und zahlt stark auf die Glaubwürdigkeit ein.",
+      "effect": "Aufsichtsbehörden: +5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    }
+  }
+}

@@ -1,0 +1,701 @@
+{
+  "app": {
+    "title": "Vuniverse"
+  },
+  "common": {
+    "continue": "続ける",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "back": "戻る",
+    "settings": "設定",
+    "shop": "ショップ",
+    "use": "装備",
+    "buy": "購入",
+    "owned": "所持済み",
+    "locked": "アンロックする",
+    "equipped": "装備中",
+    "error_generic": "エラー",
+    "unavailable": "利用不可"
+  },
+  "auth": {
+    "username": {
+      "title": "ユーザー名を選んでください",
+      "subtitle": "アプリ内で表示されます。",
+      "label": "ユーザー名",
+      "placeholder": "例: Martin_7",
+      "cta": "決定",
+      "skip": "あとで",
+      "rules": "3〜20文字 • 英字、数字、_ または -",
+      "errors": {
+        "length": "ユーザー名は3〜20文字で入力してください。",
+        "chars": "使用できるのは英字、数字、_ または - のみです。",
+        "taken": "このユーザー名はすでに使われています。別の名前を試してください。",
+        "generic": "ユーザー名を保存できませんでした。"
+      }
+    }
+  },
+  "ui": {
+    "symbol_help": "?",
+    "language": "言語",
+    "subtitle": "運命を選ぼう。",
+    "subtitle_desc": "君主、大統領、ヴァンパイア、探検家になろう。すべての選択がゲージ、世界、そして次の世代に影響します。",
+    "choose_universe": "ユニバースを選択",
+    "footer": "Vuniverse · Vboldstudio",
+    "profile": "プロフィール",
+    "settings": "設定",
+    "shop": "ショップ",
+    "aria_back": "戻る",
+    "aria_settings": "設定を開く",
+    "aria_shop": "ショップを開く",
+    "aria_badge_modal": "バッジのプレビュー",
+    "aria_close": "閉じる",
+    "settings_title": "設定",
+    "settings_lang_desc": "言語を選択してください。端末とプロフィールの両方に保存されます。",
+    "settings_back_home_aria": "ホームに戻る",
+    "settings_open_profile_aria": "プロフィールを開く",
+    "settings_choose_lang_aria": "言語を選択: {code}",
+    "settings_ads_title": "広告",
+    "settings_ads_personalized_label": "パーソナライズ広告",
+    "settings_ads_personalized_desc": "より関連性の高い広告を許可します。この設定はいつでも変更できます。",
+    "settings_ads_saved": "広告設定を保存しました。",
+    "settings_music_label": "オーディオ",
+    "settings_music_desc": "ゲーム内のすべての音をオンまたはオフにします。",
+    "settings_music_saved": "オーディオ設定を保存しました。",
+    "music_prompt": {
+      "title": "オーディオ",
+      "text": "オーディオを有効のままにしますか？",
+      "note": "この選択は後で設定からいつでも変更できます。",
+      "disable": "オフにする",
+      "enable": "有効のままにする"
+    },
+    "settings_privacy_options_label": "プライバシー設定",
+    "settings_privacy_options_desc": "Googleのフォームを開いて、広告に関する選択を確認または変更します。",
+    "settings_privacy_options_button": "開く",
+    "settings_privacy_options_opened": "プライバシー設定を開きました。",
+    "settings_privacy_options_unavailable": "現在利用できるプライバシー設定はありません。",
+    "settings_faq_title": "FAQ",
+    "settings_faq_label": "FAQを開く",
+    "settings_faq_desc": "コイン、年数、トークン、バッジ、ユーザー名に関する回答です。",
+    "settings_open_faq_aria": "FAQを開く",
+    "settings_help_title": "ヘルプ",
+    "settings_help_email_label": "連絡先:",
+    "settings_help_email": "help.vboldstudio@gmail.com",
+    "settings_msg_saved": "言語を保存しました。",
+    "settings_msg_saved_local": "言語を端末に保存しました。サーバー同期は後で行われます。",
+    "faq_title": "FAQ",
+    "faq_subtitle": "よくある質問への回答はこちらです。",
+    "faq_back_settings_aria": "設定に戻る",
+    "faq_open_profile_aria": "プロフィールを開く",
+    "faq_q1": "どうやってVCoinsを獲得できますか？",
+    "faq_a1": "1回のプレイ終了時に、1年ごとに10 VCoinsを獲得できます。1年は4回の選択です。イベントによって報酬が変わることもあります。",
+    "faq_q2": "年数はどうやって進みますか？",
+    "faq_a2": "ゲームでは4回の選択で1年が進みます。4回に達するまでは、表示される年数はそのままです。",
+    "faq_q3": "トークンは何に使えますか？",
+    "faq_a3": "トークンはプレイ中の補助機能に使います。復活、次の15回の選択がゲージに与える影響の確認、3回分の選択の巻き戻し、ゲージを50%に戻すことができます。",
+    "faq_q4": "終了時の報酬を増やすには？",
+    "faq_a4": "プレイ終了時には、リワード広告を見るためのボタンが表示されます。基本報酬が100未満なら100 VCoinsになり、それ以上なら2倍になります。広告が最後まで完了しない場合や利用できない場合は、通常報酬のままです。",
+    "faq_q5": "プロフィールのバッジはどうやって獲得できますか？",
+    "faq_a5": "バッジは各ユニバースごとに分かれています。適切なタイミングまで生き残っていれば、プレイ中に解除されます。木は20回の選択、ブロンズは40回、シルバーは60回、ゴールドは100回、クリスタルは150回です。",
+    "faq_q6": "ユーザー名はどうやって変更しますか？",
+    "faq_a6": "プロフィールを開き、ユーザー名変更ボタンを押して新しい名前を入力し、保存してください。ユーザー名は一意である必要があり、3〜20文字で、アクセントのない英字、数字、アンダースコア _、ハイフン - のみ使用できます。",
+    "faq_q7": "VCoinsは何に使えますか？",
+    "faq_a7": "VCoinsは、ユニバースや一部のカスタマイズ要素のアンロックに使えます。",
+    "faq_q8": "ユニバースはどうやって解放しますか？",
+    "faq_a8": "ホーム画面から、現在の権限に含まれていないユニバースをVCoinsで解放できます。",
+    "faq_q9": "最初から無料のユニバースはどれですか？",
+    "faq_a9": "開始時点で、2つのユニバースが解放されています。",
+    "faq_q10": "ユニバースの価格はいくらですか？",
+    "faq_a10": "現在、まだ解放していないユニバースは1つ600 VCoinsです。",
+    "faq_q11": "No Adsは何をしますか？",
+    "faq_a11": "No Adsはインタースティシャル広告を削除します。任意の報酬を受け取るためのリワード広告は引き続き利用できます。",
+    "faq_q12": "Diamondには何が含まれますか？",
+    "faq_a12": "Diamond を有効にすると No Ads が適用され、現在のすべてのユニバースが解放されます。",
+    "faq_q13": "招待とクロスプロモーションはどう機能しますか？",
+    "faq_a13": "友だち招待では、有効なインストールが検出されるとVCoinsを獲得できます。ほかのVBoldStudioアプリとのクロスプロモーションでも、条件を満たすと別の報酬を受け取れます。",
+    "lang_name": {
+      "en": "英語",
+      "fr": "フランス語",
+      "de": "ドイツ語",
+      "es": "スペイン語",
+      "pt": "ポルトガル語",
+      "ptbr": "ポルトガル語（ブラジル）",
+      "it": "イタリア語",
+      "ko": "韓国語",
+      "ja": "日本語",
+      "id": "インドネシア語"
+    },
+    "profile_title": "プロフィール",
+    "profile_subtitle": "あなたの統計と進行状況。",
+    "profile_vcoins": "VCoins",
+    "profile_jetons": "トークン",
+    "profile_username_label": "ユーザー名",
+    "profile_username_edit": "ユーザー名を変更",
+    "profile_username_placeholder": "新しいユーザー名",
+    "profile_username_save": "保存",
+    "profile_username_cancel": "キャンセル",
+    "profile_username_hint": "3〜20文字。英字、数字、_ または -。ユーザー名は一意である必要があります。",
+    "profile_username_missing": "ユーザー名がありません",
+    "profile_username_err_format": "ユーザー名の形式が正しくありません。",
+    "profile_err_not_ready": "プロフィールの準備ができていません。",
+    "profile_username_ok_nochange": "変更はありません。",
+    "profile_username_err_nojeton": "トークンが足りません。",
+    "profile_username_working": "更新中...",
+    "profile_username_err_taken": "このユーザー名はすでに使われています。",
+    "profile_username_err_generic": "ユーザー名を変更できませんでした。",
+    "profile_username_err_cost_failed": "ユーザー名は変更されましたが、コストを引き落とせませんでした。",
+    "profile_username_ok_saved": "ユーザー名を更新しました。",
+    "profile_scenarios_title": "シナリオ",
+    "universe_buy": {
+      "desc": "このユニバースはロックされています。{price} VCoinsで解除するか、ストアから直接解除するか、ショップを開くことができます。",
+      "pay_prefix": "解除する",
+      "pay_balance_inline": "残高: {balance}",
+      "unlock_store_prefix": "解除:",
+      "unlock_store_no_price": "解除",
+      "iap_direct": "このユニバースを解除 {price}",
+      "iap_direct_no_price": "このユニバースを解除",
+      "open_shop": "ショップを開く",
+      "cancel": "キャンセル",
+      "err_unlock": "このユニバースを解除できませんでした。",
+      "err_unlock_insufficient": "VCoinsが足りません。残高: {balance} / 価格: {price}",
+      "err_app_only": "Play Store購入はアプリ内でのみ利用できます。",
+      "err_not_ready": "購入システムの準備ができていません。",
+      "err_buy_failed": "購入がキャンセルされたか、実行できませんでした。",
+      "err_unlock_after_buy": "購入は確認されましたが、解除できませんでした。あとでもう一度お試しください。",
+      "err_unlock_after_iap": "購入は確認されましたが、現在は解除できません。ショップから再度お試しください。"
+    },
+    "settings_licenses_label": "ライセンス",
+    "settings_open_licenses_aria": "ライセンスを開く",
+    "faq_q14": "このアプリに秘密はあるの？",
+    "faq_a14": "ときどき、ちょっと変わった発想に反応する場所があります。たとえば名前欄に ladybugcometome と入力したり……あるいは baudelaire と入れてみたり。お気に入りの詩人の話をしなくても、です。"
+  },
+  "gauges": {
+    "hell_king": {
+      "souls": "魂",
+      "legions": "軍団",
+      "order": "秩序",
+      "surface": "地上"
+    }
+  },
+  "token": {
+    "popup": {
+      "title": "トークン",
+      "ad": {
+        "title": "広告を見る",
+        "text": "トークンを1つ獲得"
+      },
+      "gauge50": {
+        "title": "ゲージを50%に戻す",
+        "text": "ゲージを選択"
+      },
+      "back3": {
+        "title": "戻る",
+        "text": "直前の3つの選択を取り消す"
+      },
+      "peek": {
+        "title": "15回分の効果を見る",
+        "text": "15回の選択の間、影響するゲージが点滅し、効果のプレビューが表示されます。"
+      },
+      "close": {
+        "text": "このメニューを閉じる"
+      },
+      "pickGauge": {
+        "title": "ゲージを選ぶ",
+        "text": "50%に戻したいゲージをクリックしてください。"
+      }
+    },
+    "toast": {
+      "select_gauge": "50%に戻すゲージを選んでください",
+      "reward_ok": "+1 トークン追加",
+      "reward_fail": "広告を利用できません",
+      "no_tokens": "トークンがありません",
+      "undo_fail": "戻せませんでした",
+      "undo_done": "-3 の取り消しを実行しました",
+      "gauge_set_50": "ゲージを50%に戻しました",
+      "peek_on": "Peek有効化: 次の15決定"
+    },
+    "undo": {
+      "fail": {
+        "title": "戻る",
+        "body": "戻せませんでした。変更はありません。"
+      },
+      "ok": {
+        "title": "戻る",
+        "body": "3つの選択を取り消しました。続行できます。"
+      }
+    }
+  },
+  "coins": {
+    "popup": {
+      "title": "コイン",
+      "ad": {
+        "title": "広告を見る",
+        "text": "100コイン獲得"
+      },
+      "shop": {
+        "title": "ショップへ移動",
+        "text": "コインを購入"
+      },
+      "close": {
+        "text": "このウィンドウを閉じる"
+      }
+    },
+    "toast": {
+      "reward_ok": "+100 コイン追加",
+      "reward_fail": "広告を利用できません"
+    }
+  },
+  "crosspromo": {
+    "open_page_aria": "クロスプロモページを開く",
+    "page_title": "ほかのゲームを見てみよう",
+    "page_subtitle": "ほかのユニバースを見つけて報酬を獲得しよう。",
+    "cta_install": "ダウンロード",
+    "cta_open": "開く",
+    "cta_claim": "受け取る",
+    "cta_claiming": "受け取り中...",
+    "cta_claimed": "受け取り済み",
+    "cta_later": "あとで",
+    "reward_prefix": "獲得:",
+    "reward_granted": "{app} を検出しました。+{amount} を付与しました。",
+    "aria": {
+      "open_image": "画像を開く",
+      "close": "閉じる"
+    },
+    "apps": {
+      "vblocks": {
+        "name": "VBlocks",
+        "store_desc": "重い決断の合間にひと息つける、より穏やかで軽いゲーム。",
+        "popup1": {
+          "title": "コイン不足？",
+          "body": "VBlocksをダウンロードして報酬を受け取ろう。"
+        },
+        "popup2": {
+          "title": "プレッシャーが強すぎる？",
+          "body": "決断の重さでストレスが大きすぎる？ VBlocksでリラックスしよう。"
+        },
+        "popup3": {
+          "title": "気分を変えたい？",
+          "body": "VBlocksで別のユニバースを発見しよう。"
+        }
+      },
+      "vchronicles": {
+        "name": "VChronicles",
+        "store_desc": "闇のユニバースを探索し、選択を重ねて生き延びよう。",
+        "popup1": {
+          "title": "コイン不足？",
+          "body": "VChroniclesをダウンロードして報酬を受け取ろう。"
+        },
+        "popup2": {
+          "title": "もっと暗いユニバースを探索したい？",
+          "body": "VChroniclesをプレイしよう。"
+        },
+        "popup3": {
+          "title": "君は切り抜けられるか？",
+          "body": "VChroniclesが君を待っている。"
+        }
+      }
+    }
+  },
+  "revive": {
+    "popup": {
+      "title": "復活",
+      "text": "2度目のチャンスの使い方を選んでください。",
+      "use_token": {
+        "title": "トークンを1つ使う",
+        "text": "トークンを1つ消費して今すぐ復活します。"
+      },
+      "use_ad": {
+        "title": "広告を見る",
+        "text": "リワード広告を見て復活します。"
+      },
+      "cancel": {
+        "text": "終了画面に戻る"
+      }
+    },
+    "toast": {
+      "ad_fail": "広告を利用できません"
+    }
+  },
+  "game": {
+    "title": "プレイ中",
+    "subtitle": "選択を行ってください。",
+    "restart": "やり直す",
+    "revive": "復活",
+    "return": "戻る",
+    "customize": {
+      "aria": "カスタマイズ",
+      "title": "カスタマイズ",
+      "close_text": "ゲームに戻る"
+    },
+    "ending": {
+      "title": "統治の終わり",
+      "body": "あなたの統治はここで終わります。",
+      "double_gain": "報酬を2倍にする",
+      "double_gain_sub": "リワード広告を見る",
+      "reward_claimed": "2倍報酬を付与しました",
+      "reward_claimed_sub": "これで再開または戻ることができます",
+      "revive_token": "トークン1つで復活"
+    },
+    "year_label": "年"
+  },
+  "event": {
+    "title": "イベント"
+  },
+  "profile": {
+    "title": "プロフィール",
+    "subtitle": "あなたの統計と進行状況。",
+    "vc": "VCoins",
+    "vcoins": "VCoins",
+    "rank": "ランク",
+    "streak": "連続記録",
+    "inventory": "インベントリ",
+    "bestReign": "最高の統治",
+    "totalRuns": "プレイ回数",
+    "editUsername": "ユーザー名を変更",
+    "usernamePlaceholder": "新しいユーザー名",
+    "usernameSave": "保存",
+    "usernameCancel": "キャンセル",
+    "usernameHint": "3〜20文字。英字、数字、_ または -。ユーザー名は一意である必要があります。",
+    "usernameMissing": "ユーザー名がありません",
+    "usernameErrFormat": "ユーザー名の形式が正しくありません。",
+    "errNotReady": "プロフィールの準備ができていません。",
+    "usernameOkNochange": "変更はありません。",
+    "usernameErrNojeton": "トークンが足りません。",
+    "usernameWorking": "更新中...",
+    "usernameErrTaken": "このユーザー名はすでに使われています。",
+    "usernameErrGeneric": "ユーザー名を変更できませんでした。",
+    "usernameErrCostFailed": "ユーザー名は変更されましたが、コストを引き落とせませんでした。",
+    "usernameOkSaved": "ユーザー名を更新しました。",
+    "universesTitle": "ユニバース",
+    "scenariosTitle": "シナリオ",
+    "badgeBronze": "銅バッジ",
+    "badgeSilver": "銀バッジ",
+    "badgeGold": "金バッジ",
+    "badgeUnlockBronze": "1回のプレイで40回選択すると解放されます。",
+    "badgeUnlockSilver": "1回のプレイで60回選択すると解放されます。",
+    "badgeUnlockGold": "1回のプレイで100回選択すると解放されます。",
+    "badge_bronze_aria": "銅バッジを拡大",
+    "badge_silver_aria": "銀バッジを拡大",
+    "badge_gold_aria": "金バッジを拡大",
+    "secretErrGeneric": "秘密は見つかったけど、エラーのせいで正しく開けなかった。",
+    "ladybugSecretTitle": "てんとう虫の秘密",
+    "ladybugSecretSub": "10個のバブルを全部割ってね",
+    "ladybugSecretFinishTitleClaimed": "おめでとう",
+    "ladybugSecretFinishBodyClaimed": "50 VCoinsを獲得しました。",
+    "ladybugSecretFinishTitleSeen": "受け取り済み",
+    "ladybugSecretFinishBodySeen": "これの50 VCoinsはすでに受け取っています。",
+    "baudelaireSecretTitle": "ボードレール — 破壊",
+    "baudelaireSecretBody": "絶え間なく、悪魔は私のかたわらで蠢いている。\nそれは、触れることのできない空気のように、私のまわりを漂う。\n私はそれを吸い込み、それが私の肺を焼き、\nそこを永遠で罪深い欲望で満たすのを感じる。\n\nときには、私が芸術を深く愛していると知って、\n悪魔はもっとも妖しい女の姿をとり、\n憂鬱というもっともらしい口実のもとで、\n私の唇を忌まわしい秘薬に慣らしてゆく。\n\nこうして悪魔は私を、神のまなざしから遠く離れ、\n息を切らし、疲労に打ち砕かれたまま、\n深く荒れ果てた〈倦怠〉の平原のただ中へと導く。\n\nそして、混乱に満ちた私の目に向かって、\n汚れた衣服、裂け開いた傷口、\nそして〈破壊〉の血にまみれた光景を投げつける。",
+    "baudelaireSecretButton": "続ける",
+    "badgeWood": "木のバッジ",
+    "badgeCrystal": "クリスタルバッジ",
+    "badgeUnlockWood": "1回のプレイで20回の選択から解除。",
+    "badgeUnlockCrystal": "1回のプレイで150回の選択から解除。",
+    "badge_wood_aria": "木のバッジを拡大",
+    "badge_crystal_aria": "クリスタルバッジを拡大"
+  },
+  "shop": {
+    "title": "ショップ",
+    "subtitle": "VCoinsを使う",
+    "soon": "近日公開",
+    "store_title": "STORE",
+    "watch": "見る",
+    "loading": "読み込み中...",
+    "unavailable": "利用不可",
+    "reward_jeton_x1": "x1",
+    "reward_vcoins_x100": "x100",
+    "pack_jetons_12": "12",
+    "pack_jetons_30": "30",
+    "pack_vcoins_100": "100",
+    "pack_vcoins_1200": "1200",
+    "pack_vcoins_3000": "3000",
+    "pack_no_ads": "広告なし",
+    "pack_diamond": "Diamond",
+    "rewarded_title": "報酬",
+    "rewarded_desc": "広告を見て小さな報酬を獲得しよう。",
+    "reward_title": "報酬",
+    "reward_desc": "広告を見て小さな報酬を獲得しよう。",
+    "get_jeton": "+1 トークンを獲得",
+    "get_1_jeton": "+1 トークンを獲得",
+    "get_200_coins": "200コイン獲得",
+    "get_300_coins": "+300コイン獲得",
+    "noads_title": "広告なし",
+    "noads_desc": "インタースティシャル広告を無効化します。リワード広告は引き続き利用できます。",
+    "noads_buy": "広告なしを有効化",
+    "coins_title": "コイン",
+    "coins_desc": "コインを購入してより早くアンロックしよう。",
+    "coins_1200": "+1200コイン",
+    "coins_3000": "+3000コイン",
+    "jetons_title": "トークン",
+    "jetons_desc": "トークンで特別なアクションが使えます。",
+    "jetons_12": "+12トークン",
+    "jetons_30": "+30トークン",
+    "diamond_title": "Diamond",
+    "diamond_badge": "広告なし + すべてのユニバース",
+    "diamond_desc": "広告なし + 現在のすべてのユニバースをアンロック。今後のユニバースも、バックエンドでDiamondアクセスが有効なら含まれる場合があります。",
+    "diamond_buy": "Diamondを有効化",
+    "aria_top": "アクションバー",
+    "aria_profile": "プロフィール",
+    "carousel": {
+      "prev": "前へ",
+      "next": "次へ"
+    },
+    "universes": {
+      "hell_king": "地獄",
+      "heaven_king": "天国",
+      "western_president": "大統領",
+      "mega_corp_ceo": "CEO",
+      "new_world_explorer": "探検家",
+      "vampire_lord": "ヴァンパイア"
+    },
+    "cosmetics": {
+      "background": "背景",
+      "message": "メッセージカード",
+      "choice": "選択カード",
+      "hell": {
+        "background_1": "燃える廃墟の背景",
+        "background_2": "王家の炉の背景",
+        "background_3": "溶岩の玉座の背景",
+        "background_4": "赤い深淵の背景",
+        "message_1": "地獄の勅令カード",
+        "message_2": "黒い灰のカード",
+        "message_3": "悪魔の封印カード",
+        "choice_1": "残り火の判決",
+        "choice_2": "血の契約",
+        "choice_3": "深淵の命令"
+      },
+      "heaven": {
+        "background_1": "金色の雲の背景",
+        "background_2": "聖なる庭園の背景",
+        "background_3": "天使の門の背景",
+        "message_1": "純粋な光のカード",
+        "message_2": "神聖な大理石のカード",
+        "message_3": "天の翼のカード",
+        "message_4": "太陽のカード",
+        "message_5": "光のカード",
+        "choice_1": "至高の恩寵",
+        "choice_2": "天の裁き",
+        "choice_3": "大理石",
+        "choice_4": "光",
+        "choice_5": "天使の誓い"
+      },
+      "president": {
+        "background_1": "危機管理室の背景",
+        "background_2": "大統領執務室の背景",
+        "background_3": "武装首都の背景",
+        "message_1": "機密資料カード",
+        "message_2": "執行メモカード",
+        "message_3": "国家ブリーフィングカード",
+        "choice_1": "大統領拒否権",
+        "choice_2": "国家令",
+        "choice_3": "行政命令"
+      },
+      "ceo": {
+        "background_1": "ガラスタワーの背景",
+        "background_2": "取締役会室の背景",
+        "background_3": "株式暴落の背景",
+        "message_1": "プレミアムレポートカード",
+        "message_2": "投資家資料カード",
+        "message_3": "戦略メモカード",
+        "choice_1": "迅速な合併",
+        "choice_2": "攻撃的プラン",
+        "choice_3": "取締役会の決定"
+      },
+      "explorer": {
+        "background_1": "失われた海岸の背景",
+        "background_2": "深い密林の背景",
+        "background_3": "植民地キャンプの背景",
+        "message_1": "航海日誌カード",
+        "message_2": "王家の羊皮紙カード",
+        "message_3": "遠征メモカード",
+        "choice_1": "未知のルート",
+        "choice_2": "任務命令",
+        "choice_3": "帝国への進路"
+      },
+      "vampire": {
+        "background_1": "夜の城の背景",
+        "background_2": "血の月の背景",
+        "background_3": "帝国の地下墓地の背景",
+        "message_1": "黒いベルベットカード",
+        "message_2": "深紅の封印カード",
+        "message_3": "不死の勅令カード",
+        "choice_1": "王家の咬みつき",
+        "choice_2": "一族の掟",
+        "choice_3": "夜の判決"
+      }
+    },
+    "toast": {
+      "insufficient_vcoins": "VCoinsが足りません",
+      "not_owned": "未所持のアイテムです"
+    },
+    "preview": {
+      "sample_title": "決断",
+      "sample_text": "選択したコスメティックのゲーム内プレビューです。",
+      "sample_choice_a": "受け入れる",
+      "sample_choice_b": "拒否する",
+      "sample_choice_c": "保留する"
+    },
+    "status": {
+      "noads_on": "✅ 広告なし：有効",
+      "noads_off": "ℹ️ 広告なし：無効",
+      "purchase_restored": "✅ 購入を復元しました",
+      "pending": "…",
+      "purchase_credited": "✅ 購入を反映しました",
+      "purchase_not_credited": "❌ 購入を反映できませんでした",
+      "ad_not_ready": "広告システムを利用できません",
+      "reward_not_validated": "❌ 広告を検証できませんでした",
+      "reward_validated": "✅ 報酬を検証しました",
+      "reward_error": "❌ リワード広告エラー",
+      "iap_unavailable_web": "⚠️ IAPはWebでは利用できません。",
+      "product_not_found_prefix": "⚠️ 商品が見つかりません: "
+    }
+  },
+  "settings": {
+    "title": "設定",
+    "subtitle": "設定と言語",
+    "sound": "サウンド",
+    "music": "音楽",
+    "notifications": "通知",
+    "language": "言語",
+    "language_hint": "言語を選択してください。端末とプロフィールの両方に保存されます。",
+    "back_home_aria": "ホームに戻る",
+    "open_profile_aria": "プロフィールを開く",
+    "choose_lang_aria": "言語を選択: {code}",
+    "ads_title": "広告",
+    "ads_personalized_label": "パーソナライズ広告",
+    "ads_personalized_desc": "より関連性の高い広告を許可します。この設定はいつでも変更できます。",
+    "ads_saved": "広告設定を保存しました。",
+    "faq_title": "FAQ",
+    "faq_label": "FAQを開く",
+    "faq_desc": "コイン、年数、トークン、バッジ、ユーザー名に関する回答です。",
+    "open_faq_aria": "FAQを開く",
+    "help_title": "ヘルプ",
+    "help_email_label": "連絡先:",
+    "help_email": "help.vboldstudio@gmail.com",
+    "msg_saved": "言語を保存しました。",
+    "msg_saved_local": "言語を端末に保存しました。サーバー同期は後で行われます。"
+  },
+  "universe": {
+    "hell_king": {
+      "title": "地獄の王",
+      "desc": "悪魔の軍団を率い、罪深き魂の流入を管理しながら、地上に影響を与えつつ地獄の秩序を保て。"
+    },
+    "heaven_king": {
+      "title": "天界の支配者",
+      "desc": "祈りを裁き、狂信を抑え、天が人間界にどこまで介入すべきかを決めよ。"
+    },
+    "medieval_king": {
+      "title": "中世の王",
+      "desc": "教会、軍隊、民衆、財宝。あらゆる選択が王国を繁栄か反乱へと近づける。"
+    },
+    "western_president": {
+      "title": "大統領",
+      "desc": "世論、経済、防衛、外交危機。ひとつの署名ですべてが変わる。"
+    },
+    "mega_corp_ceo": {
+      "title": "CEO",
+      "desc": "投資家、従業員、規制当局、ブランドイメージ。すべてを爆発させずに企業価値を高めろ。"
+    },
+    "new_world_explorer": {
+      "title": "探検家",
+      "desc": "征服し、改宗させ、現地の富を探しながら王冠に報告せよ。"
+    },
+    "vampire_lord": {
+      "title": "ヴァンパイアロード",
+      "desc": "闇の中で影響力を広げろ。血を求めすぎれば狩人を呼び、慎重すぎれば一族が弱体化する。"
+    }
+  },
+  "intro": {
+    "finish": {
+      "title": "おめでとう",
+      "body": "あなたは多くのユニバースを統治する準備ができています。",
+      "info_html": "<p>プレイすると <img class=\"vr-intro-inline-icon\" src=\"assets/img/ui/vcoins.webp\" alt=\"\"> と <img class=\"vr-intro-inline-icon\" src=\"assets/img/ui/jeton.webp\" alt=\"\"> を獲得できます。</p><p><img class=\"vr-intro-inline-icon\" src=\"assets/img/ui/vcoins.webp\" alt=\"\"> は世界やカスタマイズのアンロックに使います。</p><p><img class=\"vr-intro-inline-icon\" src=\"assets/img/ui/jeton.webp\" alt=\"\"> はプレイ中に助けを得るために使います。</p><p>各世界の上にあるパレットをクリックしてゲームをカスタマイズするか、ショップに行くことができます。</p>",
+      "gift": "冒険を始める前に、こちらをどうぞ。",
+      "token": "トークン",
+      "cta": "始める",
+      "name_title": "お名前をうかがってもよろしいですか？",
+      "name_placeholder": "あなたの名前",
+      "name_save": "決定",
+      "name_confirm": "この名前でよろしいですか: {name}？",
+      "name_missing": "名前を入力してください。",
+      "name_err_length": "名前は3文字以上20文字以内で入力してください。",
+      "name_err_invalid": "使用できるのは英字、数字、_、- のみです。",
+      "name_err_taken": "この名前はすでに使われています。",
+      "name_err_generic": "名前を保存できませんでした。",
+      "name_working": "保存中..."
+    }
+  },
+  "onesignal": {
+    "popup": {
+      "title": "最新情報を受け取る",
+      "text": "通知を許可すると、新着情報や重要な報酬を受け取れます。",
+      "accept": "許可する",
+      "cancel": "あとで"
+    }
+  },
+  "adsConsent": {
+    "popup": {
+      "title": "パーソナライズ広告",
+      "text": "より関連性の高い広告を受け取るために、パーソナライズ広告を許可しますか？ この設定はいつでも設定から変更できます。",
+      "accept": "許可",
+      "refuse": "拒否"
+    }
+  },
+  "referral": {
+    "android_only_popup": {
+      "text": "現在利用できるのはAndroid版のみです。iOS版は開発中のため、まだダウンロードできません。"
+    }
+  },
+  "guideMentor": {
+    "common": {"introGoal": "最初の昇進を得るには、{target}回の選択のあいだ均衡を保ってください。","nextGoal": "次の昇進に到達するには、あと{remaining}回の選択のあいだ均衡を保ってください。","promotionNow": "おめでとうございます。あなたは今や{rank}です。","maxGoal": "この宇宙で最高の地位に到達しました。今度はそれを守れることを証明してください。"},
+    "hell_king": {"ranks": {"wood": "呪われた魂","bronze": "第一階級の悪魔","silver": "地獄の君主","gold": "地獄の王子","crystal": "地獄の王"},"intro": "ようこそ、迷える魂よ。地獄では、すべての決断が痕跡を残します。","wood": "あなたはもう目的もなくさまよう存在ではありません。今や地獄の秩序に仕える者です。","bronze": "あなたは地獄の従者たちの中で自らの居場所を勝ち取りました。揺らいではなりません。","silver": "あなたの影響力は増しています。下位の悪魔たちがあなたに従い始めています。","gold": "炎は今や、あなたの意志により容易に屈します。あなたは恐れられる存在になりました。","crystal": "あなたは頂点に立ちました。真の王として地獄を支配してください。"},
+    "heaven_king": {"ranks": {"wood": "光り輝く魂","bronze": "天上の守護者","silver": "高位の天使","gold": "大天使","crystal": "天国の王"},"intro": "ようこそ、清らかな魂よ。ここでは、すべての選択が天界の調和を守らなければなりません。","wood": "あなたは光への最初の一歩を踏み出しました。この道を守ってください。","bronze": "あなたの役目はもはや単なる使者を超えています。天はあなたを見守っています。","silver": "あなたは真の天界の守護者となりました。あなたの責任はさらに大きくなっています。","gold": "あなたの権威は大天使のように輝いています。この宇宙をさらに高みへ導いてください。","crystal": "あなたは最高位に到達しました。知恵をもって天国を治めてください。"},
+    "vampire_lord": {"ranks": {"wood": "夜の使徒","bronze": "高貴なる吸血鬼","silver": "吸血鬼の君主","gold": "影の支配者","crystal": "至高の吸血鬼の君主"},"intro": "夜へようこそ。すべての選択が、あなたの台頭を強めるか弱めるかを決めます。","wood": "血はすでにあなたを呼んでいます。あなたはもはや完全な人間ではありません。","bronze": "あなたは真の夜へ足を踏み入れました。あなたの名は広まり始めています。","silver": "あなたは今や完成された吸血鬼です。影があなたを認めています。","gold": "あなたの存在は恐怖を呼び起こします。もはやあなたに挑む者はほとんどいません。","crystal": "あなたは闇の支配者となりました。夜を統べてください。"},
+    "mega_corp_ceo": {"ranks": {"wood": "社員","bronze": "マネージャー","silver": "ディレクター","gold": "専務","crystal": "CEO"},"intro": "ようこそ、インターン。ここではすべての決断が重要であり、すべての失敗には大きな代償が伴います。","wood": "よくやりました。あなたはもうただのインターンではありません。今や社員です。","bronze": "あなたの努力は実を結びました。今や本当の責任を担っています。","silver": "今やあなたは他者を導いています。結果があなたを証明しています。","gold": "会社が本当にあなたの決断に依存するレベルに到達しました。","crystal": "今やあなたはCEOです。会社を頂点に保てるかはあなた次第です。"},
+    "western_president": {"ranks": {"wood": "顧問","bronze": "市長","silver": "知事","gold": "国家元首","crystal": "大統領"},"intro": "ようこそ、顧問。西部では、力の均衡は長くは続きません。","wood": "あなたは政治的な重みを得ました。人々はあなたの声に耳を傾け始めています。","bronze": "あなたはもはや流れに従うだけではありません。今やそれを導く側です。","silver": "今やあなたは知事です。あなたの選択はすでにこの地を形作っています。","gold": "今やあなたはより大きな規模で統治しています。国はあなたに大きな期待を寄せています。","crystal": "今やあなたは大統領です。国家をまとめるのはあなたの役目です。"},
+    "new_world_explorer": {"ranks": {"wood": "船乗り","bronze": "斥候","silver": "探検家","gold": "司令官","crystal": "王冠の代表者"},"intro": "ようこそ、船乗りよ。新世界はためらいも行き過ぎも許しません。","wood": "あなたは単なる乗組員の役割を超えました。あなたは観察し、学んでいます。","bronze": "あなたは他の者たちよりも遠くへ踏み出します。あなたの眼差しは価値を持ち始めています。","silver": "今やあなたは真の探検家です。人々はあなたの判断を頼りにしています。","gold": "今やあなたが遠征を率いています。すべての選択が航海の運命を変え得ます。","crystal": "あなたは王冠を代表しています。発見された世界は今やあなたの名のもとに語られるでしょう。"}
+  },
+  "jobs": {
+    "hell_king": {
+      "wood": "失われた魂",
+      "bronze": "地獄のしもべ",
+      "silver": "悪魔の助手",
+      "gold": "炎の支配者",
+      "crystal": "地獄の王"
+    },
+    "heaven_king": {
+      "wood": "清らかな魂",
+      "bronze": "天の使者",
+      "silver": "天空の守護者",
+      "gold": "大天使",
+      "crystal": "楽園の王"
+    },
+    "vampire_lord": {
+      "wood": "堕落した人間",
+      "bronze": "夜のしもべ",
+      "silver": "ヴァンパイア",
+      "gold": "吸血鬼の君主",
+      "crystal": "闇の王"
+    },
+    "mega_corp_ceo": {
+      "wood": "研修生",
+      "bronze": "社員",
+      "silver": "マネージャー",
+      "gold": "ディレクター",
+      "crystal": "CEO"
+    },
+    "western_president": {
+      "wood": "顧問",
+      "bronze": "補佐",
+      "silver": "市長",
+      "gold": "知事",
+      "crystal": "大統領"
+    },
+    "new_world_explorer": {
+      "wood": "船乗り",
+      "bronze": "斥候",
+      "silver": "探検家",
+      "gold": "司令官",
+      "crystal": "王冠の代理人"
+    }
+  }
+}

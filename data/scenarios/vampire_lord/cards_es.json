@@ -1,0 +1,3603 @@
+﻿{
+  "vampire_001": {
+    "title": "La bolsa de sangre bio",
+    "body": "Un stock de sangre desaparece. Alguien hizo reservas sin autorización.",
+    "choices": {
+      "A": "Organizar una caza discreta",
+      "B": "Negociar donaciones voluntarias",
+      "C": "Pasar al modo racionamiento"
+    }
+  },
+  "vampire_002": {
+    "title": "Rumor de balas de plata",
+    "body": "Un humano te mira como si conociera tu nombre y tu ataúd.",
+    "choices": {
+      "A": "Mover al clan",
+      "B": "Quedarse y proteger el territorio",
+      "C": "Lanzar una distracción"
+    }
+  },
+  "vampire_003": {
+    "title": "La disputa de los linajes",
+    "body": "Dos linajes del clan se disputan el control de un refugio. La tensión sube y todo el mundo espera tu arbitraje.",
+    "choices": {
+      "A": "Arbitrar con firmeza",
+      "B": "Dejar que los clanes resuelvan eso",
+      "C": "Prometerle todo a todo el mundo"
+    }
+  },
+  "vampire_004": {
+    "title": "Influencers del secreto",
+    "body": "El secreto vampírico crece. Halaga y atrae problemas.",
+    "choices": {
+      "A": "Autorizar un gran ritual",
+      "B": "Limitar y supervisar",
+      "C": "Prohibirlo todo"
+    }
+  },
+  "vampire_005": {
+    "title": "La foto sin reflejo",
+    "body": "Un humano publica una foto en la que no tienes reflejo. La foto circula rápido.",
+    "choices": {
+      "A": "Contratar expertos",
+      "B": "Silenciar los relevos en línea",
+      "C": "Convertirlo en un mito"
+    }
+  },
+  "vampire_006": {
+    "title": "La cervecería de sangre",
+    "body": "El precio de la sangre sube, incluso aquí.",
+    "choices": {
+      "A": "Saquear discretamente",
+      "B": "Invertir legalmente",
+      "C": "Gravar al secreto"
+    }
+  },
+  "vampire_007": {
+    "title": "La cripta despierta",
+    "body": "Una grieta en la cripta deja pasar un soplo helado.",
+    "choices": {
+      "A": "Sellar la cripta",
+      "B": "Explorar",
+      "C": "Enviar a un rival"
+    }
+  },
+  "vampire_008": {
+    "title": "La dentadura de vampiro",
+    "body": "Pequeño problema de inmortal: un detalle ridículo puede arruinar una noche entera.",
+    "choices": {
+      "A": "Convertirlo en una historia",
+      "B": "Llamar al clan",
+      "C": "Intentar ser discreto"
+    }
+  },
+  "vampire_009": {
+    "title": "La reliquia de la sangre fría",
+    "body": "Una reliquia promete sangre sin límite. Todo el mundo la quiere, sobre todo los cazadores.",
+    "choices": {
+      "A": "Comprar la reliquia",
+      "B": "Destruirla",
+      "C": "Ofrecérsela a los cazadores para atraparlos"
+    }
+  },
+  "vampire_010": {
+    "title": "La entrega retrasada",
+    "body": "El camión frigorífico desapareció con tres cajas. La sangre se calienta y los rumores suben.",
+    "choices": {
+      "A": "Recuperar el camión esta noche",
+      "B": "Pagar por un silencio limpio",
+      "C": "Acusar a los cazadores"
+    }
+  },
+  "vampire_011": {
+    "title": "El baile de máscaras",
+    "body": "Una gala elegante invita a notables. Ideal para alimentar al clan, ideal para que te descubran.",
+    "choices": {
+      "A": "Enviar seductores",
+      "B": "Rechazar y permanecer oculto",
+      "C": "Ir tú mismo"
+    }
+  },
+  "vampire_012": {
+    "title": "El sacerdote insomne",
+    "body": "Un sacerdote ya no duerme. Bendice el agua del grifo por venganza.",
+    "choices": {
+      "A": "Hacerlo callar amablemente",
+      "B": "Corromper la parroquia",
+      "C": "Dejar que ocurra y adaptarse"
+    }
+  },
+  "vampire_013": {
+    "title": "La cámara del callejón",
+    "body": "Una cámara callejera te grabó en pleno sprint. En la imagen vas demasiado rápido.",
+    "choices": {
+      "A": "Sabotear el sistema",
+      "B": "Comprar las imágenes",
+      "C": "Crear una pista falsa"
+    }
+  },
+  "vampire_014": {
+    "title": "La caza del falso vampiro",
+    "body": "Un imitador se hace pasar por ti. Muerde a cualquiera y deja rastros.",
+    "choices": {
+      "A": "Reclutarlo",
+      "B": "Castigarlo públicamente",
+      "C": "Entregarlo a los cazadores"
+    }
+  },
+  "vampire_015": {
+    "title": "El pacto del barrio",
+    "body": "Las bandas locales quieren un acuerdo. Protección a cambio de discreción.",
+    "choices": {
+      "A": "Aceptar e imponer reglas",
+      "B": "Rechazar y asustarlos",
+      "C": "Manipularlos entre ellos"
+    }
+  },
+  "vampire_016": {
+    "title": "La sangre vegana",
+    "body": "Unos humanos venden sangre supuestamente ética. Huele a estafa y a policía.",
+    "choices": {
+      "A": "Comprar para probar",
+      "B": "Destruir el tráfico",
+      "C": "Conseguir la receta"
+    }
+  },
+  "vampire_017": {
+    "title": "El ataúd extraviado",
+    "body": "Tu ataúd de reserva ha desaparecido. Alguien lo confundió con un baúl vintage.",
+    "choices": {
+      "A": "Lanzar una búsqueda rápida",
+      "B": "Ofrecer una recompensa",
+      "C": "Cambiar de escondite"
+    }
+  },
+  "vampire_018": {
+    "title": "La patrulla reforzada",
+    "body": "La policía multiplica las rondas nocturnas. Los cazadores se esconden detrás del uniforme.",
+    "choices": {
+      "A": "Corromper a un jefe",
+      "B": "Evitar la zona",
+      "C": "Montar un escándalo"
+    }
+  },
+  "vampire_019": {
+    "title": "La reunión sindical",
+    "body": "Los vampiros de abajo quieren mejores condiciones de caza. Incluso hablan de huelga.",
+    "choices": {
+      "A": "Ceder un poco",
+      "B": "Reprimir",
+      "C": "Dividir a los líderes"
+    }
+  },
+  "vampire_020": {
+    "title": "La estatua que llora",
+    "body": "Una estatua de la cripta rezuma sangre. Al secreto le encanta, el clan entra en pánico.",
+    "choices": {
+      "A": "Explicar un milagro",
+      "B": "Bloquear el acceso",
+      "C": "Explotar el fenómeno"
+    }
+  },
+  "vampire_021": {
+    "title": "El joven murciélago",
+    "body": "Un joven vampiro se transforma demasiado pronto. Se agarra al techo y grita.",
+    "choices": {
+      "A": "Formar al novato",
+      "B": "Esconderlo del clan",
+      "C": "Confiarlo al secreto"
+    }
+  },
+  "vampire_022": {
+    "title": "El cazador educado",
+    "body": "Un cazador pide una cita. Sonríe demasiado. Sabe algo.",
+    "choices": {
+      "A": "Escucharlo",
+      "B": "Tenderle una trampa",
+      "C": "Neutralizarlo"
+    }
+  },
+  "vampire_023": {
+    "title": "El gran botín del secreto",
+    "body": "El secreto ofrece donaciones enormes. Huele a manipulación, pero es tentador.",
+    "choices": {
+      "A": "Aceptar con control",
+      "B": "Rechazar",
+      "C": "Tomarlo todo y huir"
+    }
+  },
+  "vampire_024": {
+    "title": "El banquete prohibido",
+    "body": "Un linaje propone un banquete. El menú es dudoso y el plan también.",
+    "choices": {
+      "A": "Prohibirlo",
+      "B": "Vigilar",
+      "C": "Participar para comprobarlo"
+    }
+  },
+  "vampire_025": {
+    "title": "El olor a ajo",
+    "body": "Alguien perfuma la calle con ajo. Se está convirtiendo en un deporte local.",
+    "choices": {
+      "A": "Identificar al responsable",
+      "B": "Cambiar de ruta",
+      "C": "Poner al vecindario en tu favor"
+    }
+  },
+  "vampire_026": {
+    "title": "La cazadora famosa",
+    "body": "Una cazadora sale en televisión. Señala tu ciudad en un mapa.",
+    "choices": {
+      "A": "Ridiculizarla públicamente",
+      "B": "Mover un escondite",
+      "C": "Iniciar una guerra fría"
+    }
+  },
+  "vampire_027": {
+    "title": "El contrato de limpieza",
+    "body": "Una empresa propone limpiar los rastros. Demasiado profesional para ser honesta.",
+    "choices": {
+      "A": "Firmar",
+      "B": "Espiar a la empresa",
+      "C": "Cerrar la empresa"
+    }
+  },
+  "vampire_028": {
+    "title": "El club gótico",
+    "body": "Un club gótico quiere coronarte vampiro del mes. No te gustan los flashes.",
+    "choices": {
+      "A": "Hacer de mascota",
+      "B": "Negarte rotundamente",
+      "C": "Enviar a un doble"
+    }
+  },
+  "vampire_029": {
+    "title": "La sangre contaminada",
+    "body": "Varios vampiros enferman. El último lote es malo.",
+    "choices": {
+      "A": "Bloquear el stock",
+      "B": "Encontrar el origen",
+      "C": "Acusar a un clan"
+    }
+  },
+  "vampire_030": {
+    "title": "El mensaje cifrado",
+    "body": "Un humano te deja una nota en código. Dice conocer tu verdadero nombre.",
+    "choices": {
+      "A": "Responder al código",
+      "B": "Ignorar",
+      "C": "Capturarlo"
+    }
+  },
+  "vampire_031": {
+    "title": "El don de la luna",
+    "body": "La luna llena pone nervioso al clan. Los errores se multiplican.",
+    "choices": {
+      "A": "Imponer un toque de queda",
+      "B": "Organizar una caza controlada",
+      "C": "Dejar que cada uno se las arregle"
+    }
+  },
+  "vampire_032": {
+    "title": "La radio nocturna",
+    "body": "Una radio local lee mensajes para ti. Alguien te desafía en directo.",
+    "choices": {
+      "A": "Cortar el transmisor",
+      "B": "Entrar en el juego",
+      "C": "Poner al presentador de tu lado"
+    }
+  },
+  "vampire_033": {
+    "title": "El festival de luces",
+    "body": "La ciudad instala reflectores por todas partes. Bonito ambiente, malo para ti.",
+    "choices": {
+      "A": "Sabotear con sutileza",
+      "B": "Negociar una zona oscura",
+      "C": "Irte unos días"
+    }
+  },
+  "vampire_034": {
+    "title": "El pacto de los hospitales",
+    "body": "Un director de hospital propone un trato. Quiere tu protección.",
+    "choices": {
+      "A": "Aceptar con contrato",
+      "B": "Rechazar",
+      "C": "Tomar el stock sin acuerdo"
+    }
+  },
+  "vampire_035": {
+    "title": "La caza por aplicación",
+    "body": "Una app de citas apunta a tus zonas. Las trampas se modernizan.",
+    "choices": {
+      "A": "Infiltrar la app",
+      "B": "Cambiar de terreno",
+      "C": "Cerrar la app"
+    }
+  },
+  "vampire_036": {
+    "title": "El nuevo contable",
+    "body": "Un contable humano gestiona tus finanzas. Hace demasiadas preguntas.",
+    "choices": {
+      "A": "Tranquilizarlo",
+      "B": "Hipnotizarlo",
+      "C": "Reemplazarlo"
+    }
+  },
+  "vampire_037": {
+    "title": "La tumba abierta",
+    "body": "Hay una tumba abierta en tu cementerio. Alguien busca una llave antigua.",
+    "choices": {
+      "A": "Cerrarla y tender una trampa",
+      "B": "Seguir las huellas",
+      "C": "Enviar al secreto"
+    }
+  },
+  "vampire_038": {
+    "title": "El espejo trucado",
+    "body": "Un artesano vende espejos que te reflejan. El clan está celoso.",
+    "choices": {
+      "A": "Comprar en masa",
+      "B": "Destruir la tienda",
+      "C": "Llevarte al artesano"
+    }
+  },
+  "vampire_039": {
+    "title": "La lluvia bendita",
+    "body": "Llueve un agua que quema un poco. Alguien bendijo las nubes, sí.",
+    "choices": {
+      "A": "Encontrar el origen",
+      "B": "Esconderse",
+      "C": "Lanzar un ritual arriesgado"
+    }
+  },
+  "vampire_040": {
+    "title": "El taxi curioso",
+    "body": "Un taxi dice haberte visto morir antes. Quiere una historia, o hablará.",
+    "choices": {
+      "A": "Pagarle",
+      "B": "Contarle una mentira",
+      "C": "Hacer que lo olvide"
+    }
+  },
+  "vampire_041": {
+    "title": "El rescate de sangre",
+    "body": "Una banda captura a un miembro del clan. Piden sangre y secretos.",
+    "choices": {
+      "A": "Pagar el rescate",
+      "B": "Atacar",
+      "C": "Negociar un intercambio"
+    }
+  },
+  "vampire_042": {
+    "title": "La biblioteca sellada",
+    "body": "Una biblioteca prohíbe el acceso a una sala. El secreto dice que canta por la noche.",
+    "choices": {
+      "A": "Forzar la entrada",
+      "B": "Pedir un permiso",
+      "C": "Dejarlo en manos del secreto"
+    }
+  },
+  "vampire_043": {
+    "title": "El vecino demasiado amable",
+    "body": "Tu vecino trae pasteles cada noche. Demasiado ajo, curiosamente.",
+    "choices": {
+      "A": "Invitarlo a hablar",
+      "B": "Ahuyentarlo",
+      "C": "Cambiar de refugio"
+    }
+  },
+  "vampire_044": {
+    "title": "La escoba de cenizas",
+    "body": "Un sirviente derrama cenizas sagradas por todas partes. Te irrita la piel.",
+    "choices": {
+      "A": "Castigar al sirviente",
+      "B": "Limpiar rápido",
+      "C": "Culpar al secreto"
+    }
+  },
+  "vampire_045": {
+    "title": "El cometa rojo",
+    "body": "El cielo se vuelve rojo una noche. El secreto anuncia el fin, los cazadores se preparan.",
+    "choices": {
+      "A": "Calmar al secreto",
+      "B": "Preparar la guerra",
+      "C": "Aprovechar el caos"
+    }
+  },
+  "vampire_046": {
+    "title": "La garra en la puerta",
+    "body": "Alguien araña la puerta de tu cripta. El mensaje es claro: te han encontrado.",
+    "choices": {
+      "A": "Reforzar la defensa",
+      "B": "Cambiar de escondite",
+      "C": "Contraatacar"
+    }
+  },
+  "vampire_047": {
+    "title": "La promesa de la inmortalidad",
+    "body": "Un humano rico quiere convertirse en vampiro. Paga, insiste y tiene un equipo.",
+    "choices": {
+      "A": "Aceptarlo",
+      "B": "Manipularlo",
+      "C": "Apartarlo definitivamente"
+    }
+  },
+  "vampire_048": {
+    "title": "La noche de karaoke",
+    "body": "El clan quiere una noche de karaoke para reforzar la cohesión. Mala idea, pero divertida.",
+    "choices": {
+      "A": "Aceptar y supervisar",
+      "B": "Prohibir",
+      "C": "Usarlo para detectar traidores"
+    }
+  },
+  "vampire_049": {
+    "title": "El dron de arriba",
+    "body": "Un dron sobrevuela tu escondite cada noche. Siempre vuelve.",
+    "choices": {
+      "A": "Hackearlo",
+      "B": "Derribarlo",
+      "C": "Mudarte"
+    }
+  },
+  "vampire_050": {
+    "title": "La bolsa de sangre",
+    "body": "Unos traficantes fijan los precios. Quieren un impuesto sobre tu territorio.",
+    "choices": {
+      "A": "Negociar",
+      "B": "Aplastarlos",
+      "C": "Crear tu propia red"
+    }
+  },
+  "vampire_051": {
+    "title": "El tren nocturno",
+    "body": "Un tren nocturno llega vacío. Los asientos están calientes. Muy calientes.",
+    "choices": {
+      "A": "Subir a bordo",
+      "B": "Avisar al clan",
+      "C": "Llamar a los cazadores para probar"
+    }
+  },
+  "vampire_052": {
+    "title": "La reliquia robada",
+    "body": "La reliquia de la sangre fría ha sido robada. El culpable deja un símbolo del secreto.",
+    "choices": {
+      "A": "Acusar al secreto",
+      "B": "Rastrear en silencio",
+      "C": "Ofrecer una amnistía"
+    }
+  },
+  "vampire_053": {
+    "title": "El pacto de los lobos",
+    "body": "Una manada propone una tregua. Quiere fronteras claras.",
+    "choices": {
+      "A": "Firmar una tregua",
+      "B": "Rechazar",
+      "C": "Usarlos contra los cazadores"
+    }
+  },
+  "vampire_054": {
+    "title": "La canción prohibida",
+    "body": "Una canción habla de ti. Cuando suena, los perros aúllan.",
+    "choices": {
+      "A": "Hacer que la prohíban",
+      "B": "Conocer al autor",
+      "C": "Poner la moda a tu favor"
+    }
+  },
+  "vampire_055": {
+    "title": "La copa agrietada",
+    "body": "Tu copa ritual está agrietada. Sin ella, el clan duda de ti.",
+    "choices": {
+      "A": "Repararla",
+      "B": "Reemplazarla por una nueva",
+      "C": "Convertir la grieta en símbolo"
+    }
+  },
+  "vampire_056": {
+    "title": "El perfume de santidad",
+    "body": "Una tienda vende un perfume que repele a los vampiros. Éxito inmediato.",
+    "choices": {
+      "A": "Comprar para analizar",
+      "B": "Sabotear la tienda",
+      "C": "Montar una falsificación"
+    }
+  },
+  "vampire_057": {
+    "title": "El juramento de sangre",
+    "body": "Un antiguo exige un juramento público. Quiere poner a prueba tu lealtad.",
+    "choices": {
+      "A": "Jurar y cumplir",
+      "B": "Rechazar",
+      "C": "Hacer trampa con un juramento falso"
+    }
+  },
+  "vampire_058": {
+    "title": "El perro que lo ve todo",
+    "body": "Un perro te mira fijamente y gruñe. Los humanos dicen que ve monstruos.",
+    "choices": {
+      "A": "Comprar al perro",
+      "B": "Alejarlo",
+      "C": "Hacerlo pasar por peligroso"
+    }
+  },
+  "vampire_059": {
+    "title": "El apagón",
+    "body": "Corte total de electricidad en la ciudad. La noche se vuelve perfecta, demasiado perfecta.",
+    "choices": {
+      "A": "Cazar rápido",
+      "B": "Proteger al clan",
+      "C": "Tender trampas a los cazadores"
+    }
+  },
+  "vampire_060": {
+    "title": "La comisaría",
+    "body": "Alguien deja una bolsa de sangre frente a la comisaría. Una provocación.",
+    "choices": {
+      "A": "Limpiar la escena",
+      "B": "Culpar a un rival",
+      "C": "Atraer a la policía a otro lugar"
+    }
+  },
+  "vampire_061": {
+    "title": "El pacto de los médicos",
+    "body": "Unos médicos quieren estudiar tu sangre. Prometen discreción y progreso.",
+    "choices": {
+      "A": "Aceptar bajo control",
+      "B": "Rechazar",
+      "C": "Usarlos para un remedio falso"
+    }
+  },
+  "vampire_062": {
+    "title": "La huida del novato",
+    "body": "Un novato entró en pánico y huyó en plena ciudad. Deja rastros por todas partes.",
+    "choices": {
+      "A": "Alcanzarlo",
+      "B": "Esconderlo con el secreto",
+      "C": "Desterrarlo como ejemplo"
+    }
+  },
+  "vampire_063": {
+    "title": "El juicio del secreto",
+    "body": "El secreto quiere juzgar a un humano que te insultó. Piden tu bendición.",
+    "choices": {
+      "A": "Rechazar el juicio",
+      "B": "Autorizar un juicio simbólico",
+      "C": "Dejar que el secreto decida"
+    }
+  },
+  "vampire_064": {
+    "title": "La bodega inundada",
+    "body": "Tu bodega secreta está inundada. Los ataúdes flotan, ambiente ridículo.",
+    "choices": {
+      "A": "Salvar las reservas",
+      "B": "Cambiar de refugio",
+      "C": "Convertirlo en atracción del secreto"
+    }
+  },
+  "vampire_065": {
+    "title": "El falso sol",
+    "body": "Una empresa instala lámparas muy potentes. Parece un falso sol.",
+    "choices": {
+      "A": "Sabotear la obra",
+      "B": "Negociar un corte",
+      "C": "Mover el escondite"
+    }
+  },
+  "vampire_066": {
+    "title": "La deuda del clan",
+    "body": "El clan tiene una deuda con un criminal humano. Quiere que se la paguen ahora.",
+    "choices": {
+      "A": "Pagar",
+      "B": "Asustarlo",
+      "C": "Reclutarlo"
+    }
+  },
+  "vampire_067": {
+    "title": "El pacto de los artistas",
+    "body": "Unos artistas quieren pintar tu leyenda en las paredes. Eso atrae a la gente.",
+    "choices": {
+      "A": "Aceptar y controlar",
+      "B": "Prohibir",
+      "C": "Usar el arte para ocultar señales"
+    }
+  },
+  "vampire_068": {
+    "title": "La caza de rumores",
+    "body": "Un foro local recopila pruebas. Las publicaciones se acumulan.",
+    "choices": {
+      "A": "Infiltrar el foro",
+      "B": "Amenazar a un administrador",
+      "C": "Lanzar rumores absurdos"
+    }
+  },
+  "vampire_069": {
+    "title": "El mercado nocturno",
+    "body": "Un mercado nocturno vende talismanes. Algunos funcionan, por desgracia.",
+    "choices": {
+      "A": "Confiscar los talismanes",
+      "B": "Recomprarlos en secreto",
+      "C": "Aliarte con el vendedor"
+    }
+  },
+  "vampire_070": {
+    "title": "El duelo de los antiguos",
+    "body": "Dos antiguos se desafían. Quieren un duelo a la antigua, así que sangriento.",
+    "choices": {
+      "A": "Prohibirlo",
+      "B": "Arbitrar un duelo controlado",
+      "C": "Dejar que ocurra"
+    }
+  },
+  "vampire_071": {
+    "title": "La foto borrosa",
+    "body": "Una foto borrosa te muestra detrás de una cortina. Se ve justo lo suficiente para causar pánico.",
+    "choices": {
+      "A": "Retirar la foto",
+      "B": "Negarlo con humor",
+      "C": "Culpar a un filtro"
+    }
+  },
+  "vampire_072": {
+    "title": "El regalo envenenado",
+    "body": "Llega un paquete con una cinta. Dentro hay un objeto que huele a bendición.",
+    "choices": {
+      "A": "Abrirlo con cuidado",
+      "B": "Tirarlo lejos",
+      "C": "Enviárselo a un rival"
+    }
+  },
+  "vampire_073": {
+    "title": "La boda del secreto",
+    "body": "El secreto organiza una boda nocturna. Quieren que seas testigo.",
+    "choices": {
+      "A": "Aceptar",
+      "B": "Rechazar",
+      "C": "Enviar a un doble"
+    }
+  },
+  "vampire_074": {
+    "title": "El motín suave",
+    "body": "Unos vampiros exigen más sangre para los débiles. Hablan de justicia.",
+    "choices": {
+      "A": "Reformar la distribución",
+      "B": "Reprimir",
+      "C": "Prometer y olvidar"
+    }
+  },
+  "vampire_075": {
+    "title": "El túnel secreto",
+    "body": "Un túnel bajo la cripta lleva a una salida. Alguien ya lo ha usado.",
+    "choices": {
+      "A": "Tapar el túnel",
+      "B": "Explorar el túnel",
+      "C": "Tender una trampa en la salida"
+    }
+  },
+  "vampire_076": {
+    "title": "La lluvia de cenizas",
+    "body": "Una chimenea lanza cenizas sobre la ciudad. Los humanos lo toman como una señal.",
+    "choices": {
+      "A": "Explotar el miedo",
+      "B": "Calmar a la ciudad",
+      "C": "Acusar a los cazadores"
+    }
+  },
+  "vampire_077": {
+    "title": "El guardián del cementerio",
+    "body": "El guardián del cementerio te conoce. Pide un salario y respeto.",
+    "choices": {
+      "A": "Pagarle",
+      "B": "Amenazarlo",
+      "C": "Reclutarlo"
+    }
+  },
+  "vampire_078": {
+    "title": "La poción demasiado buena",
+    "body": "El secreto inventa una bebida de sangre. Todo el mundo la quiere, incluso los humanos.",
+    "choices": {
+      "A": "Prohibirla",
+      "B": "Venderla en el mercado negro",
+      "C": "Dosificarla y controlarla"
+    }
+  },
+  "vampire_079": {
+    "title": "El pacto de los hackers",
+    "body": "Unos hackers proponen limpiar internet. Quieren un pago en sangre.",
+    "choices": {
+      "A": "Aceptar",
+      "B": "Rechazar",
+      "C": "Tenderles una trampa"
+    }
+  },
+  "vampire_080": {
+    "title": "La campana de medianoche",
+    "body": "Una campana suena a medianoche sin motivo. Con cada campanada, los cazadores se mueven.",
+    "choices": {
+      "A": "Destruir la campana",
+      "B": "Vigilar los alrededores",
+      "C": "Usar la campana como cebo"
+    }
+  },
+  "vampire_081": {
+    "title": "El nuevo símbolo",
+    "body": "Aparece un símbolo desconocido en tus paredes. Ni del clan ni del secreto. Algo distinto.",
+    "choices": {
+      "A": "Investigar",
+      "B": "Borrarlo todo",
+      "C": "Hacer creer que es un rito del secreto"
+    }
+  },
+  "vampire_082": {
+    "title": "La caza prohibida",
+    "body": "Un territorio sagrado está prohibido para la caza. Pero el hambre gana.",
+    "choices": {
+      "A": "Respetar la prohibición",
+      "B": "Cazar en secreto",
+      "C": "Proponer un intercambio al guardián"
+    }
+  },
+  "vampire_083": {
+    "title": "El banquete de los cazadores",
+    "body": "Los cazadores celebran un banquete. Invitan a un traidor del clan.",
+    "choices": {
+      "A": "Espiar el banquete",
+      "B": "Atacar el banquete",
+      "C": "Poner al traidor de tu lado"
+    }
+  },
+  "vampire_084": {
+    "title": "La corona de hierro",
+    "body": "Te proponen una corona antigua. Promete autoridad, pero tiene un precio.",
+    "choices": {
+      "A": "Ponértela",
+      "B": "Encerrarla",
+      "C": "Ofrecérsela a un rival"
+    }
+  },
+  "vampire_085": {
+    "title": "La noche perfecta",
+    "body": "Todo está tranquilo. Demasiado tranquilo. Hasta las ratas callan. Se prepara un ataque.",
+    "choices": {
+      "A": "Reforzar a los guardias",
+      "B": "Huir antes del asalto",
+      "C": "Lanzar un ataque preventivo"
+    }
+  },
+  "vampire_086": {
+    "title": "La nevera que habla",
+    "body": "La nevera muestra un mensaje por sí sola. El clan entra en pánico. Tú odias las sorpresas.",
+    "choices": {
+      "A": "Hacer revisar la nevera",
+      "B": "Cambiar todo el stock",
+      "C": "Acusar un sabotaje"
+    }
+  },
+  "vampire_087": {
+    "title": "El chófer demasiado simpático",
+    "body": "Va contando por todas partes que nunca duermes. Es amable. Sobre todo, es peligroso.",
+    "choices": {
+      "A": "Conservarlo, pero controlarlo",
+      "B": "Reemplazarlo rápido",
+      "C": "Reclutarlo en el secreto"
+    }
+  },
+  "vampire_088": {
+    "title": "La ruta de las bodegas",
+    "body": "Los humanos salen en grupo. Fácil de localizar, más difícil de acercarse sin dejar rastros.",
+    "choices": {
+      "A": "Mover la caza",
+      "B": "Controlar el bar",
+      "C": "Usar el bar como cobertura"
+    }
+  },
+  "vampire_089": {
+    "title": "El guardián del museo",
+    "body": "Sacó una foto y se la envió a un amigo apasionado. Los apasionados suelen acabar siendo cazadores.",
+    "choices": {
+      "A": "Pagarle por su silencio",
+      "B": "Desviarlo con una pista falsa",
+      "C": "Recuperar el objeto esta noche"
+    }
+  },
+  "vampire_090": {
+    "title": "La huelga de los sirvientes",
+    "body": "Los sirvientes tienen exigencias. Tu palacio de repente parece una empresa.",
+    "choices": {
+      "A": "Negociar con calma",
+      "B": "Imponer tu autoridad",
+      "C": "Reemplazar a todo el personal"
+    }
+  },
+  "vampire_091": {
+    "title": "El collar de ajo",
+    "body": "A los humanos les parece divertido. A ti te parece agresivo. Y el olor te sigue como un insulto.",
+    "choices": {
+      "A": "Cerrar la tienda",
+      "B": "Lanzar una campaña ridícula",
+      "C": "Ignorar y cambiar de ruta"
+    }
+  },
+  "vampire_092": {
+    "title": "La llave desaparecida",
+    "body": "La llave de las antiguas protecciones ha desaparecido. Alguien sabía dónde estaba.",
+    "choices": {
+      "A": "Interrogar al clan",
+      "B": "Cambiar todas las cerraduras",
+      "C": "Tender una trampa en el cofre"
+    }
+  },
+  "vampire_093": {
+    "title": "La cita con el notario",
+    "body": "Al notario le gustan demasiado los detalles. Los detalles siempre amenazan al secreto.",
+    "choices": {
+      "A": "Ir en persona",
+      "B": "Enviar a un heredero falso",
+      "C": "Aplazar la cita"
+    }
+  },
+  "vampire_094": {
+    "title": "La mordedura pública",
+    "body": "Dice que se dejó llevar por el ambiente. Ahora el ambiente es una investigación.",
+    "choices": {
+      "A": "Limpiar y encubrir",
+      "B": "Castigar al joven delante de todos",
+      "C": "Culpar a una droga"
+    }
+  },
+  "vampire_095": {
+    "title": "La sangre de sabor extraño",
+    "body": "Hasta los inmortales rechazan esa sangre. Así que el problema es serio.",
+    "choices": {
+      "A": "Cambiar de proveedor",
+      "B": "Probar el stock",
+      "C": "Imponer disciplina"
+    }
+  },
+  "vampire_096": {
+    "title": "El falso documental",
+    "body": "Hablan de túneles y desapariciones. Los detalles son falsos, la idea no.",
+    "choices": {
+      "A": "Hacer retirar el episodio",
+      "B": "Comprar la producción",
+      "C": "Ahogar el asunto en el ridículo"
+    }
+  },
+  "vampire_097": {
+    "title": "El perfume de sol",
+    "body": "Los humanos se lo untan felices. Tú sientes que tu inmortalidad acaba de perder algo de comodidad.",
+    "choices": {
+      "A": "Identificar el ingrediente",
+      "B": "Prohibir su uso cerca del refugio",
+      "C": "Mover la zona de caza"
+    }
+  },
+  "vampire_098": {
+    "title": "El anillo del juramento",
+    "body": "Ese anillo nunca vuelve sin motivo. Anuncia una promesa o una amenaza. A veces ambas.",
+    "choices": {
+      "A": "Sellarlo",
+      "B": "Llevarlo puesto",
+      "C": "Buscar quién lo dejó"
+    }
+  },
+  "vampire_099": {
+    "title": "El vecino jardinero",
+    "body": "Es amable, sonriente y le encantan las palitas. Justo todo lo que más detestas ahora.",
+    "choices": {
+      "A": "Desviarlo con un regalo",
+      "B": "Modificar la entrada secreta",
+      "C": "Hacer que se mude"
+    }
+  },
+  "vampire_100": {
+    "title": "El silencio de radio",
+    "body": "Cuando un vampiro desaparece, nunca es casualidad. O es una trampa, o una traición. O ambas.",
+    "choices": {
+      "A": "Enviar un equipo",
+      "B": "Esperar y observar",
+      "C": "Suponer lo peor y responder"
+    }
+  },
+  "vampire_101": {
+    "title": "El mercado de antigüedades",
+    "body": "El vendedor dice que eso viene de una bodega. Claro. Las bodegas siempre cargan con la culpa.",
+    "choices": {
+      "A": "Comprarlo discretamente",
+      "B": "Robarlo esta noche",
+      "C": "Tenderle una trampa al vendedor"
+    }
+  },
+  "vampire_102": {
+    "title": "El secreto quiere un logo",
+    "body": "Quieren una identidad visible. Tú quieres, sobre todo, que sigan siendo invisibles.",
+    "choices": {
+      "A": "Dar un símbolo simple",
+      "B": "Rechazar y calmar",
+      "C": "Crear un símbolo falso con trampa"
+    }
+  },
+  "vampire_103": {
+    "title": "El camarógrafo insomne",
+    "body": "Le encantan las sombras, los callejones, las siluetas. Está a un paso de filmar la silueta equivocada.",
+    "choices": {
+      "A": "Convencerlo de que se detenga",
+      "B": "Sabotear su equipo",
+      "C": "Usar sus imágenes como cobertura"
+    }
+  },
+  "vampire_104": {
+    "title": "El nuevo código del clan",
+    "body": "La reunión dura una eternidad. Lo cual es irónico, teniendo en cuenta que justamente tenéis la eternidad.",
+    "choices": {
+      "A": "Aprobar a los antiguos",
+      "B": "Modernizar poco a poco",
+      "C": "Imponer un compromiso"
+    }
+  },
+  "vampire_105": {
+    "title": "La queja del barrio",
+    "body": "Circula una petición. Los humanos tienen miedo. Las miradas se vuelven hacia ti.",
+    "choices": {
+      "A": "Calmar al barrio",
+      "B": "Asustar a los vecinos",
+      "C": "Cambiar de refugio"
+    }
+  },
+  "vampire_106": {
+    "title": "El teléfono olvidado",
+    "body": "El teléfono contiene fotos y mensajes. Una verdadera amenaza para el secreto.",
+    "choices": {
+      "A": "Recuperar el teléfono rápido",
+      "B": "Destruirlo",
+      "C": "Revisarlo y vigilar"
+    }
+  },
+  "vampire_107": {
+    "title": "La bolsa de sangre perforada",
+    "body": "Un rastro rojo como un hilo de Ariadna. Solo que tu laberinto tiene colmillos.",
+    "choices": {
+      "A": "Seguir el rastro",
+      "B": "Castigar a todo el mundo",
+      "C": "Instalar controles"
+    }
+  },
+  "vampire_108": {
+    "title": "La visita sorpresa",
+    "body": "Sonríe como un rey de viaje. Mira tu refugio como si ya le perteneciera.",
+    "choices": {
+      "A": "Recibirlo con respeto",
+      "B": "Hacerlo esperar fuera",
+      "C": "Preparar una trampa cortés"
+    }
+  },
+  "vampire_109": {
+    "title": "El cazador herido",
+    "body": "Sangra, tiembla, pero conserva su odio. Un animal herido muerde más fuerte.",
+    "choices": {
+      "A": "Capturarlo",
+      "B": "Curarlo para negociar",
+      "C": "Entregarlo a un rival"
+    }
+  },
+  "vampire_110": {
+    "title": "La cerradura averiada",
+    "body": "Una puerta abierta es una invitación. Y a ti no te gustan los invitados.",
+    "choices": {
+      "A": "Repararla de inmediato",
+      "B": "Poner guardias",
+      "C": "Condenar la zona"
+    }
+  },
+  "vampire_111": {
+    "title": "El perfume de la mentira",
+    "body": "La mentira tiene un olor. Lo conoces demasiado bien. La cuestión es por qué miente ahora.",
+    "choices": {
+      "A": "Enfrentarlo",
+      "B": "Ponerlo a prueba en silencio",
+      "C": "Dejarlo hablar y tenderle una trampa"
+    }
+  },
+  "vampire_112": {
+    "title": "El rumor del remedio",
+    "body": "Un remedio hace soñar a unos y entrar en pánico a otros. Los cazadores ya vigilan.",
+    "choices": {
+      "A": "Buscar el remedio",
+      "B": "Destruir el rumor",
+      "C": "Usarlo para manipular"
+    }
+  },
+  "vampire_113": {
+    "title": "El autobús nocturno",
+    "body": "Cada noche, ventanas llenas de ojos. Los ojos observan. Un día, verán.",
+    "choices": {
+      "A": "Hacer cambiar la ruta",
+      "B": "Camuflar la entrada",
+      "C": "Aprovechar el autobús"
+    }
+  },
+  "vampire_114": {
+    "title": "El camarero demasiado hablador",
+    "body": "Dice que eres misterioso. Imita tu forma de andar. Añade detalles. Los detalles son cuchillos.",
+    "choices": {
+      "A": "Ponerlo en su sitio con amabilidad",
+      "B": "Despedirlo",
+      "C": "Convertirlo en cebo"
+    }
+  },
+  "vampire_115": {
+    "title": "El paquete anónimo",
+    "body": "El paquete no huele a humano. Huele a antiguo. Y te llegó con demasiada facilidad.",
+    "choices": {
+      "A": "Abrirlo con cuidado",
+      "B": "Quemarlo",
+      "C": "Mandarlo a analizar"
+    }
+  },
+  "vampire_116": {
+    "title": "La reunión de cazadores",
+    "body": "Ni siquiera se esconden. Cuando un enemigo se vuelve confiado, está preparando algo.",
+    "choices": {
+      "A": "Infiltrar la reunión",
+      "B": "Golpear primero",
+      "C": "Mover a todo el clan"
+    }
+  },
+  "vampire_117": {
+    "title": "El músico nocturno",
+    "body": "Toca demasiado bien. Como si quisiera atraer a alguien. La cuestión es a quién.",
+    "choices": {
+      "A": "Hacer que se vaya",
+      "B": "Reclutarlo",
+      "C": "Dejarlo y observar"
+    }
+  },
+  "vampire_118": {
+    "title": "El mapa perdido",
+    "body": "El fiel dice que lo encontró por casualidad. La casualidad tiene sentido del humor, tú no.",
+    "choices": {
+      "A": "Recuperar el mapa",
+      "B": "Cambiar los túneles",
+      "C": "Hacer creer en un mapa falso"
+    }
+  },
+  "vampire_119": {
+    "title": "La sangre rara",
+    "body": "El clan discute como niños. Salvo que los niños no tienen colmillos ni rencores centenarios.",
+    "choices": {
+      "A": "Reservarla para el consejo",
+      "B": "Repartirla con justicia",
+      "C": "Quedártela"
+    }
+  },
+  "vampire_120": {
+    "title": "La sala prohibida",
+    "body": "Está pálido, incluso para ser un vampiro. Dice haber oído una respiración detrás del muro.",
+    "choices": {
+      "A": "Castigarlo",
+      "B": "Escucharlo e investigar",
+      "C": "Hacer que lo olvide"
+    }
+  },
+  "vampire_121": {
+    "title": "El contrato de seguridad",
+    "body": "Más cámaras significan más pruebas. Pero controlar las cámaras significa controlar el relato.",
+    "choices": {
+      "A": "Rechazar y sabotear",
+      "B": "Aceptar y controlar",
+      "C": "Comprar la empresa"
+    }
+  },
+  "vampire_122": {
+    "title": "El perfume de rosas",
+    "body": "Debes quedarte inmóvil todo un día dentro de un ataúd de transporte. Ya de por sí es toda una prueba.",
+    "choices": {
+      "A": "Hacer arrancar las rosas",
+      "B": "Protegerte y adaptarte",
+      "C": "Cambiar la entrada secreta"
+    }
+  },
+  "vampire_123": {
+    "title": "El pintor obsesionado",
+    "body": "Dice que tu mirada es única. Quiere pintarte a la luz. Mala idea.",
+    "choices": {
+      "A": "Negarte con firmeza",
+      "B": "Aceptar, pero controlando",
+      "C": "Hacer que se vaya del barrio"
+    }
+  },
+  "vampire_124": {
+    "title": "La deuda del secreto",
+    "body": "Ayudaron una vez. Ahora se creen intocables.",
+    "choices": {
+      "A": "Pagar con donaciones",
+      "B": "Conceder un privilegio",
+      "C": "Rechazar y calmarlos"
+    }
+  },
+  "vampire_125": {
+    "title": "El guardaespaldas humano",
+    "body": "Es leal, competente y demasiado curioso. Tres cualidades que acaban mal juntas.",
+    "choices": {
+      "A": "Conservarlo, pero limitarlo",
+      "B": "Despedirlo",
+      "C": "Convertirlo en aliado"
+    }
+  },
+  "vampire_126": {
+    "title": "La lámpara demasiado fuerte",
+    "body": "Una simple lámpara lo cambia todo. A los humanos les gusta la luz. Tú la padeces.",
+    "choices": {
+      "A": "Hacer quitar la lámpara",
+      "B": "Camuflar el paso",
+      "C": "Usar la sombra en otro lugar"
+    }
+  },
+  "vampire_127": {
+    "title": "El cofre que cruje",
+    "body": "El cofre nunca había hecho ruido. Ahora gime. Y los archivos saben a secretos.",
+    "choices": {
+      "A": "Abrir y comprobar",
+      "B": "Sellarlo",
+      "C": "Llamar a un antiguo"
+    }
+  },
+  "vampire_128": {
+    "title": "La persecución",
+    "body": "El motor ruge, los faros se pegan a ti y tu calma se resquebraja. Alguien quiere empujarte al error.",
+    "choices": {
+      "A": "Despistar el coche",
+      "B": "Tender una trampa al conductor",
+      "C": "Volver al refugio por un rodeo"
+    }
+  },
+  "vampire_129": {
+    "title": "La cantina del clan",
+    "body": "Quieren orden y comodidad. Tú quieres secreto y control.",
+    "choices": {
+      "A": "Organizar una cantina",
+      "B": "Negarte e imponer la caza",
+      "C": "Crear un sistema de vales"
+    }
+  },
+  "vampire_130": {
+    "title": "El sermón del miedo",
+    "body": "Cuanto más grita, más escucha la gente. Cuanto más escucha la gente, más llegan los oídos equivocados.",
+    "choices": {
+      "A": "Hacerlo callar",
+      "B": "Ponerlo en su sitio con suavidad",
+      "C": "Usar su miedo como pantalla"
+    }
+  },
+  "vampire_131": {
+    "title": "El plan del rival",
+    "body": "No te golpea, te rodea. Es más lento, pero más cruel.",
+    "choices": {
+      "A": "Comprar más rápido que él",
+      "B": "Negociar una frontera",
+      "C": "Sabotear sus compras"
+    }
+  },
+  "vampire_132": {
+    "title": "La lluvia ácida",
+    "body": "No es el sol. Es otra cosa. Y otra cosa suele significar trampa.",
+    "choices": {
+      "A": "Quedarte en el refugio",
+      "B": "Buscar el origen",
+      "C": "Enviar exploradores"
+    }
+  },
+  "vampire_133": {
+    "title": "El pacto de las farmacias",
+    "body": "Varias farmacias quieren asociar tu imagen a su campaña. Piden fotos, entrevistas y presencia pública.",
+    "choices": {
+      "A": "Aceptar por el control",
+      "B": "Rechazar y seguir discreto",
+      "C": "Aceptar, pero a través de una pantalla"
+    }
+  },
+  "vampire_134": {
+    "title": "El vampiro vegetariano",
+    "body": "Habla de moral y paz. Los antiguos hablan de debilidad. Tú hablas de estabilidad.",
+    "choices": {
+      "A": "Apoyarlo",
+      "B": "Desterrarlo",
+      "C": "Vigilarlo"
+    }
+  },
+  "vampire_135": {
+    "title": "El candado de plata",
+    "body": "La plata pica solo con mirarla. Alguien quiso frenarte, no matarte. Todavía no.",
+    "choices": {
+      "A": "Romperlo",
+      "B": "Mandarlo analizar",
+      "C": "Rodear la puerta"
+    }
+  },
+  "vampire_136": {
+    "title": "La fuga de agua",
+    "body": "El agua atrae a los obreros. Los obreros hacen demasiadas preguntas.",
+    "choices": {
+      "A": "Reparar rápido",
+      "B": "Condenar la sala",
+      "C": "Mover el contenido"
+    }
+  },
+  "vampire_137": {
+    "title": "El último tren",
+    "body": "Una simple hora cambia la caza, los desplazamientos y el timing. Y tú vives del timing.",
+    "choices": {
+      "A": "Cambiar de ruta",
+      "B": "Crear un paso",
+      "C": "Controlar la estación"
+    }
+  },
+  "vampire_138": {
+    "title": "El cristal roto",
+    "body": "Un cristal roto es una entrada. O un mensaje. Y no te gusta ninguna de las dos cosas.",
+    "choices": {
+      "A": "Interrogar a todos",
+      "B": "Reforzar la seguridad",
+      "C": "Acusar a un enemigo"
+    }
+  },
+  "vampire_139": {
+    "title": "El becario con bata",
+    "body": "Es joven, listo y motivado. El peor tipo de persona cuando quieres seguir oculto.",
+    "choices": {
+      "A": "Reclutarlo",
+      "B": "Hacerlo callar",
+      "C": "Cambiar de circuito"
+    }
+  },
+  "vampire_140": {
+    "title": "La carta perfumada",
+    "body": "Ese perfume no es humano. Te recuerda una época en la que eras menos poderoso. Así que más prudente.",
+    "choices": {
+      "A": "Quemarla",
+      "B": "Leerla con protección",
+      "C": "Confiársela al secreto"
+    }
+  },
+  "vampire_141": {
+    "title": "La máscara de carnaval",
+    "body": "Por una vez, puedes caminar sin llamar la atención. Por una vez. Y eso pone nerviosos a los cazadores.",
+    "choices": {
+      "A": "Aprovechar la confusión",
+      "B": "Cerrar el refugio",
+      "C": "Controlar las calles"
+    }
+  },
+  "vampire_142": {
+    "title": "El guardia que sonríe",
+    "body": "No retrocede. Te hace una señal. Sabe. O está fingiendo. En ambos casos, es peligroso.",
+    "choices": {
+      "A": "Intimidarlo",
+      "B": "Seguirlo discretamente",
+      "C": "Cambiar de plan"
+    }
+  },
+  "vampire_143": {
+    "title": "La bodega clausurada",
+    "body": "Carteles, cintas, candados. A los humanos les encanta cerrar puertas. A ti te encanta volver a abrirlas.",
+    "choices": {
+      "A": "Corromper la inspección",
+      "B": "Abrir otro acceso",
+      "C": "Forzar la entrada por la noche"
+    }
+  },
+  "vampire_144": {
+    "title": "El pacto del silencio",
+    "body": "Tiene miedo y corre el riesgo de hablar. Debes elegir qué riesgo asumir.",
+    "choices": {
+      "A": "Aceptar y proteger",
+      "B": "Rechazar y vigilarlo",
+      "C": "Reemplazarlo"
+    }
+  },
+  "vampire_145": {
+    "title": "El polvo sagrado",
+    "body": "No es un ataque directo. Es una prueba. Alguien está midiendo tu reacción.",
+    "choices": {
+      "A": "Limpiar e investigar",
+      "B": "Hacer un rito de protección",
+      "C": "Responder con una advertencia"
+    }
+  },
+  "vampire_146": {
+    "title": "El banquete obligatorio",
+    "body": "Un banquete da poder, pero también expone tus debilidades.",
+    "choices": {
+      "A": "Organizar un banquete grandioso",
+      "B": "Rechazar y asumirlo",
+      "C": "Hacer un banquete discreto"
+    }
+  },
+  "vampire_147": {
+    "title": "El ladrón de fondos",
+    "body": "El dinero no huele a sangre, pero hace correr lágrimas. Y las lágrimas en un vampiro son raras.",
+    "choices": {
+      "A": "Auditar las cuentas",
+      "B": "Tender una trampa a la caja",
+      "C": "Acusar a un rival"
+    }
+  },
+  "vampire_148": {
+    "title": "El periodista nocturno",
+    "body": "Le gustan las historias oscuras. Va a terminar escribiendo una de verdad. Sobre ti.",
+    "choices": {
+      "A": "Corromperlo",
+      "B": "Desviarlo",
+      "C": "Hacerlo callar"
+    }
+  },
+  "vampire_149": {
+    "title": "La vela que no se apaga",
+    "body": "La llama baila como si te mirara. Una llama que mira rara vez trae algo bueno.",
+    "choices": {
+      "A": "Apagarla por la fuerza",
+      "B": "Entender el ritual",
+      "C": "Sellar la sala"
+    }
+  },
+  "vampire_150": {
+    "title": "El perro que gruñe",
+    "body": "Un perro puede alertar a todo un edificio. Y los humanos se despiertan muy rápido cuando un perro entra en pánico.",
+    "choices": {
+      "A": "Evitar la zona",
+      "B": "Domesticar al perro",
+      "C": "Asustar al dueño"
+    }
+  },
+  "vampire_151": {
+    "title": "El espejo de bolsillo",
+    "body": "En este espejo, no existes. A algunos les divierte. Tú sabes que eso atrae a los curiosos.",
+    "choices": {
+      "A": "Destruirlo",
+      "B": "Guardarlo como pista",
+      "C": "Buscar al propietario"
+    }
+  },
+  "vampire_152": {
+    "title": "La puerta que golpea",
+    "body": "Tres golpes, siempre a la misma hora. Una rutina es una amenaza cuando viene de un enemigo.",
+    "choices": {
+      "A": "Abrir y enfrentarlo",
+      "B": "Tender una trampa en la entrada",
+      "C": "Ignorar y vigilar"
+    }
+  },
+  "vampire_153": {
+    "title": "El juramento del joven",
+    "body": "Quiere hacerlo bien. Quiere ser útil. Un vampiro demasiado impaciente suele cometer un error visible.",
+    "choices": {
+      "A": "Aceptar el juramento",
+      "B": "Aplazarlo",
+      "C": "Ponerlo a prueba primero"
+    }
+  },
+  "vampire_154": {
+    "title": "La extraña inyección",
+    "body": "Alguien tiene un arma capaz de alcanzarte. No de matarte, todavía no. Pero sí de hacerte dudar.",
+    "choices": {
+      "A": "Buscar el antídoto",
+      "B": "Aislar al vampiro",
+      "C": "Rastrear al autor"
+    }
+  },
+  "vampire_155": {
+    "title": "La fiesta de los vecinos",
+    "body": "Música, risas, vasos rotos. Y tú debes pasar bajo sus pies como un secreto nervioso.",
+    "choices": {
+      "A": "Interrumpir la fiesta",
+      "B": "Esperar a que termine",
+      "C": "Crear una distracción en otro lugar"
+    }
+  },
+  "vampire_156": {
+    "title": "El ruido bajo la piedra",
+    "body": "Arañazos, respiración, silencio. Las tres etapas de un problema que crece.",
+    "choices": {
+      "A": "Abrir y ver",
+      "B": "Sellar y olvidar",
+      "C": "Enviar un explorador"
+    }
+  },
+  "vampire_157": {
+    "title": "El consejero corrupto",
+    "body": "Ha entendido que tienes secretos. Los humanos se vuelven valientes cuando huelen el dinero.",
+    "choices": {
+      "A": "Pagar y controlar",
+      "B": "Reemplazarlo",
+      "C": "Destruirlo políticamente"
+    }
+  },
+  "vampire_158": {
+    "title": "La caza de más",
+    "body": "Un territorio sin humanos es una tumba. No quieres reinar sobre una tumba vacía.",
+    "choices": {
+      "A": "Ralentizar la caza",
+      "B": "Cambiar de territorio",
+      "C": "Traer de vuelta a los humanos con promesas"
+    }
+  },
+  "vampire_159": {
+    "title": "El libro prohibido vuelve",
+    "body": "Alguien quiso que leyeras esto. Nunca es buena señal.",
+    "choices": {
+      "A": "Leer la página",
+      "B": "Quemar el libro",
+      "C": "Buscar quién lo dejó"
+    }
+  },
+  "vampire_160": {
+    "title": "La cámara fría",
+    "body": "El frío no es normal. Muerde la piedra, mata la llama y deja mudos a los sirvientes.",
+    "choices": {
+      "A": "Cortar la electricidad",
+      "B": "Explorar el origen",
+      "C": "Mover el stock"
+    }
+  },
+  "vampire_161": {
+    "title": "El duelo pedido",
+    "body": "Quiere provocarte delante de todos. Un duelo siempre atrae demasiadas miradas.",
+    "choices": {
+      "A": "Aceptar el duelo",
+      "B": "Rechazar y castigar",
+      "C": "Desviar el duelo hacia una prueba"
+    }
+  },
+  "vampire_162": {
+    "title": "La bomba mediática",
+    "body": "El círculo rojo apunta a tu rostro. Sabes que el siguiente círculo rojo apuntará a tu refugio.",
+    "choices": {
+      "A": "Eliminar la fuente",
+      "B": "Crear un falso escándalo en otro sitio",
+      "C": "Asumir una identidad pública"
+    }
+  },
+  "vampire_163": {
+    "title": "El pacto del médico",
+    "body": "No tiene miedo. Quiere un contrato. Los contratos, en tu mundo, rara vez acaban en un tribunal.",
+    "choices": {
+      "A": "Aceptar y vigilar",
+      "B": "Rechazar y borrar las huellas",
+      "C": "Reclutarlo de forma duradera"
+    }
+  },
+  "vampire_164": {
+    "title": "La puerta con símbolo",
+    "body": "Ese símbolo no estaba ahí ayer. Alguien llegó hasta aquí. O algo.",
+    "choices": {
+      "A": "Raspar y borrar",
+      "B": "Estudiar el símbolo",
+      "C": "Sellar la puerta"
+    }
+  },
+  "vampire_165": {
+    "title": "La pelea en el consejo",
+    "body": "Vuela una silla, se desgarra una capa, un antiguo insulta a un joven. El poder se nota cuando todo se descontrola.",
+    "choices": {
+      "A": "Detenerlo con autoridad",
+      "B": "Dejarlo y observar las lealtades",
+      "C": "Echar a todo el mundo"
+    }
+  },
+  "vampire_166": {
+    "title": "El falso profeta",
+    "body": "Cuanto más habla, más peligroso se vuelve. No para ti directamente, sino para tu discreción.",
+    "choices": {
+      "A": "Apoyarlo y controlarlo",
+      "B": "Hacerlo callar",
+      "C": "Ridiculizarlo públicamente"
+    }
+  },
+  "vampire_167": {
+    "title": "La trampa de sal",
+    "body": "Es simple, eficaz y humillante. No se atrapa a un lord con sal. Y sin embargo.",
+    "choices": {
+      "A": "Desactivarla y seguir al autor",
+      "B": "Cambiar de túnel",
+      "C": "Tender una trampa a la trampa"
+    }
+  },
+  "vampire_168": {
+    "title": "El polvo de plata",
+    "body": "Toses, retrocedes, te enfadas. Y el enemigo cuenta con tu rabia para hacerte salir.",
+    "choices": {
+      "A": "Cerrar el refugio",
+      "B": "Rastrear a los intrusos",
+      "C": "Evacuar al clan"
+    }
+  },
+  "vampire_169": {
+    "title": "La cena diplomática",
+    "body": "Las cenas son trampas con traje. Pero a veces una trampa revela información valiosa.",
+    "choices": {
+      "A": "Aceptar y prepararse",
+      "B": "Rechazar y reforzar",
+      "C": "Enviar a un emisario"
+    }
+  },
+  "vampire_170": {
+    "title": "La susurradora",
+    "body": "No huye. Susurra. Y las sombras casi responden. Eso nunca ocurre gratis.",
+    "choices": {
+      "A": "Acercarte con suavidad",
+      "B": "Alejarla con miedo",
+      "C": "Vigilarla"
+    }
+  },
+  "vampire_171": {
+    "title": "El plan de evacuación",
+    "body": "Un ejército sin plan huye mal. Un clan sin plan entra rápido en pánico. Y el pánico deja rastros.",
+    "choices": {
+      "A": "Crear un plan estricto",
+      "B": "Crear un plan flexible",
+      "C": "Negarte e imponer disciplina"
+    }
+  },
+  "vampire_172": {
+    "title": "El túnel derrumbado",
+    "body": "Las piedras caen como dientes. Y detrás de las piedras, a veces, hay cosas esperando.",
+    "choices": {
+      "A": "Despejarlo de inmediato",
+      "B": "Cavar un rodeo",
+      "C": "Abandonar ese paso"
+    }
+  },
+  "vampire_173": {
+    "title": "El canto prohibido",
+    "body": "El canto te recuerda una época en la que el clan temía sus propias paredes. Y no te gusta el miedo.",
+    "choices": {
+      "A": "Prohibir toda ceremonia",
+      "B": "Buscar el origen",
+      "C": "Responder con un contra-ritual"
+    }
+  },
+  "vampire_174": {
+    "title": "La colección de colmillos",
+    "body": "Unos colmillos en una vitrina son grotescos. Pero si algunos son reales, hay una fuga en tu clan.",
+    "choices": {
+      "A": "Hacer que lo arresten",
+      "B": "Comprar toda la colección",
+      "C": "Vigilarlo para seguir el rastro"
+    }
+  },
+  "vampire_175": {
+    "title": "La falsa alarma",
+    "body": "La alarma despierta los nervios, no a los vampiros. Pero atrae a los humanos, y eso es peor.",
+    "choices": {
+      "A": "Apagar la alarma e investigar",
+      "B": "Evacuar al clan",
+      "C": "Buscar un sabotaje técnico"
+    }
+  },
+  "vampire_176": {
+    "title": "El mercado de identidades",
+    "body": "La identidad es tu máscara. Si alguien vende tu máscara, también vende tu rostro.",
+    "choices": {
+      "A": "Pagar para recuperarla",
+      "B": "Rastrear al hacker",
+      "C": "Cambiar de identidad"
+    }
+  },
+  "vampire_177": {
+    "title": "El banquete del secreto",
+    "body": "Decoraron, cantaron, rezaron y cocinaron. Empieza con buena intención. A menudo termina en drama.",
+    "choices": {
+      "A": "Rechazar con educación",
+      "B": "Aceptar y desempeñar un papel",
+      "C": "Enviar a un doble"
+    }
+  },
+  "vampire_178": {
+    "title": "La cazadora invisible",
+    "body": "Sin ruido, sin olor, sin testigos. Alguien muy serio está jugando contra ti.",
+    "choices": {
+      "A": "Tender una trampa",
+      "B": "Reforzar las patrullas",
+      "C": "Cambiar de ritmo"
+    }
+  },
+  "vampire_179": {
+    "title": "La botella sospechosa",
+    "body": "No es tu stock. Así que es una provocación, una trampa o un intento de culparte.",
+    "choices": {
+      "A": "Confiscarla y analizarla",
+      "B": "Destruirla",
+      "C": "Usarla como cebo"
+    }
+  },
+  "vampire_180": {
+    "title": "El plan de renovación",
+    "body": "Obreros, lámparas, planos y horarios. Todo lo que no puedes morder.",
+    "choices": {
+      "A": "Hacer cancelar las obras",
+      "B": "Mover los accesos",
+      "C": "Infiltrar la obra"
+    }
+  },
+  "vampire_181": {
+    "title": "El pacto de los jóvenes",
+    "body": "Quieren autonomía. Tú quieres orden. La autonomía sin orden es la ruina.",
+    "choices": {
+      "A": "Disolver el grupo",
+      "B": "Integrar sus ideas",
+      "C": "Infiltrar y vigilar"
+    }
+  },
+  "vampire_182": {
+    "title": "El traje demasiado moderno",
+    "body": "El traje es bonito, pero te hace visible. Y tú quieres que te respeten, no que te noten.",
+    "choices": {
+      "A": "Aceptarlo y probarlo",
+      "B": "Rechazarlo por orgullo",
+      "C": "Enviar a otro a llevarlo"
+    }
+  },
+  "vampire_183": {
+    "title": "La caja cerrada",
+    "body": "La caja es pesada y silenciosa. Ese silencio se parece a una amenaza.",
+    "choices": {
+      "A": "Forzarla",
+      "B": "Sellarla",
+      "C": "Buscar al remitente"
+    }
+  },
+  "vampire_184": {
+    "title": "La estatua rota",
+    "body": "La piedra está rota sin escombros. Una presencia antigua parece despertarse.",
+    "choices": {
+      "A": "Reparar y purificar",
+      "B": "Investigar la causa",
+      "C": "Acusar a un enemigo y contraatacar"
+    }
+  },
+  "vampire_185": {
+    "title": "Entrega nocturna retrasada",
+    "body": "El repartidor desapareció con tu caja. La sangre también.",
+    "choices": {
+      "A": "Lanzar una persecución rápida",
+      "B": "Pagar a un segundo repartidor",
+      "C": "Arreglártelas con el stock del clan"
+    }
+  },
+  "vampire_186": {
+    "title": "La app antivampiros",
+    "body": "Una app promete detectar vampiros. Te apunta con una notificación.",
+    "choices": {
+      "A": "Infiltrar a los desarrolladores",
+      "B": "Hacer una actualización falsa",
+      "C": "Cambiar tus costumbres"
+    }
+  },
+  "vampire_187": {
+    "title": "Ataúd ergonómico",
+    "body": "Un artesano te propone un ataúd cómodo. El clan quiere probarlo antes que tú.",
+    "choices": {
+      "A": "Imponer tu privilegio",
+      "B": "Organizar una demostración controlada",
+      "C": "Rechazarlo y quedarte con el viejo"
+    }
+  },
+  "vampire_188": {
+    "title": "Fuga en la cripta",
+    "body": "Cae agua sobre las reservas. Ni a los vampiros les gusta el moho.",
+    "choices": {
+      "A": "Repararlo enseguida",
+      "B": "Mover las reservas",
+      "C": "Culpar a un rival"
+    }
+  },
+  "vampire_189": {
+    "title": "Cazador con walkie-talkie",
+    "body": "Oyes radios fuera. Unos cazadores están peinando el barrio.",
+    "choices": {
+      "A": "Tender una trampa a su equipo",
+      "B": "Mantener un perfil bajo",
+      "C": "Mover el refugio"
+    }
+  },
+  "vampire_190": {
+    "title": "Fiesta improvisada del secreto",
+    "body": "El secreto organiza una fiesta en tu honor. Con carteles y humo.",
+    "choices": {
+      "A": "Cancelar con firmeza",
+      "B": "Supervisar y asegurar",
+      "C": "Usarlo como distracción"
+    }
+  },
+  "vampire_191": {
+    "title": "Banco sospechoso",
+    "body": "Tu cuenta atrae atención. Demasiadas compras nocturnas y demasiado poco sol.",
+    "choices": {
+      "A": "Enviar a un gestor falso",
+      "B": "Cambiar de identidad",
+      "C": "Pasarte al efectivo"
+    }
+  },
+  "vampire_192": {
+    "title": "Nuevo recluta demasiado motivado",
+    "body": "Un joven vampiro quiere cazar cada noche. Hace ruido y publica stories.",
+    "choices": {
+      "A": "Calmarlo con dureza",
+      "B": "Formarlo correctamente",
+      "C": "Ponerlo al servicio del secreto"
+    }
+  },
+  "vampire_193": {
+    "title": "Racionamiento del clan",
+    "body": "El clan quiere una cuota de sangre. Todo el mundo te acusa de favoritismo.",
+    "choices": {
+      "A": "Fijar reglas claras",
+      "B": "Dar más a los leales",
+      "C": "Dejar que el hambre seleccione"
+    }
+  },
+  "vampire_194": {
+    "title": "Periódico local curioso",
+    "body": "Un periódico investiga mordeduras. Tienen la zona correcta y la fecha correcta.",
+    "choices": {
+      "A": "Hacer callar el artículo",
+      "B": "Desviarlo hacia un mito",
+      "C": "Acusar a otro depredador"
+    }
+  },
+  "vampire_195": {
+    "title": "El médico demasiado observador",
+    "body": "Un médico nota marcas sospechosas en varios pacientes. Está atando cabos.",
+    "choices": {
+      "A": "Reclutarlo por la fuerza",
+      "B": "Convencerlo con amabilidad",
+      "C": "Hacer que lo trasladen lejos"
+    }
+  },
+  "vampire_196": {
+    "title": "El cofre vacío del secreto",
+    "body": "El cofre de ofrendas está vacío. El secreto discute y eso se vuelve público.",
+    "choices": {
+      "A": "Devolver el dinero y poner orden",
+      "B": "Señalar a un responsable",
+      "C": "Ignorarlo y dejar que arda"
+    }
+  },
+  "vampire_197": {
+    "title": "El vecino que graba",
+    "body": "Un vecino instala una cámara en el pasillo. Lo llama seguridad.",
+    "choices": {
+      "A": "Sabotear la cámara",
+      "B": "Encantarlo con calma",
+      "C": "Cambiar de paso"
+    }
+  },
+  "vampire_198": {
+    "title": "El perfume de ajo",
+    "body": "Llega una moda. Todo el mundo lleva ajo colgado al cuello. Muy chic. Muy molesto.",
+    "choices": {
+      "A": "Lanzar una moda contraria",
+      "B": "Evitar las multitudes",
+      "C": "Asustar a los influencers"
+    }
+  },
+  "vampire_199": {
+    "title": "Corte de electricidad",
+    "body": "No hay corriente en el refugio. Sin alarma, todo se vuelve demasiado fácil para los cazadores.",
+    "choices": {
+      "A": "Reparar rápido",
+      "B": "Poner guardias",
+      "C": "Abandonar la zona"
+    }
+  },
+  "vampire_200": {
+    "title": "Complot dentro del clan",
+    "body": "Tu sobrina propone modernizar la logística de los ataúdes. Te llaman el jefe de la noche.",
+    "choices": {
+      "A": "Enfrentarlos",
+      "B": "Dividirlos",
+      "C": "Darles un cargo falso"
+    }
+  },
+  "vampire_201": {
+    "title": "Sangre adulterada",
+    "body": "Un lote de sangre es dudoso. Los vampiros hacen muecas y eso es raro.",
+    "choices": {
+      "A": "Tirar el lote",
+      "B": "Mezclarlo con sangre buena",
+      "C": "Pasárselo al secreto"
+    }
+  },
+  "vampire_202": {
+    "title": "Llamada del alcalde",
+    "body": "El alcalde quiere reunirse contigo. Habla de seguridad nocturna y de financiación.",
+    "choices": {
+      "A": "Manipularlo",
+      "B": "Amenazarlo con educación",
+      "C": "Negarte rotundamente"
+    }
+  },
+  "vampire_203": {
+    "title": "El secreto demasiado celoso",
+    "body": "El secreto quiere tatuarse tu símbolo. En ellos. En todo. Incluso en las paredes.",
+    "choices": {
+      "A": "Prohibirlo y castigar",
+      "B": "Limitarlo a una señal discreta",
+      "C": "Usarlo para marcar el territorio"
+    }
+  },
+  "vampire_204": {
+    "title": "El libro prohibido",
+    "body": "Un grimorio del refugio desaparece. Y el último en tocarlo sonríe demasiado.",
+    "choices": {
+      "A": "Registrar a todo el clan",
+      "B": "Proponer una amnistía",
+      "C": "Lanzar una falsa maldición"
+    }
+  },
+  "vampire_205": {
+    "title": "Taxi nocturno parlanchín",
+    "body": "Un conductor cuenta que tuvo un cliente frío como la piedra. Eso suena a ti.",
+    "choices": {
+      "A": "Hacerlo callar",
+      "B": "Pagarle para que mienta",
+      "C": "Cambiar de trayectos"
+    }
+  },
+  "vampire_206": {
+    "title": "Baile de máscaras moderno",
+    "body": "Un club organiza un baile vampiro. Demasiado realista. Los cazadores también van.",
+    "choices": {
+      "A": "Infiltrar el baile",
+      "B": "Cerrar el club",
+      "C": "Vigilar de lejos"
+    }
+  },
+  "vampire_207": {
+    "title": "Corte de red",
+    "body": "No hay red en tu zona. El clan entra en pánico. El secreto también. Mala señal.",
+    "choices": {
+      "A": "Enviar exploradores",
+      "B": "Permanecer oculto",
+      "C": "Preparar una huida"
+    }
+  },
+  "vampire_208": {
+    "title": "Sacerdote demasiado curioso",
+    "body": "Un sacerdote bendice las puertas del barrio. Te mira demasiado tiempo.",
+    "choices": {
+      "A": "Apartarlo de la zona",
+      "B": "Reclutarlo a través del secreto",
+      "C": "Hacer que pierda credibilidad"
+    }
+  },
+  "vampire_209": {
+    "title": "El traje que pica",
+    "body": "Tu abrigo antiguo atrae miradas. La moda nocturna exige discreción.",
+    "choices": {
+      "A": "Adaptarte al estilo moderno",
+      "B": "Imponer el estilo antiguo",
+      "C": "Seguir invisible"
+    }
+  },
+  "vampire_210": {
+    "title": "Sangre en la acera",
+    "body": "Se vio una escena de mordedura. Los transeúntes tomaron fotos.",
+    "choices": {
+      "A": "Limpiar y borrar",
+      "B": "Culpar a un animal",
+      "C": "Asustar a los testigos"
+    }
+  },
+  "vampire_211": {
+    "title": "Asamblea del clan",
+    "body": "El clan exige una reunión. A nadie le gustan las reuniones. Pero a todos les gusta quejarse.",
+    "choices": {
+      "A": "Escuchar y decidir",
+      "B": "Seguir aplazando",
+      "C": "Dejar hablar a un portavoz"
+    }
+  },
+  "vampire_212": {
+    "title": "Oferta de protección",
+    "body": "Una banda humana propone protección contra los cazadores. Quiere un pago extraño.",
+    "choices": {
+      "A": "Aceptar y controlarlos",
+      "B": "Rechazar y expulsarlos",
+      "C": "Manipularlos sin pagar"
+    }
+  },
+  "vampire_213": {
+    "title": "El espejo del salón",
+    "body": "Un espejo antiguo llega al refugio. Todo el mundo quiere comprobar quién sigue teniendo reflejo.",
+    "choices": {
+      "A": "Esconder el espejo",
+      "B": "Hacer una prueba oficial",
+      "C": "Romper el espejo"
+    }
+  },
+  "vampire_214": {
+    "title": "La clínica privada",
+    "body": "Una clínica propone sangre muy cara. Quieren una colaboración. Turbio y práctico.",
+    "choices": {
+      "A": "Firmar un acuerdo",
+      "B": "Robarlos discretamente",
+      "C": "Vigilarlos antes"
+    }
+  },
+  "vampire_215": {
+    "title": "Nuevo rival elegante",
+    "body": "Llega un vampiro desconocido. Es educado. Demasiado educado. Huele a ambición.",
+    "choices": {
+      "A": "Recibirlo y encuadrarlo",
+      "B": "Ponerlo a prueba con una misión",
+      "C": "Expulsarlo del territorio"
+    }
+  },
+  "vampire_216": {
+    "title": "El donante fan",
+    "body": "Un humano quiere donar su sangre. Pide un autógrafo. En el cuello.",
+    "choices": {
+      "A": "Rechazar y mantener la sobriedad",
+      "B": "Aceptar y controlarlo",
+      "C": "Dárselo al secreto"
+    }
+  },
+  "vampire_217": {
+    "title": "La poción del antiguo",
+    "body": "Un antiguo propone una poción. Dice que calma la sed. Nadie le cree.",
+    "choices": {
+      "A": "Probarla contigo",
+      "B": "Probarla con un voluntario",
+      "C": "Tirar la poción"
+    }
+  },
+  "vampire_218": {
+    "title": "Caza demasiado visible",
+    "body": "Una caza se convirtió en espectáculo. Sirenas. Vídeos. Un show gratis de verdad.",
+    "choices": {
+      "A": "Castigar al responsable",
+      "B": "Encubrir el asunto",
+      "C": "Acusar a los cazadores"
+    }
+  },
+  "vampire_219": {
+    "title": "Control sanitario",
+    "body": "Un control sanitario llega cerca de tus escondites. Buscan reservas ilegales.",
+    "choices": {
+      "A": "Mover los escondites",
+      "B": "Corromper al inspector",
+      "C": "Poner un señuelo"
+    }
+  },
+  "vampire_220": {
+    "title": "El canto del secreto",
+    "body": "El secreto compone una canción sobre ti. Se te queda en la cabeza. Incluso a los inmortales.",
+    "choices": {
+      "A": "Prohibir la canción",
+      "B": "Hacerla oficial",
+      "C": "Transformarla en un código secreto"
+    }
+  },
+
+  "vampire_221": {
+    "title": "El bar nocturno",
+    "body": "Un bar se convierte en tu nuevo terreno. Pero el dueño hace demasiadas preguntas.",
+    "choices": {
+      "A": "Comprar el bar",
+      "B": "Cambiar de lugar",
+      "C": "Convertir al dueño en un aliado"
+    }
+  },
+  "vampire_222": {
+    "title": "Los guantes olvidados",
+    "body": "Olvidaste unos guantes en el lugar equivocado. Huelen a tierra de cripta.",
+    "choices": {
+      "A": "Recuperarlos rápido",
+      "B": "Quemarlos a distancia",
+      "C": "Crear una pista falsa"
+    }
+  },
+  "vampire_223": {
+    "title": "Duelo de antiguos",
+    "body": "Dos antiguos quieren un duelo para decidirlo todo. Incluso el menú de la noche.",
+    "choices": {
+      "A": "Autorizar el duelo",
+      "B": "Prohibirlo y arbitrar",
+      "C": "Organizar un duelo simbólico"
+    }
+  },
+  "vampire_224": {
+    "title": "El paquete trampa",
+    "body": "Llega un paquete al refugio. Demasiado limpio. Demasiado bien envuelto. Demasiado sospechoso.",
+    "choices": {
+      "A": "Abrirlo con cuidado",
+      "B": "Devolverlo",
+      "C": "Hacer que un rival lo abra"
+    }
+  },
+  "vampire_225": {
+    "title": "El perro que ladra",
+    "body": "Un perro ladra cada vez que pasas. Su dueño empieza a anotar los horarios.",
+    "choices": {
+      "A": "Evitar esa calle",
+      "B": "Encantar al dueño",
+      "C": "Hacer callar al perro"
+    }
+  },
+  "vampire_226": {
+    "title": "La alarma solar",
+    "body": "El refugio tiene una alarma solar. Se activa en plena noche. Todo el mundo entra en pánico.",
+    "choices": {
+      "A": "Repararla de inmediato",
+      "B": "Apagar el sistema",
+      "C": "Acusar a un saboteador"
+    }
+  },
+  "vampire_227": {
+    "title": "El traje del secreto",
+    "body": "El secreto te fabrica un atuendo oficial. Es demasiado brillante. Y atrae los flashes.",
+    "choices": {
+      "A": "Rechazar el traje",
+      "B": "Aceptar una versión discreta",
+      "C": "Llevarlo y asumirlo"
+    }
+  },
+  "vampire_228": {
+    "title": "Cazador infiltrado",
+    "body": "Un nuevo miembro del secreto hace preguntas demasiado precisas. Huele a falso admirador.",
+    "choices": {
+      "A": "Ponerlo a prueba discretamente",
+      "B": "Expulsarlo de inmediato",
+      "C": "Volverlo contra los cazadores"
+    }
+  },
+  "vampire_229": {
+    "title": "El pacto de las calles",
+    "body": "Unos humanos proponen un pacto. Dan silencio a cambio de protección. Es puro negocio.",
+    "choices": {
+      "A": "Aceptar y supervisar",
+      "B": "Rechazar e imponer el miedo",
+      "C": "Jugar a dos bandas"
+    }
+  },
+  "vampire_230": {
+    "title": "El perfume de rosa",
+    "body": "Un perfume oculta el olor de la sangre. Todo el clan se lo pone. Tú toses. Es humillante.",
+    "choices": {
+      "A": "Prohibir el perfume",
+      "B": "Limitarlo a las salidas",
+      "C": "Encontrar una mejor mezcla"
+    }
+  },
+  "vampire_231": {
+    "title": "La lista de los ausentes",
+    "body": "Faltan dos vampiros. El clan murmura. Los cazadores sonríen.",
+    "choices": {
+      "A": "Lanzar una búsqueda",
+      "B": "Reforzar la defensa",
+      "C": "Acusar a un rival"
+    }
+  },
+  "vampire_232": {
+    "title": "El mercado de reliquias",
+    "body": "Se vende en la ciudad una reliquia antivampiros. Todo el mundo la quiere. Sobre todo tú.",
+    "choices": {
+      "A": "Comprarla discretamente",
+      "B": "Robarla",
+      "C": "Destruirla"
+    }
+  },
+  "vampire_233": {
+    "title": "El juicio del clan",
+    "body": "Un vampiro es acusado de traición. Exige un juicio. El secreto quiere asistir.",
+    "choices": {
+      "A": "Juicio estricto",
+      "B": "Perdón a cambio de servicio",
+      "C": "Exilio inmediato"
+    }
+  },
+  "vampire_234": {
+    "title": "El drama de la sangre caliente",
+    "body": "Alguien calentó sangre por el sabor. El clan se divide entre gourmets y puristas.",
+    "choices": {
+      "A": "Prohibir la práctica",
+      "B": "Crear una norma",
+      "C": "Dejarlo pasar"
+    }
+  },
+  "vampire_235": {
+    "title": "La misión de la niebla",
+    "body": "Una niebla extraña cubre la zona. Los cazadores entran. El clan duda.",
+    "choices": {
+      "A": "Explorar la niebla",
+      "B": "Quedarse a cubierto",
+      "C": "Atraer a los cazadores dentro"
+    }
+  },
+  "vampire_236": {
+    "title": "El mensaje anónimo",
+    "body": "Recibes un mensaje. Conoce tu refugio. Pide un encuentro.",
+    "choices": {
+      "A": "Aceptar con una trampa",
+      "B": "Ignorar y reforzar",
+      "C": "Buscar al remitente"
+    }
+  },
+  "vampire_237": {
+    "title": "La reserva secreta",
+    "body": "Descubren una reserva de sangre escondida. No es tuya. Entonces, ¿de quién es?",
+    "choices": {
+      "A": "Tomarla para el clan",
+      "B": "Tenderle una trampa",
+      "C": "Devolverla e investigar"
+    }
+  },
+  "vampire_238": {
+    "title": "El pacto de silencio",
+    "body": "Un periodista propone un trato. Se calla a cambio de una historia exclusiva. Muy arriesgado.",
+    "choices": {
+      "A": "Rechazar y neutralizarlo",
+      "B": "Aceptar y controlar el relato",
+      "C": "Volverlo contra los cazadores"
+    }
+  },
+  "vampire_239": {
+    "title": "La sangre de fiesta",
+    "body": "El secreto organiza una colecta. Demasiada gente. Demasiadas cámaras. Demasiada tentación.",
+    "choices": {
+      "A": "Cancelar la colecta",
+      "B": "Supervisarla con rigor",
+      "C": "Recogerla rápido e irse"
+    }
+  },
+  "vampire_240": {
+    "title": "La máscara que cae",
+    "body": "Alguien del clan fue visto sin discreción. Un rostro circula por las redes.",
+    "choices": {
+      "A": "Borrar el rastro",
+      "B": "Cambiar todas las identidades",
+      "C": "Acusar a un montaje falso"
+    }
+  },
+  "vampire_241": {
+    "title": "El consejo de las sombras",
+    "body": "El clan pide un consejo oficial. Quieren votar. Incluso tus decisiones.",
+    "choices": {
+      "A": "Rechazar y conservar el poder",
+      "B": "Aceptar y encuadrarlo",
+      "C": "Aceptar y manipular"
+    }
+  },
+  "vampire_242": {
+    "title": "La trampa UV",
+    "body": "Encuentran una lámpara UV cerca del refugio. Alguien está probando el terreno.",
+    "choices": {
+      "A": "Destruir el equipo",
+      "B": "Tender una trampa a la trampa",
+      "C": "Mover la entrada"
+    }
+  },
+  "vampire_243": {
+    "title": "El vampiro romántico",
+    "body": "Un vampiro escribe cartas de amor a humanos. Las firma con tu nombre. Catástrofe.",
+    "choices": {
+      "A": "Detenerlo de inmediato",
+      "B": "Ponerlo en su sitio y reparar el daño",
+      "C": "Usarlo como cobertura"
+    }
+  },
+  "vampire_244": {
+    "title": "Los neumáticos pinchados",
+    "body": "Los vehículos del secreto han sido saboteados. Ellos acusan a los cazadores. El clan acusa al secreto.",
+    "choices": {
+      "A": "Investigar en serio",
+      "B": "Acusar a un rival",
+      "C": "Ignorar y seguir adelante"
+    }
+  },
+  "vampire_245": {
+    "title": "La lluvia de dinero",
+    "body": "Una gran suma cae en tus manos. Demasiado bonita. Parece una trampa financiera.",
+    "choices": {
+      "A": "Rechazar el dinero",
+      "B": "Blanquearlo rápido",
+      "C": "Devolverlo con amenaza"
+    }
+  },
+  "vampire_246": {
+    "title": "El ritual mal leído",
+    "body": "El secreto leyó mal un texto. Ahora invocan cosas que golpean las paredes.",
+    "choices": {
+      "A": "Detener el ritual",
+      "B": "Terminarlo correctamente",
+      "C": "Llamar a un antiguo"
+    }
+  },
+  "vampire_247": {
+    "title": "El stock que se congela",
+    "body": "Parte de la sangre se ha congelado. El clan grita. Tú también podrías gritar, pero tienes dignidad.",
+    "choices": {
+      "A": "Salvar lo que se pueda",
+      "B": "Tirarla y asegurar el resto",
+      "C": "Repartir la pérdida"
+    }
+  },
+  "vampire_248": {
+    "title": "El festival de faroles",
+    "body": "Un festival ilumina las calles toda la noche. Cero sombra. Tu territorio se vuelve un acuario.",
+    "choices": {
+      "A": "Suspender la caza",
+      "B": "Cazar en la periferia",
+      "C": "Sabotear la iluminación"
+    }
+  },
+  "vampire_249": {
+    "title": "La promesa de un cazador",
+    "body": "Un cazador propone una tregua. Dice querer al verdadero jefe. Te apunta a ti.",
+    "choices": {
+      "A": "Aceptar el encuentro",
+      "B": "Rechazar y golpear",
+      "C": "Enviar a un doble"
+    }
+  },
+  "vampire_250": {
+    "title": "El clan quiere reglas",
+    "body": "El clan pide un código de conducta. Suena noble. Siempre acaba en discusión.",
+    "choices": {
+      "A": "Escribir reglas simples",
+      "B": "Escribir reglas severas",
+      "C": "Rechazar e imponer caso por caso"
+    }
+  },
+  "vampire_251": {
+    "title": "El tráfico de sangre falsa",
+    "body": "Unos humanos venden sangre falsa a los vampiros jóvenes. Los enferma. Y los ridiculiza.",
+    "choices": {
+      "A": "Desmantelar el tráfico",
+      "B": "Gravar el tráfico",
+      "C": "Dejarlo para castigar a los ingenuos"
+    }
+  },
+  "vampire_252": {
+    "title": "La puerta marcada",
+    "body": "Un símbolo de cazador está pintado en una puerta cercana. Nadie sabe quién lo vio primero.",
+    "choices": {
+      "A": "Borrar la marca",
+      "B": "Preparar una emboscada",
+      "C": "Huir de la zona"
+    }
+  },
+  "vampire_253": {
+    "title": "La invitación elegante",
+    "body": "Estás invitado a una fiesta privada. Demasiados espejos. Demasiadas miradas. Demasiados riesgos.",
+    "choices": {
+      "A": "Ir con una máscara",
+      "B": "Enviar a un sirviente",
+      "C": "Rechazar y vigilar"
+    }
+  },
+  "vampire_254": {
+    "title": "El pacto de sangre",
+    "body": "Un antiguo propone un pacto de sangre para unir al clan. Funciona. Ata. Encierra.",
+    "choices": {
+      "A": "Aceptar el pacto",
+      "B": "Rechazar con cortesía",
+      "C": "Proponer un pacto más ligero"
+    }
+  },
+  "vampire_255": {
+    "title": "El secreto quiere insignias",
+    "body": "El secreto quiere dar insignias a los fieles. También quiere poner tu rostro en ellas.",
+    "choices": {
+      "A": "Prohibir las insignias",
+      "B": "Autorizarlas sin tu rostro",
+      "C": "Autorizarlas y monetizarlas"
+    }
+  },
+  "vampire_256": {
+    "title": "La bodega de los humanos",
+    "body": "Una bodega oculta contiene reservas humanas. ¿Quién hizo esto? ¿Y por qué aquí?",
+    "choices": {
+      "A": "Liberar y borrar",
+      "B": "Usar y controlar",
+      "C": "Entregarlas a los cazadores"
+    }
+  },
+  "vampire_257": {
+    "title": "El silencio del refugio",
+    "body": "Todo está demasiado silencioso. Incluso las ratas. Algo ha cambiado en las paredes.",
+    "choices": {
+      "A": "Inspeccionar cada habitación",
+      "B": "Llamar a los antiguos",
+      "C": "Mover a todo el mundo"
+    }
+  },
+  "vampire_258": {
+    "title": "La reserva de emergencia",
+    "body": "Existe una reserva de emergencia. Pero nadie tiene la llave. Y todos te miran.",
+    "choices": {
+      "A": "Forzar la cerradura",
+      "B": "Buscar la llave",
+      "C": "Hacer una nueva reserva"
+    }
+  },
+  "vampire_259": {
+    "title": "La caza del dron",
+    "body": "Vuelan drones de noche. Buscan calor. Los vampiros no emiten calor, pero observan.",
+    "choices": {
+      "A": "Derribar los drones",
+      "B": "Desviarlos",
+      "C": "Esconderse más a fondo"
+    }
+  },
+  "vampire_260": {
+    "title": "El clan quiere un símbolo",
+    "body": "El clan quiere un símbolo oficial. El secreto propone una corona gigante. Eso no.",
+    "choices": {
+      "A": "Elegir un símbolo discreto",
+      "B": "Imponer el antiguo símbolo",
+      "C": "Dejar que el clan vote"
+    }
+  },
+  "vampire_261": {
+    "title": "El olor a humo",
+    "body": "Un humo entra en la cripta. Viene de fuera. Y fuera hay cazadores.",
+    "choices": {
+      "A": "Salir y detenerlo",
+      "B": "Tapar los accesos",
+      "C": "Mover a los durmientes"
+    }
+  },
+  "vampire_262": {
+    "title": "El banquete del clan",
+    "body": "El clan quiere un banquete. El secreto quiere servir. A los cazadores les encantan las grandes mesas.",
+    "choices": {
+      "A": "Cancelar el banquete",
+      "B": "Organizarlo en secreto",
+      "C": "Hacer un falso banquete trampa"
+    }
+  },
+  "vampire_263": {
+    "title": "El clan contra el secreto",
+    "body": "El clan acusa al secreto de hablar demasiado. El secreto acusa al clan de morder demasiado. Gran ambiente.",
+    "choices": {
+      "A": "Imponer una paz",
+      "B": "Favorecer al clan",
+      "C": "Favorecer al secreto"
+    }
+  },
+  "vampire_264": {
+    "title": "El repartidor de flores",
+    "body": "Un repartidor de flores insiste en entrar. Dice que es una sorpresa. Odias las sorpresas.",
+    "choices": {
+      "A": "Echarlo",
+      "B": "Controlarlo y comprobar",
+      "C": "Dejarlo entrar con guardia"
+    }
+  },
+  "vampire_265": {
+    "title": "La epidemia de rumores",
+    "body": "Un rumor dice que tienes un punto débil ridículo. La ciudad se ríe. El clan también.",
+    "choices": {
+      "A": "Aplastar el rumor",
+      "B": "Convertirlo en broma",
+      "C": "Asustar a los burlones"
+    }
+  },
+  "vampire_266": {
+    "title": "El plano de las alcantarillas",
+    "body": "Circula un plano de las alcantarillas. Muestra accesos a tu refugio. Alguien ha husmeado.",
+    "choices": {
+      "A": "Cambiar los accesos",
+      "B": "Tender trampas en los pasos",
+      "C": "Mover el refugio"
+    }
+  },
+  "vampire_267": {
+    "title": "La disputa por las porciones",
+    "body": "El clan discute por el reparto de la sangre. Parece una reunión de copropietarios.",
+    "choices": {
+      "A": "Fijar un reparto",
+      "B": "Distribuir según el mérito",
+      "C": "Dejar actuar al caos"
+    }
+  },
+  "vampire_268": {
+    "title": "El secreto quiere un eslogan",
+    "body": "El secreto quiere un eslogan oficial. Proponen Viva la noche. Le falta finura.",
+    "choices": {
+      "A": "Elegir un eslogan discreto",
+      "B": "Prohibir los eslóganes",
+      "C": "Aceptar y lanzar una campaña"
+    }
+  },
+  "vampire_269": {
+    "title": "El guardia del aparcamiento",
+    "body": "Un guardia vigila demasiado bien. Conoce las matrículas. Conoce los horarios. Sabe demasiado.",
+    "choices": {
+      "A": "Corromperlo",
+      "B": "Reemplazarlo",
+      "C": "Evitar el aparcamiento"
+    }
+  },
+  "vampire_270": {
+    "title": "La llegada del gran frío",
+    "body": "Llega el frío. Las calles se vacían. Cazar se vuelve más difícil. Los cazadores, en cambio, se quedan.",
+    "choices": {
+      "A": "Racionar y resistir",
+      "B": "Cazar más lejos",
+      "C": "Negociar con el secreto"
+    }
+  },
+  "vampire_271": {
+    "title": "El testigo que vuelve",
+    "body": "Un antiguo testigo te ve otra vez. Te reconoce. Sonríe. Eso significa problemas.",
+    "choices": {
+      "A": "Convencerlo",
+      "B": "Amenazarlo",
+      "C": "Hacerlo callar"
+    }
+  },
+  "vampire_272": {
+    "title": "El grupo antisecreto",
+    "body": "Un grupo humano lucha contra el secreto. Pegan carteles. Buscan un líder.",
+    "choices": {
+      "A": "Disolver el grupo",
+      "B": "Infiltrarlo",
+      "C": "Mover al secreto"
+    }
+  },
+  "vampire_273": {
+    "title": "El plan de emergencia del secreto",
+    "body": "El secreto tiene un plan de emergencia por si mueres. Muy amable. Muy insultante.",
+    "choices": {
+      "A": "Castigar la idea",
+      "B": "Encuadrarlo y corregirlo",
+      "C": "Usarlo para probar la lealtad"
+    }
+  },
+  "vampire_274": {
+    "title": "La investigación privada",
+    "body": "Un detective privado rebusca en tu barrio. No tiene miedo. Eso es nuevo.",
+    "choices": {
+      "A": "Desviarlo de la investigación",
+      "B": "Reclutarlo",
+      "C": "Neutralizarlo"
+    }
+  },
+  "vampire_275": {
+    "title": "El pacto final de la noche",
+    "body": "El clan quiere una dirección clara. El secreto quiere una señal. Los cazadores quieren tu dirección.",
+    "choices": {
+      "A": "Reforzar el territorio",
+      "B": "Negociar una calma temporal",
+      "C": "Preparar una huida organizada"
+    }
+  },
+  "vampire_276": {
+    "title": "El florista nocturno",
+    "body": "Un florista abre de noche bajo tu refugio. Ve demasiadas caras pálidas.",
+    "choices": {
+      "A": "Encantarlo discretamente",
+      "B": "Cambiar de salida",
+      "C": "Comprar su tienda"
+    }
+  },
+  "vampire_277": {
+    "title": "El mensaje de la nevera",
+    "body": "La nevera del stock emite un mensaje extraño. El clan jura que te habla.",
+    "choices": {
+      "A": "Abrirla tú solo",
+      "B": "Hacer venir a un antiguo",
+      "C": "Tirarla fuera"
+    }
+  },
+  "vampire_278": {
+    "title": "La luna en oferta",
+    "body": "Una marca vende una bebida llamada Luna Llena. Al secreto ya le encanta.",
+    "choices": {
+      "A": "Patrocinar la moda",
+      "B": "Mantenerse lejos",
+      "C": "Infiltrar la campaña"
+    }
+  },
+  "vampire_279": {
+    "title": "El colmillo roto",
+    "body": "Un vampiro del clan se rompe un colmillo durante la caza. Grita más que su presa.",
+    "choices": {
+      "A": "Pagar a un especialista",
+      "B": "Imponer calma",
+      "C": "Reírte delante de todos"
+    }
+  },
+  "vampire_280": {
+    "title": "El túnel olvidado",
+    "body": "Un viejo túnel une tu refugio con una bodega de hotel. Tentador e inquietante.",
+    "choices": {
+      "A": "Explorarlo esta noche",
+      "B": "Tapar el paso",
+      "C": "Enviar a un rival"
+    }
+  },
+  "vampire_281": {
+    "title": "El repartidor fiel",
+    "body": "Un repartidor nocturno nunca hace preguntas. Precisamente por eso es sospechoso.",
+    "choices": {
+      "A": "Ponerlo a prueba",
+      "B": "Reclutarlo",
+      "C": "Cortar el servicio"
+    }
+  },
+  "vampire_282": {
+    "title": "El sótano húmedo",
+    "body": "El sótano del refugio gotea por todas partes. Hasta los ataúdes empiezan a quejarse.",
+    "choices": {
+      "A": "Repararlo rápido",
+      "B": "Mover el stock",
+      "C": "Acusar al clan"
+    }
+  },
+  "vampire_283": {
+    "title": "El vecino sin cortinas",
+    "body": "Un vecino nunca duerme y mira la calle. Colecciona detalles.",
+    "choices": {
+      "A": "Distraerlo",
+      "B": "Cambiar de hábitos",
+      "C": "Hacerlo irse"
+    }
+  },
+  "vampire_284": {
+    "title": "El baile de las sombras",
+    "body": "Un antiguo quiere un baile privado. El clan quiere bailar. Tú quieres sobrevivir.",
+    "choices": {
+      "A": "Autorizarlo con reglas",
+      "B": "Negarte rotundamente",
+      "C": "Trasladarlo a otro lugar"
+    }
+  },
+  "vampire_285": {
+    "title": "El dron del tejado",
+    "body": "Un dron gira sobre el refugio cada noche. Huele a curiosidad pagada.",
+    "choices": {
+      "A": "Hackearlo",
+      "B": "Hacerlo caer",
+      "C": "Seguir al propietario"
+    }
+  },
+  "vampire_286": {
+    "title": "El retrato viviente",
+    "body": "Un retrato antiguo cambia de expresión cuando pasas delante de él.",
+    "choices": {
+      "A": "Cubrirlo",
+      "B": "Mandarlo estudiar",
+      "C": "Quemarlo"
+    }
+  },
+  "vampire_287": {
+    "title": "La bodega en huelga",
+    "body": "Los guardianes del stock se niegan a moverse sin más sangre.",
+    "choices": {
+      "A": "Ceder un poco",
+      "B": "Reemplazar a los guardianes",
+      "C": "Dar un escarmiento"
+    }
+  },
+  "vampire_288": {
+    "title": "El cura en stories",
+    "body": "Un cura publica cada noche vídeos sobre el mal que ronda cerca de ti.",
+    "choices": {
+      "A": "Ridiculizarlo",
+      "B": "Vigilarlo",
+      "C": "Corromperlo"
+    }
+  },
+  "vampire_289": {
+    "title": "La sala roja",
+    "body": "Un club privado quiere alquilarte una sala secreta. El precio es extraño.",
+    "choices": {
+      "A": "Aceptar la oferta",
+      "B": "Negociar mejor",
+      "C": "Rechazar e investigar"
+    }
+  },
+  "vampire_290": {
+    "title": "El novato demasiado elegante",
+    "body": "Un novato llega con traje blanco. Muy guapo. Muy visible. Muy molesto.",
+    "choices": {
+      "A": "Ponerlo en su sitio rápido",
+      "B": "Confiarlo al clan",
+      "C": "Esconderlo"
+    }
+  },
+  "vampire_291": {
+    "title": "El mercado negro",
+    "body": "Un mercado vende objetos antivampiros y recuerdos de tu barrio.",
+    "choices": {
+      "A": "Comprar todos los puestos",
+      "B": "Cerrarlo",
+      "C": "Observarlo en silencio"
+    }
+  },
+  "vampire_292": {
+    "title": "La ceniza sobre la ciudad",
+    "body": "Una ceniza fina cae sobre la ciudad. El clan lo ve como una señal.",
+    "choices": {
+      "A": "Calmar los rumores",
+      "B": "Buscar el origen",
+      "C": "Explotar el símbolo"
+    }
+  },
+  "vampire_293": {
+    "title": "El camarero hablador",
+    "body": "Un camarero reconoce demasiado bien tus hábitos nocturnos. Sonríe cuando mientes.",
+    "choices": {
+      "A": "Pagarle",
+      "B": "Reclutarlo",
+      "C": "Cambiar de lugar"
+    }
+  },
+  "vampire_294": {
+    "title": "El museo cerrado",
+    "body": "Un museo cierra por obras. Una reliquia de sangre duerme allí sin guardianes.",
+    "choices": {
+      "A": "Robarla",
+      "B": "Esperar un poco más",
+      "C": "Enviar a humanos"
+    }
+  },
+  "vampire_295": {
+    "title": "El ataúd atascado",
+    "body": "Tu ataúd se niega a cerrarse. El lujo tiene sus límites.",
+    "choices": {
+      "A": "Repararlo discretamente",
+      "B": "Cambiar de modelo",
+      "C": "Dormir en otro sitio"
+    }
+  },
+  "vampire_296": {
+    "title": "El perro que se queda mirando",
+    "body": "El perro del vecino gruñe cada vez que sales. Ha comprendido algo.",
+    "choices": {
+      "A": "Evitar la zona",
+      "B": "Domesticar al perro",
+      "C": "Asustar al vecino"
+    }
+  },
+  "vampire_297": {
+    "title": "La lotería del secreto",
+    "body": "El secreto organiza una lotería para financiar tus noches. La idea es horrible y rentable.",
+    "choices": {
+      "A": "Supervisar el juego",
+      "B": "Prohibir esa vergüenza",
+      "C": "Quedarte con la caja"
+    }
+  },
+  "vampire_298": {
+    "title": "El taxi sin reflejo",
+    "body": "Un chófer muestra una foto del retrovisor. Tú no apareces en ella.",
+    "choices": {
+      "A": "Comprar la foto",
+      "B": "Amenazarlo con educación",
+      "C": "Cambiar de trayectos"
+    }
+  },
+  "vampire_299": {
+    "title": "El perfume solar",
+    "body": "Un perfume promete oler al sol. El clan quiere probarlo. Mala idea.",
+    "choices": {
+      "A": "Prohibir el producto",
+      "B": "Probarlo en un rival",
+      "C": "Revenderlo"
+    }
+  },
+  "vampire_300": {
+    "title": "La cripta en alquiler",
+    "body": "Tu antigua cripta se ofrece en alquiler por internet.",
+    "choices": {
+      "A": "Eliminar el anuncio",
+      "B": "Tender una trampa a los visitantes",
+      "C": "Recomprar el lugar"
+    }
+  },
+  "vampire_301": {
+    "title": "El violín del andén",
+    "body": "Un músico toca cada noche bajo tus ventanas. El clan se vuelve sentimental.",
+    "choices": {
+      "A": "Hacer que se vaya",
+      "B": "Seguir escuchándolo",
+      "C": "Reclutarlo"
+    }
+  },
+  "vampire_302": {
+    "title": "El cofre oxidado",
+    "body": "Un cofre emerge de una bodega inundada. Lleva tu antiguo sello.",
+    "choices": {
+      "A": "Abrirlo rápido",
+      "B": "Esconderlo",
+      "C": "Traer a un experto"
+    }
+  },
+  "vampire_303": {
+    "title": "El espejo del club",
+    "body": "Un club instala espejos por todas partes. Los selfis se convierten en una trampa.",
+    "choices": {
+      "A": "Sabotear la decoración",
+      "B": "Evitar el club",
+      "C": "Enviar a un doble"
+    }
+  },
+  "vampire_304": {
+    "title": "El banquete frío",
+    "body": "El clan critica la temperatura de la sangre. La inmortalidad crea caprichos.",
+    "choices": {
+      "A": "Mejorar el servicio",
+      "B": "Castigar las quejas",
+      "C": "Dejar que hable el hambre"
+    }
+  },
+  "vampire_305": {
+    "title": "El pastor nocturno",
+    "body": "Un pastor viene a bendecir las calles después de medianoche. Su horario te irrita mucho.",
+    "choices": {
+      "A": "Desviarlo",
+      "B": "Vigilar su ruta",
+      "C": "Desacreditarlo"
+    }
+  },
+  "vampire_306": {
+    "title": "La sala de terciopelo",
+    "body": "Una sala secreta acoge a curiosos de lo sobrenatural. Tu nombre ya circula allí.",
+    "choices": {
+      "A": "Infiltrar a alguien cercano",
+      "B": "Cerrar el lugar",
+      "C": "Usarlo para mentir"
+    }
+  },
+  "vampire_307": {
+    "title": "El escalofrío del puerto",
+    "body": "Llegan cajas al puerto de noche. Un olor a sangre flota hasta ti.",
+    "choices": {
+      "A": "Interceptar la carga",
+      "B": "Observar sin moverte",
+      "C": "Comprar a los estibadores"
+    }
+  },
+  "vampire_308": {
+    "title": "La llave del desván",
+    "body": "Una llave antigua aparece en tu abrigo. Tú no la pusiste ahí.",
+    "choices": {
+      "A": "Buscar la cerradura",
+      "B": "Tirarla lejos",
+      "C": "Confiársela al clan"
+    }
+  },
+  "vampire_309": {
+    "title": "El cocinero humano",
+    "body": "Un cocinero quiere preparar platos para vampiros. Es ridículo e intrigante.",
+    "choices": {
+      "A": "Ponerlo a prueba",
+      "B": "Pagarle para que calle",
+      "C": "Dejarlo soñar"
+    }
+  },
+  "vampire_310": {
+    "title": "La sala sin sombra",
+    "body": "Una habitación del refugio ya no tiene sombra. Al secreto le parece magnífica.",
+    "choices": {
+      "A": "Cerrar la sala",
+      "B": "Estudiarla",
+      "C": "Mostrársela al clan"
+    }
+  },
+  "vampire_311": {
+    "title": "El vigilante demasiado tranquilo",
+    "body": "El vigilante del aparcamiento te saluda por tu nombre. Nunca se lo dijiste.",
+    "choices": {
+      "A": "Interrogarlo",
+      "B": "Cambiar de aparcamiento",
+      "C": "Reclutarlo"
+    }
+  },
+  "vampire_312": {
+    "title": "El cuadro robado",
+    "body": "Un cuadro antiguo del clan desaparece. Vale más como símbolo que como dinero.",
+    "choices": {
+      "A": "Registrar el refugio",
+      "B": "Ofrecer una recompensa",
+      "C": "Acusar a un rival"
+    }
+  },
+  "vampire_313": {
+    "title": "El túnel caliente",
+    "body": "Un túnel secreto se vuelve demasiado caliente. Alguien excava cerca de tus muros.",
+    "choices": {
+      "A": "Tender una trampa en la zona",
+      "B": "Cerrar el acceso",
+      "C": "Seguir el ruido"
+    }
+  },
+  "vampire_314": {
+    "title": "El sumiller rojo",
+    "body": "Un sumiller propone una carta especial para inmortales. Es refinado y peligroso.",
+    "choices": {
+      "A": "Firmar un acuerdo",
+      "B": "Probar en secreto",
+      "C": "Hacerlo callar"
+    }
+  },
+  "vampire_315": {
+    "title": "La noche de los vecinos",
+    "body": "Los vecinos organizan una fiesta en la calle. Mucha luz. Demasiada.",
+    "choices": {
+      "A": "Sabotear la electricidad",
+      "B": "Soportar una noche",
+      "C": "Mover al clan"
+    }
+  },
+  "vampire_316": {
+    "title": "El balcón agrietado",
+    "body": "El balcón del refugio se desmorona. Una caída desde ahí sería muy pública.",
+    "choices": {
+      "A": "Repararlo antes del amanecer",
+      "B": "Cerrar el acceso",
+      "C": "Poner al clan a trabajar"
+    }
+  },
+  "vampire_317": {
+    "title": "El notario pálido",
+    "body": "Un notario parece saber ya demasiado sobre tus bienes y tus noches.",
+    "choices": {
+      "A": "Encantarlo",
+      "B": "Vigilarlo",
+      "C": "Cambiar de identidad"
+    }
+  },
+  "vampire_318": {
+    "title": "El grafiti mordaz",
+    "body": "Tu símbolo aparece en varias paredes. El secreto ya aplaude.",
+    "choices": {
+      "A": "Borrarlo todo",
+      "B": "Reivindicarlo",
+      "C": "Encontrar al autor"
+    }
+  },
+  "vampire_319": {
+    "title": "El piano del vestíbulo",
+    "body": "Un piano empieza a tocar solo en el vestíbulo. Muy elegante. Muy mala señal.",
+    "choices": {
+      "A": "Cortar el sonido",
+      "B": "Hacer venir a un antiguo",
+      "C": "Mover el piano"
+    }
+  },
+  "vampire_320": {
+    "title": "El contrato de la bodega",
+    "body": "Un restaurador quiere alquilar tu bodega sin saber quién duerme arriba.",
+    "choices": {
+      "A": "Aceptar con reglas",
+      "B": "Negarte rotundamente",
+      "C": "Subir el precio"
+    }
+  },
+  "vampire_321": {
+    "title": "La máscara antigua",
+    "body": "Una máscara reaparece en el stock. Pertenecía a un viejo rival.",
+    "choices": {
+      "A": "Destruirla",
+      "B": "Esconderla",
+      "C": "Llevarla una noche"
+    }
+  },
+  "vampire_322": {
+    "title": "El portero nervioso",
+    "body": "Un portero de club reconoce a varios miembros del clan. Empieza a tomar notas.",
+    "choices": {
+      "A": "Pagarle",
+      "B": "Reclutarlo",
+      "C": "Hacer que lo trasladen"
+    }
+  },
+  "vampire_323": {
+    "title": "El invernadero del tejado",
+    "body": "En el tejado vecino crece un invernadero. Demasiada luz. Demasiadas miradas arriba.",
+    "choices": {
+      "A": "Sabotear el invernadero",
+      "B": "Comprar el tejado",
+      "C": "Cambiar de salida"
+    }
+  },
+  "vampire_324": {
+    "title": "El sastre discreto",
+    "body": "Un sastre sabe ocultar tu ropa de caza. Útil o sospechoso.",
+    "choices": {
+      "A": "Tenerlo cerca",
+      "B": "Poner a prueba su lealtad",
+      "C": "Dejar de ir"
+    }
+  },
+  "vampire_325": {
+    "title": "El andén cerrado",
+    "body": "El andén secreto del metro está cerrado. Tus trayectos se hunden.",
+    "choices": {
+      "A": "Cavar un rodeo",
+      "B": "Esperar a que abra",
+      "C": "Pasar por la calle"
+    }
+  },
+  "vampire_326": {
+    "title": "La carta sin sello",
+    "body": "Llega una carta sin sello y sin rastro. Habla de tu primer nombre.",
+    "choices": {
+      "A": "Responder",
+      "B": "Quemarla",
+      "C": "Buscar al mensajero"
+    }
+  },
+  "vampire_327": {
+    "title": "El cuidador enfermizo",
+    "body": "Un humano propone alimentar a los más débiles del clan. Sonríe demasiado bien.",
+    "choices": {
+      "A": "Aceptar bajo control",
+      "B": "Rechazar",
+      "C": "Ponerlo a prueba en el momento"
+    }
+  },
+  "vampire_328": {
+    "title": "El salón de tatuajes",
+    "body": "Un tatuador copia símbolos vampíricos. El secreto ya hace cola.",
+    "choices": {
+      "A": "Cerrar el salón",
+      "B": "Limitarlo",
+      "C": "Usarlo"
+    }
+  },
+  "vampire_329": {
+    "title": "El fuego bajo la puerta",
+    "body": "Un resplandor se desliza bajo la puerta de la cripta. Dentro, nadie se mueve.",
+    "choices": {
+      "A": "Abrir rápido",
+      "B": "Ser prudente",
+      "C": "Enviar al clan"
+    }
+  },
+  "vampire_330": {
+    "title": "El fisio del clan",
+    "body": "El clan descubre las agujetas de la inmortalidad. Es lamentable, pero real.",
+    "choices": {
+      "A": "Ayudar discretamente",
+      "B": "Burlarte un poco",
+      "C": "Imponer entrenamiento"
+    }
+  },
+  "vampire_331": {
+    "title": "La terraza grabada",
+    "body": "Una terraza te graba sin querer cada noche. Los ángulos son terribles.",
+    "choices": {
+      "A": "Comprar las imágenes",
+      "B": "Sabotear la cámara",
+      "C": "Evitar la zona"
+    }
+  },
+  "vampire_332": {
+    "title": "La prédica en la bodega",
+    "body": "Un grupo humano se reúne en una bodega para cazar sombras.",
+    "choices": {
+      "A": "Espiarlos",
+      "B": "Cerrar la bodega",
+      "C": "Lanzar una pista falsa"
+    }
+  },
+  "vampire_333": {
+    "title": "El abrigo desaparecido",
+    "body": "Tu abrigo antiguo desaparece del guardarropa. Sin él, pierdes más que estilo.",
+    "choices": {
+      "A": "Registrarlo todo",
+      "B": "Ofrecer una recompensa",
+      "C": "Cambiar de imagen"
+    }
+  },
+  "vampire_334": {
+    "title": "El conserje sonríe",
+    "body": "El conserje te da las buenas noches incluso antes de que abras la puerta.",
+    "choices": {
+      "A": "Interrogarlo",
+      "B": "Tenerlo cerca",
+      "C": "Cambiar de entrada"
+    }
+  },
+  "vampire_335": {
+    "title": "La bodega de flores",
+    "body": "Crecen flores blancas en una bodega del refugio. Al clan le horroriza.",
+    "choices": {
+      "A": "Arrancarlo todo",
+      "B": "Estudiar la tierra",
+      "C": "Hacer bendecir la zona"
+    }
+  },
+  "vampire_336": {
+    "title": "El gran inventario",
+    "body": "El stock ya no coincide con las cuentas. Alguien bebe fuera de cuota.",
+    "choices": {
+      "A": "Contarlo todo",
+      "B": "Tender una trampa",
+      "C": "Reducir las raciones"
+    }
+  },
+  "vampire_337": {
+    "title": "La radio pirata",
+    "body": "Una radio lee nombres de cazadores. El tuyo no está lejos.",
+    "choices": {
+      "A": "Cortar la antena",
+      "B": "Seguir escuchando",
+      "C": "Poner al presentador de tu lado"
+    }
+  },
+  "vampire_338": {
+    "title": "El cartero nocturno",
+    "body": "Un cartero reparte después de medianoche desde hace tres noches. No parece humano.",
+    "choices": {
+      "A": "Seguirlo",
+      "B": "Reclutarlo",
+      "C": "Ignorarlo"
+    }
+  },
+  "vampire_339": {
+    "title": "El escaparate negro",
+    "body": "Un escaparate vecino se vuelve opaco por la noche. Alguien oculta algo.",
+    "choices": {
+      "A": "Espiar el lugar",
+      "B": "Entrar por detrás",
+      "C": "Cerrar el negocio"
+    }
+  },
+  "vampire_340": {
+    "title": "La palabra grabada",
+    "body": "Una palabra está grabada en el ascensor. Te desea buen despertar.",
+    "choices": {
+      "A": "Borrar el rastro",
+      "B": "Instalar vigilancia",
+      "C": "Cambiar de edificio"
+    }
+  },
+  "vampire_341": {
+    "title": "El vendedor de incienso",
+    "body": "Un vendedor perfuma la calle cada noche. El clan tose con dignidad.",
+    "choices": {
+      "A": "Pagarle para que se vaya",
+      "B": "Manipularlo",
+      "C": "Mover las salidas"
+    }
+  },
+  "vampire_342": {
+    "title": "El desván viviente",
+    "body": "El desván del refugio parece respirar por la noche. El clan se niega a subir.",
+    "choices": {
+      "A": "Subir solo",
+      "B": "Enviar a un antiguo",
+      "C": "Condenarlo"
+    }
+  },
+  "vampire_343": {
+    "title": "El logo del secreto",
+    "body": "El secreto te propone un logo de verdad. No estás seguro de que te guste el progreso.",
+    "choices": {
+      "A": "Validar una señal discreta",
+      "B": "Rechazarlo todo",
+      "C": "Probarlo en una zona"
+    }
+  },
+  "vampire_344": {
+    "title": "El autobús del alba",
+    "body": "Un autobús pasa demasiado cerca del refugio. Las ventanas lo reflejan todo.",
+    "choices": {
+      "A": "Cambiar de ruta",
+      "B": "Negociar el horario",
+      "C": "Crear un desvío"
+    }
+  },
+  "vampire_345": {
+    "title": "El mentor celoso",
+    "body": "Un antiguo soporta mal tu autoridad. Ya está formando su pequeño círculo.",
+    "choices": {
+      "A": "Ponerlo en su sitio",
+      "B": "Halagarlo",
+      "C": "Separarlo del clan"
+    }
+  },
+  "vampire_346": {
+    "title": "El jardín nocturno",
+    "body": "Crece un jardín al pie del refugio. Demasiado paso, demasiado temprano por la mañana.",
+    "choices": {
+      "A": "Sabotear el proyecto",
+      "B": "Comprarlo",
+      "C": "Rodearlo"
+    }
+  },
+  "vampire_347": {
+    "title": "El mercado de las llaves",
+    "body": "Circulan copias de las llaves del barrio. Mala noticia para tu puerta.",
+    "choices": {
+      "A": "Cambiar las cerraduras",
+      "B": "Encontrar al vendedor",
+      "C": "Tender trampas en los accesos"
+    }
+  },
+  "vampire_348": {
+    "title": "El retrato del alcalde",
+    "body": "El alcalde quiere posar de noche en tu barrio. Le gustan demasiado las cámaras.",
+    "choices": {
+      "A": "Desviarlo a otro lugar",
+      "B": "Aprovechar su visita",
+      "C": "Sabotear el evento"
+    }
+  },
+  "vampire_349": {
+    "title": "La farola nueva",
+    "body": "Una farola blanca ilumina justo tu entrada. Es casi personal.",
+    "choices": {
+      "A": "Romperla",
+      "B": "Pedir que la retiren",
+      "C": "Cambiar de entrada"
+    }
+  },
+  "vampire_350": {
+    "title": "El cofre de sangre",
+    "body": "Llega un cofre refrigerado sin pedido. Dentro hay demasiada sangre y ningún nombre.",
+    "choices": {
+      "A": "Quedarte con el contenido",
+      "B": "Buscar al remitente",
+      "C": "Dejarlo cerrado"
+    }
+  },
+  "vampire_351": {
+    "title": "La sala de las cadenas",
+    "body": "Una sala tapiada contiene cadenas antiguas aún tensas.",
+    "choices": {
+      "A": "Abrirla",
+      "B": "Olvidarla",
+      "C": "Hacer venir al clan"
+    }
+  },
+  "vampire_352": {
+    "title": "El camarero sudoroso",
+    "body": "Un camarero de bar tiembla cuando te ve. Va a acabar hablando.",
+    "choices": {
+      "A": "Calmarlo",
+      "B": "Reclutarlo",
+      "C": "No volver más"
+    }
+  },
+  "vampire_353": {
+    "title": "El puente de las sombras",
+    "body": "Bajo un viejo puente, unos signos recientes anuncian una caza próxima.",
+    "choices": {
+      "A": "Borrar las señales",
+      "B": "Tender una trampa en el lugar",
+      "C": "Hacer correr un rumor"
+    }
+  },
+  "vampire_354": {
+    "title": "La sala dorada",
+    "body": "El clan quiere rehacer la sala principal. Muy elegante. Muy visible. Muy caro.",
+    "choices": {
+      "A": "Aceptar con sobriedad",
+      "B": "Rechazar el gasto",
+      "C": "Hacer que el secreto pague"
+    }
+  },
+  "vampire_355": {
+    "title": "El notario de sótano",
+    "body": "Un notario clandestino propone blanquear tus herencias. Huele a trampa.",
+    "choices": {
+      "A": "Intentarlo",
+      "B": "Vigilarlo",
+      "C": "Cortar el contacto"
+    }
+  },
+  "vampire_356": {
+    "title": "El callejón en obras",
+    "body": "Tu callejón favorito está abierto por culpa de unos obreros. Tus hábitos ya no valen nada.",
+    "choices": {
+      "A": "Corromper la obra",
+      "B": "Cambiar de ruta",
+      "C": "Trabajar de noche"
+    }
+  },
+  "vampire_357": {
+    "title": "El piano del vecino",
+    "body": "El vecino toca al amanecer y no te deja dormir. Es casi una guerra.",
+    "choices": {
+      "A": "Hacerlo callar",
+      "B": "Comprarlo",
+      "C": "Cambiar tu horario"
+    }
+  },
+  "vampire_358": {
+    "title": "El tablón de deudas",
+    "body": "Alguien expone las deudas del clan en el vestíbulo. El ambiente se vuelve delicioso.",
+    "choices": {
+      "A": "Castigar al autor",
+      "B": "Borrar el tablón",
+      "C": "Usar la vergüenza"
+    }
+  },
+  "vampire_359": {
+    "title": "El vendedor de guantes",
+    "body": "Un vendedor propone guantes que ocultan la frialdad de tu piel.",
+    "choices": {
+      "A": "Comprar muchos",
+      "B": "Probarlos con el clan",
+      "C": "Reclutarlo"
+    }
+  },
+  "vampire_360": {
+    "title": "La bodega del teatro",
+    "body": "La bodega de un teatro huele a sangre fresca. Alguien actúa allí antes que tú.",
+    "choices": {
+      "A": "Bajar solo",
+      "B": "Hacer vigilar el lugar",
+      "C": "Cerrar el teatro"
+    }
+  },
+  "vampire_361": {
+    "title": "La cuenta anónima",
+    "body": "Una cuenta en línea cuenta detalles exactos sobre tus noches. Demasiado exactos.",
+    "choices": {
+      "A": "Hackearla",
+      "B": "Ignorarla",
+      "C": "Cambiar tus hábitos"
+    }
+  },
+  "vampire_362": {
+    "title": "El nuevo código",
+    "body": "El secreto cambia todos sus códigos sin avisarte. Bonita idea idiota.",
+    "choices": {
+      "A": "Retomar el control",
+      "B": "Castigar a los cabecillas",
+      "C": "Dejarlo pasar una noche"
+    }
+  },
+  "vampire_363": {
+    "title": "El mercado de rosas",
+    "body": "Un mercado de rosas abre de noche. Muy bonito. Muy lleno de testigos.",
+    "choices": {
+      "A": "Trasladarlo",
+      "B": "Mezclarte en él",
+      "C": "Hacer cortar la luz"
+    }
+  },
+  "vampire_364": {
+    "title": "El pasillo frío",
+    "body": "Un pasillo del refugio se congela de repente. Hasta las paredes parecen esperar.",
+    "choices": {
+      "A": "Explorar hasta el fondo",
+      "B": "Cerrar el paso",
+      "C": "Hacer venir a un antiguo"
+    }
+  },
+  "vampire_365": {
+    "title": "El chófer del alcalde",
+    "body": "El chófer del alcalde te reconoce en una foto antigua. Espera un precio.",
+    "choices": {
+      "A": "Pagarle",
+      "B": "Hacer que mienta",
+      "C": "Mandarlo seguir"
+    }
+  },
+  "vampire_366": {
+    "title": "La moda de las capas",
+    "body": "El secreto vuelve a poner de moda la capa negra. Los cazadores nunca habían tenido tanto trabajo.",
+    "choices": {
+      "A": "Prohibir ese circo",
+      "B": "Lanzar una versión sobria",
+      "C": "Usarla como señuelo"
+    }
+  },
+  "vampire_367": {
+    "title": "El pozo obstruido",
+    "body": "Un antiguo pozo del refugio está bloqueado por algo pesado.",
+    "choices": {
+      "A": "Reabrirlo",
+      "B": "Sellarlo",
+      "C": "Escuchar primero"
+    }
+  },
+  "vampire_368": {
+    "title": "El florista curioso",
+    "body": "El florista ahora vende lirios blancos a todos tus vecinos.",
+    "choices": {
+      "A": "Comprar todo su stock",
+      "B": "Vigilarlo",
+      "C": "Hacer que se marche"
+    }
+  },
+  "vampire_369": {
+    "title": "La deuda del rival",
+    "body": "Un rival te confiesa una deuda enorme. El clan quiere verlo caer.",
+    "choices": {
+      "A": "Ayudarlo a un alto precio",
+      "B": "Aplastarlo",
+      "C": "Comprar su lealtad"
+    }
+  },
+  "vampire_370": {
+    "title": "La cinta policial",
+    "body": "Una cinta policial bloquea una calle útil para el clan. Huele a trampa amplia.",
+    "choices": {
+      "A": "Rodear la zona",
+      "B": "Probar el terreno",
+      "C": "Crear un falso incidente"
+    }
+  },
+  "vampire_371": {
+    "title": "El baúl del portero",
+    "body": "El portero esconde un baúl en su garita. Dentro está tu símbolo.",
+    "choices": {
+      "A": "Abrirlo esta noche",
+      "B": "Seguir observando",
+      "C": "Hacer hablar al portero"
+    }
+  },
+  "vampire_372": {
+    "title": "La sala sin ruido",
+    "body": "Una habitación del refugio se traga todos los sonidos. El secreto quiere hacer de ella un templo.",
+    "choices": {
+      "A": "Cerrar la sala",
+      "B": "Estudiarla seriamente",
+      "C": "Ofrecérsela al secreto"
+    }
+  },
+  "vampire_373": {
+    "title": "El camarero del alba",
+    "body": "Un café abre antes de lo previsto justo frente al refugio.",
+    "choices": {
+      "A": "Comprar el café",
+      "B": "Negociar el horario",
+      "C": "Cambiar de salida"
+    }
+  },
+  "vampire_374": {
+    "title": "La carta negra",
+    "body": "Una carta sellada en negro anuncia tu juicio. Sin nombre. Sin fecha.",
+    "choices": {
+      "A": "Abrirla tú solo",
+      "B": "Reunir al clan",
+      "C": "Quemarla sin leerla"
+    }
+  },
+  "vampire_375": {
+    "title": "La risa en la bodega",
+    "body": "Una risa sube desde una bodega cerrada. Reconoces una voz que debería estar muerta.",
+    "choices": {
+      "A": "Bajar de inmediato",
+      "B": "Cerrar aún más",
+      "C": "Hacer venir a un antiguo"
+    }
+  },
+  "vampire_376": {
+    "title": "El florista herido",
+    "body": "El florista nocturno vuelve con un brazo en cabestrillo. Ha visto algo.",
+    "choices": {
+      "A": "Hacerlo hablar",
+      "B": "Protegerlo",
+      "C": "Mantenerlo lejos"
+    }
+  },
+  "vampire_377": {
+    "title": "La bodega de neón",
+    "body": "Una bodega vecina se ilumina con neón rojo cada noche. El clan se inquieta.",
+    "choices": {
+      "A": "Ir a ver",
+      "B": "Observar desde lejos",
+      "C": "Cortar la corriente"
+    }
+  },
+  "vampire_378": {
+    "title": "El cofre del metro",
+    "body": "Un cofre olvidado descansa bajo el andén cerrado. Lleva una fecha antigua.",
+    "choices": {
+      "A": "Forzarlo",
+      "B": "Esconderlo",
+      "C": "Dejarlo dormir"
+    }
+  },
+  "vampire_379": {
+    "title": "El novato hambriento",
+    "body": "Un novato se niega a esperar la regla del clan. Quiere salir ahora mismo.",
+    "choices": {
+      "A": "Retenerlo",
+      "B": "Seguirlo",
+      "C": "Castigarlo"
+    }
+  },
+  "vampire_380": {
+    "title": "El fontanero discreto",
+    "body": "Un fontanero conoce demasiado bien tus sótanos. Trabaja sin hacer preguntas.",
+    "choices": {
+      "A": "Pagarle más",
+      "B": "Reclutarlo",
+      "C": "Cambiar de equipo"
+    }
+  },
+  "vampire_381": {
+    "title": "El sacerdote de blanco",
+    "body": "Un sacerdote vestido de blanco bendice una puerta del barrio. No es casualidad.",
+    "choices": {
+      "A": "Borrar la bendición",
+      "B": "Vigilar al sacerdote",
+      "C": "Desviar a la multitud"
+    }
+  },
+  "vampire_382": {
+    "title": "La avería de la alarma",
+    "body": "La alarma del refugio se corta sola tres veces en una semana.",
+    "choices": {
+      "A": "Retomar el sistema",
+      "B": "Poner guardia",
+      "C": "Cambiar de acceso"
+    }
+  },
+  "vampire_383": {
+    "title": "El bar sin ventanas",
+    "body": "Un bar sin ventanas abre a dos calles de aquí. El secreto ya quiere ir.",
+    "choices": {
+      "A": "Probar el sitio",
+      "B": "Vigilarlo de cerca",
+      "C": "Prohibir el lugar"
+    }
+  },
+  "vampire_384": {
+    "title": "El expediente del alcalde",
+    "body": "Un expediente sobre el alcalde llega a tu escritorio. Huele a trampa útil.",
+    "choices": {
+      "A": "Usarlo rápido",
+      "B": "Verificarlo antes",
+      "C": "Revenderlo"
+    }
+  },
+  "vampire_385": {
+    "title": "La bodega derrumbada",
+    "body": "Una pequeña bodega del refugio se derrumba. Debajo reaparece un antiguo pasillo.",
+    "choices": {
+      "A": "Bajar solo",
+      "B": "Bloquear la zona",
+      "C": "Hacer que el clan la registre"
+    }
+  },
+  "vampire_386": {
+    "title": "El grupo del jueves",
+    "body": "Un grupo humano se reúne cada jueves cerca de tu casa. Susurran demasiado.",
+    "choices": {
+      "A": "Infiltrarlos",
+      "B": "Dispersarlos",
+      "C": "Seguir escuchando"
+    }
+  },
+  "vampire_387": {
+    "title": "El sastre insolente",
+    "body": "El sastre del barrio te llama príncipe delante de todo el mundo.",
+    "choices": {
+      "A": "Ponerlo en su sitio",
+      "B": "Pagarle",
+      "C": "No volver a verlo"
+    }
+  },
+  "vampire_388": {
+    "title": "El teléfono encontrado",
+    "body": "Un teléfono olvidado contiene fotos del refugio y de la calle de enfrente.",
+    "choices": {
+      "A": "Destruirlo",
+      "B": "Revisarlo",
+      "C": "Tender una trampa para cuando vuelvan por él"
+    }
+  },
+  "vampire_389": {
+    "title": "El barón mudo",
+    "body": "Un antiguo barón regresa al refugio. Ya no habla, pero todos tiemblan.",
+    "choices": {
+      "A": "Recibirlo",
+      "B": "Mantenerlo a distancia",
+      "C": "Empujarlo a elegir"
+    }
+  },
+  "vampire_390": {
+    "title": "El pasillo inundado",
+    "body": "Un pasillo está cubierto de agua negra. Nadie sabe de dónde viene.",
+    "choices": {
+      "A": "Seguir el rastro",
+      "B": "Bombear rápido",
+      "C": "Cerrar la zona"
+    }
+  },
+  "vampire_391": {
+    "title": "El portero herido",
+    "body": "El portero al que pagabas vuelve con el labio partido. Ha hablado con alguien.",
+    "choices": {
+      "A": "Interrogarlo",
+      "B": "Curarlo",
+      "C": "Reemplazarlo"
+    }
+  },
+  "vampire_392": {
+    "title": "El mercado de la mañana",
+    "body": "Un mercado se instala demasiado pronto cerca del refugio. Las miradas llegan con el alba.",
+    "choices": {
+      "A": "Hacer que lo trasladen",
+      "B": "Comprar algunos puestos",
+      "C": "Cambiar de salida"
+    }
+  },
+  "vampire_393": {
+    "title": "El vigilante del tejado",
+    "body": "Alguien sube cada noche al tejado vecino con prismáticos.",
+    "choices": {
+      "A": "Seguirlo",
+      "B": "Ahuyentarlo",
+      "C": "Crear un señuelo"
+    }
+  },
+  "vampire_394": {
+    "title": "La cerradura fundida",
+    "body": "La cerradura de una sala prohibida está fundida por dentro.",
+    "choices": {
+      "A": "Entrar ahora mismo",
+      "B": "Hacer venir a un antiguo",
+      "C": "Volver a sellarla"
+    }
+  },
+  "vampire_395": {
+    "title": "El vecino demasiado cortés",
+    "body": "Un vecino te sujeta la puerta con una sonrisa demasiado tranquila. Te estaba esperando.",
+    "choices": {
+      "A": "Encantarlo",
+      "B": "Evitarlo después",
+      "C": "Vigilarlo"
+    }
+  },
+  "vampire_396": {
+    "title": "El túnel del puerto",
+    "body": "Un paso sale del puerto y sube hacia tu barrio. Es reciente.",
+    "choices": {
+      "A": "Visitarlo",
+      "B": "Tenderle una trampa",
+      "C": "Hacerlo caer"
+    }
+  },
+  "vampire_397": {
+    "title": "El rival encantador",
+    "body": "Un rival hace reír a tu clan. Eso es malo para tu autoridad.",
+    "choices": {
+      "A": "Ponerlo en su sitio",
+      "B": "Halagarlo también",
+      "C": "Separarlo del grupo"
+    }
+  },
+  "vampire_398": {
+    "title": "La caja sin nombre",
+    "body": "Llega una caja pesada sin nombre. Dentro, algo araña suavemente.",
+    "choices": {
+      "A": "Abrirla",
+      "B": "Tirarla lejos",
+      "C": "Mantenerla cerrada"
+    }
+  },
+  "vampire_399": {
+    "title": "El andén desierto",
+    "body": "El andén secreto lleva días vacío. Incluso las ratas han desaparecido.",
+    "choices": {
+      "A": "Explorar solo",
+      "B": "Enviar al clan",
+      "C": "Abandonar el andén"
+    }
+  },
+  "vampire_400": {
+    "title": "El pacto de la mañana",
+    "body": "El clan quiere una promesa. El secreto quiere una señal. El amanecer ya se acerca.",
+    "choices": {
+      "A": "Elegir al clan",
+      "B": "Elegir al secreto",
+      "C": "Elegir la huida"
+    }
+  }
+}

@@ -1,0 +1,185 @@
+﻿{
+  "version": 1,
+  "events": {
+    "west_president_ev_001": {
+      "title": "Impulso de unidad nacional",
+      "body": "Después de varios días tensos, el país por fin parece respirar al mismo ritmo. Incluso los editorialistas parecen casi soportables.",
+      "effect": "Opinión pública: +5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "west_president_ev_002": {
+      "title": "Confianza de los mercados",
+      "body": "Los inversores regresan con sus gráficos tranquilizadores y sus sonrisas un poco demasiado blancas. La economía claramente aprecia tu rumbo.",
+      "effect": "Economía: +5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "west_president_ev_003": {
+      "title": "Ejercicio nacional de seguridad",
+      "body": "Las fuerzas del país encadenan maniobras con una seriedad impecable. Por una vez, hasta los uniformes parecen contentos.",
+      "effect": "Defensa: +5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "west_president_ev_004": {
+      "title": "Semana de los apretones de manos",
+      "body": "Las cancillerías se abren, las llamadas se multiplican y tu agenda empieza a parecer una cumbre permanente.",
+      "effect": "Diplomacia: +5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "west_president_ev_005": {
+      "title": "Cansancio de la opinión pública",
+      "body": "El público suspira más rápido de lo habitual. Cada anuncio provoca un encogimiento de hombros nacional. Es una mala señal.",
+      "effect": "Opinión pública: -5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "west_president_ev_006": {
+      "title": "Tensiones en los precios",
+      "body": "Las facturas suben, los comerciantes hacen mala cara y hasta los ministros miran el presupuesto como si fuera un animal herido.",
+      "effect": "Economía: -5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "west_president_ev_007": {
+      "title": "Retrasos en el abastecimiento militar",
+      "body": "Algunas entregas esenciales van con retraso. Oficialmente, todo está bajo control. Extraoficialmente, alguien está sudando mucho.",
+      "effect": "Defensa: -5 por carta",
+      "duration": "Duración: 7 cartas"
+    },
+    "west_president_ev_008": {
+      "title": "Frialdad diplomática",
+      "body": "Los socios responden con lentitud, las sonrisas son más cortas y los comunicados empiezan a pinchar un poco.",
+      "effect": "Diplomacia: -5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "west_president_ev_009": {
+      "title": "Discurso que acierta",
+      "body": "Tu alocución llega en el momento justo, con las palabras justas. El país se siente comprendido, lo cual ya es casi un milagro institucional.",
+      "effect": "Opinión pública: +5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "west_president_ev_010": {
+      "title": "Boom de las exportaciones",
+      "body": "Los puertos trabajan a pleno rendimiento, los contratos se acumulan y los industriales vuelven a hablar en voz alta durante las cenas.",
+      "effect": "Economía: +5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "west_president_ev_011": {
+      "title": "Alerta bien gestionada",
+      "body": "Una amenaza fue detectada pronto, contenida con eficacia y archivada sin drama. Es raro. Es hermoso. Es casi elegante.",
+      "effect": "Defensa: +5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "west_president_ev_012": {
+      "title": "Cumbre de reconciliación",
+      "body": "Rivales aceptan hablar alrededor de la misma mesa. Nadie se quiere de verdad, pero todos hacen el esfuerzo.",
+      "effect": "Diplomacia: +5 por carta",
+      "duration": "Duración: 7 cartas"
+    },
+    "west_president_ev_013": {
+      "title": "Memes presidenciales",
+      "body": "Una secuencia torpe circula por todas partes. El país se ríe, la oposición celebra y tu equipo de comunicación pasa una noche difícil.",
+      "effect": "Opinión pública: -5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "west_president_ev_014": {
+      "title": "Huelga logística",
+      "body": "Los flujos se ralentizan, los costos suben y cada almacén se convierte de repente en un asunto nacional. La economía detesta este tipo de teatro.",
+      "effect": "Economía: -5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "west_president_ev_015": {
+      "title": "Material agotado",
+      "body": "Los expertos hablan de mantenimiento aplazado con palabras educadas. En claro, muchas cosas tendrían que haber sido reparadas ayer.",
+      "effect": "Defensa: -5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "west_president_ev_016": {
+      "title": "Embajador demasiado honesto",
+      "body": "Un diplomático dice en voz alta lo que normalmente se reserva para los pasillos. Las capitales extranjeras rara vez aprecian la franqueza en bruto.",
+      "effect": "Diplomacia: -5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "west_president_ev_017": {
+      "title": "Popularidad inesperada",
+      "body": "Una decisión considerada arriesgada termina siendo aplaudida. A veces al país le gusta que lo sorprendan cuando sale bien.",
+      "effect": "Opinión pública: +5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "west_president_ev_018": {
+      "title": "Temporada turística brillante",
+      "body": "Los visitantes llegan en masa, los hoteles cuelgan el cartel de completo y hasta los ministros hablan de patrimonio con emoción.",
+      "effect": "Economía: +5 por carta",
+      "duration": "Duración: 7 cartas"
+    },
+    "west_president_ev_019": {
+      "title": "Doctrina clarificada",
+      "body": "El ejército, los servicios y el estado mayor por fin saben qué línea seguir. La coherencia sigue estando infravalorada en política.",
+      "effect": "Defensa: +5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "west_president_ev_020": {
+      "title": "Cascada de acuerdos",
+      "body": "Comercio, seguridad, cultura, investigación. Todo el mundo quiere firmar algo contigo esta semana. Casi resulta sospechoso.",
+      "effect": "Diplomacia: +5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "west_president_ev_021": {
+      "title": "Ira social difusa",
+      "body": "No es una gran explosión. Es peor. Una acumulación de cansancio, malhumor y miradas que ya no creen en nada.",
+      "effect": "Opinión pública: -5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "west_president_ev_022": {
+      "title": "Crisis de confianza económica",
+      "body": "Los proyectos se ralentizan, las contrataciones dudan y las previsiones se parecen a excusas bien vestidas.",
+      "effect": "Economía: -5 por carta",
+      "duration": "Duración: 7 cartas"
+    },
+    "west_president_ev_023": {
+      "title": "Filtración en los procedimientos",
+      "body": "Un documento circula, un método acaba comentado en directo y, de repente, la seguridad nacional parece demasiado habladora.",
+      "effect": "Defensa: -5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "west_president_ev_024": {
+      "title": "Guerra de pequeñas palabras",
+      "body": "Se acumulan declaraciones punzantes entre capitales. Nada dramático. Solo lo suficiente como para hacer cada llamada molesta.",
+      "effect": "Diplomacia: -5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "west_president_ev_025": {
+      "title": "Concentración popular",
+      "body": "El país recupera un poco de aliento. Las multitudes se reúnen sin pánico, sin escándalo, solo con las ganas de seguir creyendo.",
+      "effect": "Opinión pública: +5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "west_president_ev_026": {
+      "title": "Reactivación industrial",
+      "body": "Las cadenas vuelven a arrancar, las fábricas contratan y la palabra soberanía vuelve de repente a ser rentable.",
+      "effect": "Economía: +5 por carta",
+      "duration": "Duración: 5 cartas"
+    },
+    "west_president_ev_027": {
+      "title": "Fronteras bajo control",
+      "body": "La vigilancia se refuerza, los incidentes bajan y los informes de la mañana por fin dejan de provocar tics nerviosos.",
+      "effect": "Defensa: +5 por carta",
+      "duration": "Duración: 4 cartas"
+    },
+    "west_president_ev_028": {
+      "title": "Calma internacional",
+      "body": "Las tensiones bajan, los tonos se vuelven más medidos y tu ministerio de Asuntos Exteriores vuelve a dormir un poco.",
+      "effect": "Diplomacia: +5 por carta",
+      "duration": "Duración: 6 cartas"
+    },
+    "west_president_ev_029": {
+      "title": "Rueda de prensa fallida",
+      "body": "Una frase torcida, una mirada mal interpretada y todo el mundo decide que querías decir lo peor. La política es un deporte cruel.",
+      "effect": "Opinión pública: -5 por carta",
+      "duration": "Duración: 3 cartas"
+    },
+    "west_president_ev_030": {
+      "title": "Choque externo sobre el comercio",
+      "body": "Un socio se frena, otro impone tasas, un tercero duda. En pocos días, la maquinaria económica empieza a toser seriamente.",
+      "effect": "Economía: -5 por carta",
+      "duration": "Duración: 7 cartas"
+    }
+  }
+}

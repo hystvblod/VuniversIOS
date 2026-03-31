@@ -1,0 +1,185 @@
+﻿{
+  "version": 1,
+  "events": {
+    "vampire_lord_ev_001": {
+      "title": "Intact Reserves",
+      "body": "A shipment arrives cold and complete. For once, nothing leaks, nothing is missing.",
+      "effect": "Blood: +5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "vampire_lord_ev_002": {
+      "title": "Oath of the Elders",
+      "body": "The clan elders swear to hold the line. The corridors regain a bit of order.",
+      "effect": "Clan: +5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "vampire_lord_ev_003": {
+      "title": "Night Without a Trail",
+      "body": "The hunters follow a false lead far from the lair. The city breathes a little easier.",
+      "effect": "Hunters: -5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "vampire_lord_ev_004": {
+      "title": "Quiet Cult",
+      "body": "The vampiric secret recruits in silence. Little noise, a lot of loyalty.",
+      "effect": "Vampiric Secret: +5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "vampire_lord_ev_005": {
+      "title": "Spoiled Stock",
+      "body": "A batch of blood spoils faster than expected. The smell alone is enough to ruin the night.",
+      "effect": "Blood: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "vampire_lord_ev_006": {
+      "title": "Local Hunt",
+      "body": "A neighborhood search party is being organized. Lamps, radios, and dogs are getting closer.",
+      "effect": "Hunters: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "vampire_lord_ev_007": {
+      "title": "Crypt Quarrel",
+      "body": "Two bloodlines are fighting over an old chamber. The clan loses time and patience.",
+      "effect": "Clan: -5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "vampire_lord_ev_008": {
+      "title": "Badly Timed Flash",
+      "body": "A nighttime photo comes out a little too well. Curious minds start asking the right questions.",
+      "effect": "Vampiric Secret: -5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "vampire_lord_ev_009": {
+      "title": "Broken Trail",
+      "body": "A human informant sends the hunters toward another tunnel. Their night is wasted.",
+      "effect": "Hunters: -5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "vampire_lord_ev_010": {
+      "title": "Calm Council",
+      "body": "The council ends without shouting or threats. It is almost a miracle.",
+      "effect": "Clan: +5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "vampire_lord_ev_011": {
+      "title": "Talkative Forum",
+      "body": "Humans are compiling precise rumors. The vampiric secret becomes less secret.",
+      "effect": "Vampiric Secret: -5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "vampire_lord_ev_012": {
+      "title": "Closed Ritual",
+      "body": "A well-run ritual binds the faithful together. No one talks too much, everyone listens.",
+      "effect": "Vampiric Secret: +5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "vampire_lord_ev_013": {
+      "title": "Missing Bags",
+      "body": "Blood bags disappear from the secondary stock. Someone is drinking or reselling before you do.",
+      "effect": "Blood: -5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "vampire_lord_ev_014": {
+      "title": "Loyal Recruits",
+      "body": "A few young vampires finally fall in line with your rules. The lair grows more disciplined.",
+      "effect": "Clan: +5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "vampire_lord_ev_015": {
+      "title": "Complicit Clinic",
+      "body": "A small reliable source opens up in the city. The blood arrives clean and steady.",
+      "effect": "Blood: +5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "vampire_lord_ev_016": {
+      "title": "Silver on the Thresholds",
+      "body": "Silver marks appear near the entrances. Someone is testing the defenses.",
+      "effect": "Hunters: +5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "vampire_lord_ev_017": {
+      "title": "Wall of the Faithful",
+      "body": "The vampiric secret spreads subtle signs across the city. The loyal recognize each other quickly.",
+      "effect": "Vampiric Secret: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "vampire_lord_ev_018": {
+      "title": "Old Grudge",
+      "body": "An old debt resurfaces in the council. The clan starts eyeing itself with suspicion again.",
+      "effect": "Clan: -5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "vampire_lord_ev_019": {
+      "title": "False UV Alert",
+      "body": "A false signal draws the hunters away from your area. They lose time, you gain the night.",
+      "effect": "Hunters: -5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "vampire_lord_ev_020": {
+      "title": "Cut Delivery",
+      "body": "The backup truck does not make it through. Reserves drop before dawn.",
+      "effect": "Blood: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "vampire_lord_ev_021": {
+      "title": "Spotted Face",
+      "body": "A face linked to the lair is circulating in a closed group. The veil tears a little.",
+      "effect": "Vampiric Secret: -5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "vampire_lord_ev_022": {
+      "title": "Clan Vigil",
+      "body": "A calm night spent together tightens the bonds. The clan follows your orders more closely.",
+      "effect": "Clan: +5 per card",
+      "duration": "Duration: 7 cards"
+    },
+    "vampire_lord_ev_023": {
+      "title": "Night Bank",
+      "body": "A discreet deal with a nocturnal network supplies the cellars. Stocks finally rise again.",
+      "effect": "Blood: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "vampire_lord_ev_024": {
+      "title": "Methodical Huntress",
+      "body": "A very serious huntress maps your habits. She moves without noise and without mistakes.",
+      "effect": "Hunters: +5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "vampire_lord_ev_025": {
+      "title": "Contested Order",
+      "body": "Your rules are judged too harsh by part of the clan. The whispers return.",
+      "effect": "Clan: -5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "vampire_lord_ev_026": {
+      "title": "Distracted Dog",
+      "body": "The hunters' dog is led onto another trail. Their team searches in the wrong place.",
+      "effect": "Hunters: -5 per card",
+      "duration": "Duration: 5 cards"
+    },
+    "vampire_lord_ev_027": {
+      "title": "Cold Reserve",
+      "body": "The cellars hold steady and the stock remains perfect. A night like this almost deserves a smile.",
+      "effect": "Blood: +5 per card",
+      "duration": "Duration: 4 cards"
+    },
+    "vampire_lord_ev_028": {
+      "title": "Nervous Witness",
+      "body": "A human witness talks too fast to too many people. The vampiric secret takes a hit.",
+      "effect": "Vampiric Secret: -5 per card",
+      "duration": "Duration: 6 cards"
+    },
+    "vampire_lord_ev_029": {
+      "title": "Postponed Duel",
+      "body": "A duel of pride is still poisoning the lair. The clan divides instead of hunting.",
+      "effect": "Clan: -5 per card",
+      "duration": "Duration: 3 cards"
+    },
+    "vampire_lord_ev_030": {
+      "title": "Silence of the Faithful",
+      "body": "The faithful obey and stay quiet. Nothing leaks, nothing sticks out.",
+      "effect": "Vampiric Secret: +5 per card",
+      "duration": "Duration: 7 cards"
+    }
+  }
+}

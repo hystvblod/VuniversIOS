@@ -1,0 +1,185 @@
+﻿{
+  "version": 1,
+  "events": {
+    "vampire_lord_ev_001": {
+      "title": "Unversehrte Reserven",
+      "body": "Eine Lieferung kommt kühl und vollständig an. Zum ersten Mal läuft nichts aus, nichts fehlt.",
+      "effect": "Blut: +5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "vampire_lord_ev_002": {
+      "title": "Schwur der Alten",
+      "body": "Die Ältesten des Clans schwören, die Linie zu halten. In die Gänge kehrt etwas Ordnung zurück.",
+      "effect": "Clan: +5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "vampire_lord_ev_003": {
+      "title": "Nacht ohne Spur",
+      "body": "Die Jäger folgen einer falschen Spur weit weg vom Versteck. Die Stadt atmet etwas leichter.",
+      "effect": "Jäger: -5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "vampire_lord_ev_004": {
+      "title": "Diskreter Kult",
+      "body": "Das vampirische Geheimnis rekrutiert im Stillen. Wenig Lärm, viel Loyalität.",
+      "effect": "Vampirisches Geheimnis: +5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "vampire_lord_ev_005": {
+      "title": "Verdorbener Vorrat",
+      "body": "Eine Blutcharge kippt schneller als erwartet. Schon der Geruch reicht, um die Nacht zu ruinieren.",
+      "effect": "Blut: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "vampire_lord_ev_006": {
+      "title": "Lokale Treibjagd",
+      "body": "Im Viertel formiert sich eine Treibjagd. Lampen, Funkgeräte und Hunde kommen näher.",
+      "effect": "Jäger: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "vampire_lord_ev_007": {
+      "title": "Gruftstreit",
+      "body": "Zwei Blutlinien streiten sich um einen alten Saal. Der Clan verliert Zeit und Geduld.",
+      "effect": "Clan: -5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "vampire_lord_ev_008": {
+      "title": "Schlecht platzierter Blitz",
+      "body": "Ein Nachtfoto gelingt etwas zu gut. Neugierige stellen die richtigen Fragen.",
+      "effect": "Vampirisches Geheimnis: -5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "vampire_lord_ev_009": {
+      "title": "Unterbrochene Spur",
+      "body": "Ein menschlicher Informant schickt die Jäger in einen anderen Tunnel. Ihre Nacht ist verloren.",
+      "effect": "Jäger: -5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "vampire_lord_ev_010": {
+      "title": "Beruhigter Rat",
+      "body": "Der Rat endet ohne Schreie und ohne Drohungen. Fast ein Wunder.",
+      "effect": "Clan: +5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "vampire_lord_ev_011": {
+      "title": "Zu geschwätziges Forum",
+      "body": "Menschen sammeln auffallend genaue Gerüchte. Das vampirische Geheimnis ist weniger geheim.",
+      "effect": "Vampirisches Geheimnis: -5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "vampire_lord_ev_012": {
+      "title": "Geschlossenes Ritual",
+      "body": "Ein gut geführtes Ritual schweißt die Treuen zusammen. Niemand redet zu viel, alle hören zu.",
+      "effect": "Vampirisches Geheimnis: +5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "vampire_lord_ev_013": {
+      "title": "Fehlende Beutel",
+      "body": "Beutel verschwinden aus dem Nebenlager. Jemand trinkt oder verkauft weiter, bevor du es tust.",
+      "effect": "Blut: -5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "vampire_lord_ev_014": {
+      "title": "Treue Rekruten",
+      "body": "Einige junge Vampire stellen sich endlich hinter deine Regeln. Das Versteck gewinnt an Disziplin.",
+      "effect": "Clan: +5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "vampire_lord_ev_015": {
+      "title": "Verbündete Klinik",
+      "body": "Eine kleine sichere Quelle öffnet sich in der Stadt. Das Blut kommt sauber und regelmäßig an.",
+      "effect": "Blut: +5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "vampire_lord_ev_016": {
+      "title": "Silber an den Schwellen",
+      "body": "In der Nähe der Zugänge tauchen Silbermarken auf. Jemand testet die Verteidigung.",
+      "effect": "Jäger: +5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "vampire_lord_ev_017": {
+      "title": "Mauer der Treuen",
+      "body": "Das vampirische Geheimnis verbreitet diskrete Zeichen in der Stadt. Die Loyalen erkennen einander schnell.",
+      "effect": "Vampirisches Geheimnis: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "vampire_lord_ev_018": {
+      "title": "Alte Feindschaft",
+      "body": "Eine alte Schuld taucht im Rat wieder auf. Der Clan beginnt sich erneut misstrauisch anzusehen.",
+      "effect": "Clan: -5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "vampire_lord_ev_019": {
+      "title": "Falscher UV-Alarm",
+      "body": "Ein falsches Signal lockt die Jäger aus deinem Gebiet. Sie verlieren Zeit, du gewinnst die Nacht.",
+      "effect": "Jäger: -5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "vampire_lord_ev_020": {
+      "title": "Abgeschnittene Lieferung",
+      "body": "Der Ersatzwagen kommt nicht durch. Die Reserven sinken vor der Morgendämmerung.",
+      "effect": "Blut: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "vampire_lord_ev_021": {
+      "title": "Erkanntes Gesicht",
+      "body": "Ein mit dem Versteck verbundenes Gesicht kursiert in einer geschlossenen Gruppe. Der Schleier reißt ein wenig.",
+      "effect": "Vampirisches Geheimnis: -5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "vampire_lord_ev_022": {
+      "title": "Wache des Clans",
+      "body": "Eine ruhige Nacht gemeinsam stärkt die Bande. Der Clan folgt deinen Befehlen besser.",
+      "effect": "Clan: +5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "vampire_lord_ev_023": {
+      "title": "Nachtbank",
+      "body": "Ein diskretes Abkommen mit einem nächtlichen Netzwerk versorgt die Keller. Die Vorräte steigen endlich wieder.",
+      "effect": "Blut: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "vampire_lord_ev_024": {
+      "title": "Methodische Jägerin",
+      "body": "Eine sehr ernsthafte Jägerin kartiert deine Gewohnheiten. Sie arbeitet leise und fehlerfrei.",
+      "effect": "Jäger: +5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "vampire_lord_ev_025": {
+      "title": "Angefochtene Ordnung",
+      "body": "Deine Regeln gelten einem Teil des Clans als zu hart. Das Gemurmel kehrt zurück.",
+      "effect": "Clan: -5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "vampire_lord_ev_026": {
+      "title": "Ablenkter Hund",
+      "body": "Der Hund der Jäger wird auf eine andere Spur geführt. Ihr Team sucht am falschen Ort.",
+      "effect": "Jäger: -5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "vampire_lord_ev_027": {
+      "title": "Kalte Reserve",
+      "body": "Die Keller halten stand und der Vorrat bleibt perfekt. Eine solche Nacht verdient fast ein Lächeln.",
+      "effect": "Blut: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "vampire_lord_ev_028": {
+      "title": "Nervöser Zeuge",
+      "body": "Ein menschlicher Zeuge redet zu schnell mit zu vielen Leuten. Das vampirische Geheimnis bekommt einen Schlag ab.",
+      "effect": "Vampirisches Geheimnis: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "vampire_lord_ev_029": {
+      "title": "Verschobenes Duell",
+      "body": "Ein Duell aus Stolz vergiftet das Versteck weiter. Der Clan spaltet sich, statt zu jagen.",
+      "effect": "Clan: -5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "vampire_lord_ev_030": {
+      "title": "Schweigen der Treuen",
+      "body": "Die Treuen gehorchen und schweigen. Nichts dringt nach außen, nichts fällt auf.",
+      "effect": "Vampirisches Geheimnis: +5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    }
+  }
+}

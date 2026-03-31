@@ -1,0 +1,4054 @@
+﻿{
+  "mcc_001": {
+    "title": "Mogok kilat",
+    "body": "Para karyawan di pusat logistik mengumumkan mogok mendadak. Pengiriman terlambat.",
+    "choices": {
+      "A": "Buka negosiasi dan janjikan bonus.",
+      "B": "Tetap keras: pekerja sementara dan lembur paksa.",
+      "C": "Hentikan pengiriman sekunder dan komunikasikan dengan jelas."
+    }
+  },
+  "mcc_002": {
+    "title": "Audit mendadak",
+    "body": "Sebuah otoritas pengawas datang untuk audit penuh kepatuhan aturan. Timmu panik.",
+    "choices": {
+      "A": "Bekerja sama sepenuhnya, buka dokumen, dan perbaiki cepat.",
+      "B": "Mainkan waktu dengan pengacara dan tenggat.",
+      "C": "Umumkan program kepatuhan publik sebelum audit."
+    }
+  },
+  "mcc_003": {
+    "title": "Kebocoran data",
+    "body": "Sebuah server salah dikonfigurasi: data pelanggan terekspos.",
+    "choices": {
+      "A": "Segera memberi tahu.",
+      "B": "Tunggu sampai dampak pastinya benar-benar dikonfirmasi sebelum bicara.",
+      "C": "Kecilkan secara publik dan tangani secara internal."
+    }
+  },
+  "mcc_004": {
+    "title": "Kemasan terlalu mahal",
+    "body": "Kemasan premium baru disukai, tapi sangat mahal dan memperlambat produksi.",
+    "choices": {
+      "A": "Kembali ke kemasan standar, lupakan gaya.",
+      "B": "Naikkan harga sedikit untuk menutup biaya.",
+      "C": "Pertahankan kemasan dan otomatisasi lini produksi."
+    }
+  },
+  "mcc_005": {
+    "title": "Influencer tak terduga",
+    "body": "Seorang influencer terkenal menawarkan kerja sama. Dia berbakat… dan benar-benar tak terkendali.",
+    "choices": {
+      "A": "Tetap tanda tangan: visibilitas maksimal.",
+      "B": "Tolak dengan sopan: terlalu berisiko.",
+      "C": "Tanda tangan tapi dengan piagam dan kontrol konten yang ketat."
+    }
+  },
+  "mcc_006": {
+    "title": "Kerja jarak jauh di ambang bentrok",
+    "body": "Para manajer ingin semua kembali ke kantor. Tim mengancam pergi jika kamu memaksakan terlalu jauh.",
+    "choices": {
+      "A": "Model hibrida yang fleksibel, per tim.",
+      "B": "Wajib kembali 4 hari per minggu.",
+      "C": "Hampir full remote + kantor bersama."
+    }
+  },
+  "mcc_007": {
+    "title": "Penurunan kualitas",
+    "body": "Keluhan pelanggan meledak untuk produk andalan. Tim kualitas menuntut penghentian lini produksi.",
+    "choices": {
+      "A": "Hentikan produksi dan perbaiki sebelum diluncurkan lagi.",
+      "B": "Lanjutkan dan benahi sambil berjalan.",
+      "C": "Luncurkan penukaran gratis dan perkuat kontrol tanpa berhenti."
+    }
+  },
+  "mcc_008": {
+    "title": "Pabrik kebanjiran",
+    "body": "Hujan deras membanjiri sebuah lokasi produksi. Mesin-mesin tidak bisa dipakai.",
+    "choices": {
+      "A": "Terima penurunan hasil, amankan lokasi, dan bantu tim.",
+      "B": "Pindahkan sementara produksi ke subkontraktor mahal.",
+      "C": "Umumkan rencana ketahanan yang kuat dan minta tenggat tambahan ke klien."
+    }
+  },
+  "mcc_009": {
+    "title": "Rumor upaya akuisisi",
+    "body": "Rumor akuisisi paksa membuat saham melonjak. Investor senang. Karyawan panik.",
+    "choices": {
+      "A": "Bertahan: beli kembali saham dan buat rencana anti-akuisisi.",
+      "B": "Negosiasikan merger ramah secara diam-diam.",
+      "C": "Abaikan secara publik dan lanjutkan seolah tak terjadi apa-apa."
+    }
+  },
+  "mcc_010": {
+    "title": "Bonus atau riset",
+    "body": "Dewan menuntut pilihan: bonus untuk pemegang saham atau investasi besar di riset. Harus diputuskan.",
+    "choices": {
+      "A": "Bonus langsung untuk pemegang saham.",
+      "B": "Investasi besar dalam riset, untungnya nanti.",
+      "C": "Kompromi: bonus kecil + riset yang terarah."
+    }
+  },
+  "mcc_011": {
+    "title": "Hadiah beracun",
+    "body": "Seorang klien besar menawarkan kontrak raksasa… dengan penalti sangat besar jika kamu melewati tenggat.",
+    "choices": {
+      "A": "Tanda tangan: target ambisius, semua turun tangan.",
+      "B": "Tolak: terlalu berbahaya.",
+      "C": "Tanda tangan tapi negosiasikan klausul dan sebarkan jadwal."
+    }
+  },
+  "mcc_012": {
+    "title": "Biaya energi melonjak",
+    "body": "Tagihan energi meledak di beberapa lokasi. Margin mencair begitu saja.",
+    "choices": {
+      "A": "Investasi dalam efisiensi energi, untuk jangka panjang.",
+      "B": "Bebankan sebagian ke pelanggan lewat harga.",
+      "C": "Pangkas biaya: pemanas minimum, pencahayaan dikurangi."
+    }
+  },
+  "mcc_013": {
+    "title": "Tuduhan ekologi pencitraan",
+    "body": "Laporan berkelanjutan terakhirmu diserang: kata-kata indah, bukti sedikit.",
+    "choices": {
+      "A": "Publikasikan angka mentah dan terima kritik.",
+      "B": "Luncurkan kampanye iklan untuk mengalihkan perhatian.",
+      "C": "Minta audit independen dan perbarui laporan."
+    }
+  },
+  "mcc_014": {
+    "title": "Peluncuran tergesa-gesa",
+    "body": "Tim produkmu ingin meluncurkan versi uji besok.",
+    "choices": {
+      "A": "Luncurkan besok dan perbaiki sambil jalan.",
+      "B": "Tunda: kualitas dulu.",
+      "C": "Luncurkan akses terbatas ke beberapa klien percontohan."
+    }
+  },
+  "mcc_015": {
+    "title": "Platform mati",
+    "body": "Gangguan global memblokir layananmu selama 3 jam. Media sosial memanas.",
+    "choices": {
+      "A": "Jelaskan, minta maaf, dan tawarkan kompensasi komersial.",
+      "B": "Katakan itu hanya insiden terisolasi dan lanjutkan.",
+      "C": "Salahkan pemasok dan tuntut pertanggungjawaban secara publik."
+    }
+  },
+  "mcc_016": {
+    "title": "Kepergian talenta kunci",
+    "body": "Pimpinan teknologi mengumumkan kepergiannya. Tim panik. Investor mengawasi.",
+    "choices": {
+      "A": "Tawarkan kontra tawaran yang sangat besar.",
+      "B": "Hormati keputusannya dan promosikan talenta internal.",
+      "C": "Datangkan bintang eksternal yang mahal."
+    }
+  },
+  "mcc_017": {
+    "title": "Kebocoran internal",
+    "body": "Dokumen internal muncul di internet. Isinya menunjukkan target agresif untuk pengurangan biaya.",
+    "choices": {
+      "A": "Akui dan jelaskan rencana itu dengan baik.",
+      "B": "Katakan itu palsu.",
+      "C": "Hukum secara publik pelaku kebocoran."
+    }
+  },
+  "mcc_018": {
+    "title": "Program pelatihan",
+    "body": "HR meminta anggaran besar untuk melatih semua orang. Direktur keuangan meringis.",
+    "choices": {
+      "A": "Setujui: peningkatan keterampilan secara umum.",
+      "B": "Tolak: pelatihan terarah seminimal mungkin.",
+      "C": "Biayai setengah, sisanya lewat belajar mandiri yang dibimbing."
+    }
+  },
+  "mcc_019": {
+    "title": "Iklan gagal",
+    "body": "Iklan humor dinilai norak. Itu jadi meme… tidak selalu menguntungkan.",
+    "choices": {
+      "A": "Tarik iklan dan minta maaf.",
+      "B": "Terima meme itu dan menumpang arusnya.",
+      "C": "Putuskan cepat: diam total, tidak menanggapi."
+    }
+  },
+  "mcc_020": {
+    "title": "Inspeksi keselamatan",
+    "body": "Sebuah inspeksi mengungkap prosedur keselamatan yang sudah ketinggalan di satu lokasi. Harus bertindak.",
+    "choices": {
+      "A": "Segera perbarui, dengan penghentian sebagian lokasi.",
+      "B": "Rencana 6 bulan, tanpa mengganggu produksi.",
+      "C": "Alihdayakan pengelolaan keselamatan ke perusahaan eksternal."
+    }
+  },
+  "mcc_021": {
+    "title": "Perang harga",
+    "body": "Pesaing menurunkan harga secara brutal. Tim penjualanmu menuntut respons langsung.",
+    "choices": {
+      "A": "Turunkan harga untuk mempertahankan pangsa pasar.",
+      "B": "Pertahankan harga dan perkuat nilai, layanan, kualitas.",
+      "C": "Luncurkan penawaran terbatas waktu yang terlihat jelas."
+    }
+  },
+  "mcc_022": {
+    "title": "Subkontraktor meragukan",
+    "body": "Laporan internal menunjukkan subkontraktor utamamu curang soal standar.",
+    "choices": {
+      "A": "Putus kontrak, meski mahal.",
+      "B": "Audit diam-diam sebelum bergerak.",
+      "C": "Abaikan: selama tetap jalan, ya sudah."
+    }
+  },
+  "mcc_023": {
+    "title": "Restrukturisasi internal",
+    "body": "Struktur perusahaanmu sudah jadi labirin. Keputusan butuh waktu berminggu-minggu.",
+    "choices": {
+      "A": "Sederhanakan: lebih sedikit manajer, tim lebih mandiri.",
+      "B": "Pertahankan struktur: stabilitas di atas segalanya.",
+      "C": "Bentuk gugus tugas sementara untuk membuka jalan keputusan."
+    }
+  },
+  "mcc_024": {
+    "title": "Keluhan pelanggan",
+    "body": "Pelanggan menuduh dukunganmu robotik dan dingin. Mereka minta jawaban.",
+    "choices": {
+      "A": "Rekrut dan latih lebih banyak manusia untuk dukungan.",
+      "B": "Tingkatkan AI dukungan dan kurangi waktu tunggu.",
+      "C": "Berikan kompensasi kepada mereka yang mengeluh."
+    }
+  },
+  "mcc_025": {
+    "title": "Pasar baru",
+    "body": "Peluang ekspansi terbuka di negara baru.",
+    "choices": {
+      "A": "Masuk cepat dengan tim lokal kecil.",
+      "B": "Tunggu dan siapkan masuk yang sempurna.",
+      "C": "Bermitra dengan pemain lokal yang sudah mapan."
+    }
+  },
+  "mcc_026": {
+    "title": "Program kesejahteraan",
+    "body": "HR mengusulkan program kesejahteraan, kesehatan mental, dan waktu istirahat.",
+    "choices": {
+      "A": "Setujui dan komunikasikan.",
+      "B": "Tolak: prioritas pada target keuangan.",
+      "C": "Uji dulu di satu divisi pilot saja."
+    }
+  },
+  "mcc_027": {
+    "title": "Keluhan anonim",
+    "body": "Keluhan anonim menyebut tekanan berlebihan dalam satu tim. Tidak ada yang konkret, tapi rumor membesar.",
+    "choices": {
+      "A": "Buka investigasi internal dengan pihak netral.",
+      "B": "Bicara ke manajer dan minta dia tenang, selesai.",
+      "C": "Abaikan: tidak ada bukti, tidak ada masalah."
+    }
+  },
+  "mcc_028": {
+    "title": "Robotisasi",
+    "body": "Mengotomatisasi satu lokasi akan memberi banyak keuntungan, tapi beberapa posisi akan hilang. Serikat mengawasimu.",
+    "choices": {
+      "A": "Otomatisasi penuh dan tawarkan alih keterampilan.",
+      "B": "Bekukan proyek, lindungi pekerjaan.",
+      "C": "Otomatisasi sebagian, bertahap."
+    }
+  },
+  "mcc_029": {
+    "title": "Pasokan terputus",
+    "body": "Satu komponen kunci tidak bisa ditemukan selama 2 bulan. Timmu mengimprovisasi solusi seadanya.",
+    "choices": {
+      "A": "Bayar lebih mahal untuk pemasok alternatif yang andal.",
+      "B": "Kurangi produksi dan tunggu.",
+      "C": "Ubah desain produk untuk menghindari komponen itu."
+    }
+  },
+  "mcc_030": {
+    "title": "Aksi komunikasi",
+    "body": "Tim komunikasimu ingin membuat gebrakan: janji spektakuler dan slogan yang kuat.",
+    "choices": {
+      "A": "Setujui: kita buat orang terkesan.",
+      "B": "Tolak: moderasi dan bukti.",
+      "C": "Setujui tapi dengan kalimat yang hati-hati."
+    }
+  },
+  "mcc_031": {
+    "title": "Hadiah untuk klien",
+    "body": "Tim penjualanmu ingin memberi hadiah premium kepada klien besar.",
+    "choices": {
+      "A": "Izinkan: itu bagian dari permainan.",
+      "B": "Larangan: hanya hadiah simbolis.",
+      "C": "Izinkan tapi dengan daftar, batas nilai, dan transparansi."
+    }
+  },
+  "mcc_032": {
+    "title": "Proyek rahasia",
+    "body": "Sebuah proyek rahasia bisa jadi revolusioner… atau jadi jurang uang.",
+    "choices": {
+      "A": "Biayai penuh, tanpa setengah-setengah.",
+      "B": "Hentikan: terlalu berisiko.",
+      "C": "Biayai bertahap, dengan kontrol ketat."
+    }
+  },
+  "mcc_033": {
+    "title": "Pemasok bangkrut",
+    "body": "Pemasok utamamu bangkrut.",
+    "choices": {
+      "A": "Bayar untuk mengamankan rantai sekarang.",
+      "B": "Tolak dan cari alternatif.",
+      "C": "Beli pemasok itu untuk menyelamatkannya, dan mengendalikannya."
+    }
+  },
+  "mcc_034": {
+    "title": "Talenta dibajak",
+    "body": "Pesaing mencoba membajak seluruh tim terbaikmu sekaligus.",
+    "choices": {
+      "A": "Naikkan gaji dan beri saham.",
+      "B": "Biarkan pergi: kita akan rekrut talenta baru.",
+      "C": "Berikan lebih banyak otonomi dan proyek yang memotivasi, tanpa bonus besar."
+    }
+  },
+  "mcc_035": {
+    "title": "Permintaan dari otoritas pengawas",
+    "body": "Sebuah otoritas pengawas meminta data rinci tentang praktik komersialmu, dalam 10 hari.",
+    "choices": {
+      "A": "Kirim semuanya, meski menyingkap kelemahan.",
+      "B": "Negosiasikan perpanjangan waktu dan batasi pada yang diwajibkan hukum.",
+      "C": "Luncurkan perombakan internal dan minta waktu secara resmi."
+    }
+  },
+  "mcc_036": {
+    "title": "Seruan moderasi",
+    "body": "Sebagian publik mengkritik konsumsi berlebihan. Perusahaanmu disebut sebagai simbolnya.",
+    "choices": {
+      "A": "Luncurkan penawaran perbaikan dan barang second hand.",
+      "B": "Jawab dengan kampanye: kami menciptakan lapangan kerja.",
+      "C": "Tidak melakukan apa-apa: nanti juga reda."
+    }
+  },
+  "mcc_037": {
+    "title": "Rencana PHK",
+    "body": "Direktur keuangan mengusulkan PHK untuk menenangkan pasar. Tim sedang tegang.",
+    "choices": {
+      "A": "Setujui: target profitabilitas.",
+      "B": "Tolak: bertaruh pada pertumbuhan dan loyalitas tim.",
+      "C": "Bekukan perekrutan dan kurangi pengeluaran tanpa PHK."
+    }
+  },
+  "mcc_038": {
+    "title": "Gugatan paten",
+    "body": "Sebuah perusahaan spesialis gugatan paten menuntutmu gara-gara detail teknis lama.",
+    "choices": {
+      "A": "Bayar untuk menyelesaikannya cepat.",
+      "B": "Lawan di pengadilan sampai akhir.",
+      "C": "Negosiasikan kesepakatan + luncurkan serangan hukum balasan."
+    }
+  },
+  "mcc_039": {
+    "title": "Bug penagihan",
+    "body": "Bug menagih beberapa pelanggan dua kali. Sebagian besar tidak sadar… tapi beberapa berteriak.",
+    "choices": {
+      "A": "Kembalikan uang semua orang otomatis, dengan permintaan maaf.",
+      "B": "Tunggu permintaan pengembalian dana masuk.",
+      "C": "Tawarkan kredit masa depan alih-alih pengembalian uang."
+    }
+  },
+  "mcc_040": {
+    "title": "Hadiah untuk karyawan",
+    "body": "Akhir tahun tiba. Tim menunggu perhatian. Dewan lebih suka pesan yang menginspirasi.",
+    "choices": {
+      "A": "Bonus khusus untuk semua.",
+      "B": "Pidato inspiratif + mug koleksi perusahaan.",
+      "C": "Bonus terarah untuk tim yang paling tertekan."
+    }
+  },
+  "mcc_041": {
+    "title": "Kebijakan pengembalian",
+    "body": "Pelanggan meminta kebijakan pengembalian yang lebih sederhana. Keuangan takut akan penyalahgunaan.",
+    "choices": {
+      "A": "Permudah besar-besaran: retur gratis dan mudah.",
+      "B": "Perketat: kontrol dan biaya retur.",
+      "C": "Permudah tapi dengan batas cerdas, ambang, dan riwayat."
+    }
+  },
+  "mcc_042": {
+    "title": "Transparansi gaji",
+    "body": "Gerakan internal menuntut transparansi gaji lebih besar.",
+    "choices": {
+      "A": "Publikasikan rentang gaji per jabatan dan rencana penyesuaian.",
+      "B": "Tolak: topik terlalu sensitif.",
+      "C": "Uji transparansi hanya di satu divisi."
+    }
+  },
+  "mcc_043": {
+    "title": "Pengiriman ekspres yang mencemari",
+    "body": "Opsi pengiriman ultra ekspres laris, tapi sangat meningkatkan perjalanan dan emisi.",
+    "choices": {
+      "A": "Batasi ultra ekspres hanya untuk produk penting.",
+      "B": "Biarkan seperti sekarang: pelanggan menyukainya.",
+      "C": "Pertahankan tapi tambahkan opsi kompensasi berbayar."
+    }
+  },
+  "mcc_044": {
+    "title": "Rapat dengan dewan",
+    "body": "Dewan ingin rencana 12 bulan. Mereka mau yang sederhana, menguntungkan, dan menarik.",
+    "choices": {
+      "A": "Rencana menguntungkan: pemotongan dan fokus bisnis inti.",
+      "B": "Rencana ambisius: inovasi dan ekspansi.",
+      "C": "Rencana seimbang: profitabilitas + inovasi terarah."
+    }
+  },
+  "mcc_045": {
+    "title": "Kamera di tempat kerja",
+    "body": "Video internal memperlihatkan karyawan direkam tanpa sengaja saat acara. Suasana jadi tidak nyaman.",
+    "choices": {
+      "A": "Larangan video tanpa izin dan perkuat privasi.",
+      "B": "Katakan itu kesalahan lalu lanjutkan saja.",
+      "C": "Buat aturan jelas + pelatihan + hak atas gambar."
+    }
+  },
+  "mcc_046": {
+    "title": "Piagam etika baru",
+    "body": "Tim hukummu mengusulkan piagam etika yang ketat. Beberapa penjualan yang di batas akan hilang.",
+    "choices": {
+      "A": "Adopsi piagam itu apa adanya.",
+      "B": "Longgarkan piagam: tetap kompetitif.",
+      "C": "Adopsi tapi dengan pengecualian terkontrol dan terdokumentasi."
+    }
+  },
+  "mcc_047": {
+    "title": "Lomba ide",
+    "body": "Karyawan ingin lomba ide dengan anggaran. Investor bertanya: untungnya apa?",
+    "choices": {
+      "A": "Luncurkan lomba dengan anggaran nyata.",
+      "B": "Tolak: prioritas pada eksekusi.",
+      "C": "Luncurkan lomba tanpa anggaran, hanya pengakuan."
+    }
+  },
+  "mcc_048": {
+    "title": "Perubahan logo",
+    "body": "Direktur artistik ingin memodernisasi logo.",
+    "choices": {
+      "A": "Ubah total: awal yang baru.",
+      "B": "Jangan sentuh apa pun: identitas stabil.",
+      "C": "Evolusi ringan: modernisasi halus."
+    }
+  },
+  "mcc_049": {
+    "title": "Pemberitahuan denda",
+    "body": "Kamu menerima pemberitahuan awal denda atas praktik yang dianggap ambigu. Kamu bisa menggugat atau memperbaiki.",
+    "choices": {
+      "A": "Bayar dan perbaiki segera.",
+      "B": "Gugat: itu tidak adil.",
+      "C": "Perbaiki sekarang juga dan negosiasikan pengurangan."
+    }
+  },
+  "mcc_050": {
+    "title": "Seminar berlebihan",
+    "body": "Timmu mengusulkan seminar tak terlupakan di tempat mewah.",
+    "choices": {
+      "A": "Setujui: kita perkuat kekompakan.",
+      "B": "Batalkan: anggaran dan citra lebih dulu.",
+      "C": "Adakan seminar sederhana, tapi beri waktu luang tambahan."
+    }
+  },
+  "mcc_051": {
+    "title": "Rapat yang bocor",
+    "body": "Potongan audio internal beredar: terdengar kamu berkata kita potong biaya, meski itu bikin berisik.",
+    "choices": {
+      "A": "Akui dan jelaskan konteksnya secara publik.",
+      "B": "Sangkal dan ancam tuntutan atas kebocoran.",
+      "C": "Buat video permintaan maaf internal + sesuaikan rencana."
+    }
+  },
+  "mcc_052": {
+    "title": "Stok yang tidur",
+    "body": "Gudang penuh barang tak terjual. Investor meminta rencana sebelum publikasi berikutnya.",
+    "choices": {
+      "A": "Diskon besar segera, meski memangkas margin.",
+      "B": "Hancurkan atau tarik diam-diam lalu lupakan.",
+      "C": "Ubah jadi donasi + kampanye citra."
+    }
+  },
+  "mcc_053": {
+    "title": "Layanan pelanggan kewalahan",
+    "body": "Dukungan tak sanggup lagi. Waktu respons berlipat ganda, ulasan online turun.",
+    "choices": {
+      "A": "Rekrut dan latih bantuan tambahan dengan cepat.",
+      "B": "Otomatisasi lebih keras dengan AI agar sanggup menampung.",
+      "C": "Prioritaskan kasus kritis dan kompensasi yang lain."
+    }
+  },
+  "mcc_054": {
+    "title": "Larangan surel",
+    "body": "Audit internal menunjukkan surel sudah jadi kuburan keputusan. Semua orang mengeluh.",
+    "choices": {
+      "A": "Terapkan aturan ketat: lebih sedikit surel.",
+      "B": "Biarkan saja: itu budaya perusahaan.",
+      "C": "Luncurkan alat keputusan internal + pelatihan."
+    }
+  },
+  "mcc_055": {
+    "title": "Pajak lokal baru",
+    "body": "Sebuah wilayah mengumumkan pajak baru atas aktivitasmu. Lokasi lokal bisa menjadi rugi.",
+    "choices": {
+      "A": "Negosiasi dengan otoritas, pilih kerja sama.",
+      "B": "Ancam akan pergi jika pajak tetap ada.",
+      "C": "Bebankan sebagian biaya ke harga di wilayah itu."
+    }
+  },
+  "mcc_056": {
+    "title": "Produk terlalu adiktif",
+    "body": "Media mengkritik produkmu: terlalu dirancang agar bikin ketagihan. Ini jadi perdebatan.",
+    "choices": {
+      "A": "Tambahkan opsi kontrol atau batas dan komunikasikan.",
+      "B": "Abaikan: orang bertanggung jawab atas diri mereka.",
+      "C": "Ubah algoritme diam-diam, tanpa pengumuman."
+    }
+  },
+  "mcc_057": {
+    "title": "Gaji terlambat",
+    "body": "Bug penggajian mengancam menunda gaji sebagian karyawan. Panik.",
+    "choices": {
+      "A": "Bayar lebih awal lewat transfer khusus.",
+      "B": "Tunggu perbaikan teknis, maaf ya.",
+      "C": "Tawarkan uang muka gaji atas permintaan."
+    }
+  },
+  "mcc_058": {
+    "title": "Riset atau untung cepat",
+    "body": "Lab barumu mahal dan tidak akan menghasilkan apa-apa sebelum 18 bulan. Pasar ingin hasil.",
+    "choices": {
+      "A": "Kurangi skala lab, amankan jangka pendek.",
+      "B": "Gandakan investasi, ambil pertaruhannya.",
+      "C": "Cari pendanaan bersama dari luar."
+    }
+  },
+  "mcc_059": {
+    "title": "Label pemberi kerja teladan",
+    "body": "Kamu ditawari label pemberi kerja dengan imbalan anggaran komunikasi besar. Terasa seperti label yang dibeli.",
+    "choices": {
+      "A": "Tolak: kita perbaiki kenyataannya dulu.",
+      "B": "Terima: itu membantu perekrutan.",
+      "C": "Negosiasikan: audit serius + label tanpa omong kosong."
+    }
+  },
+  "mcc_060": {
+    "title": "Kecelakaan pengiriman",
+    "body": "Satu rute salah direncanakan: beberapa kurir mendapat hari kerja yang mustahil.",
+    "choices": {
+      "A": "Tinjau target dan perkuat perencanaan.",
+      "B": "Pertahankan: kita harus penuhi janji ke pelanggan.",
+      "C": "Berikan bonus sekali saja untuk tim yang terdampak."
+    }
+  },
+  "mcc_061": {
+    "title": "Penarikan produk diam-diam",
+    "body": "Ada cacat langka pada satu seri. Kamu bisa menariknya secara diam-diam atau publik.",
+    "choices": {
+      "A": "Penarikan publik, transparansi total.",
+      "B": "Penarikan diam-diam: hanya pelanggan yang teridentifikasi.",
+      "C": "Tunggu: peluangnya kecil, kita pantau."
+    }
+  },
+  "mcc_062": {
+    "title": "Tim iklan lepas kendali",
+    "body": "Tim iklan ingin slogan agresif: Kami menghancurkan pesaing. Tim hukum menghela napas.",
+    "choices": {
+      "A": "Setujui: perang psikologis.",
+      "B": "Tolak: nada tenang dan dapat dipercaya.",
+      "C": "Pertahankan energinya tapi ganti kalimatnya."
+    }
+  },
+  "mcc_063": {
+    "title": "Kemitraan universitas",
+    "body": "Sebuah universitas menawarkan kemitraan riset. Lambat, tapi bergengsi.",
+    "choices": {
+      "A": "Tanda tangan: jangka panjang + citra.",
+      "B": "Tolak: terlalu lambat, terlalu birokratis.",
+      "C": "Tanda tangan untuk proyek pilot singkat."
+    }
+  },
+  "mcc_064": {
+    "title": "Sistem bonus diprotes",
+    "body": "Bonus saat ini dianggap tidak adil: terlalu tidak jelas, terlalu berubah-ubah, terlalu politis.",
+    "choices": {
+      "A": "Buat sistem transparan dengan kriteria jelas.",
+      "B": "Jangan ubah apa-apa: memang begitu.",
+      "C": "Tambahkan bagian kolektif + pertahankan bagian individu."
+    }
+  },
+  "mcc_065": {
+    "title": "Kritik soal keberagaman",
+    "body": "Perusahaan dituduh terlalu seragam di jajaran pimpinan. Mulai terlihat jelas.",
+    "choices": {
+      "A": "Rencana konkret: rekrutmen + promosi + pemantauan angka.",
+      "B": "Pernyataan samar: kita akan lebih baik.",
+      "C": "Abaikan: prioritas pada aktivitas bisnis."
+    }
+  },
+  "mcc_066": {
+    "title": "Internet putus",
+    "body": "Gangguan internet regional memblokir satu lokasi. Tim tidak bisa bekerja lagi.",
+    "choices": {
+      "A": "Investasi koneksi cadangan segera.",
+      "B": "Tunggu: itu bukan salahmu.",
+      "C": "Berikan hari libur berbayar untuk tim yang terdampak."
+    }
+  },
+  "mcc_067": {
+    "title": "Penghargaan internal",
+    "body": "Seorang karyawan menciptakan alat yang menghemat waktu. Tim ingin memberinya penghargaan secara publik.",
+    "choices": {
+      "A": "Bonus + promosi, lalu kita terapkan alat itu di mana-mana.",
+      "B": "Ucapan terima kasih saja, jangan jadi preseden.",
+      "C": "Bonus simbolis + tim khusus untuk mengindustrialisasikannya."
+    }
+  },
+  "mcc_068": {
+    "title": "Kontrak publik",
+    "body": "Kontrak publik besar mungkin didapat, tapi dokumen administrasinya berat dan diawasi.",
+    "choices": {
+      "A": "Masuk: tim kepatuhan khusus.",
+      "B": "Tolak: terlalu banyak batasan.",
+      "C": "Masuk lewat mitra yang sudah berizin."
+    }
+  },
+  "mcc_069": {
+    "title": "Produk pesaing meniru",
+    "body": "Pesaing meluncurkan produk mirip dengan milikmu. Tim meminta balasan.",
+    "choices": {
+      "A": "Seret ke pengadilan.",
+      "B": "Berinovasi cepat: versi 2 yang lebih baik.",
+      "C": "Turunkan harga dan hancurkan pasar."
+    }
+  },
+  "mcc_070": {
+    "title": "Ponsel CEO",
+    "body": "Ponselmu membocorkan notifikasi di tengah acara publik. Ini memicu spekulasi.",
+    "choices": {
+      "A": "Tertawakan dan alihkan: ya, saya bekerja.",
+      "B": "Tolak berkomentar, tutup akses.",
+      "C": "Publikasikan klarifikasi dan tenangkan suasana."
+    }
+  },
+  "mcc_071": {
+    "title": "Standar baru",
+    "body": "Standar teknis baru akan datang dalam 6 bulan. Kamu bisa mengantisipasi atau menunggu.",
+    "choices": {
+      "A": "Antisipasi sekarang juga, migrasi penuh.",
+      "B": "Tunggu sampai saat terakhir.",
+      "C": "Antisipasi hanya pada produk yang kritis."
+    }
+  },
+  "mcc_072": {
+    "title": "Tim di bawah tekanan",
+    "body": "Satu departemen mulai kelelahan berat, tidak sampai drama, tapi benar-benar lelah. Hasil menurun.",
+    "choices": {
+      "A": "Turunkan target dan perkuat jumlah staf.",
+      "B": "Paksa: ini masa intens, kita tahan.",
+      "C": "Pasang manajer krisis + sistem rotasi."
+    }
+  },
+  "mcc_073": {
+    "title": "Kunjungan mendadak",
+    "body": "Investor meminta kunjungan mendadak ke pabrik. Lokasi sedang… tidak terlalu bagus bulan ini.",
+    "choices": {
+      "A": "Terima dan bersikap transparan.",
+      "B": "Tunda dengan alasan resmi.",
+      "C": "Beres-beres kilat + sedikit panggung."
+    }
+  },
+  "mcc_074": {
+    "title": "Kebijakan pengembalian uang",
+    "body": "Keuangan ingin memperketat pengembalian uang. Tim dukungan bilang ulasanmu akan dihajar habis.",
+    "choices": {
+      "A": "Longgarkan: kepuasan pelanggan lebih dulu.",
+      "B": "Perketat: lawan penyalahgunaan.",
+      "C": "Segmentasi: longgar untuk pelanggan setia, ketat untuk yang lain."
+    }
+  },
+  "mcc_075": {
+    "title": "Migrasi TI",
+    "body": "Infrastrukturmu harus pindah ke platform baru. Ada risiko bug, tapi keuntungan besar ke depan.",
+    "choices": {
+      "A": "Migrasi bertahap, aman.",
+      "B": "Big bang: sekaligus semuanya.",
+      "C": "Tunda: tahun ini terlalu berisiko."
+    }
+  },
+  "mcc_076": {
+    "title": "Perdebatan gaji",
+    "body": "Gaji masuk dianggap terlalu rendah. Sulit merekrut, ketegangan internal meningkat.",
+    "choices": {
+      "A": "Naikkan gaji awal.",
+      "B": "Pertahankan, kompensasi dengan manfaat lain.",
+      "C": "Naikkan + rencana perkembangan cepat."
+    }
+  },
+  "mcc_077": {
+    "title": "Laporan triwulanan",
+    "body": "Kamu bisa mengumumkan angka yang rapi tapi hati-hati, atau target agresif untuk membuat orang bermimpi.",
+    "choices": {
+      "A": "Hati-hati dan dapat dipercaya.",
+      "B": "Agresif dan ambisius.",
+      "C": "Ambisius tapi dengan pagar pengaman."
+    }
+  },
+  "mcc_078": {
+    "title": "Kantor terlalu mewah",
+    "body": "Sebuah artikel mengkritik kantor pusatmu: marmer dan kursi mewah, sementara lapangan terseok-seok.",
+    "choices": {
+      "A": "Buka kantor pusat untuk tim dan kurangi pengeluaran yang terlalu terlihat.",
+      "B": "Abaikan: itu citra kekuatanmu.",
+      "C": "Investasi lebih banyak di lapangan dan tunjukkan itu."
+    }
+  },
+  "mcc_079": {
+    "title": "Subkontraktor terlambat",
+    "body": "Seorang subkontraktor mengalami keterlambatan.",
+    "choices": {
+      "A": "Tekan dengan penalti.",
+      "B": "Tunggu dan jaga hubungannya.",
+      "C": "Segera diversifikasi dengan subkontraktor kedua."
+    }
+  },
+  "mcc_080": {
+    "title": "Konferensi internasional",
+    "body": "Kamu diundang untuk berbicara. Panggung bagus, tapi setiap kalimat akan diperhatikan.",
+    "choices": {
+      "A": "Pidato transparan dengan angka.",
+      "B": "Pidato samar tapi menginspirasi.",
+      "C": "Pidato singkat + tanya jawab yang terkontrol."
+    }
+  },
+  "mcc_081": {
+    "title": "Perangkat lunak internal usang",
+    "body": "Perangkat lunak lama memperlambat semua orang. Menggantinya mahal, tapi mempertahankannya membuang waktu.",
+    "choices": {
+      "A": "Ganti sekarang.",
+      "B": "Pertahankan setahun lagi.",
+      "C": "Ganti bertahap, layanan demi layanan."
+    }
+  },
+  "mcc_082": {
+    "title": "Bonus untuk manajemen",
+    "body": "Manajemen meminta bonus khusus. Karyawan biasa memandang buruk hal itu.",
+    "choices": {
+      "A": "Bonus untuk semua, tapi lebih kecil.",
+      "B": "Bonus hanya untuk manajemen.",
+      "C": "Bonus manajemen + anggaran pelatihan untuk semua."
+    }
+  },
+  "mcc_083": {
+    "title": "Terlalu banyak rapat",
+    "body": "Tim bilang hidup mereka habis di rapat.",
+    "choices": {
+      "A": "Larangan beberapa rapat, dengan aturan ketat.",
+      "B": "Biarkan: komunikasi di atas segalanya.",
+      "C": "Buat hari tanpa rapat tiap minggu."
+    }
+  },
+  "mcc_084": {
+    "title": "Label kualitas baru",
+    "body": "Sebuah label kualitas terkenal bisa didapat, tapi butuh waktu dan audit rutin.",
+    "choices": {
+      "A": "Kejar itu: keunggulan.",
+      "B": "Jangan ambil: terlalu mahal.",
+      "C": "Mulai dengan sertifikasi parsial."
+    }
+  },
+  "mcc_085": {
+    "title": "Tim penjualan agresif",
+    "body": "Penjualan naik, tapi pelanggan mengeluh soal praktik yang terlalu mendesak.",
+    "choices": {
+      "A": "Rapikan penjualan: piagam + kontrol.",
+      "B": "Biarkan: itu berhasil.",
+      "C": "Bonus berdasarkan kepuasan pelanggan, bukan hanya volume."
+    }
+  },
+  "mcc_086": {
+    "title": "Proyek bising",
+    "body": "Pekerjaan konstruksi di dekat lokasi membuat logistik sulit. Keterlambatan menumpuk.",
+    "choices": {
+      "A": "Negosiasi dengan kota untuk menyesuaikan jam kerja.",
+      "B": "Pindahkan sementara sebagian operasi.",
+      "C": "Dorong tim menutupnya dengan lembur."
+    }
+  },
+  "mcc_087": {
+    "title": "Aplikasi terlalu berat",
+    "body": "Aplikasimu mulai lambat. Pengguna mengeluh, tapi tim produk ingin menambah lebih banyak fitur.",
+    "choices": {
+      "A": "Jeda: optimasi performa lebih dulu.",
+      "B": "Tetap tambah: fitur lebih penting daripada kecepatan.",
+      "C": "Optimalkan sebagian + fitur terbatas."
+    }
+  },
+  "mcc_088": {
+    "title": "Debat soal open source",
+    "body": "Para insinyur ingin membuka sebagian kode. Tim hukum dan investor ragu.",
+    "choices": {
+      "A": "Buka: menarik talenta dan kredibilitas teknologi.",
+      "B": "Tolak: perlindungan maksimal.",
+      "C": "Buka hanya alat yang tidak strategis."
+    }
+  },
+  "mcc_089": {
+    "title": "Keluhan klien besar",
+    "body": "Klien besar mengancam pergi jika kamu tidak mengubah satu klausul kontrak. Itu akan sangat berdampak ke pendapatan.",
+    "choices": {
+      "A": "Mengalah: pertahankan klien.",
+      "B": "Bertahan: jangan buat preseden.",
+      "C": "Kompromi: sesuaikan dengan imbalan komitmen yang lebih panjang."
+    }
+  },
+  "mcc_090": {
+    "title": "Penghentian lini",
+    "body": "Satu lini produksi terlalu banyak gangguan kecil. Kamu bisa menghentikannya untuk perawatan besar.",
+    "choices": {
+      "A": "Hentikan dan perbaiki total.",
+      "B": "Lanjutkan dan tangani dari hari ke hari.",
+      "C": "Perawatan malam + produksi dikurangi."
+    }
+  },
+  "mcc_091": {
+    "title": "Survei internal",
+    "body": "Survei internal menunjukkan turunnya kepercayaan pada pimpinan. Lumayan menyakitkan.",
+    "choices": {
+      "A": "Jawab dengan rencana yang jelas dan tanggal pasti.",
+      "B": "Kecilkan: itu hal yang normal.",
+      "C": "Adakan rapat dengar pendapat, lalu bertindak."
+    }
+  },
+  "mcc_092": {
+    "title": "Perburuan biaya",
+    "body": "Direktur keuangan ingin memotong anggaran yang tidak penting: acara, alat, dan pengeluaran kecil.",
+    "choices": {
+      "A": "Potong keras, cepat.",
+      "B": "Potong sedikit, jaga semangat.",
+      "C": "Potong terarah + investasi kembali ke lapangan."
+    }
+  },
+  "mcc_093": {
+    "title": "Keamanan fisik",
+    "body": "Ada laporan kontrol akses yang lemah di satu lokasi. Tidak parah, tapi membuatmu terlihat buruk.",
+    "choices": {
+      "A": "Perkuat segera, kontrol ketat.",
+      "B": "Biarkan: kejadian langka.",
+      "C": "Perkuat tapi jangan terlalu kaku."
+    }
+  },
+  "mcc_094": {
+    "title": "Rumor kenaikan harga",
+    "body": "Rumor mengatakan kamu akan menaikkan harga. Pelanggan marah bahkan sebelum pengumuman.",
+    "choices": {
+      "A": "Klarifikasi cepat dengan transparan.",
+      "B": "Manfaatkan: naikkan harga sekarang.",
+      "C": "Tunda kenaikan dan tenangkan pasar."
+    }
+  },
+  "mcc_095": {
+    "title": "Tim hukum kewalahan",
+    "body": "Tim hukum sudah penuh. Kontrak makan waktu berminggu-minggu, tim penjualan mengeluh.",
+    "choices": {
+      "A": "Rekrut dan modernisasi proses.",
+      "B": "Beri tekanan: harus lebih cepat.",
+      "C": "Standarkan kontrak template + otomatisasi."
+    }
+  },
+  "mcc_096": {
+    "title": "Pesanan raksasa",
+    "body": "Pesanan raksasa datang. Kamu bisa menerimanya, tapi itu akan memelintir seluruh produksimu selama sebulan.",
+    "choices": {
+      "A": "Terima: pertumbuhan langsung.",
+      "B": "Tolak: lindungi yang lain.",
+      "C": "Terima sebagian, sebarkan dalam waktu."
+    }
+  },
+  "mcc_097": {
+    "title": "Reputasi para manajer",
+    "body": "Beberapa manajer dinilai terlalu keras. Hasil bagus, suasana biasa saja.",
+    "choices": {
+      "A": "Latih para manajer dan rapikan arah mereka.",
+      "B": "Biarkan: performa di atas segalanya.",
+      "C": "Ganti beberapa manajer kunci saja, tidak semua."
+    }
+  },
+  "mcc_098": {
+    "title": "Inovasi gimmick",
+    "body": "Sebuah fitur seru diminta. Tidak terlalu berguna… tapi bikin ramai.",
+    "choices": {
+      "A": "Luncurkan: ramai di media.",
+      "B": "Tolak: utamakan yang berguna.",
+      "C": "Luncurkan sebagai opsi, tanpa mengganggu inti."
+    }
+  },
+  "mcc_099": {
+    "title": "Kontrol pengeluaran",
+    "body": "Laporan biaya berantakan ke mana-mana. Tidak skandal, tapi membuat biaya membengkak.",
+    "choices": {
+      "A": "Aturan ketat dan validasi wajib.",
+      "B": "Biarkan: mengawasi justru lebih mahal.",
+      "C": "Batas sederhana + kontrol acak."
+    }
+  },
+  "mcc_100": {
+    "title": "Piagam transparansi",
+    "body": "Kamu bisa mengadopsi piagam transparansi atas praktikmu.",
+    "choices": {
+      "A": "Adopsi penuh dan publikasikan laporan rutin.",
+      "B": "Tolak: terlalu banyak batasan.",
+      "C": "Adopsi versi ringan, bertahap."
+    }
+  },
+  "mcc_101": {
+    "title": "Mesin kopi revolusioner",
+    "body": "Mesin pintar baru itu membagikan… kopi tanpa kafein. Terus-menerus. Kantor pusat dalam keadaan genting.",
+    "choices": {
+      "A": "Ganti rugi + pasang mesin sederhana yang andal.",
+      "B": "Katakan ini detoks kafein resmi.",
+      "C": "Buka barista internal… disponsori tim komunikasi."
+    }
+  },
+  "mcc_102": {
+    "title": "PowerPoint tanpa akhir",
+    "body": "Presentasi 212 slide dijadwalkan. Setengah karyawan mencari jalan keluar darurat.",
+    "choices": {
+      "A": "Batasi maksimal 15 slide dan wajibkan ringkasan.",
+      "B": "Biarkan: transparansi memang butuh slide.",
+      "C": "Ganti dengan video pendek + tanya jawab."
+    }
+  },
+  "mcc_103": {
+    "title": "Indikator kebahagiaan",
+    "body": "Seorang manajer mengusulkan indikator senyum per menit. Tim tak tahu ini lelucon atau bukan.",
+    "choices": {
+      "A": "Tolak dan luncurkan barometer kesejahteraan yang nyata.",
+      "B": "Terima demi citra, tanpa benar-benar mengukurnya.",
+      "C": "Terima tapi sebagai sesuatu yang fun + tanpa hukuman."
+    }
+  },
+  "mcc_104": {
+    "title": "Maskot memalukan",
+    "body": "Maskot merek baru terlalu mirip dengan milik pesaing. Terlalu mirip.",
+    "choices": {
+      "A": "Ganti maskot segera dan akui.",
+      "B": "Sangkal: itu hewan generik.",
+      "C": "Pertahankan, tapi desain ulang besar-besaran."
+    }
+  },
+  "mcc_105": {
+    "title": "Rapat berdiri",
+    "body": "Kantor pusat menguji rapat berdiri agar lebih cepat. Hasilnya: lebih banyak rapat, lebih sedikit tenaga.",
+    "choices": {
+      "A": "Hentikan eksperimen dan kurangi rapat.",
+      "B": "Pertahankan: postur menciptakan performa.",
+      "C": "Pertahankan hanya untuk urgensi, 10 menit."
+    }
+  },
+  "mcc_106": {
+    "title": "Kulkas diretas",
+    "body": "Kulkas terhubung diretas: dia memesan 400 yogurt. Stok meluap.",
+    "choices": {
+      "A": "Matikan gadget, amankan sistem, dan bagikan yogurt.",
+      "B": "Jadikan kampanye: kami memberi makan masa depan.",
+      "C": "Pertahankan kulkas, tapi dengan kontrol pembelian ketat."
+    }
+  },
+  "mcc_107": {
+    "title": "Surel ke semua orang",
+    "body": "Seorang karyawan mengirim pesan pribadi… ke seluruh perusahaan. Memalukan. Dan lucu. Bagi yang lain.",
+    "choices": {
+      "A": "Latihan penggunaan alat + aturan komunikasi sederhana.",
+      "B": "Hukum sebagai contoh.",
+      "C": "Tertawakan, tapi pasang pengaman teknis."
+    }
+  },
+  "mcc_108": {
+    "title": "Pakaian wajib mendadak",
+    "body": "Seorang direktur ingin memaksakan pakaian yang lebih formal.",
+    "choices": {
+      "A": "Batalkan dress code: kenyamanan dan kepercayaan.",
+      "B": "Tetap paksa: citra lebih dulu.",
+      "C": "Bebas kecuali untuk acara resmi."
+    }
+  },
+  "mcc_109": {
+    "title": "Slogan ambigu",
+    "body": "Slogan internasional baru diterjemahkan buruk dalam satu bahasa. Sangat buruk.",
+    "choices": {
+      "A": "Tarik cepat dan perbaiki dengan permintaan maaf.",
+      "B": "Lanjutkan: itu akan bikin orang membicarakannya.",
+      "C": "Adaptasi per negara + validasi bahasa."
+    }
+  },
+  "mcc_110": {
+    "title": "Aktivitas tim ekstrem",
+    "body": "Kamu ditawari aktivitas tim survival di hutan.",
+    "choices": {
+      "A": "Lakukan sesuatu yang sederhana dan inklusif.",
+      "B": "Setujui: kita keluar dari zona nyaman.",
+      "C": "Setujui, tapi sebagai opsi dengan versi yang lebih ringan."
+    }
+  },
+  "mcc_111": {
+    "title": "Printer berperang",
+    "body": "Printer menolak semuanya. Error 0x… Tak seorang pun tahu artinya. Kantor pusat juga tidak.",
+    "choices": {
+      "A": "Ganti + standarkan peralatan.",
+      "B": "Kurangi pemakaian: nol kertas.",
+      "C": "Latih orang penghubung di tiap lantai + bantuan TI khusus."
+    }
+  },
+  "mcc_112": {
+    "title": "Label inovasi",
+    "body": "Sebuah firma menawarkan label Perusahaan Inovatif dengan tagihan mahal. Terasa seperti stiker mahal.",
+    "choices": {
+      "A": "Tolak dan investasikan pada proyek inovasi nyata.",
+      "B": "Terima: itu menenangkan pasar.",
+      "C": "Terima hanya jika audit serius sudah termasuk."
+    }
+  },
+  "mcc_113": {
+    "title": "Terlalu banyak kata Inggris",
+    "body": "Memo internal berisi 70% bahasa Inggris. Tim meminta penerjemah… atau kamus.",
+    "choices": {
+      "A": "Wajibkan komunikasi yang jelas dan sederhana.",
+      "B": "Lanjutkan: itu budaya global.",
+      "C": "Izinkan, tapi dengan ringkasan dalam bahasa sederhana."
+    }
+  },
+  "mcc_114": {
+    "title": "Kursi ergonomis",
+    "body": "Karyawan meminta kursi ergonomis. Keuangan mengusulkan peregangan.",
+    "choices": {
+      "A": "Beli kursi yang layak untuk semua.",
+      "B": "Tolak: terlalu mahal.",
+      "C": "Pilot untuk posisi yang paling terdampak."
+    }
+  },
+  "mcc_115": {
+    "title": "Ping-pong di kantor",
+    "body": "Meja ping-pong dipasang. Hasilnya: produktivitas turun… tapi semangat naik.",
+    "choices": {
+      "A": "Pertahankan: jeda yang teratur, seimbang.",
+      "B": "Copot: disiplin.",
+      "C": "Pertahankan, tapi hanya pada jam tertentu."
+    }
+  },
+  "mcc_116": {
+    "title": "Bos visioner",
+    "body": "Seorang eksekutif ingin mengganti nama semua departemen dengan nama yang kuat.",
+    "choices": {
+      "A": "Hentikan: tetap serius.",
+      "B": "Setujui: mungkin memotivasi.",
+      "C": "Izinkan hanya secara internal, dalam mode santai."
+    }
+  },
+  "mcc_117": {
+    "title": "Anggaran acara",
+    "body": "Anggaran acara meledak. Kamu ditanya apakah lampu gantung raksasa itu strategis.",
+    "choices": {
+      "A": "Potong dan alihkan ke lapangan.",
+      "B": "Pertahankan: citra menarik klien.",
+      "C": "Pertahankan tapi beri batas yang ketat."
+    }
+  },
+  "mcc_118": {
+    "title": "Produk kolektor",
+    "body": "Tim iklan ingin edisi kolektor yang tidak berguna tapi sempurna untuk media sosial.",
+    "choices": {
+      "A": "Tolak: kegunaan lebih dulu.",
+      "B": "Setujui: ramai di media dan penjualan cepat.",
+      "C": "Setujui dalam jumlah kecil, tanpa mengganggu produksi."
+    }
+  },
+  "mcc_119": {
+    "title": "Mikrofon saat video call",
+    "body": "Dalam panggilan video global, mikrofonnmu tetap terbuka.",
+    "choices": {
+      "A": "Akui, tertawa, dan sederhanakan.",
+      "B": "Abaikan dan lanjut ke slide berikutnya.",
+      "C": "Minta maaf secara internal dan umumkan rencana kejelasan."
+    }
+  },
+  "mcc_120": {
+    "title": "Papan target",
+    "body": "Papan target dipasang di mana-mana. Tim bilang itu terlihat seperti dinding ancaman.",
+    "choices": {
+      "A": "Tinjau target dengan batas yang realistis.",
+      "B": "Pertahankan: tekanan = performa.",
+      "C": "Pertahankan tapi tambahkan penghargaan dan dukungan."
+    }
+  },
+  "mcc_121": {
+    "title": "Magang jenius",
+    "body": "Seorang magang mengotomatiskan tugas yang sebelumnya dikerjakan 12 orang secara manual. Tepuk tangan… dan kekhawatiran.",
+    "choices": {
+      "A": "Beri penghargaan dan alihkan tugas ke sesuatu yang lebih baik.",
+      "B": "Sembunyikan proyek: terlalu sensitif.",
+      "C": "Terapkan bertahap dengan rencana peningkatan keterampilan."
+    }
+  },
+  "mcc_122": {
+    "title": "Surel dari otoritas pengawas",
+    "body": "Sebuah otoritas pengawas mengirim surel sopan… yang ditutup dengan terima kasih untuk menjawab dalam 7 hari.",
+    "choices": {
+      "A": "Balas cepat, lengkap, dan perbaiki apa yang perlu.",
+      "B": "Balas seminimal mungkin: sesuai hukum saja.",
+      "C": "Minta tambahan waktu + luncurkan audit internal."
+    }
+  },
+  "mcc_123": {
+    "title": "Keluhan VIP",
+    "body": "Seorang klien VIP mengeluh soal detail kecil sekali. Tapi dia punya banyak teman dan banyak pengaruh.",
+    "choices": {
+      "A": "Perbaiki cepat + kompensasi komersial.",
+      "B": "Tolak: perlakuan setara untuk semua.",
+      "C": "Perbaiki tanpa kompensasi, tapi dengan komunikasi yang rapi."
+    }
+  },
+  "mcc_124": {
+    "title": "Tantangan internal",
+    "body": "Tantangan internal siapa yang menjual paling banyak dimulai. Ini menaikkan semangat… tapi bikin semua orang tegang.",
+    "choices": {
+      "A": "Pertahankan tapi tambahkan kriteria etika dan kualitas.",
+      "B": "Hentikan: suasana jadi toksik.",
+      "C": "Pertahankan dalam mode tim, bukan individu."
+    }
+  },
+  "mcc_125": {
+    "title": "Mode senyap",
+    "body": "Notifikasi internal meledak.",
+    "choices": {
+      "A": "Buat aturan: darurat vs tidak darurat.",
+      "B": "Biarkan: kebisingan itu hidup.",
+      "C": "Terapkan mode senyap wajib pada jam-jam tertentu."
+    }
+  },
+  "mcc_126": {
+    "title": "Ganti nama",
+    "body": "Ada usulan mengganti nama perusahaan agar terlihat lebih modern.",
+    "choices": {
+      "A": "Tolak: stabilitas.",
+      "B": "Ganti semuanya: rebranding besar.",
+      "C": "Lakukan evolusi ringan, bertahap."
+    }
+  },
+  "mcc_127": {
+    "title": "Open space vs ruang tenang",
+    "body": "Karyawan ingin ruang yang tenang. Investor ingin memadatkan ruang.",
+    "choices": {
+      "A": "Buat ruang senyap + aturan kebisingan.",
+      "B": "Padatkan: biaya lebih rendah.",
+      "C": "Hibrida: zona tenang + zona kolaboratif."
+    }
+  },
+  "mcc_128": {
+    "title": "Bug harga x10",
+    "body": "Selama 20 menit, situsmu menampilkan harga 10 kali lipat. Tangkapan layarnya beredar.",
+    "choices": {
+      "A": "Minta maaf + jelaskan + beri gestur untuk menenangkan.",
+      "B": "Katakan itu uji coba dan tutup pembahasan.",
+      "C": "Bercanda: versi mewah, lalu perbaiki dan klarifikasi."
+    }
+  },
+  "mcc_129": {
+    "title": "Kardus pindahan",
+    "body": "Kantor pusat pindah. Kardus tetap di lorong selama 3 bulan. Semua orang hidup dalam Tetris.",
+    "choices": {
+      "A": "Rencana penataan dan tanggung jawab tim.",
+      "B": "Abaikan: prioritas pada aktivitas.",
+      "C": "Datangkan tim profesional + sortir."
+    }
+  },
+  "mcc_130": {
+    "title": "Komite untuk komite",
+    "body": "Untuk memutuskan satu hal, dibuat komite. Lalu komite untuk komite itu. Karyawan tak percaya lagi.",
+    "choices": {
+      "A": "Hapus beberapa lapisan, keputusan lebih langsung.",
+      "B": "Pertahankan: tata kelola di atas segalanya.",
+      "C": "Pertahankan tapi batasi maksimal 2 tingkat."
+    }
+  },
+  "mcc_131": {
+    "title": "Logo di mana-mana",
+    "body": "Tim iklan menempelkan logo di mana-mana: mug, kursi, lift.",
+    "choices": {
+      "A": "Hentikan: moderasi dan elegansi.",
+      "B": "Lanjutkan: visibilitas maksimal.",
+      "C": "Pertahankan logo hanya pada beberapa elemen premium."
+    }
+  },
+  "mcc_132": {
+    "title": "Tombol merah",
+    "body": "Sebuah tombol merah DARURAT ditambahkan ke alat internal. Semua orang mengkliknya untuk hal sepele.",
+    "choices": {
+      "A": "Buat tingkat urgensi + sanksi ringan.",
+      "B": "Cabut tombolnya.",
+      "C": "Pertahankan tapi batasi hanya untuk peran tertentu."
+    }
+  },
+  "mcc_133": {
+    "title": "Rekrutmen kilat",
+    "body": "Satu departemen ingin merekrut 30 orang dalam 2 minggu.",
+    "choices": {
+      "A": "Rekrut bertahap, kualitas dulu.",
+      "B": "Percepat bagaimanapun caranya.",
+      "C": "Percepat tapi dengan pelatihan yang lebih kuat."
+    }
+  },
+  "mcc_134": {
+    "title": "Lift diplomatik",
+    "body": "Kamu terjebak di lift bersama seorang otoritas, seorang investor, dan perwakilan karyawan.",
+    "choices": {
+      "A": "Janjikan transparansi dan keseimbangan pada semua pihak.",
+      "B": "Tenangkan investor dulu: profitabilitas.",
+      "C": "Tenangkan karyawan dulu + kepatuhan pada aturan."
+    }
+  },
+  "mcc_135": {
+    "title": "Laporan terlalu jujur",
+    "body": "Timmu menulis laporan internal yang jujur. Terlalu jujur. Tertulis di sana kita banyak improvisasi.",
+    "choices": {
+      "A": "Akui dan luncurkan rencana perbaikan.",
+      "B": "Edit laporan: versi yang lebih rapi.",
+      "C": "Pertahankan kejujuran, tapi atur penyebarannya."
+    }
+  },
+  "mcc_136": {
+    "title": "Toilet mewah",
+    "body": "Ada rumor lantai direksi punya toilet mewah.",
+    "choices": {
+      "A": "Samakan semua, selesai.",
+      "B": "Abaikan: cuma rumor.",
+      "C": "Renovasi semua lantai secara bertahap."
+    }
+  },
+  "mcc_137": {
+    "title": "Hari tanpa surel",
+    "body": "Ada usulan satu hari tanpa surel. Sebagian orang menganggap itu mustahil.",
+    "choices": {
+      "A": "Uji: satu hari per minggu, aturan jelas.",
+      "B": "Tolak: terlalu berisiko.",
+      "C": "Buat setengah hari tanpa surel."
+    }
+  },
+  "mcc_138": {
+    "title": "Produk terlalu sempurna",
+    "body": "Produkmu begitu optimal sampai tidak ada salah kecil lagi… dan pelanggan merasa itu dingin.",
+    "choices": {
+      "A": "Humanisasi: nada, dukungan, perhatian kecil.",
+      "B": "Pertahankan: efisiensi = kepuasan.",
+      "C": "Tambahkan mode personal opsional."
+    }
+  },
+  "mcc_139": {
+    "title": "Newsletter internal",
+    "body": "Newsletter internal terdiri dari 18 halaman. Tak ada yang membacanya, tapi semua bilang keren.",
+    "choices": {
+      "A": "Beralih ke format singkat dan berguna.",
+      "B": "Lanjutkan: ini penting.",
+      "C": "Pertahankan, tapi wajib ada ringkasan singkat."
+    }
+  },
+  "mcc_140": {
+    "title": "Guru tamu",
+    "body": "Kamu ditawari seorang guru manajemen. Mahal, dan bicara seperti teka-teki.",
+    "choices": {
+      "A": "Tolak: investasikan pada pelatihan yang konkret.",
+      "B": "Terima: itu mengesankan dewan.",
+      "C": "Terima sesi uji coba dulu, lalu putuskan."
+    }
+  },
+  "mcc_141": {
+    "title": "Berburu penghematan",
+    "body": "Keuangan mengusulkan menghapus pulpen. Hasilnya: semua orang mencuri pulpen mitra.",
+    "choices": {
+      "A": "Kembalikan perlengkapan dasar, dan potong di tempat lain.",
+      "B": "Pertahankan: disiplin.",
+      "C": "Batasi dengan anggaran sederhana per tim."
+    }
+  },
+  "mcc_142": {
+    "title": "Dinding nilai",
+    "body": "Kantor pusat ingin dinding nilai yang sangat besar. Karyawan bertanya: anggarannya bisa jadi gaji?",
+    "choices": {
+      "A": "Buat dinding yang sederhana + aksi nyata di baliknya.",
+      "B": "Buat dinding besar: simbol yang kuat.",
+      "C": "Tanpa dinding, tapi rencana konkret yang dipublikasikan."
+    }
+  },
+  "mcc_143": {
+    "title": "Magang media sosial",
+    "body": "Sebuah unggahan resmi dipublikasikan dengan emoji aneh. Tak ada yang tahu artinya, tapi sedang tren.",
+    "choices": {
+      "A": "Klarifikasi dan ambil kembali kendali editorial.",
+      "B": "Naiki ombaknya: lebih banyak emoji, lebih banyak ramai.",
+      "C": "Biarkan tapi atur dengan piagam."
+    }
+  },
+  "mcc_144": {
+    "title": "Pegawai terbaik bulan ini",
+    "body": "Penghargaan internal Pegawai Terbaik Bulan Ini kembali. Ada yang suka, ada yang menyebut itu kompetisi toksik.",
+    "choices": {
+      "A": "Ubah jadi penghargaan tim, bukan individu.",
+      "B": "Pertahankan individu: performa terlihat jelas.",
+      "C": "Pertahankan, tapi dengan kriteria kolaborasi."
+    }
+  },
+  "mcc_145": {
+    "title": "Tes kepatuhan aturan",
+    "body": "Quiz kepatuhan aturan diluncurkan. 40% gagal… dan bertanya apakah ini dinilai.",
+    "choices": {
+      "A": "Latih dengan serius, tanpa menghukum, lalu tes ulang.",
+      "B": "Hukum: nol toleransi.",
+      "C": "Latih + buat quiz lebih sederhana dan lebih sering."
+    }
+  },
+  "mcc_146": {
+    "title": "Strategi di atas serbet",
+    "body": "Seorang eksekutif datang dengan strategi yang ditulis di atas serbet.",
+    "choices": {
+      "A": "Minta rencana terstruktur sebelum bertindak.",
+      "B": "Setujui: kecepatan di atas administrasi.",
+      "C": "Uji di lingkup kecil, lalu putuskan."
+    }
+  },
+  "mcc_147": {
+    "title": "Lencana pengunjung",
+    "body": "Lencana pengunjung begitu ketat sampai kamu sendiri tidak bisa masuk lagi. Simbolis sekali.",
+    "choices": {
+      "A": "Sederhanakan sambil tetap menjaga keamanan.",
+      "B": "Pertahankan: keamanan maksimal.",
+      "C": "Pertahankan tapi buat akses CEO atau darurat."
+    }
+  },
+  "mcc_148": {
+    "title": "Minggu optimisme",
+    "body": "HR meluncurkan minggu optimisme. Karyawan bertanya dulu: boleh tidur tidak?",
+    "choices": {
+      "A": "Gabungkan dengan penurunan beban kerja yang nyata.",
+      "B": "Adakan acaranya tanpa mengubah apa-apa.",
+      "C": "Coba dulu + umpan balik anonim + sesuaikan."
+    }
+  },
+  "mcc_149": {
+    "title": "Produk habis",
+    "body": "Sebuah meme membuat produkmu viral. Stok habis di mana-mana. Investor tertawa, logistik menangis.",
+    "choices": {
+      "A": "Percepat produksi, mahal, untuk menangkap gelombang.",
+      "B": "Batasi penjualan demi menjaga kualitas.",
+      "C": "Luncurkan pre-order yang transparan dan bertahap."
+    }
+  },
+  "mcc_150": {
+    "title": "Keynote terlalu panjang",
+    "body": "Keynote-mu berlangsung 90 menit. Di akhir, bahkan teleprompter pun minta jeda.",
+    "choices": {
+      "A": "Pendekkan dan langsung ke inti mulai berikutnya.",
+      "B": "Lanjutkan: visi butuh waktu.",
+      "C": "Tetap panjang, tapi tambahkan demo konkret."
+    }
+  },
+  "mcc_151": {
+    "title": "Kelangkaan bahan baku",
+    "body": "Bahan utama menjadi langka dan mahal. Biayamu naik, pelanggan ingin harga tetap stabil.",
+    "choices": {
+      "A": "Serap sebagian biaya untuk melindungi pelanggan.",
+      "B": "Naikkan harga segera.",
+      "C": "Cari alternatif dan tinjau desain produk."
+    }
+  },
+  "mcc_152": {
+    "title": "Gelombang panas di lokasi",
+    "body": "Gelombang panas membuat kerja sulit di satu lokasi logistik. Produktivitas turun, kelelahan naik.",
+    "choices": {
+      "A": "Kurangi ritme kerja dan tambah waktu istirahat.",
+      "B": "Pertahankan target: janji pelanggan lebih dulu.",
+      "C": "Investasi darurat, pendingin, jam yang disesuaikan, antar-jemput."
+    }
+  },
+  "mcc_153": {
+    "title": "Energi membara",
+    "body": "Tagihan energi meledak. Direktur keuangan ingin memangkas, merek ingin transisi yang bersih.",
+    "choices": {
+      "A": "Percepat penghematan energi dan efisiensi.",
+      "B": "Potong semua, bahkan proyek hijau.",
+      "C": "Tandatangani kontrak jangka panjang yang lebih stabil, meski lebih mahal di awal."
+    }
+  },
+  "mcc_154": {
+    "title": "Kemasan dan plastik",
+    "body": "Kemasanmu yang terlalu banyak plastik dikritik. Timmu bilang mengubahnya mahal dan butuh waktu.",
+    "choices": {
+      "A": "Beralih ke kemasan yang lebih bersih, bertahap.",
+      "B": "Jangan ubah apa-apa: prioritas harga murah.",
+      "C": "Luncurkan lini ramah lingkungan sebagai uji coba."
+    }
+  },
+  "mcc_155": {
+    "title": "Mogok di subkontraktor",
+    "body": "Subkontraktor penting sedang mogok. Kamu tidak bertanggung jawab… tapi kamu terdampak.",
+    "choices": {
+      "A": "Bantu mediasi dan dukung solusi.",
+      "B": "Ganti subkontraktor secepat mungkin.",
+      "C": "Kurangi produksi sementara dan komunikasikan."
+    }
+  },
+  "mcc_156": {
+    "title": "Aturan baru soal data",
+    "body": "Aturan baru mewajibkan lebih banyak transparansi data. Timmu bilang: ini berat.",
+    "choices": {
+      "A": "Patuh semaksimal mungkin, cepat.",
+      "B": "Lakukan minimum sesuai hukum.",
+      "C": "Ubah ini jadi keunggulan: transparansi + kendali pengguna."
+    }
+  },
+  "mcc_157": {
+    "title": "Transportasi global terganggu",
+    "body": "Transportasi global melambat. Waktu tunggu memanjang, pelanggan mulai gelisah.",
+    "choices": {
+      "A": "Tambah stok lokal demi keamanan.",
+      "B": "Lanjutkan seperti biasa dan tangani kasus per kasus.",
+      "C": "Tinjau rantai logistik: lebih dekat, lebih fleksibel."
+    }
+  },
+  "mcc_158": {
+    "title": "Inflasi dan daya beli",
+    "body": "Dengan inflasi, pelangganmu menghitung setiap euro. Produkmu dianggap mahal.",
+    "choices": {
+      "A": "Buat penawaran yang lebih terjangkau.",
+      "B": "Pertahankan: kualitas dan margin.",
+      "C": "Tawarkan promo yang terarah dan sementara."
+    }
+  },
+  "mcc_159": {
+    "title": "Liputan tentang pabrikmu",
+    "body": "Sebuah program ingin merekam salah satu pabrikmu. Bisa jadi panggung bagus kalau semua lancar, kalau tidak…",
+    "choices": {
+      "A": "Buka pintu dengan transparan.",
+      "B": "Tolak akses: terlalu berisiko.",
+      "C": "Terima, tapi di lokasi pilot yang benar-benar bagus."
+    }
+  },
+  "mcc_160": {
+    "title": "Kebocoran anggaran publik",
+    "body": "Dokumen internal tentang penghematan yang direncanakan bocor. Karyawan melihatnya sebagai ancaman.",
+    "choices": {
+      "A": "Jelaskan dengan jelas + lindungi pekerjaan sebisa mungkin.",
+      "B": "Tetap diam dan tunggu reda.",
+      "C": "Ganti sebagian pemotongan dengan rencana produktivitas."
+    }
+  },
+  "mcc_161": {
+    "title": "Pasar baru, budaya baru",
+    "body": "Kamu membuka di negara baru. Kampanye global bisa diterima buruk secara lokal.",
+    "choices": {
+      "A": "Sesuaikan kampanye dengan tim lokal.",
+      "B": "Pertahankan satu kampanye global.",
+      "C": "Buat kampanye netral dan hati-hati."
+    }
+  },
+  "mcc_162": {
+    "title": "Ragu pada pemasok",
+    "body": "Seorang pemasok dituduh menjalankan praktik meragukan. Belum terbukti, tapi isu membesar.",
+    "choices": {
+      "A": "Audit dan minta jaminan.",
+      "B": "Putus kontrak segera.",
+      "C": "Tunggu konfirmasi sebelum bertindak."
+    }
+  },
+  "mcc_163": {
+    "title": "Ekologi pencitraan?",
+    "body": "Kamu dituduh promosi hijau tanpa cukup aksi nyata. Merekmu kena imbas.",
+    "choices": {
+      "A": "Publikasikan bukti dan rencana dengan angka.",
+      "B": "Serang kritik: itu tidak benar.",
+      "C": "Kurangi komunikasi hijau dan percepat aksi nyata."
+    }
+  },
+  "mcc_164": {
+    "title": "Karbon dan perjalanan",
+    "body": "Perjalanan bisnis mahal dan mencemari. Tapi beberapa manajer ingin melihat tim langsung.",
+    "choices": {
+      "A": "Batasi perjalanan, prioritaskan yang perlu.",
+      "B": "Kembali bepergian seperti dulu.",
+      "C": "Buat kuota + kriteria, dampak, kegunaan."
+    }
+  },
+  "mcc_165": {
+    "title": "Serangan siber ringan",
+    "body": "Sebuah serangan mengganggu layanan selama beberapa jam. Tidak katastrofik, tapi mengkhawatirkan.",
+    "choices": {
+      "A": "Perkuat keamanan dan transparansi pasca-insiden.",
+      "B": "Kecilkan: tidak ada yang serius.",
+      "C": "Perkuat tapi tanpa terlalu banyak komunikasi."
+    }
+  },
+  "mcc_166": {
+    "title": "Ketegangan geopolitik",
+    "body": "Satu wilayah menjadi tidak stabil. Rute pasokanmu lewat sana. Terasa berisiko.",
+    "choices": {
+      "A": "Diversifikasi rute dan pemasok.",
+      "B": "Lanjutkan: nanti juga aman.",
+      "C": "Kurangi penjualan yang bergantung pada wilayah itu."
+    }
+  },
+  "mcc_167": {
+    "title": "Seruan boikot",
+    "body": "Seruan boikot beredar, awalnya tanpa alasan jelas. Lebih seperti gelombang di media sosial.",
+    "choices": {
+      "A": "Tanggapi dengan tenang memakai fakta.",
+      "B": "Abaikan agar tidak membesar.",
+      "C": "Buat gestur simbolis, donasi atau inisiatif untuk meredakan."
+    }
+  },
+  "mcc_168": {
+    "title": "Regulator mode pengawasan",
+    "body": "Otoritas pengawas mengumumkan serangkaian pemeriksaan sektoral. Sektormu ada di daftar.",
+    "choices": {
+      "A": "Siapkan audit internal lengkap.",
+      "B": "Lakukan minimum dan berharap beruntung.",
+      "C": "Bekerja sama secara publik: kami tak punya yang disembunyikan."
+    }
+  },
+  "mcc_169": {
+    "title": "Ekonomi sirkular",
+    "body": "Kamu didorong untuk menarik kembali dan mendaur ulang produkmu.",
+    "choices": {
+      "A": "Luncurkan program penarikan kembali dan perbaikan.",
+      "B": "Tolak: terlalu mahal.",
+      "C": "Lakukan pilot pada satu lini saja."
+    }
+  },
+  "mcc_170": {
+    "title": "Kerja hibrida diperdebatkan",
+    "body": "Sebagian tim ingin lebih banyak kerja jarak jauh, yang lain ingin lebih banyak tatap muka. Perdebatan memanas.",
+    "choices": {
+      "A": "Kebijakan fleksibel per tim, dengan aturan jelas.",
+      "B": "Wajib dominan hadir di kantor.",
+      "C": "Wajib dominan kerja jarak jauh."
+    }
+  },
+  "mcc_171": {
+    "title": "AI di kantor",
+    "body": "Karyawan menggunakan alat AI.",
+    "choices": {
+      "A": "Izinkan dengan aturan dan alat yang sudah disetujui.",
+      "B": "Larangan: terlalu berisiko.",
+      "C": "Izinkan hanya untuk kasus yang tidak sensitif."
+    }
+  },
+  "mcc_172": {
+    "title": "Iklan terlalu tertarget",
+    "body": "Kamu dikritik karena iklan yang terlalu tertarget. Pelanggan menganggapnya terlalu mengganggu.",
+    "choices": {
+      "A": "Kurangi penargetan dan beri lebih banyak kendali.",
+      "B": "Lanjutkan: itu menguntungkan.",
+      "C": "Pertahankan tapi buat penargetannya transparan."
+    }
+  },
+  "mcc_173": {
+    "title": "Krisis air",
+    "body": "Sebuah lokasi industri terkena pembatasan air. Kamu harus cepat beradaptasi.",
+    "choices": {
+      "A": "Investasi dalam pengurangan dan daur ulang air.",
+      "B": "Pindahkan sebagian produksi.",
+      "C": "Pertahankan dan beli air lebih mahal."
+    }
+  },
+  "mcc_174": {
+    "title": "Bank lebih hati-hati",
+    "body": "Bank menjadi lebih hati-hati dalam memberi pembiayaan. Proyek ekspansimu melambat.",
+    "choices": {
+      "A": "Perlambat ekspansi dan amankan kas.",
+      "B": "Cari pembiayaan lain, mitra, pasar.",
+      "C": "Lanjutkan bagaimanapun caranya."
+    }
+  },
+  "mcc_175": {
+    "title": "Dunia multipolar",
+    "body": "Tim internasionalmu meminta lebih banyak otonomi. Kantor pusat ingin satu garis global yang seragam.",
+    "choices": {
+      "A": "Berikan lebih banyak otonomi lokal.",
+      "B": "Lebih banyak sentralisasi.",
+      "C": "Otonomi terbatas dengan standar global."
+    }
+  },
+  "mcc_176": {
+    "title": "Gangguan pembayaran",
+    "body": "Perusahaan pembayaran eksternal mengalami gangguan. Penjualan berhenti total selama 2 jam.",
+    "choices": {
+      "A": "Tambahkan perusahaan cadangan kedua.",
+      "B": "Tetap dengan satu saja: lebih murah.",
+      "C": "Buat mode pesanan dicadangkan saat gangguan."
+    }
+  },
+  "mcc_177": {
+    "title": "Skor ramah lingkungan untuk produkmu",
+    "body": "Skor ramah lingkungan menjadi terlihat. Produkmu nilainya sedang. Tidak buruk sekali, tapi tidak membanggakan.",
+    "choices": {
+      "A": "Perbaiki bahan dan publikasikan peta jalan.",
+      "B": "Abaikan: itu cuma skor.",
+      "C": "Perbaiki dulu satu lini andalan."
+    }
+  },
+  "mcc_178": {
+    "title": "Pasar melemah",
+    "body": "Pasar melambat. Investor ingin margin, karyawan ingin rasa aman.",
+    "choices": {
+      "A": "Bekukan sebagian pengeluaran, lindungi pekerjaan.",
+      "B": "Potong keras untuk menenangkan bursa.",
+      "C": "Investasi dalam inovasi untuk bangkit kembali."
+    }
+  },
+  "mcc_179": {
+    "title": "Ketegangan dagang",
+    "body": "Pajak muncul di antara dua wilayah. Produkmu melintasi perbatasan setiap hari.",
+    "choices": {
+      "A": "Atur ulang produksi lebih dekat ke pelanggan.",
+      "B": "Bayar dan bebankan sebagian ke pelanggan lewat harga.",
+      "C": "Negosiasikan dan cari pengecualian."
+    }
+  },
+  "mcc_180": {
+    "title": "Media sosial dan reputasi",
+    "body": "Kritik kecil menjadi viral. Tidak dramatis, tapi reputasi bergerak cepat.",
+    "choices": {
+      "A": "Tanggapi cepat, rendah hati, dan perbaiki.",
+      "B": "Abaikan: tren sesaat.",
+      "C": "Buat kampanye positif untuk menenggelamkan kebisingan."
+    }
+  },
+  "mcc_181": {
+    "title": "Audit iklim internal",
+    "body": "Komite internalmu mengusulkan audit iklim untuk aktivitas perusahaan.",
+    "choices": {
+      "A": "Lakukan audit dan publikasikan target yang realistis.",
+      "B": "Tolak: terlalu rumit.",
+      "C": "Lakukan audit tapi tanpa publikasi eksternal."
+    }
+  },
+  "mcc_182": {
+    "title": "Pasokan lokal",
+    "body": "Kamu didorong untuk membeli lokal. Bagus untuk citra, tapi kadang lebih mahal.",
+    "choices": {
+      "A": "Tingkatkan porsi lokal secara bertahap.",
+      "B": "Tetap pada yang termurah secara global.",
+      "C": "Lokal hanya untuk beberapa produk kunci."
+    }
+  },
+  "mcc_183": {
+    "title": "Aturan iklan untuk anak",
+    "body": "Aturan baru membatasi iklan untuk kelompok tertentu. Tim iklanmu harus cepat beradaptasi.",
+    "choices": {
+      "A": "Patuh aturan dan tinjau strategi.",
+      "B": "Uji batas legalnya.",
+      "C": "Kurangi iklan dan andalkan kualitas produk."
+    }
+  },
+  "mcc_184": {
+    "title": "Krisis perumahan lokal",
+    "body": "Di kota tempat kamu mempekerjakan banyak orang, perumahan jadi terlalu mahal. Rekrutmen semakin sulit.",
+    "choices": {
+      "A": "Bantuan tempat tinggal atau transportasi + kemitraan lokal.",
+      "B": "Abaikan: itu bukan peranmu.",
+      "C": "Pindahkan sebagian tim ke tempat lain."
+    }
+  },
+  "mcc_185": {
+    "title": "Rantai produksi hijau",
+    "body": "Seorang pemasok menawarkan opsi yang lebih hijau, tapi lebih mahal dan lebih lambat.",
+    "choices": {
+      "A": "Pilih opsi hijau.",
+      "B": "Tetap pada opsi klasik.",
+      "C": "Buat campuran: hijau untuk sebagian volume."
+    }
+  },
+  "mcc_186": {
+    "title": "Remunerasi pimpinan",
+    "body": "Paket pimpinanmu dikritik. Bukan skandal, tapi ada perdebatan publik soal keadilan.",
+    "choices": {
+      "A": "Kurangi atau ikat lebih kuat ke tujuan jangka panjang.",
+      "B": "Pertahankan: pasar talenta.",
+      "C": "Buat semuanya lebih transparan."
+    }
+  },
+  "mcc_187": {
+    "title": "Platform global",
+    "body": "Layananmu harus menangani aturan yang berbeda menurut negara. Tim produk ingin satu versi saja.",
+    "choices": {
+      "A": "Sesuaikan per negara, kepatuhan aturan lebih dulu.",
+      "B": "Satu versi saja, meski dibatasi di beberapa negara.",
+      "C": "Versi global + modul lokal."
+    }
+  },
+  "mcc_188": {
+    "title": "Risiko disinformasi",
+    "body": "Artikel palsu beredar tentang perusahaanmu. Jelas dilebih-lebihkan, tapi tersebar di mana-mana.",
+    "choices": {
+      "A": "Bantahan sederhana + bukti + nada tenang.",
+      "B": "Abaikan: makin dibalas makin naik.",
+      "C": "Bantahan + tindakan hukum yang minimal."
+    }
+  },
+  "mcc_189": {
+    "title": "Robot dan pekerjaan",
+    "body": "Mengotomatisasi satu lokasi akan menghemat banyak. Karyawan khawatir soal posisi mereka.",
+    "choices": {
+      "A": "Otomatisasi dengan rencana alih keterampilan dan mobilitas.",
+      "B": "Otomatisasi cepat tanpa perdebatan.",
+      "C": "Tunda otomatisasi."
+    }
+  },
+  "mcc_190": {
+    "title": "Kemudahan diperbaiki",
+    "body": "Orang meminta produk yang lebih mudah diperbaiki. Ini memperpanjang riset, tapi memperkuat kepercayaan.",
+    "choices": {
+      "A": "Investasi dalam kemudahan perbaikan dan dukungan.",
+      "B": "Jangan bergerak: biaya terlalu tinggi.",
+      "C": "Buat produk premium bisa diperbaiki lebih dulu."
+    }
+  },
+  "mcc_191": {
+    "title": "Pemasok ganda",
+    "body": "Ketergantunganmu pada satu pemasok membuat cemas. Pemasok kedua akan lebih mahal… tapi lebih aman.",
+    "choices": {
+      "A": "Tambahkan pemasok kedua.",
+      "B": "Tetap satu pemasok saja.",
+      "C": "Pemasok kedua hanya untuk masa puncak."
+    }
+  },
+  "mcc_192": {
+    "title": "Iklim buruk dan keterlambatan",
+    "body": "Peristiwa iklim memblokir satu rute logistik. Pengiriman pasti terlambat.",
+    "choices": {
+      "A": "Beritahu pelanggan dan kompensasi dengan cerdas.",
+      "B": "Jangan bilang apa-apa selama mungkin.",
+      "C": "Alihkan rute bagaimanapun caranya, walau lebih mahal."
+    }
+  },
+  "mcc_193": {
+    "title": "Risiko kekurangan pangan",
+    "body": "Di wilayah tempat kamu punya karyawan, harga makanan naik tajam. Moral menurun.",
+    "choices": {
+      "A": "Bantuan sesaat, kantin, voucher makan.",
+      "B": "Abaikan: di luar cakupan.",
+      "C": "Negosiasikan kemitraan lokal dengan harga lebih rendah."
+    }
+  },
+  "mcc_194": {
+    "title": "Lobi atau edukasi",
+    "body": "Ada reformasi yang menyentuhmu. Sebagian ingin lobi, yang lain lebih suka edukasi publik.",
+    "choices": {
+      "A": "Dialog resmi yang transparan dengan institusi.",
+      "B": "Lobi diam-diam yang efektif.",
+      "C": "Tunggu dan beradaptasi setelahnya."
+    }
+  },
+  "mcc_195": {
+    "title": "Mata uang dan kurs",
+    "body": "Nilai tukar bergerak tajam. Keuntungan internasionalmu jadi tak terduga.",
+    "choices": {
+      "A": "Lindungi risikonya, hedging, dan stabilkan.",
+      "B": "Terima volatilitasnya.",
+      "C": "Kurangi paparan dengan lebih banyak pelokalan."
+    }
+  },
+  "mcc_196": {
+    "title": "Tekanan pada tenggat",
+    "body": "Pelanggan ingin semuanya selalu lebih cepat. Karyawan bilang itu terlalu membebani.",
+    "choices": {
+      "A": "Prioritaskan keselamatan dan kualitas, dengan tenggat realistis.",
+      "B": "Dorong terus: kecepatan dan daya saing.",
+      "C": "Buat opsi pengiriman lambat yang lebih murah."
+    }
+  },
+  "mcc_197": {
+    "title": "Kebingungan politik lokal",
+    "body": "Di satu negara, keputusan politik mengubah aturan dari satu hari ke hari berikutnya.",
+    "choices": {
+      "A": "Perkuat tim kepatuhan lokal dan beradaptasi.",
+      "B": "Hentikan sementara sebagian aktivitas.",
+      "C": "Lanjutkan sambil berharap ada kejelasan."
+    }
+  },
+  "mcc_198": {
+    "title": "Pendidikan dan talenta",
+    "body": "Kamu kekurangan talenta di pekerjaan kunci. Negara itu kekurangan pelatihan yang sesuai.",
+    "choices": {
+      "A": "Buat akademi internal + kemitraan sekolah.",
+      "B": "Rekrut hanya dari luar negeri.",
+      "C": "Latih secara internal tapi perlahan."
+    }
+  },
+  "mcc_199": {
+    "title": "Hasil vs dampak",
+    "body": "Dewan ingin hasil yang lebih baik. Tim keberlanjutan ingin dampak sosial dan lingkungan yang lebih besar.",
+    "choices": {
+      "A": "Tujuan campuran: hasil + dampak terukur.",
+      "B": "Hasil dulu, dampak belakangan.",
+      "C": "Dampak kuat sekarang, meski margin turun."
+    }
+  },
+  "mcc_200": {
+    "title": "Rencana ketahanan",
+    "body": "Kamu diminta membuat rencana ketahanan, krisis, energi, pasokan. Panjang, tapi menenangkan.",
+    "choices": {
+      "A": "Bangun rencana lengkap dengan berbagai skenario.",
+      "B": "Buat rencana minimal sekadar formalitas.",
+      "C": "Buat rencana, tapi uji di satu lokasi pilot."
+    }
+  },
+  "mcc_201": {
+    "title": "Kunjungan menteri mendadak",
+    "body": "Seorang menteri mengumumkan kunjungan untuk menyoroti industri.",
+    "choices": {
+      "A": "Pilih transparansi: kunjungan nyata, tanpa dekorasi.",
+      "B": "Buat kunjungan etalase yang sangat rapi dan terkontrol.",
+      "C": "Usulkan konferensi video: lebih sedikit stres, lebih banyak kontrol."
+    }
+  },
+  "mcc_202": {
+    "title": "Undang-undang anti-jargon, hampir",
+    "body": "Seorang anggota parlemen mengusulkan aturan untuk membatasi jargon dalam kontrak. Para pengacaramu hampir pingsan dengan sopan.",
+    "choices": {
+      "A": "Sederhanakan kontrakmu secara sukarela.",
+      "B": "Tunggu: itu tidak akan pernah lolos.",
+      "C": "Buat ringkasan yang jelas di samping kontrak."
+    }
+  },
+  "mcc_203": {
+    "title": "Komisi penyelidikan",
+    "body": "Sebuah komisi nasional ingin memahami kenapa rapat berlangsung sangat lama. Kamu merasa tersindir.",
+    "choices": {
+      "A": "Luncurkan reformasi internal rapat singkat.",
+      "B": "Abaikan: itu bukan masalahmu.",
+      "C": "Danai sebuah studi… dengan logomu di mana-mana."
+    }
+  },
+  "mcc_204": {
+    "title": "Subsidi hijau, banyak dokumen",
+    "body": "Ada bantuan untuk menghijaukan satu lokasi, tapi dokumennya 84 halaman. Direktur keuangan mendesah.",
+    "choices": {
+      "A": "Siapkan dokumennya dengan baik dan investasikan.",
+      "B": "Lupakan saja: terlalu lama.",
+      "C": "Buat pilot yang lebih kecil, dengan berkas lebih sederhana."
+    }
+  },
+  "mcc_205": {
+    "title": "Komite publik untuk komite",
+    "body": "Pihak berwenang membuat komite tentang sektormu.",
+    "choices": {
+      "A": "Ikut aktif dan tetap kooperatif.",
+      "B": "Ikut seminimal mungkin, diam-diam.",
+      "C": "Usulkan piagam sederhana untuk mempercepat."
+    }
+  },
+  "mcc_206": {
+    "title": "Gangguan tampilan harga",
+    "body": "Bug menampilkan harga yang tidak masuk akal. Seorang pejabat lokal men-tweet: ini yang disebut hidup mahal?",
+    "choices": {
+      "A": "Perbaiki dan komunikasikan dengan rendah hati.",
+      "B": "Kecilkan: insiden teknis kecil.",
+      "C": "Berikan perhatian khusus kepada pelanggan yang terdampak."
+    }
+  },
+  "mcc_207": {
+    "title": "Minggu penghematan energi",
+    "body": "Pemerintah meluncurkan minggu moderasi energi. Kantormu bersinar seperti stadion.",
+    "choices": {
+      "A": "Kurangi pencahayaan dan tunjukkan tindakan konkret.",
+      "B": "Jangan ubah apa-apa: kami bayar, jadi kami nyalakan.",
+      "C": "Lakukan aksi simbolis, 1 hari + rencana jangka panjang."
+    }
+  },
+  "mcc_208": {
+    "title": "Audit mendadak dari regulator",
+    "body": "Surel masuk: kontrol di lokasi besok. Tim kepatuhanmu berlari ke mana-mana.",
+    "choices": {
+      "A": "Bekerja sama penuh dan perbaiki semua yang kurang.",
+      "B": "Jawab seperlunya saja.",
+      "C": "Minta penundaan resmi dan luncurkan audit internal cepat."
+    }
+  },
+  "mcc_209": {
+    "title": "Label perusahaan warga",
+    "body": "Balai kota menawarkan lencana warga jika kamu membiayai acara lokal.",
+    "choices": {
+      "A": "Dukung acaranya, tanpa berlebihan.",
+      "B": "Tolak: jangan campur aktivitas ekonomi dan politik lokal.",
+      "C": "Dukung tapi minta transparansi total."
+    }
+  },
+  "mcc_210": {
+    "title": "Pidato di forum ekonomi",
+    "body": "Kamu harus bicara di forum ekonomi. Dua menit. Tim komunikasimu menulis… 12 menit.",
+    "choices": {
+      "A": "Potong dan tetap sederhana, langsung.",
+      "B": "Baca semuanya: visi tidak punya batas menit.",
+      "C": "Buat 2 menit + catatan tertulis opsional."
+    }
+  },
+  "mcc_211": {
+    "title": "Kampanye poster terlalu kuat",
+    "body": "Tim iklan mengusulkan Dibuat di sini, dengan bangga. Di beberapa negara, itu bikin orang tak nyaman.",
+    "choices": {
+      "A": "Sesuaikan per negara untuk menghindari salah paham.",
+      "B": "Pertahankan di semua tempat: pesan tunggal.",
+      "C": "Buat pesannya netral: kualitas lebih penting daripada bendera."
+    }
+  },
+  "mcc_212": {
+    "title": "Konsultasi publik online",
+    "body": "Konsultasi publik tentang sektormu dibuka. Komentarnya mulai dari luar biasa sampai hentikan semuanya.",
+    "choices": {
+      "A": "Tanggapi dengan tenang dan usulkan komitmen.",
+      "B": "Jangan tanggapi: terlalu berisiko.",
+      "C": "Biarkan asosiasi profesional sektor yang menjawab."
+    }
+  },
+  "mcc_213": {
+    "title": "Debat tentang iklan",
+    "body": "Rancangan undang-undang membatasi beberapa jenis iklan.",
+    "choices": {
+      "A": "Beradaptasi dan pilih transparansi.",
+      "B": "Uji batas aturannya.",
+      "C": "Kurangi iklan dan fokus pada produk."
+    }
+  },
+  "mcc_214": {
+    "title": "Jamuan jaringan, sangat jaringan",
+    "body": "Kamu diundang ke makan malam di mana semua orang berbicara akrab… dan tak ada yang jelas bilang kenapa.",
+    "choices": {
+      "A": "Datang, tapi tetap sangat transparan soal semua pertukaranmu.",
+      "B": "Tolak: terlalu samar.",
+      "C": "Datang dengan tim kepatuhan dan agenda yang jelas."
+    }
+  },
+  "mcc_215": {
+    "title": "Pajak mendadak",
+    "body": "Pajak sektoral diumumkan. Investor menggerutu, pelangganmu tak mau membayar lebih.",
+    "choices": {
+      "A": "Serap sebagian dan optimalkan biaya.",
+      "B": "Bebankan sebagian biaya ke harga.",
+      "C": "Sesuaikan penawaran, lini masuk agar dampaknya terbatas."
+    }
+  },
+  "mcc_216": {
+    "title": "Tekanan untuk yang lokal",
+    "body": "Seorang pejabat bertanya: kenapa tidak 100% lokal? Rantai logistikmu sedang tertekan.",
+    "choices": {
+      "A": "Naikkan porsi lokal secara bertahap dengan target.",
+      "B": "Janji 100% lokal, lalu improvisasi nanti.",
+      "C": "Jelaskan kenyataannya dan usulkan campuran."
+    }
+  },
+  "mcc_217": {
+    "title": "Demo di depan kantor pusat",
+    "body": "Demo kecil muncul di depan kantor pusatmu dengan poster kreatif. Sangat kreatif.",
+    "choices": {
+      "A": "Berdialog dengan tenang dan dengarkan tuntutannya.",
+      "B": "Amankan lokasi dan abaikan.",
+      "C": "Usulkan pertemuan resmi dengan mediasi."
+    }
+  },
+  "mcc_218": {
+    "title": "Rumor rencana rahasia besar",
+    "body": "Media sosial heboh: kamu katanya punya rencana rahasia dengan negara. Kamu sendiri bahkan tidak tahu.",
+    "choices": {
+      "A": "Bantah dengan fakta, sederhana.",
+      "B": "Biarkan saja: itu akan membuatmu tampak misterius.",
+      "C": "Publikasikan penjelasan transparansi, FAQ."
+    }
+  },
+  "mcc_219": {
+    "title": "Hari pemilu",
+    "body": "Negara sedang memilih. Timmu bertanya apakah sebaiknya menghindari topik sensitif di kantor. Ide bagus.",
+    "choices": {
+      "A": "Ingatkan soal saling menghormati + netralitas di tempat kerja.",
+      "B": "Abaikan: nanti juga baik-baik saja.",
+      "C": "Atur momen tenang, jeda, mendengar, mediasi."
+    }
+  },
+  "mcc_220": {
+    "title": "Undang-undang reparasi datang",
+    "body": "Undang-undang mewajibkan lebih banyak kemudahan diperbaiki. Para insinyurmu bilang: bisa… tapi bukan besok pagi.",
+    "choices": {
+      "A": "Investasi dan antisipasi, dengan rencana yang jelas.",
+      "B": "Lakukan minimum sesuai aturan.",
+      "C": "Mulai dari produk andalan."
+    }
+  },
+  "mcc_221": {
+    "title": "Parlemen para magang",
+    "body": "Para magang mengadakan parlemen internal untuk mengusulkan ide.",
+    "choices": {
+      "A": "Dengarkan dan ambil ide terbaik.",
+      "B": "Hentikan: kita bukan republik.",
+      "C": "Pertahankan, tapi atur: 1 topik per bulan."
+    }
+  },
+  "mcc_222": {
+    "title": "Krisis diplomatik logo",
+    "body": "Logomu mirip simbol resmi di satu negara. Tak ada yang memeriksa. Ups.",
+    "choices": {
+      "A": "Sesuaikan logo secara lokal.",
+      "B": "Pertahankan: itu cuma kebetulan.",
+      "C": "Ubah secara global, proyek besar."
+    }
+  },
+  "mcc_223": {
+    "title": "Wali kota ingin bicara",
+    "body": "Wali kota tempat kamu punya lokasi ingin sepatah kata. Timmu menebak: pekerjaan, subsidi, foto…",
+    "choices": {
+      "A": "Temui, bicara soal pekerjaan dan proyek konkret.",
+      "B": "Tolak: jangan berpolitik.",
+      "C": "Kirim perwakilan + komitmen yang terukur."
+    }
+  },
+  "mcc_224": {
+    "title": "Debat soal harga yang adil",
+    "body": "Sebuah acara membahas harga yang adil dan menyebut perusahaanmu. Tim komunikasimu tersenyum sambil menggertakkan gigi.",
+    "choices": {
+      "A": "Jelaskan struktur biayamu dengan baik.",
+      "B": "Serang acaranya: disinformasi.",
+      "C": "Lakukan gestur pada lini populer."
+    }
+  },
+  "mcc_225": {
+    "title": "Barometer sosial nasional",
+    "body": "Barometer sosial membandingkan perusahaan. Nilaimu sedang. Yang paling buruk: itu publik.",
+    "choices": {
+      "A": "Luncurkan rencana kesejahteraan dan perbaikan.",
+      "B": "Lakukan operasi komunikasi untuk cepat naik.",
+      "C": "Gugat barometernya, secara publik, soal metodenya."
+    }
+  },
+  "mcc_226": {
+    "title": "Dekarbonisasi dalam 3 slide",
+    "body": "Kamu diminta membuat rencana dekarbonisasi dalam 3 slide. Dewan mau yang singkat. Topiknya butuh hal konkret.",
+    "choices": {
+      "A": "Rencana sederhana tapi serius dengan tahapan bernomor.",
+      "B": "3 slide samar, nanti dilihat lagi.",
+      "C": "Rencana panjang untuk internal + versi singkat untuk publik."
+    }
+  },
+  "mcc_227": {
+    "title": "Konferensi dunia setelahnya",
+    "body": "Kamu diundang bicara tentang dunia setelah ini. Tak ada yang tahu artinya, tapi semua orang bertepuk tangan.",
+    "choices": {
+      "A": "Bicara konkret: aksi, tujuan, batas.",
+      "B": "Buat pidato yang menginspirasi, tanpa detail.",
+      "C": "Tolak dan publikasikan catatan yang jelas sebagai gantinya."
+    }
+  },
+  "mcc_228": {
+    "title": "Aturan soal AI",
+    "body": "Sebuah aturan tentang AI akan datang.",
+    "choices": {
+      "A": "Atur AI: penggunaan yang diizinkan + audit.",
+      "B": "Larangan untuk menghindari risiko.",
+      "C": "Izinkan hanya secara internal, bukan untuk pelanggan."
+    }
+  },
+  "mcc_229": {
+    "title": "Perlindungan konsumen",
+    "body": "Aturan baru mewajibkan lebih banyak kejelasan soal langganan.",
+    "choices": {
+      "A": "Buat semuanya jelas dan mudah dibatalkan.",
+      "B": "Tetap simpan tombolnya tersembunyi: lebih untung.",
+      "C": "Perbaiki, tanpa mengubah semuanya."
+    }
+  },
+  "mcc_230": {
+    "title": "Hari libur diperdebatkan",
+    "body": "Perdebatan nasional tentang hari libur akan datang.",
+    "choices": {
+      "A": "Pertahankan hari itu dan kompensasi dengan organisasi kerja.",
+      "B": "Hapus hari itu di perusahaan.",
+      "C": "Pertahankan, tapi opsional menurut jenis pekerjaan, dengan kompensasi."
+    }
+  },
+
+  "mcc_231": {
+    "title": "Kemungkinan kontrak publik",
+    "body": "Sebuah kontrak publik besar sedang dipertaruhkan. Etalase yang bagus, tapi tuntutan kepatuhannya sangat ketat.",
+    "choices": {
+      "A": "Masuk: kepatuhan yang teladan.",
+      "B": "Hindari: terlalu banyak batasan.",
+      "C": "Masuk lewat kemitraan dengan pihak yang berpengalaman."
+    }
+  },
+  "mcc_232": {
+    "title": "Debat politik soal gaji",
+    "body": "Perdebatan soal gaji meledak. Karyawanmu meminta sebuah tindakan. Direktur keuangan ingin semuanya tetap tenang.",
+    "choices": {
+      "A": "Naikkan secara terarah + transparansi.",
+      "B": "Tolak: konteksnya sulit.",
+      "C": "Bonus satu kali + rencana jangka panjang."
+    }
+  },
+  "mcc_233": {
+    "title": "Laporan non-keuangan yang panjang",
+    "body": "Laporan non-keuanganmu panjangnya 120 halaman.",
+    "choices": {
+      "A": "Pendekkan dan buat lebih konkret, dengan indikator.",
+      "B": "Biarkan panjang: terlihat serius.",
+      "C": "Biarkan panjang + wajibkan ringkasan 1 halaman."
+    }
+  },
+  "mcc_234": {
+    "title": "Iklan dan netralitas",
+    "body": "Sebuah iklan dianggap terlalu politis oleh sebagian orang, dan tidak cukup tegas oleh yang lain. Hebat juga.",
+    "choices": {
+      "A": "Tarik dan buat ulang dengan nada lebih netral.",
+      "B": "Tetap lanjut: kami punya nilai.",
+      "C": "Pertahankan tapi jelaskan maksudnya."
+    }
+  },
+  "mcc_235": {
+    "title": "Kontrol label",
+    "body": "Sebuah label bertanggung jawab sekarang diawasi lebih ketat. Timmu bertanya: memang pantas kita dapat ini?",
+    "choices": {
+      "A": "Audit dan perbaiki sebelum pemeriksaan.",
+      "B": "Berharap lolos begitu saja.",
+      "C": "Lepaskan label itu sementara demi kehati-hatian."
+    }
+  },
+  "mcc_236": {
+    "title": "Pemungutan suara internal soal kantin",
+    "body": "Para karyawan memilih: lebih banyak menu nabati di kantin. Beberapa orang berteriak soal konspirasi brokoli.",
+    "choices": {
+      "A": "Tambahkan lebih banyak pilihan nabati, tanpa memaksa.",
+      "B": "Tolak: kantin bukan parlemen.",
+      "C": "Uji 2 hari per minggu dan ukur kepuasan."
+    }
+  },
+  "mcc_237": {
+    "title": "Krisis kepercayaan pada media",
+    "body": "Media banyak membicarakan sektormu.",
+    "choices": {
+      "A": "Transparansi proaktif dan bukti.",
+      "B": "Diam total.",
+      "C": "Bicara hanya lewat satu juru bicara."
+    }
+  },
+  "mcc_238": {
+    "title": "Debat soal data lokal",
+    "body": "Orang bertanya apakah datamu harus tetap berada di dalam negeri. Tim teknologi bilang iya, keuangan bilang mahal.",
+    "choices": {
+      "A": "Lokalkan data sensitif.",
+      "B": "Biarkan semuanya global: efisien.",
+      "C": "Solusi hibrida: yang sensitif lokal, sisanya global."
+    }
+  },
+  "mcc_239": {
+    "title": "Undang-undang anti-pemborosan",
+    "body": "Undang-undang anti-pemborosan akan datang. Stok tak terjualmu menatapmu… dengan sedih.",
+    "choices": {
+      "A": "Sumbangkan/daur ulang dan tinjau produksi.",
+      "B": "Hancurkan diam-diam, dengan risiko dikritik.",
+      "C": "Jual dengan harga miring lewat platform khusus."
+    }
+  },
+  "mcc_240": {
+    "title": "Label asal",
+    "body": "Aturan baru mewajibkan kejelasan lebih besar soal asal produk. Kemasanmu bakal mirip paspor.",
+    "choices": {
+      "A": "Cantumkan asalnya dengan jelas dan tanggung.",
+      "B": "Lakukan minimum dengan tulisan sangat kecil.",
+      "C": "Cantumkan asal + penjelasan yang mudah dipahami."
+    }
+  },
+  "mcc_241": {
+    "title": "Debat soal keuntungan",
+    "body": "Perusahaanmu menghasilkan keuntungan yang bagus.",
+    "choices": {
+      "A": "Investasikan lebih banyak secara lokal: pekerjaan, pelatihan.",
+      "B": "Tolak: dunia bisnis ya dunia bisnis.",
+      "C": "Buat dana sosial kecil + komunikasi yang sederhana."
+    }
+  },
+  "mcc_242": {
+    "title": "Kontrol subkontraktor",
+    "body": "Aturan baru membuatmu lebih bertanggung jawab atas subkontraktormu.",
+    "choices": {
+      "A": "Audit dengan serius dan tuntut standar.",
+      "B": "Ganti subkontraktor dengan cepat tanpa terlalu memeriksa.",
+      "C": "Audit hanya yang paling kritis."
+    }
+  },
+  "mcc_243": {
+    "title": "Demonstrasi… untuk memujimu",
+    "body": "Sebuah asosiasi memujimu secara publik atas tindakan hijau.",
+    "choices": {
+      "A": "Ucapkan terima kasih dengan rendah hati dan teruskan.",
+      "B": "Ubah itu jadi kampanye iklan besar.",
+      "C": "Tetap low profile agar tidak kena serangan balik."
+    }
+  },
+  "mcc_244": {
+    "title": "Debat soal jam kerja",
+    "body": "Sebuah reformasi nasional tentang jam kerja sedang dibahas.",
+    "choices": {
+      "A": "Sesuaikan jadwal dengan konsultasi.",
+      "B": "Tekan agar model sekarang tetap dipertahankan.",
+      "C": "Otomatisasi sebagian dan kurangi jam yang paling berat."
+    }
+  },
+  "mcc_245": {
+    "title": "Konferensi netral karbon",
+    "body": "Kamu berjanji netral karbon di atas panggung. Kepala operasionalmu hanya mengirim: 😅.",
+    "choices": {
+      "A": "Ubah rumusannya: tujuan realistis, langkah yang jelas.",
+      "B": "Pertahankan janji itu dan percepat apa pun biayanya.",
+      "C": "Janji itu untuk satu lini atau satu wilayah dulu."
+    }
+  },
+  "mcc_246": {
+    "title": "Aturan baru anti-penipuan",
+    "body": "Aturan anti-penipuan baru menuntut lebih banyak kontrol. Tim produkmu bilang: ini bakal nambah 3 klik.",
+    "choices": {
+      "A": "Perkuat kontrol dan sederhanakan penggunaan.",
+      "B": "Lakukan minimum yang diwajibkan hukum.",
+      "C": "Kontrol bertahap sesuai tingkat risiko."
+    }
+  },
+  "mcc_247": {
+    "title": "Debat monopoli",
+    "body": "Perusahaan besar dituduh terlalu mendominasi. Kamu diundang untuk membenarkan ukuranmu. Ini baru.",
+    "choices": {
+      "A": "Tunjukkan kontribusimu: pekerjaan, inovasi, harga.",
+      "B": "Abaikan dan teruskan saja.",
+      "C": "Umumkan komitmen pro-persaingan: API, kemitraan."
+    }
+  },
+  "mcc_248": {
+    "title": "Hari tanpa mobil nasional",
+    "body": "Negara mengadakan hari tanpa mobil.",
+    "choices": {
+      "A": "Kerja jarak jauh hari itu + transportasi alternatif.",
+      "B": "Wajib hadir: nanti kita sesuaikan.",
+      "C": "Kehadiran sebagian + jam kerja digeser."
+    }
+  },
+  "mcc_249": {
+    "title": "Debat soal konten online",
+    "body": "Sebuah undang-undang ingin mengatur konten online tertentu. Layananmu punya moderasi yang… optimistis.",
+    "choices": {
+      "A": "Perkuat moderasi dan transparansi.",
+      "B": "Kecilkan: kebebasan dulu.",
+      "C": "Perkuat hanya pada kasus yang kritis."
+    }
+  },
+  "mcc_250": {
+    "title": "Debat besar soal globalisasi",
+    "body": "Di TV, orang berdebat soal globalisasi.",
+    "choices": {
+      "A": "Jelaskan dengan tenang rantai nilaimu dan upaya lokalmu.",
+      "B": "Tetap diam: makin sedikit bicara makin baik.",
+      "C": "Buat mini-kampanye edukatif: cara kerjanya begini."
+    }
+  },
+  "mcc_251": {
+    "title": "Debat soal rapat jarak jauh",
+    "body": "Sebuah partai mengusulkan membatasi rapat menjadi 30 menit untuk menyelamatkan produktivitas negara.",
+    "choices": {
+      "A": "Terapkan aturan itu secara internal dan publikasikan hasilnya.",
+      "B": "Tolak: rapat itu harus dijalani.",
+      "C": "Buat 30 menit… dengan bonus resmi 10 menit."
+    }
+  },
+  "mcc_252": {
+    "title": "Senator dan mesin kopi",
+    "body": "Seorang senator mengunjungi kantor pusatmu dan jatuh cinta pada mesin kopimu. Dia ingin menunjukkannya di sidang.",
+    "choices": {
+      "A": "Terima: etalase kecil yang menyenangkan.",
+      "B": "Tolak: terlalu seperti iklan.",
+      "C": "Berikan satu mesin… ke pusat pelatihan publik."
+    }
+  },
+  "mcc_253": {
+    "title": "Mogok nol surel di akhir pekan",
+    "body": "Gerakan internal menuntut nol surel di akhir pekan. Seorang pejabat bertepuk tangan.",
+    "choices": {
+      "A": "Buat piagam ketat dan aturan yang jelas.",
+      "B": "Tolak: ini globalisasi.",
+      "C": "Uji 2 bulan dan ukur dampaknya."
+    }
+  },
+  "mcc_254": {
+    "title": "Debat soal keuntungan yang tidak pantas",
+    "body": "Di acara TV, namamu disebut sebagai contoh. Seseorang melafalkan namamu seperti merek yoghurt.",
+    "choices": {
+      "A": "Jawab dengan angka + investasi + pekerjaan.",
+      "B": "Abaikan: bicara hanya memberi makan polemik.",
+      "C": "Umumkan rencana pelatihan/pekerjaan yang nyata dan terlihat."
+    }
+  },
+  "mcc_255": {
+    "title": "Foto resmi",
+    "body": "Kamu ditawari foto bersama seorang menteri di depan pabrikmu. Timmu bertanya: senyumnya seberapa lebar?",
+    "choices": {
+      "A": "Terima, tapi tetap sederhana dan faktual.",
+      "B": "Tolak: netralitas total.",
+      "C": "Terima hanya jika kamu mengumumkan proyek yang berguna, pelatihan."
+    }
+  },
+  "mcc_256": {
+    "title": "Komite anti-birokrasi",
+    "body": "Sebuah komite publik ingin mengurangi birokrasi. Mereka meminta… laporan 60 halaman.",
+    "choices": {
+      "A": "Ikuti permainan dan usulkan penyederhanaan konkret.",
+      "B": "Kirim laporan sesingkat mungkin.",
+      "C": "Usulkan format 1 halaman + data lampiran."
+    }
+  },
+  "mcc_257": {
+    "title": "Wali kota ingin janji",
+    "body": "Wali kota ingin janji soal lapangan kerja untuk pemilu berikutnya.",
+    "choices": {
+      "A": "Janji yang terukur: target + syarat.",
+      "B": "Tolak: tidak ada janji politik.",
+      "C": "Usulkan rencana pelatihan yang menciptakan pekerjaan tidak langsung."
+    }
+  },
+  "mcc_258": {
+    "title": "Kedaulatan industri",
+    "body": "Kamu diminta merelokalisasi dengan cepat. Pabrikmu menjawab: cepat itu 24 bulan.",
+    "choices": {
+      "A": "Relokalisasi sebagian yang strategis, langkah demi langkah.",
+      "B": "Katakan tidak: terlalu mahal.",
+      "C": "Relokalisasi hanya perakitan akhir."
+    }
+  },
+  "mcc_259": {
+    "title": "Undang-undang kejelasan gaji",
+    "body": "Undang-undang memperkuat transparansi gaji. Tim HR bilang: kita akan menerima… banyak surel.",
+    "choices": {
+      "A": "Antisipasi: grid jelas + penjelasan.",
+      "B": "Lakukan minimum yang diwajibkan hukum.",
+      "C": "Publikasikan hanya rentang gaji yang sangat luas."
+    }
+  },
+  "mcc_260": {
+    "title": "Deputi dan kemasan",
+    "body": "Seorang deputi menunjukkan kemasanmu di parlemen: lihat plastik ini! Para insinyurmu menghela napas keras.",
+    "choices": {
+      "A": "Percepat transisi kemasan dan katakan dengan jelas.",
+      "B": "Jawab: ini untuk keamanan dan kebersihan.",
+      "C": "Luncurkan uji coba tanpa plastik pada satu lini."
+    }
+  },
+  "mcc_261": {
+    "title": "Debat soal iklan yang terlalu",
+    "body": "Sebuah rancangan undang-undang menargetkan iklan yang terlalu mengganggu. Tim iklanmu bertanya apakah pop-up yang berteriak termasuk.",
+    "choices": {
+      "A": "Beralih ke iklan yang lebih lembut dan lebih jelas.",
+      "B": "Pertahankan modelnya: konversi di atas segalanya.",
+      "C": "Pertahankan tapi kurangi format yang paling agresif."
+    }
+  },
+  "mcc_262": {
+    "title": "Meja bundar di Majelis",
+    "body": "Kamu diundang ke meja bundar. Semua tamu lain punya pendapat… tentang dirimu.",
+    "choices": {
+      "A": "Datang, tetap faktual, usulkan komitmen.",
+      "B": "Tolak: terlalu berisiko.",
+      "C": "Datang dengan delegasi kepatuhan + HR + keberlanjutan."
+    }
+  },
+  "mcc_263": {
+    "title": "Kontrak dan pilih kasih, rumor",
+    "body": "Sebuah rumor mengatakan kamu dapat kontrak publik karena teman. Itu salah, tapi menyebar.",
+    "choices": {
+      "A": "Publikasikan proses dan kriteria pemilihannya.",
+      "B": "Abaikan rumor itu.",
+      "C": "Minta audit eksternal yang independen."
+    }
+  },
+  "mcc_264": {
+    "title": "Label perusahaan teladan",
+    "body": "Sebuah label publik menawarkan lencana teladan. Timmu bilang: baunya seperti stempel pajangan.",
+    "choices": {
+      "A": "Terima jika kriterianya ketat dan bisa diaudit.",
+      "B": "Tolak: tidak usah pakai lencana.",
+      "C": "Terima tapi tanpa terlalu menonjolkannya."
+    }
+  },
+  "mcc_265": {
+    "title": "Debat soal air",
+    "body": "Krisis air datang di wilayah tempat kamu berproduksi. Seorang pejabat meminta rencana segera.",
+    "choices": {
+      "A": "Investasi dalam daur ulang air dan pengurangan.",
+      "B": "Pindahkan sebagian produksi.",
+      "C": "Lanjutkan dan bayar akses lebih mahal."
+    }
+  },
+  "mcc_266": {
+    "title": "Hentikan rapat: demonstrasi",
+    "body": "Para karyawan berdemonstrasi… melawan rapat.",
+    "choices": {
+      "A": "Reformasi: lebih sedikit rapat, lebih banyak otonomi.",
+      "B": "Tekan: kita tidak bernegosiasi dengan kalender.",
+      "C": "Buat kuota: rapat dibatasi, pengecualian harus dibenarkan."
+    }
+  },
+  "mcc_267": {
+    "title": "Debat soal pajak karbon",
+    "body": "Pajak karbon sedang dibahas. Investor ingin margin. Pihak berwenang ingin keseriusan.",
+    "choices": {
+      "A": "Percepat transisi + rencana publik yang terukur.",
+      "B": "Tekan agar pajak ditunda.",
+      "C": "Bebankan sebagian biaya ke harga."
+    }
+  },
+  "mcc_268": {
+    "title": "Seruan untuk konsumsi lebih sedikit",
+    "body": "Sebuah kampanye publik mendorong orang untuk mengonsumsi lebih sedikit. Produkmu justru produk konsumsi.",
+    "choices": {
+      "A": "Fokus pada daya tahan, perbaikan, dan umur kedua.",
+      "B": "Kampanye tandingan: konsumsi lebih banyak.",
+      "C": "Alihkan ke layanan/langganan yang lebih bertanggung jawab."
+    }
+  },
+  "mcc_269": {
+    "title": "Debat soal pekerjaan anak muda",
+    "body": "Seorang menteri mengumumkan rencana untuk pekerjaan anak muda. Tim HR-mu membuka spreadsheet mereka.",
+    "choices": {
+      "A": "Luncurkan program magang kerja besar-besaran.",
+      "B": "Lakukan minimum saja.",
+      "C": "Latih lebih sedikit anak muda, tapi lebih baik."
+    }
+  },
+  "mcc_270": {
+    "title": "Kontrol anti-penipuan diperkuat",
+    "body": "Otoritas pengawas ingin lebih banyak kontrol atas penjualanmu. Tim produkmu takut prosesnya jadi lebih berat.",
+    "choices": {
+      "A": "Perkuat dan sederhanakan pengalaman secara paralel.",
+      "B": "Lakukan minimum legal.",
+      "C": "Kontrol bertahap sesuai tingkat risiko."
+    }
+  },
+  "mcc_271": {
+    "title": "Debat soal dividen",
+    "body": "Debat politik mengkritik dividen yang tinggi. Pemegang sahammu menyukainya. Karyawanmu… tidak terlalu.",
+    "choices": {
+      "A": "Turunkan dividen, investasikan + bagi ke internal.",
+      "B": "Pertahankan: itu kontraknya.",
+      "C": "Pertahankan tapi buat bonus hasil untuk tim."
+    }
+  },
+  "mcc_272": {
+    "title": "Hari tanpa AC",
+    "body": "Sebuah kampanye publik mengusulkan satu hari tanpa AC. Kantormu bilang: kita bakal meleleh.",
+    "choices": {
+      "A": "Ikut serta: atur suhu + komunikasi.",
+      "B": "Tolak: kenyamanan dan produktivitas.",
+      "C": "Ikut hanya di beberapa lokasi."
+    }
+  },
+  "mcc_273": {
+    "title": "Kedaulatan digital",
+    "body": "Kamu diminta menyimpan data secara lokal. Tim teknologi bilang iya, keuangan bilang aduh.",
+    "choices": {
+      "A": "Lokalkan data sensitif dan audit sisanya.",
+      "B": "Biarkan semuanya global demi biaya dan performa.",
+      "C": "Hybridisasi: lokal + cloud multi-region."
+    }
+  },
+  "mcc_274": {
+    "title": "Pakta anti-inflasi",
+    "body": "Pemerintah mengusulkan pakta: beberapa harga dibatasi. Marginmu mulai takut.",
+    "choices": {
+      "A": "Masuk ke pakta untuk beberapa produk.",
+      "B": "Tolak: terlalu berisiko.",
+      "C": "Masuk, tapi dengan imbalan: volume, durasi."
+    }
+  },
+  "mcc_275": {
+    "title": "Deputi ingin simulator",
+    "body": "Seorang deputi ingin simulator untuk menjelaskan hargamu ke publik. Direktur keuanganmu meringis.",
+    "choices": {
+      "A": "Buat simulator edukatif yang sederhana.",
+      "B": "Tolak: terlalu mengekspos.",
+      "C": "Buat FAQ dengan 3 angka kunci."
+    }
+  },
+  "mcc_276": {
+    "title": "KTT internasional, foto",
+    "body": "KTT internasional: kamu ditempatkan di foto resmi. Kamu berada di antara dua orang yang sangat serius.",
+    "choices": {
+      "A": "Terima, tetap netral dan faktual.",
+      "B": "Tolak tampil: terlalu politis.",
+      "C": "Terima tapi publikasikan pesannya: ekonomi + pekerjaan + iklim."
+    }
+  },
+  "mcc_277": {
+    "title": "Debat soal minggu kerja 4 hari",
+    "body": "Minggu kerja 4 hari kembali muncul dalam debat publik. Karyawan bertepuk tangan. Keuangan berkeringat.",
+    "choices": {
+      "A": "Uji di beberapa layanan dengan target yang jelas.",
+      "B": "Tolak: mustahil.",
+      "C": "Tawarkan fleksibilitas, hari kerja dipadatkan."
+    }
+  },
+  "mcc_278": {
+    "title": "Piagam anti-lobi",
+    "body": "Sebuah piagam publik meminta pertukaran dengan pihak berwenang dilaporkan.",
+    "choices": {
+      "A": "Tandatangani dan publikasikan pertukaran pentingmu.",
+      "B": "Tolak: terlalu banyak batasan.",
+      "C": "Tandatangani tapi batasi pertukaran ke yang resmi saja."
+    }
+  },
+  "mcc_279": {
+    "title": "Debat soal konten beracun",
+    "body": "Sebuah debat politik menuntut lebih banyak moderasi online.",
+    "choices": {
+      "A": "Perkuat moderasi + transparansi.",
+      "B": "Lawan: kebebasan total.",
+      "C": "Perkuat hanya untuk kasus yang serius."
+    }
+  },
+  "mcc_280": {
+    "title": "Debat soal perusahaan raksasa",
+    "body": "Seorang politisi melontarkan: raksasa-raksasa itu harus dibongkar.",
+    "choices": {
+      "A": "Usulkan komitmen pro-persaingan, kemitraan, API.",
+      "B": "Abaikan: kebisingan politik.",
+      "C": "Pisahkan secara sukarela satu aktivitas, sebagai simbol."
+    }
+  },
+  "mcc_281": {
+    "title": "Peringatan penarikan produk",
+    "body": "Sebuah otoritas menandai risiko kecil pada satu batch. Tidak serius, tapi judul beritanya bisa menyakitkan.",
+    "choices": {
+      "A": "Tarik batch itu dan komunikasikan dengan jelas.",
+      "B": "Tunggu: ini kecil.",
+      "C": "Perbaiki diam-diam dan pantau."
+    }
+  },
+  "mcc_282": {
+    "title": "Wawancara jebakan",
+    "body": "Seorang jurnalis bertanya: Anda lebih memilih untung atau planet? Itu jebakan, dan dia tahu itu.",
+    "choices": {
+      "A": "Jawab: tujuan campuran + bukti.",
+      "B": "Tolak wawancaranya.",
+      "C": "Biarkan kepala keberlanjutanmu yang menjawab dengan angka."
+    }
+  },
+  "mcc_283": {
+    "title": "Debat soal imigrasi",
+    "body": "Negara sedang berdebat soal visa talenta. Tim teknologimu kekurangan orang, citramu sensitif.",
+    "choices": {
+      "A": "Dukung program pelatihan + rekrutmen yang seimbang.",
+      "B": "Tetap netral dan diam.",
+      "C": "Rekrut dari luar negeri tanpa berkomunikasi."
+    }
+  },
+  "mcc_284": {
+    "title": "Rencana penghematan nasional",
+    "body": "Negara memotong beberapa anggaran.",
+    "choices": {
+      "A": "Diversifikasi klien dan amankan pekerjaan.",
+      "B": "Potong biaya secara brutal.",
+      "C": "Investasi di produk baru yang lebih menguntungkan."
+    }
+  },
+  "mcc_285": {
+    "title": "Debat soal hadiah",
+    "body": "Sebuah aturan membatasi hadiah untuk para pengambil keputusan.",
+    "choices": {
+      "A": "Nol hadiah, kepatuhan yang ketat.",
+      "B": "Hanya hadiah kecil.",
+      "C": "Ganti hadiah dengan acara publik yang transparan."
+    }
+  },
+  "mcc_286": {
+    "title": "Rencana besar pengurangan digital",
+    "body": "Perusahaan diminta mengurangi konsumsi digital.",
+    "choices": {
+      "A": "Optimalkan, kurangi, ukur, dan publikasikan.",
+      "B": "Abaikan: ini tidak terlihat.",
+      "C": "Optimalkan hanya pada layanan yang paling rakus."
+    }
+  },
+  "mcc_287": {
+    "title": "Debat soal margin tersembunyi",
+    "body": "Seorang pejabat berkata kamu punya margin tersembunyi. Direktur keuanganmu: andai saja.",
+    "choices": {
+      "A": "Buka biaya pada satu lini, transparansi.",
+      "B": "Serang pejabat itu: bohong.",
+      "C": "Publikasikan indikator sederhana, margin rata-rata, investasi."
+    }
+  },
+  "mcc_288": {
+    "title": "Pemungutan suara internal piagam etika",
+    "body": "Para karyawan ingin memilih sebuah piagam etika.",
+    "choices": {
+      "A": "Adopsi piagam itu dan jadikan operasional.",
+      "B": "Tolak: terlalu politis.",
+      "C": "Adopsi piagam singkat + komite pemantau."
+    }
+  },
+  "mcc_289": {
+    "title": "Rencana anti-relokasi",
+    "body": "Sebuah pemerintahan meluncurkan rencana anti-relokasi. Biayamu naik, citra merekmu juga.",
+    "choices": {
+      "A": "Relokalisasi sebagian, yang strategis.",
+      "B": "Tetap global dan optimalkan.",
+      "C": "Relokalisasi hanya bagian yang terlihat, yang terakhir."
+    }
+  },
+  "mcc_290": {
+    "title": "Komisi biaya hidup mahal",
+    "body": "Komisi soal biaya hidup mahal: kamu diundang.",
+    "choices": {
+      "A": "Jelaskan biaya + usulkan opsi dasar yang lebih murah.",
+      "B": "Katakan: itulah pasar, lalu pergi.",
+      "C": "Usulkan pembekuan harga sementara pada satu lini."
+    }
+  },
+  "mcc_291": {
+    "title": "Debat soal keuntungan saat krisis",
+    "body": "Di masa tegang, beberapa pihak dituduh meraup keuntungan dari krisis.",
+    "choices": {
+      "A": "Publikasikan komitmen anti-penyalahgunaan + kontrol internal.",
+      "B": "Tetap diam.",
+      "C": "Buat dana dukungan untuk pelanggan rentan."
+    }
+  },
+  "mcc_292": {
+    "title": "Hari transparansi",
+    "body": "Sebuah hari transparansi nasional diluncurkan.",
+    "choices": {
+      "A": "Publikasikan data penting tentang harga, dampak, dan rentang gaji.",
+      "B": "Buat unggahan yang samar dan menginspirasi.",
+      "C": "Publikasikan hanya yang wajib."
+    }
+  },
+  "mcc_293": {
+    "title": "Jejak pengiriman",
+    "body": "Pengiriman cepat dikritik. Pelangganmu menyukainya. Planet ini, tidak terlalu.",
+    "choices": {
+      "A": "Tawarkan opsi lambat hijau sebagai default.",
+      "B": "Lanjutkan pengiriman ultra cepat ke mana-mana.",
+      "C": "Investasi armada bersih, bertahap."
+    }
+  },
+  "mcc_294": {
+    "title": "Debat anti-iklan",
+    "body": "Sebuah reformasi ingin mengurangi iklan. Tim iklan panik: lalu jingle kita bagaimana?",
+    "choices": {
+      "A": "Kurangi iklan dan perkuat dari mulut ke mulut/kualitas.",
+      "B": "Pertahankan iklan dan akali lewat influencer.",
+      "C": "Beradaptasi: iklan lebih sedikit, informasi berguna lebih banyak."
+    }
+  },
+  "mcc_295": {
+    "title": "Debat soal algoritma",
+    "body": "Sebuah undang-undang menginginkan transparansi algoritmik yang lebih besar.",
+    "choices": {
+      "A": "Transparansi: prinsip + audit + kontrol pengguna.",
+      "B": "Rahasia: kekayaan intelektual.",
+      "C": "Transparansi sebagian pada titik yang sensitif."
+    }
+  },
+  "mcc_296": {
+    "title": "Pejabat ingin harga warga",
+    "body": "Seorang pejabat memintamu membuat harga warga yang lebih rendah.",
+    "choices": {
+      "A": "Buat penawaran warga yang terbatas, dengan syarat.",
+      "B": "Tolak: satu harga untuk semua.",
+      "C": "Buat kupon lewat mitra publik."
+    }
+  },
+  "mcc_297": {
+    "title": "Debat soal keselamatan kerja",
+    "body": "Setelah insiden kecil, debat publik memanas.",
+    "choices": {
+      "A": "Perkuat keselamatan + pelatihan + transparansi.",
+      "B": "Kecilkan: itu jarang terjadi.",
+      "C": "Perkuat tapi komunikasikan hanya secara internal."
+    }
+  },
+  "mcc_298": {
+    "title": "Minggu anti-stres nasional",
+    "body": "Pemerintah meluncurkan minggu anti-stres.",
+    "choices": {
+      "A": "Ringankan pelaporan + dukungan, coaching, jeda.",
+      "B": "Jangan ubah apa-apa: itu simbolis.",
+      "C": "Lakukan aksi sesaat + rencana HR jangka panjang."
+    }
+  },
+  "mcc_299": {
+    "title": "Debat harga energi",
+    "body": "Harga energi sedang jadi perdebatan.",
+    "choices": {
+      "A": "Investasi dalam efisiensi + energi bersih.",
+      "B": "Lanjutkan tanpa perubahan.",
+      "C": "Teken kontrak jangka panjang + kurangi konsumsi."
+    }
+  },
+  "mcc_300": {
+    "title": "Debat bangsa vs dunia",
+    "body": "Di acara TV, kamu ditanya: Anda perusahaan nasional atau global? Kamu menjawab: ya.",
+    "choices": {
+      "A": "Tonjolkan pekerjaan lokal + jaringan global.",
+      "B": "Tampilkan diri sebagai 100% global, efisien.",
+      "C": "Tampilkan diri sebagai 100% lokal, untuk citra, tanpa terlalu rinci."
+    }
+  },
+  "mcc_301": {
+    "title": "Undang-undang tombol merah",
+    "body": "Seorang deputi ingin mewajibkan semua layanan punya tombol merah batal dalam 1 klik.",
+    "choices": {
+      "A": "Buat tombol merah sungguhan, jelas dan langsung.",
+      "B": "Buat tombol… tapi sembunyikan di pengaturan lanjutan.",
+      "C": "Buat tombol merah + alur bantuan yang menahan pelanggan."
+    }
+  },
+  "mcc_302": {
+    "title": "Pidato tentang nilai kerja",
+    "body": "Seorang menteri berpidato tentang nilai kerja.",
+    "choices": {
+      "A": "Umumkan bonus sederhana yang terkait hasil.",
+      "B": "Umumkan target lebih banyak, tanpa sarana tambahan.",
+      "C": "Luncurkan rencana pelatihan + mobilitas internal."
+    }
+  },
+  "mcc_303": {
+    "title": "Komisi anti-berita palsu",
+    "body": "Sebuah komisi menanyakan bagaimana kamu melawan disinformasi.",
+    "choices": {
+      "A": "Jawab serius: transparansi dan moderasi bila perlu.",
+      "B": "Jawab dengan sindiran: kaus kaki kami tidak pernah bohong.",
+      "C": "Usulkan piagam sukarela tingkat sektor."
+    }
+  },
+  "mcc_304": {
+    "title": "Debat soal bonus raksasa",
+    "body": "Rancangan undang-undang ingin mengatur bonus para pimpinan.",
+    "choices": {
+      "A": "Kurangi dan kaitkan dengan tujuan sosial/lingkungan.",
+      "B": "Akali lewat keuntungan tidak langsung.",
+      "C": "Buat remunerasi transparan dan bisa dibenarkan."
+    }
+  },
+  "mcc_305": {
+    "title": "Wali kota ingin pabrik etalase",
+    "body": "Wali kota ingin pabrik etalase untuk kampanyenya. Timmu lebih ingin pabrik yang benar-benar berjalan.",
+    "choices": {
+      "A": "Buat jalur kunjungan publik dengan informasi nyata.",
+      "B": "Tolak: tidak ada etalase politik.",
+      "C": "Usulkan hari terbuka yang netral, tanpa slogan."
+    }
+  },
+  "mcc_306": {
+    "title": "Debat soal kemasan",
+    "body": "Sebuah undang-undang ingin membatasi kemasan. Produkmu punya kemasan untuk kemasannya. Ya.",
+    "choices": {
+      "A": "Kurangi drastis dan komunikasikan buktinya.",
+      "B": "Lakukan minimum yang diwajibkan hukum.",
+      "C": "Beralih ke isi ulang/pakai ulang pada satu lini."
+    }
+  },
+  "mcc_307": {
+    "title": "Rencana patriotik iklan",
+    "body": "Tim iklan mengusulkan kampanye dengan bendera, marching band, dan slogan di negeri kami!",
+    "choices": {
+      "A": "Sesuaikan: tonjolkan pekerjaan tanpa chauvinisme.",
+      "B": "Pertahankan marching band: itu membekas.",
+      "C": "Hilangkan bendera: pertahankan kualitas saja."
+    }
+  },
+  "mcc_308": {
+    "title": "Debat soal minggu tanpa layar",
+    "body": "Sebuah minggu tanpa layar diusulkan.",
+    "choices": {
+      "A": "Usulkan mode moderasi, waktu terbatas.",
+      "B": "Abaikan dan dorong notifikasi, aduh.",
+      "C": "Dukung inisiatifnya dan tawarkan jeda bawaan."
+    }
+  },
+  "mcc_309": {
+    "title": "Audit kontrak publik",
+    "body": "Audit memeriksa kontrak publik di sektormu. Mereka ingin semuanya, termasuk surel dari 2014.",
+    "choices": {
+      "A": "Bekerja sama sepenuhnya, rapi, dan teratur.",
+      "B": "Melawan dan memberi minimum yang diwajibkan.",
+      "C": "Minta audit eksternal dan kirim berkas yang jelas."
+    }
+  },
+  "mcc_310": {
+    "title": "Debat soal pajak iklan",
+    "body": "Orang membicarakan pajak atas iklan. Tim iklanmu bertanya apakah stiker di mug termasuk.",
+    "choices": {
+      "A": "Kurangi iklan dan perkuat kualitas/layanan.",
+      "B": "Alihkan penuh ke influencer.",
+      "C": "Diversifikasi: iklan yang berguna + transparansi + kurang mengganggu."
+    }
+  },
+  "mcc_311": {
+    "title": "Reformasi hak untuk terputus",
+    "body": "Hak untuk terputus diperkuat.",
+    "choices": {
+      "A": "Blokir pengiriman pesan di malam hari, kecuali darurat.",
+      "B": "Biarkan saja: gairah tak punya jam.",
+      "C": "Izinkan kirim, tapi jadwalkan otomatis untuk besok."
+    }
+  },
+  "mcc_312": {
+    "title": "Debat soal AI di tempat kerja",
+    "body": "Sebuah undang-undang ingin mengatur AI di tempat kerja. Karyawanmu bertanya apakah AI juga akan membuat kopi.",
+    "choices": {
+      "A": "Piagam AI: penggunaan, perlindungan, pelatihan.",
+      "B": "Larangan AI: nol risiko.",
+      "C": "Gunakan AI hanya untuk tugas internal yang tidak sensitif."
+    }
+  },
+  "mcc_313": {
+    "title": "Skandal badge pengunjung",
+    "body": "Seorang deputi marah di media sosial.",
+    "choices": {
+      "A": "Perkuat keamanan + minta maaf + koreksi publik.",
+      "B": "Langsung ancam secara hukum.",
+      "C": "Undang media secara resmi, dengan kontrol, lalu jelaskan."
+    }
+  },
+  "mcc_314": {
+    "title": "Debat soal harga bulat",
+    "body": "Seorang pejabat ingin melarang harga .99 karena dianggap manipulatif. Kebijakan hargamu goyah.",
+    "choices": {
+      "A": "Beralih ke harga bulat + jelaskan.",
+      "B": "Pertahankan .99 dan tanggung.",
+      "C": "Uji harga bulat hanya pada satu lini."
+    }
+  },
+  "mcc_315": {
+    "title": "Foto dengan kandidat",
+    "body": "Seorang kandidat ingin foto bersamamu. Dia berjanji akan menyelamatkan ekonomi. Tim komunikasimu menjerit dalam diam.",
+    "choices": {
+      "A": "Tolak: netralitas yang ketat.",
+      "B": "Terima: visibilitas besar.",
+      "C": "Terima hanya pertemuan privat tanpa foto."
+    }
+  },
+  "mcc_316": {
+    "title": "100% lokal di debat TV",
+    "body": "Debat TV menuntut 100% lokal. Rantai logistikmu bilang itu tidak realistis.",
+    "choices": {
+      "A": "Target bertahap + indikator publik.",
+      "B": "Janji 100% lokal, lalu berharap berhasil.",
+      "C": "Tekankan keterlacakan daripada slogan."
+    }
+  },
+  "mcc_317": {
+    "title": "Syarat yang lebih jelas",
+    "body": "Syarat penggunaanmu panjangnya 40 halaman. Bahkan pengacaramu sendiri tak membacanya lagi.",
+    "choices": {
+      "A": "Ringkasan 1 halaman + ikon + kata-kata sederhana.",
+      "B": "Biarkan seperti itu: sudah legal.",
+      "C": "Sederhanakan, tapi pertahankan paragraf besar."
+    }
+  },
+  "mcc_318": {
+    "title": "Debat soal keuntungan dan air",
+    "body": "Sebuah wilayah kekurangan air. Industri ditunjuk. Pabrikmu minum… lumayan banyak.",
+    "choices": {
+      "A": "Investasi dalam daur ulang air + pengurangan terukur.",
+      "B": "Lanjutkan dan bayar biaya tambahannya.",
+      "C": "Pindahkan sebagian produksi."
+    }
+  },
+  "mcc_319": {
+    "title": "Amandemen kantin lokal",
+    "body": "Sebuah amandemen ingin membuat kantin lebih lokal. Karyawanmu terutama ingin rasanya enak.",
+    "choices": {
+      "A": "Lebih lokal + menu beragam, dengan uji coba dan masukan.",
+      "B": "Tolak: terlalu mahal.",
+      "C": "Lokal hanya pada beberapa produk."
+    }
+  },
+  "mcc_320": {
+    "title": "Debat anti-hiperpertumbuhan",
+    "body": "Sebuah gerakan politik mengkritik hiperpertumbuhan. Investor menyukai… hiperpertumbuhan.",
+    "choices": {
+      "A": "Ubah arah: pertumbuhan + tanggung jawab, dengan bukti.",
+      "B": "Abaikan: pertumbuhan penuh.",
+      "C": "Bingkai ulang: pertumbuhan moderat, lebih stabil."
+    }
+  },
+  "mcc_321": {
+    "title": "Gangguan saat debat TV",
+    "body": "Layananmu mati tepat saat debat TV berlangsung.",
+    "choices": {
+      "A": "Transparansi segera + laporan teknis yang sederhana.",
+      "B": "Diam total sampai semuanya pulih.",
+      "C": "Kompensasi + komunikasi yang sederhana."
+    }
+  },
+  "mcc_322": {
+    "title": "Pajak atas jet pribadi",
+    "body": "Pajak jet pribadi sedang diperdebatkan.",
+    "choices": {
+      "A": "Jelaskan: perjalanan bisnis + kebijakan yang sederhana.",
+      "B": "Abaikan: tidak terkait.",
+      "C": "Publikasikan kebijakan mobilitas berkelanjutan."
+    }
+  },
+  "mcc_323": {
+    "title": "Debat soal magang",
+    "body": "Sebuah rancangan ingin mengatur magang dengan lebih baik.",
+    "choices": {
+      "A": "Magang berbayar + tugas nyata + mentoring.",
+      "B": "Kurangi magang: terlalu membatasi.",
+      "C": "Pertahankan magang tapi batasi jumlahnya dengan kuat."
+    }
+  },
+  "mcc_324": {
+    "title": "Undang-undang anti-ekologi pencitraan",
+    "body": "Undang-undang melawan ekologi yang cuma untuk citra akan datang. Tim iklanmu sudah menulis ramah lingkungan di mana-mana.",
+    "choices": {
+      "A": "Bersihkan pesannya + bukti + audit.",
+      "B": "Pertahankan: semua orang juga begitu.",
+      "C": "Kurangi janji, pertahankan tindakan."
+    }
+  },
+  "mcc_325": {
+    "title": "Debat soal kerja jarak jauh",
+    "body": "Kerja jarak jauh menjadi topik politik.",
+    "choices": {
+      "A": "Model hibrida yang jelas dan stabil.",
+      "B": "Kembali penuh ke lokasi.",
+      "C": "Kerja jarak jauh luas + aturan performa."
+    }
+  },
+  "mcc_326": {
+    "title": "Keamanan data",
+    "body": "Setelah kebocoran besar di tempat lain, otoritas pengawas ingin jaminan.",
+    "choices": {
+      "A": "Investasi besar + audit eksternal + transparansi.",
+      "B": "Lakukan minimum legal.",
+      "C": "Investasi bertahap pada titik yang kritis."
+    }
+  },
+  "mcc_327": {
+    "title": "Subsidi inovasi",
+    "body": "Subsidi inovasi mungkin didapat, tapi kamu harus membuktikan bahwa kamu memang berinovasi.",
+    "choices": {
+      "A": "Proyek riset dan pengembangan yang nyata + berkas yang kuat.",
+      "B": "Ganti nama satu tombol dan coba ajukan tanpa proyek nyata.",
+      "C": "Proyek pilot kecil tapi nyata."
+    }
+  },
+  "mcc_328": {
+    "title": "Debat soal apprenticeship",
+    "body": "Pemerintah mendorong program apprenticeship.",
+    "choices": {
+      "A": "Program apprenticeship yang ambisius.",
+      "B": "Program minimal.",
+      "C": "Program terarah pada pekerjaan yang kekurangan orang."
+    }
+  },
+  "mcc_329": {
+    "title": "Acara Cash & Clash",
+    "body": "Sebuah acara ingin mengikuti kegiatanmu selama seminggu. Tim komunikasimu panik. Keuangan juga.",
+    "choices": {
+      "A": "Terima dengan transparansi, dan persiapan.",
+      "B": "Tolak mentah-mentah.",
+      "C": "Usulkan kunjungan terkontrol + dokumen publik."
+    }
+  },
+  "mcc_330": {
+    "title": "Debat undang-undang anti-PHK",
+    "body": "Sebuah partai mengusulkan pembatasan PHK.",
+    "choices": {
+      "A": "Hindari PHK: mobilitas + pelatihan.",
+      "B": "Siapkan restrukturisasi cepat.",
+      "C": "Bekukan perekrutan dan kurangi biaya di tempat lain."
+    }
+  },
+  "mcc_331": {
+    "title": "Kampanye beli lebih sedikit",
+    "body": "Kampanye publik mendorong orang membeli lebih sedikit. Tim iklanmu menganggap ini serangan pribadi.",
+    "choices": {
+      "A": "Tawarkan perbaikan, barang bekas, daya tahan.",
+      "B": "Paksa penjualan: beli lebih banyak.",
+      "C": "Buat lini yang lebih tahan lama, dengan harga lebih tinggi."
+    }
+  },
+  "mcc_332": {
+    "title": "Debat soal pengiriman cepat",
+    "body": "Seorang deputi ingin membatasi pengiriman ekspres demi lingkungan. Pelangganmu ingin semuanya kemarin.",
+    "choices": {
+      "A": "Opsi lambat sebagai default + ekspres berbayar.",
+      "B": "Ekspres di mana-mana, sepanjang waktu.",
+      "C": "Ekspres hanya di zona terbatas + armada yang lebih bersih."
+    }
+  },
+  "mcc_333": {
+    "title": "Serikat mengundang pejabat",
+    "body": "Sebuah serikat mengundang pejabat untuk berdiskusi di lokasimu. Manajermu bertanya: lalu kami, ikut juga?",
+    "choices": {
+      "A": "Pertemuan tiga pihak: pejabat + karyawan + manajemen.",
+      "B": "Tolak kehadiran politik di lokasi.",
+      "C": "Terima tapi dalam format publik dan teratur."
+    }
+  },
+  "mcc_334": {
+    "title": "Debat soal moderasi",
+    "body": "Stan merekmu dihias seperti pohon Natal perusahaan.",
+    "choices": {
+      "A": "Rencana moderasi nyata + langkah yang terlihat.",
+      "B": "Langkah simbolis selama 1 minggu.",
+      "C": "Tidak melakukan apa-apa: produktivitas dulu."
+    }
+  },
+  "mcc_335": {
+    "title": "Debat soal komisi",
+    "body": "Kalau kamu bergerak di pembayaran, kamu diminta menurunkan komisi.",
+    "choices": {
+      "A": "Turunkan + kompensasi lewat volume/efisiensi.",
+      "B": "Tolak dan pertahankan margin.",
+      "C": "Buat penawaran yang lebih murah untuk pedagang kecil."
+    }
+  },
+  "mcc_336": {
+    "title": "Masuknya dana kekayaan negara",
+    "body": "Sebuah sovereign fund ingin berinvestasi.",
+    "choices": {
+      "A": "Terima dengan pagar pengaman dan transparansi.",
+      "B": "Tolak: terlalu sensitif.",
+      "C": "Terima hanya porsi minoritas."
+    }
+  },
+  "mcc_337": {
+    "title": "Debat soal harga dinamis",
+    "body": "Harga dinamis dikritik. Algoritmemu bangga. Orang-orang, tidak terlalu.",
+    "choices": {
+      "A": "Batasi dan buat transparan, dengan plafon.",
+      "B": "Pertahankan: keuntungan maksimum.",
+      "C": "Pertahankan tapi hanya pada sedikit produk."
+    }
+  },
+  "mcc_338": {
+    "title": "Debat soal kualitas udara",
+    "body": "Sebuah kota memberlakukan standar udara yang lebih ketat.",
+    "choices": {
+      "A": "Investasi filter dan modernisasi.",
+      "B": "Negosiasikan penundaan.",
+      "C": "Kurangi produksi sementara."
+    }
+  },
+  "mcc_339": {
+    "title": "Debat soal tenggat pembayaran",
+    "body": "Sebuah undang-undang ingin mempersingkat tenggat pembayaran kepada pemasok.",
+    "choices": {
+      "A": "Bayar lebih cepat, amankan rantai pasok.",
+      "B": "Bayar di hari paling akhir yang mungkin.",
+      "C": "Bayar cepat yang kecil, normal untuk yang besar."
+    }
+  },
+  "mcc_340": {
+    "title": "Usulan anti-open space",
+    "body": "Sebuah gerakan politik ingin membatasi open space yang dianggap toksik.",
+    "choices": {
+      "A": "Buat lebih banyak zona tenang dan kantor tertutup.",
+      "B": "Jangan ubah apa-apa: ini modern.",
+      "C": "Kerja jarak jauh lebih luas untuk mengurangi open space."
+    }
+  },
+  "mcc_341": {
+    "title": "Seorang deputi mengkritik layanan purnajualmu",
+    "body": "Seorang deputi mengeluh secara publik soal layanan purnajualmu. Tim layananmu mengeluh secara publik juga… tapi internal.",
+    "choices": {
+      "A": "Perkuat layanan purnajual + janji tenggat yang ditepati.",
+      "B": "Balas dengan agresif: rencana buruk.",
+      "C": "Tawarkan saluran VIP untuk kasus publik, dan perbaiki sisanya."
+    }
+  },
+  "mcc_342": {
+    "title": "Debat soal golden parachute",
+    "body": "Orang kembali bicara tentang golden parachute. Dewanmu mengusulkan parachute beige, lebih sederhana.",
+    "choices": {
+      "A": "Kurangi dan publikasikan kebijakan yang masuk akal.",
+      "B": "Pertahankan: untuk menarik talenta.",
+      "C": "Kaitkan dengan performa jangka panjang, bukan hanya saat keluar."
+    }
+  },
+  "mcc_343": {
+    "title": "Undang-undang tanpa biaya kejutan",
+    "body": "Undang-undang ingin melarang biaya kejutan. Produkmu punya biaya layanan kecil. Sangat kecil… buatmu.",
+    "choices": {
+      "A": "Hapus biaya tersembunyi, harga yang jelas.",
+      "B": "Pertahankan, dengan huruf yang lebih kecil, tidak.",
+      "C": "Pertahankan tapi buat sangat terlihat sebelum pembayaran."
+    }
+  },
+  "mcc_344": {
+    "title": "Debat soal pelatihan",
+    "body": "Sebuah reformasi mewajibkan lebih banyak pelatihan. Tim HR bilang bagus, manajermu bertanya kapan.",
+    "choices": {
+      "A": "Rencana pelatihan besar + waktu khusus.",
+      "B": "Minimum legal.",
+      "C": "Pelatihan terarah pada keterampilan yang kritis."
+    }
+  },
+  "mcc_345": {
+    "title": "Pemilu internal",
+    "body": "Pemilu internal mengaduk perusahaan. Selebaran beredar. Bahkan mesin kopi punya pendapat.",
+    "choices": {
+      "A": "Permudah debat yang sehat dan netral.",
+      "B": "Abaikan: bukan urusanmu.",
+      "C": "Batasi kampanye internal, terlalu ketat."
+    }
+  },
+  "mcc_346": {
+    "title": "Debat soal retur produk",
+    "body": "Orang mengkritik pemborosan akibat retur.",
+    "choices": {
+      "A": "Kurangi retur lewat info yang lebih baik + perbaikan ulang.",
+      "B": "Lanjutkan: begitulah perdagangan.",
+      "C": "Kenakan biaya kecil pada retur."
+    }
+  },
+  "mcc_347": {
+    "title": "Kekuatan platform",
+    "body": "Ada keinginan untuk mengatur platform digital.",
+    "choices": {
+      "A": "Bekerja sama: transparansi + aturan yang jelas.",
+      "B": "Lawan dan serang regulasi.",
+      "C": "Atur diri sendiri sebelum undang-undang datang."
+    }
+  },
+  "mcc_348": {
+    "title": "Debat soal waktu perjalanan",
+    "body": "Sebuah rancangan ingin menghitung sebagian perjalanan sebagai waktu kerja.",
+    "choices": {
+      "A": "Negosiasikan kerangka internal yang adil.",
+      "B": "Tolak dan tunggu undang-undangnya.",
+      "C": "Kompensasi dengan kerja jarak jauh dan jam fleksibel."
+    }
+  },
+  "mcc_349": {
+    "title": "Seorang menteri mengutip sloganmu",
+    "body": "Seorang menteri mengutip sloganmu dalam pidato. Dia mengutipnya salah. Sangat salah. Internet menyukainya.",
+    "choices": {
+      "A": "Tanggapi dengan humor + koreksi yang halus.",
+      "B": "Minta penarikan resmi.",
+      "C": "Jangan bilang apa-apa: biarkan lewat."
+    }
+  },
+  "mcc_350": {
+    "title": "Debat produktivitas nasional",
+    "body": "Produktivitas nasional sedang menjadi topik panas.",
+    "choices": {
+      "A": "Rencana produktivitas: alat + penyederhanaan + penghormatan pada manusia.",
+      "B": "Rencana produktivitas: tekanan dan target yang lebih keras.",
+      "C": "Rencana produktivitas: otomatisasi + pelatihan."
+    }
+  },
+  "mcc_351": {
+    "title": "Hamster berserikat",
+    "body": "Maskot tim komunikasimu, seekor hamster, terpilih sebagai wakil karyawan setelah voting troll.",
+    "choices": {
+      "A": "Terima: roda mewah + siaran pers serius, aduh.",
+      "B": "Tolak: hamster bukan karyawan.",
+      "C": "Buat program kesejahteraan… untuk manusia, dan hamster juga."
+    }
+  },
+  "mcc_352": {
+    "title": "Audit kaus kaki",
+    "body": "Sebuah otoritas pengawas meminta audit… atas kaus kaki perusahaanmu.",
+    "choices": {
+      "A": "Bekerja sama dan publikasikan laporan kaus kaki.",
+      "B": "Mengejek dan mengabaikan, ide buruk.",
+      "C": "Kirim berkas yang serius + tawarkan alas anti-selip."
+    }
+  },
+  "mcc_353": {
+    "title": "Mesin kopi jadi kandidat",
+    "body": "Mesin kopimu mulai menampilkan: pilih saya, saya menurunkan stres. Media menyukainya.",
+    "choices": {
+      "A": "Manfaatkan: kampanye humor yang terkendali.",
+      "B": "Matikan mesinnya: akhir kekacauan, awal kemarahan.",
+      "C": "Lakukan aksi anti-stres yang nyata dan tenangkan kebisingan media."
+    }
+  },
+  "mcc_354": {
+    "title": "Kuota smiley",
+    "body": "Seorang deputi mengusulkan membatasi smiley di tempat kerja. Slack-mu jadi zona bencana.",
+    "choices": {
+      "A": "Patuhi: komunikasi lebih jelas, emoji lebih sedikit.",
+      "B": "Lawan: pesta emoji nasional.",
+      "C": "Buat mode emoji akhir pekan, tanpa smiley saat hari kerja."
+    }
+  },
+  "mcc_355": {
+    "title": "Rapat dalam hologram",
+    "body": "Seorang menteri ingin bertemu denganmu, tapi hanya dalam bentuk hologram demi inovasi.",
+    "choices": {
+      "A": "Lakukan hologram: efek wow terjamin.",
+      "B": "Tolak: pertemuan biasa saja.",
+      "C": "Buat demo VR sederhana, tanpa pertunjukan."
+    }
+  },
+  "mcc_356": {
+    "title": "Logo yang berkedip",
+    "body": "Logo barumu yang dibuat AI berkedip sendiri di situs. Pelanggan mengira itu hidup.",
+    "choices": {
+      "A": "Akui: logo hidup dan jadikan maskot.",
+      "B": "Tarik langsung: terlalu aneh.",
+      "C": "Pertahankan tapi matikan kedipnya, moderasi."
+    }
+  },
+  "mcc_357": {
+    "title": "Sumpah transparansi",
+    "body": "Sebuah undang-undang meminta para CEO mengucapkan sumpah transparansi di depan kamera.",
+    "choices": {
+      "A": "Lakukan: kata-kata jelas + komitmen yang bisa diverifikasi.",
+      "B": "Tolak: terlalu teatrikal.",
+      "C": "Lakukan, tapi publikasikan juga laporan yang konkret."
+    }
+  },
+  "mcc_358": {
+    "title": "Drone pengantar… ke parlemen",
+    "body": "Drone pengantarmu salah alamat dan mengantar paket ke parlemen.",
+    "choices": {
+      "A": "Minta maaf + audit logistik + sedikit humor.",
+      "B": "Katakan itu hanya tes, kebohongan yang berbahaya.",
+      "C": "Tawarkan demo pengiriman aman kepada otoritas pengawas."
+    }
+  },
+  "mcc_359": {
+    "title": "Pajak atas kebisingan media",
+    "body": "Seorang pejabat mengusulkan pajak atas kebisingan media yang tidak berguna. Tim iklanmu panik.",
+    "choices": {
+      "A": "Kurangi kampanye yang terlalu mencolok, utamakan kegunaan.",
+      "B": "Gandakan kebisingan media sebelum undang-undangnya datang.",
+      "C": "Ubah kebisingan media menjadi edukasi, transparansi, dampak."
+    }
+  },
+  "mcc_360": {
+    "title": "Siaran pers dalam puisi",
+    "body": "Tim komunikasimu ingin merespons dengan puisi. Direktur keuanganmu ingin tabel.",
+    "choices": {
+      "A": "Tabel + bahasa sederhana, hati-hati.",
+      "B": "Puisi, berisiko, tapi mudah diingat.",
+      "C": "Puisi + tabel di lampiran."
+    }
+  },
+  "mcc_361": {
+    "title": "Hari tanpa CEO",
+    "body": "Sebuah gerakan internal meluncurkan hari tanpa CEO.",
+    "choices": {
+      "A": "Ikuti permainan: delegasi, otonomi, kepercayaan.",
+      "B": "Tolak: saya ada di sini.",
+      "C": "Terima tapi buat pesan tertulis singkat."
+    }
+  },
+  "mcc_362": {
+    "title": "Karpet merah… kepatuhan",
+    "body": "Otoritas pengawas mengadakan upacara kepatuhan yang teladan.",
+    "choices": {
+      "A": "Datang, rendah hati, dan tunjukkan bukti.",
+      "B": "Jangan datang: terlalu aneh.",
+      "C": "Datang tapi umumkan satu peningkatan konkret baru."
+    }
+  },
+  "mcc_363": {
+    "title": "Algoritma yang memilih",
+    "body": "AI internalmu mulai ikut memilih dalam survei internal. Jawabannya selalu lebih banyak kopi.",
+    "choices": {
+      "A": "Matikan dan audit segera.",
+      "B": "Biarkan: lucu, kan. Tidak.",
+      "C": "Batasi AI + buat kerangka penggunaan yang ketat."
+    }
+  },
+  "mcc_364": {
+    "title": "Label warga bulan ini",
+    "body": "Sebuah kementerian menawarimu label warga bulan ini jika kamu membuat video tentang pajak.",
+    "choices": {
+      "A": "Buat video edukatif yang sederhana, tanpa rasa malu.",
+      "B": "Tolak: terlalu memalukan.",
+      "C": "Buat artikel yang jelas + infografik, bukan TikTok."
+    }
+  },
+  "mcc_365": {
+    "title": "Rapat… tentang rapat",
+    "body": "Diadakan sebuah rapat untuk mengurangi rapat. Durasi 2 jam. Ironi maksimal.",
+    "choices": {
+      "A": "Hentikan langsung dan terapkan aturan anti-rapat.",
+      "B": "Biarkan: nanti juga selesai.",
+      "C": "Buat ringkasan 15 menit dan batalkan sisanya."
+    }
+  },
+  "mcc_366": {
+    "title": "Sandwich diplomatik",
+    "body": "Saat kunjungan resmi, kamu berjabat tangan dengan seorang menteri… sambil memegang sandwich.",
+    "choices": {
+      "A": "Akui dengan humor + pesan serius sesudahnya.",
+      "B": "Coba tarik fotonya, efek Streisand.",
+      "C": "Publikasikan aksi konkret untuk mengubah topik."
+    }
+  },
+  "mcc_367": {
+    "title": "Undang-undang anti-jargon",
+    "body": "Di rapat, semua orang berbicara dengan jargon perusahaan.",
+    "choices": {
+      "A": "Tulis ulang semuanya dalam bahasa sederhana, bagus.",
+      "B": "Abaikan: itu budaya.",
+      "C": "Pertahankan jargon… tapi tambahkan glosarium yang konyol."
+    }
+  },
+  "mcc_368": {
+    "title": "Lobi merpati",
+    "body": "Merpati tinggal di kantor pusatmu dan menjadi simbol perlawanan kota.",
+    "choices": {
+      "A": "Pasang solusi lembut + pembersihan + komunikasi.",
+      "B": "Usir secara brutal, dengan risiko respons negatif.",
+      "C": "Buat atap biodiversitas dan pindahkan masalahnya."
+    }
+  },
+  "mcc_369": {
+    "title": "Tes mikrofon live",
+    "body": "Dalam pertemuan publik, mikrofon tetap menyala. Terdengar direktur keuanganmu berbisik: kita habis.",
+    "choices": {
+      "A": "Transparansi + lelucon + jelaskan konteks.",
+      "B": "Putus siaran langsung dan sangkal, bencana.",
+      "C": "Akui + umumkan langkah yang menenangkan."
+    }
+  },
+  "mcc_370": {
+    "title": "Setelan sesuai aturan",
+    "body": "Otoritas pengawas mengusulkan dress code moderat: setelan abu-abu wajib.",
+    "choices": {
+      "A": "Patuhi hanya untuk pertemuan resmi.",
+      "B": "Tolak: kebebasan total.",
+      "C": "Pakai abu-abu… tapi dengan kaus kaki mencolok, pemberontakan lembut."
+    }
+  },
+  "mcc_371": {
+    "title": "Kandidat cosplay",
+    "body": "Seorang kandidat datang ke pabrikmu dengan cosplay pekerja masa depan.",
+    "choices": {
+      "A": "Tetap netral + utamakan fakta.",
+      "B": "Ejek dia secara publik, berisiko.",
+      "C": "Usulkan kunjungan teknis yang serius untuk menata ulang suasananya."
+    }
+  },
+  "mcc_372": {
+    "title": "Petisi kurangi logo",
+    "body": "Sebuah petisi internal meminta logo di mana-mana dikurangi.",
+    "choices": {
+      "A": "Ringankan: branding lebih halus.",
+      "B": "Tolak: identitas itu penting.",
+      "C": "Biarkan tim memilih benda mana yang perlu dihilangkan logonya."
+    }
+  },
+  "mcc_373": {
+    "title": "Undang-undang melawan antarmuka jebakan",
+    "body": "Sebuah undang-undang menargetkan antarmuka jebakan. Desainermu benar-benar memberi nama satu tombol jebakan terakhir.",
+    "choices": {
+      "A": "Rombak antarmukanya agar sederhana dan jujur.",
+      "B": "Ganti nama jebakan terakhir jadi opsi lanjutan.",
+      "C": "Rombak hanya titik yang paling terlihat."
+    }
+  },
+  "mcc_374": {
+    "title": "Posko kampanye di parkiranmu",
+    "body": "Sebuah partai politik salah pasang posko kampanye di parkiranmu.",
+    "choices": {
+      "A": "Minta dengan sopan agar mereka pergi + netralitas.",
+      "B": "Biarkan saja: lumayan ramai, kan.",
+      "C": "Tawarkan ruangan milik kota sebagai alternatif dan bantu mereka pindah."
+    }
+  },
+  "mcc_375": {
+    "title": "Debat soal meme",
+    "body": "Seorang anggota parlemen ingin mengatur meme. Perusahaanmu jadi meme. Wajahmu jadi stiker.",
+    "choices": {
+      "A": "Tanggapi dengan humor + tetap profesional.",
+      "B": "Ancaman hukum ke semua orang.",
+      "C": "Luncurkan meme resmi, hati-hati."
+    }
+  },
+  "mcc_376": {
+    "title": "Hari tanpa AC saat puncak panas",
+    "body": "Kamu diminta mematikan AC untuk memberi contoh. Suhunya 38°C. Karyawanmu meleleh seperti es.",
+    "choices": {
+      "A": "Penghematan cerdas: ambang batas, ventilasi, jam kerja yang disesuaikan.",
+      "B": "Tolak: kesehatan lebih dulu.",
+      "C": "Ikut 1 jam secara simbolis dan tawarkan solusi, air, jeda."
+    }
+  },
+  "mcc_377": {
+    "title": "Drone yang memfilmkan awan",
+    "body": "Drone keamananmu merekam… awan selama 3 hari. Seorang pejabat bicara soal pengawasan langit.",
+    "choices": {
+      "A": "Audit dan koreksi + transparansi.",
+      "B": "Abaikan: cuma awan.",
+      "C": "Tangguhkan drone sambil meninjau ulang kebijakannya."
+    }
+  },
+  "mcc_378": {
+    "title": "Debat soal hak untuk salah",
+    "body": "Sebuah undang-undang mendorong hak untuk salah.",
+    "choices": {
+      "A": "Buat proses koreksi cepat + transparansi.",
+      "B": "Uji batas-batasnya, berbahaya.",
+      "C": "Latih tim + validasi ganda."
+    }
+  },
+  "mcc_379": {
+    "title": "Komite anti-bising",
+    "body": "Komite anti-bising mengkritik open space milikmu. Ukuran mereka: terlalu banyak keyboard yang marah.",
+    "choices": {
+      "A": "Buat zona tenang + aturan.",
+      "B": "Abaikan: itulah hidup.",
+      "C": "Kerja jarak jauh lebih luas."
+    }
+  },
+  "mcc_380": {
+    "title": "Hari pujian",
+    "body": "Sebuah inisiatif nasional mewajibkan memberi 3 pujian di tempat kerja.",
+    "choices": {
+      "A": "Ikuti: budaya positif, oke.",
+      "B": "Tolak: terlalu dibuat-buat.",
+      "C": "Buat versi sukarela, tidak wajib."
+    }
+  },
+  "mcc_381": {
+    "title": "Chatbot jadi menteri",
+    "body": "Chatbot internalmu mulai menjawab wartawan. Tanda tangannya Menteri Produktivitas.",
+    "choices": {
+      "A": "Matikan segera + minta maaf + audit.",
+      "B": "Biarkan: lucu, kan. Tidak.",
+      "C": "Batasi akses dan tambahkan pagar pengaman yang ketat."
+    }
+  },
+  "mcc_382": {
+    "title": "Rencana baguette",
+    "body": "Untuk meredakan krisis, seorang pejabat mengusulkan subsidi baguette.",
+    "choices": {
+      "A": "Dukung lewat donasi terarah, tanpa politik.",
+      "B": "Tolak: di luar topik.",
+      "C": "Dukung lewat program bantuan pangan internal + lokal."
+    }
+  },
+  "mcc_383": {
+    "title": "Setelan yang meluncurkan konfeti",
+    "body": "Setelan terhubung yang sedang diuji mulai menembakkan konfeti saat sidang parlemen.",
+    "choices": {
+      "A": "Tertawa + minta maaf + janjikan investigasi teknis.",
+      "B": "Bertindak seolah tidak terjadi apa-apa, mustahil.",
+      "C": "Matikan semua teknologi di depan publik dan tetap klasik."
+    }
+  },
+  "mcc_384": {
+    "title": "Debat pajak atas kesuksesan",
+    "body": "Sebuah debat mengusulkan pajak atas kesuksesan. Dewanmu mengusulkan pajak atas kegagalan sebagai balasan. Tidak.",
+    "choices": {
+      "A": "Ikut debat dengan data dan usulan.",
+      "B": "Serang debat itu secara frontal.",
+      "C": "Tetap netral dan perkuat aksi sosialmu yang nyata."
+    }
+  },
+  "mcc_385": {
+    "title": "Slogan disalahpahami",
+    "body": "Sloganmu Selalu lebih sederhana dipahami sebagai selalu lebih banyak.",
+    "choices": {
+      "A": "Klarifikasi dengan humor + pesan yang sederhana.",
+      "B": "Ganti slogan itu segera.",
+      "C": "Abaikan: nanti juga lewat."
+    }
+  },
+  "mcc_386": {
+    "title": "Menteri ingin escape game",
+    "body": "Seorang menteri ingin memahami aktivitasmu lewat escape game. Dia ingin keluar dari birokrasi.",
+    "choices": {
+      "A": "Buat escape game edukatif yang profesional.",
+      "B": "Tolak: tidak ada waktu.",
+      "C": "Buat demo klasik, tapi seru dan singkat."
+    }
+  },
+  "mcc_387": {
+    "title": "Regulator minta jingle",
+    "body": "Sebuah otoritas pengawas meminta jingle kepatuhan untuk meningkatkan kesadaran.",
+    "choices": {
+      "A": "Buat jingle sederhana dan berguna, tidak norak.",
+      "B": "Tolak: keseriusan lebih dulu.",
+      "C": "Buat kampanye internal tanpa jingle, cukup pelatihan."
+    }
+  },
+  "mcc_388": {
+    "title": "Debat soal antrean",
+    "body": "Tim dukunganmu punya waktu tunggu 40 menit. Seorang pejabat bilang: ini masalah demokrasi. Oke.",
+    "choices": {
+      "A": "Perkuat dukungan + target waktu tunggu publik.",
+      "B": "Pasang robot yang menjawab harap tunggu.",
+      "C": "Buat dukungan prioritas berbayar, berisiko."
+    }
+  },
+  "mcc_389": {
+    "title": "Undang-undang anti omong kosong perusahaan",
+    "body": "Sebuah undang-undang ingin melarang omong kosong perusahaan.",
+    "choices": {
+      "A": "Kembali ke tujuan yang sederhana dan terukur.",
+      "B": "Ubah hanya beberapa kata.",
+      "C": "Pertahankan visinya… tapi tambahkan angka konkret."
+    }
+  },
+  "mcc_390": {
+    "title": "Debat soal tanaman kantor",
+    "body": "Sebuah inisiatif politik mewajibkan satu tanaman per karyawan.",
+    "choices": {
+      "A": "Tanaman oke, tapi yang sesuai + opsi tanpa alergen.",
+      "B": "Tolak: ini konyol.",
+      "C": "Tanaman virtual, lewat wallpaper."
+    }
+  },
+  "mcc_391": {
+    "title": "Pertandingan ping-pong parlemen",
+    "body": "Kamu ditawari pertandingan ping-pong amal melawan seorang deputi.",
+    "choices": {
+      "A": "Terima: citra bagus + amal.",
+      "B": "Tolak: jebakan.",
+      "C": "Terima tapi danai proyek yang netral."
+    }
+  },
+  "mcc_392": {
+    "title": "Voting internal pizza nasional",
+    "body": "Debat politik soal pizza nasional muncul.",
+    "choices": {
+      "A": "Adakan sesi mencicipi dan tenangkan semua orang.",
+      "B": "Larangan topik itu di tempat kerja.",
+      "C": "Biarkan: ini menyatukan, kan. Tidak juga."
+    }
+  },
+  "mcc_393": {
+    "title": "Kontrol skuter listrik",
+    "body": "Kota sedang mengontrol skuter listrik.",
+    "choices": {
+      "A": "Buat rencana mobilitas ringan yang teratur.",
+      "B": "Abaikan: bukan masalahmu.",
+      "C": "Larangan skuter di lokasi, kemarahan pun datang."
+    }
+  },
+  "mcc_394": {
+    "title": "Undang-undang anti-tombol hijau neon",
+    "body": "Sebuah undang-undang ingin melarang tombol hijau neon yang terlalu menggoda.",
+    "choices": {
+      "A": "Rombak desain yang tenang dan mudah diakses.",
+      "B": "Ganti satu tombol saja dan berharap.",
+      "C": "Beralih ke biru neon, masalahnya tetap sama."
+    }
+  },
+  "mcc_395": {
+    "title": "Klakson resmi",
+    "body": "Seorang menteri ingin mengumumkan kemitraanmu dengan bunyi klakson langsung.",
+    "choices": {
+      "A": "Buat pengumuman yang tenang, tanpa pertunjukan.",
+      "B": "Cari klakson dan lanjutkan pertunjukannya.",
+      "C": "Buat pertunjukan… tapi yang berguna: angka + komitmen."
+    }
+  },
+  "mcc_396": {
+    "title": "Debat soal kata-kata terlarang",
+    "body": "Sebuah partai mengusulkan melarang kata profitabilitas di TV. Direktur keuanganmu mendadak bisu.",
+    "choices": {
+      "A": "Bicara tentang keberlanjutan ekonomi dan investasi.",
+      "B": "Tetap mengatakan profitabilitas, dan tanggung.",
+      "C": "Jangan bicara di publik lagi, cukup publikasikan laporan."
+    }
+  },
+  "mcc_397": {
+    "title": "Magang jadi juru bicara",
+    "body": "Magang komunikasimu tanpa sengaja menjawab seorang menteri secara online.",
+    "choices": {
+      "A": "Akui: minta maaf + pengawasan + pelatihan.",
+      "B": "Pecat magangnya, citra yang sangat buruk.",
+      "C": "Katakan itu memang disengaja, kebohongan."
+    }
+  },
+  "mcc_398": {
+    "title": "Debat soal glitter",
+    "body": "Sebuah undang-undang ingin melarang glitter, karena polusi. Acara tahunanmu bernama Glitter Summit. Ups.",
+    "choices": {
+      "A": "Ganti nama + nol glitter + rencana ramah lingkungan.",
+      "B": "Pertahankan: tradisi.",
+      "C": "Pertahankan namanya tapi tanpa glitter."
+    }
+  },
+  "mcc_399": {
+    "title": "Keheningan besar",
+    "body": "Untuk meredakan ketegangan, seorang pejabat mengusulkan satu menit hening nasional… di media sosial.",
+    "choices": {
+      "A": "Patuhi: jeda komunikasi + pesan yang sederhana.",
+      "B": "Tetap posting, buruk.",
+      "C": "Patuhi, tapi siapkan aksi berguna sesudahnya."
+    }
+  },
+  "mcc_400": {
+    "title": "Badut kapitalisme",
+    "body": "Seorang komentator menyebutmu badut kapitalisme.",
+    "choices": {
+      "A": "Jawab dengan tenang memakai fakta dan tindakan.",
+      "B": "Jawab dengan hidung merah, berbahaya tapi lucu.",
+      "C": "Jawab dengan humor + umumkan langkah konkret."
+    }
+  },
+  "mcc_401": {
+    "title": "Menteri ingin mode malam",
+    "body": "Seorang menteri menuntut semua layanan punya mode malam untuk mengurangi kelelahan sipil.",
+    "choices": {
+      "A": "Buat mode malam sungguhan yang sederhana + mudah diakses.",
+      "B": "Pertahankan pink neon: itu ciri khas.",
+      "C": "Mode malam sederhana, tapi hanya untuk pelanggan berbayar, aduh."
+    }
+  },
+  "mcc_402": {
+    "title": "Mogok… para printer",
+    "body": "Printer kantor pusatmu mulai error sendiri.",
+    "choices": {
+      "A": "Kurangi cetakan + proses yang lebih sederhana.",
+      "B": "Ganti semua printer, solusi kasar.",
+      "C": "Buat piagam anti-surel tak berguna, simbolis tapi bermanfaat."
+    }
+  },
+  "mcc_403": {
+    "title": "Debat soal hak untuk bug",
+    "body": "Seorang pejabat mengusulkan hak untuk bug: setiap warga menerima 1 bug per bulan.",
+    "choices": {
+      "A": "Tingkatkan kualitas + transparansi atas insiden.",
+      "B": "Manfaatkan aturan itu: bug bulanan itu legal.",
+      "C": "Luncurkan program bug bounty publik."
+    }
+  },
+  "mcc_404": {
+    "title": "QR code di dahi",
+    "body": "Tim komunikasimu ingin mencetak QR code di dahi para karyawan. Tim HR berteriak.",
+    "choices": {
+      "A": "Larangan langsung: hormat dan akal sehat.",
+      "B": "Izinkan dalam bentuk stiker… sukarela.",
+      "C": "Ganti dengan badge digital opsional."
+    }
+  },
+  "mcc_405": {
+    "title": "Dewan direksi",
+    "body": "Seorang direktur bilang rapat seharusnya dalam format ASMR untuk menurunkan stres.",
+    "choices": {
+      "A": "Tolak: rapat biasa saja.",
+      "B": "Uji pada 1 rapat, sekadar lucu.",
+      "C": "Kurangi durasi rapat: itu baru anti-stres sungguhan."
+    }
+  },
+  "mcc_406": {
+    "title": "Debat soal captcha",
+    "body": "Seorang deputi ingin captcha yang budaya, misalnya klik baguette.",
+    "choices": {
+      "A": "Tolak: aksesibilitas internasional.",
+      "B": "Terapkan: captcha baguette di mana-mana.",
+      "C": "Usulkan captcha yang netral dan inklusif."
+    }
+  },
+  "mcc_407": {
+    "title": "Rencana kumis",
+    "body": "Untuk mendukung suatu gerakan, kamu diajak membuat rencana kumis perusahaan. Citra merekmu bergetar.",
+    "choices": {
+      "A": "Dukung lewat donasi dan aksi, bukan lewat kumis.",
+      "B": "Kumis untuk semua: viral terjamin.",
+      "C": "Kumis sukarela + pesan yang sederhana."
+    }
+  },
+  "mcc_408": {
+    "title": "Keheningan notifikasi",
+    "body": "Sebuah undang-undang ingin mewajibkan satu jam tanpa notifikasi setiap hari.",
+    "choices": {
+      "A": "Mode tenang sebagai default + menghormati pengguna.",
+      "B": "Akali: notifikasi penting di mana-mana.",
+      "C": "Mode tenang, tapi bisa dinonaktifkan, seimbang."
+    }
+  },
+  "mcc_409": {
+    "title": "Lobi kursi ergonomis",
+    "body": "Sebuah lobi menuntut kursi ergonomis bersertifikat Republik. Kantormu punya kursi… dari 2009.",
+    "choices": {
+      "A": "Investasi dalam ergonomi, kesehatan + bukti.",
+      "B": "Beli bantal dan berharap berhasil.",
+      "C": "Kerja jarak jauh lebih luas untuk mengurangi kebutuhan."
+    }
+  },
+  "mcc_410": {
+    "title": "Iklan TV… syuting di kulkasmu",
+    "body": "Sebuah agensi mengusulkan iklan yang direkam di dalam kulkasmu untuk menunjukkan kesegaran.",
+    "choices": {
+      "A": "Tolak: pertahankan citra profesional.",
+      "B": "Terima: iklan aneh tapi sengaja.",
+      "C": "Terima tapi syuting di dapur yang bersih."
+    }
+  },
+  "mcc_411": {
+    "title": "Debat anti-Inggris",
+    "body": "Seorang pejabat mengkritik bahasa Inggris di tempat kerja.",
+    "choices": {
+      "A": "Kembali ke kosakata Prancis yang sederhana, untuk internal.",
+      "B": "Abaikan: aktivitas global.",
+      "C": "Bilingual yang rapi: istilah dijelaskan dan mudah dipahami."
+    }
+  },
+  "mcc_412": {
+    "title": "Referendum kantin",
+    "body": "Karyawan meluncurkan referendum: kebab atau salad. Investor bertanya: lalu marginnya?",
+    "choices": {
+      "A": "Pilihan yang seimbang: variasi + gizi.",
+      "B": "Kebab setiap hari, suasana meriah.",
+      "C": "Salad wajib, pemberontakan."
+    }
+  },
+  "mcc_413": {
+    "title": "Deputi ingin mencoba layananmu",
+    "body": "Seorang deputi ingin mencoba layananmu langsung di parlemen. Dia tidak tahu cara klik. Layarnya terbalik.",
+    "choices": {
+      "A": "Bantu dia dengan baik + panduan super sederhana.",
+      "B": "Biarkan dia mengurus sendiri, sinyal yang sangat buruk.",
+      "C": "Usulkan demo prarekaman yang jelas."
+    }
+  },
+  "mcc_414": {
+    "title": "Label perusahaan yang mendengar",
+    "body": "Sebuah asosiasi menawarkan label perusahaan yang mendengar jika kamu membayar. Kamu mencium jebakan.",
+    "choices": {
+      "A": "Tolak dan investasikan pada langkah internal yang nyata.",
+      "B": "Bayar: label instan.",
+      "C": "Negosiasikan: audit nyata, label hanya kalau hasilnya bagus."
+    }
+  },
+  "mcc_415": {
+    "title": "Debat soal surel pengingat",
+    "body": "Sebuah rancangan ingin membatasi surel pengingat. Alatmu mengirim 14 per hari ke setiap klien.",
+    "choices": {
+      "A": "Kurangi drastis + preferensi pengguna.",
+      "B": "Abaikan: penjualan dulu.",
+      "C": "Pertahankan tapi buat berhenti berlangganan sangat mudah."
+    }
+  },
+  "mcc_416": {
+    "title": "Dana solidaritas",
+    "body": "Seorang menteri meluncurkan dana untuk startup sedih.",
+    "choices": {
+      "A": "Tolak: tidak etis.",
+      "B": "Coba saja: uang mudah.",
+      "C": "Ikut sebagai donatur, bukan penerima."
+    }
+  },
+  "mcc_417": {
+    "title": "Situs mati… gara-gara kucing",
+    "body": "Seekor kucing duduk di keyboard di pusat data dan memutus layanan. Seorang pejabat bicara soal kerapuhan nasional.",
+    "choices": {
+      "A": "Perkuat prosedur + komunikasikan dengan jujur.",
+      "B": "Sembunyikan cerita soal kucing itu.",
+      "C": "Akui soal kucingnya + investasi dalam redundansi."
+    }
+  },
+  "mcc_418": {
+    "title": "Rencana darurat: stiker",
+    "body": "Saat krisis, timmu mengusulkan stiker jangan menyerah.",
+    "choices": {
+      "A": "Rencana konkret + tanpa stiker.",
+      "B": "Stiker di mana-mana: penambah semangat.",
+      "C": "Rencana konkret + satu stiker kecil, oke."
+    }
+  },
+  "mcc_419": {
+    "title": "Debat soal antrean prioritas",
+    "body": "Sebuah undang-undang melarang antrean prioritas berbayar. Layanan VIP-mu… persis seperti itu.",
+    "choices": {
+      "A": "Hapus VIP dan perkuat dukungan umum.",
+      "B": "Ganti nama VIP jadi kenyamanan untuk mengakali hukum.",
+      "C": "Pertahankan VIP tapi buat dukungan standar juga cepat."
+    }
+  },
+  "mcc_420": {
+    "title": "Minggu pujian untuk otoritas",
+    "body": "Kamu disarankan mengirim pujian ke otoritas pengawas. Pengacaramu: tidak, tidak, tidak.",
+    "choices": {
+      "A": "Tetap netral, cukup bekerja sama dengan baik.",
+      "B": "Kirim pujian, berisiko canggung.",
+      "C": "Kirim laporan yang jelas dan bermanfaat, itu pujian terbaik."
+    }
+  },
+  "mcc_421": {
+    "title": "Debat anti-pertumbuhan tak terbatas",
+    "body": "Sebuah acara TV bertanya apakah kamu percaya pada pertumbuhan tak terbatas.",
+    "choices": {
+      "A": "Posisi seimbang: pertumbuhan + moderasi + bukti.",
+      "B": "Pertumbuhan tak terbatas, ya.",
+      "C": "Pertumbuhan terbatas dan prioritas pada stabilitas."
+    }
+  },
+  "mcc_422": {
+    "title": "Setelan CEO jadi meme",
+    "body": "Setelanmu berubah jadi meme politik.",
+    "choices": {
+      "A": "Abaikan dan tetap profesional.",
+      "B": "Balas dengan humor.",
+      "C": "Ganti gaya + fokus kembali pada tindakan."
+    }
+  },
+  "mcc_423": {
+    "title": "Reformasi lift",
+    "body": "Sebuah undang-undang ingin lift yang lebih inklusif. Kantor pusatmu punya lift yang berbicara… dalam bahasa Latin.",
+    "choices": {
+      "A": "Modernisasi: aksesibilitas + kepatuhan.",
+      "B": "Pertahankan: itu warisan.",
+      "C": "Modernisasi sebagian, suara + penandaan."
+    }
+  },
+  "mcc_424": {
+    "title": "Debat soal hak istirahat",
+    "body": "Ada usulan 10 menit istirahat per jam. Tim dukungan bilang terima kasih, keuangan bilang tidak.",
+    "choices": {
+      "A": "Terapkan + atur ulang jadwal.",
+      "B": "Tolak: produktivitas dulu.",
+      "C": "Terapkan hanya untuk pekerjaan yang paling menegangkan."
+    }
+  },
+  "mcc_425": {
+    "title": "Anggaran konfeti",
+    "body": "Tim iklan meminta anggaran konfeti demi visibilitas.",
+    "choices": {
+      "A": "Tolak dan investasikan pada produk/layanan.",
+      "B": "Terima: konfeti = efek instan.",
+      "C": "Anggaran konfeti kecil + anggaran kualitas besar."
+    }
+  },
+  "mcc_426": {
+    "title": "Debat soal nama proyek",
+    "body": "Sebuah komisi mengkritik nama proyekmu: Nebula, Hydra, Phoenix.",
+    "choices": {
+      "A": "Ganti dengan nama yang sederhana dan jelas.",
+      "B": "Pertahankan: keren kok.",
+      "C": "Pertahankan tapi tambahkan deskripsi yang mudah dibaca."
+    }
+  },
+  "mcc_427": {
+    "title": "Hari tanpa jargon",
+    "body": "Hari nasional tanpa jargon akan datang. Timmu bertanya bagaimana cara bicara lebih sederhana.",
+    "choices": {
+      "A": "Latih bicara sederhana: sukses.",
+      "B": "Abaikan: jargon selamanya.",
+      "C": "Sedikit jargon boleh, tapi dengan penjelasan sederhana."
+    }
+  },
+  "mcc_428": {
+    "title": "Deputi ingin tombol",
+    "body": "Tim produkmu bilang ini bisa dilakukan.",
+    "choices": {
+      "A": "Tambahkan tombol kesejahteraan opsional.",
+      "B": "Tolak: di luar topik.",
+      "C": "Pasang tombol… tapi malah membuka halaman pembayaran, tidak."
+    }
+  },
+  "mcc_429": {
+    "title": "Debat soal warna",
+    "body": "Kamu dituduh memakai warna milik kubu tertentu.",
+    "choices": {
+      "A": "Tetap netral dan jangan ganti.",
+      "B": "Ganti warna, dengan risiko polemik lain.",
+      "C": "Ingatkan soal netralitas + kembalikan fokus ke produk."
+    }
+  },
+  "mcc_430": {
+    "title": "Pajak atas kata-kata panjang",
+    "body": "Seorang pejabat mengusulkan pajak atas kata yang lebih dari 12 huruf. Tim hukummu lenyap.",
+    "choices": {
+      "A": "Sederhanakan komunikasi di mana-mana.",
+      "B": "Biarkan saja: mustahil.",
+      "C": "Buat versi singkat + versi legal sebagai lampiran."
+    }
+  },
+  "mcc_431": {
+    "title": "Debat soal data sensitif",
+    "body": "Seorang jurnalis bertanya apakah kamu mengumpulkan data sensitif. Tim datamu bilang tergantung definisinya.",
+    "choices": {
+      "A": "Audit dan kurangi data yang dikumpulkan.",
+      "B": "Jawab samar, buruk.",
+      "C": "Transparansi + persetujuan yang jelas sebelum pengumpulan."
+    }
+  },
+  "mcc_432": {
+    "title": "Hari bug bahagia",
+    "body": "Timmu ingin merayakan bug dengan kue.",
+    "choices": {
+      "A": "Kue + sprint kualitas, seimbang.",
+      "B": "Kue tanpa memperbaiki apa pun, tidak.",
+      "C": "Larangan kue: kesedihan instan."
+    }
+  },
+  "mcc_433": {
+    "title": "Rencana mikro-pendengaran",
+    "body": "Seorang menteri ingin mengurangi kebisingan di kota.",
+    "choices": {
+      "A": "Tolak: terlalu sensitif.",
+      "B": "Terima: kontrak publik besar.",
+      "C": "Terima tapi dengan anonimisasi dan transparansi total."
+    }
+  },
+  "mcc_434": {
+    "title": "Debat soal hadiah untuk pejabat",
+    "body": "Kamu ditawari ide mengirim bingkisan makanan ke para pejabat.",
+    "choices": {
+      "A": "Tolak: kebijakan anti-hadiah yang ketat.",
+      "B": "Tetap kirim, berbahaya.",
+      "C": "Ganti dengan donasi publik ke asosiasi."
+    }
+  },
+  "mcc_435": {
+    "title": "KTT dunia PowerPoint",
+    "body": "Kamu diundang ke KTT dunia PowerPoint.",
+    "choices": {
+      "A": "Datang untuk membangun jaringan.",
+      "B": "Tolak: tidak berguna.",
+      "C": "Datang tapi kirim orang lain, bukan kamu."
+    }
+  },
+  "mcc_436": {
+    "title": "Undang-undang anti-tab",
+    "body": "Sebuah rancangan ingin membatasi jumlah tab yang dibuka saat bekerja, demi kesehatan mental.",
+    "choices": {
+      "A": "Latih dan kurangi beban kognitif.",
+      "B": "Abaikan: mustahil.",
+      "C": "Pasang alat organisasi, dan biarkan tab tetap ada."
+    }
+  },
+  "mcc_437": {
+    "title": "Debat akhir pekan 3 hari",
+    "body": "Akhir pekan 3 hari menjadi topik politik.",
+    "choices": {
+      "A": "Uji pada satu layanan pilot.",
+      "B": "Tolak tegas.",
+      "C": "Kompromi: jam fleksibel dan hari libur bergilir."
+    }
+  },
+  "mcc_438": {
+    "title": "Regulator ingin emoji",
+    "body": "Sebuah otoritas meminta emoji resmi soal kepatuhan di aplikasi. Desainermu mengusulkan 🧾.",
+    "choices": {
+      "A": "Bekerja sama: pasang simbol yang jelas dan netral.",
+      "B": "Tolak: konyol.",
+      "C": "Buat label internal yang serius, bukan emoji."
+    }
+  },
+  "mcc_439": {
+    "title": "Debat soal harga",
+    "body": "Kamu dituduh memanipulasi dengan harga .99.",
+    "choices": {
+      "A": "Beralih ke harga yang sederhana dan transparan.",
+      "B": "Pertahankan harga .99 dan tanggung.",
+      "C": "Uji perbandingan: beberapa pasar dengan harga bulat."
+    }
+  },
+  "mcc_440": {
+    "title": "Komisi hal-hal absurd",
+    "body": "Sebuah komisi parlemen ingin meneliti hal-hal absurd di perusahaan.",
+    "choices": {
+      "A": "Bagikan 5 contoh + solusi.",
+      "B": "Jangan bagikan apa pun: terlalu berisiko.",
+      "C": "Bagikan semuanya: transparansi total."
+    }
+  },
+  "mcc_441": {
+    "title": "Debat soal kesopanan logo",
+    "body": "Ada usulan menyembunyikan logo yang terlalu terlihat di tempat umum.",
+    "choices": {
+      "A": "Branding yang halus, kualitas lebih dulu.",
+      "B": "Akali dengan logo raksasa yang halus.",
+      "C": "Kurangi kehadiran logo pada benda yang tidak perlu."
+    }
+  },
+  "mcc_442": {
+    "title": "Krisis kardus terlalu kuat",
+    "body": "Kardusmu begitu kuat sampai tidak bisa dilipat.",
+    "choices": {
+      "A": "Ganti kemasan + minta maaf + uji lagi.",
+      "B": "Akui: kardus premium.",
+      "C": "Tambahkan panduan sederhana cara melipat."
+    }
+  },
+  "mcc_443": {
+    "title": "Menteri ingin tutorial",
+    "body": "Kamu diminta membuat tutorial nasional cara membuat kata sandi. Audiensmu: 8 sampai 88 tahun.",
+    "choices": {
+      "A": "Buat tutorial sederhana, berguna, inklusif.",
+      "B": "Tolak: bukan peranmu.",
+      "C": "Buat tutorial tapi penuh jargon, jangan."
+    }
+  },
+  "mcc_444": {
+    "title": "Debat soal produktivitas",
+    "body": "Seorang pejabat berbicara soal produktivitas emosional.",
+    "choices": {
+      "A": "Tidak ada indikator kebahagiaan: dukungan nyata untuk kesejahteraan.",
+      "B": "Pasang indikator kebahagiaan, ide buruk.",
+      "C": "Survei anonim ringan + tindakan konkret."
+    }
+  },
+  "mcc_445": {
+    "title": "Undang-undang anti-beban kognitif",
+    "body": "Dashboard-mu terlihat seperti kokpit: terlalu banyak info, terlalu banyak tombol.",
+    "choices": {
+      "A": "Sederhanakan antarmuka: lebih sedikit elemen, tapi lebih baik.",
+      "B": "Pertahankan: pengguna mahir lebih dulu.",
+      "C": "Tambahkan mode sederhana untuk semua."
+    }
+  },
+  "mcc_446": {
+    "title": "Komite rapat berdiri",
+    "body": "Sebuah komite mewajibkan rapat berdiri.",
+    "choices": {
+      "A": "Rapat berdiri yang singkat: oke.",
+      "B": "Tolak: terlalu melelahkan.",
+      "C": "Campuran: berdiri untuk poin cepat, duduk untuk topik berat."
+    }
+  },
+  "mcc_447": {
+    "title": "Debat soal drone senyap",
+    "body": "Ada keinginan melarang drone yang berisik.",
+    "choices": {
+      "A": "Perbaiki: drone yang netral dan patuh aturan.",
+      "B": "Pertahankan suara mengeongnya: itu lucu.",
+      "C": "Batasi drone ke zona industri."
+    }
+  },
+  "mcc_448": {
+    "title": "Skandal pena terhubung",
+    "body": "Pena terhubungmu mengirim data.",
+    "choices": {
+      "A": "Transparansi + persetujuan jelas + hentikan pengumpulan yang tidak perlu.",
+      "B": "Abaikan: siapa yang pakai pena sekarang.",
+      "C": "Tarik produk itu dari pasar."
+    }
+  },
+  "mcc_449": {
+    "title": "Debat soal hak untuk mengeluh",
+    "body": "Sebuah partai mengusulkan hak resmi untuk mengeluh. Tim dukunganmu menerima 10.000 keluhan per hari. Apa yang berubah?",
+    "choices": {
+      "A": "Perbaiki dukungan + buat saluran umpan balik yang jelas.",
+      "B": "Abaikan: cuma kebisingan.",
+      "C": "Buat tombol mengeluh yang membuka formulir singkat."
+    }
+  },
+  "mcc_450": {
+    "title": "Parlemen ingin animasimu",
+    "body": "Parlemen meminta visual animasi resmi untuk kampanyenya.",
+    "choices": {
+      "A": "Tolak: tetap sederhana.",
+      "B": "Terima: tarian llama, kebisingan media besar.",
+      "C": "Usulkan visual yang sederhana dan profesional, tanpa llama."
+    }
+  }
+}
+

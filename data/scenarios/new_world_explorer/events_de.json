@@ -1,0 +1,185 @@
+﻿{
+  "version": 1,
+  "events": {
+    "new_world_explorer_ev_001": {
+      "title": "Vorteilhafte Karte",
+      "body": "Ein Seefahrer kehrt mit einer klaren Karte zurück. Plötzlich wirkt die Küste kleiner.",
+      "effect": "Gebiete: +5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "new_world_explorer_ev_002": {
+      "title": "Gut gefüllter Laderaum",
+      "body": "Ein Konvoi kehrt mit schweren Kisten und noch schwereren Lächeln zurück.",
+      "effect": "Reichtümer: +5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "new_world_explorer_ev_003": {
+      "title": "Schlecht aufgenommene Mission",
+      "body": "Einige Prediger reden zu schnell und hören zu wenig zu. Das Dorf verschließt sich.",
+      "effect": "Bekehrte Bevölkerung: -5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "new_world_explorer_ev_004": {
+      "title": "Brief aus dem Palast",
+      "body": "Der Hof lobt deine letzten Ergebnisse. Zum ersten Mal bringt das königliche Siegel etwas anderes als einen Befehl.",
+      "effect": "Königliche Unterstützung: +5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "new_world_explorer_ev_005": {
+      "title": "Umstrittene Grenze",
+      "body": "Ein benachbarter Anführer stellt unsere Grenzsteine infrage. Unser Land wirkt plötzlich viel unsicherer.",
+      "effect": "Gebiete: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "new_world_explorer_ev_006": {
+      "title": "Kapelle am Hafen",
+      "body": "Eine kleine Kapelle öffnet nahe dem Kai. Predigten verbreiten sich fast so schnell wie Gerüchte.",
+      "effect": "Bekehrte Bevölkerung: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "new_world_explorer_ev_007": {
+      "title": "Geplünderter Konvoi",
+      "body": "Ein Teil des Vorrats verschwindet auf der Binnenstraße. Der Handel hasst solche Überraschungen.",
+      "effect": "Reichtümer: -5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "new_world_explorer_ev_008": {
+      "title": "Verstimmter Hof",
+      "body": "Ein Bericht kommt zu spät und mit zu vielen Ausreden an. Der Palast mag Verspätungen noch weniger als die Wahrheit.",
+      "effect": "Königliche Unterstützung: -5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "new_world_explorer_ev_009": {
+      "title": "Bejubelter Prediger",
+      "body": "Ein Prediger weiß, wie man einfach spricht. Die Menge bleibt bis zum Ende und kommt am nächsten Tag wieder.",
+      "effect": "Bekehrte Bevölkerung: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "new_world_explorer_ev_010": {
+      "title": "Ertragreiche Ader",
+      "body": "Eine unauffällige Ader bringt mehr ein als erwartet. Selbst die Schreiber wirken zufrieden.",
+      "effect": "Reichtümer: +5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "new_world_explorer_ev_011": {
+      "title": "Widersprüchliche Befehle",
+      "body": "Zwei königliche Nachrichten sagen zwei gegensätzliche Dinge. Du verlierst Zeit, und der Hof verliert die Geduld.",
+      "effect": "Königliche Unterstützung: -5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "new_world_explorer_ev_012": {
+      "title": "Angekündigter Besuch",
+      "body": "Ein Gesandter des Königs spricht von deiner Kolonie als Vorbild. Das ist schmeichelhaft und sehr nützlich.",
+      "effect": "Königliche Unterstützung: +5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "new_world_explorer_ev_013": {
+      "title": "Verlassener Posten",
+      "body": "Ein kleiner Vorposten wird nach mehreren unruhigen Nächten aufgegeben. Die Karte zieht sich plötzlich zusammen.",
+      "effect": "Gebiete: -5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "new_world_explorer_ev_014": {
+      "title": "Inselmarkt",
+      "body": "Händler von den Inseln füllen den Hafen mit seltenen Gütern und Ideen für Gewinnspannen.",
+      "effect": "Reichtümer: +5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "new_world_explorer_ev_015": {
+      "title": "Vorgeschobenes Fort",
+      "body": "Ein kleines Fort entsteht an einem gut gewählten Ort. Die Küste wirkt plötzlich breiter.",
+      "effect": "Gebiete: +5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "new_world_explorer_ev_016": {
+      "title": "Ungeschickter Eifer",
+      "body": "Zu eilige Männer wollen mit der Kraft ihres Tons überzeugen. Sie ernten vor allem Misstrauen.",
+      "effect": "Bekehrte Bevölkerung: -5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "new_world_explorer_ev_017": {
+      "title": "Truhe des Königreichs",
+      "body": "Eine Truhe kommt vom Kontinent mit Material, Befehlen und ein wenig Vertrauen.",
+      "effect": "Königliche Unterstützung: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "new_world_explorer_ev_018": {
+      "title": "Sturm über den Laderäumen",
+      "body": "Eine Reihe von Regenfällen beschädigt die Vorräte. Der Hafen riecht nach nassem Holz und klarem Verlust.",
+      "effect": "Reichtümer: -5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "new_world_explorer_ev_019": {
+      "title": "Schule am Ufer",
+      "body": "Nahe dem Hafen eröffnet eine Schule. Die Kinder kommen wegen der Worte und kehren wegen der Gewohnheiten zurück.",
+      "effect": "Bekehrte Bevölkerung: +5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "new_world_explorer_ev_020": {
+      "title": "Zu optimistische Karte",
+      "body": "Eine alte Karte verspricht Länder, die bereits umstritten sind. Der Fehler kostet Zeit und Präsenz.",
+      "effect": "Gebiete: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "new_world_explorer_ev_021": {
+      "title": "Gerücht am Hof",
+      "body": "Ein Gerücht über schlechte Verwaltung überquert den Ozean. Der Palast liebt Geschichten, außer wenn sie von hier kommen.",
+      "effect": "Königliche Unterstützung: -5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "new_world_explorer_ev_022": {
+      "title": "Gewürzroute",
+      "body": "Eine Handelsroute wird endlich sicher. Die Schiffe fahren voll aus und kommen noch motivierter zurück.",
+      "effect": "Reichtümer: +5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "new_world_explorer_ev_023": {
+      "title": "Gesicherte Bucht",
+      "body": "Die Bucht ist besser gehalten, besser überwacht und viel leichter zu beanspruchen.",
+      "effect": "Gebiete: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "new_world_explorer_ev_024": {
+      "title": "Beleidigter Tempel",
+      "body": "Ein heiliger Ort wird aus Ungeschick oder Stolz gestört. Die Türen schließen sich sofort.",
+      "effect": "Bekehrte Bevölkerung: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "new_world_explorer_ev_025": {
+      "title": "Feuchtes Lagerhaus",
+      "body": "Die Feuchtigkeit dringt in die Vorräte ein. Ein Teil des Bestands verliert seinen Wert, noch bevor er verkauft wird.",
+      "effect": "Reichtümer: -5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "new_world_explorer_ev_026": {
+      "title": "Fest der Mission",
+      "body": "Ein großes religiöses Fest versammelt den Hafen und mehrere Dörfer. Der Moment ist gut gewählt und gut geführt.",
+      "effect": "Bekehrte Bevölkerung: +5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "new_world_explorer_ev_027": {
+      "title": "Ufervertrag",
+      "body": "Eine einfache Vereinbarung legt endlich fest, wer was an der Küste behält. Das ist weniger ruhmreich als eine Flagge, aber viel solider.",
+      "effect": "Gebiete: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "new_world_explorer_ev_028": {
+      "title": "Unzufriedener Gesandter",
+      "body": "Ein königlicher Gesandter reist mit verschlossener Miene und einem gut gefüllten Notizbuch ab. Nichts Gutes überquert so gern das Meer.",
+      "effect": "Königliche Unterstützung: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "new_world_explorer_ev_029": {
+      "title": "Enttäuschende Mine",
+      "body": "Die Mine, die man für vielversprechend hielt, produziert vor allem Müdigkeit und traurige Abrechnungen.",
+      "effect": "Reichtümer: -5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "new_world_explorer_ev_030": {
+      "title": "Woche der Taufen",
+      "body": "Die Mission erlebt eine sehr gut besuchte Woche. Selbst die Vorsichtigsten kommen, um genauer hinzusehen.",
+      "effect": "Bekehrte Bevölkerung: +5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    }
+  }
+}

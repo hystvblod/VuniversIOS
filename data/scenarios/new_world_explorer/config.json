@@ -1,0 +1,63 @@
+{
+  "id": "new_world_explorer",
+  "gauges": [
+    {
+      "id": "conquered_territory",
+      "label_fr": "Territoires",
+      "label_en": "Territories",
+      "label_de": "Gebiete",
+      "label_es": "Territorios",
+      "label_it": "Territorio",
+      "label_pt": "Territórios",
+      "label_ptbr": "Territórios",
+      "label_ko": "영토",
+      "label_ja": "領土",
+      "label_id": "Wilayah"
+    },
+    {
+      "id": "found_wealth",
+      "label_fr": "Richesses",
+      "label_en": "Wealth",
+      "label_de": "Reichtümer",
+      "label_es": "Riquezas",
+      "label_it": "Ricchezze",
+      "label_pt": "Riquezas",
+      "label_ptbr": "Riquezas",
+      "label_ko": "부",
+      "label_ja": "富",
+      "label_id": "Kekayaan"
+    },
+    {
+      "id": "converted_population",
+      "label_fr": "Population convertie",
+      "label_en": "Converted population",
+      "label_de": "Bekehrte Bevölkerung",
+      "label_es": "Población convertida",
+      "label_it": "Convertiti",
+      "label_pt": "População convertida",
+      "label_ptbr": "População convertida",
+      "label_ko": "개종한 인구",
+      "label_ja": "改宗した住民",
+      "label_id": "Populasi yang dikonversi"
+    },
+    {
+      "id": "royal_treasury",
+      "label_fr": "Appui royal",
+      "label_en": "Royal support",
+      "label_de": "Königliche Unterstützung",
+      "label_es": "Apoyo real",
+      "label_it": "Tesoro",
+      "label_pt": "Apoio real",
+      "label_ptbr": "Apoio real",
+      "label_ko": "왕실의 지원",
+      "label_ja": "王室の支援",
+      "label_id": "Dukungan kerajaan"
+    }
+  ],
+  "initialGauges": {
+    "conquered_territory": 50,
+    "found_wealth": 50,
+    "converted_population": 50,
+    "royal_treasury": 50
+  }
+}

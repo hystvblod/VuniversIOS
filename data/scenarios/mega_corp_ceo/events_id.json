@@ -1,0 +1,185 @@
+﻿{
+  "version": 1,
+  "events": {
+    "mega_corp_ceo_ev_001": {
+      "title": "Catatan analis",
+      "body": "Sebuah bank besar menerbitkan catatan yang sangat positif. Grafik naik dan dana investasi tersenyum.",
+      "effect": "Investor: +5 per kartu",
+      "duration": "Durasi: 5 kartu"
+    },
+    "mega_corp_ceo_ev_002": {
+      "title": "Pekan tim",
+      "body": "Para manajer berterima kasih kepada tim secara terbuka. Suasana akhirnya terasa sedikit lebih lega.",
+      "effect": "Karyawan: +5 per kartu",
+      "duration": "Durasi: 6 kartu"
+    },
+    "mega_corp_ceo_ev_003": {
+      "title": "Pemeriksaan mendadak",
+      "body": "Sebuah berkas naik ke meja yang salah. Otoritas mulai melihat lebih dekat.",
+      "effect": "Regulator: -5 per kartu",
+      "duration": "Durasi: 4 kartu"
+    },
+    "mega_corp_ceo_ev_004": {
+      "title": "Kampanye berhasil",
+      "body": "Kampanye baru disukai. Bahkan para pengkritik pun kesulitan mencari sesuatu untuk diserang.",
+      "effect": "Citra merek: +5 per kartu",
+      "duration": "Durasi: 5 kartu"
+    },
+    "mega_corp_ceo_ev_005": {
+      "title": "Kuartal mengecewakan",
+      "body": "Hasilnya turun sedikit terlalu rendah. Para investor tiba-tiba menjadi sangat kreatif dalam kekhawatiran mereka.",
+      "effect": "Investor: -5 per kartu",
+      "duration": "Durasi: 6 kartu"
+    },
+    "mega_corp_ceo_ev_006": {
+      "title": "Prosedur divalidasi",
+      "body": "Sebuah audit berakhir tanpa drama. Untuk sekali ini, semuanya ada di tempat yang benar.",
+      "effect": "Regulator: +5 per kartu",
+      "duration": "Durasi: 4 kartu"
+    },
+    "mega_corp_ceo_ev_007": {
+      "title": "Pergantian diam-diam",
+      "body": "Pengunduran diri terus bertambah tanpa suara. Karena sunyi, justru jadi lebih mengkhawatirkan.",
+      "effect": "Karyawan: -5 per kartu",
+      "duration": "Durasi: 7 kartu"
+    },
+    "mega_corp_ceo_ev_008": {
+      "title": "Isu negatif ringan",
+      "body": "Sebuah polemik kecil membesar di internet. Tidak besar, tapi cukup untuk menempel selama beberapa hari.",
+      "effect": "Citra merek: -5 per kartu",
+      "duration": "Durasi: 5 kartu"
+    },
+    "mega_corp_ceo_ev_009": {
+      "title": "Audit teladan",
+      "body": "Para pemeriksa pulang dengan hampir santai. Itu jarang terjadi, jadi semua orang menyadarinya.",
+      "effect": "Regulator: +5 per kartu",
+      "duration": "Durasi: 4 kartu"
+    },
+    "mega_corp_ceo_ev_010": {
+      "title": "Bonus tim",
+      "body": "Sebuah langkah nyata datang di waktu yang tepat. Koridor terasa sedikit lebih lega.",
+      "effect": "Karyawan: +5 per kartu",
+      "duration": "Durasi: 6 kartu"
+    },
+    "mega_corp_ceo_ev_011": {
+      "title": "Artikel tajam",
+      "body": "Sebuah media menerbitkan potret dingin tentang grupmu. Kalimatnya menyakitkan, jadi menyebar ke mana-mana.",
+      "effect": "Citra merek: -5 per kartu",
+      "duration": "Durasi: 3 kartu"
+    },
+    "mega_corp_ceo_ev_012": {
+      "title": "Wawancara viral",
+      "body": "Sebuah pernyataan publik berjalan sangat baik di luar dugaan. Potongannya beredar ke arah yang menguntungkan.",
+      "effect": "Citra merek: +5 per kartu",
+      "duration": "Durasi: 7 kartu"
+    },
+    "mega_corp_ceo_ev_013": {
+      "title": "Proyeksi direvisi",
+      "body": "Target direvisi turun. Pasar berpura-pura paham, lalu tetap menjual.",
+      "effect": "Investor: -5 per kartu",
+      "duration": "Durasi: 4 kartu"
+    },
+    "mega_corp_ceo_ev_014": {
+      "title": "Alat internal yang lancar",
+      "body": "Alat baru akhirnya mempermudah pekerjaan sehari-hari. Tidak ada yang bertepuk tangan, tapi semua orang lega.",
+      "effect": "Karyawan: +5 per kartu",
+      "duration": "Durasi: 6 kartu"
+    },
+    "mega_corp_ceo_ev_015": {
+      "title": "Kontrak raksasa",
+      "body": "Kontrak yang sangat besar jatuh ke tanganmu. Para pemegang saham suka tanda tangan dengan banyak angka nol.",
+      "effect": "Investor: +5 per kartu",
+      "duration": "Durasi: 3 kartu"
+    },
+    "mega_corp_ceo_ev_016": {
+      "title": "Peringatan resmi",
+      "body": "Permintaan penjelasan datang dengan nada yang sangat sopan dan sama sekali tidak menenangkan.",
+      "effect": "Regulator: -5 per kartu",
+      "duration": "Durasi: 5 kartu"
+    },
+    "mega_corp_ceo_ev_017": {
+      "title": "Produk yang sangat disukai",
+      "body": "Salah satu produk grup menjadi favorit saat ini. Pelanggan membicarakannya lebih baik daripada tim komunikasimu.",
+      "effect": "Citra merek: +5 per kartu",
+      "duration": "Durasi: 4 kartu"
+    },
+    "mega_corp_ceo_ev_018": {
+      "title": "Manajer di bawah tekanan",
+      "body": "Ketegangan naik satu tingkat lagi di beberapa tim. Hasil masih bertahan, suasana hati jauh lebih tidak.",
+      "effect": "Karyawan: -5 per kartu",
+      "duration": "Durasi: 7 kartu"
+    },
+    "mega_corp_ceo_ev_019": {
+      "title": "Berkas bersih",
+      "body": "Di atas kertas, semuanya rapi. Hampir terlalu bagus, tapi kali ini lolos.",
+      "effect": "Regulator: +5 per kartu",
+      "duration": "Durasi: 3 kartu"
+    },
+    "mega_corp_ceo_ev_020": {
+      "title": "Dewan yang dingin",
+      "body": "Dewan mendengarkan dalam diam. Itu tidak pernah menjadi tanda baik bagi kesabaran pasar.",
+      "effect": "Investor: -5 per kartu",
+      "duration": "Durasi: 6 kartu"
+    },
+    "mega_corp_ceo_ev_021": {
+      "title": "Rumor produk",
+      "body": "Sebuah rumor konyol menyebar terlalu baik. Semakin samar, semakin jauh perjalanannya.",
+      "effect": "Citra merek: -5 per kartu",
+      "duration": "Durasi: 5 kartu"
+    },
+    "mega_corp_ceo_ev_022": {
+      "title": "Rekrutmen solid",
+      "body": "Beberapa profil penting bergabung dengan grup. Tim mulai berpikir mungkin tidak semuanya sedang runtuh.",
+      "effect": "Karyawan: +5 per kartu",
+      "duration": "Durasi: 7 kartu"
+    },
+    "mega_corp_ceo_ev_023": {
+      "title": "Target terlampaui",
+      "body": "Salah satu indikator utama melampaui harapan. Investor suka ketika angka-angka bekerja untukmu.",
+      "effect": "Investor: +5 per kartu",
+      "duration": "Durasi: 4 kartu"
+    },
+    "mega_corp_ceo_ev_024": {
+      "title": "Klausul ambigu",
+      "body": "Sebuah klausul lama tiba-tiba menarik perhatian baru. Para ahli hukum serempak mengernyit.",
+      "effect": "Regulator: -5 per kartu",
+      "duration": "Durasi: 6 kartu"
+    },
+    "mega_corp_ceo_ev_025": {
+      "title": "Reorganisasi brutal",
+      "body": "Bagan organisasi baru bergerak cepat. Para karyawan juga, tapi lebih ke arah pintu keluar.",
+      "effect": "Karyawan: -5 per kartu",
+      "duration": "Durasi: 3 kartu"
+    },
+    "mega_corp_ceo_ev_026": {
+      "title": "Sertifikasi diperoleh",
+      "body": "Sertifikasi penting akhirnya datang. Resmi, bertanda cap, dan sangat praktis untuk dipamerkan di mana-mana.",
+      "effect": "Regulator: +5 per kartu",
+      "duration": "Durasi: 5 kartu"
+    },
+    "mega_corp_ceo_ev_027": {
+      "title": "Dividen yang disambut",
+      "body": "Pembayaran yang diumumkan menenangkan banyak kegelisahan. Cinta pasar tetap penuh kepentingan, tapi cepat kembali.",
+      "effect": "Investor: +5 per kartu",
+      "duration": "Durasi: 4 kartu"
+    },
+    "mega_corp_ceo_ev_028": {
+      "title": "Foto yang sial",
+      "body": "Sebuah gambar yang diambil pada saat yang salah menyebar terlalu baik. Kamu ingin kontrol, internet ingin meme.",
+      "effect": "Citra merek: -5 per kartu",
+      "duration": "Durasi: 6 kartu"
+    },
+    "mega_corp_ceo_ev_029": {
+      "title": "Terlalu banyak rapat",
+      "body": "Jadwal meluap dan tim kewalahan. Tidak ada lagi yang tahu kapan pekerjaan sebenarnya dimulai.",
+      "effect": "Karyawan: -5 per kartu",
+      "duration": "Durasi: 3 kartu"
+    },
+    "mega_corp_ceo_ev_030": {
+      "title": "Karpet merah regulator",
+      "body": "Otoritas menyebut grupmu sebagai contoh. Itu jarang terjadi, jadi sangat menguntungkan untuk kredibilitas.",
+      "effect": "Regulator: +5 per kartu",
+      "duration": "Durasi: 7 kartu"
+    }
+  }
+}

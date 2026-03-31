@@ -1,0 +1,5779 @@
+/* ==========================================================
+   VARIABLES GLOBALES
+   ========================================================== */
+:root{
+  --vr-bg: radial-gradient(circle at top, #f6e7cf 0, #141b2f 72%);
+  --vr-overlay: none;
+
+  --vr-card-bg: rgba(15, 23, 42, 0.92);
+  --vr-card-border: rgba(209, 213, 219, 0.55);
+  --vr-text-main: #f9fafb;
+  --vr-text-muted: #d1d5db;
+
+  --vr-radius-xl: 22px;
+  --vr-shadow-soft: 0 16px 40px rgba(0, 0, 0, 0.45);
+
+  /* Defaults (si jamais une classe univers manque) */
+  --vr-universe-bg: none;
+  --vr-universe-card: none;
+  --vr-universe-choice: none;
+
+  /* Top icons */
+  --vr-top-btn:  clamp(36px, 6.8vmin, 66px);
+  --vr-top-icon: clamp(26px, 5.2vmin, 52px);
+
+  /* Typo GAME */
+  --vr-font-scn-title: clamp(15px, 2.4vmin, 28px);
+  --vr-font-scn-text:  clamp(13px, 2.1vmin, 24px);
+  --vr-font-choice:    clamp(13px, 2.2vmin, 24px);
+}
+
+/* sécurité : si un vieux overlay traîne */
+.vr-overlay{ display:none !important; }
+
+/* ==========================================================
+   RESET / BASE
+   ========================================================== */
+*,
+*::before,
+*::after{ box-sizing: border-box; }
+
+html{
+  margin:0;
+  padding:0;
+  height:100%;
+  background: var(--vr-bg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+  margin:0;
+  padding:0;
+  min-height:100vh;
+  width:100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--vr-text-main);
+  background: transparent;
+  display:flex;
+  flex-direction:column;
+  overflow-x:hidden;
+}
+
+/* ==========================================================
+   LAYOUT PRINCIPAL
+   ========================================================== */
+.vr-main{
+  position: relative;
+  z-index: 1;
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  padding: 12px 16px 24px;
+}
+
+/* ==========================================================
+   HEADER HOME
+   ========================================================== */
+.vr-header{
+  position: relative;
+  z-index: 2;
+  display:flex;
+  justify-content:center;
+  padding: 12px 24px 4px;
+  max-width:none;
+  margin:0;
+  width:100%;
+}
+
+/* voile header OFF */
+body:not(.vr-body-game) .vr-header::before{ content:none !important; display:none !important; }
+body:not(.vr-body-game) .vr-header > *{ position: relative; z-index:1; }
+body.vr-body-game .vr-header::before{ content:none; }
+
+.vr-logo,
+.vr-side-nav{ display:none !important; }
+
+.vr-top-actions{
+  display:flex;
+  gap: 16px;
+  align-items:center;
+  justify-content:center;
+  flex-wrap: nowrap;
+}
+
+.vr-icon-button{
+  border:none;
+  background: transparent;
+  padding:0;
+  margin:0;
+  cursor:pointer;
+  text-decoration:none;
+
+  width: var(--vr-top-btn);
+  height: var(--vr-top-btn);
+
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.vr-top-icon{
+  width: var(--vr-top-icon) !important;
+  height: var(--vr-top-icon) !important;
+  max-width: var(--vr-top-icon) !important;
+  max-height: var(--vr-top-icon) !important;
+  object-fit: contain;
+  display:block;
+  user-select:none;
+  -webkit-user-drag:none;
+}
+
+/* ==========================================================
+   HUD GAME BASE
+   ========================================================== */
+body.vr-body-game .vr-hud{
+  width:100%;
+  max-width: 980px;
+  margin: 0 auto 2px;
+
+  display:grid !important;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) !important;
+  align-items:center;
+  gap: clamp(6px, 1.6vw, 14px);
+  padding: 0 clamp(6px, 2.6vw, 14px);
+
+  white-space: nowrap;
+}
+
+body.vr-body-game .vr-hud-left{
+  justify-self:start;
+  display:inline-flex;
+  align-items:center;
+  gap: clamp(6px, 1.6vw, 12px);
+  min-width:0;
+}
+body.vr-body-game .vr-hud-center{
+  justify-self:center;
+  min-width:0;
+  transform: translateX(clamp(6px, 1.2vw, 14px));
+}
+body.vr-body-game .vr-hud-right{
+  justify-self:end;
+  display:inline-flex;
+  align-items:center;
+  gap: clamp(6px, 1.6vw, 12px);
+  min-width:0;
+}
+
+/* centre : pas de wrap, ellipsis si trop long */
+body.vr-body-game .vr-hud-identity{
+  justify-self:center;
+  display:inline-flex;
+  gap: var(--vr-hud-name-years-gap, clamp(10px, 1.8vw, 18px));
+  align-items: baseline;
+  justify-content:center;
+  font-weight: 900;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.55);
+  white-space: nowrap;
+  max-width: min(58vw, 520px);
+  overflow: hidden;
+}
+body.vr-body-game .vr-hud-name,
+body.vr-body-game .vr-hud-years{
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+body.vr-body-game .vr-hud-item{
+  display:inline-flex;
+  align-items:center;
+  gap: 8px;
+  padding: clamp(4px, 1.1vh, 8px) clamp(8px, 2.2vw, 14px);
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.30);
+  border: 1px solid rgba(255,255,255,0.10);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  min-height: clamp(34px, 4.8vh, 44px);
+}
+
+body.vr-body-game .vr-hud-icon{
+  width:  clamp(18px, 4.2vw, 30px);
+  height: clamp(18px, 4.2vw, 30px);
+  object-fit: contain;
+  display:block;
+  user-select:none;
+  -webkit-user-drag:none;
+  flex:0 0 auto;
+}
+
+/* VCoins + Jeton = même bouton */
+body.vr-body-game .vr-hud-icon-btn{
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  border: 0 !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+
+  cursor:pointer;
+
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+
+  width:  clamp(18px, 4.2vw, 30px);
+  height: clamp(18px, 4.2vw, 30px);
+
+  line-height: 0 !important;
+  font-size: 0 !important;
+  vertical-align: middle !important;
+  flex:0 0 auto;
+}
+body.vr-body-game .vr-hud-icon-btn .vr-hud-icon{
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+}
+body.vr-body-game .vr-hud-icon-btn:focus-visible{
+  outline: 2px solid rgba(255,255,255,0.65);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+body.vr-body-game .vr-hud-value{
+  font-weight: 900;
+  font-size: clamp(12px, 2.2vmin, 16px);
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+}
+
+body.vr-body-game .vr-hud-name,
+body.vr-body-game .vr-hud-years{
+  font-size: clamp(13px, 2.2vmin, 18px);
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+/* ==========================================================
+   SELECTEUR LANGUE
+   ========================================================== */
+.vr-lang-selector{ display:flex; align-items:center; gap:8px; }
+.vr-label{ font-size:13px; color: var(--vr-text-muted); }
+.vr-select{
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 999px;
+  border: 1px solid rgba(148,163,184,0.6);
+  color: var(--vr-text-main);
+  padding: 6px 10px;
+  font-size: 13px;
+  outline:none;
+}
+
+/* ==========================================================
+   VUES
+   ========================================================== */
+.vr-view{ display:none; }
+.vr-view-active{ display:block; }
+
+/* ==========================================================
+   HOME
+   ========================================================== */
+.vr-intro{ margin-top:8px; margin-bottom:16px; display:flex; justify-content:center; }
+
+.vr-main-logo{
+  height: clamp(120px, 18vmin, 190px) !important;
+  width: min(90vw, 560px) !important;
+  max-width: none !important;
+  object-fit: contain !important;
+}
+
+.vr-section-title{ font-size:18px; margin:12px 0 10px; }
+.vr-universe-grid{ display:flex; flex-direction:column; gap:10px; }
+
+.vr-card{
+  position:relative;
+  border-radius: var(--vr-radius-xl);
+  overflow:hidden;
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid var(--vr-card-border);
+  padding: 10px 14px;
+  text-align:left;
+  display:block;
+  width:100%;
+  cursor:pointer;
+  box-shadow: var(--vr-shadow-soft);
+}
+.vr-card-disabled{ opacity:0.4; cursor:not-allowed; }
+.vr-card-bg{
+  position:absolute;
+  inset:0;
+  opacity:0.42;
+  background-size:cover;
+  background-position:center;
+  pointer-events:none;
+}
+.vr-card-content{ position:relative; z-index:1; }
+.vr-card-header-line{ display:flex; align-items:center; justify-content:space-between; gap:8px; }
+.vr-card-title{ margin:0 0 3px; font-size:16px; }
+.vr-card-text{ margin:0; font-size:13px; color: var(--vr-text-muted); }
+
+button.vr-card{
+  appearance:none;
+  -webkit-appearance:none;
+  border: 1px solid var(--vr-card-border);
+  background: rgba(15, 23, 42, 0.9);
+  color: inherit;
+  font: inherit;
+  text-align:left;
+}
+button.vr-card:focus-visible{
+  outline: 2px solid rgba(255,255,255,0.65);
+  outline-offset: 3px;
+}
+
+/* Tooltip */
+.vr-tooltip{
+  position: fixed;
+  transform: translateX(-50%);
+  width: min(360px, 88vw);
+  max-width: 420px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(15, 23, 42, 0.98);
+  color: #e5e7eb;
+  font-size: 12px;
+  line-height: 1.35;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  display:none;
+  z-index:50;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+/* ==========================================================
+   VUE JEU BASE
+   ========================================================== */
+#view-game{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 12px 12px 16px 12px;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: var(--vr-universe-bg);
+
+  overflow: hidden;
+}
+
+#view-game::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: transparent;
+  pointer-events:none;
+  z-index:0;
+}
+
+#view-game > *:not(.vr-ending-overlay):not(.vr-popup):not(.vr-token-gauge-overlay):not(.vr-guide-overlay){
+  position: relative;
+  z-index: 1;
+}
+
+#view-game > .vr-guide-overlay{
+  position: absolute;
+  inset: 0;
+  z-index: 3500;
+}
+
+/* ==========================================================
+   JAUGES
+   ========================================================== */
+.vr-gauges-row{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  margin-bottom:10px;
+}
+.vr-gauge{ display:flex; align-items:center; gap:8px; }
+.vr-gauge-label{
+  font-size:16px;
+  font-weight:900;
+  min-width:72px;
+  text-shadow:
+    0 0 6px rgba(0,0,0,0.22),
+    0 1px 10px rgba(0,0,0,0.28);
+}
+
+/* % actuel + delta */
+.vr-gauge-value{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  min-width:64px;
+  font-size:13px;
+  line-height:1.1;
+  text-shadow:
+    0 0 6px rgba(0,0,0,0.22),
+    0 1px 10px rgba(0,0,0,0.28);
+  opacity:0;
+  visibility:hidden;
+}
+
+body.vr-peek-mode .vr-gauge-value{
+  opacity:1;
+  visibility:visible;
+}
+.vr-gauge-val{ font-weight:900; letter-spacing:0.2px; }
+.vr-gauge-delta{ font-weight:900; opacity:.95; }
+body:not(.vr-peek-mode) .vr-gauge-delta{ display:none; }
+
+.vr-gauge-frame{
+  position:relative;
+  width: var(--vr-gauge-size, 84px);
+  height: var(--vr-gauge-size, 84px);
+  flex:0 0 auto;
+  background-size: contain;
+  background-position:center;
+  background-repeat:no-repeat;
+  transform: translateZ(0);
+}
+
+.vr-gauge-fill,
+.vr-gauge-preview{
+  position:absolute;
+  inset:0;
+  background-size: contain;
+  background-position:center;
+  background-repeat:no-repeat;
+  pointer-events:none;
+  clip-path: inset(calc(100% - var(--vr-pct, 50%)) 0 0 0);
+}
+.vr-gauge-preview{
+  opacity:0.35;
+  filter: saturate(1.05) brightness(1.05);
+}
+.vr-gauge-fill{ opacity:1; }
+
+/* ==========================================================
+   CARTE + CHOIX
+   ========================================================== */
+.vr-card-container{ display:flex; justify-content:center; margin-top:8px; width:100%; }
+body.vr-body-game .vr-card-container{ justify-content:center !important; }
+
+.vr-card-stack{
+  width:100%;
+  max-width: min(640px, 96vw);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:12px;
+}
+
+.vr-card-main{
+  position:relative;
+  width:100%;
+  max-width: min(640px, 96vw);
+  margin:0 auto;
+  background-size: 100% 100%;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-image: var(--vr-universe-card);
+  padding: 26px 30px;
+  border:none;
+  box-shadow:none;
+}
+.vr-card-main.vr-card-dragging{ transition:none; }
+
+body.vr-body-game .vr-card-main{
+  padding:
+    var(--vr-scn-inset-top, 14%)
+    var(--vr-scn-inset-right, 10%)
+    var(--vr-scn-inset-bottom, 14%)
+    var(--vr-scn-inset-left, 10%) !important;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+body.vr-body-game .vr-card-main .vr-card-title,
+body.vr-body-game .vr-card-main .vr-card-text{
+  width:100%;
+  max-width: 100%;
+  margin-left:0;
+  margin-right:0;
+  text-align:center;
+}
+
+body.vr-body-game .vr-card-main .vr-card-title{
+  margin: 0 0 10px;
+  line-height: 1.15;
+  font-size: var(--vr-font-scn-title);
+}
+body.vr-body-game .vr-card-main .vr-card-text{
+  margin:0;
+  line-height:1.35;
+  font-size: var(--vr-font-scn-text);
+  color: var(--vr-text-muted);
+}
+
+.vr-card-choices{ display:flex; flex-direction:column; gap:14px; width:100%; }
+
+.vr-choice-button{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  width:100%;
+  max-width: min(640px, 96vw);
+  margin:0 auto;
+
+  min-height: 78px;
+  padding: 12px 30px;
+
+  background-color: transparent;
+  background-size: 100% 100%;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-image: var(--vr-universe-choice);
+
+  border:none;
+  cursor:pointer;
+}
+
+.vr-choice-label{
+  position:relative;
+  z-index:1;
+  color:#fff;
+  font-size: var(--vr-font-choice);
+  line-height:1.35;
+  text-align:center;
+  width:100%;
+  max-width: var(--vr-choice-safe, 88%);
+  margin:0 auto;
+  padding: 8px 0;
+  display:block;
+  word-break: break-word;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.45);
+}
+
+body.vr-body-game .vr-choice-button{
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+body.vr-body-game .vr-choice-label{
+  position:absolute !important;
+  inset:
+    var(--vr-choice-inset-top, 18%)
+    var(--vr-choice-inset-right, 10%)
+    var(--vr-choice-inset-bottom, 18%)
+    var(--vr-choice-inset-left, 10%) !important;
+
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+
+  width:auto !important;
+  max-width:none !important;
+  margin:0 !important;
+  padding:0 !important;
+}
+
+/* ==========================================================
+   FIN
+   ========================================================== */
+.vr-ending-overlay{
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(15, 23, 42, 0.85) !important;
+  display: none !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 250000 !important;
+  padding:
+    max(12px, env(safe-area-inset-top))
+    12px
+    max(12px, env(safe-area-inset-bottom))
+    12px !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+.vr-ending-overlay.vr-ending-visible{
+  display: flex !important;
+}
+
+.vr-ending-card{
+  width: min(420px, calc(100vw - 24px)) !important;
+  max-width: 100% !important;
+  max-height: calc(100svh - 24px) !important;
+  overflow-y: auto !important;
+  box-sizing: border-box !important;
+
+  padding: clamp(14px, 3.6vw, 20px) !important;
+  border-radius: clamp(16px, 4vw, 22px) !important;
+  background: rgba(15, 23, 42, 0.98) !important;
+  border: 1px solid rgba(209,213,219,0.5) !important;
+  box-shadow: var(--vr-shadow-soft) !important;
+  text-align: center !important;
+}
+
+.vr-ending-title{
+  margin: 0 0 8px !important;
+  font-size: clamp(18px, 4.8vw, 24px) !important;
+  text-align: center !important;
+}
+
+.vr-ending-text{
+  margin: 0 0 10px !important;
+  font-size: clamp(12px, 3.4vw, 14px) !important;
+  line-height: 1.35 !important;
+  text-align: center !important;
+  color: var(--vr-text-muted) !important;
+}
+
+/* ==========================================================
+   FIN DE REGNE — boutons
+   ========================================================== */
+#vr-ending-overlay .vr-choice-button{
+  background-image: none !important;
+  background: rgba(255,255,255,0.07) !important;
+  border: 1px solid rgba(255,255,255,0.14) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.20) !important;
+
+  min-height: clamp(28px, 6.8vw, 36px) !important;
+  padding: 6px 10px !important;
+
+  width: 100% !important;
+  max-width: none !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+
+  color: #ffffff !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  font-size: clamp(13px, 3.4vw, 15px) !important;
+  font-weight: 800 !important;
+  line-height: 1.05 !important;
+  text-align: center !important;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.35) !important;
+}
+
+#vr-ending-overlay .vr-choice-button span{
+  position: static !important;
+  inset: auto !important;
+  width: auto !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  display: block !important;
+  text-align: inherit !important;
+  color: inherit !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+  text-shadow: inherit !important;
+
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+}
+
+#vr-ending-overlay .vr-ending-reward{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  padding: 0 !important;
+  margin: 2px 0 4px !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+#vr-ending-overlay .vr-ending-reward img{
+  width: clamp(24px, 7vw, 30px) !important;
+  height: clamp(24px, 7vw, 30px) !important;
+  object-fit: contain !important;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.28)) !important;
+  transform: translateY(2px) !important;
+}
+
+#vr-ending-overlay .vr-ending-reward strong{
+  font-size: clamp(18px, 4.8vw, 22px) !important;
+  font-weight: 950 !important;
+  letter-spacing: .2px !important;
+  line-height: 1 !important;
+}
+
+#vr-ending-overlay .vr-ending-double{
+  position: relative !important;
+  overflow: hidden !important;
+  display: flex ;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 1px !important;
+  width: 100% !important;
+  min-height: clamp(38px, 8.2vw, 46px) !important;
+  padding: 6px 10px !important;
+  margin-top: 4px !important;
+  border: 1px solid rgba(255,255,255,.14) !important;
+  border-radius: 14px !important;
+  background: linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.05)) !important;
+  box-shadow: 0 10px 20px rgba(0,0,0,.24) !important;
+  color: #fff !important;
+  font: inherit !important;
+  cursor: pointer !important;
+}
+
+#vr-ending-overlay .vr-ending-double-title{
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  font-size: clamp(15px, 4vw, 18px) !important;
+  font-weight: 950 !important;
+  line-height: 1.05 !important;
+}
+
+#vr-ending-overlay .vr-ending-double-title img{
+  width: clamp(22px, 6vw, 28px) !important;
+  height: clamp(22px, 6vw, 28px) !important;
+  object-fit: contain !important;
+}
+
+#vr-ending-overlay .vr-ending-double-sub{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 7px !important;
+  font-size: clamp(15px, 3.8vw, 17px) !important;
+  font-weight: 900 !important;
+  line-height: 1.1 !important;
+  opacity: 1 !important;
+}
+
+#vr-ending-overlay .vr-ending-double-sub img{
+  width: clamp(18px, 5vw, 20px) !important;
+  height: clamp(18px, 5vw, 20px) !important;
+  object-fit: contain !important;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,.28)) !important;
+}
+
+#vr-ending-overlay .vr-ending-actions{
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  margin-top: 8px !important;
+}
+
+#vr-ending-overlay .vr-ending-actions-bottom{
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 6px !important;
+  margin-top: 0 !important;
+}
+
+#vr-ending-overlay #ending-revive-btn{
+  margin-bottom: 0 !important;
+}
+
+/* ==========================================================
+   POPUP JETON — police de base forcée
+   ========================================================== */
+.vr-popup,
+.vr-popup *{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+}
+.vr-token-gauge-overlay,
+.vr-token-gauge-overlay *{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+}
+
+.vr-popup{
+  position: fixed;
+  inset:0;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  background: rgba(0,0,0,0.58);
+  z-index:200000;
+  padding:18px;
+}
+
+.vr-popup-inner{
+  width: min(560px, 94vw);
+  max-height: min(80vh, 720px);
+  overflow:auto;
+  border-radius: 18px;
+  padding: 16px 14px 14px;
+  background: rgba(12, 16, 32, 0.92);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 14px 40px rgba(0,0,0,.35);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.vr-popup-title{
+  margin: 4px 0 8px;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0.2px;
+  text-align:center;
+}
+
+.vr-token-card{ padding: 12px 14px; text-align:center; }
+.vr-token-card .vr-card-content{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+.vr-token-card .vr-card-title{ font-size: 15px; margin:0 0 4px; text-align:center; }
+.vr-token-card .vr-card-text{ font-size: 13px; line-height: 1.35; text-align:center; }
+
+#vr-token-popup .vr-popup-inner,
+#vr-coins-popup .vr-popup-inner{
+  width:min(560px, 94vw) !important;
+  max-height:min(80vh, 720px) !important;
+  overflow:auto !important;
+  display:flex !important;
+  flex-direction:column !important;
+  gap:10px !important;
+  padding:16px 14px 14px !important;
+  box-sizing:border-box !important;
+
+  border-radius:18px !important;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(8, 18, 48, 0.96) 0%,
+      rgba(14, 31, 74, 0.95) 45%,
+      rgba(28, 56, 118, 0.93) 100%
+    ) !important;
+  border:1px solid rgba(255,255,255,.16) !important;
+  box-shadow:0 14px 40px rgba(0,0,0,.35) !important;
+  backdrop-filter:blur(6px) !important;
+  -webkit-backdrop-filter:blur(6px) !important;
+  color:#fff !important;
+}
+
+#vr-token-popup .vr-card,
+#vr-token-popup .vr-token-card,
+#vr-token-popup .vr-token-basic-card,
+#vr-coins-popup .vr-card,
+#vr-coins-popup .vr-coins-basic-card{
+  position:relative !important;
+  display:block !important;
+  width:100% !important;
+  margin:0 !important;
+  padding:10px 14px !important;
+  border:1px solid var(--vr-card-border) !important;
+  border-radius:var(--vr-radius-xl) !important;
+  background:var(--vr-card-bg) !important;
+  box-shadow:var(--vr-shadow-soft) !important;
+  overflow:hidden !important;
+  text-align:left !important;
+}
+
+#vr-token-popup .vr-card-content,
+#vr-token-popup .vr-token-basic-card .vr-card-content,
+#vr-coins-popup .vr-card-content{
+  position:relative !important;
+  z-index:1 !important;
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  justify-content:center !important;
+  text-align:center !important;
+
+  min-height:auto !important;
+  padding:0 !important;
+  box-sizing:border-box !important;
+
+  border:none !important;
+  border-radius:0 !important;
+  background:none !important;
+  box-shadow:none !important;
+}
+
+
+.vr-token-gauge-overlay{
+  position: fixed;
+  inset:0;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  background: transparent;
+  z-index:210000;
+  padding:18px;
+}
+
+.vr-token-gauge-card{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  width: min(560px, 94vw);
+  border-radius: 18px;
+  padding: 16px 14px 14px;
+  background: rgba(12, 16, 32, 0.92);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 14px 40px rgba(0,0,0,.35);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+#vr-token-gauge-overlay,
+.vr-token-gauge-overlay{ pointer-events:none; }
+#vr-token-gauge-overlay .vr-token-gauge-card,
+.vr-token-gauge-overlay .vr-token-gauge-card{ pointer-events:auto; }
+
+#vr-token-gauge-overlay .vr-token-gauge-card{
+  background:rgba(12, 16, 32, 0.92) !important;
+  border:1px solid rgba(255,255,255,.12) !important;
+  box-shadow:0 14px 40px rgba(0,0,0,.35) !important;
+}
+
+body.vr-token-select-mode .vr-gauge{
+  cursor:pointer;
+}
+body.vr-token-select-mode .vr-gauge-frame{
+  filter: drop-shadow(0 14px 28px rgba(0,0,0,0.38)) drop-shadow(0 0 18px rgba(122,167,255,.28));
+}
+body.vr-token-select-mode .vr-gauge:hover .vr-gauge-frame,
+body.vr-token-select-mode .vr-gauge:active .vr-gauge-frame{
+  filter: drop-shadow(0 18px 34px rgba(0,0,0,0.45)) drop-shadow(0 0 24px rgba(122,167,255,.40));
+}
+
+/* ==========================================================
+   PROFIL / SHOP / SETTINGS
+   ========================================================== */
+.vr-profile-grid{ display:flex; flex-direction:column; gap:10px; margin-top:12px; }
+.vr-profile-card{
+  border-radius: var(--vr-radius-xl);
+  background: rgba(15, 23, 42, 0.96);
+  border: 1px solid rgba(148,163,184,0.5);
+  padding: 10px 14px;
+  box-shadow: var(--vr-shadow-soft);
+}
+
+.vr-footer{
+  display:none !important;
+  height:0 !important;
+  margin:0 !important;
+  padding:0 !important;
+  overflow:hidden !important;
+}
+
+#vr-card-main{ touch-action:none; }
+
+@media (min-width: 768px){
+  .vr-main{ padding: 16px 24px 32px; }
+}
+
+/* ==========================================================
+   GAME — plein écran + pas de scroll + layout serré
+   ========================================================== */
+body.vr-body-game{
+  overflow: hidden;
+
+  --vr-topbar-h: calc(var(--vr-top-btn) + clamp(14px, 2.2vh, 18px) + env(safe-area-inset-top));
+
+  --vr-gauge-size: clamp(58px, 15vw, 108px);
+  --vr-card-w: clamp(360px, 96vw, 980px);
+
+  --vr-scn-h: clamp(132px, 18svh, 280px);
+  --vr-choice-h: clamp(84px, 12.8svh, 210px);
+
+  --vr-scn-inset-top: 14%;
+  --vr-scn-inset-right: 10%;
+  --vr-scn-inset-bottom: 14%;
+  --vr-scn-inset-left: 10%;
+
+  --vr-choice-inset-top: 18%;
+  --vr-choice-inset-right: 10%;
+  --vr-choice-inset-bottom: 18%;
+  --vr-choice-inset-left: 10%;
+
+  --vr-game-gap: clamp(1px, 0.25svh, 4px);
+  --vr-stack-gap: clamp(4px, 0.55svh, 8px);
+  --vr-choices-gap: clamp(6px, 0.7svh, 10px);
+}
+
+body.vr-body-game .vr-game-header{ display:none !important; }
+
+body.vr-body-game .vr-main{
+  max-width:none !important;
+  margin:0 !important;
+  padding:0 !important;
+  width:100vw !important;
+  height:100vh !important;
+  overflow:hidden !important;
+}
+
+body.vr-body-game #view-game{
+  position: fixed;
+  inset: 0;
+  width:100%;
+  height:100svh;
+  min-height:100svh;
+  margin:0;
+
+  padding:
+    var(--vr-topbar-h)
+    clamp(10px, 3.4vw, 18px)
+    clamp(8px, 1.2svh, 12px)
+    clamp(10px, 3.4vw, 18px) !important;
+
+  border-radius:0;
+  border:none;
+  box-shadow:none;
+  overflow:hidden !important;
+
+  display:grid !important;
+  grid-template-rows: auto auto 1fr;
+  row-gap: var(--vr-game-gap) !important;
+}
+
+body.vr-body-game #view-game .vr-hud{ grid-row: 1; }
+body.vr-body-game #view-game .vr-gauges-row{ grid-row: 2; }
+body.vr-body-game #view-game .vr-card-container{ grid-row: 3; }
+
+body.vr-body-game .vr-gauges-row{
+  width:100%;
+  max-width: 980px;
+  margin: 0 auto 0 !important;
+  display:grid !important;
+  grid-template-columns: repeat(4, minmax(0,1fr));
+  gap: clamp(8px, 2.2vw, 14px);
+}
+
+body.vr-body-game .vr-gauge{
+  flex-direction:column;
+  align-items:center;
+  gap:6px;
+}
+body.vr-body-game .vr-gauge-label{
+  font-size: clamp(11px, 2.1vmin, 15px);
+  min-width:0;
+  text-align:center;
+  min-height: 2.0em;
+  line-height:1.15;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 0 2px;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.45);
+}
+
+body.vr-body-game .vr-card-container{
+  min-height:0;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center !important;
+  margin-top: 0 !important;
+}
+
+body.vr-body-game .vr-card-stack{
+  width: min(100%, var(--vr-card-w)) !important;
+  max-width:none !important;
+  margin-inline:auto !important;
+  align-self:stretch !important;
+  gap: var(--vr-stack-gap) !important;
+  min-height:0;
+}
+
+body.vr-body-game .vr-card-main{
+  width:100% !important;
+  max-width:none !important;
+  margin-inline:auto !important;
+  min-height: var(--vr-scn-h) !important;
+  background-size: 100% 100% !important;
+  padding:
+    var(--vr-scn-inset-top)
+    var(--vr-scn-inset-right)
+    var(--vr-scn-inset-bottom)
+    var(--vr-scn-inset-left) !important;
+}
+
+body.vr-body-game .vr-card-choices{ gap: var(--vr-choices-gap) !important; }
+body.vr-body-game .vr-choice-button{
+  width:100% !important;
+  max-width:none !important;
+  margin-inline:auto !important;
+  min-height: var(--vr-choice-h) !important;
+  background-size: 100% 100% !important;
+}
+
+/* ==========================================================
+   TOP ICONS (GAME) — fixed
+   ========================================================== */
+body.vr-body-game .vr-top-actions-game{
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 100000 !important;
+
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  flex-wrap:nowrap !important;
+
+  gap: clamp(8px, 2.2vw, 16px) !important;
+  padding: calc(clamp(8px, 1.1vh, 12px) + env(safe-area-inset-top)) 16px 6px !important;
+
+  pointer-events:none !important;
+}
+body.vr-body-game .vr-top-actions-game .vr-icon-button{
+  pointer-events:auto !important;
+  width: var(--vr-top-btn) !important;
+  height: var(--vr-top-btn) !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+}
+body.vr-body-game .vr-top-actions-game .vr-top-icon{
+  width: var(--vr-top-icon) !important;
+  height: var(--vr-top-icon) !important;
+  max-width: var(--vr-top-icon) !important;
+  max-height: var(--vr-top-icon) !important;
+  object-fit: contain !important;
+  display:block !important;
+}
+
+/* =================================================================================================
+   ================================================================================================= */
+
+/* =========================
+   0) DEFAULTS UI CHROME (fallback)
+   ========================= */
+body.vr-body-game{
+  --vr-ui-topbar-img: none;
+  --vr-ui-hud-img: none;
+  --vr-ui-back-img: none;
+  --vr-ui-customize-img: none;
+
+  --vr-ui-topbar-w: clamp(220px, 54vw, 420px);
+  --vr-ui-topbar-r: 0.275;
+  --vr-ui-back-size: clamp(46px, 11vw, 76px);
+  --vr-ui-customize-size: clamp(46px, 11vw, 76px);
+  --vr-ui-hud-w: min(94vw, 980px);
+
+  --vr-ui-topbar-top: 14px;
+  --vr-ui-back-top: 18px;
+  --vr-ui-back-left: 20px;
+  --vr-ui-customize-top: 18px;
+  --vr-ui-customize-right: 20px;
+
+  --vr-ui-topbtn-top: 16%;
+  --vr-ui-topbtn-w: 17%;
+  --vr-ui-topbtn-h: 72%;
+  --vr-ui-topbtn-1-left: 16%;
+  --vr-ui-topbtn-2-left: 41%;
+  --vr-ui-topbtn-3-left: 66%;
+
+  --vr-hud-left-x: 3.3%;
+  --vr-hud-left-w: 17.8%;
+  --vr-hud-center-l: 20.2%;
+  --vr-hud-center-r: 20.2%;
+  --vr-hud-right-r: 5.3%;
+  --vr-hud-right-w: 17.8%;
+  --vr-hud-item-ty: -11px;
+
+  --vr-identity-tx: 0px;
+  --vr-identity-ty: 0px;
+  --vr-hud-name-years-gap: clamp(14px, 2.4vw, 24px);
+
+  --vr-vcoins-tx: 0px;
+  --vr-vcoins-ty: -2px;
+  --vr-jetons-tx: 0px;
+  --vr-jetons-ty: -2px;
+
+  --vr-vcoins-color: #FFD166;
+  --vr-vcoins-glow:  rgba(255, 209, 102, .62);
+  --vr-vcoins-bg:    transparent;
+
+  --vr-jetons-color: #F3F4F6;
+  --vr-jetons-glow:  rgba(243, 244, 246, .18);
+  --vr-jetons-bg:    transparent;
+
+  --vr-scn-inset-top: 14%;
+  --vr-scn-inset-right: 10%;
+  --vr-scn-inset-bottom: 14%;
+  --vr-scn-inset-left: 10%;
+
+  --vr-choice-inset-top: 18%;
+  --vr-choice-inset-right: 10%;
+  --vr-choice-inset-bottom: 18%;
+  --vr-choice-inset-left: 10%;
+}
+
+/* =========================
+   1) APPLY UI CHROME
+   ========================= */
+body.vr-body-game{
+  --vr-topbar-h: calc((var(--vr-ui-topbar-w) * var(--vr-ui-topbar-r)) + env(safe-area-inset-top) + 8px);
+}
+
+body.vr-body-game .vr-top-actions-game{
+  position: fixed !important;
+  top: calc(var(--vr-ui-topbar-top) + env(safe-area-inset-top)) !important;
+  left: 50% !important;
+  right: auto !important;
+  transform: translateX(-50%) !important;
+
+  width: var(--vr-ui-topbar-w) !important;
+  height: calc(var(--vr-ui-topbar-w) * var(--vr-ui-topbar-r)) !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+  gap: 0 !important;
+
+  display: block !important;
+  pointer-events: none !important;
+  z-index: 100000 !important;
+}
+
+body.vr-body-game .vr-top-actions-game::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: var(--vr-ui-topbar-img) center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+
+body.vr-body-game .vr-top-actions-game .vr-top-icon{ display:none !important; }
+
+body.vr-body-game .vr-top-actions-game .vr-icon-button{
+  position:absolute !important;
+  top: var(--vr-ui-topbtn-top) !important;
+  width: var(--vr-ui-topbtn-w) !important;
+  height: var(--vr-ui-topbtn-h) !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  pointer-events:auto !important;
+  z-index:1 !important;
+}
+body.vr-body-game .vr-top-actions-game .vr-icon-button:nth-child(1){ left: var(--vr-ui-topbtn-1-left) !important; }
+body.vr-body-game .vr-top-actions-game .vr-icon-button:nth-child(2){ left: var(--vr-ui-topbtn-2-left) !important; }
+body.vr-body-game .vr-top-actions-game .vr-icon-button:nth-child(3){ left: var(--vr-ui-topbtn-3-left) !important; }
+
+body.vr-body-game > a.vr-icon-button[aria-label="Accueil"]{
+  position: fixed !important;
+  top: calc(var(--vr-ui-back-top) + env(safe-area-inset-top)) !important;
+  left: var(--vr-ui-back-left) !important;
+  width: var(--vr-ui-back-size) !important;
+  height: var(--vr-ui-back-size) !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  z-index:100002 !important;
+  pointer-events:auto !important;
+}
+body.vr-body-game > a.vr-icon-button[aria-label="Accueil"] .vr-top-icon{ display:none !important; }
+body.vr-body-game > a.vr-icon-button[aria-label="Accueil"]::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: var(--vr-ui-back-img) center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+
+body.vr-body-game #btn-customize{
+  position: fixed !important;
+  top: calc(var(--vr-ui-customize-top) + env(safe-area-inset-top)) !important;
+  right: var(--vr-ui-customize-right) !important;
+  width: var(--vr-ui-customize-size) !important;
+  height: var(--vr-ui-customize-size) !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  z-index:100002 !important;
+  pointer-events:auto !important;
+}
+body.vr-body-game #btn-customize .vr-top-icon{ display:none !important; }
+body.vr-body-game #btn-customize::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: var(--vr-ui-customize-img) center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+
+body.vr-body-game .vr-hud{
+  position: relative !important;
+  width: var(--vr-ui-hud-w) !important;
+  max-width:none !important;
+  margin:0 auto !important;
+  padding:0 !important;
+  display:block !important;
+  white-space: normal !important;
+
+  aspect-ratio: 1024 / 269;
+  background: var(--vr-ui-hud-img) center / 100% 100% no-repeat;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.20));
+}
+
+body.vr-body-game .vr-hud-left,
+body.vr-body-game .vr-hud-center,
+body.vr-body-game .vr-hud-right{
+  position:absolute !important;
+  top:0 !important;
+  bottom:0 !important;
+  min-width:0 !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  transform:none !important;
+  justify-self:auto !important;
+}
+body.vr-body-game .vr-hud-left{
+  left: var(--vr-hud-left-x) !important;
+  width: var(--vr-hud-left-w) !important;
+}
+body.vr-body-game .vr-hud-center{
+  left: var(--vr-hud-center-l) !important;
+  right: var(--vr-hud-center-r) !important;
+}
+body.vr-body-game .vr-hud-right{
+  right: var(--vr-hud-right-r) !important;
+  width: var(--vr-hud-right-w) !important;
+}
+
+body.vr-body-game .vr-hud-item{
+  width:100% !important;
+  height:100% !important;
+  min-height:0 !important;
+  padding:0 !important;
+  gap:0 !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow:none !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+  transform: translateY(var(--vr-hud-item-ty)) !important;
+  position: relative !important;
+}
+
+body.vr-body-game .vr-hud-item .vr-hud-icon-btn{
+  position:absolute !important;
+  inset:0 !important;
+  width:auto !important;
+  height:auto !important;
+  min-width:0 !important;
+  min-height:0 !important;
+  padding:0 !important;
+  margin:0 !important;
+  background:transparent !important;
+  border-radius:999px !important;
+  z-index:50 !important;
+  cursor:pointer !important;
+  pointer-events:auto !important;
+  font-size:0 !important;
+  line-height:0 !important;
+}
+
+body.vr-body-game .vr-hud-item .vr-hud-icon{ display:none !important; }
+
+body.vr-body-game .vr-hud-item .vr-hud-value{
+  position: relative !important;
+  z-index: 3 !important;
+  pointer-events:none !important;
+  text-align:center !important;
+}
+
+body.vr-body-game .vr-hud-identity{
+  gap: var(--vr-hud-name-years-gap) !important;
+  transform: translate(var(--vr-identity-tx), var(--vr-identity-ty)) !important;
+}
+
+body.vr-body-game .vr-hud-left .vr-hud-value{
+  transform: translate(var(--vr-vcoins-tx), var(--vr-vcoins-ty)) !important;
+  color: var(--vr-vcoins-color) !important;
+  text-shadow: 0 2px 10px rgba(0,0,0,.55), 0 0 14px var(--vr-vcoins-glow) !important;
+}
+body.vr-body-game .vr-hud-right .vr-hud-value{
+  transform: translate(var(--vr-jetons-tx), var(--vr-jetons-ty)) !important;
+  color: var(--vr-jetons-color) !important;
+  text-shadow: 0 2px 10px rgba(0,0,0,.55), 0 0 14px var(--vr-jetons-glow) !important;
+}
+
+body.vr-body-game .vr-hud-left .vr-hud-item{ background: var(--vr-vcoins-bg) !important; }
+body.vr-body-game .vr-hud-right .vr-hud-item{ background: var(--vr-jetons-bg) !important; }
+
+body.vr-body-game .vr-card-main{
+  padding:
+    var(--vr-scn-inset-top)
+    var(--vr-scn-inset-right)
+    var(--vr-scn-inset-bottom)
+    var(--vr-scn-inset-left) !important;
+}
+body.vr-body-game .vr-choice-label{
+  inset:
+    var(--vr-choice-inset-top)
+    var(--vr-choice-inset-right)
+    var(--vr-choice-inset-bottom)
+    var(--vr-choice-inset-left) !important;
+}
+
+/* ==========================================================
+   POLICES UNIVERS
+   ========================================================== */
+@font-face{
+  font-family: "VR_Quintess";
+  src: url("../assets/fronts/Quintessential-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "VR_LoveSister";
+  src: url("../assets/fronts/LoveYaLikeASister-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "VR_Cinzel";
+  src: url("../assets/fronts/Cinzel-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "VR_Cormorant";
+  src: url("../assets/fronts/CormorantGaramond-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "VR_InterExtraLight";
+  src: url("../assets/fronts/Inter_18pt-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "VR_RobotoThin";
+  src: url("../assets/fronts/RobotoCondensed-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "VR_DMSerifText";
+  src: url("../assets/fronts/DMSerifText-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "VR_OutfitMedium";
+  src: url("../assets/fronts/Outfit-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "AlegreyaSCExplorer";
+  src: url("../assets/fronts/AlegreyaSC-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "MerriweatherExplorer";
+  src: url("../assets/fronts/Merriweather_24pt-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "MerriweatherExplorer";
+  src: url("../assets/fronts/Merriweather_96pt-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "MerriweatherExplorer";
+  src: url("../assets/fronts/Merriweather_96pt-Bold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "VR_PirataOne";
+  src: url("../assets/fronts/PirataOne-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "VR_CrimsonText";
+  src: url("../assets/fronts/CrimsonText-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* ==========================================================
+   UNIVERS — HELL
+   ========================================================== */
+body[data-universe="hell_king"].vr-body-game #view-game .vr-card-title,
+body[data-universe="hell_king"].vr-body-game #view-game .vr-card-text{
+  font-family: "VR_Quintess", serif !important;
+  color: #000 !important;
+  text-align: center !important;
+  max-width: 92% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+body[data-universe="hell_king"].vr-body-game #view-game .vr-card-title{
+  font-size: clamp(19px, 3.2vmin, 36px) !important;
+  line-height: 1.08 !important;
+  font-weight: 700 !important;
+}
+
+body[data-universe="hell_king"].vr-body-game #view-game .vr-card-text{
+  font-family: "VR_LoveSister", cursive !important;
+  font-size: clamp(15px, 2.7vmin, 29px) !important;
+  line-height: 1.16 !important;
+  font-weight: 700 !important;
+}
+
+body[data-universe="hell_king"].vr-body-game #view-game .vr-choice-label{
+  font-family: "VR_LoveSister", cursive !important;
+  color: #000 !important;
+  text-shadow: none !important;
+}
+
+body.vr-body-game[data-universe="hell_king"]{
+  --vr-card-w: clamp(380px, 98vw, 980px);
+
+  --vr-scn-h: clamp(140px, 19svh, 300px);
+  --vr-choice-h: clamp(88px, 13.2svh, 220px);
+
+  --vr-scn-inset-top: 12%;
+  --vr-scn-inset-right: 14%;
+  --vr-scn-inset-bottom: 16%;
+  --vr-scn-inset-left: 14%;
+
+  --vr-choice-inset-top: 24%;
+  --vr-choice-inset-right: 14%;
+  --vr-choice-inset-bottom: 22%;
+  --vr-choice-inset-left: 14%;
+
+  --vr-font-scn-title: clamp(19px, 3.2vmin, 36px);
+  --vr-font-scn-text:  clamp(15px, 2.7vmin, 29px);
+  --vr-font-choice:    clamp(16px, 3.0vmin, 32px);
+
+  --vr-topbar-h: calc(clamp(56px, 11vw, 90px) + env(safe-area-inset-top) + 8px);
+
+  --vr-hell-hud-w: min(94vw, 980px);
+  --vr-hell-hud-value-size: clamp(13px, 2vw, 24px);
+  --vr-hell-hud-name-size: clamp(13px, 2vw, 28px);
+  --vr-hell-hud-years-size: clamp(10px, 1.25vw, 16px);
+
+  --vr-hell-topbar-w: clamp(220px, 54vw, 420px);
+  --vr-hell-topbar-h: calc(var(--vr-hell-topbar-w) * 0.275);
+
+  --vr-hell-back-size: clamp(46px, 11vw, 76px);
+  --vr-hell-customize-size: clamp(46px, 11vw, 76px);
+
+  --vr-ui-topbar-img: url("../assets/img/ui/hell_topbar.webp");
+  --vr-ui-hud-img: url("../assets/img/ui/hell_hud_bar.webp");
+  --vr-ui-back-img: url("../assets/img/ui/hell_back.webp");
+  --vr-ui-customize-img: url("../assets/img/ui/hell_customize.webp");
+
+  --vr-ui-hud-w: min(94vw, 980px);
+  --vr-ui-topbar-w: clamp(220px, 54vw, 420px);
+  --vr-ui-topbar-r: 0.275;
+  --vr-ui-back-size: clamp(46px, 11vw, 76px);
+  --vr-ui-customize-size: clamp(46px, 11vw, 76px);
+
+  --vr-hud-left-x: 3.5%;
+  --vr-hud-left-w: 17.8%;
+  --vr-hud-center-l: 20.2%;
+  --vr-hud-center-r: 20.2%;
+  --vr-hud-right-r: 5.3%;
+  --vr-hud-right-w: 17.8%;
+  --vr-hud-item-ty: -11px;
+
+  --vr-identity-tx: 0px;
+  --vr-identity-ty: 0px;
+  --vr-hud-name-years-gap: clamp(16px, 2.8vw, 30px);
+
+  --vr-vcoins-tx: 0px;
+  --vr-vcoins-ty: -2px;
+  --vr-jetons-tx: 0px;
+  --vr-jetons-ty: -2px;
+
+  --vr-vcoins-color:#FFCC4D;
+  --vr-vcoins-glow:rgba(255,160,60,.58);
+  --vr-vcoins-bg: transparent;
+
+  --vr-jetons-bg: transparent;
+}
+
+body.vr-body-game[data-universe="hell_king"] #view-game{
+  padding-left: clamp(8px, 2.8vw, 16px) !important;
+  padding-right: clamp(8px, 2.8vw, 16px) !important;
+}
+
+body.vr-body-game[data-universe="hell_king"] .vr-top-actions-game .vr-top-icon,
+body.vr-body-game[data-universe="hell_king"] > a.vr-icon-button[aria-label="Accueil"] .vr-top-icon,
+body.vr-body-game[data-universe="hell_king"] #btn-customize .vr-top-icon{
+  display: none !important;
+}
+
+body.vr-body-game[data-universe="hell_king"] .vr-top-actions-game{
+  position: fixed !important;
+  top: calc(14px + env(safe-area-inset-top)) !important;
+  left: 50% !important;
+  right: auto !important;
+  transform: translateX(-50%) !important;
+
+  width: var(--vr-hell-topbar-w) !important;
+  height: var(--vr-hell-topbar-h) !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+  gap: 0 !important;
+
+  display: block !important;
+  pointer-events: none !important;
+  z-index: 100000 !important;
+}
+body.vr-body-game[data-universe="hell_king"] .vr-top-actions-game::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../assets/img/ui/hell_topbar.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.38));
+  pointer-events: none;
+}
+
+body.vr-body-game[data-universe="hell_king"] .vr-top-actions-game .vr-icon-button{
+  position: absolute !important;
+  top: 16% !important;
+  width: 17% !important;
+  height: 72% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  pointer-events: auto !important;
+  z-index: 1 !important;
+}
+body.vr-body-game[data-universe="hell_king"] .vr-top-actions-game .vr-icon-button:nth-child(1){ left: 16% !important; }
+body.vr-body-game[data-universe="hell_king"] .vr-top-actions-game .vr-icon-button:nth-child(2){ left: 41% !important; }
+body.vr-body-game[data-universe="hell_king"] .vr-top-actions-game .vr-icon-button:nth-child(3){ left: 66% !important; }
+
+body.vr-body-game[data-universe="hell_king"] > a.vr-icon-button[aria-label="Accueil"]{
+  position: fixed !important;
+  top: calc(18px + env(safe-area-inset-top)) !important;
+  left: 20px !important;
+  width: var(--vr-hell-back-size) !important;
+  height: var(--vr-hell-back-size) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  z-index: 100002 !important;
+  pointer-events: auto !important;
+}
+body.vr-body-game[data-universe="hell_king"] > a.vr-icon-button[aria-label="Accueil"]::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../assets/img/ui/hell_back.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.42));
+  pointer-events: none;
+}
+
+body.vr-body-game[data-universe="hell_king"] #btn-customize{
+  position: fixed !important;
+  top: calc(18px + env(safe-area-inset-top)) !important;
+  right: 20px !important;
+  width: var(--vr-hell-customize-size) !important;
+  height: var(--vr-hell-customize-size) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  z-index: 100002 !important;
+  pointer-events: auto !important;
+}
+body.vr-body-game[data-universe="hell_king"] #btn-customize::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../assets/img/ui/hell_customize.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.42));
+  pointer-events: none;
+}
+
+body.vr-body-game[data-universe="hell_king"] .vr-top-actions-game .vr-icon-button:active,
+body.vr-body-game[data-universe="hell_king"] > a.vr-icon-button[aria-label="Accueil"]:active,
+body.vr-body-game[data-universe="hell_king"] #btn-customize:active{
+  transform: scale(0.97);
+}
+
+body.vr-body-game[data-universe="hell_king"] .vr-hud{
+  position: relative !important;
+  width: var(--vr-hell-hud-w) !important;
+  max-width: none !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  display: block !important;
+  white-space: normal !important;
+
+  aspect-ratio: 1024 / 269;
+  background: url("../assets/img/ui/hell_hud_bar.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.42));
+}
+
+body.vr-body-game[data-universe="hell_king"] .vr-hud-left,
+body.vr-body-game[data-universe="hell_king"] .vr-hud-center,
+body.vr-body-game[data-universe="hell_king"] .vr-hud-right{
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  min-width: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transform: none !important;
+  justify-self: auto !important;
+}
+body.vr-body-game[data-universe="hell_king"] .vr-hud-left{ left: 3.5% !important; width: 17.8% !important; }
+body.vr-body-game[data-universe="hell_king"] .vr-hud-center{ left: 20.2% !important; right: 20.2% !important; }
+body.vr-body-game[data-universe="hell_king"] .vr-hud-right{ right: 5.3% !important; width: 17.8% !important; }
+
+body.vr-body-game[data-universe="hell_king"] .vr-hud-item{
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  padding: 0 clamp(1px, 0.22vw, 4px) !important;
+  gap: clamp(1px, 0.18vw, 4px) !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+
+  transform: translateY(-11px) !important;
+}
+
+body.vr-body-game[data-universe="hell_king"] .vr-hud-value{
+  font-size: var(--vr-hell-hud-value-size) !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+  letter-spacing: 0 !important;
+  color: #f2eee8 !important;
+  text-shadow:
+    0 1px 0 rgba(0,0,0,0.45),
+    0 0 8px rgba(0,0,0,0.35) !important;
+  transform: translateY(-2px) !important;
+}
+
+body.vr-body-game[data-universe="hell_king"] .vr-hud-identity{
+  width: 100% !important;
+  max-width: none !important;
+  overflow: hidden !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: var(--vr-hud-name-years-gap, clamp(14px, 2.4vw, 24px)) !important;
+
+  white-space: nowrap !important;
+  text-align: center !important;
+  text-shadow:
+    0 1px 0 rgba(0,0,0,0.5),
+    0 2px 10px rgba(0,0,0,0.55) !important;
+}
+
+body.vr-body-game[data-universe="hell_king"] .vr-hud-name{
+  font-family: "VR_Quintess", serif !important;
+  transform: translateY(-2px) !important;
+  font-size: var(--vr-hell-hud-name-size) !important;
+  font-weight: 700 !important;
+  color: #f4ede5 !important;
+  line-height: 1.12 !important;
+  max-width: 75% !important;
+  overflow: visible !important;
+  text-overflow: ellipsis !important;
+  padding-bottom: 2px !important;
+}
+body.vr-body-game[data-universe="hell_king"] .vr-hud-years{
+  font-family: "VR_Quintess", serif !important;
+  font-size: var(--vr-hell-hud-name-size) !important;
+  font-weight: 700 !important;
+  color: rgba(244,237,229,0.95) !important;
+  line-height: 1.12 !important;
+  transform: translateY(-2px) !important;
+  opacity: 0.95 !important;
+  flex: 0 0 auto !important;
+  overflow: visible !important;
+  padding-bottom: 2px !important;
+}
+
+body.vr-body-game[data-universe="hell_king"] #view-game .vr-card-main{
+  overflow: hidden;
+  background-size: 90% 90% !important;
+  background-position: center !important;
+}
+body.vr-body-game[data-universe="hell_king"] #view-game .vr-choice-button{
+  background-size: 90% 90% !important;
+  background-position: center !important;
+}
+
+#view-game.vr-bg-hell_king{
+  --vr-universe-bg: url("../assets/img/backgrounds/hell_default_gray.webp");
+  --vr-universe-card: url("../assets/img/ui/hell_msg_default_gray.webp");
+  --vr-universe-choice: url("../assets/img/ui/hell_choice_default_gray.webp");
+}
+
+body[data-universe="hell_king"] .vr-gauge[data-gauge-id="souls"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/hell_king/g1_frame.webp"); }
+body[data-universe="hell_king"] .vr-gauge[data-gauge-id="souls"] .vr-gauge-fill,
+body[data-universe="hell_king"] .vr-gauge[data-gauge-id="souls"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/hell_king/g1_fill.webp"); }
+
+body[data-universe="hell_king"] .vr-gauge[data-gauge-id="legions"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/hell_king/g2_frame.webp"); }
+body[data-universe="hell_king"] .vr-gauge[data-gauge-id="legions"] .vr-gauge-fill,
+body[data-universe="hell_king"] .vr-gauge[data-gauge-id="legions"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/hell_king/g2_fill.webp"); }
+
+body[data-universe="hell_king"] .vr-gauge[data-gauge-id="order"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/hell_king/g3_frame.webp"); }
+body[data-universe="hell_king"] .vr-gauge[data-gauge-id="order"] .vr-gauge-fill,
+body[data-universe="hell_king"] .vr-gauge[data-gauge-id="order"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/hell_king/g3_fill.webp"); }
+
+body[data-universe="hell_king"] .vr-gauge[data-gauge-id="surface"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/hell_king/g4_frame.webp"); }
+body[data-universe="hell_king"] .vr-gauge[data-gauge-id="surface"] .vr-gauge-fill,
+body[data-universe="hell_king"] .vr-gauge[data-gauge-id="surface"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/hell_king/g4_fill.webp"); }
+
+@media (max-width: 480px){
+  body.vr-body-game[data-universe="hell_king"]{
+    --vr-hell-hud-w: 96vw;
+    --vr-hell-hud-value-size: clamp(11px, 2.8vw, 14px);
+    --vr-hell-hud-name-size: clamp(11px, 3.1vw, 16px);
+    --vr-hell-hud-years-size: clamp(9px, 2vw, 12px);
+
+    --vr-hell-topbar-w: clamp(210px, 58vw, 300px);
+    --vr-hell-back-size: clamp(40px, 12vw, 60px);
+    --vr-hell-customize-size: clamp(40px, 12vw, 60px);
+    --vr-topbar-h: calc(clamp(50px, 12vw, 76px) + env(safe-area-inset-top) + 6px);
+
+    --vr-ui-topbar-top: 12px;
+    --vr-ui-back-top: 16px;
+    --vr-ui-back-left: 16px;
+    --vr-ui-customize-top: 16px;
+    --vr-ui-customize-right: 16px;
+    --vr-hud-item-ty: -4px;
+  }
+
+  body.vr-body-game[data-universe="hell_king"] .vr-hud-left{ left: 3.5% !important; width: 18.4% !important; }
+  body.vr-body-game[data-universe="hell_king"] .vr-hud-right{ right: 5.3% !important; width: 18.4% !important; }
+  body.vr-body-game[data-universe="hell_king"] .vr-hud-center{ left: 20.8% !important; right: 20.8% !important; }
+
+  body.vr-body-game[data-universe="hell_king"] .vr-top-actions-game{ top: calc(12px + env(safe-area-inset-top)) !important; }
+  body.vr-body-game[data-universe="hell_king"] > a.vr-icon-button[aria-label="Accueil"]{ top: calc(16px + env(safe-area-inset-top)) !important; left: 16px !important; }
+  body.vr-body-game[data-universe="hell_king"] #btn-customize{ top: calc(16px + env(safe-area-inset-top)) !important; right: 16px !important; }
+
+  body.vr-body-game[data-universe="hell_king"] .vr-hud-item{ transform: translateY(-4px) !important; }
+  body.vr-body-game[data-universe="hell_king"] .vr-hud-value{ transform: translateY(-1px) !important; }
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   UNIVERS — INTRO
+   ========================================================== */
+body[data-universe="intro"].vr-body-game #view-game .vr-card-title{
+  font-family: Georgia, "Times New Roman", serif !important;
+  color: #000 !important;
+  line-height: 1.08 !important;
+  max-width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.005em !important;
+  text-wrap: balance !important;
+}
+
+body[data-universe="intro"].vr-body-game #view-game .vr-card-text{
+  font-family: Georgia, "Times New Roman", serif !important;
+  color: #000 !important;
+  line-height: 1.22 !important;
+  max-width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  font-weight: 500 !important;
+}
+
+body[data-universe="intro"].vr-body-game #view-game .vr-choice-label{
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #000 !important;
+  text-shadow: none !important;
+  font-weight: 700 !important;
+  line-height: 1.08 !important;
+
+  inset:
+    var(--vr-choice-inset-top)
+    auto
+    var(--vr-choice-inset-bottom)
+    50% !important;
+
+  width: var(--vr-choice-safe) !important;
+  max-width: var(--vr-choice-safe) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: translateX(-50%) !important;
+
+  text-align: center !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+}
+
+body.vr-body-game[data-universe="intro"]{
+  --vr-card-w: clamp(360px, 95.5vw, 960px);
+
+  --vr-scn-h: clamp(168px, 20.4svh, 308px);
+  --vr-choice-h: clamp(96px, 12.9svh, 178px);
+
+  --vr-scn-inset-top: 12%;
+  --vr-scn-inset-right: 13%;
+  --vr-scn-inset-bottom: 18%;
+  --vr-scn-inset-left: 13%;
+
+  --vr-choice-inset-top: 18%;
+  --vr-choice-inset-right: 11%;
+  --vr-choice-inset-bottom: 18%;
+  --vr-choice-inset-left: 11%;
+  --vr-choice-safe: 74%;
+
+  --vr-font-scn-title: clamp(18px, 2.8vmin, 30px);
+  --vr-font-scn-text:  clamp(14px, 2.25vmin, 22px);
+  --vr-font-choice:    clamp(15px, 2.5vmin, 24px);
+
+  --vr-topbar-h: calc(clamp(56px, 11vw, 90px) + env(safe-area-inset-top) + 8px);
+
+  --vr-intro-hud-w: min(94vw, 980px);
+  --vr-intro-hud-value-size: clamp(13px, 2vw, 24px);
+  --vr-intro-hud-name-size: clamp(13px, 2vw, 28px);
+  --vr-intro-hud-years-size: clamp(10px, 1.25vw, 16px);
+
+  --vr-intro-topbar-w: clamp(220px, 54vw, 420px);
+  --vr-intro-topbar-h: calc(var(--vr-intro-topbar-w) * 0.275);
+
+  --vr-intro-back-size: clamp(46px, 11vw, 76px);
+  --vr-intro-customize-size: clamp(46px, 11vw, 76px);
+
+  --vr-ui-topbar-img: url("../assets/img/ui/intro_topbar.webp");
+  --vr-ui-hud-img: url("../assets/img/ui/intro_hud_bar.webp");
+  --vr-ui-back-img: url("../assets/img/ui/intro_back.webp");
+  --vr-ui-customize-img: url("../assets/img/ui/intro_customize.webp");
+
+  --vr-ui-hud-w: min(94vw, 980px);
+  --vr-ui-topbar-w: clamp(220px, 54vw, 420px);
+  --vr-ui-topbar-r: 0.275;
+  --vr-ui-back-size: clamp(46px, 11vw, 76px);
+  --vr-ui-customize-size: clamp(46px, 11vw, 76px);
+
+  --vr-hud-left-x: 3.5%;
+  --vr-hud-left-w: 17.8%;
+  --vr-hud-center-l: 20.2%;
+  --vr-hud-center-r: 20.2%;
+  --vr-hud-right-r: 5.3%;
+  --vr-hud-right-w: 17.8%;
+  --vr-hud-item-ty: -11px;
+
+  --vr-identity-tx: 0px;
+  --vr-identity-ty: 0px;
+  --vr-hud-name-years-gap: clamp(16px, 2.8vw, 30px);
+
+  --vr-vcoins-tx: 0px;
+  --vr-vcoins-ty: -2px;
+  --vr-jetons-tx: 0px;
+  --vr-jetons-ty: -2px;
+
+  --vr-vcoins-color:#FFCC4D;
+  --vr-vcoins-glow:rgba(255,160,60,.58);
+  --vr-vcoins-bg: transparent;
+
+  --vr-jetons-bg: transparent;
+}
+
+body.vr-body-game[data-universe="intro"] #view-game{
+  padding-left: clamp(8px, 2.8vw, 16px) !important;
+  padding-right: clamp(8px, 2.8vw, 16px) !important;
+}
+
+body.vr-body-game[data-universe="intro"] .vr-top-actions-game .vr-top-icon,
+body.vr-body-game[data-universe="intro"] > a.vr-icon-button[aria-label="Accueil"] .vr-top-icon,
+body.vr-body-game[data-universe="intro"] #btn-customize .vr-top-icon{
+  display: none !important;
+}
+
+body.vr-body-game[data-universe="intro"] .vr-top-actions-game{
+  position: fixed !important;
+  top: calc(14px + env(safe-area-inset-top)) !important;
+  left: 50% !important;
+  right: auto !important;
+  transform: translateX(-50%) !important;
+
+  width: var(--vr-intro-topbar-w) !important;
+  height: var(--vr-intro-topbar-h) !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+  gap: 0 !important;
+
+  display: block !important;
+  pointer-events: none !important;
+  z-index: 100000 !important;
+}
+body.vr-body-game[data-universe="intro"] .vr-top-actions-game::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../assets/img/ui/intro_topbar.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.38));
+  pointer-events: none;
+}
+
+body.vr-body-game[data-universe="intro"] .vr-top-actions-game .vr-icon-button{
+  position: absolute !important;
+  top: 16% !important;
+  width: 17% !important;
+  height: 72% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  pointer-events: auto !important;
+  z-index: 1 !important;
+}
+body.vr-body-game[data-universe="intro"] .vr-top-actions-game .vr-icon-button:nth-child(1){ left: 16% !important; }
+body.vr-body-game[data-universe="intro"] .vr-top-actions-game .vr-icon-button:nth-child(2){ left: 41% !important; }
+body.vr-body-game[data-universe="intro"] .vr-top-actions-game .vr-icon-button:nth-child(3){ left: 66% !important; }
+
+body.vr-body-game[data-universe="intro"] > a.vr-icon-button[aria-label="Accueil"]{
+  position: fixed !important;
+  top: calc(18px + env(safe-area-inset-top)) !important;
+  left: 20px !important;
+  width: var(--vr-intro-back-size) !important;
+  height: var(--vr-intro-back-size) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  z-index: 100002 !important;
+  pointer-events: auto !important;
+}
+body.vr-body-game[data-universe="intro"] > a.vr-icon-button[aria-label="Accueil"]::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../assets/img/ui/intro_back.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.42));
+  pointer-events: none;
+}
+
+body.vr-body-game[data-universe="intro"] #btn-customize{
+  position: fixed !important;
+  top: calc(18px + env(safe-area-inset-top)) !important;
+  right: 20px !important;
+  width: var(--vr-intro-customize-size) !important;
+  height: var(--vr-intro-customize-size) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  z-index: 100002 !important;
+  pointer-events: auto !important;
+}
+body.vr-body-game[data-universe="intro"] #btn-customize::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../assets/img/ui/intro_customize.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.42));
+  pointer-events: none;
+}
+
+body.vr-body-game[data-universe="intro"] .vr-top-actions-game .vr-icon-button:active,
+body.vr-body-game[data-universe="intro"] > a.vr-icon-button[aria-label="Accueil"]:active,
+body.vr-body-game[data-universe="intro"] #btn-customize:active{
+  transform: scale(0.97);
+}
+
+body.vr-body-game[data-universe="intro"] .vr-hud{
+  position: relative !important;
+  width: var(--vr-intro-hud-w) !important;
+  max-width: none !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  display: block !important;
+  white-space: normal !important;
+
+  aspect-ratio: 1024 / 269;
+  background: url("../assets/img/ui/intro_hud_bar.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.42));
+}
+
+body.vr-body-game[data-universe="intro"] .vr-hud-left,
+body.vr-body-game[data-universe="intro"] .vr-hud-center,
+body.vr-body-game[data-universe="intro"] .vr-hud-right{
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  min-width: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transform: none !important;
+  justify-self: auto !important;
+}
+body.vr-body-game[data-universe="intro"] .vr-hud-left{ left: 3.5% !important; width: 17.8% !important; }
+body.vr-body-game[data-universe="intro"] .vr-hud-center{ left: 20.2% !important; right: 20.2% !important; }
+body.vr-body-game[data-universe="intro"] .vr-hud-right{ right: 5.3% !important; width: 17.8% !important; }
+
+body.vr-body-game[data-universe="intro"] .vr-hud-item{
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  padding: 0 clamp(1px, 0.22vw, 4px) !important;
+  gap: clamp(1px, 0.18vw, 4px) !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+
+  transform: translateY(-11px) !important;
+}
+
+body.vr-body-game[data-universe="intro"] .vr-hud-value{
+  font-size: var(--vr-intro-hud-value-size) !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+  letter-spacing: 0 !important;
+  color: #111 !important;
+  text-shadow: none !important;
+}
+
+body.vr-body-game[data-universe="intro"] .vr-hud-left .vr-hud-value{
+  transform: translateY(-2px) translateX(0px) !important;
+}
+
+body.vr-body-game[data-universe="intro"] .vr-hud-right .vr-hud-value{
+  transform: translateY(-2px) translateX(6px) !important;
+}
+
+body.vr-body-game[data-universe="intro"] .vr-hud-identity{
+  width: 100% !important;
+  max-width: none !important;
+  overflow: hidden !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: var(--vr-hud-name-years-gap, clamp(14px, 2.4vw, 24px)) !important;
+
+  white-space: nowrap !important;
+  text-align: center !important;
+  text-shadow:
+    0 1px 0 rgba(0,0,0,0.5),
+    0 2px 10px rgba(0,0,0,0.55) !important;
+}
+
+body.vr-body-game[data-universe="intro"] .vr-hud-name{
+  font-family: Georgia, "Times New Roman", serif !important;
+  transform: translateY(-4px) !important;
+  font-size: var(--vr-intro-hud-name-size) !important;
+  font-weight: 700 !important;
+  color: #f4ede5 !important;
+  line-height: 1 !important;
+  max-width: 75% !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+body.vr-body-game[data-universe="intro"] .vr-hud-years{
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: var(--vr-intro-hud-name-size) !important;
+  font-weight: 700 !important;
+  color: rgba(244,237,229,0.95) !important;
+  line-height: 1 !important;
+  transform: translateY(-4px) !important;
+  opacity: 0.95 !important;
+  flex: 0 0 auto !important;
+}
+
+body.vr-body-game[data-universe="intro"] #view-game .vr-card-main{
+  overflow: hidden;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+}
+
+body.vr-body-game[data-universe="intro"] #view-game .vr-choice-button{
+  background-size: 106% 100% !important;
+  background-position: center !important;
+}
+
+body.vr-body-game[data-universe="intro"] #view-game .vr-card-main .vr-card-text{
+  max-height: none !important;
+  overflow: visible !important;
+  padding-right: 0 !important;
+}
+
+
+body.vr-body-game[data-universe="intro"] > a.vr-icon-button[aria-label="Accueil"],
+body.vr-body-game[data-universe="intro"] .vr-top-actions-game,
+body.vr-body-game[data-universe="intro"] .vr-hud-center{
+  display:none !important;
+}
+
+body.vr-body-game[data-universe="intro"] #btn-customize{
+  display:block !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  pointer-events:none !important;
+}
+
+#view-game.vr-bg-intro{
+  --vr-universe-bg: url("../assets/img/backgrounds/intro_default_gray.webp");
+  --vr-universe-card: url("../assets/img/ui/intro_msg_default_gray.webp");
+  --vr-universe-choice: url("../assets/img/ui/intro_choice_default_gray.webp");
+}
+
+body[data-universe="intro"] .vr-gauge[data-gauge-id="vision"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/intro/g1_frame.webp"); }
+body[data-universe="intro"] .vr-gauge[data-gauge-id="vision"] .vr-gauge-fill,
+body[data-universe="intro"] .vr-gauge[data-gauge-id="vision"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/intro/g1_fill.webp"); }
+
+body[data-universe="intro"] .vr-gauge[data-gauge-id="balance"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/intro/g2_frame.webp"); }
+body[data-universe="intro"] .vr-gauge[data-gauge-id="balance"] .vr-gauge-fill,
+body[data-universe="intro"] .vr-gauge[data-gauge-id="balance"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/intro/g2_fill.webp"); }
+
+body[data-universe="intro"] .vr-gauge[data-gauge-id="power"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/intro/g3_frame.webp"); }
+body[data-universe="intro"] .vr-gauge[data-gauge-id="power"] .vr-gauge-fill,
+body[data-universe="intro"] .vr-gauge[data-gauge-id="power"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/intro/g3_fill.webp"); }
+
+body[data-universe="intro"] .vr-gauge[data-gauge-id="legacy"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/intro/g4_frame.webp"); }
+body[data-universe="intro"] .vr-gauge[data-gauge-id="legacy"] .vr-gauge-fill,
+body[data-universe="intro"] .vr-gauge[data-gauge-id="legacy"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/intro/g4_fill.webp"); }
+
+@media (max-width: 480px){
+  body.vr-body-game[data-universe="intro"]{
+    --vr-card-w: 96.8vw;
+
+    --vr-scn-h: clamp(150px, 20.5svh, 214px);
+    --vr-choice-h: clamp(86px, 12.5svh, 132px);
+
+    --vr-scn-inset-top: 12%;
+    --vr-scn-inset-right: 12%;
+    --vr-scn-inset-bottom: 18%;
+    --vr-scn-inset-left: 12%;
+
+    --vr-choice-inset-top: 16%;
+    --vr-choice-inset-right: 12%;
+    --vr-choice-inset-bottom: 16%;
+    --vr-choice-inset-left: 12%;
+    --vr-choice-safe: 76%;
+
+    --vr-font-scn-title: clamp(17px, 4.4vw, 22px);
+    --vr-font-scn-text: clamp(13px, 3.55vw, 17px);
+    --vr-font-choice: clamp(14px, 3.7vw, 18px);
+
+    --vr-intro-hud-w: 96vw;
+    --vr-intro-hud-value-size: clamp(11px, 2.8vw, 14px);
+    --vr-intro-hud-name-size: clamp(11px, 3.1vw, 16px);
+    --vr-intro-hud-years-size: clamp(9px, 2vw, 12px);
+
+    --vr-intro-topbar-w: clamp(210px, 58vw, 300px);
+    --vr-intro-back-size: clamp(40px, 12vw, 60px);
+    --vr-intro-customize-size: clamp(40px, 12vw, 60px);
+    --vr-topbar-h: calc(clamp(50px, 12vw, 76px) + env(safe-area-inset-top) + 6px);
+
+    --vr-ui-topbar-top: 12px;
+    --vr-ui-back-top: 16px;
+    --vr-ui-back-left: 16px;
+    --vr-ui-customize-top: 16px;
+    --vr-ui-customize-right: 16px;
+    --vr-hud-item-ty: -4px;
+  }
+
+  body[data-universe="intro"].vr-body-game #view-game .vr-card-title,
+  body[data-universe="intro"].vr-body-game #view-game .vr-card-text{
+    max-width: 94% !important;
+  }
+
+  body.vr-body-game[data-universe="intro"] .vr-hud-left{ left: 3.5% !important; width: 18.4% !important; }
+  body.vr-body-game[data-universe="intro"] .vr-hud-right{ right: 5.3% !important; width: 18.4% !important; }
+  body.vr-body-game[data-universe="intro"] .vr-hud-center{ left: 20.8% !important; right: 20.8% !important; }
+
+  body.vr-body-game[data-universe="intro"] .vr-top-actions-game{ top: calc(12px + env(safe-area-inset-top)) !important; }
+  body.vr-body-game[data-universe="intro"] > a.vr-icon-button[aria-label="Accueil"]{ top: calc(16px + env(safe-area-inset-top)) !important; left: 16px !important; }
+  body.vr-body-game[data-universe="intro"] #btn-customize{ top: calc(16px + env(safe-area-inset-top)) !important; right: 16px !important; }
+
+  body.vr-body-game[data-universe="intro"] .vr-hud-item{ transform: translateY(-4px) !important; }
+  body.vr-body-game[data-universe="intro"] .vr-hud-value{ transform: translateY(2px) !important; }
+
+  body.vr-body-game[data-universe="intro"] #view-game .vr-card-main{
+    background-size: 99% 99% !important;
+  }
+
+  body.vr-body-game[data-universe="intro"] #view-game .vr-choice-button{
+    background-size: 95% 95% !important;
+  }
+}
+
+body.vr-body-game[data-universe="intro"] > a.vr-icon-button[aria-label="Accueil"],
+body.vr-body-game[data-universe="intro"] .vr-top-actions-game,
+body.vr-body-game[data-universe="intro"] .vr-hud-center{
+  display:none !important;
+}
+
+body.vr-body-game[data-universe="intro"] #btn-customize{
+  display:block !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  pointer-events:none !important;
+}
+/* ==========================================================
+   UNIVERS — HEAVEN
+   ========================================================== */
+body[data-universe="heaven_king"].vr-body-game #view-game .vr-card-title{
+  font-family: "VR_Cinzel", serif !important;
+  color: #c4990e !important;
+  font-weight: 600 !important;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.35) !important;
+}
+body[data-universe="heaven_king"].vr-body-game #view-game .vr-card-text{
+  font-family: "VR_Cinzel", serif !important;
+  color: #000 !important;
+  font-weight: 600 !important;
+}
+body[data-universe="heaven_king"].vr-body-game #view-game .vr-choice-label{
+  font-family: "MerriweatherExplorer", serif !important;
+  color: #000 !important;
+  font-weight: 700 !important;
+  line-height: 1.06 !important;
+
+  inset:
+    var(--vr-choice-inset-top)
+    auto
+    var(--vr-choice-inset-bottom)
+    50% !important;
+
+  width: var(--vr-choice-safe) !important;
+  max-width: var(--vr-choice-safe) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: translateX(-50%) !important;
+
+  text-align: center !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+}
+
+body.vr-body-game[data-universe="heaven_king"]{
+  --vr-card-w: clamp(460px, 100vw, 1240px);
+
+  --vr-game-gap: clamp(0px, 0.04svh, 1px);
+  --vr-stack-gap: clamp(4px, 0.40svh, 8px);
+  --vr-choices-gap: clamp(5px, 0.55svh, 10px);
+
+  --vr-scn-h: clamp(150px, 19.2svh, 320px);
+  --vr-choice-h: clamp(124px, 15.8svh, 220px);
+
+  --vr-scn-inset-top: 12%;
+  --vr-scn-inset-right: 13%;
+  --vr-scn-inset-bottom: 18%;
+  --vr-scn-inset-left: 13%;
+
+  --vr-choice-inset-top: 14%;
+  --vr-choice-inset-right: 12%;
+  --vr-choice-inset-bottom: 14%;
+  --vr-choice-inset-left: 12%;
+  --vr-choice-safe: 66%;
+
+  --vr-font-scn-title: clamp(18px, 2.9vmin, 34px);
+  --vr-font-scn-text:  clamp(14px, 2.35vmin, 26px);
+  --vr-font-choice:    clamp(18px, 2.95vmin, 29px);
+
+  --vr-topbar-h: calc(clamp(56px, 11vw, 90px) + env(safe-area-inset-top) + 2px);
+
+  --vr-heaven-hud-w: min(90vw, 920px);
+  --vr-heaven-hud-value-size: clamp(13px, 2vw, 22px);
+  --vr-heaven-hud-name-size: clamp(13px, 2vw, 24px);
+  --vr-heaven-hud-years-size: clamp(13px, 2vw, 24px);
+
+  --vr-heaven-topbar-w: clamp(220px, 54vw, 420px);
+  --vr-heaven-topbar-h: calc(var(--vr-heaven-topbar-w) * 0.275);
+
+  --vr-heaven-back-size: clamp(46px, 11vw, 76px);
+  --vr-heaven-customize-size: clamp(46px, 11vw, 76px);
+
+  --vr-ui-topbar-img: url("../assets/img/ui/heaven_topbar.webp");
+  --vr-ui-hud-img: url("../assets/img/ui/heaven_hud_bar.webp");
+  --vr-ui-back-img: url("../assets/img/ui/heaven_back.webp");
+  --vr-ui-customize-img: url("../assets/img/ui/heaven_customize.webp");
+
+  --vr-identity-tx: 0px;
+  --vr-identity-ty: 3px;
+  --vr-hud-name-years-gap: 50px;
+
+  --vr-vcoins-tx: 0px;
+  --vr-vcoins-ty: 0px;
+  --vr-jetons-tx: 0px;
+  --vr-jetons-ty: 0px;
+
+  --vr-vcoins-color: #000000;
+  --vr-vcoins-glow: rgba(255,255,255,.08);
+  --vr-vcoins-bg: transparent;
+
+  --vr-jetons-color: #000000;
+  --vr-jetons-glow: rgba(255,255,255,.08);
+  --vr-jetons-bg: transparent;
+}
+
+body[data-universe="heaven_king"].vr-body-game #view-game .vr-card-title{
+  line-height: 1.08 !important;
+  max-width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+body[data-universe="heaven_king"].vr-body-game #view-game .vr-card-text{
+  line-height: 1.22 !important;
+  max-width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+body.vr-body-game[data-universe="heaven_king"] #view-game .vr-card-main{
+  overflow: hidden;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+}
+body.vr-body-game[data-universe="heaven_king"] #view-game .vr-choice-button{
+  background-size: 106% 100% !important;
+  background-position: center !important;
+}
+body.vr-body-game[data-universe="heaven_king"] #view-game .vr-card-main .vr-card-text{
+  max-height: none !important;
+  overflow: visible !important;
+  padding-right: 0 !important;
+}
+
+body.vr-body-game[data-universe="heaven_king"] .vr-top-actions-game .vr-top-icon,
+body.vr-body-game[data-universe="heaven_king"] > a.vr-icon-button[aria-label="Accueil"] .vr-top-icon,
+body.vr-body-game[data-universe="heaven_king"] #btn-customize .vr-top-icon{
+  display: none !important;
+}
+
+body.vr-body-game[data-universe="heaven_king"] .vr-top-actions-game{
+  position: fixed !important;
+  top: calc(14px + env(safe-area-inset-top)) !important;
+  left: 50% !important;
+  right: auto !important;
+  transform: translateX(-50%) !important;
+
+  width: var(--vr-heaven-topbar-w) !important;
+  height: var(--vr-heaven-topbar-h) !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+  gap: 0 !important;
+
+  display: block !important;
+  pointer-events: none !important;
+  z-index: 100000 !important;
+}
+body.vr-body-game[data-universe="heaven_king"] .vr-top-actions-game::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../assets/img/ui/heaven_topbar.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events: none;
+}
+body.vr-body-game[data-universe="heaven_king"] .vr-top-actions-game .vr-icon-button{
+  position: absolute !important;
+  top: 16% !important;
+  width: 17% !important;
+  height: 72% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  pointer-events: auto !important;
+  z-index: 1 !important;
+}
+body.vr-body-game[data-universe="heaven_king"] .vr-top-actions-game .vr-icon-button:nth-child(1){ left: 16% !important; }
+body.vr-body-game[data-universe="heaven_king"] .vr-top-actions-game .vr-icon-button:nth-child(2){ left: 41% !important; }
+body.vr-body-game[data-universe="heaven_king"] .vr-top-actions-game .vr-icon-button:nth-child(3){ left: 66% !important; }
+
+body.vr-body-game[data-universe="heaven_king"] > a.vr-icon-button[aria-label="Accueil"]{
+  position: fixed !important;
+  top: calc(18px + env(safe-area-inset-top)) !important;
+  left: 20px !important;
+  width: var(--vr-heaven-back-size) !important;
+  height: var(--vr-heaven-back-size) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  z-index: 100002 !important;
+  pointer-events: auto !important;
+}
+body.vr-body-game[data-universe="heaven_king"] > a.vr-icon-button[aria-label="Accueil"]::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../assets/img/ui/heaven_back.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events: none;
+}
+
+body.vr-body-game[data-universe="heaven_king"] #btn-customize{
+  position: fixed !important;
+  top: calc(18px + env(safe-area-inset-top)) !important;
+  right: 20px !important;
+  width: var(--vr-heaven-customize-size) !important;
+  height: var(--vr-heaven-customize-size) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  z-index: 100002 !important;
+  pointer-events: auto !important;
+}
+body.vr-body-game[data-universe="heaven_king"] #btn-customize::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../assets/img/ui/heaven_customize.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events: none;
+}
+
+body.vr-body-game[data-universe="heaven_king"] .vr-top-actions-game .vr-icon-button:active,
+body.vr-body-game[data-universe="heaven_king"] > a.vr-icon-button[aria-label="Accueil"]:active,
+body.vr-body-game[data-universe="heaven_king"] #btn-customize:active{
+  transform: scale(0.97);
+}
+
+body.vr-body-game[data-universe="heaven_king"] .vr-hud{
+  position: relative !important;
+  width: var(--vr-heaven-hud-w) !important;
+  max-width: none !important;
+  margin: 4px auto 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  white-space: normal !important;
+
+  aspect-ratio: 1024 / 269;
+  background: url("../assets/img/ui/heaven_hud_bar.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.20));
+}
+body.vr-body-game[data-universe="heaven_king"] .vr-hud-left,
+body.vr-body-game[data-universe="heaven_king"] .vr-hud-center,
+body.vr-body-game[data-universe="heaven_king"] .vr-hud-right{
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  min-width: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transform: none !important;
+  justify-self: auto !important;
+}
+
+body.vr-body-game[data-universe="heaven_king"] .vr-hud-left{ left: 2.8% !important; width: 16.8% !important; }
+body.vr-body-game[data-universe="heaven_king"] .vr-hud-center{ left: 20.6% !important; right: 20.6% !important; }
+body.vr-body-game[data-universe="heaven_king"] .vr-hud-right{ right: 2.8% !important; width: 16.8% !important; }
+
+body.vr-body-game[data-universe="heaven_king"] .vr-hud-item{
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  padding: 0 clamp(1px, 0.22vw, 4px) !important;
+  gap: clamp(1px, 0.18vw, 4px) !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+
+  transform: translateY(-7px) !important;
+}
+
+body.vr-body-game[data-universe="heaven_king"] .vr-hud-value{
+  font-size: var(--vr-heaven-hud-value-size) !important;
+  font-family: "VR_Cinzel", serif !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  letter-spacing: 0 !important;
+  color: #000000 !important;
+  text-shadow:
+    0 1px 0 rgba(255,255,255,0.20),
+    0 0 6px rgba(0,0,0,0.08) !important;
+  transform: translateY(0px) !important;
+  display: block !important;
+  width: 100% !important;
+  text-align: center !important;
+  font-variant-numeric: tabular-nums !important;
+}
+
+body.vr-body-game[data-universe="heaven_king"] .vr-hud-left .vr-hud-value{
+  transform: translate(-6px, 0px) !important;
+}
+body.vr-body-game[data-universe="heaven_king"] .vr-hud-right .vr-hud-value{
+  transform: translate(0px, 0px) !important;
+}
+
+body.vr-body-game[data-universe="heaven_king"] .vr-hud-identity{
+  width: 100% !important;
+  max-width: none !important;
+  overflow: hidden !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: var(--vr-hud-name-years-gap, 8px) !important;
+
+  white-space: nowrap !important;
+  text-align: center !important;
+  text-shadow:
+    0 1px 0 rgba(255,255,255,0.20),
+    0 0 6px rgba(0,0,0,0.08) !important;
+}
+body.vr-body-game[data-universe="heaven_king"] .vr-hud-name{
+  font-family: "VR_Cinzel", serif !important;
+  font-size: var(--vr-heaven-hud-name-size) !important;
+  font-weight: 700 !important;
+  color: #000000 !important;
+  line-height: 1 !important;
+  max-width: 72% !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+body.vr-body-game[data-universe="heaven_king"] .vr-hud-years{
+  font-family: "VR_Cinzel", serif !important;
+  font-size: var(--vr-heaven-hud-name-size) !important;
+  font-weight: 700 !important;
+  color: #000000 !important;
+  line-height: 1 !important;
+  transform: translateY(0px) !important;
+  opacity: 1 !important;
+  flex: 0 0 auto !important;
+}
+
+#view-game.vr-bg-heaven_king{
+  --vr-universe-bg: url("../assets/img/backgrounds/heaven_default_gray.webp");
+  --vr-universe-card: url("../assets/img/ui/heaven_msg_default_gray.webp");
+  --vr-universe-choice: url("../assets/img/ui/heaven_choice_default_gray.webp");
+}
+
+body[data-universe="heaven_king"] .vr-gauge[data-gauge-id="prayers"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/heaven_king/g1_frame.webp"); }
+body[data-universe="heaven_king"] .vr-gauge[data-gauge-id="prayers"] .vr-gauge-fill,
+body[data-universe="heaven_king"] .vr-gauge[data-gauge-id="prayers"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/heaven_king/g1_fill.webp"); }
+
+body[data-universe="heaven_king"] .vr-gauge[data-gauge-id="cults"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/heaven_king/g2_frame.webp"); }
+body[data-universe="heaven_king"] .vr-gauge[data-gauge-id="cults"] .vr-gauge-fill,
+body[data-universe="heaven_king"] .vr-gauge[data-gauge-id="cults"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/heaven_king/g2_fill.webp"); }
+
+body[data-universe="heaven_king"] .vr-gauge[data-gauge-id="free_will"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/heaven_king/g3_frame.webp"); }
+body[data-universe="heaven_king"] .vr-gauge[data-gauge-id="free_will"] .vr-gauge-fill,
+body[data-universe="heaven_king"] .vr-gauge[data-gauge-id="free_will"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/heaven_king/g3_fill.webp"); }
+
+body[data-universe="heaven_king"] .vr-gauge[data-gauge-id="interventions"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/heaven_king/g4_frame.webp"); }
+body[data-universe="heaven_king"] .vr-gauge[data-gauge-id="interventions"] .vr-gauge-fill,
+body[data-universe="heaven_king"] .vr-gauge[data-gauge-id="interventions"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/heaven_king/g4_fill.webp"); }
+
+body[data-universe="heaven_king"] .vr-gauge-label,
+body[data-universe="heaven_king"] .vr-gauge-value,
+body[data-universe="heaven_king"] .vr-gauge-val,
+body[data-universe="heaven_king"] .vr-gauge-delta{
+  color: #000 !important;
+}
+
+body[data-universe="heaven_king"] .vr-gauge-label,
+body[data-universe="heaven_king"] .vr-gauge-value{
+  font-weight: 700 !important;
+  text-shadow:
+    0 1px 0 rgba(255,255,255,0.18),
+    0 0 5px rgba(0,0,0,0.06) !important;
+}
+
+body[data-universe="heaven_king"] .vr-gauge-val,
+body[data-universe="heaven_king"] .vr-gauge-delta{
+  font-weight: 700 !important;
+}
+
+@media (max-width: 480px){
+  body.vr-body-game[data-universe="heaven_king"]{
+    --vr-heaven-hud-w: 92vw;
+    --vr-heaven-hud-value-size: clamp(11px, 2.8vw, 14px);
+    --vr-heaven-hud-name-size: clamp(11px, 3vw, 15px);
+    --vr-heaven-hud-years-size: clamp(11px, 3vw, 15px);
+
+    --vr-heaven-topbar-w: clamp(210px, 58vw, 300px);
+    --vr-heaven-back-size: clamp(40px, 12vw, 60px);
+    --vr-heaven-customize-size: clamp(40px, 12vw, 60px);
+    --vr-topbar-h: calc(clamp(50px, 12vw, 76px) + env(safe-area-inset-top) + 2px);
+
+    --vr-ui-topbar-top: 12px;
+    --vr-ui-back-top: 16px;
+    --vr-ui-back-left: 16px;
+    --vr-ui-customize-top: 16px;
+    --vr-ui-customize-right: 16px;
+    --vr-hud-item-ty: -4px;
+
+    --vr-identity-tx: 0px;
+    --vr-identity-ty: 4px;
+    --vr-hud-name-years-gap: 40px;
+
+    --vr-font-choice: clamp(14.5px, 3.55vw, 18.5px);
+    --vr-choice-h: clamp(98px, 12.8svh, 148px);
+    --vr-stack-gap: clamp(3px, 0.35svh, 6px);
+    --vr-choices-gap: clamp(4px, 0.45svh, 8px);
+    --vr-choice-safe: 62%;
+    --vr-choice-inset-top: 14%;
+    --vr-choice-inset-right: 11%;
+    --vr-choice-inset-bottom: 14%;
+    --vr-choice-inset-left: 11%;
+  }
+
+  body.vr-body-game[data-universe="heaven_king"] .vr-hud-left{ left: 3% !important; width: 17.2% !important; }
+  body.vr-body-game[data-universe="heaven_king"] .vr-hud-right{ right: 3% !important; width: 17.2% !important; }
+  body.vr-body-game[data-universe="heaven_king"] .vr-hud-center{ left: 21.0% !important; right: 21.0% !important; }
+
+  body.vr-body-game[data-universe="heaven_king"] .vr-top-actions-game{ top: calc(12px + env(safe-area-inset-top)) !important; }
+  body.vr-body-game[data-universe="heaven_king"] > a.vr-icon-button[aria-label="Accueil"]{ top: calc(16px + env(safe-area-inset-top)) !important; left: 16px !important; }
+  body.vr-body-game[data-universe="heaven_king"] #btn-customize{ top: calc(16px + env(safe-area-inset-top)) !important; right: 16px !important; }
+
+  body.vr-body-game[data-universe="heaven_king"] .vr-hud-item{
+    transform: translateY(-4px) !important;
+  }
+
+  body.vr-body-game[data-universe="heaven_king"] .vr-hud-value{
+    transform: translateY(0px) !important;
+  }
+
+  body.vr-body-game[data-universe="heaven_king"] .vr-hud-left .vr-hud-value{
+    transform: translate(0px, 0px) !important;
+  }
+
+  body.vr-body-game[data-universe="heaven_king"] .vr-hud-right .vr-hud-value{
+    transform: translate(0px, 0px) !important;
+  }
+}
+
+/* HEAVEN ultra petit écran */
+@media (max-width: 390px) and (max-height: 740px){
+  body.vr-body-game[data-universe="heaven_king"]{
+    --vr-font-choice: clamp(13px, 3.10vw, 16px);
+    --vr-choice-h: clamp(88px, 11.8svh, 130px);
+    --vr-stack-gap: clamp(2px, 0.25svh, 5px);
+    --vr-choices-gap: clamp(3px, 0.35svh, 6px);
+    --vr-choice-safe: 60%;
+    --vr-choice-inset-top: 14%;
+    --vr-choice-inset-right: 10.5%;
+    --vr-choice-inset-bottom: 14%;
+    --vr-choice-inset-left: 10.5%;
+  }
+}
+
+
+
+
+
+
+
+
+/* ==========================================================
+   UNIVERS — WESTERN
+   ========================================================== */
+body[data-universe="western_president"].vr-body-game #view-game .vr-card-title{
+  font-family: "VR_InterExtraLight", serif !important;
+  color: #000 !important;
+  font-weight: 900 !important;
+  text-shadow: none !important;
+  line-height: 1.06 !important;
+  max-width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+}
+
+body[data-universe="western_president"].vr-body-game #view-game .vr-card-text{
+  font-family: "VR_InterExtraLight", serif !important;
+  color: #111 !important;
+  font-weight: 800 !important;
+  text-shadow: none !important;
+  line-height: 1.18 !important;
+  max-width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+}
+
+body[data-universe="western_president"].vr-body-game #view-game .vr-choice-label{
+  font-family: "VR_InterExtraLight", sans-serif !important;
+  color: #000 !important;
+  font-weight: 900 !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+  line-height: 1.12 !important;
+  text-align: center !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+}
+
+body.vr-body-game[data-universe="western_president"]{
+  --vr-card-w: clamp(390px, 98vw, 1120px);
+
+  --vr-scn-h: clamp(166px, 21.4svh, 304px);
+  --vr-choice-h: clamp(120px, 15.5svh, 198px);
+
+  --vr-game-gap: clamp(1px, 0.18svh, 4px);
+  --vr-stack-gap: clamp(10px, 1.15svh, 22px);
+  --vr-choices-gap: clamp(9px, 1svh, 18px);
+
+  --vr-scn-inset-top: 16%;
+  --vr-scn-inset-right: 12%;
+  --vr-scn-inset-bottom: 12%;
+  --vr-scn-inset-left: 12%;
+
+  --vr-choice-inset-top: 17%;
+  --vr-choice-inset-right: 9%;
+  --vr-choice-inset-bottom: 17%;
+  --vr-choice-inset-left: 9%;
+  --vr-choice-safe: 84%;
+
+  --vr-font-scn-title: clamp(18px, 3.0vmin, 34px);
+  --vr-font-scn-text:  clamp(15px, 2.35vmin, 24px);
+  --vr-font-choice:    clamp(15px, 2.35vmin, 23px);
+
+  --vr-topbar-h: calc(clamp(56px, 11vw, 90px) + env(safe-area-inset-top) + 8px);
+
+  --vr-west-hud-w: min(88vw, 980px);
+  --vr-ui-hud-w: min(88vw, 980px);
+
+  --vr-west-topbar-w: clamp(220px, 54vw, 420px);
+  --vr-west-topbar-h: calc(var(--vr-west-topbar-w) * 0.275);
+  --vr-west-back-size: clamp(46px, 11vw, 76px);
+  --vr-west-customize-size: clamp(46px, 11vw, 76px);
+
+  --vr-ui-topbar-img: url("../assets/img/ui/west_topbar.webp");
+  --vr-ui-hud-img: url("../assets/img/ui/west_hud_bar.webp");
+  --vr-ui-back-img: url("../assets/img/ui/west_back.webp");
+  --vr-ui-customize-img: url("../assets/img/ui/west_customize.webp");
+
+  --vr-vcoins-color: #000000;
+  --vr-vcoins-glow: rgba(255,255,255,.08);
+  --vr-vcoins-bg: transparent;
+
+  --vr-jetons-color: #000000;
+  --vr-jetons-glow: rgba(255,255,255,.08);
+  --vr-jetons-bg: transparent;
+
+  --vr-identity-tx: 0px;
+  --vr-identity-ty: 14px;
+  --vr-hud-name-years-gap: 48px;
+}
+
+body.vr-body-game[data-universe="western_president"] #view-game .vr-choice-button{
+  background-size: 106% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+body.vr-body-game[data-universe="western_president"] #view-game .vr-card-main{
+  overflow: hidden !important;
+  background-size: 96% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+body.vr-body-game[data-universe="western_president"] #view-game .vr-card-main .vr-card-text{
+  max-height: none !important;
+  overflow: visible !important;
+  padding-right: 0 !important;
+}
+
+body.vr-body-game[data-universe="western_president"] #view-game .vr-card-title,
+body.vr-body-game[data-universe="western_president"] #view-game .vr-card-text,
+body.vr-body-game[data-universe="western_president"] #view-game .vr-choice-label{
+  max-width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+body.vr-body-game[data-universe="western_president"] .vr-top-actions-game .vr-top-icon,
+body.vr-body-game[data-universe="western_president"] > a.vr-icon-button[aria-label="Accueil"] .vr-top-icon,
+body.vr-body-game[data-universe="western_president"] #btn-customize .vr-top-icon{
+  display: none !important;
+}
+
+body.vr-body-game[data-universe="western_president"] .vr-top-actions-game{
+  position: fixed !important;
+  top: calc(14px + env(safe-area-inset-top)) !important;
+  left: 50% !important;
+  right: auto !important;
+  transform: translateX(-50%) !important;
+  width: var(--vr-west-topbar-w) !important;
+  height: var(--vr-west-topbar-h) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  gap: 0 !important;
+  display: block !important;
+  pointer-events: none !important;
+  z-index: 100000 !important;
+}
+
+body.vr-body-game[data-universe="western_president"] .vr-top-actions-game::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url("../assets/img/ui/west_topbar.webp") center/100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+
+body.vr-body-game[data-universe="western_president"] .vr-top-actions-game .vr-icon-button{
+  position:absolute !important;
+  top:16% !important;
+  width:17% !important;
+  height:72% !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  pointer-events:auto !important;
+  z-index:1 !important;
+}
+
+body.vr-body-game[data-universe="western_president"] .vr-top-actions-game .vr-icon-button:nth-child(1){ left:16% !important; }
+body.vr-body-game[data-universe="western_president"] .vr-top-actions-game .vr-icon-button:nth-child(2){ left:41% !important; }
+body.vr-body-game[data-universe="western_president"] .vr-top-actions-game .vr-icon-button:nth-child(3){ left:66% !important; }
+
+body.vr-body-game[data-universe="western_president"] > a.vr-icon-button[aria-label="Accueil"]{
+  position: fixed !important;
+  top: calc(18px + env(safe-area-inset-top)) !important;
+  left: 20px !important;
+  width: var(--vr-west-back-size) !important;
+  height: var(--vr-west-back-size) !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  z-index:100002 !important;
+  pointer-events:auto !important;
+}
+
+body.vr-body-game[data-universe="western_president"] > a.vr-icon-button[aria-label="Accueil"]::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url("../assets/img/ui/west_back.webp") center/100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+
+body.vr-body-game[data-universe="western_president"] #btn-customize{
+  position: fixed !important;
+  top: calc(18px + env(safe-area-inset-top)) !important;
+  right: 20px !important;
+  width: var(--vr-west-customize-size) !important;
+  height: var(--vr-west-customize-size) !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  z-index:100002 !important;
+  pointer-events:auto !important;
+}
+
+body.vr-body-game[data-universe="western_president"] #btn-customize::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url("../assets/img/ui/west_customize.webp") center/100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+
+body.vr-body-game[data-universe="western_president"] .vr-hud{
+  position: relative !important;
+  width: var(--vr-ui-hud-w) !important;
+  max-width: none !important;
+  margin: clamp(8px, 1.2svh, 18px) auto 0 auto !important;
+  padding: 0 !important;
+  display: block !important;
+  white-space: normal !important;
+  aspect-ratio: 1024 / 269;
+  background: url("../assets/img/ui/west_hud_bar.webp") center/100% 100% no-repeat;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.20));
+}
+
+body.vr-body-game[data-universe="western_president"] .vr-hud-left,
+body.vr-body-game[data-universe="western_president"] .vr-hud-center,
+body.vr-body-game[data-universe="western_president"] .vr-hud-right{
+  position:absolute !important;
+  top:0 !important;
+  bottom:0 !important;
+  min-width:0 !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  transform:none !important;
+  justify-self:auto !important;
+}
+
+body.vr-body-game[data-universe="western_president"] .vr-hud-left{ left:3.3% !important; width:17.8% !important; }
+body.vr-body-game[data-universe="western_president"] .vr-hud-center{ left:20.2% !important; right:20.2% !important; }
+body.vr-body-game[data-universe="western_president"] .vr-hud-right{ right:5.3% !important; width:17.8% !important; }
+
+body.vr-body-game[data-universe="western_president"] .vr-hud-item{
+  width:100% !important;
+  height:100% !important;
+  min-height:0 !important;
+  padding:0 clamp(1px,0.22vw,4px) !important;
+  gap:clamp(1px,0.18vw,4px) !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  background:transparent !important;
+  border:none !important;
+  box-shadow:none !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+  transform: translateY(-11px) !important;
+}
+
+body.vr-body-game[data-universe="western_president"] .vr-hud-value{
+  font-family: "VR_InterExtraLight", sans-serif !important;
+  font-size: clamp(13px, 2.05vw, 24px) !important;
+  font-weight: 800 !important;
+  line-height: 1 !important;
+  color: #000 !important;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.18), 0 0 3px rgba(0,0,0,0.06) !important;
+  transform: translateY(-2px) !important;
+  display: block !important;
+  width: 100% !important;
+  text-align: center !important;
+  font-variant-numeric: tabular-nums !important;
+}
+
+body.vr-body-game[data-universe="western_president"] .vr-hud-left .vr-hud-value{
+  transform: translate(-12px, 22px) !important;
+}
+
+body.vr-body-game[data-universe="western_president"] .vr-hud-right .vr-hud-value{
+  transform: translate(15px, 19px) !important;
+}
+
+body.vr-body-game[data-universe="western_president"] .vr-hud-identity{
+  width:100% !important;
+  max-width:none !important;
+  overflow:hidden !important;
+  display:inline-flex !important;
+  align-items:baseline !important;
+  justify-content:center !important;
+  gap:48px !important;
+  white-space:nowrap !important;
+  text-align:center !important;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.20), 0 0 6px rgba(0,0,0,0.08) !important;
+  transform: translate(0px, 25px) !important;
+}
+
+body.vr-body-game[data-universe="western_president"] .vr-hud-name{
+  font-family: "VR_InterExtraLight", sans-serif !important;
+  font-size: clamp(15px, 2.25vw, 28px) !important;
+  font-weight: 900 !important;
+  line-height:1 !important;
+  color:#000 !important;
+  max-width:72% !important;
+  overflow:hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+body.vr-body-game[data-universe="western_president"] .vr-hud-years{
+  font-family: "VR_InterExtraLight", sans-serif !important;
+  font-size: clamp(14px, 1.95vw, 23px) !important;
+  font-weight: 900 !important;
+  line-height:1 !important;
+  color:#000 !important;
+  transform: translateY(0px) !important;
+  opacity: 1 !important;
+  flex: 0 0 auto !important;
+}
+
+#view-game.vr-bg-western_president{
+  --vr-universe-bg: url("../assets/img/backgrounds/west_default_gray.webp");
+  --vr-universe-card: url("../assets/img/ui/west_msg_default_grey.webp");
+  --vr-universe-choice: url("../assets/img/ui/west_choice_default_grey.webp");
+}
+
+body[data-universe="western_president"] .vr-gauge[data-gauge-id="opinion"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/western_president/g1_frame.webp"); }
+body[data-universe="western_president"] .vr-gauge[data-gauge-id="opinion"] .vr-gauge-fill,
+body[data-universe="western_president"] .vr-gauge[data-gauge-id="opinion"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/western_president/g1_fill.webp"); }
+
+body[data-universe="western_president"] .vr-gauge[data-gauge-id="economy"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/western_president/g2_frame.webp"); }
+body[data-universe="western_president"] .vr-gauge[data-gauge-id="economy"] .vr-gauge-fill,
+body[data-universe="western_president"] .vr-gauge[data-gauge-id="economy"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/western_president/g2_fill.webp"); }
+
+body[data-universe="western_president"] .vr-gauge[data-gauge-id="defense"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/western_president/g3_frame.webp"); }
+body[data-universe="western_president"] .vr-gauge[data-gauge-id="defense"] .vr-gauge-fill,
+body[data-universe="western_president"] .vr-gauge[data-gauge-id="defense"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/western_president/g3_fill.webp"); }
+
+body[data-universe="western_president"] .vr-gauge[data-gauge-id="diplomacy"] .vr-gauge-frame{ background-image: url("../assets/img/gauges/western_president/g4_frame.webp"); }
+body[data-universe="western_president"] .vr-gauge[data-gauge-id="diplomacy"] .vr-gauge-fill,
+body[data-universe="western_president"] .vr-gauge[data-gauge-id="diplomacy"] .vr-gauge-preview{ background-image: url("../assets/img/gauges/western_president/g4_fill.webp"); }
+
+@media (max-width: 480px){
+  body.vr-body-game[data-universe="western_president"]{
+    --vr-west-hud-w: 92vw;
+    --vr-ui-hud-w: 92vw;
+
+    --vr-west-topbar-w: clamp(210px, 58vw, 300px);
+    --vr-west-back-size: clamp(40px, 12vw, 60px);
+    --vr-west-customize-size: clamp(40px, 12vw, 60px);
+
+    --vr-topbar-h: calc(clamp(50px, 12vw, 76px) + env(safe-area-inset-top) + 6px);
+
+    --vr-ui-topbar-top: 12px;
+    --vr-ui-back-top: 16px;
+    --vr-ui-back-left: 16px;
+    --vr-ui-customize-top: 16px;
+    --vr-ui-customize-right: 16px;
+
+    --vr-scn-h: clamp(138px, 18.8svh, 224px);
+    --vr-choice-h: clamp(90px, 12.0svh, 142px);
+
+    --vr-stack-gap: clamp(12px, 1.35svh, 22px);
+    --vr-choices-gap: clamp(6px, 0.70svh, 12px);
+
+    --vr-scn-inset-top: 15%;
+    --vr-scn-inset-right: 12%;
+    --vr-scn-inset-bottom: 13%;
+    --vr-scn-inset-left: 12%;
+
+    --vr-choice-safe: 82%;
+    --vr-choice-inset-top: 16%;
+    --vr-choice-inset-right: 8%;
+    --vr-choice-inset-bottom: 16%;
+    --vr-choice-inset-left: 8%;
+
+    --vr-font-scn-title: clamp(18px, 4.2vw, 28px);
+    --vr-font-scn-text: clamp(15px, 3.35vw, 19px);
+    --vr-font-choice: clamp(15px, 3.55vw, 19px);
+
+    --vr-hud-name-years-gap: 30px;
+  }
+
+  body.vr-body-game[data-universe="western_president"] .vr-hud-left{ left: 3.1% !important; width: 18.0% !important; }
+  body.vr-body-game[data-universe="western_president"] .vr-hud-right{ right: 3.1% !important; width: 18.0% !important; }
+  body.vr-body-game[data-universe="western_president"] .vr-hud-center{ left: 20.8% !important; right: 20.8% !important; }
+
+  body.vr-body-game[data-universe="western_president"] .vr-top-actions-game{ top: calc(12px + env(safe-area-inset-top)) !important; }
+  body.vr-body-game[data-universe="western_president"] > a.vr-icon-button[aria-label="Accueil"]{ top: calc(16px + env(safe-area-inset-top)) !important; left: 16px !important; }
+  body.vr-body-game[data-universe="western_president"] #btn-customize{ top: calc(16px + env(safe-area-inset-top)) !important; right: 16px !important; }
+
+  body.vr-body-game[data-universe="western_president"] .vr-hud-item{
+    transform: translateY(-4px) !important;
+  }
+
+  body.vr-body-game[data-universe="western_president"] .vr-hud-left .vr-hud-value{
+    transform: translate(-6px, 12px) !important;
+  }
+
+  body.vr-body-game[data-universe="western_president"] .vr-hud-right .vr-hud-value{
+    transform: translate(15px, 12px) !important;
+  }
+
+  body.vr-body-game[data-universe="western_president"] .vr-hud-identity{
+    transform: translate(0px, 18px) !important;
+    gap: 30px !important;
+  }
+
+  body.vr-body-game[data-universe="western_president"] #view-game .vr-card-title{
+    line-height: 1.05 !important;
+    max-width: 94% !important;
+  }
+
+  body.vr-body-game[data-universe="western_president"] #view-game .vr-card-text{
+    line-height: 1.14 !important;
+    max-width: 94% !important;
+  }
+
+  body.vr-body-game[data-universe="western_president"] #view-game .vr-choice-label{
+    line-height: 1.10 !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 390px) and (max-height: 740px){
+  body.vr-body-game[data-universe="western_president"]{
+    --vr-scn-h: clamp(132px, 18.0svh, 210px);
+    --vr-choice-h: clamp(84px, 11.3svh, 130px);
+    --vr-font-scn-title: clamp(16px, 3.6vw, 22px);
+    --vr-font-scn-text: clamp(12.8px, 2.9vw, 16px);
+    --vr-font-choice: clamp(13px, 3.1vw, 16px);
+    --vr-choice-safe: 80%;
+    --vr-choice-inset-top: 15%;
+    --vr-choice-inset-right: 7%;
+    --vr-choice-inset-bottom: 15%;
+    --vr-choice-inset-left: 7%;
+  }
+}
+
+
+
+
+
+
+/* ==========================================================
+   UNIVERS — CEO
+   ========================================================== */
+body[data-universe="mega_corp_ceo"].vr-body-game #view-game .vr-card-title,
+body[data-universe="mega_corp_ceo"].vr-body-game #view-game .vr-card-text{
+  font-family: "VR_DMSerifText", serif !important;
+  color: #000 !important;
+}
+
+body[data-universe="mega_corp_ceo"].vr-body-game #view-game .vr-choice-label{
+  font-family: "VR_OutfitMedium", sans-serif !important;
+  color: #000 !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+  line-height: 1.12 !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"]{
+  --vr-scn-inset-top: 10%;
+  --vr-scn-inset-right: 9%;
+  --vr-scn-inset-bottom: 16%;
+  --vr-scn-inset-left: 9%;
+  --vr-card-w: clamp(460px, 100vw, 1240px);
+
+  --vr-scn-h: clamp(172px, 21.2svh, 312px);
+  --vr-choice-h: clamp(112px, 13.6svh, 176px);
+
+  --vr-game-gap: clamp(1px, 0.12svh, 3px);
+  --vr-stack-gap: clamp(5px, 0.50svh, 10px);
+  --vr-choices-gap: clamp(8px, 0.80svh, 14px);
+
+  --vr-choice-safe: 88%;
+  --vr-font-scn-title: clamp(18px, 2.6vmin, 30px);
+  --vr-font-scn-text:  clamp(13px, 2.0vmin, 18px);
+  --vr-font-choice:    clamp(14px, 2.10vmin, 20px);
+
+  --vr-topbar-h: calc(clamp(56px, 11vw, 90px) + env(safe-area-inset-top) + 8px);
+
+  --vr-corp-hud-w: min(96vw, 1040px);
+  --vr-corp-topbar-w: clamp(220px, 54vw, 420px);
+  --vr-corp-topbar-h: calc(var(--vr-corp-topbar-w) * 0.275);
+  --vr-corp-back-size: clamp(46px, 11vw, 76px);
+  --vr-corp-customize-size: clamp(46px, 11vw, 76px);
+
+  --vr-ui-topbar-img: url("../assets/img/ui/corp_topbar.webp");
+  --vr-ui-hud-img: url("../assets/img/ui/corp_hud_bar.webp");
+  --vr-ui-back-img: url("../assets/img/ui/corp_back.webp");
+  --vr-ui-customize-img: url("../assets/img/ui/corp_customize.webp");
+
+  --vr-vcoins-color:#F5D76E;
+  --vr-vcoins-glow:rgba(200,200,200,.30);
+  --vr-vcoins-bg: transparent;
+  --vr-jetons-bg: transparent;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-top-actions-game .vr-top-icon,
+body.vr-body-game[data-universe="mega_corp_ceo"] > a.vr-icon-button[aria-label="Accueil"] .vr-top-icon,
+body.vr-body-game[data-universe="mega_corp_ceo"] #btn-customize .vr-top-icon{
+  display:none !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-top-actions-game{
+  position: fixed !important;
+  top: calc(14px + env(safe-area-inset-top)) !important;
+  left: 50% !important;
+  right: auto !important;
+  transform: translateX(-50%) !important;
+  width: var(--vr-corp-topbar-w) !important;
+  height: var(--vr-corp-topbar-h) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  gap: 0 !important;
+  display: block !important;
+  pointer-events: none !important;
+  z-index: 100000 !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-top-actions-game::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url("../assets/img/ui/corp_topbar.webp") center/100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-top-actions-game .vr-icon-button{
+  position:absolute !important;
+  top:16% !important;
+  width:17% !important;
+  height:72% !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  pointer-events:auto !important;
+  z-index:1 !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-top-actions-game .vr-icon-button:nth-child(1){ left:16% !important; }
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-top-actions-game .vr-icon-button:nth-child(2){ left:41% !important; }
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-top-actions-game .vr-icon-button:nth-child(3){ left:66% !important; }
+
+body.vr-body-game[data-universe="mega_corp_ceo"] > a.vr-icon-button[aria-label="Accueil"]{
+  position: fixed !important;
+  top: calc(18px + env(safe-area-inset-top)) !important;
+  left: 20px !important;
+  width:var(--vr-corp-back-size) !important;
+  height:var(--vr-corp-back-size) !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  z-index:100002 !important;
+  pointer-events:auto !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] > a.vr-icon-button[aria-label="Accueil"]::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url("../assets/img/ui/corp_back.webp") center/100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] #btn-customize{
+  position: fixed !important;
+  top: calc(18px + env(safe-area-inset-top)) !important;
+  right: 20px !important;
+  width:var(--vr-corp-customize-size) !important;
+  height:var(--vr-corp-customize-size) !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  z-index:100002 !important;
+  pointer-events:auto !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] #btn-customize::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url("../assets/img/ui/corp_customize.webp") center/100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud{
+  position: relative !important;
+  width:var(--vr-corp-hud-w) !important;
+  max-width:none !important;
+  margin:0 auto !important;
+  padding:0 !important;
+  display:block !important;
+  white-space: normal !important;
+  aspect-ratio: 1024 / 269;
+  background:url("../assets/img/ui/corp_hud_bar.webp") center/100% 100% no-repeat;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.20));
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-left,
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-center,
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-right{
+  position:absolute !important;
+  top:0 !important;
+  bottom:0 !important;
+  min-width:0 !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  transform:none !important;
+  justify-self:auto !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-left{
+  left: 2.6% !important;
+  width:18.4% !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-center{
+  left:21.4% !important;
+  right:21.4% !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-right{
+  right: 2.6% !important;
+  width:18.4% !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-item{
+  width:100% !important;
+  height:100% !important;
+  min-height:0 !important;
+  padding:0 clamp(2px,0.25vw,5px) !important;
+  gap:clamp(2px,0.2vw,5px) !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  background:transparent !important;
+  border:none !important;
+  box-shadow:none !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+  transform: translateY(-3px) !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-left .vr-hud-item{
+  transform: translate(5px, 0px) !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-right .vr-hud-item{
+  transform: translate(-5px, 0px) !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-value{
+  font-size: clamp(17px, 2.25vw, 28px) !important;
+  font-weight: 900 !important;
+  line-height:1 !important;
+  color:#fff !important;
+  text-align:center !important;
+  text-shadow:
+    0 1px 0 rgba(0,0,0,0.55),
+    0 2px 6px rgba(0,0,0,0.30) !important;
+  transform: translateY(-1px) !important;
+  letter-spacing: -0.03em !important;
+  white-space: nowrap !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-left .vr-hud-value,
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-right .vr-hud-value{
+  width:100% !important;
+  max-width:100% !important;
+  text-align:center !important;
+  transform: translateY(-1px) !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-name{
+  font-size: clamp(16px, 2.05vw, 26px) !important;
+  font-weight: 900 !important;
+  line-height: 1.12 !important;
+  color:#fff !important;
+  max-width:62% !important;
+  overflow: visible !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  text-align:center !important;
+  transform: translateY(0px) !important;
+  padding-bottom: 2px !important;
+  text-shadow:
+    0 1px 0 rgba(0,0,0,0.55),
+    0 2px 6px rgba(0,0,0,0.30) !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-years{
+  font-size: clamp(16px, 2.05vw, 26px) !important;
+  font-weight: 900 !important;
+  line-height: 1.12 !important;
+  color:#fff !important;
+  transform: translateY(0px) !important;
+  opacity: 1 !important;
+  overflow: visible !important;
+  padding-bottom: 2px !important;
+  text-shadow:
+    0 1px 0 rgba(0,0,0,0.55),
+    0 2px 6px rgba(0,0,0,0.30) !important;
+  white-space: nowrap !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-center .vr-hud-item{
+  flex-direction: row !important;
+  gap: clamp(6px, 0.8vw, 12px) !important;
+  align-items: center !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-left .vr-hud-item,
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-right .vr-hud-item{
+  flex-direction: row !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-center .vr-hud-name,
+body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-center .vr-hud-years{
+  display:inline-block !important;
+  align-self:center !important;
+}
+
+#view-game.vr-bg-mega_corp_ceo{
+  --vr-universe-bg: url("../assets/img/backgrounds/corp_default_gray.webp");
+  --vr-universe-card: url("../assets/img/ui/corp_msg_default_gray.webp");
+  --vr-universe-choice: url("../assets/img/ui/corp_choice_default_gray.webp");
+}
+
+/* =========================
+   FIX CARTE MESSAGE UNIQUEMENT
+   ========================= */
+
+body.vr-body-game[data-universe="mega_corp_ceo"] #view-game .vr-card-main{
+  overflow: visible !important;
+  background: var(--vr-universe-card) center / 100% 100% no-repeat !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  border: none !important;
+  min-height: auto !important;
+  height: auto !important;
+  padding:
+    var(--vr-scn-inset-top)
+    var(--vr-scn-inset-right)
+    var(--vr-scn-inset-bottom)
+    var(--vr-scn-inset-left) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: clamp(4px, 0.45svh, 8px) !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] #view-game .vr-card-title{
+  width: 92% !important;
+  max-width: 92% !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  font-size: var(--vr-font-scn-title) !important;
+  line-height: 1.04 !important;
+  font-weight: 700 !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+  transform: none !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] #view-game .vr-card-text{
+  width: 90% !important;
+  max-width: 90% !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  font-size: var(--vr-font-scn-text) !important;
+  line-height: 1.10 !important;
+  font-weight: 600 !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+  transform: none !important;
+  color: #000 !important;
+  text-shadow: none !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] #view-game .vr-card-choices{
+  gap: clamp(4px, 0.45svh, 8px) !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] #view-game .vr-choice-button{
+  background-size: 104% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+body.vr-body-game[data-universe="mega_corp_ceo"] #view-game .vr-choice-label{
+  width: min(86%, 760px) !important;
+  max-width: min(86%, 760px) !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  font-size: var(--vr-font-choice) !important;
+  line-height: 1.10 !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.01em !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+}
+
+body[data-universe="mega_corp_ceo"] .vr-gauge[data-gauge-id="investors"] .vr-gauge-frame{
+  background-image: url("../assets/img/gauges/mega_corp_ceo/g1_frame.webp");
+}
+body[data-universe="mega_corp_ceo"] .vr-gauge[data-gauge-id="investors"] .vr-gauge-fill,
+body[data-universe="mega_corp_ceo"] .vr-gauge[data-gauge-id="investors"] .vr-gauge-preview{
+  background-image: url("../assets/img/gauges/mega_corp_ceo/g1_fill.webp");
+}
+
+body[data-universe="mega_corp_ceo"] .vr-gauge[data-gauge-id="employees"] .vr-gauge-frame{
+  background-image: url("../assets/img/gauges/mega_corp_ceo/g2_frame.webp");
+}
+body[data-universe="mega_corp_ceo"] .vr-gauge[data-gauge-id="employees"] .vr-gauge-fill,
+body[data-universe="mega_corp_ceo"] .vr-gauge[data-gauge-id="employees"] .vr-gauge-preview{
+  background-image: url("../assets/img/gauges/mega_corp_ceo/g2_fill.webp");
+}
+
+body[data-universe="mega_corp_ceo"] .vr-gauge[data-gauge-id="regulators"] .vr-gauge-frame{
+  background-image: url("../assets/img/gauges/mega_corp_ceo/g3_frame.webp");
+}
+body[data-universe="mega_corp_ceo"] .vr-gauge[data-gauge-id="regulators"] .vr-gauge-fill,
+body[data-universe="mega_corp_ceo"] .vr-gauge[data-gauge-id="regulators"] .vr-gauge-preview{
+  background-image: url("../assets/img/gauges/mega_corp_ceo/g3_fill.webp");
+}
+
+body[data-universe="mega_corp_ceo"] .vr-gauge[data-gauge-id="brand_image"] .vr-gauge-frame{
+  background-image: url("../assets/img/gauges/mega_corp_ceo/g4_frame.webp");
+}
+body[data-universe="mega_corp_ceo"] .vr-gauge[data-gauge-id="brand_image"] .vr-gauge-fill,
+body[data-universe="mega_corp_ceo"] .vr-gauge[data-gauge-id="brand_image"] .vr-gauge-preview{
+  background-image: url("../assets/img/gauges/mega_corp_ceo/g4_fill.webp");
+}
+
+body[data-universe="mega_corp_ceo"] .vr-gauge-label,
+body[data-universe="mega_corp_ceo"] .vr-gauge-value,
+body[data-universe="mega_corp_ceo"] .vr-gauge-val,
+body[data-universe="mega_corp_ceo"] .vr-gauge-delta{
+  color: #000 !important;
+}
+
+body[data-universe="mega_corp_ceo"] .vr-gauge-label,
+body[data-universe="mega_corp_ceo"] .vr-gauge-value{
+  background: linear-gradient(180deg, rgba(255,255,255,0.94), rgba(227,232,239,0.86)) !important;
+  border: 1px solid rgba(134, 149, 166, 0.24) !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.10) !important;
+  border-radius: 999px !important;
+  padding: 3px 10px !important;
+}
+
+body[data-universe="mega_corp_ceo"] .vr-gauge-label{
+  min-height: auto !important;
+}
+
+@media (max-width: 480px){
+  body.vr-body-game[data-universe="mega_corp_ceo"]{
+    --vr-corp-hud-w: 94vw;
+    --vr-corp-topbar-w: clamp(210px, 58vw, 300px);
+    --vr-corp-back-size: clamp(40px, 12vw, 60px);
+    --vr-corp-customize-size: clamp(40px, 12vw, 60px);
+
+    --vr-topbar-h: calc(clamp(50px, 12vw, 76px) + env(safe-area-inset-top) + 6px);
+
+    --vr-ui-topbar-top: 12px;
+    --vr-ui-back-top: 16px;
+    --vr-ui-back-left: 16px;
+    --vr-ui-customize-top: 16px;
+    --vr-ui-customize-right: 16px;
+
+    --vr-card-w: clamp(320px, 96vw, 760px);
+    --vr-scn-h: auto;
+    --vr-choice-h: clamp(102px, 12.8svh, 142px);
+    --vr-choice-safe: 88%;
+    --vr-font-choice: clamp(13.5px, 3.2vw, 17.5px);
+  }
+
+  body.vr-body-game[data-universe="mega_corp_ceo"] .vr-top-actions-game{ top: calc(12px + env(safe-area-inset-top)) !important; }
+  body.vr-body-game[data-universe="mega_corp_ceo"] > a.vr-icon-button[aria-label="Accueil"]{ top: calc(16px + env(safe-area-inset-top)) !important; left: 16px !important; }
+  body.vr-body-game[data-universe="mega_corp_ceo"] #btn-customize{ top: calc(16px + env(safe-area-inset-top)) !important; right: 16px !important; }
+
+  body.vr-body-game[data-universe="mega_corp_ceo"] #view-game .vr-choice-label{
+    width: min(86%, 700px) !important;
+    max-width: min(86%, 700px) !important;
+    font-size: var(--vr-font-choice) !important;
+    line-height: 1.08 !important;
+  }
+}
+
+@media (max-width: 390px) and (max-height: 740px){
+  body.vr-body-game[data-universe="mega_corp_ceo"]{
+    --vr-choice-h: clamp(86px, 11.2svh, 122px);
+    --vr-font-choice: clamp(11.8px, 2.75vw, 15px);
+    --vr-choice-safe: 86%;
+  }
+
+  body.vr-body-game[data-universe="mega_corp_ceo"] #view-game .vr-choice-label{
+    width: min(var(--vr-choice-safe), 700px) !important;
+    max-width: min(var(--vr-choice-safe), 700px) !important;
+    font-size: var(--vr-font-choice) !important;
+    line-height: 1.07 !important;
+  }
+}
+
+
+
+
+
+
+/* ========================= EXPLORER ========================= */
+body.vr-body-game[data-universe="new_world_explorer"]{
+  --vr-card-w: clamp(280px, 62vw, 720px);
+  --vr-scn-h: clamp(180px, 24.0svh, 360px);
+  --vr-choice-h: clamp(108px, 14.5svh, 220px);
+
+  --vr-game-gap: 0px;
+  --vr-stack-gap: clamp(18px, 2.4svh, 40px);
+  --vr-choices-gap: clamp(8px, 1.0svh, 18px);
+
+  --vr-scn-inset-top: 13%;
+  --vr-scn-inset-right: 16%;
+  --vr-scn-inset-bottom: 15%;
+  --vr-scn-inset-left: 16%;
+
+  --vr-choice-inset-top: 16%;
+  --vr-choice-inset-right: 10%;
+  --vr-choice-inset-bottom: 16%;
+  --vr-choice-inset-left: 10%;
+  --vr-choice-safe: 84%;
+
+  --vr-font-scn-title: clamp(26px, 4.2vmin, 56px);
+  --vr-font-scn-text:  clamp(21px, 3.5vmin, 46px);
+  --vr-font-choice:    clamp(19px, 3.25vmin, 40px);
+
+  /* ===== Polices ===== */
+  --vr-explorer-font-title: "AlegreyaSCExplorer", serif;
+  --vr-explorer-font-ui: "MerriweatherExplorer", serif;
+
+  /* ===== Tailles source RÉELLES des fichiers ===== */
+  --vr-explorer-topbar-src-w: 1000;
+  --vr-explorer-topbar-src-h: 275;
+  --vr-explorer-hud-src-w: 1024;
+  --vr-explorer-hud-src-h: 300;
+
+  /* ===== Largeurs affichées ===== */
+  --vr-explorer-topbar-w: clamp(235px, 53vw, 408px);
+  --vr-explorer-hud-w: min(89vw, 930px);
+  --vr-explorer-back-size: clamp(46px, 11vw, 76px);
+  --vr-explorer-customize-size: clamp(46px, 11vw, 76px);
+
+  /* ===== Décalage visuel HUD ===== */
+  --vr-explorer-hud-shift-x: -6px;
+  --vr-explorer-hud-shift-y: -6px;
+
+  /* ===== Réserve haute calculée ===== */
+  --vr-topbar-h: calc(
+    (var(--vr-explorer-topbar-w) * var(--vr-explorer-topbar-src-h) / var(--vr-explorer-topbar-src-w))
+    + env(safe-area-inset-top) + 2px
+  );
+
+  /* ===== Positions générales ===== */
+  --vr-explorer-topbar-top: calc(5px + env(safe-area-inset-top));
+  --vr-explorer-side-btn-top: calc(10px + env(safe-area-inset-top));
+  --vr-explorer-side-btn-side: clamp(12px, 3vw, 20px);
+
+  /* ===== Zones cliquables topbar ===== */
+  --vr-explorer-topbar-btn-top: 16%;
+  --vr-explorer-topbar-btn-h: 72%;
+  --vr-explorer-topbar-btn-w: 17%;
+  --vr-explorer-topbar-btn-1-left: 16%;
+  --vr-explorer-topbar-btn-2-left: 41%;
+  --vr-explorer-topbar-btn-3-left: 66%;
+
+  /* ===== Placement HUD ===== */
+  --vr-explorer-hud-left-x: 3.3%;
+  --vr-explorer-hud-left-w: 17.8%;
+  --vr-explorer-hud-center-left: 20.2%;
+  --vr-explorer-hud-center-right: 20.2%;
+  --vr-explorer-hud-right-x: 5.3%;
+  --vr-explorer-hud-right-w: 17.8%;
+
+  /* ===== Centre nom / année ===== */
+  --vr-identity-tx: 0px;
+  --vr-identity-ty: 17px;
+  --vr-hud-name-years-gap: 18px;
+
+  /* ===== Réglages soldes ===== */
+  --vr-vcoins-tx: 2px;
+  --vr-vcoins-ty: 10px;
+  --vr-jetons-tx: 0px;
+  --vr-jetons-ty: 9px;
+
+  /* ===== Réglages fins verticaux ===== */
+  --vr-explorer-hud-item-y: -11px;
+  --vr-explorer-hud-value-y: -2px;
+
+  --vr-ui-topbar-img: url("../assets/img/ui/explorer_topbar.webp");
+  --vr-ui-hud-img: url("../assets/img/ui/explorer_hud_bar.webp");
+  --vr-ui-back-img: url("../assets/img/ui/explorer_back.webp");
+  --vr-ui-customize-img: url("../assets/img/ui/explorer_customize.webp");
+
+  /* ===== Couleurs HUD ===== */
+  --vr-vcoins-color: #000000;
+  --vr-vcoins-glow: rgba(255,255,255,.08);
+  --vr-vcoins-bg: transparent;
+
+  --vr-jetons-color: #000000;
+  --vr-jetons-glow: rgba(255,255,255,.08);
+  --vr-jetons-bg: transparent;
+
+  font-family: var(--vr-explorer-font-ui);
+}
+
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-top-actions-game .vr-top-icon,
+body.vr-body-game[data-universe="new_world_explorer"] > a.vr-icon-button[aria-label="Accueil"] .vr-top-icon,
+body.vr-body-game[data-universe="new_world_explorer"] #btn-customize .vr-top-icon{
+  display:none !important;
+}
+
+body[data-universe="new_world_explorer"].vr-body-game #view-game .vr-card-title{
+  font-family: var(--vr-explorer-font-title) !important;
+  color:#000 !important;
+  text-shadow:none !important;
+  text-align:center !important;
+  line-height: 1.06 !important;
+  max-width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+}
+
+body[data-universe="new_world_explorer"].vr-body-game #view-game .vr-card-text{
+  font-family: var(--vr-explorer-font-ui) !important;
+  color:#000 !important;
+  text-shadow:none !important;
+  text-align:center !important;
+  line-height: 1.16 !important;
+  max-width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+}
+
+body[data-universe="new_world_explorer"].vr-body-game #view-game .vr-choice-label{
+  font-family: var(--vr-explorer-font-ui) !important;
+  color:#000 !important;
+  text-shadow:none !important;
+  text-align:center !important;
+  line-height: 1.12 !important;
+  font-weight: 600 !important;
+  opacity: 1 !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] #view-game .vr-card-main{
+  background-size: 94% 96% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] #view-game .vr-choice-button{
+  background-size: 104% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-top-actions-game{
+  position: fixed !important;
+  top: var(--vr-explorer-topbar-top) !important;
+  left: 50% !important;
+  right: auto !important;
+  transform: translateX(-50%) !important;
+  width: var(--vr-explorer-topbar-w) !important;
+  height: calc(
+    var(--vr-explorer-topbar-w) * var(--vr-explorer-topbar-src-h) / var(--vr-explorer-topbar-src-w)
+  ) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  gap: 0 !important;
+  display: block !important;
+  pointer-events: none !important;
+  z-index: 100000 !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-top-actions-game::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: var(--vr-ui-topbar-img) center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-top-actions-game .vr-icon-button{
+  position:absolute !important;
+  top: var(--vr-explorer-topbar-btn-top) !important;
+  width: var(--vr-explorer-topbar-btn-w) !important;
+  height: var(--vr-explorer-topbar-btn-h) !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  pointer-events:auto !important;
+  z-index:1 !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-top-actions-game .vr-icon-button:nth-child(1){
+  left: var(--vr-explorer-topbar-btn-1-left) !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-top-actions-game .vr-icon-button:nth-child(2){
+  left: var(--vr-explorer-topbar-btn-2-left) !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-top-actions-game .vr-icon-button:nth-child(3){
+  left: var(--vr-explorer-topbar-btn-3-left) !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] > a.vr-icon-button[aria-label="Accueil"]{
+  position: fixed !important;
+  top: var(--vr-explorer-side-btn-top) !important;
+  left: var(--vr-explorer-side-btn-side) !important;
+  width: var(--vr-explorer-back-size) !important;
+  height: var(--vr-explorer-back-size) !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  z-index:100002 !important;
+  pointer-events:auto !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] > a.vr-icon-button[aria-label="Accueil"]::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: var(--vr-ui-back-img) center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] #btn-customize{
+  position: fixed !important;
+  top: var(--vr-explorer-side-btn-top) !important;
+  right: var(--vr-explorer-side-btn-side) !important;
+  width: var(--vr-explorer-customize-size) !important;
+  height: var(--vr-explorer-customize-size) !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  z-index:100002 !important;
+  pointer-events:auto !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] #btn-customize::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: var(--vr-ui-customize-img) center / 100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud{
+  position: relative !important;
+  width: var(--vr-explorer-hud-w) !important;
+  height: calc(
+    var(--vr-explorer-hud-w) * var(--vr-explorer-hud-src-h) / var(--vr-explorer-hud-src-w)
+  ) !important;
+  max-width:none !important;
+  margin:0 auto !important;
+  padding:0 !important;
+  display:block !important;
+  white-space: normal !important;
+  background: var(--vr-ui-hud-img) center / 100% 100% no-repeat;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.20));
+  transform: translate(var(--vr-explorer-hud-shift-x), var(--vr-explorer-hud-shift-y)) !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-left,
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-center,
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-right{
+  position:absolute !important;
+  top:0 !important;
+  bottom:0 !important;
+  min-width:0 !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  transform:none !important;
+  justify-self:auto !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-left{
+  left: var(--vr-explorer-hud-left-x) !important;
+  width: var(--vr-explorer-hud-left-w) !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-center{
+  left: var(--vr-explorer-hud-center-left) !important;
+  right: var(--vr-explorer-hud-center-right) !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-right{
+  right: var(--vr-explorer-hud-right-x) !important;
+  width: var(--vr-explorer-hud-right-w) !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-item{
+  width:100% !important;
+  height:100% !important;
+  min-height:0 !important;
+  padding:0 clamp(1px,0.22vw,4px) !important;
+  gap:clamp(1px,0.18vw,4px) !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  background:transparent !important;
+  border:none !important;
+  box-shadow:none !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+  transform: translateY(var(--vr-explorer-hud-item-y)) !important;
+  font-family: var(--vr-explorer-font-ui) !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-identity{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  transform: translate(var(--vr-identity-tx), var(--vr-identity-ty)) !important;
+  gap: var(--vr-hud-name-years-gap) !important;
+  white-space: nowrap !important;
+  text-align: center !important;
+  width: 100% !important;
+  max-width: none !important;
+  overflow: hidden !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-left .vr-hud-value{
+  transform: translate(var(--vr-vcoins-tx), var(--vr-vcoins-ty)) !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-right .vr-hud-value{
+  transform: translate(var(--vr-jetons-tx), var(--vr-jetons-ty)) !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-value{
+  font-family: var(--vr-explorer-font-ui) !important;
+  font-size: clamp(13px, 2vw, 24px) !important;
+  font-weight: 800 !important;
+  line-height:1 !important;
+  letter-spacing: .01em !important;
+  color:#000 !important;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.35), 0 0 8px rgba(0,0,0,0.12) !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-name,
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-years{
+  font-family: var(--vr-explorer-font-ui) !important;
+  font-size: clamp(13px, 2vw, 24px) !important;
+  font-weight: 800 !important;
+  line-height:1 !important;
+  letter-spacing: .01em !important;
+  color:#000 !important;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.18) !important;
+  transform: none !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-name{
+  max-width:72% !important;
+  overflow:hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-years{
+  flex: 0 0 auto !important;
+  white-space: nowrap !important;
+  opacity: .95 !important;
+}
+
+body[data-universe="new_world_explorer"] .vr-gauges-row .vr-gauge:nth-child(1) .vr-gauge-frame{
+  background-image: url("../assets/img/gauges/new_world_explorer/g1_frame.webp");
+}
+body[data-universe="new_world_explorer"] .vr-gauges-row .vr-gauge:nth-child(1) .vr-gauge-fill,
+body[data-universe="new_world_explorer"] .vr-gauges-row .vr-gauge:nth-child(1) .vr-gauge-preview{
+  background-image: url("../assets/img/gauges/new_world_explorer/g1_fill.webp");
+}
+
+body[data-universe="new_world_explorer"] .vr-gauges-row .vr-gauge:nth-child(2) .vr-gauge-frame{
+  background-image: url("../assets/img/gauges/new_world_explorer/g2_frame.webp");
+}
+body[data-universe="new_world_explorer"] .vr-gauges-row .vr-gauge:nth-child(2) .vr-gauge-fill,
+body[data-universe="new_world_explorer"] .vr-gauges-row .vr-gauge:nth-child(2) .vr-gauge-preview{
+  background-image: url("../assets/img/gauges/new_world_explorer/g2_fill.webp");
+}
+
+body[data-universe="new_world_explorer"] .vr-gauges-row .vr-gauge:nth-child(3) .vr-gauge-frame{
+  background-image: url("../assets/img/gauges/new_world_explorer/g3_frame.webp");
+}
+body[data-universe="new_world_explorer"] .vr-gauges-row .vr-gauge:nth-child(3) .vr-gauge-fill,
+body[data-universe="new_world_explorer"] .vr-gauges-row .vr-gauge:nth-child(3) .vr-gauge-preview{
+  background-image: url("../assets/img/gauges/new_world_explorer/g3_fill.webp");
+}
+
+body[data-universe="new_world_explorer"] .vr-gauges-row .vr-gauge:nth-child(4) .vr-gauge-frame{
+  background-image: url("../assets/img/gauges/new_world_explorer/g4_frame.webp");
+}
+body[data-universe="new_world_explorer"] .vr-gauges-row .vr-gauge:nth-child(4) .vr-gauge-fill,
+body[data-universe="new_world_explorer"] .vr-gauges-row .vr-gauge:nth-child(4) .vr-gauge-preview{
+  background-image: url("../assets/img/gauges/new_world_explorer/g4_fill.webp");
+}
+
+body[data-universe="new_world_explorer"] .vr-gauge .vr-gauge-frame,
+body[data-universe="new_world_explorer"] .vr-gauge .vr-gauge-fill,
+body[data-universe="new_world_explorer"] .vr-gauge .vr-gauge-preview{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+body[data-universe="new_world_explorer"] .vr-gauge-label,
+body[data-universe="new_world_explorer"] .vr-gauge-value,
+body[data-universe="new_world_explorer"] .vr-gauge-val,
+body[data-universe="new_world_explorer"] .vr-gauge-delta{
+  color: #000 !important;
+}
+
+body[data-universe="new_world_explorer"] .vr-gauge-label,
+body[data-universe="new_world_explorer"] .vr-gauge-value{
+  background: linear-gradient(180deg, rgba(255,255,255,0.94), rgba(227,232,239,0.86)) !important;
+  border: 1px solid rgba(134, 149, 166, 0.24) !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.10) !important;
+  border-radius: 999px !important;
+  padding: 3px 10px !important;
+}
+
+body[data-universe="new_world_explorer"] .vr-gauge{
+  justify-content: flex-start !important;
+}
+
+body[data-universe="new_world_explorer"] .vr-gauge-label{
+  height: 2.6em !important;
+  min-height: 2.6em !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1.05 !important;
+}
+
+#view-game.vr-bg-new_world_explorer{
+  --vr-universe-bg: url("../assets/img/backgrounds/explorer_default_gray.webp");
+  --vr-universe-card: url("../assets/img/ui/explorer_msg_default_grey.webp");
+  --vr-universe-choice: url("../assets/img/ui/explorer_choice_default_grey.webp");
+}
+
+/* ===== Tablette portrait (600px–1100px) ===== */
+@media (orientation: portrait) and (min-width: 600px) and (max-width: 1100px){
+  body.vr-body-game[data-universe="new_world_explorer"]{
+    --vr-card-w: clamp(380px, 74vw, 700px);
+    --vr-scn-h: clamp(160px, 19.5svh, 260px);
+    --vr-choice-h: clamp(96px, 11.8svh, 160px);
+    --vr-stack-gap: clamp(12px, 1.4svh, 22px);
+    --vr-choices-gap: clamp(6px, 0.8svh, 12px);
+    --vr-font-scn-title: clamp(18px, 2.8vmin, 36px);
+    --vr-font-scn-text: clamp(15px, 2.2vmin, 28px);
+    --vr-font-choice: clamp(14px, 2.15vmin, 26px);
+  }
+}
+
+/* ===== Mobile <= 480px ===== */
+@media (max-width: 480px){
+  body.vr-body-game[data-universe="new_world_explorer"]{
+    --vr-explorer-hud-w: 92vw;
+    --vr-explorer-topbar-w: clamp(210px, 58vw, 300px);
+    --vr-explorer-back-size: clamp(40px, 12vw, 60px);
+    --vr-explorer-customize-size: clamp(40px, 12vw, 60px);
+
+    --vr-topbar-h: calc(
+      (var(--vr-explorer-topbar-w) * var(--vr-explorer-topbar-src-h) / var(--vr-explorer-topbar-src-w))
+      + env(safe-area-inset-top) + 2px
+    );
+
+    --vr-card-w: clamp(270px, 88vw, 600px);
+    --vr-scn-h: clamp(150px, 20.5svh, 280px);
+    --vr-choice-h: clamp(96px, 13.0svh, 175px);
+
+    --vr-game-gap: 0px;
+    --vr-stack-gap: clamp(12px, 1.6svh, 26px);
+    --vr-choices-gap: clamp(6px, 0.8svh, 12px);
+
+    --vr-choice-safe: 82%;
+    --vr-choice-inset-top: 15%;
+    --vr-choice-inset-right: 8%;
+    --vr-choice-inset-bottom: 15%;
+    --vr-choice-inset-left: 8%;
+
+    --vr-font-scn-title: clamp(18px, 4.5vw, 30px);
+    --vr-font-scn-text: clamp(15px, 3.8vw, 24px);
+    --vr-font-choice: clamp(14px, 3.55vw, 21px);
+
+    --vr-explorer-topbar-top: calc(6px + env(safe-area-inset-top));
+    --vr-explorer-side-btn-top: calc(10px + env(safe-area-inset-top));
+    --vr-explorer-side-btn-side: 16px;
+
+    --vr-explorer-hud-item-y: -5px;
+
+    --vr-identity-ty: 10px;
+    --vr-hud-name-years-gap: 14px;
+
+    --vr-vcoins-ty: 6px;
+    --vr-jetons-ty: 6px;
+  }
+
+  body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-name,
+  body.vr-body-game[data-universe="new_world_explorer"] .vr-hud-years{
+    font-size: clamp(11px, 3vw, 16px) !important;
+  }
+
+  body.vr-body-game[data-universe="new_world_explorer"] #view-game .vr-card-title{
+    line-height: 1.04 !important;
+    max-width: 94% !important;
+  }
+
+  body.vr-body-game[data-universe="new_world_explorer"] #view-game .vr-card-text{
+    line-height: 1.12 !important;
+    max-width: 94% !important;
+  }
+
+  body.vr-body-game[data-universe="new_world_explorer"] #view-game .vr-choice-label{
+    line-height: 1.10 !important;
+    max-width: 100% !important;
+  }
+}
+
+/* ===== Petits écrans / écrans courts ===== */
+@media (max-width: 390px) and (max-height: 740px){
+  body.vr-body-game[data-universe="new_world_explorer"]{
+    --vr-scn-h: clamp(130px, 18.0svh, 240px);
+    --vr-choice-h: clamp(84px, 11.5svh, 148px);
+    --vr-game-gap: 0px;
+    --vr-stack-gap: clamp(8px, 1.1svh, 16px);
+    --vr-choices-gap: clamp(5px, 0.6svh, 9px);
+    --vr-font-scn-title: clamp(16px, 4.2vw, 26px);
+    --vr-font-scn-text: clamp(13px, 3.4vw, 20px);
+    --vr-font-choice: clamp(13px, 3.35vw, 18px);
+    --vr-choice-safe: 80%;
+    --vr-choice-inset-top: 14%;
+    --vr-choice-inset-right: 7%;
+    --vr-choice-inset-bottom: 14%;
+    --vr-choice-inset-left: 7%;
+  }
+}
+
+
+
+
+
+
+
+
+/* ==========================================================
+   UNIVERS — VAMPIRE
+   ========================================================== */
+body[data-universe="vampire_lord"].vr-body-game #view-game .vr-card-title{
+  font-family: "VR_PirataOne", serif !important;
+  color: #000 !important;
+}
+
+body[data-universe="vampire_lord"].vr-body-game #view-game .vr-card-text{
+  font-family: "VR_Cormorant", serif !important;
+  color: #000 !important;
+}
+
+body[data-universe="vampire_lord"].vr-body-game #view-game .vr-choice-label{
+  font-family: "VR_CrimsonText", serif !important;
+  color: #000 !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+  font-size: clamp(16.5px, 2.7vmin, 28px) !important;
+  font-weight: 700 !important;
+  line-height: 1.16 !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"]{
+  --vr-card-w: clamp(390px, 98vw, 1080px);
+  --vr-gauge-size: clamp(76px, 17.5vw, 128px);
+
+  --vr-scn-h: clamp(132px, 17.6svh, 236px);
+  --vr-choice-h: clamp(82px, 11.2svh, 142px);
+
+  --vr-game-gap: clamp(2px, 0.24svh, 6px);
+  --vr-stack-gap: clamp(8px, 0.95svh, 18px);
+  --vr-choices-gap: clamp(8px, 0.90svh, 16px);
+
+  --vr-scn-inset-top: 13%;
+  --vr-scn-inset-right: 11%;
+  --vr-scn-inset-bottom: 15%;
+  --vr-scn-inset-left: 11%;
+
+  --vr-choice-inset-top: 16%;
+  --vr-choice-inset-right: 9%;
+  --vr-choice-inset-bottom: 16%;
+  --vr-choice-inset-left: 9%;
+  --vr-choice-safe: 84%;
+
+  --vr-font-scn-title: clamp(20px, 3.2vmin, 38px);
+  --vr-font-scn-text:  clamp(17.5px, 2.9vmin, 31px);
+  --vr-font-choice:    clamp(18.5px, 3.05vmin, 33px);
+
+  --vr-topbar-h: calc(clamp(56px, 11vw, 90px) + env(safe-area-inset-top) + 8px);
+
+  --vr-vampire-hud-w: min(94vw, 980px);
+  --vr-vampire-topbar-w: clamp(220px, 54vw, 420px);
+  --vr-vampire-topbar-h: calc(var(--vr-vampire-topbar-w) * 0.275);
+  --vr-vampire-back-size: clamp(46px, 11vw, 76px);
+  --vr-vampire-customize-size: clamp(46px, 11vw, 76px);
+
+  --vr-ui-topbar-img: url("../assets/img/ui/vampire_topbar.webp");
+  --vr-ui-hud-img: url("../assets/img/ui/vampire_hud_bar.webp");
+  --vr-ui-back-img: url("../assets/img/ui/vampire_back.webp");
+  --vr-ui-customize-img: url("../assets/img/ui/vampire_customize.webp");
+
+  --vr-vcoins-color:#F7D06B;
+  --vr-vcoins-glow:rgba(210,60,60,.28);
+  --vr-vcoins-bg: transparent;
+  --vr-jetons-bg: transparent;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] #view-game .vr-card-title{
+  max-width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] #view-game .vr-card-text{
+  max-width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] #view-game .vr-choice-label{
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] #view-game .vr-card-main{
+  overflow: hidden;
+  background-size: 96% 98% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] #view-game .vr-choice-button{
+  background-size: 104% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-top-actions-game .vr-top-icon,
+body.vr-body-game[data-universe="vampire_lord"] > a.vr-icon-button[aria-label="Accueil"] .vr-top-icon,
+body.vr-body-game[data-universe="vampire_lord"] #btn-customize .vr-top-icon{
+  display:none !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-top-actions-game{
+  position: fixed !important;
+  top: calc(14px + env(safe-area-inset-top)) !important;
+  left: 50% !important;
+  right: auto !important;
+  transform: translateX(-50%) !important;
+  width: var(--vr-vampire-topbar-w) !important;
+  height: var(--vr-vampire-topbar-h) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  gap: 0 !important;
+  display: block !important;
+  pointer-events: none !important;
+  z-index: 100000 !important;
+}
+body.vr-body-game[data-universe="vampire_lord"] .vr-top-actions-game::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url("../assets/img/ui/vampire_topbar.webp") center/100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+body.vr-body-game[data-universe="vampire_lord"] .vr-top-actions-game .vr-icon-button{
+  position:absolute !important;
+  top:16% !important;
+  width:17% !important;
+  height:72% !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  pointer-events:auto !important;
+  z-index:1 !important;
+}
+body.vr-body-game[data-universe="vampire_lord"] .vr-top-actions-game .vr-icon-button:nth-child(1){ left:16% !important; }
+body.vr-body-game[data-universe="vampire_lord"] .vr-top-actions-game .vr-icon-button:nth-child(2){ left:41% !important; }
+body.vr-body-game[data-universe="vampire_lord"] .vr-top-actions-game .vr-icon-button:nth-child(3){ left:66% !important; }
+
+body.vr-body-game[data-universe="vampire_lord"] > a.vr-icon-button[aria-label="Accueil"]{
+  position: fixed !important;
+  top: calc(18px + env(safe-area-inset-top)) !important;
+  left: 20px !important;
+  width:var(--vr-vampire-back-size) !important;
+  height:var(--vr-vampire-back-size) !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  z-index:100002 !important;
+  pointer-events:auto !important;
+}
+body.vr-body-game[data-universe="vampire_lord"] > a.vr-icon-button[aria-label="Accueil"]::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url("../assets/img/ui/vampire_back.webp") center/100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] #btn-customize{
+  position: fixed !important;
+  top: calc(18px + env(safe-area-inset-top)) !important;
+  right: 20px !important;
+  width:var(--vr-vampire-customize-size) !important;
+  height:var(--vr-vampire-customize-size) !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:none !important;
+  background:transparent !important;
+  z-index:100002 !important;
+  pointer-events:auto !important;
+}
+body.vr-body-game[data-universe="vampire_lord"] #btn-customize::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url("../assets/img/ui/vampire_customize.webp") center/100% 100% no-repeat;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.22));
+  pointer-events:none;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-hud{
+  position: relative !important;
+  width:var(--vr-vampire-hud-w) !important;
+  max-width:none !important;
+  margin:0 auto !important;
+  padding:0 !important;
+  display:block !important;
+  white-space: normal !important;
+  aspect-ratio: 1024 / 269;
+  background:url("../assets/img/ui/vampire_hud_bar.webp") center/100% 100% no-repeat;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.20));
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-hud-left,
+body.vr-body-game[data-universe="vampire_lord"] .vr-hud-center,
+body.vr-body-game[data-universe="vampire_lord"] .vr-hud-right{
+  position:absolute !important;
+  top:0 !important;
+  bottom:0 !important;
+  min-width:0 !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  transform:none !important;
+  justify-self:auto !important;
+}
+body.vr-body-game[data-universe="vampire_lord"] .vr-hud-left{ left:3.3% !important;width:17.8% !important; }
+body.vr-body-game[data-universe="vampire_lord"] .vr-hud-center{ left:20.2% !important;right:20.2% !important; }
+body.vr-body-game[data-universe="vampire_lord"] .vr-hud-right{ right:5.3% !important;width:17.8% !important; }
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-hud-item{
+  width:100% !important;
+  height:100% !important;
+  min-height:0 !important;
+  padding:0 clamp(1px,0.22vw,4px) !important;
+  gap:clamp(1px,0.18vw,4px) !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  background:transparent !important;
+  border:none !important;
+  box-shadow:none !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+  transform: translateY(-11px) !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-hud-value{
+  font-size: clamp(13px, 2vw, 24px) !important;
+  font-weight: 800 !important;
+  line-height:1 !important;
+  color:#ffffff !important;
+  text-shadow: 0 1px 0 rgba(2, 2, 2, 0.35), 0 0 8px rgba(0,0,0,0.12) !important;
+  transform: translateY(-2px) !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-hud-right .vr-hud-value{
+  transform: translate(3px, -2px) !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-hud-name{
+  font-size: clamp(13px, 2vw, 28px) !important;
+  font-weight: 800 !important;
+  line-height:1 !important;
+  max-width:75% !important;
+  overflow:hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-hud-years{
+  font-size: clamp(10px, 1.25vw, 16px) !important;
+  font-weight: 800 !important;
+  line-height:1 !important;
+  transform: translateY(1px) !important;
+  opacity: .95 !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] #view-game .vr-card-title{
+  font-size: clamp(19px, 3.0vmin, 34px) !important;
+  font-weight: 400 !important;
+  line-height: 1.08 !important;
+  max-width: 94% !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] #view-game .vr-card-text{
+  font-size: clamp(16.5px, 2.7vmin, 28px) !important;
+  font-weight: 700 !important;
+  line-height: 1.16 !important;
+  max-width: 94% !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+}
+
+/* Jauges : halo local fort derrière chaque jauge, sans contour visible */
+body.vr-body-game[data-universe="vampire_lord"] .vr-gauges-row{
+  position: relative !important;
+  gap: clamp(12px, 2.8vw, 22px) !important;
+  margin: 4px auto 10px !important;
+  padding: 2px 2px 4px !important;
+  border-radius: 18px !important;
+  overflow: visible !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-gauges-row::before{
+  content: none !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-gauges-row > *{
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-gauge{
+  position: relative !important;
+  gap: 10px !important;
+  isolation: isolate !important;
+  padding: 4px 2px 8px !important;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-gauge::before{
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 61%;
+  transform: translate(-50%, -50%);
+  width: clamp(112px, 22vw, 164px);
+  height: clamp(104px, 21vw, 150px);
+  border-radius: 999px;
+  background:
+    radial-gradient(ellipse at center,
+      rgba(210,220,235,0.26) 0%,
+      rgba(170,185,205,0.18) 36%,
+      rgba(120,138,165,0.10) 66%,
+      rgba(86,102,128,0.04) 86%,
+      rgba(6,8,14,0.00) 100%);
+  filter: blur(20px);
+  -webkit-filter: blur(20px);
+  pointer-events: none;
+  z-index: -1;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-gauge-label,
+body.vr-body-game[data-universe="vampire_lord"] .vr-gauge-value{
+  background: rgba(8,10,16,0.46) !important;
+  border: 1px solid rgba(255,255,255,0.06) !important;
+  border-radius: 999px !important;
+  padding: 2px 8px !important;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-gauge-val,
+body.vr-body-game[data-universe="vampire_lord"] .vr-gauge-delta{
+  color: inherit !important;
+}
+
+#view-game.vr-bg-vampire_lord{
+  --vr-universe-bg: url("../assets/img/backgrounds/vampire_default_gray.webp");
+  --vr-universe-card: url("../assets/img/ui/vampire_msg_default_gray.webp");
+  --vr-universe-choice: url("../assets/img/ui/vampire_choice_default_gray.webp");
+}
+
+body[data-universe="vampire_lord"] .vr-gauges-row .vr-gauge:nth-child(1) .vr-gauge-frame{
+  background-image: url("../assets/img/gauges/vampire_lord/g1_frame.webp");
+}
+body[data-universe="vampire_lord"] .vr-gauges-row .vr-gauge:nth-child(1) .vr-gauge-fill,
+body[data-universe="vampire_lord"] .vr-gauges-row .vr-gauge:nth-child(1) .vr-gauge-preview{
+  background-image: url("../assets/img/gauges/vampire_lord/g1_fill.webp");
+}
+
+body[data-universe="vampire_lord"] .vr-gauges-row .vr-gauge:nth-child(2) .vr-gauge-frame{
+  background-image: url("../assets/img/gauges/vampire_lord/g2_frame.webp");
+}
+body[data-universe="vampire_lord"] .vr-gauges-row .vr-gauge:nth-child(2) .vr-gauge-fill,
+body[data-universe="vampire_lord"] .vr-gauges-row .vr-gauge:nth-child(2) .vr-gauge-preview{
+  background-image: url("../assets/img/gauges/vampire_lord/g2_fill.webp");
+}
+
+body[data-universe="vampire_lord"] .vr-gauges-row .vr-gauge:nth-child(3) .vr-gauge-frame{
+  background-image: url("../assets/img/gauges/vampire_lord/g3_frame.webp");
+}
+body[data-universe="vampire_lord"] .vr-gauges-row .vr-gauge:nth-child(3) .vr-gauge-fill,
+body[data-universe="vampire_lord"] .vr-gauges-row .vr-gauge:nth-child(3) .vr-gauge-preview{
+  background-image: url("../assets/img/gauges/vampire_lord/g3_fill.webp");
+}
+
+body[data-universe="vampire_lord"] .vr-gauges-row .vr-gauge:nth-child(4) .vr-gauge-frame{
+  background-image: url("../assets/img/gauges/vampire_lord/g4_frame.webp");
+}
+body[data-universe="vampire_lord"] .vr-gauges-row .vr-gauge:nth-child(4) .vr-gauge-fill,
+body[data-universe="vampire_lord"] .vr-gauges-row .vr-gauge:nth-child(4) .vr-gauge-preview{
+  background-image: url("../assets/img/gauges/vampire_lord/g4_fill.webp");
+}
+
+body[data-universe="vampire_lord"] .vr-gauge .vr-gauge-frame,
+body[data-universe="vampire_lord"] .vr-gauge .vr-gauge-fill,
+body[data-universe="vampire_lord"] .vr-gauge .vr-gauge-preview{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+body.vr-body-game[data-universe="vampire_lord"] .vr-gauge-frame{
+  filter:
+    drop-shadow(0 12px 26px rgba(0,0,0,0.72))
+    drop-shadow(0 0 16px rgba(0,0,0,0.54))
+    drop-shadow(0 0 4px rgba(255,255,255,0.10)) !important;
+}
+
+@media (max-width: 480px){
+  body.vr-body-game[data-universe="vampire_lord"]{
+    --vr-vampire-hud-w: 92vw;
+    --vr-vampire-topbar-w: clamp(210px, 58vw, 300px);
+    --vr-vampire-back-size: clamp(40px, 12vw, 60px);
+    --vr-vampire-customize-size: clamp(40px, 12vw, 60px);
+    --vr-gauge-size: clamp(68px, 18vw, 96px);
+
+    --vr-topbar-h: calc(clamp(50px, 12vw, 76px) + env(safe-area-inset-top) + 6px);
+
+    --vr-ui-topbar-top: 12px;
+    --vr-ui-back-top: 16px;
+    --vr-ui-back-left: 16px;
+    --vr-ui-customize-top: 16px;
+    --vr-ui-customize-right: 16px;
+
+    --vr-card-w: clamp(320px, 96vw, 760px);
+    --vr-scn-h: clamp(120px, 16.2svh, 198px);
+    --vr-choice-h: clamp(76px, 10.4svh, 120px);
+
+    --vr-stack-gap: 9px;
+    --vr-choices-gap: 8px;
+
+    --vr-choice-safe: 82%;
+    --vr-choice-inset-top: 15%;
+    --vr-choice-inset-right: 8%;
+    --vr-choice-inset-bottom: 15%;
+    --vr-choice-inset-left: 8%;
+
+    --vr-font-choice: clamp(16px, 4.1vw, 21px);
+  }
+
+  body.vr-body-game[data-universe="vampire_lord"] .vr-top-actions-game{ top: calc(12px + env(safe-area-inset-top)) !important; }
+  body.vr-body-game[data-universe="vampire_lord"] > a.vr-icon-button[aria-label="Accueil"]{ top: calc(16px + env(safe-area-inset-top)) !important; left: 16px !important; }
+  body.vr-body-game[data-universe="vampire_lord"] #btn-customize{ top: calc(16px + env(safe-area-inset-top)) !important; right: 16px !important; }
+
+  body.vr-body-game[data-universe="vampire_lord"] .vr-hud-item{
+    transform: translateY(-4px) !important;
+  }
+  body.vr-body-game[data-universe="vampire_lord"] .vr-hud-value{
+    transform: translateY(0px) !important;
+  }
+  body.vr-body-game[data-universe="vampire_lord"] .vr-hud-right .vr-hud-value{
+    transform: translate(2px, 0px) !important;
+  }
+
+  body.vr-body-game[data-universe="vampire_lord"] #view-game .vr-card-title{
+    font-size: clamp(16.5px, 4.6vw, 22px) !important;
+    font-weight: 400 !important;
+    line-height: 1.06 !important;
+    max-width: 94% !important;
+  }
+  body.vr-body-game[data-universe="vampire_lord"] #view-game .vr-card-text{
+    font-size: clamp(15px, 4.15vw, 19.5px) !important;
+    font-weight: 700 !important;
+    line-height: 1.14 !important;
+    max-width: 94% !important;
+  }
+  body.vr-body-game[data-universe="vampire_lord"] #view-game .vr-choice-label{
+    font-family: "VR_CrimsonText", serif !important;
+    font-size: clamp(15px, 4.15vw, 19.5px) !important;
+    font-weight: 700 !important;
+    line-height: 1.14 !important;
+    max-width: 100% !important;
+  }
+
+  body.vr-body-game[data-universe="vampire_lord"] .vr-gauges-row{
+    padding: 2px 2px 4px !important;
+    gap: 8px !important;
+  }
+
+  body.vr-body-game[data-universe="vampire_lord"] .vr-gauge{
+    gap: 8px !important;
+  }
+
+  body.vr-body-game[data-universe="vampire_lord"] .vr-gauge::before{
+    width: clamp(78px, 21vw, 108px) !important;
+    height: clamp(110px, 26vw, 146px) !important;
+    border-radius: 18px !important;
+    filter: none !important;
+  }
+
+  body.vr-body-game[data-universe="vampire_lord"] .vr-gauge-label{
+    padding: 1px 6px !important;
+    font-size: clamp(11px, 2.95vw, 15px) !important;
+  }
+
+  body.vr-body-game[data-universe="vampire_lord"] .vr-gauge-value{
+    padding: 1px 6px !important;
+    font-size: clamp(11px, 2.95vw, 15px) !important;
+  }
+}
+
+@media (max-width: 390px) and (max-height: 740px){
+  body.vr-body-game[data-universe="vampire_lord"]{
+    --vr-choice-h: clamp(78px, 10.4svh, 116px);
+    --vr-font-choice: clamp(15px, 3.7vw, 19px);
+    --vr-choice-safe: 80%;
+    --vr-choice-inset-top: 14%;
+    --vr-choice-inset-right: 7%;
+    --vr-choice-inset-bottom: 14%;
+    --vr-choice-inset-left: 7%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   MOBILE (TOUS UNIVERS) — bloc demandé
+   ========================================================== */
+@media (max-width: 480px){
+  body.vr-body-game{
+    --vr-ui-topbar-top: 12px;
+    --vr-ui-back-top: 16px;
+    --vr-ui-back-left: 16px;
+    --vr-ui-customize-top: 16px;
+    --vr-ui-customize-right: 16px;
+    --vr-hud-item-ty: -4px;
+  }
+}
+
+/* ==========================================================
+   iPhone SE / très petits écrans : shrink FORT
+   ========================================================== */
+@media (max-width: 360px) and (max-height: 620px){
+  :root{
+    --vr-top-btn: 32px;
+    --vr-top-icon: 22px;
+  }
+
+  body.vr-body-game{
+    --vr-topbar-h: calc(var(--vr-top-btn) + 14px + env(safe-area-inset-top));
+    --vr-gauge-size: clamp(46px, 14vw, 64px);
+
+    --vr-font-scn-title: clamp(13px, 3.9vw, 16px);
+    --vr-font-scn-text:  clamp(12px, 3.5vw, 15px);
+    --vr-font-choice:    clamp(12px, 3.7vw, 15px);
+
+    --vr-scn-h: clamp(110px, 17svh, 185px);
+    --vr-choice-h: clamp(90px, 13.8svh, 160px);
+
+    --vr-stack-gap: 5px;
+    --vr-choices-gap: 6px;
+
+    --vr-scn-inset-top: 13%;
+    --vr-scn-inset-right: 9%;
+    --vr-scn-inset-bottom: 12%;
+    --vr-scn-inset-left: 9%;
+
+    --vr-choice-inset-top: 18%;
+    --vr-choice-inset-right: 9%;
+    --vr-choice-inset-bottom: 16%;
+    --vr-choice-inset-left: 9%;
+  }
+
+  body.vr-body-game .vr-gauge-label{
+    font-size: 10px;
+    min-height: 1.6em;
+  }
+
+  body.vr-body-game #view-game{
+    padding-bottom: 8px !important;
+  }
+}
+
+/* ==========================================================
+   STAGE PROPORTIONNEL GLOBAL
+   - ton CSS actuel devient la référence
+   - on scale tout le mode jeu tel quel
+   - aucun réglage univers à refaire
+   ========================================================== */
+/* ==========================================================
+   ADAPTATION FINALE — BASE DE RÉFÉRENCE = 412x914
+   - le CSS existant reste la référence
+   - on ne touche pas aux % / insets / placements internes
+   - on adapte seulement les écrans extrêmes
+   ========================================================== */
+
+body.vr-body-game[data-universe]{
+  --vr-fit-ui: 1;
+  --vr-fit-hud: 1;
+  --vr-fit-gauge: 1;
+  --vr-fit-frame: 1;
+  --vr-fit-type: 1;
+  --vr-fit-gap: 1;
+  --vr-fit-namegap: 1;
+
+  --vr-fit-title-lh: 1.08;
+  --vr-fit-text-lh: 1.16;
+  --vr-fit-choice-lh: 1.10;
+
+  /* on recalcule la réserve haute à partir du chrome réellement affiché */
+  --vr-topbar-h: calc(
+    (var(--vr-ui-topbar-w) * var(--vr-ui-topbar-r) * var(--vr-fit-ui))
+    + env(safe-area-inset-top) + 8px
+  );
+}
+
+/* ---------- Chrome haut ---------- */
+
+body.vr-body-game[data-universe] .vr-top-actions-game{
+  width: calc(var(--vr-ui-topbar-w) * var(--vr-fit-ui)) !important;
+  height: calc(var(--vr-ui-topbar-w) * var(--vr-ui-topbar-r) * var(--vr-fit-ui)) !important;
+}
+
+body.vr-body-game[data-universe] > a.vr-icon-button[aria-label="Accueil"]{
+  width: calc(var(--vr-ui-back-size) * var(--vr-fit-ui)) !important;
+  height: calc(var(--vr-ui-back-size) * var(--vr-fit-ui)) !important;
+}
+
+body.vr-body-game[data-universe] #btn-customize{
+  width: calc(var(--vr-ui-customize-size) * var(--vr-fit-ui)) !important;
+  height: calc(var(--vr-ui-customize-size) * var(--vr-fit-ui)) !important;
+}
+
+/* ---------- HUD ---------- */
+
+body.vr-body-game[data-universe] .vr-hud{
+  width: calc(var(--vr-ui-hud-w) * var(--vr-fit-hud)) !important;
+}
+
+body.vr-body-game[data-universe] .vr-hud-identity{
+  gap: calc(var(--vr-hud-name-years-gap) * var(--vr-fit-namegap)) !important;
+}
+
+/* ---------- Jauges ---------- */
+
+body.vr-body-game[data-universe] .vr-gauge-frame{
+  width: calc(var(--vr-gauge-size) * var(--vr-fit-gauge)) !important;
+  height: calc(var(--vr-gauge-size) * var(--vr-fit-gauge)) !important;
+}
+
+/* ---------- Stage central ---------- */
+
+body.vr-body-game[data-universe] .vr-card-stack{
+  width: min(100%, calc(var(--vr-card-w) * var(--vr-fit-frame))) !important;
+  gap: calc(var(--vr-stack-gap) * var(--vr-fit-gap)) !important;
+}
+
+body.vr-body-game[data-universe] .vr-card-choices{
+  gap: calc(var(--vr-choices-gap) * var(--vr-fit-gap)) !important;
+}
+
+body.vr-body-game[data-universe] #view-game .vr-card-main{
+  min-height: calc(var(--vr-scn-h) * var(--vr-fit-frame)) !important;
+}
+
+body.vr-body-game[data-universe] #view-game .vr-choice-button{
+  min-height: calc(var(--vr-choice-h) * var(--vr-fit-frame)) !important;
+}
+
+/* ---------- Textes ---------- */
+
+body.vr-body-game[data-universe] #view-game .vr-card-title{
+  font-size: calc(var(--vr-font-scn-title) * var(--vr-fit-type)) !important;
+  line-height: var(--vr-fit-title-lh) !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+}
+
+body.vr-body-game[data-universe] #view-game .vr-card-text{
+  font-size: calc(var(--vr-font-scn-text) * var(--vr-fit-type)) !important;
+  line-height: var(--vr-fit-text-lh) !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+}
+
+body.vr-body-game[data-universe] #view-game .vr-choice-label{
+  font-size: calc(var(--vr-font-choice) * var(--vr-fit-type)) !important;
+  line-height: var(--vr-fit-choice-lh) !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: auto !important;
+  text-wrap: balance !important;
+}
+
+/* HUD textes */
+body.vr-body-game[data-universe] .vr-hud-value{
+  font-size: calc(clamp(12px, 2vw, 24px) * var(--vr-fit-type)) !important;
+}
+
+body.vr-body-game[data-universe] .vr-hud-name,
+body.vr-body-game[data-universe] .vr-hud-years{
+  font-size: calc(clamp(12px, 1.9vw, 23px) * var(--vr-fit-type)) !important;
+}
+
+body.vr-body-game[data-universe] .vr-gauge-label{
+  font-size: calc(clamp(11px, 2.0vmin, 16px) * var(--vr-fit-type)) !important;
+  line-height: 1.08 !important;
+}
+
+/* ==========================================================
+   1) Très petits / écrans courts
+   Ex: iPhone 4 / vieux petits écrans
+   ========================================================== */
+@media (max-width: 390px) and (max-height: 740px){
+  body.vr-body-game[data-universe]{
+    --vr-fit-ui: 0.93;
+    --vr-fit-hud: 0.94;
+    --vr-fit-gauge: 0.90;
+    --vr-fit-frame: 0.89;
+    --vr-fit-type: 0.91;
+    --vr-fit-gap: 0.86;
+    --vr-fit-namegap: 0.88;
+  }
+}
+
+@media (max-width: 360px) and (max-height: 620px){
+  body.vr-body-game[data-universe]{
+    --vr-fit-ui: 0.87;
+    --vr-fit-hud: 0.89;
+    --vr-fit-gauge: 0.84;
+    --vr-fit-frame: 0.83;
+    --vr-fit-type: 0.86;
+    --vr-fit-gap: 0.80;
+    --vr-fit-namegap: 0.82;
+  }
+}
+
+/* ==========================================================
+   2) Tablettes portrait / écrans très larges par rapport
+      à la référence 412x914
+   Ex: iPad Mini, Surface Pro portrait
+   Ici on garde le jeu contenu, mais on grossit les textes
+   et on donne plus de place utile aux cartes
+   ========================================================== */
+@media (orientation: portrait) and (min-width: 600px) and (max-width: 1100px){
+  body.vr-body-game[data-universe]{
+    --vr-fit-ui: 0.94;
+    --vr-fit-hud: 0.95;
+    --vr-fit-gauge: 0.98;
+    --vr-fit-frame: 0.93;
+    --vr-fit-type: 1.10;
+    --vr-fit-gap: 0.92;
+    --vr-fit-namegap: 0.96;
+
+    --vr-fit-title-lh: 1.05;
+    --vr-fit-text-lh: 1.12;
+    --vr-fit-choice-lh: 1.08;
+  }
+
+  body.vr-body-game[data-universe] #view-game .vr-card-main{
+    min-height: calc(var(--vr-scn-h) * 0.98) !important;
+  }
+
+  body.vr-body-game[data-universe] #view-game .vr-choice-button{
+    min-height: calc(var(--vr-choice-h) * 0.98) !important;
+  }
+
+  body.vr-body-game[data-universe] .vr-hud-value{
+    font-size: calc(clamp(12px, 2vw, 24px) * 1.18) !important;
+  }
+
+  body.vr-body-game[data-universe] .vr-hud-name,
+  body.vr-body-game[data-universe] .vr-hud-years{
+    font-size: calc(clamp(12px, 1.9vw, 23px) * 1.16) !important;
+  }
+
+  body.vr-body-game[data-universe] .vr-gauge-label{
+    font-size: calc(clamp(11px, 2.1vmin, 15px) * 1.16) !important;
+    min-height: 2.2em !important;
+  }
+
+  body.vr-body-game[data-universe] .vr-gauge-value{
+    font-size: calc(13px * 1.12) !important;
+  }
+}
+/* ==========================================================
+   3) Tablettes portrait un peu moins extrêmes
+   Ex: grands téléphones / petites tablettes
+   ========================================================== */
+@media (orientation: portrait) and (min-width: 481px) and (max-width: 699px){
+  body.vr-body-game[data-universe]{
+    --vr-fit-ui: 0.93;
+    --vr-fit-hud: 0.93;
+    --vr-fit-gauge: 0.93;
+    --vr-fit-frame: 0.92;
+    --vr-fit-type: 0.94;
+    --vr-fit-gap: 0.90;
+    --vr-fit-namegap: 0.93;
+  }
+}
+
+@media (min-width: 1101px) and (min-height: 760px){
+  body.vr-body-game[data-universe]{
+    --vr-fit-ui: 1.03;
+    --vr-fit-hud: 1.05;
+    --vr-fit-gauge: 1.06;
+    --vr-fit-frame: 1.05;
+    --vr-fit-type: 1.06;
+    --vr-fit-gap: 1.04;
+    --vr-fit-namegap: 1.03;
+  }
+}
+
+@media (min-width: 1500px) and (min-height: 900px){
+  body.vr-body-game[data-universe]{
+    --vr-fit-ui: 1.08;
+    --vr-fit-hud: 1.10;
+    --vr-fit-gauge: 1.12;
+    --vr-fit-frame: 1.11;
+    --vr-fit-type: 1.12;
+    --vr-fit-gap: 1.08;
+    --vr-fit-namegap: 1.06;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 700px) and (max-width: 1100px){
+  body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud{
+    aspect-ratio: 1024 / 235 !important;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 600px) and (max-width: 1100px){
+  body.vr-body-game[data-universe] .vr-gauges-row{
+    gap: clamp(10px, 1.8vw, 16px) !important;
+  }
+
+  body.vr-body-game[data-universe] .vr-gauge{
+    gap: 8px !important;
+  }
+
+  body.vr-body-game[data-universe] .vr-gauge-label{
+    font-size: clamp(13px, 1.75vw, 18px) !important;
+    min-height: 2.25em !important;
+    padding: 0 4px !important;
+    max-width: 100% !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    word-break: normal !important;
+    text-align: center !important;
+  }
+
+  body.vr-body-game[data-universe] .vr-gauge-value{
+    font-size: clamp(12px, 1.55vw, 16px) !important;
+    min-width: 70px !important;
+  }
+
+  body.vr-body-game[data-universe] .vr-hud-value{
+    font-size: clamp(14px, 1.95vw, 24px) !important;
+  }
+
+  body.vr-body-game[data-universe] .vr-hud-name,
+  body.vr-body-game[data-universe] .vr-hud-years{
+    font-size: clamp(14px, 1.95vw, 24px) !important;
+  }
+}
+
+
+
+
+
+
+
+
+@media (orientation: portrait) and (min-width: 600px) and (max-width: 1100px){
+
+  /* =========================
+     HEAVEN
+     ========================= */
+  body.vr-body-game[data-universe="heaven_king"]{
+    --vr-heaven-hud-w: min(86vw, 860px);
+    --vr-heaven-hud-value-size: clamp(16px, 2.1vw, 26px);
+    --vr-heaven-hud-name-size: clamp(16px, 2.1vw, 26px);
+    --vr-heaven-hud-years-size: clamp(16px, 2.1vw, 26px);
+
+    --vr-card-w: min(92vw, 820px);
+    --vr-choice-safe: 74%;
+
+    --vr-font-scn-title: clamp(20px, 2.5vmin, 30px);
+    --vr-font-scn-text: clamp(15px, 1.95vmin, 20px);
+    --vr-font-choice: clamp(16px, 2.05vmin, 21px);
+
+    --vr-choice-h: clamp(104px, 11.8svh, 156px);
+    --vr-choices-gap: clamp(6px, 0.7svh, 10px);
+    --vr-stack-gap: clamp(4px, 0.45svh, 8px);
+  }
+
+  body.vr-body-game[data-universe="heaven_king"] .vr-choice-button{
+    background-size: 100% 100% !important;
+  }
+
+  body.vr-body-game[data-universe="heaven_king"] .vr-gauge-label{
+    font-size: clamp(19px, 2.6vw, 25px) !important;
+    min-height: 2.55em !important;
+  }
+
+  body.vr-body-game[data-universe="heaven_king"] .vr-gauge-value{
+    font-size: clamp(15px, 2.05vw, 19px) !important;
+  }
+
+  body.vr-body-game[data-universe="heaven_king"] .vr-hud-identity{
+    transform: translate(0px, 12px) !important;
+  }
+
+  body.vr-body-game[data-universe="heaven_king"] .vr-hud-left .vr-hud-value{
+    transform: translate(-12px, 0px) !important;
+  }
+
+  body.vr-body-game[data-universe="heaven_king"] .vr-gauge{
+    position: relative !important;
+    isolation: isolate !important;
+  }
+
+  body.vr-body-game[data-universe="heaven_king"] .vr-gauge::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 46%;
+    transform: translate(-50%, -50%);
+    width: clamp(96px, 18vw, 140px);
+    height: clamp(120px, 23vw, 180px);
+    border-radius: 999px;
+    background:
+      radial-gradient(
+        ellipse at center,
+        rgba(255,255,255,0.34) 0%,
+        rgba(255,255,255,0.22) 35%,
+        rgba(255,255,255,0.10) 62%,
+        rgba(255,255,255,0.00) 100%
+      );
+    filter: blur(14px);
+    -webkit-filter: blur(14px);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  /* =========================
+     WESTERN
+     ========================= */
+  body.vr-body-game[data-universe="western_president"]{
+    --vr-ui-hud-w: min(84vw, 820px);
+    --vr-west-hud-w: min(84vw, 820px);
+
+    --vr-card-w: min(90vw, 760px);
+    --vr-scn-h: clamp(150px, 17.5svh, 220px);
+    --vr-choice-h: clamp(94px, 10.8svh, 138px);
+
+    --vr-font-scn-title: clamp(18px, 2.15vmin, 25px);
+    --vr-font-scn-text: clamp(14px, 1.7vmin, 18px);
+    --vr-font-choice: clamp(15px, 1.8vmin, 19px);
+
+    --vr-hud-name-years-gap: 26px;
+  }
+
+  body.vr-body-game[data-universe="western_president"] #view-game .vr-card-main{
+    background-size: 100% 100% !important;
+  }
+
+  body.vr-body-game[data-universe="western_president"] #view-game .vr-choice-button{
+    background-size: 100% 100% !important;
+  }
+
+  body.vr-body-game[data-universe="western_president"] .vr-hud-left .vr-hud-value{
+    transform: translate(-16px, 22px) !important;
+  }
+
+  body.vr-body-game[data-universe="western_president"] .vr-hud-right .vr-hud-value{
+    transform: translate(25px, 18px) !important;
+  }
+
+  body.vr-body-game[data-universe="western_president"] .vr-hud-identity{
+    transform: translate(0px, 20px) !important;
+    gap: 30px !important;
+  }
+
+  body.vr-body-game[data-universe="western_president"] .vr-hud-value{
+    font-size: clamp(15px, 2.0vw, 23px) !important;
+  }
+
+  body.vr-body-game[data-universe="western_president"] .vr-hud-name,
+  body.vr-body-game[data-universe="western_president"] .vr-hud-years{
+    font-size: clamp(15px, 2.0vw, 23px) !important;
+  }
+
+  body.vr-body-game[data-universe="western_president"] .vr-gauge-label{
+    font-size: clamp(15px, 2.0vw, 19px) !important;
+    min-height: 2.35em !important;
+  }
+
+  body[data-universe="western_president"] .vr-gauge-label,
+  body[data-universe="western_president"] .vr-gauge-value,
+  body[data-universe="western_president"] .vr-gauge-val,
+  body[data-universe="western_president"] .vr-gauge-delta{
+    color: #000 !important;
+    text-shadow:
+      0 1px 0 rgba(255,255,255,0.18),
+      0 0 5px rgba(0,0,0,0.06) !important;
+  }
+
+  body[data-universe="western_president"] .vr-gauge-label,
+  body[data-universe="western_president"] .vr-gauge-value{
+    background: linear-gradient(180deg, rgba(255,255,255,0.94), rgba(227,232,239,0.86)) !important;
+    border: 1px solid rgba(134, 149, 166, 0.24) !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.10) !important;
+    border-radius: 999px !important;
+    padding: 3px 10px !important;
+  }
+
+  /* =========================
+     CEO
+     ========================= */
+  body.vr-body-game[data-universe="mega_corp_ceo"]{
+    --vr-corp-hud-w: min(90vw, 900px);
+
+    --vr-card-w: min(92vw, 820px);
+    --vr-choice-h: clamp(118px, 12.8svh, 168px);
+
+    --vr-font-scn-title: clamp(22px, 2.45vmin, 31px);
+    --vr-font-scn-text: clamp(17px, 2.0vmin, 22px);
+    --vr-font-choice: clamp(18px, 2.2vmin, 24px);
+  }
+
+  body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud{
+    width: min(90vw, 900px) !important;
+    aspect-ratio: 1024 / 205 !important;
+  }
+
+  body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-value{
+    font-size: clamp(18px, 2.35vw, 28px) !important;
+  }
+
+  body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-name,
+  body.vr-body-game[data-universe="mega_corp_ceo"] .vr-hud-years{
+    font-size: clamp(18px, 2.35vw, 28px) !important;
+  }
+
+  body.vr-body-game[data-universe="mega_corp_ceo"] .vr-gauge-label{
+    font-size: clamp(15px, 2.0vw, 19px) !important;
+    min-height: 2.35em !important;
+  }
+
+  body.vr-body-game[data-universe="mega_corp_ceo"] .vr-gauge-value{
+    font-size: clamp(14px, 1.8vw, 17px) !important;
+  }
+
+  body.vr-body-game[data-universe="mega_corp_ceo"] .vr-gauge-label,
+  body.vr-body-game[data-universe="mega_corp_ceo"] .vr-gauge-value{
+    font-weight: 800 !important;
+  }
+
+  body.vr-body-game[data-universe="mega_corp_ceo"] #view-game .vr-choice-label{
+    font-size: clamp(18px, 2.2vmin, 24px) !important;
+    line-height: 1.08 !important;
+  }
+
+  /* =========================
+     EXPLORER
+     ========================= */
+  body.vr-body-game[data-universe="new_world_explorer"]{
+    --vr-card-w: min(84vw, 780px);
+    --vr-explorer-hud-w: min(86vw, 860px);
+
+    --vr-explorer-hud-shift-x: 0px;
+    --vr-explorer-hud-shift-y: -2px;
+
+    --vr-identity-ty: 18px;
+    --vr-vcoins-tx: 2px;
+    --vr-vcoins-ty: 10px;
+    --vr-jetons-ty: 10px;
+
+    --vr-font-scn-title: clamp(24px, 2.9vmin, 36px);
+    --vr-font-scn-text: clamp(18px, 2.25vmin, 25px);
+    --vr-font-choice: clamp(17px, 2.15vmin, 23px);
+
+    --vr-choice-h: clamp(100px, 11.4svh, 150px);
+    --vr-stack-gap: clamp(8px, 0.9svh, 14px);
+    --vr-choices-gap: clamp(6px, 0.7svh, 10px);
+  }
+
+  body.vr-body-game[data-universe="new_world_explorer"] .vr-gauge-label{
+    font-size: clamp(14px, 1.8vw, 18px) !important;
+    min-height: 2.45em !important;
+  }
+
+  body.vr-body-game[data-universe="new_world_explorer"] .vr-gauge-value{
+    font-size: clamp(13px, 1.6vw, 16px) !important;
+  }
+
+  /* =========================
+     HELL
+     ========================= */
+  body.vr-body-game[data-universe="hell_king"] .vr-gauge-label{
+    font-size: clamp(18px, 2.35vw, 23px) !important;
+    min-height: 2.4em !important;
+  }
+
+  body.vr-body-game[data-universe="hell_king"] .vr-gauge-value{
+    font-size: clamp(15px, 2vw, 18px) !important;
+  }
+
+  body.vr-body-game[data-universe="hell_king"] .vr-hud-value{
+    font-size: clamp(16px, 2.2vw, 25px) !important;
+  }
+
+  body.vr-body-game[data-universe="hell_king"] .vr-hud-name,
+  body.vr-body-game[data-universe="hell_king"] .vr-hud-years{
+    font-size: clamp(17px, 2.25vw, 27px) !important;
+  }
+}
+
+/* =========================
+   GUIDE MENTOR OVERLAY
+   ========================= */
+
+#view-game{
+  position: relative;
+  overflow: hidden;
+}
+
+.vr-guide-overlay{
+  position: absolute;
+  inset: 0;
+  z-index: 3500;
+  pointer-events: none;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(8px) scale(.985);
+  transition: opacity .22s ease, transform .22s ease;
+}
+
+.vr-guide-overlay.is-visible{
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+.vr-guide-popup{
+  position: absolute;
+  left: 50%;
+  top: 22%;
+  transform: translate(-50%, -50%);
+  width: min(82%, 720px);
+  max-width: calc(100% - 40px);
+  z-index: 4;
+  pointer-events: none;
+}
+
+.vr-guide-bubble-text{
+  position: relative;
+  width: 100%;
+  min-height: clamp(96px, 12vh, 146px);
+  padding: clamp(14px, 1.9vw, 18px) clamp(16px, 2.2vw, 24px);
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 18px;
+  background: rgba(12, 16, 32, 0.92);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 14px 40px rgba(0,0,0,.35);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.vr-guide-bubble-text::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  bottom:10px;
+  width:12px;
+  height:12px;
+  border-right:3px solid rgba(255,255,255,.92);
+  border-bottom:3px solid rgba(255,255,255,.92);
+  transform:translateX(-50%) rotate(45deg);
+  opacity:.9;
+  animation:vrGuideHintBounce 1s ease-in-out infinite;
+}
+
+.vr-guide-figure{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: min(86%, 560px);
+  min-width: 320px;
+  max-width: 560px;
+  aspect-ratio: 1024 / 1536;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.vr-guide-image{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: calc(100svh - 8px);
+  object-fit: contain;
+  object-position: right bottom;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+  filter: drop-shadow(0 16px 34px rgba(0,0,0,.42));
+}
+
+.vr-guide-confetti-layer{
+  position:absolute;
+  inset:0;
+  z-index:2;
+  pointer-events:none;
+  overflow:hidden;
+}
+
+.vr-guide-confetti-piece{
+  position:absolute;
+  top:-8%;
+  width:10px;
+  height:18px;
+  border-radius:3px;
+  opacity:0;
+  will-change:transform,opacity;
+  animation:vrGuideConfettiFall var(--dur,1100ms) ease-out forwards;
+}
+
+@keyframes vrGuideHintBounce{
+  0%,100%{ transform:translateX(-50%) rotate(45deg) translateY(0); opacity:.78; }
+  50%{ transform:translateX(-50%) rotate(45deg) translateY(4px); opacity:1; }
+}
+
+@keyframes vrGuideConfettiFall{
+  0%{
+    opacity:0;
+    transform:translate3d(0,0,0) rotate(0deg) scale(.9);
+  }
+  10%{
+    opacity:1;
+  }
+  100%{
+    opacity:0;
+    transform:translate3d(var(--dx,0px), 62vh, 0) rotate(var(--rot,360deg)) scale(1.05);
+  }
+}
+
+.vr-guide-bubble-fit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  color: #f3efe6;
+  font-weight: 700;
+  line-height: 1.08;
+  font-size: 18px;
+  text-align: center;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  text-shadow: 0 1px 0 rgba(0,0,0,.25);
+}
+
+.vr-guide-line{
+  display: block;
+  width: 100%;
+}
+
+.vr-guide-line--title{
+  font-size: 1.12em;
+  font-weight: 900;
+  line-height: 1.04;
+}
+
+.vr-guide-line--body{
+  font-size: .84em;
+  font-weight: 700;
+  line-height: 1.12;
+}
+
+.vr-guide-overlay.is-final .vr-guide-bubble-text{
+  background: rgba(12, 16, 32, 0.92);
+  border-color: rgba(255,255,255,0.12);
+}
+
+@media (max-width: 600px){
+  .vr-guide-popup{
+    top: 20%;
+    width: calc(100% - 40px);
+    max-width: none;
+  }
+
+  .vr-guide-bubble-text{
+    min-height: clamp(92px, 11vh, 132px);
+    padding: 12px 14px;
+    border-radius: 16px;
+  }
+
+  .vr-guide-bubble-fit{
+    gap: 4px;
+    line-height: 1.06;
+  }
+
+  .vr-guide-figure{
+    right: 0;
+    bottom: 0;
+    width: min(88%, 430px);
+    min-width: 280px;
+    max-width: 430px;
+  }
+
+  .vr-guide-image{
+    max-width: 100%;
+    max-height: calc(100svh - 6px);
+  }
+
+  .vr-guide-bubble-text::after{
+    content: none;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 601px) and (max-width: 1100px){
+  .vr-guide-popup{
+    top: 21%;
+    width: min(80%, 760px);
+    max-width: calc(100% - 48px);
+  }
+
+  .vr-guide-bubble-text{
+    min-height: clamp(100px, 12vh, 150px);
+    padding: 14px 18px;
+  }
+
+  .vr-guide-figure{
+    right: 0;
+    bottom: 0;
+    width: clamp(420px, 64vw, 620px);
+    min-width: 420px;
+    max-width: 620px;
+  }
+
+  .vr-guide-image{
+    max-width: 100%;
+    max-height: calc(100svh - 8px);
+  }
+
+  .vr-guide-bubble-text::after{
+    content: none;
+  }
+}
+
+@media (min-width: 1101px){
+  .vr-guide-popup{
+    top: 22%;
+    width: min(74%, 760px);
+    max-width: calc(100% - 56px);
+  }
+
+  .vr-guide-bubble-text{
+    min-height: clamp(104px, 12vh, 156px);
+    padding: 16px 20px;
+  }
+
+  .vr-guide-figure{
+    right: 0;
+    bottom: 0;
+    width: clamp(440px, 38vw, 680px);
+    min-width: 440px;
+    max-width: 680px;
+  }
+
+  .vr-guide-image{
+    max-width: 100%;
+    max-height: calc(100svh - 10px);
+  }
+
+  .vr-guide-bubble-text::after{
+    content: none;
+  }
+}

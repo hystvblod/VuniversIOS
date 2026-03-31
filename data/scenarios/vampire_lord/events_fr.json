@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "events": {
+    "vampire_lord_ev_001": {
+      "title": "Réserves intactes",
+      "body": "Une livraison arrive froide et complète. Pour une fois, rien ne fuit, rien ne manque.",
+      "effect": "Sang : +5 par carte",
+      "duration": "Durée : 5 cartes"
+    },
+    "vampire_lord_ev_002": {
+      "title": "Serment des anciens",
+      "body": "Les anciens du clan jurent de tenir la ligne. Les couloirs retrouvent un peu d'ordre.",
+      "effect": "Clan : +5 par carte",
+      "duration": "Durée : 6 cartes"
+    },
+    "vampire_lord_ev_003": {
+      "title": "Nuit sans piste",
+      "body": "Les chasseurs suivent une fausse piste loin du repaire. La ville respire un peu mieux.",
+      "effect": "Chasseurs : -5 par carte",
+      "duration": "Durée : 4 cartes"
+    },
+    "vampire_lord_ev_004": {
+      "title": "Culte discret",
+      "body": "Le secret vampirique recrute en silence. Peu de bruit, beaucoup de fidélité.",
+      "effect": "Secret vampirique : +5 par carte",
+      "duration": "Durée : 5 cartes"
+    },
+    "vampire_lord_ev_005": {
+      "title": "Stock tourné",
+      "body": "Un lot de sang tourne plus vite que prévu. L'odeur suffit à gâcher la nuit.",
+      "effect": "Sang : -5 par carte",
+      "duration": "Durée : 6 cartes"
+    },
+    "vampire_lord_ev_006": {
+      "title": "Battue locale",
+      "body": "Une battue se monte dans le quartier. Les lampes, les radios et les chiens se rapprochent.",
+      "effect": "Chasseurs : +5 par carte",
+      "duration": "Durée : 4 cartes"
+    },
+    "vampire_lord_ev_007": {
+      "title": "Querelle de crypte",
+      "body": "Deux lignées se disputent une vieille salle. Le clan perd du temps et de la patience.",
+      "effect": "Clan : -5 par carte",
+      "duration": "Durée : 7 cartes"
+    },
+    "vampire_lord_ev_008": {
+      "title": "Flash mal placé",
+      "body": "Une photo nocturne tourne un peu trop bien. Les curieux posent les bonnes questions.",
+      "effect": "Secret vampirique : -5 par carte",
+      "duration": "Durée : 5 cartes"
+    },
+    "vampire_lord_ev_009": {
+      "title": "Piste cassée",
+      "body": "Un informateur humain envoie les chasseurs vers un autre tunnel. Leur nuit est perdue.",
+      "effect": "Chasseurs : -5 par carte",
+      "duration": "Durée : 4 cartes"
+    },
+    "vampire_lord_ev_010": {
+      "title": "Conseil apaisé",
+      "body": "Le conseil se termine sans cris ni menace. C'est presque un miracle.",
+      "effect": "Clan : +5 par carte",
+      "duration": "Durée : 6 cartes"
+    },
+    "vampire_lord_ev_011": {
+      "title": "Forum trop bavard",
+      "body": "Des humains compilent des rumeurs précises. Le secret vampirique devient moins secret.",
+      "effect": "Secret vampirique : -5 par carte",
+      "duration": "Durée : 3 cartes"
+    },
+    "vampire_lord_ev_012": {
+      "title": "Rituel fermé",
+      "body": "Un rituel bien tenu soude les fidèles. Personne ne parle trop, tout le monde écoute.",
+      "effect": "Secret vampirique : +5 par carte",
+      "duration": "Durée : 7 cartes"
+    },
+    "vampire_lord_ev_013": {
+      "title": "Poches manquantes",
+      "body": "Des poches disparaissent du stock secondaire. Quelqu'un boit ou revend avant toi.",
+      "effect": "Sang : -5 par carte",
+      "duration": "Durée : 4 cartes"
+    },
+    "vampire_lord_ev_014": {
+      "title": "Recrues loyales",
+      "body": "Quelques jeunes vampires se rangent enfin derrière tes règles. Le repaire gagne en tenue.",
+      "effect": "Clan : +5 par carte",
+      "duration": "Durée : 6 cartes"
+    },
+    "vampire_lord_ev_015": {
+      "title": "Clinique complice",
+      "body": "Une petite source sûre s'ouvre en ville. Le sang arrive propre et régulier.",
+      "effect": "Sang : +5 par carte",
+      "duration": "Durée : 3 cartes"
+    },
+    "vampire_lord_ev_016": {
+      "title": "Argent sur les seuils",
+      "body": "Des marques d'argent apparaissent près des accès. Quelqu'un teste la défense.",
+      "effect": "Chasseurs : +5 par carte",
+      "duration": "Durée : 5 cartes"
+    },
+    "vampire_lord_ev_017": {
+      "title": "Mur des fidèles",
+      "body": "Le secret vampirique répand des signes discrets dans la ville. Les loyaux se reconnaissent vite.",
+      "effect": "Secret vampirique : +5 par carte",
+      "duration": "Durée : 4 cartes"
+    },
+    "vampire_lord_ev_018": {
+      "title": "Rancune ancienne",
+      "body": "Une vieille dette remonte au conseil. Le clan recommence à se regarder de travers.",
+      "effect": "Clan : -5 par carte",
+      "duration": "Durée : 7 cartes"
+    },
+    "vampire_lord_ev_019": {
+      "title": "Fausse alerte UV",
+      "body": "Un faux signal attire les chasseurs hors de ta zone. Ils perdent du temps, tu gagnes la nuit.",
+      "effect": "Chasseurs : -5 par carte",
+      "duration": "Durée : 3 cartes"
+    },
+    "vampire_lord_ev_020": {
+      "title": "Livraison coupée",
+      "body": "Le camion de secours ne passe pas. Les réserves baissent avant l'aube.",
+      "effect": "Sang : -5 par carte",
+      "duration": "Durée : 6 cartes"
+    },
+    "vampire_lord_ev_021": {
+      "title": "Visage repéré",
+      "body": "Un visage lié au repaire circule dans un groupe fermé. Le voile se déchire un peu.",
+      "effect": "Secret vampirique : -5 par carte",
+      "duration": "Durée : 5 cartes"
+    },
+    "vampire_lord_ev_022": {
+      "title": "Veillée du clan",
+      "body": "Une nuit calme passée ensemble resserre les liens. Le clan suit mieux tes ordres.",
+      "effect": "Clan : +5 par carte",
+      "duration": "Durée : 7 cartes"
+    },
+    "vampire_lord_ev_023": {
+      "title": "Banque de nuit",
+      "body": "Un accord discret avec un réseau nocturne alimente les caves. Les stocks remontent enfin.",
+      "effect": "Sang : +5 par carte",
+      "duration": "Durée : 4 cartes"
+    },
+    "vampire_lord_ev_024": {
+      "title": "Chasseuse méthodique",
+      "body": "Une chasseuse très sérieuse cartographie tes habitudes. Elle avance sans bruit et sans erreur.",
+      "effect": "Chasseurs : +5 par carte",
+      "duration": "Durée : 6 cartes"
+    },
+    "vampire_lord_ev_025": {
+      "title": "Ordre contesté",
+      "body": "Tes règles sont jugées trop dures par une partie du clan. Les murmures reviennent.",
+      "effect": "Clan : -5 par carte",
+      "duration": "Durée : 3 cartes"
+    },
+    "vampire_lord_ev_026": {
+      "title": "Chien distrait",
+      "body": "Le chien des chasseurs est emmené sur une autre piste. Leur équipe cherche au mauvais endroit.",
+      "effect": "Chasseurs : -5 par carte",
+      "duration": "Durée : 5 cartes"
+    },
+    "vampire_lord_ev_027": {
+      "title": "Réserve froide",
+      "body": "Les caves tiennent bien et le stock reste parfait. Ce genre de nuit mérite presque un sourire.",
+      "effect": "Sang : +5 par carte",
+      "duration": "Durée : 4 cartes"
+    },
+    "vampire_lord_ev_028": {
+      "title": "Témoin nerveux",
+      "body": "Un témoin humain parle trop vite à trop de monde. Le secret vampirique prend un coup.",
+      "effect": "Secret vampirique : -5 par carte",
+      "duration": "Durée : 6 cartes"
+    },
+    "vampire_lord_ev_029": {
+      "title": "Duel reporté",
+      "body": "Un duel d'orgueil empoisonne encore le repaire. Le clan se divise au lieu de chasser.",
+      "effect": "Clan : -5 par carte",
+      "duration": "Durée : 3 cartes"
+    },
+    "vampire_lord_ev_030": {
+      "title": "Silence des fidèles",
+      "body": "Les fidèles obéissent et se taisent. Rien ne fuit, rien ne dépasse.",
+      "effect": "Secret vampirique : +5 par carte",
+      "duration": "Durée : 7 cartes"
+    }
+  }
+}

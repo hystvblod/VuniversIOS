@@ -1,0 +1,185 @@
+﻿{
+  "version": 1,
+  "events": {
+    "hell_king_ev_001": {
+      "title": "Steuertruhe",
+      "body": "Eine Truhe knarrt und öffnet sich ganz von selbst. Die Register lieben so etwas.",
+      "effect": "Seelen: +5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "hell_king_ev_002": {
+      "title": "Legionsparade",
+      "body": "Die Truppen marschieren auf. Alle stehen unter Druck... selbst die Ordnung.",
+      "effect": "Legionen: +5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "hell_king_ev_003": {
+      "title": "Seelenmarkt",
+      "body": "Die Gebote steigen. Die Schreiber notieren jeden Seufzer.",
+      "effect": "Ordnung: -5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "hell_king_ev_004": {
+      "title": "Fest an der Oberfläche",
+      "body": "Eine viel zu laute Nacht dort oben. Die Folgen kommen schnell nach unten.",
+      "effect": "Oberfläche: +5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "hell_king_ev_005": {
+      "title": "Schnellrekrutierung",
+      "body": "Es wird im Akkord rekrutiert. Effizient... aber in den Gängen knirscht es.",
+      "effect": "Seelen: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "hell_king_ev_006": {
+      "title": "Ordnungsdekret",
+      "body": "Ein neues Dekret fällt herab. Es beruhigt die Massen, nicht die Anführer.",
+      "effect": "Ordnung: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "hell_king_ev_007": {
+      "title": "Vorteilhafter Pakt",
+      "body": "Ein Pakt bringt viel ein. Aber jeder will seinen Anteil.",
+      "effect": "Legionen: -5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "hell_king_ev_008": {
+      "title": "Gerücht da oben",
+      "body": "An der Oberfläche macht ein Gerücht die Runde. Du spürst die Welle schon kommen.",
+      "effect": "Oberfläche: -5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "hell_king_ev_009": {
+      "title": "Ordnungsprüfung",
+      "body": "Die Kontrolleure tauchen auf. Die Regeln werden strenger.",
+      "effect": "Ordnung: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "hell_king_ev_010": {
+      "title": "Manöver",
+      "body": "Die Legionen trainieren Tag und Nacht. Eindrucksvoll... und ermüdend.",
+      "effect": "Legionen: +5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "hell_king_ev_011": {
+      "title": "Erntebonus",
+      "body": "Eine unerwartete Seelenernte. Du greifst natürlich zu.",
+      "effect": "Oberfläche: -5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "hell_king_ev_012": {
+      "title": "Verbotener Karneval",
+      "body": "Ein improvisierter Karneval. Das Lachen steigt, die Ordnung sinkt.",
+      "effect": "Oberfläche: +5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "hell_king_ev_013": {
+      "title": "Woche der Disziplin",
+      "body": "Die Schrauben werden angezogen. Manche knirschen mit den Zähnen.",
+      "effect": "Seelen: -5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "hell_king_ev_014": {
+      "title": "Bannerparade",
+      "body": "Die Banner peitschen im Wind. Der Schein zählt.",
+      "effect": "Legionen: +5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "hell_king_ev_015": {
+      "title": "Unterschriftsprämien",
+      "body": "Verträge werden unterzeichnet. Viele. Sehr schnell.",
+      "effect": "Seelen: +5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "hell_king_ev_016": {
+      "title": "Kasernenkontrolle",
+      "body": "Überraschende Inspektion. Die Offiziere tun so, als wären sie ganz entspannt.",
+      "effect": "Ordnung: -5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "hell_king_ev_017": {
+      "title": "Kleiner Aufruhr",
+      "body": "Ein kleiner Aufruhr. Nicht schlimm... außer wenn er anhält.",
+      "effect": "Oberfläche: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "hell_king_ev_018": {
+      "title": "Gedränge am Schalter",
+      "body": "Zu viele Anfragen, zu wenig Geduld. Klassisch.",
+      "effect": "Legionen: -5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "hell_king_ev_019": {
+      "title": "Verwaltungsruhe",
+      "body": "Alles funktioniert. Verdächtig, aber angenehm.",
+      "effect": "Ordnung: +5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "hell_king_ev_020": {
+      "title": "VIP-Abend",
+      "body": "Ein sehr exklusives Dinner. Die Bündnisse entstehen beim Dessert.",
+      "effect": "Seelen: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "hell_king_ev_021": {
+      "title": "Regel des Tages",
+      "body": "Neue Regel. Niemand mag sie, also funktioniert sie.",
+      "effect": "Oberfläche: -5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "hell_king_ev_022": {
+      "title": "Lieferengpass",
+      "body": "Von irgendetwas gibt es zu wenig. Niemand weiß wovon, aber alle geraten in Panik.",
+      "effect": "Legionen: +5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    },
+    "hell_king_ev_023": {
+      "title": "Verlockendes Angebot",
+      "body": "Ein glänzendes Angebot. Du weißt, dass ein Haken daran ist. Du nimmst es trotzdem.",
+      "effect": "Seelen: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "hell_king_ev_024": {
+      "title": "Schnellverhandlung",
+      "body": "Ein Händedruck, drei Unterschriften, und weiter geht's.",
+      "effect": "Ordnung: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "hell_king_ev_025": {
+      "title": "Überraschende Versetzung",
+      "body": "Einheiten werden verlegt. Das ordnet alles neu, auch die Stimmungen.",
+      "effect": "Legionen: -5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "hell_king_ev_026": {
+      "title": "Protokollvermerk",
+      "body": "Ein Vermerk flattert herein. Niemand findet das lustig.",
+      "effect": "Ordnung: +5 pro Karte",
+      "duration": "Dauer: 5 Karten"
+    },
+    "hell_king_ev_027": {
+      "title": "Rituelle Belohnung",
+      "body": "Die Loyalen werden belohnt. Die anderen schauen schief.",
+      "effect": "Seelen: +5 pro Karte",
+      "duration": "Dauer: 4 Karten"
+    },
+    "hell_king_ev_028": {
+      "title": "Panik an der Oberfläche",
+      "body": "Dort oben gerät alles in Aufruhr. Hier unten kassierst du.",
+      "effect": "Oberfläche: -5 pro Karte",
+      "duration": "Dauer: 6 Karten"
+    },
+    "hell_king_ev_029": {
+      "title": "Kraftprobe",
+      "body": "Kleiner Test. Große Egos. Ergebnis... gemischt.",
+      "effect": "Legionen: -5 pro Karte",
+      "duration": "Dauer: 3 Karten"
+    },
+    "hell_king_ev_030": {
+      "title": "Interne Notiz",
+      "body": "Eine Notiz macht die Runde. Sie landet immer im falschen Büro.",
+      "effect": "Ordnung: +5 pro Karte",
+      "duration": "Dauer: 7 Karten"
+    }
+  }
+}

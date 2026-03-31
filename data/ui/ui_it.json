@@ -1,0 +1,709 @@
+{
+  "app": {
+    "title": "Vuniverse"
+  },
+  "common": {
+    "continue": "Continua",
+    "cancel": "Annulla",
+    "close": "Chiudi",
+    "back": "Indietro",
+    "settings": "Impostazioni",
+    "shop": "Negozio",
+    "use": "Equipaggia",
+    "buy": "Acquista",
+    "owned": "Posseduto",
+    "locked": "Da sbloccare",
+    "equipped": "Equipaggiato",
+    "error_generic": "Errore",
+    "unavailable": "Non disponibile"
+  },
+  "auth": {
+    "username": {
+      "title": "Scegli il tuo nome utente",
+      "subtitle": "Sarà visibile nell'app.",
+      "label": "Nome utente",
+      "placeholder": "Es.: Martin_7",
+      "cta": "Conferma",
+      "skip": "Più tardi",
+      "rules": "Da 3 a 20 caratteri • lettere, numeri, _ o -",
+      "errors": {
+        "length": "Il nome utente deve contenere da 3 a 20 caratteri.",
+        "chars": "Usa solo lettere, numeri, _ o -.",
+        "taken": "Questo nome utente è già in uso, provane un altro.",
+        "generic": "Impossibile salvare il nome utente."
+      }
+    }
+  },
+  "ui": {
+    "symbol_help": "?",
+    "language": "Lingua",
+    "subtitle": "Scegli il tuo destino.",
+    "subtitle_desc": "Interpreta un sovrano, un presidente, un vampiro o un esploratore. Ogni scelta influenza le tue barre, il tuo mondo e le generazioni successive.",
+    "choose_universe": "Seleziona un universo",
+    "footer": "Vuniverse · Vboldstudio",
+    "profile": "Profilo",
+    "settings": "Impostazioni",
+    "shop": "Negozio",
+    "aria_back": "Indietro",
+    "aria_settings": "Apri le impostazioni",
+    "aria_shop": "Apri il negozio",
+    "aria_badge_modal": "Anteprima del badge",
+    "aria_close": "Chiudi",
+    "settings_title": "Impostazioni",
+    "settings_lang_desc": "Scegli la lingua. Viene salvata sul dispositivo e sul tuo profilo.",
+    "settings_back_home_aria": "Torna alla schermata iniziale",
+    "settings_open_profile_aria": "Apri il profilo",
+    "settings_choose_lang_aria": "Scegli la lingua: {code}",
+    "settings_ads_title": "Pubblicità",
+    "settings_ads_personalized_label": "Pubblicità personalizzata",
+    "settings_ads_personalized_desc": "Consenti annunci più pertinenti. Puoi modificare questa scelta in qualsiasi momento.",
+    "settings_ads_saved": "Preferenza pubblicitaria salvata.",
+    "settings_music_label": "Audio",
+    "settings_music_desc": "Attiva o disattiva tutti i suoni del gioco.",
+    "settings_music_saved": "Preferenza audio salvata.",
+    "music_prompt": {
+      "title": "Audio",
+      "text": "Vuoi lasciare l’audio attivo?",
+      "note": "Potrai sempre cambiare questa scelta più tardi nelle Impostazioni.",
+      "disable": "Disattiva",
+      "enable": "Lascia attivo"
+    },
+    "settings_privacy_options_label": "Scelte sulla privacy",
+    "settings_privacy_options_desc": "Apri il modulo di Google per rivedere o modificare le tue scelte pubblicitarie.",
+    "settings_privacy_options_button": "Apri",
+    "settings_privacy_options_opened": "Opzioni sulla privacy aperte.",
+    "settings_privacy_options_unavailable": "Al momento non sono disponibili opzioni sulla privacy.",
+    "settings_faq_title": "FAQ",
+    "settings_faq_label": "Apri le FAQ",
+    "settings_faq_desc": "Risposte su monete, anni, gettoni, badge e nome utente.",
+    "settings_open_faq_aria": "Apri le FAQ",
+    "settings_help_title": "Aiuto",
+    "settings_help_email_label": "Contatto:",
+    "settings_help_email": "help.vboldstudio@gmail.com",
+    "settings_msg_saved": "Lingua salvata.",
+    "settings_msg_saved_local": "Lingua salvata sul dispositivo. Sincronizzazione con il server più tardi.",
+    "faq_title": "FAQ",
+    "faq_subtitle": "Qui trovi le risposte alle domande più frequenti.",
+    "faq_back_settings_aria": "Torna alle impostazioni",
+    "faq_open_profile_aria": "Apri il profilo",
+    "faq_q1": "Come guadagno VCoins?",
+    "faq_a1": "Alla fine di una partita, guadagni 10 VCoins per ogni anno completo. Un anno corrisponde a 4 scelte. Alcuni eventi possono anche modificare la tua ricompensa.",
+    "faq_q2": "Come funzionano gli anni?",
+    "faq_a2": "Il gioco conta 4 scelte per convalidare 1 anno completo. Finché non raggiungi 4 scelte, resti nello stesso anno visualizzato.",
+    "faq_q3": "A cosa servono i token?",
+    "faq_a3": "I token servono come aiuti durante la partita. Ti permettono di rivivere, vedere l'effetto delle prossime 15 scelte sulle barre, tornare indietro di 3 scelte oppure riportare una barra al 50%.",
+    "faq_q4": "Come aumento la mia ricompensa finale?",
+    "faq_a4": "Quando una partita termina, un pulsante ti permette di guardare una pubblicità con ricompensa. Se la tua ricompensa base è inferiore a 100, passa a 100 VCoins. Altrimenti viene raddoppiata. Se la pubblicità non viene convalidata o non è disponibile, la ricompensa resta normale.",
+    "faq_q5": "Come funzionano i badge del profilo?",
+    "faq_a5": "I badge sono separati per universo. Si sbloccano durante una partita se sei ancora vivo al momento giusto: legno a 20 scelte, bronzo a 40, argento a 60, oro a 100 e cristallo a 150.",
+    "faq_q6": "Come cambio il mio nome utente?",
+    "faq_a6": "Vai su Profilo, premi il pulsante per modificare il nome utente, inserisci il nuovo nome e salva. Il nome utente deve essere univoco, contenere da 3 a 20 caratteri e usare solo lettere senza accenti, numeri, underscore _ o trattini -.",
+    "faq_q7": "A cosa servono i VCoins?",
+    "faq_a7": "I VCoins servono per sbloccare universi e alcune personalizzazioni del gioco.",
+    "faq_q8": "Come sblocco un universo?",
+    "faq_a8": "Dalla schermata iniziale puoi sbloccare un universo con i tuoi VCoins quando non è già incluso nel tuo accesso attuale.",
+    "faq_q9": "Quali universi sono gratuiti all'inizio?",
+    "faq_a9": "All'inizio, ci sono due universi sbloccati.",
+    "faq_q10": "Quanto costa un universo?",
+    "faq_a10": "Attualmente, un universo costa 600 VCoins quando non è ancora sbloccato.",
+    "faq_q11": "Cosa fa l'offerta No Ads?",
+    "faq_a11": "No Ads rimuove le pubblicità interstitial. Le pubblicità con ricompensa restano disponibili quando vuoi ottenere una ricompensa opzionale.",
+    "faq_q12": "Cosa include Diamond?",
+    "faq_a12": "Diamond attiva No Ads e sblocca tutti gli universi attuali del gioco.",
+    "faq_q13": "Come funzionano gli inviti e la cross-promo?",
+    "faq_a13": "L'invito di un amico ti permette di guadagnare VCoins quando viene rilevata un'installazione valida. La cross-promo tra le altre app VBoldStudio può anche dare una ricompensa separata quando le condizioni previste sono soddisfatte.",
+    "lang_name": {
+      "en": "Inglese",
+      "fr": "Francese",
+      "de": "Tedesco",
+      "es": "Spagnolo",
+      "pt": "Portoghese",
+      "ptbr": "Portoghese (Brasile)",
+      "it": "Italiano",
+      "ko": "Coreano",
+      "ja": "Giapponese",
+      "id": "Indonesiano"
+    },
+    "profile_title": "Profilo",
+    "profile_subtitle": "Le tue statistiche e i tuoi progressi.",
+    "profile_vcoins": "VCoins",
+    "profile_jetons": "Gettoni",
+    "profile_username_label": "Nome utente",
+    "profile_username_edit": "Modifica nome utente",
+    "profile_username_placeholder": "Nuovo nome utente",
+    "profile_username_save": "Salva",
+    "profile_username_cancel": "Annulla",
+    "profile_username_hint": "Da 3 a 20 caratteri. Lettere, numeri, _ o -. Il nome utente deve essere unico.",
+    "profile_username_missing": "Nome utente mancante",
+    "profile_username_err_format": "Formato del nome utente non valido.",
+    "profile_err_not_ready": "Profilo non pronto.",
+    "profile_username_ok_nochange": "Nessuna modifica rilevata.",
+    "profile_username_err_nojeton": "Gettoni insufficienti.",
+    "profile_username_working": "Aggiornamento in corso...",
+    "profile_username_err_taken": "Questo nome utente è già in uso.",
+    "profile_username_err_generic": "Impossibile modificare il nome utente.",
+    "profile_username_err_cost_failed": "Il nome utente è stato modificato, ma il costo non è stato addebitato.",
+    "profile_username_ok_saved": "Nome utente aggiornato.",
+    "profile_scenarios_title": "Scenari",
+    "universe_buy": {
+      "desc": "Questo universo è bloccato. Puoi sbloccarlo con {price} VCoins, sbloccarlo direttamente dallo store oppure aprire il negozio.",
+      "pay_prefix": "Sblocca per",
+      "pay_balance_inline": "Saldo: {balance}",
+      "unlock_store_prefix": "Sblocca:",
+      "unlock_store_no_price": "Sblocca",
+      "iap_direct": "Sblocca questo universo {price}",
+      "iap_direct_no_price": "Sblocca questo universo",
+      "open_shop": "Apri il negozio",
+      "cancel": "Annulla",
+      "err_unlock": "Impossibile sbloccare questo universo.",
+      "err_unlock_insufficient": "Non hai abbastanza VCoins. Saldo: {balance} / Prezzo: {price}",
+      "err_app_only": "Acquisto Play Store disponibile solo nell'app.",
+      "err_not_ready": "Sistema di acquisto non pronto.",
+      "err_buy_failed": "Acquisto annullato o impossibile.",
+      "err_unlock_after_buy": "Acquisto convalidato, ma sblocco impossibile. Riprova più tardi.",
+      "err_unlock_after_iap": "Acquisto convalidato, ma sblocco impossibile al momento. Riprova dal negozio."
+    },
+    "settings_licenses_label": "Licenze",
+    "settings_open_licenses_aria": "Apri licenze",
+    "faq_q14": "Ci sono segreti nell’app?",
+    "faq_a14": "A volte, certi punti reagiscono a idee un po' assurde. Per esempio, digitare ladybugcometome nel campo del nome... o baudelaire, senza nemmeno parlare del poeta preferito."
+  },
+  "gauges": {
+    "hell_king": {
+      "souls": "Anime",
+      "legions": "Legioni",
+      "order": "Ordine",
+      "surface": "Superficie"
+    }
+  },
+  "token": {
+    "popup": {
+      "title": "Gettone",
+      "ad": {
+        "title": "Guarda una pubblicità",
+        "text": "Ottieni 1 gettone"
+      },
+      "gauge50": {
+        "title": "Riporta una barra al 50%",
+        "text": "Scegli una barra"
+      },
+      "back3": {
+        "title": "Torna indietro",
+        "text": "Annulla le ultime 3 scelte"
+      },
+      "peek": {
+        "title": "Vedi gli effetti 15",
+        "text": "Per 15 scelte, le barre coinvolte lampeggiano e mostrano un'anteprima."
+      },
+      "close": {
+        "text": "Chiudi questo menu"
+      },
+      "pickGauge": {
+        "title": "Scegli una barra",
+        "text": "Clicca su una barra per riportarla al 50%."
+      }
+    },
+    "toast": {
+      "select_gauge": "Scegli una barra da riportare al 50%",
+      "reward_ok": "+1 gettone aggiunto",
+      "reward_fail": "Pubblicità non disponibile",
+      "no_tokens": "Non hai gettoni",
+      "undo_fail": "Impossibile tornare indietro",
+      "undo_done": "Ritorno -3 effettuato",
+      "gauge_set_50": "Barra riportata al 50%",
+      "peek_on": "Peek attivato: prossime 15 decisioni"
+    },
+    "undo": {
+      "fail": {
+        "title": "Torna indietro",
+        "body": "Impossibile tornare indietro. Nulla è stato modificato."
+      },
+      "ok": {
+        "title": "Torna indietro",
+        "body": "3 scelte annullate. Puoi continuare."
+      }
+    }
+  },
+  "coins": {
+    "popup": {
+      "title": "Monete",
+      "ad": {
+        "title": "Guarda una pubblicità",
+        "text": "Ottieni 100 monete"
+      },
+      "shop": {
+        "title": "Vai al negozio",
+        "text": "Acquista monete"
+      },
+      "close": {
+        "text": "Chiudi questa finestra"
+      }
+    },
+    "toast": {
+      "reward_ok": "+100 monete aggiunte",
+      "reward_fail": "Pubblicità non disponibile"
+    }
+  },
+  "crosspromo": {
+    "open_page_aria": "Apri la pagina cross promo",
+    "page_title": "Scopri altri giochi",
+    "page_subtitle": "Scopri i nostri altri universi e guadagna ricompense.",
+    "cta_install": "Scarica",
+    "cta_open": "Apri",
+    "cta_claim": "Riscatta",
+    "cta_claiming": "Riscatto in corso...",
+    "cta_claimed": "Già riscattato",
+    "cta_later": "Più tardi",
+    "reward_prefix": "OTTIENI:",
+    "reward_granted": "{app} rilevata. +{amount} accreditati.",
+    "aria": {
+      "open_image": "Apri immagine",
+      "close": "Chiudi"
+    },
+    "apps": {
+      "vblocks": {
+        "name": "VBlocks",
+        "store_desc": "Un gioco più calmo e leggero per respirare tra due decisioni.",
+        "popup1": {
+          "title": "A corto di monete?",
+          "body": "Scarica VBlocks e ricevi una ricompensa."
+        },
+        "popup2": {
+          "title": "Troppa pressione?",
+          "body": "Troppo stress e troppo peso con le decisioni? Rilassati con VBlocks."
+        },
+        "popup3": {
+          "title": "Vuoi cambiare aria?",
+          "body": "Scopri un altro universo con VBlocks."
+        }
+      },
+      "vchronicles": {
+        "name": "VChronicles",
+        "store_desc": "Esplora universi oscuri, fai le tue scelte e prova a sopravvivere.",
+        "popup1": {
+          "title": "A corto di monete?",
+          "body": "Scarica VChronicles e ricevi una ricompensa."
+        },
+        "popup2": {
+          "title": "Vuoi esplorare universi più oscuri?",
+          "body": "Gioca a VChronicles."
+        },
+        "popup3": {
+          "title": "Riuscirai a farcela?",
+          "body": "VChronicles ti aspetta."
+        }
+      }
+    }
+  },
+  "revive": {
+    "popup": {
+      "title": "Rivivi",
+      "text": "Scegli come usare la tua seconda possibilità.",
+      "use_token": {
+        "title": "Usa 1 gettone",
+        "text": "Consuma 1 gettone per rivivere ora."
+      },
+      "use_ad": {
+        "title": "Guarda una pubblicità",
+        "text": "Guarda una pubblicità con premio per rivivere."
+      },
+      "cancel": {
+        "text": "Torna alla schermata finale"
+      }
+    },
+    "toast": {
+      "ad_fail": "Pubblicità non disponibile"
+    }
+  },
+  "game": {
+    "title": "Partita in corso",
+    "subtitle": "Fai le tue scelte.",
+    "restart": "Ricomincia",
+    "revive": "Rivivi",
+    "return": "Ritorna",
+    "customize": {
+      "aria": "Personalizzazione",
+      "title": "Personalizzazione",
+      "close_text": "Torna alla partita"
+    },
+    "ending": {
+      "title": "Fine del regno",
+      "body": "Il tuo regno finisce qui.",
+      "double_gain": "Raddoppia il tuo guadagno",
+      "double_gain_sub": "Guarda una pubblicità con premio",
+      "reward_claimed": "Guadagno raddoppiato accreditato",
+      "reward_claimed_sub": "Ora puoi ricominciare o tornare",
+      "revive_token": "Rivivi con 1 gettone"
+    },
+    "year_label": "Anno"
+  },
+  "event": {
+    "title": "Evento"
+  },
+  "profile": {
+    "title": "Profilo",
+    "subtitle": "Le tue statistiche e i tuoi progressi.",
+    "vc": "VCoins",
+    "vcoins": "VCoins",
+    "rank": "Rango",
+    "streak": "Serie",
+    "inventory": "Inventario",
+    "bestReign": "Miglior regno",
+    "totalRuns": "Partite giocate",
+    "editUsername": "Modifica nome utente",
+    "usernamePlaceholder": "Nuovo nome utente",
+    "usernameSave": "Salva",
+    "usernameCancel": "Annulla",
+    "usernameHint": "Da 3 a 20 caratteri. Lettere, numeri, _ o -. Il nome utente deve essere unico.",
+    "usernameMissing": "Nome utente mancante",
+    "usernameErrFormat": "Formato del nome utente non valido.",
+    "errNotReady": "Profilo non pronto.",
+    "usernameOkNochange": "Nessuna modifica rilevata.",
+    "usernameErrNojeton": "Gettoni insufficienti.",
+    "usernameWorking": "Aggiornamento in corso...",
+    "usernameErrTaken": "Questo nome utente è già in uso.",
+    "usernameErrGeneric": "Impossibile modificare il nome utente.",
+    "usernameErrCostFailed": "Il nome utente è stato modificato ma il costo non è stato addebitato.",
+    "usernameOkSaved": "Nome utente aggiornato.",
+    "universesTitle": "Universi",
+    "scenariosTitle": "Scenari",
+    "badgeBronze": "Badge bronzo",
+    "badgeSilver": "Badge argento",
+    "badgeGold": "Badge oro",
+    "badgeUnlockBronze": "Si sblocca a partire da 40 scelte in una partita.",
+    "badgeUnlockSilver": "Si sblocca a partire da 60 scelte in una partita.",
+    "badgeUnlockGold": "Si sblocca a partire da 100 scelte in una partita.",
+    "badge_bronze_aria": "Ingrandisci il badge bronzo",
+    "badge_silver_aria": "Ingrandisci il badge argento",
+    "badge_gold_aria": "Ingrandisci il badge oro",
+    "secretErrGeneric": "Il segreto è stato trovato, ma un errore ne ha impedito l’apertura corretta.",
+    "ladybugSecretTitle": "Segreto coccinella",
+    "ladybugSecretSub": "Scoppia tutte e 10 le bolle",
+    "ladybugSecretFinishTitleClaimed": "Ben fatto",
+    "ladybugSecretFinishBodyClaimed": "Hai guadagnato 50 VCoins.",
+    "ladybugSecretFinishTitleSeen": "Già ricevuto",
+    "ladybugSecretFinishBodySeen": "Hai già ricevuto i 50 VCoins per questo.",
+    "baudelaireSecretTitle": "Baudelaire — La Distruzione",
+    "baudelaireSecretBody": "Senza tregua il Demone si agita al mio fianco;\nNuota intorno a me come un'aria impalpabile;\nLo ingoio e sento che mi brucia il polmone\nE lo riempie d'un desiderio eterno e colpevole.\n\nTalvolta, sapendo quanto io ami l'Arte,\nPrende la forma della più seducente delle donne,\nE, sotto speciosi pretesti di malinconia,\nAssuefa le mie labbra a filtri infami.\n\nCosì mi conduce, lontano dallo sguardo di Dio,\nAnsante e spezzato dalla fatica, nel mezzo\nDelle pianure della Noia, profonde e deserte,\n\nE getta nei miei occhi pieni di smarrimento\nVesti macchiate, ferite aperte,\nE l'apparato sanguinoso della Distruzione!",
+    "baudelaireSecretButton": "Continua",
+    "badgeWood": "Badge legno",
+    "badgeCrystal": "Badge cristallo",
+    "badgeUnlockWood": "Si sblocca a partire da 20 scelte in una partita.",
+    "badgeUnlockCrystal": "Si sblocca a partire da 150 scelte in una partita.",
+    "badge_wood_aria": "Ingrandisci badge legno",
+    "badge_crystal_aria": "Ingrandisci badge cristallo"
+  },
+  "shop": {
+    "title": "NEGOZIO",
+    "subtitle": "Spendi i tuoi VCoins",
+    "soon": "Disponibile presto",
+    "store_title": "STORE",
+    "watch": "Guarda",
+    "loading": "Caricamento...",
+    "unavailable": "Non disponibile",
+    "reward_jeton_x1": "x1",
+    "reward_vcoins_x100": "x100",
+    "pack_jetons_12": "12",
+    "pack_jetons_30": "30",
+    "pack_vcoins_100": "100",
+    "pack_vcoins_1200": "1200",
+    "pack_vcoins_3000": "3000",
+    "pack_no_ads": "No Ads",
+    "pack_diamond": "Diamond",
+    "rewarded_title": "Ricompense",
+    "rewarded_desc": "Guarda una pubblicità per ottenere una piccola ricompensa.",
+    "reward_title": "Ricompense",
+    "reward_desc": "Guarda una pubblicità per ottenere una piccola ricompensa.",
+    "get_jeton": "Ottieni +1 gettone",
+    "get_1_jeton": "Ottieni +1 gettone",
+    "get_200_coins": "Ottieni 200 monete",
+    "get_300_coins": "Ottieni +300 monete",
+    "noads_title": "No Ads",
+    "noads_desc": "Disattiva gli interstitial. Le pubblicità con premio restano disponibili.",
+    "noads_buy": "Attiva No Ads",
+    "coins_title": "Monete",
+    "coins_desc": "Acquista monete per sbloccare più in fretta.",
+    "coins_1200": "+1200 monete",
+    "coins_3000": "+3000 monete",
+    "jetons_title": "Gettoni",
+    "jetons_desc": "I gettoni danno accesso ad azioni speciali.",
+    "jetons_12": "+12 gettoni",
+    "jetons_30": "+30 gettoni",
+    "diamond_title": "Diamond",
+    "diamond_badge": "No Ads + tutti gli universi",
+    "diamond_desc": "No Ads + tutti gli universi attuali sbloccati. Anche i futuri universi possono essere inclusi se il tuo backend attiva l'accesso Diamond.",
+    "diamond_buy": "Attiva Diamond",
+    "aria_top": "Barra delle azioni",
+    "aria_profile": "Profilo",
+    "carousel": {
+      "prev": "Precedente",
+      "next": "Successivo"
+    },
+    "universes": {
+      "hell_king": "Inferno",
+      "heaven_king": "Paradiso",
+      "western_president": "Presidente",
+      "mega_corp_ceo": "CEO",
+      "new_world_explorer": "Esploratore",
+      "vampire_lord": "Vampiro"
+    },
+    "cosmetics": {
+      "background": "Sfondo",
+      "message": "Carta messaggio",
+      "choice": "Carta scelta",
+      "hell": {
+        "background_1": "Sfondo rovine ardenti",
+        "background_2": "Sfondo fornace reale",
+        "background_3": "Sfondo trono di lava",
+        "background_4": "Sfondo abisso rosso",
+        "message_1": "Carta decreto infernale",
+        "message_2": "Carta ceneri nere",
+        "message_3": "Carta sigillo demoniaco",
+        "choice_1": "Scelta sentenza di brace",
+        "choice_2": "Scelta patto di sangue",
+        "choice_3": "Scelta ordine abissale"
+      },
+      "heaven": {
+        "background_1": "Sfondo nubi dorate",
+        "background_2": "Sfondo giardino sacro",
+        "background_3": "Sfondo portale degli angeli",
+        "message_1": "Carta luce pura",
+        "message_2": "Carta marmo divino",
+        "message_3": "Carta ala celeste",
+        "message_4": "Carta sole",
+        "message_5": "Carta luce",
+        "choice_1": "Scelta grazia suprema",
+        "choice_2": "Scelta giudizio celeste",
+        "choice_3": "Scelta marmo",
+        "choice_4": "Scelta luce",
+        "choice_5": "Scelta giuramento angelico"
+      },
+      "president": {
+        "background_1": "Sfondo sala di crisi",
+        "background_2": "Sfondo studio ovale",
+        "background_3": "Sfondo capitale blindata",
+        "message_1": "Carta dossier riservato",
+        "message_2": "Carta nota esecutiva",
+        "message_3": "Carta briefing di Stato",
+        "choice_1": "Scelta veto presidenziale",
+        "choice_2": "Scelta decreto nazionale",
+        "choice_3": "Scelta ordine esecutivo"
+      },
+      "ceo": {
+        "background_1": "Sfondo torre di vetro",
+        "background_2": "Sfondo sala del consiglio",
+        "background_3": "Sfondo crollo in borsa",
+        "message_1": "Carta report premium",
+        "message_2": "Carta dossier investitori",
+        "message_3": "Carta nota strategica",
+        "choice_1": "Scelta fusione rapida",
+        "choice_2": "Scelta piano aggressivo",
+        "choice_3": "Scelta decisione del consiglio"
+      },
+      "explorer": {
+        "background_1": "Sfondo costa perduta",
+        "background_2": "Sfondo giungla profonda",
+        "background_3": "Sfondo campo coloniale",
+        "message_1": "Carta giornale di bordo",
+        "message_2": "Carta pergamena reale",
+        "message_3": "Carta nota di spedizione",
+        "choice_1": "Scelta rotta sconosciuta",
+        "choice_2": "Scelta ordine di missione",
+        "choice_3": "Scelta rotta verso l'impero"
+      },
+      "vampire": {
+        "background_1": "Sfondo castello notturno",
+        "background_2": "Sfondo luna di sangue",
+        "background_3": "Sfondo cripta imperiale",
+        "message_1": "Carta velluto nero",
+        "message_2": "Carta sigillo scarlatto",
+        "message_3": "Carta decreto immortale",
+        "choice_1": "Scelta morso reale",
+        "choice_2": "Scelta legge del clan",
+        "choice_3": "Scelta sentenza della notte"
+      }
+    },
+    "toast": {
+      "insufficient_vcoins": "VCoins insufficienti",
+      "not_owned": "Oggetto non posseduto"
+    },
+    "preview": {
+      "sample_title": "Decisione",
+      "sample_text": "Anteprima del cosmetico selezionato in situazione.",
+      "sample_choice_a": "Accettare",
+      "sample_choice_b": "Rifiutare",
+      "sample_choice_c": "Rimandare"
+    },
+    "status": {
+      "noads_on": "✅ Nessuna pubblicità: attivata",
+      "noads_off": "ℹ️ Nessuna pubblicità: disattivata",
+      "purchase_restored": "✅ Acquisto ripristinato",
+      "pending": "…",
+      "purchase_credited": "✅ Acquisto accreditato",
+      "purchase_not_credited": "❌ Acquisto non accreditato",
+      "ad_not_ready": "Sistema pubblicitario non pronto",
+      "reward_not_validated": "❌ Pubblicità non convalidata",
+      "reward_validated": "✅ Ricompensa convalidata",
+      "reward_error": "❌ Errore annuncio con ricompensa",
+      "iap_unavailable_web": "⚠️ IAP non disponibile sul web.",
+      "product_not_found_prefix": "⚠️ Prodotto non trovato: "
+    }
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "subtitle": "Preferenze e lingua",
+    "sound": "Suono",
+    "music": "Musica",
+    "notifications": "Notifiche",
+    "language": "Lingua",
+    "language_hint": "Scegli la lingua. Viene salvata sul dispositivo e sul tuo profilo.",
+    "back_home_aria": "Torna alla schermata iniziale",
+    "open_profile_aria": "Apri il profilo",
+    "choose_lang_aria": "Scegli la lingua: {code}",
+    "ads_title": "Pubblicità",
+    "ads_personalized_label": "Pubblicità personalizzata",
+    "ads_personalized_desc": "Consenti annunci più pertinenti. Puoi modificare questa scelta in qualsiasi momento.",
+    "ads_saved": "Preferenza pubblicitaria salvata.",
+    "faq_title": "FAQ",
+    "faq_label": "Apri le FAQ",
+    "faq_desc": "Risposte su monete, anni, gettoni, badge e nome utente.",
+    "open_faq_aria": "Apri le FAQ",
+    "help_title": "Aiuto",
+    "help_email_label": "Contatto:",
+    "help_email": "help.vboldstudio@gmail.com",
+    "msg_saved": "Lingua salvata.",
+    "msg_saved_local": "Lingua salvata sul dispositivo. Sincronizzazione con il server più tardi."
+  },
+  "universe": {
+    "hell_king": {
+      "title": "Re degli Inferi",
+      "desc": "Guida le legioni demoniache, gestisci il flusso delle anime dannate e mantieni l'ordine all'inferno influenzando al tempo stesso la superficie."
+    },
+    "heaven_king": {
+      "title": "Sovrano del Paradiso",
+      "desc": "Arbitra le preghiere, contiene il fanatismo e decide fin dove il Cielo debba intervenire nel mondo dei mortali."
+    },
+    "medieval_king": {
+      "title": "Re medievale",
+      "desc": "Chiesa, esercito, popolo, tesoro. Ogni scelta avvicina il tuo regno alla prosperità o alla rivolta."
+    },
+    "western_president": {
+      "title": "Presidente",
+      "desc": "Opinione pubblica, economia, difesa e crisi diplomatiche. Una firma può cambiare tutto."
+    },
+    "mega_corp_ceo": {
+      "title": "CEO",
+      "desc": "Investitori, dipendenti, regolatori e immagine del marchio. Fai salire la valutazione senza far esplodere tutto."
+    },
+    "new_world_explorer": {
+      "title": "Esploratore",
+      "desc": "Conquista, converti e cerca la ricchezza locale rendendo conto alla tua corona."
+    },
+    "vampire_lord": {
+      "title": "Signore vampiro",
+      "desc": "Espandi la tua influenza nell'ombra. Troppo sangue attira i cacciatori, troppa prudenza indebolisce il tuo clan."
+    }
+  },
+  "intro": {
+    "finish": {
+      "title": "Bravo",
+      "body": "Sei pronto a governare molti universi.",
+      "info_html": "<p>Giocando, guadagni <img class=\"vr-intro-inline-icon\" src=\"assets/img/ui/vcoins.webp\" alt=\"\"> e <img class=\"vr-intro-inline-icon\" src=\"assets/img/ui/jeton.webp\" alt=\"\"></p><p>I <img class=\"vr-intro-inline-icon\" src=\"assets/img/ui/vcoins.webp\" alt=\"\"> servono a sbloccare universi e personalizzazioni.</p><p>I <img class=\"vr-intro-inline-icon\" src=\"assets/img/ui/jeton.webp\" alt=\"\"> servono a ottenere aiuto durante la partita.</p><p>Puoi personalizzare il tuo gioco cliccando sulla palette in alto in ogni universo oppure andando nel negozio.</p>",
+      "gift": "Per iniziare la tua avventura, ecco qui:",
+      "token": "gettone",
+      "cta": "Inizia",
+      "name_title": "Con chi ho l'onore?",
+      "name_placeholder": "Il tuo nome",
+      "name_save": "Conferma",
+      "name_confirm": "Sei sicuro di voler tenere questo nome: {name}?",
+      "name_missing": "Inserisci un nome.",
+      "name_err_length": "Il nome deve contenere tra 3 e 20 caratteri.",
+      "name_err_invalid": "Usa solo lettere, numeri, _ o -.",
+      "name_err_taken": "Questo nome è già in uso.",
+      "name_err_generic": "Impossibile salvare il nome.",
+      "name_working": "Salvataggio..."
+    }
+  },
+  "onesignal": {
+    "popup": {
+      "title": "Resta aggiornato",
+      "text": "Consenti le notifiche per ricevere novità e ricompense importanti.",
+      "accept": "Consenti",
+      "cancel": "Più tardi"
+    }
+  },
+  "adsConsent": {
+    "popup": {
+      "title": "Pubblicità personalizzata",
+      "text": "Accetti pubblicità personalizzata per ricevere annunci più pertinenti? Puoi modificare questa scelta in qualsiasi momento nelle impostazioni.",
+      "accept": "Accetta",
+      "refuse": "Rifiuta"
+    }
+  },
+  "referral": {
+    "invite_btn": "Invita",
+    "invite_and_earn_title": "Invita e guadagna:",
+    "invite_and_earn_btn": "Invita e guadagna",
+    "share_title": "Invita un amico",
+    "share_text": "Scarica VUniverse qui: {url}",
+    "link_copied": "Link copiato",
+    "crosspromo_reward_label": "Inviti",
+    "crosspromo_desc": "Invita un amico a installare VUniverse e guadagna 200 VCoins per ogni installazione convalidata, fino a 5 inviti.",
+    "android_only_popup": {
+      "text": "Al momento è disponibile solo la versione Android. La versione iOS è in corso di sviluppo e non può ancora essere scaricata."
+    }
+  },
+  "guideMentor": {
+    "common": {"introGoal": "Mantieni l'equilibrio per {target} scelte per ottenere la tua prima promozione.","nextGoal": "Mantieni l'equilibrio per altre {remaining} scelte per raggiungere la tua prossima promozione.","promotionNow": "Congratulazioni. Ora sei {rank}.","maxGoal": "Hai raggiunto il grado più alto di questo universo. Ora dimostra di saperlo mantenere."},
+    "hell_king": {"ranks": {"wood": "anima dannata","bronze": "demone di primo rango","silver": "signore infernale","gold": "principe dell'inferno","crystal": "re dell'inferno"},"intro": "Benvenuta, anima perduta. Negli Inferi, ogni decisione lascia un segno.","wood": "Non vaghi più senza meta. Ora servi l'ordine infernale.","bronze": "Ti sei guadagnato il tuo posto tra i servitori degli Inferi. Non cedere.","silver": "La tua influenza cresce. I demoni minori iniziano a obbedirti.","gold": "Le fiamme si piegano più facilmente alla tua volontà. Ora sei temuto.","crystal": "Sei arrivato al vertice. Governa gli Inferi come un vero re."},
+    "heaven_king": {"ranks": {"wood": "anima luminosa","bronze": "custode celeste","silver": "angelo superiore","gold": "arcangelo","crystal": "re del paradiso"},"intro": "Benvenuta, anima pura. Qui ogni scelta deve preservare l'armonia del Cielo.","wood": "Hai compiuto i tuoi primi passi nella luce. Continua così.","bronze": "Il tuo ruolo va ormai oltre quello di un semplice messaggero. Il Cielo ti osserva.","silver": "Sei diventato un vero custode del Cielo. La tua responsabilità cresce.","gold": "La tua autorità splende come quella di un arcangelo. Continua a elevare questo universo.","crystal": "Hai raggiunto il grado più alto. Governa il Paradiso con saggezza."},
+    "vampire_lord": {"ranks": {"wood": "iniziato della notte","bronze": "vampiro nobile","silver": "signore vampiro","gold": "maestro delle ombre","crystal": "signore vampiro supremo"},"intro": "Benvenuto nella notte. Ogni scelta nutrirà o indebolirà la tua ascesa.","wood": "Il sangue ti chiama già. Non sei più del tutto umano.","bronze": "Sei entrato nella vera notte. Il tuo nome comincia a circolare.","silver": "Ora sei un vampiro compiuto. Le ombre ti riconoscono.","gold": "La tua presenza incute timore. Pochi osano ancora sfidarti.","crystal": "Sei diventato il maestro dell'oscurità. Domina la notte."},
+    "mega_corp_ceo": {"ranks": {"wood": "dipendente","bronze": "manager","silver": "direttore","gold": "direttore esecutivo","crystal": "CEO"},"intro": "Benvenuto, stagista. Qui ogni decisione conta e ogni errore costa caro.","wood": "Ben fatto. Non sei più solo uno stagista. Ora sei un dipendente.","bronze": "Il tuo lavoro ha dato i suoi frutti. Ora assumi vere responsabilità.","silver": "Ora guidi gli altri. I risultati parlano per te.","gold": "Hai raggiunto un livello in cui l'azienda dipende davvero dalle tue decisioni.","crystal": "Ora sei il CEO. Sta a te mantenere l'azienda al vertice."},
+    "western_president": {"ranks": {"wood": "consigliere","bronze": "sindaco","silver": "governatore","gold": "capo di Stato","crystal": "presidente"},"intro": "Benvenuto, consigliere. Nel West, l'equilibrio del potere non dura mai a lungo.","wood": "Hai guadagnato peso politico. La gente comincia ad ascoltarti.","bronze": "Non segui più soltanto il movimento. Ora contribuisci a guidarlo.","silver": "Ora sei governatore. Le tue scelte stanno già plasmando il territorio.","gold": "Ora governi su scala più ampia. Il paese si aspetta molto da te.","crystal": "Ora sei presidente. Sta a te mantenere unita la nazione."},
+    "new_world_explorer": {"ranks": {"wood": "marinaio","bronze": "esploratore avanzato","silver": "esploratore","gold": "comandante","crystal": "rappresentante della Corona"},"intro": "Benvenuto, marinaio. Il Nuovo Mondo non perdona né l'esitazione né l'eccesso.","wood": "Hai superato il semplice ruolo di uomo d'equipaggio. Osservi e impari.","bronze": "Ti avventuri più lontano degli altri. Il tuo sguardo sta diventando prezioso.","silver": "Ora sei un vero esploratore. Gli altri contano sul tuo giudizio.","gold": "Ora comandi la spedizione. Ogni scelta può cambiare il destino del viaggio.","crystal": "Rappresenti la Corona. Il mondo scoperto parlerà ormai a tuo nome."}
+  },
+  "jobs": {
+    "hell_king": {
+      "wood": "Anima perduta",
+      "bronze": "Servitore infernale",
+      "silver": "Assistente demoniaco",
+      "gold": "Signore delle fiamme",
+      "crystal": "Re degli Inferi"
+    },
+    "heaven_king": {
+      "wood": "Anima pura",
+      "bronze": "Messaggero celeste",
+      "silver": "Guardiano del cielo",
+      "gold": "Arcangelo",
+      "crystal": "Re del Paradiso"
+    },
+    "vampire_lord": {
+      "wood": "Umano corrotto",
+      "bronze": "Servitore notturno",
+      "silver": "Vampiro",
+      "gold": "Signore vampiro",
+      "crystal": "Re delle tenebre"
+    },
+    "mega_corp_ceo": {
+      "wood": "Stagista",
+      "bronze": "Impiegato",
+      "silver": "Manager",
+      "gold": "Direttore",
+      "crystal": "CEO"
+    },
+    "western_president": {
+      "wood": "Consigliere",
+      "bronze": "Vice",
+      "silver": "Sindaco",
+      "gold": "Governatore",
+      "crystal": "Presidente"
+    },
+    "new_world_explorer": {
+      "wood": "Marinaio",
+      "bronze": "Esploratore scelto",
+      "silver": "Esploratore",
+      "gold": "Comandante",
+      "crystal": "Rappresentante della Corona"
+    }
+  }
+}

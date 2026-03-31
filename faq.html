@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    :root{
+      --vr-bg: radial-gradient(circle at top, #f6e7cf 0, #1b6688 62%, #03279e 100%);
+      --vr-overlay: none;
+    }
+
+    body.vr-body.page-faq{
+      overflow-x:hidden;
+    }
+
+    .vr-header{
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+
+    .vr-top-actions{
+      width:100%;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      padding: calc(10px + env(safe-area-inset-top)) 12px 8px;
+    }
+
+    .vr-top-slot{
+      flex:1 1 0;
+      display:flex;
+      align-items:center;
+    }
+
+    .vr-top-left{ justify-content:flex-start; }
+    .vr-top-center{ justify-content:center; }
+    .vr-top-right{ justify-content:flex-end; }
+
+    .vr-icon-button{
+      width:44px;
+      height:44px;
+      border-radius:999px;
+      border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(0,0,0,0.26);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.22);
+      padding:0;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      cursor:pointer;
+      text-decoration:none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .vr-icon-button:active{
+      transform: scale(.98);
+    }
+
+    .vr-icon-button img{
+      width:30px;
+      height:30px;
+      object-fit:contain;
+      display:block;
+      pointer-events:none;
+      user-select:none;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.65)) contrast(1.15) brightness(1.08);
+    }
+
+    .vr-back-ico{
+      width:24px;
+      height:24px;
+      display:block;
+      opacity:.98;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.65));
+    }
+
+    .vr-main{
+      padding-left: calc(16px + env(safe-area-inset-left));
+      padding-right: calc(16px + env(safe-area-inset-right));
+      padding-bottom: calc(18px + env(safe-area-inset-bottom));
+    }
+
+    .vr-section-headCentered{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      gap:6px;
+      padding-top:2px;
+      margin-bottom: 8px;
+    }
+
+    .vr-section-headCentered .vr-section-title{
+      margin:0;
+      text-align:center;
+      width:100%;
+    }
+
+    .vr-section-subtitle{
+      margin:14px 0 0 0;
+      text-align:center;
+      max-width: 520px;
+      font-size: 13px;
+      line-height: 1.35;
+      opacity: .86;
+    }
+
+    .vr-faqList{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      margin-top:18px;
+    }
+
+    .vr-faqItem{
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.10);
+      background:rgba(255,255,255,.04);
+      overflow:hidden;
+      box-shadow:0 10px 20px rgba(0,0,0,.14);
+    }
+
+    .vr-faqQuestion{
+      list-style:none;
+      cursor:pointer;
+      padding:12px 42px 12px 14px;
+      font-weight:950;
+      line-height:1.25;
+      position:relative;
+      user-select:none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .vr-faqQuestion::-webkit-details-marker{
+      display:none;
+    }
+
+    .vr-faqQuestion::after{
+      content:"+";
+      position:absolute;
+      right:14px;
+      top:50%;
+      transform:translateY(-50%);
+      font-size:20px;
+      font-weight:800;
+      opacity:.82;
+    }
+
+    .vr-faqItem[open] .vr-faqQuestion::after{
+      content:"−";
+    }
+
+    .vr-faqAnswer{
+      padding:0 14px 14px;
+      font-size:12px;
+      line-height:1.45;
+      opacity:.86;
+      white-space:pre-line;
+    }
+  </style>
+</head>
+
+<body class="vr-body page-faq">
+  <header class="vr-header">
+    <div class="vr-top-actions">
+      <div class="vr-top-slot vr-top-left">
+        <a id="btnBackSettings" class="vr-icon-button" href="settings.html" aria-label="">
+          <svg class="vr-back-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="white" d="M15.5 5.5a1 1 0 0 1 0 1.4L10.4 12l5.1 5.1a1 1 0 1 1-1.4 1.4l-5.8-5.8a1.2 1.2 0 0 1 0-1.4l5.8-5.8a1 1 0 0 1 1.4 0z"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="vr-top-slot vr-top-center"></div>
+
+      <div class="vr-top-slot vr-top-right">
+        <a id="btnGoProfile" class="vr-icon-button" href="profile.html" aria-label="">
+          <img src="assets/img/ui/btn_profile.webp" alt="" draggable="false" />
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="vr-overlay"></div>
+
+  <main class="vr-main">
+    <section id="view-faq" class="vr-view vr-view-active">
+      <div class="vr-section-headCentered">
+        <h1 id="faqTitle" class="vr-section-title"></h1>
+        <p id="faqSubtitle" class="vr-section-subtitle"></p>
+      </div>
+
+      <div class="vr-profile-grid">
+        <div class="vr-profile-card">
+          <div id="faqList" class="vr-faqList"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/supabase.min.js"></script>
+  <script src="js/supabaseBootstrap.js"></script>
+  <script src="js/analytics.js"></script>
+  <script src="js/userData.js"></script>
+  <script src="js/onesignal.js"></script>
+  <script src="js/i18n.js"></script>
+
+  <script>
+  (async () => {
+    "use strict";
+
+    const FAQ_ITEMS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+
+    function $(id){
+      return document.getElementById(id);
+    }
+
+    function t(key){
+      try{
+        if(window.VRI18n && typeof window.VRI18n.t === "function"){
+          return window.VRI18n.t(key) || "";
+        }
+      }catch(_){}
+      return "";
+    }
+
+    function renderFaq(){
+      const host = $("faqList");
+      if(!host) return;
+
+      host.innerHTML = "";
+
+      FAQ_ITEMS.forEach((n, idx) => {
+        const q = t(`ui.faq_q${n}`);
+        const a = t(`ui.faq_a${n}`);
+        if(!q || !a) return;
+
+        const item = document.createElement("details");
+        item.className = "vr-faqItem";
+        if(idx === 0) item.open = true;
+
+        const question = document.createElement("summary");
+        question.className = "vr-faqQuestion";
+        question.textContent = q;
+
+        const answer = document.createElement("div");
+        answer.className = "vr-faqAnswer";
+        answer.textContent = a;
+
+        item.appendChild(question);
+        item.appendChild(answer);
+        host.appendChild(item);
+      });
+    }
+
+    function renderTexts(){
+      const title = $("faqTitle");
+      const subtitle = $("faqSubtitle");
+      const back = $("btnBackSettings");
+      const profile = $("btnGoProfile");
+
+      if(title) title.textContent = t("ui.faq_title");
+      if(subtitle) subtitle.textContent = t("ui.faq_subtitle");
+      if(t("ui.faq_title")) document.title = t("ui.faq_title");
+
+      if(back) back.setAttribute("aria-label", t("ui.faq_back_settings_aria"));
+      if(profile) profile.setAttribute("aria-label", t("ui.faq_open_profile_aria"));
+
+      renderFaq();
+    }
+
+    try{ await window.bootstrapAuthAndProfile?.(); }catch(_){}
+    try{ await window.VUserData?.init?.(); }catch(_){}
+    try{ await window.VRI18n?.initI18n?.(); }catch(_){}
+
+    renderTexts();
+  })();
+  </script>
+</body>
+</html>

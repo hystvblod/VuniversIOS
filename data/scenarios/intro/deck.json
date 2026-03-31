@@ -1,0 +1,37 @@
+{
+  "cards": [
+    {
+      "id": "intro_001",
+      "universe": "intro",
+      "choices": {
+        "A": {
+          "gaugeDelta": {}
+        },
+        "B": {
+          "gaugeDelta": {}
+        }
+      }
+    },
+    {
+      "id": "intro_002",
+      "universe": "intro",
+      "choices": {
+        "A": {
+          "gaugeDelta": {
+            "balance": -35
+          }
+        },
+        "B": {
+          "gaugeDelta": {
+            "balance": -35
+          }
+        }
+      }
+    },
+    {
+      "id": "intro_003",
+      "universe": "intro",
+      "choices": {}
+    }
+  ]
+}

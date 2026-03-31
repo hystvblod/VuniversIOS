@@ -1,0 +1,63 @@
+{
+  "id": "intro",
+  "gauges": [
+    {
+      "id": "vision",
+      "label_fr": "Vision",
+      "label_en": "Vision",
+      "label_de": "Vision",
+      "label_es": "Visión",
+      "label_it": "Visione",
+      "label_pt": "Visão",
+      "label_ptbr": "Visão",
+      "label_ko": "비전",
+      "label_ja": "ビジョン",
+      "label_id": "Visi"
+    },
+    {
+      "id": "balance",
+      "label_fr": "Équilibre",
+      "label_en": "Balance",
+      "label_de": "Gleichgewicht",
+      "label_es": "Equilibrio",
+      "label_it": "Equilibrio",
+      "label_pt": "Equilíbrio",
+      "label_ptbr": "Equilíbrio",
+      "label_ko": "균형",
+      "label_ja": "均衡",
+      "label_id": "Keseimbangan"
+    },
+    {
+      "id": "power",
+      "label_fr": "Pouvoir",
+      "label_en": "Power",
+      "label_de": "Macht",
+      "label_es": "Poder",
+      "label_it": "Potere",
+      "label_pt": "Poder",
+      "label_ptbr": "Poder",
+      "label_ko": "권력",
+      "label_ja": "力",
+      "label_id": "Kekuatan"
+    },
+    {
+      "id": "legacy",
+      "label_fr": "Héritage",
+      "label_en": "Legacy",
+      "label_de": "Vermächtnis",
+      "label_es": "Legado",
+      "label_it": "Eredità",
+      "label_pt": "Legado",
+      "label_ptbr": "Legado",
+      "label_ko": "유산",
+      "label_ja": "遺産",
+      "label_id": "Warisan"
+    }
+  ],
+  "initialGauges": {
+    "vision": 50,
+    "balance": 50,
+    "power": 50,
+    "legacy": 50
+  }
+}
