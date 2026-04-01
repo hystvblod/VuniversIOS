@@ -6066,3 +6066,50 @@ body.vr-body-game[data-universe] .vr-gauge-label{
     font-size: 20px;
   }
 }
+
+/* ===== iPhone : descendre un peu toute l'UI du haut dans le jeu ===== */
+@supports (padding-top: env(safe-area-inset-top)) {
+  body.vr-body-game[data-universe] .vr-top-actions-game{
+    top: calc(20px + env(safe-area-inset-top)) !important;
+  }
+
+  body.vr-body-game[data-universe] > a.vr-icon-button[aria-label="Accueil"]{
+    top: calc(24px + env(safe-area-inset-top)) !important;
+  }
+
+  body.vr-body-game[data-universe] #btn-customize{
+    top: calc(24px + env(safe-area-inset-top)) !important;
+  }
+
+  body.vr-body-game[data-universe="new_world_explorer"] .vr-top-actions-game{
+    top: calc(14px + env(safe-area-inset-top)) !important;
+  }
+
+  body.vr-body-game[data-universe="new_world_explorer"] > a.vr-icon-button[aria-label="Accueil"],
+  body.vr-body-game[data-universe="new_world_explorer"] #btn-customize{
+    top: calc(18px + env(safe-area-inset-top)) !important;
+  }
+
+  @media (max-width: 900px){
+    body.vr-body-game[data-universe] .vr-top-actions-game{
+      top: calc(18px + env(safe-area-inset-top)) !important;
+    }
+
+    body.vr-body-game[data-universe] > a.vr-icon-button[aria-label="Accueil"]{
+      top: calc(22px + env(safe-area-inset-top)) !important;
+    }
+
+    body.vr-body-game[data-universe] #btn-customize{
+      top: calc(22px + env(safe-area-inset-top)) !important;
+    }
+
+    body.vr-body-game[data-universe="new_world_explorer"] .vr-top-actions-game{
+      top: calc(12px + env(safe-area-inset-top)) !important;
+    }
+
+    body.vr-body-game[data-universe="new_world_explorer"] > a.vr-icon-button[aria-label="Accueil"],
+    body.vr-body-game[data-universe="new_world_explorer"] #btn-customize{
+      top: calc(16px + env(safe-area-inset-top)) !important;
+    }
+  }
+}
