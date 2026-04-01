@@ -623,7 +623,13 @@
       "name_err_taken": "Ce nom est déjà pris.",
       "name_err_generic": "Impossible d’enregistrer le nom.",
       "name_working": "Enregistrement..."
-    }
+    },
+    "guide": {
+      "welcome_title": "Bienvenue",
+      "welcome_body": "Ah, un nouveau dirigeant pour s’occuper des mondes. Prêt à le faire ?"
+    },
+    "swipe_hint": "Swipe",
+    "balance_hint": "Cette décision peut faire bouger la jauge Équilibre."
   },
   "onesignal": {
     "popup": {
@@ -659,7 +665,8 @@
       "introGoal": "Maintiens l'équilibre durant {target} choix pour obtenir ta première promotion.",
       "nextGoal": "Maintiens encore l'équilibre durant {remaining} choix pour atteindre la prochaine promotion.",
       "promotionNow": "Bravo. Tu es désormais {rank}.",
-      "maxGoal": "Tu as atteint le rang suprême de cet univers. À toi de prouver que tu peux le conserver."
+      "maxGoal": "Tu as atteint le rang suprême de cet univers. À toi de prouver que tu peux le conserver.",
+      "nextButton": "Suivant"
     },
     "hell_king": {
       "ranks": {

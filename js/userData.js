@@ -768,19 +768,13 @@ async _getUid() {
 
       return await queueRemote(async () => {
         const me = await window.VRRemoteStore.getMe();
-const cosmetics = await window.VRRemoteStore.getCosmeticsState();
+        let ok = false;
 
-let ok = false;
+        if (me) {
+          ok = _applyMergedRemote(me) || ok;
+        }
 
-if (me) {
-  ok = _applyMergedRemote(me) || ok;
-}
-
-if (cosmetics) {
-  ok = _applyMergedCosmetics(cosmetics) || ok;
-}
-
-return ok;
+        return ok;
       }, "VUserData.refresh");
     },
 
@@ -1267,60 +1261,24 @@ return ok;
         };
       }
 
-      const snapshot = {
-        vcoins: _clampInt(cur.vcoins),
-        owned_cosmetics: _cloneJson(cur.owned_cosmetics),
-        equipped_cosmetics: _cloneJson(cur.equipped_cosmetics)
-      };
+      const nextOwned = _addOwnedCosmetic(cur.owned_cosmetics, universeId, category, itemId);
+      const nextEquipped = autoEquip
+        ? _setEquippedCosmetic(cur.equipped_cosmetics, universeId, category, itemId)
+        : _cloneJson(cur.equipped_cosmetics);
 
-      const nextOwned = _addOwnedCosmetic(snapshot.owned_cosmetics, universeId, category, itemId);
       this.save({
         ...cur,
         vcoins: _clampInt(cur.vcoins) - price,
         owned_cosmetics: nextOwned,
-        equipped_cosmetics: snapshot.equipped_cosmetics
+        equipped_cosmetics: nextEquipped
       });
 
-      const self = this;
-      const out = await queueRemote(async () => {
-        const remote = await window.VRRemoteStore?.buyCosmetic?.({
-          universeId,
-          category,
-          itemId,
-          price
-        });
-
-        if (!remote || typeof remote !== "object") {
-          self.save({
-            ...self.load(),
-            vcoins: snapshot.vcoins,
-            owned_cosmetics: snapshot.owned_cosmetics,
-            equipped_cosmetics: snapshot.equipped_cosmetics
-          });
-          await self.refresh().catch(() => false);
-          return { ok: false, reason: "remote_error" };
-        }
-
-        if (typeof remote.vcoins !== "undefined") {
-          _memState.vcoins = _clampInt(remote.vcoins);
-        }
-
-        _applyMergedCosmetics(remote);
-        _persistLocal();
-
-        return {
-          ok: true,
-          reason: "ok",
-          vcoins: self.getVcoins(),
-          data: self.getCosmeticsState()
-        };
-      }, "VUserData.buyCosmetic");
-
-      if (out?.ok && autoEquip) {
-        return await this.equipCosmetic(universeId, category, itemId);
-      }
-
-      return out || { ok: false, reason: "remote_error" };
+      return {
+        ok: true,
+        reason: "ok",
+        vcoins: this.getVcoins(),
+        data: this.getCosmeticsState()
+      };
     },
 
     async equipCosmetic(universeId, category, itemId) {
@@ -1346,49 +1304,19 @@ return ok;
       }
 
       const cur = this.load();
-      const snapshot = {
-        equipped_cosmetics: _cloneJson(cur.equipped_cosmetics)
-      };
+      const nextEquipped = _setEquippedCosmetic(cur.equipped_cosmetics, uid, cat, iid);
 
-      const nextEquipped = _setEquippedCosmetic(snapshot.equipped_cosmetics, uid, cat, iid);
       this.save({
         ...cur,
         equipped_cosmetics: nextEquipped
       });
 
-      const self = this;
-      const out = await queueRemote(async () => {
-        const remote = await window.VRRemoteStore?.equipCosmetic?.({
-          universeId: uid,
-          category: cat,
-          itemId: iid
-        });
-
-        if (!remote || typeof remote !== "object") {
-          self.save({
-            ...self.load(),
-            equipped_cosmetics: snapshot.equipped_cosmetics
-          });
-          await self.refresh().catch(() => false);
-          return { ok: false, reason: "remote_error" };
-        }
-
-        if (typeof remote.vcoins !== "undefined") {
-          _memState.vcoins = _clampInt(remote.vcoins);
-        }
-
-        _applyMergedCosmetics(remote);
-        _persistLocal();
-
-        return {
-          ok: true,
-          reason: "ok",
-          vcoins: self.getVcoins(),
-          data: self.getCosmeticsState()
-        };
-      }, "VUserData.equipCosmetic");
-
-      return out || { ok: false, reason: "remote_error" };
+      return {
+        ok: true,
+        reason: "ok",
+        vcoins: this.getVcoins(),
+        data: this.getCosmeticsState()
+      };
     }
   };
 
