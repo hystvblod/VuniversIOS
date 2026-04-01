@@ -554,6 +554,10 @@
     } catch (_) {}
 
     const { S } = getStoreApi();
+    const STORE_PLATFORM =
+      (window.Capacitor?.getPlatform?.() === "ios")
+        ? S.Platform.APPLE_APPSTORE
+         : S.Platform.GOOGLE_PLAY;
     if (!S) {
       setText("shop-status", t("shop.status.iap_unavailable_web", "⚠️ IAP indisponible sur le web."));
       emit("vr:iap_unavailable", { productId: String(productId || "") });
