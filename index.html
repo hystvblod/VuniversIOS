@@ -1366,9 +1366,133 @@
         });
       }
 
-      function launchUniverse(universeId) {
+      const __vrUniversePreloaded = new Set();
+
+      function getCurrentLangForPreload() {
+        try {
+          return (
+            localStorage.getItem("vrealms_lang") ||
+            localStorage.getItem("vuniverse_lang") ||
+            "fr"
+          );
+        } catch (_) {
+          return "fr";
+        }
+      }
+
+      function preloadImage(src) {
+        return new Promise((resolve) => {
+          try {
+            if (!src) return resolve(false);
+            const img = new Image();
+            img.decoding = "async";
+            img.onload = () => resolve(true);
+            img.onerror = () => resolve(false);
+            img.src = src;
+          } catch (_) {
+            resolve(false);
+          }
+        });
+      }
+
+      async function preloadUniverseAssets(universeId) {
+        try {
+          universeId = String(universeId || "").trim();
+          if (!universeId) return false;
+          if (__vrUniversePreloaded.has(universeId)) return true;
+
+          const lang = getCurrentLangForPreload();
+
+          const jobs = [
+            fetch(`data/scenarios/${universeId}/config.json`, { cache: "force-cache" }).catch(() => null),
+            fetch(`data/scenarios/${universeId}/deck.json`, { cache: "force-cache" }).catch(() => null),
+            fetch(`data/scenarios/${universeId}/cards_${lang}.json`, { cache: "force-cache" }).catch(() => null),
+            fetch(`data/scenarios/${universeId}/logic_events.json`, { cache: "force-cache" }).catch(() => null),
+            fetch(`data/scenarios/${universeId}/events_${lang}.json`, { cache: "force-cache" }).catch(() => null),
+            fetch(`data/scenarios/${universeId}/endings_${lang}.json`, { cache: "force-cache" }).catch(() => null),
+            preloadImage(`assets/img/ui/universes/${universeId}.webp`),
+            preloadImage(`assets/img/guides/${universeId}.webp`)
+          ];
+
+          await Promise.allSettled(jobs);
+          __vrUniversePreloaded.add(universeId);
+          return true;
+        } catch (_) {
+          return false;
+        }
+      }
+
+      function getPriorityUniverseIdsForPreload() {
+        try {
+          const FREE_UNIVERSES = [
+            "hell_king",
+            "vampire_lord"
+          ];
+
+          const recent = [];
+          const seen = new Set();
+
+          const pushUnique = (id) => {
+            id = String(id || "").trim();
+            if (!id || id === "intro" || seen.has(id)) return;
+            seen.add(id);
+            recent.push(id);
+          };
+
+          try { pushUnique(localStorage.getItem("vrealms_universe")); } catch (_) {}
+          try { pushUnique(localStorage.getItem("vuniverse_universe")); } catch (_) {}
+          try { pushUnique(localStorage.getItem("last_universe")); } catch (_) {}
+
+          for (let i = 0; i < localStorage.length; i += 1) {
+            const key = localStorage.key(i);
+            if (!key || !key.startsWith("vrealms_save_")) continue;
+            const universeId = key.replace("vrealms_save_", "").trim();
+            pushUnique(universeId);
+            if (recent.length >= 2) break;
+          }
+
+          const chosen = [];
+
+          for (const id of recent) {
+            if (chosen.length >= 2) break;
+            if (!chosen.includes(id)) chosen.push(id);
+          }
+
+          for (const id of FREE_UNIVERSES) {
+            if (chosen.length >= 2) break;
+            if (!chosen.includes(id)) chosen.push(id);
+          }
+
+          return chosen.slice(0, 2);
+        } catch (_) {
+          return ["hell_king", "vampire_lord"];
+        }
+      }
+
+      function preloadIndexPriorityUniverses() {
+        try {
+          const ids = getPriorityUniverseIdsForPreload();
+
+          ids.forEach((id, index) => {
+            setTimeout(function () {
+              preloadUniverseAssets(id).catch(function () {});
+            }, 150 * index);
+          });
+        } catch (_) {}
+      }
+
+      async function launchUniverse(universeId) {
         if (!universeId) return;
+
         setUniverseToLaunch(universeId);
+
+        try {
+          await Promise.race([
+            preloadUniverseAssets(universeId),
+            new Promise((resolve) => setTimeout(resolve, 350))
+          ]);
+        } catch (_) {}
+
         try { window.VRCrossPromo?.notifySessionStart?.(); } catch (_) {}
         window.location.href = "game.html";
       }
@@ -1618,12 +1742,20 @@
       });
 
       document.querySelectorAll(".vr-card[data-universe]").forEach((card) => {
-        card.addEventListener("click", (e) => {
-          const id = card.getAttribute("data-universe");
-          if (!id) return;
+        const id = card.getAttribute("data-universe");
+        if (!id) return;
 
+        const warmUniverse = function () {
+          preloadUniverseAssets(id).catch(function () {});
+        };
+
+        card.addEventListener("pointerenter", warmUniverse, { passive: true });
+        card.addEventListener("touchstart", warmUniverse, { passive: true });
+        card.addEventListener("mousedown", warmUniverse, { passive: true });
+
+        card.addEventListener("click", (e) => {
           if (isUnlocked(id)) {
-            launchUniverse(id);
+            void launchUniverse(id);
           } else {
             e.preventDefault();
             void openBuyPopup(id);
@@ -1639,11 +1771,13 @@
       } catch (_) {}
 
       applyLocks();
+      preloadIndexPriorityUniverses();
 
       (async function refreshLater(){
         try { await window.__vrIndexInitPromise; } catch (_) {}
         try { await getCurrentVCoins(); } catch (_) {}
         try { applyLocks(); } catch (_) {}
+        try { preloadIndexPriorityUniverses(); } catch (_) {}
       })();
 
     })();

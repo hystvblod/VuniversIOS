@@ -623,7 +623,13 @@
       "name_err_taken": "Dieser Name ist bereits vergeben.",
       "name_err_generic": "Der Name konnte nicht gespeichert werden.",
       "name_working": "Wird gespeichert..."
-    }
+    },
+    "guide": {
+      "welcome_title": "Willkommen",
+      "welcome_body": "Ah, ein neuer Herrscher, der sich um die Welten kümmern soll. Bist du bereit dafür?"
+    },
+    "swipe_hint": "Swipe",
+    "balance_hint": "Diese Entscheidung kann den Gleichgewichts-Balken bewegen."
   },
   "onesignal": {
     "popup": {
@@ -659,7 +665,8 @@
       "introGoal": "Halte das Gleichgewicht für {target} Entscheidungen, um deine erste Beförderung zu erhalten.",
       "nextGoal": "Halte das Gleichgewicht noch {remaining} Entscheidungen lang, um deine nächste Beförderung zu erreichen.",
       "promotionNow": "Glückwunsch. Du bist jetzt {rank}.",
-      "maxGoal": "Du hast den höchsten Rang dieses Universums erreicht. Jetzt beweise, dass du ihn halten kannst."
+      "maxGoal": "Du hast den höchsten Rang dieses Universums erreicht. Jetzt beweise, dass du ihn halten kannst.",
+      "nextButton": "Weiter"
     },
     "hell_king": {
       "ranks": {

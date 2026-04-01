@@ -4,8 +4,10 @@
   const FETCHED_KEY = "vuniverse_install_referrer_fetched_v1";
   const PENDING_INVITER_KEY = "vuniverse_install_referrer_pending_inviter_v1";
   const PENDING_RAW_KEY = "vuniverse_install_referrer_pending_raw_v1";
+  const LOCAL_INVITER_CREDITS_KEY = "vuniverse_referral_local_inviter_credits_v1";
+  const LOCAL_INVITER_LIMIT = 5;
 
-  const INVITE_BASE_URL = "https://ton-domaine.com/invite?code=";
+  const PLAY_URL_BASE = "https://play.google.com/store/apps/details?id=com.vboldstudio.vuniverse";
 
   function t(key, fallback) {
     try {
@@ -82,7 +84,8 @@
   }
 
   function buildInviteUrl(uid) {
-    return INVITE_BASE_URL + encodeURIComponent(uid);
+    const raw = "inviter_uuid=" + encodeURIComponent(uid);
+    return PLAY_URL_BASE + "&referrer=" + encodeURIComponent(raw);
   }
 
   async function shareInvite() {
@@ -163,6 +166,40 @@
     return false;
   }
 
+  function parseInviterUuidFromRawReferrer(rawReferrer) {
+    const raw = String(rawReferrer || "").trim();
+    if (!raw) return "";
+
+    try {
+      const params = new URLSearchParams(raw);
+      return String(params.get("inviter_uuid") || "").trim();
+    } catch (_) {
+      return "";
+    }
+  }
+
+  function getLocalReferralCreditsCount() {
+    const raw = localStorage.getItem(LOCAL_INVITER_CREDITS_KEY);
+    const n = Number(raw);
+    if (!Number.isFinite(n) || n < 0) return 0;
+    return Math.floor(n);
+  }
+
+  function setLocalReferralCreditsCount(value) {
+    const n = Math.max(0, Math.floor(Number(value) || 0));
+    localStorage.setItem(LOCAL_INVITER_CREDITS_KEY, String(n));
+  }
+
+  function incrementLocalReferralCreditsCount() {
+    const next = getLocalReferralCreditsCount() + 1;
+    setLocalReferralCreditsCount(next);
+    return next;
+  }
+
+  function hasReachedLocalReferralLimit() {
+    return getLocalReferralCreditsCount() >= LOCAL_INVITER_LIMIT;
+  }
+
   async function fetchReferrerOnceFromNative() {
     if (!isNativeAndroid()) return;
     if (localStorage.getItem(FETCHED_KEY) === "1") return;
@@ -175,10 +212,14 @@
 
       if (data?.canRetry) return;
 
-      localStorage.setItem(FETCHED_KEY, "1");
-
-      const inviterUuid = String(data?.inviterUuid || "").trim();
       const rawReferrer = String(data?.rawReferrer || "").trim();
+      let inviterUuid = String(data?.inviterUuid || "").trim();
+
+      if (!inviterUuid && rawReferrer) {
+        inviterUuid = parseInviterUuidFromRawReferrer(rawReferrer);
+      }
+
+      localStorage.setItem(FETCHED_KEY, "1");
 
       if (inviterUuid) {
         localStorage.setItem(PENDING_INVITER_KEY, inviterUuid);
@@ -191,6 +232,11 @@
   async function claimPendingReferral() {
     const pendingInviter = String(localStorage.getItem(PENDING_INVITER_KEY) || "").trim();
     if (!pendingInviter) return;
+    if (hasReachedLocalReferralLimit()) {
+      localStorage.removeItem(PENDING_INVITER_KEY);
+      localStorage.removeItem(PENDING_RAW_KEY);
+      return;
+    }
 
     const pendingRaw = String(localStorage.getItem(PENDING_RAW_KEY) || "").trim();
 
@@ -217,6 +263,7 @@
       } catch (_) {}
 
       if (data?.ok && (reason === "claimed" || reason === "already_processed")) {
+        incrementLocalReferralCreditsCount();
         localStorage.removeItem(PENDING_INVITER_KEY);
         localStorage.removeItem(PENDING_RAW_KEY);
 

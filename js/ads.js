@@ -29,11 +29,8 @@
   var SHOW_DIAG_PANEL = false;  // overlay debug (laisse false en prod)
 
   // ✅ Tes Ad Units (PROD)
-  var AD_UNIT_ID_INTERSTITIEL_PROD_ANDROID = "ca-app-pub-6837328794080297/8465879302";
-  var AD_UNIT_ID_REWARDED_PROD_ANDROID     = "ca-app-pub-6837328794080297/8202263221";
-
-  var AD_UNIT_ID_INTERSTITIEL_PROD_IOS = "TON_ID_INTERSTITIEL_IOS";
-  var AD_UNIT_ID_REWARDED_PROD_IOS     = "TON_ID_REWARDED_IOS";
+  var AD_UNIT_ID_INTERSTITIEL_PROD = "ca-app-pub-6837328794080297/8465879302";
+  var AD_UNIT_ID_REWARDED_PROD     = "ca-app-pub-6837328794080297/8202263221";
 
   // ✅ Ad Units TEST officiels Google (samples)
   // Interstitial:
@@ -57,24 +54,12 @@
   function isIOSPlatform() { return getPlatform() === "ios"; }
 
   function getInterstitialUnitId() {
-    if (__DEV_ADS__) {
-      return isIOSPlatform()
-        ? AD_UNIT_ID_INTERSTITIEL_TEST_IOS
-        : AD_UNIT_ID_INTERSTITIEL_TEST_ANDROID;
-    }
-    return isIOSPlatform()
-      ? AD_UNIT_ID_INTERSTITIEL_PROD_IOS
-      : AD_UNIT_ID_INTERSTITIEL_PROD_ANDROID;
+    if (__DEV_ADS__) return isIOSPlatform() ? AD_UNIT_ID_INTERSTITIEL_TEST_IOS : AD_UNIT_ID_INTERSTITIEL_TEST_ANDROID;
+    return AD_UNIT_ID_INTERSTITIEL_PROD;
   }
   function getRewardedUnitId() {
-    if (__DEV_ADS__) {
-      return isIOSPlatform()
-        ? AD_UNIT_ID_REWARDED_TEST_IOS
-        : AD_UNIT_ID_REWARDED_TEST_ANDROID;
-    }
-    return isIOSPlatform()
-      ? AD_UNIT_ID_REWARDED_PROD_IOS
-      : AD_UNIT_ID_REWARDED_PROD_ANDROID;
+    if (__DEV_ADS__) return isIOSPlatform() ? AD_UNIT_ID_REWARDED_TEST_IOS : AD_UNIT_ID_REWARDED_TEST_ANDROID;
+    return AD_UNIT_ID_REWARDED_PROD;
   }
 
   // ✅ Règles pubs globales
@@ -95,6 +80,9 @@
   var isRewardShowing = false;     // TRUE uniquement pendant rewarded
   var currentAdKind = null;        // "interstitial" | "rewarded" | null
   var __showLock = false;          // anti double show best-effort
+
+  var rewardedReady = false;
+  var rewardedLoading = null;
 
   window.__ads_active = false;     // flag global anti-back/anti-overlays côté app
   var _gameRewardSeenThisRun = false;
@@ -478,10 +466,17 @@
 
         ["onRewardedVideoAdShowed", function () {
           window.__ads_active = true;
+          rewardedReady = false;
           diag("Rewarded showed");
         }],
         ["onRewardedVideoAdDismissed", function () {
           diag("Rewarded dismissed");
+          rewardedReady = false;
+
+          setTimeout(function () {
+            preloadRewardedAd().catch(function () {});
+          }, 300);
+
           if (currentAdKind === "rewarded") {
             isRewardShowing = false;
             currentAdKind = null;
@@ -491,6 +486,12 @@
         }],
         ["onRewardedVideoAdFailedToShow", function () {
           diag("Rewarded failed to show");
+          rewardedReady = false;
+
+          setTimeout(function () {
+            preloadRewardedAd().catch(function () {});
+          }, 800);
+
           if (currentAdKind === "rewarded") {
             isRewardShowing = false;
             currentAdKind = null;
@@ -530,8 +531,45 @@
       await refreshGoogleConsentInfo().catch(function () {});
 
       registerAdEventsOnce();
+
+      setTimeout(function () {
+        preloadRewardedAd().catch(function () {});
+      }, 700);
     } catch (_) {}
   })();
+
+  async function preloadRewardedAd() {
+    try {
+      if (!isNative()) return false;
+      if (!AdMob || !AdMob.prepareRewardVideoAd) return false;
+      if (!(await canRequestAdsNowWithConsent())) return false;
+
+      if (rewardedReady) return true;
+      if (rewardedLoading) return rewardedLoading;
+
+      rewardedLoading = (async function () {
+        try {
+          await AdMob.prepareRewardVideoAd({
+            adId: getRewardedUnitId(),
+            requestOptions: buildAdMobRequestOptions()
+          });
+          rewardedReady = true;
+          return true;
+        } catch (_) {
+          rewardedReady = false;
+          return false;
+        } finally {
+          rewardedLoading = null;
+        }
+      })();
+
+      return rewardedLoading;
+    } catch (_) {
+      rewardedLoading = null;
+      rewardedReady = false;
+      return false;
+    }
+  }
 
   // =============================
   // Helpers "wait" (dismissed / rewarded / app return)
@@ -739,13 +777,18 @@
       __showLock = true;
       currentAdKind = "rewarded";
 
-      await AdMob.prepareRewardVideoAd({
-        adId: getRewardedUnitId(),
-        requestOptions: buildAdMobRequestOptions()
-      });
+      if (!rewardedReady) {
+        var okReward = await preloadRewardedAd();
+        if (!okReward) {
+          __showLock = false;
+          currentAdKind = null;
+          return false;
+        }
+      }
 
       preShowAdCleanup();
       isRewardShowing = true;
+      rewardedReady = false;
 
       const rewardedP = waitRewardedOnce(30000);
       const dismissedP = waitDismissedOnce("rewarded");
@@ -760,6 +803,11 @@
         isRewardShowing = false;
         currentAdKind = null;
         __showLock = false;
+
+        try {
+          preloadRewardedAd().catch(function () {});
+        } catch (_) {}
+
         return false;
       }
 
@@ -808,6 +856,11 @@
       isRewardShowing = false;
       currentAdKind = null;
       __showLock = false;
+
+      try {
+        preloadRewardedAd().catch(function () {});
+      } catch (_) {}
+
       return false;
     }
   }
@@ -1016,6 +1069,7 @@
   window.VRAds.showInterstitialAd = showInterstitialAd;
   window.VRAds.showRewardedAd = showRewardedAd;
   window.VRAds.incrementActionsCount = incrementActionsCount;
+  window.VRAds.markAction = incrementActionsCount;
   window.VRAds.getActionsCount = getActionsCount;
   window.VRAds.resetActionsCount = resetActionsCount;
   window.VRAds.canAutoShowInterstitial = canAutoShowInterstitial;

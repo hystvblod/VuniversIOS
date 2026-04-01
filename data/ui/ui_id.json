@@ -622,7 +622,13 @@
       "name_err_taken": "Nama ini sudah dipakai.",
       "name_err_generic": "Tidak dapat menyimpan nama.",
       "name_working": "Menyimpan..."
-    }
+    },
+    "guide": {
+      "welcome_title": "Selamat datang",
+      "welcome_body": "Ah, pemimpin baru untuk mengurus dunia-dunia. Siap melakukannya?"
+    },
+    "swipe_hint": "Swipe",
+    "balance_hint": "Pilihan ini bisa menggerakkan bar Keseimbangan."
   },
   "onesignal": {
     "popup": {
@@ -654,13 +660,103 @@
     }
   },
   "guideMentor": {
-    "common": {"introGoal": "Pertahankan keseimbangan selama {target} pilihan untuk mendapatkan promosi pertamamu.","nextGoal": "Pertahankan keseimbangan selama {remaining} pilihan lagi untuk mencapai promosi berikutnya.","promotionNow": "Selamat. Sekarang kamu adalah {rank}.","maxGoal": "Kamu telah mencapai peringkat tertinggi di semesta ini. Sekarang buktikan bahwa kamu bisa mempertahankannya."},
-    "hell_king": {"ranks": {"wood": "jiwa terkutuk","bronze": "iblis tingkat pertama","silver": "penguasa neraka","gold": "pangeran neraka","crystal": "raja neraka"},"intro": "Selamat datang, jiwa yang tersesat. Di Neraka, setiap keputusan meninggalkan jejak.","wood": "Kamu tidak lagi berkeliaran tanpa tujuan. Sekarang kamu melayani tatanan neraka.","bronze": "Kamu telah mendapatkan tempatmu di antara para pelayan Neraka. Jangan goyah.","silver": "Pengaruhmu semakin besar. Iblis-iblis rendahan mulai mematuhimu.","gold": "Api kini lebih mudah tunduk pada kehendakmu. Kini kamu ditakuti.","crystal": "Kamu berdiri di puncak. Kuasai Neraka seperti raja sejati."},
-    "heaven_king": {"ranks": {"wood": "jiwa bercahaya","bronze": "penjaga surgawi","silver": "malaikat tingkat tinggi","gold": "malaikat agung","crystal": "raja surga"},"intro": "Selamat datang, jiwa yang murni. Di sini, setiap pilihan harus menjaga harmoni Surga.","wood": "Kamu telah melangkah pertama kali ke dalam cahaya. Tetaplah di jalur ini.","bronze": "Peranmu kini melampaui sekadar utusan biasa. Surga mengawasimu.","silver": "Kamu telah menjadi penjaga Surga yang sejati. Tanggung jawabmu semakin besar.","gold": "Wibawamu bersinar seperti malaikat agung. Teruslah mengangkat semesta ini lebih tinggi.","crystal": "Kamu telah mencapai peringkat tertinggi. Pimpin Surga dengan kebijaksanaan."},
-    "vampire_lord": {"ranks": {"wood": "inisiasi malam","bronze": "vampir bangsawan","silver": "tuan vampir","gold": "penguasa bayangan","crystal": "tuan vampir tertinggi"},"intro": "Selamat datang di malam hari. Setiap pilihan akan memperkuat atau melemahkan kenaikanmu.","wood": "Darah sudah memanggilmu. Kamu tidak lagi sepenuhnya manusia.","bronze": "Kamu telah memasuki malam yang sesungguhnya. Namamu mulai menyebar.","silver": "Sekarang kamu adalah vampir sejati yang sempurna. Bayangan mengenalimu.","gold": "Kehadiranmu menimbulkan ketakutan. Hanya sedikit yang masih berani menantangmu.","crystal": "Kamu telah menjadi penguasa kegelapan. Kuasai malam."},
-    "mega_corp_ceo": {"ranks": {"wood": "karyawan","bronze": "manajer","silver": "direktur","gold": "direktur eksekutif","crystal": "CEO"},"intro": "Selamat datang, magang. Di sini, setiap keputusan penting dan setiap kesalahan mahal harganya.","wood": "Bagus sekali. Kamu bukan lagi sekadar anak magang. Sekarang kamu adalah karyawan.","bronze": "Kerjamu membuahkan hasil. Kini kamu memegang tanggung jawab nyata.","silver": "Sekarang kamu memimpin orang lain. Hasil kerjamu berbicara untukmu.","gold": "Kamu telah mencapai tingkat di mana perusahaan benar-benar bergantung pada keputusanmu.","crystal": "Sekarang kamu adalah CEO. Menjaga perusahaan tetap di puncak ada di tanganmu."},
-    "western_president": {"ranks": {"wood": "penasihat","bronze": "wali kota","silver": "gubernur","gold": "kepala negara","crystal": "presiden"},"intro": "Selamat datang, penasihat. Di Barat, keseimbangan kekuasaan tidak pernah bertahan lama.","wood": "Bobot politikmu bertambah. Orang-orang mulai mendengarkanmu.","bronze": "Kamu tidak lagi hanya mengikuti arus. Sekarang kamu ikut memimpinnya.","silver": "Sekarang kamu adalah gubernur. Pilihanmu sudah membentuk wilayah ini.","gold": "Sekarang kamu memerintah dalam skala yang lebih besar. Negara menaruh harapan besar padamu.","crystal": "Sekarang kamu adalah presiden. Menyatukan bangsa ada di tanganmu."},
-    "new_world_explorer": {"ranks": {"wood": "pelaut","bronze": "pengintai","silver": "penjelajah","gold": "komandan","crystal": "wakil Mahkota"},"intro": "Selamat datang, pelaut. Dunia Baru tidak memaafkan keraguan maupun tindakan berlebihan.","wood": "Kamu telah meninggalkan peran sederhana sebagai awak kapal. Kamu mengamati dan belajar.","bronze": "Kamu melangkah lebih jauh daripada yang lain. Pandanganmu menjadi semakin berharga.","silver": "Sekarang kamu adalah penjelajah sejati. Orang-orang mengandalkan penilaianmu.","gold": "Sekarang kamu memimpin ekspedisi. Setiap pilihan dapat mengubah nasib perjalanan ini.","crystal": "Kamu mewakili Mahkota. Dunia yang ditemukan kini akan berbicara atas namamu."}
+    "common": {
+      "introGoal": "Pertahankan keseimbangan selama {target} pilihan untuk mendapatkan promosi pertamamu.",
+      "nextGoal": "Pertahankan keseimbangan selama {remaining} pilihan lagi untuk mencapai promosi berikutnya.",
+      "promotionNow": "Selamat. Sekarang kamu adalah {rank}.",
+      "maxGoal": "Kamu telah mencapai peringkat tertinggi di semesta ini. Sekarang buktikan bahwa kamu bisa mempertahankannya.",
+      "nextButton": "Lanjut"
+    },
+    "hell_king": {
+      "ranks": {
+        "wood": "jiwa terkutuk",
+        "bronze": "iblis tingkat pertama",
+        "silver": "penguasa neraka",
+        "gold": "pangeran neraka",
+        "crystal": "raja neraka"
+      },
+      "intro": "Selamat datang, jiwa yang tersesat. Di Neraka, setiap keputusan meninggalkan jejak.",
+      "wood": "Kamu tidak lagi berkeliaran tanpa tujuan. Sekarang kamu melayani tatanan neraka.",
+      "bronze": "Kamu telah mendapatkan tempatmu di antara para pelayan Neraka. Jangan goyah.",
+      "silver": "Pengaruhmu semakin besar. Iblis-iblis rendahan mulai mematuhimu.",
+      "gold": "Api kini lebih mudah tunduk pada kehendakmu. Kini kamu ditakuti.",
+      "crystal": "Kamu berdiri di puncak. Kuasai Neraka seperti raja sejati."
+    },
+    "heaven_king": {
+      "ranks": {
+        "wood": "jiwa bercahaya",
+        "bronze": "penjaga surgawi",
+        "silver": "malaikat tingkat tinggi",
+        "gold": "malaikat agung",
+        "crystal": "raja surga"
+      },
+      "intro": "Selamat datang, jiwa yang murni. Di sini, setiap pilihan harus menjaga harmoni Surga.",
+      "wood": "Kamu telah melangkah pertama kali ke dalam cahaya. Tetaplah di jalur ini.",
+      "bronze": "Peranmu kini melampaui sekadar utusan biasa. Surga mengawasimu.",
+      "silver": "Kamu telah menjadi penjaga Surga yang sejati. Tanggung jawabmu semakin besar.",
+      "gold": "Wibawamu bersinar seperti malaikat agung. Teruslah mengangkat semesta ini lebih tinggi.",
+      "crystal": "Kamu telah mencapai peringkat tertinggi. Pimpin Surga dengan kebijaksanaan."
+    },
+    "vampire_lord": {
+      "ranks": {
+        "wood": "inisiasi malam",
+        "bronze": "vampir bangsawan",
+        "silver": "tuan vampir",
+        "gold": "penguasa bayangan",
+        "crystal": "tuan vampir tertinggi"
+      },
+      "intro": "Selamat datang di malam hari. Setiap pilihan akan memperkuat atau melemahkan kenaikanmu.",
+      "wood": "Darah sudah memanggilmu. Kamu tidak lagi sepenuhnya manusia.",
+      "bronze": "Kamu telah memasuki malam yang sesungguhnya. Namamu mulai menyebar.",
+      "silver": "Sekarang kamu adalah vampir sejati yang sempurna. Bayangan mengenalimu.",
+      "gold": "Kehadiranmu menimbulkan ketakutan. Hanya sedikit yang masih berani menantangmu.",
+      "crystal": "Kamu telah menjadi penguasa kegelapan. Kuasai malam."
+    },
+    "mega_corp_ceo": {
+      "ranks": {
+        "wood": "karyawan",
+        "bronze": "manajer",
+        "silver": "direktur",
+        "gold": "direktur eksekutif",
+        "crystal": "CEO"
+      },
+      "intro": "Selamat datang, magang. Di sini, setiap keputusan penting dan setiap kesalahan mahal harganya.",
+      "wood": "Bagus sekali. Kamu bukan lagi sekadar anak magang. Sekarang kamu adalah karyawan.",
+      "bronze": "Kerjamu membuahkan hasil. Kini kamu memegang tanggung jawab nyata.",
+      "silver": "Sekarang kamu memimpin orang lain. Hasil kerjamu berbicara untukmu.",
+      "gold": "Kamu telah mencapai tingkat di mana perusahaan benar-benar bergantung pada keputusanmu.",
+      "crystal": "Sekarang kamu adalah CEO. Menjaga perusahaan tetap di puncak ada di tanganmu."
+    },
+    "western_president": {
+      "ranks": {
+        "wood": "penasihat",
+        "bronze": "wali kota",
+        "silver": "gubernur",
+        "gold": "kepala negara",
+        "crystal": "presiden"
+      },
+      "intro": "Selamat datang, penasihat. Di Barat, keseimbangan kekuasaan tidak pernah bertahan lama.",
+      "wood": "Bobot politikmu bertambah. Orang-orang mulai mendengarkanmu.",
+      "bronze": "Kamu tidak lagi hanya mengikuti arus. Sekarang kamu ikut memimpinnya.",
+      "silver": "Sekarang kamu adalah gubernur. Pilihanmu sudah membentuk wilayah ini.",
+      "gold": "Sekarang kamu memerintah dalam skala yang lebih besar. Negara menaruh harapan besar padamu.",
+      "crystal": "Sekarang kamu adalah presiden. Menyatukan bangsa ada di tanganmu."
+    },
+    "new_world_explorer": {
+      "ranks": {
+        "wood": "pelaut",
+        "bronze": "pengintai",
+        "silver": "penjelajah",
+        "gold": "komandan",
+        "crystal": "wakil Mahkota"
+      },
+      "intro": "Selamat datang, pelaut. Dunia Baru tidak memaafkan keraguan maupun tindakan berlebihan.",
+      "wood": "Kamu telah meninggalkan peran sederhana sebagai awak kapal. Kamu mengamati dan belajar.",
+      "bronze": "Kamu melangkah lebih jauh daripada yang lain. Pandanganmu menjadi semakin berharga.",
+      "silver": "Sekarang kamu adalah penjelajah sejati. Orang-orang mengandalkan penilaianmu.",
+      "gold": "Sekarang kamu memimpin ekspedisi. Setiap pilihan dapat mengubah nasib perjalanan ini.",
+      "crystal": "Kamu mewakili Mahkota. Dunia yang ditemukan kini akan berbicara atas namamu."
+    }
   },
   "jobs": {
     "hell_king": {
