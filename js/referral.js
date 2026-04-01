@@ -359,7 +359,6 @@
 
       btn.dataset.referralBound = "1";
       btn.addEventListener("click", async () => {
-        await showAndroidOnlyInvitePopup();
         await shareInvite();
       });
     });
