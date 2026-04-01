@@ -286,6 +286,23 @@
 
   function updateDisplayedPrices() {
     try {
+      document.querySelectorAll(".vr-iap-button[data-product-id]").forEach((btn) => {
+        const id = btn.getAttribute("data-product-id");
+        const label = btn.querySelector(".vr-iap-label");
+        if (!label) return;
+
+        const price = PRICES_BY_ID[id];
+
+        if (price) {
+          label.textContent = String(price);
+          btn.disabled = false;
+          btn.removeAttribute("aria-busy");
+        } else {
+          label.textContent = t("shop.loading", "Chargement...");
+          btn.setAttribute("aria-busy", "true");
+        }
+      });
+
       document.querySelectorAll("[data-price-for]").forEach((node) => {
         const id = node.getAttribute("data-price-for");
         const price = PRICES_BY_ID[id];
@@ -703,7 +720,7 @@
       }, { once: true });
 
       setTimeout(() => {
-        if (window._cordovaReady) fire();
+        fire();
       }, 1200);
 
       setTimeout(() => {
