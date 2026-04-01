@@ -9,7 +9,10 @@
   const warn = (...a) => { if (DEBUG) console.warn(TAG, ...a); };
 
   function $(id) { return document.getElementById(id); }
-  function setText(id, txt) { const el = $(id); if (el) el.textContent = String(txt || ""); }
+  function setText(id, txt) {
+    const el = $(id);
+    if (el) el.textContent = String(txt || "");
+  }
 
   function t(key, fallback) {
     try {
@@ -20,12 +23,12 @@
     return fallback;
   }
 
- const CURRENT_UNLOCKABLE_UNIVERSES = [
-  "heaven_king",
-  "western_president",
-  "mega_corp_ceo",
-  "new_world_explorer"
-];
+  const CURRENT_UNLOCKABLE_UNIVERSES = [
+    "heaven_king",
+    "western_president",
+    "mega_corp_ceo",
+    "new_world_explorer"
+  ];
 
   function universeSku(universeId) {
     return "vuniverse_universe_" + String(universeId || "").trim().toLowerCase();
@@ -49,9 +52,10 @@
 
   const PENDING_KEY  = "vuniverse_iap_pending_v1";
   const CREDITED_KEY = "vuniverse_iap_credited_v1";
+
   let STORE_READY = false;
 
-  // ✅ Garde-fous anti double init / double binding
+  // Garde-fous anti double init / double binding
   let START_RUNNING = false;
   let STORE_REGISTERED = false;
   let STORE_EVENTS_WIRED = false;
@@ -60,40 +64,56 @@
   let TOP_NAV_WIRED = false;
   let SHOP_BUTTONS_WIRED = false;
 
-  const readJson  = (k, d=[]) => { try { return JSON.parse(localStorage.getItem(k)||"null") ?? d; } catch { return d; } };
-  const writeJson = (k, v)    => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+  const readJson = (k, d = []) => {
+    try {
+      return JSON.parse(localStorage.getItem(k) || "null") ?? d;
+    } catch {
+      return d;
+    }
+  };
+
+  const writeJson = (k, v) => {
+    try {
+      localStorage.setItem(k, JSON.stringify(v));
+    } catch {}
+  };
 
   function addPending(txId, productId) {
     if (!txId) return;
-    const L = readJson(PENDING_KEY, []);
-    if (!L.find(x => x.txId === txId)) {
-      L.push({ txId, productId, ts: Date.now() });
-      writeJson(PENDING_KEY, L.slice(-80));
+    const list = readJson(PENDING_KEY, []);
+    if (!list.find(x => x.txId === txId)) {
+      list.push({ txId, productId, ts: Date.now() });
+      writeJson(PENDING_KEY, list.slice(-80));
     }
   }
 
   function removePending(txId) {
     if (!txId) return;
-    writeJson(PENDING_KEY, readJson(PENDING_KEY, []).filter(x => x.txId !== txId));
+    writeJson(
+      PENDING_KEY,
+      readJson(PENDING_KEY, []).filter(x => x.txId !== txId)
+    );
   }
 
   function isCredited(txId) {
     if (!txId) return false;
-    const L = readJson(CREDITED_KEY, []);
-    return L.includes(txId);
+    const list = readJson(CREDITED_KEY, []);
+    return list.includes(txId);
   }
 
   function markCredited(txId) {
     if (!txId) return;
-    const L = readJson(CREDITED_KEY, []);
-    if (!L.includes(txId)) {
-      L.push(txId);
-      writeJson(CREDITED_KEY, L.slice(-250));
+    const list = readJson(CREDITED_KEY, []);
+    if (!list.includes(txId)) {
+      list.push(txId);
+      writeJson(CREDITED_KEY, list.slice(-250));
     }
   }
 
   function emit(name, detail) {
-    try { window.dispatchEvent(new CustomEvent(name, { detail: detail || {} })); } catch (_) {}
+    try {
+      window.dispatchEvent(new CustomEvent(name, { detail: detail || {} }));
+    } catch (_) {}
   }
 
   function bindClickOnce(el, marker, handler) {
@@ -104,16 +124,37 @@
     el.setAttribute(attr, "1");
   }
 
+  function getPlatform() {
+    try {
+      return window.CdvPurchase?.Platform?.APPLE_APPSTORE || null;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  function getProductTypeApi() {
+    try {
+      return window.CdvPurchase?.ProductType || null;
+    } catch (_) {
+      return null;
+    }
+  }
+
   window.VRIAP = window.VRIAP || {};
-  window.VRIAP.isAvailable = function () { return !!window.CdvPurchase?.store; };
-  window.VRIAP.getPrice = function (productId) { return PRICES_BY_ID[String(productId || "")] || ""; };
-  window.VRIAP.order = function (productId) { return safeOrder(productId); };
+  window.VRIAP.isAvailable = function () {
+    return !!window.CdvPurchase?.store;
+  };
+  window.VRIAP.getPrice = function (productId) {
+    return PRICES_BY_ID[String(productId || "")] || "";
+  };
+  window.VRIAP.order = function (productId) {
+    return safeOrder(productId);
+  };
 
   function sbReady() {
     return !!(window.sb && window.sb.auth);
   }
 
-  // ✅ PATCH: session locale d’abord (getSession), fallback getUser ensuite
   async function ensureAuthStrict() {
     try {
       try { await window.vrWaitBootstrap?.(); } catch (_) {}
@@ -134,7 +175,6 @@
         const r = await sb.auth.getUser();
         return r?.data?.user?.id || null;
       } catch (_) {}
-
     } catch (_) {}
 
     return null;
@@ -149,6 +189,7 @@
         noAds = !!window.VUserData?.hasNoAds?.();
       }
     } catch (_) {}
+
     setText(
       "noads-status",
       noAds
@@ -274,6 +315,7 @@
     if (!pid) {
       const rec = tx?.transaction?.receipt || tx?.receipt;
       const r = typeof rec === "string" ? parseMaybeJson(rec) : rec;
+
       if (Array.isArray(r?.productIds) && r.productIds[0]) pid = r.productIds[0];
       else if (r?.productId) pid = r.productId;
       else if (r?.payload) {
@@ -281,6 +323,7 @@
         pid = p?.productId || (Array.isArray(p?.productIds) && p.productIds[0]) || pid;
       }
     }
+
     return pid || null;
   }
 
@@ -300,7 +343,9 @@
 
   function getStoreApi() {
     const S = window.CdvPurchase?.store;
-    return { S };
+    const PLATFORM = getPlatform();
+    const PT = getProductTypeApi();
+    return { S, PLATFORM, PT };
   }
 
   async function replayLocalPending() {
@@ -309,10 +354,12 @@
 
     for (const it of pendings) {
       if (!it?.txId || !it?.productId) continue;
+
       if (isCredited(it.txId)) {
         removePending(it.txId);
         continue;
       }
+
       try {
         await creditByProductClientSide(it.productId, it.txId);
         removePending(it.txId);
@@ -324,8 +371,8 @@
   }
 
   async function start() {
-    const { S } = getStoreApi();
-    if (!S) return;
+    const { S, PLATFORM, PT } = getStoreApi();
+    if (!S || !PLATFORM || !PT) return;
 
     if (START_RUNNING) {
       log("start skipped: already running");
@@ -339,21 +386,19 @@
       }
 
       try {
-        const P = window.CdvPurchase?.ProductType;
-
         if (!STORE_REGISTERED) {
-          S.register({ id: "vuniverse_no_ads",     type: P.NON_CONSUMABLE, platform: S.Platform.GOOGLE_PLAY });
-          S.register({ id: "vuniverse_diamond",    type: P.NON_CONSUMABLE, platform: S.Platform.GOOGLE_PLAY });
-          S.register({ id: "vuniverse_coins_1200", type: P.CONSUMABLE,     platform: S.Platform.GOOGLE_PLAY });
-          S.register({ id: "vuniverse_coins_3000", type: P.CONSUMABLE,     platform: S.Platform.GOOGLE_PLAY });
-          S.register({ id: "vuniverse_jetons_12",  type: P.CONSUMABLE,     platform: S.Platform.GOOGLE_PLAY });
-          S.register({ id: "vuniverse_jetons_30",  type: P.CONSUMABLE,     platform: S.Platform.GOOGLE_PLAY });
+          S.register({ id: "vuniverse_no_ads",     type: PT.NON_CONSUMABLE, platform: PLATFORM });
+          S.register({ id: "vuniverse_diamond",    type: PT.NON_CONSUMABLE, platform: PLATFORM });
+          S.register({ id: "vuniverse_coins_1200", type: PT.CONSUMABLE,     platform: PLATFORM });
+          S.register({ id: "vuniverse_coins_3000", type: PT.CONSUMABLE,     platform: PLATFORM });
+          S.register({ id: "vuniverse_jetons_12",  type: PT.CONSUMABLE,     platform: PLATFORM });
+          S.register({ id: "vuniverse_jetons_30",  type: PT.CONSUMABLE,     platform: PLATFORM });
 
           CURRENT_UNLOCKABLE_UNIVERSES.forEach((universeId) => {
             S.register({
               id: universeSku(universeId),
-              type: P.NON_CONSUMABLE,
-              platform: S.Platform.GOOGLE_PLAY
+              type: PT.NON_CONSUMABLE,
+              platform: PLATFORM
             });
           });
 
@@ -372,7 +417,10 @@
               if (id && price) {
                 PRICES_BY_ID[id] = price;
                 updateDisplayedPrices();
-                emit("vr:iap_price", { productId: String(id), price: String(price) });
+                emit("vr:iap_price", {
+                  productId: String(id),
+                  price: String(price)
+                });
               }
             } catch (_) {}
           })
@@ -430,7 +478,7 @@
 
       if (!STORE_INITIALIZED) {
         try {
-          await S.initialize([S.Platform.GOOGLE_PLAY]);
+          await S.initialize([PLATFORM]);
           STORE_INITIALIZED = true;
           STORE_READY = true;
         } catch (e) {
@@ -549,8 +597,8 @@
       });
     } catch (_) {}
 
-    const { S } = getStoreApi();
-    if (!S) {
+    const { S, PLATFORM } = getStoreApi();
+    if (!S || !PLATFORM) {
       setText("shop-status", t("shop.status.iap_unavailable_web", "⚠️ IAP indisponible sur le web."));
       emit("vr:iap_unavailable", { productId: String(productId || "") });
       return;
@@ -561,21 +609,28 @@
     }
 
     if (!STORE_READY) {
-      try { await S.update(); STORE_READY = true; } catch (_) {}
+      try {
+        await S.update();
+        STORE_READY = true;
+      } catch (_) {}
     }
 
-    const p = S.get ? S.get(productId, S.Platform.GOOGLE_PLAY) : (S.products?.byId?.[productId]);
+    const p = S.get ? S.get(productId, PLATFORM) : null;
     if (!p) {
       setText(
         "shop-status",
         t("shop.status.product_not_found_prefix", "⚠️ Produit introuvable : ") + productId
       );
-      emit("vr:iap_order_failed", { productId: String(productId || ""), error: "product_not_found" });
+      emit("vr:iap_order_failed", {
+        productId: String(productId || ""),
+        error: "product_not_found"
+      });
       return;
     }
 
     const offer = p.getOffer && p.getOffer();
     let err = null;
+
     if (offer?.order) err = await offer.order();
     else if (p?.order) err = await p.order();
 
@@ -594,10 +649,14 @@
           error: errorText
         });
       } catch (_) {}
+
+      setText("shop-status", "❌ " + errorText);
+      return;
     }
+
+    setText("shop-status", t("shop.status.pending", "…"));
   }
 
-  // ✅ Boutons robustes : priorités data-product-id/data-reward-placement, sinon fallback IDs actuels
   function getProductIdFromButton(btn) {
     try {
       const pid = btn?.getAttribute?.("data-product-id");
@@ -620,7 +679,6 @@
     if (SHOP_BUTTONS_WIRED) return;
     SHOP_BUTTONS_WIRED = true;
 
-    // 1) wiring générique via data-product-id
     try {
       document.querySelectorAll("[data-product-id]").forEach((btn) => {
         bindClickOnce(btn, "order", () => {
@@ -631,7 +689,6 @@
       });
     } catch (_) {}
 
-    // 2) wiring générique rewarded via data-reward-placement
     try {
       document.querySelectorAll("[data-reward-placement]").forEach((btn) => {
         bindClickOnce(btn, "reward", () => {
@@ -642,7 +699,6 @@
       });
     } catch (_) {}
 
-    // 3) fallback : tes IDs actuels
     const bRJ = $("btn-reward-jeton");
     const bRC = $("btn-reward-coins");
     const bNoAds = $("btn-buy-noads");
@@ -669,19 +725,42 @@
 
   window.restorePurchases = async function () {
     try {
-      await replayLocalPending();
       const { S } = getStoreApi();
+
+      await replayLocalPending();
+
+      if (S?.restorePurchases) {
+        const err = await S.restorePurchases();
+        if (err?.isError) {
+          warn("restorePurchases failed", err.code, err.message);
+          setText("shop-status", "❌ " + String(err.message || err.code || "restore_error"));
+          return false;
+        }
+      }
+
       if (S?.update) await S.update();
-    } catch (_) {}
+
+      setText("shop-status", t("shop.status.purchase_restored", "✅ Achats restaurés"));
+      return true;
+    } catch (e) {
+      warn("restorePurchases exception", e?.message || e);
+      setText("shop-status", t("shop.status.purchase_not_credited", "❌ Achat non crédité"));
+      return false;
+    }
   };
 
   window.safeOrder = safeOrder;
   window.buyProduct = safeOrder;
 
   function startWhenReady() {
-    try { wireTopNav(); wireShopButtons(); } catch (_) {}
+    try {
+      wireTopNav();
+      wireShopButtons();
+    } catch (_) {}
 
-    const fire = () => { start().catch((e) => warn("start failed", e?.message || e)); };
+    const fire = () => {
+      start().catch((e) => warn("start failed", e?.message || e));
+    };
 
     const already =
       (window.cordova && (
