@@ -1,14 +1,18 @@
 {
   "intro_001": {
-    "title": "",
-    "body": "",
-    "choices": {}
+    "title": "Willkommen",
+    "body": "Ah, ein neuer Herrscher, der sich um die Welten kümmern soll. Bist du bereit dafür?",
+    "choices": {
+      "A": "Ja",
+      "B": "Los geht's!"
+    }
   },
   "intro_002": {
     "title": "Die Balken",
-    "body": "Wische diese Karte, um fortzufahren. Beim Kippen kannst du die Auswirkungen auf die Balken sehen.",
+    "body": "Jede deiner Entscheidungen wirkt sich auf die Balken oben aus. Wische diese Karte, um zu sehen, dass eine einzige Entscheidung alles verändern kann.",
     "choices": {
-      "A": "Weiter"
+      "A": "Weiter",
+      "B": "Los geht's!"
     }
   },
   "intro_003": {

@@ -1809,6 +1809,10 @@ body.vr-peek-mode .vr-gauge-preview{
               cardsSinceRoll: asInt(this._cardsSinceEventRoll, 0),
               seen: Array.isArray(this._seenEvents) ? deepClone(this._seenEvents) : []
             },
+            ui: {
+              coins: asInt(this._uiCoins, 0),
+              tokens: asInt(this._uiTokens, 0)
+            },
             pending: {
               runBonusCoins: asInt(this._pendingRunBonusCoins, 0),
               endReward: asInt(this._pendingEndReward, 0),
@@ -1909,6 +1913,10 @@ body.vr-peek-mode .vr-gauge-preview{
         this._cardsSinceEventRoll = asInt(evs.cardsSinceRoll, 0);
         this._seenEvents = Array.isArray(evs.seen) ? deepClone(evs.seen) : [];
 
+        const ui = e.ui || {};
+        if (Number.isFinite(Number(ui.coins))) this._uiCoins = asInt(ui.coins, this._uiCoins);
+        if (Number.isFinite(Number(ui.tokens))) this._uiTokens = asInt(ui.tokens, this._uiTokens);
+
         const pending = e.pending || {};
         this._pendingRunBonusCoins = asInt(pending.runBonusCoins, 0);
         this._pendingEndReward = asInt(pending.endReward, 0);
@@ -2008,18 +2016,12 @@ body.vr-peek-mode .vr-gauge-preview{
       this._rebuildEventIndex();
 
       try {
-        const me = await window.VRProfile?.getMe?.(4000);
-
-        if (me) {
-          this._uiCoins = window.VRProfile._n(me.vcoins);
-          this._uiTokens = window.VRProfile._n(me.jetons);
-        } else {
-          this._uiCoins = Number(window.VUserData?.getVcoins?.() || 0);
-          this._uiTokens = Number(window.VUserData?.getJetons?.() || 0);
-        }
+        const me = await window.VRProfile?.getMe?.(0);
+        this._uiCoins = window.VRProfile._n(me?.vcoins);
+        this._uiTokens = window.VRProfile._n(me?.jetons);
       } catch (_) {
-        this._uiCoins = Number(window.VUserData?.getVcoins?.() || 0);
-        this._uiTokens = Number(window.VUserData?.getJetons?.() || 0);
+        this._uiCoins = 0;
+        this._uiTokens = 0;
       }
 
       if (String(universeId || "").trim() === "intro") {
@@ -2033,14 +2035,6 @@ body.vr-peek-mode .vr-gauge-preview{
 
       const restored = this._restoreFromSaveIfAny();
       this._rebuildEventIndex();
-
-      await this._refreshUIBalancesSoft();
-      window.VRUIBinding.updateMeta(
-        getDynastyName(),
-        getYearLabel(),
-        this._uiCoins,
-        this._uiTokens
-      );
 
       if (restored) {
         try { window.VRCrossPromo?.notifySessionStart?.(); } catch (_) {}
@@ -2070,18 +2064,12 @@ body.vr-peek-mode .vr-gauge-preview{
       if (String(this.universeId || "").trim() === "intro") return;
 
       try {
-        const me = await window.VRProfile?.getMe?.(4000);
+        const me = await window.VRProfile?.getMe?.(800);
         if (me) {
           this._uiCoins = window.VRProfile._n(me.vcoins);
           this._uiTokens = window.VRProfile._n(me.jetons);
-        } else {
-          this._uiCoins = Number(window.VUserData?.getVcoins?.() || this._uiCoins || 0);
-          this._uiTokens = Number(window.VUserData?.getJetons?.() || this._uiTokens || 0);
         }
-      } catch (_) {
-        this._uiCoins = Number(window.VUserData?.getVcoins?.() || this._uiCoins || 0);
-        this._uiTokens = Number(window.VUserData?.getJetons?.() || this._uiTokens || 0);
-      }
+      } catch (_) {}
     },
 
     _resetGaugesToInitial() {
@@ -2984,11 +2972,7 @@ body.vr-peek-mode .vr-gauge-preview{
     const body = bodyParts.join("\n\n");
 
     try {
-      await window.VRGuideMentor?.showEvent?.(
-        this.universeId || window.VRGame?.currentUniverse || "",
-        title,
-        body
-      );
+      await window.VREventOverlay?.showEvent?.(title, body);
     } catch (_) {}
 
     this._eventShowing = false;
@@ -3715,9 +3699,6 @@ body.vr-peek-mode .vr-gauge-preview{
   let enabled = false;
   let currentCardId = "";
   let finishing = false;
-  let introGuidePromise = null;
-  let introHintTimer1 = 0;
-  let introHintTimer2 = 0;
 
   function isIntroUniverse() {
     if (!enabled) return false;
@@ -3761,78 +3742,6 @@ body.vr-peek-mode .vr-gauge-preview{
         .vr-intro-dim{ opacity: .28 !important; pointer-events: none !important; }
         .vr-intro-hide{ opacity: 0 !important; pointer-events: none !important; visibility: hidden !important; }
 
-        #vr-card-main.vr-intro-card-hidden{
-          opacity:0 !important;
-          visibility:hidden !important;
-          pointer-events:none !important;
-          transform:scale(.985) !important;
-        }
-
-        #vr-intro-swipe-hint,
-        #vr-intro-gauge-hint{
-          position:fixed;
-          left:50%;
-          z-index:120001;
-          width:min(88vw, 520px);
-          display:flex;
-          justify-content:center;
-          pointer-events:none;
-          opacity:0;
-          transform:translate3d(-50%, 0, 0) scale(.96);
-          transition:opacity .22s ease, transform .22s ease;
-        }
-
-        #vr-intro-swipe-hint{
-          top:50%;
-        }
-
-        #vr-intro-gauge-hint{
-          bottom:max(18px, calc(env(safe-area-inset-bottom) + 16px));
-        }
-
-        #vr-intro-swipe-hint.is-visible,
-        #vr-intro-gauge-hint.is-visible{
-          opacity:1;
-          transform:translate3d(-50%, 0, 0) scale(1);
-        }
-
-        .vr-intro-hint-text{
-          display:inline-flex;
-          align-items:center;
-          justify-content:center;
-          text-align:center;
-          color:#fff;
-          font-weight:900;
-          line-height:1.2;
-        }
-
-        #vr-intro-swipe-hint .vr-intro-hint-text{
-          padding:0;
-          min-height:0;
-          background:none;
-          border:none;
-          box-shadow:none;
-          backdrop-filter:none;
-          color:#fff;
-          font-size:clamp(24px, 8vw, 40px);
-          text-shadow:
-            0 2px 8px rgba(0,0,0,.35),
-            0 0 18px rgba(255,255,255,.10);
-          animation:vrIntroHintZoom 1.2s ease-in-out infinite;
-        }
-
-        #vr-intro-gauge-hint .vr-intro-hint-text{
-          min-height:46px;
-          padding:10px 16px;
-          border-radius:16px;
-          background:rgba(10,16,32,.78);
-          border:1px solid rgba(255,255,255,.18);
-          box-shadow:0 14px 36px rgba(0,0,0,.28);
-          backdrop-filter:blur(10px);
-          font-size:clamp(14px, 4vw, 18px);
-          max-width:min(88vw, 420px);
-        }
-
         .vr-intro-gauge-focus{
           position: relative;
           z-index: 3;
@@ -3855,9 +3764,7 @@ body.vr-peek-mode .vr-gauge-preview{
         }
 
         #vr-intro-hand{
-          position: absolute;
-          left: 0;
-          top: 0;
+          position: fixed;
           width: clamp(52px, 12vw, 74px);
           height: auto;
           z-index: 120000;
@@ -3872,10 +3779,6 @@ body.vr-peek-mode .vr-gauge-preview{
         #vr-intro-hand.is-visible{
           display: block;
           animation: vrIntroHandSwipe 1s cubic-bezier(.4,0,.2,1) infinite;
-        }
-
-        body.vr-body-game .vr-hud-item{
-          overflow: visible !important;
         }
 
         #vr-card-main.is-intro-rich-card{
@@ -4190,8 +4093,9 @@ body.vr-peek-mode .vr-gauge-preview{
         }
 
         @keyframes vrIntroChoiceSway{
-          0%,100%{ transform: translate3d(0,0,0) rotate(0deg); }
-          50%{ transform: translate3d(8px,0,0) rotate(1.35deg); }
+          0%{ transform: translate3d(0,0,0) rotate(0deg); }
+          50%{ transform: translate3d(12px,0,0) rotate(2deg); }
+          100%{ transform: translate3d(0,0,0) rotate(0deg); }
         }
 
         @keyframes vrIntroGauge{
@@ -4228,11 +4132,6 @@ body.vr-peek-mode .vr-gauge-preview{
           0%,100%{ transform: translate3d(0,0,0) rotate(-10deg) scale(1); opacity:1; }
           50%{ transform: translate3d(-16px,0,0) rotate(-10deg) scale(.97); opacity:.92; }
         }
-
-        @keyframes vrIntroHintZoom{
-          0%,100%{ transform:scale(1); }
-          50%{ transform:scale(1.08); }
-        }
       `;
     document.head.appendChild(style);
   }
@@ -4252,10 +4151,6 @@ body.vr-peek-mode .vr-gauge-preview{
 function resetUIState() {
   clearClasses();
   hideIntroHand();
-  clearIntroTimers();
-  hideSwipeHint();
-  hideGaugeHint();
-  showIntroCardMain();
 
   const choicesWrap = document.querySelector(".vr-card-choices");
   if (choicesWrap) {
@@ -4308,7 +4203,6 @@ function resetUIState() {
     hand.src = INTRO_HAND_SRC;
     hand.alt = "";
     hand.draggable = false;
-    hand.dataset.bound = "0";
     document.body.appendChild(hand);
     return hand;
   }
@@ -4320,148 +4214,19 @@ function resetUIState() {
     hand.style.display = "none";
   }
 
-  function positionIntroHandOnJeton() {
-    const btn = document.getElementById("btn-jeton");
-    if (!btn) return;
-
-    const host =
-      btn.closest(".vr-hud-item") ||
-      btn.parentElement ||
-      document.body;
-
-    const hand = ensureIntroHand();
-
-    if (hand.parentElement !== host) {
-      host.appendChild(hand);
-    }
-
-    const rect = btn.getBoundingClientRect();
-    const hostRect = host.getBoundingClientRect();
-    const size = Math.max(58, Math.min(80, Math.round(rect.width * 1.2)));
-
-    hand.style.width = `${size}px`;
-    hand.style.left = `${Math.round((rect.left - hostRect.left) - (size * 0.46))}px`;
-    hand.style.top = `${Math.round((rect.top - hostRect.top) + (rect.height * 0.46))}px`;
-  }
-
-  function clearIntroTimers() {
-    if (introHintTimer1) {
-      clearTimeout(introHintTimer1);
-      introHintTimer1 = 0;
-    }
-    if (introHintTimer2) {
-      clearTimeout(introHintTimer2);
-      introHintTimer2 = 0;
-    }
-  }
-
-  function getCardMain() {
-    return document.getElementById("vr-card-main");
-  }
-
-  function hideIntroCardMain() {
-    const cardMain = getCardMain();
-    if (cardMain) cardMain.classList.add("vr-intro-card-hidden");
-  }
-
-  function showIntroCardMain() {
-    const cardMain = getCardMain();
-    if (cardMain) cardMain.classList.remove("vr-intro-card-hidden");
-  }
-
-  function ensureIntroHintEls() {
-    let swipeEl = document.getElementById("vr-intro-swipe-hint");
-    if (!swipeEl) {
-      swipeEl = document.createElement("div");
-      swipeEl.id = "vr-intro-swipe-hint";
-      swipeEl.innerHTML = '<div class="vr-intro-hint-text"></div>';
-      document.body.appendChild(swipeEl);
-    }
-
-    let gaugeEl = document.getElementById("vr-intro-gauge-hint");
-    if (!gaugeEl) {
-      gaugeEl = document.createElement("div");
-      gaugeEl.id = "vr-intro-gauge-hint";
-      gaugeEl.innerHTML = '<div class="vr-intro-hint-text"></div>';
-      document.body.appendChild(gaugeEl);
-    }
-
-    return { swipeEl, gaugeEl };
-  }
-
-  function hideSwipeHint() {
-    const el = document.getElementById("vr-intro-swipe-hint");
-    if (!el) return;
-    el.classList.remove("is-visible");
-  }
-
-  function showSwipeHint(text) {
-    const { swipeEl } = ensureIntroHintEls();
-    const inner = swipeEl.querySelector(".vr-intro-hint-text");
-    if (inner) inner.textContent = String(text || "");
-    swipeEl.classList.add("is-visible");
-  }
-
-  function hideGaugeHint() {
-    const el = document.getElementById("vr-intro-gauge-hint");
-    if (!el) return;
-    el.classList.remove("is-visible");
-  }
-
-  function showGaugeHint(text) {
-    const { gaugeEl } = ensureIntroHintEls();
-    const inner = gaugeEl.querySelector(".vr-intro-hint-text");
-    if (inner) inner.textContent = String(text || "");
-    gaugeEl.classList.add("is-visible");
-  }
-
-  function startIntroSwipeSequence() {
-    clearIntroTimers();
-    hideGaugeHint();
-
-    const btn = getChoiceButton("A");
-    if (btn) {
-      btn.classList.remove("vr-intro-pulse", "vr-intro-dim", "vr-intro-hide");
-      btn.classList.add("vr-intro-tilt");
-    }
-
-    showSwipeHint("Swipe");
-  }
-
   function showIntroHandOnJeton() {
     const btn = document.getElementById("btn-jeton");
     if (!btn) return;
 
     const hand = ensureIntroHand();
+    const rect = btn.getBoundingClientRect();
+    const size = Math.max(58, Math.min(80, Math.round(rect.width * 1.2)));
 
-    const syncHand = () => {
-      const current = document.getElementById("vr-intro-hand");
-      if (!current || !current.classList.contains("is-visible")) return;
-      positionIntroHandOnJeton();
-    };
-
-    if (hand.dataset.bound !== "1") {
-      window.addEventListener("resize", syncHand, { passive: true });
-      window.addEventListener("orientationchange", syncHand, { passive: true });
-
-      if (window.visualViewport) {
-        window.visualViewport.addEventListener("resize", syncHand, { passive: true });
-        window.visualViewport.addEventListener("scroll", syncHand, { passive: true });
-      }
-
-      hand.dataset.bound = "1";
-    }
-
-    positionIntroHandOnJeton();
+    hand.style.width = `${size}px`;
+    hand.style.left = `${Math.round(rect.left - (size * 0.46))}px`;
+    hand.style.top = `${Math.round(rect.top + (rect.height * 0.46))}px`;
     hand.style.display = "block";
     hand.classList.add("is-visible");
-
-    requestAnimationFrame(() => {
-      positionIntroHandOnJeton();
-      requestAnimationFrame(() => {
-        positionIntroHandOnJeton();
-      });
-    });
   }
 
   function focusOnlyChoice(choiceId) {
@@ -4562,8 +4327,6 @@ function resetUIState() {
 
     if (!enabled) return;
     ensureStyles();
-    introGuidePromise = null;
-    clearIntroTimers();
     try { window.VRSave?.clear?.(INTRO_ID); } catch (_) {}
   }
 
@@ -4573,43 +4336,12 @@ function resetUIState() {
     currentCardId = String(cardLogic?.id || "").trim();
 
     if (currentCardId === "intro_001") {
-      hideAllChoices();
-      hideIntroCardMain();
-
-      if (!introGuidePromise) {
-        introGuidePromise = Promise.resolve(
-          window.VRGuideMentor?._open?.(
-            "heaven_king",
-            [
-              t("intro.guide.welcome_title", "Bienvenue"),
-              t("intro.guide.welcome_body", "Ah, un nouveau dirigeant pour s’occuper des mondes. Prêt à le faire ?")
-            ],
-            {
-              mode: "rank",
-              isEvent: false,
-              confetti: true,
-              playBell: false
-            }
-          )
-        );
-
-        introGuidePromise.finally(() => {
-          introGuidePromise = null;
-
-          if (!isIntroUniverse() || currentCardId !== "intro_001") return;
-
-          showIntroCardMain();
-          window.setTimeout(() => {
-            try { window.VREngine?._nextCard?.(); } catch (_) {}
-          }, 40);
-        });
-      }
+      focusOnlyChoice("A");
       return;
     }
 
     if (currentCardId === "intro_002") {
-      showNormalChoices(["A"]);
-      startIntroSwipeSequence();
+      showNormalChoices(["A", "B"]);
       return;
     }
 
@@ -4628,34 +4360,13 @@ function resetUIState() {
   function beforeApplyChoice(cardLogic, choiceId) {
     if (!isIntroUniverse()) return true;
     const id = String(cardLogic?.id || currentCardId || "").trim();
-    if (id === "intro_001") return false;
-    if (id === "intro_002") return choiceId === "A";
+    if (id === "intro_001") return choiceId === "A" || choiceId === "B";
+    if (id === "intro_002") return choiceId === "A" || choiceId === "B";
     if (id === "intro_003") return false;
     return true;
   }
 
   function afterApplyChoice(cardLogic, choiceId) {
-    if (!isIntroUniverse()) return false;
-
-    const id = String(cardLogic?.id || currentCardId || "").trim();
-
-    if (id === "intro_002" && choiceId === "A") {
-      clearIntroTimers();
-      hideSwipeHint();
-      hideGaugeHint();
-
-      const btn = getChoiceButton("A");
-      if (btn) {
-        btn.classList.remove("vr-intro-tilt", "vr-intro-pulse");
-      }
-
-      window.setTimeout(() => {
-        try { pulseGauge(LOW_GAUGE_ID); } catch (_) {}
-      }, 180);
-
-      return false;
-    }
-
     return false;
   }
 
@@ -4796,18 +4507,23 @@ function onGaugeSet(gaugeId) {
     const nameInput = document.getElementById("vr-intro-name-input");
     const msgEl = document.getElementById("vr-intro-name-msg");
     const submitBtn = document.getElementById("vr-intro-finish-close");
-    const nameBlock = document.querySelector("#vr-intro-finish-overlay .vr-intro-name-block");
 
     if (titleEl) titleEl.textContent = t("intro.finish.title", "Bravo");
     if (textEl) textEl.textContent = t("intro.finish.body", "Tu es prêt à gouverner de nombreux univers.");
     if (infoEl) infoEl.innerHTML = t("intro.finish.info_html", "");
     if (giftEl) giftEl.textContent = t("intro.finish.gift", "Pour commencer ton aventure, voici :");
-    if (nameTitleEl) nameTitleEl.textContent = "";
-    if (nameBlock) nameBlock.style.display = "none";
+    if (nameTitleEl) nameTitleEl.textContent = t("intro.finish.name_title", "À qui ai-je l'honneur ?");
+
+    const currentName =
+      String(
+        window.VUserData?.getUsername?.() ||
+        window.VUserData?.load?.()?.username ||
+        ""
+      ).trim();
 
     if (nameInput) {
-      nameInput.placeholder = "";
-      nameInput.value = "";
+      nameInput.placeholder = t("intro.finish.name_placeholder", "Ton nom");
+      nameInput.value = currentName;
     }
 
     if (msgEl) {
@@ -4816,7 +4532,7 @@ function onGaugeSet(gaugeId) {
     }
 
     if (submitBtn) {
-      submitBtn.textContent = t("intro.finish.cta", "Commencer");
+      submitBtn.textContent = t("intro.finish.name_save", "Valider");
     }
   }
 
@@ -4909,43 +4625,6 @@ function onGaugeSet(gaugeId) {
   });
 }
 
-  function buildRandomIntroName() {
-    const prefixes = ["Nova", "Astra", "Orion", "Vega", "Luma", "Echo", "Kairo", "Nexa"];
-    const suffix = String(1000 + Math.floor(Math.random() * 9000));
-    return `${prefixes[Math.floor(Math.random() * prefixes.length)]}_${suffix}`;
-  }
-
-  async function saveRandomIntroName() {
-    const currentName =
-      String(
-        window.VUserData?.getUsername?.() ||
-        window.VUserData?.load?.()?.username ||
-        ""
-      ).trim();
-
-    if (currentName) {
-      return { ok: true, name: currentName };
-    }
-
-    for (let i = 0; i < 8; i += 1) {
-      const candidate = buildRandomIntroName();
-
-      let res = null;
-      try {
-        res = await window.VUserData?.setUsername?.(candidate);
-      } catch (_) {
-        res = { ok: false, reason: "exception" };
-      }
-
-      if (res?.ok) return { ok: true, name: candidate };
-      if (String(res?.reason || "") === "taken") continue;
-
-      return { ok: false, reason: String(res?.reason || "generic") };
-    }
-
-    return { ok: false, reason: "taken" };
-  }
-
   function showFinishPopup() {
     const overlay = ensureFinishPopup();
     fillFinishPopupTexts();
@@ -4953,9 +4632,6 @@ function onGaugeSet(gaugeId) {
     return new Promise((resolve) => {
       const submitBtn = document.getElementById("vr-intro-finish-close");
       const input = document.getElementById("vr-intro-name-input");
-      const nameBlock = overlay.querySelector(".vr-intro-name-block");
-
-      if (nameBlock) nameBlock.style.display = "none";
 
       const closeAndResolve = () => {
         overlay.classList.remove("vr-ending-visible");
@@ -4969,10 +4645,53 @@ function onGaugeSet(gaugeId) {
       };
 
       const submit = async () => {
+        const name = String(input?.value || "").trim();
+
+        if (!name) {
+          setIntroNameMsg("error", t("intro.finish.name_missing", "Entre un nom."));
+          try { input?.focus?.({ preventScroll: true }); } catch (_) {}
+          return;
+        }
+
+        if (name.length < 3 || name.length > 20) {
+          setIntroNameMsg("error", t("intro.finish.name_err_length", "Le nom doit faire entre 3 et 20 caractères."));
+          try { input?.focus?.({ preventScroll: true }); } catch (_) {}
+          return;
+        }
+
+        if (!/^[a-zA-Z0-9_-]+$/.test(name)) {
+          setIntroNameMsg("error", t("intro.finish.name_err_invalid", "Utilise seulement des lettres, des chiffres, _ ou -."));
+          try { input?.focus?.({ preventScroll: true }); } catch (_) {}
+          return;
+        }
+
+        const confirmed = await showIntroNameConfirmPopup(name, input);
+        if (!confirmed) {
+          try { input?.focus?.({ preventScroll: true }); } catch (_) {}
+          return;
+        }
+
+        const currentName =
+          String(
+            window.VUserData?.getUsername?.() ||
+            window.VUserData?.load?.()?.username ||
+            ""
+          ).trim();
+
+        if (currentName === name) {
+          closeAndResolve();
+          return;
+        }
+
         setIntroNameMsg("ok", t("intro.finish.name_working", "Enregistrement..."));
         setBusy(true);
 
-        const res = await saveRandomIntroName();
+        let res = null;
+        try {
+          res = await window.VUserData?.setUsername?.(name);
+        } catch (_) {
+          res = { ok: false, reason: "exception" };
+        }
 
         setBusy(false);
 
@@ -4981,7 +4700,18 @@ function onGaugeSet(gaugeId) {
           return;
         }
 
-        setIntroNameMsg("error", t("intro.finish.name_err_generic", "Impossible d’enregistrer le nom."));
+        const reason = String(res?.reason || "");
+        if (reason === "length") {
+          setIntroNameMsg("error", t("intro.finish.name_err_length", "Le nom doit faire entre 3 et 20 caractères."));
+        } else if (reason === "invalid") {
+          setIntroNameMsg("error", t("intro.finish.name_err_invalid", "Utilise seulement des lettres, des chiffres, _ ou -."));
+        } else if (reason === "taken") {
+          setIntroNameMsg("error", t("intro.finish.name_err_taken", "Ce nom est déjà pris."));
+        } else {
+          setIntroNameMsg("error", t("intro.finish.name_err_generic", "Impossible d’enregistrer le nom."));
+        }
+
+        try { input?.focus?.({ preventScroll: true }); } catch (_) {}
       };
 
       overlay.onclick = null;
@@ -5005,7 +4735,7 @@ function onGaugeSet(gaugeId) {
       setBusy(false);
       setIntroNameMsg("", "");
 
-      try { submitBtn?.focus?.({ preventScroll: true }); } catch (_) {}
+      try { input?.focus?.({ preventScroll: true }); } catch (_) {}
     });
   }
 
@@ -6219,7 +5949,6 @@ window.VRGuideMentor = {
   _finalTimer: null,
   _confettiCleanupTimer: null,
   _dismissEnabledAt: 0,
-  _dismissResolver: null,
 
   _els() {
     return {
@@ -6227,7 +5956,6 @@ window.VRGuideMentor = {
       image: document.getElementById("vr-guide-image"),
       bubble: document.getElementById("vr-guide-bubble-text"),
       fit: document.getElementById("vr-guide-bubble-fit"),
-      nextBtn: document.getElementById("vr-guide-next-btn"),
       view: document.getElementById("view-game")
     };
   },
@@ -6259,7 +5987,7 @@ window.VRGuideMentor = {
     return `guideMentor.${universeId}.${tierOrIntro}`;
   },
 
-  _setText(lines, mode = "rank") {
+  _setText(lines) {
     const { fit } = this._els();
     if (!fit) return;
 
@@ -6271,43 +5999,16 @@ window.VRGuideMentor = {
 
     items.forEach((line, index) => {
       const div = document.createElement("div");
-
-      if (index === 0) {
-        div.className = "vr-guide-line vr-guide-line--title";
-      } else if (index === 1) {
-        div.className = "vr-guide-line vr-guide-line--lead";
-      } else {
-        div.className = "vr-guide-line vr-guide-line--body";
-      }
-
-      if (mode === "event" && index > 0) {
-        div.style.whiteSpace = "pre-wrap";
-      }
-
+      div.className = index === 0
+        ? "vr-guide-line vr-guide-line--title"
+        : "vr-guide-line vr-guide-line--body";
       div.textContent = line;
       fit.appendChild(div);
     });
   },
 
-  _resolveDismiss() {
-    const fn = this._dismissResolver;
-    this._dismissResolver = null;
-
-    if (typeof fn === "function") {
-      try { fn(); } catch (_) {}
-    }
-  },
-
-  _createDismissPromise() {
-    this._resolveDismiss();
-
-    return new Promise((resolve) => {
-      this._dismissResolver = resolve;
-    });
-  },
-
   _ensureDismissBinding() {
-    const { overlay, nextBtn } = this._els();
+    const { overlay } = this._els();
     if (!overlay || overlay.__vrGuideDismissBound) return;
 
     const onDismiss = (e) => {
@@ -6327,19 +6028,6 @@ window.VRGuideMentor = {
     overlay.addEventListener("pointerdown", onDismiss);
     overlay.addEventListener("click", onDismiss);
     overlay.addEventListener("keydown", onDismiss);
-
-    if (nextBtn && !nextBtn.__vrGuideDismissBound) {
-      nextBtn.__vrGuideDismissBound = true;
-      nextBtn.addEventListener("click", (e) => {
-        try { e.preventDefault(); } catch (_) {}
-        try { e.stopPropagation(); } catch (_) {}
-
-        if (!overlay.classList.contains("is-visible")) return;
-        if (Date.now() < (this._dismissEnabledAt || 0)) return;
-
-        this.hide();
-      });
-    }
   },
 
   _ensureConfettiLayer() {
@@ -6352,7 +6040,6 @@ window.VRGuideMentor = {
       layer.className = "vr-guide-confetti-layer";
       overlay.insertBefore(layer, overlay.firstChild || null);
     }
-
     return layer;
   },
 
@@ -6362,123 +6049,39 @@ window.VRGuideMentor = {
 
     layer.innerHTML = "";
 
-    if (this._confettiRaf) {
-      cancelAnimationFrame(this._confettiRaf);
-      this._confettiRaf = null;
-    }
-    clearTimeout(this._confettiCleanupTimer);
-
-    const colors = [
-      "#ffffff",
-      "#f4d35e",
-      "#ff6b6b",
-      "#b8f2e6",
-      "#d0bfff",
-      "#7dd3fc",
-      "#f9a8d4"
-    ];
-
-    const rect = layer.getBoundingClientRect();
-    const W = Math.max(1, rect.width || window.innerWidth || 360);
-    const H = Math.max(1, rect.height || window.innerHeight || 640);
-
-    const count = 170;
-    const gravity = 1550;
-    const pieces = [];
+    const colors = ["#ffffff", "#f4d35e", "#ff6b6b", "#b8f2e6", "#d0bfff"];
+    const count = 24;
 
     for (let i = 0; i < count; i += 1) {
-      const el = document.createElement("span");
-      el.className = "vr-guide-confetti-piece";
+      const piece = document.createElement("span");
+      piece.className = "vr-guide-confetti-piece";
 
-      const w = 5 + Math.random() * 8;
-      const h = 10 + Math.random() * 16;
-      const x = Math.random() * W;
-      const y = H + 20 + Math.random() * 60;
+      const left = 12 + Math.random() * 76;
+      const dx = -90 + Math.random() * 180;
+      const rot = -260 + Math.random() * 520;
+      const dur = 900 + Math.random() * 650;
+      const delay = Math.random() * 120;
+      const color = colors[Math.floor(Math.random() * colors.length)];
 
-      const vx = -260 + Math.random() * 520;
-      const vy = -(980 + Math.random() * 720);
-      const spin = -720 + Math.random() * 1440;
-      const rot = Math.random() * 360;
-      const life = 3.8 + Math.random() * 1.4;
-      const fadeStart = life * 0.72;
+      piece.style.left = `${left}%`;
+      piece.style.background = color;
+      piece.style.setProperty("--dx", `${dx}px`);
+      piece.style.setProperty("--rot", `${rot}deg`);
+      piece.style.setProperty("--dur", `${dur}ms`);
+      piece.style.animationDelay = `${delay}ms`;
 
-      el.style.width = `${w}px`;
-      el.style.height = `${h}px`;
-      el.style.borderRadius = `${2 + Math.random() * 3}px`;
-      el.style.background = colors[Math.floor(Math.random() * colors.length)];
-      el.style.opacity = "1";
-      el.style.transform = `translate3d(${x}px, ${y}px, 0) rotate(${rot}deg)`;
-
-      layer.appendChild(el);
-
-      pieces.push({
-        el,
-        x,
-        y,
-        vx,
-        vy,
-        rot,
-        spin,
-        age: 0,
-        life,
-        fadeStart
-      });
+      layer.appendChild(piece);
     }
 
-    let last = performance.now();
-
-    const tick = (now) => {
-      const dt = Math.min((now - last) / 1000, 0.033);
-      last = now;
-
-      let alive = 0;
-
-      for (const p of pieces) {
-        p.age += dt;
-        if (p.age >= p.life) {
-          p.el.style.opacity = "0";
-          continue;
-        }
-
-        p.vy += gravity * dt;
-        p.x += p.vx * dt;
-        p.y += p.vy * dt;
-        p.rot += p.spin * dt;
-
-        const fade =
-          p.age < p.fadeStart
-            ? 1
-            : Math.max(0, 1 - ((p.age - p.fadeStart) / (p.life - p.fadeStart)));
-
-        p.el.style.opacity = String(fade);
-        p.el.style.transform =
-          `translate3d(${p.x}px, ${p.y}px, 0) rotate(${p.rot}deg)`;
-
-        alive += 1;
-      }
-
-      if (alive > 0) {
-        this._confettiRaf = requestAnimationFrame(tick);
-      } else {
-        this._confettiRaf = null;
-        try { layer.innerHTML = ""; } catch (_) {}
-      }
-    };
-
-    this._confettiRaf = requestAnimationFrame(tick);
-
+    clearTimeout(this._confettiCleanupTimer);
     this._confettiCleanupTimer = setTimeout(() => {
-      if (this._confettiRaf) {
-        cancelAnimationFrame(this._confettiRaf);
-        this._confettiRaf = null;
-      }
       try { layer.innerHTML = ""; } catch (_) {}
-    }, 6500);
+    }, 2200);
   },
 
   _fitTextAndScale() {
-    const { overlay, fit, view } = this._els();
-    if (!overlay || !fit || !view) return;
+    const { overlay, bubble, fit, view } = this._els();
+    if (!overlay || !bubble || !fit || !view) return;
 
     const viewWidth = view.clientWidth || window.innerWidth || 360;
     const minFont = viewWidth <= 420 ? 10 : 11;
@@ -6488,8 +6091,8 @@ window.VRGuideMentor = {
 
     const textFits = () => {
       return (
-        fit.scrollWidth <= fit.clientWidth + 1 &&
-        fit.scrollHeight <= fit.clientHeight + 1
+        fit.scrollWidth <= bubble.clientWidth + 1 &&
+        fit.scrollHeight <= bubble.clientHeight + 1
       );
     };
 
@@ -6519,47 +6122,32 @@ window.VRGuideMentor = {
     }
   },
 
-  _open(universeId, lines, opts = {}) {
-    const { overlay, image, nextBtn } = this._els();
-    if (!overlay || !image) return Promise.resolve();
+  show(universeId, lines) {
+    const { overlay, image } = this._els();
+    if (!overlay || !image) return;
 
     overlay.style.width = "";
 
     const src = VR_GUIDE_IMAGE_MAP[universeId];
-    if (!src) return Promise.resolve();
+    if (!src) return;
 
     image.src = src;
     image.alt = universeId;
-
-    if (nextBtn) {
-      nextBtn.setAttribute("aria-label", this._t("guideMentor.common.nextButton", "Next"));
-    }
 
     const textLines = (Array.isArray(lines) ? lines : [])
       .map(v => String(v || "").trim())
       .filter(Boolean);
 
-    this._setText(textLines, opts.mode || "rank");
+    this._setText(textLines);
     this._ensureDismissBinding();
 
     overlay.classList.add("is-visible");
     overlay.classList.remove("is-final");
-    overlay.classList.toggle("is-event", !!opts.isEvent);
-    overlay.setAttribute("aria-hidden", "false");
 
     clearTimeout(this._hideTimer);
     clearTimeout(this._finalTimer);
 
-    if (opts.playBell) {
-      try { window.VRAudio?.playDeath?.(); } catch (_) {}
-    }
-
-    if (opts.confetti) {
-      this._burstConfetti();
-    }
-
     this._dismissEnabledAt = Date.now() + 220;
-    const wait = this._createDismissPromise();
 
     requestAnimationFrame(() => {
       this._fitTextAndScale();
@@ -6570,34 +6158,6 @@ window.VRGuideMentor = {
       overlay.classList.add("is-final");
       this._fitTextAndScale();
     }, 120);
-
-    return wait;
-  },
-
-  show(universeId, lines) {
-    return this._open(universeId, lines, {
-      mode: "rank",
-      isEvent: false,
-      confetti: false,
-      playBell: false
-    });
-  },
-
-  showEvent(universeId, title, body) {
-    const parts = [
-      String(title || "").trim(),
-      ...String(body || "")
-        .split(/\n\s*\n/)
-        .map(v => String(v || "").trim())
-        .filter(Boolean)
-    ].filter(Boolean);
-
-    return this._open(universeId, parts, {
-      mode: "event",
-      isEvent: true,
-      confetti: false,
-      playBell: true
-    });
   },
 
   hide() {
@@ -6608,8 +6168,6 @@ window.VRGuideMentor = {
     clearTimeout(this._finalTimer);
 
     overlay.classList.remove("is-visible");
-    overlay.classList.remove("is-event");
-    overlay.setAttribute("aria-hidden", "true");
 
     const layer = overlay.querySelector(".vr-guide-confetti-layer");
     if (layer) {
@@ -6617,8 +6175,6 @@ window.VRGuideMentor = {
         try { layer.innerHTML = ""; } catch (_) {}
       }, 180);
     }
-
-    this._resolveDismiss();
   },
 
   markSeen(universeId, key) {
@@ -6660,20 +6216,15 @@ window.VRGuideMentor = {
     const remaining = nextTarget ? Math.max(0, nextTarget - Number(reignLength || 0)) : 0;
 
     const lines = [
-      this._t("guideMentor.common.promotionNow", "", { rank: rankLabel }),
       this._t(this._messageKey(universeId, reachedTier), ""),
+      this._t("guideMentor.common.promotionNow", "", { rank: rankLabel }),
       nextTier
         ? this._t("guideMentor.common.nextGoal", "", { remaining })
         : this._t("guideMentor.common.maxGoal", "")
     ];
 
-    this._open(universeId, lines, {
-      mode: "rank",
-      isEvent: false,
-      confetti: true,
-      playBell: false
-    });
-
+    this.show(universeId, lines);
+    this._burstConfetti();
     this.markSeen(universeId, reachedTier);
   },
 
@@ -6756,7 +6307,7 @@ window.VRGame = {
 
   async maybeShowInterstitial() {
     try {
-      await (window.VRAds?.incrementActionsCount?.() || Promise.resolve(0));
+      await (window.VRAds?.markAction?.() || Promise.resolve(0));
     } catch (e) {
       console.warn("[VRGame] interstitial skipped:", e);
     }

@@ -623,13 +623,7 @@
       "name_err_taken": "Este nombre ya está en uso.",
       "name_err_generic": "No se pudo guardar el nombre.",
       "name_working": "Guardando..."
-    },
-    "guide": {
-      "welcome_title": "Bienvenido",
-      "welcome_body": "Ah, un nuevo dirigente para encargarse de los mundos. ¿Listo para hacerlo?"
-    },
-    "swipe_hint": "Swipe",
-    "balance_hint": "Esta decisión puede mover la barra de Equilibrio."
+    }
   },
   "onesignal": {
     "popup": {
@@ -665,99 +659,14 @@
       "introGoal": "Mantén el equilibrio durante {target} elecciones para conseguir tu primer ascenso.",
       "nextGoal": "Mantén el equilibrio durante {remaining} elecciones más para alcanzar tu próximo ascenso.",
       "promotionNow": "Felicidades. Ahora eres {rank}.",
-      "maxGoal": "Has alcanzado el rango más alto de este universo. Ahora demuestra que puedes conservarlo.",
-      "nextButton": "Siguiente"
+      "maxGoal": "Has alcanzado el rango más alto de este universo. Ahora demuestra que puedes conservarlo."
     },
-    "hell_king": {
-      "ranks": {
-        "wood": "alma condenada",
-        "bronze": "demonio de primer rango",
-        "silver": "señor infernal",
-        "gold": "príncipe del infierno",
-        "crystal": "rey del infierno"
-      },
-      "intro": "Bienvenido, alma perdida. En el Infierno, cada decisión deja una marca.",
-      "wood": "Ya no vagabundeas sin rumbo. Ahora sirves al orden infernal.",
-      "bronze": "Te has ganado tu lugar entre los sirvientes del Infierno. No flaquees.",
-      "silver": "Tu influencia está creciendo. Los demonios menores empiezan a obedecerte.",
-      "gold": "Las llamas se inclinan más fácilmente ante tu voluntad. Ahora te temen.",
-      "crystal": "Estás en la cumbre. Gobierna el Infierno como un verdadero rey."
-    },
-    "heaven_king": {
-      "ranks": {
-        "wood": "alma radiante",
-        "bronze": "guardián celestial",
-        "silver": "ángel superior",
-        "gold": "arcángel",
-        "crystal": "rey del paraíso"
-      },
-      "intro": "Bienvenido, alma pura. Aquí, cada elección debe preservar la armonía del Cielo.",
-      "wood": "Has dado tus primeros pasos hacia la luz. Mantén el rumbo.",
-      "bronze": "Tu papel ya va más allá del de un simple mensajero. El Cielo te observa.",
-      "silver": "Te has convertido en un verdadero guardián del Cielo. Tu responsabilidad crece.",
-      "gold": "Tu autoridad brilla como la de un arcángel. Sigue elevando este universo.",
-      "crystal": "Has alcanzado el rango más alto. Gobierna el Paraíso con sabiduría."
-    },
-    "vampire_lord": {
-      "ranks": {
-        "wood": "iniciado de la noche",
-        "bronze": "vampiro noble",
-        "silver": "señor vampiro",
-        "gold": "maestro de las sombras",
-        "crystal": "señor vampiro supremo"
-      },
-      "intro": "Bienvenido a la noche. Cada elección alimentará o debilitará tu ascenso.",
-      "wood": "La sangre ya te llama. Ya no eres del todo humano.",
-      "bronze": "Has entrado en la verdadera noche. Tu nombre empieza a circular.",
-      "silver": "Ahora eres un vampiro consumado. Las sombras te reconocen.",
-      "gold": "Tu presencia inspira miedo. Pocos se atreven aún a desafiarte.",
-      "crystal": "Te has convertido en el amo de la oscuridad. Domina la noche."
-    },
-    "mega_corp_ceo": {
-      "ranks": {
-        "wood": "empleado",
-        "bronze": "gerente",
-        "silver": "director",
-        "gold": "director ejecutivo",
-        "crystal": "CEO"
-      },
-      "intro": "Bienvenido, becario. Aquí, cada decisión cuenta y cada error cuesta caro.",
-      "wood": "Bien hecho. Ya no eres solo un becario. Ahora eres empleado.",
-      "bronze": "Tu trabajo ha dado frutos. Ahora asumes verdaderas responsabilidades.",
-      "silver": "Ahora diriges a otros. Los resultados hablan por ti.",
-      "gold": "Has alcanzado un nivel en el que la empresa depende realmente de tus decisiones.",
-      "crystal": "Ahora eres el CEO. Depende de ti mantener la empresa en la cima."
-    },
-    "western_president": {
-      "ranks": {
-        "wood": "consejero",
-        "bronze": "alcalde",
-        "silver": "gobernador",
-        "gold": "jefe de Estado",
-        "crystal": "presidente"
-      },
-      "intro": "Bienvenido, consejero. En el Oeste, el equilibrio del poder nunca dura mucho.",
-      "wood": "Has ganado peso político. La gente empieza a escucharte.",
-      "bronze": "Ya no sigues solo el movimiento. Ahora ayudas a dirigirlo.",
-      "silver": "Ahora eres gobernador. Tus decisiones ya están moldeando el territorio.",
-      "gold": "Ahora gobiernas a una escala mayor. El país espera mucho de ti.",
-      "crystal": "Ahora eres presidente. Depende de ti mantener unida a la nación."
-    },
-    "new_world_explorer": {
-      "ranks": {
-        "wood": "marinero",
-        "bronze": "explorador avanzado",
-        "silver": "explorador",
-        "gold": "comandante",
-        "crystal": "representante de la Corona"
-      },
-      "intro": "Bienvenido, marinero. El Nuevo Mundo no perdona ni la vacilación ni el exceso.",
-      "wood": "Has dejado atrás el simple papel de tripulante. Observas y aprendes.",
-      "bronze": "Te aventuras más lejos que los demás. Tu mirada empieza a ser valiosa.",
-      "silver": "Ahora eres un verdadero explorador. La gente confía en tu juicio.",
-      "gold": "Ahora comandas la expedición. Cada elección puede cambiar el destino del viaje.",
-      "crystal": "Representas a la Corona. El mundo descubierto hablará ahora en tu nombre."
-    }
+    "hell_king": {"ranks": {"wood": "alma condenada","bronze": "demonio de primer rango","silver": "señor infernal","gold": "príncipe del infierno","crystal": "rey del infierno"},"intro": "Bienvenido, alma perdida. En el Infierno, cada decisión deja una marca.","wood": "Ya no vagabundeas sin rumbo. Ahora sirves al orden infernal.","bronze": "Te has ganado tu lugar entre los sirvientes del Infierno. No flaquees.","silver": "Tu influencia está creciendo. Los demonios menores empiezan a obedecerte.","gold": "Las llamas se inclinan más fácilmente ante tu voluntad. Ahora te temen.","crystal": "Estás en la cumbre. Gobierna el Infierno como un verdadero rey."},
+    "heaven_king": {"ranks": {"wood": "alma radiante","bronze": "guardián celestial","silver": "ángel superior","gold": "arcángel","crystal": "rey del paraíso"},"intro": "Bienvenido, alma pura. Aquí, cada elección debe preservar la armonía del Cielo.","wood": "Has dado tus primeros pasos hacia la luz. Mantén el rumbo.","bronze": "Tu papel ya va más allá del de un simple mensajero. El Cielo te observa.","silver": "Te has convertido en un verdadero guardián del Cielo. Tu responsabilidad crece.","gold": "Tu autoridad brilla como la de un arcángel. Sigue elevando este universo.","crystal": "Has alcanzado el rango más alto. Gobierna el Paraíso con sabiduría."},
+    "vampire_lord": {"ranks": {"wood": "iniciado de la noche","bronze": "vampiro noble","silver": "señor vampiro","gold": "maestro de las sombras","crystal": "señor vampiro supremo"},"intro": "Bienvenido a la noche. Cada elección alimentará o debilitará tu ascenso.","wood": "La sangre ya te llama. Ya no eres del todo humano.","bronze": "Has entrado en la verdadera noche. Tu nombre empieza a circular.","silver": "Ahora eres un vampiro consumado. Las sombras te reconocen.","gold": "Tu presencia inspira miedo. Pocos se atreven aún a desafiarte.","crystal": "Te has convertido en el amo de la oscuridad. Domina la noche."},
+    "mega_corp_ceo": {"ranks": {"wood": "empleado","bronze": "gerente","silver": "director","gold": "director ejecutivo","crystal": "CEO"},"intro": "Bienvenido, becario. Aquí, cada decisión cuenta y cada error cuesta caro.","wood": "Bien hecho. Ya no eres solo un becario. Ahora eres empleado.","bronze": "Tu trabajo ha dado frutos. Ahora asumes verdaderas responsabilidades.","silver": "Ahora diriges a otros. Los resultados hablan por ti.","gold": "Has alcanzado un nivel en el que la empresa depende realmente de tus decisiones.","crystal": "Ahora eres el CEO. Depende de ti mantener la empresa en la cima."},
+    "western_president": {"ranks": {"wood": "consejero","bronze": "alcalde","silver": "gobernador","gold": "jefe de Estado","crystal": "presidente"},"intro": "Bienvenido, consejero. En el Oeste, el equilibrio del poder nunca dura mucho.","wood": "Has ganado peso político. La gente empieza a escucharte.","bronze": "Ya no sigues solo el movimiento. Ahora ayudas a dirigirlo.","silver": "Ahora eres gobernador. Tus decisiones ya están moldeando el territorio.","gold": "Ahora gobiernas a una escala mayor. El país espera mucho de ti.","crystal": "Ahora eres presidente. Depende de ti mantener unida a la nación."},
+    "new_world_explorer": {"ranks": {"wood": "marinero","bronze": "explorador avanzado","silver": "explorador","gold": "comandante","crystal": "representante de la Corona"},"intro": "Bienvenido, marinero. El Nuevo Mundo no perdona ni la vacilación ni el exceso.","wood": "Has dejado atrás el simple papel de tripulante. Observas y aprendes.","bronze": "Te aventuras más lejos que los demás. Tu mirada empieza a ser valiosa.","silver": "Ahora eres un verdadero explorador. La gente confía en tu juicio.","gold": "Ahora comandas la expedición. Cada elección puede cambiar el destino del viaje.","crystal": "Representas a la Corona. El mundo descubierto hablará ahora en tu nombre."}
   },
   "jobs": {
     "hell_king": {

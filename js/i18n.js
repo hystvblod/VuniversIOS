@@ -16,16 +16,16 @@
   const UI_BUNDLES = ["ui"];
   const SUPPORTED_LANGS = ["en", "fr", "de", "es", "pt", "ptbr", "it", "ko", "ja", "id"];
   const LANGUAGE_CHOICES = [
-    { code: "en", ui: "English" },
-    { code: "fr", ui: "Français" },
-    { code: "de", ui: "Deutsch" },
-    { code: "es", ui: "Español" },
-    { code: "pt", ui: "Português" },
-    { code: "ptbr", ui: "Português BR" },
-    { code: "it", ui: "Italiano" },
-    { code: "ko", ui: "한국어" },
-    { code: "ja", ui: "日本語" },
-    { code: "id", ui: "Bahasa Indonesia" }
+    { code: "en", ui: "EN" },
+    { code: "fr", ui: "FR" },
+    { code: "de", ui: "DE" },
+    { code: "es", ui: "ES" },
+    { code: "pt", ui: "PT" },
+    { code: "ptbr", ui: "PTBR" },
+    { code: "it", ui: "IT" },
+    { code: "ko", ui: "KO" },
+    { code: "ja", ui: "JP" },
+    { code: "id", ui: "ID" }
   ];
   const LANGUAGE_FLAGS = {
     fr: `<svg viewBox="0 0 30 20" aria-hidden="true"><rect width="10" height="20" x="0" y="0" fill="#1f4fbf"/><rect width="10" height="20" x="10" y="0" fill="#ffffff"/><rect width="10" height="20" x="20" y="0" fill="#d11f2e"/></svg>`,
@@ -280,11 +280,10 @@ async function tryLoadUiBundle(bundle, lang) {
       .vrLangOverlay .vr-langBtn{
         width:100%;
         display:flex;
-        flex-direction:column;
         align-items:center;
-        justify-content:flex-start;
-        gap:8px;
-        padding:10px 6px 12px;
+        justify-content:center;
+        gap:0;
+        padding:10px 6px;
         border-radius:14px;
         border:0 !important;
         background:transparent !important;
@@ -326,61 +325,7 @@ async function tryLoadUiBundle(bundle, lang) {
       }
 
       .vrLangOverlay .vr-langText{
-        display:flex !important;
-        align-items:center;
-        justify-content:center;
-        min-height:30px;
-        font-size:clamp(11px,2.8vw,13px);
-        font-weight:800;
-        line-height:1.15;
-        color:rgba(255,255,255,.96);
-        text-align:center;
-        word-break:break-word;
-      }
-
-      .vrLangOverlay .vr-langText > div{
-        max-width:100%;
-      }
-
-      .vrLangActions{
-        display:flex;
-        justify-content:center;
-        margin-top:18px;
-      }
-
-      .vrLangConfirm{
-        width:68px;
-        height:68px;
-        min-width:68px;
-        min-height:68px;
-        padding:0;
-        border:0;
-        border-radius:18px;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        color:#0b1020;
-        background:#ffffff;
-        box-shadow:0 12px 30px rgba(0,0,0,.28);
-        cursor:pointer;
-        transition:transform .12s ease, opacity .12s ease, box-shadow .12s ease;
-      }
-
-      .vrLangConfirm:active{
-        transform:scale(.98);
-      }
-
-      .vrLangConfirm[disabled]{
-        opacity:.45;
-        cursor:default;
-        transform:none;
-        box-shadow:none;
-      }
-
-      .vrLangConfirm svg{
-        width:34px;
-        height:34px;
-        display:block;
+        display:none !important;
       }
     `;
     document.head.appendChild(style);
@@ -389,119 +334,52 @@ async function tryLoadUiBundle(bundle, lang) {
   function showLanguagePicker() {
     if (_languagePickerPromise) return _languagePickerPromise;
 
-    _languagePickerPromise = (async () => {
+    _languagePickerPromise = new Promise((resolve) => {
       ensureLanguagePickerStyles();
 
+      const overlay = document.createElement("div");
+      overlay.className = "vrLangOverlay";
+      overlay.setAttribute("role", "dialog");
+      overlay.setAttribute("aria-modal", "true");
+      overlay.setAttribute("aria-label", "Choose your language");
+
+      const modal = document.createElement("div");
+      modal.className = "vrLangModal";
+
+      const title = document.createElement("div");
+      title.className = "vrLangTitle";
+      title.textContent = "Choose your language";
+      modal.appendChild(title);
+
+      const grid = document.createElement("div");
+      grid.className = "vr-langGrid";
+
       const active = detectDeviceLang() || DEFAULT_LANG;
-      let selected = active;
 
-      const confirmCache = {};
-      async function getConfirmLabel(lang) {
-        const l = normalizeLang(lang || DEFAULT_LANG);
-        if (confirmCache[l]) return confirmCache[l];
+      LANGUAGE_CHOICES.forEach((item) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "vr-langBtn" + (active === item.code ? " isActive" : "");
+        btn.setAttribute("data-lang", item.code);
+        btn.setAttribute("aria-label", item.ui);
 
-        try {
-          const { dict } = await loadUi(l);
-          const txt =
-            resolveKey(dict, "auth.username.cta") ||
-            resolveKey(dict, "intro.finish.name_save") ||
-            "Confirm";
-          confirmCache[l] = txt;
-          return txt;
-        } catch (_) {
-          return "Confirm";
-        }
-      }
+        const flag = document.createElement("div");
+        flag.className = "vr-flagBox";
+        flag.innerHTML = LANGUAGE_FLAGS[item.code] || LANGUAGE_FLAGS.en;
 
-      const initialConfirmLabel = await getConfirmLabel(active);
+        const txt = document.createElement("div");
+        txt.className = "vr-langText";
 
-      return await new Promise((resolve) => {
-        const overlay = document.createElement("div");
-        overlay.className = "vrLangOverlay";
-        overlay.setAttribute("role", "dialog");
-        overlay.setAttribute("aria-modal", "true");
-        overlay.setAttribute("aria-label", "Choose your language");
+        const code = document.createElement("div");
+        code.textContent = item.ui;
 
-        const modal = document.createElement("div");
-        modal.className = "vrLangModal";
+        txt.appendChild(code);
 
-        const title = document.createElement("div");
-        title.className = "vrLangTitle";
-        title.textContent = "Choose your language";
-        modal.appendChild(title);
+        btn.appendChild(flag);
+        btn.appendChild(txt);
 
-        const grid = document.createElement("div");
-        grid.className = "vr-langGrid";
-
-        const buttons = [];
-        let confirmBtn = null;
-
-        function refreshActiveState() {
-          buttons.forEach((btn) => {
-            const isOn = btn.getAttribute("data-lang") === selected;
-            btn.classList.toggle("isActive", isOn);
-          });
-          if (confirmBtn) confirmBtn.disabled = !selected;
-        }
-
-        LANGUAGE_CHOICES.forEach((item) => {
-          const btn = document.createElement("button");
-          btn.type = "button";
-          btn.className = "vr-langBtn" + (active === item.code ? " isActive" : "");
-          btn.setAttribute("data-lang", item.code);
-          btn.setAttribute("aria-label", item.ui);
-
-          const flag = document.createElement("div");
-          flag.className = "vr-flagBox";
-          flag.innerHTML = LANGUAGE_FLAGS[item.code] || LANGUAGE_FLAGS.en;
-
-          const txt = document.createElement("div");
-          txt.className = "vr-langText";
-
-          const code = document.createElement("div");
-          code.textContent = item.ui;
-
-          txt.appendChild(code);
-          btn.appendChild(flag);
-          btn.appendChild(txt);
-
-          btn.addEventListener("click", async () => {
-            selected = item.code;
-            refreshActiveState();
-            if (confirmBtn) {
-              confirmBtn.setAttribute("aria-label", await getConfirmLabel(selected));
-            }
-          });
-
-          buttons.push(btn);
-          grid.appendChild(btn);
-        });
-
-        modal.appendChild(grid);
-
-        const actions = document.createElement("div");
-        actions.className = "vrLangActions";
-
-        confirmBtn = document.createElement("button");
-        confirmBtn.type = "button";
-        confirmBtn.className = "vrLangConfirm";
-        confirmBtn.disabled = !selected;
-        confirmBtn.setAttribute("aria-label", initialConfirmLabel);
-        confirmBtn.innerHTML = `
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path
-              d="M5 12.5L9.5 17L19 7.5"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2.8"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        `;
-
-        confirmBtn.addEventListener("click", async () => {
-          const chosen = normalizeLang(selected || active || DEFAULT_LANG);
+        btn.addEventListener("click", async () => {
+          const chosen = item.code;
 
           saveLangLocal(chosen);
           markExplicitLanguageChoice();
@@ -517,15 +395,13 @@ async function tryLoadUiBundle(bundle, lang) {
           resolve(chosen);
         });
 
-        actions.appendChild(confirmBtn);
-        modal.appendChild(actions);
-
-        overlay.appendChild(modal);
-        document.body.appendChild(overlay);
-
-        refreshActiveState();
+        grid.appendChild(btn);
       });
-    })();
+
+      modal.appendChild(grid);
+      overlay.appendChild(modal);
+      document.body.appendChild(overlay);
+    });
 
     return _languagePickerPromise;
   }

@@ -1,14 +1,18 @@
 {
   "intro_001": {
-    "title": "",
-    "body": "",
-    "choices": {}
+    "title": "Welcome",
+    "body": "Ah, a new ruler to take care of the worlds. Ready to do it?",
+    "choices": {
+      "A": "Yes",
+      "B": "Let's go!"
+    }
   },
   "intro_002": {
-    "title": "The gauges",
-    "body": "Swipe this card to continue. By tilting it, you can see the effects on the gauges.",
+    "title": "The bars",
+    "body": "Each of your choices affects the bars at the top. Swipe this card to see how a single decision can change everything.",
     "choices": {
-      "A": "Continue"
+      "A": "Continue",
+      "B": "Let's go!"
     }
   },
   "intro_003": {

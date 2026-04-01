@@ -623,13 +623,7 @@
       "name_err_taken": "This name is already taken.",
       "name_err_generic": "Unable to save the name.",
       "name_working": "Saving..."
-    },
-    "guide": {
-      "welcome_title": "Welcome",
-      "welcome_body": "Ah, a new ruler to take care of the worlds. Ready to do it?"
-    },
-    "swipe_hint": "Swipe",
-    "balance_hint": "This choice can move the Balance bar."
+    }
   },
   "onesignal": {
     "popup": {
@@ -665,8 +659,7 @@
       "introGoal": "Maintain the balance for {target} choices to earn your first promotion.",
       "nextGoal": "Maintain the balance for {remaining} more choices to reach your next promotion.",
       "promotionNow": "Congratulations. You are now {rank}.",
-      "maxGoal": "You have reached the highest rank in this universe. Now prove you can keep it.",
-      "nextButton": "Next"
+      "maxGoal": "You have reached the highest rank in this universe. Now prove you can keep it."
     },
     "hell_king": {
       "ranks": {

@@ -1,14 +1,18 @@
 {
   "intro_001": {
-    "title": "",
-    "body": "",
-    "choices": {}
+    "title": "Selamat datang",
+    "body": "Ah, seorang pemimpin baru untuk mengurus dunia-dunia ini. Siap melakukannya?",
+    "choices": {
+      "A": "Ya",
+      "B": "Ayo mulai!"
+    }
   },
   "intro_002": {
     "title": "Bar",
-    "body": "Geser kartu ini untuk melanjutkan. Saat dimiringkan, kamu bisa melihat efeknya pada bar.",
+    "body": "Setiap pilihanmu memengaruhi bar di bagian atas. Geser kartu ini untuk melihat bahwa satu keputusan bisa mengubah segalanya.",
     "choices": {
-      "A": "Lanjutkan"
+      "A": "Lanjutkan",
+      "B": "Ayo!"
     }
   },
   "intro_003": {

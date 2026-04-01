@@ -1,14 +1,18 @@
 {
   "intro_001": {
-    "title": "",
-    "body": "",
-    "choices": {}
+    "title": "Bienvenue",
+    "body": "Ah, un nouveau dirigeant pour s’occuper des mondes. Prêt à le faire ?",
+    "choices": {
+      "A": "Oui",
+      "B": "C'est parti !"
+    }
   },
   "intro_002": {
     "title": "Les jauges",
-    "body": "Fais glisser cette carte pour continuer. En basculant, tu peux voir les effets sur les jauges.",
+    "body": "Chacun de tes choix a une répercussion sur les jauges du haut. Fais glisser cette carte pour voir qu’une décision peut tout faire bouger.",
     "choices": {
-      "A": "Continuer"
+      "A": "Continuer",
+      "B": "Allons-y !"
     }
   },
   "intro_003": {

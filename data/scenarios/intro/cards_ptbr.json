@@ -1,14 +1,18 @@
 {
   "intro_001": {
-    "title": "",
-    "body": "",
-    "choices": {}
+    "title": "Bem-vindo",
+    "body": "Ah, um novo governante para cuidar dos mundos. Pronto para isso?",
+    "choices": {
+      "A": "Sim",
+      "B": "Vamos lá!"
+    }
   },
   "intro_002": {
     "title": "As barras",
-    "body": "Deslize este card para continuar. Ao incliná-lo, você pode ver os efeitos nas barras.",
+    "body": "Cada uma das suas escolhas afeta as barras no topo. Deslize este card para ver como uma decisão pode mudar tudo.",
     "choices": {
-      "A": "Continuar"
+      "A": "Continuar",
+      "B": "Vamos!"
     }
   },
   "intro_003": {
