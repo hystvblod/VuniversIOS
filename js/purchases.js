@@ -334,6 +334,10 @@
     START_RUNNING = true;
 
     try {
+      try {
+        window.VRAds?.preloadRewardedAd?.().catch(function () {});
+      } catch (_) {}
+
       if (sbReady()) {
         await ensureAuthStrict();
       }
