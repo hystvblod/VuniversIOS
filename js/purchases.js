@@ -325,6 +325,10 @@
 
   async function start() {
     const { S } = getStoreApi();
+    const STORE_PLATFORM =
+      (window.Capacitor?.getPlatform?.() === "ios")
+        ? S.Platform.APPLE_APPSTORE
+         : S.Platform.GOOGLE_PLAY;
     if (!S) return;
 
     if (START_RUNNING) {
@@ -342,18 +346,18 @@
         const P = window.CdvPurchase?.ProductType;
 
         if (!STORE_REGISTERED) {
-          S.register({ id: "vuniverse_no_ads",     type: P.NON_CONSUMABLE, platform: S.Platform.GOOGLE_PLAY });
-          S.register({ id: "vuniverse_diamond",    type: P.NON_CONSUMABLE, platform: S.Platform.GOOGLE_PLAY });
-          S.register({ id: "vuniverse_coins_1200", type: P.CONSUMABLE,     platform: S.Platform.GOOGLE_PLAY });
-          S.register({ id: "vuniverse_coins_3000", type: P.CONSUMABLE,     platform: S.Platform.GOOGLE_PLAY });
-          S.register({ id: "vuniverse_jetons_12",  type: P.CONSUMABLE,     platform: S.Platform.GOOGLE_PLAY });
-          S.register({ id: "vuniverse_jetons_30",  type: P.CONSUMABLE,     platform: S.Platform.GOOGLE_PLAY });
+          S.register({ id: "vuniverse_no_ads",     type: P.NON_CONSUMABLE, platform: STORE_PLATFORM });
+          S.register({ id: "vuniverse_diamond",    type: P.NON_CONSUMABLE, platform: STORE_PLATFORM });
+          S.register({ id: "vuniverse_coins_1200", type: P.CONSUMABLE,     platform: STORE_PLATFORM });
+          S.register({ id: "vuniverse_coins_3000", type: P.CONSUMABLE,     platform: STORE_PLATFORM });
+          S.register({ id: "vuniverse_jetons_12",  type: P.CONSUMABLE,     platform: STORE_PLATFORM });
+          S.register({ id: "vuniverse_jetons_30",  type: P.CONSUMABLE,     platform: STORE_PLATFORM });
 
           CURRENT_UNLOCKABLE_UNIVERSES.forEach((universeId) => {
             S.register({
               id: universeSku(universeId),
               type: P.NON_CONSUMABLE,
-              platform: S.Platform.GOOGLE_PLAY
+              platform: STORE_PLATFORM
             });
           });
 
@@ -430,7 +434,7 @@
 
       if (!STORE_INITIALIZED) {
         try {
-          await S.initialize([S.Platform.GOOGLE_PLAY]);
+          await S.initialize([STORE_PLATFORM]);
           STORE_INITIALIZED = true;
           STORE_READY = true;
         } catch (e) {
@@ -550,6 +554,10 @@
     } catch (_) {}
 
     const { S } = getStoreApi();
+    const STORE_PLATFORM =
+      (window.Capacitor?.getPlatform?.() === "ios")
+        ? S.Platform.APPLE_APPSTORE
+         : S.Platform.GOOGLE_PLAY;
     if (!S) {
       setText("shop-status", t("shop.status.iap_unavailable_web", "⚠️ IAP indisponible sur le web."));
       emit("vr:iap_unavailable", { productId: String(productId || "") });
@@ -564,7 +572,7 @@
       try { await S.update(); STORE_READY = true; } catch (_) {}
     }
 
-    const p = S.get ? S.get(productId, S.Platform.GOOGLE_PLAY) : (S.products?.byId?.[productId]);
+    const p = S.get ? S.get(productId, STORE_PLATFORM) : (S.products?.byId?.[productId]);
     if (!p) {
       setText(
         "shop-status",
