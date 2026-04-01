@@ -6638,10 +6638,16 @@ window.VRGuideMentor = {
     if (!universeId || universeId === "intro") return;
     if (this.hasSeen(universeId, "intro")) return;
 
+    const universeTitle = this._t(`universe.${universeId}.title`, "");
+    const rankPrefix = this._t("game.rank", "Rang");
+    const currentRank = getRankLabel(universeId, 0);
+
     const lines = [
+      universeTitle,
       this._t(this._messageKey(universeId, "intro"), ""),
+      `${rankPrefix} : ${currentRank}`,
       this._t("guideMentor.common.introGoal", "", { target: 20 })
-    ];
+    ].filter(Boolean);
 
     this.show(universeId, lines);
     this.markSeen(universeId, "intro");
@@ -6714,6 +6720,13 @@ window.VRGame = {
       lang = localStorage.getItem("vuniverse_lang") || localStorage.getItem("vrealms_lang") || "en";
     }
 
+    let hadSavedBeforeInit = false;
+    try {
+      hadSavedBeforeInit = !!window.VRSave?.load?.(universeId);
+    } catch (_) {
+      hadSavedBeforeInit = false;
+    }
+
     try {
       await window.VREngine.init(universeId, lang);
     } catch (e) {
@@ -6721,9 +6734,7 @@ window.VRGame = {
     }
 
     try {
-      const saved = window.VRSave?.load?.(universeId);
-      const alreadyRunning = !!saved;
-      if (!alreadyRunning) {
+      if (!hadSavedBeforeInit) {
         setTimeout(() => {
           window.VRGuideMentor?.maybeShowIntro?.(universeId);
         }, 450);
