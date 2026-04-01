@@ -7091,6 +7091,10 @@ function hideBootOverlay() {
     showBootOverlay();
 
     try {
+      try {
+        window.VRAds?.preloadRewardedAd?.().catch(function () {});
+      } catch (_) {}
+
       if (window.VRGame && typeof window.VRGame.onUniverseSelected === "function") {
         await window.VRGame.onUniverseSelected(universeId);
         await preloadCurrentUniverseVisuals();
