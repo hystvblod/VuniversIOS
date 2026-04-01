@@ -6994,11 +6994,29 @@ async function preloadCurrentUniverseVisuals() {
   });
 }
 
+function getBootOverlayLabel() {
+  try {
+    const txt = window.VRI18n?.t?.("ui.loading");
+    if (txt && txt !== "ui.loading") return txt;
+  } catch (_) {}
+  return "Loading...";
+}
+
 function showBootOverlay() {
   try {
     document.body.classList.remove("vr-ready");
+
     const overlay = document.getElementById("vr-boot-overlay");
-    if (overlay) overlay.style.display = "";
+    const textEl = document.getElementById("vr-boot-overlay-text");
+
+    if (textEl) {
+      textEl.textContent = getBootOverlayLabel();
+    }
+
+    if (overlay) {
+      overlay.style.display = "";
+      overlay.setAttribute("aria-hidden", "false");
+    }
   } catch (_) {}
 }
 
@@ -7008,9 +7026,11 @@ function hideBootOverlay() {
 
     const overlay = document.getElementById("vr-boot-overlay");
     if (overlay) {
+      overlay.setAttribute("aria-hidden", "true");
+
       setTimeout(() => {
         overlay.style.display = "none";
-      }, 220);
+      }, 280);
     }
   } catch (_) {}
 }

@@ -563,10 +563,95 @@
     .vr-update-btn:active{
       transform: scale(.99);
     }
+
+#vr-index-loading-overlay{
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at top, #f6e7cf 0, #1b6688 62%, #03279e 100%);
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .42s ease, visibility .42s ease;
+}
+
+#vr-index-loading-overlay.is-hidden{
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.vr-index-loading-inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(12px, 3vw, 18px);
+  text-align: center;
+  transform: translateY(-2vh);
+}
+
+.vr-index-loading-logo{
+  width: min(72vw, 360px);
+  max-height: clamp(86px, 18vw, 150px);
+  height: auto;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 12px 30px rgba(0,0,0,.42));
+  animation: vrIndexLogoPulse 2.8s ease-in-out infinite;
+  transform-origin: center center;
+  will-change: transform, opacity;
+}
+
+.vr-index-loading-text{
+  color: #ffffff;
+  font-weight: 800;
+  font-size: clamp(15px, 3.8vw, 20px);
+  line-height: 1.2;
+  letter-spacing: .2px;
+  text-shadow: 0 2px 12px rgba(0,0,0,.45);
+  opacity: .96;
+  min-height: 1.2em;
+}
+
+@keyframes vrIndexLogoPulse{
+  0%{
+    transform: scale(0.96);
+    opacity: .92;
+  }
+  50%{
+    transform: scale(1.03);
+    opacity: 1;
+  }
+  100%{
+    transform: scale(0.96);
+    opacity: .92;
+  }
+}
   </style>
 </head>
 
 <body class="vr-body">
+
+  <div id="vr-index-loading-overlay" aria-hidden="false">
+    <div class="vr-index-loading-inner">
+      <img
+        src="assets/img/ui/logo_vuniverse.webp"
+        alt=""
+        class="vr-index-loading-logo"
+        draggable="false"
+      />
+      <div
+        id="vr-index-loading-text"
+        class="vr-index-loading-text"
+        data-i18n="ui.loading"
+      >Loading...</div>
+    </div>
+  </div>
 
   <main class="vr-main">
 
@@ -2302,6 +2387,38 @@
       close: vrAdminClosePopup
     };
   })();
+  </script>
+
+  <script>
+    (function () {
+      const MIN_INDEX_SPLASH_MS = 900;
+      const splashStartedAt = Date.now();
+
+      function hideIndexLoadingOverlay() {
+        const overlay = document.getElementById("vr-index-loading-overlay");
+        if (!overlay || overlay.dataset.hidden === "1") return;
+
+        const elapsed = Date.now() - splashStartedAt;
+        const wait = Math.max(0, MIN_INDEX_SPLASH_MS - elapsed);
+
+        setTimeout(() => {
+          overlay.classList.add("is-hidden");
+          overlay.dataset.hidden = "1";
+          overlay.setAttribute("aria-hidden", "true");
+
+          setTimeout(() => {
+            try { overlay.remove(); } catch (_) {}
+          }, 500);
+        }, wait);
+      }
+
+      if (document.readyState === "complete") {
+        hideIndexLoadingOverlay();
+      } else {
+        window.addEventListener("load", hideIndexLoadingOverlay, { once: true });
+        setTimeout(hideIndexLoadingOverlay, 2200);
+      }
+    })();
   </script>
 
 </body>
