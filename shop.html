@@ -40,7 +40,7 @@
       grid-template-columns: 44px minmax(0,1fr) 44px;
       align-items:center;
       gap:12px;
-      padding: calc(8px + env(safe-area-inset-top)) 12px 6px;
+      padding: calc(16px + env(safe-area-inset-top)) 12px 6px;
     }
 
     .vr-top-slot{
@@ -622,7 +622,7 @@ body.page-shop .vr-top-actions{
   grid-template-columns: var(--top-btn) minmax(0,1fr) var(--top-btn);
   gap: var(--top-gap);
   padding:
-    calc(clamp(8px, 1vw, 12px) + env(safe-area-inset-top))
+    calc(clamp(16px, 2vw, 20px) + env(safe-area-inset-top))
     var(--page-pad-x)
     clamp(6px, .8vw, 10px);
 }
@@ -1003,7 +1003,7 @@ body.page-shop .vr-cos-dot{
               type="button"
               data-iap="vuniverse_coins_1200"
               data-product-id="vuniverse_coins_1200">
-              <span class="vr-iap-label" data-i18n="shop.unavailable"></span>
+              <span class="vr-iap-label" data-i18n="shop.loading"></span>
             </button>
           </div>
 

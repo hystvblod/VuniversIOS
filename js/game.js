@@ -6638,10 +6638,16 @@ window.VRGuideMentor = {
     if (!universeId || universeId === "intro") return;
     if (this.hasSeen(universeId, "intro")) return;
 
+    const universeTitle = this._t(`universe.${universeId}.title`, "");
+    const rankPrefix = this._t("game.rank", "Rang");
+    const currentRank = getRankLabel(universeId, 0);
+
     const lines = [
+      universeTitle,
       this._t(this._messageKey(universeId, "intro"), ""),
+      `${rankPrefix} : ${currentRank}`,
       this._t("guideMentor.common.introGoal", "", { target: 20 })
-    ];
+    ].filter(Boolean);
 
     this.show(universeId, lines);
     this.markSeen(universeId, "intro");
@@ -6714,6 +6720,13 @@ window.VRGame = {
       lang = localStorage.getItem("vuniverse_lang") || localStorage.getItem("vrealms_lang") || "en";
     }
 
+    let hadSavedBeforeInit = false;
+    try {
+      hadSavedBeforeInit = !!window.VRSave?.load?.(universeId);
+    } catch (_) {
+      hadSavedBeforeInit = false;
+    }
+
     try {
       await window.VREngine.init(universeId, lang);
     } catch (e) {
@@ -6721,9 +6734,7 @@ window.VRGame = {
     }
 
     try {
-      const saved = window.VRSave?.load?.(universeId);
-      const alreadyRunning = !!saved;
-      if (!alreadyRunning) {
+      if (!hadSavedBeforeInit) {
         setTimeout(() => {
           window.VRGuideMentor?.maybeShowIntro?.(universeId);
         }, 450);
@@ -6983,11 +6994,29 @@ async function preloadCurrentUniverseVisuals() {
   });
 }
 
+function getBootOverlayLabel() {
+  try {
+    const txt = window.VRI18n?.t?.("ui.loading");
+    if (txt && txt !== "ui.loading") return txt;
+  } catch (_) {}
+  return "Loading...";
+}
+
 function showBootOverlay() {
   try {
     document.body.classList.remove("vr-ready");
+
     const overlay = document.getElementById("vr-boot-overlay");
-    if (overlay) overlay.style.display = "";
+    const textEl = document.getElementById("vr-boot-overlay-text");
+
+    if (textEl) {
+      textEl.textContent = getBootOverlayLabel();
+    }
+
+    if (overlay) {
+      overlay.style.display = "";
+      overlay.setAttribute("aria-hidden", "false");
+    }
   } catch (_) {}
 }
 
@@ -6997,9 +7026,11 @@ function hideBootOverlay() {
 
     const overlay = document.getElementById("vr-boot-overlay");
     if (overlay) {
+      overlay.setAttribute("aria-hidden", "true");
+
       setTimeout(() => {
         overlay.style.display = "none";
-      }, 220);
+      }, 280);
     }
   } catch (_) {}
 }
@@ -7060,6 +7091,10 @@ function hideBootOverlay() {
     showBootOverlay();
 
     try {
+      try {
+        window.VRAds?.preloadRewardedAd?.().catch(function () {});
+      } catch (_) {}
+
       if (window.VRGame && typeof window.VRGame.onUniverseSelected === "function") {
         await window.VRGame.onUniverseSelected(universeId);
         await preloadCurrentUniverseVisuals();

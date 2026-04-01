@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Vuniverse - Partie</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <link rel="stylesheet" href="css/style.css" />
 
   <style>
@@ -21,20 +21,90 @@
       position: fixed;
       inset: 0;
       z-index: 999999;
-      background: #0b1220;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background:
+        radial-gradient(circle at top, #f6e7cf 0, #1b6688 62%, #03279e 100%);
       opacity: 1;
-      transition: opacity .18s ease;
+      visibility: visible;
+      transition: opacity .28s ease, visibility .28s ease;
       pointer-events: none;
     }
 
     body.vr-ready #vr-boot-overlay{
       opacity: 0;
+      visibility: hidden;
+    }
+
+    .vr-boot-overlay-inner{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(12px, 3vw, 18px);
+      text-align: center;
+      transform: translateY(-2vh);
+    }
+
+    .vr-boot-overlay-logo{
+      width: min(84vw, 460px);
+      max-height: clamp(120px, 24vw, 220px);
+      height: auto;
+      object-fit: contain;
+      display: block;
+      filter: drop-shadow(0 14px 34px rgba(0,0,0,.46));
+      animation: vrGameLogoPulse 2.15s ease-in-out infinite;
+      transform-origin: center center;
+      will-change: transform, opacity;
+    }
+
+    .vr-boot-overlay-text{
+      color: #ffffff;
+      font-weight: 800;
+      font-size: clamp(15px, 3.8vw, 20px);
+      line-height: 1.2;
+      letter-spacing: .2px;
+      text-shadow: 0 2px 12px rgba(0,0,0,.45);
+      opacity: .96;
+      min-height: 1.2em;
+      max-width: min(86vw, 520px);
+    }
+
+    @keyframes vrGameLogoPulse{
+      0%{
+        transform: scale(0.88);
+        opacity: .88;
+      }
+      50%{
+        transform: scale(1.12);
+        opacity: 1;
+      }
+      100%{
+        transform: scale(0.88);
+        opacity: .88;
+      }
     }
   </style>
 </head>
 
 <body class="vr-body vr-body-game" data-page="game">
-  <div id="vr-boot-overlay" aria-hidden="true"></div>
+  <div id="vr-boot-overlay" aria-hidden="true">
+    <div class="vr-boot-overlay-inner">
+      <img
+        src="assets/img/ui/logo_vuniverse.webp"
+        alt=""
+        class="vr-boot-overlay-logo"
+        draggable="false"
+      />
+      <div
+        id="vr-boot-overlay-text"
+        class="vr-boot-overlay-text"
+        data-i18n="ui.loading"
+      >Loading...</div>
+    </div>
+  </div>
 
   <a class="vr-icon-button" href="index.html" aria-label="Accueil"
      style="position:fixed; top:calc(10px + env(safe-area-inset-top)); left:14px; z-index:100002; pointer-events:auto;">

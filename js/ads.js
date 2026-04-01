@@ -1086,6 +1086,7 @@
 
   window.VRAds.showInterstitialAd = showInterstitialAd;
   window.VRAds.showRewardedAd = showRewardedAd;
+  window.VRAds.preloadRewardedAd = preloadRewardedAd;
   window.VRAds.incrementActionsCount = incrementActionsCount;
   window.VRAds.markAction = incrementActionsCount;
   window.VRAds.getActionsCount = getActionsCount;
