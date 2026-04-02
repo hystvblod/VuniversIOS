@@ -281,13 +281,26 @@
     }
   }
 
+  function parseMaybeBase64Json(x) {
+    if (!x || typeof x !== "string") return null;
+    try { return JSON.parse(x); } catch (_) {}
+    try { return JSON.parse(atob(x)); } catch (_) {}
+    return null;
+  }
+
   function getTxIdFromTx(tx) {
     try {
+      if (tx?.transaction?.purchaseToken) return tx.transaction.purchaseToken;
+    } catch (_) {}
+
+    try {
       const rec = tx?.transaction?.receipt || tx?.receipt;
-      const r = typeof rec === "string" ? parseMaybeJson(rec) : rec;
+      const r = typeof rec === "string" ? parseMaybeBase64Json(rec) : rec;
+
+      if (r?.purchaseToken) return r.purchaseToken;
 
       if (r?.payload) {
-        const p = typeof r.payload === "string" ? parseMaybeJson(r.payload) : r.payload;
+        const p = typeof r.payload === "string" ? parseMaybeBase64Json(r.payload) : r.payload;
         if (p?.purchaseToken) return p.purchaseToken;
       }
     } catch (_) {}
@@ -300,6 +313,14 @@
       tx?.id ||
       null
     );
+  }
+
+  function simpleHash(str) {
+    const s = String(str || "");
+    let h = 5381;
+    let i = s.length;
+    while (i) h = (h * 33) ^ s.charCodeAt(--i);
+    return (h >>> 0).toString(16);
   }
 
   function getProductIdFromTx(tx) {
@@ -365,6 +386,28 @@
     return { S, PLATFORM, PT };
   }
 
+  function refreshPricesFromStore(S, PLATFORM) {
+    try {
+      Object.keys(SKU).forEach((id) => {
+        const p = S.get ? S.get(id, PLATFORM) : (S.products?.byId?.[id]);
+        const price =
+          p?.pricing?.price ||
+          p?.price ||
+          p?.pricing?.formattedPrice ||
+          p?.pricing?.priceString ||
+          null;
+
+        if (price) {
+          PRICES_BY_ID[id] = String(price);
+        }
+      });
+
+      updateDisplayedPrices();
+    } catch (e) {
+      warn("refreshPricesFromStore failed", e?.message || e);
+    }
+  }
+
   async function replayLocalPending() {
     const pendings = readJson(PENDING_KEY, []);
     if (!pendings.length) return;
@@ -389,7 +432,19 @@
 
   async function start() {
     const { S, PLATFORM, PT } = getStoreApi();
-    if (!S || !PLATFORM || !PT) return;
+    if (!S || !PLATFORM || !PT) {
+      let tries = 0;
+      const timer = setInterval(() => {
+        tries++;
+        const g = getStoreApi();
+        if (g.S && g.PLATFORM && g.PT) {
+          clearInterval(timer);
+          start().catch((e) => warn("start retry failed", e?.message || e));
+        }
+        if (tries > 60) clearInterval(timer);
+      }, 600);
+      return;
+    }
 
     if (START_RUNNING) {
       log("start skipped: already running");
@@ -446,8 +501,17 @@
             } catch (_) {}
           })
           .approved(async (tx) => {
-            const txId = getTxIdFromTx(tx);
+            let txId = getTxIdFromTx(tx);
             const productId = getProductIdFromTx(tx);
+
+            if (!txId) {
+              txId = "fallback:" + (
+                tx?.orderId ||
+                tx?.transactionId ||
+                simpleHash(JSON.stringify(tx) || String(Date.now()))
+              );
+              log("approved without purchaseToken, fallback txId =", txId);
+            }
 
             if (!productId) return;
 
@@ -507,6 +571,28 @@
         }
       }
 
+      if (typeof S.ready === "function") {
+        try {
+          S.ready(async () => {
+            STORE_READY = true;
+            refreshPricesFromStore(S, PLATFORM);
+
+            try {
+              const noAdsProduct = S.get ? S.get("vuniverse_no_ads", PLATFORM) : null;
+              if (noAdsProduct?.owned) {
+                try { await window.VRAds?.refreshNoAds?.(); } catch (_) {}
+                try { await refreshNoAdsUI(); } catch (_) {}
+              }
+            } catch (_) {}
+
+            try { await replayLocalPending(); } catch (_) {}
+            try { S.update && await S.update(); } catch (_) {}
+          });
+        } catch (e) {
+          warn("store ready hook failed", e?.message || e);
+        }
+      }
+
       try {
         await S.update();
         STORE_READY = true;
@@ -514,7 +600,7 @@
         warn("store update failed", e?.message || e);
       }
 
-      try { updateDisplayedPrices(); } catch (_) {}
+      try { refreshPricesFromStore(S, PLATFORM); } catch (_) {}
       try { await refreshNoAdsUI(); } catch (_) {}
 
     } finally {
