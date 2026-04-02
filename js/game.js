@@ -7092,7 +7092,7 @@ function hideBootOverlay() {
 
     try {
       try {
-        window.VRAds?.preloadRewardedAd?.().catch(function () {});
+        window.VRAds?.scheduleRewardedPreload?.(0);
       } catch (_) {}
 
       if (window.VRGame && typeof window.VRGame.onUniverseSelected === "function") {

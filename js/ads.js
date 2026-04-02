@@ -101,6 +101,7 @@
 
   var rewardedReady = false;
   var rewardedLoading = null;
+  var rewardedPreloadTimer = null;
 
   window.__ads_active = false;     // flag global anti-back/anti-overlays côté app
   var _gameRewardSeenThisRun = false;
@@ -411,7 +412,13 @@
   // Quand l’app revient au premier plan : on nettoie SI pas rewarded en cours
   document.addEventListener("visibilitychange", function () {
     if (!document.hidden) {
-      if (!(currentAdKind === "rewarded" && isRewardShowing)) postAdCleanup();
+      if (!(currentAdKind === "rewarded" && isRewardShowing)) {
+        postAdCleanup();
+      }
+
+      if (!(currentAdKind === "rewarded" && isRewardShowing)) {
+        scheduleRewardedPreload(250);
+      }
     }
   });
   document.addEventListener("visibilitychange", function () {
@@ -491,9 +498,7 @@
           diag("Rewarded dismissed");
           rewardedReady = false;
 
-          setTimeout(function () {
-            preloadRewardedAd().catch(function () {});
-          }, 300);
+          scheduleRewardedPreload(300);
 
           if (currentAdKind === "rewarded") {
             isRewardShowing = false;
@@ -506,9 +511,7 @@
           diag("Rewarded failed to show");
           rewardedReady = false;
 
-          setTimeout(function () {
-            preloadRewardedAd().catch(function () {});
-          }, 800);
+          scheduleRewardedPreload(800);
 
           if (currentAdKind === "rewarded") {
             isRewardShowing = false;
@@ -550,9 +553,7 @@
 
       registerAdEventsOnce();
 
-      setTimeout(function () {
-        preloadRewardedAd().catch(function () {});
-      }, 700);
+      scheduleRewardedPreload(700);
     } catch (_) {}
   })();
 
@@ -585,6 +586,33 @@
     } catch (_) {
       rewardedLoading = null;
       rewardedReady = false;
+      return false;
+    }
+  }
+
+  function scheduleRewardedPreload(delayMs) {
+    try {
+      var d = Math.max(0, parseInt(delayMs || 0, 10) || 0);
+
+      if (!isNative()) return false;
+      if (rewardedReady) return true;
+      if (rewardedLoading) return true;
+
+      if (rewardedPreloadTimer) {
+        clearTimeout(rewardedPreloadTimer);
+        rewardedPreloadTimer = null;
+      }
+
+      rewardedPreloadTimer = setTimeout(function () {
+        rewardedPreloadTimer = null;
+
+        if (rewardedReady || rewardedLoading) return;
+
+        preloadRewardedAd().catch(function () {});
+      }, d);
+
+      return true;
+    } catch (_) {
       return false;
     }
   }
@@ -823,7 +851,7 @@
         __showLock = false;
 
         try {
-          preloadRewardedAd().catch(function () {});
+          scheduleRewardedPreload(500);
         } catch (_) {}
 
         return false;
@@ -876,7 +904,7 @@
       __showLock = false;
 
       try {
-        preloadRewardedAd().catch(function () {});
+        scheduleRewardedPreload(500);
       } catch (_) {}
 
       return false;
@@ -1087,6 +1115,9 @@
   window.VRAds.showInterstitialAd = showInterstitialAd;
   window.VRAds.showRewardedAd = showRewardedAd;
   window.VRAds.preloadRewardedAd = preloadRewardedAd;
+  window.VRAds.scheduleRewardedPreload = scheduleRewardedPreload;
+  window.VRAds.isRewardedReady = function () { return !!rewardedReady; };
+  window.VRAds.isRewardedLoading = function () { return !!rewardedLoading; };
   window.VRAds.incrementActionsCount = incrementActionsCount;
   window.VRAds.markAction = incrementActionsCount;
   window.VRAds.getActionsCount = getActionsCount;
