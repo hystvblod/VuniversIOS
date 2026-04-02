@@ -5841,10 +5841,20 @@ body.vr-body-game[data-universe] .vr-gauge-label{
    POPUP PERSONNALISATION
    ========================================================== */
 
+#vr-customize-popup{
+  align-items: flex-start;
+  justify-content: center;
+  padding:
+    calc(env(safe-area-inset-top) + 96px)
+    18px
+    calc(env(safe-area-inset-bottom) + 18px);
+  box-sizing: border-box;
+}
+
 #vr-customize-popup .vr-popup-inner{
   position: relative;
   width: min(430px, 94vw);
-  max-height: min(86vh, 820px);
+  max-height: calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 114px);
   padding: 16px 14px 14px;
   overflow: auto;
   box-sizing: border-box;
@@ -6050,8 +6060,16 @@ body.vr-body-game[data-universe] .vr-gauge-label{
 }
 
 @media (max-width: 480px){
+  #vr-customize-popup{
+    padding:
+      calc(env(safe-area-inset-top) + 88px)
+      10px
+      calc(env(safe-area-inset-bottom) + 12px);
+  }
+
   #vr-customize-popup .vr-popup-inner{
     width: min(96vw, 430px);
+    max-height: calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 100px);
     padding: 14px 10px 12px;
   }
 
