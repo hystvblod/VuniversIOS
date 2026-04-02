@@ -7,7 +7,7 @@
   const LOCAL_INVITER_CREDITS_KEY = "vuniverse_referral_local_inviter_credits_v1";
   const LOCAL_INVITER_LIMIT = 5;
 
-  const PLAY_URL_BASE = "https://play.google.com/store/apps/details?id=com.vboldstudio.vuniverse";
+  const INVITE_BASE_URL = "https://hystvblod.github.io/vuniverse-invite/invite.html";
 
   function t(key, fallback) {
     try {
@@ -84,8 +84,7 @@
   }
 
   function buildInviteUrl(uid) {
-    const raw = "inviter_uuid=" + encodeURIComponent(uid);
-    return PLAY_URL_BASE + "&referrer=" + encodeURIComponent(raw);
+    return INVITE_BASE_URL + "?inviter_uuid=" + encodeURIComponent(uid);
   }
 
   async function shareInvite() {
