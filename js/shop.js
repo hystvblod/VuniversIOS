@@ -1059,6 +1059,14 @@
       renderShopView({ force: true });
     });
 
+    window.addEventListener("vr:iap_credited", function () {
+      if (!isShopPage()) return;
+
+      setTimeout(function () {
+        window.location.reload();
+      }, 350);
+    });
+
     window.addEventListener("focus", function () {
       scheduleResumeRefresh();
     });
