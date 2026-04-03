@@ -208,6 +208,10 @@
       "pickGauge": {
         "title": "Eine Anzeige wählen",
         "text": "Klicke auf eine Anzeige, um sie auf 50 % zu setzen."
+      },
+      "shop": {
+        "title": "Jetons kaufen",
+        "text": "Shop öffnen"
       }
     },
     "toast": {
@@ -218,7 +222,9 @@
       "undo_fail": "Zurückgehen nicht möglich",
       "undo_done": "Zurück -3 ausgeführt",
       "gauge_set_50": "Anzeige auf 50 % gesetzt",
-      "peek_on": "Peek aktiviert: nächste 15 Entscheidungen"
+      "peek_on": "Peek aktiviert: nächste 15 Entscheidungen",
+      "no_tokens_offer": "Du hast keine Jetons mehr. Sieh dir eine Werbung an, um 1 Jeton zu erhalten, oder öffne den Shop.",
+      "gauge_warning": "Achtung, eine Leiste ist fast am Limit. Nutze bei Bedarf einen Jeton."
     },
     "undo": {
       "fail": {
@@ -340,7 +346,8 @@
       "double_gain_sub": "Belohnte Werbung ansehen",
       "reward_claimed": "Verdoppelte Belohnung gutgeschrieben",
       "reward_claimed_sub": "Du kannst jetzt neu starten oder zurückgehen",
-      "revive_token": "Mit 1 Token wiederbeleben"
+      "revive_token": "Mit 1 Token wiederbeleben",
+      "revive_ad": "Mit Werbung wiederbeleben"
     },
     "year_label": "Jahr"
   },

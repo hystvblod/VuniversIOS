@@ -270,10 +270,20 @@
           <div class="vr-token-view" data-token-view="menu">
             <h3 class="vr-popup-title" data-i18n="token.popup.title"></h3>
 
-            <button class="vr-card vr-token-card vr-token-card-big" type="button" data-token-action="adtoken">
+            <button class="vr-card vr-token-card vr-token-card-big vr-token-ad-card vr-soft-pulse" type="button" data-token-action="adtoken">
               <div class="vr-card-content">
-                <h4 class="vr-card-title" data-i18n="token.popup.ad.title"></h4>
-                <p class="vr-card-text" data-i18n="token.popup.ad.text"></p>
+                <div class="vr-token-reward-top">
+                  <img src="assets/img/ui/jeton.webp" alt="" draggable="false">
+                  <span class="vr-token-reward-amount">+1</span>
+                </div>
+                <p class="vr-token-reward-sub" data-i18n="token.popup.ad.title"></p>
+              </div>
+            </button>
+
+            <button class="vr-card vr-token-card" type="button" data-token-action="open_shop">
+              <div class="vr-card-content">
+                <h4 class="vr-card-title" data-i18n="token.popup.shop.title"></h4>
+                <p class="vr-card-text" data-i18n="token.popup.shop.text"></p>
               </div>
             </button>
 

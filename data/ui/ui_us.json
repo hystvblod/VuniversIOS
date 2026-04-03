@@ -208,6 +208,10 @@
       "pickGauge": {
         "title": "Choose a gauge",
         "text": "Click a gauge to set it to 50%."
+      },
+      "shop": {
+        "title": "Buy tokens",
+        "text": "Open the shop"
       }
     },
     "toast": {
@@ -218,7 +222,9 @@
       "undo_fail": "Unable to go back",
       "undo_done": "Back -3 completed",
       "gauge_set_50": "Gauge set to 50%",
-      "peek_on": "Peek enabled: next 15 decisions"
+      "peek_on": "Peek enabled: next 15 decisions",
+      "no_tokens_offer": "You have no tokens left. Watch an ad to earn 1 token or open the shop.",
+      "gauge_warning": "Warning, a gauge is close to the limit. Use a token if needed."
     },
     "undo": {
       "fail": {
@@ -340,7 +346,8 @@
       "double_gain_sub": "Watch a rewarded ad",
       "reward_claimed": "Doubled reward credited",
       "reward_claimed_sub": "You can now restart or return",
-      "revive_token": "Revive with 1 token"
+      "revive_token": "Revive with 1 token",
+      "revive_ad": "Revive with an ad"
     },
     "year_label": "Year"
   },

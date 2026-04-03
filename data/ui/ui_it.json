@@ -207,6 +207,10 @@
       "pickGauge": {
         "title": "Scegli una barra",
         "text": "Clicca su una barra per riportarla al 50%."
+      },
+      "shop": {
+        "title": "Acquista gettoni",
+        "text": "Apri il negozio"
       }
     },
     "toast": {
@@ -217,7 +221,9 @@
       "undo_fail": "Impossibile tornare indietro",
       "undo_done": "Ritorno -3 effettuato",
       "gauge_set_50": "Barra riportata al 50%",
-      "peek_on": "Peek attivato: prossime 15 decisioni"
+      "peek_on": "Peek attivato: prossime 15 decisioni",
+      "no_tokens_offer": "Non hai più gettoni. Guarda una pubblicità per ottenere 1 gettone oppure apri il negozio.",
+      "gauge_warning": "Attenzione, una barra è quasi al limite. Usa un gettone se necessario."
     },
     "undo": {
       "fail": {
@@ -339,7 +345,8 @@
       "double_gain_sub": "Guarda una pubblicità con premio",
       "reward_claimed": "Guadagno raddoppiato accreditato",
       "reward_claimed_sub": "Ora puoi ricominciare o tornare",
-      "revive_token": "Rivivi con 1 gettone"
+      "revive_token": "Rivivi con 1 gettone",
+      "revive_ad": "Rivivi con una pubblicità"
     },
     "year_label": "Anno"
   },

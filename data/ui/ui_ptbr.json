@@ -207,6 +207,10 @@
       "pickGauge": {
         "title": "Escolher um medidor",
         "text": "Clique em um medidor para defini-lo em 50%."
+      },
+      "shop": {
+        "title": "Comprar fichas",
+        "text": "Abrir a loja"
       }
     },
     "toast": {
@@ -217,7 +221,9 @@
       "undo_fail": "Não foi possível voltar atrás",
       "undo_done": "Retorno -3 realizado",
       "gauge_set_50": "Medidor definido em 50%",
-      "peek_on": "Peek ativado: próximas 15 decisões"
+      "peek_on": "Peek ativado: próximas 15 decisões",
+      "no_tokens_offer": "Você ficou sem fichas. Assista a um anúncio para ganhar 1 ficha ou abra a loja.",
+      "gauge_warning": "Atenção, uma barra está quase no limite. Use uma ficha se precisar."
     },
     "undo": {
       "fail": {
@@ -339,7 +345,8 @@
       "double_gain_sub": "Assistir a um anúncio recompensado",
       "reward_claimed": "Ganho dobrado creditado",
       "reward_claimed_sub": "Agora você pode recomeçar ou voltar",
-      "revive_token": "Reviver com 1 ficha"
+      "revive_token": "Reviver com 1 ficha",
+      "revive_ad": "Reviver com anúncio"
     },
     "year_label": "Ano"
   },

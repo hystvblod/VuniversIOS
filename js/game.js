@@ -752,6 +752,7 @@ body.vr-peek-mode .vr-gauge-preview{
         if (previewEl) previewEl.style.setProperty("--vr-pct", "0%");
       });
 
+      try { window.VRTokenUI?.maybeOfferCriticalGauge?.(); } catch (_) {}
       this._clearPeekClasses();
     },
 
@@ -1438,25 +1439,27 @@ body.vr-peek-mode .vr-gauge-preview{
   }
 
   #vr-ending-overlay .vr-ending-double{
-    position:relative;
-    overflow:hidden;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    gap:1px;
-    width:100%;
-    min-height:42px;
-    border:1px solid rgba(255,255,255,.14);
-    border-radius:14px;
-    padding:5px 10px;
-    background:linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.05));
-    box-shadow:0 10px 20px rgba(0,0,0,.24);
-    color:#fff;
-    font:inherit;
-    cursor:pointer;
-    margin-top:2px;
-  }
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:3px;
+  width:100%;
+  min-height:50px;
+  height:50px;
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:14px;
+  padding:8px 12px;
+  box-sizing:border-box;
+  background:linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.05));
+  box-shadow:0 10px 20px rgba(0,0,0,.24);
+  color:#fff;
+  font:inherit;
+  cursor:pointer;
+  margin:4px 0 10px;
+}
 
   #vr-ending-overlay .vr-ending-double::before{
     content:"";
@@ -1494,15 +1497,15 @@ body.vr-peek-mode .vr-gauge-preview{
   }
 
   #vr-ending-overlay .vr-ending-double-sub{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:5px;
-    font-size:12px;
-    font-weight:900;
-    line-height:1.02;
-    opacity:1;
-  }
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:7px;
+  font-size:14px;
+  font-weight:900;
+  line-height:1.05;
+  opacity:1;
+}
 
   #vr-ending-overlay .vr-ending-double-sub img{
     width:14px;
@@ -1532,9 +1535,9 @@ body.vr-peek-mode .vr-gauge-preview{
   }
 
   @keyframes vrEndingPulse{
-    0%,100%{ opacity:1; transform:scale(1); filter:brightness(1); }
-    50%{ opacity:.72; transform:scale(1.02); filter:brightness(1.28); }
-  }
+  0%,100%{ opacity:1; transform:scale(1); filter:brightness(1); }
+  50%{ opacity:.82; transform:scale(1.05); filter:brightness(1.34); }
+}
 
   #vr-ending-overlay #ending-revive-btn,
   #vr-ending-overlay #ending-restart-btn,
@@ -2101,6 +2104,7 @@ body.vr-peek-mode .vr-gauge-preview{
       window.VRState.lastDeath = null;
       window.VRState.reignYears = 0;
       window.VRState.cardsPlayed = 0;
+      try { window.VRTokenUI?.resetRunHints?.(); } catch (_) {}
 
       this._resetGaugesToInitial();
 
@@ -2416,14 +2420,25 @@ body.vr-peek-mode .vr-gauge-preview{
         if (rewardValueEl) rewardValueEl.textContent = `+${safeAmount}`;
       };
 
+      const getLiveTokenCount = () => {
+        try {
+          return Math.max(
+            0,
+            asInt(
+              window.VUserData?.getJetons?.(),
+              window.VREngine?._uiTokens || 0
+            )
+          );
+        } catch (_) {
+          return Math.max(0, asInt(window.VREngine?._uiTokens, 0));
+        }
+      };
+
       const syncEndingButtons = () => {
         const baseReward = Math.max(0, asInt(this._pendingEndReward, 0));
         const useFlat100 = baseReward < 100;
-
-        // Ce qu'on affiche dans le bouton :
-        // - si base < 100 : on affiche seulement le bonus pub +100
-        // - sinon : on affiche le total doublé
         const previewLabelAmount = useFlat100 ? 100 : Math.max(0, baseReward * 2);
+        const hasTokenForRevive = getLiveTokenCount() > 0;
 
         if (doubleBtn) {
           if (this._pendingEndClaimed) {
@@ -2455,7 +2470,9 @@ body.vr-peek-mode .vr-gauge-preview{
         }
 
         if (reviveBtn) {
-          reviveBtn.textContent = t("game.ending.revive_token", "");
+          reviveBtn.textContent = hasTokenForRevive
+            ? t("game.ending.revive_token", "")
+            : t("game.ending.revive_ad", "");
           reviveBtn.disabled = !!this._reviveUsed;
           reviveBtn.style.display = this._pendingEndClaimed ? "none" : "";
         }
@@ -2519,27 +2536,46 @@ body.vr-peek-mode .vr-gauge-preview{
 
           try { reviveBtn.disabled = true; } catch (_) {}
 
-          const ok = await (window.VUserData?.spendJetons?.(1) || Promise.resolve(false));
-          if (!ok) {
-            try { window.showToast?.(t("token.toast.no_tokens", "")); } catch (_) {}
-            syncEndingButtons();
+          const finishRevive = async () => {
+            this._clearPendingEndState();
+            window.VREndings.hideEnding();
+
+            const did = this.reviveSecondChance();
+
+            if (did) {
+              try {
+                await window.VRAnalytics?.log?.("game_revive_used", {
+                  universe_id: String(this.universeId || "unknown"),
+                  method: getLiveTokenCount() > 0 ? "token_or_fallback" : "rewarded_ad"
+                });
+              } catch (_) {}
+            }
+
+            if (!did) this.restartRun();
+          };
+
+          const hadTokenBeforeClick = getLiveTokenCount() > 0;
+
+          if (hadTokenBeforeClick) {
+            const ok = await (window.VUserData?.spendJetons?.(1) || Promise.resolve(false));
+            if (ok) {
+              await finishRevive();
+              return;
+            }
+          }
+
+          const okAd = await (window.VRAds?.showRewardedAd?.({
+            placement: "revive"
+          }) || Promise.resolve(false));
+
+          if (okAd) {
+            try { window.VRAds?.markGameRewardSeen?.(); } catch (_) {}
+            await finishRevive();
             return;
           }
 
-          this._clearPendingEndState();
-          window.VREndings.hideEnding();
-
-          const did = this.reviveSecondChance();
-
-          if (did) {
-            try {
-              await window.VRAnalytics?.log?.("game_revive_used", {
-                universe_id: String(this.universeId || "unknown")
-              });
-            } catch (_) {}
-          }
-
-          if (!did) this.restartRun();
+          try { window.showToast?.(t("token.toast.reward_fail", "")); } catch (_) {}
+          syncEndingButtons();
         };
       }
 
@@ -3268,6 +3304,47 @@ body.vr-peek-mode .vr-gauge-preview{
   object-fit:contain !important;
 }
 
+#vr-token-popup .vr-token-ad-card .vr-card-content{
+  gap:6px !important;
+  padding:2px 0 !important;
+}
+
+#vr-token-popup .vr-token-reward-top{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  gap:10px !important;
+}
+
+#vr-token-popup .vr-token-reward-top img{
+  width:30px !important;
+  height:30px !important;
+  object-fit:contain !important;
+  filter:drop-shadow(0 4px 8px rgba(0,0,0,.28)) !important;
+}
+
+#vr-token-popup .vr-token-reward-amount{
+  color:#fff !important;
+  font:950 24px/1 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif !important;
+  text-shadow:none !important;
+}
+
+#vr-token-popup .vr-token-reward-sub{
+  margin:0 !important;
+  color:rgba(255,255,255,.92) !important;
+  font:600 12px/1.2 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif !important;
+  text-align:center !important;
+}
+
+#vr-token-popup .vr-soft-pulse{
+  animation:vrSoftTokenPulse 1.6s ease-in-out infinite !important;
+}
+
+@keyframes vrSoftTokenPulse{
+  0%,100%{ transform:scale(1); filter:brightness(1); }
+  50%{ transform:scale(1.025); filter:brightness(1.12); }
+}
+
 @media (max-width: 480px){
   #vr-token-popup .vr-popup-inner,
   #vr-coins-popup .vr-popup-inner{
@@ -3319,6 +3396,9 @@ body.vr-peek-mode .vr-gauge-preview{
   const VRTokenUI = {
     selectMode: false,
     gaugeSelectBusy: false,
+    criticalGaugeOfferShownThisRun: false,
+    criticalGaugeOfferChecks: 0,
+    lastCriticalGaugeCheckCard: 0,
 
     init() {
       ensureBasicPopupCardStyles();
@@ -3376,6 +3456,57 @@ body.vr-peek-mode .vr-gauge-preview{
 
       const closePopup = () => {
         _hideDialog(popup, btnJeton);
+      };
+
+      this.openMenu = () => {
+        if (this.selectMode) return false;
+        openPopup();
+        return true;
+      };
+
+      this.resetRunHints = () => {
+        this.criticalGaugeOfferShownThisRun = false;
+        this.criticalGaugeOfferChecks = 0;
+        this.lastCriticalGaugeCheckCard = 0;
+      };
+
+      this.maybeOfferCriticalGauge = () => {
+        if (this.selectMode) return false;
+        if (this.criticalGaugeOfferShownThisRun) return false;
+
+        const currentUniverse = String(window.VRGame?.currentUniverse || document.body?.dataset?.universe || "").trim();
+        if (!currentUniverse || currentUniverse === "intro") return false;
+
+        const cardsPlayed = Number(window.VRState?.cardsPlayed || 0);
+        if (cardsPlayed < 3) return false;
+        if (cardsPlayed === this.lastCriticalGaugeCheckCard) return false;
+        this.lastCriticalGaugeCheckCard = cardsPlayed;
+
+        const popupOpen = popup?.getAttribute?.("aria-hidden") === "false";
+        const overlayOpen = overlay?.getAttribute?.("aria-hidden") === "false";
+        const endingOpen = document.getElementById("vr-ending-overlay")?.getAttribute("aria-hidden") === "false";
+        if (popupOpen || overlayOpen || endingOpen) return false;
+
+        let hasCriticalGauge = false;
+        for (const gaugeId of (window.VRState?.gaugeOrder || [])) {
+          const val = Number(window.VRState?.getGaugeValue?.(gaugeId) ?? 50);
+          if (val <= 5 || val >= 95) {
+            hasCriticalGauge = true;
+            break;
+          }
+        }
+
+        if (!hasCriticalGauge) return false;
+
+        this.criticalGaugeOfferChecks += 1;
+
+        if (this.criticalGaugeOfferChecks % 4 !== 0) return false;
+
+        this.criticalGaugeOfferShownThisRun = true;
+
+        try { toast(t("token.toast.gauge_warning", "")); } catch (_) {}
+        openPopup();
+        return true;
       };
 
       const openGaugeOverlay = () => {
@@ -3476,6 +3607,12 @@ body.vr-peek-mode .vr-gauge-preview{
 
           if (action === "close") { closePopup(); return; }
 
+          if (action === "open_shop") {
+            closePopup();
+            try { window.location.href = "shop.html"; } catch (_) {}
+            return;
+          }
+
           if (action === "adtoken" || action === "ad_token") {
             closePopup();
 
@@ -3522,8 +3659,8 @@ body.vr-peek-mode .vr-gauge-preview{
           if (action === "peek15") {
             const okSpend = await window.VUserData?.spendJetons?.(1);
             if (!okSpend) {
-              toast(t("token.toast.no_tokens", ""));
-              closePopup();
+              toast(t("token.toast.no_tokens_offer", ""));
+              openPopup();
               return;
             }
 
@@ -3539,8 +3676,8 @@ body.vr-peek-mode .vr-gauge-preview{
             if (!isIntro) {
               const me = await window.VRProfile?.getMe?.(0);
               if (window.VRProfile._n(me?.jetons) <= 0) {
-                toast(t("token.toast.no_tokens", ""));
-                closePopup();
+                toast(t("token.toast.no_tokens_offer", ""));
+                openPopup();
                 return;
               }
             }
@@ -3555,8 +3692,8 @@ body.vr-peek-mode .vr-gauge-preview{
           if (action === "back3") {
             const okSpend = await window.VUserData?.spendJetons?.(1);
             if (!okSpend) {
-              toast(t("token.toast.no_tokens", ""));
-              closePopup();
+              toast(t("token.toast.no_tokens_offer", ""));
+              openPopup();
               return;
             }
 
@@ -3654,7 +3791,8 @@ body.vr-peek-mode .vr-gauge-preview{
             const spent = await window.VUserData?.spendJetons?.(1);
             if (!spent) {
               this.gaugeSelectBusy = false;
-              toast(t("token.toast.no_tokens", ""));
+              toast(t("token.toast.no_tokens_offer", ""));
+              openPopup();
               return;
             }
           }
@@ -5357,27 +5495,27 @@ function onGaugeSet(gaugeId) {
   }
 
   #vr-ending-overlay .vr-ending-double{
-    position:relative;
-    overflow:hidden;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    gap:1px;
-    width:100%;
-    min-height:42px;
-    height:42px;
-    border:1px solid rgba(255,255,255,.14);
-    border-radius:14px;
-    padding:5px 10px;
-    box-sizing:border-box;
-    background:linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.05));
-    box-shadow:0 10px 20px rgba(0,0,0,.24);
-    color:#fff;
-    font:inherit;
-    cursor:pointer;
-    margin-top:2px;
-  }
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:3px;
+  width:100%;
+  min-height:50px;
+  height:50px;
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:14px;
+  padding:8px 12px;
+  box-sizing:border-box;
+  background:linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.05));
+  box-shadow:0 10px 20px rgba(0,0,0,.24);
+  color:#fff;
+  font:inherit;
+  cursor:pointer;
+  margin:4px 0 10px;
+}
 
   #vr-ending-overlay .vr-ending-double::before{
     content:"";
@@ -5415,15 +5553,15 @@ function onGaugeSet(gaugeId) {
   }
 
   #vr-ending-overlay .vr-ending-double-sub{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:5px;
-    font-size:12px;
-    font-weight:900;
-    line-height:1.02;
-    opacity:1;
-  }
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:7px;
+  font-size:14px;
+  font-weight:900;
+  line-height:1.05;
+  opacity:1;
+}
 
   #vr-ending-overlay .vr-ending-double-sub img{
     width:14px;
@@ -5486,9 +5624,9 @@ function onGaugeSet(gaugeId) {
   }
 
   @keyframes vrEndingPulse{
-    0%,100%{ opacity:1; transform:scale(1); filter:brightness(1); }
-    50%{ opacity:.72; transform:scale(1.02); filter:brightness(1.28); }
-  }
+  0%,100%{ opacity:1; transform:scale(1); filter:brightness(1); }
+  50%{ opacity:.82; transform:scale(1.05); filter:brightness(1.34); }
+}
 `;
     document.head.appendChild(style);
   }
