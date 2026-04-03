@@ -6218,6 +6218,7 @@ window.VRGuideMentor = {
   _hideTimer: null,
   _finalTimer: null,
   _confettiCleanupTimer: null,
+  _enableNextTimer: null,
   _dismissEnabledAt: 0,
   _dismissResolver: null,
 
@@ -6314,9 +6315,17 @@ window.VRGuideMentor = {
       if (!overlay.classList.contains("is-visible")) return;
       if (Date.now() < (this._dismissEnabledAt || 0)) return;
 
+      const isEventPopup = overlay.classList.contains("is-event");
+
       if (e?.type === "keydown") {
         const k = String(e.key || "");
-        if (k !== "Escape" && k !== "Enter" && k !== " ") return;
+        if (isEventPopup) {
+          if (k !== "Escape") return;
+        } else {
+          if (k !== "Escape" && k !== "Enter" && k !== " ") return;
+        }
+      } else if (isEventPopup) {
+        return;
       }
 
       this.hide();
@@ -6531,8 +6540,12 @@ window.VRGuideMentor = {
     image.src = src;
     image.alt = universeId;
 
+    const isEventPopup = !!opts.isEvent;
+
     if (nextBtn) {
       nextBtn.setAttribute("aria-label", this._t("guideMentor.common.nextButton", "Next"));
+      nextBtn.disabled = isEventPopup;
+      nextBtn.setAttribute("aria-disabled", isEventPopup ? "true" : "false");
     }
 
     const textLines = (Array.isArray(lines) ? lines : [])
@@ -6558,7 +6571,16 @@ window.VRGuideMentor = {
       this._burstConfetti();
     }
 
-    this._dismissEnabledAt = Date.now() + 220;
+    clearTimeout(this._enableNextTimer);
+
+    this._dismissEnabledAt = Date.now() + (isEventPopup ? 1200 : 220);
+
+    if (isEventPopup && nextBtn) {
+      this._enableNextTimer = setTimeout(() => {
+        nextBtn.disabled = false;
+        nextBtn.setAttribute("aria-disabled", "false");
+      }, 1200);
+    }
     const wait = this._createDismissPromise();
 
     requestAnimationFrame(() => {
@@ -6601,11 +6623,17 @@ window.VRGuideMentor = {
   },
 
   hide() {
-    const { overlay } = this._els();
+    const { overlay, nextBtn } = this._els();
     if (!overlay) return;
 
     clearTimeout(this._hideTimer);
     clearTimeout(this._finalTimer);
+    clearTimeout(this._enableNextTimer);
+
+    if (nextBtn) {
+      nextBtn.disabled = false;
+      nextBtn.setAttribute("aria-disabled", "false");
+    }
 
     overlay.classList.remove("is-visible");
     overlay.classList.remove("is-event");
