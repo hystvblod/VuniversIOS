@@ -5677,6 +5677,12 @@ body.vr-body-game[data-universe] .vr-gauge-label{
   pointer-events:auto;
 }
 
+.vr-guide-next-btn:disabled,
+.vr-guide-next-btn[aria-disabled="true"]{
+  opacity:.45;
+  pointer-events:none;
+}
+
 .vr-guide-next-btn:active{
   transform: translateY(1px);
 }
