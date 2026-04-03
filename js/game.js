@@ -6693,8 +6693,11 @@ window.VRGuideMentor = {
     const nextTarget = nextTier ? VR_GUIDE_THRESHOLDS[nextTier] : null;
     const remaining = nextTarget ? Math.max(0, nextTarget - Number(reignLength || 0)) : 0;
 
+    const badgeLabel = this._t(`guideMentor.common.badgeTier.${reachedTier}`, reachedTier);
+
     const lines = [
       this._t("guideMentor.common.promotionNow", "", { rank: rankLabel }),
+      this._t("guideMentor.common.badgeWonProfile", "", { badge: badgeLabel }),
       this._t(this._messageKey(universeId, reachedTier), ""),
       nextTier
         ? this._t("guideMentor.common.nextGoal", "", { remaining })
