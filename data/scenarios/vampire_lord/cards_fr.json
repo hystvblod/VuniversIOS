@@ -27,7 +27,7 @@
     }
   },
   "vampire_004": {
-    "title": "Influenceurs du secret",
+    "title": "Influenceurs du clan",
     "body": "Le clan vampirique grossit. Ça flatte et ça attire les problèmes.",
     "choices": {
       "A": "Autoriser un grand rituel",
@@ -553,12 +553,12 @@
     "body": "Un novice a paniqué et a fui en pleine ville. Il laisse des traces partout.",
     "choices": {
       "A": "Le rattraper",
-      "B": "Le cacher chez le secret",
+      "B": "Le cacher dans un refuge secret",
       "C": "Le bannir pour l’exemple"
     }
   },
   "vampire_063": {
-    "title": "Le procès du secret",
+    "title": "Le procès du clan",
     "body": "Le clan veut juger un humain qui t’a insulté. Ils demandent ta bénédiction.",
     "choices": {
       "A": "Refuser le procès",
@@ -648,7 +648,7 @@
     }
   },
   "vampire_073": {
-    "title": "Le mariage du secret",
+    "title": "Le mariage du clan",
     "body": "Le clan organise un mariage nocturne. Ils veulent que tu sois témoin.",
     "choices": {
       "A": "Accepter",
@@ -721,7 +721,7 @@
   },
   "vampire_081": {
     "title": "Le nouveau symbole",
-    "body": "Un symbole inconnu apparaît sur tes murs. Ni clan ni secret. Autre chose.",
+    "body": "Un symbole inconnu apparaît sur tes murs. Ni symbole du clan ni marque connue. Autre chose.",
     "choices": {
       "A": "Enquêter",
       "B": "Effacer tout",
@@ -1971,7 +1971,7 @@
     }
   },
   "vampire_220": {
-    "title": "Le chant du clan ",
+    "title": "Le chant du clan",
     "body": "Le clan compose une chanson sur toi. Elle reste dans la tête. Même aux immortels.",
     "choices": {
       "A": "Interdire la chanson",
@@ -2358,12 +2358,12 @@
     }
   },
   "vampire_263": {
-    "title": "Le clan contre le un autre",
+    "title": "Un clan contre un autre",
     "body": "Le clan accuse un autre de trop parler. L'autre accuse le tien de trop mordre. Ambiance.",
     "choices": {
       "A": "Imposer une paix",
       "B": "Favoriser ton clan",
-      "C": "Favoriser l'autre clan "
+      "C": "Favoriser l'autre clan"
     }
   },
   "vampire_264": {
@@ -2448,7 +2448,7 @@
     }
   },
   "vampire_273": {
-    "title": "Le plan de secours du secret",
+    "title": "Le plan de secours du clan",
     "body": "Le clan a un plan de secours au cas où tu meurs. Très gentil. Très insultant.",
     "choices": {
       "A": "Punir l’idée",
@@ -2664,7 +2664,7 @@
     }
   },
   "vampire_297": {
-    "title": "Le loto du secret",
+    "title": "Le loto du clan",
     "body": "Le clan organise un loto pour financer tes nuits. L’idée est affreuse et rentable.",
     "choices": {
       "A": "Encadrer le jeu",
@@ -3078,7 +3078,7 @@
     }
   },
   "vampire_343": {
-    "title": "Le logo du secret",
+    "title": "Le logo du clan",
     "body": "Le clan te propose un vrai logo. Tu n’es pas sûr d’aimer le progrès.",
     "choices": {
       "A": "Valider un signe discret",
