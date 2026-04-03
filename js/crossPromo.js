@@ -5,7 +5,8 @@
   const REWARD_AMOUNT = 600;
   const COOLDOWN_AFTER_TWO_DISMISSES_MS = 21 * 24 * 60 * 60 * 1000;
   const POSTGAME_MIN_DELAY_MS = 12 * 60 * 60 * 1000;
-  const POSTGAME_MIN_SESSION_STARTS = 5;
+  const POSTGAME_FIRST_COMPLETED_RUNS = 4;
+  const POSTGAME_AFTER_DISMISS_COMPLETED_RUNS = 6;
   const POSTGAME_OFFERS = [
     { appId: "vblocks", popupIndex: 2 },
     { appId: "vchronicles", popupIndex: 2 },
@@ -122,8 +123,10 @@
     return {
       lowVcoinsNextApp: "vblocks",
       nextPostGameOfferIndex: 0,
+      stateCreatedAt: Date.now(),
       lastCrossPromoAt: 0,
-      sessionStartsSinceLastPromo: 0,
+      completedRunsSinceLastPromo: 0,
+      postGameRunsRequired: POSTGAME_FIRST_COMPLETED_RUNS,
       apps: {
         vblocks: defaultAppState(),
         vchronicles: defaultAppState()
@@ -157,23 +160,44 @@
   function readState() {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
-      if (!raw) return defaultState();
+      if (!raw) {
+        const fresh = defaultState();
+        writeState(fresh);
+        return fresh;
+      }
 
       const parsed = safeParse(raw);
-      if (!parsed || typeof parsed !== "object") return defaultState();
+      if (!parsed || typeof parsed !== "object") {
+        const fresh = defaultState();
+        writeState(fresh);
+        return fresh;
+      }
 
-      return {
+      const state = {
         lowVcoinsNextApp: parsed.lowVcoinsNextApp === "vchronicles" ? "vchronicles" : "vblocks",
         nextPostGameOfferIndex: Math.max(0, Number(parsed.nextPostGameOfferIndex || 0) || 0) % POSTGAME_OFFERS.length,
+        stateCreatedAt: Math.max(0, Number(parsed.stateCreatedAt || 0) || Date.now()),
         lastCrossPromoAt: Math.max(0, Number(parsed.lastCrossPromoAt || 0) || 0),
-        sessionStartsSinceLastPromo: Math.max(0, Number(parsed.sessionStartsSinceLastPromo || 0) || 0),
+        completedRunsSinceLastPromo: Math.max(
+          0,
+          Number(parsed.completedRunsSinceLastPromo || parsed.sessionStartsSinceLastPromo || 0) || 0
+        ),
+        postGameRunsRequired:
+          Number(parsed.postGameRunsRequired || POSTGAME_FIRST_COMPLETED_RUNS) === POSTGAME_AFTER_DISMISS_COMPLETED_RUNS
+            ? POSTGAME_AFTER_DISMISS_COMPLETED_RUNS
+            : POSTGAME_FIRST_COMPLETED_RUNS,
         apps: {
           vblocks: normalizeAppState(parsed.apps && parsed.apps.vblocks),
           vchronicles: normalizeAppState(parsed.apps && parsed.apps.vchronicles)
         }
       };
+
+      writeState(state);
+      return state;
     } catch (_) {
-      return defaultState();
+      const fresh = defaultState();
+      writeState(fresh);
+      return fresh;
     }
   }
 
@@ -397,13 +421,13 @@
   function registerShown() {
     const state = readState();
     state.lastCrossPromoAt = nowTs();
-    state.sessionStartsSinceLastPromo = 0;
+    state.completedRunsSinceLastPromo = 0;
     writeState(state);
   }
 
-  function notifySessionStart() {
+  function notifyCompletedRun() {
     const state = readState();
-    state.sessionStartsSinceLastPromo += 1;
+    state.completedRunsSinceLastPromo += 1;
     writeState(state);
   }
 
@@ -411,8 +435,11 @@
     if (skipBecauseRewardAd) return false;
 
     const state = readState();
-    if (state.sessionStartsSinceLastPromo < POSTGAME_MIN_SESSION_STARTS) return false;
-    if ((nowTs() - Number(state.lastCrossPromoAt || 0)) < POSTGAME_MIN_DELAY_MS) return false;
+    const requiredRuns = Number(state.postGameRunsRequired || POSTGAME_FIRST_COMPLETED_RUNS);
+    const anchorTs = Math.max(Number(state.lastCrossPromoAt || 0), Number(state.stateCreatedAt || 0));
+
+    if (Number(state.completedRunsSinceLastPromo || 0) < requiredRuns) return false;
+    if ((nowTs() - anchorTs) < POSTGAME_MIN_DELAY_MS) return false;
 
     return true;
   }
@@ -600,6 +627,14 @@
       function finish(result, countDismiss) {
         if (done) return;
         done = true;
+
+        if (popupIndex !== 1) {
+          const state = readState();
+          state.postGameRunsRequired = countDismiss
+            ? POSTGAME_AFTER_DISMISS_COMPLETED_RUNS
+            : POSTGAME_FIRST_COMPLETED_RUNS;
+          writeState(state);
+        }
 
         if (countDismiss) {
           registerDismiss(appId);
@@ -940,7 +975,7 @@
       refreshInstalledStatus: refreshInstalledStatus,
       claimRewardIfEligible: claimRewardIfEligible,
       showLowVcoinsPopupNow: showLowVcoinsPopupNow,
-      notifySessionStart: notifySessionStart,
+      notifyCompletedRun: notifyCompletedRun,
       canShowPostGamePromo: canShowPostGamePromo,
       maybeShowPostGamePromo: maybeShowPostGamePromo,
       async openOrInstall(appId) {

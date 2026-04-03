@@ -2043,7 +2043,6 @@ body.vr-peek-mode .vr-gauge-preview{
       );
 
       if (restored) {
-        try { window.VRCrossPromo?.notifySessionStart?.(); } catch (_) {}
       }
 
       try {
@@ -2557,7 +2556,7 @@ body.vr-peek-mode .vr-gauge-preview{
 
           const skipBecauseRewardAd = !!this._pendingEndClaimed;
 
-          try { window.VRCrossPromo?.notifySessionStart?.(); } catch (_) {}
+          try { window.VRCrossPromo?.notifyCompletedRun?.(); } catch (_) {}
           try {
             await window.VRCrossPromo?.maybeShowPostGamePromo?.({
               skipBecauseRewardAd: skipBecauseRewardAd
@@ -2582,6 +2581,7 @@ body.vr-peek-mode .vr-gauge-preview{
 
           const skipBecauseRewardAd = !!this._pendingEndClaimed;
 
+          try { window.VRCrossPromo?.notifyCompletedRun?.(); } catch (_) {}
           try {
             await window.VRCrossPromo?.maybeShowPostGamePromo?.({
               skipBecauseRewardAd: skipBecauseRewardAd
@@ -3606,12 +3606,6 @@ body.vr-peek-mode .vr-gauge-preview{
 
           if (action === "back_menu") {
             closePopup();
-
-            try {
-              await window.VRCrossPromo?.maybeShowPostGamePromo?.({
-                skipBecauseRewardAd: false
-              });
-            } catch (_) {}
 
             try { await window.VRAds?.maybeShowInterstitialOnReturnToIndex?.(); } catch (_) {}
             try { prepareMusicPromptOnNextIndex(this.universeId); } catch (_) {}
