@@ -207,6 +207,10 @@
       "pickGauge": {
         "title": "게이지 선택",
         "text": "게이지를 클릭해 50%로 되돌리세요."
+      },
+      "shop": {
+        "title": "토큰 구매",
+        "text": "상점 열기"
       }
     },
     "toast": {
@@ -217,7 +221,9 @@
       "undo_fail": "되돌릴 수 없습니다",
       "undo_done": "-3 되돌리기 완료",
       "gauge_set_50": "게이지가 50%로 설정되었습니다",
-      "peek_on": "미리보기 활성화: 다음 15개의 결정"
+      "peek_on": "미리보기 활성화: 다음 15개의 결정",
+      "no_tokens_offer": "토큰이 없습니다. 광고를 보고 토큰 1개를 얻거나 상점을 여세요.",
+      "gauge_warning": "주의, 게이지 하나가 한계에 가까워졌습니다. 필요하면 토큰을 사용하세요."
     },
     "undo": {
       "fail": {
@@ -339,7 +345,8 @@
       "double_gain_sub": "보상형 광고 보기",
       "reward_claimed": "2배 보상이 지급되었습니다",
       "reward_claimed_sub": "이제 다시 시작하거나 돌아갈 수 있습니다",
-      "revive_token": "토큰 1개로 부활"
+      "revive_token": "토큰 1개로 부활",
+      "revive_ad": "광고로 부활"
     },
     "year_label": "연도"
   },

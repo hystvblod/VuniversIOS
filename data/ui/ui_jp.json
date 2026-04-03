@@ -207,6 +207,10 @@
       "pickGauge": {
         "title": "ゲージを選ぶ",
         "text": "50%に戻したいゲージをクリックしてください。"
+      },
+      "shop": {
+        "title": "トークンを購入",
+        "text": "ショップを開く"
       }
     },
     "toast": {
@@ -217,7 +221,9 @@
       "undo_fail": "戻せませんでした",
       "undo_done": "-3 の取り消しを実行しました",
       "gauge_set_50": "ゲージを50%に戻しました",
-      "peek_on": "Peek有効化: 次の15決定"
+      "peek_on": "Peek有効化: 次の15決定",
+      "no_tokens_offer": "トークンがありません。広告を見てトークンを1つ獲得するか、ショップを開いてください。",
+      "gauge_warning": "注意、ゲージが限界に近づいています。必要ならトークンを使ってください。"
     },
     "undo": {
       "fail": {
@@ -339,7 +345,8 @@
       "double_gain_sub": "リワード広告を見る",
       "reward_claimed": "2倍報酬を付与しました",
       "reward_claimed_sub": "これで再開または戻ることができます",
-      "revive_token": "トークン1つで復活"
+      "revive_token": "トークン1つで復活",
+      "revive_ad": "広告で復活"
     },
     "year_label": "年"
   },

@@ -207,6 +207,10 @@
       "pickGauge": {
         "title": "Pilih satu meter",
         "text": "Klik satu meter untuk mengaturnya kembali ke 50%."
+      },
+      "shop": {
+        "title": "Beli token",
+        "text": "Buka toko"
       }
     },
     "toast": {
@@ -217,7 +221,9 @@
       "undo_fail": "Tidak dapat kembali",
       "undo_done": "Kembali -3 berhasil",
       "gauge_set_50": "Meter diatur ke 50%",
-      "peek_on": "Pratinjau aktif: 15 keputusan berikutnya"
+      "peek_on": "Pratinjau aktif: 15 keputusan berikutnya",
+      "no_tokens_offer": "Tokenmu habis. Tonton iklan untuk mendapatkan 1 token atau buka toko.",
+      "gauge_warning": "Perhatian, satu bar hampir menyentuh batas. Gunakan token jika perlu."
     },
     "undo": {
       "fail": {
@@ -339,7 +345,8 @@
       "double_gain_sub": "Tonton iklan berhadiah",
       "reward_claimed": "Hadiah ganda dikreditkan",
       "reward_claimed_sub": "Sekarang kamu bisa mulai lagi atau kembali",
-      "revive_token": "Hidup kembali dengan 1 token"
+      "revive_token": "Hidup kembali dengan 1 token",
+      "revive_ad": "Hidup lagi dengan iklan"
     },
     "year_label": "Tahun"
   },

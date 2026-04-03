@@ -207,6 +207,10 @@
       "pickGauge": {
         "title": "Choisir une jauge",
         "text": "Clique sur une jauge pour la remettre à 50%."
+      },
+      "shop": {
+        "title": "Acheter des jetons",
+        "text": "Ouvrir la boutique"
       }
     },
     "toast": {
@@ -217,7 +221,9 @@
       "undo_fail": "Impossible de revenir en arrière",
       "undo_done": "Retour -3 effectué",
       "gauge_set_50": "Jauge remise à 50%",
-      "peek_on": "Peek activé : 15 prochaines décisions"
+      "peek_on": "Peek activé : 15 prochaines décisions",
+      "no_tokens_offer": "Tu n’as plus de jeton. Regarde une pub pour en gagner 1 ou ouvre la boutique.",
+      "gauge_warning": "Attention, une jauge est presque au seuil. Utilise un jeton si besoin."
     },
     "undo": {
       "fail": {
@@ -340,7 +346,8 @@
       "double_gain_sub": "Regarder une pub récompensée",
       "reward_claimed": "Gain crédité",
       "reward_claimed_sub": "Tu peux maintenant recommencer ou revenir",
-      "revive_token": "Revivre avec 1 jeton"
+      "revive_token": "Revivre avec 1 jeton",
+      "revive_ad": "Revivre avec une pub"
     },
     "year_label": "Année"
   },
