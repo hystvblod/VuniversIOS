@@ -27,7 +27,7 @@
     }
   },
   "vampire_004": {
-    "title": "Influenceurs du secret",
+    "title": "Influenceurs du clan",
     "body": "Le secret vampirique grossit. Ça flatte et ça attire les problèmes.",
     "choices": {
       "A": "Autoriser un grand rituel",
@@ -50,7 +50,7 @@
     "choices": {
       "A": "Piller discrètement",
       "B": "Investir légalement",
-      "C": "Taxer le secret"
+      "C": "Taxer le clan"
     }
   },
   "vampire_007": {
@@ -95,7 +95,7 @@
     "choices": {
       "A": "Envoyer des charmeurs",
       "B": "Refuser et rester caché",
-      "C": "Y aller toi même"
+      "C": "Y aller toi-même"
     }
   },
   "vampire_012": {
@@ -180,12 +180,12 @@
     }
   },
   "vampire_021": {
-    "title": "Le jeune chauve souris",
+    "title": "Le jeune chauve-souris",
     "body": "Un jeune vampire se transforme trop tôt. Il s’accroche au plafond et crie.",
     "choices": {
       "A": "Former le novice",
       "B": "Le cacher au clan",
-      "C": "Le confier au secret"
+      "C": "Le cacher dans un refuge secret"
     }
   },
   "vampire_022": {
@@ -198,8 +198,8 @@
     }
   },
   "vampire_023": {
-    "title": "Le pactole du secret",
-    "body": "Le secret offre des dons énormes. Ça sent la manipulation, mais c’est tentant.",
+    "title": "Le pactole du clan",
+    "body": "Le clan offre des dons énormes. Ça sent la manipulation, mais c’est tentant.",
     "choices": {
       "A": "Accepter avec contrôle",
       "B": "Refuser",
@@ -273,7 +273,7 @@
     "title": "Le don de la lune",
     "body": "La pleine lune rend le clan nerveux. Les erreurs se multiplient.",
     "choices": {
-      "A": "Imposer un couvre feu",
+      "A": "Imposer un couvre-feu",
       "B": "Organiser une chasse encadrée",
       "C": "Laisser chacun gérer"
     }
@@ -329,7 +329,7 @@
     "choices": {
       "A": "Refermer et piéger",
       "B": "Suivre les traces",
-      "C": "Envoyer le secret"
+      "C": "Envoyer une équipe discrète"
     }
   },
   "vampire_038": {
@@ -392,14 +392,14 @@
     "choices": {
       "A": "Punir le serviteur",
       "B": "Nettoyer vite",
-      "C": "Faire porter la faute au secret"
+      "C": "Étouffer l’affaire en secret"
     }
   },
   "vampire_045": {
     "title": "La comète rouge",
     "body": "Le ciel devient rouge une nuit. Le secret annonce la fin, les chasseurs se préparent.",
     "choices": {
-      "A": "Calmer le secret",
+      "A": "Calmer le clan",
       "B": "Préparer la guerre",
       "C": "Profiter du chaos"
     }
@@ -410,7 +410,7 @@
     "choices": {
       "A": "Renforcer la défense",
       "B": "Changer de cache",
-      "C": "Contre attaquer"
+      "C": "Contre-attaquer"
     }
   },
   "vampire_047": {
@@ -432,7 +432,7 @@
     }
   },
   "vampire_049": {
-    "title": "Le drone au dessus",
+    "title": "Le drone au-dessus",
     "body": "Un drone survole ta planque chaque nuit. Il revient toujours.",
     "choices": {
       "A": "Le pirater",
@@ -460,9 +460,9 @@
   },
   "vampire_052": {
     "title": "La relique volée",
-    "body": "La relique du sang froid a été volée. Le coupable laisse un symbole du secret.",
+    "body": "La relique du sang-froid a été volée. Le coupable laisse le symbole d’un clan rival.",
     "choices": {
-      "A": "Accuser le secret",
+      "A": "Accuser un clan rival",
       "B": "Traquer en silence",
       "C": "Offrir une amnistie"
     }
@@ -558,7 +558,7 @@
     }
   },
   "vampire_063": {
-    "title": "Le procès du secret",
+    "title": "Le procès du clan",
     "body": "Le secret veut juger un humain qui t’a insulté. Ils demandent ta bénédiction.",
     "choices": {
       "A": "Refuser le procès",
@@ -572,7 +572,7 @@
     "choices": {
       "A": "Sauver les réserves",
       "B": "Changer de repaire",
-      "C": "Transformer en attraction du secret"
+      "C": "Transformer ça en attraction secrète"
     }
   },
   "vampire_065": {
@@ -648,7 +648,7 @@
     }
   },
   "vampire_073": {
-    "title": "Le mariage du secret",
+    "title": "Le mariage du clan",
     "body": "Le secret organise un mariage nocturne. Ils veulent que tu sois témoin.",
     "choices": {
       "A": "Accepter",
@@ -725,7 +725,7 @@
     "choices": {
       "A": "Enquêter",
       "B": "Effacer tout",
-      "C": "Faire croire à un rite du secret"
+      "C": "Faire croire à un rite du clan"
     }
   },
   "vampire_082": {
@@ -779,7 +779,7 @@
     "choices": {
       "A": "Le garder mais le cadrer",
       "B": "Le remplacer vite",
-      "C": "Le recruter dans le secret"
+      "C": "Le recruter en secret"
     }
   },
   "vampire_088": {
@@ -829,7 +829,7 @@
   },
   "vampire_093": {
     "title": "Le rendez-vous du notaire",
-    "body": "Le notaire aime trop les détails. Les détails menacent toujours le secret.",
+    "body": "Le notaire aime trop les détails. Les détails menacent toujours la discrétion.",
     "choices": {
       "A": "Y aller en personne",
       "B": "Envoyer un faux héritier",
@@ -946,7 +946,7 @@
   },
   "vampire_106": {
     "title": "Le téléphone oublié",
-    "body": "Le téléphone contient des photos et des messages. Une vraie menace pour le secret.",
+    "body": "Le téléphone contient des photos et des messages. Une vraie menace pour la discrétion.",
     "choices": {
       "A": "Récupérer le téléphone vite",
       "B": "Le détruire",
@@ -1107,7 +1107,7 @@
     }
   },
   "vampire_124": {
-    "title": "La dette du secret",
+    "title": "La dette du clan",
     "body": "Ils ont aidé une fois. Maintenant ils se croient intouchables.",
     "choices": {
       "A": "Payer en dons",
@@ -1153,7 +1153,7 @@
   },
   "vampire_129": {
     "title": "La cantine du clan",
-    "body": "Ils veulent de l’ordre et du confort. Toi, tu veux du secret et du contrôle.",
+    "body": "Ils veulent de l’ordre et du confort. Toi, tu veux de la discrétion et du contrôle.",
     "choices": {
       "A": "Organiser une cantine",
       "B": "Refuser et imposer la chasse",
@@ -1256,7 +1256,7 @@
     "choices": {
       "A": "La brûler",
       "B": "La lire avec protection",
-      "C": "La confier au secret"
+      "C": "La faire examiner discrètement"
     }
   },
   "vampire_141": {
@@ -1584,7 +1584,7 @@
     }
   },
   "vampire_177": {
-    "title": "Le banquet du secret",
+    "title": "Le banquet du clan",
     "body": "Ils ont décoré, chanté, prié, et cuisiné. Ça part d’un bon sentiment. Ça finit souvent en drame.",
     "choices": {
       "A": "Refuser poliment",
@@ -1665,7 +1665,7 @@
     }
   },
   "vampire_186": {
-    "title": "L’appli anti vampires",
+    "title": "L’appli anti-vampires",
     "body": "Une appli promet de détecter les vampires. Elle te vise en notification.",
     "choices": {
       "A": "Infiltrer les développeurs",
@@ -1724,7 +1724,7 @@
     "choices": {
       "A": "Le calmer sévèrement",
       "B": "Le former correctement",
-      "C": "Le mettre au service du secret"
+      "C": "Le mettre au service de la discrétion"
     }
   },
   "vampire_193": {
@@ -1805,7 +1805,7 @@
     "choices": {
       "A": "Jeter le lot",
       "B": "Le couper avec du bon",
-      "C": "Le refiler au secret"
+      "C": "Le refiler au marché noir"
     }
   },
   "vampire_202": {
@@ -1867,7 +1867,7 @@
     "body": "Un prêtre bénit les portes du quartier. Il te regarde trop longtemps.",
     "choices": {
       "A": "Le détourner de la zone",
-      "B": "Le recruter via le secret",
+      "B": "Le recruter discrètement",
       "C": "Le faire discréditer"
     }
   },
@@ -1940,7 +1940,7 @@
     "choices": {
       "A": "Refuser et rester sobre",
       "B": "Accepter et cadrer ça",
-      "C": "Le donner au secret"
+      "C": "Le renvoyer discrètement"
     }
   },
   "vampire_217": {
@@ -2080,7 +2080,7 @@
   },
   "vampire_232": {
     "title": "Le marché aux reliques",
-    "body": "Une relique anti vampire est vendue en ville. Tout le monde la veut. Surtout toi.",
+    "body": "Une relique anti-vampire est vendue en ville. Tout le monde la veut. Surtout toi.",
     "choices": {
       "A": "L’acheter discrètement",
       "B": "La voler",
@@ -2098,7 +2098,7 @@
   },
   "vampire_234": {
     "title": "Le drame du sang chaud",
-    "body": "Quelqu un a chauffé du sang pour le goût. Le clan se divise en gourmets et puristes.",
+    "body": "Quelqu’un a chauffé du sang pour le goût. Le clan se divise en gourmets et puristes.",
     "choices": {
       "A": "Interdire la pratique",
       "B": "Créer une règle",
@@ -2143,7 +2143,7 @@
   },
   "vampire_239": {
     "title": "Le sang de fête",
-    "body": "Le secret organise une collecte. Trop de monde. Trop de caméras. Trop de tentation.",
+    "body": "Le clan organise une collecte. Trop de monde. Trop de caméras. Trop de tentation.",
     "choices": {
       "A": "Annuler la collecte",
       "B": "Encadrer strictement",
@@ -2152,7 +2152,7 @@
   },
   "vampire_240": {
     "title": "Le masque qui tombe",
-    "body": "Quelqu un du clan a été vu sans discrétion. Un visage circule sur les réseaux.",
+    "body": "Quelqu’un du clan a été vu sans discrétion. Un visage circule sur les réseaux.",
     "choices": {
       "A": "Effacer la trace",
       "B": "Changer toutes les identités",
@@ -2170,7 +2170,7 @@
   },
   "vampire_242": {
     "title": "Le piège à UV",
-    "body": "Une lampe UV est trouvée près du repaire. Quelqu un teste le terrain.",
+    "body": "Une lampe UV est trouvée près du repaire. Quelqu’un teste le terrain.",
     "choices": {
       "A": "Détruire l’équipement",
       "B": "Piéger le piège",
@@ -2188,7 +2188,7 @@
   },
   "vampire_244": {
     "title": "Les pneus crevés",
-    "body": "Les véhicules du secret sont sabotés. Ils accusent les chasseurs. Le clan accuse le secret.",
+    "body": "Les véhicules du clan sont sabotés. Ils accusent les chasseurs. Le clan accuse une taupe.",
     "choices": {
       "A": "Enquêter sérieusement",
       "B": "Accuser un rival",
@@ -2386,7 +2386,7 @@
   },
   "vampire_266": {
     "title": "Le plan des égouts",
-    "body": "Un plan des égouts circule. Il montre des accès vers ton repaire. Quelqu un a fouiné.",
+    "body": "Un plan des égouts circule. Il montre des accès vers ton repaire. Quelqu’un a fouiné.",
     "choices": {
       "A": "Changer les accès",
       "B": "Piéger les passages",
@@ -2426,7 +2426,7 @@
     "choices": {
       "A": "Rationner et tenir",
       "B": "Chasser plus loin",
-      "C": "Négocier avec le secret"
+      "C": "Négocier discrètement"
     }
   },
   "vampire_271": {
@@ -2439,16 +2439,16 @@
     }
   },
   "vampire_272": {
-    "title": "Le groupe anti secret",
+    "title": "Le groupe anti-secret",
     "body": "Un groupe humain lutte contre le secret. Ils affichent des tracts. Ils cherchent un chef.",
     "choices": {
       "A": "Dissoudre le groupe",
       "B": "Infiltrer le groupe",
-      "C": "Déplacer le secret"
+      "C": "Déplacer le repaire"
     }
   },
   "vampire_273": {
-    "title": "Le plan de secours du secret",
+    "title": "Le plan de secours du clan",
     "body": "Le secret a un plan de secours au cas où tu meurs. Très gentil. Très insultant.",
     "choices": {
       "A": "Punir l’idée",
@@ -2611,7 +2611,7 @@
   },
   "vampire_291": {
     "title": "Le marché noir",
-    "body": "Un marché vend des objets anti vampires et des souvenirs de ton quartier.",
+    "body": "Un marché vend des objets anti-vampires et des souvenirs de ton quartier.",
     "choices": {
       "A": "Racheter les stands",
       "B": "Le faire fermer",
@@ -2664,7 +2664,7 @@
     }
   },
   "vampire_297": {
-    "title": "Le loto du secret",
+    "title": "Le loto du clan",
     "body": "Le secret organise un loto pour financer tes nuits. L’idée est affreuse et rentable.",
     "choices": {
       "A": "Encadrer le jeu",
@@ -2746,7 +2746,7 @@
   },
   "vampire_306": {
     "title": "Le salon en velours",
-    "body": "Un salon secret accueille des curieux du surnaturel. Ton nom y circule déjà.",
+    "body": "Un salon discret accueille des curieux du surnaturel. Ton nom y circule déjà.",
     "choices": {
       "A": "Y infiltrer un proche",
       "B": "Faire fermer le lieu",
@@ -2809,7 +2809,7 @@
   },
   "vampire_313": {
     "title": "Le tunnel chauffé",
-    "body": "Un tunnel secret devient trop chaud. Quelqu’un creuse près de tes murs.",
+    "body": "Un tunnel discret devient trop chaud. Quelqu’un creuse près de tes murs.",
     "choices": {
       "A": "Piéger la zone",
       "B": "Fermer l’accès",
@@ -3078,7 +3078,7 @@
     }
   },
   "vampire_343": {
-    "title": "Le logo du secret",
+    "title": "Le logo du clan",
     "body": "Le secret te propose un vrai logo. Tu n’es pas sûr d’aimer le progrès.",
     "choices": {
       "A": "Valider un signe discret",
@@ -3182,7 +3182,7 @@
     "choices": {
       "A": "Accepter sobrement",
       "B": "Refuser la dépense",
-      "C": "Faire payer le secret"
+      "C": "Faire payer le clan"
     }
   },
   "vampire_355": {
@@ -3344,7 +3344,7 @@
     "choices": {
       "A": "Fermer la pièce",
       "B": "L’étudier sérieusement",
-      "C": "L’offrir au secret"
+      "C": "La réserver aux affaires discrètes"
     }
   },
   "vampire_373": {
