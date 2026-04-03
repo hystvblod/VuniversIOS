@@ -671,6 +671,14 @@
       "introGoal": "Maintiens l'équilibre durant {target} choix pour obtenir ta première promotion.",
       "nextGoal": "Maintiens encore l'équilibre durant {remaining} choix pour atteindre la prochaine promotion.",
       "promotionNow": "Bravo. Tu es désormais {rank}.",
+      "badgeWonProfile": "Tu as gagné le badge {badge}, visible sur ta page profil.",
+      "badgeTier": {
+        "wood": "bois",
+        "bronze": "bronze",
+        "silver": "argent",
+        "gold": "or",
+        "crystal": "cristal"
+      },
       "maxGoal": "Tu as atteint le rang suprême de cet univers. À toi de prouver que tu peux le conserver.",
       "nextButton": "Suivant"
     },
