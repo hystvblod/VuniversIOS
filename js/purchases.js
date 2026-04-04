@@ -634,7 +634,7 @@
 
     const rewardMap = {
       shop_jeton: { kind: "jetons", amount: 1 },
-      shop_coins: { kind: "vcoins", amount: 100 }
+      shop_coins: { kind: "vcoins", amount: 300 }
     };
 
     const cfg = rewardMap[plc];
