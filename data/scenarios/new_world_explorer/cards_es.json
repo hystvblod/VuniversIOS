@@ -10,7 +10,7 @@
   },
   "nw_002": {
     "title": "Impuesto del rey",
-    "body": "La corte reclama su parte incluso antes de que la caja respire.",
+    "body": "La corte reclama su parte incluso antes de que el dinero entre de verdad.",
     "choices": {
       "A": "Pagar sin discutir",
       "B": "Retrasar el pago",
@@ -127,7 +127,7 @@
   },
   "nw_015": {
     "title": "Monopolio de la sal",
-    "body": "La sal local vale casi tanto como el oro y menos que los rumores.",
+    "body": "La sal local vale mucho y ya despierta codicia.",
     "choices": {
       "A": "Crear un monopolio",
       "B": "Dejar vender libremente",
@@ -460,7 +460,7 @@
   },
   "nw_052": {
     "title": "Espía hablador",
-    "body": "Un hombre habla demasiado bien nuestra lengua como para ser solo un mercader.",
+    "body": "Un hombre habla nuestra lengua con demasiada facilidad para ser solo un comerciante.",
     "choices": {
       "A": "Darle la vuelta",
       "B": "Expulsarlo",
@@ -901,7 +901,7 @@
   },
   "nw_101": {
     "title": "Barcas demasiado lentas",
-    "body": "Nuestras barcas avanzan como muebles flotantes y el puerto se burla de ellas.",
+    "body": "Nuestras barcas avanzan demasiado despacio y todo el puerto se da cuenta.",
     "choices": {
       "A": "Comprar velas nuevas",
       "B": "Formar mejores remeros",
@@ -928,7 +928,7 @@
   },
   "nw_104": {
     "title": "Mercado bajo la lluvia",
-    "body": "El mercado resiste, pero los puestos casi nadan mejor que los vendedores.",
+    "body": "El mercado sigue pese a la lluvia, pero los puestos están casi bajo el agua.",
     "choices": {
       "A": "Construir toldos",
       "B": "Mover el mercado al fuerte",
@@ -946,11 +946,11 @@
   },
   "nw_106": {
     "title": "Bolsa agujereada",
-    "body": "El recaudador pierde monedas como un árbol pierde hojas.",
+    "body": "La persona encargada de la caja pierde demasiadas monedas y nadie sabe exactamente adónde desaparecen.",
     "choices": {
-      "A": "Contarlo todo delante de él",
-      "B": "Darle un ayudante",
-      "C": "Cerrar los ojos un mes"
+      "A": "Revisar la caja con él, moneda por moneda",
+      "B": "Darle un ayudante para controlarlo todo",
+      "C": "No decir nada durante un mes"
     }
   },
   "nw_107": {
@@ -991,7 +991,7 @@
   },
   "nw_111": {
     "title": "Río testarudo",
-    "body": "El río cambia de curso como un mercader cambia de precio.",
+    "body": "El río ha cambiado de curso, y eso complica los desplazamientos y los intercambios.",
     "choices": {
       "A": "Excavar un pequeño canal",
       "B": "Seguir el nuevo curso",
@@ -1117,7 +1117,7 @@
   },
   "nw_125": {
     "title": "Almacén vacío",
-    "body": "Nuestro almacén suena hueco y eso empieza a ser humillante.",
+    "body": "Nuestro almacén está casi vacío, y eso empieza a crear un verdadero problema de abastecimiento.",
     "choices": {
       "A": "Llenarlo con compras",
       "B": "Alquilarlo a los mercaderes",
@@ -1144,7 +1144,7 @@
   },
   "nw_128": {
     "title": "Mercader encantador",
-    "body": "Un mercader sonríe tanto que conviene revisar su bolsa dos veces.",
+    "body": "Un mercader parece tan amable que resulta aún más sospechoso.",
     "choices": {
       "A": "Firmar un pequeño acuerdo",
       "B": "Ponerlo bajo vigilancia",
@@ -1198,7 +1198,7 @@
   },
   "nw_134": {
     "title": "Mapa mojado",
-    "body": "Nuestro mejor mapa se ha empapado con dignidad.",
+    "body": "Nuestro mejor mapa ha sido dañado por el agua.",
     "choices": {
       "A": "Copiarlo rápido",
       "B": "Comprar un mapa local",
@@ -1351,7 +1351,7 @@
   },
   "nw_151": {
     "title": "Embarcadero inclinado",
-    "body": "El nuevo embarcadero ya se inclina como un marinero después de una fiesta.",
+    "body": "El nuevo embarcadero ya está inclinado. Si no se refuerza, pronto se volverá peligroso.",
     "choices": {
       "A": "Consolidarlo",
       "B": "Limitar su uso",
@@ -1486,7 +1486,7 @@
   },
   "nw_166": {
     "title": "Oficina demasiado limpia",
-    "body": "El nuevo jefe de la oficina lo ordena todo, sobre todo lo que hay que encontrar.",
+    "body": "El nuevo jefe de oficina lo guarda todo, incluso lo que debería encontrarse rápido.",
     "choices": {
       "A": "Confiar en él",
       "B": "Revisar sus cuentas",
@@ -1531,7 +1531,7 @@
   },
   "nw_171": {
     "title": "Zapatero hablador",
-    "body": "El zapatero sabe todo del puerto y lo dice demasiado bien.",
+    "body": "El zapatero conoce todos los secretos del puerto y habla demasiado.",
     "choices": {
       "A": "Pagarle por su información",
       "B": "Contratarlo en el fuerte",
@@ -1549,7 +1549,7 @@
   },
   "nw_173": {
     "title": "Días de descanso",
-    "body": "Los obreros piden un día de descanso antes de convertirse en estatuas.",
+    "body": "Los obreros piden un día de descanso antes de volver al trabajo.",
     "choices": {
       "A": "Conceder el descanso",
       "B": "Pagar un bonus para seguir",
@@ -1594,7 +1594,7 @@
   },
   "nw_178": {
     "title": "Pala de oro",
-    "body": "Una pala decorada circula como un trofeo muy poco útil.",
+    "body": "Un remo decorado circula por el campamento, pero no sirve para nada.",
     "choices": {
       "A": "Dársela al mejor remero",
       "B": "Venderla en el mercado",
@@ -1657,7 +1657,7 @@
   },
   "nw_185": {
     "title": "Bodega demasiado llena",
-    "body": "La bodega del barco real se traga todo menos el orden.",
+    "body": "La bodega del barco real está tan llena que la organización empieza a romperse.",
     "choices": {
       "A": "Descargar rápido",
       "B": "Vender una parte allí mismo",
@@ -1729,7 +1729,7 @@
   },
   "nw_193": {
     "title": "Granero caliente",
-    "body": "El granero se calienta demasiado y el grano empieza a pensar.",
+    "body": "El granero se calienta demasiado y las reservas de grano empiezan a estropearse.",
     "choices": {
       "A": "Ventilar el granero",
       "B": "Vender rápido el stock",
@@ -1801,11 +1801,11 @@
   },
   "nw_201": {
     "title": "Campana oxidada",
-    "body": "La campana del puerto suena como una cacerola ofendida y nadie sabe si es la alarma.",
+    "body": "La campana del puerto suena mal y nadie sabe si se trata de una alerta real.",
     "choices": {
       "A": "Reemplazarla",
       "B": "Repararla localmente",
-      "C": "Pasar al silbato"
+      "C": "Sustituir la alerta por un silbato"
     }
   },
   "nw_202": {
@@ -1819,7 +1819,7 @@
   },
   "nw_203": {
     "title": "Niebla burlona",
-    "body": "Una niebla espesa oculta el puerto y vuelve las órdenes muy imaginarias.",
+    "body": "Una niebla espesa oculta el puerto y hace difícil aplicar las órdenes.",
     "choices": {
       "A": "Encender más fuegos",
       "B": "Suspender las salidas",
@@ -1882,7 +1882,7 @@
   },
   "nw_210": {
     "title": "Silbato del puerto",
-    "body": "El nuevo silbato despierta a todo el mundo salvo a las personas correctas.",
+    "body": "El nuevo silbato avisa mal a los guardias y sobre todo molesta a los habitantes.",
     "choices": {
       "A": "Reservarlo para emergencias",
       "B": "Formar a los guardias",
@@ -1979,10 +1979,9 @@
       "C": "Compartir el riesgo"
     }
   },
-
   "nw_221": {
     "title": "Tienda agujereada",
-    "body": "La gran tienda deja entrar el viento como si fuera un invitado conocido.",
+    "body": "La gran tienda deja pasar el viento por todas partes. Protege mal el campamento.",
     "choices": {
       "A": "Coserla",
       "B": "Comprar otra",
@@ -2063,7 +2062,7 @@
   },
   "nw_230": {
     "title": "Cola en el pozo",
-    "body": "La fila en el pozo crece cada mañana como una liana paciente.",
+    "body": "La fila del pozo se alarga cada mañana. El acceso al agua se vuelve demasiado lento.",
     "choices": {
       "A": "Abrir un segundo punto de agua",
       "B": "Hacer pasar primero al campamento",
@@ -2198,7 +2197,7 @@
   },
   "nw_245": {
     "title": "Tortuga tenaz",
-    "body": "Una tortuga cruza el patio cada día como un inspector lento.",
+    "body": "Una tortuga cruza el patio cada día y bloquea el paso.",
     "choices": {
       "A": "Moverla",
       "B": "Dejarla",
@@ -2441,7 +2440,7 @@
   },
   "nw_272": {
     "title": "Disputa de mercado",
-    "body": "Dos vendedores se disputan un rincón de sombra como si fuera un trono.",
+    "body": "Dos vendedores se disputan el mejor rincón de sombra del mercado.",
     "choices": {
       "A": "Marcar los lugares",
       "B": "Cobrar el mejor rincón",
@@ -2639,7 +2638,7 @@
   },
   "nw_294": {
     "title": "Delantal del jefe",
-    "body": "El jefe cocinero quiere un delantal bordado como un ministro.",
+    "body": "El jefe de cocina quiere un delantal bordado muy lujoso.",
     "choices": {
       "A": "Regalárselo",
       "B": "Dejar que lo pague él",
@@ -2819,7 +2818,7 @@
   },
   "nw_314": {
     "title": "Mesa de las cuentas",
-    "body": "La mesa de la oficina se tambalea como una promesa de mercader.",
+    "body": "La mesa de la oficina se tambalea y vuelve el trabajo incómodo.",
     "choices": {
       "A": "Reemplazarla",
       "B": "Calzarla mejor",
@@ -3053,7 +3052,7 @@
   },
   "nw_340": {
     "title": "Sendero embarrado",
-    "body": "Un sendero del campamento se traga las sandalias como una bestia blanda.",
+    "body": "Un pasillo del campamento está tan embarrado que allí se pierden fácilmente las sandalias.",
     "choices": {
       "A": "Poner grava",
       "B": "Cerrar el sendero",
@@ -3071,7 +3070,7 @@
   },
   "nw_342": {
     "title": "Tambor mojado",
-    "body": "El tambor del puerto suena como un calcetín triste.",
+    "body": "El tambor del puerto suena mal. Las señales empiezan a ser difíciles de entender.",
     "choices": {
       "A": "Hacerlo secar",
       "B": "Comprar otro",
@@ -3224,7 +3223,7 @@
   },
   "nw_359": {
     "title": "Patrulla lenta",
-    "body": "La patrulla de la tarde avanza como una sopa fría.",
+    "body": "La patrulla de la noche avanza demasiado despacio.",
     "choices": {
       "A": "Dar un bonus",
       "B": "Cambiar el recorrido",
@@ -3368,7 +3367,7 @@
   },
   "nw_375": {
     "title": "Jaula vacía",
-    "body": "Una jaula sigue vacía en el depósito como una idea en espera.",
+    "body": "Una jaula permanece vacía en el depósito y no sirve de nada.",
     "choices": {
       "A": "Llenarla de gallinas",
       "B": "Venderla",
@@ -3386,7 +3385,7 @@
   },
   "nw_377": {
     "title": "Arrecife cercano",
-    "body": "Un arrecife muy cercano podría ser útil o muy molesto.",
+    "body": "Un arrecife cercano puede ayudar para la pesca, pero también puede dificultar las maniobras de los barcos.",
     "choices": {
       "A": "Señalarlo",
       "B": "Mantenerlo en secreto",

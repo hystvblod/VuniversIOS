@@ -1,4 +1,4 @@
-{
+﻿{
   "nw_001": {
     "title": "Port naturel",
     "body": "Une baie parfaite peut devenir notre porte d’entrée ou un simple arrêt.",
@@ -10,7 +10,7 @@
   },
   "nw_002": {
     "title": "Impôt du roi",
-    "body": "La cour réclame sa part avant même que la caisse respire.",
+    "body": "La cour réclame sa part avant même que l’argent n’entre vraiment.",
     "choices": {
       "A": "Payer sans discuter",
       "B": "Retarder le paiement",
@@ -127,7 +127,7 @@
   },
   "nw_015": {
     "title": "Monopole du sel",
-    "body": "Le sel local vaut presque autant que l’or et moins que les rumeurs.",
+    "body": "Le sel local vaut très cher et attire déjà les convoitises.",
     "choices": {
       "A": "Créer un monopole",
       "B": "Laisser vendre librement",
@@ -460,7 +460,7 @@
   },
   "nw_052": {
     "title": "Espion bavard",
-    "body": "Un homme parle trop bien notre langue pour être seulement marchand.",
+    "body": "Un homme parle notre langue bien trop facilement pour être un simple marchand.",
     "choices": {
       "A": "Le retourner",
       "B": "L’expulser",
@@ -901,7 +901,7 @@
   },
   "nw_101": {
     "title": "Barques trop lentes",
-    "body": "Nos barques avancent comme des meubles flottants et le port s’en moque.",
+    "body": "Nos barques avancent trop lentement et tout le port s’en rend compte.",
     "choices": {
       "A": "Acheter des voiles neuves",
       "B": "Former de meilleurs rameurs",
@@ -928,7 +928,7 @@
   },
   "nw_104": {
     "title": "Marché sous la pluie",
-    "body": "Le marché tient bon mais les étals nagent presque mieux que les vendeurs.",
+    "body": "Le marché continue malgré la pluie, mais les étals sont presque sous l’eau.",
     "choices": {
       "A": "Bâtir des auvents",
       "B": "Déplacer le marché au fort",
@@ -946,11 +946,11 @@
   },
   "nw_106": {
     "title": "Bourse trouée",
-    "body": "Le receveur perd des pièces comme un arbre perd des feuilles.",
+    "body": "Le responsable de la caisse perd trop de pièces, et personne ne sait exactement où elles disparaissent.",
     "choices": {
-      "A": "Compter tout devant lui",
-      "B": "Lui donner un adjoint",
-      "C": "Fermer les yeux un mois"
+      "A": "Vérifier la caisse avec lui, pièce par pièce",
+      "B": "Lui donner un adjoint pour tout contrôler",
+      "C": "Ne rien dire pendant un mois"
     }
   },
   "nw_107": {
@@ -991,7 +991,7 @@
   },
   "nw_111": {
     "title": "Rivière têtue",
-    "body": "La rivière change de chemin comme un marchand change de prix.",
+    "body": "La rivière a changé de trajet, et cela complique les déplacements et les échanges.",
     "choices": {
       "A": "Creuser un petit canal",
       "B": "Suivre le nouveau cours",
@@ -1117,7 +1117,7 @@
   },
   "nw_125": {
     "title": "Entrepôt vide",
-    "body": "Notre entrepôt sonne creux et cela devient vexant.",
+    "body": "Notre entrepôt est presque vide, et cela commence à poser un vrai problème de ravitaillement.",
     "choices": {
       "A": "Le remplir avec des achats",
       "B": "Le louer aux marchands",
@@ -1144,7 +1144,7 @@
   },
   "nw_128": {
     "title": "Marchand charmant",
-    "body": "Un marchand sourit tant qu’on vérifie sa bourse deux fois.",
+    "body": "Un marchand paraît si aimable qu’on se méfie encore plus de lui.",
     "choices": {
       "A": "Signer un petit accord",
       "B": "Le faire surveiller",
@@ -1198,7 +1198,7 @@
   },
   "nw_134": {
     "title": "Carte mouillée",
-    "body": "Notre meilleure carte a pris l’eau avec dignité.",
+    "body": "Notre meilleure carte a été abîmée par l’eau.",
     "choices": {
       "A": "La recopier vite",
       "B": "Acheter une carte locale",
@@ -1351,7 +1351,7 @@
   },
   "nw_151": {
     "title": "Ponton qui penche",
-    "body": "Le nouveau ponton penche déjà comme un marin après fête.",
+    "body": "Le nouveau ponton penche déjà. S’il n’est pas renforcé, il deviendra vite dangereux.",
     "choices": {
       "A": "Le consolider",
       "B": "Limiter son usage",
@@ -1486,7 +1486,7 @@
   },
   "nw_166": {
     "title": "Bureau trop propre",
-    "body": "Le nouveau chef du bureau range tout, surtout ce qu’il faut trouver.",
+    "body": "Le nouveau chef du bureau range tout, y compris ce qu’il faudrait retrouver vite.",
     "choices": {
       "A": "Lui faire confiance",
       "B": "Vérifier ses comptes",
@@ -1531,7 +1531,7 @@
   },
   "nw_171": {
     "title": "Cordonnier bavard",
-    "body": "Le cordonnier sait tout du port et le dit trop bien.",
+    "body": "Le cordonnier connaît tous les secrets du port et parle beaucoup trop.",
     "choices": {
       "A": "Le payer pour ses infos",
       "B": "L’embaucher au fort",
@@ -1549,7 +1549,7 @@
   },
   "nw_173": {
     "title": "Jours de repos",
-    "body": "Les ouvriers réclament un jour de repos avant de devenir des statues.",
+    "body": "Les ouvriers demandent un jour de repos avant de reprendre le travail.",
     "choices": {
       "A": "Accorder le repos",
       "B": "Payer un bonus pour continuer",
@@ -1594,7 +1594,7 @@
   },
   "nw_178": {
     "title": "Pagaie d’or",
-    "body": "Une pagaie décorée circule comme un trophée très peu utile.",
+    "body": "Une pagaie décorée circule dans le camp, mais elle ne sert à rien.",
     "choices": {
       "A": "La donner au meilleur rameur",
       "B": "La vendre au marché",
@@ -1657,7 +1657,7 @@
   },
   "nw_185": {
     "title": "Cale trop pleine",
-    "body": "La cale du navire royal avale tout sauf l’ordre.",
+    "body": "La cale du navire royal est tellement pleine que l’organisation commence à céder.",
     "choices": {
       "A": "Décharger vite",
       "B": "Vendre une part sur place",
@@ -1729,7 +1729,7 @@
   },
   "nw_193": {
     "title": "Grenier chaud",
-    "body": "Le grenier chauffe trop et le grain commence à réfléchir.",
+    "body": "Le grenier chauffe trop et le stock de grain commence à s’abîmer.",
     "choices": {
       "A": "Aérer le grenier",
       "B": "Vendre vite le stock",
@@ -1801,11 +1801,11 @@
   },
   "nw_201": {
     "title": "Cloche rouillée",
-    "body": "La cloche du port sonne comme une casserole vexée et personne ne sait si c’est l’alerte.",
+    "body": "La cloche du port sonne mal et personne ne sait si c’est une vraie alerte.",
     "choices": {
       "A": "La remplacer",
       "B": "La réparer localement",
-      "C": "Passer au sifflet"
+      "C": "Remplacer l’alerte par un sifflet"
     }
   },
   "nw_202": {
@@ -1819,7 +1819,7 @@
   },
   "nw_203": {
     "title": "Brouillard rieur",
-    "body": "Un brouillard épais cache le port et rend les ordres très imaginaires.",
+    "body": "Un brouillard épais cache le port et rend les ordres difficiles à faire appliquer.",
     "choices": {
       "A": "Allumer plus de feux",
       "B": "Suspendre les départs",
@@ -1882,7 +1882,7 @@
   },
   "nw_210": {
     "title": "Sifflet du port",
-    "body": "Le nouveau sifflet réveille tout le monde sauf les bonnes personnes.",
+    "body": "Le nouveau sifflet alerte mal les gardes et dérange surtout les habitants.",
     "choices": {
       "A": "Le réserver aux urgences",
       "B": "Former les gardes",
@@ -1981,7 +1981,7 @@
   },
   "nw_221": {
     "title": "Tente trouée",
-    "body": "La grande tente laisse entrer le vent comme un invité connu.",
+    "body": "La grande tente laisse passer le vent de partout. Elle protège mal le camp.",
     "choices": {
       "A": "La recoudre",
       "B": "En acheter une autre",
@@ -2062,7 +2062,7 @@
   },
   "nw_230": {
     "title": "Queue au puits",
-    "body": "La file au puits grandit chaque matin comme une liane patiente.",
+    "body": "La file au puits s’allonge chaque matin. L’accès à l’eau devient trop lent.",
     "choices": {
       "A": "Ouvrir un second point d’eau",
       "B": "Faire passer le camp d’abord",
@@ -2197,7 +2197,7 @@
   },
   "nw_245": {
     "title": "Tortue tenace",
-    "body": "Une tortue traverse la cour chaque jour comme un inspecteur lent.",
+    "body": "Une tortue traverse la cour chaque jour et gêne le passage.",
     "choices": {
       "A": "La déplacer",
       "B": "La laisser",
@@ -2440,7 +2440,7 @@
   },
   "nw_272": {
     "title": "Dispute de marché",
-    "body": "Deux vendeurs se disputent un coin d’ombre comme un trône.",
+    "body": "Deux vendeurs se disputent le meilleur coin d’ombre du marché.",
     "choices": {
       "A": "Tracer les places",
       "B": "Faire payer le meilleur coin",
@@ -2638,7 +2638,7 @@
   },
   "nw_294": {
     "title": "Tablier du chef",
-    "body": "Le chef cuisinier veut un tablier brodé comme un ministre.",
+    "body": "Le chef cuisinier veut un tablier brodé très luxueux.",
     "choices": {
       "A": "Le lui offrir",
       "B": "Le laisser payer",
@@ -2818,7 +2818,7 @@
   },
   "nw_314": {
     "title": "Table des comptes",
-    "body": "La table du bureau vacille comme une promesse de marchand.",
+    "body": "La table du bureau vacille et rend le travail pénible.",
     "choices": {
       "A": "La remplacer",
       "B": "La caler mieux",
@@ -3052,7 +3052,7 @@
   },
   "nw_340": {
     "title": "Allée boueuse",
-    "body": "Une allée du camp avale les sandales comme une bête molle.",
+    "body": "Une allée du camp est tellement boueuse qu’on y perd facilement ses sandales.",
     "choices": {
       "A": "Poser du gravier",
       "B": "Fermer l’allée",
@@ -3070,7 +3070,7 @@
   },
   "nw_342": {
     "title": "Tambour mouillé",
-    "body": "Le tambour du port sonne comme une chaussette triste.",
+    "body": "Le tambour du port sonne mal. Les signaux deviennent difficiles à comprendre.",
     "choices": {
       "A": "Le faire sécher",
       "B": "En acheter un autre",
@@ -3223,7 +3223,7 @@
   },
   "nw_359": {
     "title": "Patrouille lente",
-    "body": "La patrouille du soir avance comme une soupe froide.",
+    "body": "La patrouille du soir avance beaucoup trop lentement.",
     "choices": {
       "A": "Donner un bonus",
       "B": "Changer le trajet",
@@ -3367,7 +3367,7 @@
   },
   "nw_375": {
     "title": "Cage vide",
-    "body": "Une cage reste vide au dépôt comme une idée en attente.",
+    "body": "Une cage reste vide au dépôt et ne sert à rien.",
     "choices": {
       "A": "La remplir avec des poules",
       "B": "La vendre",
@@ -3385,7 +3385,7 @@
   },
   "nw_377": {
     "title": "Récif proche",
-    "body": "Un récif tout proche pourrait être utile ou très vexant.",
+    "body": "Un récif tout proche peut aider pour la pêche, mais il peut aussi gêner les manœuvres des bateaux.",
     "choices": {
       "A": "Le signaler",
       "B": "Le garder secret",

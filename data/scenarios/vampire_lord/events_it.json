@@ -20,9 +20,9 @@
       "duration": "Durata: 4 carte"
     },
     "vampire_lord_ev_004": {
-      "title": "Culto discreto",
-      "body": "Il segreto vampirico recluta in silenzio. Poco rumore, molta fedeltà.",
-      "effect": "Segreto vampirico: +5 per carta",
+      "title": "Velo rafforzato",
+      "body": "Il rifugio passa più inosservato. Meno rumore, meno tracce, meno occhi puntati su di te.",
+      "effect": "Discrezione: +5 per carta",
       "duration": "Durata: 5 carte"
     },
     "vampire_lord_ev_005": {
@@ -45,8 +45,8 @@
     },
     "vampire_lord_ev_008": {
       "title": "Flash mal piazzato",
-      "body": "Una foto notturna riesce un po' troppo bene. I curiosi fanno le domande giuste.",
-      "effect": "Segreto vampirico: -5 per carta",
+      "body": "Una foto notturna circola un po’ troppo. I curiosi iniziano a fare domande.",
+      "effect": "Discrezione: -5 per carta",
       "duration": "Durata: 5 carte"
     },
     "vampire_lord_ev_009": {
@@ -63,14 +63,14 @@
     },
     "vampire_lord_ev_011": {
       "title": "Forum troppo loquace",
-      "body": "Gli umani raccolgono voci fin troppo precise. Il segreto vampirico diventa meno segreto.",
-      "effect": "Segreto vampirico: -5 per carta",
+      "body": "Gli umani raccolgono voci fin troppo precise. La discrezione del rifugio comincia a cedere.",
+      "effect": "Discrezione: -5 per carta",
       "duration": "Durata: 3 carte"
     },
     "vampire_lord_ev_012": {
       "title": "Rituale chiuso",
-      "body": "Un rituale ben condotto unisce i fedeli. Nessuno parla troppo, tutti ascoltano.",
-      "effect": "Segreto vampirico: +5 per carta",
+      "body": "Un rituale ben condotto impone il silenzio. Nessuno parla troppo, nulla trapela.",
+      "effect": "Discrezione: +5 per carta",
       "duration": "Durata: 7 carte"
     },
     "vampire_lord_ev_013": {
@@ -98,9 +98,9 @@
       "duration": "Durata: 5 carte"
     },
     "vampire_lord_ev_017": {
-      "title": "Muro dei fedeli",
-      "body": "Il segreto vampirico diffonde segni discreti nella città. I leali si riconoscono in fretta.",
-      "effect": "Segreto vampirico: +5 per carta",
+      "title": "Segni invisibili",
+      "body": "Segni discreti si diffondono per la città. I tuoi si riconoscono senza attirare attenzione.",
+      "effect": "Discrezione: +5 per carta",
       "duration": "Durata: 4 carte"
     },
     "vampire_lord_ev_018": {
@@ -123,8 +123,8 @@
     },
     "vampire_lord_ev_021": {
       "title": "Volto individuato",
-      "body": "Un volto legato al rifugio circola in un gruppo chiuso. Il velo si strappa un poco.",
-      "effect": "Segreto vampirico: -5 per carta",
+      "body": "Un volto legato al rifugio comincia a circolare in un gruppo chiuso. La discrezione cala.",
+      "effect": "Discrezione: -5 per carta",
       "duration": "Durata: 5 carte"
     },
     "vampire_lord_ev_022": {
@@ -165,8 +165,8 @@
     },
     "vampire_lord_ev_028": {
       "title": "Testimone nervoso",
-      "body": "Un testimone umano parla troppo in fretta con troppa gente. Il segreto vampirico subisce un colpo.",
-      "effect": "Segreto vampirico: -5 per carta",
+      "body": "Un testimone umano parla troppo in fretta con troppa gente. La discrezione subisce un colpo.",
+      "effect": "Discrezione: -5 per carta",
       "duration": "Durata: 6 carte"
     },
     "vampire_lord_ev_029": {
@@ -178,7 +178,7 @@
     "vampire_lord_ev_030": {
       "title": "Silenzio dei fedeli",
       "body": "I fedeli obbediscono e tacciono. Nulla trapela, nulla spicca.",
-      "effect": "Segreto vampirico: +5 per carta",
+      "effect": "Discrezione: +5 per carta",
       "duration": "Durata: 7 carte"
     }
   }

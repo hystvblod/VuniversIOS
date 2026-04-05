@@ -125,11 +125,11 @@
     "title": "Conversione in diretta",
     "description": "Un influencer ateo annuncia una live per smontare ogni credenza... ma comincia a dubitare in diretta.",
     "choices": {
-      "A": "Inviargli un segno discreto durante la live",
+      "A": "Inviargli un segno discreto durante la diretta",
       "B": "Lasciare che il dibattito si svolga senza intervenire",
       "C": "Provocare un vero miracolo davanti alla telecamera"
     },
-    "body": "Un influencer ateo annuncia una live per smontare ogni credenza... ma comincia a dubitare in diretta."
+    "body": "Un influencer ateo avvia una diretta per prendere in giro la fede, ma inizia a dubitare proprio durante la trasmissione."
   },
   "heaven_012": {
     "id": "heaven_012",
@@ -249,7 +249,7 @@
       "B": "Lasciarlo seguire il proprio cammino",
       "C": "Spingerlo verso un rigore estremo che attiri i fanatici"
     },
-    "body": "Un monaco molto popolare condivide le sue meditazioni in diretta e crea una grande comunità."
+    "body": "Un monaco molto seguito condivide le sue meditazioni in diretta e riunisce una grande comunità."
   },
   "heaven_022": {
     "id": "heaven_022",
@@ -753,7 +753,7 @@
       "B": "Ispirare una critica profonda dietro la battuta",
       "C": "Provocare un incidente che faccia fermare tutto"
     },
-    "body": "Una pubblicità paragona il Paradiso a un'offerta gratuita e gli Inferi a un'offerta premium."
+    "body": "Una pubblicità presenta il Paradiso come un’offerta gratuita e l’Inferno come un’opzione di lusso."
   },
   "heaven_064": {
     "id": "heaven_064",
@@ -1053,7 +1053,7 @@
       "B": "Non intervenire in questo linguaggio di marketing",
       "C": "Lasciare nascere un culto tossico attorno alla performance"
     },
-    "body": "Una società promette un 'piccolo paradiso' sul lavoro e tratta i suoi rivali come dannati."
+    "body": "Un’azienda promette un piccolo paradiso sul lavoro e parla dei suoi rivali come se fossero dannati."
   },
   "heaven_089": {
     "id": "heaven_089",
@@ -2399,7 +2399,6 @@
     },
     "body": "Rappresentanti di molteplici tradizioni si riuniscono per ridefinire l'immagine del Paradiso."
   },
-
   "heaven_201": {
     "id": "heaven_201",
     "universe": "heaven_king",
@@ -3018,11 +3017,11 @@
     "title": "Ufficio dei rimpianti",
     "description": "Un luogo simbolico propone di scrivere i propri rimpianti per trovare un po’ di sollievo.",
     "choices": {
-      "A": "Ispirare episodi sulla bontà e sulla responsabilità",
-      "B": "Lasciare che il podcast cavalchi la paura per fare audience",
-      "C": "Lasciare lanciare campagne di punizione contro gli empi"
+      "A": "Ispirare un vero percorso di riparazione interiore",
+      "B": "Lasciare che ognuno deponga i propri rimpianti senza intervenire",
+      "C": "Trasformare questo luogo in un tribunale morale permanente"
     },
-    "body": "Un luogo simbolico propone di scrivere i propri rimpianti per trovare un po’ di sollievo."
+    "body": "Un luogo permette alle persone di scrivere i propri rimpianti nel tentativo di stare meglio."
   },
   "heaven_253": {
     "id": "heaven_253",
@@ -4182,11 +4181,11 @@
     "title": "Podcast della dolcezza",
     "description": "Un piccolo podcast diffonde ogni giorno un pensiero benevolo e rasserenante.",
     "choices": {
-      "A": "Lasciare che gli ascoltatori vi percepiscano una voce profondamente rassicurante",
+      "A": "Lasciare che gli ascoltatori vi trovino una voce davvero rassicurante",
       "B": "Lasciare che il podcast resti confidenziale",
       "C": "Farne un programma strutturato della rete"
     },
-    "body": "Un piccolo podcast diffonde ogni giorno un pensiero benevolo e rasserenante."
+    "body": "Un piccolo podcast condivide ogni giorno un pensiero dolce e rassicurante."
   },
   "heaven_350": {
     "id": "heaven_350",
@@ -4579,10 +4578,10 @@
     "description": "Un’animatrice conduce ogni settimana una live per condividere gratitudini.",
     "choices": {
       "A": "Soffiare frasi che aprano davvero il cuore",
-      "B": "Lasciare che la live resti un appuntamento simpatico ma superficiale",
+      "B": "Lasciare che questo appuntamento resti piacevole ma superficiale",
       "C": "Definire un percorso preciso di diverse settimane"
     },
-    "body": "Un’animatrice conduce ogni settimana una live per condividere gratitudini."
+    "body": "Un’animatrice riunisce ogni settimana delle persone online per condividere ciò che ha fatto loro del bene."
   },
   "heaven_383": {
     "id": "heaven_383",
@@ -4712,9 +4711,9 @@
     "choices": {
       "A": "Soffiare storie che restituiscano fiducia",
       "B": "Lasciare che il podcast resti una bolla ottimista",
-      "C": "Incoraggiare una rete a trasformarlo in uno strumento di comunicazione molto controllato"
+      "C": "Spingere una rete a trasformarlo in uno strumento di comunicazione troppo controllato"
     },
-    "body": "Un podcast condivide ogni giorno una piccola buona notizia vera."
+    "body": "Un podcast condivide ogni giorno una vera buona notizia."
   },
   "heaven_394": {
     "id": "heaven_394",

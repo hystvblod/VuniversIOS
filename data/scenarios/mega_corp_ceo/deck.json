@@ -1,4 +1,4 @@
-{
+﻿{
   "cards": [
     {
       "id": "mcc_001",
@@ -7493,9 +7493,9 @@
         "C": {
           "gaugeDelta": {
             "brand_image": 5,
-            "investors": -5,
+            "investors": 0,
             "employees": 0,
-            "regulators": 0
+            "regulators": 5
           }
         }
       }
@@ -9293,8 +9293,8 @@
         "C": {
           "gaugeDelta": {
             "brand_image": 5,
-            "investors": 5,
-            "regulators": 0,
+            "investors": 0,
+            "regulators": 5,
             "employees": 0
           }
         }
@@ -11063,7 +11063,7 @@
         "C": {
           "gaugeDelta": {
             "brand_image": 5,
-            "investors": -10,
+            "investors": -5,
             "employees": 0,
             "regulators": 0
           }

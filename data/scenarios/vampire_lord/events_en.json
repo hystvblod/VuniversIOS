@@ -20,9 +20,9 @@
       "duration": "Duration: 4 cards"
     },
     "vampire_lord_ev_004": {
-      "title": "Quiet Cult",
-      "body": "The vampiric secret recruits in silence. Little noise, a lot of loyalty.",
-      "effect": "Vampiric Secret: +5 per card",
+      "title": "Strengthened Veil",
+      "body": "The lair keeps a lower profile. Less noise, fewer traces, fewer eyes on you.",
+      "effect": "Secrecy: +5 per card",
       "duration": "Duration: 5 cards"
     },
     "vampire_lord_ev_005": {
@@ -45,8 +45,8 @@
     },
     "vampire_lord_ev_008": {
       "title": "Badly Timed Flash",
-      "body": "A nighttime photo comes out a little too well. Curious minds start asking the right questions.",
-      "effect": "Vampiric Secret: -5 per card",
+      "body": "A night photo is circulating a bit too much. Curious people are starting to ask questions.",
+      "effect": "Secrecy: -5 per card",
       "duration": "Duration: 5 cards"
     },
     "vampire_lord_ev_009": {
@@ -63,14 +63,14 @@
     },
     "vampire_lord_ev_011": {
       "title": "Talkative Forum",
-      "body": "Humans are compiling precise rumors. The vampiric secret becomes less secret.",
-      "effect": "Vampiric Secret: -5 per card",
+      "body": "Humans are compiling precise rumors. The lair's secrecy starts to crack.",
+      "effect": "Secrecy: -5 per card",
       "duration": "Duration: 3 cards"
     },
     "vampire_lord_ev_012": {
       "title": "Closed Ritual",
-      "body": "A well-run ritual binds the faithful together. No one talks too much, everyone listens.",
-      "effect": "Vampiric Secret: +5 per card",
+      "body": "A well-run ritual keeps everyone silent. No one talks too much, nothing leaks.",
+      "effect": "Secrecy: +5 per card",
       "duration": "Duration: 7 cards"
     },
     "vampire_lord_ev_013": {
@@ -98,9 +98,9 @@
       "duration": "Duration: 5 cards"
     },
     "vampire_lord_ev_017": {
-      "title": "Wall of the Faithful",
-      "body": "The vampiric secret spreads subtle signs across the city. The loyal recognize each other quickly.",
-      "effect": "Vampiric Secret: +5 per card",
+      "title": "Hidden Signs",
+      "body": "Subtle signs spread through the city. Yours can recognize each other without drawing attention.",
+      "effect": "Secrecy: +5 per card",
       "duration": "Duration: 4 cards"
     },
     "vampire_lord_ev_018": {
@@ -123,8 +123,8 @@
     },
     "vampire_lord_ev_021": {
       "title": "Spotted Face",
-      "body": "A face linked to the lair is circulating in a closed group. The veil tears a little.",
-      "effect": "Vampiric Secret: -5 per card",
+      "body": "A face linked to the lair is starting to circulate in a closed group. Secrecy is slipping.",
+      "effect": "Secrecy: -5 per card",
       "duration": "Duration: 5 cards"
     },
     "vampire_lord_ev_022": {
@@ -165,8 +165,8 @@
     },
     "vampire_lord_ev_028": {
       "title": "Nervous Witness",
-      "body": "A human witness talks too fast to too many people. The vampiric secret takes a hit.",
-      "effect": "Vampiric Secret: -5 per card",
+      "body": "A human witness talks too fast to too many people. Secrecy takes a hit.",
+      "effect": "Secrecy: -5 per card",
       "duration": "Duration: 6 cards"
     },
     "vampire_lord_ev_029": {
@@ -178,7 +178,7 @@
     "vampire_lord_ev_030": {
       "title": "Silence of the Faithful",
       "body": "The faithful obey and stay quiet. Nothing leaks, nothing sticks out.",
-      "effect": "Vampiric Secret: +5 per card",
+      "effect": "Secrecy: +5 per card",
       "duration": "Duration: 7 cards"
     }
   }

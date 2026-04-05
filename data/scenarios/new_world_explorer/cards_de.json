@@ -10,7 +10,7 @@
   },
   "nw_002": {
     "title": "Steuer des Königs",
-    "body": "Der Hof fordert seinen Anteil, noch bevor die Kasse atmen kann.",
+    "body": "Der Hof fordert seinen Anteil, noch bevor das Geld überhaupt wirklich eingegangen ist.",
     "choices": {
       "A": "Ohne Diskussion zahlen",
       "B": "Die Zahlung verzögern",
@@ -127,7 +127,7 @@
   },
   "nw_015": {
     "title": "Salzmonopol",
-    "body": "Das lokale Salz ist fast so viel wert wie Gold und weniger als die Gerüchte.",
+    "body": "Das örtliche Salz ist sehr wertvoll und weckt bereits Begehrlichkeiten.",
     "choices": {
       "A": "Ein Monopol schaffen",
       "B": "Frei verkaufen lassen",
@@ -460,7 +460,7 @@
   },
   "nw_052": {
     "title": "Redseliger Spion",
-    "body": "Ein Mann spricht unsere Sprache zu gut, um nur ein Händler zu sein.",
+    "body": "Ein Mann spricht unsere Sprache viel zu fließend, um nur ein einfacher Händler zu sein.",
     "choices": {
       "A": "Ihn umdrehen",
       "B": "Ihn ausweisen",
@@ -901,7 +901,7 @@
   },
   "nw_101": {
     "title": "Zu langsame Boote",
-    "body": "Unsere Boote bewegen sich wie schwimmende Möbel, und der Hafen macht sich darüber lustig.",
+    "body": "Unsere Boote sind viel zu langsam, und der ganze Hafen bemerkt es.",
     "choices": {
       "A": "Neue Segel kaufen",
       "B": "Bessere Ruderer ausbilden",
@@ -928,7 +928,7 @@
   },
   "nw_104": {
     "title": "Markt im Regen",
-    "body": "Der Markt hält durch, aber die Stände schwimmen fast besser als die Verkäufer.",
+    "body": "Der Markt läuft trotz des Regens weiter, aber die Stände stehen fast schon im Wasser.",
     "choices": {
       "A": "Vordächer bauen",
       "B": "Den Markt ins Fort verlegen",
@@ -946,11 +946,11 @@
   },
   "nw_106": {
     "title": "Löchriger Geldbeutel",
-    "body": "Der Einnehmer verliert Münzen wie ein Baum Blätter verliert.",
+    "body": "Der Verantwortliche für die Kasse verliert zu viele Münzen, und niemand weiß genau, wo sie verschwinden.",
     "choices": {
-      "A": "Alles vor seinen Augen zählen",
-      "B": "Ihm einen Assistenten geben",
-      "C": "Einen Monat lang die Augen schließen"
+      "A": "Die Kasse mit ihm zusammen Münze für Münze prüfen",
+      "B": "Ihm einen Assistenten geben, damit alles kontrolliert wird",
+      "C": "Einen Monat lang nichts sagen"
     }
   },
   "nw_107": {
@@ -991,7 +991,7 @@
   },
   "nw_111": {
     "title": "Sturer Fluss",
-    "body": "Der Fluss wechselt seinen Lauf wie ein Händler seine Preise.",
+    "body": "Der Fluss hat seinen Lauf geändert, und das erschwert Reisen und Handel.",
     "choices": {
       "A": "Einen kleinen Kanal graben",
       "B": "Dem neuen Lauf folgen",
@@ -1117,7 +1117,7 @@
   },
   "nw_125": {
     "title": "Leeres Lagerhaus",
-    "body": "Unser Lagerhaus hallt hohl, und das wird langsam peinlich.",
+    "body": "Unser Lager ist fast leer, und das beginnt zu einem echten Versorgungsproblem zu werden.",
     "choices": {
       "A": "Es mit Einkäufen füllen",
       "B": "Es an Händler vermieten",
@@ -1144,7 +1144,7 @@
   },
   "nw_128": {
     "title": "Charmanter Händler",
-    "body": "Ein Händler lächelt so sehr, dass man seinen Geldbeutel zweimal prüfen sollte.",
+    "body": "Ein Händler wirkt so freundlich, dass er dadurch nur noch verdächtiger erscheint.",
     "choices": {
       "A": "Ein kleines Abkommen schließen",
       "B": "Ihn überwachen lassen",
@@ -1198,7 +1198,7 @@
   },
   "nw_134": {
     "title": "Nasse Karte",
-    "body": "Unsere beste Karte hat würdevoll Wasser gezogen.",
+    "body": "Unsere beste Karte wurde durch Wasser beschädigt.",
     "choices": {
       "A": "Sie schnell kopieren",
       "B": "Eine lokale Karte kaufen",
@@ -1351,7 +1351,7 @@
   },
   "nw_151": {
     "title": "Schiefer Steg",
-    "body": "Der neue Steg hängt schon wie ein Seemann nach einem Fest.",
+    "body": "Der neue Steg neigt sich bereits. Wenn er nicht verstärkt wird, wird er schnell gefährlich.",
     "choices": {
       "A": "Ihn verstärken",
       "B": "Seine Nutzung begrenzen",
@@ -1486,7 +1486,7 @@
   },
   "nw_166": {
     "title": "Zu ordentliches Büro",
-    "body": "Der neue Büroleiter räumt alles weg, vor allem das, was man finden muss.",
+    "body": "Der neue Leiter des Büros räumt alles weg, selbst das, was man schnell wiederfinden müsste.",
     "choices": {
       "A": "Ihm vertrauen",
       "B": "Seine Bücher prüfen",
@@ -1531,7 +1531,7 @@
   },
   "nw_171": {
     "title": "Redseliger Schuhmacher",
-    "body": "Der Schuhmacher weiß alles über den Hafen und sagt es nur zu gut.",
+    "body": "Der Schuster kennt alle Geheimnisse des Hafens und redet viel zu viel.",
     "choices": {
       "A": "Ihn für seine Informationen bezahlen",
       "B": "Ihn im Fort anstellen",
@@ -1549,7 +1549,7 @@
   },
   "nw_173": {
     "title": "Ruhetage",
-    "body": "Die Arbeiter verlangen einen Ruhetag, bevor sie zu Statuen werden.",
+    "body": "Die Arbeiter verlangen einen Tag Ruhe, bevor sie die Arbeit wieder aufnehmen.",
     "choices": {
       "A": "Die Ruhe gewähren",
       "B": "Einen Bonus fürs Weitermachen zahlen",
@@ -1594,7 +1594,7 @@
   },
   "nw_178": {
     "title": "Goldenes Paddel",
-    "body": "Ein verziertes Paddel kursiert wie eine sehr wenig nützliche Trophäe.",
+    "body": "Ein verziertes Paddel geht im Lager herum, aber es nützt nichts.",
     "choices": {
       "A": "Es dem besten Ruderer geben",
       "B": "Es auf dem Markt verkaufen",
@@ -1657,7 +1657,7 @@
   },
   "nw_185": {
     "title": "Zu voller Laderaum",
-    "body": "Der Laderaum des königlichen Schiffs verschlingt alles außer Ordnung.",
+    "body": "Der Laderaum des königlichen Schiffes ist so voll, dass die Organisation langsam zusammenbricht.",
     "choices": {
       "A": "Schnell entladen",
       "B": "Einen Teil vor Ort verkaufen",
@@ -1729,7 +1729,7 @@
   },
   "nw_193": {
     "title": "Heißer Speicher",
-    "body": "Der Speicher wird zu warm, und das Korn beginnt nachzudenken.",
+    "body": "Der Speicher wird zu heiß, und der Getreidevorrat beginnt zu verderben.",
     "choices": {
       "A": "Den Speicher lüften",
       "B": "Den Vorrat schnell verkaufen",
@@ -1801,11 +1801,11 @@
   },
   "nw_201": {
     "title": "Rostige Glocke",
-    "body": "Die Glocke des Hafens klingt wie ein beleidigter Kochtopf, und niemand weiß, ob das Alarm ist.",
+    "body": "Die Hafenglocke klingt schlecht, und niemand weiß, ob es ein echter Alarm ist.",
     "choices": {
       "A": "Sie ersetzen",
       "B": "Sie vor Ort reparieren",
-      "C": "Zur Pfeife wechseln"
+      "C": "Das Alarmsignal durch eine Pfeife ersetzen"
     }
   },
   "nw_202": {
@@ -1819,7 +1819,7 @@
   },
   "nw_203": {
     "title": "Spöttischer Nebel",
-    "body": "Ein dichter Nebel verbirgt den Hafen und macht Befehle sehr imaginär.",
+    "body": "Ein dichter Nebel verbirgt den Hafen und macht Befehle schwer durchzusetzen.",
     "choices": {
       "A": "Mehr Feuer anzünden",
       "B": "Abfahrten aussetzen",
@@ -1882,7 +1882,7 @@
   },
   "nw_210": {
     "title": "Pfeife des Hafens",
-    "body": "Die neue Pfeife weckt alle auf, außer die richtigen Leute.",
+    "body": "Die neue Pfeife warnt die Wachen schlecht und stört vor allem die Bewohner.",
     "choices": {
       "A": "Sie den Notfällen vorbehalten",
       "B": "Die Wachen schulen",
@@ -1979,10 +1979,9 @@
       "C": "Das Risiko teilen"
     }
   },
-
   "nw_221": {
     "title": "Zerfetztes Zelt",
-    "body": "Das große Zelt lässt den Wind herein wie einen bekannten Gast.",
+    "body": "Das große Zelt lässt den Wind von überall herein. Es schützt das Lager schlecht.",
     "choices": {
       "A": "Es zunähen",
       "B": "Ein anderes kaufen",
@@ -2063,7 +2062,7 @@
   },
   "nw_230": {
     "title": "Schlange am Brunnen",
-    "body": "Die Schlange am Brunnen wächst jeden Morgen wie eine geduldige Liane.",
+    "body": "Die Schlange am Brunnen wird jeden Morgen länger. Der Zugang zu Wasser wird zu langsam.",
     "choices": {
       "A": "Einen zweiten Wasserpunkt eröffnen",
       "B": "Das Lager zuerst dranlassen",
@@ -2198,7 +2197,7 @@
   },
   "nw_245": {
     "title": "Hartnäckige Schildkröte",
-    "body": "Jeden Tag überquert eine Schildkröte den Hof wie ein langsamer Inspektor.",
+    "body": "Jeden Tag überquert eine Schildkröte den Hof und behindert den passage.",
     "choices": {
       "A": "Sie umsetzen",
       "B": "Sie lassen",
@@ -2441,7 +2440,7 @@
   },
   "nw_272": {
     "title": "Streit auf dem Markt",
-    "body": "Zwei Verkäufer streiten sich um einen Schattenplatz wie um einen Thron.",
+    "body": "Zwei Händler streiten sich um den besten Schattenplatz auf dem Markt.",
     "choices": {
       "A": "Die Plätze markieren",
       "B": "Den besten Platz bezahlen lassen",
@@ -2639,7 +2638,7 @@
   },
   "nw_294": {
     "title": "Schürze des Küchenchefs",
-    "body": "Der Küchenchef will eine bestickte Schürze wie ein Minister.",
+    "body": "Der Küchenchef will eine sehr luxuriös bestickte Schürze.",
     "choices": {
       "A": "Sie ihm schenken",
       "B": "Ihn selbst zahlen lassen",
@@ -2819,7 +2818,7 @@
   },
   "nw_314": {
     "title": "Tisch der Abrechnungen",
-    "body": "Der Tisch des Büros wackelt wie das Versprechen eines Händlers.",
+    "body": "Der Tisch im Büro wackelt und macht die Arbeit mühsam.",
     "choices": {
       "A": "Ihn ersetzen",
       "B": "Ihn besser unterlegen",
@@ -3053,7 +3052,7 @@
   },
   "nw_340": {
     "title": "Schlammiger Weg",
-    "body": "Ein Weg des Lagers verschlingt Sandalen wie ein weiches Tier.",
+    "body": "Ein Weg im Lager ist so schlammig, dass man dort leicht seine Sandalen verliert.",
     "choices": {
       "A": "Kies auslegen",
       "B": "Den Weg schließen",
@@ -3071,7 +3070,7 @@
   },
   "nw_342": {
     "title": "Nasse Trommel",
-    "body": "Die Trommel des Hafens klingt wie eine traurige Socke.",
+    "body": "Die Hafentrommel klingt schlecht. Die Signale werden schwer verständlich.",
     "choices": {
       "A": "Sie trocknen lassen",
       "B": "Eine andere kaufen",
@@ -3224,7 +3223,7 @@
   },
   "nw_359": {
     "title": "Langsame Patrouille",
-    "body": "Die Abendpatrouille bewegt sich wie eine kalte Suppe.",
+    "body": "Die Abendpatrouille rückt viel zu langsam vor.",
     "choices": {
       "A": "Einen Bonus geben",
       "B": "Den Weg ändern",
@@ -3368,7 +3367,7 @@
   },
   "nw_375": {
     "title": "Leerer Käfig",
-    "body": "Ein Käfig steht leer im Lager wie eine Idee, die noch wartet.",
+    "body": "Ein Käfig bleibt im Depot leer und nützt nichts.",
     "choices": {
       "A": "Ihn mit Hühnern füllen",
       "B": "Ihn verkaufen",
@@ -3386,7 +3385,7 @@
   },
   "nw_377": {
     "title": "Nahes Riff",
-    "body": "Ein sehr nahes Riff könnte nützlich oder sehr ärgerlich sein.",
+    "body": "Ein nahes Riff kann beim Fischen helfen, aber es kann auch die Manöver der Boote behindern.",
     "choices": {
       "A": "Es markieren",
       "B": "Es geheim halten",

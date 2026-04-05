@@ -523,11 +523,11 @@
   },
   "mcc_059": {
     "title": "Selo de empregador exemplar",
-    "body": "Oferecem a você um selo de empregador em troca de um grande orçamento de comunicação. Parece selo comprado.",
+    "body": "Oferecem a você um selo de empregador em troca de um grande orçamento de comunicação. Isso pode acabar parecendo um prêmio comprado.",
     "choices": {
       "A": "Recusar: melhorar a realidade primeiro.",
       "B": "Aceitar: ajuda no recrutamento.",
-      "C": "Negociar: auditoria séria + selo sem blá-blá-blá."
+      "C": "Negociar uma auditoria real antes de qualquer selo"
     }
   },
   "mcc_060": {
@@ -640,10 +640,10 @@
   },
   "mcc_072": {
     "title": "Equipe sob pressão",
-    "body": "Um departamento está em burnout, sem drama visível, mas com cansaço real. Os resultados caem.",
+    "body": "Uma equipe está esgotada. Ainda não há uma crise aberta, mas o cansaço é real e os resultados estão caindo.",
     "choices": {
       "A": "Reduzir metas e reforçar a equipe.",
-      "B": "Exigir: \"é um momento intenso, vamos aguentar\".",
+      "B": "Exigir que eles aguentem mais um pouco apesar do cansaço.",
       "C": "Colocar um gerente de crise + rodízios."
     }
   },
@@ -901,7 +901,7 @@
   },
   "mcc_101": {
     "title": "Máquina de café revolucionária",
-    "body": "A nova máquina \"inteligente\" serve... café descafeinado. Sem parar. A sede está em estado de sítio.",
+    "body": "A nova máquina de café só serve descafeinado. A sede inteira está reclamando.",
     "choices": {
       "A": "Reembolsar + instalar uma máquina simples e confiável.",
       "B": "Dizer que é uma \"desintoxicação oficial de cafeína\".",
@@ -1000,7 +1000,7 @@
   },
   "mcc_112": {
     "title": "Selo de inovação",
-    "body": "Um consultório oferece um selo de \"Empresa inovadora\" em troca de uma conta salgada. Parece adesivo caro.",
+    "body": "Uma consultoria oferece um selo de “Empresa inovadora” em troca de uma conta muito alta. Isso pode acabar parecendo uma distinção comprada.",
     "choices": {
       "A": "Recusar e investir em um verdadeiro projeto de inovação.",
       "B": "Aceitar: tranquiliza o mercado.",
@@ -1108,7 +1108,7 @@
   },
   "mcc_124": {
     "title": "Desafio interno",
-    "body": "Começa um desafio interno de \"quem vende mais ganha\". Isso impulsiona... mas deixa todo mundo nervoso.",
+    "body": "Começa uma competição interna para premiar as melhores vendas. Isso motiva, mas também cria tensões.",
     "choices": {
       "A": "Manter, mas adicionar critérios éticos e de qualidade.",
       "B": "Parar: clima tóxico.",
@@ -1173,7 +1173,7 @@
     "title": "Logotipo em tudo",
     "body": "A equipe de publicidade coloca o logotipo em todo lugar: canecas, cadeiras, elevadores.",
     "choices": {
-      "A": "Parar: moderação e elegância.",
+      "A": "Parar de colocar o logo em todo lugar",
       "B": "Continuar: visibilidade máxima.",
       "C": "Manter o logotipo só em alguns elementos premium."
     }
@@ -1243,11 +1243,11 @@
   },
   "mcc_139": {
     "title": "Newsletter interna",
-    "body": "A newsletter interna tem 18 páginas. Ninguém lê, mas todo mundo diz \"ótima\".",
+    "body": "A newsletter interna tem 18 páginas. Quase ninguém lê de verdade.",
     "choices": {
       "A": "Passar para um formato curto e útil.",
       "B": "Continuar: \"isso é importante\".",
-      "C": "Manter, mas com resumo obrigatório."
+      "C": "Manter, mas acrescentar um resumo bem curto no começo."
     }
   },
   "mcc_140": {
@@ -1315,7 +1315,7 @@
   },
   "mcc_147": {
     "title": "Crachá de visitante",
-    "body": "Os crachás de visitante são tão rígidos que nem você consegue mais entrar. Simbólico.",
+    "body": "Os crachás de visitante ficaram tão rígidos que até você tem dificuldade para entrar em certas áreas.",
     "choices": {
       "A": "Simplificar mantendo a segurança.",
       "B": "Manter: segurança máxima.",
@@ -1341,12 +1341,12 @@
     }
   },
   "mcc_150": {
-    "title": "Keynote longa demais",
-    "body": "Sua keynote dura 90 minutos. No fim, até o teleprompter pede uma pausa.",
+    "title": "Apresentação longa demais",
+    "body": "Sua apresentação dura 90 minutos. No fim, quase ninguém ainda está prestando atenção de verdade.",
     "choices": {
       "A": "Encurtar e ir direto ao ponto na próxima.",
-      "B": "Continuar: \"a visão exige tempo\".",
-      "C": "Manter longa, mas adicionar demonstrações concretas."
+      "B": "Continuar dizendo que esse formato é necessário",
+      "C": "Manter uma apresentação longa, mas com exemplos concretos"
     }
   },
   "mcc_151": {
@@ -1486,7 +1486,7 @@
   },
   "mcc_166": {
     "title": "Tensão geopolítica",
-    "body": "Uma região se torna instável. Suas rotas de abastecimento passam por lá. O risco é claro.",
+    "body": "Uma região está ficando instável e suas rotas de abastecimento passam por lá. A situação ameaça diretamente as entregas.",
     "choices": {
       "A": "Diversificar rotas e fornecedores.",
       "B": "Continuar: \"vai dar certo\".",
@@ -1855,7 +1855,7 @@
   },
   "mcc_207": {
     "title": "Semana da moderação energética",
-    "body": "O governo lança uma semana de \"moderação\". Seus escritórios brilham como um estádio.",
+    "body": "O governo lança uma semana de moderação energética. Seus escritórios continuam claros demais.",
     "choices": {
       "A": "Reduzir a iluminação e mostrar ações concretas.",
       "B": "Não mudar nada: \"a gente paga, então ilumina\".",
@@ -2278,7 +2278,7 @@
   },
   "mcc_254": {
     "title": "Debate sobre lucros indecentes",
-    "body": "Num programa de TV, citam você como exemplo. Alguém pronuncia seu nome como se fosse uma marca de iogurte.",
+    "body": "Durante um debate na TV, sua empresa é citada como exemplo. O tom usado ridiculariza sua marca diante de todo mundo.",
     "choices": {
       "A": "Responder com números + investimentos + empregos.",
       "B": "Ignorar: falar alimenta a polêmica.",
@@ -2287,11 +2287,11 @@
   },
   "mcc_255": {
     "title": "Foto oficial",
-    "body": "Propõem uma foto sua com um ministro diante da sua fábrica. Suas equipes perguntam: \"a gente sorri quanto?\".",
+    "body": "Oferecem uma foto sua com um ministro em frente à sua fábrica. Suas equipes se perguntam até onde essa encenação deve ir.",
     "choices": {
       "A": "Aceitar, mas manter sobriedade e fatos.",
       "B": "Recusar: neutralidade total.",
-      "C": "Aceitar só se você anunciar um projeto útil, formação."
+      "C": "Aceitar apenas se você anunciar um projeto real e útil de capacitação."
     }
   },
   "mcc_256": {
@@ -2368,7 +2368,7 @@
   },
   "mcc_264": {
     "title": "Selo empresa exemplar",
-    "body": "Um selo público oferece um distintivo de \"exemplar\". Suas equipes dizem: \"isso parece carimbo de vitrine\".",
+    "body": "Um selo público oferece um distintivo “exemplar”. Suas equipes temem que isso pareça um prêmio de fachada.",
     "choices": {
       "A": "Aceitar se os critérios forem rígidos e auditáveis.",
       "B": "Recusar: sem distintivos.",
@@ -2722,7 +2722,7 @@
     "body": "Uma comissão pergunta como você combate a desinformação.",
     "choices": {
       "A": "Responder seriamente: transparência e moderação se necessário.",
-      "B": "Responder com ironia: \"nossas meias nunca mentem\".",
+      "B": "Responder com uma piada, má ideia",
       "C": "Propor uma carta voluntária setorial."
     }
   },
@@ -2782,7 +2782,7 @@
   },
   "mcc_310": {
     "title": "Debate sobre a taxa da publicidade",
-    "body": "Falam em uma taxa sobre publicidade. Sua equipe pergunta se um adesivo numa caneca conta.",
+    "body": "Fala-se em uma taxa sobre publicidade. Sua equipe já tenta descobrir o que será afetado.",
     "choices": {
       "A": "Reduzir a publicidade e reforçar qualidade/serviço.",
       "B": "Migrar pesado para influenciadores.",
@@ -2998,7 +2998,7 @@
   },
   "mcc_334": {
     "title": "Debate sobre moderação",
-    "body": "O estande da sua marca está decorado como uma árvore de Natal corporativa.",
+    "body": "O estande da sua marca está carregado demais. Ele passa uma imagem exagerada em vez de uma imagem séria.",
     "choices": {
       "A": "Plano real de moderação + medidas visíveis.",
       "B": "Medida simbólica por 1 semana.",
@@ -3159,10 +3159,10 @@
     }
   },
   "mcc_352": {
-    "title": "A auditoria das meias",
-    "body": "Uma autoridade pede uma auditoria... sobre as meias da sua empresa.",
+    "title": "Auditoria absurda",
+    "body": "Uma autoridade de controle pede uma auditoria sobre um assunto ridículo.",
     "choices": {
-      "A": "Cooperar e publicar um \"relatório das meias\".",
+      "A": "Cooperar com seriedade apesar do absurdo",
       "B": "Zombar e ignorar, péssima ideia.",
       "C": "Enviar um dossiê sério + oferecer tapetes antiderrapantes."
     }
@@ -3326,7 +3326,7 @@
     "choices": {
       "A": "Respeitar só em encontros oficiais.",
       "B": "Recusar: liberdade total.",
-      "C": "Usar cinza... com meias chamativas, rebeldia suave."
+      "C": "Usar cinza, mas manter um detalhe discreto para mostrar seu desacordo."
     }
   },
   "mcc_371": {
@@ -3367,7 +3367,7 @@
   },
   "mcc_375": {
     "title": "Debate sobre memes",
-    "body": "Um parlamentar propõe enquadrar os memes. Sua empresa é um meme. Seu rosto é um sticker.",
+    "body": "Um parlamentar quer regular os memes. Sua empresa vira com frequência alvo de piadas na internet.",
     "choices": {
       "A": "Responder com humor + continuar profissional.",
       "B": "Ameaçar todo mundo judicialmente.",
@@ -3376,7 +3376,7 @@
   },
   "mcc_376": {
     "title": "Dia sem ar-condicionado em pleno calor",
-    "body": "Pedem que você desligue o ar-condicionado \"para dar o exemplo\". Faz 38°C. Seus funcionários derretem.",
+    "body": "Pedem para você desligar o ar-condicionado para dar o exemplo. Está fazendo 38°C e os funcionários estão levando isso muito mal.",
     "choices": {
       "A": "Sobriedade inteligente: limites, ventilação, horários adaptados.",
       "B": "Recusar: saúde em primeiro lugar.",
@@ -3384,11 +3384,11 @@
     }
   },
   "mcc_377": {
-    "title": "Drone que filma as nuvens",
-    "body": "Seu drone de segurança filma... as nuvens por 3 dias. Um político fala em \"vigilância celeste\".",
+    "title": "Drone mal configurado",
+    "body": "Seu drone de segurança filma o céu por três dias em vez de vigiar a área.",
     "choices": {
       "A": "Auditar e corrigir + transparência.",
-      "B": "Ignorar: \"são só nuvens\".",
+      "B": "Ignorar o problema, má ideia",
       "C": "Suspender os drones até revisar a política."
     }
   },
@@ -3420,8 +3420,8 @@
     }
   },
   "mcc_381": {
-    "title": "Chatbot vira ministro",
-    "body": "Seu chatbot interno começa a responder jornalistas. Ele assina \"Ministro da Produtividade\".",
+    "title": "Chatbot que responde no lugar da equipe",
+    "body": "Seu chatbot interno começa a responder aos jornalistas no lugar da sua equipe.",
     "choices": {
       "A": "Desligar imediatamente + desculpas + auditoria.",
       "B": "Deixar: \"é engraçado\", não.",
@@ -3466,7 +3466,7 @@
   },
   "mcc_386": {
     "title": "Ministro quer um escape game",
-    "body": "Um ministro quer entender sua atividade por meio de um escape game. Ele quer \"escapar da burocracia\".",
+    "body": "Um ministro quer conhecer sua atividade por meio de uma encenação pouco séria.",
     "choices": {
       "A": "Criar um escape game pedagógico e profissional.",
       "B": "Recusar: sem tempo.",
@@ -3547,7 +3547,7 @@
   },
   "mcc_395": {
     "title": "Buzina oficial",
-    "body": "Um ministro quer anunciar sua parceria com uma buzina ao vivo.",
+    "body": "Um ministro quer anunciar sua parceria com uma encenação ridícula.",
     "choices": {
       "A": "Fazer um anúncio sóbrio, sem show.",
       "B": "Arrumar uma buzina e assumir o show.",
@@ -3631,7 +3631,7 @@
     "body": "A equipe de comunicação quer imprimir um QR code na testa dos funcionários. O RH entra em pânico.",
     "choices": {
       "A": "Proibir na hora: respeito e bom senso.",
-      "B": "Autorizar em adesivos... voluntários.",
+      "B": "Permitir isso apenas de forma opcional e respeitosa.",
       "C": "Trocar por um crachá digital opcional."
     }
   },
@@ -3753,12 +3753,12 @@
     }
   },
   "mcc_418": {
-    "title": "Plano de emergência: adesivos",
-    "body": "Em crise, sua equipe propõe adesivos com \"Não vamos desistir\".",
+    "title": "Plano de emergência fraco",
+    "body": "Em plena crise, sua equipe propõe principalmente adesivos motivacionais em vez de um plano de verdade.",
     "choices": {
-      "A": "Plano concreto + sem adesivos.",
-      "B": "Adesivos por toda parte: moral elevado.",
-      "C": "Plano concreto + um adesivo discreto, ok."
+      "A": "Plano concreto, sem adesivos",
+      "B": "Espalhar adesivos por todo lado para levantar o moral",
+      "C": "Plano concreto com um pequeno apoio visual"
     }
   },
   "mcc_419": {
@@ -3772,7 +3772,7 @@
   },
   "mcc_420": {
     "title": "Semana do elogio às autoridades",
-    "body": "Sugerem que você mande elogios às autoridades. Seu jurídico: \"não, não, não\".",
+    "body": "Sugerem que você envie uma mensagem elogiosa demais às autoridades de controle. Seu jurídico rejeita a ideia na hora.",
     "choices": {
       "A": "Ficar neutro, só cooperar corretamente.",
       "B": "Mandar elogios, risco de constrangimento.",
@@ -3951,8 +3951,8 @@
     }
   },
   "mcc_440": {
-    "title": "Comissão das coisas absurdas",
-    "body": "Uma comissão parlamentar quer estudar \"as coisas absurdas nas empresas\".",
+    "title": "Comissão sobre práticas absurdas",
+    "body": "Uma comissão parlamentar quer estudar certas práticas absurdas nas empresas.",
     "choices": {
       "A": "Compartilhar 5 exemplos + soluções.",
       "B": "Não compartilhar nada: arriscado demais.",

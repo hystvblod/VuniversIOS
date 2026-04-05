@@ -1,4 +1,4 @@
-{
+﻿{
   "version": 1,
   "events": {
     "new_world_explorer_ev_001": {
@@ -44,7 +44,7 @@
       "duration": "Durée : 7 cartes"
     },
     "new_world_explorer_ev_008": {
-      "title": "Cour vexée",
+      "title": "Cour mécontente",
       "body": "Un rapport arrive en retard et avec trop d'excuses. Le palais aime encore moins le retard que la vérité.",
       "effect": "Appui royal : -5 par carte",
       "duration": "Durée : 5 cartes"
@@ -61,7 +61,6 @@
       "effect": "Richesses : +5 par carte",
       "duration": "Durée : 6 cartes"
     },
-
     "new_world_explorer_ev_011": {
       "title": "Ordres contradictoires",
       "body": "Deux messages royaux disent deux choses contraires. Tu perds du temps, et la cour perd patience.",
@@ -122,10 +121,9 @@
       "effect": "Territoires : -5 par carte",
       "duration": "Durée : 6 cartes"
     },
-
     "new_world_explorer_ev_021": {
       "title": "Rumeur à la cour",
-      "body": "Un bruit de mauvaise gestion franchit l'océan. Le palais adore les récits, sauf quand ils viennent d'ici.",
+      "body": "Une rumeur de mauvaise gestion arrive jusqu’à la cour. Le palais réagit mal.",
       "effect": "Appui royal : -5 par carte",
       "duration": "Durée : 5 cartes"
     },
@@ -173,7 +171,7 @@
     },
     "new_world_explorer_ev_029": {
       "title": "Mine décevante",
-      "body": "La mine qu'on croyait brillante produit surtout de la fatigue et des comptes tristes.",
+      "body": "La mine qu’on pensait rentable produit surtout des pertes et de la fatigue.",
       "effect": "Richesses : -5 par carte",
       "duration": "Durée : 3 cartes"
     },

@@ -20,9 +20,9 @@
       "duration": "Duração: 4 cartas"
     },
     "vampire_lord_ev_004": {
-      "title": "Culto discreto",
-      "body": "O segredo vampírico recruta em silêncio. Pouco barulho, muita lealdade.",
-      "effect": "Segredo vampírico: +5 por carta",
+      "title": "Véu reforçado",
+      "body": "O esconderijo passa mais despercebido. Menos barulho, menos rastros, menos olhos voltados para você.",
+      "effect": "Discrição: +5 por carta",
       "duration": "Duração: 5 cartas"
     },
     "vampire_lord_ev_005": {
@@ -45,8 +45,8 @@
     },
     "vampire_lord_ev_008": {
       "title": "Flash mal colocado",
-      "body": "Uma foto noturna sai boa demais. Os curiosos começam a fazer as perguntas certas.",
-      "effect": "Segredo vampírico: -5 por carta",
+      "body": "Uma foto noturna está circulando demais. Os curiosos começam a fazer perguntas.",
+      "effect": "Discrição: -5 por carta",
       "duration": "Duração: 5 cartas"
     },
     "vampire_lord_ev_009": {
@@ -63,14 +63,14 @@
     },
     "vampire_lord_ev_011": {
       "title": "Fórum falador demais",
-      "body": "Humanos estão reunindo rumores precisos demais. O segredo vampírico fica menos secreto.",
-      "effect": "Segredo vampírico: -5 por carta",
+      "body": "Humanos estão reunindo rumores precisos demais. A discrição do esconderijo começa a ceder.",
+      "effect": "Discrição: -5 por carta",
       "duration": "Duração: 3 cartas"
     },
     "vampire_lord_ev_012": {
       "title": "Ritual fechado",
-      "body": "Um ritual bem conduzido une os fiéis. Ninguém fala demais, todo mundo escuta.",
-      "effect": "Segredo vampírico: +5 por carta",
+      "body": "Um ritual bem conduzido impõe silêncio. Ninguém fala demais, nada vaza.",
+      "effect": "Discrição: +5 por carta",
       "duration": "Duração: 7 cartas"
     },
     "vampire_lord_ev_013": {
@@ -98,9 +98,9 @@
       "duration": "Duração: 5 cartas"
     },
     "vampire_lord_ev_017": {
-      "title": "Muro dos fiéis",
-      "body": "O segredo vampírico espalha sinais discretos pela cidade. Os leais se reconhecem rápido.",
-      "effect": "Segredo vampírico: +5 por carta",
+      "title": "Sinais invisíveis",
+      "body": "Sinais discretos se espalham pela cidade. Os seus se reconhecem sem chamar atenção.",
+      "effect": "Discrição: +5 por carta",
       "duration": "Duração: 4 cartas"
     },
     "vampire_lord_ev_018": {
@@ -123,8 +123,8 @@
     },
     "vampire_lord_ev_021": {
       "title": "Rosto identificado",
-      "body": "Um rosto ligado ao esconderijo circula em um grupo fechado. O véu se rasga um pouco.",
-      "effect": "Segredo vampírico: -5 por carta",
+      "body": "Um rosto ligado ao refúgio começa a circular em um grupo fechado. A discrição cai.",
+      "effect": "Discrição: -5 por carta",
       "duration": "Duração: 5 cartas"
     },
     "vampire_lord_ev_022": {
@@ -165,8 +165,8 @@
     },
     "vampire_lord_ev_028": {
       "title": "Testemunha nervosa",
-      "body": "Uma testemunha humana fala rápido demais com gente demais. O segredo vampírico leva um golpe.",
-      "effect": "Segredo vampírico: -5 por carta",
+      "body": "Uma testemunha humana fala rápido demais com gente demais. A discrição leva um golpe.",
+      "effect": "Discrição: -5 por carta",
       "duration": "Duração: 6 cartas"
     },
     "vampire_lord_ev_029": {
@@ -178,7 +178,7 @@
     "vampire_lord_ev_030": {
       "title": "Silêncio dos fiéis",
       "body": "Os fiéis obedecem e se calam. Nada vaza, nada chama atenção.",
-      "effect": "Segredo vampírico: +5 por carta",
+      "effect": "Discrição: +5 por carta",
       "duration": "Duração: 7 cartas"
     }
   }

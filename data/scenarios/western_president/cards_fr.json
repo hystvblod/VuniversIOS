@@ -1,4 +1,4 @@
-{
+﻿{
   "wp_001": {
     "title": "Grève des transports",
     "body": "Les syndicats annoncent une grève nationale des transports dès lundi. Les images tournent partout.",
@@ -415,7 +415,7 @@
   },
   "wp_047": {
     "title": "Polémique sur une statue",
-    "body": "Une statue ancienne divise les habitants : tradition vs modernité. Les médias adorent le feuilleton.",
+    "body": "Une vieille statue divise les habitants entre tradition et modernité. Les médias transforment l’affaire en polémique permanente.",
     "choices": {
       "A": "Organiser un référendum local.",
       "B": "Déplacer la statue discrètement au musée.",
@@ -550,7 +550,7 @@
   },
   "wp_062": {
     "title": "Bourse en montagnes russes",
-    "body": "La bourse fait des vagues. Les petites épargnes paniquent, les gros investisseurs sourient trop fort.",
+    "body": "La bourse devient très instable. Les petits épargnants paniquent, tandis que les gros investisseurs semblent déjà en profiter.",
     "choices": {
       "A": "Rassurer + mesures de stabilité financière.",
       "B": "Taxer une partie des opérations spéculatives.",
@@ -658,7 +658,7 @@
   },
   "wp_074": {
     "title": "Boom des loyers",
-    "body": "Les loyers explosent dans les grandes villes. Les jeunes disent 'on paie pour respirer'.",
+    "body": "Les loyers explosent dans les grandes villes. Beaucoup de jeunes disent qu’ils ne peuvent presque plus se loger.",
     "choices": {
       "A": "Encadrement des loyers + construction.",
       "B": "Incitations fiscales aux bailleurs + construction.",
@@ -1054,7 +1054,7 @@
   },
   "wp_118": {
     "title": "Scandale de favoritisme",
-    "body": "Un appel d’offres public semble avoir favorisé un ami d’un ministre. Ça sent le feuilleton.",
+    "body": "Un appel d’offres public semble avoir favorisé un proche d’un ministre. L’affaire risque de devenir un scandale.",
     "choices": {
       "A": "Annuler l’appel d’offres + enquête.",
       "B": "Défendre la procédure : 'tout est légal'.",
@@ -1117,7 +1117,7 @@
   },
   "wp_125": {
     "title": "Crise des artistes de rue",
-    "body": "Les artistes de rue se plaignent de règlements trop stricts. Ils menacent une grève… de jonglage.",
+    "body": "Les artistes de rue jugent les règles trop strictes et menacent de se mobiliser.",
     "choices": {
       "A": "Assouplir les règles et créer des zones dédiées.",
       "B": "Maintenir : ordre public d’abord.",
@@ -1324,7 +1324,7 @@
   },
   "wp_148": {
     "title": "Incident au sommet économique",
-    "body": "Au sommet économique, un traducteur se trompe et crée un malentendu. L’autre délégation est vexée.",
+    "body": "Lors d’un sommet économique, une erreur de traduction crée un malentendu. L’autre délégation le prend mal.",
     "choices": {
       "A": "S’excuser immédiatement et corriger.",
       "B": "Minimiser : 'détail technique'.",
@@ -1351,11 +1351,11 @@
   },
   "wp_151": {
     "title": "Discours trop long",
-    "body": "Ton discours dure tellement que le prompteur affiche 'mode veille'. Les images tournent partout.",
+    "body": "Ton discours dure trop longtemps et les images tournent partout.",
     "choices": {
       "A": "Faire un discours court et auto-dérisoire le lendemain.",
-      "B": "Accuser le prompteur : 'sabotage technique'.",
-      "C": "Lancer une réforme : 'moins de blabla, plus d’action'."
+      "B": "Accuser l’équipe technique d’avoir saboté le discours",
+      "C": "Lancer une réforme pour rendre les prises de parole plus courtes et plus claires."
     }
   },
   "wp_152": {
@@ -1414,7 +1414,7 @@
   },
   "wp_158": {
     "title": "Robot-tondeuse national",
-    "body": "Un programme d’innovation propose un robot-tondeuse 'made in country'. Tout le monde juge… la pelouse.",
+    "body": "Un programme d’innovation propose un robot-tondeuse national. Le projet attire surtout les moqueries.",
     "choices": {
       "A": "Subventionner : vitrine techno.",
       "B": "Annuler : ça ressemble trop à un gadget.",
@@ -1468,7 +1468,7 @@
   },
   "wp_164": {
     "title": "Budget qui fuit",
-    "body": "Une erreur comptable fait apparaître un trou budgétaire. Un conseiller murmure : 'oups, zéro de trop'.",
+    "body": "Une erreur comptable fait apparaître un trou budgétaire important.",
     "choices": {
       "A": "Plan d’économies progressif + audit public.",
       "B": "Coupes immédiates et fortes.",
@@ -1477,7 +1477,7 @@
   },
   "wp_165": {
     "title": "Navire trop proche",
-    "body": "Un navire militaire étranger s’approche trop près. Les marins se saluent… un peu trop froidement.",
+    "body": "Un navire militaire étranger s’approche trop près. Le ton reste calme, mais la tension monte.",
     "choices": {
       "A": "Renforcer la présence navale et la dissuasion.",
       "B": "Appel direct et désescalade diplomatique.",
@@ -1495,7 +1495,7 @@
   },
   "wp_167": {
     "title": "Refonte des passeports",
-    "body": "Ton passeport actuel est 'trop facile à falsifier'. Et 'trop moche', ajoute internet.",
+    "body": "Le passeport actuel est jugé trop facile à falsifier, et cela devient un vrai problème d’image et de sécurité.",
     "choices": {
       "A": "Nouveau passeport biométrique national, mais c’est coûteux.",
       "B": "Solution rapide achetée à l’étranger.",
@@ -1504,7 +1504,7 @@
   },
   "wp_168": {
     "title": "Stade en ruine",
-    "body": "Un grand stade doit accueillir une finale. Inspection : 'ça tient par la foi'.",
+    "body": "Un grand stade doit accueillir une finale, mais l’inspection révèle qu’il n’est pas en assez bon état.",
     "choices": {
       "A": "Rénovation express financée par l’État.",
       "B": "Déplacer l’événement à l’étranger, ce serait humiliant.",
@@ -1531,7 +1531,7 @@
   },
   "wp_171": {
     "title": "Cyber-attaque sur hôpital",
-    "body": "Un hôpital est touché par une cyber-attaque. Le directeur dit : 'on note sur papier… comme en 1998'.",
+    "body": "Un hôpital est touché par une cyber-attaque. Le personnel doit revenir au papier, ce qui montre à quel point le système est dépassé.",
     "choices": {
       "A": "Plan cyber santé + investissement massif.",
       "B": "Riposte cyber + sanctions internationales.",
@@ -1576,7 +1576,7 @@
   },
   "wp_176": {
     "title": "Bulle immobilière",
-    "body": "Les prix immobiliers montent trop vite. On dit que même les pigeons veulent un prêt.",
+    "body": "Les prix immobiliers montent trop vite. L’accès au logement devient de plus en plus difficile.",
     "choices": {
       "A": "Construire + aides ciblées aux primo-accédants.",
       "B": "Encadrement plus strict des loyers et transactions.",
@@ -1737,8 +1737,8 @@
     }
   },
   "wp_194": {
-    "title": "Coup de froid commercial",
-    "body": "Un partenaire annonce des barrières commerciales. Officiellement : 'ajustement'. Officieusement : pique.",
+    "title": "Tension commerciale",
+    "body": "Un partenaire annonce de nouvelles barrières commerciales. Officiellement, c’est un ajustement. En réalité, c’est une attaque ciblée.",
     "choices": {
       "A": "Négocier calmement et proposer un compromis.",
       "B": "Répondre par des mesures de rétorsion.",
@@ -1819,7 +1819,7 @@
   },
   "wp_203": {
     "title": "Le voisin fait 'boum'",
-    "body": "Un pays voisin teste une nouvelle arme. Ton peuple veut une réponse et ton ministre veut un café.",
+    "body": "Un pays voisin teste une nouvelle arme. La population attend une réponse claire, mais ton ministre n’est pas à la hauteur.",
     "choices": {
       "A": "Sanctions + coalition diplomatique.",
       "B": "Renforcer la défense et montrer les muscles.",
@@ -1873,7 +1873,7 @@
   },
   "wp_209": {
     "title": "Sommet de paix et buffet",
-    "body": "Tu accueilles un sommet de paix. Tout se tend autour du dernier canapé du buffet.",
+    "body": "Tu accueilles un sommet de paix, mais l’ambiance se tend rapidement pour un détail ridicule.",
     "choices": {
       "A": "Médiation active et engagement public.",
       "B": "Neutralité totale : tu offres la salle, pas le sermon.",
@@ -1954,7 +1954,7 @@
   },
   "wp_218": {
     "title": "Rumeurs de mobilisation",
-    "body": "Une rumeur annonce une mobilisation générale. Les jeunes demandent si c’est 'avec option télétravail'.",
+    "body": "Une rumeur annonce une mobilisation générale. La population demande immédiatement des explications.",
     "choices": {
       "A": "Démentir + renforcer la préparation civile.",
       "B": "Laisser planer l’ambiguïté pour dissuader.",
@@ -1972,11 +1972,11 @@
   },
   "wp_220": {
     "title": "Diplomatie du ballon",
-    "body": "Un ballon, oui un ballon, traverse la frontière et se pose sur une base. Tout le monde crie à l’incident.",
+    "body": "Un ballon traverse la frontière et atterrit sur une base. L’incident prend une ampleur diplomatique excessive.",
     "choices": {
-      "A": "Traiter ça comme incident mineur et désamorcer.",
+      "A": "Le traiter comme un incident mineur pour calmer la situation",
       "B": "Réponse ferme : protestation officielle.",
-      "C": "Créer un protocole commun pour incidents absurdes."
+      "C": "Créer un protocole commun pour ce type d’incident."
     }
   },
   "wp_221": {
@@ -2368,7 +2368,7 @@
   },
   "wp_264": {
     "title": "Guerre des communiqués",
-    "body": "Chaque jour, un communiqué plus agressif que le précédent. Les analystes parlent d’'escalade en PDF'.",
+    "body": "Chaque jour, les communiqués deviennent plus agressifs. L’escalade devient visible.",
     "choices": {
       "A": "Couper court : appel direct et désescalade.",
       "B": "Répondre coup pour coup : fermeté.",
@@ -2413,7 +2413,7 @@
   },
   "wp_269": {
     "title": "Accord de non-espionnage",
-    "body": "Un rival propose un accord de non-espionnage. Tout le monde tousse. Toi aussi.",
+    "body": "Un rival propose un accord de non-espionnage, mais presque personne n’y croit vraiment.",
     "choices": {
       "A": "Signer avec audits et clauses strictes.",
       "B": "Refuser : trop naïf.",
@@ -2425,7 +2425,7 @@
     "body": "Les stocks de casques sont bas. Un fournisseur propose une livraison rapide… avec des casques rose fluo.",
     "choices": {
       "A": "Accepter temporairement + relance production.",
-      "B": "Refuser : dignité militaire.",
+      "B": "Refuser pour garder un équipement sérieux et cohérent.",
       "C": "Acheter via alliés, standardiser l’équipement."
     }
   },
@@ -2629,7 +2629,7 @@
   },
   "wp_293": {
     "title": "Rival près de la frontière",
-    "body": "Un rival déploie des troupes près de ta frontière. Ton ministre propose une réponse absurde.",
+    "body": "Un rival déploie des troupes près de ta frontière. Ton ministre propose une réponse disproportionnée.",
     "choices": {
       "A": "Renforcer défense + garder un canal de dialogue.",
       "B": "Réponse agressive : mobilisation et ultimatum.",

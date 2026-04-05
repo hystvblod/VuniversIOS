@@ -415,7 +415,7 @@
   },
   "wp_047": {
     "title": "Statue Controversy",
-    "body": "An old statue divides residents: tradition vs modernity. The media love the drama.",
+    "body": "An old statue is dividing residents between tradition and modernity. The media are turning the matter into a permanent controversy.",
     "choices": {
       "A": "Organize a local referendum.",
       "B": "Quietly move the statue to a museum.",
@@ -550,7 +550,7 @@
   },
   "wp_062": {
     "title": "Roller-Coaster Stock Market",
-    "body": "The stock market is swinging wildly. Small savers are panicking, big investors are smiling a little too much.",
+    "body": "The stock market becomes highly unstable. Small savers panic, while major investors already seem to benefit from it.",
     "choices": {
       "A": "Reassure people + financial stability measures.",
       "B": "Tax part of speculative trading.",
@@ -658,7 +658,7 @@
   },
   "wp_074": {
     "title": "Rent Boom",
-    "body": "Rents are exploding in big cities. Young people say, 'we pay just to breathe.'",
+    "body": "Rents are soaring in the big cities. Many young people say they can barely afford housing anymore.",
     "choices": {
       "A": "Rent caps + construction.",
       "B": "Tax incentives for landlords + construction.",
@@ -1054,7 +1054,7 @@
   },
   "wp_118": {
     "title": "Favoritism Scandal",
-    "body": "A public tender appears to have favored a minister's friend. It smells like a long-running scandal.",
+    "body": "A public tender seems to have favored someone close to a minister. The case risks becoming a scandal.",
     "choices": {
       "A": "Cancel the tender + investigation.",
       "B": "Defend the process: 'everything is legal.'",
@@ -1117,7 +1117,7 @@
   },
   "wp_125": {
     "title": "Street Artists Crisis",
-    "body": "Street artists complain about rules that are too strict. They threaten a strike… of juggling.",
+    "body": "Street performers find the rules too strict and threaten to mobilize.",
     "choices": {
       "A": "Loosen the rules and create dedicated zones.",
       "B": "Keep them: public order first.",
@@ -1324,7 +1324,7 @@
   },
   "wp_148": {
     "title": "Incident at the Economic Summit",
-    "body": "At the economic summit, a translator makes a mistake and creates a misunderstanding. The other delegation is offended.",
+    "body": "At an economic summit, a translation mistake creates a misunderstanding. The other delegation reacts badly.",
     "choices": {
       "A": "Apologize immediately and correct it.",
       "B": "Minimize it: 'technical detail.'",
@@ -1351,11 +1351,11 @@
   },
   "wp_151": {
     "title": "Speech Too Long",
-    "body": "Your speech is so long that the teleprompter goes into sleep mode. The images are everywhere.",
+    "body": "Your speech runs too long, and the footage spreads everywhere.",
     "choices": {
       "A": "Give a short, self-mocking speech the next day.",
-      "B": "Blame the teleprompter: 'technical sabotage.'",
-      "C": "Launch a reform: 'less talk, more action.'"
+      "B": "Blame the technical team for sabotaging the speech",
+      "C": "Launch a reform to make public speeches shorter and clearer."
     }
   },
   "wp_152": {
@@ -1414,7 +1414,7 @@
   },
   "wp_158": {
     "title": "National Robot Lawnmower",
-    "body": "An innovation program proposes a robot lawnmower 'made in country.' Everyone is judging… the lawn.",
+    "body": "An innovation program proposes a national lawn-mowing robot. The project mostly attracts mockery.",
     "choices": {
       "A": "Subsidize it: tech showcase.",
       "B": "Cancel it: it looks too much like a gadget.",
@@ -1468,7 +1468,7 @@
   },
   "wp_164": {
     "title": "Leaking Budget",
-    "body": "An accounting error reveals a budget hole. One adviser whispers: 'oops, one zero too many.'",
+    "body": "An accounting mistake reveals a major budget gap.",
     "choices": {
       "A": "Gradual savings plan + public audit.",
       "B": "Immediate and strong cuts.",
@@ -1477,7 +1477,7 @@
   },
   "wp_165": {
     "title": "Ship Too Close",
-    "body": "A foreign warship gets too close. Sailors exchange greetings… a little too coldly.",
+    "body": "A foreign military ship comes too close. The tone stays calm, but tension rises.",
     "choices": {
       "A": "Strengthen naval presence and deterrence.",
       "B": "Direct call and diplomatic de-escalation.",
@@ -1495,7 +1495,7 @@
   },
   "wp_167": {
     "title": "Passport Redesign",
-    "body": "Your current passport is 'too easy to forge.' And 'too ugly,' adds the internet.",
+    "body": "The current passport is considered too easy to forge, and it is becoming a real image and security problem.",
     "choices": {
       "A": "New national biometric passport, but it is costly.",
       "B": "Quick solution bought abroad.",
@@ -1504,7 +1504,7 @@
   },
   "wp_168": {
     "title": "Ruined Stadium",
-    "body": "A major stadium is supposed to host a final. Inspection report: 'it's standing on faith alone.'",
+    "body": "A major stadium is supposed to host a final, but the inspection reveals that it is not in good enough condition.",
     "choices": {
       "A": "Express renovation funded by the state.",
       "B": "Move the event abroad, which would be humiliating.",
@@ -1531,7 +1531,7 @@
   },
   "wp_171": {
     "title": "Cyberattack on Hospital",
-    "body": "A hospital is hit by a cyberattack. The director says, 'we're writing things on paper… like it's 1998.'",
+    "body": "A hospital is hit by a cyberattack. The staff has to return to paper records, showing how outdated the system has become.",
     "choices": {
       "A": "Health cyber plan + massive investment.",
       "B": "Cyber retaliation + international sanctions.",
@@ -1576,7 +1576,7 @@
   },
   "wp_176": {
     "title": "Housing Bubble",
-    "body": "Housing prices are rising too fast. People say even pigeons want a mortgage.",
+    "body": "Housing prices are rising too fast. Access to housing is becoming more and more difficult.",
     "choices": {
       "A": "Build more + targeted aid for first-time buyers.",
       "B": "Stricter rent and transaction controls.",
@@ -1737,8 +1737,8 @@
     }
   },
   "wp_194": {
-    "title": "Trade Cold Snap",
-    "body": "A partner announces trade barriers. Officially: 'adjustment.' Unofficially: a jab.",
+    "title": "Trade tension",
+    "body": "A partner announces new trade barriers. Officially, it is an adjustment. In reality, it is a targeted attack.",
     "choices": {
       "A": "Negotiate calmly and propose a compromise.",
       "B": "Respond with retaliatory measures.",
@@ -1819,7 +1819,7 @@
   },
   "wp_203": {
     "title": "The Neighbor Goes 'Boom'",
-    "body": "A neighboring country tests a new weapon. Your people want a response and your minister wants coffee.",
+    "body": "A neighboring country is testing a new weapon. The public expects a clear response, but your minister is not up to the task.",
     "choices": {
       "A": "Sanctions + diplomatic coalition.",
       "B": "Strengthen defense and flex muscle.",
@@ -1873,7 +1873,7 @@
   },
   "wp_209": {
     "title": "Peace Summit and Buffet",
-    "body": "You are hosting a peace summit. Tension rises around the last canapé at the buffet.",
+    "body": "You host a peace summit, but the atmosphere becomes tense very quickly over a ridiculous detail.",
     "choices": {
       "A": "Active mediation and public commitment.",
       "B": "Total neutrality: you provide the room, not the sermon.",
@@ -1954,7 +1954,7 @@
   },
   "wp_218": {
     "title": "Mobilization Rumors",
-    "body": "A rumor announces general mobilization. Young people ask if it comes 'with a work-from-home option.'",
+    "body": "A rumor announces a general mobilization. The population immediately demands answers.",
     "choices": {
       "A": "Deny it + strengthen civilian preparedness.",
       "B": "Let ambiguity hang in the air to deter.",
@@ -1972,11 +1972,11 @@
   },
   "wp_220": {
     "title": "Balloon Diplomacy",
-    "body": "A balloon, yes a balloon, crosses the border and lands on a base. Everyone calls it an incident.",
+    "body": "A balloon crosses the border and lands on a base. The incident is taking on an excessive diplomatic scale.",
     "choices": {
-      "A": "Treat it as a minor incident and defuse it.",
+      "A": "Treat it as a minor incident to calm the situation",
       "B": "Firm response: official protest.",
-      "C": "Create a joint protocol for absurd incidents."
+      "C": "Create a shared protocol for this kind of incident."
     }
   },
   "wp_221": {
@@ -2368,7 +2368,7 @@
   },
   "wp_264": {
     "title": "War of Statements",
-    "body": "Every day, a statement more aggressive than the last. Analysts speak of 'PDF escalation.'",
+    "body": "Each day, the statements become more aggressive. The escalation is becoming visible.",
     "choices": {
       "A": "Cut it short: direct call and de-escalation.",
       "B": "Respond blow for blow: firmness.",
@@ -2413,7 +2413,7 @@
   },
   "wp_269": {
     "title": "Non-Espionage Agreement",
-    "body": "A rival proposes a non-espionage agreement. Everyone coughs. You too.",
+    "body": "A rival proposes a non-espionage agreement, but almost no one truly believes in it.",
     "choices": {
       "A": "Sign with audits and strict clauses.",
       "B": "Refuse: too naive.",
@@ -2425,7 +2425,7 @@
     "body": "Helmet stocks are low. A supplier offers fast delivery… with bright pink helmets.",
     "choices": {
       "A": "Accept temporarily + restart production.",
-      "B": "Refuse: military dignity.",
+      "B": "Refuse in order to keep equipment serious and consistent.",
       "C": "Buy through allies, standardize the equipment."
     }
   },
@@ -2629,7 +2629,7 @@
   },
   "wp_293": {
     "title": "Rival Near the Border",
-    "body": "A rival deploys troops near your border. Your minister proposes an absurd response.",
+    "body": "A rival deploys troops near your border. Your minister suggests a disproportionate response.",
     "choices": {
       "A": "Strengthen defense + keep a dialogue channel open.",
       "B": "Aggressive response: mobilization and ultimatum.",

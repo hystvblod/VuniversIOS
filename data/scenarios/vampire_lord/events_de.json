@@ -20,9 +20,9 @@
       "duration": "Dauer: 4 Karten"
     },
     "vampire_lord_ev_004": {
-      "title": "Diskreter Kult",
-      "body": "Das vampirische Geheimnis rekrutiert im Stillen. Wenig Lärm, viel Loyalität.",
-      "effect": "Vampirisches Geheimnis: +5 pro Karte",
+      "title": "Verstärkter Schleier",
+      "body": "Das Versteck hält sich bedeckt. Weniger Lärm, weniger Spuren, weniger Blicke auf dich.",
+      "effect": "Diskretion: +5 pro Karte",
       "duration": "Dauer: 5 Karten"
     },
     "vampire_lord_ev_005": {
@@ -45,8 +45,8 @@
     },
     "vampire_lord_ev_008": {
       "title": "Schlecht platzierter Blitz",
-      "body": "Ein Nachtfoto gelingt etwas zu gut. Neugierige stellen die richtigen Fragen.",
-      "effect": "Vampirisches Geheimnis: -5 pro Karte",
+      "body": "Ein Nachtfoto verbreitet sich etwas zu stark. Neugierige Menschen beginnen Fragen zu stellen.",
+      "effect": "Diskretion: -5 pro Karte",
       "duration": "Dauer: 5 Karten"
     },
     "vampire_lord_ev_009": {
@@ -63,14 +63,14 @@
     },
     "vampire_lord_ev_011": {
       "title": "Zu geschwätziges Forum",
-      "body": "Menschen sammeln auffallend genaue Gerüchte. Das vampirische Geheimnis ist weniger geheim.",
-      "effect": "Vampirisches Geheimnis: -5 pro Karte",
+      "body": "Menschen sammeln auffallend genaue Gerüchte. Die Diskretion des Verstecks bröckelt.",
+      "effect": "Diskretion: -5 pro Karte",
       "duration": "Dauer: 3 Karten"
     },
     "vampire_lord_ev_012": {
       "title": "Geschlossenes Ritual",
-      "body": "Ein gut geführtes Ritual schweißt die Treuen zusammen. Niemand redet zu viel, alle hören zu.",
-      "effect": "Vampirisches Geheimnis: +5 pro Karte",
+      "body": "Ein gut geführtes Ritual sorgt für Schweigen. Niemand redet zu viel, nichts dringt nach außen.",
+      "effect": "Diskretion: +5 pro Karte",
       "duration": "Dauer: 7 Karten"
     },
     "vampire_lord_ev_013": {
@@ -98,9 +98,9 @@
       "duration": "Dauer: 5 Karten"
     },
     "vampire_lord_ev_017": {
-      "title": "Mauer der Treuen",
-      "body": "Das vampirische Geheimnis verbreitet diskrete Zeichen in der Stadt. Die Loyalen erkennen einander schnell.",
-      "effect": "Vampirisches Geheimnis: +5 pro Karte",
+      "title": "Unsichtbare Zeichen",
+      "body": "Diskrete Zeichen verbreiten sich in der Stadt. Deine Leute erkennen sich, ohne Aufmerksamkeit zu erregen.",
+      "effect": "Diskretion: +5 pro Karte",
       "duration": "Dauer: 4 Karten"
     },
     "vampire_lord_ev_018": {
@@ -123,8 +123,8 @@
     },
     "vampire_lord_ev_021": {
       "title": "Erkanntes Gesicht",
-      "body": "Ein mit dem Versteck verbundenes Gesicht kursiert in einer geschlossenen Gruppe. Der Schleier reißt ein wenig.",
-      "effect": "Vampirisches Geheimnis: -5 pro Karte",
+      "body": "Ein Gesicht, das mit dem Versteck verbunden ist, beginnt in einer geschlossenen Gruppe zu kursieren. Die Diskretion nimmt ab.",
+      "effect": "Diskretion: -5 pro Karte",
       "duration": "Dauer: 5 Karten"
     },
     "vampire_lord_ev_022": {
@@ -165,8 +165,8 @@
     },
     "vampire_lord_ev_028": {
       "title": "Nervöser Zeuge",
-      "body": "Ein menschlicher Zeuge redet zu schnell mit zu vielen Leuten. Das vampirische Geheimnis bekommt einen Schlag ab.",
-      "effect": "Vampirisches Geheimnis: -5 pro Karte",
+      "body": "Ein menschlicher Zeuge redet zu schnell mit zu vielen Leuten. Die Diskretion bekommt einen Schlag ab.",
+      "effect": "Diskretion: -5 pro Karte",
       "duration": "Dauer: 6 Karten"
     },
     "vampire_lord_ev_029": {
@@ -178,7 +178,7 @@
     "vampire_lord_ev_030": {
       "title": "Schweigen der Treuen",
       "body": "Die Treuen gehorchen und schweigen. Nichts dringt nach außen, nichts fällt auf.",
-      "effect": "Vampirisches Geheimnis: +5 pro Karte",
+      "effect": "Diskretion: +5 pro Karte",
       "duration": "Dauer: 7 Karten"
     }
   }

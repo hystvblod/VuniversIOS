@@ -523,11 +523,11 @@
   },
   "mcc_059": {
     "title": "Label pemberi kerja teladan",
-    "body": "Kamu ditawari label pemberi kerja dengan imbalan anggaran komunikasi besar. Terasa seperti label yang dibeli.",
+    "body": "Kamu ditawari label pemberi kerja dengan imbalan anggaran komunikasi yang besar. Ini bisa terlihat seperti penghargaan yang dibeli.",
     "choices": {
       "A": "Tolak: kita perbaiki kenyataannya dulu.",
       "B": "Terima: itu membantu perekrutan.",
-      "C": "Negosiasikan: audit serius + label tanpa omong kosong."
+      "C": "Menegosiasikan audit nyata sebelum label apa pun diberikan"
     }
   },
   "mcc_060": {
@@ -640,10 +640,10 @@
   },
   "mcc_072": {
     "title": "Tim di bawah tekanan",
-    "body": "Satu departemen mulai kelelahan berat, tidak sampai drama, tapi benar-benar lelah. Hasil menurun.",
+    "body": "Sebuah tim kelelahan. Belum ada krisis terbuka, tetapi kelelahan itu nyata dan hasil mulai turun.",
     "choices": {
       "A": "Turunkan target dan perkuat jumlah staf.",
-      "B": "Paksa: ini masa intens, kita tahan.",
+      "B": "Menuntut agar mereka terus bertahan meski kelelahan.",
       "C": "Pasang manajer krisis + sistem rotasi."
     }
   },
@@ -901,7 +901,7 @@
   },
   "mcc_101": {
     "title": "Mesin kopi revolusioner",
-    "body": "Mesin pintar baru itu membagikan… kopi tanpa kafein. Terus-menerus. Kantor pusat dalam keadaan genting.",
+    "body": "Mesin kopi baru hanya mengeluarkan kopi tanpa kafein. Seluruh kantor pusat mengeluh.",
     "choices": {
       "A": "Ganti rugi + pasang mesin sederhana yang andal.",
       "B": "Katakan ini detoks kafein resmi.",
@@ -1000,7 +1000,7 @@
   },
   "mcc_112": {
     "title": "Label inovasi",
-    "body": "Sebuah firma menawarkan label Perusahaan Inovatif dengan tagihan mahal. Terasa seperti stiker mahal.",
+    "body": "Sebuah firma konsultan menawarkan label “Perusahaan inovatif” dengan imbalan tagihan yang sangat tinggi. Ini bisa terlihat seperti penghargaan berbayar.",
     "choices": {
       "A": "Tolak dan investasikan pada proyek inovasi nyata.",
       "B": "Terima: itu menenangkan pasar.",
@@ -1108,7 +1108,7 @@
   },
   "mcc_124": {
     "title": "Tantangan internal",
-    "body": "Tantangan internal siapa yang menjual paling banyak dimulai. Ini menaikkan semangat… tapi bikin semua orang tegang.",
+    "body": "Sebuah kompetisi internal dimulai untuk memberi penghargaan pada penjualan terbaik. Ini memotivasi, tetapi juga menimbulkan ketegangan.",
     "choices": {
       "A": "Pertahankan tapi tambahkan kriteria etika dan kualitas.",
       "B": "Hentikan: suasana jadi toksik.",
@@ -1173,7 +1173,7 @@
     "title": "Logo di mana-mana",
     "body": "Tim iklan menempelkan logo di mana-mana: mug, kursi, lift.",
     "choices": {
-      "A": "Hentikan: moderasi dan elegansi.",
+      "A": "Berhenti menaruh logo di mana-mana",
       "B": "Lanjutkan: visibilitas maksimal.",
       "C": "Pertahankan logo hanya pada beberapa elemen premium."
     }
@@ -1243,11 +1243,11 @@
   },
   "mcc_139": {
     "title": "Newsletter internal",
-    "body": "Newsletter internal terdiri dari 18 halaman. Tak ada yang membacanya, tapi semua bilang keren.",
+    "body": "Buletin internal itu panjangnya 18 halaman. Hampir tidak ada yang benar-benar membacanya.",
     "choices": {
       "A": "Beralih ke format singkat dan berguna.",
       "B": "Lanjutkan: ini penting.",
-      "C": "Pertahankan, tapi wajib ada ringkasan singkat."
+      "C": "Tetap pertahankan, tetapi tambahkan ringkasan yang sangat singkat di awal."
     }
   },
   "mcc_140": {
@@ -1315,7 +1315,7 @@
   },
   "mcc_147": {
     "title": "Lencana pengunjung",
-    "body": "Lencana pengunjung begitu ketat sampai kamu sendiri tidak bisa masuk lagi. Simbolis sekali.",
+    "body": "Lencana pengunjung menjadi begitu ketat sampai-sampai bahkan kamu kesulitan masuk ke area tertentu.",
     "choices": {
       "A": "Sederhanakan sambil tetap menjaga keamanan.",
       "B": "Pertahankan: keamanan maksimal.",
@@ -1341,12 +1341,12 @@
     }
   },
   "mcc_150": {
-    "title": "Keynote terlalu panjang",
-    "body": "Keynote-mu berlangsung 90 menit. Di akhir, bahkan teleprompter pun minta jeda.",
+    "title": "Presentasi terlalu panjang",
+    "body": "Presentasimu berlangsung 90 menit. Pada akhirnya, hampir semua orang sudah tidak memperhatikan lagi.",
     "choices": {
       "A": "Pendekkan dan langsung ke inti mulai berikutnya.",
-      "B": "Lanjutkan: visi butuh waktu.",
-      "C": "Tetap panjang, tapi tambahkan demo konkret."
+      "B": "Tetap lanjut dengan mengatakan bahwa format ini diperlukan",
+      "C": "Tetap membuat presentasi panjang, tetapi tambahkan contoh-contoh konkret"
     }
   },
   "mcc_151": {
@@ -1486,7 +1486,7 @@
   },
   "mcc_166": {
     "title": "Ketegangan geopolitik",
-    "body": "Satu wilayah menjadi tidak stabil. Rute pasokanmu lewat sana. Terasa berisiko.",
+    "body": "Sebuah wilayah menjadi tidak stabil, dan rute pasokanmu melewati sana. Situasi ini langsung mengancam pengiriman.",
     "choices": {
       "A": "Diversifikasi rute dan pemasok.",
       "B": "Lanjutkan: nanti juga aman.",
@@ -1855,7 +1855,7 @@
   },
   "mcc_207": {
     "title": "Minggu penghematan energi",
-    "body": "Pemerintah meluncurkan minggu moderasi energi. Kantormu bersinar seperti stadion.",
+    "body": "Pemerintah meluncurkan pekan penghematan energi. Kantormu tetap terlalu terang.",
     "choices": {
       "A": "Kurangi pencahayaan dan tunjukkan tindakan konkret.",
       "B": "Jangan ubah apa-apa: kami bayar, jadi kami nyalakan.",
@@ -2069,7 +2069,6 @@
       "C": "Pertahankan, tapi opsional menurut jenis pekerjaan, dengan kompensasi."
     }
   },
-
   "mcc_231": {
     "title": "Kemungkinan kontrak publik",
     "body": "Sebuah kontrak publik besar sedang dipertaruhkan. Etalase yang bagus, tapi tuntutan kepatuhannya sangat ketat.",
@@ -2279,7 +2278,7 @@
   },
   "mcc_254": {
     "title": "Debat soal keuntungan yang tidak pantas",
-    "body": "Di acara TV, namamu disebut sebagai contoh. Seseorang melafalkan namamu seperti merek yoghurt.",
+    "body": "Dalam debat televisi, perusahaanmu disebut sebagai contoh. Nada yang digunakan membuat merekmu tampak dipermalukan di depan semua orang.",
     "choices": {
       "A": "Jawab dengan angka + investasi + pekerjaan.",
       "B": "Abaikan: bicara hanya memberi makan polemik.",
@@ -2288,11 +2287,11 @@
   },
   "mcc_255": {
     "title": "Foto resmi",
-    "body": "Kamu ditawari foto bersama seorang menteri di depan pabrikmu. Timmu bertanya: senyumnya seberapa lebar?",
+    "body": "Kamu ditawari foto bersama seorang menteri di depan pabrikmu. Timmu bertanya-tanya seberapa jauh sandiwara ini harus dijalankan.",
     "choices": {
       "A": "Terima, tapi tetap sederhana dan faktual.",
       "B": "Tolak: netralitas total.",
-      "C": "Terima hanya jika kamu mengumumkan proyek yang berguna, pelatihan."
+      "C": "Terima hanya jika kamu mengumumkan proyek pelatihan yang nyata dan berguna."
     }
   },
   "mcc_256": {
@@ -2369,7 +2368,7 @@
   },
   "mcc_264": {
     "title": "Label perusahaan teladan",
-    "body": "Sebuah label publik menawarkan lencana teladan. Timmu bilang: baunya seperti stempel pajangan.",
+    "body": "Sebuah label publik menawarkan lencana “teladan”. Timmu khawatir itu hanya terlihat seperti penghargaan kosmetik.",
     "choices": {
       "A": "Terima jika kriterianya ketat dan bisa diaudit.",
       "B": "Tolak: tidak usah pakai lencana.",
@@ -2723,7 +2722,7 @@
     "body": "Sebuah komisi menanyakan bagaimana kamu melawan disinformasi.",
     "choices": {
       "A": "Jawab serius: transparansi dan moderasi bila perlu.",
-      "B": "Jawab dengan sindiran: kaus kaki kami tidak pernah bohong.",
+      "B": "Menjawab dengan lelucon, ide buruk",
       "C": "Usulkan piagam sukarela tingkat sektor."
     }
   },
@@ -2783,7 +2782,7 @@
   },
   "mcc_310": {
     "title": "Debat soal pajak iklan",
-    "body": "Orang membicarakan pajak atas iklan. Tim iklanmu bertanya apakah stiker di mug termasuk.",
+    "body": "Orang-orang mulai membahas pajak iklan. Timmu sudah mencoba mencari tahu apa saja yang akan terkena dampaknya.",
     "choices": {
       "A": "Kurangi iklan dan perkuat kualitas/layanan.",
       "B": "Alihkan penuh ke influencer.",
@@ -2999,7 +2998,7 @@
   },
   "mcc_334": {
     "title": "Debat soal moderasi",
-    "body": "Stan merekmu dihias seperti pohon Natal perusahaan.",
+    "body": "Stan merekmu terlalu penuh. Itu memberi kesan berlebihan alih-alih kesan serius.",
     "choices": {
       "A": "Rencana moderasi nyata + langkah yang terlihat.",
       "B": "Langkah simbolis selama 1 minggu.",
@@ -3160,10 +3159,10 @@
     }
   },
   "mcc_352": {
-    "title": "Audit kaus kaki",
-    "body": "Sebuah otoritas pengawas meminta audit… atas kaus kaki perusahaanmu.",
+    "title": "Audit yang absurd",
+    "body": "Otoritas pengawas meminta audit atas hal yang konyol.",
     "choices": {
-      "A": "Bekerja sama dan publikasikan laporan kaus kaki.",
+      "A": "Tetap bekerja sama dengan serius meski ini absurd",
       "B": "Mengejek dan mengabaikan, ide buruk.",
       "C": "Kirim berkas yang serius + tawarkan alas anti-selip."
     }
@@ -3327,7 +3326,7 @@
     "choices": {
       "A": "Patuhi hanya untuk pertemuan resmi.",
       "B": "Tolak: kebebasan total.",
-      "C": "Pakai abu-abu… tapi dengan kaus kaki mencolok, pemberontakan lembut."
+      "C": "Memakai warna abu-abu, tetapi tetap menyimpan satu detail kecil untuk menunjukkan ketidaksetujuanmu."
     }
   },
   "mcc_371": {
@@ -3368,7 +3367,7 @@
   },
   "mcc_375": {
     "title": "Debat soal meme",
-    "body": "Seorang anggota parlemen ingin mengatur meme. Perusahaanmu jadi meme. Wajahmu jadi stiker.",
+    "body": "Seorang anggota parlemen ingin mengatur meme. Perusahaanmu sering menjadi sasaran lelucon di internet.",
     "choices": {
       "A": "Tanggapi dengan humor + tetap profesional.",
       "B": "Ancaman hukum ke semua orang.",
@@ -3377,7 +3376,7 @@
   },
   "mcc_376": {
     "title": "Hari tanpa AC saat puncak panas",
-    "body": "Kamu diminta mematikan AC untuk memberi contoh. Suhunya 38°C. Karyawanmu meleleh seperti es.",
+    "body": "Kamu diminta mematikan AC demi memberi contoh. Suhu 38°C dan para karyawan menerimanya dengan sangat buruk.",
     "choices": {
       "A": "Penghematan cerdas: ambang batas, ventilasi, jam kerja yang disesuaikan.",
       "B": "Tolak: kesehatan lebih dulu.",
@@ -3385,11 +3384,11 @@
     }
   },
   "mcc_377": {
-    "title": "Drone yang memfilmkan awan",
-    "body": "Drone keamananmu merekam… awan selama 3 hari. Seorang pejabat bicara soal pengawasan langit.",
+    "title": "Drone yang salah pengaturan",
+    "body": "Drone keamananmu merekam langit selama tiga hari alih-alih mengawasi area tersebut.",
     "choices": {
       "A": "Audit dan koreksi + transparansi.",
-      "B": "Abaikan: cuma awan.",
+      "B": "Mengabaikan masalah, ide buruk",
       "C": "Tangguhkan drone sambil meninjau ulang kebijakannya."
     }
   },
@@ -3421,8 +3420,8 @@
     }
   },
   "mcc_381": {
-    "title": "Chatbot jadi menteri",
-    "body": "Chatbot internalmu mulai menjawab wartawan. Tanda tangannya Menteri Produktivitas.",
+    "title": "Chatbot yang menjawab menggantikan tim",
+    "body": "Chatbot internalmu mulai menjawab wartawan menggantikan timmu.",
     "choices": {
       "A": "Matikan segera + minta maaf + audit.",
       "B": "Biarkan: lucu, kan. Tidak.",
@@ -3467,7 +3466,7 @@
   },
   "mcc_386": {
     "title": "Menteri ingin escape game",
-    "body": "Seorang menteri ingin memahami aktivitasmu lewat escape game. Dia ingin keluar dari birokrasi.",
+    "body": "Seorang menteri ingin mengenal kegiatanmu lewat sebuah pertunjukan yang kurang serius.",
     "choices": {
       "A": "Buat escape game edukatif yang profesional.",
       "B": "Tolak: tidak ada waktu.",
@@ -3548,7 +3547,7 @@
   },
   "mcc_395": {
     "title": "Klakson resmi",
-    "body": "Seorang menteri ingin mengumumkan kemitraanmu dengan bunyi klakson langsung.",
+    "body": "Seorang menteri ingin mengumumkan kemitraanmu dengan pertunjukan yang konyol.",
     "choices": {
       "A": "Buat pengumuman yang tenang, tanpa pertunjukan.",
       "B": "Cari klakson dan lanjutkan pertunjukannya.",
@@ -3632,7 +3631,7 @@
     "body": "Tim komunikasimu ingin mencetak QR code di dahi para karyawan. Tim HR berteriak.",
     "choices": {
       "A": "Larangan langsung: hormat dan akal sehat.",
-      "B": "Izinkan dalam bentuk stiker… sukarela.",
+      "B": "Mengizinkannya hanya dalam bentuk yang opsional dan tetap menghormati semua orang.",
       "C": "Ganti dengan badge digital opsional."
     }
   },
@@ -3754,12 +3753,12 @@
     }
   },
   "mcc_418": {
-    "title": "Rencana darurat: stiker",
-    "body": "Saat krisis, timmu mengusulkan stiker jangan menyerah.",
+    "title": "Rencana darurat yang lemah",
+    "body": "Di tengah krisis, timmu lebih banyak mengusulkan stiker motivasi daripada rencana yang nyata.",
     "choices": {
-      "A": "Rencana konkret + tanpa stiker.",
-      "B": "Stiker di mana-mana: penambah semangat.",
-      "C": "Rencana konkret + satu stiker kecil, oke."
+      "A": "Rencana konkret, tanpa stiker",
+      "B": "Menempelkan stiker di mana-mana untuk menaikkan semangat",
+      "C": "Rencana konkret dengan sedikit dukungan visual"
     }
   },
   "mcc_419": {
@@ -3773,7 +3772,7 @@
   },
   "mcc_420": {
     "title": "Minggu pujian untuk otoritas",
-    "body": "Kamu disarankan mengirim pujian ke otoritas pengawas. Pengacaramu: tidak, tidak, tidak.",
+    "body": "Kamu disarankan mengirim pesan yang terlalu menjilat kepada otoritas pengawas. Pengacaramu langsung menolaknya.",
     "choices": {
       "A": "Tetap netral, cukup bekerja sama dengan baik.",
       "B": "Kirim pujian, berisiko canggung.",
@@ -3952,8 +3951,8 @@
     }
   },
   "mcc_440": {
-    "title": "Komisi hal-hal absurd",
-    "body": "Sebuah komisi parlemen ingin meneliti hal-hal absurd di perusahaan.",
+    "title": "Komisi tentang praktik-praktik absurd",
+    "body": "Sebuah komisi parlemen ingin mempelajari beberapa praktik absurd di perusahaan.",
     "choices": {
       "A": "Bagikan 5 contoh + solusi.",
       "B": "Jangan bagikan apa pun: terlalu berisiko.",
@@ -4051,4 +4050,3 @@
     }
   }
 }
-

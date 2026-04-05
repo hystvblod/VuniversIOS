@@ -1,4 +1,4 @@
-{
+﻿{
   "version": 1,
   "events": {
     "vampire_lord_ev_001": {
@@ -20,9 +20,9 @@
       "duration": "Durée : 4 cartes"
     },
     "vampire_lord_ev_004": {
-      "title": "Culte discret",
-      "body": "Le secret vampirique recrute en silence. Peu de bruit, beaucoup de fidélité.",
-      "effect": "Secret vampirique : +5 par carte",
+      "title": "Voile renforcé",
+      "body": "Le repaire se fait oublier. Peu de bruit, peu de traces, moins d’yeux tournés vers toi.",
+      "effect": "Discrétion : +5 par carte",
       "duration": "Durée : 5 cartes"
     },
     "vampire_lord_ev_005": {
@@ -45,8 +45,8 @@
     },
     "vampire_lord_ev_008": {
       "title": "Flash mal placé",
-      "body": "Une photo nocturne tourne un peu trop bien. Les curieux posent les bonnes questions.",
-      "effect": "Secret vampirique : -5 par carte",
+      "body": "Une photo de nuit circule un peu trop. Des curieux commencent à poser des questions.",
+      "effect": "Discrétion : -5 par carte",
       "duration": "Durée : 5 cartes"
     },
     "vampire_lord_ev_009": {
@@ -63,14 +63,14 @@
     },
     "vampire_lord_ev_011": {
       "title": "Forum trop bavard",
-      "body": "Des humains compilent des rumeurs précises. Le secret vampirique devient moins secret.",
-      "effect": "Secret vampirique : -5 par carte",
+      "body": "Des humains compilent des rumeurs précises. La discrétion du repaire s’effrite.",
+      "effect": "Discrétion : -5 par carte",
       "duration": "Durée : 3 cartes"
     },
     "vampire_lord_ev_012": {
       "title": "Rituel fermé",
-      "body": "Un rituel bien tenu soude les fidèles. Personne ne parle trop, tout le monde écoute.",
-      "effect": "Secret vampirique : +5 par carte",
+      "body": "Un rituel bien tenu impose le silence. Personne ne parle trop, rien ne fuit.",
+      "effect": "Discrétion : +5 par carte",
       "duration": "Durée : 7 cartes"
     },
     "vampire_lord_ev_013": {
@@ -98,9 +98,9 @@
       "duration": "Durée : 5 cartes"
     },
     "vampire_lord_ev_017": {
-      "title": "Mur des fidèles",
-      "body": "Le secret vampirique répand des signes discrets dans la ville. Les loyaux se reconnaissent vite.",
-      "effect": "Secret vampirique : +5 par carte",
+      "title": "Signes invisibles",
+      "body": "Des signes discrets circulent dans la ville. Les tiens se repèrent sans attirer l’attention.",
+      "effect": "Discrétion : +5 par carte",
       "duration": "Durée : 4 cartes"
     },
     "vampire_lord_ev_018": {
@@ -123,8 +123,8 @@
     },
     "vampire_lord_ev_021": {
       "title": "Visage repéré",
-      "body": "Un visage lié au repaire circule dans un groupe fermé. Le voile se déchire un peu.",
-      "effect": "Secret vampirique : -5 par carte",
+      "body": "Un visage lié au repaire commence à circuler dans un groupe fermé. La discrétion baisse.",
+      "effect": "Discrétion : -5 par carte",
       "duration": "Durée : 5 cartes"
     },
     "vampire_lord_ev_022": {
@@ -165,8 +165,8 @@
     },
     "vampire_lord_ev_028": {
       "title": "Témoin nerveux",
-      "body": "Un témoin humain parle trop vite à trop de monde. Le secret vampirique prend un coup.",
-      "effect": "Secret vampirique : -5 par carte",
+      "body": "Un témoin humain parle trop vite à trop de monde. La discrétion prend un coup.",
+      "effect": "Discrétion : -5 par carte",
       "duration": "Durée : 6 cartes"
     },
     "vampire_lord_ev_029": {
@@ -178,7 +178,7 @@
     "vampire_lord_ev_030": {
       "title": "Silence des fidèles",
       "body": "Les fidèles obéissent et se taisent. Rien ne fuit, rien ne dépasse.",
-      "effect": "Secret vampirique : +5 par carte",
+      "effect": "Discrétion : +5 par carte",
       "duration": "Durée : 7 cartes"
     }
   }

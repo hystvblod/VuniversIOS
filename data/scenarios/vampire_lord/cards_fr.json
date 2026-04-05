@@ -1,4 +1,4 @@
-{
+﻿{
   "vampire_001": {
     "title": "La poche de sang bio",
     "body": "Un stock de sang disparaît. Quelqu’un a fait des réserves sans autorisation.",
@@ -136,7 +136,7 @@
   },
   "vampire_016": {
     "title": "Le sang vegan",
-    "body": "Des humains vendent du sang prétendument éthique. Ça sent l’arnaque et la police.",
+    "body": "Des humains vendent un sang présenté comme éthique. Cela ressemble surtout à un piège.",
     "choices": {
       "A": "Acheter pour tester",
       "B": "Détruire le trafic",
@@ -190,7 +190,7 @@
   },
   "vampire_022": {
     "title": "Le chasseur poli",
-    "body": "Un chasseur demande un rendez-vous. Il sourit trop. Il sait quelque chose.",
+    "body": "Un chasseur demande à te rencontrer. Il semble déjà savoir quelque chose sur toi.",
     "choices": {
       "A": "L’écouter",
       "B": "Le piéger",
@@ -199,7 +199,7 @@
   },
   "vampire_023": {
     "title": "Le pactole du clan",
-    "body": "Le clan offre des dons énormes. Ça sent la manipulation, mais c’est tentant.",
+    "body": "On propose au clan une aide très importante. Cela peut aider, mais cela ressemble à une tentative d’influence.",
     "choices": {
       "A": "Accepter avec contrôle",
       "B": "Refuser",
@@ -775,7 +775,7 @@
   },
   "vampire_087": {
     "title": "Le chauffeur trop sympa",
-    "body": "Il raconte partout que tu ne dors jamais. C’est gentil. C’est surtout dangereux.",
+    "body": "Il raconte partout que tu ne dors jamais. Ce n’est peut-être pas méchant, mais c’est dangereux pour le clan.",
     "choices": {
       "A": "Le garder mais le cadrer",
       "B": "Le remplacer vite",
@@ -811,7 +811,7 @@
   },
   "vampire_091": {
     "title": "Le collier d’ail",
-    "body": "Les humains trouvent ça drôle. Toi, tu trouves ça agressif. Et l’odeur te suit comme une insulte.",
+    "body": "Des humains diffusent une odeur qui gêne vraiment le clan.",
     "choices": {
       "A": "Faire fermer la boutique",
       "B": "Lancer une campagne ridicule",
@@ -883,7 +883,7 @@
   },
   "vampire_099": {
     "title": "Le voisin jardinier",
-    "body": "Il est gentil, souriant, et il adore les pellettes. Tout ce que tu détestes en ce moment.",
+    "body": "Ton voisin paraît aimable, mais il passe trop souvent près de ton entrée cachée.",
     "choices": {
       "A": "Le détourner avec un cadeau",
       "B": "Modifier l’entrée secrète",
@@ -955,7 +955,7 @@
   },
   "vampire_107": {
     "title": "Le sac de sang percé",
-    "body": "Une traînée rouge comme un fil d’Ariane. Sauf que ton labyrinthe a des crocs.",
+    "body": "Une traînée de sang mène presque jusqu’au repaire. Si quelqu’un la suit, le clan est exposé.",
     "choices": {
       "A": "Suivre la trace",
       "B": "Punir tout le monde",
@@ -964,7 +964,7 @@
   },
   "vampire_108": {
     "title": "La visite surprise",
-    "body": "Il sourit comme un roi en voyage. Il regarde ton repaire comme si tout lui appartenait déjà.",
+    "body": "Il arrive avec trop d’assurance et observe ton repaire comme s’il le connaissait déjà.",
     "choices": {
       "A": "L’accueillir avec respect",
       "B": "Le faire patienter dehors",
@@ -991,7 +991,7 @@
   },
   "vampire_111": {
     "title": "Le parfum du mensonge",
-    "body": "Le mensonge a une odeur. Tu la connais trop bien. La question, c’est pourquoi il ment maintenant.",
+    "body": "Tu sens qu’il ment. Le vrai problème, c’est de comprendre pourquoi il ment maintenant.",
     "choices": {
       "A": "Le confronter",
       "B": "Le tester en silence",
@@ -1018,7 +1018,7 @@
   },
   "vampire_114": {
     "title": "Le serveur trop bavard",
-    "body": "Il dit que tu es mystérieux. Il mime ta démarche. Il ajoute des détails. Les détails sont des couteaux.",
+    "body": "Il parle trop de toi, t’imite et ajoute des détails inutiles. Plus il en dit, plus il devient dangereux.",
     "choices": {
       "A": "Le recadrer gentiment",
       "B": "Le renvoyer",
@@ -1027,7 +1027,7 @@
   },
   "vampire_115": {
     "title": "Le colis anonyme",
-    "body": "Le colis ne sent pas l’humain. Il sent l’ancien. Et il est arrivé trop facilement jusqu’à toi.",
+    "body": "Le colis n’a rien d’ordinaire et il est arrivé jusqu’à toi beaucoup trop facilement.",
     "choices": {
       "A": "Ouvrir avec précaution",
       "B": "Le brûler",
@@ -1045,7 +1045,7 @@
   },
   "vampire_117": {
     "title": "Le musicien nocturne",
-    "body": "Il joue trop bien. Comme s’il voulait attirer quelqu’un. La question, c’est qui.",
+    "body": "Il joue comme s’il cherchait volontairement à attirer quelqu’un. Reste à savoir qui.",
     "choices": {
       "A": "Le faire partir",
       "B": "Le recruter",
@@ -1270,7 +1270,7 @@
   },
   "vampire_142": {
     "title": "Le garde qui sourit",
-    "body": "Il ne recule pas. Il te fait un signe. Il sait. Ou il joue. Dans les deux cas, c’est dangereux.",
+    "body": "Il ne recule pas et te fait un signe. Soit il t’a reconnu, soit il te teste. Dans les deux cas, c’est dangereux.",
     "choices": {
       "A": "L’intimider",
       "B": "Le suivre discrètement",
@@ -1333,7 +1333,7 @@
   },
   "vampire_149": {
     "title": "La bougie qui ne s’éteint pas",
-    "body": "La flamme danse comme si elle te regardait. Une flamme qui regarde, c’est rarement bon.",
+    "body": "La flamme se comporte d’une manière anormale, comme si elle réagissait à ta présence.",
     "choices": {
       "A": "L’éteindre par la force",
       "B": "Comprendre le rituel",
@@ -1387,7 +1387,7 @@
   },
   "vampire_155": {
     "title": "La fête des voisins",
-    "body": "Musique, rires, verres cassés. Et toi, tu dois passer sous leurs pieds comme un secret nerveux.",
+    "body": "La fête bloque ton passage et t’oblige à traverser une foule trop proche du repaire.",
     "choices": {
       "A": "Interrompre la fête",
       "B": "Attendre la fin",
@@ -1522,7 +1522,7 @@
   },
   "vampire_170": {
     "title": "La chuchoteuse",
-    "body": "Elle ne fuit pas. Elle murmure. Et les ombres répondent presque. Ça n’arrive jamais gratuitement.",
+    "body": "Elle ne fuit pas. Elle murmure et semble appeler quelque chose dans l’ombre. Ce n’est pas normal.",
     "choices": {
       "A": "L’approcher doucement",
       "B": "L’éloigner par la peur",
@@ -1828,7 +1828,7 @@
   },
   "vampire_204": {
     "title": "Le livre interdit",
-    "body": "Un grimoire du repaire disparaît. Et le dernier à l’avoir touché sourit trop.",
+    "body": "Un grimoire du repaire disparaît, et la dernière personne à l’avoir touché paraît beaucoup trop calme.",
     "choices": {
       "A": "Fouiller tout le clan",
       "B": "Proposer une amnistie",
@@ -1837,7 +1837,7 @@
   },
   "vampire_205": {
     "title": "Taxi de nuit bavard",
-    "body": "Un chauffeur raconte qu’il a eu un client froid comme la pierre. Ça ressemble à toi.",
+    "body": "Un chauffeur de nuit décrit un client qui te ressemble trop.",
     "choices": {
       "A": "Le faire taire",
       "B": "Le payer pour mentir",
@@ -1927,7 +1927,7 @@
   },
   "vampire_215": {
     "title": "Nouveau rival élégant",
-    "body": "Un vampire inconnu arrive. Il est poli. Trop poli. Ça sent l’ambition.",
+    "body": "Un vampire inconnu arrive avec des manières parfaites. Il semble surtout vouloir prendre de l’influence.",
     "choices": {
       "A": "L’accueillir et l’encadrer",
       "B": "Le tester avec une mission",
@@ -2008,7 +2008,7 @@
   },
   "vampire_224": {
     "title": "Le colis piégé",
-    "body": "Un colis arrive au repaire. Trop propre. Trop bien emballé. Trop suspect.",
+    "body": "Un colis arrive au repaire dans un état trop parfait pour être rassurant.",
     "choices": {
       "A": "L’ouvrir avec précaution",
       "B": "Le renvoyer",
@@ -2044,7 +2044,7 @@
   },
   "vampire_228": {
     "title": "Chasseur sous couverture",
-    "body": "Un nouveau membre du clan pose des questions trop précises. Ça sent le faux fan.",
+    "body": "Un nouveau membre du clan pose des questions trop précises.",
     "choices": {
       "A": "Le tester discrètement",
       "B": "Le chasser tout de suite",
@@ -2413,7 +2413,7 @@
   },
   "vampire_269": {
     "title": "Le garde du parking",
-    "body": "Un garde surveille trop bien. Il connaît les plaques. Il connaît les horaires. Il connaît trop.",
+    "body": "Un garde surveille le parking de trop près. Il connaît déjà les plaques et les horaires.",
     "choices": {
       "A": "Le corrompre",
       "B": "Le remplacer",
@@ -2440,7 +2440,7 @@
   },
   "vampire_272": {
     "title": "Le groupe anti-secret",
-    "body": "Un groupe humain lutte contre le secret. Ils affichent des tracts. Ils cherchent un chef.",
+    "body": "Un groupe humain veut révéler tout ce qui se cache dans la ville. Il colle des affiches et cherche un porte-parole.",
     "choices": {
       "A": "Dissoudre le groupe",
       "B": "Infiltrer le groupe",
@@ -2557,7 +2557,7 @@
   },
   "vampire_285": {
     "title": "Le drone du toit",
-    "body": "Un drone tourne au-dessus du repaire chaque nuit. Ça sent la curiosité payée.",
+    "body": "Un drone tourne chaque nuit au-dessus du repaire.",
     "choices": {
       "A": "Le pirater",
       "B": "Le faire tomber",
@@ -2629,7 +2629,7 @@
   },
   "vampire_293": {
     "title": "Le serveur bavard",
-    "body": "Un serveur reconnaît trop bien tes habitudes nocturnes. Il sourit quand tu mens.",
+    "body": "Un serveur remarque trop bien tes habitudes. Il pourrait finir par te reconnaître.",
     "choices": {
       "A": "Le payer",
       "B": "Le recruter",
@@ -2935,7 +2935,7 @@
   },
   "vampire_327": {
     "title": "Le garde malade",
-    "body": "Un humain propose de nourrir les plus faibles du clan. Il sourit trop bien.",
+    "body": "Un humain propose de s’occuper des plus faibles du clan. Il paraît beaucoup trop à l’aise pour être rassurant.",
     "choices": {
       "A": "Accepter sous contrôle",
       "B": "Refuser",
@@ -3061,7 +3061,7 @@
   },
   "vampire_341": {
     "title": "Le vendeur d’encens",
-    "body": "Un vendeur parfume la rue chaque nuit. Le clan tousse de dignité.",
+    "body": "Un vendeur parfume la rue chaque nuit. L’odeur gêne le clan et attire l’attention.",
     "choices": {
       "A": "Le payer pour partir",
       "B": "Le manipuler",
@@ -3070,7 +3070,7 @@
   },
   "vampire_342": {
     "title": "Le grenier vivant",
-    "body": "Le grenier du repaire semble respirer la nuit. Le clan refuse d’y monter.",
+    "body": "Le grenier du repaire produit des bruits étranges la nuit. Le clan refuse d’y monter.",
     "choices": {
       "A": "Monter seul",
       "B": "Y envoyer un ancien",
@@ -3322,7 +3322,7 @@
   },
   "vampire_370": {
     "title": "Le ruban de police",
-    "body": "Du ruban de police barre une rue utile au clan. Ça sent le piège large.",
+    "body": "La police bloque une rue utile au clan. Cela ressemble à un piège.",
     "choices": {
       "A": "Contourner le secteur",
       "B": "Tester la zone",
@@ -3412,11 +3412,11 @@
   },
   "vampire_380": {
     "title": "Le plombier discret",
-    "body": "Un plombier connaît trop bien tes sous-sols. Il travaille sans poser de questions.",
+    "body": "Un plombier connaît déjà trop bien les accès du sous-sol du repaire. Plus il intervient ici, plus il risque de comprendre ce que tu caches.",
     "choices": {
       "A": "Le payer plus",
       "B": "Le recruter",
-      "C": "Changer d’équipe"
+      "C": "Faire intervenir une autre entreprise"
     }
   },
   "vampire_381": {

@@ -1,4 +1,4 @@
-{
+﻿{
   "version": 1,
   "events": {
     "mega_corp_ceo_ev_001": {
@@ -27,7 +27,7 @@
     },
     "mega_corp_ceo_ev_005": {
       "title": "Trimestre décevant",
-      "body": "Les résultats tombent un peu trop bas. Les investisseurs deviennent soudain très créatifs dans leurs inquiétudes.",
+      "body": "Les résultats tombent un peu trop bas. Les investisseurs s’inquiètent de plus en plus.",
       "effect": "Investisseurs : -5 par carte",
       "duration": "Durée : 6 cartes"
     },
@@ -61,7 +61,6 @@
       "effect": "Employés : +5 par carte",
       "duration": "Durée : 6 cartes"
     },
-
     "mega_corp_ceo_ev_011": {
       "title": "Article cassant",
       "body": "Un média publie un portrait froid de ton groupe. La formule fait mal, donc elle tourne partout.",
@@ -122,10 +121,9 @@
       "effect": "Investisseurs : -5 par carte",
       "duration": "Durée : 6 cartes"
     },
-
     "mega_corp_ceo_ev_021": {
       "title": "Rumeur produit",
-      "body": "Une rumeur absurde prend trop bien. Plus elle est floue, plus elle voyage.",
+      "body": "Une rumeur absurde circule très vite. Plus elle est vague, plus elle se propage.",
       "effect": "Image de marque : -5 par carte",
       "duration": "Durée : 5 cartes"
     },
@@ -167,7 +165,7 @@
     },
     "mega_corp_ceo_ev_028": {
       "title": "Photo malheureuse",
-      "body": "Une image prise au mauvais moment tourne trop bien. Tu voulais du contrôle, internet voulait un mème.",
+      "body": "Une image prise au mauvais moment devient virale. Internet en fait une blague.",
       "effect": "Image de marque : -5 par carte",
       "duration": "Durée : 6 cartes"
     },

@@ -1,4 +1,4 @@
-{
+﻿{
   "initialGauges": {
     "conquered_territory": 50,
     "found_wealth": 50,
@@ -2381,13 +2381,13 @@
         "B": {
           "gaugeDelta": {
             "royal_treasury": -5,
-            "converted_population": 5
+            "found_wealth": 5
           }
         },
         "C": {
           "gaugeDelta": {
             "found_wealth": 5,
-            "converted_population": 5
+            "conquered_territory": 5
           }
         }
       }
@@ -3993,7 +3993,8 @@
       "choices": {
         "A": {
           "gaugeDelta": {
-            "converted_population": 10
+            "conquered_territory": 5,
+            "royal_treasury": -5
           }
         },
         "B": {
@@ -4689,7 +4690,7 @@
         },
         "C": {
           "gaugeDelta": {
-            "converted_population": 5,
+            "conquered_territory": 5,
             "royal_treasury": -5
           }
         }

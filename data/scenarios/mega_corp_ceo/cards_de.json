@@ -523,11 +523,11 @@
   },
   "mcc_059": {
     "title": "Vorbildlicher Arbeitgeber-Siegel",
-    "body": "Dir wird ein Arbeitgebersiegel gegen ein großes Kommunikationsbudget angeboten. Es riecht nach gekauftem Siegel.",
+    "body": "Man bietet dir ein Arbeitgebersiegel im Austausch gegen ein großes Kommunikationsbudget an. Das könnte wie eine gekaufte Auszeichnung wirken.",
     "choices": {
       "A": "Ablehnen: Erst die Realität verbessern.",
       "B": "Annehmen: Das hilft beim Recruiting.",
-      "C": "Verhandeln: ernsthaftes Audit + Siegel ohne leeres Gerede."
+      "C": "Vor jeder Auszeichnung ein echtes Audit aushandeln"
     }
   },
   "mcc_060": {
@@ -640,10 +640,10 @@
   },
   "mcc_072": {
     "title": "Team unter Druck",
-    "body": "Eine Abteilung ist am Limit, ohne Drama, aber mit echter Erschöpfung. Die Ergebnisse sinken.",
+    "body": "Ein Team ist erschöpft. Es gibt noch keine offene Krise, aber die Müdigkeit ist real und die Ergebnisse fallen.",
     "choices": {
       "A": "Ziele senken und Personal verstärken.",
-      "B": "Fordern: \"Das ist eine intensive Phase, wir halten durch\".",
+      "B": "Verlangen, dass sie trotz der Erschöpfung weitermachen.",
       "C": "Einen Krisenmanager einsetzen + Rotation."
     }
   },
@@ -901,7 +901,7 @@
   },
   "mcc_101": {
     "title": "Revolutionäre Kaffeemaschine",
-    "body": "Die neue \"intelligente\" Maschine verteilt… koffeinfreien Kaffee. In Endlosschleife. Die Zentrale ist im Belagerungszustand.",
+    "body": "Die neue Kaffeemaschine gibt nur entkoffeinierten Kaffee aus. Der ganze Hauptsitz beschwert sich.",
     "choices": {
       "A": "Erstatten + eine einfache und verlässliche Maschine aufstellen.",
       "B": "Sagen, das sei eine offizielle \"Koffein-Detox\".",
@@ -1000,7 +1000,7 @@
   },
   "mcc_112": {
     "title": "Innovationssiegel",
-    "body": "Eine Agentur bietet ein Siegel \"Innovatives Unternehmen\" gegen eine hohe Rechnung an. Es riecht nach teurem Aufkleber.",
+    "body": "Ein Beratungsunternehmen bietet ein Siegel „Innovatives Unternehmen“ gegen eine sehr hohe Rechnung an. Das könnte wie eine bezahlte Auszeichnung wirken.",
     "choices": {
       "A": "Ablehnen und in ein echtes Innovationsprojekt investieren.",
       "B": "Annehmen: Das beruhigt den Markt.",
@@ -1108,7 +1108,7 @@
   },
   "mcc_124": {
     "title": "Interne Challenge",
-    "body": "Eine interne Challenge \"wer am meisten verkauft, gewinnt\" startet. Sie pusht… macht aber alle nervös.",
+    "body": "Ein interner Wettbewerb startet, um die besten Verkäufe zu belohnen. Das motiviert, schafft aber auch Spannungen.",
     "choices": {
       "A": "Behalten, aber ethische/qualitative Kriterien hinzufügen.",
       "B": "Stoppen: giftige Stimmung.",
@@ -1173,7 +1173,7 @@
     "title": "Logo auf allem",
     "body": "Das Werbeteam klebt das Logo überall hin: Tassen, Stühle, Aufzüge.",
     "choices": {
-      "A": "Stoppen: Mäßigung und Eleganz.",
+      "A": "Aufhören, das Logo überall anzubringen",
       "B": "Weitermachen: maximale Sichtbarkeit.",
       "C": "Das Logo nur auf einige hochwertige Elemente setzen."
     }
@@ -1243,11 +1243,11 @@
   },
   "mcc_139": {
     "title": "Interner Newsletter",
-    "body": "Der interne Newsletter hat 18 Seiten. Niemand liest ihn, aber alle sagen \"super\".",
+    "body": "Der interne Newsletter ist 18 Seiten lang. Fast niemand liest ihn wirklich.",
     "choices": {
       "A": "Auf ein kurzes und nützliches Format umstellen.",
       "B": "Weitermachen: \"Das ist wichtig\".",
-      "C": "Behalten, aber mit verpflichtendem TL;DR."
+      "C": "Beibehalten, aber am Anfang eine sehr kurze Zusammenfassung hinzufügen."
     }
   },
   "mcc_140": {
@@ -1315,7 +1315,7 @@
   },
   "mcc_147": {
     "title": "Besucherbadge",
-    "body": "Die Besucherbadges sind so streng, dass nicht einmal du noch hereinkommst. Symbolisch.",
+    "body": "Die Besucherausweise sind so streng geworden, dass selbst du Schwierigkeiten hast, manche Bereiche zu betreten.",
     "choices": {
       "A": "Vereinfachen und trotzdem die Sicherheit behalten.",
       "B": "Beibehalten: maximale Sicherheit.",
@@ -1341,12 +1341,12 @@
     }
   },
   "mcc_150": {
-    "title": "Zu lange Keynote",
-    "body": "Deine Keynote dauert 90 Minuten. Am Ende verlangt sogar der Teleprompter eine Pause.",
+    "title": "Zu lange Präsentation",
+    "body": "Deine Präsentation dauert 90 Minuten. Am Ende hört fast niemand mehr richtig zu.",
     "choices": {
       "A": "Kürzen und beim nächsten Mal aufs Wesentliche gehen.",
-      "B": "So weitermachen: \"Vision braucht Zeit\".",
-      "C": "Lang lassen, aber konkrete Demonstrationen hinzufügen."
+      "B": "Weiter so, mit der Begründung, dass dieses Format nötig ist",
+      "C": "Die Präsentation lang lassen, aber konkrete Beispiele hinzufügen"
     }
   },
   "mcc_151": {
@@ -1486,7 +1486,7 @@
   },
   "mcc_166": {
     "title": "Geopolitische Spannung",
-    "body": "Eine Region wird instabil. Deine Lieferwege führen dort durch. Das riecht nach Risiko.",
+    "body": "Eine Region wird instabil, und deine Versorgungswege verlaufen dort. Die Lage bedroht die Lieferungen direkt.",
     "choices": {
       "A": "Routen und Lieferanten diversifizieren.",
       "B": "Weitermachen: \"Das wird schon\".",
@@ -1855,7 +1855,7 @@
   },
   "mcc_207": {
     "title": "Woche der Energiemäßigung",
-    "body": "Die Regierung startet eine Woche der \"Mäßigung\". Deine Büros leuchten wie ein Stadion.",
+    "body": "Die Regierung startet eine Woche der Energieeinsparung. Deine Büros bleiben trotzdem viel zu hell beleuchtet.",
     "choices": {
       "A": "Die Beleuchtung reduzieren und konkrete Maßnahmen zeigen.",
       "B": "Nichts ändern: \"Wir zahlen, also leuchten wir\".",
@@ -2069,7 +2069,6 @@
       "C": "Beibehalten, aber je nach Beruf optional, mit Ausgleich."
     }
   },
-
   "mcc_231": {
     "title": "Möglicher öffentlicher Auftrag",
     "body": "Ein großer öffentlicher Auftrag steht auf dem Spiel. Gute Bühne, aber strenge Compliance-Anforderungen.",
@@ -2279,7 +2278,7 @@
   },
   "mcc_254": {
     "title": "Debatte über unanständige Gewinne",
-    "body": "In einer TV-Runde wirst du als Beispiel genannt. Jemand spricht deinen Namen aus wie eine Joghurtmarke.",
+    "body": "In einer Fernsehdiskussion wird dein Unternehmen als Beispiel genannt. Der verwendete Ton macht deine Marke vor allen lächerlich.",
     "choices": {
       "A": "Mit Zahlen + Investitionen + Jobs antworten.",
       "B": "Ignorieren: Reden nährt die Polemik.",
@@ -2288,11 +2287,11 @@
   },
   "mcc_255": {
     "title": "Offizielles Foto",
-    "body": "Man schlägt dir ein Foto mit einem Minister vor deiner Fabrik vor. Deine Teams fragen: \"Wie viel sollen wir lächeln?\".",
+    "body": "Man schlägt dir ein Foto mit einem Minister vor deiner Fabrik vor. Deine Teams fragen sich, wie weit diese Inszenierung gehen soll.",
     "choices": {
       "A": "Akzeptieren, aber nüchtern und sachlich bleiben.",
       "B": "Ablehnen: völlige Neutralität.",
-      "C": "Nur akzeptieren, wenn du ein nützliches Projekt ankündigst, Ausbildung."
+      "C": "Nur zustimmen, wenn du ein echtes und nützliches Ausbildungsprojekt ankündigst."
     }
   },
   "mcc_256": {
@@ -2369,7 +2368,7 @@
   },
   "mcc_264": {
     "title": "Siegel vorbildliches Unternehmen",
-    "body": "Ein öffentliches Label bietet ein \"vorbildlich\"-Abzeichen an. Deine Teams sagen: \"Das riecht nach einem Stempel fürs Schaufenster.\"",
+    "body": "Ein öffentliches Label bietet ein „vorbildlich“-Siegel an. Deine Teams fürchten, dass es wie eine reine Fassaden-Auszeichnung wirkt.",
     "choices": {
       "A": "Annehmen, wenn die Kriterien streng und prüfbar sind.",
       "B": "Ablehnen: keine Abzeichen.",
@@ -2723,7 +2722,7 @@
     "body": "Eine Kommission fragt dich, wie du gegen Desinformation kämpfst.",
     "choices": {
       "A": "Ernsthaft antworten: Transparenz und Moderation, wenn nötig.",
-      "B": "Ironisch antworten: \"unsere Socken lügen nie\".",
+      "B": "Mit einem Witz antworten, schlechte Idee",
       "C": "Eine freiwillige Branchencharta vorschlagen."
     }
   },
@@ -2783,7 +2782,7 @@
   },
   "mcc_310": {
     "title": "Debatte über Werbesteuern",
-    "body": "Es ist von einer Steuer auf Werbung die Rede. Dein Werbeteam fragt, ob ein Sticker auf einer Tasse zählt.",
+    "body": "Es ist von einer Werbesteuer die Rede. Dein Team versucht bereits herauszufinden, was betroffen sein wird.",
     "choices": {
       "A": "Werbung reduzieren und Qualität/Service stärken.",
       "B": "Voll auf Influencer verlagern.",
@@ -2999,7 +2998,7 @@
   },
   "mcc_334": {
     "title": "Debatte über Maßhalten",
-    "body": "Der Stand deiner Marke ist dekoriert wie ein Weihnachtsbaum für Unternehmen.",
+    "body": "Der Stand deiner Marke ist viel zu chargé. Er vermittelt ein übertriebenes statt eines seriösen Bildes.",
     "choices": {
       "A": "Echten Maßhalteplan + sichtbare Maßnahmen.",
       "B": "Symbolische Maßnahme für 1 Woche.",
@@ -3160,10 +3159,10 @@
     }
   },
   "mcc_352": {
-    "title": "Das Socken-Audit",
-    "body": "Eine Aufsichtsbehörde fordert ein Audit… über deine Unternehmenssocken.",
+    "title": "Absurdes Audit",
+    "body": "Eine Kontrollbehörde verlangt ein Audit zu einem lächerlichen Thema.",
     "choices": {
-      "A": "Kooperieren und einen \"Sockenbericht\" veröffentlichen.",
+      "A": "Trotz der Absurdität ernsthaft kooperieren",
       "B": "Darüber spotten und ignorieren, schlechte Idee.",
       "C": "Eine ernsthafte Akte schicken + rutschfeste Matten anbieten."
     }
@@ -3327,7 +3326,7 @@
     "choices": {
       "A": "Nur bei offiziellen Terminen befolgen.",
       "B": "Ablehnen: totale Freiheit.",
-      "C": "Grau tragen… mit auffälligen Socken, sanfte Rebellion."
+      "C": "Grau tragen, aber ein diskretes Detail behalten, um deinen Widerspruch zu zeigen."
     }
   },
   "mcc_371": {
@@ -3368,7 +3367,7 @@
   },
   "mcc_375": {
     "title": "Debatte über Memes",
-    "body": "Ein Parlamentarier schlägt vor, Memes zu regulieren. Dein Unternehmen ist ein Meme. Dein Gesicht ist ein Sticker.",
+    "body": "Ein Abgeordneter will Memes regulieren. Dein Unternehmen wird oft zur Zielscheibe von Online-Witzen.",
     "choices": {
       "A": "Mit Humor antworten + professionell bleiben.",
       "B": "Allen juristisch drohen.",
@@ -3377,7 +3376,7 @@
   },
   "mcc_376": {
     "title": "Tag ohne Klimaanlage in voller Hitze",
-    "body": "Man bittet dich, die Klimaanlage \"als Beispiel\" abzuschalten. Es sind 38°C. Deine Mitarbeitenden schmelzen wie Eiswürfel.",
+    "body": "Man verlangt von dir, die Klimaanlage als Vorbild abzuschalten. Es sind 38°C, und die Mitarbeiter erleben das sehr schlecht.",
     "choices": {
       "A": "Intelligente Sparsamkeit: Schwellen, Lüftung, angepasste Zeiten.",
       "B": "Ablehnen: Gesundheit zuerst.",
@@ -3385,11 +3384,11 @@
     }
   },
   "mcc_377": {
-    "title": "Drohne filmt Wolken",
-    "body": "Deine Sicherheitsdrohne filmt… 3 Tage lang die Wolken. Ein Politiker spricht von \"himmlischer Überwachung\".",
+    "title": "Schlecht eingestellte Drohne",
+    "body": "Deine Sicherheitsdrohne filmt drei Tage lang den Himmel, statt das Gelände zu überwachen.",
     "choices": {
       "A": "Audit und Korrektur + Transparenz.",
-      "B": "Ignorieren: \"es sind nur Wolken\".",
+      "B": "Das Problem ignorieren, schlechte Idee",
       "C": "Drohnen aussetzen, bis die Richtlinie überarbeitet ist."
     }
   },
@@ -3421,8 +3420,8 @@
     }
   },
   "mcc_381": {
-    "title": "Chatbot wird Minister",
-    "body": "Dein interner Chatbot antwortet plötzlich Journalisten. Er unterschreibt mit \"Minister für Produktivität\".",
+    "title": "Chatbot, der anstelle des Teams antwortet",
+    "body": "Dein interner Chatbot beginnt, anstelle deines Teams den Journalisten zu antworten.",
     "choices": {
       "A": "Sofort abschalten + Entschuldigung + Audit.",
       "B": "Lassen: \"das ist lustig\", nein.",
@@ -3467,7 +3466,7 @@
   },
   "mcc_386": {
     "title": "Minister will ein Escape Game",
-    "body": "Ein Minister will dein Geschäft über ein Escape Game verstehen. Er will \"aus der Bürokratie raus\".",
+    "body": "Ein Minister will dein Geschäft durch eine wenig seriöse Inszenierung kennenlernen.",
     "choices": {
       "A": "Ein pädagogisches, professionelles Escape Game machen.",
       "B": "Ablehnen: keine Zeit.",
@@ -3548,7 +3547,7 @@
   },
   "mcc_395": {
     "title": "Offizielles Hupkonzert",
-    "body": "Ein Minister will deine Partnerschaft mit einem \"Hupzeichen\" live ankündigen.",
+    "body": "Ein Minister will eure Partnerschaft mit einer lächerlichen Inszenierung ankündigen.",
     "choices": {
       "A": "Eine nüchterne Ankündigung machen, ohne Show.",
       "B": "Eine Hupe finden und die Show durchziehen.",
@@ -3632,7 +3631,7 @@
     "body": "Das Kommunikationsteam will den Mitarbeitenden einen QR-Code auf die Stirn drucken. HR schreit.",
     "choices": {
       "A": "Sofort verbieten: Respekt und gesunder Menschenverstand.",
-      "B": "Nur auf freiwilligen Stickern erlauben.",
+      "B": "Es nur in einer freiwilligen und respektvollen Form erlauben.",
       "C": "Durch ein optionales digitales Badge ersetzen."
     }
   },
@@ -3754,12 +3753,12 @@
     }
   },
   "mcc_418": {
-    "title": "Notfallplan: Sticker",
-    "body": "In einer Krise schlägt dein Team Sticker mit \"Wir lassen nicht locker\" vor.",
+    "title": "Schwacher Notfallplan",
+    "body": "Mitten in der Krise schlägt dein Team vor allem Motivationsaufkleber statt eines echten Plans vor.",
     "choices": {
-      "A": "Konkreter Plan + keine Sticker.",
-      "B": "Sticker überall: Moralboost.",
-      "C": "Konkreter Plan + ein dezenter Sticker, okay."
+      "A": "Konkreter Plan, ohne Aufkleber",
+      "B": "Überall Aufkleber anbringen, um die Moral zu heben",
+      "C": "Konkreter Plan mit einer kleinen visuellen aide"
     }
   },
   "mcc_419": {
@@ -3773,7 +3772,7 @@
   },
   "mcc_420": {
     "title": "Woche des Kompliments an die…",
-    "body": "Man schlägt vor, den Aufsichtsbehörden Komplimente zu schicken. Dein Jurist: \"nein, nein, nein\".",
+    "body": "Man rät dir, den Kontrollbehörden eine zu schmeichelhafte Nachricht zu schicken. Dein Jurist lehnt das sofort ab.",
     "choices": {
       "A": "Neutral bleiben, einfach korrekt kooperieren.",
       "B": "Komplimente schicken, peinliches Risiko.",
@@ -3952,8 +3951,8 @@
     }
   },
   "mcc_440": {
-    "title": "Kommission für absurde Dinge",
-    "body": "Eine parlamentarische Kommission will \"absurde Dinge im Unternehmen\" untersuchen.",
+    "title": "Kommission für absurde Praktiken",
+    "body": "Eine parlamentarische Kommission will bestimmte absurde Praktiken in Unternehmen untersuchen.",
     "choices": {
       "A": "5 Beispiele + Lösungen teilen.",
       "B": "Nichts teilen: zu riskant.",

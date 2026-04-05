@@ -1,9 +1,9 @@
-{
+﻿{
   "version": 1,
   "events": {
     "west_president_ev_001": {
       "title": "Élan d’unité nationale",
-      "body": "Après plusieurs jours tendus, le pays semble enfin respirer ensemble. Même les éditorialistes ont l’air presque supportables.",
+      "body": "Après plusieurs jours tendus, le climat national s’apaise enfin un peu.",
       "effect": "Opinion publique : +5 par carte",
       "duration": "Durée : 5 cartes"
     },
@@ -33,7 +33,7 @@
     },
     "west_president_ev_006": {
       "title": "Tensions sur les prix",
-      "body": "Les factures montent, les commerçants grimacent, et même les ministres regardent le budget comme un animal blessé.",
+      "body": "Les factures montent, les commerçants s’inquiètent, et même les ministres voient le budget se dégrader.",
       "effect": "Économie : -5 par carte",
       "duration": "Durée : 4 cartes"
     },
@@ -63,7 +63,7 @@
     },
     "west_president_ev_011": {
       "title": "Alerte bien gérée",
-      "body": "Une menace a été détectée tôt, contenue proprement, puis classée sans drame. C’est rare. C’est beau. C’est presque élégant.",
+      "body": "Une menace a été détectée tôt et gérée efficacement, sans incident majeur.",
       "effect": "Défense : +5 par carte",
       "duration": "Durée : 3 cartes"
     },

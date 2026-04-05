@@ -1,7 +1,7 @@
 ﻿{
   "vampire_001": {
     "title": "The Organic Blood Bag",
-    "body": "A blood supply has vanished. Someone stocked up without permission.",
+    "body": "A stock of blood has gone missing. Someone has been building reserves without permission.",
     "choices": {
       "A": "Organize a discreet hunt",
       "B": "Negotiate voluntary donations",
@@ -10,27 +10,27 @@
   },
   "vampire_002": {
     "title": "Rumor of Silver Bullets",
-    "body": "A human stares at you like they know your name and your coffin.",
+    "body": "A human stares at you as if they know your name and your coffin.",
     "choices": {
       "A": "Move the clan",
       "B": "Stay and protect the territory",
-      "C": "Launch a diversion"
+      "C": "Create a diversion"
     }
   },
   "vampire_003": {
     "title": "The Bloodline Feud",
-    "body": "Two clan bloodlines are fighting over control of a hideout. Tension rises and everyone is waiting for your ruling.",
+    "body": "Two clan bloodlines are fighting over control of a lair. Tension is rising and everyone is waiting for your judgment.",
     "choices": {
-      "A": "Settle it firmly",
-      "B": "Let the clans handle it",
+      "A": "Rule firmly",
+      "B": "Let the clans settle it themselves",
       "C": "Promise everything to everyone"
     }
   },
   "vampire_004": {
-    "title": "Secret Influencers",
-    "body": "The vampire secret is growing. It strokes egos and attracts trouble.",
+    "title": "Clan Influencers",
+    "body": "The vampire clan is growing. It feels flattering, and it attracts trouble.",
     "choices": {
-      "A": "Allow a major ritual",
+      "A": "Allow a grand ritual",
       "B": "Limit and supervise it",
       "C": "Ban everything"
     }
@@ -48,14 +48,14 @@
     "title": "The Blood Brewery",
     "body": "The price of blood is rising, even here.",
     "choices": {
-      "A": "Loot discreetly",
+      "A": "Pillage discreetly",
       "B": "Invest legally",
-      "C": "Tax the secret"
+      "C": "Tax the clan"
     }
   },
   "vampire_007": {
     "title": "The Crypt Awakens",
-    "body": "A crack in the crypt lets an icy breath through.",
+    "body": "A crack in the crypt lets an icy breath slip through.",
     "choices": {
       "A": "Seal the crypt",
       "B": "Explore it",
@@ -63,7 +63,7 @@
     }
   },
   "vampire_008": {
-    "title": "The Vampire Denture",
+    "title": "The Vampire Dentures",
     "body": "A small immortal problem: one ridiculous detail can ruin an entire night.",
     "choices": {
       "A": "Turn it into a story",
@@ -82,7 +82,7 @@
   },
   "vampire_010": {
     "title": "The Late Delivery",
-    "body": "The refrigerated truck disappeared with three crates. The blood is warming up and the rumors are growing.",
+    "body": "The refrigerated truck vanished with three crates. The blood is thawing and rumors are rising.",
     "choices": {
       "A": "Recover the truck tonight",
       "B": "Pay for clean silence",
@@ -91,7 +91,7 @@
   },
   "vampire_011": {
     "title": "The Masquerade Ball",
-    "body": "An upscale gala invites important figures. Perfect for feeding the clan, perfect for getting spotted.",
+    "body": "An upscale gala invites local elites. Perfect for feeding the clan, perfect for getting noticed.",
     "choices": {
       "A": "Send charmers",
       "B": "Refuse and stay hidden",
@@ -99,12 +99,12 @@
     }
   },
   "vampire_012": {
-    "title": "The Sleepless Priest",
-    "body": "A priest no longer sleeps. He blesses the tap water out of spite.",
+    "title": "The Insomniac Priest",
+    "body": "A priest no longer sleeps. Out of spite, he blesses the tap water.",
     "choices": {
-      "A": "Quiet him down gently",
+      "A": "Silence him gently",
       "B": "Corrupt the parish",
-      "C": "Let it happen and adapt"
+      "C": "Let him and adapt"
     }
   },
   "vampire_013": {
@@ -117,8 +117,8 @@
     }
   },
   "vampire_014": {
-    "title": "The Hunt for the Fake Vampire",
-    "body": "An imitator is pretending to be you. He bites random people and leaves evidence behind.",
+    "title": "The Fake Vampire Hunt",
+    "body": "An imitator is pretending to be you. He bites anyone and leaves traces behind.",
     "choices": {
       "A": "Recruit him",
       "B": "Punish him publicly",
@@ -127,7 +127,7 @@
   },
   "vampire_015": {
     "title": "The Neighborhood Pact",
-    "body": "The local gangs want a deal. Protection in exchange for silence.",
+    "body": "Local gangs want a deal. Protection in exchange for discretion.",
     "choices": {
       "A": "Accept and impose rules",
       "B": "Refuse and scare them",
@@ -136,18 +136,18 @@
   },
   "vampire_016": {
     "title": "Vegan Blood",
-    "body": "Humans are selling supposedly ethical blood. It smells like a scam and the police.",
+    "body": "Humans are selling blood presented as ethical. It mostly looks like a trap.",
     "choices": {
-      "A": "Buy some to test",
-      "B": "Destroy the trade",
-      "C": "Steal the recipe"
+      "A": "Buy some to test it",
+      "B": "Destroy the operation",
+      "C": "Take the recipe"
     }
   },
   "vampire_017": {
     "title": "The Missing Coffin",
     "body": "Your backup coffin has disappeared. Someone mistook it for a vintage trunk.",
     "choices": {
-      "A": "Launch a fast search",
+      "A": "Launch a quick search",
       "B": "Offer a reward",
       "C": "Change hideouts"
     }
@@ -156,9 +156,9 @@
     "title": "The Reinforced Patrol",
     "body": "The police are increasing night patrols. The hunters are hiding behind the badge.",
     "choices": {
-      "A": "Corrupt a chief",
+      "A": "Bribe a chief",
       "B": "Avoid the area",
-      "C": "Start a scandal"
+      "C": "Trigger a scandal"
     }
   },
   "vampire_019": {
@@ -167,12 +167,12 @@
     "choices": {
       "A": "Give in a little",
       "B": "Crack down",
-      "C": "Split the leaders"
+      "C": "Divide the leaders"
     }
   },
   "vampire_020": {
-    "title": "The Crying Statue",
-    "body": "A statue in the crypt is oozing blood. The secret loves it, the clan is panicking.",
+    "title": "The Weeping Statue",
+    "body": "A statue in the crypt is oozing blood. The clan is panicking.",
     "choices": {
       "A": "Explain it as a miracle",
       "B": "Block access",
@@ -185,12 +185,12 @@
     "choices": {
       "A": "Train the novice",
       "B": "Hide him from the clan",
-      "C": "Hand him to the secret"
+      "C": "Hide him in a secret shelter"
     }
   },
   "vampire_022": {
     "title": "The Polite Hunter",
-    "body": "A hunter asks for a meeting. He smiles too much. He knows something.",
+    "body": "A hunter asks to meet you. He already seems to know something about you.",
     "choices": {
       "A": "Hear him out",
       "B": "Trap him",
@@ -198,80 +198,80 @@
     }
   },
   "vampire_023": {
-    "title": "The Secret Windfall",
-    "body": "The secret offers huge donations. It smells like manipulation, but it is tempting.",
+    "title": "The Clan Windfall",
+    "body": "The clan is being offered major support. It could help, but it looks like an attempt to gain influence.",
     "choices": {
-      "A": "Accept with control",
+      "A": "Accept with oversight",
       "B": "Refuse",
       "C": "Take everything and run"
     }
   },
   "vampire_024": {
     "title": "The Forbidden Banquet",
-    "body": "One bloodline proposes a banquet. The menu is suspicious, and so is the plan.",
+    "body": "A bloodline proposes a banquet. The menu is questionable, and so is the plan.",
     "choices": {
       "A": "Ban it",
-      "B": "Watch it closely",
-      "C": "Join in to check it yourself"
+      "B": "Keep it under watch",
+      "C": "Attend to verify"
     }
   },
   "vampire_025": {
     "title": "The Smell of Garlic",
-    "body": "Someone is perfuming the whole street with garlic. It is becoming a local sport.",
+    "body": "Someone is scenting the street with garlic. It is becoming a local sport.",
     "choices": {
       "A": "Identify the culprit",
-      "B": "Change route",
-      "C": "Turn the neighborhood around"
+      "B": "Change your route",
+      "C": "Turn the neighborhood against them"
     }
   },
   "vampire_026": {
     "title": "The Famous Huntress",
-    "body": "A huntress goes on TV. She points to your city on a map.",
+    "body": "A huntress appears on television. She points to your city on a map.",
     "choices": {
-      "A": "Publicly ridicule her",
-      "B": "Move one of the hideouts",
+      "A": "Ridicule her publicly",
+      "B": "Move one hideout",
       "C": "Start a cold war"
     }
   },
   "vampire_027": {
     "title": "The Cleanup Contract",
-    "body": "A company offers to clean up the evidence. Too professional to be honest.",
+    "body": "A company offers to erase the traces. Too professional to be honest.",
     "choices": {
-      "A": "Sign the deal",
+      "A": "Sign",
       "B": "Spy on the company",
       "C": "Shut it down"
     }
   },
   "vampire_028": {
     "title": "The Gothic Club",
-    "body": "A gothic club wants to crown you vampire of the month. You do not like flashes.",
+    "body": "A gothic club wants to crown you vampire of the month. You do not like flash photography.",
     "choices": {
       "A": "Play the mascot",
-      "B": "Refuse flat out",
-      "C": "Send a double"
+      "B": "Refuse outright",
+      "C": "Send a lookalike"
     }
   },
   "vampire_029": {
     "title": "The Tainted Blood",
-    "body": "Several vampires fall sick. The latest batch is bad.",
+    "body": "Several vampires have fallen sick. The latest batch is bad.",
     "choices": {
-      "A": "Block the supply",
+      "A": "Block the stock",
       "B": "Find the source",
-      "C": "Blame a clan"
+      "C": "Blame another clan"
     }
   },
   "vampire_030": {
     "title": "The Coded Message",
     "body": "A human leaves you a coded note. It says they know your true name.",
     "choices": {
-      "A": "Reply in code",
+      "A": "Answer in code",
       "B": "Ignore it",
       "C": "Capture them"
     }
   },
   "vampire_031": {
     "title": "The Moon's Gift",
-    "body": "The full moon makes the clan nervous. Mistakes are multiplying.",
+    "body": "The full moon makes the clan restless. Mistakes are multiplying.",
     "choices": {
       "A": "Impose a curfew",
       "B": "Organize a supervised hunt",
@@ -289,25 +289,25 @@
   },
   "vampire_033": {
     "title": "The Festival of Lights",
-    "body": "The city installs floodlights everywhere. Great atmosphere, bad for you.",
+    "body": "The city is installing floodlights everywhere. Beautiful atmosphere, terrible for you.",
     "choices": {
-      "A": "Sabotage it gently",
-      "B": "Negotiate for a dark zone",
+      "A": "Sabotage them gently",
+      "B": "Negotiate a dark zone",
       "C": "Leave for a few days"
     }
   },
   "vampire_034": {
     "title": "The Hospital Pact",
-    "body": "A hospital director offers you a deal. He wants your protection.",
+    "body": "A hospital director offers a deal. He wants your protection.",
     "choices": {
       "A": "Accept with a contract",
       "B": "Refuse",
-      "C": "Take the supply without a deal"
+      "C": "Take the stock without an agreement"
     }
   },
   "vampire_035": {
     "title": "The App Hunt",
-    "body": "A dating app is targeting your hunting grounds. The traps have gone modern.",
+    "body": "A dating app is targeting your areas. The traps are getting modern.",
     "choices": {
       "A": "Infiltrate the app",
       "B": "Change hunting grounds",
@@ -316,7 +316,7 @@
   },
   "vampire_036": {
     "title": "The New Accountant",
-    "body": "A human accountant is handling your finances. He asks too many questions.",
+    "body": "A human accountant handles your finances. He asks far too many questions.",
     "choices": {
       "A": "Reassure him",
       "B": "Hypnotize him",
@@ -325,16 +325,16 @@
   },
   "vampire_037": {
     "title": "The Open Grave",
-    "body": "A grave is open in your cemetery. Someone is looking for an ancient key.",
+    "body": "A grave has been opened in your cemetery. Someone is looking for an ancient key.",
     "choices": {
       "A": "Close it and set a trap",
       "B": "Follow the tracks",
-      "C": "Send the secret"
+      "C": "Send a discreet team"
     }
   },
   "vampire_038": {
     "title": "The Rigged Mirror",
-    "body": "An artisan is selling mirrors that reflect you. The clan is jealous.",
+    "body": "An artisan sells mirrors that reflect you. The clan is jealous.",
     "choices": {
       "A": "Buy them in bulk",
       "B": "Destroy the shop",
@@ -342,17 +342,17 @@
     }
   },
   "vampire_039": {
-    "title": "The Blessed Rain",
-    "body": "It is raining water that burns a little. Someone blessed the clouds, yes.",
+    "title": "The Holy Rain",
+    "body": "It is raining water that burns a little. Someone is blessing the clouds, yes.",
     "choices": {
       "A": "Find the source",
       "B": "Hide underground",
-      "C": "Launch a risky ritual"
+      "C": "Perform a risky ritual"
     }
   },
   "vampire_040": {
-    "title": "The Curious Cab Driver",
-    "body": "A cab driver says he already saw you die. He wants a story, or he talks.",
+    "title": "The Curious Taxi Driver",
+    "body": "A taxi driver says he has already seen you die. He wants a story, or he talks.",
     "choices": {
       "A": "Pay him",
       "B": "Tell him a lie",
@@ -361,28 +361,28 @@
   },
   "vampire_041": {
     "title": "The Blood Ransom",
-    "body": "A gang captures one of your clan members. They demand blood and secrets.",
+    "body": "A gang has captured a clan member. They demand blood and secrets.",
     "choices": {
       "A": "Pay the ransom",
       "B": "Attack",
-      "C": "Negotiate a trade"
+      "C": "Negotiate an exchange"
     }
   },
   "vampire_042": {
     "title": "The Sealed Library",
-    "body": "A library bans access to one room. The secret says it sings at night.",
+    "body": "A library has sealed off one room. The clan says it sings at night.",
     "choices": {
       "A": "Force the door",
       "B": "Ask for a permit",
-      "C": "Leave it to the secret"
+      "C": "Let the clan decide"
     }
   },
   "vampire_043": {
-    "title": "The Too Kind Neighbor",
-    "body": "Your neighbor brings cakes every night. Way too much garlic, strangely enough.",
+    "title": "The Neighbor Too Kind",
+    "body": "Your neighbor brings cakes every evening. Far too much garlic in them, strangely enough.",
     "choices": {
-      "A": "Invite him in to talk",
-      "B": "Scare him off",
+      "A": "Invite him to talk",
+      "B": "Drive him away",
       "C": "Change lairs"
     }
   },
@@ -391,31 +391,31 @@
     "body": "A servant spills sacred ashes everywhere. It makes your skin itch.",
     "choices": {
       "A": "Punish the servant",
-      "B": "Clean it fast",
-      "C": "Blame the secret"
+      "B": "Clean it up fast",
+      "C": "Cover it up in secret"
     }
   },
   "vampire_045": {
     "title": "The Red Comet",
-    "body": "The sky turns red for one night. The secret announces the end, and the hunters prepare.",
+    "body": "The sky turns red for one night. The clan announces the end, and the hunters prepare.",
     "choices": {
-      "A": "Calm the secret",
+      "A": "Calm the clan",
       "B": "Prepare for war",
-      "C": "Take advantage of the chaos"
+      "C": "Use the chaos"
     }
   },
   "vampire_046": {
     "title": "The Claw on the Door",
-    "body": "Someone scratches your crypt door. The message is clear: you have been found.",
+    "body": "Someone scratches your crypt door. The message is clear: they found you.",
     "choices": {
-      "A": "Strengthen the defenses",
-      "B": "Change hideouts",
+      "A": "Reinforce the defenses",
+      "B": "Move to a new hideout",
       "C": "Strike back"
     }
   },
   "vampire_047": {
     "title": "The Promise of Immortality",
-    "body": "A wealthy human wants to become a vampire. He pays, insists, and has a team.",
+    "body": "A wealthy human wants to become a vampire. He pays, he insists, and he has a team.",
     "choices": {
       "A": "Accept him",
       "B": "Manipulate him",
@@ -424,16 +424,16 @@
   },
   "vampire_048": {
     "title": "Karaoke Night",
-    "body": "The clan wants a karaoke night for bonding. Terrible idea, but funny.",
+    "body": "The clan wants a karaoke night for team bonding. Terrible idea, but funny.",
     "choices": {
-      "A": "Accept and supervise it",
+      "A": "Allow it and supervise",
       "B": "Ban it",
       "C": "Use it to spot traitors"
     }
   },
   "vampire_049": {
     "title": "The Drone Above",
-    "body": "A drone flies over your hideout every night. It always comes back.",
+    "body": "A drone hovers over your hideout every night. It always comes back.",
     "choices": {
       "A": "Hack it",
       "B": "Shoot it down",
@@ -442,7 +442,7 @@
   },
   "vampire_050": {
     "title": "The Blood Exchange",
-    "body": "Traffickers are fixing prices. They want a tax on your territory.",
+    "body": "Traffickers are setting the prices. They want a tax for operating on your territory.",
     "choices": {
       "A": "Negotiate",
       "B": "Crush them",
@@ -460,10 +460,10 @@
   },
   "vampire_052": {
     "title": "The Stolen Relic",
-    "body": "The cold blood relic has been stolen. The culprit left a symbol of the secret.",
+    "body": "The cold blood relic has been stolen. The culprit left the symbol of a rival clan.",
     "choices": {
-      "A": "Blame the secret",
-      "B": "Track them silently",
+      "A": "Blame a rival clan",
+      "B": "Track them in silence",
       "C": "Offer amnesty"
     }
   },
@@ -478,16 +478,16 @@
   },
   "vampire_054": {
     "title": "The Forbidden Song",
-    "body": "A song is about you. Whenever it plays, dogs howl.",
+    "body": "A song is about you. Whenever it plays, dogs start howling.",
     "choices": {
       "A": "Get it banned",
-      "B": "Meet the writer",
+      "B": "Meet the songwriter",
       "C": "Turn the trend to your advantage"
     }
   },
   "vampire_055": {
-    "title": "The Cracked Cup",
-    "body": "Your ritual cup is cracked. Without it, the clan doubts you.",
+    "title": "The Cracked Chalice",
+    "body": "Your ritual chalice is cracked. Without it, the clan doubts you.",
     "choices": {
       "A": "Repair it",
       "B": "Replace it with a new one",
@@ -496,7 +496,7 @@
   },
   "vampire_056": {
     "title": "The Scent of Holiness",
-    "body": "A shop is selling a perfume that repels vampires. Instant success.",
+    "body": "A shop sells a perfume that repels vampires. Instant success.",
     "choices": {
       "A": "Buy some to analyze",
       "B": "Sabotage the shop",
@@ -507,18 +507,18 @@
     "title": "The Blood Oath",
     "body": "An elder demands a public oath. He wants to test your loyalty.",
     "choices": {
-      "A": "Swear and keep it",
+      "A": "Swear it and keep it",
       "B": "Refuse",
       "C": "Cheat with a false oath"
     }
   },
   "vampire_058": {
     "title": "The Dog That Sees Everything",
-    "body": "A dog stares at you and growls. Humans say it sees monsters.",
+    "body": "A dog stares at you and growls. Humans say it can see monsters.",
     "choices": {
       "A": "Buy the dog",
-      "B": "Drive it away",
-      "C": "Make it look dangerous"
+      "B": "Get it away from you",
+      "C": "Make it seem dangerous"
     }
   },
   "vampire_059": {
@@ -532,18 +532,18 @@
   },
   "vampire_060": {
     "title": "The Police Station",
-    "body": "Someone leaves a blood bag in front of the police station. A direct provocation.",
+    "body": "Someone leaves a blood bag in front of the police station. A provocation.",
     "choices": {
-      "A": "Clean up the scene",
+      "A": "Clean the scene",
       "B": "Blame a rival",
-      "C": "Draw the police somewhere else"
+      "C": "Draw the police elsewhere"
     }
   },
   "vampire_061": {
     "title": "The Doctors' Pact",
-    "body": "Doctors want to study your blood. They promise secrecy and progress.",
+    "body": "Doctors want to study your blood. They promise discretion and progress.",
     "choices": {
-      "A": "Accept under control",
+      "A": "Accept under supervision",
       "B": "Refuse",
       "C": "Use them for a fake cure"
     }
@@ -553,22 +553,22 @@
     "body": "A novice panicked and fled into the city. He is leaving traces everywhere.",
     "choices": {
       "A": "Catch him",
-      "B": "Hide him with the secret",
-      "C": "Exile him as an example"
+      "B": "Hide him in a secret shelter",
+      "C": "Banish him as an example"
     }
   },
   "vampire_063": {
-    "title": "The Secret's Trial",
-    "body": "The secret wants to judge a human who insulted you. They ask for your blessing.",
+    "title": "The Clan Trial",
+    "body": "The clan wants to put a human on trial for insulting you. They ask for your blessing.",
     "choices": {
       "A": "Refuse the trial",
       "B": "Allow a symbolic judgment",
-      "C": "Let the secret decide"
+      "C": "Let the clan decide"
     }
   },
   "vampire_064": {
     "title": "The Flooded Cellar",
-    "body": "Your secret cellar is flooded. The coffins are floating around. Ridiculous atmosphere.",
+    "body": "Your secret cellar is flooded. The coffins are floating. The mood is ridiculous.",
     "choices": {
       "A": "Save the reserves",
       "B": "Change lairs",
@@ -577,19 +577,19 @@
   },
   "vampire_065": {
     "title": "The Fake Sun",
-    "body": "A company is installing extremely powerful lights. It feels like a fake sun.",
+    "body": "A company is installing extremely powerful lamps. It looks like a fake sun.",
     "choices": {
-      "A": "Sabotage the construction",
+      "A": "Sabotage the construction site",
       "B": "Negotiate a shutdown",
       "C": "Move the hideout"
     }
   },
   "vampire_066": {
-    "title": "The Clan's Debt",
+    "title": "The Clan Debt",
     "body": "The clan owes a debt to a human criminal. He wants payment now.",
     "choices": {
       "A": "Pay him",
-      "B": "Scare him",
+      "B": "Intimidate him",
       "C": "Recruit him"
     }
   },
@@ -603,44 +603,44 @@
     }
   },
   "vampire_068": {
-    "title": "Rumor Hunt",
-    "body": "A local forum is collecting proof. The posts keep piling up.",
+    "title": "The Rumor Hunt",
+    "body": "A local forum is gathering evidence. The posts keep piling up.",
     "choices": {
       "A": "Infiltrate the forum",
       "B": "Threaten an admin",
-      "C": "Start absurd rumors"
+      "C": "Spread absurd rumors"
     }
   },
   "vampire_069": {
     "title": "The Night Market",
-    "body": "A night market sells talismans. Some of them work, unfortunately.",
+    "body": "A night market sells talismans. Some of them actually work, unfortunately.",
     "choices": {
       "A": "Confiscate the talismans",
       "B": "Buy them back in secret",
-      "C": "Partner with the vendor"
+      "C": "Team up with the seller"
     }
   },
   "vampire_070": {
     "title": "The Elders' Duel",
-    "body": "Two elders challenge each other. They want an old-fashioned duel, which means bloody.",
+    "body": "Two elders challenge each other. They want an old-fashioned duel, meaning a bloody one.",
     "choices": {
       "A": "Ban it",
-      "B": "Referee a controlled duel",
+      "B": "Oversee a controlled duel",
       "C": "Let it happen"
     }
   },
   "vampire_071": {
     "title": "The Blurry Photo",
-    "body": "A blurry photo shows you behind a curtain. It shows just enough to cause panic.",
+    "body": "A blurry photo shows you behind a curtain. It reveals just enough to spark panic.",
     "choices": {
-      "A": "Remove the photo",
+      "A": "Take the photo down",
       "B": "Deny it with humor",
       "C": "Blame a filter"
     }
   },
   "vampire_072": {
     "title": "The Poisoned Gift",
-    "body": "A package arrives with a ribbon. Inside is an object that smells blessed.",
+    "body": "A package arrives with a ribbon on it. Inside is an object that smells blessed.",
     "choices": {
       "A": "Open it carefully",
       "B": "Throw it far away",
@@ -648,8 +648,8 @@
     }
   },
   "vampire_073": {
-    "title": "The Secret Wedding",
-    "body": "The secret is organizing a night wedding. They want you as the witness.",
+    "title": "The Clan Wedding",
+    "body": "The clan is holding a night wedding. They want you as a witness.",
     "choices": {
       "A": "Accept",
       "B": "Refuse",
@@ -657,8 +657,8 @@
     }
   },
   "vampire_074": {
-    "title": "The Soft Mutiny",
-    "body": "Some vampires are demanding more blood for the weak. They call it justice.",
+    "title": "The Gentle Mutiny",
+    "body": "Some vampires are demanding more blood for the weak. They speak of justice.",
     "choices": {
       "A": "Reform distribution",
       "B": "Crack down",
@@ -667,7 +667,7 @@
   },
   "vampire_075": {
     "title": "The Secret Tunnel",
-    "body": "A tunnel under the crypt leads to an exit. Someone has already used it.",
+    "body": "A tunnel beneath the crypt leads to an exit. Someone has already used it.",
     "choices": {
       "A": "Seal the tunnel",
       "B": "Explore the tunnel",
@@ -675,8 +675,8 @@
     }
   },
   "vampire_076": {
-    "title": "The Rain of Ash",
-    "body": "A chimney rains ash over the city. Humans think it is a sign.",
+    "title": "The Ash Rain",
+    "body": "A chimney is sending ashes over the city. Humans think it is a sign.",
     "choices": {
       "A": "Exploit the fear",
       "B": "Calm the city",
@@ -684,8 +684,8 @@
     }
   },
   "vampire_077": {
-    "title": "The Cemetery Guard",
-    "body": "The cemetery keeper knows you. He wants pay and respect.",
+    "title": "The Cemetery Keeper",
+    "body": "The cemetery keeper knows you. He asks for pay and respect.",
     "choices": {
       "A": "Pay him",
       "B": "Threaten him",
@@ -693,12 +693,12 @@
     }
   },
   "vampire_078": {
-    "title": "The Drink That's Too Good",
-    "body": "The secret invents a blood drink. Everyone wants it, even the humans.",
+    "title": "The Overly Good Potion",
+    "body": "The clan invents a blood drink. Everyone wants it, even the humans.",
     "choices": {
       "A": "Ban it",
       "B": "Sell it on the black market",
-      "C": "Measure and control it"
+      "C": "Dose and control it"
     }
   },
   "vampire_079": {
@@ -712,25 +712,25 @@
   },
   "vampire_080": {
     "title": "The Midnight Bell",
-    "body": "A bell rings at midnight for no reason. At each chime, the hunters move.",
+    "body": "A bell rings at midnight for no reason. With every toll, the hunters move.",
     "choices": {
       "A": "Destroy the bell",
-      "B": "Watch the area",
+      "B": "Watch the surroundings",
       "C": "Use the bell as bait"
     }
   },
   "vampire_081": {
     "title": "The New Symbol",
-    "body": "An unknown symbol appears on your walls. Not clan, not secret. Something else.",
+    "body": "An unknown symbol appears on your walls. Neither the clan's mark nor any known sign. Something else.",
     "choices": {
       "A": "Investigate",
       "B": "Erase everything",
-      "C": "Make it look like a secret ritual"
+      "C": "Make it look like a clan rite"
     }
   },
   "vampire_082": {
     "title": "The Forbidden Hunt",
-    "body": "A sacred territory is off-limits for hunting. But hunger is winning.",
+    "body": "A sacred territory is forbidden for hunting. But hunger is growing.",
     "choices": {
       "A": "Respect the ban",
       "B": "Hunt there in secret",
@@ -748,11 +748,11 @@
   },
   "vampire_084": {
     "title": "The Iron Crown",
-    "body": "You are offered an ancient crown. It promises authority, and it comes at a cost.",
+    "body": "You are offered an ancient crown. It promises authority, and demands a price.",
     "choices": {
       "A": "Wear it",
       "B": "Lock it away",
-      "C": "Offer it to a rival"
+      "C": "Give it to a rival"
     }
   },
   "vampire_085": {
@@ -766,25 +766,25 @@
   },
   "vampire_086": {
     "title": "The Talking Fridge",
-    "body": "The fridge displays a message on its own. The clan panics. You hate surprises.",
+    "body": "The fridge displays a message by itself. The clan panics. You hate surprises.",
     "choices": {
       "A": "Have the fridge checked",
-      "B": "Replace the entire stock",
+      "B": "Replace the whole stock",
       "C": "Blame sabotage"
     }
   },
   "vampire_087": {
-    "title": "The Driver Who's Too Nice",
-    "body": "He tells everyone you never sleep. Nice of him. Also very dangerous.",
+    "title": "The Overly Nice Driver",
+    "body": "He tells everyone that you never sleep. He may not mean any harm, but it is dangerous for the clan.",
     "choices": {
       "A": "Keep him but rein him in",
-      "B": "Replace him fast",
-      "C": "Recruit him into the secret"
+      "B": "Replace him quickly",
+      "C": "Recruit him in secret"
     }
   },
   "vampire_088": {
     "title": "The Cellar Crawl",
-    "body": "Humans are going out in groups. Easy to spot, harder to approach without leaving evidence.",
+    "body": "Humans are going out in groups. Easy to spot, harder to approach without leaving traces.",
     "choices": {
       "A": "Move the hunt",
       "B": "Take control of the bar",
@@ -793,11 +793,11 @@
   },
   "vampire_089": {
     "title": "The Museum Guard",
-    "body": "He took a photo and sent it to a collector friend. Collectors often end up as hunters.",
+    "body": "He took a photo and sent it to a passionate friend. Passionate people often end up becoming hunters.",
     "choices": {
       "A": "Pay him for silence",
-      "B": "Distract him with a false lead",
-      "C": "Recover the item tonight"
+      "B": "Distract him with a false trail",
+      "C": "Take the object back tonight"
     }
   },
   "vampire_090": {
@@ -805,22 +805,22 @@
     "body": "The servants have demands. Your palace suddenly looks like a company.",
     "choices": {
       "A": "Negotiate calmly",
-      "B": "Assert your authority",
-      "C": "Replace the whole staff"
+      "B": "Impose your authority",
+      "C": "Replace the entire staff"
     }
   },
   "vampire_091": {
     "title": "The Garlic Necklace",
-    "body": "Humans think it is funny. You find it aggressive. And the smell follows you like an insult.",
+    "body": "Humans are spreading a smell that is seriously bothering the clan.",
     "choices": {
       "A": "Shut the shop down",
-      "B": "Launch a mock campaign",
-      "C": "Ignore it and change route"
+      "B": "Launch a ridicule campaign",
+      "C": "Ignore it and change your route"
     }
   },
   "vampire_092": {
     "title": "The Missing Key",
-    "body": "The key to the ancient protections is gone. Someone knew where it was.",
+    "body": "The key to the old protections is gone. Someone knew where it was.",
     "choices": {
       "A": "Question the clan",
       "B": "Change every lock",
@@ -829,64 +829,64 @@
   },
   "vampire_093": {
     "title": "The Notary Appointment",
-    "body": "The notary likes details too much. Details always threaten the secret.",
+    "body": "The notary likes details too much. Details always threaten secrecy.",
     "choices": {
       "A": "Go in person",
       "B": "Send a fake heir",
-      "C": "Postpone the appointment"
+      "C": "Postpone the meeting"
     }
   },
   "vampire_094": {
     "title": "The Public Bite",
-    "body": "He says he got carried away by the mood. The mood is now an investigation.",
+    "body": "He says he got carried away by the mood. The mood, now, is an investigation.",
     "choices": {
       "A": "Clean up and cover it",
-      "B": "Punish the youngster in front of everyone",
+      "B": "Punish the young one in front of everyone",
       "C": "Blame a drug"
     }
   },
   "vampire_095": {
     "title": "The Strange-Tasting Blood",
-    "body": "Even immortals refuse this blood. So the problem is serious.",
+    "body": "Even immortals refuse this blood. That means the problem is serious.",
     "choices": {
       "A": "Change suppliers",
       "B": "Test the stock",
-      "C": "Impose discipline"
+      "C": "Enforce discipline"
     }
   },
   "vampire_096": {
     "title": "The Fake Documentary",
-    "body": "It talks about tunnels and disappearances. The details are false, but not the idea.",
+    "body": "They talk about tunnels and disappearances. The details are wrong, not the idea.",
     "choices": {
-      "A": "Get the episode pulled",
+      "A": "Have the episode removed",
       "B": "Buy the production",
-      "C": "Drown it in ridicule"
+      "C": "Bury the matter in ridicule"
     }
   },
   "vampire_097": {
     "title": "The Scent of Sunlight",
-    "body": "Humans smear it on happily. You can feel your immortality losing some comfort.",
+    "body": "Humans smear it on with joy. You can feel your immortality losing a little comfort.",
     "choices": {
       "A": "Identify the ingredient",
       "B": "Ban its use near the lair",
-      "C": "Move the hunting zone"
+      "C": "Move the hunting area"
     }
   },
   "vampire_098": {
     "title": "The Oath Ring",
-    "body": "This ring never returns without reason. It announces a promise, or a threat. Sometimes both.",
+    "body": "This ring never returns without a reason. It announces a promise, or a threat. Sometimes both.",
     "choices": {
       "A": "Seal it away",
       "B": "Wear it",
-      "C": "Find who left it"
+      "C": "Find out who left it"
     }
   },
   "vampire_099": {
     "title": "The Gardener Neighbor",
-    "body": "He is kind, smiling, and obsessed with little shovels. Everything you hate right now.",
+    "body": "Your neighbor seems friendly, but he passes too often near your hidden entrance.",
     "choices": {
       "A": "Distract him with a gift",
-      "B": "Change the secret entrance",
+      "B": "Alter the secret entrance",
       "C": "Make him move away"
     }
   },
@@ -895,13 +895,13 @@
     "body": "When a vampire disappears, it is never random. Either a trap, or a betrayal. Or both.",
     "choices": {
       "A": "Send a team",
-      "B": "Wait and observe",
-      "C": "Assume the worst and strike back"
+      "B": "Wait and watch",
+      "C": "Assume the worst and retaliate"
     }
   },
   "vampire_101": {
     "title": "The Antiques Market",
-    "body": "The seller says it came from a cellar. Of course. Cellars always make convenient excuses.",
+    "body": "The seller says it came from a cellar. Of course. Cellars always make a convenient excuse.",
     "choices": {
       "A": "Buy it discreetly",
       "B": "Steal it tonight",
@@ -909,35 +909,35 @@
     }
   },
   "vampire_102": {
-    "title": "The Secret Wants a Logo",
+    "title": "The Clan Wants a Logo",
     "body": "They want a visible identity. You mostly want them to stay invisible.",
     "choices": {
       "A": "Give them a simple symbol",
       "B": "Refuse and calm them down",
-      "C": "Create a trapped fake symbol"
+      "C": "Create a fake booby-trapped symbol"
     }
   },
   "vampire_103": {
-    "title": "The Sleepless Cameraman",
+    "title": "The Insomniac Cameraman",
     "body": "He loves shadows, alleys, silhouettes. He is one step away from filming the wrong silhouette.",
     "choices": {
       "A": "Convince him to stop",
-      "B": "Sabotage his gear",
+      "B": "Sabotage his equipment",
       "C": "Use his footage as cover"
     }
   },
   "vampire_104": {
-    "title": "The Clan's New Code",
-    "body": "The meeting lasts forever. Which is ironic, because you literally have forever.",
+    "title": "The New Clan Code",
+    "body": "The meeting lasts forever. Which is ironic, since you have forever.",
     "choices": {
       "A": "Approve the elders",
-      "B": "Modernize slowly",
-      "C": "Force a compromise"
+      "B": "Modernize gently",
+      "C": "Impose a compromise"
     }
   },
   "vampire_105": {
     "title": "The Neighborhood Complaint",
-    "body": "A petition is circulating. The humans are afraid. All eyes turn to you.",
+    "body": "A petition is circulating. Humans are afraid. All eyes turn toward you.",
     "choices": {
       "A": "Calm the neighborhood",
       "B": "Scare the neighbors",
@@ -946,16 +946,16 @@
   },
   "vampire_106": {
     "title": "The Forgotten Phone",
-    "body": "The phone contains photos and messages. A real threat to the secret.",
+    "body": "The phone contains photos and messages. A real threat to secrecy.",
     "choices": {
-      "A": "Recover the phone fast",
+      "A": "Recover the phone quickly",
       "B": "Destroy it",
       "C": "Search it and keep watch"
     }
   },
   "vampire_107": {
     "title": "The Punctured Blood Bag",
-    "body": "A red trail like a thread through a maze. Except your maze has fangs.",
+    "body": "A trail of blood almost leads straight to the lair. If someone follows it, the clan is exposed.",
     "choices": {
       "A": "Follow the trail",
       "B": "Punish everyone",
@@ -964,24 +964,24 @@
   },
   "vampire_108": {
     "title": "The Surprise Visit",
-    "body": "He smiles like a king on tour. He looks at your lair as if it already belongs to him.",
+    "body": "He arrives far too confident and looks over your lair as if he already knows it.",
     "choices": {
-      "A": "Welcome him respectfully",
+      "A": "Welcome him with respect",
       "B": "Make him wait outside",
       "C": "Prepare a polite trap"
     }
   },
   "vampire_109": {
     "title": "The Wounded Hunter",
-    "body": "He is bleeding, shaking, but still hateful. A wounded animal bites harder.",
+    "body": "He bleeds, he trembles, but he keeps his hatred. A wounded animal bites harder.",
     "choices": {
       "A": "Capture him",
-      "B": "Heal him to negotiate",
-      "C": "Hand him to a rival"
+      "B": "Treat him to negotiate",
+      "C": "Hand him over to a rival"
     }
   },
   "vampire_110": {
-    "title": "The Broken Lock",
+    "title": "The Lock Failure",
     "body": "An open door is an invitation. And you do not like guests.",
     "choices": {
       "A": "Repair it immediately",
@@ -991,7 +991,7 @@
   },
   "vampire_111": {
     "title": "The Scent of Lies",
-    "body": "Lies have a smell. You know it too well. The question is why he is lying now.",
+    "body": "You can tell he is lying. The real problem is understanding why he is lying now.",
     "choices": {
       "A": "Confront him",
       "B": "Test him in silence",
@@ -1002,14 +1002,14 @@
     "title": "The Cure Rumor",
     "body": "A cure makes some dream and others panic. The hunters are already watching.",
     "choices": {
-      "A": "Look for the cure",
+      "A": "Search for the cure",
       "B": "Destroy the rumor",
       "C": "Use it to manipulate"
     }
   },
   "vampire_113": {
     "title": "The Night Bus",
-    "body": "Every night, windows full of eyes. Eyes keep watching. One day, they will see.",
+    "body": "Every night, windows full of eyes. The eyes watch. One day, they will see.",
     "choices": {
       "A": "Have the route changed",
       "B": "Camouflage the entrance",
@@ -1018,16 +1018,16 @@
   },
   "vampire_114": {
     "title": "The Overly Talkative Waiter",
-    "body": "He says you are mysterious. He imitates the way you walk. He adds details. Details are knives.",
+    "body": "He talks too much about you, imitates you, and adds useless details. The more he says, the more dangerous he becomes.",
     "choices": {
-      "A": "Put him in line gently",
+      "A": "Put him back in line gently",
       "B": "Fire him",
-      "C": "Make him bait"
+      "C": "Turn him into bait"
     }
   },
   "vampire_115": {
     "title": "The Anonymous Package",
-    "body": "The package does not smell human. It smells ancient. And it reached you far too easily.",
+    "body": "The package is clearly unusual, and it reached you far too easily.",
     "choices": {
       "A": "Open it carefully",
       "B": "Burn it",
@@ -1036,34 +1036,34 @@
   },
   "vampire_116": {
     "title": "The Hunters' Meeting",
-    "body": "They are not even hiding. When an enemy grows confident, they are planning something.",
+    "body": "They are not even hiding. When an enemy grows confident, they are preparing something.",
     "choices": {
       "A": "Infiltrate the meeting",
       "B": "Strike first",
-      "C": "Move the whole clan"
+      "C": "Move the entire clan"
     }
   },
   "vampire_117": {
     "title": "The Night Musician",
-    "body": "He plays too well. As if he is trying to lure someone. The question is who.",
+    "body": "He plays as if he is deliberately trying to draw someone in. The question is who.",
     "choices": {
       "A": "Make him leave",
       "B": "Recruit him",
-      "C": "Let him stay and observe"
+      "C": "Leave him there and observe"
     }
   },
   "vampire_118": {
     "title": "The Lost Map",
-    "body": "The loyalist says he found it by chance. Chance has a sense of humor, but you do not.",
+    "body": "The loyal one says he found it by chance. Chance has a sense of humor, but you do not.",
     "choices": {
-      "A": "Take the map back",
+      "A": "Recover the map",
       "B": "Change the tunnels",
       "C": "Spread a fake map"
     }
   },
   "vampire_119": {
     "title": "The Rare Blood",
-    "body": "The clan is fighting like children. Except children do not have fangs and century-old grudges.",
+    "body": "The clan is fighting like children. Except children do not have fangs and centuries of grudges.",
     "choices": {
       "A": "Reserve it for the council",
       "B": "Share it fairly",
@@ -1072,7 +1072,7 @@
   },
   "vampire_120": {
     "title": "The Forbidden Room",
-    "body": "He is pale, even for a vampire. He says he heard breathing behind the wall.",
+    "body": "He is pale, even for a vampire. He says he heard a breath behind the wall.",
     "choices": {
       "A": "Punish him",
       "B": "Listen to him and investigate",
@@ -1083,54 +1083,54 @@
     "title": "The Security Contract",
     "body": "More cameras mean more evidence. But controlling the cameras means controlling the story.",
     "choices": {
-      "A": "Refuse and sabotage",
+      "A": "Refuse and sabotage it",
       "B": "Accept and take control",
       "C": "Buy the company"
     }
   },
   "vampire_122": {
     "title": "The Scent of Roses",
-    "body": "You have to stay still all day in a transport coffin. That is a real test by itself.",
+    "body": "You have to stay perfectly still all day in a transport coffin. That alone is a real trial.",
     "choices": {
-      "A": "Have the roses ripped out",
+      "A": "Have the roses torn out",
       "B": "Protect yourself and adapt",
       "C": "Change the secret entrance"
     }
   },
   "vampire_123": {
     "title": "The Obsessed Painter",
-    "body": "He says your gaze is unique. He wants to paint you in the light. Bad idea.",
+    "body": "He says your gaze is unique. He wants to paint you in the light. Terrible idea.",
     "choices": {
       "A": "Refuse firmly",
-      "B": "Accept but keep control",
+      "B": "Accept but stay in control",
       "C": "Drive him out of the neighborhood"
     }
   },
   "vampire_124": {
-    "title": "The Secret's Debt",
+    "title": "The Clan Debt",
     "body": "They helped once. Now they think they are untouchable.",
     "choices": {
       "A": "Pay in donations",
       "B": "Grant a privilege",
-      "C": "Refuse and calm them"
+      "C": "Refuse and calm things down"
     }
   },
   "vampire_125": {
     "title": "The Human Bodyguard",
-    "body": "He is loyal, competent, and too curious. Three qualities that end badly together.",
+    "body": "He is loyal, competent, and too curious. Three traits that end badly together.",
     "choices": {
       "A": "Keep him but limit him",
-      "B": "Fire him",
+      "B": "Dismiss him",
       "C": "Turn him into an ally"
     }
   },
   "vampire_126": {
-    "title": "The Lamp That's Too Bright",
-    "body": "A simple lamp changes everything. Humans love light. You endure it.",
+    "title": "The Lamp Too Bright",
+    "body": "A single lamp changes everything. Humans love light. You suffer it.",
     "choices": {
       "A": "Have the lamp removed",
       "B": "Camouflage the passage",
-      "C": "Use the shadows elsewhere"
+      "C": "Use another shadow"
     }
   },
   "vampire_127": {
@@ -1138,40 +1138,40 @@
     "body": "The chest never used to make noise. Now it groans. And archives taste like secrets.",
     "choices": {
       "A": "Open it and check",
-      "B": "Seal it",
+      "B": "Seal it shut",
       "C": "Call an elder"
     }
   },
   "vampire_128": {
     "title": "The Chase",
-    "body": "The engine roars, the headlights stick to you, and your calm starts cracking. Someone wants to force you into a mistake.",
+    "body": "The engine roars, the headlights cling to you, and your calm starts to crack. Someone wants to push you into a mistake.",
     "choices": {
       "A": "Lose the car",
       "B": "Trap the driver",
-      "C": "Return to the lair by a detour"
+      "C": "Return to the lair by a longer route"
     }
   },
   "vampire_129": {
     "title": "The Clan Cafeteria",
-    "body": "They want order and comfort. You want secrecy and control.",
+    "body": "They want order and comfort. You want discretion and control.",
     "choices": {
       "A": "Set up a cafeteria",
-      "B": "Refuse and impose hunting",
+      "B": "Refuse and enforce hunting",
       "C": "Create a ticket system"
     }
   },
   "vampire_130": {
     "title": "The Sermon of Fear",
-    "body": "The louder he shouts, the more people listen. The more they listen, the more bad ears arrive.",
+    "body": "The more he shouts, the more people listen. The more people listen, the more the wrong ears arrive.",
     "choices": {
       "A": "Silence him",
-      "B": "Set him straight gently",
-      "C": "Use his fear as a smokescreen"
+      "B": "Put him back in line gently",
+      "C": "Use his fear as a screen"
     }
   },
   "vampire_131": {
     "title": "The Rival's Plan",
-    "body": "He is not striking you, he is surrounding you. Slower, but crueler.",
+    "body": "He is not striking you. He is surrounding you. Slower, but crueler.",
     "choices": {
       "A": "Buy faster than he can",
       "B": "Negotiate a border",
@@ -1183,31 +1183,31 @@
     "body": "It is not sunlight. It is something else. And something else usually means a trap.",
     "choices": {
       "A": "Stay in the lair",
-      "B": "Look for the source",
+      "B": "Search for the source",
       "C": "Send scouts"
     }
   },
   "vampire_133": {
-    "title": "The Pharmacy Pact",
-    "body": "Pharmacies want to tie your image to their campaign. They want photos, interviews, and a public appearance.",
+    "title": "The Pharmacies' Pact",
+    "body": "Pharmacies want to tie your image to their campaign. They want photos, interviews, and public appearances.",
     "choices": {
-      "A": "Accept for control",
-      "B": "Refuse and stay discreet",
-      "C": "Accept, but through a screen"
+      "A": "Accept for the sake of control",
+      "B": "Refuse and remain discreet",
+      "C": "Accept but through a screen"
     }
   },
   "vampire_134": {
     "title": "The Vegetarian Vampire",
-    "body": "He talks about morals and peace. The elders call it weakness. You call it stability.",
+    "body": "He talks about morality and peace. The elders talk about weakness. You talk about stability.",
     "choices": {
       "A": "Support him",
-      "B": "Exile him",
-      "C": "Watch him"
+      "B": "Banish him",
+      "C": "Keep him under watch"
     }
   },
   "vampire_135": {
     "title": "The Silver Padlock",
-    "body": "Silver stings just looking at it. Someone wanted to slow you down, not kill you. Not yet.",
+    "body": "Silver stings just to look at it. Someone wanted to slow you down, not kill you. Not yet.",
     "choices": {
       "A": "Break it",
       "B": "Have it analyzed",
@@ -1216,20 +1216,20 @@
   },
   "vampire_136": {
     "title": "The Water Leak",
-    "body": "Water brings in workers. Workers ask too many questions.",
+    "body": "Water attracts workers. Workers ask too many questions.",
     "choices": {
-      "A": "Fix it fast",
+      "A": "Repair it quickly",
       "B": "Seal off the room",
       "C": "Move the contents"
     }
   },
   "vampire_137": {
     "title": "The Last Train",
-    "body": "A simple schedule change affects hunting, travel, timing. And you live by timing.",
+    "body": "A simple schedule change alters the hunt, the travel, the timing. And timing is what you live on.",
     "choices": {
-      "A": "Change route",
+      "A": "Change your route",
       "B": "Create a passage",
-      "C": "Take control of the station"
+      "C": "Control the station"
     }
   },
   "vampire_138": {
@@ -1237,61 +1237,61 @@
     "body": "A broken window is an entrance. Or a message. And you like neither.",
     "choices": {
       "A": "Question everyone",
-      "B": "Strengthen security",
+      "B": "Reinforce security",
       "C": "Blame an enemy"
     }
   },
   "vampire_139": {
-    "title": "The Intern in a Lab Coat",
-    "body": "He is young, sharp, and motivated. The worst kind of person when you want to stay hidden.",
+    "title": "The Intern in a White Coat",
+    "body": "He is young, smart, and driven. The worst kind of person when you are trying to stay hidden.",
     "choices": {
       "A": "Recruit him",
       "B": "Silence him",
-      "C": "Change routes"
+      "C": "Change the route"
     }
   },
   "vampire_140": {
     "title": "The Perfumed Letter",
-    "body": "That scent is not human. It reminds you of a time when you were less powerful. Which means more cautious.",
+    "body": "This scent is not human. It reminds you of a time when you were less powerful. Which means more cautious.",
     "choices": {
       "A": "Burn it",
-      "B": "Read it under protection",
-      "C": "Hand it to the secret"
+      "B": "Read it with protection",
+      "C": "Have it examined discreetly"
     }
   },
   "vampire_141": {
     "title": "The Carnival Mask",
-    "body": "For once, you can walk without drawing attention. For once. And that makes the hunters nervous.",
+    "body": "For once, you can walk without drawing attention. For once. And it makes the hunters nervous.",
     "choices": {
       "A": "Take advantage of the confusion",
-      "B": "Shut the lair down",
-      "C": "Take control of the streets"
+      "B": "Lock down the lair",
+      "C": "Control the streets"
     }
   },
   "vampire_142": {
     "title": "The Smiling Guard",
-    "body": "He does not back away. He signals to you. He knows. Or he is acting. Either way, it is dangerous.",
+    "body": "He does not step back and signals to you. Either he recognized you, or he is testing you. In both cases, it is dangerous.",
     "choices": {
       "A": "Intimidate him",
       "B": "Follow him discreetly",
-      "C": "Change plans"
+      "C": "Change your plan"
     }
   },
   "vampire_143": {
-    "title": "The Sealed Cellar",
-    "body": "Signs, tape, padlocks. Humans love closing doors. You love reopening them.",
+    "title": "The Condemned Cellar",
+    "body": "Signs, tape, padlocks. Humans love sealing doors. You love reopening them.",
     "choices": {
-      "A": "Corrupt the inspection",
+      "A": "Bribe the inspectors",
       "B": "Open another access point",
-      "C": "Force your way in at night"
+      "C": "Force entry at night"
     }
   },
   "vampire_144": {
-    "title": "The Pact of Silence",
-    "body": "He is afraid and might talk. You have to choose which risk to take.",
+    "title": "The Silence Pact",
+    "body": "He is afraid and might talk. You must choose which risk to take.",
     "choices": {
       "A": "Accept and protect him",
-      "B": "Refuse and watch him",
+      "B": "Refuse and keep watch on him",
       "C": "Replace him"
     }
   },
@@ -1299,32 +1299,32 @@
     "title": "The Sacred Dust",
     "body": "This is not a direct attack. It is a test. Someone is measuring your reaction.",
     "choices": {
-      "A": "Clean it up and investigate",
+      "A": "Clean up and investigate",
       "B": "Perform a protection rite",
-      "C": "Respond with a warning"
+      "C": "Answer with a warning"
     }
   },
   "vampire_146": {
     "title": "The Mandatory Banquet",
-    "body": "A banquet grants power, but it also exposes your weaknesses.",
+    "body": "A banquet brings power, but it also exposes your weaknesses.",
     "choices": {
-      "A": "Organize a grand banquet",
+      "A": "Host a grand banquet",
       "B": "Refuse and own it",
       "C": "Hold a discreet banquet"
     }
   },
   "vampire_147": {
-    "title": "The Fund Thief",
-    "body": "Money does not smell like blood, but it does cause tears. And vampire tears are rare.",
+    "title": "The Funds Thief",
+    "body": "Money does not smell like blood, but it still causes tears. And tears from a vampire are rare.",
     "choices": {
       "A": "Audit the accounts",
-      "B": "Trap the cash box",
+      "B": "Trap the cashbox",
       "C": "Blame a rival"
     }
   },
   "vampire_148": {
-    "title": "The Night Reporter",
-    "body": "He loves dark stories. He is going to end up writing a real one. About you.",
+    "title": "The Night Journalist",
+    "body": "He loves dark stories. Sooner or later, he will write a real one. About you.",
     "choices": {
       "A": "Bribe him",
       "B": "Distract him",
@@ -1332,17 +1332,17 @@
     }
   },
   "vampire_149": {
-    "title": "The Candle That Won't Go Out",
-    "body": "The flame dances as if it is watching you. A watching flame is rarely a good sign.",
+    "title": "The Candle That Will Not Go Out",
+    "body": "The flame behaves abnormally, as if it were reacting to your presence.",
     "choices": {
-      "A": "Force it out",
+      "A": "Snuff it out by force",
       "B": "Understand the ritual",
       "C": "Seal the room"
     }
   },
   "vampire_150": {
     "title": "The Growling Dog",
-    "body": "One dog can alert an entire building. And humans wake up very fast when a dog panics.",
+    "body": "A dog can alert an entire building. And humans wake up very quickly when a dog panics.",
     "choices": {
       "A": "Avoid the area",
       "B": "Tame the dog",
@@ -1351,7 +1351,7 @@
   },
   "vampire_151": {
     "title": "The Pocket Mirror",
-    "body": "In this mirror, you do not exist. Some find that amusing. You know it attracts curiosity.",
+    "body": "In this mirror, you do not exist. Some find that amusing. You know it attracts the curious.",
     "choices": {
       "A": "Destroy it",
       "B": "Keep it as evidence",
@@ -1360,11 +1360,11 @@
   },
   "vampire_152": {
     "title": "The Knocking Door",
-    "body": "Three knocks, always at the same hour. A routine is a threat when it comes from an enemy.",
+    "body": "Three knocks, always at the same hour. A routine becomes a threat when it comes from an enemy.",
     "choices": {
-      "A": "Open and confront them",
+      "A": "Open it and confront them",
       "B": "Trap the entrance",
-      "C": "Ignore it and keep watch"
+      "C": "Ignore it and watch"
     }
   },
   "vampire_153": {
@@ -1372,31 +1372,31 @@
     "body": "He wants to do well. He wants to be useful. A vampire in too much of a hurry often makes a visible mistake.",
     "choices": {
       "A": "Accept the oath",
-      "B": "Turn him away",
+      "B": "Put it off",
       "C": "Test him first"
     }
   },
   "vampire_154": {
-    "title": "The Strange Injection",
-    "body": "Someone has a weapon that can hurt you. Not kill you, not yet. But make you doubt.",
+    "title": "The Strange Needle",
+    "body": "Someone has a weapon that can hurt you. Not kill you, not yet. But enough to make you doubt.",
     "choices": {
-      "A": "Look for the antidote",
+      "A": "Search for the antidote",
       "B": "Isolate the vampire",
-      "C": "Hunt down the attacker"
+      "C": "Track the attacker"
     }
   },
   "vampire_155": {
     "title": "The Neighbors' Party",
-    "body": "Music, laughter, broken glasses. And you have to slip beneath their feet like a nervous secret.",
+    "body": "The party blocks your way and forces you to cross a crowd that is far too close to the lair.",
     "choices": {
-      "A": "Break up the party",
-      "B": "Wait it out",
-      "C": "Create a diversion somewhere else"
+      "A": "Interrupt the party",
+      "B": "Wait until it ends",
+      "C": "Create a diversion elsewhere"
     }
   },
   "vampire_156": {
     "title": "The Sound Beneath the Stone",
-    "body": "Scratching, breathing, silence. The three stages of a growing problem.",
+    "body": "Scratching, breath, silence. The three stages of a problem that is growing.",
     "choices": {
       "A": "Open it and see",
       "B": "Seal it and forget it",
@@ -1404,8 +1404,8 @@
     }
   },
   "vampire_157": {
-    "title": "The Corrupt Adviser",
-    "body": "He figured out you have secrets. Humans grow brave when they smell money.",
+    "title": "The Corrupt Councilman",
+    "body": "He has realized that you have secrets. Humans become brave when they smell money.",
     "choices": {
       "A": "Pay and control him",
       "B": "Replace him",
@@ -1414,9 +1414,9 @@
   },
   "vampire_158": {
     "title": "One Hunt Too Many",
-    "body": "A territory with no humans is a tomb. You do not want to rule over an empty tomb.",
+    "body": "A territory without humans is a tomb. You do not want to rule over an empty tomb.",
     "choices": {
-      "A": "Slow down the hunt",
+      "A": "Slow the hunt",
       "B": "Change territory",
       "C": "Bring humans back with promises"
     }
@@ -1427,12 +1427,12 @@
     "choices": {
       "A": "Read the page",
       "B": "Burn the book",
-      "C": "Find out who placed it"
+      "C": "Find who left it"
     }
   },
   "vampire_160": {
     "title": "The Cold Room",
-    "body": "The cold is not normal. It bites the stone, kills the flame, and leaves the servants speechless.",
+    "body": "The cold is unnatural. It bites the stone, kills the flame, and leaves the servants speechless.",
     "choices": {
       "A": "Cut the power",
       "B": "Explore the source",
@@ -1441,7 +1441,7 @@
   },
   "vampire_161": {
     "title": "The Requested Duel",
-    "body": "He wants to challenge you in front of everyone. A duel always draws too many eyes.",
+    "body": "He wants to provoke you in front of everyone. A duel always draws too many eyes.",
     "choices": {
       "A": "Accept the duel",
       "B": "Refuse and punish him",
@@ -1449,89 +1449,89 @@
     }
   },
   "vampire_162": {
-    "title": "The Media Bombshell",
-    "body": "The red circle targets your face. You know the next red circle will target your lair.",
+    "title": "The Media Bomb",
+    "body": "The red circle points at your face. You know the next red circle will point at your lair.",
     "choices": {
       "A": "Remove the source",
       "B": "Create a fake scandal elsewhere",
-      "C": "Embrace a public identity"
+      "C": "Assume a public identity"
     }
   },
   "vampire_163": {
     "title": "The Doctor's Pact",
-    "body": "He is not afraid. He wants a contract. Around here, contracts rarely end in court.",
+    "body": "He is not afraid. He wants a contract. In your world, contracts rarely end in court.",
     "choices": {
-      "A": "Accept and monitor him",
+      "A": "Accept and watch him",
       "B": "Refuse and erase the traces",
-      "C": "Recruit him for good"
+      "C": "Recruit him for the long term"
     }
   },
   "vampire_164": {
-    "title": "The Door with the Symbol",
-    "body": "That symbol was not there yesterday. Someone got this far. Or something did.",
+    "title": "The Marked Door",
+    "body": "That symbol was not there yesterday. Someone got this far inside. Or something did.",
     "choices": {
-      "A": "Scrape it off",
+      "A": "Scratch it off and erase it",
       "B": "Study the symbol",
       "C": "Seal the door"
     }
   },
   "vampire_165": {
     "title": "The Fight at the Council",
-    "body": "A chair flies, a cape tears, an elder insults a young vampire. Power shows itself when things fall apart.",
+    "body": "A chair flies, a cape tears, an elder insults a young one. Power shows itself when things fall apart.",
     "choices": {
-      "A": "Stop it with authority",
-      "B": "Let it happen and observe loyalties",
-      "C": "Throw everyone out"
+      "A": "Stop it by force of authority",
+      "B": "Let it continue and observe loyalties",
+      "C": "Send everyone out"
     }
   },
   "vampire_166": {
     "title": "The False Prophet",
-    "body": "The more he talks, the more dangerous he becomes. Not directly for you, but for your discretion.",
+    "body": "The more he talks, the more dangerous he becomes. Not directly for you, but for your secrecy.",
     "choices": {
-      "A": "Support and control him",
+      "A": "Support him and control him",
       "B": "Silence him",
-      "C": "Publicly humiliate him"
+      "C": "Ridicule him publicly"
     }
   },
   "vampire_167": {
     "title": "The Salt Trap",
-    "body": "Simple, effective, humiliating. No one should trap a lord with salt. And yet.",
+    "body": "Simple, effective, humiliating. You do not trap a lord with salt. And yet.",
     "choices": {
-      "A": "Disarm it and track the author",
+      "A": "Disarm it and follow its maker",
       "B": "Change tunnels",
       "C": "Trap the trap"
     }
   },
   "vampire_168": {
     "title": "The Silver Powder",
-    "body": "You cough, you step back, you get angry. And the enemy is counting on that anger to drag you out.",
+    "body": "You cough, you step back, you get angry. And the enemy is counting on that anger to drag you outside.",
     "choices": {
-      "A": "Lock down the lair",
+      "A": "Seal the lair",
       "B": "Hunt the intruders",
       "C": "Evacuate the clan"
     }
   },
   "vampire_169": {
     "title": "The Diplomatic Dinner",
-    "body": "Dinners are traps in formal wear. But sometimes a trap reveals valuable information.",
+    "body": "Dinners are traps in formalwear. But sometimes a trap reveals valuable information.",
     "choices": {
       "A": "Accept and prepare",
-      "B": "Refuse and reinforce",
+      "B": "Refuse and reinforce your position",
       "C": "Send an emissary"
     }
   },
   "vampire_170": {
     "title": "The Whisperer",
-    "body": "She does not run. She whispers. And the shadows almost answer. That never happens for free.",
+    "body": "She does not run away. She whispers and seems to be calling something from the shadows. That is not normal.",
     "choices": {
       "A": "Approach her gently",
-      "B": "Drive her away with fear",
+      "B": "Drive her away through fear",
       "C": "Watch her"
     }
   },
   "vampire_171": {
     "title": "The Evacuation Plan",
-    "body": "An army without a plan flees badly. A clan without a plan panics fast. And panic leaves evidence.",
+    "body": "An army without a plan flees badly. A clan without a plan panics fast. And panic leaves traces.",
     "choices": {
       "A": "Create a strict plan",
       "B": "Create a flexible plan",
@@ -1540,7 +1540,7 @@
   },
   "vampire_172": {
     "title": "The Collapsed Tunnel",
-    "body": "The stones fall like teeth. And behind the stones, sometimes, things are waiting.",
+    "body": "The stones fall like teeth. And behind the stones, sometimes, there are things waiting.",
     "choices": {
       "A": "Clear it immediately",
       "B": "Dig a detour",
@@ -1558,16 +1558,16 @@
   },
   "vampire_174": {
     "title": "The Fang Collection",
-    "body": "Fangs in a display case are grotesque. But if some of them are real, your clan has a leak.",
+    "body": "Fangs in a display case are grotesque. But if some are real, then your clan has a leak.",
     "choices": {
-      "A": "Have him arrested",
+      "A": "Have the seller arrested",
       "B": "Buy the entire collection",
       "C": "Watch him to trace the source"
     }
   },
   "vampire_175": {
     "title": "The False Alarm",
-    "body": "The alarm wakes the nerves, not the vampires. But it brings humans, and that is worse.",
+    "body": "The alarm wakes nerves, not vampires. But it attracts humans, and that is worse.",
     "choices": {
       "A": "Shut off the alarm and investigate",
       "B": "Evacuate the clan",
@@ -1576,51 +1576,51 @@
   },
   "vampire_176": {
     "title": "The Identity Market",
-    "body": "Identity is your mask. If someone sells your mask, they are selling your face too.",
+    "body": "Identity is your mask. If someone is selling your mask, they are selling your face too.",
     "choices": {
       "A": "Pay to get it back",
       "B": "Track the hacker",
-      "C": "Change identity"
+      "C": "Change identities"
     }
   },
   "vampire_177": {
-    "title": "The Secret Banquet",
-    "body": "They decorated, sang, prayed, and cooked. It starts with good intentions. It often ends in drama.",
+    "title": "The Clan Banquet",
+    "body": "They decorated, sang, prayed, and cooked. It starts with good intentions. It usually ends in drama.",
     "choices": {
       "A": "Refuse politely",
-      "B": "Accept and play a role",
+      "B": "Accept and play the part",
       "C": "Send a double"
     }
   },
   "vampire_178": {
     "title": "The Invisible Huntress",
-    "body": "No sound, no smell, no witness. Someone very serious is playing against you.",
+    "body": "No sound, no scent, no witness. Someone very serious is playing against you.",
     "choices": {
       "A": "Set a trap",
-      "B": "Reinforce patrols",
+      "B": "Reinforce the patrols",
       "C": "Change your rhythm"
     }
   },
   "vampire_179": {
     "title": "The Suspicious Bottle",
-    "body": "It is not your stock. So it is a provocation, a trap, or an attempt to frame you.",
+    "body": "It is not from your stock. So it is either a provocation, a trap, or an attempt to frame you.",
     "choices": {
-      "A": "Confiscate and analyze it",
+      "A": "Confiscate it and analyze it",
       "B": "Destroy it",
       "C": "Use it as bait"
     }
   },
   "vampire_180": {
     "title": "The Renovation Plan",
-    "body": "Workers, lights, blueprints, schedules. Everything you cannot bite.",
+    "body": "Workers, lamps, plans, schedules. Everything you cannot bite.",
     "choices": {
-      "A": "Get the work canceled",
+      "A": "Have the work canceled",
       "B": "Move the access points",
-      "C": "Infiltrate the site"
+      "C": "Infiltrate the work site"
     }
   },
   "vampire_181": {
-    "title": "The Youth Pact",
+    "title": "The Young Ones' Pact",
     "body": "They want autonomy. You want order. Autonomy without order is ruin.",
     "choices": {
       "A": "Dissolve the group",
@@ -1629,7 +1629,7 @@
     }
   },
   "vampire_182": {
-    "title": "The Too Modern Suit",
+    "title": "The Suit Too Modern",
     "body": "The suit looks good, but it makes you visible. You want to be respected, not noticed.",
     "choices": {
       "A": "Accept and test it",
@@ -1642,13 +1642,13 @@
     "body": "The box is heavy and silent. That silence feels like a threat.",
     "choices": {
       "A": "Force it open",
-      "B": "Seal it",
-      "C": "Look for the sender"
+      "B": "Seal it shut",
+      "C": "Find the sender"
     }
   },
   "vampire_184": {
     "title": "The Broken Statue",
-    "body": "The stone is broken without debris. An ancient presence seems to be waking up.",
+    "body": "The stone is shattered without debris. An ancient presence seems to be waking up.",
     "choices": {
       "A": "Repair and purify it",
       "B": "Investigate the cause",
@@ -1657,16 +1657,16 @@
   },
   "vampire_185": {
     "title": "Late Night Delivery",
-    "body": "The courier vanished with your crate. The blood is gone too.",
+    "body": "The courier vanished with your crate. The blood vanished too.",
     "choices": {
-      "A": "Launch a fast manhunt",
-      "B": "Pay a second courier",
-      "C": "Make do with the clan's stock"
+      "A": "Launch a rapid manhunt",
+      "B": "Pay for a second courier",
+      "C": "Manage with the clan's stock"
     }
   },
   "vampire_186": {
     "title": "The Anti-Vampire App",
-    "body": "An app promises to detect vampires. It targets you with a notification.",
+    "body": "An app claims it can detect vampires. It just targeted you with a notification.",
     "choices": {
       "A": "Infiltrate the developers",
       "B": "Push a fake update",
@@ -1677,14 +1677,14 @@
     "title": "Ergonomic Coffin",
     "body": "An artisan offers you a comfort coffin. The clan wants to test it before you do.",
     "choices": {
-      "A": "Assert your privilege",
-      "B": "Organize a controlled demo",
+      "A": "Impose your privilege",
+      "B": "Set up a controlled demo",
       "C": "Refuse and keep the old one"
     }
   },
   "vampire_188": {
     "title": "Leak in the Crypt",
-    "body": "Water is dripping onto the reserves. Even vampires hate mold.",
+    "body": "Water is dripping onto the reserves. Even vampires do not like mildew.",
     "choices": {
       "A": "Repair it right away",
       "B": "Move the reserves",
@@ -1701,8 +1701,8 @@
     }
   },
   "vampire_190": {
-    "title": "Improvised Secret Party",
-    "body": "The secret throws a party in your honor. With posters and smoke effects.",
+    "title": "Improvised Clan Party",
+    "body": "The clan throws a party in your honor. With posters and smoke effects.",
     "choices": {
       "A": "Cancel it firmly",
       "B": "Supervise and secure it",
@@ -1711,25 +1711,25 @@
   },
   "vampire_191": {
     "title": "Suspicious Bank",
-    "body": "Your account is drawing attention. Too many nighttime purchases and too little sun.",
+    "body": "Your account is attracting attention. Too many night purchases and too little sunlight.",
     "choices": {
       "A": "Send a fake manager",
-      "B": "Change identity",
+      "B": "Change identities",
       "C": "Switch to cash"
     }
   },
   "vampire_192": {
-    "title": "The New Recruit Who's Too Motivated",
+    "title": "The New Recruit Too Motivated",
     "body": "A young vampire wants to hunt every night. He makes noise and posts stories.",
     "choices": {
       "A": "Calm him down harshly",
       "B": "Train him properly",
-      "C": "Put him in service of the secret"
+      "C": "Put him to work for discretion"
     }
   },
   "vampire_193": {
     "title": "Clan Rationing",
-    "body": "The clan wants a blood quota. Everyone accuses you of favoritism.",
+    "body": "The clan wants a blood quota. Everyone is accusing you of favoritism.",
     "choices": {
       "A": "Set clear rules",
       "B": "Give more to the loyal",
@@ -1737,17 +1737,17 @@
     }
   },
   "vampire_194": {
-    "title": "Curious Local Newspaper",
+    "title": "The Curious Local Paper",
     "body": "A newspaper is investigating bite marks. They have the right area and the right date.",
     "choices": {
-      "A": "Silence the article",
-      "B": "Redirect it toward a myth",
+      "A": "Silence the story",
+      "B": "Turn it toward a myth",
       "C": "Blame another predator"
     }
   },
   "vampire_195": {
-    "title": "The Doctor Who Watches Too Closely",
-    "body": "A doctor notices suspicious marks on several patients. He is putting it together.",
+    "title": "The Doctor Too Observant",
+    "body": "A doctor notices suspicious marks on several patients. He is connecting the dots.",
     "choices": {
       "A": "Recruit him by force",
       "B": "Convince him gently",
@@ -1755,25 +1755,25 @@
     }
   },
   "vampire_196": {
-    "title": "The Secret's Empty Chest",
-    "body": "The offering chest is empty. The secret is fighting and it is becoming public.",
+    "title": "The Empty Clan Chest",
+    "body": "The offering chest is empty. The clan is fighting and it is becoming public.",
     "choices": {
-      "A": "Return the money and set them straight",
+      "A": "Return the money and restore order",
       "B": "Name someone responsible",
       "C": "Ignore it and let it burn"
     }
   },
   "vampire_197": {
-    "title": "The Neighbor Who Films",
+    "title": "The Filming Neighbor",
     "body": "A neighbor installs a camera in the hallway. He calls it security.",
     "choices": {
       "A": "Sabotage the camera",
       "B": "Charm him calmly",
-      "C": "Change passages"
+      "C": "Use another passage"
     }
   },
   "vampire_198": {
-    "title": "The Garlic Perfume",
+    "title": "The Scent of Garlic",
     "body": "A trend arrives. Everyone is wearing garlic pendants. Very stylish. Very annoying.",
     "choices": {
       "A": "Launch a counter-trend",
@@ -1783,16 +1783,16 @@
   },
   "vampire_199": {
     "title": "Power Outage",
-    "body": "No power in the lair. Without alarms, everything becomes too easy for the hunters.",
+    "body": "The lair has lost power. Without alarms, everything becomes too easy for the hunters.",
     "choices": {
-      "A": "Fix it fast",
+      "A": "Fix it quickly",
       "B": "Post guards",
       "C": "Abandon the area"
     }
   },
   "vampire_200": {
-    "title": "Plot Inside the Clan",
-    "body": "Your niece wants to modernize coffin logistics. They are calling you the lord of the night.",
+    "title": "Plot Within the Clan",
+    "body": "Your niece proposes modernizing coffin logistics. They are calling you the night chief.",
     "choices": {
       "A": "Confront them",
       "B": "Divide them",
@@ -1800,12 +1800,12 @@
     }
   },
   "vampire_201": {
-    "title": "Watered-Down Blood",
-    "body": "A batch of blood is suspicious. The vampires are making faces, which is rare.",
+    "title": "Adulterated Blood",
+    "body": "A batch of blood looks suspicious. The vampires are making faces, and that is rare.",
     "choices": {
       "A": "Throw the batch away",
-      "B": "Mix it with good blood",
-      "C": "Pass it off to the secret"
+      "B": "Dilute it with good blood",
+      "C": "Dump it on the black market"
     }
   },
   "vampire_202": {
@@ -1814,12 +1814,12 @@
     "choices": {
       "A": "Manipulate him",
       "B": "Threaten him politely",
-      "C": "Refuse flat out"
+      "C": "Refuse outright"
     }
   },
   "vampire_203": {
-    "title": "The Secret Gets Too Zealous",
-    "body": "The secret wants to tattoo your symbol. On themselves. On everything. Even on the walls.",
+    "title": "Clan Too Zealous",
+    "body": "The clan wants to tattoo your symbol. On themselves. On everything. Even on the walls.",
     "choices": {
       "A": "Ban it and punish them",
       "B": "Limit it to one discreet sign",
@@ -1828,16 +1828,16 @@
   },
   "vampire_204": {
     "title": "The Forbidden Book",
-    "body": "A grimoire vanishes from the lair. And the last one to touch it is smiling too much.",
+    "body": "A grimoire from the lair goes missing, and the last person to touch it seems far too calm.",
     "choices": {
       "A": "Search the entire clan",
       "B": "Offer amnesty",
-      "C": "Launch a fake curse"
+      "C": "Cast a fake curse"
     }
   },
   "vampire_205": {
     "title": "Talkative Night Taxi",
-    "body": "A driver says he had a passenger as cold as stone. Sounds like you.",
+    "body": "A night driver describes a client who looks too much like you.",
     "choices": {
       "A": "Silence him",
       "B": "Pay him to lie",
@@ -1849,13 +1849,13 @@
     "body": "A club is hosting a vampire ball. Too realistic. The hunters are going too.",
     "choices": {
       "A": "Infiltrate the ball",
-      "B": "Have the club shut down",
-      "C": "Watch from a distance"
+      "B": "Shut the club down",
+      "C": "Watch from afar"
     }
   },
   "vampire_207": {
     "title": "Network Outage",
-    "body": "No network in your area. The clan panics. The secret too. Bad sign.",
+    "body": "No signal in your area anymore. The clan is panicking. Bad sign.",
     "choices": {
       "A": "Send scouts",
       "B": "Stay hidden",
@@ -1863,17 +1863,17 @@
     }
   },
   "vampire_208": {
-    "title": "Overly Curious Priest",
-    "body": "A priest blesses the doors in your neighborhood. He watches you for too long.",
+    "title": "The Priest Too Curious",
+    "body": "A priest blesses the doors in the neighborhood. He looks at you for too long.",
     "choices": {
-      "A": "Draw him away from the area",
-      "B": "Recruit him through the secret",
-      "C": "Have him discredited"
+      "A": "Lead him away from the area",
+      "B": "Recruit him discreetly",
+      "C": "Discredit him"
     }
   },
   "vampire_209": {
-    "title": "The Itchy Outfit",
-    "body": "Your ancient coat draws attention. Night fashion now demands something plain.",
+    "title": "The Itchy Suit",
+    "body": "Your ancient coat draws attention. Night fashion now demands something ordinary.",
     "choices": {
       "A": "Adapt to the modern style",
       "B": "Impose the old style",
@@ -1882,43 +1882,43 @@
   },
   "vampire_210": {
     "title": "Blood on the Sidewalk",
-    "body": "A bite scene was seen. Passersby took photos.",
+    "body": "A bite scene was witnessed. Passersby took photos.",
     "choices": {
-      "A": "Clean it up and erase it",
+      "A": "Clean up and erase it",
       "B": "Blame an animal",
       "C": "Scare the witnesses"
     }
   },
   "vampire_211": {
     "title": "Clan Assembly",
-    "body": "The clan demands a meeting. Nobody likes meetings. But everyone likes complaining.",
+    "body": "The clan demands a meeting. Nobody likes meetings. But everyone loves complaining.",
     "choices": {
       "A": "Listen and decide",
-      "B": "Postpone it again",
-      "C": "Let a spokesperson talk"
+      "B": "Delay it again",
+      "C": "Let a spokesperson handle it"
     }
   },
   "vampire_212": {
     "title": "Offer of Protection",
-    "body": "A human gang offers protection against hunters. They want a strange payment.",
+    "body": "A human gang offers protection against the hunters. They want a strange payment.",
     "choices": {
       "A": "Accept and control them",
-      "B": "Refuse and drive them off",
+      "B": "Refuse and drive them out",
       "C": "Manipulate them without paying"
     }
   },
   "vampire_213": {
     "title": "The Living Room Mirror",
-    "body": "An antique mirror arrives at the lair. Everyone wants to see who still has a reflection.",
+    "body": "An antique mirror arrives at the lair. Everyone wants to check who still has a reflection.",
     "choices": {
       "A": "Hide the mirror",
       "B": "Hold an official test",
-      "C": "Break the mirror"
+      "C": "Smash the mirror"
     }
   },
   "vampire_214": {
     "title": "The Private Clinic",
-    "body": "A clinic offers very expensive blood. They want a partnership. Shady and practical.",
+    "body": "A clinic offers very expensive blood. They want a partnership. Suspicious and useful.",
     "choices": {
       "A": "Sign a deal",
       "B": "Steal from them discreetly",
@@ -1927,20 +1927,20 @@
   },
   "vampire_215": {
     "title": "Elegant New Rival",
-    "body": "An unknown vampire arrives. He is polite. Too polite. It smells like ambition.",
+    "body": "An unknown vampire arrives with perfect manners. He mainly seems to want influence.",
     "choices": {
       "A": "Welcome and supervise him",
       "B": "Test him with a mission",
-      "C": "Push him out of the territory"
+      "C": "Push him out of your territory"
     }
   },
   "vampire_216": {
     "title": "The Fan Donor",
     "body": "A human wants to donate blood. He asks for an autograph. On his neck.",
     "choices": {
-      "A": "Refuse and stay sober",
-      "B": "Accept and control it",
-      "C": "Hand him to the secret"
+      "A": "Refuse and stay composed",
+      "B": "Accept and control the situation",
+      "C": "Send him away discreetly"
     }
   },
   "vampire_217": {
@@ -1963,7 +1963,7 @@
   },
   "vampire_219": {
     "title": "Health Inspection",
-    "body": "A health inspection is coming near your caches. They are looking for illegal stock.",
+    "body": "A health inspection is coming near your caches. They are looking for illegal stockpiles.",
     "choices": {
       "A": "Move the caches",
       "B": "Bribe the inspector",
@@ -1971,18 +1971,17 @@
     }
   },
   "vampire_220": {
-    "title": "The Secret's Song",
-    "body": "The secret writes a song about you. It gets stuck in your head. Even in immortals'.",
+    "title": "The Clan Song",
+    "body": "The clan composes a song about you. It gets stuck in the head. Even immortal ones.",
     "choices": {
       "A": "Ban the song",
       "B": "Make it official",
       "C": "Turn it into a secret code"
     }
   },
-
   "vampire_221": {
     "title": "The Night Bar",
-    "body": "A bar becomes your new hunting ground. But the owner asks too many questions.",
+    "body": "A bar becomes your new hunting ground. But the owner asks far too many questions.",
     "choices": {
       "A": "Buy the bar",
       "B": "Change locations",
@@ -1993,23 +1992,23 @@
     "title": "The Forgotten Gloves",
     "body": "You left your gloves in the wrong place. They smell like crypt earth.",
     "choices": {
-      "A": "Get them back quickly",
+      "A": "Recover them quickly",
       "B": "Burn them from a distance",
       "C": "Create a false trail"
     }
   },
   "vampire_223": {
     "title": "Duel of Elders",
-    "body": "Two elders want a duel to settle everything. Even tonight's menu.",
+    "body": "Two elders want a duel to settle everything. Even the dinner menu.",
     "choices": {
       "A": "Allow the duel",
-      "B": "Ban it and arbitrate",
-      "C": "Organize a symbolic duel"
+      "B": "Forbid it and arbitrate",
+      "C": "Arrange a symbolic duel"
     }
   },
   "vampire_224": {
     "title": "The Trapped Package",
-    "body": "A package arrives at the lair. Too clean. Too neatly wrapped. Too suspicious.",
+    "body": "A package reaches the lair in such perfect condition that it feels unsettling.",
     "choices": {
       "A": "Open it carefully",
       "B": "Send it back",
@@ -2018,25 +2017,25 @@
   },
   "vampire_225": {
     "title": "The Barking Dog",
-    "body": "A dog barks every time you pass by. Its owner is starting to write down the times.",
+    "body": "A dog barks every time you pass. Its owner is starting to write down the times.",
     "choices": {
-      "A": "Avoid the street",
+      "A": "Avoid that street",
       "B": "Charm the owner",
       "C": "Silence the dog"
     }
   },
   "vampire_226": {
     "title": "The Sun Alarm",
-    "body": "The lair has a sunlight alarm. It goes off in the middle of the night. Everyone panics.",
+    "body": "The lair's sun alarm goes off in the middle of the night. Everyone panics.",
     "choices": {
-      "A": "Fix it immediately",
+      "A": "Repair it immediately",
       "B": "Shut the system down",
       "C": "Blame a saboteur"
     }
   },
   "vampire_227": {
-    "title": "The Secret's Outfit",
-    "body": "The secret makes you an official outfit. It is far too shiny. And it attracts flashes.",
+    "title": "The Clan Outfit",
+    "body": "The clan makes you an official outfit. It is far too shiny. And it attracts flashes.",
     "choices": {
       "A": "Refuse the outfit",
       "B": "Accept a discreet version",
@@ -2045,16 +2044,16 @@
   },
   "vampire_228": {
     "title": "Hunter Undercover",
-    "body": "A new member of the secret asks questions that are way too precise. Feels like a fake fan.",
+    "body": "A new member of the clan is asking overly precise questions.",
     "choices": {
-      "A": "Test him discreetly",
-      "B": "Throw him out right away",
-      "C": "Turn him against the hunters"
+      "A": "Test them discreetly",
+      "B": "Drive them out immediately",
+      "C": "Turn them against the hunters"
     }
   },
   "vampire_229": {
     "title": "The Streets Pact",
-    "body": "Humans offer a pact. They give silence in exchange for protection. It is business.",
+    "body": "Humans propose a pact. They offer silence in exchange for protection. Business, in other words.",
     "choices": {
       "A": "Accept and supervise it",
       "B": "Refuse and impose fear",
@@ -2062,7 +2061,7 @@
     }
   },
   "vampire_230": {
-    "title": "The Scent of Rose",
+    "title": "The Rose Perfume",
     "body": "A perfume masks the smell of blood. The whole clan wears it. You cough. It is humiliating.",
     "choices": {
       "A": "Ban the perfume",
@@ -2080,8 +2079,8 @@
     }
   },
   "vampire_232": {
-    "title": "The Relic Market",
-    "body": "An anti-vampire relic is being sold in town. Everyone wants it. Especially you.",
+    "title": "The Relics Market",
+    "body": "An anti-vampire relic is being sold in the city. Everyone wants it. Especially you.",
     "choices": {
       "A": "Buy it discreetly",
       "B": "Steal it",
@@ -2090,16 +2089,16 @@
   },
   "vampire_233": {
     "title": "The Clan Trial",
-    "body": "A vampire is accused of betrayal. He demands a trial. The secret wants to attend.",
+    "body": "A vampire is accused of treason. He demands judgment. The clan wants to attend.",
     "choices": {
-      "A": "Hold a strict trial",
-      "B": "Grant forgiveness in exchange for service",
-      "C": "Exile him immediately"
+      "A": "Pass a strict judgment",
+      "B": "Grant pardon in exchange for service",
+      "C": "Immediate exile"
     }
   },
   "vampire_234": {
-    "title": "The Warm Blood Scandal",
-    "body": "Someone heated blood for the taste. The clan is splitting into gourmets and purists.",
+    "title": "The Warm Blood Drama",
+    "body": "Someone heated blood for the taste. The clan is now split between gourmets and purists.",
     "choices": {
       "A": "Ban the practice",
       "B": "Set a rule",
@@ -2107,11 +2106,11 @@
     }
   },
   "vampire_235": {
-    "title": "The Fog Mission",
-    "body": "A strange fog covers the area. The hunters step inside. The clan hesitates.",
+    "title": "The Mist Mission",
+    "body": "A strange mist covers the area. The hunters enter it. The clan hesitates.",
     "choices": {
-      "A": "Explore the fog",
-      "B": "Stay under cover",
+      "A": "Explore the mist",
+      "B": "Stay sheltered",
       "C": "Lure the hunters into it"
     }
   },
@@ -2125,35 +2124,35 @@
     }
   },
   "vampire_237": {
-    "title": "The Secret Supply",
-    "body": "A hidden blood reserve is discovered. It is not yours. So whose is it.",
+    "title": "The Secret Reserve",
+    "body": "A hidden blood reserve is discovered. It is not yours. So whose is it?",
     "choices": {
       "A": "Take it for the clan",
       "B": "Trap it",
-      "C": "Give it back and investigate"
+      "C": "Return it and investigate"
     }
   },
   "vampire_238": {
     "title": "The Silence Pact",
-    "body": "A journalist offers a deal. He stays quiet in exchange for an exclusive story. Very risky.",
+    "body": "A journalist offers a pact. He stays quiet in exchange for an exclusive story. Extremely risky.",
     "choices": {
       "A": "Refuse and neutralize him",
-      "B": "Accept and control the story",
+      "B": "Accept and control the narrative",
       "C": "Turn him against the hunters"
     }
   },
   "vampire_239": {
-    "title": "The Party Blood Drive",
-    "body": "The secret organizes a blood drive. Too many people. Too many cameras. Too much temptation.",
+    "title": "The Party Blood",
+    "body": "The clan organizes a collection. Too many people. Too many cameras. Too much temptation.",
     "choices": {
-      "A": "Cancel the drive",
+      "A": "Cancel the collection",
       "B": "Supervise it strictly",
-      "C": "Take the blood fast and leave"
+      "C": "Grab what you can and leave"
     }
   },
   "vampire_240": {
-    "title": "The Falling Mask",
-    "body": "Someone from the clan was seen being careless. A face is spreading across social media.",
+    "title": "The Mask Falls",
+    "body": "Someone from the clan was seen being careless. A face is now circulating online.",
     "choices": {
       "A": "Erase the trace",
       "B": "Change every identity",
@@ -2164,7 +2163,7 @@
     "title": "The Council of Shadows",
     "body": "The clan demands an official council. They want votes. Even on your decisions.",
     "choices": {
-      "A": "Refuse and keep power",
+      "A": "Refuse and keep the power",
       "B": "Accept and supervise it",
       "C": "Accept and manipulate it"
     }
@@ -2180,16 +2179,16 @@
   },
   "vampire_243": {
     "title": "The Romantic Vampire",
-    "body": "A vampire writes love letters to humans. He signs them with your name. Disaster.",
+    "body": "A vampire is writing love letters to humans. He signs them with your name. Disaster.",
     "choices": {
       "A": "Stop him immediately",
-      "B": "Set him straight and fix the damage",
+      "B": "Put him in line and repair the damage",
       "C": "Use it as cover"
     }
   },
   "vampire_244": {
     "title": "The Slashed Tires",
-    "body": "The secret's vehicles are sabotaged. They blame the hunters. The clan blames the secret.",
+    "body": "The clan's vehicles have been sabotaged. They blame the hunters. The clan blames a mole.",
     "choices": {
       "A": "Investigate seriously",
       "B": "Blame a rival",
@@ -2198,16 +2197,16 @@
   },
   "vampire_245": {
     "title": "The Silver Rain",
-    "body": "A huge amount of money falls into your hands. Too good. It looks like a financial trap.",
+    "body": "A large sum of money falls into your hands. Too good. It smells like a financial trap.",
     "choices": {
       "A": "Refuse the money",
-      "B": "Launder it fast",
+      "B": "Launder it quickly",
       "C": "Return it with a threat"
     }
   },
   "vampire_246": {
     "title": "The Misread Ritual",
-    "body": "The secret misread a text. Now they are summoning things that pound on the walls.",
+    "body": "The clan misread a text. Now they are summoning things that knock on the walls.",
     "choices": {
       "A": "Stop the ritual",
       "B": "Finish it properly",
@@ -2216,25 +2215,25 @@
   },
   "vampire_247": {
     "title": "The Freezing Stock",
-    "body": "Part of the blood has frozen. The clan is yelling. You could yell too, but you have dignity.",
+    "body": "Part of the blood stock has frozen. The clan is yelling. You could yell too, but you have dignity.",
     "choices": {
-      "A": "Save what can be saved",
+      "A": "Save what can still be saved",
       "B": "Throw it out and secure the rest",
-      "C": "Spread out the loss"
+      "C": "Spread the loss around"
     }
   },
   "vampire_248": {
     "title": "The Lantern Festival",
-    "body": "A festival lights up the streets all night long. Zero shadows. Your territory becomes an aquarium.",
+    "body": "A festival lights the streets all night long. No shadows at all. Your territory turns into an aquarium.",
     "choices": {
-      "A": "Suspend hunting",
+      "A": "Suspend the hunt",
       "B": "Hunt on the outskirts",
-      "C": "Sabotage the lights"
+      "C": "Sabotage the lighting"
     }
   },
   "vampire_249": {
     "title": "A Hunter's Promise",
-    "body": "A hunter offers a truce. He says he wants the true leader. He is aiming at you.",
+    "body": "A hunter proposes a truce. He says he wants the real leader. He means you.",
     "choices": {
       "A": "Accept the meeting",
       "B": "Refuse and strike",
@@ -2246,17 +2245,17 @@
     "body": "The clan asks for a code of conduct. It sounds noble. It always ends in arguments.",
     "choices": {
       "A": "Write simple rules",
-      "B": "Write strict rules",
-      "C": "Refuse and decide case by case"
+      "B": "Write harsh rules",
+      "C": "Refuse and handle things case by case"
     }
   },
   "vampire_251": {
     "title": "The Fake Blood Trade",
     "body": "Humans are selling fake blood to young vampires. It makes them sick. And ridiculous.",
     "choices": {
-      "A": "Shut the trade down",
+      "A": "Break up the trade",
       "B": "Tax the trade",
-      "C": "Leave it there to punish the naive"
+      "C": "Let it continue to punish the naive"
     }
   },
   "vampire_252": {
@@ -2264,12 +2263,12 @@
     "body": "A hunter symbol is painted on a nearby door. No one knows who saw it first.",
     "choices": {
       "A": "Erase the mark",
-      "B": "Set an ambush",
+      "B": "Set up an ambush",
       "C": "Flee the area"
     }
   },
   "vampire_253": {
-    "title": "The Fancy Invitation",
+    "title": "The Chic Invitation",
     "body": "You are invited to a private party. Too many mirrors. Too many eyes. Too many risks.",
     "choices": {
       "A": "Go wearing a mask",
@@ -2279,16 +2278,16 @@
   },
   "vampire_254": {
     "title": "The Blood Pact",
-    "body": "An elder proposes a blood pact to unite the clan. It works. It binds. It traps.",
+    "body": "An elder offers a blood pact to unite the clan. It works. It binds. It traps.",
     "choices": {
       "A": "Accept the pact",
       "B": "Refuse politely",
-      "C": "Suggest a lighter pact"
+      "C": "Offer a lighter pact"
     }
   },
   "vampire_255": {
-    "title": "The Secret Wants Badges",
-    "body": "The secret wants to give badges to the faithful. They also want your face on them.",
+    "title": "The Clan Wants Badges",
+    "body": "The clan wants to give badges to the loyal. They also want your face on them.",
     "choices": {
       "A": "Ban the badges",
       "B": "Allow them without your face",
@@ -2296,17 +2295,17 @@
     }
   },
   "vampire_256": {
-    "title": "The Human Cellar",
+    "title": "The Humans' Cellar",
     "body": "A hidden cellar contains human reserves. Who did this. And why here.",
     "choices": {
-      "A": "Free them and erase the evidence",
-      "B": "Use them and stay in control",
+      "A": "Free them and erase the traces",
+      "B": "Use them and control the situation",
       "C": "Hand them over to the hunters"
     }
   },
   "vampire_257": {
-    "title": "Silence in the Lair",
-    "body": "Everything is too quiet. Even the rats. Something has changed inside the walls.",
+    "title": "The Silence of the Lair",
+    "body": "Everything is too silent. Even the rats. Something has changed inside the walls.",
     "choices": {
       "A": "Inspect every room",
       "B": "Call the elders",
@@ -2314,8 +2313,8 @@
     }
   },
   "vampire_258": {
-    "title": "The Emergency Supply",
-    "body": "There is an emergency reserve. But no one has the key. And everyone is looking at you.",
+    "title": "The Emergency Stock",
+    "body": "An emergency reserve exists. But nobody has the key. And everyone is staring at you.",
     "choices": {
       "A": "Force the lock",
       "B": "Look for the key",
@@ -2324,7 +2323,7 @@
   },
   "vampire_259": {
     "title": "The Drone Hunt",
-    "body": "Drones fly at night. They search for heat. Vampires do not give off heat, but they observe.",
+    "body": "Drones fly at night. They seek heat. Vampires do not run hot, but they do watch.",
     "choices": {
       "A": "Shoot down the drones",
       "B": "Redirect them",
@@ -2333,7 +2332,7 @@
   },
   "vampire_260": {
     "title": "The Clan Wants a Symbol",
-    "body": "The clan wants an official symbol. The secret suggests a giant crown. Absolutely not.",
+    "body": "The clan wants an official symbol. Some propose a giant crown. Absolutely not.",
     "choices": {
       "A": "Choose a discreet symbol",
       "B": "Impose the old symbol",
@@ -2342,7 +2341,7 @@
   },
   "vampire_261": {
     "title": "The Smell of Smoke",
-    "body": "Smoke is seeping into the crypt. It comes from outside. And outside there are hunters.",
+    "body": "Smoke seeps into the crypt. It comes from outside. And outside there are hunters.",
     "choices": {
       "A": "Go out and stop it",
       "B": "Seal the entrances",
@@ -2351,20 +2350,20 @@
   },
   "vampire_262": {
     "title": "The Clan Banquet",
-    "body": "The clan wants a banquet. The secret wants to serve. Hunters love large tables.",
+    "body": "The clan wants a banquet. The clan wants to serve. Hunters love large tables.",
     "choices": {
       "A": "Cancel the banquet",
       "B": "Organize it in secret",
-      "C": "Set up a fake trap banquet"
+      "C": "Stage a fake banquet trap"
     }
   },
   "vampire_263": {
-    "title": "The Clan Against the Secret",
-    "body": "The clan says the secret talks too much. The secret says the clan bites too much. Great atmosphere.",
+    "title": "One Clan Against Another",
+    "body": "One clan accuses another of talking too much. The other accuses yours of biting too much. Lovely atmosphere.",
     "choices": {
       "A": "Impose peace",
-      "B": "Favor the clan",
-      "C": "Favor the secret"
+      "B": "Favor your own clan",
+      "C": "Favor the other clan"
     }
   },
   "vampire_264": {
@@ -2372,7 +2371,7 @@
     "body": "A flower delivery man insists on coming inside. He says it is a surprise. You hate surprises.",
     "choices": {
       "A": "Turn him away",
-      "B": "Check and control him",
+      "B": "Control him and check everything",
       "C": "Let him in under guard"
     }
   },
@@ -2382,12 +2381,12 @@
     "choices": {
       "A": "Crush the rumor",
       "B": "Turn it into a joke",
-      "C": "Scare the mockers"
+      "C": "Frighten the mockers"
     }
   },
   "vampire_266": {
     "title": "The Sewer Map",
-    "body": "A sewer map is circulating. It shows access points to your lair. Someone snooped around.",
+    "body": "A sewer map is circulating. It shows access points to your lair. Someone has been snooping.",
     "choices": {
       "A": "Change the access points",
       "B": "Trap the passages",
@@ -2395,17 +2394,17 @@
     }
   },
   "vampire_267": {
-    "title": "The Fight Over Shares",
-    "body": "The clan is fighting over blood distribution. It feels like a condo board meeting.",
+    "title": "The Share Dispute",
+    "body": "The clan is arguing over blood distribution. It feels like a homeowners' meeting.",
     "choices": {
       "A": "Set a fixed distribution",
       "B": "Distribute by merit",
-      "C": "Let chaos decide"
+      "C": "Let chaos do the job"
     }
   },
   "vampire_268": {
-    "title": "The Secret Wants a Slogan",
-    "body": "The secret wants an official slogan. They suggest Long Live the Night. It lacks subtlety.",
+    "title": "The Clan Wants a Slogan",
+    "body": "The clan wants an official slogan. They propose Long Live the Night. It lacks subtlety.",
     "choices": {
       "A": "Choose a discreet slogan",
       "B": "Ban slogans",
@@ -2414,7 +2413,7 @@
   },
   "vampire_269": {
     "title": "The Parking Guard",
-    "body": "A guard watches too well. He knows the plates. He knows the schedules. He knows too much.",
+    "body": "A guard is watching the parking lot too closely. He already knows the plates and the schedules.",
     "choices": {
       "A": "Bribe him",
       "B": "Replace him",
@@ -2423,11 +2422,11 @@
   },
   "vampire_270": {
     "title": "The Great Cold Arrives",
-    "body": "The cold is coming. The streets are emptying. Hunting is getting harder. The hunters stay.",
+    "body": "The cold is coming. The streets empty out. Hunting gets harder. The hunters, however, remain.",
     "choices": {
       "A": "Ration and endure",
       "B": "Hunt farther away",
-      "C": "Negotiate with the secret"
+      "C": "Negotiate discreetly"
     }
   },
   "vampire_271": {
@@ -2441,16 +2440,16 @@
   },
   "vampire_272": {
     "title": "The Anti-Secret Group",
-    "body": "A human group is fighting against the secret. They put up flyers. They are looking for a leader.",
+    "body": "A human group wants to expose everything hidden in the city. They are posting flyers and looking for a spokesperson.",
     "choices": {
       "A": "Break up the group",
       "B": "Infiltrate the group",
-      "C": "Move the secret"
+      "C": "Move the lair"
     }
   },
   "vampire_273": {
-    "title": "The Secret's Backup Plan",
-    "body": "The secret has a backup plan in case you die. Very thoughtful. Very insulting.",
+    "title": "The Clan's Backup Plan",
+    "body": "The clan has a backup plan in case you die. Very thoughtful. Very insulting.",
     "choices": {
       "A": "Punish the idea",
       "B": "Supervise and correct it",
@@ -2459,34 +2458,34 @@
   },
   "vampire_274": {
     "title": "The Private Investigation",
-    "body": "A private detective is digging around your neighborhood. He is not afraid. That is new.",
+    "body": "A private detective is snooping around your neighborhood. He is not afraid. That is new.",
     "choices": {
-      "A": "Pull him away from the case",
+      "A": "Lead him away from the case",
       "B": "Recruit him",
       "C": "Neutralize him"
     }
   },
   "vampire_275": {
     "title": "The Final Pact of the Evening",
-    "body": "The clan wants clear direction. The secret wants a sign. The hunters want your address.",
+    "body": "The clan wants clear direction. The clan wants a sign. The hunters want your address.",
     "choices": {
-      "A": "Reinforce the territory",
+      "A": "Strengthen the territory",
       "B": "Negotiate temporary calm",
       "C": "Prepare an organized escape"
     }
   },
   "vampire_276": {
     "title": "The Night Florist",
-    "body": "A florist opens at night below your lair. He sees too many pale faces.",
+    "body": "A florist opens at night beneath your lair. He sees too many pale faces.",
     "choices": {
       "A": "Charm him discreetly",
-      "B": "Change exits",
+      "B": "Change your exit route",
       "C": "Buy his shop"
     }
   },
   "vampire_277": {
     "title": "The Fridge Message",
-    "body": "The blood stock fridge plays a strange message. The clan swears it is talking to you.",
+    "body": "The stock fridge plays a strange message. The clan swears it is speaking to you.",
     "choices": {
       "A": "Open it alone",
       "B": "Bring in an elder",
@@ -2495,45 +2494,45 @@
   },
   "vampire_278": {
     "title": "The Moon on Sale",
-    "body": "A brand is selling a drink called Full Moon. The secret already loves it.",
+    "body": "A brand is selling a drink called Full Moon. The clan already loves it.",
     "choices": {
       "A": "Sponsor the trend",
-      "B": "Stay away from it",
+      "B": "Stay far away",
       "C": "Infiltrate the campaign"
     }
   },
   "vampire_279": {
     "title": "The Broken Fang",
-    "body": "A vampire from the clan breaks a fang during a hunt. He screams louder than his prey.",
+    "body": "A clan vampire breaks a fang while hunting. He screams louder than his prey.",
     "choices": {
-      "A": "Pay for a specialist",
+      "A": "Pay a specialist",
       "B": "Impose calm",
-      "C": "Laugh about it in front of everyone"
+      "C": "Laugh at him in front of everyone"
     }
   },
   "vampire_280": {
     "title": "The Forgotten Tunnel",
-    "body": "An old tunnel connects your lair to a hotel cellar. Tempting and unsettling.",
+    "body": "An old tunnel links your lair to a hotel cellar. Tempting and unsettling.",
     "choices": {
       "A": "Explore it tonight",
-      "B": "Wall it off",
+      "B": "Wall it up",
       "C": "Send a rival"
     }
   },
   "vampire_281": {
-    "title": "The Loyal Delivery Man",
-    "body": "A night delivery man never asks questions. That is exactly why it is suspicious.",
+    "title": "The Faithful Delivery Man",
+    "body": "A night delivery man never asks questions. That alone is suspicious.",
     "choices": {
       "A": "Test him",
       "B": "Recruit him",
-      "C": "Cut off the service"
+      "C": "Cut the service"
     }
   },
   "vampire_282": {
     "title": "The Damp Basement",
     "body": "The basement of the lair drips everywhere. Even the coffins are starting to complain.",
     "choices": {
-      "A": "Fix it quickly",
+      "A": "Repair it quickly",
       "B": "Move the stock",
       "C": "Blame the clan"
     }
@@ -2552,22 +2551,22 @@
     "body": "An elder wants a private ball. The clan wants to dance. You want to survive.",
     "choices": {
       "A": "Allow it with rules",
-      "B": "Refuse flat out",
+      "B": "Refuse outright",
       "C": "Move it elsewhere"
     }
   },
   "vampire_285": {
     "title": "The Rooftop Drone",
-    "body": "A drone circles above the lair every night. It smells like paid curiosity.",
+    "body": "A drone circles above the lair every night.",
     "choices": {
       "A": "Hack it",
-      "B": "Take it down",
+      "B": "Make it fall",
       "C": "Track the owner"
     }
   },
   "vampire_286": {
     "title": "The Living Portrait",
-    "body": "An old portrait changes expression when you walk past it.",
+    "body": "An old portrait changes expression whenever you walk past it.",
     "choices": {
       "A": "Cover it up",
       "B": "Have it studied",
@@ -2575,17 +2574,17 @@
     }
   },
   "vampire_287": {
-    "title": "The Cellar Strike",
-    "body": "The stock guards refuse to move without more blood.",
+    "title": "The Striking Cellar",
+    "body": "The stock guardians refuse to move without more blood.",
     "choices": {
       "A": "Give in a little",
-      "B": "Replace the guards",
+      "B": "Replace the guardians",
       "C": "Make an example of one"
     }
   },
   "vampire_288": {
     "title": "The Priest in Stories",
-    "body": "A priest posts videos every night about the evil roaming near you.",
+    "body": "A priest posts videos every night about the evil lurking near you.",
     "choices": {
       "A": "Ridicule him",
       "B": "Watch him",
@@ -2597,40 +2596,40 @@
     "body": "A private club wants to rent you a secret room. The price is strange.",
     "choices": {
       "A": "Accept the offer",
-      "B": "Negotiate a better deal",
+      "B": "Negotiate better terms",
       "C": "Refuse and investigate"
     }
   },
   "vampire_290": {
-    "title": "The Novice Who's Too Stylish",
+    "title": "The Novice Too Stylish",
     "body": "A novice arrives in a white suit. Very handsome. Very noticeable. Very annoying.",
     "choices": {
-      "A": "Straighten him out fast",
+      "A": "Put him in line quickly",
       "B": "Hand him over to the clan",
       "C": "Hide him"
     }
   },
   "vampire_291": {
     "title": "The Black Market",
-    "body": "A market sells anti-vampire items and souvenirs from your neighborhood.",
+    "body": "A market is selling anti-vampire items and souvenirs from your neighborhood.",
     "choices": {
-      "A": "Buy out the stalls",
+      "A": "Buy up the stalls",
       "B": "Shut it down",
-      "C": "Watch it silently"
+      "C": "Observe it in silence"
     }
   },
   "vampire_292": {
-    "title": "Ash Over the City",
+    "title": "The Ash Over the City",
     "body": "A fine ash falls over the city. The clan sees it as a sign.",
     "choices": {
       "A": "Calm the rumors",
-      "B": "Look for the source",
+      "B": "Find the source",
       "C": "Exploit the symbol"
     }
   },
   "vampire_293": {
     "title": "The Talkative Waiter",
-    "body": "A waiter knows your night habits a little too well. He smiles when you lie.",
+    "body": "A waiter notices your habits too well. He could end up recognizing you.",
     "choices": {
       "A": "Pay him",
       "B": "Recruit him",
@@ -2639,7 +2638,7 @@
   },
   "vampire_294": {
     "title": "The Closed Museum",
-    "body": "A museum closes for renovation. A blood relic sleeps there without guards.",
+    "body": "A museum closes for renovation. A blood relic lies inside without guards.",
     "choices": {
       "A": "Steal it",
       "B": "Wait a little longer",
@@ -2647,17 +2646,17 @@
     }
   },
   "vampire_295": {
-    "title": "The Stuck Coffin",
+    "title": "The Jammed Coffin",
     "body": "Your coffin refuses to close. Luxury has its limits.",
     "choices": {
       "A": "Repair it discreetly",
-      "B": "Switch models",
-      "C": "Sleep somewhere else"
+      "B": "Switch to a new model",
+      "C": "Sleep elsewhere"
     }
   },
   "vampire_296": {
     "title": "The Staring Dog",
-    "body": "The neighbor's dog growls every time you step out. It figured something out.",
+    "body": "The neighbor's dog growls every time you step outside. It has figured something out.",
     "choices": {
       "A": "Avoid the area",
       "B": "Tame the dog",
@@ -2665,17 +2664,17 @@
     }
   },
   "vampire_297": {
-    "title": "The Secret Lottery",
-    "body": "The secret is organizing a lottery to fund your nights. The idea is awful and profitable.",
+    "title": "The Clan Lottery",
+    "body": "The clan organizes a lottery to fund your nights. The idea is dreadful and profitable.",
     "choices": {
       "A": "Supervise the game",
       "B": "Ban the embarrassment",
-      "C": "Take the cash box"
+      "C": "Take the cashbox"
     }
   },
   "vampire_298": {
-    "title": "The Taxi Without Reflection",
-    "body": "A driver shows a photo from his rearview mirror. You are not in it.",
+    "title": "The Taxi Without a Reflection",
+    "body": "A driver shows a photo from the rearview mirror. You are not in it.",
     "choices": {
       "A": "Buy the photo",
       "B": "Threaten him politely",
@@ -2683,29 +2682,29 @@
     }
   },
   "vampire_299": {
-    "title": "Solar Perfume",
+    "title": "The Solar Perfume",
     "body": "A perfume promises the scent of sunlight. The clan wants to test it. Bad idea.",
     "choices": {
       "A": "Ban the product",
-      "B": "Try it on a rival",
+      "B": "Test it on a rival",
       "C": "Resell it"
     }
   },
   "vampire_300": {
-    "title": "The Rented Crypt",
-    "body": "Your old crypt is listed for rent online.",
+    "title": "The Crypt for Rent",
+    "body": "Your old crypt is being listed for rent on the internet.",
     "choices": {
-      "A": "Delete the listing",
+      "A": "Remove the listing",
       "B": "Trap the visitors",
       "C": "Buy the place back"
     }
   },
   "vampire_301": {
-    "title": "The Violin on the Platform",
+    "title": "The Violin by the Quay",
     "body": "A musician plays every night beneath your windows. The clan is getting sentimental.",
     "choices": {
       "A": "Make him leave",
-      "B": "Listen a little longer",
+      "B": "Keep listening",
       "C": "Recruit him"
     }
   },
@@ -2724,7 +2723,7 @@
     "choices": {
       "A": "Sabotage the decor",
       "B": "Avoid the club",
-      "C": "Send a double"
+      "C": "Send a lookalike"
     }
   },
   "vampire_304": {
@@ -2738,29 +2737,29 @@
   },
   "vampire_305": {
     "title": "The Night Pastor",
-    "body": "A pastor comes to bless the streets after midnight. His timing annoys you deeply.",
+    "body": "A pastor comes to bless the streets after midnight. His timing irritates you deeply.",
     "choices": {
-      "A": "Pull him away",
-      "B": "Track his route",
+      "A": "Lead him away",
+      "B": "Watch his route",
       "C": "Discredit him"
     }
   },
   "vampire_306": {
     "title": "The Velvet Lounge",
-    "body": "A secret lounge welcomes people curious about the supernatural. Your name is already circulating there.",
+    "body": "A discreet lounge welcomes people curious about the supernatural. Your name is already circulating there.",
     "choices": {
-      "A": "Infiltrate it through someone close",
+      "A": "Send someone close to infiltrate it",
       "B": "Shut the place down",
       "C": "Use it to spread lies"
     }
   },
   "vampire_307": {
-    "title": "The Harbor Chill",
+    "title": "The Shiver of the Harbor",
     "body": "Crates arrive at the harbor at night. The smell of blood drifts all the way to you.",
     "choices": {
       "A": "Intercept the cargo",
       "B": "Watch without moving",
-      "C": "Buy the dockworkers"
+      "C": "Buy off the dockworkers"
     }
   },
   "vampire_308": {
@@ -2773,8 +2772,8 @@
     }
   },
   "vampire_309": {
-    "title": "The Human Chef",
-    "body": "A chef wants to make dishes for vampires. It is ridiculous and intriguing.",
+    "title": "The Human Cook",
+    "body": "A cook wants to make dishes for vampires. It is ridiculous and intriguing.",
     "choices": {
       "A": "Test him",
       "B": "Pay him to stay quiet",
@@ -2782,8 +2781,8 @@
     }
   },
   "vampire_310": {
-    "title": "The Shadowless Room",
-    "body": "One room in the lair has no shadows anymore. The secret finds it magnificent.",
+    "title": "The Room Without Shadows",
+    "body": "A room in the lair has lost its shadows. The clan thinks it is magnificent.",
     "choices": {
       "A": "Close the room",
       "B": "Study it",
@@ -2791,8 +2790,8 @@
     }
   },
   "vampire_311": {
-    "title": "The Overly Calm Security Guard",
-    "body": "The parking lot guard greets you by your first name. You never gave it to him.",
+    "title": "The Guard Too Calm",
+    "body": "The parking guard greets you by your first name. You never gave it to him.",
     "choices": {
       "A": "Question him",
       "B": "Change parking lots",
@@ -2810,7 +2809,7 @@
   },
   "vampire_313": {
     "title": "The Heated Tunnel",
-    "body": "A secret tunnel is getting too warm. Someone is digging near your walls.",
+    "body": "A discreet tunnel grows too warm. Someone is digging near your walls.",
     "choices": {
       "A": "Trap the area",
       "B": "Seal the access",
@@ -2819,7 +2818,7 @@
   },
   "vampire_314": {
     "title": "The Red Sommelier",
-    "body": "A sommelier offers a special list for immortals. Refined and dangerous.",
+    "body": "A sommelier offers a special menu for immortals. Refined and dangerous.",
     "choices": {
       "A": "Sign a deal",
       "B": "Test it in secret",
@@ -2828,43 +2827,43 @@
   },
   "vampire_315": {
     "title": "The Neighbors' Night",
-    "body": "The neighbors are throwing a street party. Lots of light. Way too much.",
+    "body": "The neighbors organize a street party. Too much light. Far too much.",
     "choices": {
       "A": "Sabotage the electricity",
-      "B": "Endure one night",
+      "B": "Endure it for one night",
       "C": "Move the clan"
     }
   },
   "vampire_316": {
     "title": "The Cracked Balcony",
-    "body": "The lair's balcony is crumbling. Falling from there would be very public.",
+    "body": "The balcony of the lair is crumbling. Falling from there would be extremely public.",
     "choices": {
       "A": "Repair it before dawn",
-      "B": "Seal off the access",
-      "C": "Make the clan do the work"
+      "B": "Seal off access",
+      "C": "Make the clan work on it"
     }
   },
   "vampire_317": {
     "title": "The Pale Notary",
-    "body": "A notary already seems to know too much about your assets and your nights.",
+    "body": "A notary already seems to know far too much about your property and your nights.",
     "choices": {
       "A": "Charm him",
       "B": "Watch him",
-      "C": "Change identity"
+      "C": "Change identities"
     }
   },
   "vampire_318": {
     "title": "The Biting Graffiti",
-    "body": "Your symbol appears on several walls. The secret is already applauding.",
+    "body": "Your symbol appears on several walls. The clan is already applauding.",
     "choices": {
       "A": "Erase it everywhere",
       "B": "Claim it",
-      "C": "Find the artist"
+      "C": "Find the author"
     }
   },
   "vampire_319": {
-    "title": "The Piano in the Hall",
-    "body": "A piano starts playing by itself in the hall. Very classy. Very bad sign.",
+    "title": "The Hall Piano",
+    "body": "A piano starts playing by itself in the hall. Very elegant. Very bad sign.",
     "choices": {
       "A": "Cut the sound",
       "B": "Bring in an elder",
@@ -2873,10 +2872,10 @@
   },
   "vampire_320": {
     "title": "The Cellar Contract",
-    "body": "A restaurant owner wants to rent your cellar without knowing who sleeps above it.",
+    "body": "A restaurateur wants to rent your cellar without knowing who sleeps above it.",
     "choices": {
       "A": "Accept with rules",
-      "B": "Refuse flat out",
+      "B": "Refuse outright",
       "C": "Raise the price"
     }
   },
@@ -2891,7 +2890,7 @@
   },
   "vampire_322": {
     "title": "The Nervous Bouncer",
-    "body": "A club bouncer recognizes several members of the clan. He starts taking notes.",
+    "body": "A club bouncer recognizes several clan members. He is starting to take notes.",
     "choices": {
       "A": "Pay him",
       "B": "Recruit him",
@@ -2900,16 +2899,16 @@
   },
   "vampire_323": {
     "title": "The Rooftop Greenhouse",
-    "body": "A greenhouse is growing on the next roof. Too much light. Too many eyes upstairs.",
+    "body": "A greenhouse is rising on the neighboring roof. Too much light. Too many eyes up high.",
     "choices": {
       "A": "Sabotage the greenhouse",
-      "B": "Buy the rooftop",
-      "C": "Change your exit"
+      "B": "Buy the roof",
+      "C": "Change your exit route"
     }
   },
   "vampire_324": {
     "title": "The Discreet Tailor",
-    "body": "A tailor knows how to hide your hunting clothes. Useful or suspicious.",
+    "body": "A tailor knows how to hide your hunting clothes. Useful, or suspicious.",
     "choices": {
       "A": "Keep him close",
       "B": "Test his loyalty",
@@ -2922,21 +2921,21 @@
     "choices": {
       "A": "Dig a detour",
       "B": "Wait for it to reopen",
-      "C": "Use the street"
+      "C": "Take the street"
     }
   },
   "vampire_326": {
-    "title": "The Unstamped Letter",
+    "title": "The Letter Without a Stamp",
     "body": "A letter arrives without a stamp and without a trace. It mentions your first name.",
     "choices": {
       "A": "Reply",
       "B": "Burn it",
-      "C": "Look for the messenger"
+      "C": "Find the messenger"
     }
   },
   "vampire_327": {
-    "title": "The Sickroom Keeper",
-    "body": "A human offers to feed the weakest members of the clan. He smiles too well.",
+    "title": "The Caretaker Guard",
+    "body": "A human offers to take care of the weakest members of the clan. He seems far too comfortable to be reassuring.",
     "choices": {
       "A": "Accept under supervision",
       "B": "Refuse",
@@ -2945,7 +2944,7 @@
   },
   "vampire_328": {
     "title": "The Tattoo Parlor",
-    "body": "A tattoo artist is copying vampire symbols. The secret is already lining up.",
+    "body": "A tattoo artist is copying vampiric symbols. The clan is already lining up.",
     "choices": {
       "A": "Shut the parlor down",
       "B": "Limit it",
@@ -2953,8 +2952,8 @@
     }
   },
   "vampire_329": {
-    "title": "Fire Under the Door",
-    "body": "A glow slips under the crypt door. Inside, nobody moves.",
+    "title": "The Fire Under the Door",
+    "body": "A glow slips beneath the crypt door. Inside, nobody moves.",
     "choices": {
       "A": "Open it quickly",
       "B": "Stay cautious",
@@ -2962,8 +2961,8 @@
     }
   },
   "vampire_330": {
-    "title": "The Clan's Physical Therapist",
-    "body": "The clan discovers the aches of immortality. It is pathetic but real.",
+    "title": "The Clan Physical Therapist",
+    "body": "The clan discovers the aches of immortality. Pitiful, but real.",
     "choices": {
       "A": "Help discreetly",
       "B": "Mock them a little",
@@ -2972,7 +2971,7 @@
   },
   "vampire_331": {
     "title": "The Filmed Terrace",
-    "body": "A terrace unknowingly records you every night. The angles are terrible.",
+    "body": "A terrace unintentionally records you every night. The angles are awful.",
     "choices": {
       "A": "Buy the footage",
       "B": "Sabotage the camera",
@@ -2980,17 +2979,17 @@
     }
   },
   "vampire_332": {
-    "title": "The Basement Sermon",
-    "body": "A human group gathers in a basement to hunt shadows.",
+    "title": "The Sermon in the Cellar",
+    "body": "A human group gathers in a cellar to hunt shadows.",
     "choices": {
       "A": "Spy on them",
-      "B": "Have the basement shut down",
+      "B": "Shut the cellar down",
       "C": "Send them on a false trail"
     }
   },
   "vampire_333": {
     "title": "The Missing Coat",
-    "body": "Your old coat disappears from the wardrobe. Without it, you lose more than style.",
+    "body": "Your old coat disappears from the cloakroom. Without it, you lose more than style.",
     "choices": {
       "A": "Search everything",
       "B": "Offer a reward",
@@ -2998,7 +2997,7 @@
     }
   },
   "vampire_334": {
-    "title": "The Smiling Concierge",
+    "title": "The Concierge Smiles",
     "body": "The concierge tells you good night before you even open the door.",
     "choices": {
       "A": "Question him",
@@ -3017,25 +3016,25 @@
   },
   "vampire_336": {
     "title": "The Grand Inventory",
-    "body": "The stock no longer matches the books. Someone is drinking off quota.",
+    "body": "The stock no longer matches the records. Someone is drinking beyond their quota.",
     "choices": {
       "A": "Count everything",
       "B": "Set a trap",
-      "C": "Reduce the shares"
+      "C": "Reduce everyone's share"
     }
   },
   "vampire_337": {
     "title": "The Pirate Radio",
-    "body": "A radio station is reading the names of hunters. Yours is not far down the list.",
+    "body": "A radio station reads out hunters' names. Yours is not far down the list.",
     "choices": {
-      "A": "Shut down the broadcast",
+      "A": "Cut the antenna",
       "B": "Keep listening",
       "C": "Turn the host"
     }
   },
   "vampire_338": {
     "title": "The Night Mailman",
-    "body": "A mailman has been delivering after midnight for three nights. He does not look human.",
+    "body": "A mailman delivers after midnight for the third night in a row. He does not look human.",
     "choices": {
       "A": "Follow him",
       "B": "Recruit him",
@@ -3043,11 +3042,11 @@
     }
   },
   "vampire_339": {
-    "title": "The Black Display Window",
-    "body": "A nearby display window turns opaque at night. Someone is hiding something.",
+    "title": "The Black Window Display",
+    "body": "A neighboring shop window turns opaque at night. Someone is hiding something.",
     "choices": {
       "A": "Spy on the place",
-      "B": "Go in through the back",
+      "B": "Get in through the back",
       "C": "Shut the business down"
     }
   },
@@ -3057,12 +3056,12 @@
     "choices": {
       "A": "Erase the trace",
       "B": "Set up surveillance",
-      "C": "Move to a new building"
+      "C": "Move to another building"
     }
   },
   "vampire_341": {
     "title": "The Incense Seller",
-    "body": "A seller perfumes the street every night. The clan coughs with dignity.",
+    "body": "A vendor perfumes the street every night. The smell bothers the clan and draws attention.",
     "choices": {
       "A": "Pay him to leave",
       "B": "Manipulate him",
@@ -3071,7 +3070,7 @@
   },
   "vampire_342": {
     "title": "The Living Attic",
-    "body": "The lair's attic seems to breathe at night. The clan refuses to go up there.",
+    "body": "The attic of the lair makes strange noises at night. The clan refuses to go up there.",
     "choices": {
       "A": "Go up alone",
       "B": "Send in an elder",
@@ -3079,8 +3078,8 @@
     }
   },
   "vampire_343": {
-    "title": "The Secret's Logo",
-    "body": "The secret offers you a real logo. You are not sure you like progress.",
+    "title": "The Clan Logo",
+    "body": "The clan proposes a real logo. You are not sure you like progress.",
     "choices": {
       "A": "Approve a discreet sign",
       "B": "Refuse everything",
@@ -3091,14 +3090,14 @@
     "title": "The Dawn Bus",
     "body": "A bus passes too close to the lair. Its windows reflect everything.",
     "choices": {
-      "A": "Change its route",
+      "A": "Change the route",
       "B": "Negotiate the schedule",
       "C": "Create a detour"
     }
   },
   "vampire_345": {
     "title": "The Jealous Mentor",
-    "body": "An elder resents your authority. He is already building his own little circle.",
+    "body": "An elder resents your authority. He is already building his own inner circle.",
     "choices": {
       "A": "Put him back in line",
       "B": "Flatter him",
@@ -3107,7 +3106,7 @@
   },
   "vampire_346": {
     "title": "The Night Garden",
-    "body": "A garden is growing at the foot of the lair. Too much traffic too early in the morning.",
+    "body": "A garden is growing at the foot of the lair. Too much foot traffic, too early in the morning.",
     "choices": {
       "A": "Sabotage the project",
       "B": "Buy it",
@@ -3116,34 +3115,34 @@
   },
   "vampire_347": {
     "title": "The Key Market",
-    "body": "Duplicate keys for the neighborhood are circulating. Bad news for your door.",
+    "body": "Duplicate keys to the neighborhood are circulating. Bad news for your door.",
     "choices": {
       "A": "Change the locks",
-      "B": "Track down the seller",
-      "C": "Trap the access points"
+      "B": "Find the seller",
+      "C": "Trap the entrances"
     }
   },
   "vampire_348": {
     "title": "The Mayor's Portrait",
-    "body": "The mayor wants to pose at night in your neighborhood. He likes cameras too much.",
+    "body": "The mayor wants to pose at night in your neighborhood. He loves cameras far too much.",
     "choices": {
-      "A": "Pull him somewhere else",
+      "A": "Lead him elsewhere",
       "B": "Use his visit",
       "C": "Sabotage the event"
     }
   },
   "vampire_349": {
     "title": "The New Streetlamp",
-    "body": "A bright white streetlamp lights up your entrance exactly. It feels personal.",
+    "body": "A white streetlamp shines directly on your entrance. It feels personal.",
     "choices": {
       "A": "Break it",
-      "B": "Ask for it to be removed",
-      "C": "Change entrances"
+      "B": "Request its removal",
+      "C": "Use another entrance"
     }
   },
   "vampire_350": {
     "title": "The Blood Chest",
-    "body": "A refrigerated chest arrives without an order. Inside, too much blood and no name.",
+    "body": "A refrigerated chest arrives without being ordered. Inside is too much blood and no name.",
     "choices": {
       "A": "Take the contents",
       "B": "Find the sender",
@@ -3151,8 +3150,8 @@
     }
   },
   "vampire_351": {
-    "title": "The Chamber of Chains",
-    "body": "A sealed room contains ancient chains still pulled tight.",
+    "title": "The Room of Chains",
+    "body": "A walled-up room contains old chains still pulled taut.",
     "choices": {
       "A": "Open it",
       "B": "Forget it",
@@ -3161,11 +3160,11 @@
   },
   "vampire_352": {
     "title": "The Sweating Waiter",
-    "body": "A bar waiter trembles when he sees you. He is going to talk eventually.",
+    "body": "A bar waiter trembles when he sees you. He will end up talking.",
     "choices": {
       "A": "Calm him down",
       "B": "Recruit him",
-      "C": "Stop coming back"
+      "C": "Stop going back"
     }
   },
   "vampire_353": {
@@ -3179,43 +3178,43 @@
   },
   "vampire_354": {
     "title": "The Golden Lounge",
-    "body": "The clan wants to redo the main room. Very chic. Very visible. Very expensive.",
+    "body": "The clan wants to redo the main hall. Very elegant. Very visible. Very expensive.",
     "choices": {
-      "A": "Accept, but keep it modest",
+      "A": "Accept it modestly",
       "B": "Refuse the expense",
-      "C": "Make the secret pay for it"
+      "C": "Make the clan pay"
     }
   },
   "vampire_355": {
     "title": "The Cellar Notary",
-    "body": "A shady notary offers to launder your inheritances. It reeks of a trap.",
+    "body": "A clandestine notary offers to launder your inheritances. It smells like a trap.",
     "choices": {
-      "A": "Try it",
-      "B": "Keep watch on him",
+      "A": "Take the chance",
+      "B": "Watch him",
       "C": "Cut contact"
     }
   },
   "vampire_356": {
     "title": "The Alley Under Construction",
-    "body": "Your favorite alley has been opened up by workers. Your habits are worthless now.",
+    "body": "Your favorite alley has been ripped open by workers. Your habits are now worthless.",
     "choices": {
-      "A": "Corrupt the worksite",
-      "B": "Change routes",
+      "A": "Bribe the work crew",
+      "B": "Change your route",
       "C": "Work at night"
     }
   },
   "vampire_357": {
     "title": "The Neighbor's Piano",
-    "body": "The neighbor plays at dawn and keeps you from sleeping. It is almost war.",
+    "body": "The neighbor plays at dawn and keeps you from sleeping. It is almost a war.",
     "choices": {
       "A": "Silence him",
-      "B": "Buy him out",
-      "C": "Reschedule your day"
+      "B": "Buy it from him",
+      "C": "Shift your daytime routine"
     }
   },
   "vampire_358": {
     "title": "The Debt Board",
-    "body": "Someone posts the clan's debts in the hall. The atmosphere gets delicious.",
+    "body": "Someone posts the clan's debts in the hall. The mood becomes delicious.",
     "choices": {
       "A": "Punish the culprit",
       "B": "Erase the board",
@@ -3226,23 +3225,23 @@
     "title": "The Glove Merchant",
     "body": "A merchant offers gloves that hide the coldness of your skin.",
     "choices": {
-      "A": "Buy many pairs",
+      "A": "Buy a lot of them",
       "B": "Test them on the clan",
       "C": "Recruit him"
     }
   },
   "vampire_360": {
     "title": "The Theater Cellar",
-    "body": "A theater cellar smells like fresh blood. Someone is performing there before you.",
+    "body": "The cellar of a theater smells like fresh blood. Someone is performing there before you.",
     "choices": {
-      "A": "Go down there alone",
+      "A": "Go down alone",
       "B": "Have the place watched",
-      "C": "Shut down the theater"
+      "C": "Shut the theater down"
     }
   },
   "vampire_361": {
     "title": "The Anonymous Account",
-    "body": "An online account is telling accurate details about your nights. Too accurate.",
+    "body": "An online account shares accurate details about your nights. Too accurate.",
     "choices": {
       "A": "Hack it",
       "B": "Ignore it",
@@ -3251,34 +3250,34 @@
   },
   "vampire_362": {
     "title": "The New Code",
-    "body": "The secret changes all its codes without telling you. Great stupid idea.",
+    "body": "The clan changes all its codes without warning you. A brilliant stupid idea.",
     "choices": {
-      "A": "Take control back",
-      "B": "Punish the ringleaders",
-      "C": "Let it slide for one night"
+      "A": "Take back control",
+      "B": "Punish the leaders",
+      "C": "Let it stand for one night"
     }
   },
   "vampire_363": {
     "title": "The Rose Market",
-    "body": "A rose market opens at night. Very pretty. Very full of witnesses.",
+    "body": "A rose market opens at night. Very beautiful. Very full of witnesses.",
     "choices": {
-      "A": "Move it",
+      "A": "Have it moved",
       "B": "Blend into it",
-      "C": "Cut the lights"
+      "C": "Have the lights cut"
     }
   },
   "vampire_364": {
     "title": "The Cold Corridor",
-    "body": "One corridor in the lair suddenly freezes over. Even the walls seem to be waiting.",
+    "body": "A corridor in the lair suddenly freezes. Even the walls seem to be waiting.",
     "choices": {
-      "A": "Explore to the end",
+      "A": "Explore deep inside",
       "B": "Close the passage",
-      "C": "Bring in an elder"
+      "C": "Call in an elder to fix it"
     }
   },
   "vampire_365": {
     "title": "The Mayor's Driver",
-    "body": "The mayor's driver recognizes you from an old photo. He is waiting for a price.",
+    "body": "The mayor's driver recognizes you from an old photo. He expects a price.",
     "choices": {
       "A": "Pay him",
       "B": "Make him lie",
@@ -3286,11 +3285,11 @@
     }
   },
   "vampire_366": {
-    "title": "The Cape Trend",
-    "body": "The secret brings back black capes. The hunters have never had this much work.",
+    "title": "The Cape Fashion",
+    "body": "The clan brings back the black cape. The hunters have never had so much work.",
     "choices": {
       "A": "Ban this circus",
-      "B": "Launch a toned-down version",
+      "B": "Launch a sober version",
       "C": "Use it as a decoy"
     }
   },
@@ -3298,14 +3297,14 @@
     "title": "The Blocked Well",
     "body": "An old well in the lair is blocked by something heavy.",
     "choices": {
-      "A": "Reopen it",
-      "B": "Seal it off",
+      "A": "Open it again",
+      "B": "Seal it",
       "C": "Listen first"
     }
   },
   "vampire_368": {
     "title": "The Curious Florist",
-    "body": "The florist is now selling white lilies to all your neighbors.",
+    "body": "The florist now sells white lilies to all your neighbors.",
     "choices": {
       "A": "Buy up his stock",
       "B": "Watch him",
@@ -3314,52 +3313,52 @@
   },
   "vampire_369": {
     "title": "The Rival's Debt",
-    "body": "A rival admits to a huge debt. The clan wants to see him fall.",
+    "body": "A rival admits to a crushing debt. The clan wants to see him fall.",
     "choices": {
-      "A": "Help him at a high price",
+      "A": "Help him at a price",
       "B": "Crush him",
       "C": "Buy his loyalty"
     }
   },
   "vampire_370": {
     "title": "The Police Tape",
-    "body": "Police tape blocks off a street useful to the clan. It smells like a wide trap.",
+    "body": "The police are blocking a street useful to the clan. It looks like a trap.",
     "choices": {
-      "A": "Go around the area",
-      "B": "Test the zone",
-      "C": "Create a fake incident"
+      "A": "Go around the sector",
+      "B": "Test the area",
+      "C": "Stage a false incident"
     }
   },
   "vampire_371": {
-    "title": "The Doorman's Trunk",
-    "body": "The doorman is hiding a trunk in his booth. Inside is your symbol.",
+    "title": "The Porter's Trunk",
+    "body": "The porter hides a trunk in his lodge. Inside is your symbol.",
     "choices": {
       "A": "Open it tonight",
       "B": "Keep watching",
-      "C": "Make the doorman talk"
+      "C": "Make the porter talk"
     }
   },
   "vampire_372": {
     "title": "The Silent Lounge",
-    "body": "One room in the lair swallows all sound. The secret wants to make it a temple.",
+    "body": "A room in the lair swallows every sound. The clan wants to make it a temple.",
     "choices": {
       "A": "Close the room",
       "B": "Study it seriously",
-      "C": "Offer it to the secret"
+      "C": "Reserve it for discreet business"
     }
   },
   "vampire_373": {
-    "title": "The Dawn Server",
-    "body": "A coffee shop opens earlier than expected right across from the lair.",
+    "title": "The Dawn Waiter",
+    "body": "A café opens earlier than expected directly across from the lair.",
     "choices": {
-      "A": "Buy the coffee shop",
-      "B": "Negotiate the hours",
-      "C": "Change exits"
+      "A": "Buy the café",
+      "B": "Negotiate the opening time",
+      "C": "Use another exit"
     }
   },
   "vampire_374": {
     "title": "The Black Letter",
-    "body": "A black-sealed letter announces your judgment. No name. No date.",
+    "body": "A letter sealed in black announces your judgment. No name. No date.",
     "choices": {
       "A": "Open it alone",
       "B": "Gather the clan",
@@ -3371,13 +3370,13 @@
     "body": "Laughter rises from a locked cellar. You recognize a voice that should be dead.",
     "choices": {
       "A": "Go down immediately",
-      "B": "Lock it tighter",
+      "B": "Lock it even tighter",
       "C": "Bring in an elder"
     }
   },
   "vampire_376": {
     "title": "The Wounded Florist",
-    "body": "The night florist returns with one arm in a sling. He saw something.",
+    "body": "The night florist returns with his arm in a sling. He saw something.",
     "choices": {
       "A": "Make him talk",
       "B": "Protect him",
@@ -3386,15 +3385,15 @@
   },
   "vampire_377": {
     "title": "The Neon Cellar",
-    "body": "A nearby cellar glows red neon every night. The clan is worried.",
+    "body": "A neighboring cellar glows red with neon every night. The clan is worried.",
     "choices": {
-      "A": "Go check it out",
-      "B": "Watch from afar",
+      "A": "Go see",
+      "B": "Watch from a distance",
       "C": "Cut the power"
     }
   },
   "vampire_378": {
-    "title": "The Subway Chest",
+    "title": "The Metro Chest",
     "body": "A forgotten chest rests beneath the closed platform. It bears an ancient date.",
     "choices": {
       "A": "Force it open",
@@ -3403,7 +3402,7 @@
     }
   },
   "vampire_379": {
-    "title": "The Hungry Novice",
+    "title": "The Starving Novice",
     "body": "A novice refuses to wait for the clan's rules. He wants to go out now.",
     "choices": {
       "A": "Hold him back",
@@ -3413,16 +3412,16 @@
   },
   "vampire_380": {
     "title": "The Discreet Plumber",
-    "body": "A plumber knows your underground levels a little too well. He works without asking questions.",
+    "body": "A plumber already knows the lair’s basement access points far too well. The more he works here, the more likely he is to understand what you are hiding.",
     "choices": {
       "A": "Pay him more",
       "B": "Recruit him",
-      "C": "Change crews"
+      "C": "Bring in a different company"
     }
   },
   "vampire_381": {
     "title": "The Priest in White",
-    "body": "A priest in white blesses one of the neighborhood doors. That is no coincidence.",
+    "body": "A priest in white blesses a door in the neighborhood. It is not random.",
     "choices": {
       "A": "Erase the blessing",
       "B": "Watch the priest",
@@ -3431,46 +3430,46 @@
   },
   "vampire_382": {
     "title": "The Alarm Failure",
-    "body": "The lair alarm shuts off by itself three times in one week.",
+    "body": "The lair's alarm shuts off on its own three times in one week.",
     "choices": {
       "A": "Take back the system",
       "B": "Post a guard",
-      "C": "Change entrances"
+      "C": "Change the access"
     }
   },
   "vampire_383": {
-    "title": "The Windowless Bar",
-    "body": "A bar without windows opens two blocks away. The secret already wants to go there.",
+    "title": "The Bar Without Windows",
+    "body": "A bar without windows opens two streets away. The clan already wants to go.",
     "choices": {
       "A": "Test the place",
       "B": "Keep an eye on it",
-      "C": "Ban the location"
+      "C": "Ban the place"
     }
   },
   "vampire_384": {
     "title": "The Mayor's File",
     "body": "A file on the mayor lands on your desk. It smells like a useful trap.",
     "choices": {
-      "A": "Use it fast",
+      "A": "Use it quickly",
       "B": "Verify it first",
       "C": "Sell it"
     }
   },
   "vampire_385": {
     "title": "The Collapsed Cellar",
-    "body": "A small cellar in the lair collapses. An old corridor appears underneath.",
+    "body": "A small cellar in the lair caves in. An old corridor reappears beneath it.",
     "choices": {
       "A": "Go down alone",
-      "B": "Block off the area",
-      "C": "Send the clan to search"
+      "B": "Block the area",
+      "C": "Have the clan search it"
     }
   },
   "vampire_386": {
     "title": "The Thursday Group",
-    "body": "A human group gathers every Thursday near your place. They whisper too much.",
+    "body": "A human group meets every Thursday near your place. They whisper too much.",
     "choices": {
       "A": "Infiltrate them",
-      "B": "Break them up",
+      "B": "Scatter them",
       "C": "Keep listening"
     }
   },
@@ -3480,15 +3479,15 @@
     "choices": {
       "A": "Put him in line",
       "B": "Pay him",
-      "C": "Stop seeing him"
+      "C": "Never see him again"
     }
   },
   "vampire_388": {
     "title": "The Found Phone",
-    "body": "A forgotten phone contains pictures of the lair and the street across from it.",
+    "body": "A forgotten phone contains photos of the lair and the street across from it.",
     "choices": {
       "A": "Destroy it",
-      "B": "Search through it",
+      "B": "Search it",
       "C": "Trap whoever comes back for it"
     }
   },
@@ -3498,7 +3497,7 @@
     "choices": {
       "A": "Receive him",
       "B": "Keep him at a distance",
-      "C": "Push him to choose a side"
+      "C": "Force him to choose"
     }
   },
   "vampire_390": {
@@ -3506,40 +3505,40 @@
     "body": "A corridor is covered in black water. No one knows where it came from.",
     "choices": {
       "A": "Follow the trail",
-      "B": "Pump it out fast",
-      "C": "Close off the area"
+      "B": "Pump it out quickly",
+      "C": "Seal off the area"
     }
   },
   "vampire_391": {
-    "title": "The Injured Bouncer",
-    "body": "The bouncer you paid comes back with a split lip. He spoke to someone.",
+    "title": "The Wounded Bouncer",
+    "body": "The bouncer you used to pay comes back with a split lip. He spoke to someone.",
     "choices": {
       "A": "Question him",
-      "B": "Patch him up",
+      "B": "Treat him",
       "C": "Replace him"
     }
   },
   "vampire_392": {
     "title": "The Morning Market",
-    "body": "A market sets up too early near the lair. Eyes arrive with the dawn.",
+    "body": "A market sets up too early near the lair. The looks arrive with dawn.",
     "choices": {
       "A": "Have it moved",
-      "B": "Buy some stalls",
-      "C": "Change exits"
+      "B": "Buy a few stalls",
+      "C": "Use another exit"
     }
   },
   "vampire_393": {
     "title": "The Rooftop Watcher",
-    "body": "Someone climbs onto the next roof every night with binoculars.",
+    "body": "Someone climbs onto the neighboring roof every night with binoculars.",
     "choices": {
-      "A": "Follow him",
-      "B": "Drive him away",
+      "A": "Follow them",
+      "B": "Drive them away",
       "C": "Create a decoy"
     }
   },
   "vampire_394": {
     "title": "The Melted Lock",
-    "body": "The lock on a forbidden room has melted from the inside.",
+    "body": "The lock of a forbidden room has melted from the inside.",
     "choices": {
       "A": "Go in now",
       "B": "Bring in an elder",
@@ -3547,17 +3546,17 @@
     }
   },
   "vampire_395": {
-    "title": "The Neighbor Who's Too Polite",
-    "body": "A neighbor holds the door for you with a smile that is far too calm. He was waiting for you.",
+    "title": "The Neighbor Too Polite",
+    "body": "A neighbor holds the door for you with a smile far too calm. He was waiting for you.",
     "choices": {
       "A": "Charm him",
-      "B": "Avoid him after that",
+      "B": "Avoid him afterward",
       "C": "Watch him"
     }
   },
   "vampire_396": {
     "title": "The Harbor Tunnel",
-    "body": "A passage runs from the harbor up toward your neighborhood. It is recent.",
+    "body": "A passage runs from the harbor toward your neighborhood. It is recent.",
     "choices": {
       "A": "Visit it",
       "B": "Trap it",
@@ -3575,11 +3574,11 @@
   },
   "vampire_398": {
     "title": "The Nameless Box",
-    "body": "A heavy box arrives without a name. Inside, something scratches softly.",
+    "body": "A heavy box arrives without a name. Something inside scratches softly.",
     "choices": {
       "A": "Open it",
       "B": "Throw it far away",
-      "C": "Keep it shut"
+      "C": "Keep it closed"
     }
   },
   "vampire_399": {
@@ -3593,11 +3592,11 @@
   },
   "vampire_400": {
     "title": "The Dawn Pact",
-    "body": "The clan wants a promise. The secret wants a sign. Dawn is already getting close.",
+    "body": "Part of the clan wants a promise. The hunters want a sign. Dawn is already near.",
     "choices": {
       "A": "Choose the clan",
-      "B": "Choose the secret",
-      "C": "Choose escape"
+      "B": "Choose the hunters",
+      "C": "Choose to flee"
     }
   }
 }
