@@ -454,7 +454,9 @@
         window.__VR_PREVIEW_MODE = preview;
 
         if (!preview) {
-          try { await window.bootstrapAuthAndProfile?.(); } catch (_) {}
+          setTimeout(() => {
+            try { window.bootstrapAuthAndProfile?.({ skipProfileFetch: true }); } catch (_) {}
+          }, 0);
           try {
             const raw =
               localStorage.getItem("vuniverse_user_data") ||
