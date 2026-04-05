@@ -108,9 +108,11 @@
     return null;
   }
 
-  async function runBootstrap() {
+  async function runBootstrap(options = {}) {
     const sb = initClient();
     if (!sb) return null;
+
+    const fetchRemoteProfile = !!options.fetchProfile && !options.skipProfileFetch;
 
     await waitInitialSession(sb);
 
@@ -127,14 +129,18 @@
 
     _lastBootstrapUid = uid;
 
-    const prof = await fetchProfile(sb);
-    if (prof && typeof prof === "object") return prof;
+    if (fetchRemoteProfile) {
+      const prof = await fetchProfile(sb);
+      if (prof && typeof prof === "object") return prof;
+    }
 
     return { id: uid };
   }
 
   async function bootstrapAuthAndProfile(options = {}) {
     const force = !!options.force;
+    const fetchProfile = !!options.fetchProfile;
+    const skipProfileFetch = !!options.skipProfileFetch;
 
     if (force) {
       _bootstrapPromise = null;
@@ -147,7 +153,7 @@
 
     _bootstrapPromise = (async () => {
       try {
-        return await runBootstrap();
+        return await runBootstrap({ fetchProfile, skipProfileFetch });
       } finally {
         _bootstrapPromise = null;
       }
