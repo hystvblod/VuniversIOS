@@ -1943,7 +1943,9 @@
       }
 
       (async function boot() {
-        try { await window.bootstrapAuthAndProfile?.(); } catch (_) {}
+        setTimeout(() => {
+          try { window.bootstrapAuthAndProfile?.({ skipProfileFetch: true }); } catch (_) {}
+        }, 0);
 
         try {
           window.__vrIndexInitPromise = window.__vrIndexInitPromise || window.VUserData?.init?.() || null;
@@ -2194,8 +2196,15 @@
       } catch (_) {}
 
       try {
-        const boot = await window.bootstrapAuthAndProfile?.();
-        if (boot?.id) return String(boot.id);
+        const s = await window.sb?.auth?.getSession?.();
+        const uid = s?.data?.session?.user?.id || null;
+        if (uid) return String(uid);
+      } catch (_) {}
+
+      try {
+        const u = await window.sb?.auth?.getUser?.();
+        const uid = u?.data?.user?.id || null;
+        if (uid) return String(uid);
       } catch (_) {}
 
       return null;
@@ -2353,7 +2362,9 @@
       if (vrAdminPopupBooted) return;
       vrAdminPopupBooted = true;
 
-      try { await window.bootstrapAuthAndProfile?.(); } catch (_) {}
+      setTimeout(() => {
+        try { window.bootstrapAuthAndProfile?.({ skipProfileFetch: true }); } catch (_) {}
+      }, 0);
       try {
         window.__vrIndexInitPromise = window.__vrIndexInitPromise || window.VUserData?.init?.() || null;
         await window.__vrIndexInitPromise;
