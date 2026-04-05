@@ -49,6 +49,8 @@
   let _ensureAuthPromise = null;
   let _ensureAuthUid = null;
   let _ensureAuthUidTs = 0;
+  let _initPromise = null;
+  let _backgroundRefreshPromise = null;
 
   function _isDebug() {
     try { return !!window.__VR_DEBUG; } catch (_) { return false; }
@@ -742,25 +744,50 @@ async _getUid() {
   };
 
   const VUserData = {
+    refreshInBackground() {
+      if (_backgroundRefreshPromise) return _backgroundRefreshPromise;
+
+      const self = this;
+      _backgroundRefreshPromise = (async () => {
+        try {
+          await self.refresh().catch((e) => {
+            _reportRemoteError("VUserData.refreshInBackground.refresh", e);
+            return false;
+          });
+          return true;
+        } finally {
+          _backgroundRefreshPromise = null;
+        }
+      })();
+
+      return _backgroundRefreshPromise;
+    },
+
     async init() {
-      const cached = _readLocal();
-      if (cached) {
-        this.save(cached, { silent: true });
-      } else {
-        this.save(this.load(), { silent: true });
-      }
+      if (_initPromise) return _initPromise;
 
-      if (window.VRRemoteStore?.enabled?.()) {
-        await this.refresh().catch((e) => {
-          _reportRemoteError("VUserData.init.refresh", e);
-          return false;
-        });
-      }
+      const self = this;
+      _initPromise = (async () => {
+        const cached = _readLocal();
+        if (cached) {
+          self.save(cached, { silent: true });
+        } else {
+          self.save(self.load(), { silent: true });
+        }
 
-      _uiPaused = false;
-      if (_pendingEmit) { _pendingEmit = false; _emitProfile(); }
+        _uiPaused = false;
+        if (_pendingEmit) { _pendingEmit = false; _emitProfile(); }
 
-      return true;
+        if (window.VRRemoteStore?.enabled?.()) {
+          setTimeout(() => {
+            try { self.refreshInBackground(); } catch (_) {}
+          }, 0);
+        }
+
+        return true;
+      })();
+
+      return _initPromise;
     },
 
     async refresh() {
