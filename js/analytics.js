@@ -159,9 +159,7 @@
     let lang = "";
 
     try {
-      const prof = await window.bootstrapAuthAndProfile?.();
-      uid = String(prof?.id || "").trim();
-      lang = String(prof?.lang || "").trim();
+      uid = String(window.VUserData?.getUserId?.() || "").trim();
     } catch (_) {}
 
     if (!uid) {
@@ -171,9 +169,14 @@
       } catch (_) {}
     }
 
+    try {
+      lang = String(window.VRI18n?.getLang?.() || "").trim();
+    } catch (_) {}
+
     if (!lang) {
       try {
-        lang = String(window.VRI18n?.getLang?.() || "").trim();
+        const local = window.VUserData?.load?.();
+        lang = String(local?.lang || "").trim();
       } catch (_) {}
     }
 
