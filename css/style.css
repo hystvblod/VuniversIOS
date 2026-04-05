@@ -1614,10 +1614,10 @@ body[data-universe="hell_king"].vr-body-game #view-game .vr-choice-label{
 body.vr-body-game[data-universe="hell_king"]{
   --vr-card-w: clamp(380px, 98vw, 980px);
 
-  --vr-scn-h: clamp(140px, 19svh, 300px);
+  --vr-scn-h: clamp(150px, 19.2svh, 320px);
   --vr-choice-h: clamp(88px, 13.2svh, 220px);
 
-  --vr-scn-inset-top: 12%;
+  --vr-scn-inset-top: 14%;
   --vr-scn-inset-right: 14%;
   --vr-scn-inset-bottom: 16%;
   --vr-scn-inset-left: 14%;
@@ -1890,7 +1890,7 @@ body.vr-body-game[data-universe="hell_king"] .vr-hud-years{
 
 body.vr-body-game[data-universe="hell_king"] #view-game .vr-card-main{
   overflow: hidden;
-  background-size: 90% 90% !important;
+  background-size: 100% 100% !important;
   background-position: center !important;
 }
 body.vr-body-game[data-universe="hell_king"] #view-game .vr-choice-button{
