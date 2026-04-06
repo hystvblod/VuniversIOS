@@ -1,0 +1,3602 @@
+﻿{
+  "hk_001": {
+    "title": "Massive Ankunft von Seelen",
+    "body": "Ein Krieg hat gerade ein sterbliches Königreich verwüstet. Tausende Seelen stehen vor den Toren deines Reiches.",
+    "choices": {
+      "A": "Öffne die Tore weit, wir nehmen alles.",
+      "B": "Filtere streng, nur die nützlichsten dürfen hinein.",
+      "C": "Schicke einen Teil zurück auf die Erde, damit das Chaos weitergeht."
+    }
+  },
+  "hk_002": {
+    "title": "Launen der Generäle",
+    "body": "Deine Generäle verlangen mehr Macht und das Recht, ihre eigenen Terrorkampagnen zu führen.",
+    "choices": {
+      "A": "Gib ihnen Legionen, auch wenn du dabei Kontrolle verlierst.",
+      "B": "Zieh die Kette straffer, alles muss durch dich gehen.",
+      "C": "Lass sie sich unter Aufsicht auf der Erde austoben."
+    }
+  },
+  "hk_003": {
+    "title": "Einfluss auf die Lebenden",
+    "body": "Eine hingebungsvolle Gruppe will deinen Einfluss auf der Erde verbreiten. Manche Dämonen fürchten, zu viel Aufmerksamkeit zu erregen.",
+    "choices": {
+      "A": "Fördere den Kult, Macht geht vor.",
+      "B": "Beschränke die Rituale auf abgelegene Orte.",
+      "C": "Löse diese hingebungsvolle Gruppe auf, bevor sie unkontrollierbar wird."
+    }
+  },
+  "hk_004": {
+    "title": "Stau an den Toren der Hölle",
+    "body": "Die Schlange der neuen Verdammten nimmt kein Ende. Beschwerden und Akten stapeln sich.",
+    "choices": {
+      "A": "Beschleunige die Sortierung, auch wenn sie weniger genau wird.",
+      "B": "Verschärfe die Verfahren, Ordnung geht vor.",
+      "C": "Übertrage die Sortierung einem ehrgeizigen Dämon."
+    }
+  },
+  "hk_005": {
+    "title": "Überlastetes höllisches Tribunal",
+    "body": "Die höllischen Richter kommen nicht mehr hinterher. Manche Seelen warten schon viel zu lange auf ihr Urteil.",
+    "choices": {
+      "A": "Verordne tägliche Urteilsquoten.",
+      "B": "Rekrutiere neue Richter unter den Verdammten.",
+      "C": "Verschiebe kleinere Fälle, gib den großen Verbrechern Vorrang."
+    }
+  },
+  "hk_006": {
+    "title": "Aufstand in einem Kreis",
+    "body": "In einem Kreis haben Verdammte Wächter entwaffnet und deren Werkzeuge gegen sie gerichtet.",
+    "choices": {
+      "A": "Zerschlage den Aufstand mit zusätzlichen Legionen.",
+      "B": "Verhandle über eine „Lockerung“ der Strafen im Tausch gegen Ruhe.",
+      "C": "Setze ein öffentliches Exempel, um die anderen Kreise zu terrorisieren."
+    }
+  },
+  "hk_007": {
+    "title": "Putschversuch",
+    "body": "Ein dämonischer Prinz sammelt Truppen und lässt durchblicken, dass er ein besserer König wäre.",
+    "choices": {
+      "A": "Lass ihn glauben, er habe deinen Segen, und schlag dann zu.",
+      "B": "Lade ihn offiziell ein und gib ihm eine streng überwachte Rolle.",
+      "C": "Ignoriere das Gerücht, deine Legionen reichen zur Abschreckung."
+    }
+  },
+  "hk_008": {
+    "title": "Vertrag mit einem sterblichen König",
+    "body": "Ein menschlicher König will einen Pakt schließen: Als Gegenleistung für deine Hilfe verspricht er dir seine Seele und die seiner Blutlinie.",
+    "choices": {
+      "A": "Nimm an und stärke deinen Einfluss auf der Erde.",
+      "B": "Mäßige den Pakt, weniger Seelen, aber dauerhafter.",
+      "C": "Lehne ab, so ein Pakt zieht zu viel Aufmerksamkeit von oben auf sich."
+    }
+  },
+  "hk_009": {
+    "title": "Inspektion eines Erzengels",
+    "body": "Ein Erzengel kommt, um dein Reich zu beobachten. Er sagt, er wolle prüfen, ob das „Gleichgewicht“ gewahrt bleibt.",
+    "choices": {
+      "A": "Verberge das Chaos und zeige eine disziplinierte Hölle.",
+      "B": "Zeige die Exzesse voller Stolz, es ist dein Reich.",
+      "C": "Führe ihn in einen Bereich, der eigens für ihn hergerichtet wurde."
+    }
+  },
+  "hk_010": {
+    "title": "Flucht von Seelen an die Oberfläche",
+    "body": "Ein Riss in einem alten Portal erlaubt einigen verdammten Seelen, wieder nach oben zu gelangen und die Lebenden heimzusuchen.",
+    "choices": {
+      "A": "Lass sie Angst säen, du holst sie später zurück.",
+      "B": "Versiegle das Portal, jede Seele muss an ihrem Platz bleiben.",
+      "C": "Mache aus dem Riss einen kontrollierten Durchgang."
+    }
+  },
+  "hk_011": {
+    "title": "Streik der Folterknechte",
+    "body": "Die Folterknechte verlangen bessere Ketten, stabile Flammen und klarere Regeln.",
+    "choices": {
+      "A": "Gib einigen Forderungen nach, um die Blockade zu vermeiden.",
+      "B": "Schlag den Streik nieder, niemand verhandelt mit dir.",
+      "C": "Ersetze die Folterknechte durch eifrige Verdammte."
+    }
+  },
+  "hk_012": {
+    "title": "Schwarzmarkt der Versprechen",
+    "body": "Ein geheimer Markt verkauft und tauscht Verdammungsversprechen zwischen Dämonen und Sterblichen.",
+    "choices": {
+      "A": "Legalisiere und besteuere diesen Markt.",
+      "B": "Zerstöre ihn, Verträge müssen unter deiner Kontrolle bleiben.",
+      "C": "Lass ihn bestehen, solange er diskret bleibt."
+    }
+  },
+  "hk_013": {
+    "title": "Artefakt der Tiefen",
+    "body": "Man hat ein so altes Artefakt gefunden, dass selbst du seinen Ursprung nicht kennst. Es pulsiert mit beunruhigender Energie.",
+    "choices": {
+      "A": "Behalte es in der Nähe deines Thrones unter Bewachung.",
+      "B": "Vergrabe es noch tiefer.",
+      "C": "Schicke es in die Welt der Lebenden, um die Aufmerksamkeit abzulenken."
+    }
+  },
+  "hk_014": {
+    "title": "Gerücht über Rückkehr zum Guten",
+    "body": "Ein Gerücht macht die Runde: Manche Seelen könnten sich sogar hier läutern. Deine Berater sind gespalten.",
+    "choices": {
+      "A": "Ersticke das Gerücht, die Hölle ist kein Spa.",
+      "B": "Schaffe einen besonderen Bereich, um diese „Rückkehr zum Guten“ zu testen.",
+      "C": "Lass es laufen, wenn manche ruhiger werden, ist das leichter zu verwalten."
+    }
+  },
+  "hk_015": {
+    "title": "Makabre Spiele unter Dämonen",
+    "body": "Dämonen veranstalten Spiele, bei denen sie um Seelen, Legionen und Gebiete an der Oberfläche wetten.",
+    "choices": {
+      "A": "Verbiete diese Spiele, zu gefährlich.",
+      "B": "Regle sie, mit dir als höchstem Schiedsrichter.",
+      "C": "Nimm anonym teil, um die Ergebnisse zu beeinflussen."
+    }
+  },
+  "hk_016": {
+    "title": "Fest der Qualen",
+    "body": "Die Dämonen verlangen ein großes Fest, um deine Jahrtausende der Herrschaft zu feiern.",
+    "choices": {
+      "A": "Organisiere ein grandioses Spektakel, das die ganze Hölle nie vergisst.",
+      "B": "Mach eine schlichte Zeremonie, Ordnung geht vor.",
+      "C": "Verlege das Fest in Zonen nahe der Oberfläche."
+    }
+  },
+  "hk_017": {
+    "title": "Verrückter Prophet auf der Erde",
+    "body": "Ein Sterblicher behauptet, in deinem Namen zu sprechen. Seine Reden ziehen eine Menge Gläubige an und ebenso viele Feinde.",
+    "choices": {
+      "A": "Verstärke seine Visionen, damit er die Massen entzündet.",
+      "B": "Mäßige seine Worte, er ist schon gefährlich genug.",
+      "C": "Lass ihn ohne Eingreifen in den Wahnsinn abrutschen."
+    }
+  },
+  "hk_018": {
+    "title": "Angebot einer himmlischen Waffenruhe",
+    "body": "Ein himmlischer Bote schlägt eine Waffenruhe vor, um die Oberfläche zu beruhigen und die Welten zu stabilisieren.",
+    "choices": {
+      "A": "Nimm an, die kosmische Ordnung nützt auch dir.",
+      "B": "Lehne ab, die Hölle lässt sich nichts vorschreiben.",
+      "C": "Nimm offiziell an, aber brich die Waffenruhe heimlich."
+    }
+  },
+  "hk_019": {
+    "title": "Aschesturm",
+    "body": "Ein Aschesturm verschlingt mehrere Kreise. Die Sicht bricht ein, die Verdammten geraten in Panik.",
+    "choices": {
+      "A": "Lass den Sturm seinen Lauf nehmen, das ist die normale Landschaft.",
+      "B": "Schicke Legionen, um einen Anschein von Ordnung wiederherzustellen.",
+      "C": "Nutze das Chaos, um Seelen dorthin zu verteilen, wo du willst."
+    }
+  },
+  "hk_020": {
+    "title": "Neuer experimenteller Kreis",
+    "body": "Einer deiner Architekten schlägt einen neuen Kreistyp vor, effizienter, aber instabil.",
+    "choices": {
+      "A": "Genehmige das Projekt und öffne ihn sofort.",
+      "B": "Teste ihn zuerst an einer kleinen Zahl von Seelen.",
+      "C": "Lehne ab, das aktuelle Gleichgewicht ist schon fragil genug."
+    }
+  },
+  "hk_021": {
+    "title": "Aufruhr der verdammten Philosophen",
+    "body": "Einige Verdammte debattieren über den Sinn ewiger Strafe und stellen deine Legitimität infrage.",
+    "choices": {
+      "A": "Bring sie mit allen Mitteln zum Schweigen.",
+      "B": "Schaffe einen Kreis nur für ihre Debatten, gut isoliert.",
+      "C": "Schicke sie auf die Erde, damit sie dort den Glauben verwirren."
+    }
+  },
+  "hk_022": {
+    "title": "Übereifriger Dämonenbuchhalter",
+    "body": "Ein Dämon, der die Seelenregister führt, meldet Unstimmigkeiten und will alles neu berechnen.",
+    "choices": {
+      "A": "Lass ihn alles prüfen, die Ordnung wird daraus gestärkt hervorgehen.",
+      "B": "Ignoriere ihn, niemand wird je all diese Register lesen.",
+      "C": "Nutze seinen Eifer, um strategische Seelen aufzuspüren."
+    }
+  },
+  "hk_023": {
+    "title": "Turnier der Legionsführer",
+    "body": "Die Kommandanten der Legionen wollen ein Turnier veranstalten, um zu beweisen, wer mehr Truppen verdient.",
+    "choices": {
+      "A": "Erlaube das Turnier, mit dir als letztem Schiedsrichter.",
+      "B": "Lehne ab, Legionen sollen gehorchen, nicht sich vergnügen.",
+      "C": "Erlaube es, aber manipuliere die Ergebnisse zu deinem Vorteil."
+    }
+  },
+  "hk_024": {
+    "title": "Seele eines legendären Helden",
+    "body": "Die Seele eines von Sterblichen hoch verehrten Helden steigt endlich in dein Reich hinab.",
+    "choices": {
+      "A": "Stelle ihn als Trophäe aus, um Furcht einzuflößen.",
+      "B": "Nutze ihn als Berater, er kennt die Menschen gut.",
+      "C": "Schicke ihn kurzzeitig als verfluchten Champion zurück auf die Erde."
+    }
+  },
+  "hk_025": {
+    "title": "Seltsamer Gesang in der Tiefe",
+    "body": "Ein Gesang aus der Tiefe hallt wider. Selbst die ältesten Dämonen fühlen sich unwohl.",
+    "choices": {
+      "A": "Ermittle persönlich, umgeben von deinen Wachen.",
+      "B": "Versiegle das Gebiet und erkläre den Zugang für verboten.",
+      "C": "Lass den Gesang sich verbreiten und sieh, wer darauf reagiert."
+    }
+  },
+  "hk_026": {
+    "title": "Angebot eines vergessenen Kults",
+    "body": "Ein uralter, fast verschwundener Kult will zurückkehren, im Austausch für ein paar höllische „Gefälligkeiten“.",
+    "choices": {
+      "A": "Nimm an, selbst ein schwacher Kult bleibt nützlich.",
+      "B": "Lehne ab, solche Relikte der Vergangenheit machen alles nur komplizierter.",
+      "C": "Schlucke den Kult und verändere sein Gesicht vollständig."
+    }
+  },
+  "hk_027": {
+    "title": "Wettbewerb der schlimmsten Folter",
+    "body": "Die Folterknechte veranstalten einen Wettbewerb, um die kreativste Folter zu erfinden.",
+    "choices": {
+      "A": "Fördern, Kreativität ist gut für die Moral der Dämonen.",
+      "B": "Begrenze die Schäden, manche Versuche gehen zu weit.",
+      "C": "Beschränke diesen Wettbewerb auf einen sehr, sehr abgeschiedenen Kreis."
+    }
+  },
+  "hk_028": {
+    "title": "Rat der alten Dämonen",
+    "body": "Die ältesten Dämonen bitten um eine Audienz, um über die Zukunft der Hölle zu sprechen.",
+    "choices": {
+      "A": "Höre sie an und übernimm einige ihrer Ideen.",
+      "B": "Danke ihnen höflich und fahre dann wie bisher fort.",
+      "C": "Spalte sie, indem du ihnen widersprüchliche Privilegien gibst."
+    }
+  },
+  "hk_029": {
+    "title": "Botschaft benachbarter Höllen",
+    "body": "Ein benachbartes infernales Reich schlägt ein Bündnis rund um Seelen, Legionen und die Oberfläche vor.",
+    "choices": {
+      "A": "Unterzeichne einen aggressiven Pakt, der auf Seelenernte ausgerichtet ist.",
+      "B": "Verhandle ein stark begrenztes Abkommen, um die Kontrolle zu behalten.",
+      "C": "Stelle deinen Einfluss auf der Erde in den Vordergrund, selbst gegen deine Truppen."
+    }
+  },
+  "hk_030": {
+    "title": "Schmiede der verfluchten Waffen",
+    "body": "Eine dämonische Schmiede erschafft eine Waffe, die Legionen fast unbesiegbar, aber instabil macht.",
+    "choices": {
+      "A": "Rüste deine Legionen in großem Stil mit diesen Waffen aus.",
+      "B": "Behalte diese Waffen nur für einige Eliteeinheiten.",
+      "C": "Begrenze ihre Produktion, Disziplin hat Vorrang."
+    }
+  },
+  "hk_031": {
+    "title": "Unerlaubte Portale",
+    "body": "Dämonen haben Portale zur Oberfläche geöffnet. Die oberen Welten beginnen es zu bemerken.",
+    "choices": {
+      "A": "Weite diese Portale aus, die Gelegenheit ist zu gut.",
+      "B": "Schließe sie sauber und setze strenge Regeln durch.",
+      "C": "Behalte nur einige wenige in diskreten Zonen."
+    }
+  },
+  "hk_032": {
+    "title": "Duelle zwischen Champions",
+    "body": "Deine besten Champions kämpfen unaufhörlich, um deinen Blick und mehr Macht zu gewinnen.",
+    "choices": {
+      "A": "Bevorzuge die brutalsten Dämonen.",
+      "B": "Belohne die listigsten Seelen.",
+      "C": "Führe einen Ehrenkodex ein, um die Duelle zu regeln."
+    }
+  },
+  "hk_033": {
+    "title": "Höllenstadt auf der Erde",
+    "body": "Ein sterbliches Viertel sieht immer mehr wie ein Anbau der Hölle aus.",
+    "choices": {
+      "A": "Verwandle es in eine echte infernale Bastion.",
+      "B": "Hole vor allem wertvolle Seelen, diskret.",
+      "C": "Bewaffne einige Legionen, um dieses städtische Chaos zu kontrollieren."
+    }
+  },
+  "hk_034": {
+    "title": "Lotterie der Verdammten",
+    "body": "Eine Lotterie erlaubt es Verdammten, Gefälligkeiten gegen eine leichtere Strafe einzutauschen.",
+    "choices": {
+      "A": "Förder dieses System, es zieht viele Seelen an.",
+      "B": "Mach daraus ein Werkzeug strenger Kontrolle.",
+      "C": "Überlass es deinen Legionen, damit sie davon profitieren."
+    }
+  },
+  "hk_035": {
+    "title": "Turm der Geständnisse",
+    "body": "Die Verdammten beichten ihre Geheimnisse in einem Turm. Diese Geständnisse könnten dir nützlich sein.",
+    "choices": {
+      "A": "Nutze diese Geständnisse, um deinen Vorrat an Seelen zu vergrößern.",
+      "B": "Nutze einige Geheimnisse, um die Oberfläche zu beeinflussen.",
+      "C": "Ordne diese Archive, um die höllische Ordnung zu verbessern."
+    }
+  },
+  "hk_036": {
+    "title": "Krieg der Folterstile",
+    "body": "Zwei Folterschulen stehen sich gegenüber. Ihre Rivalität wird gefährlich.",
+    "choices": {
+      "A": "Unterstütze die brutale Schule, nützlich für deine Legionen.",
+      "B": "Unterstütze die raffinierte Schule, besser mit Ordnung vereinbar.",
+      "C": "Lass sie konkurrieren, so fütterst du beide Seiten."
+    }
+  },
+  "hk_037": {
+    "title": "Export von Albträumen",
+    "body": "Ein Dienst will mehr Albträume zu den Sterblichen schicken, um ihre Seelen auf ihren Beitritt zu dir vorzubereiten.",
+    "choices": {
+      "A": "Flute ihre Nächte mit höllischen Visionen.",
+      "B": "Ziele vor allem auf menschliche Anführer und Machthaber.",
+      "C": "Kalibriere die Albträume, um das Gleichgewicht zu wahren."
+    }
+  },
+  "hk_038": {
+    "title": "Aufstand der höllischen Schreiber",
+    "body": "Die Schreiber, die Sünden, Pakte und Qualen notieren, fühlen sich trotz ihrer wichtigen Rolle übergangen.",
+    "choices": {
+      "A": "Belohne sie mit mehr militärischer Macht.",
+      "B": "Integriere sie stärker in die Befehlskette.",
+      "C": "Schmeichle ihnen öffentlich, ohne zu viele Zugeständnisse."
+    }
+  },
+  "hk_039": {
+    "title": "Eingestürzter Tempel an der Oberfläche",
+    "body": "Ein alter Tempel deines Kults ist eingestürzt. Manche sehen darin ein Zeichen, andere nur eine Ruine.",
+    "choices": {
+      "A": "Verstärke die diskrete Präsenz deiner Agenten in der Gegend.",
+      "B": "Nutze das Ereignis, um neue Seelen anzulocken.",
+      "C": "Verwandle den Ort in einen strukturierteren Ankerpunkt."
+    }
+  },
+  "hk_040": {
+    "title": "Höllischer Strategierat",
+    "body": "Deine Berater wollen, dass du Seelen, Armeen, Ordnung oder die Oberfläche priorisierst.",
+    "choices": {
+      "A": "Gib jedem ein bisschen mehr, auch wenn das die Ordnung spannt.",
+      "B": "Setze Ordnung als Priorität durch, auch wenn du Seelen verlierst.",
+      "C": "Investiere in die Oberfläche, dein zukünftiges Spielfeld."
+    }
+  },
+  "hk_041": {
+    "title": "Salon der Todsünden",
+    "body": "Man schlägt dir einen großen Salon vor, in dem jede Todsünde ihren Platz hätte.",
+    "choices": {
+      "A": "Setze auf die Jagd nach Seelen, um jeden Preis.",
+      "B": "Strukturiere das Ereignis als streng geregelte Messe.",
+      "C": "Mach daraus vor allem ein Schaufenster für deine Elitetruppen."
+    }
+  },
+  "hk_042": {
+    "title": "Höllische Militärakademie",
+    "body": "Deine Generäle wollen eine offizielle Akademie gründen, um künftige Legionskommandanten auszubilden.",
+    "choices": {
+      "A": "Setze auf rohe Gewalt und Angst.",
+      "B": "Stelle Loyalität und Disziplin über alles.",
+      "C": "Nimm auch Unterricht über die Manipulation der Oberfläche auf."
+    }
+  },
+  "hk_043": {
+    "title": "Große infernale Finsternis",
+    "body": "Eine seltene Finsternis verdunkelt die Hölle und die Oberfläche. Die Grenzen zwischen den Welten werden schwächer.",
+    "choices": {
+      "A": "Nutze die Gelegenheit, um mehr Seelen zu dir zu drängen.",
+      "B": "Verstärke die Barrieren, um Fluchten zu verhindern.",
+      "C": "Lass deine Dämonen in die Träume der Sterblichen eindringen."
+    }
+  },
+  "hk_044": {
+    "title": "Neuer höllischer Kodex",
+    "body": "Deine Juristen wollen den Kodex der Strafen komplett umschreiben, um ihn an moderne Laster anzupassen.",
+    "choices": {
+      "A": "Schaffe einen gnadenloseren Kodex für Seelen.",
+      "B": "Nimm die Forderungen einiger Generäle darin auf.",
+      "C": "Bestehe auf Klarheit und Wirksamkeit der Regeln."
+    }
+  },
+  "hk_045": {
+    "title": "Großer Rat der Versucher",
+    "body": "Die Versucher, die an der Oberfläche wirken, wollen in der Gesamtstrategie stärker mitreden.",
+    "choices": {
+      "A": "Gib ihnen mehr Freiheit, um Seelen zu ernten.",
+      "B": "Integriere sie in eine strengere Hierarchie.",
+      "C": "Verpflichte sie, ihre Aktionen mit den Legionen abzustimmen."
+    }
+  },
+  "hk_046": {
+    "title": "Epidemie höllischer Müdigkeit",
+    "body": "Selbst manche Dämonen scheinen es leid zu sein, seit Jahrhunderten dieselben Sünden zu bestrafen.",
+    "choices": {
+      "A": "Ersetze sie durch frischere Rekruten.",
+      "B": "Organisiere Kriegszüge, um sie wieder aufzuwecken.",
+      "C": "Gestalte einige Kreise um, um für Abwechslung zu sorgen."
+    }
+  },
+  "hk_047": {
+    "title": "Turm der verzerrten Schreie",
+    "body": "Ein Turm verstärkt die Schreie der Verdammten. Jetzt stören ihre Echos sogar deine Soldaten.",
+    "choices": {
+      "A": "Leite diese Schreie an die Oberfläche um, um sie heimzusuchen.",
+      "B": "Isoliere den Turm in einem streng kontrollierten Gebiet.",
+      "C": "Nutze diese Echos, um deine Legionen mental zu trainieren."
+    }
+  },
+  "hk_048": {
+    "title": "Markt der verdammten Illusionen",
+    "body": "Ein Markt bietet den Verdammten falsche vergangene Leben an, gegen viele zusätzliche Jahre des Martyriums.",
+    "choices": {
+      "A": "Förder diesen Markt, er füllt deine Reserven schnell.",
+      "B": "Reguliere die Verträge, um ein Minimum an Ordnung zu wahren.",
+      "C": "Reserviere bestimmte Illusionen für die Nützlichsten deiner Pläne."
+    }
+  },
+  "hk_049": {
+    "title": "Eroberungsspiel unter Dämonen",
+    "body": "Ein Strategiespiel unter den Dämonen simuliert die Eroberung neuer Gebiete an der Oberfläche.",
+    "choices": {
+      "A": "Mach daraus ein offizielles Werkzeug zur Auswahl von Feldzügen.",
+      "B": "Beschränke es auf das Training einiger Offiziere.",
+      "C": "Lass die Dämonen frei spielen, ohne zu viel Einmischung."
+    }
+  },
+  "hk_050": {
+    "title": "In Lava eingravierte Prophezeiung",
+    "body": "Worte in der Lava kündigen den Fall eines „Königs der Flammen“ an, falls das Gleichgewicht zu stark bricht.",
+    "choices": {
+      "A": "Ignoriere die Prophezeiung und beschleunige die Verdammung weiter.",
+      "B": "Stärke die Ordnung, um einen brutalen Umsturz zu verhindern.",
+      "C": "Verteile das Chaos zwischen Oberfläche, Legionen und Seelen."
+    }
+  },
+  "hk_051": {
+    "title": "Tunnel zu einer alten Hölle",
+    "body": "Dämonische Bergleute haben einen Durchgang zu einem sehr alten Gebiet geöffnet, das seit Langem verlassen war.",
+    "choices": {
+      "A": "Schicke sofort neue Seelen dorthin, um sie auszubeuten.",
+      "B": "Erkunde es vorsichtig mit einer disziplinierten Streitmacht.",
+      "C": "Nutze es als geheime Basis für Operationen auf der Erde."
+    }
+  },
+  "hk_052": {
+    "title": "Komplott der Archivare",
+    "body": "Die Archivare von Pakten und Sünden drohen, die Fehlleistungen mancher Generäle aufzudecken.",
+    "choices": {
+      "A": "Schütze deine Geheimnisse, indem du sie mit Seelen versorgst.",
+      "B": "Stelle diese Archive unter strenge militärische Kontrolle.",
+      "C": "Lass ein paar Skandale durchsickern, um die Macht neu auszubalancieren."
+    }
+  },
+  "hk_053": {
+    "title": "Funkenstürme an der Oberfläche",
+    "body": "Funkenregen fällt auf die Oberfläche und schürt an manchen Orten Konflikte.",
+    "choices": {
+      "A": "Verstärke diese Regenfälle, um mehr Seelen zu ernten.",
+      "B": "Begrenze ihre Häufigkeit, um nicht zu viel Aufmerksamkeit zu erregen.",
+      "C": "Lenke sie in bereits instabile Gebiete."
+    }
+  },
+  "hk_054": {
+    "title": "Reform der heiligen Ketten",
+    "body": "Man will die alten Ketten durch Bindungen ersetzen, die auf Versprechen und Reue beruhen.",
+    "choices": {
+      "A": "Richte die Reform auf die Menge gebundener Seelen aus.",
+      "B": "Bevorzuge Stabilität und Beherrschung der Ströme.",
+      "C": "Teste diese Ketten vor allem an bestimmten sterblichen Anführern."
+    }
+  },
+  "hk_055": {
+    "title": "Karneval der Illusionen",
+    "body": "Truppen von Dämonen-Illusionisten wollen in einem bestimmten Kreis einen dauerhaften Karneval veranstalten.",
+    "choices": {
+      "A": "Mach daraus eine unwiderstehliche Seelenfalle.",
+      "B": "Integriere ihn als experimentelle Zone in die allgemeine Ordnung.",
+      "C": "Verbinde ihn in besonderen Nächten mit einigen Orten an der Oberfläche."
+    }
+  },
+  "hk_056": {
+    "title": "Überfluteter Blutfluss",
+    "body": "Einer der großen Blutflüsse tritt über die Ufer und bedroht mehrere wichtige Anlagen.",
+    "choices": {
+      "A": "Leite die Flut in überbevölkerte Kreise um.",
+      "B": "Errichte mit deinen disziplinierten Einheiten infernale Dämme.",
+      "C": "Lass den Fluss die höllische Landschaft neu formen."
+    }
+  },
+  "hk_057": {
+    "title": "Wettbewerb der Verderbnis auf der Erde",
+    "body": "Dämonen stellen sich einer Herausforderung: immer einflussreichere öffentliche Figuren zu verderben.",
+    "choices": {
+      "A": "Belohne die massenhafte Ernte von Seelen.",
+      "B": "Verlange einen gezielteren und kontrollierteren Ansatz.",
+      "C": "Schätze spektakuläre Operationen an der Oberfläche."
+    }
+  },
+  "hk_058": {
+    "title": "Beobachtungsturm der Welten",
+    "body": "Ein Turm erlaubt es, die Träume, Kriege und Gebete der Sterblichen in Echtzeit zu beobachten.",
+    "choices": {
+      "A": "Nutze diese Visionen, um noch mehr Seelen in die Falle zu locken.",
+      "B": "Nutze sie, um deine innere Ordnung präzise anzupassen.",
+      "C": "Gib ausgewählten Kommandanten Zugang dazu."
+    }
+  },
+  "hk_059": {
+    "title": "Kult des Höllenkönigs",
+    "body": "Einige Dämonen beginnen, dich wie eine Gottheit zu verehren und verlangen Rituale zu deinen Ehren.",
+    "choices": {
+      "A": "Förder diesen Kult, auch wenn er Exzesse nährt.",
+      "B": "Strukturiere ihn innerhalb einer klar definierten Hierarchie.",
+      "C": "Dulde ihn nur an der Oberfläche, als politisches Instrument."
+    }
+  },
+  "hk_060": {
+    "title": "Unbekannte Stimme in den Tunneln",
+    "body": "Patrouillen hören eine Stimme, die Geheimnisse über die Risse deiner Herrschaft flüstert.",
+    "choices": {
+      "A": "Schicke Gruppen verurteilter Seelen, um nachzuforschen.",
+      "B": "Beauftrage disziplinierte Legionen, das Gebiet zu sichern.",
+      "C": "Nutze diese Flüstereien diskret, um deine Strategie anzupassen."
+    }
+  },
+  "hk_061": {
+    "title": "Labor neuer Sünden",
+    "body": "Ein experimenteller Kreis versucht, Formen des Lasters zu erfinden, die zum modernen Zeitalter passen.",
+    "choices": {
+      "A": "Teste diese Neuerungen an möglichst vielen Sterblichen.",
+      "B": "Führe sie in ein streng kontrolliertes Protokoll ein.",
+      "C": "Verbreite nur die wirksamsten davon an die Oberfläche."
+    }
+  },
+  "hk_062": {
+    "title": "Große höllische Spiele",
+    "body": "Makabre Spiele lassen Verdammte, Dämonen und manchmal sogar einige Heldenseelen gegeneinander antreten.",
+    "choices": {
+      "A": "Richte sie auf die massenhafte Sammlung von Seelen aus.",
+      "B": "Mache sie zu einem Trainingswerkzeug für deine Legionen.",
+      "C": "Verbinde sie mit der Oberfläche, um deinen Einfluss zu stärken."
+    }
+  },
+  "hk_063": {
+    "title": "Aufstand eines autonomen Kreises",
+    "body": "Ein Kreis hat begonnen, sich selbst zu verwalten, ohne die üblichen Berichte nach oben zu schicken.",
+    "choices": {
+      "A": "Überschwemme ihn mit neuen Seelen, um wieder die Kontrolle zu übernehmen.",
+      "B": "Schicke eine disziplinierte Streitmacht, um die zentrale Autorität wiederherzustellen.",
+      "C": "Beobachte erst, um zu sehen, ob sich dieses Modell anderswo nutzen lässt."
+    }
+  },
+  "hk_064": {
+    "title": "Bibliothek der Glaubensformen",
+    "body": "Eine Bibliothek sammelt die Texte, Gebete und verratenen Hoffnungen der Sterblichen.",
+    "choices": {
+      "A": "Mach daraus eine psychologische Waffe, um noch mehr zu quälen.",
+      "B": "Ordne sie, um die Gesamtverwaltung der Seelen zu verbessern.",
+      "C": "Nutze sie, um deine Operationen an der Oberfläche zu verfeinern."
+    }
+  },
+  "hk_065": {
+    "title": "Krise mit einer anderen Ebene",
+    "body": "Eine benachbarte Ebene, weder ganz himmlisch noch ganz höllisch, protestiert gegen deine Vorstöße.",
+    "choices": {
+      "A": "Antworte mit einer brutalen Machtdemonstration.",
+      "B": "Verhandle über Grenzen und genaue Regeln.",
+      "C": "Lenke den Konflikt in Gebiete an der Oberfläche um."
+    }
+  },
+  "hk_066": {
+    "title": "Wettbewerb der verlorenen Seelen",
+    "body": "Deine Folterknechte streiten sich um den Titel des „schlimmsten Falls“, der je behandelt wurde.",
+    "choices": {
+      "A": "Verstärke die Strafen, um mehr Energie zu ernten.",
+      "B": "Setze selbst im Schrecken einen strengen Rahmen durch.",
+      "C": "Nutze diese Fälle als Beispiele, um die Oberfläche einzuschüchtern."
+    }
+  },
+  "hk_067": {
+    "title": "Fest der dämonischen Masken",
+    "body": "Ein Fest, bei dem Dämonen und Verdammte Masken tragen, die ihre Fehler und Ambitionen darstellen.",
+    "choices": {
+      "A": "Mach dieses Fest zu einer riesigen Falle für neue Seelen.",
+      "B": "Strukturiere es als Ritual der Ordnung und Hierarchie.",
+      "C": "Verbinde es symbolisch mit einigen Kulten an der Oberfläche."
+    }
+  },
+  "hk_068": {
+    "title": "Abkommen mit einer vergessenen Gottheit",
+    "body": "Eine Gottheit, fast aus der Welt der Sterblichen ausgelöscht, sucht Zuflucht und Einfluss in deinem Reich.",
+    "choices": {
+      "A": "Nutze sie, um einen Strom nostalgischer Seelen anzuziehen.",
+      "B": "Integriere sie als streng überwachten Vasallen in deine Ordnung.",
+      "C": "Schicke sie, damit sie an der Oberfläche eine diskrete Rolle spielt."
+    }
+  },
+  "hk_069": {
+    "title": "Koloss aus Asche",
+    "body": "Ein gewaltiger Aschekoloss ist in einer höllischen Wüste erschienen und zieht alle Blicke auf sich.",
+    "choices": {
+      "A": "Füttere ihn mit Seelen, um eine Waffe aus ihm zu machen.",
+      "B": "Kette ihn an und integriere ihn in die kontrollierte Landschaft.",
+      "C": "Verbinde ihn als lebendes Symbol mit bestimmten Orten an der Oberfläche."
+    }
+  },
+  "hk_070": {
+    "title": "Versammlung der tausend Flüstern",
+    "body": "Tausende Stimmen Verdammter flüstern deinen Namen und diskutieren jede Entscheidung, die du triffst.",
+    "choices": {
+      "A": "Nutze diesen Chor, um die Masse der Seelen zu sondieren.",
+      "B": "Lenke dieses Flüstern in eine beratende Struktur.",
+      "C": "Lass diese Stimmen an die Oberfläche dringen und Träumer berühren."
+    }
+  },
+  "hk_071": {
+    "title": "Kongress berühmter Sünder",
+    "body": "Mehrere berühmte Seelen finden sich im selben Kreis wieder und verlangen eine Elitebehandlung.",
+    "choices": {
+      "A": "Stelle sie als Trophäen aus, um mehr Seelen anzulocken.",
+      "B": "Unterwirf sie denselben Regeln wie alle anderen.",
+      "C": "Nutze sie, um die Oberfläche diskret zu beeinflussen."
+    }
+  },
+  "hk_072": {
+    "title": "Manöver an den Grenzen",
+    "body": "Deine Legionen trainieren an den Grenzen deines Reiches und beunruhigen die Nachbarreiche.",
+    "choices": {
+      "A": "Mach aus der Übung eine echte Machtdemonstration.",
+      "B": "Beruhige offiziell, während du das Training beibehältst.",
+      "C": "Verlege einen Teil der Truppen auf irdische Ziele."
+    }
+  },
+  "hk_073": {
+    "title": "Kreis der Entweiher",
+    "body": "Ein Kreis erfindet neue Entweihungen. Ihre Ideen können nützlich sein oder alles aus dem Gleichgewicht bringen.",
+    "choices": {
+      "A": "Nutze ihren Erfindungsgeist, um mehr Seelen anzulocken.",
+      "B": "Isoliere sie streng, um die Ordnung zu bewahren.",
+      "C": "Lass einige ihrer Ideen an die Oberfläche durchsickern."
+    }
+  },
+  "hk_074": {
+    "title": "Hof der raffinierten Qualen",
+    "body": "Ein Hof von Folterhandwerkern bietet sehr ausgearbeitete Qualen an.",
+    "choices": {
+      "A": "Presse das Maximum an bearbeiteten Seelen heraus.",
+      "B": "Führe für jede Qual ein starres Protokoll ein.",
+      "C": "Reserviere diese Raffinessen für einflussreiche Ziele auf der Erde."
+    }
+  },
+  "hk_075": {
+    "title": "Zorn eines legendären Generals",
+    "body": "Ein legendärer General, von allen gefürchtet, kritisiert offen deine Führung.",
+    "choices": {
+      "A": "Weise ihn mit einem massiven Strom von Seelen in seine Schranken.",
+      "B": "Befördere ihn in eine stärker kontrollierte Rolle.",
+      "C": "Schicke ihn an die Oberfläche, um einen sehr riskanten Feldzug zu führen."
+    }
+  },
+  "hk_076": {
+    "title": "Endlose Inventare der Sünden",
+    "body": "Die Schreiber klagen: Jeden Tag häufen sich neue Sünden schneller an als die Register.",
+    "choices": {
+      "A": "Dränge sie, alles zu erfassen, selbst um den Preis des Chaos.",
+      "B": "Vereinfache die Kategorien, um eine grobe Ordnung zu bewahren.",
+      "C": "Erfasse nur die wichtigsten Sünden an der Oberfläche im Detail."
+    }
+  },
+  "hk_077": {
+    "title": "Pilgerzug reuiger Verdammter",
+    "body": "Eine Gruppe Verdammter versucht einen improvisierten „Pilgerzug“, um eine Milderung ihrer Strafen zu erbitten.",
+    "choices": {
+      "A": "Bestrafe sie hart und setze ein Exempel.",
+      "B": "Schaffe ein falsches, streng kontrolliertes Rückkehr-zum-Guten-Ritual.",
+      "C": "Schicke sie kurz an die Oberfläche zurück, für immer gezeichnet."
+    }
+  },
+  "hk_078": {
+    "title": "Wettbewerb harmonisierter Schreie",
+    "body": "Folterknechte veranstalten einen Wettbewerb, um Schreie in beinahe musikalische Chöre zu verwandeln.",
+    "choices": {
+      "A": "Förder das, um mehr neugierige Seelen anzulocken.",
+      "B": "Stelle diesen Wettbewerb unter strenge Regeln.",
+      "C": "Verbreite diese „Gesänge“ in den Albträumen der Sterblichen."
+    }
+  },
+  "hk_079": {
+    "title": "Kreis der gebrochenen Pakte",
+    "body": "Ein ganzer Kreis ist mit jenen bevölkert, die ihre Pakte verraten haben, höllisch oder nicht.",
+    "choices": {
+      "A": "Nutze sie, um Geständnisse und Geheimnisse zu bekommen.",
+      "B": "Verstärke als Beispiel die Struktur ihrer Strafen.",
+      "C": "Schicke einige von ihnen, um Zwietracht auf der Erde zu säen."
+    }
+  },
+  "hk_080": {
+    "title": "Besuch eines entthronten alten Königs",
+    "body": "Ein alter König der Hölle, der vor langer Zeit gestürzt wurde, kehrt zurück, um dich zu sehen und deine Herrschaft zu kommentieren.",
+    "choices": {
+      "A": "Nutze ihn, um eine Verschärfung der Verdammungen zu rechtfertigen.",
+      "B": "Integriere ihn als streng überwachten Berater.",
+      "C": "Schicke ihn, um Gebiete nahe der Oberfläche zu inspizieren."
+    }
+  },
+  "hk_081": {
+    "title": "Schule der modernen Versuchungen",
+    "body": "Eine Schule will Dämonen ausbilden, die Experten für Netzwerke, Bildschirme und neue Süchte sind.",
+    "choices": {
+      "A": "Konzentriere dich auf die Menge der geernteten Seelen.",
+      "B": "Begrenze die Methoden stark, um die Kontrolle zu behalten.",
+      "C": "Nimm vorrangig Orte der Macht an der Oberfläche ins Visier."
+    }
+  },
+  "hk_082": {
+    "title": "Kreise in Konkurrenz",
+    "body": "Zwei Kreise prahlen damit, „der höllischste“ zu sein, und kämpfen um Ressourcen.",
+    "choices": {
+      "A": "Versorge beide mit noch mehr Seelen.",
+      "B": "Erzwinge eine klare Hierarchie zwischen ihnen.",
+      "C": "Gib jedem eine andere Mission an der Oberfläche."
+    }
+  },
+  "hk_083": {
+    "title": "Auftauchen eines Risses",
+    "body": "Am Grund einer Schlucht öffnet sich ein leuchtender Riss. Manche sehen darin einen Eingriff von oben.",
+    "choices": {
+      "A": "Flute ihn mit Seelen, um ihn zu sättigen.",
+      "B": "Schicke disziplinierte Legionen, um ihn zu kontrollieren.",
+      "C": "Leite einen Teil des Stroms auf bestimmte Orte der Erde."
+    }
+  },
+  "hk_084": {
+    "title": "Turm der umgekehrten Meditation",
+    "body": "Ein Turm, in dem Verdammte nicht meditieren, um Frieden zu finden, sondern um auf ihren Fehlern herumzukauen.",
+    "choices": {
+      "A": "Erhöhe die Zahl der Seelen, die in diesem Turm zugelassen werden.",
+      "B": "Strukturiere seinen Betrieb wie ein infernales Kloster.",
+      "C": "Nutze dieses Grübeln, um deine Versuchungen auf der Erde zu lenken."
+    }
+  },
+  "hk_085": {
+    "title": "Parade höllischer Bestien",
+    "body": "Deine monströsesten Kreaturen paradieren in den Gängen mitten unter den verängstigten Verdammten.",
+    "choices": {
+      "A": "Mach daraus ein regelmäßiges Schauspiel, um jeden Widerstand zu brechen.",
+      "B": "Stelle die Parade unter ein strenges Sicherheitsprotokoll.",
+      "C": "Schicke einige Bestien, um an den Grenzen der Oberfläche zu streifen."
+    }
+  },
+  "hk_086": {
+    "title": "Nacht der umgekehrten Flammen",
+    "body": "Eine seltsame Nacht, in der die Flammen rückwärts brennen, vom Boden zum Himmel, bringt alle aus dem Gleichgewicht.",
+    "choices": {
+      "A": "Lass dieses Phänomen möglichst viele Seelen anziehen.",
+      "B": "Kontrolliere und kartiere jede betroffene Zone.",
+      "C": "Synchronisiere diese Nacht mit einigen Ritualen an der Oberfläche."
+    }
+  },
+  "hk_087": {
+    "title": "Versammlung der Meister der Folter",
+    "body": "Die Meister der Folter wollen in die Gesamtstrategie einbezogen werden.",
+    "choices": {
+      "A": "Gib ihnen mehr Seelen zu verwalten.",
+      "B": "Integriere sie in einen stark hierarchisierten Rat.",
+      "C": "Vertraue ihnen bestimmte Ziele an der Oberfläche an."
+    }
+  },
+  "hk_088": {
+    "title": "Riss zu einer kleinen Hölle",
+    "body": "Ein Riss führt zu einer kleinen lokalen Hölle, schlecht organisiert, die dich grob nachahmt.",
+    "choices": {
+      "A": "Stehle ihr die Seelen und schlucke sie.",
+      "B": "Strukturiere sie um und gliedere sie in deine Ordnung ein.",
+      "C": "Nutze sie als Drehbasis für Vorstöße in die Welt der Lebenden."
+    }
+  },
+  "hk_089": {
+    "title": "Prozession der zerbrochenen Masken",
+    "body": "Eine Prozession Verdammter mit rissigen Masken zieht durch mehrere Kreise.",
+    "choices": {
+      "A": "Ziehe noch mehr Seelen an, die nach einem Spektakel suchen.",
+      "B": "Mach aus dieser Prozession ein stark kodifiziertes Ritual.",
+      "C": "Nutze sie als Symbol in bestimmten Kulten an der Oberfläche."
+    }
+  },
+  "hk_090": {
+    "title": "Fest der roten Asche",
+    "body": "Ein roter Ascheregen fällt auf dein ganzes Reich. Manche sehen darin ein Omen.",
+    "choices": {
+      "A": "Rufe eine große Seelenjagd aus.",
+      "B": "Mach daraus eine Zeremonie der Ordnung und umgekehrten Reinigung.",
+      "C": "Verbinde dieses Fest mit bestimmten Ereignissen auf der Erde."
+    }
+  },
+  "hk_091": {
+    "title": "Rebellion der Aufseher",
+    "body": "Jene, die die Brücken zwischen den Kreisen bewachen, verlangen mehr Anerkennung.",
+    "choices": {
+      "A": "Stopfe sie mit neuen Seelen voll, die sie filtern sollen.",
+      "B": "Kläre ihre Rechte und Pflichten streng.",
+      "C": "Setze sie zusätzlich zur Bewachung der Übergänge zur Oberfläche ein."
+    }
+  },
+  "hk_092": {
+    "title": "Turm der unmöglichen Schwüre",
+    "body": "Ein Turm, in dem Verdammte gezwungen werden zu schwören, was sie niemals halten können.",
+    "choices": {
+      "A": "Vervielfache diese Schwüre, um noch mehr Seelen zu fangen.",
+      "B": "Ordne jeden Schwur in ein sehr geordnetes System ein.",
+      "C": "Exportiere einige Schwüre in Pakte an der Oberfläche."
+    }
+  },
+  "hk_093": {
+    "title": "Felder aus Aschestatuen",
+    "body": "Eine Institution bringt Seelen bei, kontrolliert zu fallen.",
+    "choices": {
+      "A": "Zerschlage sie massenhaft, um dein Reich zu nähren.",
+      "B": "Katalogisiere und überwache sie nach strengen Regeln.",
+      "C": "Schicke einige davon, um still die Oberfläche heimzusuchen."
+    }
+  },
+  "hk_094": {
+    "title": "Versammlung der flammenden Zungen",
+    "body": "Feuerzungen flüstern die schlimmsten Geheimnisse der Lebenden und der Toten.",
+    "choices": {
+      "A": "Sättige deine Kreise mit diesen Enthüllungen, um Seelen zu brechen.",
+      "B": "Ordne sie als strategische Informationen ein.",
+      "C": "Lass einige davon in die Ohren einflussreicher Menschen auf der Erde sickern."
+    }
+  },
+  "hk_095": {
+    "title": "Hof der raffinierten Pakte",
+    "body": "Ein Hof spezialisiert sich auf extrem detaillierte, fast juristische Pakte.",
+    "choices": {
+      "A": "Maximiere die Zahl der betroffenen Seelen.",
+      "B": "Mach daraus eine Säule der höllischen Ordnung.",
+      "C": "Nutze diese Pakte als Werkzeuge politischen Einflusses an der Oberfläche."
+    }
+  },
+  "hk_096": {
+    "title": "See aus brennendem Glas",
+    "body": "Ein See aus geschmolzenem Glas spiegelt die schlimmsten Erinnerungen der Verdammten und mancher Dämonen.",
+    "choices": {
+      "A": "Tauche möglichst viele Seelen hinein.",
+      "B": "Kartiere diese Spiegelungen, um die Strafen besser zu organisieren.",
+      "C": "Zeige darin Bilder der Oberfläche, um deine Entscheidungen zu beeinflussen."
+    }
+  },
+  "hk_097": {
+    "title": "Großer Rat des irren Lachens",
+    "body": "Eine Gruppe Dämonen nimmt nichts mehr ernst und verwandelt jede Folter in eine grausame Farce.",
+    "choices": {
+      "A": "Lass sie Seelen durch das Groteske anziehen.",
+      "B": "Stelle in ihren Bereichen ein strenges Protokoll wieder her.",
+      "C": "Schicke sie, um bestimmte Orte auf der Erde aus dem Gleichgewicht zu bringen."
+    }
+  },
+  "hk_098": {
+    "title": "Nacht der umgekehrten Spiegel",
+    "body": "Kleine Sünden von heute führen schließlich zu großen Strafen.",
+    "choices": {
+      "A": "Nutze diese Visionen, um den Schmerz zu verstärken.",
+      "B": "Ordne diese Spiegel sorgfältig in kodifizierten Räumen an.",
+      "C": "Projiziere einige Spiegelbilder in die Träume der Sterblichen."
+    }
+  },
+  "hk_099": {
+    "title": "Dämonische Beförderung",
+    "body": "Deine Dämonen verlangen ein klares Beförderungssystem mit Rängen, Privilegien und Titeln.",
+    "choices": {
+      "A": "Bevorzuge jene, die die meisten Seelen bringen.",
+      "B": "Gründe Beförderungen auf Gehorsam und Ordnung.",
+      "C": "Belohne besonders jene, die an der Oberfläche handeln."
+    }
+  },
+  "hk_100": {
+    "title": "Große infernale Volkszählung",
+    "body": "Man schlägt dir eine vollständige Erfassung von Seelen, Legionen, Strukturen und Einflüssen an der Oberfläche vor.",
+    "choices": {
+      "A": "Richte die Erfassung auf die Masse der Seelen aus.",
+      "B": "Mach daraus ein Werkzeug absoluter Ordnung und Kontrolle.",
+      "C": "Nutze sie vor allem zur Planung von Feldzügen auf der Erde."
+    }
+  },
+  "hk_101": {
+    "title": "Bank der Verdammten",
+    "body": "Eine infernale Bank will Seelenfragmente gegen kurzfristige Gefälligkeiten verleihen.",
+    "choices": {
+      "A": "Förder diese Kredite, um deine Seelenreserven aufzublähen.",
+      "B": "Reguliere streng, um Chaos zu vermeiden.",
+      "C": "Nutze diese Verträge, um Operationen an der Oberfläche zu finanzieren."
+    }
+  },
+  "hk_102": {
+    "title": "Kampagne zur Massenrekrutierung",
+    "body": "Deine Generäle starten eine Kampagne, um neue Legionen aus den gewalttätigsten Verdammten zu rekrutieren.",
+    "choices": {
+      "A": "Akzeptiere alle Freiwilligen, auch die Instabilen.",
+      "B": "Nimm nur die wildesten und diszipliniertesten.",
+      "C": "Ziehe einige Profile für Missionen auf der Erde ab."
+    }
+  },
+  "hk_103": {
+    "title": "Schwarzmarkt der Reliquien",
+    "body": "An der Oberfläche gestohlene Reliquien zirkulieren auf einem höllischen Schwarzmarkt.",
+    "choices": {
+      "A": "Überschwemme den Markt, um mehr verdorbene Seelen anzuziehen.",
+      "B": "Beschlagnahme und inventarisiere jede Reliquie.",
+      "C": "Schicke einige verfluchte Reliquien zurück an die Oberfläche."
+    }
+  },
+  "hk_104": {
+    "title": "Kollegium der höllischen Strategen",
+    "body": "Ein Kollegium von Strategen schlägt präzise Pläne für Krieg, Verderbnis und Ordnung vor.",
+    "choices": {
+      "A": "Setze sie ein, um die Sammlung von Seelen zu maximieren.",
+      "B": "Integriere sie in eine strenge Hierarchiekette.",
+      "C": "Richte einen Teil ihrer Pläne auf die Oberfläche aus."
+    }
+  },
+  "hk_105": {
+    "title": "Prozession der vergessenen Könige",
+    "body": "Gefallene ehemalige sterbliche Könige ziehen vor deinem Thron vorbei und verlangen einen besonderen Status.",
+    "choices": {
+      "A": "Stelle sie aus, um ehrgeizige Seelen anzulocken.",
+      "B": "Ordne sie in ein starres Protokoll der Strafen ein.",
+      "C": "Schicke einige von ihnen, um ihre alten Länder zu beeinflussen."
+    }
+  },
+  "hk_106": {
+    "title": "Wettbewerb innovativer Qualen",
+    "body": "Deine Folterknechte veranstalten einen Wettbewerb, um Qualen zu erschaffen, die an heutige Laster angepasst sind.",
+    "choices": {
+      "A": "Belohne die Qualen, die in Seelen am rentabelsten sind.",
+      "B": "Normiere jede Technik in einem offiziellen Handbuch.",
+      "C": "Reserviere die kreativsten für die Eliten an der Oberfläche."
+    }
+  },
+  "hk_107": {
+    "title": "Schwelender Krieg zwischen zwei Kreisen",
+    "body": "Zwei Kreise beschuldigen sich gegenseitig, einander Verdammte und Wächter zu stehlen.",
+    "choices": {
+      "A": "Versorge sie mit Seelen, um die Spannung vorläufig zu beruhigen.",
+      "B": "Schicke eine Elitelegion, um wieder Ordnung zu schaffen.",
+      "C": "Lenke ihre Rivalität auf die Eroberung der Oberfläche."
+    }
+  },
+  "hk_108": {
+    "title": "Gerücht über eine mildere Hölle",
+    "body": "Ein Gerücht macht die Runde: Irgendwo gäbe es eine „erträglichere“ Hölle.",
+    "choices": {
+      "A": "Lass das Gerücht sich verbreiten, als Quelle der Verzweiflung.",
+      "B": "Spüre jeden Versuch organisierter Flucht auf und zerschlage ihn.",
+      "C": "Nutze diese Legende, um bestimmte Sterbliche anzulocken."
+    }
+  },
+  "hk_109": {
+    "title": "Turm der militärischen Echos",
+    "body": "Ein Turm wirft die Schreie und Befehle deiner Legionen als Echo zurück.",
+    "choices": {
+      "A": "Verstärke diese Echos, um die Seelen anzustacheln.",
+      "B": "Ordne den Turm in ein strenges militärisches Protokoll ein.",
+      "C": "Nutze ihn, um Angriffe auf die Oberfläche zu koordinieren."
+    }
+  },
+  "hk_110": {
+    "title": "Salon der unmöglichen Verträge",
+    "body": "Ein Salon lockt Sterbliche und Verdammte mit Verträgen an, die kein vernünftiges Wesen akzeptieren würde.",
+    "choices": {
+      "A": "Unterschreibe massenhaft, um Seelen einzusammeln.",
+      "B": "Filtere die Abkommen, um eine lesbare Ordnung zu bewahren.",
+      "C": "Reserviere bestimmte Klauseln für die Mächtigen an der Oberfläche."
+    }
+  },
+  "hk_111": {
+    "title": "Meuterei auf einer Brücke der Verdammten",
+    "body": "Eine Brücke, die zwei Kreise verbindet, wird von meuternden Verdammten besetzt.",
+    "choices": {
+      "A": "Überschwemme sie mit einem Strom zusätzlicher Seelen.",
+      "B": "Schicke eine disziplinierte Truppe, um die Kontrolle zurückzuholen.",
+      "C": "Verwandle diese Brücke in einen Beobachtungsposten der Oberfläche."
+    }
+  },
+  "hk_112": {
+    "title": "Kalender der Abscheulichkeiten",
+    "body": "Man schlägt dir einen Kalender der „großen Abscheulichkeiten“ vor, die jedes höllische Jahr gefeiert werden sollen.",
+    "choices": {
+      "A": "Richte diese Daten nach den Höhepunkten der Verdammung aus.",
+      "B": "Strukturiere diesen Kalender als Grundlage der Ordnung.",
+      "C": "Synchronisiere einige Daten mit der Oberfläche."
+    }
+  },
+  "hk_113": {
+    "title": "Schlucht aus bewegten Schatten",
+    "body": "Eine Schlucht speit Schatten aus, die lebende Sterbliche nachahmen.",
+    "choices": {
+      "A": "Wirf Seelen hinein, um diese Schatten zu nähren.",
+      "B": "Stelle die Schlucht unter strenge militärische Überwachung.",
+      "C": "Schicke diese Schatten, um Angst auf die Oberfläche zu projizieren."
+    }
+  },
+  "hk_114": {
+    "title": "Kult der stillen Flamme",
+    "body": "Ein neuer Kult verehrt eine Flamme, die nicht brennt, sondern den Willen verzehrt.",
+    "choices": {
+      "A": "Lass die Flamme möglichst viele Seelen verschlingen.",
+      "B": "Integriere sie in ein sehr strukturiertes offizielles Ritual.",
+      "C": "Verbinde diesen Kult mit menschlichen Sekten."
+    }
+  },
+  "hk_115": {
+    "title": "Schule der höllischen Mentoren",
+    "body": "Eine Schule bildet „Mentoren“ aus, die sich auf die langsame Verderbnis des Geistes spezialisiert haben.",
+    "choices": {
+      "A": "Miss ihren Erfolg an der Zahl der Seelen.",
+      "B": "Bewerte vor allem ihre Disziplin und ihren Gehorsam.",
+      "C": "Weise sie Schlüsselfiguren an der Oberfläche zu."
+    }
+  },
+  "hk_116": {
+    "title": "Fluss entrissener Erinnerungen",
+    "body": "Ein Fluss trägt die dunkelsten Erinnerungen der Verdammten mit sich.",
+    "choices": {
+      "A": "Stoße noch mehr Seelen hinein.",
+      "B": "Ordne diese Erinnerungen in Archive der Ordnung ein.",
+      "C": "Nutze diese Erinnerungen, um die Verderbnis der Lebenden zu lenken."
+    }
+  },
+  "hk_117": {
+    "title": "Miniatur-Thronspiel",
+    "body": "Dämonen haben ein Modell deines Thrones gebaut und spielen deine Entscheidungen im Kleinen nach.",
+    "choices": {
+      "A": "Förder dieses Spiel, um deine Aura zu stärken.",
+      "B": "Setze strenge Regeln durch, nichts darf dir entgehen.",
+      "C": "Mach daraus eine Simulation der Reaktionen der Oberfläche."
+    }
+  },
+  "hk_118": {
+    "title": "Säule der gebrochenen Ketten",
+    "body": "Eine Säule aus gebrochenen Ketten sammelt gebrochene Pakte und Schwüre.",
+    "choices": {
+      "A": "Binde noch mehr Seelen daran, um Schrecken einzuflößen.",
+      "B": "Ordne diese Ketten nach einem strengen Register.",
+      "C": "Nutze sie, um bestimmte Verträge auf der Erde zu schwächen."
+    }
+  },
+  "hk_119": {
+    "title": "Glutregen über den Adligen",
+    "body": "Ein Glutregen fällt nur auf die Bereiche, die für einflussreiche Verdammte reserviert sind.",
+    "choices": {
+      "A": "Vervielfache diese Regenfälle, um ihren Stolz zu brechen.",
+      "B": "Erstelle einen genauen Kalender für diese Strafen.",
+      "C": "Verbinde diese Ereignisse mit bestimmten Skandalen an der Oberfläche."
+    }
+  },
+  "hk_120": {
+    "title": "Großer Rat der Illusionisten",
+    "body": "Die Meister der Illusionen verlangen eine wichtigere Rolle in deiner Herrschaft.",
+    "choices": {
+      "A": "Lass sie die Massenwahrnehmung manipulieren.",
+      "B": "Rahme sie in eine klare Hierarchie ein.",
+      "C": "Schicke sie, um Zweifel in die Träume der Lebenden zu säen."
+    }
+  },
+  "hk_121": {
+    "title": "Lager geflüchteter Seelen",
+    "body": "Ein improvisiertes Lager von Seelen stellt sich als Zuflucht aus anderen Welten dar.",
+    "choices": {
+      "A": "Nimm sie massenhaft in dein System auf.",
+      "B": "Stelle sie unter ein streng kodifiziertes Regime.",
+      "C": "Nutze sie als Verhandlungsmasse mit der Oberfläche."
+    }
+  },
+  "hk_122": {
+    "title": "Markt gefälschter Erinnerungen",
+    "body": "Ein Markt verkauft Verdammten Erinnerungen, die nicht ihre eigenen sind.",
+    "choices": {
+      "A": "Nutze die Verwirrung, um Seelen einzusammeln.",
+      "B": "Normiere diese Tauschgeschäfte, um Auswüchse zu vermeiden.",
+      "C": "Exportiere einige falsche Erinnerungen zu beeinflussbaren Sterblichen."
+    }
+  },
+  "hk_123": {
+    "title": "Ausbruch eines Knochenvulkans",
+    "body": "Ein Vulkan aus Knochen und Schädeln erwacht.",
+    "choices": {
+      "A": "Füttere ihn mit Seelen, um seine Macht zu verstärken.",
+      "B": "Lenke ihn in einen infernalen Städtebauplan ein.",
+      "C": "Verbinde seinen Zorn mit bestimmten Orten an der Oberfläche."
+    }
+  },
+  "hk_124": {
+    "title": "Hof der Qualen",
+    "body": "Ein Hof spezialisiert sich auf endlose bürokratische Qualen.",
+    "choices": {
+      "A": "Schicke einen massiven Strom neuer Seelen dorthin.",
+      "B": "Mach daraus ein Herzstück deiner inneren Ordnung.",
+      "C": "Nutze dieses Modell als Vorbild für menschliche Verwaltungen."
+    }
+  },
+  "hk_125": {
+    "title": "Delegation fanatischer Frommer",
+    "body": "Seelen extremer Frommer wollen dir beweisen, dass sie eine besondere Behandlung verdienen.",
+    "choices": {
+      "A": "Nutze sie als Aushängeschild, um andere Gläubige anzuziehen.",
+      "B": "Gliedere sie in einen stark normierten Kreis ein.",
+      "C": "Richte sie gegen die religiösen Strukturen der Oberfläche."
+    }
+  },
+  "hk_126": {
+    "title": "Labyrinth aus schwarzem Glas",
+    "body": "Ein Labyrinth aus schwarzem Glas spiegelt die schlimmsten möglichen Entscheidungen jeder Seele.",
+    "choices": {
+      "A": "Stoße noch mehr Seelen in dieses Labyrinth.",
+      "B": "Kartiere die Wege, um totale Kontrolle zu behalten.",
+      "C": "Projiziere einige Visionen davon auf menschliche Entscheidungsträger."
+    }
+  },
+  "hk_127": {
+    "title": "Verräter in deinen Reihen",
+    "body": "Man flüstert, ein hochrangiger Dämon bereite einen Staatsstreich vor.",
+    "choices": {
+      "A": "Verdunkle das Gerücht, indem du Unschuldige bestrafst.",
+      "B": "Starte eine geheime, hierarchisch geführte Untersuchung.",
+      "C": "Nutze das Gerücht, um eine gezielte Säuberung an der Oberfläche auszulösen."
+    }
+  },
+  "hk_128": {
+    "title": "Lotterie der misslungenen Auferstehungen",
+    "body": "Einige Verdammte hoffen auf eine zweite Chance, lebend zurückzukehren.",
+    "choices": {
+      "A": "Verkaufe falsche Hoffnungen gegen Seelen.",
+      "B": "Schaffe ein streng überwachtes pseudo-offizielles Protokoll.",
+      "C": "Führe einige spektakuläre Rückkehrer vor, um die Sterblichen zu erschrecken."
+    }
+  },
+  "hk_129": {
+    "title": "Feld schwebender Käfige",
+    "body": "Schwebende Käfige enthalten Seelen, die sich endlos gegenseitig anklagen.",
+    "choices": {
+      "A": "Erhöhe die Zahl der Käfige, um mehr Geständnisse zu erhalten.",
+      "B": "Reguliere dieses Feld, um Auswüchse zu vermeiden.",
+      "C": "Nutze diese Denunziationen, um die Oberfläche zu manipulieren."
+    }
+  },
+  "hk_130": {
+    "title": "Vergiftetes Bankett",
+    "body": "Man schlägt dir vor, ein Bankett zu veranstalten, bei dem alles Illusion ist, außer den Giften.",
+    "choices": {
+      "A": "Lade möglichst viele einflussreiche Seelen dazu ein.",
+      "B": "Mach daraus ein seltenes, stark kodifiziertes Ritual.",
+      "C": "Verbinde es über Träume und Halluzinationen mit sterblichen Festen."
+    }
+  },
+  "hk_131": {
+    "title": "Neblige Brücke zur Oberfläche",
+    "body": "Eine Brücke aus Nebel erscheint und verbindet dein Reich kurzzeitig mit einem genauen Ort in der Welt der Lebenden.",
+    "choices": {
+      "A": "Lass die Seelen über diese Brücke strömen.",
+      "B": "Sichere jeden Übergang mit strengen Wachen.",
+      "C": "Schicke eine kleine Eliteeinheit, um diesen Ort zu erkunden."
+    }
+  },
+  "hk_132": {
+    "title": "Nebenthron der Illusionen",
+    "body": "Ein zweiter Thron erlaubt es, verschiedene Versionen deiner Herrschaft zu simulieren.",
+    "choices": {
+      "A": "Teste Szenarien, die die Zahl der Seelen maximieren.",
+      "B": "Teste Szenarien, die die Ordnung maximieren.",
+      "C": "Teste Szenarien, die auf die Oberfläche ausgerichtet sind."
+    }
+  },
+  "hk_133": {
+    "title": "Arena der Stolzduelle",
+    "body": "Eine Arena lässt Seelen gegeneinander antreten, die ihren Stolz nicht aufgeben können.",
+    "choices": {
+      "A": "Stachle diese Duelle an, um noch mehr Seelen zu brechen.",
+      "B": "Reguliere die Arena wie ein Tribunal des Stolzes.",
+      "C": "Wähle einige Sieger für Missionen an Land aus."
+    }
+  },
+  "hk_134": {
+    "title": "Friedhof der Versprechen",
+    "body": "Jedes Grab trägt den Namen eines verratenen Versprechens.",
+    "choices": {
+      "A": "Begrabe dort noch mehr gebrochene Seelen.",
+      "B": "Indexiere jedes Versprechen für perfekte Ordnung.",
+      "C": "Wecke einige Versprechen an der Oberfläche wieder auf."
+    }
+  },
+  "hk_135": {
+    "title": "Regen verbrannter Federn",
+    "body": "Verkohlte Federn fallen herab, Überreste von besiegten Kreaturen von oben.",
+    "choices": {
+      "A": "Mach daraus ein Siegeszeichen, um Seelen anzuziehen.",
+      "B": "Lagere sie in umgekehrten heiligen Archiven ein.",
+      "C": "Lass ein paar davon auf die Oberfläche fallen."
+    }
+  },
+  "hk_136": {
+    "title": "Rat der knurrenden Richter",
+    "body": "Ein Richterratsgremium verlangt mehr Autorität bei den Urteilen.",
+    "choices": {
+      "A": "Miss ihre Effizienz an der Masse der verurteilten Seelen.",
+      "B": "Ordne sie in eine starre Hierarchie unter deinem Blick ein.",
+      "C": "Beauftrage sie, auch bestimmte menschliche Handlungen zu richten."
+    }
+  },
+  "hk_137": {
+    "title": "Turm der rückwärts laufenden Uhren",
+    "body": "Uhren laufen rückwärts und verändern das Zeitgefühl.",
+    "choices": {
+      "A": "Stürze noch mehr Seelen in diese Verwirrung.",
+      "B": "Synchronisiere diese Uhren mit deiner inneren Ordnung.",
+      "C": "Lass diese seltsame Zeit in sterbliche Nächte entweichen."
+    }
+  },
+  "hk_138": {
+    "title": "Saal der königlichen Masken",
+    "body": "Ein Saal bewahrt die Gesichter all deiner Vorgänger auf.",
+    "choices": {
+      "A": "Stelle sie aus, um Furcht einzuflößen und Seelen anzuziehen.",
+      "B": "Ordne sie nach den Regeln der alten Könige.",
+      "C": "Projiziere diese Gesichter in die Träume einiger lebender Könige."
+    }
+  },
+  "hk_139": {
+    "title": "Messe der umgekehrten Wunder",
+    "body": "Eine Messe bietet „Wunder“ an, die die Lage immer verschlimmern.",
+    "choices": {
+      "A": "Lass die Seelen dorthin strömen.",
+      "B": "Begrenze die Stände, um die Kontrolle zu behalten.",
+      "C": "Verbinde diese Messe mit Scharlatanen an der Oberfläche."
+    }
+  },
+  "hk_140": {
+    "title": "Treppen ohne Ende",
+    "body": "Eine endlose Treppe zwingt die Verdammten, ziellos auf- oder abzusteigen.",
+    "choices": {
+      "A": "Erhöhe den Strom der darin gefangenen Seelen.",
+      "B": "Kartiere jede Stufe in deinen Registern.",
+      "C": "Lass schlaflose Menschen diese Stufen spüren."
+    }
+  },
+  "hk_141": {
+    "title": "Kredit des Leidens",
+    "body": "Man schlägt dir einen „Leidenskredit“ vor: jetzt mehr leiden, um später weniger zu leiden.",
+    "choices": {
+      "A": "Führe dieses System ein, um möglichst viele Seelen einzusammeln.",
+      "B": "Rahme es mit Regeln ein, die unmöglich zu erfüllen sind.",
+      "C": "Verkaufe diese Idee an einige Gurus an der Oberfläche."
+    }
+  },
+  "hk_142": {
+    "title": "Theater der Alternativleben",
+    "body": "Ein Theater spielt vor, was die Verdammten hätten werden können, wenn sie andere Entscheidungen getroffen hätten.",
+    "choices": {
+      "A": "Zwinge die Seelen, diese Stücke anzusehen.",
+      "B": "Organisiere ein vollständiges Repertoire, geordnet nach Art der Schuld.",
+      "C": "Projiziere Fragmente dieser Stücke in die Träume der Lebenden."
+    }
+  },
+  "hk_143": {
+    "title": "Versammlung müder Schreiber",
+    "body": "Die Schreiber sagen, selbst die Hölle erzeugt zu viel Papierkram.",
+    "choices": {
+      "A": "Stopfe ihnen zusätzliche Seelen zur Verwaltung hinein.",
+      "B": "Vereinfache einige Protokolle, um die Ordnung zu wahren.",
+      "C": "Delegiere einen Teil ihrer Last an menschliche Bürokraten."
+    }
+  },
+  "hk_144": {
+    "title": "Fest der singenden Glut",
+    "body": "Glutstücke singen verzerrte Hymnen in den Gängen.",
+    "choices": {
+      "A": "Lass ihren Gesang faszinierte Seelen anziehen.",
+      "B": "Lege genaue Zeiten und Orte für dieses Fest fest.",
+      "C": "Lass diese Gesänge in irdischen Kultstätten widerhallen."
+    }
+  },
+  "hk_145": {
+    "title": "Gewächshaus der Seelenpflanzen",
+    "body": "Ein Viertel liegt vollständig in Ruinen, und alle akzeptieren es so.",
+    "choices": {
+      "A": "Erhöhe ihre Zahl, um die Ernte zu beschleunigen.",
+      "B": "Organisiere dieses Gewächshaus als Musterinstitution.",
+      "C": "Verbinde diese Pflanzen mit bestimmten verfluchten Orten an der Oberfläche."
+    }
+  },
+  "hk_146": {
+    "title": "Turnier der perfekten Lügen",
+    "body": "Ein Turnier belohnt die zerstörerischste Lüge.",
+    "choices": {
+      "A": "Belohne vor allem die Menge der verlorenen Seelen.",
+      "B": "Trage jede Lüge in ein kodifiziertes Register ein.",
+      "C": "Teste diese Lügen in Netzwerken an der Oberfläche."
+    }
+  },
+  "hk_147": {
+    "title": "Riss zu einem Säuremeer",
+    "body": "Ein Meer aus höllischer Säure droht, einen ganzen Kreis zu überfluten.",
+    "choices": {
+      "A": "Stoße noch mehr Seelen hinein, um Angst zu machen.",
+      "B": "Errichte Deiche aus extrem streng kontrollierten Materialien.",
+      "C": "Nutze dieses Meer als obsessives Bild für bestimmte Sterbliche."
+    }
+  },
+  "hk_148": {
+    "title": "Krypta der nicht gestandenen Geheimnisse",
+    "body": "Eine Krypta enthält alles, was Lebende und Tote nie zu gestehen wagten.",
+    "choices": {
+      "A": "Stoße Seelen hinein, um sie zu brechen.",
+      "B": "Indexiere diese Geheimnisse als strategische Daten.",
+      "C": "Lass einige davon in irdische Skandale durchsickern."
+    }
+  },
+  "hk_149": {
+    "title": "Saal konkurrierender Throne",
+    "body": "Mehrere leere Throne scheinen auf andere Könige der Hölle zu warten.",
+    "choices": {
+      "A": "Nutze sie als Drohkulisse, um Seelen zu unterwerfen.",
+      "B": "Integriere sie in die Regeln der alten Könige.",
+      "C": "Zeige sie bestimmten sterblichen Tyrannen als Visionen."
+    }
+  },
+  "hk_150": {
+    "title": "Inventar paralleler Höllen",
+    "body": "Man schlägt dir vor, parallele, konkurrierende oder kaum geformte Höllen zu erfassen.",
+    "choices": {
+      "A": "Miss vor allem, wie viele Seelen du aufnehmen kannst.",
+      "B": "Mach daraus ein Werkzeug der Ordnung und Kontrolle über andere Ebenen.",
+      "C": "Nutze diese Informationen, um eine Expansion auf der Erde vorzubereiten."
+    }
+  },
+  "hk_151": {
+    "title": "Nordgrenze in Flammen",
+    "body": "Gerüchte sprechen von einem infernalen „Norden“, der beginnt, in deine Gebiete einzudringen.",
+    "choices": {
+      "A": "Schicke Legionen, um ihre Verteidigung zu testen.",
+      "B": "Beobachte aus der Distanz, um die Ordnung nicht zu brechen.",
+      "C": "Lass diese Gerüchte bis zur Oberfläche wehen, um Angst zu säen."
+    }
+  },
+  "hk_152": {
+    "title": "Botschafter des Nordens",
+    "body": "Ein Gesandter eines nördlichen infernalen Reiches bittet um eine Audienz bei dir.",
+    "choices": {
+      "A": "Empfange ihn mit großem Pomp, um seine Seelen anzuziehen.",
+      "B": "Unterwerfe ihn einer strengen und demütigenden Etikette.",
+      "C": "Schlage ihm ein geheimes Bündnis mit Blick auf die Oberfläche vor."
+    }
+  },
+  "hk_153": {
+    "title": "Angebot zur Teilung der Verdammten",
+    "body": "Der Norden schlägt einen Vertrag vor: bestimmte Kategorien Verdammter sollen zu gleichen Teilen aufgeteilt werden.",
+    "choices": {
+      "A": "Nimm an, um deine Bestände vorübergehend zu vergrößern.",
+      "B": "Lehne ab und stärke deine eigenen Register.",
+      "C": "Nimm offiziell an, leite aber einen Teil an die Oberfläche um."
+    }
+  },
+  "hk_154": {
+    "title": "Gefrorene Spione",
+    "body": "Spione berichten dir, dass der Norden seltsame eisige Strafen erprobt.",
+    "choices": {
+      "A": "Wirb ihre Folterknechte für deine Legionen ab.",
+      "B": "Ordne diese neuen Methoden in dein Handbuch der Qualen ein.",
+      "C": "Teste diese Schrecken an einigen Seelen von der Oberfläche."
+    }
+  },
+  "hk_155": {
+    "title": "Anklage der Usurpation",
+    "body": "Ein Herr des Nordens beschuldigt dich, einen alten vergessenen Titel gestohlen zu haben.",
+    "choices": {
+      "A": "Antworte mit einer Demonstration infernaler Macht.",
+      "B": "Fordere einen höllischen Prozess nach strengen Regeln.",
+      "C": "Dreh den Vorwurf um, indem du seine sterblichen Kontakte enthüllst."
+    }
+  },
+  "hk_156": {
+    "title": "Riss im infernalen Gletscher",
+    "body": "Ein Gletscher des Leidens im Norden bekommt Risse und lässt Schreie entweichen.",
+    "choices": {
+      "A": "Schicke deine Legionen, um zu holen, was daraus hervorkommt.",
+      "B": "Erstelle ein Notfallprotokoll, um den Riss einzudämmen.",
+      "C": "Öffne einen indirekten Weg zu kalten Regionen an der Oberfläche."
+    }
+  },
+  "hk_157": {
+    "title": "Schmuggel gefrorener Seelen",
+    "body": "Man meldet dir einen Handel mit gefrorenen Seelen, die durch deine Kreise geschleust werden.",
+    "choices": {
+      "A": "Nimm deinen Zehnten und sieh weg.",
+      "B": "Reguliere den Handel und erfasse jede Transaktion.",
+      "C": "Lass einen Teil dieses Handels in die Welt der Lebenden aufsteigen."
+    }
+  },
+  "hk_158": {
+    "title": "Koloss aus lebendigem Eis",
+    "body": "Ein von angeketteten Seelen belebter Eiskoloss bewegt sich auf deine Grenzen zu.",
+    "choices": {
+      "A": "Zerstöre ihn mit einer Schocktruppe.",
+      "B": "Sperre ihn in einen eigens dafür bestimmten Kreis, unter strengster Bewachung.",
+      "C": "Lenke diesen Koloss um, um einige sterbliche Städte in Angst zu versetzen."
+    }
+  },
+  "hk_159": {
+    "title": "Schwur der Nichtaggression",
+    "body": "Der Norden schickt dir einen in Eis eingeschriebenen Nichtangriffspakt.",
+    "choices": {
+      "A": "Unterschreibe, um dich auf andere Seelenquellen zu konzentrieren.",
+      "B": "Lehne ab und verstärke deine Grenzen.",
+      "C": "Unterschreibe, nutze die Atempause aber, um die Oberfläche zu infiltrieren."
+    }
+  },
+  "hk_160": {
+    "title": "Einberufung zum großen Rat",
+    "body": "Mehrere infernale Reiche, darunter der Norden, berufen einen großen außerordentlichen Rat ein.",
+    "choices": {
+      "A": "Schicke eine beeindruckende kriegerische Delegation.",
+      "B": "Erscheine nur mit deinen strengsten Verwaltern.",
+      "C": "Nutze den großen Rat, um Bündnisse auf der Erde zu knüpfen."
+    }
+  },
+  "hk_161": {
+    "title": "Krieg der höllischen Gesänge",
+    "body": "Die Kriegshymnen des Nordens konkurrieren mit denen deiner eigenen Legionen.",
+    "choices": {
+      "A": "Lass noch furchterregendere Gesänge komponieren.",
+      "B": "Verbiete jeden Gesang, der nicht von deiner Ordnung genehmigt ist.",
+      "C": "Lass diese Hymnen in den Albträumen der Lebenden widerhallen."
+    }
+  },
+  "hk_162": {
+    "title": "Brücke aus schwarzem Kristall",
+    "body": "Eine Brücke aus schwarzem Kristall verbindet dein Reich kurzzeitig mit einer Festung des Nordens.",
+    "choices": {
+      "A": "Schicke deine besten Legionen, um ihren Widerstand zu testen.",
+      "B": "Kontrolliere jeden Übergang auf dieser Brücke eng.",
+      "C": "Nutze diese Brücke, um ihre Kontakte an der Oberfläche auszuspionieren."
+    }
+  },
+  "hk_163": {
+    "title": "Teilung der Häresien",
+    "body": "Der Norden schlägt vor, verschiedene Häresien und sterbliche Kulte unter euch aufzuteilen.",
+    "choices": {
+      "A": "Nimm an, um schnelle Seelengewinne zu erhöhen.",
+      "B": "Lehne ab und kodifiziere deine eigenen unabhängigen Kulte.",
+      "C": "Unterschreibe, um menschliche Religionen besser diskret zu infiltrieren."
+    }
+  },
+  "hk_164": {
+    "title": "Kampf in den Lavatunneln",
+    "body": "In Stollen, in denen deine Truppen auf die des Nordens treffen, bricht ein Gefecht aus.",
+    "choices": {
+      "A": "Verstärke dort die militärische Präsenz, um dein Recht durchzusetzen.",
+      "B": "Lege offiziell Durchgangszonen fest.",
+      "C": "Installiere geheime Portale in die Welt der Lebenden."
+    }
+  },
+  "hk_165": {
+    "title": "Koalition der kleinen Reiche",
+    "body": "Kleine infernale Reiche wenden sich aus Angst vor dem Norden an dich.",
+    "choices": {
+      "A": "Schlucke sie mit Gewalt in dein Reich ein.",
+      "B": "Schaffe ein Bündnis unter strenger Protokollaufsicht.",
+      "C": "Nutze diese Reiche als Bauern auf der Oberfläche."
+    }
+  },
+  "hk_166": {
+    "title": "Kolloquium über moderne Folter",
+    "body": "Der Norden schlägt ein Kolloquium über neue Tendenzen der Folter vor.",
+    "choices": {
+      "A": "Schicke deine erfinderischsten Folterknechte dorthin.",
+      "B": "Erlaube die Teilnahme nur unter strenger Kontrolle.",
+      "C": "Fordere, dass einige Techniken auf der Erde getestet werden."
+    }
+  },
+  "hk_167": {
+    "title": "Sabotage der Schmieden",
+    "body": "Strategisch wichtige infernale Schmieden werden sabotiert, angeblich durch den Norden.",
+    "choices": {
+      "A": "Antworte mit einem Überraschungsangriff auf ihre Arsenale.",
+      "B": "Starte eine große interne Sicherheitsuntersuchung.",
+      "C": "Nutze das Chaos, um Operationen an der Oberfläche zu tarnen."
+    }
+  },
+  "hk_168": {
+    "title": "Handel mit Bannern",
+    "body": "Banner des Nordens, die dein verzerrtes Abbild tragen, zirkulieren in deinen Kreisen.",
+    "choices": {
+      "A": "Lass sie zirkulieren, um Hass und Angst zu schüren.",
+      "B": "Beschlagnahme und archiviere jedes Banner nach strengen Regeln.",
+      "C": "Schicke einige dieser Banner zu sterblichen Kulten."
+    }
+  },
+  "hk_169": {
+    "title": "Gerücht von eisigem Verrat",
+    "body": "Man munkelt, einige deiner Generäle bewunderten die Disziplin des Nordens.",
+    "choices": {
+      "A": "Säubere vorsorglich die Verdächtigen.",
+      "B": "Überwache ihre Taten über die Befehlskette.",
+      "C": "Nutze sie als Vermittler, um die Oberfläche zu manipulieren."
+    }
+  },
+  "hk_170": {
+    "title": "Monster aus schwarzem Eis",
+    "body": "Ein Monster aus schwarzem Eis ist in einem gemeinsam genutzten Korridor erwacht.",
+    "choices": {
+      "A": "Füttere es mit Seelen, um es deinem Willen zu unterwerfen.",
+      "B": "Sperre es hinter einer Reihe von Siegeln und Registern ein.",
+      "C": "Schicke es, um die Polarzonen der Welt der Lebenden heimzusuchen."
+    }
+  },
+  "hk_171": {
+    "title": "Projekt einer gemeinsamen Grenze",
+    "body": "Deine Verwalter schlagen vor, die Grenze zum Norden offiziell zu kodifizieren.",
+    "choices": {
+      "A": "Ziehe eine Grenze, um deine Legionen anderswo besser zu konzentrieren.",
+      "B": "Lehne ab, keine Grenze beschränkt dein Reich.",
+      "C": "Schaffe eine durchlässige Grenze zu einigen Punkten an der Oberfläche."
+    }
+  },
+  "hk_172": {
+    "title": "Gefangenenaustausch",
+    "body": "Der Norden schlägt einen Austausch besonders symbolischer Gefangener vor.",
+    "choices": {
+      "A": "Nimm an, um nützliche Seelen zurückzubekommen.",
+      "B": "Lehne ab und errichte ein strenges Protokoll für Gefangene.",
+      "C": "Nimm an, lass aber einige Gefangene an der Oberfläche frei."
+    }
+  },
+  "hk_173": {
+    "title": "Fest vergleichender Foltern",
+    "body": "Ein offizielles Fest vergleicht die Foltern des Nordens mit deinen.",
+    "choices": {
+      "A": "Betone die rohe Effizienz in Seelen.",
+      "B": "Betone Strenge und Protokoll.",
+      "C": "Exportiere die besten Ideen in menschliche Gesellschaften."
+    }
+  },
+  "hk_174": {
+    "title": "Verhandlung über Helden",
+    "body": "Der Norden verlangt einen Anteil an einigen besonders seltenen Heldenseelen.",
+    "choices": {
+      "A": "Gib einige Seelen gegen andere Zugeständnisse ab.",
+      "B": "Lehne ab und erkläre diese Seelen in deiner inneren Ordnung für unantastbar.",
+      "C": "Lass sie sich manchmal wiederverkörpern, um die Oberfläche zu beeinflussen."
+    }
+  },
+  "hk_175": {
+    "title": "Gesang der Nebel des Nordens",
+    "body": "Ein Gesang aus dem Norden lässt die Wände deiner Kreise vibrieren.",
+    "choices": {
+      "A": "Verstärke ihn, um noch mehr beeinflussbare Seelen anzuziehen.",
+      "B": "Filtere ihn durch ein Ritual, um ihn berechenbar zu machen.",
+      "C": "Lass diesen Gesang die Träume mancher Sterblichen streifen."
+    }
+  },
+  "hk_176": {
+    "title": "Geheimes Abkommen der Nichteinmischung",
+    "body": "Angst verbreitet sich überall wie eine Währung.",
+    "choices": {
+      "A": "Nimm an, um dein Reich kurzfristig zu stabilisieren.",
+      "B": "Lehne ab und festige deine innere Ordnung noch weiter.",
+      "C": "Unterschreibe, leite deine Intrigen aber auf die Oberfläche um."
+    }
+  },
+  "hk_177": {
+    "title": "Wettstreit der Strategen",
+    "body": "Deine Strategen wollen jene des Nordens in einem Wettstreit des Einflusses herausfordern.",
+    "choices": {
+      "A": "Bewerte den Sieg an der Menge gewonnener Seelen.",
+      "B": "Bewerte den Sieg an der in den Kreisen zurückgebrachten Stabilität.",
+      "C": "Bewerte den Sieg an der Größe der Unruhen an der Oberfläche."
+    }
+  },
+  "hk_178": {
+    "title": "Austausch von Handbüchern der Verdammung",
+    "body": "Man schlägt dir einen Austausch von Handbüchern vor, die verschiedene Methoden der Verdammung beschreiben.",
+    "choices": {
+      "A": "Nimm an, um deine Techniken zu bereichern.",
+      "B": "Lehne ab und stärke deine eigenen Normen.",
+      "C": "Passe einige Kapitel für einen diskreten Einsatz bei den Lebenden an."
+    }
+  },
+  "hk_179": {
+    "title": "Ritual der Verschmelzung der Feuer",
+    "body": "Ein Ritual könnte vorübergehend einige Feuer des Nordens und deine eigenen verschmelzen.",
+    "choices": {
+      "A": "Teste das Ritual, um die Seelenernte zu steigern.",
+      "B": "Verbiete es, bis es perfekt eingehegt ist.",
+      "C": "Leite einen Teil dieser Verschmelzung zur Oberfläche um."
+    }
+  },
+  "hk_180": {
+    "title": "Einladung zur Seelenjagd",
+    "body": "Der Norden lädt dich zu einer in den Kreisen groß vermarkteten „Seelenjagd“ ein.",
+    "choices": {
+      "A": "Mach mit und entfessle deine gefräßigsten Legionen.",
+      "B": "Setze strenge Regeln, um das Chaos zu begrenzen.",
+      "C": "Weite diese Jagd auf die Träume und Hoffnungen der Sterblichen aus."
+    }
+  },
+  "hk_181": {
+    "title": "Gemeinsames Tribunal",
+    "body": "Für einige Ausnahmefälle ist ein Tribunal vorgesehen, das gemeinsam von deinem Reich und dem Norden geleitet wird.",
+    "choices": {
+      "A": "Nimm an, um die Seelen noch stärker zu beeindrucken.",
+      "B": "Lehne ab und behalte das Monopol auf das Urteil.",
+      "C": "Nutze dieses Tribunal, um menschliche Figuren zu verurteilen."
+    }
+  },
+  "hk_182": {
+    "title": "Teilung der Foltermaschinen",
+    "body": "Der Norden schlägt vor, bestimmte „Technologien“ dauernder Agonie zu teilen.",
+    "choices": {
+      "A": "Passe sie an, um deine Seelenernte zu maximieren.",
+      "B": "Standardisiere sie geordnet in deinem Arsenal.",
+      "C": "Teste ihre Wirkung durch seltsame Phänomene auf der Erde."
+    }
+  },
+  "hk_183": {
+    "title": "Sabotage deiner Archive",
+    "body": "Deine zentralen Archive zeigen Spuren von Frost und Verderbnis aus dem Norden.",
+    "choices": {
+      "A": "Antworte, indem du ganze Teile ihrer Register verbrennst.",
+      "B": "Baue deine Archive mit verstärkter Strenge neu auf.",
+      "C": "Nutze das Chaos, um Spuren auf der Erde zu verwischen."
+    }
+  },
+  "hk_184": {
+    "title": "Angebot zur Verschmelzung der Pantheons",
+    "body": "Der Norden schlägt vor, eure Mythologien gegenüber den Sterblichen teilweise zu verschmelzen.",
+    "choices": {
+      "A": "Verschmelze sie, um die Anziehungskraft eurer Kulte zu erhöhen.",
+      "B": "Lehne ab und schütze eifersüchtig dein Bild.",
+      "C": "Nimm an, aber ziele vor allem auf menschliche Sekten."
+    }
+  },
+  "hk_185": {
+    "title": "Vergiftetes Geschenk",
+    "body": "Der Norden schickt dir ein Artefakt, das angeblich deine Legionen stärken soll, dessen Wirkungen aber unbekannt sind.",
+    "choices": {
+      "A": "Aktiviere es, um deine Truppen sofort zu stärken.",
+      "B": "Lege es in eine versiegelte Truhe und verzeichne es sorgfältig.",
+      "C": "Experimentiere damit an einigen menschlichen Mittelsmännern."
+    }
+  },
+  "hk_186": {
+    "title": "Vorgeschlagenes Duell zwischen Herrschern",
+    "body": "Ein Herrscher des Nordens schlägt ein symbolisches Duell vor, um bestimmte Streitigkeiten zu regeln.",
+    "choices": {
+      "A": "Nimm an und mache daraus ein grandioses Spektakel.",
+      "B": "Lehne ab, weil es deiner Würde nicht entspricht.",
+      "C": "Nimm an, verknüpfe das Duell aber mit Katastrophen auf der Erde."
+    }
+  },
+  "hk_187": {
+    "title": "Netzwerk des Seelenschmuggels",
+    "body": "Ein geheimes Netzwerk schleust Seelen ohne Erlaubnis von einem Reich ins andere.",
+    "choices": {
+      "A": "Lass es gedeihen, im Austausch für einen festen Anteil.",
+      "B": "Zerschlage es und erfasse jeden Schuldigen.",
+      "C": "Lenke es um, um Projekte an der Oberfläche zu speisen."
+    }
+  },
+  "hk_188": {
+    "title": "Ruf nach höherer Schlichtung",
+    "body": "Der Norden droht, eine noch ältere Entität anzurufen, um eure Konflikte zu entscheiden.",
+    "choices": {
+      "A": "Nimm das Risiko an, überzeugt von deiner Macht.",
+      "B": "Stärke deine Ordnung, um eine makellose Akte vorzulegen.",
+      "C": "Bereite symbolische Opfer unter den Lebenden vor."
+    }
+  },
+  "hk_189": {
+    "title": "Blutiger diplomatischer Zwischenfall",
+    "body": "Eine Delegation des Nordens wurde in einem deiner Kreise von Verdammten angegriffen.",
+    "choices": {
+      "A": "Beschuldige den Norden der Provokation und schlage zurück.",
+      "B": "Erkenne eigenes Versagen an und kodifiziere bessere Sicherheitsregeln.",
+      "C": "Nutze den Vorfall, um deinen Einfluss auf der Erde auszuweiten."
+    }
+  },
+  "hk_190": {
+    "title": "Rat der gekreuzten Flammen",
+    "body": "Ein großer Sonderrat vereint deine Flammen und jene des Nordens in einem einzigen Saal.",
+    "choices": {
+      "A": "Versuche, die Versammlung vollständig zu dominieren.",
+      "B": "Setze strenge Regeln für jeden Redebeitrag.",
+      "C": "Verbinde bestimmte Entscheidungen mit seltsamen Phänomenen an der Oberfläche."
+    }
+  },
+  "hk_191": {
+    "title": "Vertrag der Katastrophen",
+    "body": "Ein Ort, an dem die Hoffnung langsam verschwindet.",
+    "choices": {
+      "A": "Nutze die Gelegenheit, um mehr Seelen zu ernten.",
+      "B": "Setze Grenzen, um das Gleichgewicht deiner Kreise zu bewahren.",
+      "C": "Konzentriere diese Katastrophen auf wichtige menschliche Orte."
+    }
+  },
+  "hk_192": {
+    "title": "Experiment einer vereinten Hölle",
+    "body": "Ein kühnes Experiment bestünde darin, kurzzeitig Teile deiner Kreise mit denen des Nordens zu verschmelzen.",
+    "choices": {
+      "A": "Nimm an, um einen Schock massiver Verdammung zu erzeugen.",
+      "B": "Lehne ab, aus Angst vor totalem Chaos.",
+      "C": "Teste diese Vereinigung durch menschliche Albträume."
+    }
+  },
+  "hk_193": {
+    "title": "Aufstand der Boten",
+    "body": "Deine Boten, erschöpft von den Hin- und Rückwegen mit dem Norden, verlangen einen besonderen Status.",
+    "choices": {
+      "A": "Bezahle sie mit zusätzlichen Seelenfragmenten.",
+      "B": "Schaffe ein streng geregeltes Botenkorps.",
+      "C": "Leite sie teilweise auf Missionen an der Oberfläche um."
+    }
+  },
+  "hk_194": {
+    "title": "Widersprüchliche Buchführung",
+    "body": "Deine Register und die des Nordens stimmen in der genauen Zahl geteilter Seelen nicht überein.",
+    "choices": {
+      "A": "Du setzt deine Zahlen notfalls mit Gewalt durch.",
+      "B": "Du organisierst eine extrem gründliche infernale Prüfung.",
+      "C": "Du lässt einige Seelen an die Oberfläche verschwinden."
+    }
+  },
+  "hk_195": {
+    "title": "Projekt eines gemeinsamen Reiches",
+    "body": "Einige Berater schlagen vor, ein einziges Reich zu schaffen, das dein Königreich und den Norden verschmilzt.",
+    "choices": {
+      "A": "Unterstütze die Idee, um die allgemeine Macht zu steigern.",
+      "B": "Lehne sie ab, um die absolute Kontrolle über deine Ordnung zu behalten.",
+      "C": "Verhandle heimlich, um dieses Reich auf die Oberfläche auszurichten."
+    }
+  },
+  "hk_196": {
+    "title": "Aufstand der Archivare",
+    "body": "Deine Archivare beklagen sich darüber, eure Register wegen der Abkommen mit dem Norden ständig anpassen zu müssen.",
+    "choices": {
+      "A": "Dränge sie, noch härter zu arbeiten, um mehr Seelen aufzunehmen.",
+      "B": "Vereinfache einige Abkommen, um wieder klare Ordnung herzustellen.",
+      "C": "Übertrage einen Teil der Verwaltung an korrupte Institutionen."
+    }
+  },
+  "hk_197": {
+    "title": "Kammer der ewigen Kompromisse",
+    "body": "Eine spezielle Kammer verzeichnet jeden Kompromiss, den du mit anderen Höllen schließt.",
+    "choices": {
+      "A": "Vervielfache diese Kompromisse, um die Seelenströme zu maximieren.",
+      "B": "Begrenze diese Abkommen, um die Verwässerung deiner Autorität zu vermeiden.",
+      "C": "Nutze diese Kompromisse, um Ereignisse auf der Erde auszulösen."
+    }
+  },
+  "hk_198": {
+    "title": "Letzte Warnung des Nordens",
+    "body": "Der Norden stellt dir ein Ultimatum: Gib bestimmte Gebiete ab oder riskiere einen offenen Krieg.",
+    "choices": {
+      "A": "Lehne ab und bereite deine Legionen vor.",
+      "B": "Gib zweitrangige Gebiete ab, um Zeit zu gewinnen.",
+      "C": "Nimm offiziell an, verlagere den Einsatz aber auf die Oberfläche."
+    }
+  },
+  "hk_199": {
+    "title": "Vorbereitung eines großen Vertrags",
+    "body": "Ein großer Vertrag wird vorbereitet, um die Karte der Höllen neu zu zeichnen.",
+    "choices": {
+      "A": "Versuche vor allem, deinen Anteil an Seelen zu vergrößern.",
+      "B": "Versuche vor allem, die Stabilität deiner Ordnung zu sichern.",
+      "C": "Füge versteckte Klauseln ein, die Auswirkungen auf die Welt der Lebenden haben."
+    }
+  },
+  "hk_200": {
+    "title": "Unterschrift oder Bruch",
+    "body": "Deine Berater verkünden dir, dass der Vertrag mit dem Norden bereit ist, unterschrieben oder verworfen zu werden.",
+    "choices": {
+      "A": "Unterschreibe und verkünde den Beginn eines neuen höllischen Zeitalters.",
+      "B": "Lehne ab und nimm eine lange Phase organisierter Spannung in Kauf.",
+      "C": "Unterschreibe, während du an der Oberfläche schon neue Verderbnis vorbereitest."
+    }
+  },
+  "hk_201": {
+    "title": "Unkontrollierte Klimakrise",
+    "body": "Die Sterblichen lösen eine Serie von Klimakatastrophen aus, ohne wirklich langsamer zu werden.",
+    "choices": {
+      "A": "Treibe ihr zerstörerisches Verhalten bis zum Äußersten.",
+      "B": "Fördere einige Ordnungsmaßnahmen, um das Chaos zu verlängern.",
+      "C": "Lenke diese Stürme, um neue Risse zu testen."
+    }
+  },
+  "hk_202": {
+    "title": "Spirituelle Verschmutzung",
+    "body": "Die Herzen der Sterblichen sind gleichzeitig von ökologischer Schuld und Verdrängung gesättigt.",
+    "choices": {
+      "A": "Schüre ihre Schuld, um mehr Seelen zu ernten.",
+      "B": "Strukturiere verantwortungsvolle Reden, um die Ordnung zu bewahren.",
+      "C": "Lass diese Spannungen radikale Bewegungen an der Oberfläche durchziehen."
+    }
+  },
+  "hk_203": {
+    "title": "Aufstand der Küstenstädte",
+    "body": "Von steigenden Wassern bedrohte Städte verlangen Wunder.",
+    "choices": {
+      "A": "Lass die Katastrophe schlimmer werden, um die Verdammung zu beschleunigen.",
+      "B": "Flöße stark hierarchisierte, aber unzureichende Notfallpläne ein.",
+      "C": "Nutze die Panik, um verzweifelten Kulten den Weg zu öffnen."
+    }
+  },
+  "hk_204": {
+    "title": "Leck giftiger Abfälle",
+    "body": "Ein massives Leck vergiftet Land und Ozeane.",
+    "choices": {
+      "A": "Flüstere einigen Sterblichen ein, den Vorfall herunterzuspielen.",
+      "B": "Ermutige zur Einführung von Normen, die zu spät kommen.",
+      "C": "Lenke die Wut in gewaltsame politische Konflikte."
+    }
+  },
+  "hk_205": {
+    "title": "Krieg der Desinformation",
+    "body": "Die Qualen dort sind präzise organisiert.",
+    "choices": {
+      "A": "Füttere jedes Lager mit falschen Enthüllungen.",
+      "B": "Fördere einige „vernünftige“ Stimmen, um eine Struktur zu bewahren.",
+      "C": "Lass Gurus aufsteigen, die von diesem Nebel profitieren."
+    }
+  },
+  "hk_206": {
+    "title": "Soziale Netzwerke in Flammen",
+    "body": "Die Netzwerke der Oberfläche verwandeln sich in Arenen von Hass und Neid.",
+    "choices": {
+      "A": "Verstärke giftige Vergleiche und öffentliche Demütigungen.",
+      "B": "Stütze beruhigende Regeln, ohne wirklich zu handeln.",
+      "C": "Nutze diese Plattformen, um neue, getarnte Kulte zu verbreiten."
+    }
+  },
+  "hk_207": {
+    "title": "Influencer der Verzweiflung",
+    "body": "Einflussreiche Figuren verherrlichen Müdigkeit, Wut und Nihilismus.",
+    "choices": {
+      "A": "Steigere ihre Reichweite, um mehr gebrochene Seelen zu ernten.",
+      "B": "Rahme ihre Botschaft ein, um einen totalen Zusammenbruch der Ordnung zu vermeiden.",
+      "C": "Dränge sie, ihre Anhänger zu zerstörerischen Entscheidungen zu führen."
+    }
+  },
+  "hk_208": {
+    "title": "Überlastete infernale Versorgungsstellen",
+    "body": "Deine Versorgungsstellen laufen über. Selbst die Schwächsten werden beiseitegelassen.",
+    "choices": {
+      "A": "Lass die Anführer die Krise herunterspielen, um sie zu verschlimmern.",
+      "B": "Flöße eine starre Reform ein, unzureichend, aber strukturierend.",
+      "C": "Lenke die Wut auf extremistische Bewegungen."
+    }
+  },
+  "hk_209": {
+    "title": "Vermehrung moderner Sekten",
+    "body": "Neue Sekten versprechen Heilung, Reichtum und Sinn gegen totale Unterwerfung.",
+    "choices": {
+      "A": "Fördere ihre Ausbreitung, um massenhaft Seelen zu ernten.",
+      "B": "Lass die Institutionen Kontrollrahmen errichten.",
+      "C": "Bevorzuge Sekten, die besonders eng mit deinem Kult verbunden sind."
+    }
+  },
+  "hk_210": {
+    "title": "Niemand glaubt mehr an irgendetwas",
+    "body": "Die Sterblichen wissen nicht mehr, was wahr ist. Du kannst sie manipulieren.",
+    "choices": {
+      "A": "Verschleiere alles, um jeden Halt zu zerstören.",
+      "B": "Schaffe eine kontrollierte „offizielle Wahrheit“.",
+      "C": "Lass ein Heil für wenige Auserwählte aufscheinen."
+    }
+  },
+  "hk_211": {
+    "title": "Krieg um Ressourcen",
+    "body": "Mehrere Regionen streiten um Wasser, Nahrung und Energie.",
+    "choices": {
+      "A": "Ermutige brutale Entscheidungen und Plünderungen.",
+      "B": "Stütze fragile Abkommen, um die Spannung zu verlängern.",
+      "C": "Lass charismatische Anführer aufsteigen, die zu allem bereit sind."
+    }
+  },
+  "hk_212": {
+    "title": "Kriegsmaschinen ohne Herrn",
+    "body": "Die Sterblichen erschaffen Waffen, die ohne menschliches Erbarmen töten können.",
+    "choices": {
+      "A": "Dränge sie dazu, immer mehr Entscheidungen an diese Maschinen abzugeben.",
+      "B": "Ermutige zu komplexen, aber leicht umgehbaren Regulierungen.",
+      "C": "Lass einige dieser Waffen das „falsche“ Ziel wählen."
+    }
+  },
+  "hk_213": {
+    "title": "Totale Überwachung",
+    "body": "Überwachungssysteme beobachten jede Geste, jedes Wort.",
+    "choices": {
+      "A": "Lass Überwachung im Namen der Sicherheit akzeptiert werden.",
+      "B": "Schaffe genaue, beruhigende, aber sehr invasive Gesetze.",
+      "C": "Nutze diese Daten, um ganze Menschenmengen zu manipulieren."
+    }
+  },
+  "hk_214": {
+    "title": "Ansturm auf die KI",
+    "body": "Die Sterblichen vertrauen ihre Entscheidungen und ihre Aufmerksamkeit Systemen an, die sie nicht verstehen.",
+    "choices": {
+      "A": "Ermutige sie, ihr Urteilsvermögen aufzugeben.",
+      "B": "Strukturiere strenge Regeln, die oft ignoriert werden.",
+      "C": "Lenke diese Systeme subtil auf Werte der Dominanz."
+    }
+  },
+  "hk_215": {
+    "title": "Krise der Einsamkeit",
+    "body": "Noch nie waren die Sterblichen so vernetzt und zugleich so isoliert.",
+    "choices": {
+      "A": "Dränge sie dazu, die Leere mit zerstörerischen Exzessen zu füllen.",
+      "B": "Fördere einige Strukturen, um die soziale Ordnung zu bewahren.",
+      "C": "Lass geschlossene, fast sektenartige Gemeinschaften entstehen."
+    }
+  },
+  "hk_216": {
+    "title": "Städtische Unruhen",
+    "body": "Ganze Viertel erheben sich, brennen und ziehen sich in sich selbst zurück.",
+    "choices": {
+      "A": "Schüre den Zorn bis zum Punkt ohne Wiederkehr.",
+      "B": "Flöße den Ordnungskräften ein, strengen Protokollen zu folgen.",
+      "C": "Lass mitten im Chaos neue gewalttätige Anführer entstehen."
+    }
+  },
+  "hk_217": {
+    "title": "Massives Datenleck",
+    "body": "Die Geheimnisse von Millionen Sterblichen werden offengelegt.",
+    "choices": {
+      "A": "Nutze diese Daten, um jeden in seine schlimmste Versuchung zu treiben.",
+      "B": "Schlage Gesetze vor, die diese Lecks einrahmen, ohne sie zu stoppen.",
+      "C": "Nutze einige Geheimnisse, um menschliche Führer zu manipulieren."
+    }
+  },
+  "hk_218": {
+    "title": "Verweigerte Zuflucht für Umherirrende",
+    "body": "Umherziehende Menschenmengen aus verwüsteten Gebieten stoßen auf verschlossene Türen.",
+    "choices": {
+      "A": "Schüre die Angst vor dem Anderen und den Rückzug.",
+      "B": "Stütze strenge, aber als vernünftig dargestellte Politik.",
+      "C": "Schaffe gewalttätige Gruppen, die sich von diesen Spannungen nähren."
+    }
+  },
+  "hk_219": {
+    "title": "Globale Finanzkrise",
+    "body": "Die Märkte brechen ein, Reichtümer lösen sich auf, die Angst steigt.",
+    "choices": {
+      "A": "Dränge die Sterblichen dazu, alles auf unmittelbaren Gewinn zu setzen.",
+      "B": "Flöße komplizierte und ungleiche Rettungspläne ein.",
+      "C": "Nutze dieses Chaos, um einige Mächtige an deine Pakte zu binden."
+    }
+  },
+  "hk_220": {
+    "title": "Normalisierung der Korruption",
+    "body": "Korruption wird in wichtigen Institutionen zu einem Geheimnis, das jeder kennt.",
+    "choices": {
+      "A": "Ermutige zur Resignation: „Alle machen es doch“.",
+      "B": "Inszeniere einige gut kontrollierte Vorzeigeprozesse.",
+      "C": "Biete den am stärksten kompromittierten im Hintergrund infernale Verträge an."
+    }
+  },
+  "hk_221": {
+    "title": "Misstrauen gegenüber Wissen",
+    "body": "Die Sterblichen lehnen nach und nach das fundierteste Wissen ab.",
+    "choices": {
+      "A": "Fördere die absurdesten, aber verführerischsten Theorien.",
+      "B": "Stütze einige Institutionen, um einen Anschein von Ordnung zu bewahren.",
+      "C": "Schaffe öffentliche Figuren, die Wissenschaft, Verschwörung und Kult vermischen."
+    }
+  },
+  "hk_222": {
+    "title": "Grausamkeit als Spektakel",
+    "body": "Sie wollen das Leiden auf logischere Weise organisieren.",
+    "choices": {
+      "A": "Dränge die Sterblichen dazu, völlig abzustumpfen.",
+      "B": "Stütze strenge Regeln für Bilder, die kaum angewandt werden.",
+      "C": "Nutze dieses Spektakel, um grausame Seelen zu rekrutieren."
+    }
+  },
+  "hk_223": {
+    "title": "Kommerzialisierung von allem",
+    "body": "Sogar Intimität, Mitgefühl und Trauer werden zu Produkten.",
+    "choices": {
+      "A": "Ermutige den Verkauf von allem, was heilig ist.",
+      "B": "Lass einige Gesetze die sichtbarsten Exzesse begrenzen.",
+      "C": "Schaffe falsche Wohltätigkeitswerke, die deinen Interessen dienen."
+    }
+  },
+  "hk_224": {
+    "title": "Kult der Leistung",
+    "body": "Die Sterblichen definieren sich nur noch über Ergebnisse, Zahlen und Erfolge.",
+    "choices": {
+      "A": "Treibe diesen Kult bis zur Selbstzerstörung.",
+      "B": "Strukturiere Regeln des „Wohlbefindens“, eingebettet in Produktivität.",
+      "C": "Nutze diesen Druck, um wichtige Pakte unterzeichnen zu lassen."
+    }
+  },
+  "hk_225": {
+    "title": "Zusammenbruch des wilden Lebens",
+    "body": "Die Oberfläche verliert ihre Arten, ihre Wälder und ihre alten Gleichgewichte.",
+    "choices": {
+      "A": "Förder das Gefühl von Unvermeidlichkeit und „zu spät“.",
+      "B": "Stütze streng geregelte, aber unzureichende Schutzmaßnahmen.",
+      "C": "Verwandle diesen Verlust in Kraft für extreme Bewegungen."
+    }
+  },
+  "hk_226": {
+    "title": "Immer mehr",
+    "body": "Die Menschen arbeiten bis zur Erschöpfung.",
+    "choices": {
+      "A": "Treibe die Chefs dazu, noch mehr zu verlangen.",
+      "B": "Setze Regeln auf, voller Ausnahmen.",
+      "C": "Erschaffe Süchte, damit sie weiterlaufen."
+    }
+  },
+  "hk_227": {
+    "title": "Innere Verödung",
+    "body": "Die Sterblichen verlieren den Geschmack für Nuancen, Kunst und Langsamkeit.",
+    "choices": {
+      "A": "Dränge sie zu leerer und unaufhörlicher Unterhaltung.",
+      "B": "Förder einige stark kodifizierte Kultureinrichtungen.",
+      "C": "Lass künstlerische Bewegungen aus Verzweiflung entstehen."
+    }
+  },
+  "hk_228": {
+    "title": "Krise der Familie",
+    "body": "Familienbande zerbrechen zwischen Spannungen, Schweigen und Flucht.",
+    "choices": {
+      "A": "Nähre Verbitterung, Ungesagtes und harte Brüche.",
+      "B": "Förder starre Familienmodelle, die manchmal ersticken.",
+      "C": "Nutze diese Brüche, um isolierte Seelen zu rekrutieren."
+    }
+  },
+  "hk_229": {
+    "title": "Markt künstlicher Erinnerungen",
+    "body": "Unternehmen versprechen, Erinnerungen neu zu erschaffen oder auszulöschen.",
+    "choices": {
+      "A": "Dränge die Sterblichen dazu, vor der Realität in diese Illusionen zu fliehen.",
+      "B": "Rahme diese Praktiken mit komplexen, aber schwachen Gesetzen ein.",
+      "C": "Pflanze in diese Erinnerungen Spuren deines Einflusses."
+    }
+  },
+  "hk_230": {
+    "title": "Auslöschung kollektiver Hoffnung",
+    "body": "Eine dumpfe Welle erfasst die Oberfläche: Niemand glaubt mehr an eine bessere Zukunft.",
+    "choices": {
+      "A": "Verwandle diese Verzweiflung in totale Apathie und einsame Laster.",
+      "B": "Lass einige gemeinsame Projekte entstehen, streng kontrolliert.",
+      "C": "Biete durch Propheten ein „Heil“ an, das zu dir führt."
+    }
+  },
+  "hk_231": {
+    "title": "Abdriftende Weltraumkolonien",
+    "body": "Orbitalstationen und ferne Kolonien entgleiten nach und nach jeder irdischen Kontrolle.",
+    "choices": {
+      "A": "Dränge die Kolonisten dazu, endgültig mit der Erde zu brechen.",
+      "B": "Flöße starre Charten ein, um eine Verbindung der Ordnung zu bewahren.",
+      "C": "Lass in diesen isolierten Gemeinschaften Kulte entstehen, die auf dich ausgerichtet sind."
+    }
+  },
+  "hk_232": {
+    "title": "Wettlauf um Weltraumressourcen",
+    "body": "Die Sterblichen begehren Asteroiden, Monde, alles, was sich ausbeuten lässt.",
+    "choices": {
+      "A": "Schüre die Gier nach Profit unter Missachtung jeder Vorsicht.",
+      "B": "Förder komplizierte, aber instabile Weltraumverträge.",
+      "C": "Verwandle diese Einsätze in fast religiöse Rivalitäten zwischen Nationen."
+    }
+  },
+  "hk_233": {
+    "title": "Überall Metaversen",
+    "body": "Die Menschen verbringen ihr Leben in virtuellen Welten. Du kannst sie nutzen, um sie zu fangen.",
+    "choices": {
+      "A": "Sperre sie dort ein und entleere sie ihres Willens.",
+      "B": "Setze Grenzen, um eine falsche Ruhe zu bewahren.",
+      "C": "Schaffe verborgene Zonen, die deinem Kult gewidmet sind."
+    }
+  },
+  "hk_234": {
+    "title": "Ewiger Avatar",
+    "body": "Eine Technologie verspricht, das Bewusstsein der Sterblichen in digitalen Avataren unsterblich zu machen.",
+    "choices": {
+      "A": "Förder diese Flucht vor dem wirklichen Tod.",
+      "B": "Rahme diese Pseudo-Unsterblichkeit mit strengen Regeln ein.",
+      "C": "Schmuggle Risse ein, um deinen Einfluss hindurchzuleiten."
+    }
+  },
+  "hk_235": {
+    "title": "Chaotischer Transhumanismus",
+    "body": "Implantate, genetische Veränderungen, Optimierungen des Körpers: Manche Sterbliche definieren sich neu.",
+    "choices": {
+      "A": "Treibe die extremsten Modifikationen voran.",
+      "B": "Schaffe rechtliche Normen, widersprüchlich und komplex.",
+      "C": "Reserviere einige „Verbesserungen“ für Diener, die an dich gebunden sind."
+    }
+  },
+  "hk_236": {
+    "title": "Inoffizielles Klonen",
+    "body": "Geheime Labore spielen ohne jeden Rahmen mit menschlichem Klonen.",
+    "choices": {
+      "A": "Lass diese Experimente im Geheimen wuchern.",
+      "B": "Lass bestimmte Informationen durchsickern, um spektakuläre Gesetze durchzusetzen.",
+      "C": "Markiere einige Klone mit einem Zeichen, das deinen Dienern bekannt ist."
+    }
+  },
+  "hk_237": {
+    "title": "Handel mit verfluchten Heilmitteln",
+    "body": "Ein Handel mit seltenen Heilmitteln und verfluchten Produkten floriert im Schatten.",
+    "choices": {
+      "A": "Förder den Zynismus: Alles hat einen Preis, sogar der Körper.",
+      "B": "Stütze sehr sichtbare, aber oberflächliche Polizeieinsätze.",
+      "C": "Nutze einige Kanäle, um Chirurgen an deine Pakte zu binden."
+    }
+  },
+  "hk_238": {
+    "title": "Bioengineering-Revolution",
+    "body": "Veränderte Pflanzen, Tiere und Bakterien beginnen, ganze Ökosysteme umzuformen.",
+    "choices": {
+      "A": "Dränge die Sterblichen dazu, zu testen, ohne auf die Folgen zu warten.",
+      "B": "Setze Testprotokolle durch, die schnell umgangen werden.",
+      "C": "Schaffe besondere Stämme, die deine künftigen Kulte begünstigen."
+    }
+  },
+  "hk_239": {
+    "title": "Tourismus des Dramas",
+    "body": "Sterbliche zahlen dafür, Katastrophengebiete, Schlachtfelder und Orte des Dramas zu besuchen.",
+    "choices": {
+      "A": "Banalisiere diesen Tourismus, bis er zur Massenunterhaltung wird.",
+      "B": "Rahme diese Praktiken mit strengen, aber symbolischen Regeln ein.",
+      "C": "Ziehe diese Besucher zu Erfahrungen, die ihr Mitgefühl zerstören."
+    }
+  },
+  "hk_240": {
+    "title": "Kommerzielle Erinnerung der Toten",
+    "body": "Unternehmen verwalten die Profile und Nachrichten der Verstorbenen als Ressource, die man verkaufen kann.",
+    "choices": {
+      "A": "Monetarisiere die Präsenz der Toten im Leben der Lebenden maximal.",
+      "B": "Errichte einige gesetzliche Grenzen für die Nutzung dieser Daten.",
+      "C": "Schmuggle in diese Archive Botschaften ein, die zu dir führen."
+    }
+  },
+  "hk_241": {
+    "title": "Politik des Sündenbocks",
+    "body": "Anführer bezeichnen systematisch Gruppen als Schuldige für alles.",
+    "choices": {
+      "A": "Verstärke diese Strategie bis zur offenen Verfolgung.",
+      "B": "Förder Kommissionen, um eine Form von Ordnung zu bewahren.",
+      "C": "Verwandle diese Spannungen in fast religiöse Konflikte."
+    }
+  },
+  "hk_242": {
+    "title": "Theatralische Justiz",
+    "body": "Prozesse werden vor allem zu Medien-Shows und nicht mehr zu Orten der Wahrheit.",
+    "choices": {
+      "A": "Ermutige schnelle und spektakuläre Urteile.",
+      "B": "Erzwinge sehr strenge Regeln, die oft umgangen werden.",
+      "C": "Nutze diese Spektakel, um deine Feinde zu zerschlagen."
+    }
+  },
+  "hk_243": {
+    "title": "Bildung in Trümmern",
+    "body": "Die Bildungssysteme brechen unter Ungleichheit, Spannungen und Müdigkeit zusammen.",
+    "choices": {
+      "A": "Dränge jede Generation dazu, noch ernüchterter hervorzukommen als die vorige.",
+      "B": "Strukturiere komplexe Reformen, die sich alle fünf Jahre ändern.",
+      "C": "Schaffe Parallelschulen im Dienst deiner Ideologie."
+    }
+  },
+  "hk_244": {
+    "title": "Chemischer Nebel",
+    "body": "Reue häuft sich dort endlos an.",
+    "choices": {
+      "A": "Mach diesen Gebrauch alltäglich, um jede echte Reflexion zu verhindern.",
+      "B": "Rahme einige Produkte ein und lass andere gedeihen.",
+      "C": "Verbinde manche Vertriebsnetze mit deinen Dienern."
+    }
+  },
+  "hk_245": {
+    "title": "Kolonisierung der Träume",
+    "body": "Werbung, Bildschirme und Müdigkeit dringen sogar in den Schlaf der Sterblichen ein.",
+    "choices": {
+      "A": "Verwische die Grenze zwischen Traum und sozialem Druck.",
+      "B": "Lass Reden über die „heilige Ruhe“ entstehen, denen kaum jemand folgt.",
+      "C": "Nutze diese Träume, um Symbole einzupflanzen, die zu dir führen."
+    }
+  },
+  "hk_246": {
+    "title": "Spiritualitäten des Marktes",
+    "body": "Eine Vielzahl kleiner Spiritualitäten verkauft inneren Frieden, Erfolg und Gelassenheit im Bausatz.",
+    "choices": {
+      "A": "Förder permanentes spirituelles Zapping.",
+      "B": "Rahme diese Praktiken in respektablen Institutionen ein.",
+      "C": "Verstecke manche Rituale unter „persönlicher Entwicklung“."
+    }
+  },
+  "hk_247": {
+    "title": "Vergöttlichung der Berühmtheit",
+    "body": "Bekannt zu sein wird wichtiger als alles, was man wirklich ist.",
+    "choices": {
+      "A": "Dränge die Sterblichen, alles für ein wenig Ruhm zu opfern.",
+      "B": "Schaffe moralische Codes rund um die „richtige“ Berühmtheit.",
+      "C": "Nutze diese Gier, um schnelle und gefährliche Pakte anzubieten."
+    }
+  },
+  "hk_248": {
+    "title": "Flucht in Steuerparadiese",
+    "body": "Reichtum gleitet in Zonen außerhalb der Reichweite der meisten Gesetze.",
+    "choices": {
+      "A": "Förder die extreme Konzentration der Vermögen.",
+      "B": "Stütze internationale Abkommen, die undurchsichtig und unvollständig sind.",
+      "C": "Knüpfe Pakte mit einigen großen Vermögensinhabern."
+    }
+  },
+  "hk_249": {
+    "title": "Gewöhnliche seelische Grausamkeit",
+    "body": "Seelische Grausamkeit wird im Alltag banal.",
+    "choices": {
+      "A": "Mach aus dieser stillen Gewalt eine kulturelle Norm.",
+      "B": "Setze Charten durch, die eine Illusion von Schutz geben.",
+      "C": "Verwandle manche Opfer in Peiniger und dann in Diener."
+    }
+  },
+  "hk_250": {
+    "title": "Angst vor dem Altern",
+    "body": "Die Sterblichen wollen länger leben, ganz gleich um welchen Preis.",
+    "choices": {
+      "A": "Nähre ihre Besessenheit bis zum Wahn.",
+      "B": "Verkaufe eine „Lösung“, die den Reichen vorbehalten ist.",
+      "C": "Biete zusätzliche Jahre an gegen ihre Seele."
+    }
+  },
+  "hk_251": {
+    "title": "Federregen",
+    "body": "Ein Regen goldener Federn fällt in deine Kreise. Die Verdammten begreifen, dass sich das Paradies zeigt.",
+    "choices": {
+      "A": "Entweihe diese Federn, indem du sie unter dem Geschrei der Seelen verbrennst.",
+      "B": "Verzeichne sie als Beweisstücke in deinen Archiven.",
+      "C": "Lass sie als zweideutige „Wunder“ an die Oberfläche aufsteigen."
+    }
+  },
+  "hk_252": {
+    "title": "Bote mit zu weißen Flügeln",
+    "body": "Ein Engelsbote steigt mit einer Pergamentrolle herab: Das Paradies fordert ein neues Grenzabkommen.",
+    "choices": {
+      "A": "Zerreiße die Pergamentrolle vor seinen Augen und bekräftige deine Souveränität.",
+      "B": "Akzeptiere ein äußerst starres Verhandlungsprotokoll.",
+      "C": "Lass einige Sterbliche von der Existenz dieses Engels erfahren."
+    }
+  },
+  "hk_253": {
+    "title": "Umstrittene Seelen",
+    "body": "Einige Tote werden gleichzeitig vom Paradies und von dir beansprucht.",
+    "choices": {
+      "A": "Erkläre, dass jede Unklarheit zu deinen Gunsten entschieden wird.",
+      "B": "Schaffe ein Schiedsgericht mit infernal komplexen Regeln.",
+      "C": "Lass einige Fälle sich in Visionen auf der Erde verlieren."
+    }
+  },
+  "hk_254": {
+    "title": "Störende himmlische Gesänge",
+    "body": "Gesänge aus dem Paradies sind bis in den Grund deiner Gruben zu hören.",
+    "choices": {
+      "A": "Übertöne diese Gesänge mit einem Lärm aus Klagen.",
+      "B": "Analysiere und ordne sie akribisch in deine Register ein.",
+      "C": "Lass diese Melodien in verzerrter Form in Träume eindringen."
+    }
+  },
+  "hk_255": {
+    "title": "Petition der Heiligen",
+    "body": "Eine Gruppe von Heiligen fordert offiziell mehr Mitgefühl für bestimmte Verdammte.",
+    "choices": {
+      "A": "Lache offen über ihre Naivität.",
+      "B": "Öffne eine „Neubewertungsakte“, so lang wie die Ewigkeit.",
+      "C": "Lass die Idee einer Amnestie einige sterbliche Herzen anstecken."
+    }
+  },
+  "hk_256": {
+    "title": "Abkommen der Nichteinmischung",
+    "body": "Das Paradies schlägt einen Pakt vor: weniger direkte Versuchungen gegen weniger spektakuläre Wunder.",
+    "choices": {
+      "A": "Lehne ab und setze den totalen Krieg des Einflusses fort.",
+      "B": "Nimm an und kodifiziere jede Ausnahme genau.",
+      "C": "Unterschreibe offiziell, verlagere das Spiel aber auf die Oberfläche."
+    }
+  },
+  "hk_257": {
+    "title": "Überforderte Engel",
+    "body": "Schutzengel beklagen sich oben: Zu viele Seelen gleiten zu dir hinüber.",
+    "choices": {
+      "A": "Vervielfache die Gelegenheiten zum Fall, um ihre Grenzen zu testen.",
+      "B": "Akzeptiere einige „Korridore der Gnade“, um die Gesamtordnung zu wahren.",
+      "C": "Lass frustrierte Engel die Sterblichen auf dunklere Weise beeinflussen."
+    }
+  },
+  "hk_258": {
+    "title": "Rissige Lichtbrücke",
+    "body": "Eine alte Lichtbrücke zwischen Paradies und Hölle bekommt Risse und legt unerwartete Durchgänge frei.",
+    "choices": {
+      "A": "Sabotiere die Brücke, um jede direkte Verbindung zu kappen.",
+      "B": "Stelle die Brücke unter strenge Verwaltungskontrolle.",
+      "C": "Lass einige Risse zufällig auf die Oberfläche führen."
+    }
+  },
+  "hk_259": {
+    "title": "Flüchtige Seele",
+    "body": "Eine dem Paradies versprochene Seele hat es durch List geschafft, in deine Kreise zu gelangen.",
+    "choices": {
+      "A": "Behalte sie als Trophäe trotz des diplomatischen Risikos.",
+      "B": "Schicke sie mit einem detaillierten Bericht zurück, der deinen guten Willen beweist.",
+      "C": "Schicke sie erst zurück, nachdem sie die Hölle und die Oberfläche gesehen hat."
+    }
+  },
+  "hk_260": {
+    "title": "Abgebrochenes Wunder",
+    "body": "Ein auf der Erde vorbereitetes Wunder wird durch deine Manöver plötzlich vereitelt.",
+    "choices": {
+      "A": "Brüste dich vor den Engeln damit, ihr kleines Schauspiel zerstört zu haben.",
+      "B": "Verzeichne dieses himmlische Scheitern in deinen Archiven für später.",
+      "C": "Lass das Gerücht eines misslungenen Wunders den Glauben vergiften."
+    }
+  },
+  "hk_261": {
+    "title": "Wettbewerb der Messiasse",
+    "body": "Mehrere Gestalten geben sich als von oben gesandte Retter aus und einige kommen nicht aus dem Paradies.",
+    "choices": {
+      "A": "Vervielfache die falschen Propheten, um jedes wahre Licht zu verwässern.",
+      "B": "Rahme ihre Bewegungen mit infernalen Kontrollregeln ein.",
+      "C": "Lass einige aufrichtige Auserwählte bestehen unter starkem Druck der Finsternis."
+    }
+  },
+  "hk_262": {
+    "title": "Zorn eines Erzengels",
+    "body": "Ein Erzengel droht, seinen Zorn über einige deiner Kreise zu entfesseln.",
+    "choices": {
+      "A": "Provoziere weiter und teste seine Grenzen.",
+      "B": "Gib ein kleines Symbol preis, um das Gleichgewicht zu bewahren.",
+      "C": "Lenke seinen Zorn auf dramatische Ereignisse auf der Erde um."
+    }
+  },
+  "hk_263": {
+    "title": "Verhandlungen über das Fegefeuer",
+    "body": "Das Paradies will eine Zwischenzone verstärken, um deine Gefängnisse zu entlasten.",
+    "choices": {
+      "A": "Lehne ab, du gibst unterwegs keine Seele zurück.",
+      "B": "Nimm an, aber setze strenge Sortierregeln durch.",
+      "C": "Nutze dieses Fegefeuer, um die Lebenden in Visionen zu beeinflussen."
+    }
+  },
+  "hk_264": {
+    "title": "Fahnenflucht eines Engels",
+    "body": "Man munkelt, ein Engel habe das Paradies verlassen, angewidert von bestimmten Entscheidungen.",
+    "choices": {
+      "A": "Nimm ihn auf und mache ihn zum Symbol deiner Überlegenheit.",
+      "B": "Befrage ihn methodisch und zeichne jedes Detail auf.",
+      "C": "Schicke diesen gefallenen Engel heimlich aus, um Unruhe an der Oberfläche zu stiften."
+    }
+  },
+  "hk_265": {
+    "title": "Blockierte Gebete",
+    "body": "Die Gebete verschwinden. Die Sterblichen geraten in Panik und suchen Antworten.",
+    "choices": {
+      "A": "Lass den Zweifel wachsen.",
+      "B": "Lass sie glauben, „alles sei unter Kontrolle“.",
+      "C": "Antworte auf deine Weise, indem du dich als Himmel ausgibst."
+    }
+  },
+  "hk_266": {
+    "title": "Vorwurf der Einmischung",
+    "body": "Das Paradies beschuldigt dich, dich in Wunder einzumischen, um sie zu pervertieren.",
+    "choices": {
+      "A": "Steh offen dazu und fordere die Engel heraus, einzugreifen.",
+      "B": "Leugne alles und verlange eine himmlisch-höllische Prüfung.",
+      "C": "Mach weiter, aber nur über irdische „Zufälle“."
+    }
+  },
+  "hk_267": {
+    "title": "Lichtaustritt",
+    "body": "Ein Licht von oben dringt in einen Teil deiner Tunnel ein.",
+    "choices": {
+      "A": "Verschlinge es mit deiner Finsternis, bevor es sich ausbreitet.",
+      "B": "Schließe es in einen versiegelten, sorgfältig katalogisierten Raum ein.",
+      "C": "Lass einige Spiegelungen an den Horizont der Sterblichen zurückgeworfen werden."
+    }
+  },
+  "hk_268": {
+    "title": "Dissonanter Chor",
+    "body": "Die Gesänge deiner Verdammten überlagern sich mit einem Engelschor. Das Ergebnis ist seltsam.",
+    "choices": {
+      "A": "Mach aus diesem Klangchaos eine Waffe des Schreckens.",
+      "B": "Versuche, diese Dissonanzen in deinen Ritualen zu kodifizieren.",
+      "C": "Lass diesen Nachhall in die Ohren mancher sterblicher Künstler gelangen."
+    }
+  },
+  "hk_269": {
+    "title": "Hartnäckiger Schutzheiliger",
+    "body": "Ein Heiliger weigert sich, eine Stadt vollständig in deinen Einfluss fallen zu lassen.",
+    "choices": {
+      "A": "Vervielfache gezielte Versuchungen, um seinen Widerstand zu brechen.",
+      "B": "Umgehe diesen Heiligen, indem du andere Orte angreifst.",
+      "C": "Lass unter den Lebenden Skandale um sein Andenken entstehen."
+    }
+  },
+  "hk_270": {
+    "title": "Echte Reliquie",
+    "body": "Eine echte, mit dem Paradies verbundene Reliquie taucht auf der Erde wieder auf.",
+    "choices": {
+      "A": "Umgib sie mit falschen Wundern, um ihren Sinn zu verwischen.",
+      "B": "Trage sie diskret in deine Register als zu überwachendes Objekt ein.",
+      "C": "Treibe einige dazu, sich gegenseitig umzubringen, um sie zu kontrollieren."
+    }
+  },
+  "hk_271": {
+    "title": "Himmlische Prozession",
+    "body": "Einige versuchen, Strafen kontrollierter zu gestalten.",
+    "choices": {
+      "A": "Versuche, einige Seelen während des Durchgangs einzufangen.",
+      "B": "Lass sie passieren, um einen größeren Zwischenfall zu vermeiden.",
+      "C": "Projiziere diese Vision in die Träume einiger instabiler Sterblicher."
+    }
+  },
+  "hk_272": {
+    "title": "Überarbeitung der Verdammungsregeln",
+    "body": "Das Paradies schlägt vor, die Liste der Todsünden zu überarbeiten.",
+    "choices": {
+      "A": "Weise jede Reform zurück, die deine Ernte begrenzen würde.",
+      "B": "Akzeptiere unter der Bedingung, dass du selbst das Kleingedruckte schreibst.",
+      "C": "Schreibe einige Vergehen neu, um moderne Sterbliche besser zu fangen."
+    }
+  },
+  "hk_273": {
+    "title": "Entfesselter Engelkult",
+    "body": "Auf der Erde idealisieren manche Sterbliche die Engel, bis sie sie zu Götzen machen.",
+    "choices": {
+      "A": "Förder den Götzendienst, um die wahre Spiritualität abzulenken.",
+      "B": "Lass das Paradies mit dieser peinlichen Entgleisung selbst fertigwerden.",
+      "C": "Schmuggle in diese Kulte Symbole ein, die dir gehören."
+    }
+  },
+  "hk_274": {
+    "title": "Verhandlung über Märtyrer",
+    "body": "Das Paradies will die Seelen von Märtyrern zurückholen, die du für verdorben hältst.",
+    "choices": {
+      "A": "Lehne ab, ein fanatischer Märtyrer nährt dich perfekt.",
+      "B": "Akzeptiere von Fall zu Fall nach detaillierter Prüfung.",
+      "C": "Lass sie manchmal wieder aufsteigen, aber gezeichnet von deinen Narben."
+    }
+  },
+  "hk_275": {
+    "title": "Regen lokaler Wunder",
+    "body": "Eine Region erlebt eine Serie kleiner Wunder, die dem Paradies zugeschrieben werden.",
+    "choices": {
+      "A": "Schlage mit einer Lawine gezielter Versuchungen zurück.",
+      "B": "Überwache und archiviere jedes Ereignis, ohne direkt einzugreifen.",
+      "C": "Verwandle diese Wunder in eine Quelle von Neid und sozialem Chaos."
+    }
+  },
+  "hk_276": {
+    "title": "Zerbrochene Harfe",
+    "body": "Eine himmlische Harfe fällt in einem deiner Feuerseen in Stücke.",
+    "choices": {
+      "A": "Mach daraus ein Instrument akustischer Folter.",
+      "B": "Bewahre sie unversehrt als Beweis für ein Scheitern des Paradieses auf.",
+      "C": "Lass Fragmente davon in die Welt der Künstler aufsteigen."
+    }
+  },
+  "hk_277": {
+    "title": "Gerücht der Versöhnung",
+    "body": "Ein Gerücht macht die Runde: Eines Tages würden Paradies und Hölle versöhnt werden.",
+    "choices": {
+      "A": "Mach diese Idee lächerlich, bis sie verschwindet.",
+      "B": "Trage sie als ferne Hypothese in deine Archive ein.",
+      "C": "Lass dieses Gerücht seltsame Sekten auf der Erde nähren."
+    }
+  },
+  "hk_278": {
+    "title": "Seelen im Transit",
+    "body": "Ein seltener Korridor erlaubt Seelen, Paradies und Hölle kurz zu sehen, bevor sie wählen.",
+    "choices": {
+      "A": "Manipuliere den Korridor, damit er häufiger bei dir endet.",
+      "B": "Setze strenge Regeln für die Nutzung dieses Durchgangs.",
+      "C": "Projiziere diese Wahl in die Träume einiger Lebender."
+    }
+  },
+  "hk_279": {
+    "title": "Streit um die Gebete",
+    "body": "Das Paradies behauptet, viele Gebete der Sterblichen stünden ihm zu.",
+    "choices": {
+      "A": "Widersprich, manche jungen Sterblichen können schon dir zufallen.",
+      "B": "Gib offiziell nach, während du die Erwachsenen beeinflusst.",
+      "C": "Verwandle manche Gebete in Albträume, die ihr Leben prägen werden."
+    }
+  },
+  "hk_280": {
+    "title": "Himmlische Bibliothek",
+    "body": "Man entdeckt oben eine Bibliothek, die auch deine eigenen Taten verzeichnet.",
+    "choices": {
+      "A": "Versuche, diese Archive durch indirekten Einfluss zu sabotieren.",
+      "B": "Vergleiche ihre Daten mit deinen Registern, um die Ordnung anzupassen.",
+      "C": "Lass Sterbliche diese Bibliothek im Traum sehen."
+    }
+  },
+  "hk_281": {
+    "title": "Seelen, die beide ablehnen",
+    "body": "Einige Seelen lehnen sowohl Paradies als auch Hölle ab und beanspruchen ihren eigenen Weg.",
+    "choices": {
+      "A": "Brich sie, bis sie sich endlich entscheiden.",
+      "B": "Schaffe in deiner Ordnung einen besonderen Status für „nicht klassifizierte“ Seelen.",
+      "C": "Lass diese Idee totaler Verweigerung einige Lebende inspirieren."
+    }
+  },
+  "hk_282": {
+    "title": "Auf der Erde eingeschleuste Engel",
+    "body": "Engel steigen heimlich auf die Oberfläche hinab, um deine Pläne zu stören.",
+    "choices": {
+      "A": "Lass deine Diener sie jagen und verderben.",
+      "B": "Überwache sie methodisch, um deine Strategien anzupassen.",
+      "C": "Lass Menschen sie für deine eigenen Gesandten halten."
+    }
+  },
+  "hk_283": {
+    "title": "Zeichen am Himmel",
+    "body": "Eine Erscheinung, die von ganzen Menschenmengen gesehen wird, wird als Zeichen des Paradieses gedeutet.",
+    "choices": {
+      "A": "Löse sofort einen Skandal oder ein Drama aus, das den Sinn davon ablenkt.",
+      "B": "Lass religiöse Institutionen sich über die Bedeutung zerfleischen.",
+      "C": "Flöße widersprüchliche Deutungen ein, die zur Spaltung führen."
+    }
+  },
+  "hk_284": {
+    "title": "Aktualisierung der Engel",
+    "body": "Das Paradies „aktualisiert“ einige Engel, um die moderne Welt besser zu verstehen.",
+    "choices": {
+      "A": "Nutze ihre verbleibenden Lücken, um sie in Fallen zu locken.",
+      "B": "Beobachte diese neuen Methoden im Detail, um deine Ordnung anzupassen.",
+      "C": "Dränge sie, den Sterblichen Ratschläge zu geben, die schlecht enden."
+    }
+  },
+  "hk_285": {
+    "title": "Wettbewerb des Mitgefühls",
+    "body": "Eine himmlische Initiative schlägt den Sterblichen vor, radikales Mitgefühl zu praktizieren.",
+    "choices": {
+      "A": "Mach daraus einen kurzlebigen Trend, der schnell verspottet wird.",
+      "B": "Lass einige Gemeinschaften standhaft bleiben, um ein Gleichgewicht zu erhalten.",
+      "C": "Lenke dieses Mitgefühl auf zerstörerische Ziele um."
+    }
+  },
+  "hk_286": {
+    "title": "Aufruhr im Paradies",
+    "body": "Man munkelt, sogar unter den Seligen sei ein Streit ausgebrochen.",
+    "choices": {
+      "A": "Verbreite das Gerücht überall, um das Bild des Himmels zu schwächen.",
+      "B": "Verzeichne jedes Detail sorgfältig für eine spätere Verhandlung.",
+      "C": "Lass manche Lebende Visionen dieses Durcheinanders empfangen."
+    }
+  },
+  "hk_287": {
+    "title": "Zurückgeholte Seelen",
+    "body": "Die Strafe muss für alle wieder verständlich werden.",
+    "choices": {
+      "A": "Lehne jede Strafmilderung ab.",
+      "B": "Akzeptiere eine winzige Quote im Austausch für offizielle Zugeständnisse.",
+      "C": "Lass Fälle aufsteigen, die den Lebenden von den Schrecken berichten werden."
+    }
+  },
+  "hk_288": {
+    "title": "Erzwungene Versöhnung",
+    "body": "Eine höhere Macht verlangt, dass Paradies und Hölle in einigen Fragen eine Einigung finden.",
+    "choices": {
+      "A": "Widerstehe jedem Zwang, selbst wenn du eine Krise auslöst.",
+      "B": "Akzeptiere einen äußerst bürokratischen Versöhnungsrahmen.",
+      "C": "Verlagere diesen Konflikt in menschliche Institutionen."
+    }
+  },
+  "hk_289": {
+    "title": "Konflikt über Tiere",
+    "body": "Die Frage stellt sich: Haben Tiere einen Platz im Paradies, in der Hölle oder anderswo?",
+    "choices": {
+      "A": "Beanspruche alle wilden und grausamen Tiere für dich.",
+      "B": "Schlage eine sehr geordnete neutrale Archivzone vor.",
+      "C": "Lass die Lebenden Religionen rund um Tiere erschaffen."
+    }
+  },
+  "hk_290": {
+    "title": "Lichtsee mitten im Feuer",
+    "body": "Mitten in einem deiner Vulkane erscheint plötzlich ein See aus reinem Licht.",
+    "choices": {
+      "A": "Versuche, ihn mit roher Gewalt zu löschen.",
+      "B": "Begrenze, inventarisiere und integriere ihn in deine Ordnung.",
+      "C": "Lass seine Spiegelungen auf heiligen Orten erscheinen."
+    }
+  },
+  "hk_291": {
+    "title": "Streit um die Künstler",
+    "body": "Das Paradies behauptet, manche inspirierte Künstler dürften niemals bei dir enden.",
+    "choices": {
+      "A": "Antworte, dass Genie nichts entschuldigt.",
+      "B": "Setze eine Sonderkommission für ihre Fälle ein.",
+      "C": "Flöße auf der Erde einen Kult verfluchter Künstler ein."
+    }
+  },
+  "hk_292": {
+    "title": "Gebrochenes Siegel auf der Erde",
+    "body": "Ein altes Siegel, das einen heiligen Ort schützen sollte, zerbricht. Paradies und Hölle beschuldigen einander.",
+    "choices": {
+      "A": "Nutze den Riss sofort aus.",
+      "B": "Schlage eine gemeinsame Untersuchung vor, um Verantwortlichkeiten festzulegen.",
+      "C": "Verwandle diesen Ort in einen Brennpunkt zweideutiger Erscheinungen."
+    }
+  },
+  "hk_293": {
+    "title": "Widersprüchliche Prophezeiung",
+    "body": "Eine irdische Prophezeiung verkündet zugleich den Sieg des Paradieses und deinen.",
+    "choices": {
+      "A": "Dränge die Sterblichen dazu, die zerstörerischste Deutung zu wählen.",
+      "B": "Ordne die Prophezeiung unter den zu überwachenden Akten ein.",
+      "C": "Lass rivalisierende Sekten um den „wahren“ Sinn entstehen."
+    }
+  },
+  "hk_294": {
+    "title": "Austausch offizieller Rituale",
+    "body": "Man schlägt einen Austausch von Studien über offizielle Rituale vor: Gebete von oben, Rituale von unten.",
+    "choices": {
+      "A": "Weigere dich, deine Geheimnisse aufsteigen zu lassen.",
+      "B": "Akzeptiere, aber zensiere alles, was dir zu sehr schaden könnte.",
+      "C": "Verwandle einige Rituale in populäre Praktiken."
+    }
+  },
+  "hk_295": {
+    "title": "Abgebrochenes gemeinsames Fest",
+    "body": "Eine verrückte Idee macht die Runde: ein symbolisches Fest zwischen Himmel und Hölle.",
+    "choices": {
+      "A": "Sabotiere das Projekt von Anfang an.",
+      "B": "Verlange ein so strenges Protokoll, dass nichts spontan sein wird.",
+      "C": "Lass die Idee die Erde erreichen und ein zweideutiges Fest nähren."
+    }
+  },
+  "hk_296": {
+    "title": "Vorbildliche Seele",
+    "body": "Eine Seele liebt das Paradies weiter, selbst nachdem sie deine Schrecken gesehen hat.",
+    "choices": {
+      "A": "Foltere sie, bis diese Bindung zerbricht.",
+      "B": "Studiere sie als Lehrfall in deiner Verwaltung.",
+      "C": "Lass ihre Geschichte zu den Sterblichen gelangen und übertreibe sie dabei."
+    }
+  },
+  "hk_297": {
+    "title": "Heiligsprechung des Höllenkönigs",
+    "body": "Auf der Erde beginnt ein Kult, dich als notwendige Figur des Gleichgewichts darzustellen.",
+    "choices": {
+      "A": "Fördere diesen Kult, verehrt zu werden ist immer nützlich.",
+      "B": "Überwache ihn, damit er deine innere Ordnung nicht zu sehr stört.",
+      "C": "Lass ihn verurteilen, damit er noch populärer wird."
+    }
+  },
+  "hk_298": {
+    "title": "Engel auf Strafmission",
+    "body": "Ein Engel wird ausgesandt, um einige deiner „Übertreibungen“ auf der Erde zu bestrafen.",
+    "choices": {
+      "A": "Fordre ihn offen mit infernalen Wundern heraus.",
+      "B": "Lass ihn Nebenziele treffen, um das Paradies zu beruhigen.",
+      "C": "Treibe ihn dazu, zu weit zu gehen, sodass die Sterblichen sich gegen ihn wenden."
+    }
+  },
+  "hk_299": {
+    "title": "Vision einer leeren Hölle",
+    "body": "Einige Sterbliche behaupten, eine Vision gesehen zu haben: eine Hölle ohne Seelen.",
+    "choices": {
+      "A": "Mach aus dieser Vision eine lächerliche Täuschung.",
+      "B": "Erfasse sie als unwahrscheinliche Variable in deinen Berechnungen.",
+      "C": "Lass diese Vision die Idee nähren, dass niemand verdammt wird."
+    }
+  },
+  "hk_300": {
+    "title": "Letzter Deal",
+    "body": "Man schlägt dir ein Abkommen vor, um den Krieg zu beruhigen. Aber es hat seinen Preis.",
+    "choices": {
+      "A": "Verbrenne alles. Kein Abkommen.",
+      "B": "Unterschreibe und stärke deine Regeln.",
+      "C": "Unterschreibe und triff dann die Sterblichen mitten ins Herz."
+    }
+  },
+  "hk_301": {
+    "title": "Aufstand der Schreiber",
+    "body": "Das Leiden ist nicht mehr wirksam genug.",
+    "choices": {
+      "A": "Verlange, dass sie schreiben, bis ihre Federn brechen.",
+      "B": "Organisiere die Verwaltung neu und schaffe neue Büros.",
+      "C": "Automatisiere einen Teil der Sortierung, indem du sie an die Oberfläche delegierst."
+    }
+  },
+  "hk_302": {
+    "title": "Dämonische Gladiatoren",
+    "body": "Dämonen wollen eine dauerhafte Arena für Prestigekämpfe errichten.",
+    "choices": {
+      "A": "Lass sie sich gegenseitig zerfleischen, zur Unterhaltung der Verdammten.",
+      "B": "Strukturiere strenge Regeln und Eliteränge.",
+      "C": "Verbreite das Schauspiel bis in die Träume der Sterblichen."
+    }
+  },
+  "hk_303": {
+    "title": "Gerücht über Verrat",
+    "body": "Einer deiner Leutnants soll dabei sein, seine eigene Fraktion aufzubauen.",
+    "choices": {
+      "A": "Stell ihm öffentlich eine Falle, um deine Herrschaft zu festigen.",
+      "B": "Stelle ihn in einer Ordnungszelle unter enge Überwachung.",
+      "C": "Nutze ihn als Figur, um andere Kreise zu infiltrieren."
+    }
+  },
+  "hk_304": {
+    "title": "Neue Foltern",
+    "body": "Deine Henker wollen die Qualen „verbessern“.",
+    "choices": {
+      "A": "Genehmige es: mehr Schmerz, mehr gebrochene Seelen.",
+      "B": "Rahme das mit strengen Regeln ein.",
+      "C": "Teste es zuerst heimlich an der Oberfläche."
+    }
+  },
+  "hk_305": {
+    "title": "Gewerkschaft der Verdammten",
+    "body": "Eine Gruppe Verdammter fordert „Grundrechte“ in deinen Gruben.",
+    "choices": {
+      "A": "Schlag diese Bewegung nieder, um daran zu erinnern, was die Hölle ist.",
+      "B": "Schaffe eine sehr strenge Pseudo-Charta, rein dekorativ.",
+      "C": "Lass diese Gewerkschaft einige menschliche Aufstände inspirieren."
+    }
+  },
+  "hk_306": {
+    "title": "Fest der Flammen",
+    "body": "Deine Legionen wollen ein Fest organisieren, um deine Siege zu feiern.",
+    "choices": {
+      "A": "Erlaube einen totalen Ausbruch festlicher Gewalt.",
+      "B": "Rahme das Fest in ein strenges militärisches Protokoll.",
+      "C": "Projiziere Visionen des Festes in die Köpfe sterblicher Künstler."
+    }
+  },
+  "hk_307": {
+    "title": "Schule der Verderbnis",
+    "body": "Man schlägt vor, eine große Schule zu eröffnen, um die besten Verderber auszubilden.",
+    "choices": {
+      "A": "Akzeptiere und rekrutiere die grausamsten Talente.",
+      "B": "Gliedere diese Schule in die bestehende Verwaltungsordnung ein.",
+      "C": "Schicke ihre besten Absolventen, um auf der Erde zu lehren."
+    }
+  },
+  "hk_308": {
+    "title": "Seelensturm",
+    "body": "Ein seltsamer Sturm wirbelt Seelen durcheinander und vermischt die Register.",
+    "choices": {
+      "A": "Tauche ins Chaos ein, um deine Ernte zu vergrößern.",
+      "B": "Setze jedes Urteil aus und sortiere alles von Hand.",
+      "C": "Lass den Sturm bis an die Grenzen der Oberfläche wehen."
+    }
+  },
+  "hk_309": {
+    "title": "Der Chronist",
+    "body": "Ein Chronist will die Geschichte deiner Herrschaft schreiben.",
+    "choices": {
+      "A": "Gib ihm alles, damit er in Informationen ertrinkt.",
+      "B": "Kontrolliere alles, kein Wort ohne dich.",
+      "C": "Lass Passagen auf die Erde durchsickern."
+    }
+  },
+  "hk_310": {
+    "title": "Rationierung der Flammen",
+    "body": "Die ewigen Flammen scheinen in einigen Vierteln schwächer zu werden.",
+    "choices": {
+      "A": "Verteile die Flammen auf die produktivsten Zonen um.",
+      "B": "Führe ein System strenger Quoten ein.",
+      "C": "Verlass dich darauf, dass die Oberfläche neue Brennstoffe liefert."
+    }
+  },
+  "hk_311": {
+    "title": "Schwarzmarkt des Leidens",
+    "body": "Ein geheimer Handel mit getauschten Schmerzen hat sich unter den Verdammten entwickelt.",
+    "choices": {
+      "A": "Lass es zu, alles, was den Gesamtschmerz erhöht, gefällt dir.",
+      "B": "Reguliere diesen Markt, um Ungleichgewichte zu vermeiden.",
+      "C": "Exportiere dieses System in die Träume der Lebenden."
+    }
+  },
+  "hk_312": {
+    "title": "Architekten des Abgrunds",
+    "body": "Dämonische Architekten wollen einige Kreise umgestalten.",
+    "choices": {
+      "A": "Gib ihnen freie Hand, um nie dagewesene Schrecken zu erschaffen.",
+      "B": "Genehmige detaillierte Pläne, die einer strengen Ordnung folgen.",
+      "C": "Kopiere menschliche Strukturen, um neue Seelen zu beruhigen."
+    }
+  },
+  "hk_313": {
+    "title": "Bibliothek der Reue",
+    "body": "Man schlägt dir vor, alle Reue der Sterblichen an einem einzigen Ort zu sammeln.",
+    "choices": {
+      "A": "Mach daraus einen jederzeit zugänglichen Brunnen der Qualen.",
+      "B": "Indexiere jede Reue, um deine künftigen Versuchungen zu verfeinern.",
+      "C": "Lass einige Sterbliche das Echo dieser Bibliothek spüren."
+    }
+  },
+  "hk_314": {
+    "title": "Turnier der Versucher",
+    "body": "Die besten Versucher wetteifern darum, ihre Überlegenheit zu beweisen.",
+    "choices": {
+      "A": "Belohne die grausamsten und erfinderischsten.",
+      "B": "Formalisiere eine Rangliste und eine Beförderungsordnung.",
+      "C": "Gib einigen Siegern besondere Missionen auf der Erde."
+    }
+  },
+  "hk_315": {
+    "title": "Epidemie der Müdigkeit",
+    "body": "Selbst manche Dämonen scheinen es leid zu sein, immer auf dieselbe Weise zu foltern.",
+    "choices": {
+      "A": "Dränge sie dazu, reine Grausamkeit wiederzuentdecken.",
+      "B": "Führe einen sehr organisierten Aufgabenwechsel ein.",
+      "C": "Lass diese Leere auf die Lebenden übergehen."
+    }
+  },
+  "hk_316": {
+    "title": "Flucht in die Träume",
+    "body": "Ein Teil der Verdammten flüchtet sich in eine Art luzide Träume, um dem Schmerz zu entkommen.",
+    "choices": {
+      "A": "Zerschlage diese Zufluchten mit noch schlimmeren Albträumen.",
+      "B": "Katalogisiere diese Fluchtwege, um sie zu kontrollieren.",
+      "C": "Teste diese Fluchtmechanismen an einigen Sterblichen."
+    }
+  },
+  "hk_317": {
+    "title": "Experimente mit der Zeit",
+    "body": "Wissenschaftliche Dämonen wollen die Zeit biegen, um denselben Schmerz endlos zu wiederholen.",
+    "choices": {
+      "A": "Lass sie an anonymen Seelen experimentieren.",
+      "B": "Rahme diese Experimente ein, um eine Gesamtstruktur zu bewahren.",
+      "C": "Wende diese zeitlichen Verzerrungen auf wichtige menschliche Leben an."
+    }
+  },
+  "hk_318": {
+    "title": "Hof der verbotenen Vergnügungen",
+    "body": "Ein höllischer Hof entsteht rund um perverse Vergnügungen, die einigen Privilegierten vorbehalten sind.",
+    "choices": {
+      "A": "Sieh weg, solange das mehr Seelen anzieht.",
+      "B": "Integriere diesen Hof mit Rängen und Titeln in die offizielle Ordnung.",
+      "C": "Projiziere diese Logik des Privilegs in menschliche Eliten."
+    }
+  },
+  "hk_319": {
+    "title": "Wettbewerb der Gotteslästerungen",
+    "body": "Ein Wettbewerb wird veranstaltet, um die raffiniertesten Gotteslästerungen zu erfinden.",
+    "choices": {
+      "A": "Lass die schwarze Kreativität frei wüten.",
+      "B": "Bewahre die wirksamsten in einem offiziellen Handbuch auf.",
+      "C": "Lass einige Gotteslästerungen in die Popkultur aufsteigen."
+    }
+  },
+  "hk_320": {
+    "title": "Verlassener Kreis",
+    "body": "Ein einst sehr belebter Kreis ist seltsam dünn besiedelt.",
+    "choices": {
+      "A": "Verlege neue Seelen dorthin, um die Aktivität wieder anzukurbeln.",
+      "B": "Gestalte diesen Kreis völlig neu für ein neues Konzept.",
+      "C": "Nutze diese Leere als Experimentierzone für die Oberfläche."
+    }
+  },
+  "hk_321": {
+    "title": "Treue eines vergessenen Reiches",
+    "body": "Ein altes menschliches Reich, fast aus der Geschichte getilgt, erneuert seine Treue zu deinem Namen.",
+    "choices": {
+      "A": "Ehre es, indem du seine Symbole in deinen Armeen auferstehen lässt.",
+      "B": "Archiviere es sorgfältig für strategische Zwecke.",
+      "C": "Lass einige Überreste davon auf der Erde wieder erscheinen."
+    }
+  },
+  "hk_322": {
+    "title": "Schweigende Schmieden",
+    "body": "Die dämonischen Schmieden verlangsamen sich, weil neue Metalle und Ideen fehlen.",
+    "choices": {
+      "A": "Erzwinge die Produktion, indem du alles recycelst, was herumliegt.",
+      "B": "Plane eine vollständige Umgestaltung der Werkstätten.",
+      "C": "Flöße menschlichen Erfindern ein, diese Maschinen zu erschaffen."
+    }
+  },
+  "hk_323": {
+    "title": "Umgekehrter Karneval",
+    "body": "Deine Dämonen wollen einen Karneval veranstalten, bei dem Henker und Opfer ihre Rollen tauschen.",
+    "choices": {
+      "A": "Starte diesen Karneval, um jeden Halt zu zerstören.",
+      "B": "Setze Grenzen, um den totalen Bruch der Ordnung zu vermeiden.",
+      "C": "Lass dieses Konzept in menschlichen Festen widerhallen."
+    }
+  },
+  "hk_324": {
+    "title": "Unbekanntes Ritual",
+    "body": "Ein vergessenes Ritual aktiviert sich von selbst in einem abgelegenen Winkel der Hölle.",
+    "choices": {
+      "A": "Lass es geschehen und beobachte.",
+      "B": "Gliedere es in dein System ein, nachdem du es analysiert hast.",
+      "C": "Lass dieses Ritual in menschliche Grimoiren aufsteigen."
+    }
+  },
+  "hk_325": {
+    "title": "Wettbewerb der Lügen",
+    "body": "Deine Agenten veranstalten einen Wettbewerb: Wer erzählt die zerstörerischste Lüge?",
+    "choices": {
+      "A": "Belohne die Lügen, die ganze Leben zerstören.",
+      "B": "Verzeichne jede Technik akribisch für deine Archive.",
+      "C": "Pflanze diese Lügen in menschliche öffentliche Reden ein."
+    }
+  },
+  "hk_326": {
+    "title": "Meinung der alten Dämonen",
+    "body": "Die ältesten Dämonen fordern einen Sonderrat, um dir ihre Meinung mitzuteilen.",
+    "choices": {
+      "A": "Ignoriere sie und lass sie weiter grollen.",
+      "B": "Höre sie an und nimm einige ihrer Ideen in deine Ordnung auf.",
+      "C": "Schicke sie, um menschliche Anführer zu „beraten“."
+    }
+  },
+  "hk_327": {
+    "title": "Werkstatt verfälschter Erinnerungen",
+    "body": "Eine Werkstatt bietet an, die Erinnerungen der Verdammten umzuschreiben, um ihre Qualen zu verstärken.",
+    "choices": {
+      "A": "Genehmige die Werkstatt und lass totale Verfälschung zu.",
+      "B": "Schaffe Protokolle, um jede manipulierte Erinnerung zu ordnen.",
+      "C": "Säe falsche Erinnerungen in einige Lebende."
+    }
+  },
+  "hk_328": {
+    "title": "Prüfung des Spiegels",
+    "body": "Ein Spiegel aus schwarzem Stein zeigt den Seelen, was sie hätten sein können.",
+    "choices": {
+      "A": "Zwinge jede Seele hinzusehen, bis zum Wahnsinn.",
+      "B": "Reserviere den Spiegel für ausgewählte Fälle in einem genauen Ritual.",
+      "C": "Lass sein Bild in einigen menschlichen Träumen erscheinen."
+    }
+  },
+  "hk_329": {
+    "title": "Jagd auf Flüchtige",
+    "body": "Einige Seelen versuchen, sich in vergessenen Zonen der Hölle zu verstecken.",
+    "choices": {
+      "A": "Starte eine gnadenlose Jagd.",
+      "B": "Errichte eine Sonderpolizei gegen Fluchten.",
+      "C": "Beobachte und lass dich von ihren Strategien inspirieren, um Lebende zu fangen."
+    }
+  },
+  "hk_330": {
+    "title": "Kult der Asche",
+    "body": "Ein kleiner Kult von Verdammten verehrt deine Asche wie Reliquien.",
+    "choices": {
+      "A": "Ermutige sie, Verehrung ist immer nützlich.",
+      "B": "Gliedere diesen Kult in das offizielle Ritual ein.",
+      "C": "Lass diese Idee Menschen verführen, die von Zerstörung angezogen werden."
+    }
+  },
+  "hk_331": {
+    "title": "Abkommen mit den Albträumen",
+    "body": "Die Wesen, die die Albträume bevölkern, fordern mehr Unabhängigkeit.",
+    "choices": {
+      "A": "Unterwirf sie gewaltsam deiner Autorität.",
+      "B": "Verhandle einen Vertrag, in dem ihre Handlungen weiterhin erfasst werden.",
+      "C": "Lass sie frei in den Nächten der Menschen experimentieren."
+    }
+  },
+  "hk_332": {
+    "title": "Unterricht in schwarzer Ironie",
+    "body": "Ein Dämon schlägt vor, den Verdammten schwarze Ironie beizubringen, damit sie sich gegenseitig zerstören.",
+    "choices": {
+      "A": "Erlaube diesen Unterricht, um unsichtbare Wunden zu vervielfachen.",
+      "B": "Mache diese Lektionen zur Pflichtdisziplin.",
+      "C": "Schicke diese Techniken als „Humor“ zu den Lebenden."
+    }
+  },
+  "hk_333": {
+    "title": "Größenwahn eines Generals",
+    "body": "Ein General deiner Legionen sieht sich bereits als König an deiner Stelle.",
+    "choices": {
+      "A": "Breche ihn als Beispiel für alle.",
+      "B": "Befördere ihn in eine kontrollierte, aber prestigeträchtige Rolle.",
+      "C": "Lass ihn fern von deinem Thron Operationen auf der Erde leiten."
+    }
+  },
+  "hk_334": {
+    "title": "Sammlerfieber",
+    "body": "Einige Dämonen sammeln unbedeutende Gegenstände der Sterblichen.",
+    "choices": {
+      "A": "Verspotte diese Manie und bestrafe sie.",
+      "B": "Ordne diese Sammlungen in einem geordneten infernalen Museum.",
+      "C": "Lass Menschen ein Fehlen spüren, ohne sichtbaren Grund."
+    }
+  },
+  "hk_335": {
+    "title": "Schritte tief im Abgrund",
+    "body": "Man hört Schritte in einem Abgrund, der eigentlich leer sein sollte.",
+    "choices": {
+      "A": "Schicke bewaffnete Kundschafter zur Erkundung.",
+      "B": "Errichte eine ständige Wache und Überwachungsprotokolle.",
+      "C": "Lass dieses Geheimnis einige menschliche Erzählungen beeinflussen."
+    }
+  },
+  "hk_336": {
+    "title": "Markt der gebrochenen Versprechen",
+    "body": "Ein geheimer Markt handelt mit gebrochenen Versprechen unter Verdammten.",
+    "choices": {
+      "A": "Mach daraus ein offizielles Zentrum moralischer Folter.",
+      "B": "Führe über jedes Versprechen ein genaues Register.",
+      "C": "Lass dieses Konzept in der menschlichen Politik zirkulieren."
+    }
+  },
+  "hk_337": {
+    "title": "Wettbewerb dämonischer Grimassen",
+    "body": "Deine Dämonen veranstalten einen Wettbewerb um die furchterregendsten Gesichter.",
+    "choices": {
+      "A": "Ermutige die Kreativität, um die Angst zu verstärken.",
+      "B": "Standardisiere die besten Masken für deine Legionen.",
+      "C": "Projiziere diese Gesichter in die Albträume der Sterblichen."
+    }
+  },
+  "hk_338": {
+    "title": "See des Schweigens",
+    "body": "Ein See, an dem kein Schrei hörbar ist, erscheint in deinen Reichen.",
+    "choices": {
+      "A": "Wirf die Seelen hinein, die zu laut schreien.",
+      "B": "Studiere ihn und gliedere ihn in einen globalen Ordnungsplan ein.",
+      "C": "Verbinde diesen See mit Orten extremer Einsamkeit auf der Erde."
+    }
+  },
+  "hk_339": {
+    "title": "Invasion kleiner Kreaturen",
+    "body": "Winzige infernale Kreaturen dringen in die Zellen der Verdammten ein.",
+    "choices": {
+      "A": "Lass sie alles benagen, sogar die Nerven.",
+      "B": "Dressiere und ordne sie in Spezialeinheiten ein.",
+      "C": "Schicke sie aus, um einige menschliche Häuser zu verseuchen."
+    }
+  },
+  "hk_340": {
+    "title": "Schule der schwarzen Diplomatie",
+    "body": "Man schlägt dir eine Schule vor, die Verhandlung, Erpressung und Doppelsprache gewidmet ist.",
+    "choices": {
+      "A": "Eröffne die Schule und rekrutiere die hinterhältigsten Köpfe.",
+      "B": "Gliedere sie in deine Verwaltung für präzise Missionen ein.",
+      "C": "Lass ihre Absolventen toxische Abkommen zwischen Sterblichen knüpfen."
+    }
+  },
+  "hk_341": {
+    "title": "Uhren der Ewigkeit",
+    "body": "Gigantische Uhren erscheinen, die nicht die Zeit, sondern das angesammelte Leid messen.",
+    "choices": {
+      "A": "Installiere sie überall, um die Seelen zu erdrücken.",
+      "B": "Behalte sie an Schlüsselpunkten, um den Schrecken aufrechtzuerhalten.",
+      "C": "Lass ihr Ticken in den Köpfen mancher Lebenden widerhallen."
+    }
+  },
+  "hk_342": {
+    "title": "Wettbewerb des Sarkasmus",
+    "body": "Ein ganzer Saal hallt von Sarkasmus wider, der die Seelen zerschneidet.",
+    "choices": {
+      "A": "Förder diesen grausamen Sport.",
+      "B": "Normiere die besten Spitzen für offizielle Handbücher.",
+      "C": "Mach diesen Stil zu modischem Humor bei den Menschen."
+    }
+  },
+  "hk_343": {
+    "title": "Umgestürzte Gräber",
+    "body": "Einige Gräber an der Oberfläche kippen auf geheimnisvolle Weise um.",
+    "choices": {
+      "A": "Sieh darin ein Zeichen deiner Macht und verstärke es.",
+      "B": "Erfasse jeden Fall und gleiche ihn mit deinen Registern ab.",
+      "C": "Nutze diese Umstürze, um lokale Legenden auszulösen."
+    }
+  },
+  "hk_344": {
+    "title": "Duell der Seher",
+    "body": "Zwei infernale Seher streiten sich über die beste Art, menschliche Stürze vorauszusehen.",
+    "choices": {
+      "A": "Dränge sie in einen erbitterten Wettbewerb.",
+      "B": "Schaffe ein offizielles Amt für Vorhersagen.",
+      "C": "Lass einige Prophezeiungen bis zu den Sterblichen durchsickern."
+    }
+  },
+  "hk_345": {
+    "title": "Brücke der Ketten",
+    "body": "Eine Brücke aus Ketten verbindet zwei Regionen der Hölle, die nicht mehr miteinander sprachen.",
+    "choices": {
+      "A": "Nutze sie, um den Austausch von Seelen zu intensivieren.",
+      "B": "Reguliere diesen Übergang streng.",
+      "C": "Verbinde diese Brücke symbolisch mit menschlichen Allianzen."
+    }
+  },
+  "hk_346": {
+    "title": "Flucht der Glut",
+    "body": "Glut entweicht deinen Vulkanen und erscheint in manchen irdischen Heimen.",
+    "choices": {
+      "A": "Lass diese Glut häusliche Gewalt anfachen.",
+      "B": "Kartiere jeden Erscheinungspunkt.",
+      "C": "Mach diese Glut zu wiederkehrenden Symbolen deiner Pakte."
+    }
+  },
+  "hk_347": {
+    "title": "Mangel an neuen Sünden",
+    "body": "Deine Berater klagen, sie hätten das Gefühl, schon alles ausprobiert zu haben.",
+    "choices": {
+      "A": "Zwinge sie zur Innovation, sonst droht Strafe.",
+      "B": "Organisiere strukturierte Werkstätten „bösartiger Kreativität“.",
+      "C": "Lass dich von den neuesten menschlichen Absonderlichkeiten inspirieren."
+    }
+  },
+  "hk_348": {
+    "title": "Lachende Tore",
+    "body": "Einige Tore der Hölle brechen jedes Mal in Gelächter aus, wenn eine Seele hindurchgeht.",
+    "choices": {
+      "A": "Förder diesen ständigen Hohn.",
+      "B": "Stell die Tore so ein, dass sie zu genauen Momenten lachen.",
+      "C": "Lass dieses Lachen an sehr ernsten Orten auf der Erde erklingen."
+    }
+  },
+  "hk_349": {
+    "title": "Scheinvergebung",
+    "body": "Ein Dämon schlägt vor, Vergebung zu spielen, um danach besser zu foltern.",
+    "choices": {
+      "A": "Erlaube diese grausame Inszenierung.",
+      "B": "Gliedere sie in ein offizielles „Gnaden“-Verfahren ein.",
+      "C": "Teste diesen Schein in engen menschlichen Beziehungen."
+    }
+  },
+  "hk_350": {
+    "title": "Rissige Krone",
+    "body": "Deine eigene Krone zeigt einen leichten Riss, der nur aus der Nähe sichtbar ist.",
+    "choices": {
+      "A": "Ignoriere den Riss und tu, als wäre nichts.",
+      "B": "Lass ihn von deinen Experten untersuchen, um deine Ordnung zu stärken.",
+      "C": "Lass einige begreifen, dass selbst du dich veränderst."
+    }
+  },
+  "hk_351": {
+    "title": "Marsch der Eisenhelme",
+    "body": "Deine schweren Legionen verlangen das Recht, jeden Tag vor deinem Thron zu paradieren.",
+    "choices": {
+      "A": "Erlaube einen permanenten Aufmarsch, der die Verdammten niederdrückt.",
+      "B": "Führe ein strenges Protokoll mit Zeiten und Routen ein.",
+      "C": "Nutze diese Paraden als Visionen des Schreckens für manche Sterblichen."
+    }
+  },
+  "hk_352": {
+    "title": "Statuen gefallener Herrscher",
+    "body": "Eine ganze Galerie versammelt die Statuen menschlicher Könige, die in deine Sphäre gefallen sind.",
+    "choices": {
+      "A": "Stelle sie aus, um ihre Seelen noch mehr zu demütigen.",
+      "B": "Ordne jede Statue nach Art des Falls in deinen Registern.",
+      "C": "Lass diese Statuen den Herrschenden im Traum erscheinen."
+    }
+  },
+  "hk_353": {
+    "title": "Mauer der gebrochenen Eide",
+    "body": "Jeder gebrochene Eid ist in schwarzen Stein gemeißelt.",
+    "choices": {
+      "A": "Kette alle, die ihre Eide brechen, gewaltsam daran fest.",
+      "B": "Ordne die Eide nach Kategorien in einer strengen Hierarchie.",
+      "C": "Projiziere diese Mauer in die Albträume künftiger Lügner."
+    }
+  },
+  "hk_354": {
+    "title": "Wettbewerb infernaler Slogans",
+    "body": "Deine Berater schlagen vor, Slogans zu schaffen, um die Verzweiflung besser zu verkaufen.",
+    "choices": {
+      "A": "Genehmige die schockierendsten und wiederhole sie überall.",
+      "B": "Archiviere und teste jede Formel methodisch.",
+      "C": "Säe diese Slogans in menschliche Werbung ein."
+    }
+  },
+  "hk_355": {
+    "title": "Glocken aus Glut",
+    "body": "Große Glocken aus Glut läuten bei jeder neuen Verdammung.",
+    "choices": {
+      "A": "Lass sie so lange erklingen, bis die Seelen wahnsinnig werden.",
+      "B": "Stelle für jedes Läuten einen genauen Zeitplan ein.",
+      "C": "Lass diese Glocken an einigen heiligen Orten der Menschen widerhallen."
+    }
+  },
+  "hk_356": {
+    "title": "Unlesbare Manuskripte",
+    "body": "Manuskripte tauchen auf, bedeckt mit einer Schrift, die selbst deine Dämonen kaum lesen können.",
+    "choices": {
+      "A": "Gib sie den Verdammten, damit sie beim Versuch wahnsinnig werden.",
+      "B": "Schaffe eine spezialisierte Abteilung, um sie langsam zu entschlüsseln.",
+      "C": "Lass Fragmente dieser Texte in die Literatur eindringen."
+    }
+  },
+  "hk_357": {
+    "title": "Turm der Flüstern",
+    "body": "Ein neuer Turm wirft die beschämendsten Bekenntnisse der Seelen in Endlosschleife zurück.",
+    "choices": {
+      "A": "Sperre dort die größten Heuchler ein.",
+      "B": "Ordne die Flüstern nach Themen, um die Foltern zu optimieren.",
+      "C": "Lass manche Flüstern in die Ohren einflussreicher Lebender dringen."
+    }
+  },
+  "hk_358": {
+    "title": "Ball der rissigen Masken",
+    "body": "Deine Dämonen veranstalten einen Ball, bei dem jeder eine gesprungene Maske trägt, die seine wahre Hässlichkeit enthüllt.",
+    "choices": {
+      "A": "Förder diese permanente Maskerade.",
+      "B": "Nutze diese Masken, um deine Diener zu identifizieren und zu sortieren.",
+      "C": "Lass diesen Ball in mondänen menschlichen Festen widerhallen."
+    }
+  },
+  "hk_359": {
+    "title": "Labor der Illusionen",
+    "body": "Ein Labor experimentiert mit Illusionen, die für Verdammte die Realität ersetzen können.",
+    "choices": {
+      "A": "Stürze Seelen in ein falsches perfektes Leben vor dem Fall.",
+      "B": "Katalogisiere jede Illusion als Werkzeug der Ordnung.",
+      "C": "Teste diese Illusionen in den Träumen wichtiger Personen auf der Erde."
+    }
+  },
+  "hk_360": {
+    "title": "Spiel der Glutstühle",
+    "body": "Deine Kerkermeister erfinden ein grausames Spiel, bei dem Verdammte um brennende Sitze kämpfen.",
+    "choices": {
+      "A": "Förder diesen Wettbewerb ohne Regeln.",
+      "B": "Führe eine genaue Ordnung ein, um daraus ein Ritual zu machen.",
+      "C": "Importiere dieses Konzept ins menschliche Büroleben."
+    }
+  },
+  "hk_361": {
+    "title": "Kartographen des Abgrunds",
+    "body": "Dämonische Kartographen wollen die vollständige Karte deiner Schluchten erstellen.",
+    "choices": {
+      "A": "Lass sie sich verirren, solange die Seelen leiden.",
+      "B": "Kontrolliere jede Karte, um die Hölle noch stärker zu strukturieren.",
+      "C": "Lass Fragmente dieser Karten zu Menschen gelangen."
+    }
+  },
+  "hk_362": {
+    "title": "Turnier grausamer Prüfungen",
+    "body": "Ein Wettbewerb belohnt die originellsten grausamen Methoden.",
+    "choices": {
+      "A": "Gib den Siegern totale Macht über ganze Viertel.",
+      "B": "Standardisiere grausame Methoden in deinem offiziellen Handbuch.",
+      "C": "Flöße den Menschen härteres Verhalten ein."
+    }
+  },
+  "hk_363": {
+    "title": "Fluss des Vergessens",
+    "body": "Ein Fluss löscht die Namen der Seelen aus. Einige flehen darum, verschont zu bleiben.",
+    "choices": {
+      "A": "Wirf jene hinein, die das Vergessen verweigern.",
+      "B": "Bewahre die Spur jedes Namens.",
+      "C": "Lass diese Angst in die Träume der Lebenden fließen."
+    }
+  },
+  "hk_364": {
+    "title": "Spöttische Richter",
+    "body": "Ein Kollegium dämonischer Richter beginnt über jede Verteidigung der Seelen zu lachen.",
+    "choices": {
+      "A": "Ermutige sie, jeden Verteidigungsversuch lächerlich zu machen.",
+      "B": "Takte ihren Spott, um einen Anschein von Verfahren zu bewahren.",
+      "C": "Flöße diesen Stil einigen menschlichen Gerichten ein."
+    }
+  },
+  "hk_365": {
+    "title": "Friedhof der Throne",
+    "body": "Zerbrochene Throne ehemaliger Mächtiger sind in deinem Reich aufgestapelt.",
+    "choices": {
+      "A": "Organisiere dort Zwangsbesuche für neu verdammte Herrscher.",
+      "B": "Ordne jeden Thron nach Regimeart für deine innere Ordnung.",
+      "C": "Lass aktuelle Anführer Visionen dieses Friedhofs sehen."
+    }
+  },
+  "hk_366": {
+    "title": "Seelen des Grolls",
+    "body": "Eine Gruppe jüngst eingetroffener Seelen entwickelt einen kalten und sehr strukturierten Zorn.",
+    "choices": {
+      "A": "Lenke sie als unberechenbare Späher gegen andere Verdammte.",
+      "B": "Studiere sie, um diesen Zorn zu verstehen und zu ordnen.",
+      "C": "Lass ihren Hass in die Träume isolierter Sterblicher überschwappen."
+    }
+  },
+  "hk_367": {
+    "title": "Flüsternde Klingen",
+    "body": "Die Waffen deiner Folterknechte beginnen, den Seelen ins Ohr zu flüstern.",
+    "choices": {
+      "A": "Lass sie Verzweiflung und Paranoia einflüstern.",
+      "B": "Schreibe ein Protokoll für diese bewussten Waffen.",
+      "C": "Schmuggle dieses Flüstern in den Geist menschlicher Verbrecher."
+    }
+  },
+  "hk_368": {
+    "title": "Saal der aufgehobenen Entscheidungen",
+    "body": "Ein Saal zeigt jede große menschliche Entscheidung, die einen anderen Verlauf hätte nehmen können.",
+    "choices": {
+      "A": "Zwinge Seelen, ihre verpassten Entscheidungen ewig neu zu erleben.",
+      "B": "Indexiere diese Entscheidungen, um deine künftigen Manipulationen zu verfeinern.",
+      "C": "Lass diesen Saal lebende Herrscher heimsuchen."
+    }
+  },
+  "hk_369": {
+    "title": "Messe der misslungenen Wunder",
+    "body": "Eine Messe zeigt all die beinahe vollbrachten Wunder, die gescheitert sind.",
+    "choices": {
+      "A": "Mach daraus ein ständiges Schauspiel, um den Glauben der Seelen zu demütigen.",
+      "B": "Ordne jedes Scheitern nach Art der Einmischung.",
+      "C": "Schmuggle die Idee dieser misslungenen Wunder in menschliche Predigten."
+    }
+  },
+  "hk_370": {
+    "title": "Chor der letzten Worte",
+    "body": "Ein Chor wiederholt endlos die letzten Worte von Millionen Sterblichen.",
+    "choices": {
+      "A": "Füge ein verzerrtes Echo hinzu, das Hoffnung zermalmt.",
+      "B": "Notiere die nützlichsten Sätze für deine Archive.",
+      "C": "Lass diesen Chor in manchen Krankenzimmern erklingen."
+    }
+  },
+  "hk_371": {
+    "title": "Dämonische Schneider",
+    "body": "Dämonen wollen Mäntel aus den Illusionen der Sterblichen weben.",
+    "choices": {
+      "A": "Lass sie Gewänder schaffen, die Seelen niederdrücken.",
+      "B": "Organisiere diese Werkstätten als klar hierarchisierte Zünfte.",
+      "C": "Schicke einige dieser Muster in die menschliche Mode."
+    }
+  },
+  "hk_372": {
+    "title": "Saal erzwungener Geständnisse",
+    "body": "Ein Saal drängt die Seelen dazu, alles zu gestehen, sogar das Ungestehbare.",
+    "choices": {
+      "A": "Wirf die Stolzesten hinein, bis sie brechen.",
+      "B": "Erfasse jedes Geständnis in einer sorgfältigen Akte.",
+      "C": "Lass diese Geständnisse in fragilen Lebenden widerhallen."
+    }
+  },
+  "hk_373": {
+    "title": "Fest des Staubs",
+    "body": "Man schlägt ein Fest vor, um alles zu feiern, was bei dir zu Staub wird.",
+    "choices": {
+      "A": "Förder dieses Fest des Verschwindens.",
+      "B": "Strukturiere es als offiziellen Kalender der Hölle.",
+      "C": "Lass dieses Thema verzweifelte menschliche Werke inspirieren."
+    }
+  },
+  "hk_374": {
+    "title": "Masken der Respektabilität",
+    "body": "Masken verleihen Verdammten das Aussehen ehrenwerter Personen.",
+    "choices": {
+      "A": "Zwinge sie, diese Masken zu tragen, während sie wissen, was sie verbergen.",
+      "B": "Verteile diese Masken nach einer sehr genauen Ordnung.",
+      "C": "Lass dieselbe soziale Maske in menschlichen Eliten entstehen."
+    }
+  },
+  "hk_375": {
+    "title": "Uhr der Verrätereien",
+    "body": "Eine Uhr schlägt bei jedem Verrat, der auf der Erde begangen wird.",
+    "choices": {
+      "A": "Verstärke den Klang, bis die Verdammten nichts anderes mehr hören.",
+      "B": "Verknüpfe jeden Schlag mit einer Akte in deiner Verwaltung.",
+      "C": "Lass Verräter bei jedem Glockenschlag Unbehagen spüren."
+    }
+  },
+  "hk_376": {
+    "title": "Labyrinth der Akten",
+    "body": "Ein Labyrinth aus Aktenschränken enthält die vollständigen Leben von Milliarden Sterblichen.",
+    "choices": {
+      "A": "Lass einige Seelen darin zurück, bis sie sich verirren.",
+      "B": "Ernenne einen obersten Archivar, um alles zu ordnen.",
+      "C": "Lass Aktenfragmente in menschlichen Ermittlungen auftauchen."
+    }
+  },
+  "hk_377": {
+    "title": "Aufstand der Ketten",
+    "body": "Die Ketten selbst scheinen entscheiden zu wollen, wen sie festhalten.",
+    "choices": {
+      "A": "Zerbrich sie, um daran zu erinnern, wer befiehlt.",
+      "B": "Verhandle eine Form von Ordnung mit diesen bewussten Ketten.",
+      "C": "Verbinde diese Ketten symbolisch mit einigen menschlichen Abhängigkeiten."
+    }
+  },
+  "hk_378": {
+    "title": "Große Spiele des Abgrunds",
+    "body": "Deine Leutnants wollen riesige Spiele veranstalten, um die Verdammten voneinander zu trennen.",
+    "choices": {
+      "A": "Lass die Stärksten die Schwächsten verschlingen.",
+      "B": "Lege Regeln, Teams und Ranglisten fest.",
+      "C": "Lass Nachahmungen dieser Spiele im menschlichen Spektakel entstehen."
+    }
+  },
+  "hk_379": {
+    "title": "Schule der giftigen Nostalgie",
+    "body": "Eine Schule lehrt Seelen, einer idealisierten Vergangenheit nachzutrauern, die nie existiert hat.",
+    "choices": {
+      "A": "Mach daraus eine zentrale Disziplin der Folter.",
+      "B": "Bewerte die Nostalgiegrade und halte sie fest.",
+      "C": "Flöße dieses Gift in menschliche politische Reden ein."
+    }
+  },
+  "hk_380": {
+    "title": "Hafen roter Nebel",
+    "body": "Ein Hafen, in dem rote Nebel unaufhörlich neue Seelen bringen, entwickelt sich.",
+    "choices": {
+      "A": "Lass die Nebelschiffe unkontrolliert anlegen.",
+      "B": "Führe eine Kontrolle der Ströme nach deinen Prioritäten ein.",
+      "C": "Verbinde diesen Hafen symbolisch mit einigen Küstenorten auf der Erde."
+    }
+  },
+  "hk_381": {
+    "title": "Truppe des infernalen Theaters",
+    "body": "Eine Truppe spielt den Verdammten in Schleife verzerrte Lebensszenen vor.",
+    "choices": {
+      "A": "Förder die grausamsten und demütigendsten Versionen.",
+      "B": "Strukturiere die Stücke in gut organisierten Zyklen.",
+      "C": "Lass dieses Theater in die Träume menschlicher Künstler übertreten."
+    }
+  },
+  "hk_382": {
+    "title": "Erzwungene Treueschwüre",
+    "body": "Deine Schreiber schlagen vor, jede Seele auf deinen Namen schwören zu lassen.",
+    "choices": {
+      "A": "Zwinge allen unter Drohung diesen Schwur auf.",
+      "B": "Verzeichne jeden Schwur in einem offiziellen Register.",
+      "C": "Lass diese Art von Schwur in einigen irdischen Sekten widerhallen."
+    }
+  },
+  "hk_383": {
+    "title": "Splitter des zerbrochenen Paradieses",
+    "body": "Man findet leuchtende Splitter, die von einem höheren Ort herabgefallen sind.",
+    "choices": {
+      "A": "Zertritt sie und verspotte sie.",
+      "B": "Bewahre sie in einer geschlossenen, sauber beschrifteten Vitrine auf.",
+      "C": "Lass diese Splitter an heiligen Orten der Menschen schimmern."
+    }
+  },
+  "hk_384": {
+    "title": "Runde der Aufseher",
+    "body": "Deine Aufseher wollen erweiterte Befugnisse, um jeden Winkel zu kontrollieren.",
+    "choices": {
+      "A": "Lass sie totalen Schrecken durchsetzen.",
+      "B": "Organisiere sie in einer strengen Hierarchie mit regelmäßigen Berichten.",
+      "C": "Projiziere dieses Überwachungsmodell in menschliche Städte."
+    }
+  },
+  "hk_385": {
+    "title": "Händler falschen Trosts",
+    "body": "Dämonen verkaufen den Verdammten falschen Trost gegen später noch mehr Leid.",
+    "choices": {
+      "A": "Schließe die Augen, solange dadurch mehr Seelen gebrochen werden.",
+      "B": "Besteuere und rahme diesen Handel in deine Ordnung ein.",
+      "C": "Exportiere dieses Modell in einige menschliche Märkte."
+    }
+  },
+  "hk_386": {
+    "title": "Umkehrbarer Fluss",
+    "body": "Ein Fluss aus Seelen scheint manchmal aufwärts, manchmal abwärts zu fließen.",
+    "choices": {
+      "A": "Lass ihn launisch bleiben, um die Verdammten zu verwirren.",
+      "B": "Studiere dieses Phänomen und integriere es in deine Pläne.",
+      "C": "Verbinde diesen Fluss mit menschlichen Geschichten über eine zweite Chance."
+    }
+  },
+  "hk_387": {
+    "title": "Schule der Selbstlügen",
+    "body": "Eine Schule lehrt die Seelen, sich immer wieder selbst zu belügen.",
+    "choices": {
+      "A": "Mach daraus eine zentrale Grundlage psychologischer Folter.",
+      "B": "Klassifiziere die Arten von Lügen für deine Archive.",
+      "C": "Mach diese Techniken in menschlichen Gesellschaften zur Norm."
+    }
+  },
+  "hk_388": {
+    "title": "Garten erstarrter Asche",
+    "body": "Jede Blume steht für eine zerstörte Hoffnung.",
+    "choices": {
+      "A": "Führe optimistische Seelen hindurch, bis sie aufgeben.",
+      "B": "Verzeichne jede Blume nach Ursprung der gebrochenen Hoffnung.",
+      "C": "Lass diesen Garten in den Visionen menschlicher Mystiker erscheinen."
+    }
+  },
+  "hk_389": {
+    "title": "Spektakel wiederholter Stürze",
+    "body": "Ein Spektakel spielt den Fall mancher Seelen in Schleife nach.",
+    "choices": {
+      "A": "Lade jene ein, die sich noch für unschuldig halten.",
+      "B": "Synchronisiere diese Szenen mit deinem Ordnungskalender.",
+      "C": "Projiziere diese Stürze als Symbole in menschliche Medien."
+    }
+  },
+  "hk_390": {
+    "title": "Schmieden der Pakte",
+    "body": "Besondere Schmieden erschaffen in Metall eingravierte Pakte.",
+    "choices": {
+      "A": "Stärke so jedes verzweifelte Versprechen.",
+      "B": "Nummeriere und ordne jeden unterzeichneten Pakt.",
+      "C": "Verbinde diese Pakte mit den missbräuchlichsten menschlichen Verträgen."
+    }
+  },
+  "hk_391": {
+    "title": "Erwachen der Schmerzensstatuen",
+    "body": "Aus erstarrtem Schmerz geformte Statuen beginnen sich leicht zu bewegen.",
+    "choices": {
+      "A": "Nutze sie als furchterregende Wächter.",
+      "B": "Studiere sie, um die Entwicklung des Leidens zu verstehen.",
+      "C": "Lass ihre Silhouette in einigen menschlichen Albträumen erscheinen."
+    }
+  },
+  "hk_392": {
+    "title": "Saal der ansteckenden Reue",
+    "body": "In diesem Saal löst eine einzige Reue tausend weitere aus.",
+    "choices": {
+      "A": "Sperre die Unentschlossenen dort ein, um sie zu brechen.",
+      "B": "Miss die Ausbreitung der Reue für deine Ordnung.",
+      "C": "Lass diesen Mechanismus bei einigen menschlichen Perfektionisten entstehen."
+    }
+  },
+  "hk_393": {
+    "title": "Buchhalterdämonen",
+    "body": "Dämonen zählen jede Träne, jeden Schrei, jeden Seufzer.",
+    "choices": {
+      "A": "Dränge sie zu unmenschlicher Effizienz.",
+      "B": "Integriere ihre Bilanzen in deine Gesamtstrategie.",
+      "C": "Impfe bestimmte Wirtschaften mit dieser Zahlenobsession."
+    }
+  },
+  "hk_394": {
+    "title": "Scheiterhaufen ohne Flammen",
+    "body": "Scheiterhaufen, die nicht den Körper, sondern den Geist verbrennen.",
+    "choices": {
+      "A": "Binde daran jene, die an ihrem Bild festhalten.",
+      "B": "Ordne jede unsichtbare Verbrennung als Ordnungsdatum ein.",
+      "C": "Lass diese Scheiterhaufen in menschlicher sozialer Scham widerhallen."
+    }
+  },
+  "hk_395": {
+    "title": "Hängebrücke über der Leere",
+    "body": "Eine fragile Seilbrücke verbindet zwei Klippen voller schreiender Seelen.",
+    "choices": {
+      "A": "Zwinge die Verdammten, sie immer wieder zu überqueren.",
+      "B": "Setze Übergangsregeln fest, um die Angst zu kontrollieren.",
+      "C": "Nutze diese Brücke als Symbol in menschlichen Krisenvisionen."
+    }
+  },
+  "hk_396": {
+    "title": "Bibliothek der Ausreden",
+    "body": "Eine Bibliothek ordnet alle Ausreden, die ausgesprochen wurden, um keine Verantwortung zu übernehmen.",
+    "choices": {
+      "A": "Lass jene diese Ausreden lesen, die sie ausgesprochen haben.",
+      "B": "Ordne die Ausreden nach Wirksamkeit für deine künftigen Versuchungen.",
+      "C": "Lass einige Ausreden zu Standardfloskeln auf der Erde werden."
+    }
+  },
+  "hk_397": {
+    "title": "Rußmeteore",
+    "body": "Rußmeteore fallen regelmäßig in deine Gruben.",
+    "choices": {
+      "A": "Lass sie die Seelen willkürlich zerschmettern.",
+      "B": "Plane ihre Einschläge, um bestimmte Sektoren umzuformen.",
+      "C": "Verbinde diese dunklen Regen mit Naturereignissen auf der Erde."
+    }
+  },
+  "hk_398": {
+    "title": "Horn der Einberufung",
+    "body": "Ein riesiges Horn kann alle deine Kräfte in einem Augenblick versammeln.",
+    "choices": {
+      "A": "Lass es oft ertönen, um deine Präsenz zu behaupten.",
+      "B": "Reserviere es für die kritischsten Momente.",
+      "C": "Lass Sterbliche diesen Klang als Angst spüren."
+    }
+  },
+  "hk_399": {
+    "title": "Nebenthron",
+    "body": "Deine Berater schlagen vor, einen zweiten Thron zu schaffen, um zu delegieren.",
+    "choices": {
+      "A": "Weigere dich, auch nur einen Teil deiner Macht zu teilen.",
+      "B": "Ernenne einen streng überwachten vorübergehenden Regenten.",
+      "C": "Gib diesen symbolischen Thron einer Figur, die die Sterblichen beeinflussen wird."
+    }
+  },
+  "hk_400": {
+    "title": "Bilanz einer höllischen Herrschaft",
+    "body": "Deine Schreiber legen dir die vollständigen Bilanzen deiner aktuellen Herrschaft vor.",
+    "choices": {
+      "A": "Ignoriere die Zahlen und fahre im Exzess fort.",
+      "B": "Studiere jede Angabe, um deine Ordnung zu optimieren.",
+      "C": "Beschließe, deine Anstrengungen stärker auf die Oberfläche zu richten."
+    }
+  }
+}
