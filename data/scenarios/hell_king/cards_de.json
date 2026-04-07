@@ -640,7 +640,7 @@
   },
   "hk_072": {
     "title": "Manöver an den Grenzen",
-    "body": "Deine Legionen trainieren nahe den Grenzen deines Reiches, was die benachbarten Ebenen beunruhigt.",
+    "body": "Deine Legionen trainieren an den Grenzen deines Reiches und beunruhigen die Nachbarreiche.",
     "choices": {
       "A": "Mach aus der Übung eine echte Machtdemonstration.",
       "B": "Beruhige offiziell, während du das Training beibehältst.",
@@ -658,7 +658,7 @@
   },
   "hk_074": {
     "title": "Hof der raffinierten Qualen",
-    "body": "Ein Hof von Handwerkern des Martyriums bietet raffinierte, fast künstlerische Leiden an.",
+    "body": "Ein Hof von Folterhandwerkern bietet sehr ausgearbeitete Qualen an.",
     "choices": {
       "A": "Presse das Maximum an bearbeiteten Seelen heraus.",
       "B": "Führe für jede Qual ein starres Protokoll ein.",
@@ -829,7 +829,7 @@
   },
   "hk_093": {
     "title": "Felder aus Aschestatuen",
-    "body": "Zu Aschestatuen erstarrte Verdammte säumen eine Ebene, bereit zu zerbrechen oder zu erwachen.",
+    "body": "Eine Institution bringt Seelen bei, kontrolliert zu fallen.",
     "choices": {
       "A": "Zerschlage sie massenhaft, um dein Reich zu nähren.",
       "B": "Katalogisiere und überwache sie nach strengen Regeln.",
@@ -874,7 +874,7 @@
   },
   "hk_098": {
     "title": "Nacht der umgekehrten Spiegel",
-    "body": "Spiegel zeigen den Verdammten, was sie hätten werden können, wenn sie noch schlimmer gewesen wären.",
+    "body": "Kleine Sünden von heute führen schließlich zu großen Strafen.",
     "choices": {
       "A": "Nutze diese Visionen, um den Schmerz zu verstärken.",
       "B": "Ordne diese Spiegel sorgfältig in kodifizierten Räumen an.",
@@ -1027,7 +1027,7 @@
   },
   "hk_115": {
     "title": "Schule der höllischen Mentoren",
-    "body": "Eine Schule bildet „Mentoren“ aus, die auf die langsame Verderbnis des Charakters spezialisiert sind.",
+    "body": "Eine Schule bildet „Mentoren“ aus, die sich auf die langsame Verderbnis des Geistes spezialisiert haben.",
     "choices": {
       "A": "Miss ihren Erfolg an der Zahl der Seelen.",
       "B": "Bewerte vor allem ihre Disziplin und ihren Gehorsam.",
@@ -1081,7 +1081,7 @@
   },
   "hk_121": {
     "title": "Lager geflüchteter Seelen",
-    "body": "Ein formloses Lager von Seelen präsentiert sich als „Flüchtling“ aus anderen Ebenen.",
+    "body": "Ein improvisiertes Lager von Seelen stellt sich als Zuflucht aus anderen Welten dar.",
     "choices": {
       "A": "Nimm sie massenhaft in dein System auf.",
       "B": "Stelle sie unter ein streng kodifiziertes Regime.",
@@ -1297,7 +1297,7 @@
   },
   "hk_145": {
     "title": "Gewächshaus der Seelenpflanzen",
-    "body": "Ein Gewächshaus züchtet Pflanzen, die sich direkt von Seelenfragmenten ernähren.",
+    "body": "Ein Viertel liegt vollständig in Ruinen, und alle akzeptieren es so.",
     "choices": {
       "A": "Erhöhe ihre Zahl, um die Ernte zu beschleunigen.",
       "B": "Organisiere dieses Gewächshaus als Musterinstitution.",
@@ -1576,7 +1576,7 @@
   },
   "hk_176": {
     "title": "Geheimes Abkommen der Nichteinmischung",
-    "body": "Ein Gesandter schlägt dir ein geheimes Abkommen vor: Jeder hört auf, den anderen zu untergraben.",
+    "body": "Angst verbreitet sich überall wie eine Währung.",
     "choices": {
       "A": "Nimm an, um dein Reich kurzfristig zu stabilisieren.",
       "B": "Lehne ab und festige deine innere Ordnung noch weiter.",
@@ -1711,7 +1711,7 @@
   },
   "hk_191": {
     "title": "Vertrag der Katastrophen",
-    "body": "Der Norden schlägt einen Vertrag vor, um von der Hölle beeinflusste Naturkatastrophen zu koordinieren.",
+    "body": "Ein Ort, an dem die Hoffnung langsam verschwindet.",
     "choices": {
       "A": "Nutze die Gelegenheit, um mehr Seelen zu ernten.",
       "B": "Setze Grenzen, um das Gleichgewicht deiner Kreise zu bewahren.",
@@ -1799,7 +1799,6 @@
       "C": "Unterschreibe, während du an der Oberfläche schon neue Verderbnis vorbereitest."
     }
   },
-
   "hk_201": {
     "title": "Unkontrollierte Klimakrise",
     "body": "Die Sterblichen lösen eine Serie von Klimakatastrophen aus, ohne wirklich langsamer zu werden.",
@@ -1838,7 +1837,7 @@
   },
   "hk_205": {
     "title": "Krieg der Desinformation",
-    "body": "Die Sterblichen beschuldigen einander der Lüge, bis sie an allem zweifeln.",
+    "body": "Die Qualen dort sind präzise organisiert.",
     "choices": {
       "A": "Füttere jedes Lager mit falschen Enthüllungen.",
       "B": "Fördere einige „vernünftige“ Stimmen, um eine Struktur zu bewahren.",
@@ -1991,7 +1990,7 @@
   },
   "hk_222": {
     "title": "Grausamkeit als Spektakel",
-    "body": "Gewalt wird gefilmt, verbreitet und live überall kommentiert.",
+    "body": "Sie wollen das Leiden auf logischere Weise organisieren.",
     "choices": {
       "A": "Dränge die Sterblichen dazu, völlig abzustumpfen.",
       "B": "Stütze strenge Regeln für Bilder, die kaum angewandt werden.",
@@ -2189,7 +2188,7 @@
   },
   "hk_244": {
     "title": "Chemischer Nebel",
-    "body": "Die Oberfläche sinkt in einen Nebel aus Stoffen, die betäuben und entgleisen lassen.",
+    "body": "Reue häuft sich dort endlos an.",
     "choices": {
       "A": "Mach diesen Gebrauch alltäglich, um jede echte Reflexion zu verhindern.",
       "B": "Rahme einige Produkte ein und lass andere gedeihen.",
@@ -2432,7 +2431,7 @@
   },
   "hk_271": {
     "title": "Himmlische Prozession",
-    "body": "Eine Prozession leuchtender Seelen zieht kurz durch einen deiner Schwefelhimmel.",
+    "body": "Einige versuchen, Strafen kontrollierter zu gestalten.",
     "choices": {
       "A": "Versuche, einige Seelen während des Durchgangs einzufangen.",
       "B": "Lass sie passieren, um einen größeren Zwischenfall zu vermeiden.",
@@ -2576,7 +2575,7 @@
   },
   "hk_287": {
     "title": "Zurückgeholte Seelen",
-    "body": "Das Paradies schlägt vor, einige Seelen aus deinen tiefsten Gruben „zurückzufischen“.",
+    "body": "Die Strafe muss für alle wieder verständlich werden.",
     "choices": {
       "A": "Lehne jede Strafmilderung ab.",
       "B": "Akzeptiere eine winzige Quote im Austausch für offizielle Zugeständnisse.",
@@ -2702,7 +2701,7 @@
   },
   "hk_301": {
     "title": "Aufstand der Schreiber",
-    "body": "Die höllischen Schreiber klagen: zu viele Seelen, zu wenig Zeit, um alles festzuhalten.",
+    "body": "Das Leiden ist nicht mehr wirksam genug.",
     "choices": {
       "A": "Verlange, dass sie schreiben, bis ihre Federn brechen.",
       "B": "Organisiere die Verwaltung neu und schaffe neue Büros.",
@@ -3170,7 +3169,7 @@
   },
   "hk_353": {
     "title": "Mauer der gebrochenen Eide",
-    "body": "Eine endlose Mauer trägt jeden jemals gebrochenen Eid, in schwarzen Stein eingraviert.",
+    "body": "Jeder gebrochene Eid ist in schwarzen Stein gemeißelt.",
     "choices": {
       "A": "Kette alle, die ihre Eide brechen, gewaltsam daran fest.",
       "B": "Ordne die Eide nach Kategorien in einer strengen Hierarchie.",
@@ -3278,7 +3277,7 @@
   },
   "hk_365": {
     "title": "Friedhof der Throne",
-    "body": "Ein Friedhof versammelt alle zerbrochenen Throne der Mächtigen, die bei dir gefallen sind.",
+    "body": "Zerbrochene Throne ehemaliger Mächtiger sind in deinem Reich aufgestapelt.",
     "choices": {
       "A": "Organisiere dort Zwangsbesuche für neu verdammte Herrscher.",
       "B": "Ordne jeden Thron nach Regimeart für deine innere Ordnung.",
@@ -3485,7 +3484,7 @@
   },
   "hk_388": {
     "title": "Garten erstarrter Asche",
-    "body": "Ein Garten, in dem jede Blume eine Asche endgültig erloschener Hoffnung ist.",
+    "body": "Jede Blume steht für eine zerstörte Hoffnung.",
     "choices": {
       "A": "Führe optimistische Seelen hindurch, bis sie aufgeben.",
       "B": "Verzeichne jede Blume nach Ursprung der gebrochenen Hoffnung.",
@@ -3539,7 +3538,7 @@
   },
   "hk_394": {
     "title": "Scheiterhaufen ohne Flammen",
-    "body": "Scheiterhaufen, die nicht den Körper verbrennen, sondern etwas anderes.",
+    "body": "Scheiterhaufen, die nicht den Körper, sondern den Geist verbrennen.",
     "choices": {
       "A": "Binde daran jene, die an ihrem Bild festhalten.",
       "B": "Ordne jede unsichtbare Verbrennung als Ordnungsdatum ein.",
@@ -3600,5 +3599,4 @@
       "C": "Beschließe, deine Anstrengungen stärker auf die Oberfläche zu richten."
     }
   }
-
 }

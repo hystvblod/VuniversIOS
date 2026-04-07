@@ -622,9 +622,9 @@
   },
   "mcc_070": {
     "title": "Teléfono del CEO",
-    "body": "Tu teléfono filtra notificaciones en pleno evento público. Eso dispara especulaciones.",
+    "body": "Aparecen notificaciones en tu teléfono en pleno evento público. Eso provoca especulaciones de inmediato.",
     "choices": {
-      "A": "Reírte y desviar: \"sí, trabajo\".",
+      "A": "Tomártelo con humor y desviar la situación con una respuesta ligera.",
       "B": "Negarte a comentar y cerrar la puerta.",
       "C": "Publicar una aclaración y calmar el juego."
     }
@@ -1279,7 +1279,7 @@
   },
   "mcc_143": {
     "title": "Becario de redes sociales",
-    "body": "Se publica un post oficial con un emoji raro. Nadie sabe qué significa, pero se vuelve tendencia.",
+    "body": "Se publica un mensaje oficial con un emoji extraño. Nadie entiende lo que significa, pero se vuelve viral.",
     "choices": {
       "A": "Aclararlo y retomar el control editorial.",
       "B": "Aprovecharlo: más emojis, más ruido mediático.",
@@ -2119,7 +2119,7 @@
     "body": "Los empleados votan: más opciones vegetales en la cantina. Algunos gritan que es el complot del brócoli.",
     "choices": {
       "A": "Añadir más opciones vegetales, sin imponer.",
-      "B": "Rechazar: \"la cantina no es un parlamento\".",
+      "B": "Rechazar recordando que la cafetería no puede gestionarse mediante votaciones permanentes.",
       "C": "Probar 2 días por semana y medir la satisfacción."
     }
   },
@@ -2359,7 +2359,7 @@
   },
   "mcc_263": {
     "title": "Contrato y favoritismo, rumor",
-    "body": "Un rumor dice que tienes un contrato público gracias a \"amigos\". Es falso, pero corre.",
+    "body": "Un rumor afirma que obtuviste un contrato público gracias a tus contactos. Es falso, pero se está extendiendo.",
     "choices": {
       "A": "Publicar el proceso y los criterios de selección.",
       "B": "Ignorar el rumor.",
@@ -2722,7 +2722,7 @@
     "body": "Una comisión te pregunta cómo luchas contra la desinformación.",
     "choices": {
       "A": "Responder seriamente: transparencia y moderación si hace falta.",
-      "B": "Responder con una broma, mala idea",
+      "B": "Responder con una broma irónica.",
       "C": "Proponer una carta voluntaria sectorial."
     }
   },
@@ -3189,7 +3189,7 @@
     "title": "Reunión en holograma",
     "body": "Un ministro quiere verte, pero solo en holograma \"por la innovación\".",
     "choices": {
-      "A": "Hacer el holograma: efecto wow garantizado.",
+      "A": "Aceptar el holograma para causar impresión, pero sin exagerar.",
       "B": "Rechazar: cita clásica.",
       "C": "Hacer una demo VR simple, sin espectáculo."
     }
@@ -3546,7 +3546,7 @@
     }
   },
   "mcc_395": {
-    "title": "Bocinazo oficial",
+    "title": "Anuncio ridículo",
     "body": "Un ministro quiere anunciar tu asociación con una puesta en escena ridícula.",
     "choices": {
       "A": "Hacer un anuncio sobrio, sin espectáculo.",
@@ -3754,11 +3754,11 @@
   },
   "mcc_418": {
     "title": "Plan de emergencia débil",
-    "body": "En plena crisis, tu equipo propone sobre todo pegatinas de motivación en lugar de un plan real.",
+    "body": "En plena crisis, tu equipo propone soluciones superficiales en lugar de un plan real.",
     "choices": {
-      "A": "Plan concreto, sin pegatinas",
-      "B": "Poner pegatinas por todas partes para remonter la moral",
-      "C": "Plan concreto con un pequeño apoyo visual"
+      "A": "Preparar un plan real, sin gadgets inútiles.",
+      "B": "Multiplicar los eslóganes visuales en lugar de resolver el problema.",
+      "C": "Preparar un plan real con un apoyo visual muy discreto."
     }
   },
   "mcc_419": {

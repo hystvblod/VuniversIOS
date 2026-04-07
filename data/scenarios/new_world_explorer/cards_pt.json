@@ -1,4 +1,4 @@
-﻿{
+{
   "nw_001": {
     "title": "Porto natural",
     "body": "Uma baía perfeita pode tornar-se a nossa porta de entrada ou uma simples paragem.",
@@ -676,7 +676,7 @@
   },
   "nw_076": {
     "title": "Comboio lento",
-    "body": "Um comboio de metais avança tão devagar que atrai os sonhos dos ladrões.",
+    "body": "Um comboio de metais avança tão devagar que chama a atenção de todos os ladrões.",
     "choices": {
       "A": "Juntar uma escolta",
       "B": "Dividi-lo em pequenos lotes",
@@ -766,7 +766,7 @@
   },
   "nw_086": {
     "title": "Fisga do grumete",
-    "body": "O grumete tem boa pontaria e quer chefiar batedores como um adulto.",
+    "body": "O grumete aponta bem e já quer liderar um pequeno grupo de exploradores.",
     "choices": {
       "A": "Dar-lhe uma oportunidade",
       "B": "Dizer-lhe para esperar",
@@ -883,7 +883,7 @@
   },
   "nw_099": {
     "title": "Torre de vigia",
-    "body": "Uma torre de vigia vê longe mas custa caro de manter.",
+    "body": "Uma torre de vigia permite ver ao longe, mas custa caro construí-la e mantê-la.",
     "choices": {
       "A": "Construí-la a norte",
       "B": "Construí-la no porto",
@@ -1270,7 +1270,7 @@
   },
   "nw_142": {
     "title": "Farinha rara",
-    "body": "A farinha falta e os padeiros olham para o céu sem ajuda.",
+    "body": "Falta farinha e os padeiros esperam uma ajuda que não chega.",
     "choices": {
       "A": "Comprar um stock de urgência",
       "B": "Baixar as rações dos soldados",
@@ -1432,7 +1432,7 @@
   },
   "nw_160": {
     "title": "Botas desaparecidas",
-    "body": "As botas do campo desaparecem como se a lama as comesse.",
+    "body": "As botas do acampamento desaparecem sem parar, engolidas pela lama ou perdidas na confusão.",
     "choices": {
       "A": "Contar todo o stock",
       "B": "Encomendar localmente",
@@ -1972,7 +1972,7 @@
   },
   "nw_220": {
     "title": "Colheita cedo demais",
-    "body": "Uns operários querem colher depressa antes de o céu mudar de opinião.",
+    "body": "Os trabalhadores querem colher depressa antes que o tempo mude.",
     "choices": {
       "A": "Colher agora",
       "B": "Esperar dois dias",
@@ -2602,7 +2602,7 @@
   },
   "nw_290": {
     "title": "Mão de obra móvel",
-    "body": "Uns operários mudam de obra como peixes de corrente.",
+    "body": "Os trabalhadores mudam constantemente de obra ao menor imprevisto.",
     "choices": {
       "A": "Pagar melhor aos mais fiáveis",
       "B": "Formar uma equipa fixa",
@@ -2611,7 +2611,7 @@
   },
   "nw_291": {
     "title": "Festa da bandeira",
-    "body": "A bandeira nova merece uma festa mas o tesouro já tosse.",
+    "body": "A nova bandeira merecia uma festa, mas as finanças já estão no fundo.",
     "choices": {
       "A": "Fazer uma pequena festa",
       "B": "Fazer em grande",
@@ -2728,7 +2728,7 @@
   },
   "nw_304": {
     "title": "Feijões demasiado orgulhosos",
-    "body": "Os feijões do acampamento crescem tão bem que olham o mercado de cima.",
+    "body": "Os feijões do acampamento crescem tão bem que o mercado local começa a sofrer com isso.",
     "choices": {
       "A": "Vendê-los depressa",
       "B": "Guardá-los no acampamento",
@@ -3043,7 +3043,7 @@
   },
   "nw_339": {
     "title": "Sacos mal fechados",
-    "body": "Os sacos do armazém deixam escapar o conteúdo como tagarelas.",
+    "body": "Os sacos do depósito estão mal fechados e perdem o conteúdo.",
     "choices": {
       "A": "Comprar bons atilhos",
       "B": "Formar os carregadores",
@@ -3079,7 +3079,7 @@
   },
   "nw_343": {
     "title": "Mesa torta",
-    "body": "Uma mesa de triagem inclina-se tanto que os sacos escolhem um lado.",
+    "body": "Uma mesa de triagem inclina-se tanto que todos os sacos caem para o mesmo lado.",
     "choices": {
       "A": "Endireitá-la",
       "B": "Mandar vir uma nova",
@@ -3151,7 +3151,7 @@
   },
   "nw_351": {
     "title": "Luvas de trabalho",
-    "body": "As mãos da obra parecem demasiado redes velhas.",
+    "body": "As mãos dos trabalhadores estão tão danificadas que é preciso agir.",
     "choices": {
       "A": "Distribuí-las",
       "B": "Vendê-las ao preço de custo",
@@ -3376,7 +3376,7 @@
   },
   "nw_376": {
     "title": "Velho canoa",
-    "body": "Uma velha canoa ainda aguenta mais por hábito do que por madeira.",
+    "body": "Uma velha canoa ainda aguenta, mas parece sobreviver mais por milagre do que por solidez.",
     "choices": {
       "A": "Repará-la",
       "B": "Desmontá-la",
@@ -3592,7 +3592,7 @@
   },
   "nw_400": {
     "title": "Torre da margem",
-    "body": "Uma torre à beira da água veria tudo e custaria tudo também.",
+    "body": "Uma torre junto à água permitiria ver tudo, mas custaria uma fortuna.",
     "choices": {
       "A": "Construí-la",
       "B": "Montar uma plataforma",

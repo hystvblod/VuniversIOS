@@ -1,4 +1,4 @@
-﻿{
+{
   "nw_001": {
     "title": "Porto naturale",
     "body": "Una baia perfetta può diventare la nostra porta d ingresso o una semplice tappa.",
@@ -676,7 +676,7 @@
   },
   "nw_076": {
     "title": "Convoglio lento",
-    "body": "Un convoglio di metalli avanza così lentamente da attirare i sogni dei ladri.",
+    "body": "Un convoglio di metalli avanza così lentamente da attirare l’attenzione di tutti i ladri.",
     "choices": {
       "A": "Aggiungere una scorta",
       "B": "Dividerlo in piccoli lotti",
@@ -766,7 +766,7 @@
   },
   "nw_086": {
     "title": "Fionda del mozzo",
-    "body": "Il mozzo mira bene e vuole guidare degli esploratori come un adulto.",
+    "body": "Il mozzo mira bene e vuole già guidare un piccolo gruppo di esploratori.",
     "choices": {
       "A": "Dargli una possibilità",
       "B": "Dirgli di aspettare",
@@ -883,7 +883,7 @@
   },
   "nw_099": {
     "title": "Torre di guardia",
-    "body": "Una torre di guardia vede lontano ma costa cara da guardare.",
+    "body": "Una torre di guardia permette di vedere lontano, ma costa caro costruirla e mantenerla.",
     "choices": {
       "A": "Costruirla a nord",
       "B": "Costruirla al porto",
@@ -1270,7 +1270,7 @@
   },
   "nw_142": {
     "title": "Farina rara",
-    "body": "La farina manca e i panettieri guardano il cielo senza aiuto.",
+    "body": "La farina manca e i panettieri aspettano un aiuto che non arriva.",
     "choices": {
       "A": "Comprare una scorta d emergenza",
       "B": "Ridurre le razioni dei soldati",
@@ -1432,7 +1432,7 @@
   },
   "nw_160": {
     "title": "Stivali introvabili",
-    "body": "Gli stivali del campo spariscono come se il fango li mangiasse.",
+    "body": "Gli stivali del campo spariscono di continuo, inghiottiti dal fango o persi nel disordine.",
     "choices": {
       "A": "Contare tutta la scorta",
       "B": "Ordinarli localmente",
@@ -1972,7 +1972,7 @@
   },
   "nw_220": {
     "title": "Raccolto troppo presto",
-    "body": "Degli operai vogliono raccogliere in fretta prima che il cielo cambi idea.",
+    "body": "Gli operai vogliono raccogliere in fretta prima che cambi il tempo.",
     "choices": {
       "A": "Raccogliere adesso",
       "B": "Aspettare due giorni",
@@ -2602,7 +2602,7 @@
   },
   "nw_290": {
     "title": "Manodopera mobile",
-    "body": "Gli operai cambiano cantiere come i pesci cambiano corrente.",
+    "body": "Gli operai cambiano continuamente cantiere al minimo imprevisto.",
     "choices": {
       "A": "Pagare meglio quelli affidabili",
       "B": "Formare una squadra fissa",
@@ -2611,7 +2611,7 @@
   },
   "nw_291": {
     "title": "Festa della bandiera",
-    "body": "La nuova bandiera merita una festa ma la cassa tossisce già.",
+    "body": "La nuova bandiera meriterebbe una festa, ma le finanze sono già al minimo.",
     "choices": {
       "A": "Fare una piccola festa",
       "B": "Farla grande",
@@ -2728,7 +2728,7 @@
   },
   "nw_304": {
     "title": "Fagioli troppo fieri",
-    "body": "I fagioli del campo crescono così bene che guardano il mercato dall alto in basso.",
+    "body": "I fagioli del campo crescono così bene che il mercato locale inizia a risentirne.",
     "choices": {
       "A": "Venderli in fretta",
       "B": "Tenerli al campo",
@@ -3043,7 +3043,7 @@
   },
   "nw_339": {
     "title": "Sacchi mal chiusi",
-    "body": "I sacchi del deposito lasciano uscire il loro contenuto come dei chiacchieroni.",
+    "body": "I sacchi del deposito sono chiusi male e perdono il loro contenuto.",
     "choices": {
       "A": "Comprare buoni legacci",
       "B": "Formare i portatori",
@@ -3079,7 +3079,7 @@
   },
   "nw_343": {
     "title": "Tavolo storto",
-    "body": "Un tavolo di smistamento pende così tanto che i sacchi scelgono da soli un lato.",
+    "body": "Un tavolo di smistamento è così inclinato che tutti i sacchi cadono dallo stesso lato.",
     "choices": {
       "A": "Raddrizzarlo",
       "B": "Ordinarne uno nuovo",
@@ -3151,7 +3151,7 @@
   },
   "nw_351": {
     "title": "Guanti da lavoro",
-    "body": "Le mani del cantiere assomigliano troppo a vecchie reti.",
+    "body": "Le mani degli operai sono così rovinate che bisogna intervenire.",
     "choices": {
       "A": "Distribuirli",
       "B": "Venderli al prezzo di costo",
@@ -3376,7 +3376,7 @@
   },
   "nw_376": {
     "title": "Vecchio canotto",
-    "body": "Un vecchio canotto regge ancora più per abitudine che per legno.",
+    "body": "Una vecchia canoa regge ancora, ma sembra sopravvivere più per miracolo che per solidità.",
     "choices": {
       "A": "Ripararlo",
       "B": "Smontarlo",
@@ -3592,7 +3592,7 @@
   },
   "nw_400": {
     "title": "Torre della riva",
-    "body": "Una torre sul bordo dell acqua vedrebbe tutto e costerebbe anche tutto.",
+    "body": "Una torre in riva all’acqua permetterebbe di vedere tutto, ma costerebbe una fortuna.",
     "choices": {
       "A": "Costruirla",
       "B": "Montare una piattaforma",
