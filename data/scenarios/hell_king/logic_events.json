@@ -1,8 +1,8 @@
 {
   "version": 1,
   "roll_every_cards": 3,
-  "trigger_chance": 0.0333333333,
-  "cooldown_cards": 25,
+  "trigger_chance": 0.10,
+  "cooldown_cards": 30,
   "events": [
     { "id": "hell_king_ev_001", "duration_cards": 5, "effects": { "per_card": { "souls": 5 } } },
     { "id": "hell_king_ev_002", "duration_cards": 6, "effects": { "per_card": { "legions": 5 } } },
