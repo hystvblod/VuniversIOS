@@ -638,6 +638,56 @@ body.vr-peek-mode .vr-gauge-preview{
   opacity:.55;
   clip-path:inset(calc(100% - var(--vr-pct, 0%)) 0 0 0);
 }
+
+@keyframes vrGaugeCriticalLowSoft {
+  0%, 100% {
+    transform: translateZ(0) scale(1);
+    filter: brightness(1) drop-shadow(0 0 0 rgba(255,255,255,0));
+    opacity: 1;
+  }
+  50% {
+    transform: translateZ(0) scale(1.035);
+    filter: brightness(1.12) drop-shadow(0 0 10px rgba(255,255,255,.18));
+    opacity: .96;
+  }
+}
+
+@keyframes vrGaugeCriticalHighSoft {
+  0%, 100% {
+    transform: translateZ(0) scale(1);
+    filter: brightness(1) saturate(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateZ(0) scale(1.04);
+    filter: brightness(1.14) saturate(1.06);
+    opacity: .95;
+  }
+}
+
+.vr-gauge.vr-critical-low .vr-gauge-fill,
+.vr-gauge.vr-critical-low .vr-gauge-frame{
+  transform-origin: 50% 50%;
+  animation: vrGaugeCriticalLowSoft 1.55s ease-in-out infinite;
+}
+
+.vr-gauge.vr-critical-high .vr-gauge-fill,
+.vr-gauge.vr-critical-high .vr-gauge-frame{
+  transform-origin: 50% 50%;
+  animation: vrGaugeCriticalHighSoft 1.45s ease-in-out infinite;
+}
+
+.vr-gauge.vr-critical-low .vr-gauge-value,
+.vr-gauge.vr-critical-high .vr-gauge-value{
+  opacity: 1;
+}
+
+body.vr-peek-mode .vr-gauge.vr-critical-low .vr-gauge-fill,
+body.vr-peek-mode .vr-gauge.vr-critical-low .vr-gauge-frame,
+body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-fill,
+body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
+  animation-duration: 1.2s;
+}
 `;
         (document.head || document.documentElement).appendChild(style);
       } catch (_) {}
@@ -750,6 +800,14 @@ body.vr-peek-mode .vr-gauge-preview{
 
         const previewEl = gEl.querySelector(".vr-gauge-preview");
         if (previewEl) previewEl.style.setProperty("--vr-pct", "0%");
+
+        gEl.classList.remove("vr-critical-low", "vr-critical-high");
+
+        if (safeVal <= 10) {
+          gEl.classList.add("vr-critical-low");
+        } else if (safeVal >= 90) {
+          gEl.classList.add("vr-critical-high");
+        }
       });
 
       try { window.VRTokenUI?.maybeOfferCriticalGauge?.(); } catch (_) {}
