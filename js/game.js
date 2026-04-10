@@ -357,6 +357,14 @@ function getRankLabel(universeId, reignLength) {
 
       return { eventsLogic: logic, eventsTexts: texts };
     },
+    async loadUniverseMajors(universeId, lang) {
+      const logicPromise = this._loadMajorsLogic(universeId);
+      const textsPromise = this._loadMajorsTexts(universeId, lang);
+
+      const [logic, texts] = await Promise.all([logicPromise, textsPromise]);
+
+      return { majorsLogic: logic, majorsTexts: texts };
+    },
 
     async _loadConfig(universeId) {
       const urlNew = `${SCENARIOS_PATH}/${universeId}/config.json`;
@@ -467,6 +475,37 @@ function getRankLabel(universeId, reignLength) {
       if (!res.ok) return {};
       const data = await res.json();
       return (data && typeof data === "object") ? data : {};
+    },
+
+    async _loadMajorsLogic(universeId) {
+      const url = `${SCENARIOS_PATH}/${universeId}/logic_major_decisions.json`;
+      const res = await fetch(url, { cache: "no-cache" });
+      if (!res.ok) return { decisions: [] };
+
+      const data = await res.json();
+      if (Array.isArray(data)) return { decisions: data };
+      if (data && typeof data === "object" && Array.isArray(data.decisions)) return data;
+      return { decisions: [] };
+    },
+
+    async _loadMajorsTexts(universeId, lang) {
+      const fileLang = normalizeScenarioLang(lang);
+      const tries = [
+        `${SCENARIOS_PATH}/${universeId}/major_decisions_${fileLang}.json`,
+        fileLang === "jp" ? `${SCENARIOS_PATH}/${universeId}/major_decisions_ja.json` : "",
+        fileLang === "ja" ? `${SCENARIOS_PATH}/${universeId}/major_decisions_jp.json` : "",
+        fileLang !== "en" ? `${SCENARIOS_PATH}/${universeId}/major_decisions_en.json` : "",
+        fileLang !== "fr" ? `${SCENARIOS_PATH}/${universeId}/major_decisions_fr.json` : ""
+      ].filter(Boolean);
+
+      for (const url of tries) {
+        const res = await fetch(url, { cache: "no-cache" });
+        if (!res.ok) continue;
+        const data = await res.json();
+        return (data && typeof data === "object") ? data : {};
+      }
+
+      return {};
     }
   };
 
@@ -3104,6 +3143,7 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
     } catch (_) {}
 
     ensureEventState(this);
+    try { if (typeof this._ensureMajorState === "function") this._ensureMajorState(); } catch (_) {}
     this._pushHistorySnapshot(cardLogic);
 
     const choiceData = cardLogic.choices[choiceId];
@@ -3113,6 +3153,7 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
     if (window.VRState.isAlive()) {
       applyActiveEventTicks(this);
       tickEventCooldowns(this);
+      try { this._tickMajorCooldowns?.(); } catch (_) {}
     }
 
     this.coinsStreak += 1;
@@ -3131,6 +3172,7 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
     try { window.VRGame?.maybeShowInterstitial?.(); } catch (_) {}
 
     sanitizeEventState(this);
+    try { this._sanitizeMajorState?.(); } catch (_) {}
     this._saveRunSoft();
 
     try {
@@ -3142,6 +3184,12 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
       return;
     }
 
+    const shouldMajor = this._maybeRollMajorAfterCardResolved?.();
+    if (shouldMajor) {
+      this._triggerRandomMajor?.();
+      return;
+    }
+
     const shouldEvent = this._maybeRollEventAfterCardResolved();
     if (shouldEvent) {
       this._triggerRandomEvent();
@@ -3149,6 +3197,400 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
     }
 
     this._nextCard();
+  };
+})();
+
+// -------------------------------------------------------
+// Major system patch — aligné sur logic_major_decisions.json / major_decisions_*.json
+// -------------------------------------------------------
+(function () {
+  "use strict";
+
+  const engine = window.VREngine;
+  if (!engine) return;
+
+  const clone = (obj) => {
+    try { return JSON.parse(JSON.stringify(obj)); } catch (_) { return obj; }
+  };
+
+  const asInt = (x, fallback) => {
+    const n = Number(x);
+    return Number.isFinite(n) ? Math.trunc(n) : (fallback || 0);
+  };
+
+  const clamp = (val, min, max) => Math.max(min, Math.min(max, val));
+
+  function toast(msg) {
+    try {
+      if (typeof window.showToast === "function") return window.showToast(msg);
+    } catch (_) {}
+  }
+
+  function ensureMajorState(ctx) {
+    if (!ctx || typeof ctx !== "object") return;
+    if (!ctx._majorById || typeof ctx._majorById?.get !== "function") ctx._majorById = new Map();
+    if (!Array.isArray(ctx._allMajorIds)) ctx._allMajorIds = [];
+    if (!Array.isArray(ctx._seenMajors)) ctx._seenMajors = [];
+    if (!ctx._majorCooldowns || typeof ctx._majorCooldowns !== "object" || Array.isArray(ctx._majorCooldowns)) {
+      ctx._majorCooldowns = {};
+    }
+    if (!Number.isFinite(ctx._cardsSinceMajorRoll)) ctx._cardsSinceMajorRoll = 0;
+    if (typeof ctx._majorShowing !== "boolean") ctx._majorShowing = false;
+    if (!ctx.majorsLogic || typeof ctx.majorsLogic !== "object") ctx.majorsLogic = { decisions: [] };
+    if (!ctx.majorsTexts || typeof ctx.majorsTexts !== "object") ctx.majorsTexts = {};
+  }
+
+  function sanitizeMajorState(ctx) {
+    ensureMajorState(ctx);
+    const allow = new Set(Array.isArray(ctx._allMajorIds) ? ctx._allMajorIds : []);
+    ctx._seenMajors = ctx._seenMajors.filter((id) => allow.has(id));
+
+    const nextCooldowns = {};
+    Object.entries(ctx._majorCooldowns || {}).forEach(([id, value]) => {
+      if (!allow.has(id)) return;
+      const n = Math.max(0, asInt(value, 0));
+      if (n > 0) nextCooldowns[id] = n;
+    });
+    ctx._majorCooldowns = nextCooldowns;
+  }
+
+  function getMajorRollEveryCards(ctx) {
+    return Math.max(1, asInt(ctx?.majorsLogic?.roll_every_cards, 5));
+  }
+
+  function getMajorTriggerChance(ctx) {
+    const raw = Number(ctx?.majorsLogic?.trigger_chance);
+    if (!Number.isFinite(raw)) return 0.18;
+    return Math.max(0, Math.min(1, raw));
+  }
+
+  function getMajorGlobalCooldownCards(ctx) {
+    return Math.max(0, asInt(ctx?.majorsLogic?.cooldown_cards, 10));
+  }
+
+  function getMajorDecisionCooldown(ctx, decision) {
+    return Math.max(0, asInt(decision?.cooldown_cards, getMajorGlobalCooldownCards(ctx)));
+  }
+
+  function getMajorTexts(ctx, id) {
+    const root = ctx?.majorsTexts;
+    if (!root || typeof root !== "object") return null;
+    return root?.decisions?.[id] || root?.[id] || null;
+  }
+
+  function isMajorEligible(ctx, decision) {
+    if (!decision?.id) return false;
+    if (Math.max(0, asInt(ctx?._majorCooldowns?.[decision.id], 0)) > 0) return false;
+    const cardsPlayed = asInt(window.VRState?.cardsPlayed, 0);
+    return cardsPlayed >= Math.max(0, asInt(decision?.min_cards_played, 0));
+  }
+
+  function finalizeGaugeState() {
+    try {
+      window.VRState.lastDeath = null;
+      window.VRState.alive = true;
+      for (const gaugeId of Object.keys(window.VRState?.gauges || {})) {
+        const v = Number(window.VRState.gauges[gaugeId]);
+        if (!Number.isFinite(v)) {
+          window.VRState.alive = false;
+          window.VRState.lastDeath = { gaugeId, direction: "down" };
+          break;
+        }
+        if (v <= 0) {
+          window.VRState.alive = false;
+          window.VRState.lastDeath = { gaugeId, direction: "down" };
+          break;
+        }
+        if (v >= 100) {
+          window.VRState.alive = false;
+          window.VRState.lastDeath = { gaugeId, direction: "up" };
+          break;
+        }
+      }
+    } catch (_) {}
+  }
+
+  engine._ensureMajorState = function () {
+    ensureMajorState(this);
+  };
+
+  engine._sanitizeMajorState = function () {
+    sanitizeMajorState(this);
+  };
+
+  engine._tickMajorCooldowns = function () {
+    ensureMajorState(this);
+    const next = {};
+    Object.entries(this._majorCooldowns || {}).forEach(([id, value]) => {
+      const remaining = Math.max(0, asInt(value, 0) - 1);
+      if (remaining > 0) next[id] = remaining;
+    });
+    this._majorCooldowns = next;
+  };
+
+  engine._rebuildMajorIndex = function () {
+    ensureMajorState(this);
+    this._majorById = new Map();
+
+    const arr = Array.isArray(this.majorsLogic?.decisions) ? this.majorsLogic.decisions : [];
+    arr.forEach((decision) => {
+      if (decision && decision.id) this._majorById.set(decision.id, decision);
+    });
+
+    this._allMajorIds = Array.from(this._majorById.keys());
+    sanitizeMajorState(this);
+  };
+
+  const originalMakeSavePayload = engine._makeSavePayload;
+  engine._makeSavePayload = function () {
+    ensureMajorState(this);
+    const payload = originalMakeSavePayload.apply(this, arguments) || {};
+    payload.engine = payload.engine || {};
+    payload.engine.majors = {
+      cardsSinceRoll: asInt(this._cardsSinceMajorRoll, 0),
+      seen: clone(this._seenMajors || []),
+      cooldowns: clone(this._majorCooldowns || {})
+    };
+    return payload;
+  };
+
+  const originalInit = engine.init;
+  engine.init = async function () {
+    const out = await originalInit.apply(this, arguments);
+    ensureMajorState(this);
+
+    let majorsLogic = { decisions: [] };
+    let majorsTexts = {};
+    try {
+      if (String(this.universeId || "").trim() !== "intro") {
+        const data = await window.VREventsLoader?.loadUniverseMajors?.(this.universeId, this.lang);
+        majorsLogic = data?.majorsLogic || { decisions: [] };
+        majorsTexts = data?.majorsTexts || {};
+      }
+    } catch (_) {}
+
+    this.majorsLogic = majorsLogic || { decisions: [] };
+    this.majorsTexts = majorsTexts || {};
+    this._majorById = new Map();
+    this._allMajorIds = [];
+    this._seenMajors = [];
+    this._cardsSinceMajorRoll = 0;
+    this._majorCooldowns = {};
+    this._majorShowing = false;
+    this._rebuildMajorIndex();
+
+    try {
+      const saved = window.VRSave?.load?.(this.universeId);
+      const majors = saved?.engine?.majors || {};
+      this._cardsSinceMajorRoll = Math.max(0, asInt(majors.cardsSinceRoll, 0));
+      this._seenMajors = Array.isArray(majors.seen) ? clone(majors.seen) : [];
+      if (majors.cooldowns && typeof majors.cooldowns === "object" && !Array.isArray(majors.cooldowns)) {
+        this._majorCooldowns = clone(majors.cooldowns);
+      }
+    } catch (_) {}
+
+    sanitizeMajorState(this);
+    this._saveRunSoft();
+    return out;
+  };
+
+  const originalStartNewReign = engine._startNewReign;
+  engine._startNewReign = function () {
+    this._seenMajors = [];
+    this._cardsSinceMajorRoll = 0;
+    this._majorCooldowns = {};
+    this._majorShowing = false;
+    return originalStartNewReign.apply(this, arguments);
+  };
+
+  const originalRestartRun = engine.restartRun;
+  engine.restartRun = function () {
+    this._seenMajors = [];
+    this._cardsSinceMajorRoll = 0;
+    this._majorCooldowns = {};
+    this._majorShowing = false;
+    return originalRestartRun.apply(this, arguments);
+  };
+
+  const originalReviveSecondChance = engine.reviveSecondChance;
+  engine.reviveSecondChance = function () {
+    this._seenMajors = [];
+    this._cardsSinceMajorRoll = 0;
+    this._majorCooldowns = {};
+    this._majorShowing = false;
+    return originalReviveSecondChance.apply(this, arguments);
+  };
+
+  engine._maybeRollMajorAfterCardResolved = function () {
+    ensureMajorState(this);
+    if (this._majorShowing) return false;
+    if (!window.VRState?.isAlive?.()) return false;
+    if (!Array.isArray(this._allMajorIds) || !this._allMajorIds.length) {
+      this._cardsSinceMajorRoll = 0;
+      return false;
+    }
+
+    this._cardsSinceMajorRoll += 1;
+    if (this._cardsSinceMajorRoll < getMajorRollEveryCards(this)) {
+      this._saveRunSoft();
+      return false;
+    }
+
+    this._cardsSinceMajorRoll = 0;
+    const eligible = (Array.isArray(this.majorsLogic?.decisions) ? this.majorsLogic.decisions : [])
+      .filter((decision) => isMajorEligible(this, decision));
+
+    if (!eligible.length) {
+      this._saveRunSoft();
+      return false;
+    }
+
+    const hit = Math.random() < getMajorTriggerChance(this);
+    this._saveRunSoft();
+    return hit;
+  };
+
+  engine._pickRandomMajorId = function () {
+    ensureMajorState(this);
+    const eligible = (Array.isArray(this.majorsLogic?.decisions) ? this.majorsLogic.decisions : [])
+      .filter((decision) => isMajorEligible(this, decision));
+
+    if (!eligible.length) return null;
+    const picked = eligible[Math.floor(Math.random() * eligible.length)] || null;
+    return picked?.id || null;
+  };
+
+  engine._applyMajorOutcome = async function (spec) {
+    const outcome = (spec && typeof spec === "object") ? spec : {};
+
+    if (outcome.gameOver) {
+      const gaugeId = (window.VRState?.gaugeOrder || Object.keys(window.VRState?.gauges || {}))[0] || "g0";
+      if (gaugeId) {
+        window.VRState.gauges[gaugeId] = 0;
+        window.VRState.lastDeath = { gaugeId, direction: "down" };
+      }
+      window.VRState.alive = false;
+      return;
+    }
+
+    if (outcome.setGauge && typeof outcome.setGauge === "object") {
+      Object.entries(outcome.setGauge).forEach(([gaugeId, value]) => {
+        try { window.VRState?.setGaugeValue?.(gaugeId, value); } catch (_) {}
+      });
+    }
+
+    if (outcome.scaleGauge && typeof outcome.scaleGauge === "object") {
+      Object.entries(outcome.scaleGauge).forEach(([gaugeId, factor]) => {
+        const current = Number(window.VRState?.getGaugeValue?.(gaugeId) ?? 50);
+        const next = clamp(current * Number(factor || 1), 0, 100);
+        try { window.VRState?.setGaugeValue?.(gaugeId, next); } catch (_) {}
+      });
+    }
+
+    finalizeGaugeState();
+  };
+
+  engine._triggerRandomMajor = async function () {
+    ensureMajorState(this);
+    if (this._majorShowing) return false;
+    if (!window.VRState?.isAlive?.()) return false;
+
+    const id = this._pickRandomMajorId();
+    if (!id) return false;
+
+    const decision = this._majorById.get(id) || null;
+    const texts = getMajorTexts(this, id) || {};
+    if (!decision) return false;
+
+    this._majorShowing = true;
+    this._seenMajors.push(id);
+
+    const globalCooldown = getMajorGlobalCooldownCards(this);
+    if (globalCooldown > 0) {
+      (this._allMajorIds || []).forEach((majorId) => {
+        this._majorCooldowns[majorId] = Math.max(asInt(this._majorCooldowns[majorId], 0), globalCooldown);
+      });
+    }
+
+    const specificCooldown = getMajorDecisionCooldown(this, decision);
+    this._majorCooldowns[id] = Math.max(asInt(this._majorCooldowns[id], 0), specificCooldown);
+    sanitizeMajorState(this);
+    this._saveRunSoft();
+
+    const yesLabel = String(texts?.yes_label || "Oui").trim() || "Oui";
+    const noLabel = String(texts?.no_label || "Non").trim() || "Non";
+    const previewLabel = String(texts?.preview_hint || "").trim();
+    const previewLines = previewLabel
+      ? [
+          `${yesLabel} : ${String(texts?.outcome_yes_title || "").trim()}${texts?.outcome_yes_title && texts?.outcome_yes_body ? " — " : ""}${String(texts?.outcome_yes_body || "").trim()}`,
+          `${noLabel} : ${String(texts?.outcome_no_title || "").trim()}${texts?.outcome_no_title && texts?.outcome_no_body ? " — " : ""}${String(texts?.outcome_no_body || "").trim()}`
+        ].filter((line) => String(line || "").replace(/^\s+|\s+$/g, "") !== ":")
+      : [];
+
+    const choice = await window.VRGuideMentor?.showMajorDecision?.(this.universeId || window.VRGame?.currentUniverse || "", {
+      title: texts?.title || "",
+      body: texts?.body || "",
+      yesLabel,
+      noLabel,
+      previewLabel,
+      previewLines,
+      onPreview: async () => {
+        const okSpend = await window.VUserData?.spendJetons?.(1);
+        if (!okSpend) {
+          toast(window.VRI18n?.t?.("token.toast.no_tokens_offer") || "");
+          try { window.VRTokenUI?.openMenu?.(); } catch (_) {}
+          return false;
+        }
+
+        try { await this._refreshUIBalancesSoft?.(); } catch (_) {}
+        try {
+          window.VRUIBinding?.updateMeta?.(
+            window.VRRuntimeText?.getDynastyName?.() || "",
+            window.VRRuntimeText?.getYearLabel?.() || "",
+            this._uiCoins,
+            this._uiTokens
+          );
+        } catch (_) {}
+        return true;
+      }
+    });
+
+    if (choice !== "yes" && choice !== "no") {
+      this._majorShowing = false;
+      this._saveRunSoft();
+      return false;
+    }
+
+    const outcomeSpec = clone(decision?.[choice] || {});
+    await this._applyMajorOutcome(outcomeSpec);
+
+    try { await this._refreshUIBalancesSoft?.(); } catch (_) {}
+    try {
+      window.VRUIBinding?.updateGauges?.();
+      window.VRUIBinding?.updateMeta?.(
+        window.VRRuntimeText?.getDynastyName?.() || "",
+        window.VRRuntimeText?.getYearLabel?.() || "",
+        this._uiCoins,
+        this._uiTokens
+      );
+    } catch (_) {}
+
+    await window.VRGuideMentor?.showMajorOutcome?.(
+      this.universeId || window.VRGame?.currentUniverse || "",
+      choice === "yes" ? (texts?.outcome_yes_title || "") : (texts?.outcome_no_title || ""),
+      choice === "yes" ? (texts?.outcome_yes_body || "") : (texts?.outcome_no_body || "")
+    );
+
+    this._majorShowing = false;
+
+    if (!window.VRState?.isAlive?.()) {
+      await this._handleDeath();
+      return true;
+    }
+
+    this._saveRunSoft();
+    this._nextCard();
+    return true;
   };
 })();
 
@@ -6418,7 +6860,14 @@ window.VRGuideMentor = {
       image: document.getElementById("vr-guide-image"),
       bubble: document.getElementById("vr-guide-bubble-text"),
       fit: document.getElementById("vr-guide-bubble-fit"),
+      nextWrap: document.getElementById("vr-guide-actions-next"),
       nextBtn: document.getElementById("vr-guide-next-btn"),
+      majorChoiceWrap: document.getElementById("vr-guide-actions-major-choice"),
+      majorPreviewBtn: document.getElementById("vr-guide-major-preview-btn"),
+      majorYesBtn: document.getElementById("vr-guide-major-yes-btn"),
+      majorNoBtn: document.getElementById("vr-guide-major-no-btn"),
+      majorResultWrap: document.getElementById("vr-guide-actions-major-result"),
+      majorCloseBtn: document.getElementById("vr-guide-major-close-btn"),
       view: document.getElementById("view-game")
     };
   },
@@ -6471,13 +6920,71 @@ window.VRGuideMentor = {
         div.className = "vr-guide-line vr-guide-line--body";
       }
 
-      if (mode === "event" && index > 0) {
+      if ((mode === "event" || mode === "major") && index > 0) {
         div.style.whiteSpace = "pre-wrap";
       }
 
       div.textContent = line;
       fit.appendChild(div);
     });
+  },
+
+  _setActionMode(mode, payload = {}) {
+    const {
+      overlay,
+      nextWrap,
+      nextBtn,
+      majorChoiceWrap,
+      majorPreviewBtn,
+      majorYesBtn,
+      majorNoBtn,
+      majorResultWrap,
+      majorCloseBtn
+    } = this._els();
+
+    if (!overlay) return;
+
+    overlay.classList.toggle("is-event", mode === "event");
+    overlay.classList.toggle("is-major-choice", mode === "major-choice");
+    overlay.classList.toggle("is-major-result", mode === "major-result");
+
+    nextWrap?.classList.toggle("is-hidden", mode !== "default" && mode !== "event");
+    majorChoiceWrap?.classList.toggle("is-hidden", mode !== "major-choice");
+    majorResultWrap?.classList.toggle("is-hidden", mode !== "major-result");
+
+    if (nextBtn) {
+      nextBtn.setAttribute("aria-label", this._t("guideMentor.common.nextButton", "Next"));
+      const isEventPopup = mode === "event";
+      nextBtn.disabled = isEventPopup;
+      nextBtn.setAttribute("aria-disabled", isEventPopup ? "true" : "false");
+    }
+
+    if (majorYesBtn) {
+      majorYesBtn.textContent = String(payload.yesLabel || this._t("common.yes", "Oui"));
+      majorYesBtn.disabled = false;
+      majorYesBtn.removeAttribute("aria-disabled");
+    }
+
+    if (majorNoBtn) {
+      majorNoBtn.textContent = String(payload.noLabel || this._t("common.no", "Non"));
+      majorNoBtn.disabled = false;
+      majorNoBtn.removeAttribute("aria-disabled");
+    }
+
+    if (majorPreviewBtn) {
+      const previewLabel = String(payload.previewLabel || "").trim();
+      const previewVisible = !!previewLabel && mode === "major-choice";
+      majorPreviewBtn.textContent = previewLabel;
+      majorPreviewBtn.classList.toggle("is-hidden", !previewVisible);
+      majorPreviewBtn.disabled = false;
+      majorPreviewBtn.removeAttribute("aria-disabled");
+    }
+
+    if (majorCloseBtn) {
+      majorCloseBtn.textContent = String(payload.closeLabel || "X");
+      majorCloseBtn.disabled = false;
+      majorCloseBtn.removeAttribute("aria-disabled");
+    }
   },
 
   _resolveDismiss() {
@@ -6498,7 +7005,15 @@ window.VRGuideMentor = {
   },
 
   _ensureDismissBinding() {
-    const { overlay, nextBtn } = this._els();
+    const {
+      overlay,
+      nextBtn,
+      majorYesBtn,
+      majorNoBtn,
+      majorPreviewBtn,
+      majorCloseBtn
+    } = this._els();
+
     if (!overlay || overlay.__vrGuideDismissBound) return;
 
     const onDismiss = (e) => {
@@ -6506,15 +7021,20 @@ window.VRGuideMentor = {
       if (Date.now() < (this._dismissEnabledAt || 0)) return;
 
       const isEventPopup = overlay.classList.contains("is-event");
+      const isMajorChoice = overlay.classList.contains("is-major-choice");
+      const isMajorResult = overlay.classList.contains("is-major-result");
 
       if (e?.type === "keydown") {
         const k = String(e.key || "");
-        if (isEventPopup) {
+        if (isMajorChoice) {
+          return;
+        }
+        if (isEventPopup || isMajorResult) {
           if (k !== "Escape") return;
         } else {
           if (k !== "Escape" && k !== "Enter" && k !== " ") return;
         }
-      } else if (isEventPopup) {
+      } else if (isEventPopup || isMajorChoice || isMajorResult) {
         return;
       }
 
@@ -6532,11 +7052,50 @@ window.VRGuideMentor = {
       nextBtn.addEventListener("click", (e) => {
         try { e.preventDefault(); } catch (_) {}
         try { e.stopPropagation(); } catch (_) {}
-
         if (!overlay.classList.contains("is-visible")) return;
         if (Date.now() < (this._dismissEnabledAt || 0)) return;
-
         this.hide();
+      });
+    }
+
+    if (majorCloseBtn && !majorCloseBtn.__vrGuideDismissBound) {
+      majorCloseBtn.__vrGuideDismissBound = true;
+      majorCloseBtn.addEventListener("click", (e) => {
+        try { e.preventDefault(); } catch (_) {}
+        try { e.stopPropagation(); } catch (_) {}
+        if (!overlay.classList.contains("is-visible")) return;
+        if (Date.now() < (this._dismissEnabledAt || 0)) return;
+        this.hide();
+      });
+    }
+
+    if (majorYesBtn && !majorYesBtn.__vrGuideActionBound) {
+      majorYesBtn.__vrGuideActionBound = true;
+      majorYesBtn.addEventListener("click", (e) => {
+        try { e.preventDefault(); } catch (_) {}
+        try { e.stopPropagation(); } catch (_) {}
+        const fn = overlay.__vrGuideMajorYes;
+        if (typeof fn === "function") fn();
+      });
+    }
+
+    if (majorNoBtn && !majorNoBtn.__vrGuideActionBound) {
+      majorNoBtn.__vrGuideActionBound = true;
+      majorNoBtn.addEventListener("click", (e) => {
+        try { e.preventDefault(); } catch (_) {}
+        try { e.stopPropagation(); } catch (_) {}
+        const fn = overlay.__vrGuideMajorNo;
+        if (typeof fn === "function") fn();
+      });
+    }
+
+    if (majorPreviewBtn && !majorPreviewBtn.__vrGuideActionBound) {
+      majorPreviewBtn.__vrGuideActionBound = true;
+      majorPreviewBtn.addEventListener("click", async (e) => {
+        try { e.preventDefault(); } catch (_) {}
+        try { e.stopPropagation(); } catch (_) {}
+        const fn = overlay.__vrGuideMajorPreview;
+        if (typeof fn === "function") await fn();
       });
     }
   },
@@ -6730,24 +7289,23 @@ window.VRGuideMentor = {
     image.src = src;
     image.alt = universeId;
 
-    const isEventPopup = !!opts.isEvent;
+    const actionMode = String(opts.actionMode || (opts.isEvent ? "event" : "default"));
+    const isEventPopup = actionMode === "event";
 
-    if (nextBtn) {
-      nextBtn.setAttribute("aria-label", this._t("guideMentor.common.nextButton", "Next"));
-      nextBtn.disabled = isEventPopup;
-      nextBtn.setAttribute("aria-disabled", isEventPopup ? "true" : "false");
-    }
+    overlay.__vrGuideMajorYes = null;
+    overlay.__vrGuideMajorNo = null;
+    overlay.__vrGuideMajorPreview = null;
 
     const textLines = (Array.isArray(lines) ? lines : [])
       .map(v => String(v || "").trim())
       .filter(Boolean);
 
     this._setText(textLines, opts.mode || "rank");
+    this._setActionMode(actionMode, opts.actionLabels || {});
     this._ensureDismissBinding();
 
     overlay.classList.add("is-visible");
     overlay.classList.remove("is-final");
-    overlay.classList.toggle("is-event", !!opts.isEvent);
     overlay.setAttribute("aria-hidden", "false");
 
     clearTimeout(this._hideTimer);
@@ -6807,27 +7365,122 @@ window.VRGuideMentor = {
     return this._open(universeId, parts, {
       mode: "event",
       isEvent: true,
+      actionMode: "event",
+      confetti: false,
+      playBell: true
+    });
+  },
+
+  showMajorDecision(universeId, payload = {}) {
+    const { overlay } = this._els();
+    if (!overlay) return Promise.resolve(null);
+
+    const baseParts = [
+      String(payload.title || "").trim(),
+      ...String(payload.body || "")
+        .split(/\n\s*\n/)
+        .map(v => String(v || "").trim())
+        .filter(Boolean)
+    ].filter(Boolean);
+
+    const previewLines = Array.isArray(payload.previewLines)
+      ? payload.previewLines.map(v => String(v || "").trim()).filter(Boolean)
+      : [];
+
+    return new Promise((resolve) => {
+      const finish = (value) => {
+        overlay.__vrGuideMajorYes = null;
+        overlay.__vrGuideMajorNo = null;
+        overlay.__vrGuideMajorPreview = null;
+        resolve(value);
+      };
+
+      this._open(universeId, baseParts, {
+        mode: "major",
+        actionMode: "major-choice",
+        actionLabels: {
+          yesLabel: payload.yesLabel,
+          noLabel: payload.noLabel,
+          previewLabel: payload.previewLabel
+        },
+        confetti: false,
+        playBell: true
+      });
+
+      overlay.__vrGuideMajorYes = () => finish("yes");
+      overlay.__vrGuideMajorNo = () => finish("no");
+      overlay.__vrGuideMajorPreview = async () => {
+        if (!previewLines.length) return;
+        const ok = await (payload.onPreview?.() || Promise.resolve(false));
+        if (!ok) return;
+
+        const nextLines = [...baseParts, ...previewLines].filter(Boolean);
+        this._setText(nextLines, "major");
+        this._fitTextAndScale();
+
+        const { majorPreviewBtn } = this._els();
+        if (majorPreviewBtn) {
+          majorPreviewBtn.disabled = true;
+          majorPreviewBtn.setAttribute("aria-disabled", "true");
+        }
+      };
+    });
+  },
+
+  showMajorOutcome(universeId, title, body) {
+    const parts = [
+      String(title || "").trim(),
+      ...String(body || "")
+        .split(/\n\s*\n/)
+        .map(v => String(v || "").trim())
+        .filter(Boolean)
+    ].filter(Boolean);
+
+    return this._open(universeId, parts, {
+      mode: "major",
+      actionMode: "major-result",
+      actionLabels: {
+        closeLabel: "X"
+      },
       confetti: false,
       playBell: true
     });
   },
 
   hide() {
-    const { overlay, nextBtn } = this._els();
+    const {
+      overlay,
+      nextBtn,
+      majorPreviewBtn,
+      majorYesBtn,
+      majorNoBtn,
+      majorCloseBtn
+    } = this._els();
+
     if (!overlay) return;
 
     clearTimeout(this._hideTimer);
     clearTimeout(this._finalTimer);
     clearTimeout(this._enableNextTimer);
 
+    overlay.__vrGuideMajorYes = null;
+    overlay.__vrGuideMajorNo = null;
+    overlay.__vrGuideMajorPreview = null;
+
     if (nextBtn) {
       nextBtn.disabled = false;
       nextBtn.setAttribute("aria-disabled", "false");
     }
 
-    overlay.classList.remove("is-visible");
-    overlay.classList.remove("is-event");
+    [majorPreviewBtn, majorYesBtn, majorNoBtn, majorCloseBtn].forEach((btn) => {
+      if (!btn) return;
+      btn.disabled = false;
+      btn.removeAttribute("aria-disabled");
+    });
+
+    overlay.classList.remove("is-visible", "is-event", "is-major-choice", "is-major-result");
     overlay.setAttribute("aria-hidden", "true");
+    this._setActionMode("default");
 
     const layer = overlay.querySelector(".vr-guide-confetti-layer");
     if (layer) {
