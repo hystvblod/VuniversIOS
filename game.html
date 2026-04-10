@@ -252,10 +252,20 @@
           <div id="vr-guide-bubble-text" class="vr-guide-bubble-text">
             <div id="vr-guide-bubble-fit" class="vr-guide-bubble-fit"></div>
 
-            <div class="vr-guide-actions">
+            <div class="vr-guide-actions" id="vr-guide-actions-next">
               <button id="vr-guide-next-btn" class="vr-guide-next-btn" type="button">
                 <span data-i18n="guideMentor.common.nextButton"></span>
               </button>
+            </div>
+
+            <div class="vr-guide-actions vr-guide-actions--row is-hidden" id="vr-guide-actions-major-choice">
+              <button id="vr-guide-major-preview-btn" class="vr-guide-major-btn vr-guide-major-btn--ghost is-hidden" type="button"></button>
+              <button id="vr-guide-major-no-btn" class="vr-guide-major-btn" type="button"></button>
+              <button id="vr-guide-major-yes-btn" class="vr-guide-major-btn vr-guide-major-btn--primary" type="button"></button>
+            </div>
+
+            <div class="vr-guide-actions is-hidden" id="vr-guide-actions-major-result">
+              <button id="vr-guide-major-close-btn" class="vr-guide-next-btn vr-guide-major-close-btn" type="button">X</button>
             </div>
           </div>
         </div>
