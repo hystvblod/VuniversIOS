@@ -21,7 +21,7 @@
     "title": "Vazamento de dados",
     "body": "Um servidor foi mal configurado: dados de clientes ficaram expostos.",
     "choices": {
-      "A": "Informar imediatamente.",
+      "A": "Informar imediatamente os clientes afetados.",
       "B": "Esperar confirmar o impacto exato antes de falar.",
       "C": "Minimizar publicamente e tratar isso internamente."
     }
@@ -45,12 +45,12 @@
     }
   },
   "mcc_006": {
-    "title": "Home office à beira do conflito",
-    "body": "Os gerentes querem a volta ao escritório. As equipes ameaçam sair se você impor demais.",
+    "title": "Teletrabalho: conflito à vista",
+    "body": "Os gestores querem a volta ao escritório. As equipes ameaçam sair se você exigir dias presenciais demais.",
     "choices": {
       "A": "Modelo híbrido flexível, por equipe.",
       "B": "Retorno obrigatório 4 dias por semana.",
-      "C": "Quase só home office + escritórios compartilhados."
+      "C": "Trabalho remoto quase total com escritórios compartilhados."
     }
   },
   "mcc_007": {
@@ -58,7 +58,7 @@
     "body": "As reclamações dos clientes explodem em um produto principal. A equipe de qualidade exige parar a linha.",
     "choices": {
       "A": "Parar a produção e corrigir antes de relançar.",
-      "B": "Continuar e ajustar aos poucos.",
+      "B": "Manter a produção e corrigir os problemas à medida que aparecerem.",
       "C": "Lançar uma troca gratuita e reforçar o controle sem parar."
     }
   },
@@ -73,11 +73,11 @@
   },
   "mcc_009": {
     "title": "Rumor de tentativa de compra",
-    "body": "Um rumor de aquisição hostil faz a ação subir. Os investidores adoram. Os funcionários entram em pânico.",
+    "body": "Um rumor de compra forçada faz a ação subir. Os investidores adoram. Os funcionários entram em pânico.",
     "choices": {
       "A": "Se defender: recompra de ações e plano anti-aquisição.",
-      "B": "Negociar nos bastidores uma fusão \"amigável\".",
-      "C": "Ignorar publicamente e seguir como se nada tivesse acontecido."
+      "B": "Negociar discretamente uma aproximação com a outra empresa.",
+      "C": "Não falar nada publicamente e seguir normalmente."
     }
   },
   "mcc_010": {
@@ -90,10 +90,10 @@
     }
   },
   "mcc_011": {
-    "title": "Presente envenenado",
-    "body": "Um grande cliente propõe um contrato enorme... com uma multa monstruosa se você perder o prazo.",
+    "title": "Contrato arriscado",
+    "body": "Um grande cliente oferece um contrato enorme, com uma multa muito pesada se você perder um prazo.",
     "choices": {
-      "A": "Assinar: meta ambiciosa, todo mundo na linha de frente.",
+      "A": "Assinar e mobilizar todas as equipes.",
       "B": "Recusar: perigoso demais.",
       "C": "Assinar, mas negociar a cláusula e distribuir melhor o cronograma."
     }
@@ -108,11 +108,11 @@
     }
   },
   "mcc_013": {
-    "title": "Acusação de ecologia de fachada",
-    "body": "Seu último relatório \"sustentável\" é atacado: \"belas palavras, poucas provas\".",
+    "title": "Acusação de falsas promessas ecológicas",
+    "body": "Seu último relatório ambiental está sendo criticado: muitas promessas, poucas provas.",
     "choices": {
       "A": "Publicar os números brutos e aceitar as críticas.",
-      "B": "Lançar uma campanha de publicidade para abafar o assunto.",
+      "B": "Lançar uma campanha publicitária para desviar a atenção.",
       "C": "Pedir uma auditoria independente e atualizar o relatório."
     }
   },
@@ -135,12 +135,12 @@
     }
   },
   "mcc_016": {
-    "title": "Saída de um talento-chave",
-    "body": "A liderança de tecnologia anuncia a saída. As equipes entram em pânico. Os investidores estão de olho.",
+    "title": "Saída de um executivo essencial",
+    "body": "O responsável por tecnologia anuncia sua saída. As equipes entram em pânico. Os investidores estão atentos.",
     "choices": {
       "A": "Fazer uma contraproposta enorme.",
       "B": "Respeitar a escolha e promover um talento interno.",
-      "C": "Trazer uma estrela de fora, cara."
+      "C": "Trazer um grande nome de fora, muito caro."
     }
   },
   "mcc_017": {
@@ -154,9 +154,9 @@
   },
   "mcc_018": {
     "title": "Programa de treinamento",
-    "body": "O RH pede um grande orçamento para treinar todo mundo. O diretor financeiro faz careta.",
+    "body": "O RH pede um grande orçamento para treinar todo mundo. O diretor financeiro não está convencido.",
     "choices": {
-      "A": "Aprovar: evolução geral de competências.",
+      "A": "Aprovar: treinar amplamente as equipes.",
       "B": "Recusar: treinamento direcionado ao estritamente necessário.",
       "C": "Financiar metade, o resto em autoaprendizado orientado."
     }
@@ -365,7 +365,7 @@
     "choices": {
       "A": "Simplificar muito: devolução grátis e fácil.",
       "B": "Endurecer: controles e taxa de devolução.",
-      "C": "Simplificar, mas com limites inteligentes, histórico e critérios."
+      "C": "Simplificar, mas com limites claros com base em abusos anteriores."
     }
   },
   "mcc_042": {
@@ -552,7 +552,7 @@
     "title": "Equipe de publicidade sem freio",
     "body": "A equipe de publicidade quer um slogan agressivo: \"Vamos esmagar a concorrência.\" O jurídico suspira.",
     "choices": {
-      "A": "Aprovar: guerra psicológica.",
+      "A": "Aprovar: manter o slogan agressivo.",
       "B": "Recusar: tom sóbrio e confiável.",
       "C": "Manter a energia, mas mudar a formulação."
     }
@@ -1081,11 +1081,11 @@
   },
   "mcc_121": {
     "title": "Estagiário prodígio",
-    "body": "Um estagiário automatiza uma tarefa que 12 pessoas faziam manualmente. Aplausos... e preocupação.",
+    "body": "Um estagiário automatiza uma tarefa que 12 pessoas faziam manualmente. Todos aplaudem e depois começam a se preocupar.",
     "choices": {
-      "A": "Recompensar e redirecionar as tarefas para algo melhor.",
+      "A": "Recompensar o estagiário e dar às equipes tarefas mais úteis.",
       "B": "Esconder o projeto: sensível demais.",
-      "C": "Implantar aos poucos com plano de capacitação."
+      "C": "Implementar aos poucos com um plano de treinamento."
     }
   },
   "mcc_122": {
@@ -1432,7 +1432,7 @@
   },
   "mcc_160": {
     "title": "Vazamento de orçamento público",
-    "body": "Um documento interno sobre economias previstas vaza. Os funcionários enxergam nisso uma ameaça.",
+    "body": "Um documento interno sobre cortes planejados vazou. Os funcionários veem isso como uma ameaça.",
     "choices": {
       "A": "Explicar claramente + proteger o emprego o máximo possível.",
       "B": "Ficar em silêncio e esperar passar.",
@@ -1749,7 +1749,7 @@
     "title": "Moedas e câmbio",
     "body": "As taxas de câmbio se movem muito. Seus lucros internacionais ficam imprevisíveis.",
     "choices": {
-      "A": "Cobrir o risco, fazer hedge e estabilizar.",
+      "A": "Proteger o risco cambial para estabilizar os resultados.",
       "B": "Aceitar a volatilidade.",
       "C": "Reduzir a exposição localizando mais."
     }
@@ -1792,7 +1792,7 @@
   },
   "mcc_200": {
     "title": "Plano de resiliência",
-    "body": "Pedem a você um plano de resiliência, crises, energia e supply. É longo, mas tranquiliza.",
+    "body": "Pedem um plano de resiliência para crises, energia e abastecimento. Demora, mas tranquiliza.",
     "choices": {
       "A": "Construir um plano completo com cenários.",
       "B": "Fazer um plano mínimo só para cumprir tabela.",
@@ -2219,7 +2219,7 @@
     "choices": {
       "A": "Mostrar suas contribuições: emprego, inovação, preços.",
       "B": "Ignorar e seguir em frente.",
-      "C": "Anunciar compromissos pró-concorrência, APIs, parcerias."
+      "C": "Anunciar compromissos concretos para dar mais espaço à concorrência."
     }
   },
   "mcc_248": {
@@ -2417,7 +2417,7 @@
     "choices": {
       "A": "Lançar um grande programa de aprendizagem.",
       "B": "Fazer o mínimo.",
-      "C": "Formar menos jovens, mas com mais qualidade."
+      "C": "Formar menos jovens, mas acompanhá-los melhor."
     }
   },
   "mcc_270": {
@@ -2452,7 +2452,7 @@
     "body": "Pedem a você para armazenar os dados localmente. TI diz sim, finanças diz \"ai\".",
     "choices": {
       "A": "Localizar os dados sensíveis e auditar o restante.",
-      "B": "Manter tudo global por custo/desempenho.",
+      "B": "Manter tudo em uma infraestrutura global para reduzir custos.",
       "C": "Modelo híbrido: local + nuvem multi-região."
     }
   },
@@ -2470,7 +2470,7 @@
     "body": "Um deputado quer um simulador para explicar seu preço ao público. Seu diretor financeiro faz careta.",
     "choices": {
       "A": "Criar um simulador pedagógico simples.",
-      "B": "Recusar: expõe demais.",
+      "B": "Recusar: arriscado demais publicamente.",
       "C": "Fazer um FAQ com 3 números-chave."
     }
   },
@@ -2514,7 +2514,7 @@
     "title": "Debate sobre megaempresas",
     "body": "Um político lança: \"é preciso desmontar os gigantes\".",
     "choices": {
-      "A": "Propor compromissos pró-concorrência, parcerias, APIs.",
+      "A": "Propor compromissos concretos para dar mais espaço à concorrência.",
       "B": "Ignorar: barulho político.",
       "C": "Separar voluntariamente uma atividade, de forma simbólica."
     }
@@ -2579,7 +2579,7 @@
     "choices": {
       "A": "Abrir seus custos em uma linha, com transparência.",
       "B": "Atacar o político: \"mentira\".",
-      "C": "Publicar indicadores simples, margem média, investimentos."
+      "C": "Publicar indicadores simples: margem média, custos e investimentos."
     }
   },
   "mcc_288": {
@@ -2633,7 +2633,7 @@
     "choices": {
       "A": "Oferecer uma opção lenta \"verde\" como padrão.",
       "B": "Continuar com entrega ultrarrápida em todo lugar.",
-      "C": "Investir em frotas limpas, de forma gradual."
+      "C": "Investir gradualmente em frotas mais limpas."
     }
   },
   "mcc_294": {
@@ -2809,7 +2809,7 @@
   },
   "mcc_313": {
     "title": "Escândalo do crachá de visitante",
-    "body": "Um deputado se revolta nas redes sociais.",
+    "body": "Um deputado diz nas redes que conseguiu entrar fácil demais com um crachá de visitante. O caso cresce rápido.",
     "choices": {
       "A": "Reforçar a segurança + desculpas + correções públicas.",
       "B": "Ameaçar juridicamente de imediato.",
@@ -2926,7 +2926,7 @@
   },
   "mcc_326": {
     "title": "Segurança dos dados",
-    "body": "Após um vazamento muito divulgado em outra empresa, a autoridade quer garantias.",
+    "body": "Depois de um vazamento muito comentado em outra empresa, a autoridade de controle quer garantias.",
     "choices": {
       "A": "Investir forte + auditoria externa + transparência.",
       "B": "Fazer o mínimo legal.",
@@ -2997,12 +2997,12 @@
     }
   },
   "mcc_334": {
-    "title": "Debate sobre moderação",
-    "body": "O estande da sua marca está carregado demais. Ele passa uma imagem exagerada em vez de uma imagem séria.",
+    "title": "Debate sobre sobriedade visual",
+    "body": "O estande da sua marca está carregado demais: luzes demais, slogans demais, efeitos demais. Ele passa uma imagem exagerada em vez de uma imagem séria.",
     "choices": {
-      "A": "Plano real de moderação + medidas visíveis.",
-      "B": "Medida simbólica por 1 semana.",
-      "C": "Não fazer nada: produtividade em primeiro lugar."
+      "A": "Enxugar de verdade o estande e manter só o essencial.",
+      "B": "Fazer um pequeno esforço visual por uma semana e depois voltar ao normal.",
+      "C": "Não mudar nada: o chamativo atrai."
     }
   },
   "mcc_335": {
@@ -3082,7 +3082,7 @@
     "body": "Uma lei quer proibir taxas-surpresa. Seu produto tem uma pequena taxa de \"serviço\". Bem pequena... para você.",
     "choices": {
       "A": "Remover taxas escondidas, preço claro.",
-      "B": "Manter, em letra menor, não.",
+      "B": "Manter as taxas escondidas escrevendo-as em letras menores.",
       "C": "Manter, mas deixar ultravisível antes do pagamento."
     }
   },
@@ -3164,7 +3164,7 @@
     "choices": {
       "A": "Cooperar com seriedade apesar do absurdo",
       "B": "Zombar e ignorar, péssima ideia.",
-      "C": "Enviar um dossiê sério + oferecer tapetes antiderrapantes."
+      "C": "Enviar um dossiê sério e pedir um escopo escrito claro."
     }
   },
   "mcc_353": {
@@ -3297,7 +3297,7 @@
     "title": "Lei anti-jargão",
     "body": "Na reunião, todo mundo fala em jargão corporativo.",
     "choices": {
-      "A": "Reescrever tudo em linguagem simples, ótimo.",
+      "A": "Reescrever tudo em linguagem simples.",
       "B": "Ignorar: faz parte da cultura.",
       "C": "Manter o jargão... mas com um glossário ridículo."
     }
@@ -3344,7 +3344,7 @@
     "choices": {
       "A": "Aliviar: branding mais discreto.",
       "B": "Recusar: \"identidade é importante\".",
-      "C": "Deixar as equipes votarem nos objetos que perderão o logo."
+      "C": "Deixar as equipes votarem em quais objetos o logo é realmente útil."
     }
   },
   "mcc_373": {
@@ -3375,7 +3375,7 @@
     }
   },
   "mcc_376": {
-    "title": "Dia sem ar-condicionado em pleno calor",
+    "title": "Dia sem ar-condicionado em plena onda de calor",
     "body": "Pedem para você desligar o ar-condicionado para dar o exemplo. Está fazendo 38°C e os funcionários estão levando isso muito mal.",
     "choices": {
       "A": "Sobriedade inteligente: limites, ventilação, horários adaptados.",
@@ -3477,7 +3477,7 @@
     "title": "Reguladores querem um jingle",
     "body": "Uma autoridade pede um jingle de conformidade \"para conscientizar\".",
     "choices": {
-      "A": "Fazer um jingle simples e útil, sem vergonha alheia.",
+      "A": "Fazer um jingle simples e útil, sem ficar ridículo.",
       "B": "Recusar: seriedade primeiro.",
       "C": "Fazer uma campanha interna sem jingle, só com formação."
     }
@@ -3524,7 +3524,7 @@
     "choices": {
       "A": "Organizar uma degustação e acalmar todo mundo.",
       "B": "Proibir o assunto no trabalho.",
-      "C": "Deixar acontecer: \"isso une\", né."
+      "C": "Deixar rolar: pode divertir por um momento, mas pode dividir rápido."
     }
   },
   "mcc_393": {
@@ -3540,7 +3540,7 @@
     "title": "Lei contra botão verde fluorescente",
     "body": "Uma lei quer proibir botões verde-neon \"incentivadores demais\".",
     "choices": {
-      "A": "Refazer o design para algo acessível e calmo.",
+      "A": "Refazer o design para deixá-lo sóbrio, legível e acessível.",
       "B": "Mudar só um botão e torcer.",
       "C": "Passar para azul-neon, mesmo problema."
     }
@@ -3605,7 +3605,7 @@
     "choices": {
       "A": "Criar um verdadeiro modo noturno, sóbrio e acessível.",
       "B": "Manter o rosa neon: \"é nossa assinatura\".",
-      "C": "Modo noturno sóbrio, mas reservado aos assinantes, ai."
+      "C": "Criar um modo noturno simples para todos e deixar as opções avançadas para os assinantes."
     }
   },
   "mcc_402": {
@@ -3736,7 +3736,7 @@
   },
   "mcc_416": {
     "title": "Fundo de solidariedade",
-    "body": "Um ministro lança um fundo para startups tristes.",
+    "body": "Um ministro lança um fundo para jovens empresas em dificuldade.",
     "choices": {
       "A": "Recusar: antiético.",
       "B": "Tentar: dinheiro fácil.",
@@ -3771,7 +3771,7 @@
     }
   },
   "mcc_420": {
-    "title": "Semana do elogio às autoridades",
+    "title": "Semana dos elogios às autoridades de controle",
     "body": "Sugerem que você envie uma mensagem elogiosa demais às autoridades de controle. Seu jurídico rejeita a ideia na hora.",
     "choices": {
       "A": "Ficar neutro, só cooperar corretamente.",
@@ -3843,12 +3843,12 @@
     }
   },
   "mcc_428": {
-    "title": "Deputado quer um botão",
-    "body": "Sua equipe de produto diz que dá para fazer.",
+    "title": "Deputado quer um botão de bem-estar",
+    "body": "Um deputado propõe adicionar um botão de bem-estar nos apps para ajudar os usuários a fazer uma pausa. Sua equipe de produto diz que dá para fazer.",
     "choices": {
       "A": "Adicionar um botão de bem-estar opcional.",
       "B": "Recusar: fora de contexto.",
-      "C": "Colocar o botão... mas ele abre a página de pagamento, não."
+      "C": "Colocar o botão... mas usar isso para empurrar uma oferta paga."
     }
   },
   "mcc_429": {
@@ -3888,12 +3888,12 @@
     }
   },
   "mcc_433": {
-    "title": "Plano de microescuta",
-    "body": "Um ministro quer reduzir o ruído na cidade.",
+    "title": "Plano de sensores anti-ruído",
+    "body": "Um ministro quer instalar sensores para medir o barulho da cidade. Oferecem o contrato para você, mas esses sensores podem preocupar se parecerem microfones.",
     "choices": {
-      "A": "Recusar: sensível demais.",
+      "A": "Recusar: sensível demais para a privacidade.",
       "B": "Aceitar: grande contrato público.",
-      "C": "Aceitar, mas com anonimização e transparência total."
+      "C": "Aceitar apenas com sensores sem áudio, anonimização e transparência total."
     }
   },
   "mcc_434": {
@@ -3983,7 +3983,7 @@
     "choices": {
       "A": "Fazer um tutorial simples, útil e inclusivo.",
       "B": "Recusar: não é seu papel.",
-      "C": "Fazer um tutorial cheio de jargão, não."
+      "C": "Fazer um tutorial complicado e cheio de jargão."
     }
   },
   "mcc_444": {
@@ -4033,7 +4033,7 @@
   },
   "mcc_449": {
     "title": "Debate sobre direito de reclamar",
-    "body": "Um partido propõe um direito oficial de reclamar. Seu suporte recebe 10 mil reclamações por dia. Isso muda o quê?",
+    "body": "Um partido propõe um direito oficial de reclamar. Seu suporte já recebe 10 mil reclamações por dia. O que isso realmente mudaria?",
     "choices": {
       "A": "Melhorar o suporte + criar um canal claro de retorno.",
       "B": "Ignorar: é só barulho.",

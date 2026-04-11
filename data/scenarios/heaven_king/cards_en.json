@@ -1,4 +1,4 @@
-﻿{
+{
   "heaven_001": {
     "id": "heaven_001",
     "universe": "heaven_king",
@@ -223,7 +223,7 @@
     "choices": {
       "A": "Breathe true spiritual inspiration into them",
       "B": "Let the art develop freely",
-      "C": "Tie these works to a new micro-faith"
+      "C": "Turn these works into the foundation of a small cult"
     },
     "body": "Young artists are creating sacred works in virtual reality."
   },
@@ -258,7 +258,7 @@
     "description": "A spiritual movement defends animals as sacred creatures.",
     "choices": {
       "A": "Help their cause through a few subtle signs",
-      "B": "Let this movement stay small",
+      "B": "Keep this movement limited",
       "C": "Let this movement become too rigid"
     },
     "body": "A spiritual movement defends animals as sacred creatures."
@@ -378,7 +378,7 @@
     "description": "A hermit receives visions, but no one really listens.",
     "choices": {
       "A": "Give more strength to the message",
-      "B": "Leave the hermit in fruitful solitude",
+      "B": "Leave him alone with his visions",
       "C": "Draw highly zealous disciples around them"
     },
     "body": "A hermit receives visions, but no one really listens."
@@ -402,7 +402,7 @@
     "description": "A cult is focused entirely on angels and has almost completely forgotten you.",
     "choices": {
       "A": "Let this cult live out its devotion to angels",
-      "B": "Gently remind them that you are central",
+      "B": "Gently remind them that you must remain at the center of their faith",
       "C": "Use this cult to channel all prayers"
     },
     "body": "A cult is focused entirely on angels and has almost completely forgotten you."
@@ -1197,7 +1197,8 @@
       "B": "Simply observe how mortals react to this calm",
       "C": "Quietly prepare the next great trial"
     },
-    "body": "After long conflicts between Heaven and Hell, a strange calm falls over Earth."
+    "body": "After long conflicts between Heaven and Hell, a strange calm falls over Earth.",
+    "choice_a": "Send signs of peace to help rebuild."
   },
   "heaven_101": {
     "id": "heaven_101",
@@ -1495,7 +1496,7 @@
     "choices": {
       "A": "Inspire supportive and nuanced words around them",
       "B": "Do not intervene in their story",
-      "C": "Confirm that separating would be a grave fault"
+      "C": "Make people believe that abandoning this shrine brings punishment"
     },
     "body": "A couple stays together mainly out of fear of committing a grave moral fault."
   },
@@ -1555,7 +1556,7 @@
     "choices": {
       "A": "Inspire one contestant to denounce the concept live on air",
       "B": "Let the show get its buzz",
-      "C": "Cause bad luck to hit a winner to support the threats"
+      "C": "Cause misfortune to strike a winner to reinforce fear"
     },
     "body": "A reality TV show calls out behavior judged immoral and ties it to Hell."
   },
@@ -2119,7 +2120,7 @@
     "choices": {
       "A": "Sometimes slip in a spirit of fair play and respect",
       "B": "Let the prayers stay centered on victory",
-      "C": "Let some losers believe they were punished"
+      "C": "Make people believe that neglecting this shrine brings punishment"
     },
     "body": "Sports teams pray mainly to crush their opponents."
   },
@@ -2191,7 +2192,7 @@
     "choices": {
       "A": "Grant instead a small subtle sign to those who suffer most",
       "B": "Let the show go on without any obvious miracle",
-      "C": "Make that healing look like punishment for skeptics"
+      "C": "Make people say the skeptics prevented the miracle"
     },
     "body": "A gathering promises a spectacular miracle to those with perfect faith."
   },
@@ -2537,9 +2538,9 @@
     "title": "Seller of Forgiveness",
     "description": "A man sells messages promising total forgiveness to those who pay.",
     "choices": {
-      "A": "Offer an intimate gentleness that reopens faith",
-      "B": "Let distrust remain dominant",
-      "C": "Let abusers demand zero punishment"
+      "A": "Inspire a few customers to seek sincere, free forgiveness",
+      "B": "Let this spiritual business continue",
+      "C": "Make people believe that those who do not pay will never be forgiven"
     },
     "body": "A man sells messages promising total forgiveness to those who pay."
   },
@@ -2551,7 +2552,7 @@
     "choices": {
       "A": "Inspire works that show the freedom to choose the light",
       "B": "Let the festival get lost in sensationalism",
-      "C": "Let threats be made in Heaven's name"
+      "C": "Let some groups threaten the artists in Heaven’s name"
     },
     "body": "A city wants to organize an arts festival representing both Heaven and Hell."
   },
@@ -2621,9 +2622,9 @@
     "title": "Afterlife Attraction",
     "description": "A theme park launches a spectacular attraction about judgment after death.",
     "choices": {
-      "A": "Allow real compassion for the most lost",
-      "B": "Let these stories stay symbolic and misunderstood",
-      "C": "Have these spiritual people condemned as allies of Hell"
+      "A": "Inspire an attraction that makes people reflect without scaring them",
+      "B": "Let the attraction remain a simple spectacle",
+      "C": "Let the attraction feed a very harsh vision of judgment"
     },
     "body": "A theme park launches a spectacular attraction about judgment after death."
   },
@@ -2717,9 +2718,9 @@
     "title": "Tears at Heaven's Threshold",
     "description": "Loved ones imagine seeing their dead at the edge of a place of peace and cry with relief.",
     "choices": {
-      "A": "Inspire a character who discovers unexpected kindness",
-      "B": "Let their books feed this anxious vision",
-      "C": "Let these stories live in fear of punishment"
+      "A": "Give them a deep feeling of peace",
+      "B": "Let this vision remain an intimate comfort",
+      "C": "Make people say their loved ones are still being kept far from peace"
     },
     "body": "Loved ones imagine seeing their dead at the edge of a place of peace and cry with relief."
   },
@@ -2933,9 +2934,9 @@
     "title": "Series About the Chosen",
     "description": "A TV series claims that only a few humans are truly chosen.",
     "choices": {
-      "A": "Inspire a few peacemakers who can listen to both sides",
-      "B": "Let religious hatred spread from one generation to the next",
-      "C": "Let punishments be threatened against any peace agreement"
+      "A": "Inspire scenes that remind people every person has value",
+      "B": "Let the series keep feeding this elite-minded idea",
+      "C": "Make people believe the non-chosen are doomed from the start"
     },
     "body": "A TV series claims that only a few humans are truly chosen."
   },
@@ -3139,7 +3140,7 @@
     "choices": {
       "A": "Awaken a few people to this manipulation",
       "B": "Let this cult remain marginal",
-      "C": "Let people want to burn everything in the name of heavenly punishment"
+      "C": "Let some people want to burn everything in the name of heavenly punishment"
     },
     "body": "In a remote region, an old cult mixes your name with darker forces from below."
   },
@@ -3257,9 +3258,9 @@
     "title": "Square of Forbidden Ideas",
     "description": "A large square becomes the place for debates about religious ideas considered forbidden.",
     "choices": {
-      "A": "Allow selfless love toward the most lost to emerge",
-      "B": "Let these stories pass as strange metaphors",
-      "C": "Have them denounced as allies of Hell"
+      "A": "Let these debates open up sincere questions",
+      "B": "Let these debates go in circles without moving forward",
+      "C": "Have the participants denounced as allies of Hell"
     },
     "body": "A large square becomes the place for debates about religious ideas considered forbidden."
   },
@@ -3785,7 +3786,7 @@
     "title": "Luminous Street Art",
     "description": "An artist paints murals of light and wings on the walls of the city.",
     "choices": {
-      "A": "Let some passersby be uplifted by these murals",
+      "A": "Lift the spirits of some passersby through these murals",
       "B": "Let these murals become just another visual trend",
       "C": "Add religious signs to them"
     },
@@ -4049,7 +4050,7 @@
     "title": "Picture Book",
     "description": "An illustrator creates a book with no words, only scenes of light and shadow.",
     "choices": {
-      "A": "Let readers naturally project their inner quest into it",
+      "A": "Let readers project into it what they are searching for deep inside",
       "B": "Let the book be seen as an art object",
       "C": "Add a very explicit spiritual foreword"
     },
@@ -4133,9 +4134,9 @@
     "title": "Guide to Spiritual Paths",
     "description": "A guide tries to explain different spiritual paths using very scholarly language.",
     "choices": {
-      "A": "Bring about real inner bridges between people",
-      "B": "Let these circles remain experimental and limited",
-      "C": "Establish a fixed protocol around the idea"
+      "A": "Inspire a simpler, clearer version of this guide",
+      "B": "Let this guide remain complicated and little read",
+      "C": "Turn this guide into a rigid method people are expected to follow"
     },
     "body": "A guide tries to explain different spiritual paths using words that are too complicated."
   },
@@ -4183,7 +4184,7 @@
     "choices": {
       "A": "Let listeners hear a truly reassuring voice in it",
       "B": "Let the podcast remain confidential",
-      "C": "Turn it into a structured program for the network"
+      "C": "Turn it into an official show backed by a large network"
     },
     "body": "A small podcast shares a gentle and reassuring thought every day."
   },
@@ -4193,7 +4194,7 @@
     "title": "Looking Up at the Sky",
     "description": "A child often lifts their eyes to the sky without really knowing why.",
     "choices": {
-      "A": "Let that gesture become a reflex of quiet trust",
+      "A": "Let this gesture become a small habit of trust and calm",
       "B": "Let the child grow up and slowly forget that gesture",
       "C": "Teach them a few words to say to the sky"
     },
@@ -4337,7 +4338,7 @@
     "title": "Calmer Social Media",
     "description": "A creator launches a page dedicated only to encouraging messages.",
     "choices": {
-      "A": "Whisper words that truly soothe and lift the people who read them",
+      "A": "Inspire words that truly soothe and give courage back to those who read them",
       "B": "Let the page find its audience or not",
       "C": "Have an organization take over the concept"
     },
@@ -4422,7 +4423,7 @@
     "description": "A company wants to improve the atmosphere between coworkers.",
     "choices": {
       "A": "Whisper simple daily gestures of recognition",
-      "B": "Let the effort remain a simple HR seminar",
+      "B": "Let this initiative remain just a standard workplace training",
       "C": "Encourage management to impose a very detailed code of conduct"
     },
     "body": "A company wants to improve the atmosphere between coworkers."
@@ -4434,7 +4435,7 @@
     "description": "An office sets up plants and a relaxation corner with a view of the sky.",
     "choices": {
       "A": "Help some people use this corner to recenter inwardly",
-      "B": "Let the space remain just an upgraded coffee nook",
+      "B": "Let this space remain just a slightly nicer break area",
       "C": "Organize guided meditation sessions there"
     },
     "body": "An office sets up plants and a relaxation corner with a view of the sky."
@@ -4543,7 +4544,7 @@
     "choices": {
       "A": "Let some people feel real communion through those sounds",
       "B": "Let the circle remain a fun musical experience",
-      "C": "Encourage the leader to impose a rigid structure and rules"
+      "C": "Encourage the facilitator to impose a strict structure and rules"
     },
     "body": "A group gathers to improvise sounds together without judgment."
   },
@@ -4553,7 +4554,7 @@
     "title": "Reading Corner in the Subway",
     "description": "A subway car is redesigned with soothing text excerpts.",
     "choices": {
-      "A": "Make those words feel like real comfort",
+      "A": "Turn these texts into a real source of comfort",
       "B": "Let most people barely notice them",
       "C": "Encourage the transit authority to reserve that car for a highly regulated use"
     },
@@ -4601,8 +4602,8 @@
     "title": "Guided Nap Workshop",
     "description": "A wellness center offers guided naps so people can rest in the middle of the day.",
     "choices": {
-      "A": "Let some people taste a true letting-go that feels close to prayer",
-      "B": "Let the guided nap remain a simple wellness service",
+      "A": "Let some people experience a real moment of inner calm",
+      "B": "Let the guided nap remain just a relaxation activity",
       "C": "Create a full program with required steps"
     },
     "body": "A wellness center offers guided naps so people can rest in the middle of the day."
@@ -4626,7 +4627,7 @@
     "description": "A school creates a corner where an adult is available to listen to students.",
     "choices": {
       "A": "Let some students find a real space for speaking and comfort there",
-      "B": "Let this corner be used mainly for schoolwork and future plans",
+      "B": "Let this space be used mainly to talk about school and the future",
       "C": "Surround the program with very strict rules"
     },
     "body": "A school creates a corner where an adult is available to listen to students."
@@ -4675,7 +4676,7 @@
     "choices": {
       "A": "Bring out a true awareness of the good things they have",
       "B": "Let the drawing remain an arts-and-crafts exercise",
-      "C": "Display those drawings as a moral rule"
+      "C": "Display these drawings as a model that everyone should follow"
     },
     "body": "Children draw what they are grateful for."
   },
@@ -4711,7 +4712,7 @@
     "choices": {
       "A": "Whisper stories that restore trust",
       "B": "Let the podcast remain an optimistic bubble",
-      "C": "Encourage a network to turn it into an overly controlled communication tool"
+      "C": "Encourage a major network to turn it into an overly controlled format"
     },
     "body": "A podcast shares one real piece of good news every day."
   },
@@ -4730,7 +4731,7 @@
   "heaven_395": {
     "id": "heaven_395",
     "universe": "heaven_king",
-    "title": "Small Victory Circle",
+    "title": "Circle of small victories",
     "description": "A group gathers each week to share one small personal victory.",
     "choices": {
       "A": "Help these stories strengthen each person's inner confidence",
@@ -4754,14 +4755,14 @@
   "heaven_397": {
     "id": "heaven_397",
     "universe": "heaven_king",
-    "title": "Thank You, Life Day",
+    "title": "Day of gratitude",
     "description": "A school organizes a day dedicated to giving thanks for the small things in everyday life.",
     "choices": {
       "A": "Help some students develop a real habit of gratitude",
       "B": "Let the day be experienced as an educational project",
       "C": "Turn it into a major yearly ritual"
     },
-    "body": "A school organizes a day dedicated to giving thanks for the small things in everyday life."
+    "body": "A school organizes a day to say thank you for the small things of everyday life"
   },
   "heaven_398": {
     "id": "heaven_398",
@@ -4778,7 +4779,7 @@
   "heaven_399": {
     "id": "heaven_399",
     "universe": "heaven_king",
-    "title": "Letters to the Future Self Workshop",
+    "title": "Workshop: letters to your future self",
     "description": "Participants write a letter to the person they will be in ten years.",
     "choices": {
       "A": "Whisper words of kindness and hope into those letters",
@@ -4793,7 +4794,7 @@
     "title": "Firefly Neighborhood",
     "description": "A neighborhood decides to turn off unnecessary lighting so people can better see the stars.",
     "choices": {
-      "A": "Make people feel a sense of communion beneath that dark sky",
+      "A": "Turn this night into a real shared moment of calm",
       "B": "Let the measure be seen as a practical environmental gesture",
       "C": "Create a major event around that night"
     },

@@ -1,15 +1,15 @@
-﻿{
+{
   "version": 1,
   "events": {
     "mega_corp_ceo_ev_001": {
       "title": "Analystenbericht",
-      "body": "Eine große Bank veröffentlicht einen sehr positiven Bericht. Die Kurven steigen und die Fonds lächeln.",
+      "body": "Eine große Bank veröffentlicht eine sehr positive Einschätzung. Die Aktie steigt und die Investoren sind beruhigt.",
       "effect": "Investoren: +5 pro Karte",
       "duration": "Dauer: 5 Karten"
     },
     "mega_corp_ceo_ev_002": {
       "title": "Woche der Teams",
-      "body": "Die Manager bedanken sich öffentlich bei den Teams. Die Stimmung bekommt endlich etwas Luft.",
+      "body": "Die Manager danken den Teams öffentlich. Die Stimmung verbessert sich endlich ein wenig.",
       "effect": "Mitarbeitende: +5 pro Karte",
       "duration": "Dauer: 6 Karten"
     },
@@ -57,13 +57,13 @@
     },
     "mega_corp_ceo_ev_010": {
       "title": "Team-Bonus",
-      "body": "Eine konkrete Geste kommt genau zur richtigen Zeit. Auf den Fluren lässt es sich etwas leichter atmen.",
+      "body": "Eine Prämie oder ein anderer konkreter Vorteil kommt genau zum richtigen Zeitpunkt. Die Stimmung verbessert sich etwas.",
       "effect": "Mitarbeitende: +5 pro Karte",
       "duration": "Dauer: 6 Karten"
     },
     "mega_corp_ceo_ev_011": {
       "title": "Harter Artikel",
-      "body": "Ein Medium veröffentlicht ein kaltes Porträt deines Konzerns. Die Formulierung trifft hart und wird deshalb überall geteilt.",
+      "body": "Ein Medium veröffentlicht ein sehr hartes Porträt deines Konzerns. Der härteste Satz wird überall wiederholt.",
       "effect": "Markenimage: -5 pro Karte",
       "duration": "Dauer: 3 Karten"
     },
@@ -81,13 +81,13 @@
     },
     "mega_corp_ceo_ev_014": {
       "title": "Flüssiges internes Tool",
-      "body": "Ein neues Tool erleichtert endlich die tägliche Arbeit. Niemand applaudiert, aber alle atmen auf.",
+      "body": "Ein neues Tool erleichtert endlich die tägliche Arbeit. Niemand applaudiert, aber alle sind erleichtert.",
       "effect": "Mitarbeitende: +5 pro Karte",
       "duration": "Dauer: 6 Karten"
     },
     "mega_corp_ceo_ev_015": {
       "title": "Riesenvertrag",
-      "body": "Ein sehr großer Vertrag landet in deinem Schoß. Aktionäre lieben Unterschriften mit vielen Nullen.",
+      "body": "Ein sehr großer Vertrag kommt endlich zustande. Die Aktionäre lieben Abschlüsse mit vielen Nullen.",
       "effect": "Investoren: +5 pro Karte",
       "duration": "Dauer: 3 Karten"
     },

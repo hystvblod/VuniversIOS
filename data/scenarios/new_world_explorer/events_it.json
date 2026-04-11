@@ -3,7 +3,7 @@
   "events": {
     "new_world_explorer_ev_001": {
       "title": "Mappa favorevole",
-      "body": "Un navigatore torna con una mappa chiara. All improvviso la costa sembra più piccola.",
+      "body": "Un navigatore torna con una mappa chiara. La costa diventa più facile da controllare.",
       "effect": "Territori : +5 per carta",
       "duration": "Durata : 5 carte"
     },
@@ -81,13 +81,13 @@
     },
     "new_world_explorer_ev_014": {
       "title": "Mercato delle isole",
-      "body": "Mercanti arrivati dalle isole riempiono il porto di beni rari e idee di guadagno.",
+      "body": "Mercanti arrivati dalle isole riempiono il porto di beni rari e nuove occasioni di profitto.",
       "effect": "Ricchezze : +5 per carta",
       "duration": "Durata : 6 carte"
     },
     "new_world_explorer_ev_015": {
       "title": "Forte avanzato",
-      "body": "Un piccolo forte sorge in un punto ben scelto. La costa sembra improvvisamente più ampia.",
+      "body": "Un piccolo forte nasce in un punto ben scelto. La costa diventa più facile da difendere.",
       "effect": "Territori : +5 per carta",
       "duration": "Durata : 3 carte"
     },
@@ -105,7 +105,7 @@
     },
     "new_world_explorer_ev_018": {
       "title": "Tempesta sulle stive",
-      "body": "Una serie di piogge danneggia le scorte. Il porto odora di legno bagnato e di perdita secca.",
+      "body": "Una serie di piogge danneggia le scorte. Una parte delle merci va perduta.",
       "effect": "Ricchezze : -5 per carta",
       "duration": "Durata : 7 carte"
     },
@@ -165,7 +165,7 @@
     },
     "new_world_explorer_ev_028": {
       "title": "Inviato scontento",
-      "body": "Un inviato reale riparte con il volto chiuso e un taccuino ben pieno. Nulla di buono ama attraversare il mare in questo modo.",
+      "body": "Un inviato reale riparte con il volto chiuso e un taccuino ben pieno. Il suo rapporto rischia di nuocerci a corte.",
       "effect": "Appoggio reale : -5 per carta",
       "duration": "Durata : 6 carte"
     },

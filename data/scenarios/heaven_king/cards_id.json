@@ -1,4 +1,4 @@
-﻿{
+{
   "heaven_001": {
     "id": "heaven_001",
     "universe": "heaven_king",
@@ -223,7 +223,7 @@
     "choices": {
       "A": "Tiupkan inspirasi spiritual yang nyata",
       "B": "Biarkan seni berkembang dengan bebas",
-      "C": "Hubungkan karya-karya ini dengan kultus mikro baru"
+      "C": "Menjadikan karya-karya ini sebagai dasar dari sekte kecil"
     },
     "body": "Para seniman muda menciptakan karya sakral dalam realitas virtual."
   },
@@ -258,7 +258,7 @@
     "description": "Sebuah gerakan spiritual membela hewan sebagai makhluk suci.",
     "choices": {
       "A": "Bantu tujuan mereka dengan beberapa tanda halus",
-      "B": "Biarkan gerakan ini tetap kecil",
+      "B": "Biarkan gerakan ini tetap terbatas",
       "C": "Biarkan gerakan ini menjadi terlalu kaku"
     },
     "body": "Sebuah gerakan spiritual membela hewan sebagai makhluk suci."
@@ -378,7 +378,7 @@
     "description": "Seorang pertapa menerima penglihatan, tetapi tak seorang pun benar-benar mendengarkannya.",
     "choices": {
       "A": "Berikan lebih banyak kekuatan pada pesannya",
-      "B": "Biarkan dia dalam kesunyian yang subur",
+      "B": "Membiarkannya sendiri dengan penglihatannya",
       "C": "Tarik murid-murid yang sangat bersemangat di sekelilingnya"
     },
     "body": "Seorang pertapa menerima penglihatan, tetapi tak seorang pun benar-benar mendengarkannya."
@@ -402,7 +402,7 @@
     "description": "Sebuah kultus sepenuhnya berfokus pada malaikat dan hampir sepenuhnya melupakanmu.",
     "choices": {
       "A": "Biarkan kultus ini menjalani devosinya kepada malaikat",
-      "B": "Ingatkan dengan lembut bahwa kamu tetap pusatnya",
+      "B": "Mengingatkan dengan lembut bahwa Engkau harus tetap menjadi pusat iman mereka",
       "C": "Gunakan kultus ini untuk menyalurkan semua doa"
     },
     "body": "Sebuah kultus sepenuhnya berfokus pada malaikat dan hampir sepenuhnya melupakanmu."
@@ -1197,7 +1197,8 @@
       "B": "Amati saja bagaimana manusia bereaksi terhadap ketenangan ini",
       "C": "Diam-diam siapkan cobaan besar berikutnya"
     },
-    "body": "Setelah konflik panjang antara Surga dan Neraka, ketenangan aneh turun ke Bumi."
+    "body": "Setelah konflik panjang antara Surga dan Neraka, ketenangan aneh turun ke Bumi.",
+    "choice_a": "Mengirim tanda-tanda damai untuk membantu membangun kembali."
   },
   "heaven_101": {
     "id": "heaven_101",
@@ -1495,7 +1496,7 @@
     "choices": {
       "A": "Ilhami kata-kata dukungan yang bernuansa di sekitar mereka",
       "B": "Jangan campur tangan dalam kisah mereka",
-      "C": "Buat seolah perpisahan akan menjadi kesalahan besar"
+      "C": "Buat orang percaya bahwa menelantarkan altar ini mendatangkan hukuman"
     },
     "body": "Sebuah pasangan tetap bersama terutama karena takut pada kesalahan moral yang berat."
   },
@@ -1555,7 +1556,7 @@
     "choices": {
       "A": "Ilhami seorang peserta untuk mengecam konsep ini secara langsung",
       "B": "Biarkan acara itu mendapatkan sensasinya",
-      "C": "Biarkan nasib buruk menimpa seorang pemenang untuk menegaskan ancaman"
+      "C": "Menimpakan kemalangan pada seorang pemenang untuk memperkuat rasa takut"
     },
     "body": "Sebuah acara realitas menuding perilaku yang dianggap tidak bermoral dengan menghubungkannya pada Neraka."
   },
@@ -2119,7 +2120,7 @@
     "choices": {
       "A": "Sesekali selipkan semangat fair play dan rasa hormat",
       "B": "Biarkan doa-doa tetap berpusat pada kemenangan",
-      "C": "Biarkan beberapa yang kalah percaya bahwa mereka telah dihukum"
+      "C": "Buat orang percaya bahwa menelantarkan altar ini mendatangkan hukuman"
     },
     "body": "Tim-tim olahraga berdoa terutama untuk menghancurkan lawan."
   },
@@ -2191,7 +2192,7 @@
     "choices": {
       "A": "Berikan tanda kecil yang halus kepada mereka yang paling menderita",
       "B": "Biarkan pertunjukan itu berlangsung tanpa mukjizat yang jelas",
-      "C": "Buat kesembuhan ini dibaca sebagai hukuman bagi para skeptis"
+      "C": "Buat orang mengatakan bahwa para skeptis telah menghalangi mukjizat itu"
     },
     "body": "Sebuah pertemuan menjanjikan mukjizat spektakuler kepada mereka yang memiliki iman sempurna."
   },
@@ -2537,9 +2538,9 @@
     "title": "Pedagang pengampunan",
     "description": "Seorang pria menjual pesan yang menjanjikan pengampunan penuh kepada mereka yang membayar.",
     "choices": {
-      "A": "Berikan kelembutan batin yang membukakan kembali iman",
-      "B": "Biarkan kecurigaan tetap dominan",
-      "C": "Biarkan para algojo menuntut tanpa hukuman apa pun"
+      "A": "Ilhami beberapa pelanggan untuk mencari pengampunan yang tulus dan cuma-cuma",
+      "B": "Biarkan perdagangan spiritual ini terus berjalan",
+      "C": "Buat orang percaya bahwa mereka yang tidak membayar tidak akan pernah diampuni"
     },
     "body": "Seorang pria menjual pesan yang menjanjikan pengampunan penuh kepada mereka yang membayar."
   },
@@ -2551,7 +2552,7 @@
     "choices": {
       "A": "Ilhami karya-karya yang menunjukkan kebebasan memilih cahaya",
       "B": "Biarkan festival tenggelam dalam sensasionalisme",
-      "C": "Biarkan ancaman diucapkan atas nama Langit"
+      "C": "Biarkan beberapa kelompok mengancam para seniman atas nama Langit"
     },
     "body": "Sebuah kota ingin mengadakan festival seni yang menggambarkan Surga dan Neraka sekaligus."
   },
@@ -2621,9 +2622,9 @@
     "title": "Atraksi tentang akhirat",
     "description": "Sebuah taman hiburan meluncurkan atraksi spektakuler tentang penghakiman setelah kematian.",
     "choices": {
-      "A": "Izinkan belas kasih yang nyata bagi mereka yang paling tersesat",
-      "B": "Biarkan kisah-kisah ini tetap simbolis dan tidak dipahami",
-      "C": "Buat para rohaniwan ini dikecam sebagai sekutu Neraka"
+      "A": "Ilhami atraksi yang mengajak berpikir tanpa menakut-nakuti",
+      "B": "Biarkan atraksi itu tetap menjadi tontonan biasa",
+      "C": "Biarkan atraksi itu menumbuhkan gambaran penghakiman yang sangat keras"
     },
     "body": "Sebuah taman hiburan meluncurkan atraksi spektakuler tentang penghakiman setelah kematian."
   },
@@ -2717,9 +2718,9 @@
     "title": "Tangis di ambang Langit",
     "description": "Orang-orang terdekat membayangkan melihat mereka yang telah tiada di tepi tempat damai dan menangis lega.",
     "choices": {
-      "A": "Ilhami seorang tokoh yang menemukan kebaikan tak terduga",
-      "B": "Biarkan buku-bukunya memberi makan pandangan yang cemas ini",
-      "C": "Biarkan kisah-kisah ini hidup dalam ketakutan akan hukuman"
+      "A": "Beri mereka rasa damai yang mendalam",
+      "B": "Biarkan penglihatan ini tetap menjadi hiburan batin yang intim",
+      "C": "Buat orang mengatakan bahwa orang-orang tercinta mereka masih ditahan jauh dari kedamaian"
     },
     "body": "Orang-orang terdekat membayangkan melihat mereka yang telah tiada di tepi tempat damai dan menangis lega."
   },
@@ -2933,9 +2934,9 @@
     "title": "Serial tentang yang terpilih",
     "description": "Sebuah serial bercerita bahwa hanya segelintir manusia yang benar-benar dipilih.",
     "choices": {
-      "A": "Ilhami beberapa pembawa damai yang mampu mendengarkan kedua sisi",
-      "B": "Biarkan kebencian religius ini diwariskan",
-      "C": "Biarkan hukuman dijanjikan terhadap setiap perjanjian damai"
+      "A": "Ilhami adegan yang mengingatkan bahwa setiap orang punya nilai",
+      "B": "Biarkan serial ini terus memberi makan gagasan elitis itu",
+      "C": "Buat orang percaya bahwa mereka yang tidak dipilih sudah dikutuk sejak awal"
     },
     "body": "Sebuah serial bercerita bahwa hanya segelintir manusia yang benar-benar dipilih."
   },
@@ -3139,7 +3140,7 @@
     "choices": {
       "A": "Bangkitkan beberapa orang untuk menyadari manipulasi ini",
       "B": "Biarkan kultus ini tetap pinggiran",
-      "C": "Biarkan mereka ingin membakar segalanya atas nama hukuman surgawi"
+      "C": "Biarkan sebagian orang ingin membakar semuanya atas nama hukuman surgawi"
     },
     "body": "Di wilayah terpencil, sebuah kultus kuno mencampurkan namamu dengan kekuatan-kekuatan lebih gelap dari bawah."
   },
@@ -3257,9 +3258,9 @@
     "title": "Alun-alun gagasan terlarang",
     "description": "Sebuah alun-alun besar menjadi tempat perdebatan tentang gagasan-gagasan agama yang dianggap terlarang.",
     "choices": {
-      "A": "Izinkan kasih tanpa pamrih terhadap mereka yang paling tersesat",
-      "B": "Biarkan kisah-kisah ini tampak seperti metafora aneh",
-      "C": "Buat mereka dikecam sebagai sekutu Neraka"
+      "A": "Biarkan perdebatan ini membuka pertanyaan yang tulus",
+      "B": "Biarkan perdebatan ini berputar-putar tanpa maju",
+      "C": "Buat para peserta dikecam sebagai sekutu Neraka"
     },
     "body": "Sebuah alun-alun besar menjadi tempat perdebatan tentang gagasan-gagasan agama yang dianggap terlarang."
   },
@@ -3785,7 +3786,7 @@
     "title": "Seni jalanan bercahaya",
     "description": "Seorang seniman melukis fresko cahaya dan sayap di dinding-dinding kota.",
     "choices": {
-      "A": "Biarkan beberapa pejalan kaki terangkat oleh fresko-fresko ini",
+      "A": "Angkat semangat beberapa pejalan kaki lewat mural-mural ini",
       "B": "Biarkan fresko ini menjadi sekadar tren visual",
       "C": "Tambahkan papan-papan keagamaan"
     },
@@ -4049,7 +4050,7 @@
     "title": "Buku bergambar",
     "description": "Seorang ilustrator membuat buku tanpa teks, hanya adegan cahaya dan bayangan.",
     "choices": {
-      "A": "Biarkan para pembaca memproyeksikan pencarian batin mereka sendiri ke dalamnya",
+      "A": "Biarkan para pembaca memproyeksikan ke dalamnya apa yang mereka cari jauh di dalam diri",
       "B": "Biarkan buku ini dipandang sebagai objek seni",
       "C": "Tambahkan pengantar spiritual yang sangat jelas"
     },
@@ -4133,9 +4134,9 @@
     "title": "Panduan jalan-jalan spiritual",
     "description": "Seorang pemandu mencoba menjelaskan berbagai jalan spiritual dengan kata-kata yang sangat rumit.",
     "choices": {
-      "A": "Lahirkan pendekatan batin yang nyata",
-      "B": "Biarkan lingkaran-lingkaran ini tetap eksperimental dan terbatas",
-      "C": "Terapkan protokol tetap di sekitar gagasan ini"
+      "A": "Ilhami versi panduan ini yang lebih sederhana dan lebih jelas",
+      "B": "Biarkan panduan ini tetap rumit dan jarang dibaca",
+      "C": "Ubah panduan ini menjadi metode kaku yang harus diikuti"
     },
     "body": "Seorang pemandu mencoba menjelaskan berbagai jalan spiritual dengan kata-kata yang terlalu rumit."
   },
@@ -4183,7 +4184,7 @@
     "choices": {
       "A": "Membiarkan pendengar merasakan suara yang benar-benar menenangkan di sana",
       "B": "Biarkan podcast ini tetap terbatas pendengarnya",
-      "C": "Jadikan ini program jaringan yang terstruktur"
+      "C": "Ubah ini menjadi acara resmi yang didukung jaringan besar"
     },
     "body": "Sebuah podcast kecil membagikan pikiran yang lembut dan menenangkan setiap hari."
   },
@@ -4193,7 +4194,7 @@
     "title": "Menatap langit",
     "description": "Seorang anak sering mengangkat matanya ke langit tanpa benar-benar tahu mengapa.",
     "choices": {
-      "A": "Biarkan gerakan ini menjadi refleks kepercayaan yang diam",
+      "A": "Biarkan gerakan ini menjadi kebiasaan kecil penuh kepercayaan dan ketenangan",
       "B": "Biarkan anak ini tumbuh dan perlahan melupakan gerakan ini",
       "C": "Ajari dia beberapa kata untuk diucapkan kepada langit"
     },
@@ -4337,7 +4338,7 @@
     "title": "Media sosial yang menenangkan",
     "description": "Seorang kreator meluncurkan halaman yang hanya didedikasikan untuk pesan-pesan penyemangat.",
     "choices": {
-      "A": "Bisikkan kata-kata yang sungguh menenangkan dan mengangkat mereka yang membaca",
+      "A": "Menanamkan kata-kata yang benar-benar menenangkan dan memberi keberanian lagi kepada para pembacanya",
       "B": "Biarkan halaman ini menemukan atau tidak menemukan penontonnya",
       "C": "Buat konsep ini diambil alih oleh sebuah organisasi"
     },
@@ -4422,7 +4423,7 @@
     "description": "Sebuah perusahaan ingin memperbaiki suasana di antara rekan kerja.",
     "choices": {
       "A": "Bisikkan gerakan pengakuan sederhana dalam keseharian",
-      "B": "Biarkan langkah ini menjadi sekadar seminar HR",
+      "B": "Biarkan langkah ini tetap hanya menjadi pelatihan perusahaan biasa",
       "C": "Dorong pimpinan memaksakan kode perilaku yang sangat rinci"
     },
     "body": "Sebuah perusahaan ingin memperbaiki suasana di antara rekan kerja."
@@ -4434,7 +4435,7 @@
     "description": "Sebuah kantor memasang tanaman dan sudut istirahat dengan pemandangan ke langit.",
     "choices": {
       "A": "Bantu beberapa orang memakai sudut ini untuk memusatkan diri ke dalam",
-      "B": "Biarkan ruang ini hanya menjadi sudut kopi yang lebih bagus",
+      "B": "Biarkan tempat ini tetap hanya menjadi area istirahat yang sedikit lebih nyaman",
       "C": "Adakan sesi meditasi terpandu di sana"
     },
     "body": "Sebuah kantor memasang tanaman dan sudut istirahat dengan pemandangan ke langit."
@@ -4543,7 +4544,7 @@
     "choices": {
       "A": "Biarkan beberapa orang merasakan persekutuan sejati melalui bunyi-bunyi ini",
       "B": "Biarkan lingkar ini tetap menjadi pengalaman musik yang menyenangkan",
-      "C": "Dorong fasilitator memaksakan struktur dan aturan yang ketat"
+      "C": "Mendorong fasilitator untuk memberlakukan struktur dan aturan yang ketat"
     },
     "body": "Sebuah kelompok berkumpul untuk mengimprovisasi bunyi bersama tanpa menghakimi."
   },
@@ -4553,7 +4554,7 @@
     "title": "Sudut baca di metro",
     "description": "Sebuah gerbong metro dihias ulang dengan kutipan-kutipan teks yang menenangkan.",
     "choices": {
-      "A": "Buat kata-kata ini terasa sungguh menenangkan",
+      "A": "Menjadikan teks-teks ini sumber ketenangan yang nyata",
       "B": "Biarkan kebanyakan orang tidak terlalu memperhatikannya",
       "C": "Dorong operator untuk mencadangkan gerbong ini bagi penggunaan yang sangat diatur"
     },
@@ -4601,8 +4602,8 @@
     "title": "Lokakarya tidur siang terpandu",
     "description": "Sebuah pusat kebugaran menawarkan tidur siang terpandu untuk beristirahat di tengah hari.",
     "choices": {
-      "A": "Biarkan beberapa orang merasakan pelepasan yang nyata, dekat dengan doa",
-      "B": "Biarkan tidur siang terpandu ini tetap menjadi layanan kebugaran biasa",
+      "A": "Membiarkan sebagian orang merasakan momen ketenangan batin yang nyata",
+      "B": "Biarkan sesi tidur siang terpandu ini tetap hanya menjadi aktivitas relaksasi",
       "C": "Buat program lengkap dengan tahapan wajib"
     },
     "body": "Sebuah pusat kebugaran menawarkan tidur siang terpandu untuk beristirahat di tengah hari."
@@ -4626,7 +4627,7 @@
     "description": "Sebuah sekolah menengah menyiapkan sudut tempat seorang dewasa hadir untuk mendengarkan para murid.",
     "choices": {
       "A": "Biarkan beberapa orang menemukan ruang bicara dan penghiburan yang nyata di sana",
-      "B": "Biarkan sudut ini terutama membicarakan pelajaran dan masa depan",
+      "B": "Biarkan tempat ini dipakai terutama untuk membicarakan pelajaran dan masa depan",
       "C": "Kelilingi fasilitas ini dengan aturan yang sangat ketat"
     },
     "body": "Sebuah sekolah menengah menyiapkan sudut tempat seorang dewasa hadir untuk mendengarkan para murid."
@@ -4675,7 +4676,7 @@
     "choices": {
       "A": "Bangkitkan kesadaran nyata akan keberuntungan yang mereka miliki",
       "B": "Biarkan menggambar ini tetap menjadi latihan seni rupa",
-      "C": "Pajang gambar-gambar ini sebagai aturan moral"
+      "C": "Menampilkan gambar-gambar ini sebagai contoh yang harus diikuti semua orang"
     },
     "body": "Anak-anak menggambar hal-hal yang mereka syukuri."
   },
@@ -4711,7 +4712,7 @@
     "choices": {
       "A": "Bisikkan kisah-kisah yang mengembalikan kepercayaan",
       "B": "Biarkan podcast ini tetap menjadi gelembung optimisme",
-      "C": "Mendorong sebuah jaringan untuk menjadikannya alat komunikasi yang terlalu dikendalikan"
+      "C": "Mendorong jaringan besar untuk mengubahnya menjadi format yang terlalu dikendalikan"
     },
     "body": "Sebuah podcast membagikan satu kabar baik yang nyata setiap hari."
   },
@@ -4730,7 +4731,7 @@
   "heaven_395": {
     "id": "heaven_395",
     "universe": "heaven_king",
-    "title": "Lingkar 'satu kemenangan kecil'",
+    "title": "Lingkaran kemenangan kecil",
     "description": "Sebuah kelompok berkumpul setiap minggu untuk berbagi satu kemenangan kecil pribadi.",
     "choices": {
       "A": "Bantu berbagi ini memelihara kepercayaan batin setiap orang",
@@ -4754,14 +4755,14 @@
   "heaven_397": {
     "id": "heaven_397",
     "universe": "heaven_king",
-    "title": "Hari 'terima kasih hidup'",
+    "title": "Hari rasa syukur",
     "description": "Sebuah sekolah mengadakan hari khusus untuk berterima kasih atas hal-hal kecil dalam hidup sehari-hari.",
     "choices": {
       "A": "Bangkitkan pada beberapa murid kebiasaan rasa syukur yang nyata",
       "B": "Biarkan hari ini dialami sebagai proyek pendidikan",
       "C": "Jadikan ini ritual besar tahunan"
     },
-    "body": "Sebuah sekolah mengadakan hari khusus untuk berterima kasih atas hal-hal kecil dalam hidup sehari-hari."
+    "body": "Sebuah sekolah mengadakan hari khusus untuk berterima kasih atas hal-hal kecil dalam keseharian"
   },
   "heaven_398": {
     "id": "heaven_398",
@@ -4778,7 +4779,7 @@
   "heaven_399": {
     "id": "heaven_399",
     "universe": "heaven_king",
-    "title": "Lokakarya 'surat untuk diriku di masa depan'",
+    "title": "Lokakarya surat untuk diri sendiri di masa depan",
     "description": "Para peserta menulis surat kepada diri mereka sepuluh tahun ke depan.",
     "choices": {
       "A": "Bisikkan kata-kata kebaikan dan harapan ke dalam surat-surat ini",
@@ -4793,7 +4794,7 @@
     "title": "Lingkungan kunang-kunang",
     "description": "Sebuah lingkungan memutuskan mematikan pencahayaan yang tidak perlu agar bintang-bintang terlihat lebih jelas.",
     "choices": {
-      "A": "Buat terasa persekutuan di bawah langit gelap ini",
+      "A": "Menjadikan malam ini momen ketenangan bersama yang nyata",
       "B": "Biarkan langkah ini dipandang sebagai tindakan ekologis yang praktis",
       "C": "Ciptakan acara besar di sekitar malam ini"
     },

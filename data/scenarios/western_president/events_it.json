@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "west_president_ev_001": {
@@ -9,13 +9,13 @@
     },
     "west_president_ev_002": {
       "title": "Fiducia dei mercati",
-      "body": "Gli investitori tornano con i loro grafici rassicuranti e i loro sorrisi un po’ troppo bianchi. L’economia apprezza chiaramente la tua direzione.",
+      "body": "Gli investitori tornano con indicatori rassicuranti. L’economia sembra ritrovare fiducia nella tua direzione.",
       "effect": "Economia: +5 per carta",
       "duration": "Durata: 6 carte"
     },
     "west_president_ev_003": {
       "title": "Esercitazione nazionale di sicurezza",
-      "body": "Le forze del paese eseguono manovre con una serietà impeccabile. Per una volta, perfino le uniformi sembrano contente.",
+      "body": "Le forze del Paese svolgono le esercitazioni con grande disciplina. L’organizzazione finalmente rassicura tutti.",
       "effect": "Difesa: +5 per carta",
       "duration": "Durata: 4 carte"
     },
@@ -27,7 +27,7 @@
     },
     "west_president_ev_005": {
       "title": "Stanchezza dell’opinione pubblica",
-      "body": "Il pubblico sospira più in fretta del solito. Ogni annuncio provoca un’alzata di spalle nazionale. È un brutto segno.",
+      "body": "Il pubblico si stanca più in fretta del solito. Ogni annuncio provoca soprattutto indifferenza. È un brutto segnale.",
       "effect": "Opinione pubblica: -5 per carta",
       "duration": "Durata: 6 carte"
     },
@@ -45,7 +45,7 @@
     },
     "west_president_ev_008": {
       "title": "Freddezza diplomatica",
-      "body": "I partner rispondono lentamente, i sorrisi si fanno più brevi e i comunicati cominciano a pizzicare un po’.",
+      "body": "I partner rispondono più lentamente del solito, l’accoglienza è più fredda e i comunicati diventano più tesi.",
       "effect": "Diplomazia: -5 per carta",
       "duration": "Durata: 5 carte"
     },
@@ -81,7 +81,7 @@
     },
     "west_president_ev_014": {
       "title": "Sciopero logistico",
-      "body": "I flussi rallentano, i costi salgono e ogni magazzino diventa improvvisamente un tema nazionale. L’economia odia questo genere di teatro.",
+      "body": "I flussi rallentano, i costi salgono e ogni magazzino diventa improvvisamente un tema nazionale. Questa crisi logistica preoccupa seriamente l’economia.",
       "effect": "Economia: -5 per carta",
       "duration": "Durata: 6 carte"
     },
@@ -111,7 +111,7 @@
     },
     "west_president_ev_019": {
       "title": "Dottrina chiarita",
-      "body": "L’esercito, i servizi e lo stato maggiore sanno finalmente quale linea seguire. La coerenza resta sottovalutata in politica.",
+      "body": "L’esercito, i servizi e lo stato maggiore sanno finalmente quale linea seguire. Tutti avanzano nella stessa direzione.",
       "effect": "Difesa: +5 per carta",
       "duration": "Durata: 3 carte"
     },
@@ -129,13 +129,13 @@
     },
     "west_president_ev_022": {
       "title": "Crisi di fiducia economica",
-      "body": "I progetti rallentano, le assunzioni esitano e le previsioni sembrano scuse ben vestite.",
+      "body": "I progetti rallentano, le assunzioni esitano e le previsioni economiche non rassicurano più nessuno.",
       "effect": "Economia: -5 per carta",
       "duration": "Durata: 7 carte"
     },
     "west_president_ev_023": {
       "title": "Fuga nelle procedure",
-      "body": "Un documento circola, un metodo finisce commentato in diretta e all’improvviso la sicurezza nazionale sembra molto loquace.",
+      "body": "Circola un documento sensibile, una procedura interna viene commentata pubblicamente e la sicurezza nazionale appare improvvisamente molto mal protetta.",
       "effect": "Difesa: -5 per carta",
       "duration": "Durata: 4 carte"
     },

@@ -28,7 +28,7 @@
   },
   "nw_004": {
     "title": "Mina oculta",
-    "body": "Un guía habla de una mina lejos de la costa y cerca de los problemas.",
+    "body": "Un guía habla de una mina tierra adentro, en una zona peligrosa.",
     "choices": {
       "A": "Enviar soldados",
       "B": "Enviar mineros",
@@ -46,11 +46,11 @@
   },
   "nw_006": {
     "title": "Tripulación golosa",
-    "body": "Los marineros quieren un verdadero festín y no otra vez pescado triste.",
+    "body": "Los marineros quieren una comida de verdad en lugar del pescado que se sirve todos los días.",
     "choices": {
       "A": "Pagar una gran comida",
       "B": "Prometer algo mejor más tarde",
-      "C": "Comprar localmente e invitar al puerto"
+      "C": "Comprar productos locales e invitar a la gente del puerto"
     }
   },
   "nw_007": {
@@ -100,7 +100,7 @@
   },
   "nw_012": {
     "title": "Mensajero herido",
-    "body": "El mensajero real cae del caballo con nuestras órdenes y nuestro prestigio.",
+    "body": "El mensajero real cae del caballo con nuestras órdenes encima. Nuestra credibilidad está en juego.",
     "choices": {
       "A": "Cuidar al mensajero",
       "B": "Leer las órdenes nosotros mismos",
@@ -136,11 +136,11 @@
   },
   "nw_016": {
     "title": "Noble inútil",
-    "body": "Un noble exige una escolta para visitar una playa vacía con estilo.",
+    "body": "Un noble exige una escolta para visitar una playa aislada.",
     "choices": {
       "A": "Darle una escolta",
       "B": "Hacerle esperar",
-      "C": "Enviarlo con el cocinero"
+      "C": "Enviarlo con una pequeña escolta"
     }
   },
   "nw_017": {
@@ -172,7 +172,7 @@
   },
   "nw_020": {
     "title": "Marinero ladrón",
-    "body": "Un marinero discreto tiene los bolsillos más pesados que su salario.",
+    "body": "Se sospecha que un marinero roba de las reservas.",
     "choices": {
       "A": "Castigarlo en público",
       "B": "Darle una oportunidad",
@@ -181,11 +181,11 @@
   },
   "nw_021": {
     "title": "Templo de la orilla",
-    "body": "Un pequeño templo vigila el puerto y las miradas de la aldea.",
+    "body": "Un pequeño templo cerca del puerto es importante para el pueblo.",
     "choices": {
       "A": "Respetarlo públicamente",
       "B": "Usarlo como depósito",
-      "C": "Ofrecer aceite al lugar"
+      "C": "Ofrecer aceite al templo"
     }
   },
   "nw_022": {
@@ -208,7 +208,7 @@
   },
   "nw_024": {
     "title": "Rumor de revuelta",
-    "body": "Los murmullos corren más rápido que nuestras botas por las calles del puerto.",
+    "body": "Rumores de revuelta se están extendiendo por el puerto.",
     "choices": {
       "A": "Enviar a la guardia",
       "B": "Bajar un impuesto",
@@ -217,7 +217,7 @@
   },
   "nw_025": {
     "title": "Caja real vacía",
-    "body": "La caja del fuerte hace un ruido de vacío muy convincente.",
+    "body": "La caja del fuerte está casi vacía.",
     "choices": {
       "A": "Imponer un nuevo impuesto",
       "B": "Vender existencias",
@@ -226,7 +226,7 @@
   },
   "nw_026": {
     "title": "Cala secreta",
-    "body": "Una cala escondida sería ideal para un depósito o una huida.",
+    "body": "Una cala escondida sería ideal para un depósito secreto o una vía de escape.",
     "choices": {
       "A": "Esconder allí un tesoro",
       "B": "Construir allí un puesto",
@@ -271,7 +271,7 @@
   },
   "nw_031": {
     "title": "Ganado errante",
-    "body": "Unas bestias vagan cerca de nuestros campos y de los deseos de los marineros.",
+    "body": "Hay animales merodeando cerca de nuestros campos y ya tientan a los marineros hambrientos.",
     "choices": {
       "A": "Comprar el rebaño",
       "B": "Confiscarlo",
@@ -343,7 +343,7 @@
   },
   "nw_039": {
     "title": "Ruta de las colinas",
-    "body": "Una ruta hacia las colinas abre el comercio y cierra el sueño.",
+    "body": "Un camino hacia las colinas ayudaría al comercio, pero aumentaría el riesgo de ataque.",
     "choices": {
       "A": "Asegurar la ruta",
       "B": "Gravar la ruta",
@@ -352,7 +352,7 @@
   },
   "nw_040": {
     "title": "Ron de contrabando",
-    "body": "Un barril cruza la noche más rápido que un documento real.",
+    "body": "Un barril de ron de contrabando circula en secreto durante la noche.",
     "choices": {
       "A": "Confiscar el ron",
       "B": "Vender el ron nosotros mismos",
@@ -415,7 +415,7 @@
   },
   "nw_047": {
     "title": "Barco costero averiado",
-    "body": "Un pequeño barco del puerto se hunde lentamente y muy públicamente.",
+    "body": "Una pequeña embarcación del puerto está haciendo agua delante de todo el mundo.",
     "choices": {
       "A": "Repararlo",
       "B": "Comprarlo por casi nada",
@@ -424,7 +424,7 @@
   },
   "nw_048": {
     "title": "Estación de lluvias",
-    "body": "La lluvia puede arruinar los caminos o lavar nuestros errores, según el humor.",
+    "body": "La temporada de lluvias puede bloquear los caminos y ralentizar todo el puerto.",
     "choices": {
       "A": "Reforzar los caminos",
       "B": "Almacenar y esperar",
@@ -433,7 +433,7 @@
   },
   "nw_049": {
     "title": "Tela colorida",
-    "body": "Una tela local hace girar cabezas y también ideas de beneficio.",
+    "body": "Un tejido local muy buscado podría dar grandes beneficios.",
     "choices": {
       "A": "Comprar todo el stock",
       "B": "Gravar las ventas",
@@ -442,7 +442,7 @@
   },
   "nw_050": {
     "title": "Baliza rota",
-    "body": "La baliza del cabo ha caído. El mar adora ese tipo de detalle.",
+    "body": "La baliza del cabo se ha caído, y eso hace más peligrosa la entrada de la bahía.",
     "choices": {
       "A": "Levantarlá rápido",
       "B": "Hacer pagar a los barcos",
@@ -523,7 +523,7 @@
   },
   "nw_059": {
     "title": "Pólvora negra",
-    "body": "La reserva de pólvora baja y los informes suben en pánico.",
+    "body": "Las reservas de pólvora bajan y los informes se vuelven alarmantes.",
     "choices": {
       "A": "Comprar caro",
       "B": "Reducir los disparos",
@@ -622,7 +622,7 @@
   },
   "nw_070": {
     "title": "Contable creativo",
-    "body": "El contable siempre encuentra la cifra correcta para el problema equivocado.",
+    "body": "El contable manipula las cifras para ocultar ciertos problemas.",
     "choices": {
       "A": "Conservarlo por útil",
       "B": "Reemplazarlo",
@@ -694,7 +694,7 @@
   },
   "nw_078": {
     "title": "Sal de contrabando",
-    "body": "La sal sale de los almacenes más rápido de lo que el agua sale de los barriles.",
+    "body": "La sal está desapareciendo de los almacenes a simple vista.",
     "choices": {
       "A": "Castigar severamente",
       "B": "Bajar el impuesto",
@@ -721,7 +721,7 @@
   },
   "nw_081": {
     "title": "Oficina del puerto",
-    "body": "La oficina del puerto se hunde bajo los papeles y muy poco bajo la eficacia.",
+    "body": "La oficina del puerto está desbordada de papeles y funciona mal.",
     "choices": {
       "A": "Pagar más escribas",
       "B": "Simplificar las reglas",
@@ -739,7 +739,7 @@
   },
   "nw_083": {
     "title": "Compañía rival",
-    "body": "Otra compañía europea propone un acuerdo que huele a trampa cortés.",
+    "body": "Otra compañía europea propone un acuerdo que parece arriesgado.",
     "choices": {
       "A": "Firmar un pacto corto",
       "B": "Venderles un paso",
@@ -793,7 +793,7 @@
   },
   "nw_089": {
     "title": "Campo de índigo",
-    "body": "El índigo local vale caro, pero consume tierras que alimentan mejor.",
+    "body": "El índigo local vale mucho, pero ocupa el lugar de cultivos que alimentan mejor.",
     "choices": {
       "A": "Plantar más índigo",
       "B": "Mantener cultivos mixtos",
@@ -802,7 +802,7 @@
   },
   "nw_090": {
     "title": "Vieja torre",
-    "body": "Una vieja torre de la orilla puede servir de puesto o caer sobre nuestras botas.",
+    "body": "Una vieja torre de la costa puede servir de puesto o derrumbarse sobre alguien.",
     "choices": {
       "A": "Restaurarla",
       "B": "Desmontarla y vender la piedra",
@@ -829,7 +829,7 @@
   },
   "nw_093": {
     "title": "Cofre desaparecido",
-    "body": "Un cofre ha desaparecido entre el muelle, el fuerte y unas miradas muy inocentes.",
+    "body": "Un cofre desapareció entre el muelle y el fuerte, pero nadie quiere admitir nada.",
     "choices": {
       "A": "Registrar a todo el mundo",
       "B": "Ofrecer una recompensa",
@@ -910,7 +910,7 @@
   },
   "nw_102": {
     "title": "Pez gigante",
-    "body": "Un pez enorme bloquea la entrada del puerto como si pagara alquiler.",
+    "body": "Un pez muy grande bloquea la entrada del puerto.",
     "choices": {
       "A": "Ahuyentarlo en grupo",
       "B": "Venderlo por partes",
@@ -1000,7 +1000,7 @@
   },
   "nw_112": {
     "title": "Madera perfumada",
-    "body": "Una madera rara huele tan bien que hasta el tesoro lo nota.",
+    "body": "Una madera rara vale mucho y ya está atrayendo la atención del tesoro.",
     "choices": {
       "A": "Venderla lejos",
       "B": "Reservarla para los barcos",
@@ -1045,7 +1045,7 @@
   },
   "nw_117": {
     "title": "Puente de cuerda",
-    "body": "Un puente de cuerda acorta el camino y alarga las oraciones.",
+    "body": "Un puente de cuerda acortaría el camino, pero seguiría siendo peligroso.",
     "choices": {
       "A": "Reforzarlo",
       "B": "Cobrar el paso",
@@ -1153,7 +1153,7 @@
   },
   "nw_129": {
     "title": "Techo del fuerte",
-    "body": "El techo del fuerte gotea con un verdadero sentido del espectáculo.",
+    "body": "El techo del fuerte tiene filtraciones por todas partes.",
     "choices": {
       "A": "Rehacerlo con madera nueva",
       "B": "Reparar solo lo peor",
@@ -1189,7 +1189,7 @@
   },
   "nw_133": {
     "title": "Posada del muelle",
-    "body": "Se abre una posada y promete descanso, rumores y cuentas blandas.",
+    "body": "Se abre una posada en el puerto y promete atraer viajeros, rumores y gastos.",
     "choices": {
       "A": "Gravarla",
       "B": "Alojar allí a nuestros visitantes",
@@ -1279,7 +1279,7 @@
   },
   "nw_143": {
     "title": "Dique agrietado",
-    "body": "Un dique cruje y el mar ya tiene su opinión.",
+    "body": "Un dique se está agrietando y el mar ya empuja con fuerza contra él.",
     "choices": {
       "A": "Repararlo rápido",
       "B": "Reparar solo el paso",
@@ -1297,7 +1297,7 @@
   },
   "nw_145": {
     "title": "Viña del sur",
-    "body": "Una viña local da un vino ligero y debates muy pesados.",
+    "body": "Un viñedo local produce un vino ligero, pero provoca largas discusiones.",
     "choices": {
       "A": "Comprar la cosecha",
       "B": "Invitar a los jefes a probarla",
@@ -1369,7 +1369,7 @@
   },
   "nw_153": {
     "title": "Remos ausentes",
-    "body": "La mitad de los remeros ha encontrado una mejor excusa que el mar.",
+    "body": "La mitad de los remeros ha encontrado una excusa para evitar el mar.",
     "choices": {
       "A": "Pagar un bonus",
       "B": "Reclutar en la aldea",
@@ -1378,7 +1378,7 @@
   },
   "nw_154": {
     "title": "Pimienta discreta",
-    "body": "La pimienta pasa bajo el muelle como si tuviera piernas.",
+    "body": "Pimienta de contrabando circula discretamente bajo el muelle.",
     "choices": {
       "A": "Aumentar los registros",
       "B": "Gravar menos",
@@ -1423,7 +1423,7 @@
   },
   "nw_159": {
     "title": "Dársena tranquila",
-    "body": "Una dársena natural podría abrigar pequeños barcos sin drama.",
+    "body": "Una cuenca natural podría proteger pequeñas embarcaciones con seguridad.",
     "choices": {
       "A": "Hacer allí un puerto secundario",
       "B": "Guardarla para el ejército",
@@ -1468,7 +1468,7 @@
   },
   "nw_164": {
     "title": "Mástil roto",
-    "body": "Un barco pierde su mástil en el puerto con un ruido muy convincente.",
+    "body": "Un barco pierde su mástil en el puerto en un estruendo que alerta a todo el mundo.",
     "choices": {
       "A": "Ayudar a repararlo",
       "B": "Comprar el barco",
@@ -1522,7 +1522,7 @@
   },
   "nw_170": {
     "title": "Ruta de la sal",
-    "body": "Una ruta de la sal podría enriquecer la bahía o vaciar a nuestros guardias.",
+    "body": "Una ruta de la sal podría enriquecer la bahía o agotar a nuestros guardias.",
     "choices": {
       "A": "Abrirla y gravarla",
       "B": "Mantenerla militar",
@@ -1540,7 +1540,7 @@
   },
   "nw_172": {
     "title": "Cestas rotas",
-    "body": "Las cestas del mercado hacen que la piña vaya más rápido que el vendedor.",
+    "body": "Las cestas del mercado están demasiado dañadas para transportar bien las piñas.",
     "choices": {
       "A": "Comprar cestas nuevas",
       "B": "Hacerlas tejer allí mismo",
@@ -1576,7 +1576,7 @@
   },
   "nw_176": {
     "title": "Caña de azúcar",
-    "body": "La caña de azúcar crece bien y vuelve las cuentas muy codiciosas.",
+    "body": "La caña de azúcar crece bien y ya hace soñar a los contables.",
     "choices": {
       "A": "Crear un gran campo",
       "B": "Mantener un pequeño cultivo",
@@ -1585,7 +1585,7 @@
   },
   "nw_177": {
     "title": "Hamaca oficial",
-    "body": "Un oficial quiere hamacas para mejorar la estrategia del sueño.",
+    "body": "Un oficial quiere hamacas para que los hombres por fin duerman bien.",
     "choices": {
       "A": "Comprarlas",
       "B": "Reservarlas para los heridos",
@@ -1621,7 +1621,7 @@
   },
   "nw_181": {
     "title": "Pesos trucados",
-    "body": "Algunos pesos del mercado son más ligeros que la verdad.",
+    "body": "Algunos pesos del mercado están manipulados.",
     "choices": {
       "A": "Confiscar los pesos falsos",
       "B": "Crear una balanza pública",
@@ -1666,7 +1666,7 @@
   },
   "nw_186": {
     "title": "Bambú ingenioso",
-    "body": "El bambú local sirve para todo y lo sabe muy bien.",
+    "body": "El bambú local sirve para todo y se vuelve indispensable muy rápido.",
     "choices": {
       "A": "Comprar una gran reserva",
       "B": "Dejar que los artesanos se encarguen",
@@ -1810,7 +1810,7 @@
   },
   "nw_202": {
     "title": "Plátanos demasiado maduros",
-    "body": "Unos plátanos amenazan el muelle y la nariz de los transeúntes.",
+    "body": "Plátanos demasiado maduros atascan el muelle y apestan el aire de alrededor.",
     "choices": {
       "A": "Venderlos rápido",
       "B": "Secarlos",
@@ -1828,7 +1828,7 @@
   },
   "nw_204": {
     "title": "Caja sin nombre",
-    "body": "Llega una caja sin marca, sin papeles y con mucho descaro.",
+    "body": "Llega una caja sin marca, sin papeles y sin explicación.",
     "choices": {
       "A": "Abrirla",
       "B": "Gravarla",
@@ -1846,7 +1846,7 @@
   },
   "nw_206": {
     "title": "Barco barnizado",
-    "body": "Un barco local brilla tanto que se ve su reflejo antes que sus velas.",
+    "body": "Un barco local está tan barnizado que se nota su casco brillante incluso antes que sus velas.",
     "choices": {
       "A": "Comprarlo para desfile",
       "B": "Alquilarlo para comercio",
@@ -1891,7 +1891,7 @@
   },
   "nw_211": {
     "title": "Jardín anegado",
-    "body": "El jardín del campamento parece una sopa verde después de la lluvia.",
+    "body": "El jardín del campamento queda empapado y cubierto de agua estancada después de la lluvia.",
     "choices": {
       "A": "Excavar canaletas",
       "B": "Mover los semilleros",
@@ -1900,7 +1900,7 @@
   },
   "nw_212": {
     "title": "Viento en contra",
-    "body": "El viento empuja nuestras velas hacia el lado equivocado con verdadera convicción.",
+    "body": "El viento empuja claramente nuestras velas en la dirección equivocada.",
     "choices": {
       "A": "Esperar",
       "B": "Reforzar con remos",
@@ -1918,7 +1918,7 @@
   },
   "nw_214": {
     "title": "Calabazas gigantes",
-    "body": "Unas calabazas gigantes invaden el huerto como grandes señores naranjas.",
+    "body": "Calabazas gigantes están invadiendo el huerto y ocupando todo el espacio.",
     "choices": {
       "A": "Venderlas",
       "B": "Regalarlas",
@@ -1954,7 +1954,7 @@
   },
   "nw_218": {
     "title": "Nido en la torre",
-    "body": "Unos pájaros han elegido la torre como palacio oficial.",
+    "body": "Unos pájaros han hecho su nido en la torre y dificultan la vigilancia.",
     "choices": {
       "A": "Mover el nido",
       "B": "Dejarlos",
@@ -1999,7 +1999,7 @@
   },
   "nw_223": {
     "title": "Soldados descalzos",
-    "body": "Han desaparecido unas botas y los soldados miran el suelo con reproche.",
+    "body": "Han desaparecido botas y los soldados se echan la culpa entre ellos.",
     "choices": {
       "A": "Encargar botas",
       "B": "Comprar localmente",
@@ -2026,7 +2026,7 @@
   },
   "nw_226": {
     "title": "Cantimplora olvidada",
-    "body": "Los obreros olvidan sus cantimploras y acaban quejándose con la garganta seca.",
+    "body": "Los obreros olvidan sus cantimploras y terminan quejándose cada vez más.",
     "choices": {
       "A": "Repartir cantimploras",
       "B": "Hacer una reserva de agua",
@@ -2080,7 +2080,7 @@
   },
   "nw_232": {
     "title": "Regalo aparatoso",
-    "body": "Un jefe vecino ofrece un gran tambor que ocupa más espacio que sentido.",
+    "body": "Un jefe vecino ofrece un gran tambor que ocupa mucho espacio y no sirve de gran cosa.",
     "choices": {
       "A": "Aceptarlo",
       "B": "Revenderlo",
@@ -2161,7 +2161,7 @@
   },
   "nw_241": {
     "title": "Mono del granero",
-    "body": "Un mono roba el grano con la precisión de un recaudador.",
+    "body": "Un mono roba el grano con una eficacia temible.",
     "choices": {
       "A": "Ahuyentarlo",
       "B": "Cerrar mejor el granero",
@@ -2170,7 +2170,7 @@
   },
   "nw_242": {
     "title": "Patos del muelle",
-    "body": "Unos patos ocupan el muelle como si pagaran la guardia.",
+    "body": "Unos patos ocupan el muelle y dificultan el paso.",
     "choices": {
       "A": "Moverlos",
       "B": "Hacer una pequeña charca",
@@ -2233,7 +2233,7 @@
   },
   "nw_249": {
     "title": "Mosquitos campeones",
-    "body": "Los mosquitos del pantano ganan todas las batallas de la noche.",
+    "body": "Los mosquitos del pantano invaden el campamento cada noche.",
     "choices": {
       "A": "Comprar telas",
       "B": "Hacer más humo",
@@ -2269,7 +2269,7 @@
   },
   "nw_253": {
     "title": "Torre de observación",
-    "body": "Una pequeña torre ofrecería una buena vista y largos gastos.",
+    "body": "Una pequeña torre ofrecería una buena vista, pero costaría caro construirla y mantenerla gardée.",
     "choices": {
       "A": "Construirla",
       "B": "Montar una plataforma simple",
@@ -2278,7 +2278,7 @@
   },
   "nw_254": {
     "title": "Cuerda mojada",
-    "body": "Las cuerdas mojadas pesan como promesas mal cumplidas.",
+    "body": "Las cuerdas mojadas son demasiado pesadas para manejarlas facilement.",
     "choices": {
       "A": "Secarlas bajo techo",
       "B": "Comprar unas nuevas",
@@ -2296,7 +2296,7 @@
   },
   "nw_256": {
     "title": "Estacas mal clavadas",
-    "body": "Unas estacas se mueven en el barro como si quisieran marcharse.",
+    "body": "Algunos postes se mueven en el barro y ya no sujetan bien.",
     "choices": {
       "A": "Volver a clavarlas",
       "B": "Traer a un experto local",
@@ -2305,7 +2305,7 @@
   },
   "nw_257": {
     "title": "Barril que rueda",
-    "body": "Un barril baja el muelle solo y nadie le ha dado las gracias.",
+    "body": "Un barril baja solo por el muelle porque estaba mal asegurado.",
     "choices": {
       "A": "Bloquear las pendientes",
       "B": "Apilar de otra manera",
@@ -2467,7 +2467,7 @@
   },
   "nw_275": {
     "title": "Noche sin ronda",
-    "body": "La ronda nocturna a veces se olvida sola.",
+    "body": "A veces se olvida la ronda nocturna.",
     "choices": {
       "A": "Doblar la ronda",
       "B": "Pagar una prima nocturna",
@@ -2494,7 +2494,7 @@
   },
   "nw_278": {
     "title": "Puerta entreabierta",
-    "body": "La puerta del depósito suele quedarse entreabierta por costumbre o pereza.",
+    "body": "La puerta del almacén suele quedar entreabierta por costumbre o por descuido.",
     "choices": {
       "A": "Cambiar la cerradura",
       "B": "Poner un vigilante",
@@ -2530,7 +2530,7 @@
   },
   "nw_282": {
     "title": "Mulo cansado",
-    "body": "El mulo del depósito ya solo avanza con elogios.",
+    "body": "La mula del almacén casi ya no avanza.",
     "choices": {
       "A": "Reemplazarlo",
       "B": "Aligerarlo",
@@ -2539,7 +2539,7 @@
   },
   "nw_283": {
     "title": "Rueda tambaleante",
-    "body": "Una rueda tambaleante da al carro el estilo de un bailarín triste.",
+    "body": "Una rueda inestable hace tambalear todo el carro.",
     "choices": {
       "A": "Cambiarla",
       "B": "Repararla en la aldea",
@@ -2710,7 +2710,7 @@
   },
   "nw_302": {
     "title": "Lluvia sobre los registros",
-    "body": "Los papeles de la oficina beben la lluvia con demasiado entusiasmo.",
+    "body": "Los papeles de la oficina se mojan con la lluvia y se estropean.",
     "choices": {
       "A": "Copiar en seco",
       "B": "Mover la oficina",
@@ -2719,7 +2719,7 @@
   },
   "nw_303": {
     "title": "Cala tranquila",
-    "body": "Una cala tranquila podría servir mejor de lo que duerme.",
+    "body": "Una cala tranquila podría servir como pequeño muelle o refugio.",
     "choices": {
       "A": "Hacer allí un pequeño muelle",
       "B": "Mantenerla militar",
@@ -2764,7 +2764,7 @@
   },
   "nw_308": {
     "title": "Ventana de la oficina",
-    "body": "A la oficina le falta aire y a las cuentas también.",
+    "body": "En la oficina falta aire y los escribas trabajan mal allí.",
     "choices": {
       "A": "Agrandarla",
       "B": "Abrirla por la mañana",
@@ -2773,7 +2773,7 @@
   },
   "nw_309": {
     "title": "Árbol inclinado",
-    "body": "Un árbol del muelle se inclina como si lo escuchara todo.",
+    "body": "Un árbol del muelle se inclina peligrosamente sobre el paso.",
     "choices": {
       "A": "Cortarlo",
       "B": "Sostenerlo",
@@ -2800,7 +2800,7 @@
   },
   "nw_312": {
     "title": "Roca útil",
-    "body": "Una gran roca en la orilla parece querer trabajar para nosotros.",
+    "body": "Una gran roca junto al agua podría acondicionarse.",
     "choices": {
       "A": "Tallarle escalones",
       "B": "Poner un puesto encima",
@@ -2863,7 +2863,7 @@
   },
   "nw_319": {
     "title": "Barca que hace agua",
-    "body": "Una barca hace agua con una regularidad ejemplar.",
+    "body": "Una barca hace agua casi cada vez que sale.",
     "choices": {
       "A": "Repararla",
       "B": "Revenderla",
@@ -3025,7 +3025,7 @@
   },
   "nw_337": {
     "title": "Cuerda roja",
-    "body": "Una cuerda teñida de rojo atrae más miradas que brazos.",
+    "body": "Una cuerda teñida de rojo se ve desde lejos, pero no es más útil.",
     "choices": {
       "A": "Guardarla para el muelle",
       "B": "Venderla",
@@ -3115,7 +3115,7 @@
   },
   "nw_347": {
     "title": "Mercado cubierto",
-    "body": "El mercado sueña con un techo desde hace muchas lunas húmedas.",
+    "body": "El mercado necesita un techo desde hace mucho tiempo.",
     "choices": {
       "A": "Construirlo",
       "B": "Empezar pequeño",
@@ -3187,7 +3187,7 @@
   },
   "nw_355": {
     "title": "Puerta estrecha",
-    "body": "La pequeña puerta del depósito detesta las cajas grandes.",
+    "body": "La pequeña puerta del depósito deja pasar mal las cajas grandes.",
     "choices": {
       "A": "Abrirla más",
       "B": "Hacer pasar por orden",
@@ -3241,7 +3241,7 @@
   },
   "nw_361": {
     "title": "Linterna azul",
-    "body": "Una linterna azul ilumina mejor que toda nuestra seriedad.",
+    "body": "Una linterna azul alumbra mejor que nuestras linternas actuales.",
     "choices": {
       "A": "Adoptarla en el muelle",
       "B": "Venderla como curiosidad",
@@ -3295,7 +3295,7 @@
   },
   "nw_367": {
     "title": "Piedra lisa",
-    "body": "Una piedra pulida resbala poco y cuesta aún menos que una caída.",
+    "body": "Una piedra pulida resbala poco y cuesta menos que una lesión.",
     "choices": {
       "A": "Pavimentar la entrada",
       "B": "Venderla en bloques",
@@ -3358,7 +3358,7 @@
   },
   "nw_374": {
     "title": "Paquete frágil",
-    "body": "El paquete casi tiembla solo cuando se le mira.",
+    "body": "El paquete parece tan frágil que apenas nos atrevemos a moverlo.",
     "choices": {
       "A": "Llevarlo a mano",
       "B": "Guardarlo en el fuerte",
@@ -3394,7 +3394,7 @@
   },
   "nw_378": {
     "title": "Sábanas del campamento",
-    "body": "Las sábanas del campamento tienen el color del cansancio.",
+    "body": "Las sábanas del campamento están gastadas y sucias.",
     "choices": {
       "A": "Cambiarlas",
       "B": "Lavarlas en la aldea",
@@ -3403,7 +3403,7 @@
   },
   "nw_379": {
     "title": "Sello real",
-    "body": "El gran sello da peso a los papeles y tiempo a las filas.",
+    "body": "El gran sello real vuelve más importantes los documentos oficiales, pero ralentiza todas las filas.",
     "choices": {
       "A": "Sellarlo todo",
       "B": "Sellar solo los contratos",
@@ -3430,7 +3430,7 @@
   },
   "nw_382": {
     "title": "Escriba rápido",
-    "body": "Un escriba copia tan rápido que bien se le podría encontrar otro paquete.",
+    "body": "Un escriba copia tan rápido que podríamos darle más trabajo.",
     "choices": {
       "A": "Darle más trabajo",
       "B": "Buscarle un ayudante",
@@ -3448,7 +3448,7 @@
   },
   "nw_384": {
     "title": "Barril dulce",
-    "body": "Un barril muy dulce atrae las lenguas y las ideas.",
+    "body": "Un barril muy dulce atrae a curiosos y ladrones.",
     "choices": {
       "A": "Venderlo",
       "B": "Servirlo en la mesa",
@@ -3466,7 +3466,7 @@
   },
   "nw_386": {
     "title": "Terreno llano",
-    "body": "Un terreno bien llano hace soñar con almacenes y mercados.",
+    "body": "Un terreno bien llano sería ideal para un almacén o un mercado.",
     "choices": {
       "A": "Hacer allí un depósito",
       "B": "Celebrar allí mercado",
@@ -3484,7 +3484,7 @@
   },
   "nw_388": {
     "title": "Guardia empapado",
-    "body": "El guardia de la puerta parece una esponja armada.",
+    "body": "El guardia de la puerta está empapado de pies a cabeza.",
     "choices": {
       "A": "Darle una capa",
       "B": "Cambiar el puesto",
@@ -3502,7 +3502,7 @@
   },
   "nw_390": {
     "title": "Mercado de la mañana",
-    "body": "El mercado quiere abrir antes que el sol de la oficina.",
+    "body": "El mercado quiere abrir antes que la oficina.",
     "choices": {
       "A": "Abrir más temprano",
       "B": "Probar un día",

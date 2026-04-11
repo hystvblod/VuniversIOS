@@ -3,7 +3,7 @@
   "events": {
     "new_world_explorer_ev_001": {
       "title": "Favorable Map",
-      "body": "A navigator returns with a clear map. Suddenly the coast seems smaller.",
+      "body": "A navigator returns with a clear map. The coast becomes easier to control.",
       "effect": "Territories: +5 per card",
       "duration": "Duration: 5 cards"
     },
@@ -81,13 +81,13 @@
     },
     "new_world_explorer_ev_014": {
       "title": "Island Market",
-      "body": "Merchants from the islands fill the port with rare goods and ideas of profit.",
+      "body": "Merchants from the islands fill the port with rare goods and new profit opportunities.",
       "effect": "Wealth: +5 per card",
       "duration": "Duration: 6 cards"
     },
     "new_world_explorer_ev_015": {
       "title": "Forward Fort",
-      "body": "A small fort rises on well-chosen ground. The shoreline suddenly feels wider.",
+      "body": "A small fort rises in a well-chosen place. The coast becomes easier to defend.",
       "effect": "Territories: +5 per card",
       "duration": "Duration: 3 cards"
     },
@@ -105,7 +105,7 @@
     },
     "new_world_explorer_ev_018": {
       "title": "Storm over the Holds",
-      "body": "A stretch of rain damages the stock. The port smells of wet wood and clear loss.",
+      "body": "A series of rains damages the stock. Part of the goods is lost.",
       "effect": "Wealth: -5 per card",
       "duration": "Duration: 7 cards"
     },
@@ -165,7 +165,7 @@
     },
     "new_world_explorer_ev_028": {
       "title": "Displeased Envoy",
-      "body": "A royal envoy leaves with a closed face and a very full notebook. Nothing good likes to cross the sea like that.",
+      "body": "A royal envoy leaves with a closed face and a very full notebook. His report may harm us at court.",
       "effect": "Royal Support: -5 per card",
       "duration": "Duration: 6 cards"
     },

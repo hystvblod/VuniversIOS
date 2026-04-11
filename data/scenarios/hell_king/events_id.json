@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "hell_king_ev_001": {
@@ -15,14 +15,14 @@
     },
     "hell_king_ev_003": {
       "title": "Pasar Jiwa",
-      "body": "Lelang semakin naik. Para juru tulis mencatat setiap helaan napas.",
+      "body": "Tawarannya terus naik. Para juru tulis mencatat setiap penawaran dan setiap keluhan.",
       "effect": "Keteraturan : -5 per kartu",
       "duration": "Durasi : 4 kartu"
     },
     "hell_king_ev_004": {
-      "title": "Pesta di Permukaan",
+      "title": "Pesta di dunia manusia",
       "body": "Malam yang terlalu bising di atas sana. Dampaknya cepat turun ke bawah.",
-      "effect": "Permukaan : +5 per kartu",
+      "effect": "Dunia manusia: +5 per kartu",
       "duration": "Durasi : 5 kartu"
     },
     "hell_king_ev_005": {
@@ -37,7 +37,6 @@
       "effect": "Keteraturan : +5 per kartu",
       "duration": "Durasi : 4 kartu"
     },
-
     "hell_king_ev_007": {
       "title": "Perjanjian Menguntungkan",
       "body": "Sebuah perjanjian membawa banyak keuntungan. Tapi semua orang ingin bagiannya.",
@@ -46,8 +45,8 @@
     },
     "hell_king_ev_008": {
       "title": "Rumor di Atas",
-      "body": "Sebuah rumor beredar di permukaan. Kamu sudah bisa merasakan gelombangnya.",
-      "effect": "Permukaan : -5 per kartu",
+      "body": "Sebuah rumor beredar di dunia manusia. Kamu sudah bisa merasakan gelombangnya.",
+      "effect": "Dunia manusia: -5 per kartu",
       "duration": "Durasi : 5 kartu"
     },
     "hell_king_ev_009": {
@@ -62,17 +61,16 @@
       "effect": "Legiun : +5 per kartu",
       "duration": "Durasi : 6 kartu"
     },
-
     "hell_king_ev_011": {
       "title": "Bonus Panen",
       "body": "Panen jiwa yang tak terduga. Tentu saja kamu ambil.",
-      "effect": "Permukaan : -5 per kartu",
+      "effect": "Dunia manusia: -5 per kartu",
       "duration": "Durasi : 3 kartu"
     },
     "hell_king_ev_012": {
       "title": "Karnaval Terlarang",
       "body": "Sebuah karnaval dadakan. Tawa naik, keteraturan turun.",
-      "effect": "Permukaan : +5 per kartu",
+      "effect": "Dunia manusia: +5 per kartu",
       "duration": "Durasi : 7 kartu"
     },
     "hell_king_ev_013": {
@@ -102,7 +100,7 @@
     "hell_king_ev_017": {
       "title": "Kerusuhan Kecil",
       "body": "Sebuah kerusuhan kecil. Tidak serius... kecuali kalau itu berlangsung lama.",
-      "effect": "Permukaan : +5 per kartu",
+      "effect": "Dunia manusia: +5 per kartu",
       "duration": "Durasi : 4 kartu"
     },
     "hell_king_ev_018": {
@@ -123,16 +121,15 @@
       "effect": "Jiwa : -5 per kartu",
       "duration": "Durasi : 6 kartu"
     },
-
     "hell_king_ev_021": {
       "title": "Aturan Hari Ini",
       "body": "Aturan baru. Tidak ada yang menyukainya, jadi itu berhasil.",
-      "effect": "Permukaan : -5 per kartu",
+      "effect": "Dunia manusia: -5 per kartu",
       "duration": "Durasi : 5 kartu"
     },
     "hell_king_ev_022": {
       "title": "Kehabisan Stok",
-      "body": "Ada sesuatu yang habis. Tidak ada yang tahu apa, tapi semua panik.",
+      "body": "Kekurangan persediaan memaksa barak untuk cepat berbenah, dan penataan ulang itu justru memperkuat legiun.",
       "effect": "Legiun : +5 per kartu",
       "duration": "Durasi : 7 kartu"
     },
@@ -167,9 +164,9 @@
       "duration": "Durasi : 4 kartu"
     },
     "hell_king_ev_028": {
-      "title": "Panik di Permukaan",
+      "title": "Panik di dunia manusia",
       "body": "Di atas sana, semua panik. Di bawah, kamulah yang menanggungnya.",
-      "effect": "Permukaan : -5 per kartu",
+      "effect": "Dunia manusia: -5 per kartu",
       "duration": "Durasi : 6 kartu"
     },
     "hell_king_ev_029": {

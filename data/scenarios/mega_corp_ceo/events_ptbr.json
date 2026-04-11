@@ -1,15 +1,15 @@
-﻿{
+{
   "version": 1,
   "events": {
     "mega_corp_ceo_ev_001": {
       "title": "Nota dos analistas",
-      "body": "Um grande banco publica uma nota muito positiva. Os gráficos sobem e os fundos sorriem.",
+      "body": "Um grande banco publica uma análise muito positiva. A ação sobe e os investidores ficam mais tranquilos.",
       "effect": "Investidores: +5 por carta",
       "duration": "Duração: 5 cartas"
     },
     "mega_corp_ceo_ev_002": {
       "title": "Semana das equipes",
-      "body": "Os gestores agradecem publicamente às equipes. O clima finalmente ganha um pouco de ar.",
+      "body": "Os gestores agradecem publicamente às equipes. O clima finalmente melhora um pouco.",
       "effect": "Funcionários: +5 por carta",
       "duration": "Duração: 6 cartas"
     },
@@ -57,13 +57,13 @@
     },
     "mega_corp_ceo_ev_010": {
       "title": "Bônus de equipe",
-      "body": "Um gesto concreto chega na hora certa. Os corredores respiram um pouco melhor.",
+      "body": "Um bônus ou outra vantagem concreta chega na hora certa. O clima melhora um pouco.",
       "effect": "Funcionários: +5 por carta",
       "duration": "Duração: 6 cartas"
     },
     "mega_corp_ceo_ev_011": {
       "title": "Artigo duro",
-      "body": "Um veículo publica um retrato frio do seu grupo. A frase machuca e, por isso, circula por toda parte.",
+      "body": "Um veículo publica um retrato muito duro do seu grupo. A frase mais pesada é repetida por toda parte.",
       "effect": "Imagem da marca: -5 por carta",
       "duration": "Duração: 3 cartas"
     },
@@ -81,13 +81,13 @@
     },
     "mega_corp_ceo_ev_014": {
       "title": "Ferramenta interna fluida",
-      "body": "Uma nova ferramenta finalmente simplifica o trabalho do dia a dia. Ninguém aplaude, mas todo mundo suspira.",
+      "body": "Uma nova ferramenta finalmente facilita o trabalho diário. Ninguém aplaude, mas todos ficam aliviados.",
       "effect": "Funcionários: +5 por carta",
       "duration": "Duração: 6 cartas"
     },
     "mega_corp_ceo_ev_015": {
       "title": "Contrato gigante",
-      "body": "Um contrato muito grande cai no seu colo. Os acionistas adoram assinaturas com muitos zeros.",
+      "body": "Finalmente chega um contrato muito grande. Os acionistas adoram contratos com muitos zeros.",
       "effect": "Investidores: +5 por carta",
       "duration": "Duração: 3 cartas"
     },

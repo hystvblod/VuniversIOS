@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "west_president_ev_001": {
@@ -9,13 +9,13 @@
     },
     "west_president_ev_002": {
       "title": "Kepercayaan pasar",
-      "body": "Para investor kembali dengan grafik yang menenangkan dan senyum yang sedikit terlalu putih. Perekonomian jelas menyukai arah yang kamu ambil.",
+      "body": "Para investor kembali dengan indikator yang meyakinkan. Perekonomian tampaknya mulai percaya lagi pada arah kepemimpinanmu.",
       "effect": "Ekonomi: +5 per kartu",
       "duration": "Durasi: 6 kartu"
     },
     "west_president_ev_003": {
       "title": "Latihan keamanan nasional",
-      "body": "Pasukan negara menjalankan manuver dengan keseriusan yang sempurna. Untuk sekali ini, bahkan seragam pun terlihat senang.",
+      "body": "Pasukan negara menjalankan latihan dengan disiplin tinggi. Organisasi yang rapi akhirnya membuat semua orang lebih tenang.",
       "effect": "Pertahanan: +5 per kartu",
       "duration": "Durasi: 4 kartu"
     },
@@ -27,7 +27,7 @@
     },
     "west_president_ev_005": {
       "title": "Kelelahan opini publik",
-      "body": "Publik mengeluh lebih cepat dari biasanya. Setiap pengumuman memicu angkat bahu secara nasional. Itu pertanda buruk.",
+      "body": "Publik lebih cepat lelah dari biasanya. Setiap pengumuman terutama menimbulkan sikap acuh tak acuh. Ini pertanda buruk.",
       "effect": "Opini publik: -5 per kartu",
       "duration": "Durasi: 6 kartu"
     },
@@ -45,7 +45,7 @@
     },
     "west_president_ev_008": {
       "title": "Dingin diplomatik",
-      "body": "Para mitra merespons dengan lambat, senyum semakin singkat, dan pernyataan resmi mulai terasa sedikit menyengat.",
+      "body": "Para mitra merespons lebih lambat dari biasanya, sambutannya lebih dingin, dan pernyataan resmi menjadi lebih tegang.",
       "effect": "Diplomasi: -5 per kartu",
       "duration": "Durasi: 5 kartu"
     },
@@ -81,7 +81,7 @@
     },
     "west_president_ev_014": {
       "title": "Mogok logistik",
-      "body": "Arus melambat, biaya naik, dan setiap gudang tiba-tiba menjadi isu nasional. Perekonomian membenci drama semacam ini.",
+      "body": "Arus melambat, biaya naik, dan setiap gudang tiba-tiba menjadi isu nasional. Krisis logistik ini sangat mengkhawatirkan perekonomian.",
       "effect": "Ekonomi: -5 per kartu",
       "duration": "Durasi: 6 kartu"
     },
@@ -111,7 +111,7 @@
     },
     "west_president_ev_019": {
       "title": "Doktrin diperjelas",
-      "body": "Militer, dinas, dan staf umum akhirnya tahu jalur mana yang harus diikuti. Konsistensi tetap diremehkan dalam politik.",
+      "body": "Militer, dinas-dinas terkait, dan staf komando akhirnya tahu arah yang harus diikuti. Semua bergerak ke arah yang sama.",
       "effect": "Pertahanan: +5 per kartu",
       "duration": "Durasi: 3 kartu"
     },
@@ -129,13 +129,13 @@
     },
     "west_president_ev_022": {
       "title": "Macetnya kepercayaan ekonomi",
-      "body": "Proyek melambat, perekrutan ragu-ragu, dan perkiraan terlihat seperti alasan yang berpakaian rapi.",
+      "body": "Proyek melambat, perekrutan ragu-ragu, dan perkiraan ekonomi sudah tidak menenangkan siapa pun lagi.",
       "effect": "Ekonomi: -5 per kartu",
       "duration": "Durasi: 7 kartu"
     },
     "west_president_ev_023": {
       "title": "Kebocoran dalam prosedur",
-      "body": "Sebuah dokumen beredar, sebuah metode dibahas langsung, dan tiba-tiba keamanan nasional terlihat terlalu banyak bicara.",
+      "body": "Sebuah dokumen sensitif beredar, prosedur internal dibahas secara terbuka, dan keamanan nasional tiba-tiba terlihat sangat kurang terlindungi.",
       "effect": "Pertahanan: -5 per kartu",
       "duration": "Durasi: 4 kartu"
     },

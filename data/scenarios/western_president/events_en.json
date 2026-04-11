@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "west_president_ev_001": {
@@ -9,13 +9,13 @@
     },
     "west_president_ev_002": {
       "title": "Market Confidence",
-      "body": "Investors are coming back with their reassuring charts and their slightly too-white smiles. The economy clearly likes your direction.",
+      "body": "Investors are coming back with reassuring indicators. The economy seems to be regaining confidence in your leadership.",
       "effect": "Economy: +5 per card",
       "duration": "Duration: 6 cards"
     },
     "west_president_ev_003": {
       "title": "National Security Exercise",
-      "body": "The nation's forces are carrying out maneuvers with flawless seriousness. For once, even the uniforms seem happy.",
+      "body": "The country’s forces are carrying out exercises with strong discipline. The organization is finally reassuring everyone.",
       "effect": "Defense: +5 per card",
       "duration": "Duration: 4 cards"
     },
@@ -27,7 +27,7 @@
     },
     "west_president_ev_005": {
       "title": "Opinion Fatigue",
-      "body": "The public is sighing faster than usual. Every announcement triggers a nationwide shrug. That is a bad sign.",
+      "body": "The public is getting tired faster than usual. Each announcement mostly triggers indifference. That is a bad sign.",
       "effect": "Public Opinion: -5 per card",
       "duration": "Duration: 6 cards"
     },
@@ -45,7 +45,7 @@
     },
     "west_president_ev_008": {
       "title": "Diplomatic Chill",
-      "body": "Partners are responding slowly, smiles are shorter, and official statements are starting to sting a little.",
+      "body": "Partners are responding more slowly than usual, the welcome is colder, and official statements are becoming more tense.",
       "effect": "Diplomacy: -5 per card",
       "duration": "Duration: 5 cards"
     },
@@ -81,7 +81,7 @@
     },
     "west_president_ev_014": {
       "title": "Logistics Strike",
-      "body": "Flows are slowing down, costs are rising, and every warehouse suddenly becomes a national issue. The economy hates this kind of theater.",
+      "body": "Flows are slowing down, costs are rising, and every warehouse suddenly becomes a national issue. This logistics crisis is seriously worrying the economy.",
       "effect": "Economy: -5 per card",
       "duration": "Duration: 6 cards"
     },
@@ -111,7 +111,7 @@
     },
     "west_president_ev_019": {
       "title": "Doctrine Clarified",
-      "body": "The army, the services, and the general staff finally know what line to follow. Consistency remains underrated in politics.",
+      "body": "The army, the services, and the general staff finally know which line to follow. Everyone is moving in the same direction.",
       "effect": "Defense: +5 per card",
       "duration": "Duration: 3 cards"
     },
@@ -129,13 +129,13 @@
     },
     "west_president_ev_022": {
       "title": "Economic Confidence Breakdown",
-      "body": "Projects are slowing, hiring is hesitating, and forecasts look like well-dressed excuses.",
+      "body": "Projects are slowing, hiring is hesitating, and economic forecasts are no longer reassuring anyone.",
       "effect": "Economy: -5 per card",
       "duration": "Duration: 7 cards"
     },
     "west_president_ev_023": {
       "title": "Leak in the Procedures",
-      "body": "A document is circulating, a method is being commented on live, and suddenly national security sounds very talkative.",
+      "body": "A sensitive document is circulating, an internal procedure is being discussed publicly, and national security suddenly looks badly protected.",
       "effect": "Defense: -5 per card",
       "duration": "Duration: 4 cards"
     },

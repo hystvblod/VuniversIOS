@@ -21,7 +21,7 @@
     "title": "Kebocoran data",
     "body": "Sebuah server salah dikonfigurasi: data pelanggan terekspos.",
     "choices": {
-      "A": "Segera memberi tahu.",
+      "A": "Segera memberi tahu pelanggan yang terdampak.",
       "B": "Tunggu sampai dampak pastinya benar-benar dikonfirmasi sebelum bicara.",
       "C": "Kecilkan secara publik dan tangani secara internal."
     }
@@ -45,12 +45,12 @@
     }
   },
   "mcc_006": {
-    "title": "Kerja jarak jauh di ambang bentrok",
-    "body": "Para manajer ingin semua kembali ke kantor. Tim mengancam pergi jika kamu memaksakan terlalu jauh.",
+    "title": "Kerja jarak jauh: konflik di depan mata",
+    "body": "Para manajer ingin semua kembali ke kantor. Tim mengancam akan pergi jika kamu mewajibkan terlalu banyak hari kerja di kantor.",
     "choices": {
       "A": "Model hibrida yang fleksibel, per tim.",
       "B": "Wajib kembali 4 hari per minggu.",
-      "C": "Hampir full remote + kantor bersama."
+      "C": "Kerja jarak jauh hampir penuh dengan kantor bersama."
     }
   },
   "mcc_007": {
@@ -58,7 +58,7 @@
     "body": "Keluhan pelanggan meledak untuk produk andalan. Tim kualitas menuntut penghentian lini produksi.",
     "choices": {
       "A": "Hentikan produksi dan perbaiki sebelum diluncurkan lagi.",
-      "B": "Lanjutkan dan benahi sambil berjalan.",
+      "B": "Tetap lanjutkan produksi dan perbaiki masalah satu per satu saat muncul.",
       "C": "Luncurkan penukaran gratis dan perkuat kontrol tanpa berhenti."
     }
   },
@@ -73,11 +73,11 @@
   },
   "mcc_009": {
     "title": "Rumor upaya akuisisi",
-    "body": "Rumor akuisisi paksa membuat saham melonjak. Investor senang. Karyawan panik.",
+    "body": "Rumor soal pengambilalihan paksa membuat harga saham naik. Investor senang. Karyawan panik.",
     "choices": {
       "A": "Bertahan: beli kembali saham dan buat rencana anti-akuisisi.",
-      "B": "Negosiasikan merger ramah secara diam-diam.",
-      "C": "Abaikan secara publik dan lanjutkan seolah tak terjadi apa-apa."
+      "B": "Bernegosiasi diam-diam untuk mendekatkan diri dengan perusahaan lain.",
+      "C": "Jangan bicara apa pun di depan umum dan lanjutkan seperti biasa."
     }
   },
   "mcc_010": {
@@ -90,10 +90,10 @@
     }
   },
   "mcc_011": {
-    "title": "Hadiah beracun",
-    "body": "Seorang klien besar menawarkan kontrak raksasa… dengan penalti sangat besar jika kamu melewati tenggat.",
+    "title": "Kontrak berisiko",
+    "body": "Seorang klien besar menawarkan kontrak sangat besar, dengan denda sangat berat jika kamu melewati tenggat waktu.",
     "choices": {
-      "A": "Tanda tangan: target ambisius, semua turun tangan.",
+      "A": "Tanda tangani dan kerahkan semua tim.",
       "B": "Tolak: terlalu berbahaya.",
       "C": "Tanda tangan tapi negosiasikan klausul dan sebarkan jadwal."
     }
@@ -108,12 +108,12 @@
     }
   },
   "mcc_013": {
-    "title": "Tuduhan ekologi pencitraan",
-    "body": "Laporan berkelanjutan terakhirmu diserang: kata-kata indah, bukti sedikit.",
+    "title": "Tuduhan janji ramah lingkungan palsu",
+    "body": "Laporan lingkungan terakhirmu diserang: banyak janji, sedikit bukti.",
     "choices": {
       "A": "Publikasikan angka mentah dan terima kritik.",
-      "B": "Luncurkan kampanye iklan untuk mengalihkan perhatian.",
-      "C": "Minta audit independen dan perbarui laporan."
+      "B": "Meluncurkan kampanye iklan untuk mengalihkan perhatian.",
+      "C": "Meminta audit independen dan memperbarui laporan."
     }
   },
   "mcc_014": {
@@ -135,12 +135,12 @@
     }
   },
   "mcc_016": {
-    "title": "Kepergian talenta kunci",
+    "title": "Kepergian eksekutif penting",
     "body": "Pimpinan teknologi mengumumkan kepergiannya. Tim panik. Investor mengawasi.",
     "choices": {
       "A": "Tawarkan kontra tawaran yang sangat besar.",
       "B": "Hormati keputusannya dan promosikan talenta internal.",
-      "C": "Datangkan bintang eksternal yang mahal."
+      "C": "Mendatangkan nama besar dari luar, sangat mahal."
     }
   },
   "mcc_017": {
@@ -154,9 +154,9 @@
   },
   "mcc_018": {
     "title": "Program pelatihan",
-    "body": "HR meminta anggaran besar untuk melatih semua orang. Direktur keuangan meringis.",
+    "body": "HR meminta anggaran besar untuk melatih semua orang. Direktur keuangan belum yakin.",
     "choices": {
-      "A": "Setujui: peningkatan keterampilan secara umum.",
+      "A": "Setujui: latih tim secara luas.",
       "B": "Tolak: pelatihan terarah seminimal mungkin.",
       "C": "Biayai setengah, sisanya lewat belajar mandiri yang dibimbing."
     }
@@ -365,7 +365,7 @@
     "choices": {
       "A": "Permudah besar-besaran: retur gratis dan mudah.",
       "B": "Perketat: kontrol dan biaya retur.",
-      "C": "Permudah tapi dengan batas cerdas, ambang, dan riwayat."
+      "C": "Sederhanakan, tapi dengan batas yang jelas berdasarkan penyalahgunaan sebelumnya."
     }
   },
   "mcc_042": {
@@ -552,7 +552,7 @@
     "title": "Tim iklan lepas kendali",
     "body": "Tim iklan ingin slogan agresif: Kami menghancurkan pesaing. Tim hukum menghela napas.",
     "choices": {
-      "A": "Setujui: perang psikologis.",
+      "A": "Setujui: pertahankan slogan yang agresif.",
       "B": "Tolak: nada tenang dan dapat dipercaya.",
       "C": "Pertahankan energinya tapi ganti kalimatnya."
     }
@@ -1081,11 +1081,11 @@
   },
   "mcc_121": {
     "title": "Magang jenius",
-    "body": "Seorang magang mengotomatiskan tugas yang sebelumnya dikerjakan 12 orang secara manual. Tepuk tangan… dan kekhawatiran.",
+    "body": "Seorang magang mengotomatiskan tugas yang sebelumnya dikerjakan 12 orang secara manual. Semua orang bertepuk tangan, lalu mulai khawatir.",
     "choices": {
-      "A": "Beri penghargaan dan alihkan tugas ke sesuatu yang lebih baik.",
+      "A": "Beri penghargaan pada magang itu dan alihkan tim ke tugas yang lebih berguna.",
       "B": "Sembunyikan proyek: terlalu sensitif.",
-      "C": "Terapkan bertahap dengan rencana peningkatan keterampilan."
+      "C": "Terapkan bertahap dengan rencana pelatihan."
     }
   },
   "mcc_122": {
@@ -1432,7 +1432,7 @@
   },
   "mcc_160": {
     "title": "Kebocoran anggaran publik",
-    "body": "Dokumen internal tentang penghematan yang direncanakan bocor. Karyawan melihatnya sebagai ancaman.",
+    "body": "Sebuah dokumen internal tentang penghematan yang direncanakan bocor. Karyawan melihatnya sebagai ancaman.",
     "choices": {
       "A": "Jelaskan dengan jelas + lindungi pekerjaan sebisa mungkin.",
       "B": "Tetap diam dan tunggu reda.",
@@ -1749,7 +1749,7 @@
     "title": "Mata uang dan kurs",
     "body": "Nilai tukar bergerak tajam. Keuntungan internasionalmu jadi tak terduga.",
     "choices": {
-      "A": "Lindungi risikonya, hedging, dan stabilkan.",
+      "A": "Lindungi risiko nilai tukar agar hasil tetap stabil.",
       "B": "Terima volatilitasnya.",
       "C": "Kurangi paparan dengan lebih banyak pelokalan."
     }
@@ -1792,7 +1792,7 @@
   },
   "mcc_200": {
     "title": "Rencana ketahanan",
-    "body": "Kamu diminta membuat rencana ketahanan, krisis, energi, pasokan. Panjang, tapi menenangkan.",
+    "body": "Kamu diminta menyiapkan rencana ketahanan untuk krisis, energi, dan pasokan. Ini memakan waktu, tetapi menenangkan semua pihak.",
     "choices": {
       "A": "Bangun rencana lengkap dengan berbagai skenario.",
       "B": "Buat rencana minimal sekadar formalitas.",
@@ -2021,7 +2021,7 @@
     "choices": {
       "A": "Luncurkan rencana kesejahteraan dan perbaikan.",
       "B": "Lakukan operasi komunikasi untuk cepat naik.",
-      "C": "Gugat barometernya, secara publik, soal metodenya."
+      "C": "Mempertanyakan metode barometer itu secara terbuka."
     }
   },
   "mcc_226": {
@@ -2219,7 +2219,7 @@
     "choices": {
       "A": "Tunjukkan kontribusimu: pekerjaan, inovasi, harga.",
       "B": "Abaikan dan teruskan saja.",
-      "C": "Umumkan komitmen pro-persaingan: API, kemitraan."
+      "C": "Mengumumkan komitmen nyata untuk memberi lebih banyak ruang bagi persaingan."
     }
   },
   "mcc_248": {
@@ -2340,7 +2340,7 @@
     }
   },
   "mcc_261": {
-    "title": "Debat soal iklan yang terlalu",
+    "title": "Perdebatan soal iklan yang mengganggu",
     "body": "Sebuah rancangan undang-undang menargetkan iklan yang terlalu mengganggu. Tim iklanmu bertanya apakah pop-up yang berteriak termasuk.",
     "choices": {
       "A": "Beralih ke iklan yang lebih lembut dan lebih jelas.",
@@ -2417,7 +2417,7 @@
     "choices": {
       "A": "Luncurkan program magang kerja besar-besaran.",
       "B": "Lakukan minimum saja.",
-      "C": "Latih lebih sedikit anak muda, tapi lebih baik."
+      "C": "Melatih lebih sedikit anak muda, tetapi mendampingi mereka dengan lebih baik."
     }
   },
   "mcc_270": {
@@ -2452,7 +2452,7 @@
     "body": "Kamu diminta menyimpan data secara lokal. Tim teknologi bilang iya, keuangan bilang aduh.",
     "choices": {
       "A": "Lokalkan data sensitif dan audit sisanya.",
-      "B": "Biarkan semuanya global demi biaya dan performa.",
+      "B": "Tetap simpan semuanya di infrastruktur global untuk menekan biaya.",
       "C": "Hybridisasi: lokal + cloud multi-region."
     }
   },
@@ -2470,7 +2470,7 @@
     "body": "Seorang deputi ingin simulator untuk menjelaskan hargamu ke publik. Direktur keuanganmu meringis.",
     "choices": {
       "A": "Buat simulator edukatif yang sederhana.",
-      "B": "Tolak: terlalu mengekspos.",
+      "B": "Tolak: terlalu berisiko di depan publik.",
       "C": "Buat FAQ dengan 3 angka kunci."
     }
   },
@@ -2514,7 +2514,7 @@
     "title": "Debat soal perusahaan raksasa",
     "body": "Seorang politisi melontarkan: raksasa-raksasa itu harus dibongkar.",
     "choices": {
-      "A": "Usulkan komitmen pro-persaingan, kemitraan, API.",
+      "A": "Mengajukan komitmen nyata untuk memberi lebih banyak ruang bagi persaingan.",
       "B": "Abaikan: kebisingan politik.",
       "C": "Pisahkan secara sukarela satu aktivitas, sebagai simbol."
     }
@@ -2579,7 +2579,7 @@
     "choices": {
       "A": "Buka biaya pada satu lini, transparansi.",
       "B": "Serang pejabat itu: bohong.",
-      "C": "Publikasikan indikator sederhana, margin rata-rata, investasi."
+      "C": "Terbitkan indikator sederhana: margin rata-rata, biaya, investasi."
     }
   },
   "mcc_288": {
@@ -2633,7 +2633,7 @@
     "choices": {
       "A": "Tawarkan opsi lambat hijau sebagai default.",
       "B": "Lanjutkan pengiriman ultra cepat ke mana-mana.",
-      "C": "Investasi armada bersih, bertahap."
+      "C": "Berinvestasi secara bertahap dalam armada yang lebih bersih."
     }
   },
   "mcc_294": {
@@ -2777,7 +2777,7 @@
     "choices": {
       "A": "Bekerja sama sepenuhnya, rapi, dan teratur.",
       "B": "Melawan dan memberi minimum yang diwajibkan.",
-      "C": "Minta audit eksternal dan kirim berkas yang jelas."
+      "C": "Minta audit eksternal dan serahkan dokumen yang jelas."
     }
   },
   "mcc_310": {
@@ -2809,11 +2809,11 @@
   },
   "mcc_313": {
     "title": "Skandal badge pengunjung",
-    "body": "Seorang deputi marah di media sosial.",
+    "body": "Seorang deputi menulis di media sosial bahwa ia bisa masuk terlalu mudah dengan badge pengunjung. Masalah ini cepat membesar.",
     "choices": {
       "A": "Perkuat keamanan + minta maaf + koreksi publik.",
       "B": "Langsung ancam secara hukum.",
-      "C": "Undang media secara resmi, dengan kontrol, lalu jelaskan."
+      "C": "Undang media secara resmi, dengan cara yang terkendali, lalu jelaskan."
     }
   },
   "mcc_314": {
@@ -2926,7 +2926,7 @@
   },
   "mcc_326": {
     "title": "Keamanan data",
-    "body": "Setelah kebocoran besar di tempat lain, otoritas pengawas ingin jaminan.",
+    "body": "Setelah kebocoran yang sangat banyak diberitakan di perusahaan lain, otoritas pengawas meminta jaminan.",
     "choices": {
       "A": "Investasi besar + audit eksternal + transparansi.",
       "B": "Lakukan minimum legal.",
@@ -2997,12 +2997,12 @@
     }
   },
   "mcc_334": {
-    "title": "Debat soal moderasi",
-    "body": "Stan merekmu terlalu penuh. Itu memberi kesan berlebihan alih-alih kesan serius.",
+    "title": "Perdebatan soal kesederhanaan visual",
+    "body": "Stan merekmu terlalu ramai: terlalu banyak lampu, terlalu banyak slogan, terlalu banyak efek. Kesannya berlebihan, bukan serius.",
     "choices": {
-      "A": "Rencana moderasi nyata + langkah yang terlihat.",
-      "B": "Langkah simbolis selama 1 minggu.",
-      "C": "Tidak melakukan apa-apa: produktivitas dulu."
+      "A": "Benahi stan secara nyata dan sisakan hanya yang penting.",
+      "B": "Lakukan sedikit perbaikan visual selama seminggu, lalu kembali seperti semula.",
+      "C": "Jangan ubah apa pun: yang heboh lebih menarik perhatian."
     }
   },
   "mcc_335": {
@@ -3082,7 +3082,7 @@
     "body": "Undang-undang ingin melarang biaya kejutan. Produkmu punya biaya layanan kecil. Sangat kecil… buatmu.",
     "choices": {
       "A": "Hapus biaya tersembunyi, harga yang jelas.",
-      "B": "Pertahankan, dengan huruf yang lebih kecil, tidak.",
+      "B": "Tetap mempertahankan biaya tersembunyi dengan menulisnya lebih kecil.",
       "C": "Pertahankan tapi buat sangat terlihat sebelum pembayaran."
     }
   },
@@ -3164,7 +3164,7 @@
     "choices": {
       "A": "Tetap bekerja sama dengan serius meski ini absurd",
       "B": "Mengejek dan mengabaikan, ide buruk.",
-      "C": "Kirim berkas yang serius + tawarkan alas anti-selip."
+      "C": "Kirim dokumen serius dan minta arahan tertulis yang jelas."
     }
   },
   "mcc_353": {
@@ -3297,7 +3297,7 @@
     "title": "Undang-undang anti-jargon",
     "body": "Di rapat, semua orang berbicara dengan jargon perusahaan.",
     "choices": {
-      "A": "Tulis ulang semuanya dalam bahasa sederhana, bagus.",
+      "A": "Tulis ulang semuanya dengan bahasa sederhana.",
       "B": "Abaikan: itu budaya.",
       "C": "Pertahankan jargon… tapi tambahkan glosarium yang konyol."
     }
@@ -3344,7 +3344,7 @@
     "choices": {
       "A": "Ringankan: branding lebih halus.",
       "B": "Tolak: identitas itu penting.",
-      "C": "Biarkan tim memilih benda mana yang perlu dihilangkan logonya."
+      "C": "Biarkan tim memilih benda mana yang benar-benar perlu logo."
     }
   },
   "mcc_373": {
@@ -3375,7 +3375,7 @@
     }
   },
   "mcc_376": {
-    "title": "Hari tanpa AC saat puncak panas",
+    "title": "Hari tanpa AC di tengah gelombang panas",
     "body": "Kamu diminta mematikan AC demi memberi contoh. Suhu 38°C dan para karyawan menerimanya dengan sangat buruk.",
     "choices": {
       "A": "Penghematan cerdas: ambang batas, ventilasi, jam kerja yang disesuaikan.",
@@ -3477,7 +3477,7 @@
     "title": "Regulator minta jingle",
     "body": "Sebuah otoritas pengawas meminta jingle kepatuhan untuk meningkatkan kesadaran.",
     "choices": {
-      "A": "Buat jingle sederhana dan berguna, tidak norak.",
+      "A": "Buat jingle yang sederhana dan berguna, tanpa terdengar konyol.",
       "B": "Tolak: keseriusan lebih dulu.",
       "C": "Buat kampanye internal tanpa jingle, cukup pelatihan."
     }
@@ -3524,7 +3524,7 @@
     "choices": {
       "A": "Adakan sesi mencicipi dan tenangkan semua orang.",
       "B": "Larangan topik itu di tempat kerja.",
-      "C": "Biarkan: ini menyatukan, kan. Tidak juga."
+      "C": "Biarkan saja: mungkin lucu sebentar, tapi bisa cepat memecah suasana."
     }
   },
   "mcc_393": {
@@ -3540,7 +3540,7 @@
     "title": "Undang-undang anti-tombol hijau neon",
     "body": "Sebuah undang-undang ingin melarang tombol hijau neon yang terlalu menggoda.",
     "choices": {
-      "A": "Rombak desain yang tenang dan mudah diakses.",
+      "A": "Ubah desain agar lebih sederhana, mudah dibaca, dan mudah diakses.",
       "B": "Ganti satu tombol saja dan berharap.",
       "C": "Beralih ke biru neon, masalahnya tetap sama."
     }
@@ -3605,7 +3605,7 @@
     "choices": {
       "A": "Buat mode malam sungguhan yang sederhana + mudah diakses.",
       "B": "Pertahankan pink neon: itu ciri khas.",
-      "C": "Mode malam sederhana, tapi hanya untuk pelanggan berbayar, aduh."
+      "C": "Buat mode malam sederhana untuk semua, lalu simpan opsi lanjutan untuk pelanggan."
     }
   },
   "mcc_402": {
@@ -3736,7 +3736,7 @@
   },
   "mcc_416": {
     "title": "Dana solidaritas",
-    "body": "Seorang menteri meluncurkan dana untuk startup sedih.",
+    "body": "Seorang menteri meluncurkan dana untuk perusahaan muda yang sedang kesulitan.",
     "choices": {
       "A": "Tolak: tidak etis.",
       "B": "Coba saja: uang mudah.",
@@ -3771,7 +3771,7 @@
     }
   },
   "mcc_420": {
-    "title": "Minggu pujian untuk otoritas",
+    "title": "Pekan pujian untuk otoritas pengawas",
     "body": "Kamu disarankan mengirim pesan yang terlalu menjilat kepada otoritas pengawas. Pengacaramu langsung menolaknya.",
     "choices": {
       "A": "Tetap netral, cukup bekerja sama dengan baik.",
@@ -3843,12 +3843,12 @@
     }
   },
   "mcc_428": {
-    "title": "Deputi ingin tombol",
-    "body": "Tim produkmu bilang ini bisa dilakukan.",
+    "title": "Deputi ingin tombol kesejahteraan",
+    "body": "Seorang deputi mengusulkan tombol kesejahteraan di aplikasi untuk membantu pengguna beristirahat sejenak. Tim produkmu bilang ini bisa dilakukan.",
     "choices": {
       "A": "Tambahkan tombol kesejahteraan opsional.",
       "B": "Tolak: di luar topik.",
-      "C": "Pasang tombol… tapi malah membuka halaman pembayaran, tidak."
+      "C": "Pasang tombol itu... tapi gunakan untuk mendorong pengguna ke penawaran berbayar."
     }
   },
   "mcc_429": {
@@ -3888,12 +3888,12 @@
     }
   },
   "mcc_433": {
-    "title": "Rencana mikro-pendengaran",
-    "body": "Seorang menteri ingin mengurangi kebisingan di kota.",
+    "title": "Rencana sensor anti-bising",
+    "body": "Seorang menteri ingin memasang sensor untuk mengukur kebisingan kota. Kamu ditawari kontraknya, tetapi sensor seperti ini bisa membuat orang khawatir jika terlihat seperti mikrofon.",
     "choices": {
-      "A": "Tolak: terlalu sensitif.",
+      "A": "Tolak: terlalu sensitif untuk privasi.",
       "B": "Terima: kontrak publik besar.",
-      "C": "Terima tapi dengan anonimisasi dan transparansi total."
+      "C": "Terima hanya dengan sensor non-audio, anonimisasi, dan transparansi total."
     }
   },
   "mcc_434": {
@@ -3983,7 +3983,7 @@
     "choices": {
       "A": "Buat tutorial sederhana, berguna, inklusif.",
       "B": "Tolak: bukan peranmu.",
-      "C": "Buat tutorial tapi penuh jargon, jangan."
+      "C": "Membuat tutorial yang rumit dan penuh jargon."
     }
   },
   "mcc_444": {
@@ -4033,7 +4033,7 @@
   },
   "mcc_449": {
     "title": "Debat soal hak untuk mengeluh",
-    "body": "Sebuah partai mengusulkan hak resmi untuk mengeluh. Tim dukunganmu menerima 10.000 keluhan per hari. Apa yang berubah?",
+    "body": "Sebuah partai mengusulkan hak resmi untuk mengeluh. Tim dukunganmu sudah menerima 10.000 keluhan per hari. Apa yang benar-benar akan berubah?",
     "choices": {
       "A": "Perbaiki dukungan + buat saluran umpan balik yang jelas.",
       "B": "Abaikan: cuma kebisingan.",

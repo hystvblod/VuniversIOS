@@ -1,4 +1,4 @@
-﻿{
+{
   "vampire_001": {
     "title": "La sacca di sangue biologico",
     "body": "Una scorta di sangue scompare. Qualcuno ha fatto delle riserve senza autorizzazione.",
@@ -127,7 +127,7 @@
   },
   "vampire_015": {
     "title": "Il patto del quartiere",
-    "body": "Le gang locali vogliono un accordo. Protezione in cambio di discrezione.",
+    "body": "Le gang locali vogliono un accordo. Offrono il loro silenzio in cambio della tua protezione.",
     "choices": {
       "A": "Accettare e imporre regole",
       "B": "Rifiutare e spaventarle",
@@ -185,7 +185,7 @@
     "choices": {
       "A": "Addestrare il novizio",
       "B": "Nasconderlo al clan",
-      "C": "Nasconderlo in un rifugio segreto"
+      "C": "Affidarlo a un anziano perché lo addestri"
     }
   },
   "vampire_022": {
@@ -343,7 +343,7 @@
   },
   "vampire_039": {
     "title": "La pioggia benedetta",
-    "body": "Piove un’acqua che brucia un po’. Qualcuno benedice le nuvole, sì.",
+    "body": "Sta piovendo un’acqua che brucia la pelle. Qualcuno ha trovato il modo di benedire la pioggia.",
     "choices": {
       "A": "Trovare la fonte",
       "B": "Rintanarsi",
@@ -370,7 +370,7 @@
   },
   "vampire_042": {
     "title": "La biblioteca sigillata",
-    "body": "Una biblioteca vieta l’accesso a una sala. Il clan dice che di notte canta.",
+    "body": "Una biblioteca vieta l’accesso a una sala. Il clan dice che lì si sentono voci di notte.",
     "choices": {
       "A": "Forzare l’ingresso",
       "B": "Chiedere un permesso",
@@ -451,7 +451,7 @@
   },
   "vampire_051": {
     "title": "Il treno notturno",
-    "body": "Un treno notturno arriva vuoto. I sedili sono caldi. Molto caldi.",
+    "body": "Un treno notturno entra in stazione completamente vuoto. Eppure i sedili sono ancora caldi. Cacciatori?",
     "choices": {
       "A": "Salire a bordo",
       "B": "Avvisare il clan",
@@ -568,11 +568,11 @@
   },
   "vampire_064": {
     "title": "La cantina allagata",
-    "body": "La tua cantina segreta è allagata. Le bare galleggiano, atmosfera ridicola.",
+    "body": "La tua cantina segreta è allagata. Le bare galleggiano e la situazione sta diventando impossibile da nascondere.",
     "choices": {
       "A": "Salvare le riserve",
       "B": "Cambiare rifugio",
-      "C": "Trasformarla in un’attrazione segreta"
+      "C": "Trasformare la cantina in una trappola per i curiosi"
     }
   },
   "vampire_065": {
@@ -635,7 +635,7 @@
     "choices": {
       "A": "Rimuovere la foto",
       "B": "Negare con umorismo",
-      "C": "Dare la colpa a un filtro"
+      "C": "Dire che la foto è stata ritoccata"
     }
   },
   "vampire_072": {
@@ -721,7 +721,7 @@
   },
   "vampire_081": {
     "title": "Il nuovo simbolo",
-    "body": "Un simbolo sconosciuto appare sui tuoi muri. Né simbolo del clan né marchio noto. Qualcos’altro.",
+    "body": "Un simbolo sconosciuto appare sui tuoi muri. Non è né un segno del clan né un marchio conosciuto. Cacciatori?",
     "choices": {
       "A": "Indagare",
       "B": "Cancellare tutto",
@@ -901,7 +901,7 @@
   },
   "vampire_101": {
     "title": "Il mercato dell’antiquariato",
-    "body": "Il venditore dice che viene da una cantina. Certo. Le cantine hanno sempre buona fama.",
+    "body": "Il venditore sostiene che l’oggetto provenga da una vecchia cantina, ma la sua storia sembra inventata.",
     "choices": {
       "A": "Comprarlo discretamente",
       "B": "Rubarlo stanotte",
@@ -919,7 +919,7 @@
   },
   "vampire_103": {
     "title": "Il cameraman insonne",
-    "body": "Adora le ombre, i vicoli, le silhouette. È a un passo dal filmare la silhouette sbagliata.",
+    "body": "Adora filmare ombre e vicoli di notte. È a un passo dal riprendere te o uno dei tuoi.",
     "choices": {
       "A": "Convincerlo a smettere",
       "B": "Sabotare la sua attrezzatura",
@@ -1009,7 +1009,7 @@
   },
   "vampire_113": {
     "title": "L’autobus notturno",
-    "body": "Ogni notte, finestre piene di occhi. Gli occhi guardano. Un giorno vedranno.",
+    "body": "Ogni notte, i passeggeri dell’autobus vedono l’ingresso del rifugio. Prima o poi, uno di loro noterà qualcosa.",
     "choices": {
       "A": "Far cambiare percorso",
       "B": "Camuffare l’ingresso",
@@ -1135,7 +1135,7 @@
   },
   "vampire_127": {
     "title": "Il forziere che stride",
-    "body": "Il forziere non ha mai fatto rumore. Ora geme. E gli archivi sanno di segreti.",
+    "body": "Il forziere non ha mai fatto rumore. Ora geme. Forse qualcuno ha frugato negli archivi.",
     "choices": {
       "A": "Aprire e controllare",
       "B": "Sigillarlo",
@@ -1180,7 +1180,7 @@
   },
   "vampire_132": {
     "title": "La pioggia acida",
-    "body": "Non è il sole. È qualcos’altro. E qualcos’altro significa spesso trappola.",
+    "body": "Sulla zona cade pioggia acida. Non è il sole, ma uscire resta pericoloso.",
     "choices": {
       "A": "Restare nel rifugio",
       "B": "Cercare la fonte",
@@ -1292,7 +1292,7 @@
     "choices": {
       "A": "Accettare e proteggere",
       "B": "Rifiutare e sorvegliarlo",
-      "C": "Sostituirlo"
+      "C": "Sostituirlo con qualcuno di più affidabile"
     }
   },
   "vampire_145": {
@@ -1396,7 +1396,7 @@
   },
   "vampire_156": {
     "title": "Il rumore sotto la pietra",
-    "body": "Graffi, respiro, silenzio. Le tre fasi di un problema che cresce.",
+    "body": "Si sente un graffio sotto la pietra, poi un respiro, poi più nulla. Qualcosa si muove dietro il muro.",
     "choices": {
       "A": "Aprire e vedere",
       "B": "Sigillare e dimenticare",
@@ -1450,7 +1450,7 @@
   },
   "vampire_162": {
     "title": "La bomba mediatica",
-    "body": "Il cerchio rosso punta al tuo volto. Sai che il prossimo cerchio rosso punterà al tuo rifugio.",
+    "body": "Un media diffonde un’immagine sfocata in cui il tuo volto è cerchiato in rosso. Se l’indagine continua, finiranno per localizzare il tuo rifugio.",
     "choices": {
       "A": "Eliminare la fonte",
       "B": "Creare un falso scandalo altrove",
@@ -1495,7 +1495,7 @@
   },
   "vampire_167": {
     "title": "La trappola di sale",
-    "body": "È semplice, efficace e umiliante. In teoria non si intrappola un vampiro con del sale. Eppure, questa volta ha funzionato.",
+    "body": "Una trappola di sale blocca uno dei tuoi passaggi. Qualcuno conosce le tue abitudini meglio del previsto.",
     "choices": {
       "A": "Disinnescarla e seguire l’autore",
       "B": "Cambiare tunnel",
@@ -1522,7 +1522,7 @@
   },
   "vampire_170": {
     "title": "La sussurratrice",
-    "body": "Non fugge. Sussurra e sembra chiamare qualcosa dall’ombra. Non è normale.",
+    "body": "Non fugge. Sussurra come se stesse cercando di attirare qualcuno, o qualcosa, fuori dall’ombra.",
     "choices": {
       "A": "Avvicinarla con dolcezza",
       "B": "Allontanarla con la paura",
@@ -1612,7 +1612,7 @@
   },
   "vampire_180": {
     "title": "Il piano di ristrutturazione",
-    "body": "Operai, lampade, progetti e orari. Tutto ciò che non puoi mordere.",
+    "body": "Arrivano operai con lampade, progetti e orari. I lavori minacciano direttamente i tuoi accessi.",
     "choices": {
       "A": "Far annullare i lavori",
       "B": "Spostare gli accessi",
@@ -1756,7 +1756,7 @@
   },
   "vampire_196": {
     "title": "Forziere del clan vuoto",
-    "body": "Il forziere delle offerte è vuoto. Il clan litiga e la cosa diventa pubblica.",
+    "body": "Il forziere delle offerte è vuoto. Il clan litiga e le voci cominciano a uscire dal rifugio.",
     "choices": {
       "A": "Restituire il denaro e rimettere tutti in riga",
       "B": "Designare un responsabile",
@@ -1954,7 +1954,7 @@
   },
   "vampire_218": {
     "title": "Caccia troppo visibile",
-    "body": "Una caccia si è trasformata in spettacolo. Sirene. Video. Un vero show gratuito.",
+    "body": "Una caccia si è trasformata in uno spettacolo pubblico. Sirene, video e testimoni stanno attirando l’attenzione sul clan.",
     "choices": {
       "A": "Punire il responsabile",
       "B": "Coprire la faccenda",
@@ -2053,7 +2053,7 @@
   },
   "vampire_229": {
     "title": "Il patto delle strade",
-    "body": "Degli umani propongono un patto. Offrono silenzio in cambio di protezione. È commercio.",
+    "body": "Degli umani propongono un patto. Offrono il loro silenzio in cambio della tua protezione. È un accordo chiaro.",
     "choices": {
       "A": "Accettare e regolamentare",
       "B": "Rifiutare e imporre la paura",
@@ -2224,7 +2224,7 @@
   },
   "vampire_248": {
     "title": "Il festival delle lanterne",
-    "body": "Un festival illumina le strade per tutta la notte. Zero ombra. Il tuo territorio diventa un acquario.",
+    "body": "Un festival illumina le strade per tutta la notte. Il tuo territorio diventa troppo illuminato per cacciare con discrezione.",
     "choices": {
       "A": "Sospendere la caccia",
       "B": "Cacciare in periferia",
@@ -2296,7 +2296,7 @@
   },
   "vampire_256": {
     "title": "La cantina degli umani",
-    "body": "Una cantina nascosta contiene riserve umane. Chi ha fatto questo? E perché qui?",
+    "body": "Una cantina nascosta contiene esseri umani tenuti prigionieri. Chi li ha rinchiusi qui, e perché?",
     "choices": {
       "A": "Liberare e cancellare tutto",
       "B": "Usare e controllare",
@@ -2323,7 +2323,7 @@
   },
   "vampire_259": {
     "title": "La caccia al drone",
-    "body": "Dei droni volano di notte. Cercano il calore. I vampiri non scaldano, ma osservano.",
+    "body": "Dei droni volano di notte. Cercano fonti di calore. Anche se ti individuano male, possono sorvegliare gli accessi.",
     "choices": {
       "A": "Abbattere i droni",
       "B": "Deviare la loro rotta",
@@ -2395,7 +2395,7 @@
   },
   "vampire_267": {
     "title": "La lite sulle quote",
-    "body": "Il clan litiga sulla ripartizione del sangue. Sembra una riunione di condominio.",
+    "body": "Il clan litiga per la distribuzione del sangue. Il conflitto è abbastanza grave da minacciare l’ordine nel rifugio.",
     "choices": {
       "A": "Fissare una ripartizione",
       "B": "Distribuire in base al merito",
@@ -2458,7 +2458,7 @@
   },
   "vampire_274": {
     "title": "L’indagine privata",
-    "body": "Un investigatore privato fruga nel tuo quartiere. Non ha paura. Questo è nuovo.",
+    "body": "Un investigatore privato si aggira nel tuo quartiere senza il minimo timore. Proprio il fatto che non abbia paura lo rende più pericoloso.",
     "choices": {
       "A": "Distoglierlo dall’indagine",
       "B": "Reclutarlo",
@@ -2530,7 +2530,7 @@
   },
   "vampire_282": {
     "title": "Il seminterrato umido",
-    "body": "Il seminterrato del rifugio gocciola ovunque. Perfino le bare cominciano a lamentarsi.",
+    "body": "Nel seminterrato del rifugio gocciola ovunque. L’umidità comincia a rovinare le bare.",
     "choices": {
       "A": "Riparare in fretta",
       "B": "Spostare la scorta",
@@ -2539,7 +2539,7 @@
   },
   "vampire_283": {
     "title": "Il vicino senza tende",
-    "body": "Un vicino non dorme mai e guarda la strada. Colleziona dettagli.",
+    "body": "Un vicino non dorme mai e osserva la strada. Nota il minimo dettaglio.",
     "choices": {
       "A": "Distrarlo",
       "B": "Cambiare abitudini",
@@ -2642,7 +2642,7 @@
     "choices": {
       "A": "Rubarla",
       "B": "Aspettare ancora",
-      "C": "Mandare degli umani"
+      "C": "Inviare degli umani a rubare la reliquia"
     }
   },
   "vampire_295": {
@@ -2668,7 +2668,7 @@
     "body": "Il clan organizza una lotteria per finanziare le tue notti. L’idea è orribile e redditizia.",
     "choices": {
       "A": "Inquadrare il gioco",
-      "B": "Vietare questa vergogna",
+      "B": "Mettere fine a questo circo",
       "C": "Prendere la cassa"
     }
   },
@@ -2863,7 +2863,7 @@
   },
   "vampire_319": {
     "title": "Il pianoforte dell’atrio",
-    "body": "Un pianoforte comincia a suonare da solo nell’atrio. Molto elegante. Pessimo segno.",
+    "body": "Un pianoforte comincia a suonare da solo nell’atrio. Il fenomeno inquieta il clan e potrebbe annunciare un pericolo.",
     "choices": {
       "A": "Spegnere il suono",
       "B": "Far arrivare un antico",
@@ -3187,7 +3187,7 @@
   },
   "vampire_355": {
     "title": "Il notaio di cantina",
-    "body": "Un notaio clandestino propone di ripulire le tue eredità. Sa di trappola.",
+    "body": "Un notaio clandestino propone di ripulire il tuo patrimonio. Sembra una trappola.",
     "choices": {
       "A": "Tentare il colpo",
       "B": "Sorvegliarlo",
@@ -3200,7 +3200,7 @@
     "choices": {
       "A": "Corrompere il cantiere",
       "B": "Cambiare strada",
-      "C": "Lavorare di notte"
+      "C": "Passare dopo la partenza degli operai"
     }
   },
   "vampire_357": {
@@ -3214,7 +3214,7 @@
   },
   "vampire_358": {
     "title": "Il quadro dei debiti",
-    "body": "Qualcuno espone i debiti del clan nell’atrio. L’atmosfera diventa deliziosa.",
+    "body": "Qualcuno espone i debiti del clan nell’atrio. La tensione sale subito in tutto il rifugio.",
     "choices": {
       "A": "Punire l’autore",
       "B": "Cancellare il quadro",
@@ -3250,7 +3250,7 @@
   },
   "vampire_362": {
     "title": "Il nuovo codice",
-    "body": "Il clan cambia tutti i codici senza avvisarti. Bella idea idiota.",
+    "body": "Il clan cambia tutti i suoi codici senza avvisarti. Questa decisione mette direttamente in pericolo il rifugio.",
     "choices": {
       "A": "Riprendere il controllo",
       "B": "Punire i capi",
@@ -3259,7 +3259,7 @@
   },
   "vampire_363": {
     "title": "Il mercato delle rose",
-    "body": "Un mercato delle rose apre di notte. Molto bello. Molto pieno di testimoni.",
+    "body": "Un mercato delle rose apre di notte. È bellissimo, ma ci sono troppi testimoni.",
     "choices": {
       "A": "Spostarlo",
       "B": "Mescolarti alla folla",
@@ -3277,7 +3277,7 @@
   },
   "vampire_365": {
     "title": "L’autista del sindaco",
-    "body": "L’autista del sindaco ti riconosce in una vecchia foto. Aspetta un prezzo.",
+    "body": "L’autista del sindaco ti riconosce in una vecchia foto. Vuole qualcosa in cambio.",
     "choices": {
       "A": "Pagarlo",
       "B": "Farlo mentire",
@@ -3315,7 +3315,7 @@
     "title": "Il debito del rivale",
     "body": "Un rivale ti confessa un enorme debito. Il clan vuole vederlo cadere.",
     "choices": {
-      "A": "Aiutarlo a caro prezzo",
+      "A": "Aiutarlo, ma a un prezzo molto alto",
       "B": "Schiacciarlo",
       "C": "Comprare la sua lealtà"
     }
@@ -3448,7 +3448,7 @@
   },
   "vampire_384": {
     "title": "Il dossier del sindaco",
-    "body": "Un dossier sul sindaco arriva sulla tua scrivania. Sa di trappola utile.",
+    "body": "Un dossier sul sindaco arriva sulla tua scrivania. Può essere utile, ma sembra anche una trappola.",
     "choices": {
       "A": "Usarlo in fretta",
       "B": "Verificarlo prima",
@@ -3497,7 +3497,7 @@
     "choices": {
       "A": "Riceverlo",
       "B": "Tenerlo a distanza",
-      "C": "Spingerlo a scegliere"
+      "C": "Spingerlo a schierarsi"
     }
   },
   "vampire_390": {
@@ -3592,7 +3592,7 @@
   },
   "vampire_400": {
     "title": "Il patto del mattino",
-    "body": "Una parte del clan vuole una promessa. I cacciatori vogliono un segno. L’alba si avvicina già.",
+    "body": "Una parte del clan vuole una promessa. I cacciatori aspettano un segnale. L’alba si avvicina già.",
     "choices": {
       "A": "Scegliere il clan",
       "B": "Scegliere i cacciatori",

@@ -1,4 +1,4 @@
-﻿{
+{
   "vampire_001": {
     "title": "Kantong darah organik",
     "body": "Stok darah menghilang. Seseorang menimbun persediaan tanpa izin.",
@@ -127,7 +127,7 @@
   },
   "vampire_015": {
     "title": "Kesepakatan wilayah",
-    "body": "Geng-geng lokal ingin membuat perjanjian. Perlindungan ditukar dengan kerahasiaan.",
+    "body": "Geng setempat ingin membuat kesepakatan. Mereka menawarkan tutup mulut sebagai imbalan atas perlindunganmu.",
     "choices": {
       "A": "Menerima dan menetapkan aturan",
       "B": "Menolak dan menakuti mereka",
@@ -185,7 +185,7 @@
     "choices": {
       "A": "Melatih sang pemula",
       "B": "Menyembunyikannya dari klan",
-      "C": "Menyembunyikannya di tempat perlindungan rahasia"
+      "C": "Menyerahkannya kepada tetua untuk dilatih"
     }
   },
   "vampire_022": {
@@ -343,7 +343,7 @@
   },
   "vampire_039": {
     "title": "Hujan suci",
-    "body": "Turun hujan air yang sedikit membakar. Seseorang memberkati awan, ya.",
+    "body": "Hujan yang turun membakar kulit. Seseorang menemukan cara untuk memberkati hujan itu.",
     "choices": {
       "A": "Mencari sumbernya",
       "B": "Bersembunyi",
@@ -370,7 +370,7 @@
   },
   "vampire_042": {
     "title": "Perpustakaan tersegel",
-    "body": "Sebuah perpustakaan melarang akses ke satu ruangan. Klan bilang ruangan itu bernyanyi di malam hari.",
+    "body": "Sebuah perpustakaan melarang akses ke satu ruangan. Klan bilang suara-suara terdengar dari sana pada malam hari.",
     "choices": {
       "A": "Mendobrak masuk",
       "B": "Meminta izin resmi",
@@ -451,7 +451,7 @@
   },
   "vampire_051": {
     "title": "Kereta malam",
-    "body": "Sebuah kereta malam tiba dalam keadaan kosong. Kursinya hangat. Sangat hangat.",
+    "body": "Sebuah kereta malam masuk ke stasiun dalam keadaan benar-benar kosong. Namun kursinya masih hangat. Para pemburu?",
     "choices": {
       "A": "Naik ke dalam",
       "B": "Memperingatkan klan",
@@ -568,11 +568,11 @@
   },
   "vampire_064": {
     "title": "Ruang bawah tanah kebanjiran",
-    "body": "Ruang bawah tanah rahasiamu kebanjiran. Peti-peti mati mengapung, suasananya konyol.",
+    "body": "Ruang bawah tanah rahasiamu kebanjiran. Peti-peti mati mengapung dan situasinya semakin mustahil disembunyikan.",
     "choices": {
       "A": "Menyelamatkan persediaan",
       "B": "Ganti markas",
-      "C": "Mengubahnya jadi atraksi rahasia"
+      "C": "Mengubah ruang bawah tanah itu menjadi jebakan bagi orang yang penasaran"
     }
   },
   "vampire_065": {
@@ -635,7 +635,7 @@
     "choices": {
       "A": "Menghapus foto itu",
       "B": "Menyangkal dengan humor",
-      "C": "Menyalahkan filter"
+      "C": "Mengatakan bahwa fotonya sudah dimanipulasi"
     }
   },
   "vampire_072": {
@@ -721,7 +721,7 @@
   },
   "vampire_081": {
     "title": "Simbol baru",
-    "body": "Sebuah simbol asing muncul di dindingmu. Bukan simbol klan dan bukan tanda yang dikenal. Sesuatu yang lain.",
+    "body": "Simbol aneh muncul di dindingmu. Itu bukan tanda klan dan juga bukan tanda yang dikenal. Para pemburu?",
     "choices": {
       "A": "Menyelidiki",
       "B": "Menghapus semuanya",
@@ -901,7 +901,7 @@
   },
   "vampire_101": {
     "title": "Pasar barang antik",
-    "body": "Penjualnya bilang benda itu berasal dari ruang bawah tanah. Tentu saja. Ruang bawah tanah selalu jadi kambing hitam yang nyaman.",
+    "body": "Penjual itu mengaku benda ini berasal dari ruang bawah tanah tua, tetapi ceritanya terdengar dibuat-buat.",
     "choices": {
       "A": "Membelinya diam-diam",
       "B": "Mencurinya malam ini",
@@ -919,7 +919,7 @@
   },
   "vampire_103": {
     "title": "Juru kamera insomnia",
-    "body": "Dia menyukai bayangan, gang sempit, dan siluet. Tinggal selangkah lagi sampai dia merekam siluet yang salah.",
+    "body": "Dia suka merekam bayangan dan gang-gang di malam hari. Dia tinggal selangkah lagi untuk merekam dirimu, atau salah satu milikmu.",
     "choices": {
       "A": "Meyakinkannya untuk berhenti",
       "B": "Menyabotase peralatannya",
@@ -1009,7 +1009,7 @@
   },
   "vampire_113": {
     "title": "Bus malam",
-    "body": "Setiap malam, jendela-jendela penuh mata. Mata-mata itu melihat. Suatu hari, mereka akan benar-benar melihat.",
+    "body": "Setiap malam, penumpang bus bisa melihat pintu masuk markasmu. Cepat atau lambat, salah satu dari mereka akan memperhatikan sesuatu.",
     "choices": {
       "A": "Membuat rutenya diubah",
       "B": "Menyamarkan pintu masuk",
@@ -1135,7 +1135,7 @@
   },
   "vampire_127": {
     "title": "Peti yang berderit",
-    "body": "Peti itu tak pernah bersuara. Sekarang ia mengerang. Dan arsip selalu berasa seperti rahasia.",
+    "body": "Peti itu tak pernah bersuara. Sekarang ia mengerang. Mungkin seseorang telah mengacak-acak arsip.",
     "choices": {
       "A": "Membukanya dan memeriksa",
       "B": "Menyegelnya",
@@ -1180,7 +1180,7 @@
   },
   "vampire_132": {
     "title": "Hujan asam",
-    "body": "Ini bukan matahari. Ini sesuatu yang lain. Dan sesuatu yang lain biasanya berarti jebakan.",
+    "body": "Hujan asam turun di area itu. Ini bukan matahari, tetapi keluar tetap berbahaya.",
     "choices": {
       "A": "Tetap di markas",
       "B": "Mencari sumbernya",
@@ -1292,7 +1292,7 @@
     "choices": {
       "A": "Menerima dan melindunginya",
       "B": "Menolak dan mengawasinya",
-      "C": "Menggantinya"
+      "C": "Menggantinya dengan orang yang lebih bisa dipercaya"
     }
   },
   "vampire_145": {
@@ -1396,7 +1396,7 @@
   },
   "vampire_156": {
     "title": "Suara di bawah batu",
-    "body": "Goresan, hembusan, lalu diam. Tiga tahap masalah yang sedang membesar.",
+    "body": "Terdengar suara garukan di bawah batu, lalu hembusan napas, lalu tidak ada apa-apa. Sesuatu bergerak di balik dinding.",
     "choices": {
       "A": "Membuka dan melihat",
       "B": "Menyegel dan melupakan",
@@ -1450,7 +1450,7 @@
   },
   "vampire_162": {
     "title": "Bom media",
-    "body": "Lingkaran merah itu mengincar wajahmu. Kau tahu lingkaran merah berikutnya akan mengincar markasmu.",
+    "body": "Sebuah media menyiarkan gambar buram dengan wajahmu dilingkari merah. Jika penyelidikan berlanjut, mereka akhirnya akan menemukan markasmu.",
     "choices": {
       "A": "Melenyapkan sumbernya",
       "B": "Menciptakan skandal palsu di tempat lain",
@@ -1495,7 +1495,7 @@
   },
   "vampire_167": {
     "title": "Jebakan garam",
-    "body": "Sederhana, efektif, dan memalukan. Secara teori, vampir tidak seharusnya bisa dijebak dengan garam. Tapi kali ini, itu berhasil.",
+    "body": "Sebuah jebakan garam memblokir salah satu jalurmu. Seseorang mengenal kebiasaanmu lebih baik dari yang diduga.",
     "choices": {
       "A": "Menjinakkan jebakan dan mengikuti pelakunya",
       "B": "Mengganti terowongan",
@@ -1522,7 +1522,7 @@
   },
   "vampire_170": {
     "title": "Si pembisik",
-    "body": "Dia tidak lari. Dia berbisik dan tampaknya memanggil sesuatu dari bayangan. Ini tidak normal.",
+    "body": "Dia tidak melarikan diri. Dia berbisik seolah sedang mencoba menarik seseorang, atau sesuatu, keluar dari bayangan.",
     "choices": {
       "A": "Mendekatinya perlahan",
       "B": "Menjauhkannya dengan rasa takut",
@@ -1612,7 +1612,7 @@
   },
   "vampire_180": {
     "title": "Rencana renovasi",
-    "body": "Para pekerja, lampu, denah, dan jadwal. Semua hal yang tak bisa kau gigit.",
+    "body": "Para pekerja datang dengan lampu, rencana, dan jadwal. Pekerjaan itu langsung mengancam jalur aksesmu.",
     "choices": {
       "A": "Membatalkan pekerjaan",
       "B": "Memindahkan akses",
@@ -1756,7 +1756,7 @@
   },
   "vampire_196": {
     "title": "Peti klan kosong",
-    "body": "Peti persembahan kosong. Klan bertengkar dan mulai jadi tontonan.",
+    "body": "Peti persembahan kosong. Klan bertengkar dan desas-desus mulai keluar dari markas.",
     "choices": {
       "A": "Mengembalikan uang dan menertibkan",
       "B": "Menunjuk seorang yang bersalah",
@@ -1895,7 +1895,7 @@
     "choices": {
       "A": "Mendengar lalu memutuskan",
       "B": "Menunda lagi",
-      "C": "Membiarkan juru bicara yang berbicara"
+      "C": "Biarkan juru bicara yang berbicara"
     }
   },
   "vampire_212": {
@@ -1954,7 +1954,7 @@
   },
   "vampire_218": {
     "title": "Perburuan yang terlalu terlihat",
-    "body": "Sebuah perburuan berubah jadi tontonan. Sirene. Video. Pertunjukan gratis sungguhan.",
+    "body": "Sebuah perburuan berubah menjadi tontonan publik. Sirene, video, dan para saksi kini menarik perhatian ke klan.",
     "choices": {
       "A": "Menghukum yang bertanggung jawab",
       "B": "Menutupinya",
@@ -2053,7 +2053,7 @@
   },
   "vampire_229": {
     "title": "Pact jalanan",
-    "body": "Beberapa manusia menawarkan perjanjian. Mereka memberi keheningan sebagai imbalan perlindungan. Ini bisnis.",
+    "body": "Manusia menawarkan sebuah perjanjian. Mereka menawarkan tutup mulut sebagai imbalan atas perlindunganmu. Ini kesepakatan yang jelas.",
     "choices": {
       "A": "Menerima dan mengaturnya",
       "B": "Menolak dan memaksakan rasa takut",
@@ -2224,7 +2224,7 @@
   },
   "vampire_248": {
     "title": "Festival lentera",
-    "body": "Sebuah festival menerangi jalan sepanjang malam. Nol bayangan. Wilayahmu berubah jadi akuarium.",
+    "body": "Sebuah festival menerangi jalanan sepanjang malam. Wilayahmu jadi terlalu terang untuk berburu secara diam-diam.",
     "choices": {
       "A": "Menangguhkan perburuan",
       "B": "Berburu di pinggiran",
@@ -2296,7 +2296,7 @@
   },
   "vampire_256": {
     "title": "Ruang bawah tanah manusia",
-    "body": "Sebuah ruang bawah tanah tersembunyi berisi persediaan manusia. Siapa yang melakukan ini. Dan kenapa di sini.",
+    "body": "Sebuah ruang bawah tanah tersembunyi berisi manusia yang ditahan sebagai tahanan. Siapa yang mengurung mereka di sini, dan kenapa?",
     "choices": {
       "A": "Membebaskan mereka dan menghapus jejak",
       "B": "Menggunakannya dan mengontrol",
@@ -2323,7 +2323,7 @@
   },
   "vampire_259": {
     "title": "Perburuan drone",
-    "body": "Drone terbang di malam hari. Mereka mencari panas. Vampir tidak memancarkan panas, tapi mereka tetap mengamati.",
+    "body": "Drone terbang pada malam hari. Mereka mencari sumber panas. Walau sulit mendeteksimu dengan jelas, mereka tetap bisa mengawasi akses masuk.",
     "choices": {
       "A": "Menembak jatuh drone-drone itu",
       "B": "Mengalihkannya",
@@ -2395,7 +2395,7 @@
   },
   "vampire_267": {
     "title": "Perselisihan jatah",
-    "body": "Klan bertengkar soal pembagian darah. Rasanya seperti rapat kompleks apartemen.",
+    "body": "Klan bertengkar soal pembagian darah. Konflik ini sudah cukup serius untuk mengancam ketertiban markas.",
     "choices": {
       "A": "Menetapkan pembagian",
       "B": "Mendistribusikan berdasarkan jasa",
@@ -2458,7 +2458,7 @@
   },
   "vampire_274": {
     "title": "Penyelidikan pribadi",
-    "body": "Seorang detektif swasta mengendus-endus lingkunganmu. Dia tidak takut. Ini hal baru.",
+    "body": "Seorang detektif swasta mengendus di lingkunganmu tanpa rasa takut sedikit pun. Justru karena ia tidak takut, ia jadi lebih berbahaya.",
     "choices": {
       "A": "Mengalihkannya dari penyelidikan",
       "B": "Merekrutnya",
@@ -2530,7 +2530,7 @@
   },
   "vampire_282": {
     "title": "Ruang bawah tanah lembap",
-    "body": "Ruang bawah tanah markas menetes di mana-mana. Bahkan peti mati mulai protes.",
+    "body": "Ruang bawah tanah markas bocor di mana-mana. Kelembapan mulai merusak peti-peti.",
     "choices": {
       "A": "Memperbaikinya cepat",
       "B": "Memindahkan stok",
@@ -2539,7 +2539,7 @@
   },
   "vampire_283": {
     "title": "Tetangga tanpa tirai",
-    "body": "Seorang tetangga tak pernah tidur dan terus memandangi jalan. Dia mengumpulkan detail-detail.",
+    "body": "Seorang tetangga tidak pernah tidur dan mengawasi jalan. Ia memperhatikan detail sekecil apa pun.",
     "choices": {
       "A": "Mengalihkannya",
       "B": "Mengubah kebiasaanmu",
@@ -2642,7 +2642,7 @@
     "choices": {
       "A": "Mencurinya",
       "B": "Menunggu lagi",
-      "C": "Mengirim manusia"
+      "C": "Mengirim manusia untuk mencuri relik itu"
     }
   },
   "vampire_295": {
@@ -2668,7 +2668,7 @@
     "body": "Klan mengadakan lotre untuk membiayai malam-malammu. Idenya mengerikan sekaligus menguntungkan.",
     "choices": {
       "A": "Mengawasi permainan itu",
-      "B": "Melarang penghinaan itu",
+      "B": "Menghentikan sandiwara ini",
       "C": "Mengambil peti uangnya"
     }
   },
@@ -2863,7 +2863,7 @@
   },
   "vampire_319": {
     "title": "Piano di aula",
-    "body": "Sebuah piano mulai bermain sendiri di aula. Sangat elegan. Sangat buruk.",
+    "body": "Sebuah piano mulai bermain sendiri di aula. Kejadian itu meresahkan klan dan bisa menjadi pertanda bahaya.",
     "choices": {
       "A": "Mematikan suaranya",
       "B": "Memanggil seorang tetua",
@@ -3187,7 +3187,7 @@
   },
   "vampire_355": {
     "title": "Notaris bawah tanah",
-    "body": "Seorang notaris gelap menawarkan mencuci warisanmu. Baunya seperti jebakan.",
+    "body": "Seorang notaris gelap menawarkan untuk mencuci asetmu. Ini terasa seperti jebakan.",
     "choices": {
       "A": "Mencoba peruntungan",
       "B": "Mengawasinya",
@@ -3200,7 +3200,7 @@
     "choices": {
       "A": "Menyuap proyeknya",
       "B": "Mengganti rute",
-      "C": "Bekerja di malam hari"
+      "C": "Lewat setelah para pekerja pergi"
     }
   },
   "vampire_357": {
@@ -3214,7 +3214,7 @@
   },
   "vampire_358": {
     "title": "Papan utang",
-    "body": "Seseorang memajang daftar utang klan di aula. Suasananya jadi sangat menarik.",
+    "body": "Seseorang memasang daftar utang klan di aula. Ketegangan langsung meningkat di seluruh markas.",
     "choices": {
       "A": "Menghukum pelakunya",
       "B": "Menghapus papan itu",
@@ -3250,7 +3250,7 @@
   },
   "vampire_362": {
     "title": "Kode baru",
-    "body": "Klan mengganti semua kode tanpa memberi tahumu. Ide bodoh yang luar biasa.",
+    "body": "Klan mengganti semua kode tanpa memberitahumu. Keputusan itu langsung membahayakan markas.",
     "choices": {
       "A": "Mengambil alih kembali kendali",
       "B": "Menghukum para pemimpinnya",
@@ -3259,7 +3259,7 @@
   },
   "vampire_363": {
     "title": "Pasar mawar",
-    "body": "Sebuah pasar mawar buka di malam hari. Indah sekali. Penuh saksi sekali.",
+    "body": "Sebuah pasar mawar buka pada malam hari. Indah sekali, tetapi ada terlalu banyak saksi.",
     "choices": {
       "A": "Memindahkannya",
       "B": "Melebur di dalamnya",
@@ -3277,7 +3277,7 @@
   },
   "vampire_365": {
     "title": "Sopir wali kota",
-    "body": "Sopir wali kota mengenalimu dari foto lama. Dia menunggu harga.",
+    "body": "Sopir wali kota mengenalimu dari foto lama. Dia menginginkan sesuatu sebagai imbalan.",
     "choices": {
       "A": "Membayarnya",
       "B": "Membuatnya berbohong",
@@ -3315,7 +3315,7 @@
     "title": "Utang si rival",
     "body": "Seorang rival mengaku punya utang besar. Klan ingin melihatnya jatuh.",
     "choices": {
-      "A": "Membantunya dengan harga mahal",
+      "A": "Membantunya, tetapi dengan harga mahal",
       "B": "Menghancurkannya",
       "C": "Membeli kesetiaannya"
     }
@@ -3442,13 +3442,13 @@
     "body": "Sebuah bar tanpa jendela buka dua jalan dari sini. Klan sudah ingin pergi ke sana.",
     "choices": {
       "A": "Menguji tempat itu",
-      "B": "Menjaganya dalam pengawasan",
+      "B": "Mengawasinya dengan dekat",
       "C": "Melarang tempat itu"
     }
   },
   "vampire_384": {
     "title": "Berkas wali kota",
-    "body": "Sebuah berkas tentang wali kota tiba di mejamu. Baunya seperti jebakan yang berguna.",
+    "body": "Sebuah berkas tentang wali kota tiba di mejamu. Itu mungkin berguna, tetapi juga tampak seperti jebakan.",
     "choices": {
       "A": "Memakainya segera",
       "B": "Memverifikasinya dulu",
@@ -3497,7 +3497,7 @@
     "choices": {
       "A": "Menerimanya",
       "B": "Menjaganya dari jauh",
-      "C": "Mendorongnya untuk memilih pihak"
+      "C": "Mendorongnya untuk memihak"
     }
   },
   "vampire_390": {
@@ -3592,7 +3592,7 @@
   },
   "vampire_400": {
     "title": "Pact pagi",
-    "body": "Sebagian klan menuntut janji. Para pemburu menuntut tanda. Fajar sudah mendekat.",
+    "body": "Sebagian klan menuntut sebuah janji. Para pemburu menunggu sebuah tanda. Fajar sudah mendekat.",
     "choices": {
       "A": "Memilih klan",
       "B": "Memilih para pemburu",

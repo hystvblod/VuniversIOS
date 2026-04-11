@@ -3,7 +3,7 @@
   "events": {
     "new_world_explorer_ev_001": {
       "title": "Vorteilhafte Karte",
-      "body": "Ein Seefahrer kehrt mit einer klaren Karte zurück. Plötzlich wirkt die Küste kleiner.",
+      "body": "Ein Seefahrer kehrt mit einer klaren Karte zurück. Die Küste wird leichter zu kontrollieren.",
       "effect": "Gebiete: +5 pro Karte",
       "duration": "Dauer: 5 Karten"
     },
@@ -81,13 +81,13 @@
     },
     "new_world_explorer_ev_014": {
       "title": "Inselmarkt",
-      "body": "Händler von den Inseln füllen den Hafen mit seltenen Gütern und Ideen für Gewinnspannen.",
+      "body": "Händler von den Inseln füllen den Hafen mit seltenen Gütern und neuen Gewinnchancen.",
       "effect": "Reichtümer: +5 pro Karte",
       "duration": "Dauer: 6 Karten"
     },
     "new_world_explorer_ev_015": {
       "title": "Vorgeschobenes Fort",
-      "body": "Ein kleines Fort entsteht an einem gut gewählten Ort. Die Küste wirkt plötzlich breiter.",
+      "body": "An einem gut gewählten Ort entsteht ein kleines Fort. Die Küste wird leichter zu verteidigen.",
       "effect": "Gebiete: +5 pro Karte",
       "duration": "Dauer: 3 Karten"
     },
@@ -105,7 +105,7 @@
     },
     "new_world_explorer_ev_018": {
       "title": "Sturm über den Laderäumen",
-      "body": "Eine Reihe von Regenfällen beschädigt die Vorräte. Der Hafen riecht nach nassem Holz und klarem Verlust.",
+      "body": "Eine Reihe von Regenfällen beschädigt die Vorräte. Ein Teil der Waren geht verloren.",
       "effect": "Reichtümer: -5 pro Karte",
       "duration": "Dauer: 7 Karten"
     },
@@ -165,7 +165,7 @@
     },
     "new_world_explorer_ev_028": {
       "title": "Unzufriedener Gesandter",
-      "body": "Ein königlicher Gesandter reist mit verschlossener Miene und einem gut gefüllten Notizbuch ab. Nichts Gutes überquert so gern das Meer.",
+      "body": "Ein königlicher Gesandter reist mit verschlossener Miene und einem gut gefüllten Notizbuch ab. Sein Bericht könnte uns am Hof schaden.",
       "effect": "Königliche Unterstützung: -5 pro Karte",
       "duration": "Dauer: 6 Karten"
     },

@@ -1,4 +1,4 @@
-﻿{
+{
   "vampire_001": {
     "title": "Der Beutel mit Bio-Blut",
     "body": "Ein Blutvorrat verschwindet. Jemand hat ohne Erlaubnis Reserven angelegt.",
@@ -127,7 +127,7 @@
   },
   "vampire_015": {
     "title": "Der Pakt des Viertels",
-    "body": "Die lokalen Gangs wollen ein Abkommen. Schutz gegen Diskretion.",
+    "body": "Die lokalen Gangs wollen einen Deal. Sie bieten ihr Schweigen im Austausch für deinen Schutz an.",
     "choices": {
       "A": "Zustimmen und Regeln festlegen",
       "B": "Ablehnen und ihnen Angst machen",
@@ -185,7 +185,7 @@
     "choices": {
       "A": "Den Neuling ausbilden",
       "B": "Ihn vor dem Clan verstecken",
-      "C": "Ihn in einem geheimen Zufluchtsort verstecken"
+      "C": "Ihn einem Ältesten zur Ausbildung anvertrauen"
     }
   },
   "vampire_022": {
@@ -343,7 +343,7 @@
   },
   "vampire_039": {
     "title": "Der geweihte Regen",
-    "body": "Es regnet Wasser, das ein wenig brennt. Jemand segnet die Wolken, ja wirklich.",
+    "body": "Es regnet Wasser, das die Haut verbrennt. Jemand hat einen Weg gefunden, den Regen zu segnen.",
     "choices": {
       "A": "Die Quelle finden",
       "B": "Sich verkriechen",
@@ -370,7 +370,7 @@
   },
   "vampire_042": {
     "title": "Die versiegelte Bibliothek",
-    "body": "Eine Bibliothek verbietet den Zugang zu einem Saal. Der Clan behauptet, dort singe es nachts.",
+    "body": "Eine Bibliothek verbietet den Zugang zu einem Raum. Der Clan sagt, dass man dort nachts Stimmen hört.",
     "choices": {
       "A": "Den Eingang aufbrechen",
       "B": "Eine Genehmigung verlangen",
@@ -451,7 +451,7 @@
   },
   "vampire_051": {
     "title": "Der Nachtzug",
-    "body": "Ein Nachtzug kommt leer an. Die Sitze sind warm. Sehr warm.",
+    "body": "Ein Nachtzug fährt völlig leer in den Bahnhof ein. Trotzdem sind die Sitze noch warm. Jäger?",
     "choices": {
       "A": "Einsteigen",
       "B": "Den Clan warnen",
@@ -568,11 +568,11 @@
   },
   "vampire_064": {
     "title": "Der überflutete Keller",
-    "body": "Dein geheimer Keller ist überflutet. Die Särge treiben herum, die Atmosphäre ist lächerlich.",
+    "body": "Dein geheimes Kellerversteck ist überflutet. Die Särge treiben, und die Lage lässt sich nicht mehr verbergen.",
     "choices": {
       "A": "Die Vorräte retten",
       "B": "Das Versteck wechseln",
-      "C": "Es in eine geheime Attraktion verwandeln"
+      "C": "Den Keller in eine Falle für Neugierige verwandeln"
     }
   },
   "vampire_065": {
@@ -635,7 +635,7 @@
     "choices": {
       "A": "Das Foto entfernen",
       "B": "Mit Humor leugnen",
-      "C": "Einen Filter beschuldigen"
+      "C": "Behaupten, das Foto sei manipuliert"
     }
   },
   "vampire_072": {
@@ -721,7 +721,7 @@
   },
   "vampire_081": {
     "title": "Das neue Symbol",
-    "body": "Ein unbekanntes Symbol erscheint an deinen Wänden. Weder Clanzeichen noch bekannte Markierung. Etwas anderes.",
+    "body": "Ein unbekanntes Symbol erscheint an deinen Wänden. Es ist weder ein Zeichen des Clans noch eine bekannte Markierung. Jäger?",
     "choices": {
       "A": "Nachforschen",
       "B": "Alles entfernen",
@@ -901,10 +901,10 @@
   },
   "vampire_101": {
     "title": "Der Antiquitätenmarkt",
-    "body": "Der Verkäufer behauptet, es komme aus einem Keller. Natürlich. Keller sind immer eine gute Ausrede.",
+    "body": "Der Verkäufer behauptet, der Gegenstand stamme aus einem alten Keller, aber seine Geschichte wirkt erfunden.",
     "choices": {
       "A": "Es diskret kaufen",
-      "B": "Es heute Nacht stehlen",
+      "B": "Ihn heute Nacht stehlen",
       "C": "Dem Verkäufer eine Falle stellen"
     }
   },
@@ -919,7 +919,7 @@
   },
   "vampire_103": {
     "title": "Der schlaflose Kameramann",
-    "body": "Er liebt Schatten, Gassen, Silhouetten. Er ist nur einen Schritt davon entfernt, die falsche Silhouette zu filmen.",
+    "body": "Er filmt nachts liebend gern Schatten und Gassen. Er ist nur noch einen Schritt davon entfernt, dich oder einen der Deinen zu filmen.",
     "choices": {
       "A": "Ihn überzeugen aufzuhören",
       "B": "Sein Material sabotieren",
@@ -1009,7 +1009,7 @@
   },
   "vampire_113": {
     "title": "Der Nachtbus",
-    "body": "Jede Nacht Fenster voller Augen. Die Augen schauen. Eines Tages werden sie etwas sehen.",
+    "body": "Jede Nacht sehen die Fahrgäste im Bus den Eingang zum Versteck. Früher oder später wird einer von ihnen etwas bemerken.",
     "choices": {
       "A": "Die Route ändern lassen",
       "B": "Den Eingang tarnen",
@@ -1135,7 +1135,7 @@
   },
   "vampire_127": {
     "title": "Die knarrende Truhe",
-    "body": "Die Truhe hat nie Geräusche gemacht. Jetzt stöhnt sie. Und Archive schmecken nach Geheimnissen.",
+    "body": "Die Truhe hat nie Geräusche gemacht. Jetzt stöhnt sie. Jemand hat vielleicht die Archive durchsucht.",
     "choices": {
       "A": "Öffnen und nachsehen",
       "B": "Sie versiegeln",
@@ -1180,7 +1180,7 @@
   },
   "vampire_132": {
     "title": "Der saure Regen",
-    "body": "Es ist nicht die Sonne. Es ist etwas anderes. Und etwas anderes bedeutet oft eine Falle.",
+    "body": "Über dem Gebiet fällt saurer Regen. Es ist nicht die Sonne, aber hinauszugehen bleibt gefährlich.",
     "choices": {
       "A": "Im Versteck bleiben",
       "B": "Die Quelle suchen",
@@ -1292,7 +1292,7 @@
     "choices": {
       "A": "Zustimmen und schützen",
       "B": "Ablehnen und ihn überwachen",
-      "C": "Ihn ersetzen"
+      "C": "Ihn durch jemanden Zuverlässigeren ersetzen"
     }
   },
   "vampire_145": {
@@ -1396,7 +1396,7 @@
   },
   "vampire_156": {
     "title": "Das Geräusch unter dem Stein",
-    "body": "Kratzen, Atem, Stille. Die drei Phasen eines Problems, das größer wird.",
+    "body": "Unter dem Stein hört man ein Kratzen, dann einen Atemzug, dann nichts mehr. Hinter der Wand bewegt sich etwas.",
     "choices": {
       "A": "Öffnen und nachsehen",
       "B": "Versiegeln und vergessen",
@@ -1450,7 +1450,7 @@
   },
   "vampire_162": {
     "title": "Die Medienbombe",
-    "body": "Der rote Kreis zielt auf dein Gesicht. Du weißt, dass der nächste rote Kreis dein Versteck treffen wird.",
+    "body": "Ein Medium verbreitet ein verschwommenes Bild, auf dem dein Gesicht rot eingekreist ist. Wenn die Ermittlungen weitergehen, werden sie am Ende dein Versteck finden.",
     "choices": {
       "A": "Die Quelle beseitigen",
       "B": "Anderswo einen falschen Skandal erzeugen",
@@ -1495,7 +1495,7 @@
   },
   "vampire_167": {
     "title": "Die Salzfalle",
-    "body": "Einfach, wirksam, erniedrigend. Eigentlich fängt man keinen Vampir mit Salz. Diesmal hat es trotzdem funktioniert.",
+    "body": "Eine Salzfalle blockiert einen deiner Wege. Jemand kennt deine Gewohnheiten besser als erwartet.",
     "choices": {
       "A": "Entschärfen und dem Urheber folgen",
       "B": "Den Tunnel wechseln",
@@ -1522,7 +1522,7 @@
   },
   "vampire_170": {
     "title": "Die Flüsterin",
-    "body": "Sie flieht nicht. Sie flüstert und scheint etwas aus den Schatten herbeizurufen. Das ist nicht normal.",
+    "body": "Sie flieht nicht. Sie flüstert, als wolle sie jemanden oder etwas aus dem Schatten herbeilocken.",
     "choices": {
       "A": "Dich ihr behutsam nähern",
       "B": "Sie mit Angst vertreiben",
@@ -1612,7 +1612,7 @@
   },
   "vampire_180": {
     "title": "Der Renovierungsplan",
-    "body": "Arbeiter, Lampen, Pläne und Zeitpläne. Alles, was du nicht beißen kannst.",
+    "body": "Arbeiter kommen mit Lampen, Plänen und Zeitplänen. Die Arbeiten bedrohen deine Zugänge direkt.",
     "choices": {
       "A": "Die Arbeiten absagen lassen",
       "B": "Die Zugänge verlegen",
@@ -1756,7 +1756,7 @@
   },
   "vampire_196": {
     "title": "Die leere Truhe des Clans",
-    "body": "Die Opfertruhe ist leer. Der Clan streitet sich, und das Ganze wird öffentlich.",
+    "body": "Die Opfertruhe ist leer. Der Clan streitet sich, und die Gerüchte beginnen aus dem Versteck nach draußen zu dringen.",
     "choices": {
       "A": "Das Geld zurückgeben und alle zurechtweisen",
       "B": "Einen Verantwortlichen benennen",
@@ -1895,7 +1895,7 @@
     "choices": {
       "A": "Zuhören und entscheiden",
       "B": "Noch einmal verschieben",
-      "C": "Einen Sprecher reden lassen"
+      "C": "Einen Sprecher sprechen lassen"
     }
   },
   "vampire_212": {
@@ -1954,7 +1954,7 @@
   },
   "vampire_218": {
     "title": "Zu sichtbare Jagd",
-    "body": "Eine Jagd wurde zum Spektakel. Sirenen. Videos. Eine echte Gratis-Show.",
+    "body": "Eine Jagd ist zu einem öffentlichen Spektakel geworden. Sirenen, Videos und Zeugen ziehen nun die Aufmerksamkeit auf den Clan.",
     "choices": {
       "A": "Den Verantwortlichen bestrafen",
       "B": "Die Sache vertuschen",
@@ -2053,7 +2053,7 @@
   },
   "vampire_229": {
     "title": "Der Pakt der Straßen",
-    "body": "Menschen schlagen einen Pakt vor. Sie geben Schweigen gegen Schutz. Es ist ein Geschäft.",
+    "body": "Menschen schlagen einen Pakt vor. Sie bieten ihr Schweigen im Austausch für deinen Schutz an. Es ist ein klares Geschäft.",
     "choices": {
       "A": "Annehmen und Regeln festlegen",
       "B": "Ablehnen und Angst verbreiten",
@@ -2224,7 +2224,7 @@
   },
   "vampire_248": {
     "title": "Das Laternenfest",
-    "body": "Ein Fest beleuchtet die Straßen die ganze Nacht. Null Schatten. Dein Gebiet wird zum Aquarium.",
+    "body": "Ein Festival erleuchtet die Straßen die ganze Nacht. Dein Gebiet ist dadurch zu hell für eine diskrete Jagd.",
     "choices": {
       "A": "Die Jagd aussetzen",
       "B": "Am Rand jagen",
@@ -2296,7 +2296,7 @@
   },
   "vampire_256": {
     "title": "Der Keller der Menschen",
-    "body": "Ein geheimer Keller enthält menschliche Vorräte. Wer hat das getan. Und warum hier.",
+    "body": "Ein versteckter Keller enthält gefangene Menschen. Wer hat sie hier eingesperrt, und warum?",
     "choices": {
       "A": "Befreien und Spuren beseitigen",
       "B": "Nutzen und kontrollieren",
@@ -2323,7 +2323,7 @@
   },
   "vampire_259": {
     "title": "Die Jagd auf die Drohne",
-    "body": "Drohnen fliegen nachts. Sie suchen Wärme. Vampire geben keine Wärme ab, aber sie beobachten.",
+    "body": "Nachts fliegen Drohnen. Sie suchen nach Wärmequellen. Selbst wenn sie dich schlecht erkennen, können sie die Zugänge überwachen.",
     "choices": {
       "A": "Die Drohnen abschießen",
       "B": "Sie umlenken",
@@ -2395,7 +2395,7 @@
   },
   "vampire_267": {
     "title": "Der Streit um die Anteile",
-    "body": "Der Clan streitet über die Verteilung des Blutes. Es sieht aus wie eine Eigentümerversammlung.",
+    "body": "Der Clan streitet über die Verteilung des Blutes. Der Konflikt ist ernst genug, um die Ordnung im Versteck zu bedrohen.",
     "choices": {
       "A": "Eine Verteilung festlegen",
       "B": "Nach Verdienst verteilen",
@@ -2458,7 +2458,7 @@
   },
   "vampire_274": {
     "title": "Die Privatermittlung",
-    "body": "Ein Privatdetektiv schnüffelt in deinem Viertel. Er hat keine Angst. Das ist neu.",
+    "body": "Ein Privatdetektiv schnüffelt ohne die geringste Angst in deinem Viertel herum. Gerade weil er keine Angst hat, ist er gefährlicher.",
     "choices": {
       "A": "Ihn von der Ermittlung abbringen",
       "B": "Ihn rekrutieren",
@@ -2530,7 +2530,7 @@
   },
   "vampire_282": {
     "title": "Der feuchte Keller",
-    "body": "Der Keller des Verstecks tropft überall. Sogar die Särge beginnen zu murren.",
+    "body": "Im Keller des Unterschlupfs tropft es überall. Die Feuchtigkeit beginnt, die Särge zu beschädigen.",
     "choices": {
       "A": "Schnell reparieren",
       "B": "Den Vorrat verlegen",
@@ -2539,7 +2539,7 @@
   },
   "vampire_283": {
     "title": "Der Nachbar ohne Vorhänge",
-    "body": "Ein Nachbar schläft nie und beobachtet die Straße. Er sammelt Details.",
+    "body": "Ein Nachbar schläft nie und beobachtet die Straße. Ihm entgeht nicht das kleinste Detail.",
     "choices": {
       "A": "Ihn ablenken",
       "B": "Deine Gewohnheiten ändern",
@@ -2642,7 +2642,7 @@
     "choices": {
       "A": "Sie stehlen",
       "B": "Noch warten",
-      "C": "Menschen schicken"
+      "C": "Menschen schicken, um die Reliquie zu stehlen"
     }
   },
   "vampire_295": {
@@ -2668,7 +2668,7 @@
     "body": "Der Clan organisiert eine Tombola, um deine Nächte zu finanzieren. Die Idee ist grauenhaft und profitabel.",
     "choices": {
       "A": "Das Spiel beaufsichtigen",
-      "B": "Diese Blamage verbieten",
+      "B": "Diesem Zirkus ein Ende setzen",
       "C": "Die Kasse nehmen"
     }
   },
@@ -2863,7 +2863,7 @@
   },
   "vampire_319": {
     "title": "Das Klavier im Flur",
-    "body": "Ein Klavier beginnt von selbst im Flur zu spielen. Sehr stilvoll. Sehr schlechtes Zeichen.",
+    "body": "Ein Klavier beginnt von selbst in der Halle zu spielen. Das Phänomen beunruhigt den Clan und könnte eine Gefahr ankündigen.",
     "choices": {
       "A": "Den Klang stoppen",
       "B": "Einen Ältesten holen",
@@ -3187,7 +3187,7 @@
   },
   "vampire_355": {
     "title": "Der Kellernotar",
-    "body": "Ein geheimer Notar bietet an, deine Erbschaften zu waschen. Das riecht nach einer Falle.",
+    "body": "Ein zwielichtiger Notar bietet an, dein Vermögen zu waschen. Das riecht nach einer Falle.",
     "choices": {
       "A": "Es versuchen",
       "B": "Ihn überwachen",
@@ -3200,7 +3200,7 @@
     "choices": {
       "A": "Die Baustelle bestechen",
       "B": "Den Weg ändern",
-      "C": "Nachts arbeiten"
+      "C": "Erst nach dem départ der Arbeiter durchgehen"
     }
   },
   "vampire_357": {
@@ -3214,7 +3214,7 @@
   },
   "vampire_358": {
     "title": "Die Schuldenliste",
-    "body": "Jemand hängt die Schulden des Clans im Flur aus. Die Stimmung wird köstlich.",
+    "body": "Jemand hängt die Schulden des Clans in der Halle aus. Sofort steigt die Spannung im ganzen Versteck.",
     "choices": {
       "A": "Den Urheber bestrafen",
       "B": "Die Liste entfernen",
@@ -3250,7 +3250,7 @@
   },
   "vampire_362": {
     "title": "Der neue Code",
-    "body": "Der Clan ändert alle seine Codes, ohne dich zu informieren. Tolle idiotische Idee.",
+    "body": "Der Clan ändert alle seine Codes, ohne dich zu warnen. Diese Entscheidung bringt das Versteck direkt in Gefahr.",
     "choices": {
       "A": "Die Kontrolle wieder übernehmen",
       "B": "Die Anführer bestrafen",
@@ -3259,7 +3259,7 @@
   },
   "vampire_363": {
     "title": "Der Rosenmarkt",
-    "body": "Ein Rosenmarkt öffnet nachts. Sehr schön. Sehr voll mit Zeugen.",
+    "body": "Ein Rosenmarkt öffnet nachts. Es ist wunderschön, aber es gibt zu viele Zeugen.",
     "choices": {
       "A": "Ihn verlegen",
       "B": "Darin untertauchen",
@@ -3277,7 +3277,7 @@
   },
   "vampire_365": {
     "title": "Der Fahrer des Bürgermeisters",
-    "body": "Der Fahrer des Bürgermeisters erkennt dich auf einem alten Foto. Er erwartet einen Preis.",
+    "body": "Der Fahrer des Bürgermeisters erkennt dich auf einem alten Foto wieder. Er will etwas als Gegenleistung.",
     "choices": {
       "A": "Ihn bezahlen",
       "B": "Ihn zum Lügen bringen",
@@ -3315,7 +3315,7 @@
     "title": "Die Schuld des Rivalen",
     "body": "Ein Rivale gesteht dir eine enorme Schuld. Der Clan will ihn fallen sehen.",
     "choices": {
-      "A": "Ihm teuer helfen",
+      "A": "Ihm helfen, aber zu einem hohen Preis",
       "B": "Ihn zerschmettern",
       "C": "Seine Loyalität kaufen"
     }
@@ -3442,13 +3442,13 @@
     "body": "Zwei Straßen weiter öffnet eine Bar ohne Fenster. Der Clan will schon hin.",
     "choices": {
       "A": "Den Ort testen",
-      "B": "Sie im Auge behalten",
+      "B": "Ihn im Auge behalten",
       "C": "Den Ort verbieten"
     }
   },
   "vampire_384": {
     "title": "Die Akte des Bürgermeisters",
-    "body": "Eine Akte über den Bürgermeister landet auf deinem Schreibtisch. Sie riecht nach einer nützlichen Falle.",
+    "body": "Eine Akte über den Bürgermeister landet auf deinem Schreibtisch. Sie könnte nützlich sein, sieht aber auch wie eine Falle aus.",
     "choices": {
       "A": "Sie schnell nutzen",
       "B": "Sie zuerst prüfen",
@@ -3497,7 +3497,7 @@
     "choices": {
       "A": "Ihn empfangen",
       "B": "Ihn auf Abstand halten",
-      "C": "Ihn zur Entscheidung drängen"
+      "C": "Ihn zwingen, Stellung zu beziehen"
     }
   },
   "vampire_390": {
@@ -3592,7 +3592,7 @@
   },
   "vampire_400": {
     "title": "Der Pakt des Morgens",
-    "body": "Ein Teil des Clans will ein Versprechen. Die Jäger ein Zeichen. Die Morgendämmerung ist schon nahe.",
+    "body": "Ein Teil des Clans verlangt ein Versprechen. Die Jäger warten auf ein Zeichen. Die Morgendämmerung rückt bereits näher.",
     "choices": {
       "A": "Den Clan wählen",
       "B": "Die Jäger wählen",

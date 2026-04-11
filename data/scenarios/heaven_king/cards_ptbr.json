@@ -1,4 +1,4 @@
-﻿{
+{
   "heaven_001": {
     "id": "heaven_001",
     "universe": "heaven_king",
@@ -223,7 +223,7 @@
     "choices": {
       "A": "Soprar verdadeiras inspirações espirituais",
       "B": "Deixar a arte se desenvolver livremente",
-      "C": "Vincular essas obras a um novo microculto"
+      "C": "Transformar essas obras na base de um pequeno culto"
     },
     "body": "Jovens artistas criam obras sagradas em realidade virtual."
   },
@@ -258,7 +258,7 @@
     "description": "Um movimento espiritual defende os animais como criaturas sagradas.",
     "choices": {
       "A": "Ajudar a causa deles com alguns sinais discretos",
-      "B": "Deixar esse movimento permanecer pequeno",
+      "B": "Deixar esse movimento continuar limitado",
       "C": "Deixar esse movimento se tornar rígido demais"
     },
     "body": "Um movimento espiritual defende os animais como criaturas sagradas."
@@ -378,7 +378,7 @@
     "description": "Um eremita recebe visões, mas ninguém realmente o escuta.",
     "choices": {
       "A": "Dar mais força à mensagem dele",
-      "B": "Deixá-lo em sua solidão fecunda",
+      "B": "Deixá-lo sozinho com suas visões",
       "C": "Atrair ao redor dele discípulos muito zelosos"
     },
     "body": "Um eremita recebe visões, mas ninguém realmente o escuta."
@@ -402,7 +402,7 @@
     "description": "Um culto se concentra totalmente nos anjos e quase se esquece completamente de você.",
     "choices": {
       "A": "Deixar esse culto viver sua devoção aos anjos",
-      "B": "Lembrar suavemente que você está no centro",
+      "B": "Lembrar suavemente que você deve continuar no centro da fé deles",
       "C": "Usar esse culto para canalizar todas as orações"
     },
     "body": "Um culto se concentra totalmente nos anjos e quase se esquece completamente de você."
@@ -1197,7 +1197,8 @@
       "B": "Observar simplesmente como os mortais reagem a essa calma",
       "C": "Preparar discretamente a próxima grande provação"
     },
-    "body": "Após longos conflitos entre Paraíso e Infernos, uma calma estranha cai sobre a Terra."
+    "body": "Após longos conflitos entre Paraíso e Infernos, uma calma estranha cai sobre a Terra.",
+    "choice_a": "Enviar sinais de paz para ajudar a reconstruir."
   },
   "heaven_101": {
     "id": "heaven_101",
@@ -1495,7 +1496,7 @@
     "choices": {
       "A": "Inspirar ao redor deles palavras de apoio equilibradas",
       "B": "Não intervir na história deles",
-      "C": "Confirmar que uma separação seria uma falta grave"
+      "C": "Fazer acreditar que abandonar este altar atrai punição"
     },
     "body": "Um casal permanece junto principalmente por medo de uma pesada falta moral."
   },
@@ -1555,7 +1556,7 @@
     "choices": {
       "A": "Inspirar uma participante a denunciar esse conceito ao vivo",
       "B": "Deixar o programa fazer barulho",
-      "C": "Fazer uma má sorte atingir um vencedor para reforçar as ameaças"
+      "C": "Provocar uma desgraça em um vencedor para reforçar o medo"
     },
     "body": "Um reality show expõe comportamentos considerados imorais ligando-os ao Inferno."
   },
@@ -2119,7 +2120,7 @@
     "choices": {
       "A": "Inserir às vezes um espírito de fair play e respeito",
       "B": "Deixar as orações continuarem centradas na vitória",
-      "C": "Deixar alguns perdedores acreditarem que foram punidos"
+      "C": "Fazer acreditar que abandonar este altar atrai punição"
     },
     "body": "Equipes esportivas rezam principalmente para esmagar o adversário."
   },
@@ -2191,7 +2192,7 @@
     "choices": {
       "A": "Conceder antes um pequeno sinal discreto aos que mais sofrem",
       "B": "Deixar o show acontecer sem milagre evidente",
-      "C": "Fazer essa cura ser lida como punição aos céticos"
+      "C": "Fazer dizer que os céticos impediram o milagre"
     },
     "body": "Um encontro promete um milagre espetacular àqueles que tiverem uma fé perfeita."
   },
@@ -2537,9 +2538,9 @@
     "title": "Vendedor de perdões",
     "description": "Um homem vende mensagens prometendo perdão total a quem paga.",
     "choices": {
-      "A": "Oferecer uma doçura íntima que reabra a fé",
-      "B": "Deixar a desconfiança continuar dominante",
-      "C": "Deixar carrascos exigirem zero punição"
+      "A": "Inspirar alguns clientes a buscar um perdão sincero e gratuito",
+      "B": "Deixar esse comércio espiritual continuar",
+      "C": "Fazer acreditar que quem não paga nunca será perdoado"
     },
     "body": "Um homem vende mensagens prometendo perdão total a quem paga."
   },
@@ -2551,7 +2552,7 @@
     "choices": {
       "A": "Inspirar obras que mostrem a liberdade de escolher a luz",
       "B": "Deixar o festival se perder no sensacionalismo",
-      "C": "Deixar ameaçarem em nome do Céu"
+      "C": "Deixar alguns grupos ameaçarem os artistas em nome do Céu"
     },
     "body": "Uma cidade quer organizar um festival artístico que represente ao mesmo tempo o Paraíso e o Inferno."
   },
@@ -2621,9 +2622,9 @@
     "title": "Atração sobre o além",
     "description": "Um parque lança uma atração espetacular sobre o julgamento após a morte.",
     "choices": {
-      "A": "Permitir uma compaixão real pelos mais perdidos",
-      "B": "Deixar essas narrativas permanecerem simbólicas e incompreendidas",
-      "C": "Fazer esses espirituais serem condenados como aliados dos Infernos"
+      "A": "Inspirar uma atração que faça refletir sem assustar",
+      "B": "Deixar a atração continuar sendo um simples espetáculo",
+      "C": "Deixar a atração alimentar uma visão muito dura do julgamento"
     },
     "body": "Um parque lança uma atração espetacular sobre o julgamento após a morte."
   },
@@ -2717,9 +2718,9 @@
     "title": "Lágrimas no limiar do Céu",
     "description": "Pessoas próximas imaginam ver seus falecidos à beira de um lugar de paz e choram de alívio.",
     "choices": {
-      "A": "Inspirar um personagem que descubra uma bondade inesperada",
-      "B": "Deixar seus livros alimentarem essa visão ansiosa",
-      "C": "Fazer esses relatos viverem no medo das punições"
+      "A": "Dar a eles uma profunda sensação de paz",
+      "B": "Deixar essa visão permanecer como um consolo íntimo",
+      "C": "Fazer dizer que seus entes queridos ainda estão sendo mantidos longe da paz"
     },
     "body": "Pessoas próximas imaginam ver seus falecidos à beira de um lugar de paz e choram de alívio."
   },
@@ -2933,9 +2934,9 @@
     "title": "Série sobre os eleitos",
     "description": "Uma série conta que apenas alguns humanos seriam realmente escolhidos.",
     "choices": {
-      "A": "Inspirar alguns artesãos da paz capazes de ouvir os dois lados",
-      "B": "Deixar o ódio religioso se transmitir",
-      "C": "Deixar prometerem punições contra qualquer acordo de paz"
+      "A": "Inspirar cenas que lembrem que cada pessoa tem valor",
+      "B": "Deixar a série continuar alimentando essa ideia de elite",
+      "C": "Fazer acreditar que os não escolhidos estão condenados desde o começo"
     },
     "body": "Uma série conta que apenas alguns humanos seriam realmente escolhidos."
   },
@@ -3139,7 +3140,7 @@
     "choices": {
       "A": "Despertar algumas pessoas para essa manipulação",
       "B": "Deixar esse culto permanecer marginal",
-      "C": "Deixar quererem queimar tudo em nome de uma punição celestial"
+      "C": "Deixar alguns quererem queimar tudo em nome de uma punição celestial"
     },
     "body": "Numa região remota, um culto antigo mistura seu nome com forças mais sombrias vindas de baixo."
   },
@@ -3257,9 +3258,9 @@
     "title": "Praça das ideias proibidas",
     "description": "Uma grande praça se torna o lugar de debates sobre ideias religiosas consideradas proibidas.",
     "choices": {
-      "A": "Permitir um amor desinteressado pelos mais perdidos",
-      "B": "Deixar essas narrativas parecerem metáforas estranhas",
-      "C": "Fazê-las ser denunciadas como aliadas do Inferno"
+      "A": "Deixar esses debates abrirem perguntas sinceras",
+      "B": "Deixar esses debates girarem em círculos sem avançar",
+      "C": "Fazer os participantes serem denunciados como aliados do Inferno"
     },
     "body": "Uma grande praça se torna o lugar de debates sobre ideias religiosas consideradas proibidas."
   },
@@ -3785,7 +3786,7 @@
     "title": "Arte de rua luminosa",
     "description": "Um artista pinta afrescos de luz e asas nos muros da cidade.",
     "choices": {
-      "A": "Fazer alguns transeuntes se reerguerem com essas pinturas",
+      "A": "Reanimar alguns transeuntes com esses murais",
       "B": "Deixar esses afrescos virarem apenas uma moda visual",
       "C": "Adicionar placas religiosas"
     },
@@ -4049,7 +4050,7 @@
     "title": "Livro de imagens",
     "description": "Um ilustrador cria um livro sem texto, apenas com cenas de luz e sombra.",
     "choices": {
-      "A": "Deixar os leitores projetarem ali espontaneamente sua busca interior",
+      "A": "Deixar os leitores projetarem nele aquilo que buscam no fundo de si",
       "B": "Deixar o livro ser percebido como um objeto de arte",
       "C": "Adicionar um prefácio espiritual muito claro"
     },
@@ -4133,9 +4134,9 @@
     "title": "Guia dos caminhos espirituais",
     "description": "Um guia tenta explicar os diferentes caminhos espirituais com palavras muito eruditas.",
     "choices": {
-      "A": "Fazer nascer verdadeiras aproximações interiores",
-      "B": "Deixar esses círculos continuarem experimentais e limitados",
-      "C": "Estabelecer um protocolo fixo em torno da ideia"
+      "A": "Inspirar uma versão mais simples e mais clara deste guia",
+      "B": "Deixar este guia continuar complicado e pouco lido",
+      "C": "Transformar este guia em um método rígido a ser seguido"
     },
     "body": "Um guia tenta explicar os diferentes caminhos espirituais com palavras complicadas demais."
   },
@@ -4183,7 +4184,7 @@
     "choices": {
       "A": "Deixar os ouvintes encontrarem ali uma voz realmente reconfortante",
       "B": "Deixar o podcast continuar confidencial",
-      "C": "Transformá-lo em um programa estruturado da rede"
+      "C": "Transformá-lo em um programa oficial apoiado por uma grande rede"
     },
     "body": "Um pequeno podcast compartilha todos os dias um pensamento suave e acolhedor."
   },
@@ -4193,7 +4194,7 @@
     "title": "Olhar para o céu",
     "description": "Uma criança olha frequentemente para o céu sem saber muito bem por quê.",
     "choices": {
-      "A": "Deixar esse gesto se tornar um reflexo de confiança silenciosa",
+      "A": "Deixar esse gesto se tornar um pequeno hábito de confiança e calma",
       "B": "Deixar a criança crescer e esquecer esse gesto aos poucos",
       "C": "Ensinar a ela algumas palavras para dizer ao céu"
     },
@@ -4337,7 +4338,7 @@
     "title": "Redes sociais apaziguadas",
     "description": "Um criador lança uma página dedicada apenas a mensagens encorajadoras.",
     "choices": {
-      "A": "Soprar palavras que realmente acalmem e levantem quem lê",
+      "A": "Sugerir palavras que realmente acalmem e devolvam coragem a quem lê",
       "B": "Deixar a página encontrar seu público ou não",
       "C": "Fazer esse conceito ser absorvido por uma organização"
     },
@@ -4422,7 +4423,7 @@
     "description": "Uma empresa quer melhorar o clima entre colegas.",
     "choices": {
       "A": "Soprar gestos simples de reconhecimento no dia a dia",
-      "B": "Deixar a iniciativa continuar sendo apenas um seminário de RH",
+      "B": "Deixar essa iniciativa continuar sendo uma simples formação da empresa",
       "C": "Incentivar a direção a impor um código de conduta muito detalhado"
     },
     "body": "Uma empresa quer melhorar o clima entre colegas."
@@ -4434,7 +4435,7 @@
     "description": "Um escritório instala plantas e um canto de descanso com vista para o céu.",
     "choices": {
       "A": "Ajudar alguns a usarem esse canto para se recentrar interiormente",
-      "B": "Deixar esse espaço ser apenas um canto de café melhorado",
+      "B": "Deixar esse espaço continuar sendo apenas um cantinho de pausa mais agradável",
       "C": "Organizar ali momentos de meditação guiada"
     },
     "body": "Um escritório instala plantas e um canto de descanso com vista para o céu."
@@ -4543,7 +4544,7 @@
     "choices": {
       "A": "Deixar alguns sentirem uma verdadeira comunhão através dos sons",
       "B": "Deixar o círculo continuar sendo uma experiência musical divertida",
-      "C": "Incentivar o animador a impor uma estrutura e regras rígidas"
+      "C": "Incentivar o facilitador a impor uma estrutura e regras rígidas"
     },
     "body": "Um grupo se reúne para improvisar sons juntos sem julgamento."
   },
@@ -4553,7 +4554,7 @@
     "title": "Cantinho de leitura no metrô",
     "description": "Um vagão de metrô é redecorado com trechos de textos apaziguadores.",
     "choices": {
-      "A": "Fazer essas palavras serem lidas como um verdadeiro alívio",
+      "A": "Fazer desses textos uma verdadeira fonte de tranquilidade",
       "B": "Deixar esses textos passarem despercebidos para a maioria",
       "C": "Incentivar a empresa a reservar esse vagão para um uso muito regulamentado"
     },
@@ -4601,8 +4602,8 @@
     "title": "Oficina de soneca guiada",
     "description": "Um centro de bem-estar propõe uma soneca guiada para descansar no meio do dia.",
     "choices": {
-      "A": "Deixar alguns provarem um verdadeiro desapego próximo da oração",
-      "B": "Deixar a soneca guiada continuar sendo um simples serviço de bem-estar",
+      "A": "Permitir que alguns vivam um verdadeiro momento de calma interior",
+      "B": "Deixar a soneca guiada continuar sendo uma simples atividade de relaxamento",
       "C": "Criar um programa completo com etapas obrigatórias"
     },
     "body": "Um centro de bem-estar propõe uma soneca guiada para descansar no meio do dia."
@@ -4626,7 +4627,7 @@
     "description": "Um colégio cria um espaço onde um adulto fica disponível para ouvir os alunos.",
     "choices": {
       "A": "Deixar alguns encontrarem ali um verdadeiro espaço de fala e consolo",
-      "B": "Deixar esse canto falar sobretudo de estudos e futuro",
+      "B": "Deixar esse espaço servir principalmente para falar das aulas e do futuro",
       "C": "Cercar esse dispositivo de regras muito rígidas"
     },
     "body": "Um colégio cria um espaço onde um adulto fica disponível para ouvir os alunos."
@@ -4675,7 +4676,7 @@
     "choices": {
       "A": "Fazer surgir uma verdadeira consciência da sorte que têm",
       "B": "Deixar o desenho continuar sendo um exercício de artes",
-      "C": "Expor esses desenhos como regra moral"
+      "C": "Expor esses desenhos como modelo a ser seguido por todos"
     },
     "body": "Crianças desenham aquilo pelo que se sentem agradecidas."
   },
@@ -4711,7 +4712,7 @@
     "choices": {
       "A": "Soprar histórias que devolvam confiança",
       "B": "Deixar o podcast continuar sendo uma bolha otimista",
-      "C": "Incentivar uma rede a transformá-lo em uma ferramenta de comunicação controlada demais"
+      "C": "Incentivar uma grande rede a transformá-lo em um formato controlado demais"
     },
     "body": "Um podcast compartilha todos os dias uma boa notícia real."
   },
@@ -4730,7 +4731,7 @@
   "heaven_395": {
     "id": "heaven_395",
     "universe": "heaven_king",
-    "title": "Círculo 'uma pequena vitória'",
+    "title": "Círculo das pequenas vitórias",
     "description": "Um grupo se reúne toda semana para compartilhar uma pequena vitória pessoal.",
     "choices": {
       "A": "Ajudar essas partilhas a alimentarem a confiança interior de cada um",
@@ -4754,14 +4755,14 @@
   "heaven_397": {
     "id": "heaven_397",
     "universe": "heaven_king",
-    "title": "Dia 'obrigado, vida'",
+    "title": "Dia da gratidão",
     "description": "Uma escola organiza um dia para agradecer pelas pequenas coisas do cotidiano.",
     "choices": {
       "A": "Fazer nascer em alguns alunos um verdadeiro hábito de gratidão",
       "B": "Deixar o dia ser vivido como um projeto pedagógico",
       "C": "Transformá-lo em um grande ritual anual"
     },
-    "body": "Uma escola organiza um dia para agradecer pelas pequenas coisas do cotidiano."
+    "body": "Uma escola organiza um dia para agradecer pelas pequenas coisas do dia a dia"
   },
   "heaven_398": {
     "id": "heaven_398",
@@ -4778,7 +4779,7 @@
   "heaven_399": {
     "id": "heaven_399",
     "universe": "heaven_king",
-    "title": "Oficina 'cartas para o eu do futuro'",
+    "title": "Oficina de cartas para o seu eu do futuro",
     "description": "Participantes escrevem uma carta para a pessoa que serão daqui a dez anos.",
     "choices": {
       "A": "Soprar palavras de bondade e esperança nessas cartas",
@@ -4793,7 +4794,7 @@
     "title": "Bairro dos vaga-lumes",
     "description": "Um bairro decide apagar a iluminação desnecessária para enxergar melhor as estrelas.",
     "choices": {
-      "A": "Fazer sentir uma comunhão sob esse céu escuro",
+      "A": "Fazer dessa noite um verdadeiro momento de calma compartilhada",
       "B": "Deixar a medida ser vista como um gesto ecológico prático",
       "C": "Criar um grande evento em torno dessa noite"
     },

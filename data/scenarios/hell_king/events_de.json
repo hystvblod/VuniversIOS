@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "hell_king_ev_001": {
@@ -15,14 +15,14 @@
     },
     "hell_king_ev_003": {
       "title": "Seelenmarkt",
-      "body": "Die Gebote steigen. Die Schreiber notieren jeden Seufzer.",
+      "body": "Die Gebote steigen weiter. Die Schreiber notieren jedes Angebot und jede Beschwerde.",
       "effect": "Ordnung: -5 pro Karte",
       "duration": "Dauer: 4 Karten"
     },
     "hell_king_ev_004": {
-      "title": "Fest an der Oberfläche",
+      "title": "Fest in der Welt der Menschen",
       "body": "Eine viel zu laute Nacht dort oben. Die Folgen kommen schnell nach unten.",
-      "effect": "Oberfläche: +5 pro Karte",
+      "effect": "Welt der Menschen: +5 pro Karte",
       "duration": "Dauer: 5 Karten"
     },
     "hell_king_ev_005": {
@@ -45,8 +45,8 @@
     },
     "hell_king_ev_008": {
       "title": "Gerücht da oben",
-      "body": "An der Oberfläche macht ein Gerücht die Runde. Du spürst die Welle schon kommen.",
-      "effect": "Oberfläche: -5 pro Karte",
+      "body": "In der Welt der Menschen macht ein Gerücht die Runde. Du spürst die Welle schon kommen.",
+      "effect": "Welt der Menschen: -5 pro Karte",
       "duration": "Dauer: 5 Karten"
     },
     "hell_king_ev_009": {
@@ -64,13 +64,13 @@
     "hell_king_ev_011": {
       "title": "Erntebonus",
       "body": "Eine unerwartete Seelenernte. Du greifst natürlich zu.",
-      "effect": "Oberfläche: -5 pro Karte",
+      "effect": "Welt der Menschen: -5 pro Karte",
       "duration": "Dauer: 3 Karten"
     },
     "hell_king_ev_012": {
       "title": "Verbotener Karneval",
       "body": "Ein improvisierter Karneval. Das Lachen steigt, die Ordnung sinkt.",
-      "effect": "Oberfläche: +5 pro Karte",
+      "effect": "Welt der Menschen: +5 pro Karte",
       "duration": "Dauer: 7 Karten"
     },
     "hell_king_ev_013": {
@@ -100,7 +100,7 @@
     "hell_king_ev_017": {
       "title": "Kleiner Aufruhr",
       "body": "Ein kleiner Aufruhr. Nicht schlimm... außer wenn er anhält.",
-      "effect": "Oberfläche: +5 pro Karte",
+      "effect": "Welt der Menschen: +5 pro Karte",
       "duration": "Dauer: 4 Karten"
     },
     "hell_king_ev_018": {
@@ -124,12 +124,12 @@
     "hell_king_ev_021": {
       "title": "Regel des Tages",
       "body": "Neue Regel. Niemand mag sie, also funktioniert sie.",
-      "effect": "Oberfläche: -5 pro Karte",
+      "effect": "Welt der Menschen: -5 pro Karte",
       "duration": "Dauer: 5 Karten"
     },
     "hell_king_ev_022": {
       "title": "Lieferengpass",
-      "body": "Von irgendetwas gibt es zu wenig. Niemand weiß wovon, aber alle geraten in Panik.",
+      "body": "Ein Engpass zwingt die Kasernen zu einer schnellen Neuorganisation, und diese Neuordnung stärkt die Legionen.",
       "effect": "Legionen: +5 pro Karte",
       "duration": "Dauer: 7 Karten"
     },
@@ -164,9 +164,9 @@
       "duration": "Dauer: 4 Karten"
     },
     "hell_king_ev_028": {
-      "title": "Panik an der Oberfläche",
+      "title": "Panik in der Welt der Menschen",
       "body": "Dort oben gerät alles in Aufruhr. Hier unten kassierst du.",
-      "effect": "Oberfläche: -5 pro Karte",
+      "effect": "Welt der Menschen: -5 pro Karte",
       "duration": "Dauer: 6 Karten"
     },
     "hell_king_ev_029": {

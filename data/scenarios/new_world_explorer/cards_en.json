@@ -28,7 +28,7 @@
   },
   "nw_004": {
     "title": "Hidden Mine",
-    "body": "A guide speaks of a mine far from the shore and close to trouble.",
+    "body": "A guide speaks of a mine inland, in a dangerous area.",
     "choices": {
       "A": "Send soldiers",
       "B": "Send miners",
@@ -46,11 +46,11 @@
   },
   "nw_006": {
     "title": "Hungry Crew",
-    "body": "The sailors want a real feast and not more sad fish.",
+    "body": "The sailors want a real meal instead of the fish served every day.",
     "choices": {
       "A": "Pay for a grand meal",
       "B": "Promise something better later",
-      "C": "Buy local and invite the port"
+      "C": "Buy local supplies and invite the people of the port"
     }
   },
   "nw_007": {
@@ -100,7 +100,7 @@
   },
   "nw_012": {
     "title": "Wounded Messenger",
-    "body": "The royal messenger falls from his horse with our orders and our prestige.",
+    "body": "The royal messenger falls from his horse with our orders on him. Our credibility is at stake.",
     "choices": {
       "A": "Treat the messenger",
       "B": "Read the orders ourselves",
@@ -136,11 +136,11 @@
   },
   "nw_016": {
     "title": "Useless Noble",
-    "body": "A noble demands an escort to visit an empty beach in style.",
+    "body": "A noble demands an escort to visit an isolated beach.",
     "choices": {
       "A": "Give him an escort",
       "B": "Make him wait",
-      "C": "Send him with the cook"
+      "C": "Send him with a small escort"
     }
   },
   "nw_017": {
@@ -172,7 +172,7 @@
   },
   "nw_020": {
     "title": "Thieving Sailor",
-    "body": "A discreet sailor has pockets heavier than his pay.",
+    "body": "A sailor is suspected of stealing from the supplies.",
     "choices": {
       "A": "Punish him in public",
       "B": "Give him a chance",
@@ -181,11 +181,11 @@
   },
   "nw_021": {
     "title": "Temple by the Shore",
-    "body": "A small temple watches over the port and the village's eyes.",
+    "body": "A small temple near the port is important to the village.",
     "choices": {
       "A": "Respect it publicly",
       "B": "Use it as storage",
-      "C": "Offer oil to the place"
+      "C": "Offer oil to the temple"
     }
   },
   "nw_022": {
@@ -208,7 +208,7 @@
   },
   "nw_024": {
     "title": "Rumor of Revolt",
-    "body": "Whispers run through the port streets faster than our boots.",
+    "body": "Rumors of revolt are spreading through the port.",
     "choices": {
       "A": "Send the guard",
       "B": "Lower a tax",
@@ -217,7 +217,7 @@
   },
   "nw_025": {
     "title": "Empty Royal Treasury",
-    "body": "The fort treasury makes a very convincing empty sound.",
+    "body": "The fort’s treasury is almost empty.",
     "choices": {
       "A": "Raise a new tax",
       "B": "Sell stock",
@@ -226,7 +226,7 @@
   },
   "nw_026": {
     "title": "Secret Cove",
-    "body": "A hidden cove would be perfect for a depot or an escape.",
+    "body": "A hidden cove would be ideal for a secret storehouse or an escape route.",
     "choices": {
       "A": "Hide treasure there",
       "B": "Build an outpost there",
@@ -271,7 +271,7 @@
   },
   "nw_031": {
     "title": "Wandering Livestock",
-    "body": "Animals wander near our fields and close to the sailors' desires.",
+    "body": "Animals are wandering near our fields and already tempting the hungry sailors.",
     "choices": {
       "A": "Buy the herd",
       "B": "Seize it",
@@ -343,7 +343,7 @@
   },
   "nw_039": {
     "title": "Hill Route",
-    "body": "A road to the hills opens trade and shuts down sleep.",
+    "body": "A road to the hills would help trade, but it would increase the risk of attack.",
     "choices": {
       "A": "Secure the road",
       "B": "Tax the road",
@@ -352,7 +352,7 @@
   },
   "nw_040": {
     "title": "Smuggled Rum",
-    "body": "A barrel moves through the night faster than a royal document.",
+    "body": "A barrel of smuggled rum is being moved secretly during the night.",
     "choices": {
       "A": "Confiscate the rum",
       "B": "Sell the rum ourselves",
@@ -415,7 +415,7 @@
   },
   "nw_047": {
     "title": "Broken Coaster",
-    "body": "A small port boat sinks slowly and very publicly.",
+    "body": "A small boat from the port is taking on water in front of everyone.",
     "choices": {
       "A": "Repair it",
       "B": "Buy it for almost nothing",
@@ -424,7 +424,7 @@
   },
   "nw_048": {
     "title": "Rainy Season",
-    "body": "Rain can ruin the roads or wash away our mistakes, depending on its mood.",
+    "body": "The rainy season can block the roads and slow down the entire port.",
     "choices": {
       "A": "Reinforce the roads",
       "B": "Stock up and wait",
@@ -433,7 +433,7 @@
   },
   "nw_049": {
     "title": "Colored Fabric",
-    "body": "A local fabric turns heads and profit ideas.",
+    "body": "A highly sought-after local fabric could bring in a lot of profit.",
     "choices": {
       "A": "Buy all the stock",
       "B": "Tax the sales",
@@ -442,7 +442,7 @@
   },
   "nw_050": {
     "title": "Broken Beacon",
-    "body": "The cape beacon has fallen. The sea loves that kind of detail.",
+    "body": "The cape beacon has fallen, making the entrance to the bay more dangerous.",
     "choices": {
       "A": "Raise it quickly",
       "B": "Charge the ships",
@@ -523,7 +523,7 @@
   },
   "nw_059": {
     "title": "Black Powder",
-    "body": "Powder stocks are dropping while the reports rise in panic.",
+    "body": "The powder stock is falling and the reports are becoming alarming.",
     "choices": {
       "A": "Buy at a high price",
       "B": "Reduce gunfire",
@@ -622,7 +622,7 @@
   },
   "nw_070": {
     "title": "Creative Accountant",
-    "body": "The accountant always finds the right number for the wrong problem.",
+    "body": "The accountant manipulates the numbers to hide certain problems.",
     "choices": {
       "A": "Keep him because he is useful",
       "B": "Replace him",
@@ -694,7 +694,7 @@
   },
   "nw_078": {
     "title": "Smuggled Salt",
-    "body": "Salt leaves the warehouses faster than water leaks from barrels.",
+    "body": "Salt is disappearing from the warehouses before our eyes.",
     "choices": {
       "A": "Punish harshly",
       "B": "Lower the tax",
@@ -721,7 +721,7 @@
   },
   "nw_081": {
     "title": "Port Office",
-    "body": "The port office is drowning in paperwork and not in efficiency.",
+    "body": "The port office is overwhelmed with paperwork and is running badly.",
     "choices": {
       "A": "Pay for more scribes",
       "B": "Simplify the rules",
@@ -739,7 +739,7 @@
   },
   "nw_083": {
     "title": "Rival Company",
-    "body": "Another European company offers a deal that smells like a polite trap.",
+    "body": "Another European company is offering an agreement that seems risky.",
     "choices": {
       "A": "Sign a short pact",
       "B": "Sell them passage",
@@ -793,7 +793,7 @@
   },
   "nw_089": {
     "title": "Indigo Field",
-    "body": "Local indigo is valuable, but it takes land that feeds people better.",
+    "body": "Local indigo is valuable, but it takes the place of crops that feed people better.",
     "choices": {
       "A": "Plant more indigo",
       "B": "Keep mixed crops",
@@ -802,7 +802,7 @@
   },
   "nw_090": {
     "title": "Old Tower",
-    "body": "An old tower on the shore can serve as an outpost or fall onto our boots.",
+    "body": "An old tower on the shore could serve as an outpost or collapse on someone.",
     "choices": {
       "A": "Restore it",
       "B": "Dismantle it and sell the stone",
@@ -829,7 +829,7 @@
   },
   "nw_093": {
     "title": "Missing Chest",
-    "body": "A chest disappeared between the dock, the fort, and some very innocent looks.",
+    "body": "A chest vanished between the dock and the fort, but no one wants to admit anything.",
     "choices": {
       "A": "Search everyone",
       "B": "Offer a reward",
@@ -910,7 +910,7 @@
   },
   "nw_102": {
     "title": "Giant Fish",
-    "body": "A huge fish blocks the harbor entrance as if it paid rent.",
+    "body": "A very large fish is blocking the entrance to the port.",
     "choices": {
       "A": "Hunt it as a group",
       "B": "Sell it in pieces",
@@ -1000,7 +1000,7 @@
   },
   "nw_112": {
     "title": "Fragrant Wood",
-    "body": "A rare wood smells so good even the treasury notices.",
+    "body": "A rare wood is worth a lot and is already attracting the treasury’s attention.",
     "choices": {
       "A": "Sell it far away",
       "B": "Reserve it for ships",
@@ -1045,7 +1045,7 @@
   },
   "nw_117": {
     "title": "Rope Bridge",
-    "body": "A rope bridge shortens the road and lengthens the prayers.",
+    "body": "A rope bridge would shorten the route, but it would remain dangerous.",
     "choices": {
       "A": "Reinforce it",
       "B": "Charge for crossing",
@@ -1153,7 +1153,7 @@
   },
   "nw_129": {
     "title": "Fort Roof",
-    "body": "The fort roof leaks with a true sense of drama.",
+    "body": "The fort’s roof is leaking everywhere.",
     "choices": {
       "A": "Redo it with new wood",
       "B": "Repair only the worst parts",
@@ -1189,7 +1189,7 @@
   },
   "nw_133": {
     "title": "Dockside Inn",
-    "body": "An inn opens and promises rest, rumors, and weak bills.",
+    "body": "An inn is opening in the port and promises to attract travelers, rumors, and spending.",
     "choices": {
       "A": "Tax it",
       "B": "House our visitors there",
@@ -1279,7 +1279,7 @@
   },
   "nw_143": {
     "title": "Cracked Dike",
-    "body": "A dike is cracking, and the sea already has an opinion.",
+    "body": "A dike is cracking and the sea is already pushing hard against it.",
     "choices": {
       "A": "Repair it quickly",
       "B": "Repair only the crossing",
@@ -1297,7 +1297,7 @@
   },
   "nw_145": {
     "title": "Southern Vineyard",
-    "body": "A local vineyard yields light wine and very heavy debates.",
+    "body": "A local vineyard produces a light wine, but it also causes long arguments.",
     "choices": {
       "A": "Buy the harvest",
       "B": "Invite the chiefs to taste it",
@@ -1369,7 +1369,7 @@
   },
   "nw_153": {
     "title": "Missing Rowers",
-    "body": "Half the rowers have found a better excuse than the sea.",
+    "body": "Half of the rowers have found an excuse to avoid the sea.",
     "choices": {
       "A": "Pay a bonus",
       "B": "Recruit from the village",
@@ -1378,7 +1378,7 @@
   },
   "nw_154": {
     "title": "Quiet Pepper",
-    "body": "Pepper moves beneath the dock as if it had legs.",
+    "body": "Smuggled pepper is moving discreetly under the dock.",
     "choices": {
       "A": "Increase searches",
       "B": "Lower the tax",
@@ -1423,7 +1423,7 @@
   },
   "nw_159": {
     "title": "Calm Basin",
-    "body": "A natural basin could shelter small ships without drama.",
+    "body": "A natural basin could shelter small ships safely.",
     "choices": {
       "A": "Make it an auxiliary harbor",
       "B": "Keep it for the army",
@@ -1468,7 +1468,7 @@
   },
   "nw_164": {
     "title": "Broken Mast",
-    "body": "A ship loses its mast in the harbor with a very convincing crash.",
+    "body": "A ship loses its mast in the port with a crash that alerts everyone.",
     "choices": {
       "A": "Help repair it",
       "B": "Buy the ship",
@@ -1522,7 +1522,7 @@
   },
   "nw_170": {
     "title": "Salt Road",
-    "body": "A salt road could enrich the bay or drain our guards.",
+    "body": "A salt route could enrich the bay or exhaust our guards.",
     "choices": {
       "A": "Open it and tax it",
       "B": "Keep it military",
@@ -1540,7 +1540,7 @@
   },
   "nw_172": {
     "title": "Broken Baskets",
-    "body": "The market baskets make pineapples move faster than the vendor.",
+    "body": "The market baskets are too damaged to carry pineapples properly.",
     "choices": {
       "A": "Buy new baskets",
       "B": "Have them woven on site",
@@ -1576,7 +1576,7 @@
   },
   "nw_176": {
     "title": "Sugar Cane",
-    "body": "Sugar cane grows well and makes the ledgers very greedy.",
+    "body": "Sugar cane is growing well and is already making the accountants dream.",
     "choices": {
       "A": "Create a large field",
       "B": "Keep a small crop",
@@ -1585,7 +1585,7 @@
   },
   "nw_177": {
     "title": "Official Hammock",
-    "body": "An officer wants hammocks to improve sleep strategy.",
+    "body": "An officer wants hammocks so the men can finally sleep properly.",
     "choices": {
       "A": "Buy them",
       "B": "Reserve them for the wounded",
@@ -1621,7 +1621,7 @@
   },
   "nw_181": {
     "title": "Rigged Weights",
-    "body": "Some market weights are lighter than the truth.",
+    "body": "Some of the market weights are rigged.",
     "choices": {
       "A": "Seize the fake weights",
       "B": "Create a public scale",
@@ -1666,7 +1666,7 @@
   },
   "nw_186": {
     "title": "Smart Bamboo",
-    "body": "Local bamboo is useful for everything and knows it very well.",
+    "body": "Local bamboo is useful for everything and quickly becomes indispensable.",
     "choices": {
       "A": "Buy a large stock",
       "B": "Let the craftsmen handle it",
@@ -1810,7 +1810,7 @@
   },
   "nw_202": {
     "title": "Overripe Bananas",
-    "body": "Bananas are threatening the dock and the noses of passersby.",
+    "body": "Overripe bananas are cluttering the dock and stinking up the air around it.",
     "choices": {
       "A": "Sell them quickly",
       "B": "Dry them",
@@ -1828,7 +1828,7 @@
   },
   "nw_204": {
     "title": "Unnamed Crate",
-    "body": "A crate arrives with no mark, no papers, and plenty of nerve.",
+    "body": "A crate arrives with no mark, no papers, and no explanation.",
     "choices": {
       "A": "Open it",
       "B": "Tax it",
@@ -1846,7 +1846,7 @@
   },
   "nw_206": {
     "title": "Varnished Boat",
-    "body": "A local boat shines so brightly that we see its reflection before its sails.",
+    "body": "A local boat is so polished that you notice its shiny hull before you even notice its sails.",
     "choices": {
       "A": "Buy it for parade use",
       "B": "Rent it for trade",
@@ -1891,7 +1891,7 @@
   },
   "nw_211": {
     "title": "Flooded Garden",
-    "body": "The camp garden looks like green soup after the rain.",
+    "body": "The camp garden is soaked and covered with standing water after the rain.",
     "choices": {
       "A": "Dig drainage channels",
       "B": "Move the seedlings",
@@ -1900,7 +1900,7 @@
   },
   "nw_212": {
     "title": "Headwind",
-    "body": "The wind pushes our sails the wrong way with real conviction.",
+    "body": "The wind is clearly pushing our sails in the wrong direction.",
     "choices": {
       "A": "Wait",
       "B": "Add rowers",
@@ -1918,7 +1918,7 @@
   },
   "nw_214": {
     "title": "Giant Squash",
-    "body": "Giant squash invades the garden like big orange lords.",
+    "body": "Giant pumpkins are invading the vegetable garden and taking up all the space.",
     "choices": {
       "A": "Sell them",
       "B": "Offer them",
@@ -1954,7 +1954,7 @@
   },
   "nw_218": {
     "title": "Nest on the Tower",
-    "body": "Birds have chosen the tower as their official palace.",
+    "body": "Birds have built their nest on the tower and are getting in the way of watch duty.",
     "choices": {
       "A": "Move the nest",
       "B": "Let it be",
@@ -1999,7 +1999,7 @@
   },
   "nw_223": {
     "title": "Barefoot Soldiers",
-    "body": "Some boots have vanished, and the soldiers stare at the ground in blame.",
+    "body": "Boots have gone missing and the soldiers are blaming one another.",
     "choices": {
       "A": "Order boots",
       "B": "Buy them locally",
@@ -2026,7 +2026,7 @@
   },
   "nw_226": {
     "title": "Forgotten Canteen",
-    "body": "The workers forget their canteens and end up grumbling very dryly.",
+    "body": "The workers forget their canteens and end up complaining more and more.",
     "choices": {
       "A": "Hand out canteens",
       "B": "Set up a water reserve",
@@ -2080,7 +2080,7 @@
   },
   "nw_232": {
     "title": "Awkward Gift",
-    "body": "A neighboring chief offers a large drum that takes up more space than meaning.",
+    "body": "A neighboring chief offers a large drum that takes up a lot of space and is not very useful.",
     "choices": {
       "A": "Accept it",
       "B": "Resell it",
@@ -2161,7 +2161,7 @@
   },
   "nw_241": {
     "title": "Monkey in the Granary",
-    "body": "A monkey steals grain with the precision of a tax collector.",
+    "body": "A monkey is stealing grain with remarkable efficiency.",
     "choices": {
       "A": "Chase it away",
       "B": "Seal the granary better",
@@ -2170,7 +2170,7 @@
   },
   "nw_242": {
     "title": "Dock Ducks",
-    "body": "Some ducks occupy the dock as if they were paying the guard.",
+    "body": "Ducks are crowding the dock and blocking the way.",
     "choices": {
       "A": "Move them",
       "B": "Make a small pond",
@@ -2233,7 +2233,7 @@
   },
   "nw_249": {
     "title": "Champion Mosquitoes",
-    "body": "The swamp mosquitoes win every evening battle.",
+    "body": "The swamp mosquitoes invade the camp every evening.",
     "choices": {
       "A": "Buy netting",
       "B": "Make more smoke",
@@ -2269,7 +2269,7 @@
   },
   "nw_253": {
     "title": "Observation Tower",
-    "body": "A small tower would offer a fine view and long expenses.",
+    "body": "A small tower would offer a fine view, but it would be expensive to build and man.",
     "choices": {
       "A": "Build it",
       "B": "Set up a simple platform",
@@ -2278,7 +2278,7 @@
   },
   "nw_254": {
     "title": "Wet Rope",
-    "body": "Wet ropes weigh like broken promises.",
+    "body": "Wet ropes are far too heavy to handle.",
     "choices": {
       "A": "Dry them under shelter",
       "B": "Buy new ones",
@@ -2296,7 +2296,7 @@
   },
   "nw_256": {
     "title": "Loose Stakes",
-    "body": "Some stakes shift in the mud as if they wanted to leave.",
+    "body": "Some stakes are shifting in the mud and no longer hold properly.",
     "choices": {
       "A": "Drive them in again",
       "B": "Bring in a local expert",
@@ -2305,7 +2305,7 @@
   },
   "nw_257": {
     "title": "Rolling Barrel",
-    "body": "A barrel rolls down the dock on its own, and no one thanked it.",
+    "body": "A barrel is rolling down the dock on its own because it was badly secured.",
     "choices": {
       "A": "Block the slopes",
       "B": "Stack things differently",
@@ -2467,7 +2467,7 @@
   },
   "nw_275": {
     "title": "Night Patrol Missing",
-    "body": "The night patrol sometimes forgets itself all on its own.",
+    "body": "The night patrol is sometimes forgotten.",
     "choices": {
       "A": "Double the patrol",
       "B": "Pay a night bonus",
@@ -2494,7 +2494,7 @@
   },
   "nw_278": {
     "title": "Half-Open Door",
-    "body": "The depot door often stays half open out of habit or laziness.",
+    "body": "The warehouse door is often left half-open out of habit or negligence.",
     "choices": {
       "A": "Change the lock",
       "B": "Post a watcher",
@@ -2530,7 +2530,7 @@
   },
   "nw_282": {
     "title": "Tired Mule",
-    "body": "The depot mule now moves only in response to praise.",
+    "body": "The warehouse mule can barely move anymore.",
     "choices": {
       "A": "Replace it",
       "B": "Lighten its load",
@@ -2539,7 +2539,7 @@
   },
   "nw_283": {
     "title": "Wobbly Wheel",
-    "body": "A wobbly wheel gives the cart the style of a sad dancer.",
+    "body": "A wobbly wheel makes the whole cart sway.",
     "choices": {
       "A": "Replace it",
       "B": "Repair it in the village",
@@ -2710,7 +2710,7 @@
   },
   "nw_302": {
     "title": "Rain on the Ledgers",
-    "body": "The office papers drink the rain with far too much enthusiasm.",
+    "body": "The office papers are getting rained on and being damaged.",
     "choices": {
       "A": "Copy them somewhere dry",
       "B": "Move the office",
@@ -2719,7 +2719,7 @@
   },
   "nw_303": {
     "title": "Quiet Cove",
-    "body": "A calm cove could serve better than it sleeps.",
+    "body": "A calm cove could serve as a small dock or shelter.",
     "choices": {
       "A": "Build a small dock there",
       "B": "Keep it military",
@@ -2764,7 +2764,7 @@
   },
   "nw_308": {
     "title": "Office Window",
-    "body": "The office lacks air, and so do the accounts.",
+    "body": "The office lacks fresh air, and the scribes are working badly in it.",
     "choices": {
       "A": "Make it bigger",
       "B": "Open it in the morning",
@@ -2773,7 +2773,7 @@
   },
   "nw_309": {
     "title": "Leaning Tree",
-    "body": "A tree by the dock leans as if it were listening to everything.",
+    "body": "A tree by the dock is leaning dangerously over the walkway.",
     "choices": {
       "A": "Cut it down",
       "B": "Support it",
@@ -2800,7 +2800,7 @@
   },
   "nw_312": {
     "title": "Useful Rock",
-    "body": "A large rock on the shore seems ready to work for us.",
+    "body": "A large rock by the water could be developed for use.",
     "choices": {
       "A": "Carve steps into it",
       "B": "Set a post on it",
@@ -2863,7 +2863,7 @@
   },
   "nw_319": {
     "title": "Leaky Boat",
-    "body": "A boat takes on water with exemplary regularity.",
+    "body": "A boat takes on water almost every time it goes out.",
     "choices": {
       "A": "Repair it",
       "B": "Resell it",
@@ -3025,7 +3025,7 @@
   },
   "nw_337": {
     "title": "Red Rope",
-    "body": "A rope dyed red attracts eyes more than arms.",
+    "body": "A rope dyed red can be spotted from far away, but it is no more useful.",
     "choices": {
       "A": "Keep it for the dock",
       "B": "Sell it",
@@ -3115,7 +3115,7 @@
   },
   "nw_347": {
     "title": "Covered Market",
-    "body": "The market has dreamed of a roof through many damp moons.",
+    "body": "The market has needed a roof for a long time.",
     "choices": {
       "A": "Build it",
       "B": "Start small",
@@ -3187,7 +3187,7 @@
   },
   "nw_355": {
     "title": "Narrow Door",
-    "body": "The depot's small door hates large crates.",
+    "body": "The small storehouse door does not let large crates through easily.",
     "choices": {
       "A": "Widen it",
       "B": "Send things through in order",
@@ -3241,7 +3241,7 @@
   },
   "nw_361": {
     "title": "Blue Lantern",
-    "body": "A blue lantern lights better than all our seriousness.",
+    "body": "A blue lantern lights better than our current lanterns.",
     "choices": {
       "A": "Adopt it on the dock",
       "B": "Sell it as a curiosity",
@@ -3295,7 +3295,7 @@
   },
   "nw_367": {
     "title": "Smooth Stone",
-    "body": "A polished stone slips less and costs even less than a fall.",
+    "body": "A polished stone is not very slippery and costs less than an injury.",
     "choices": {
       "A": "Pave the entrance",
       "B": "Sell it in blocks",
@@ -3358,7 +3358,7 @@
   },
   "nw_374": {
     "title": "Fragile Package",
-    "body": "The package almost trembles by itself when you look at it.",
+    "body": "The package seems so fragile that one barely dares to move it.",
     "choices": {
       "A": "Carry it by hand",
       "B": "Store it in the fort",
@@ -3394,7 +3394,7 @@
   },
   "nw_378": {
     "title": "Camp Sheets",
-    "body": "The camp sheets have the color of exhaustion.",
+    "body": "The camp sheets are worn out and dirty.",
     "choices": {
       "A": "Replace them",
       "B": "Wash them in the village",
@@ -3403,7 +3403,7 @@
   },
   "nw_379": {
     "title": "Royal Seal",
-    "body": "The great seal gives weight to papers and time to the lines.",
+    "body": "The great royal seal makes official documents more important, but it slows every line down.",
     "choices": {
       "A": "Seal everything",
       "B": "Seal only the contracts",
@@ -3430,7 +3430,7 @@
   },
   "nw_382": {
     "title": "Fast Scribe",
-    "body": "A scribe copies so quickly that we could easily find him another stack.",
+    "body": "One scribe copies so quickly that we could give him more work.",
     "choices": {
       "A": "Give him more work",
       "B": "Find him an assistant",
@@ -3448,7 +3448,7 @@
   },
   "nw_384": {
     "title": "Sweet Barrel",
-    "body": "A very sweet barrel attracts tongues and ideas alike.",
+    "body": "A very sweet barrel is attracting curious people and thieves.",
     "choices": {
       "A": "Sell it",
       "B": "Serve it at the table",
@@ -3466,7 +3466,7 @@
   },
   "nw_386": {
     "title": "Flat Ground",
-    "body": "A nice flat piece of land makes storage and markets dream.",
+    "body": "A flat piece of land would be ideal for a warehouse or a market.",
     "choices": {
       "A": "Make it a depot",
       "B": "Hold a market there",
@@ -3484,7 +3484,7 @@
   },
   "nw_388": {
     "title": "Soaked Guard",
-    "body": "The gate guard looks like an armed sponge.",
+    "body": "The gate guard is soaked from head to toe.",
     "choices": {
       "A": "Give him a cape",
       "B": "Change his post",
@@ -3502,7 +3502,7 @@
   },
   "nw_390": {
     "title": "Morning Market",
-    "body": "The market wants to open earlier than the office sun.",
+    "body": "The market wants to open earlier than the office.",
     "choices": {
       "A": "Open earlier",
       "B": "Test it for one day",

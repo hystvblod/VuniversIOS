@@ -1,4 +1,4 @@
-﻿{
+{
   "vampire_001": {
     "title": "A bolsa de sangue orgânico",
     "body": "Um estoque de sangue desaparece. Alguém fez reservas sem autorização.",
@@ -127,7 +127,7 @@
   },
   "vampire_015": {
     "title": "O pacto do bairro",
-    "body": "As gangues locais querem um acordo. Proteção em troca de discrição.",
+    "body": "As gangues locais querem um acordo. Elas oferecem silêncio em troca da sua proteção.",
     "choices": {
       "A": "Aceitar e impor regras",
       "B": "Recusar e assustá-los",
@@ -185,7 +185,7 @@
     "choices": {
       "A": "Treinar o novato",
       "B": "Escondê-lo do clã",
-      "C": "Escondê-lo em um abrigo secreto"
+      "C": "Entregá-lo a um ancião para treiná-lo"
     }
   },
   "vampire_022": {
@@ -343,7 +343,7 @@
   },
   "vampire_039": {
     "title": "A chuva benta",
-    "body": "Chove uma água que queima um pouco. Alguém benzeu as nuvens, sim.",
+    "body": "Está chovendo uma água que queima a pele. Alguém encontrou um jeito de abençoar a chuva.",
     "choices": {
       "A": "Encontrar a origem",
       "B": "Se esconder",
@@ -370,7 +370,7 @@
   },
   "vampire_042": {
     "title": "A biblioteca selada",
-    "body": "Uma biblioteca proíbe o acesso a uma sala. O clã diz que ela canta à noite.",
+    "body": "Uma biblioteca proibiu o acesso a uma sala. O clã diz que dá para ouvir vozes lá dentro à noite.",
     "choices": {
       "A": "Forçar a entrada",
       "B": "Pedir permissão",
@@ -451,7 +451,7 @@
   },
   "vampire_051": {
     "title": "O trem da noite",
-    "body": "Um trem noturno chega vazio. Os assentos estão quentes. Quentes demais.",
+    "body": "Um trem noturno entra na estação completamente vazio. Mesmo assim, os bancos ainda estão quentes. Caçadores?",
     "choices": {
       "A": "Subir a bordo",
       "B": "Avisar o clã",
@@ -568,11 +568,11 @@
   },
   "vampire_064": {
     "title": "A adega inundada",
-    "body": "Tua adega secreta está inundada. Os caixões boiam, num clima ridículo.",
+    "body": "Seu porão secreto está inundado. Os caixões estão boiando e a situação está ficando impossível de esconder.",
     "choices": {
       "A": "Salvar as reservas",
       "B": "Mudar de esconderijo",
-      "C": "Transformar isso em atração secreta"
+      "C": "Transformar o porão em uma armadilha para curiosos"
     }
   },
   "vampire_065": {
@@ -635,7 +635,7 @@
     "choices": {
       "A": "Remover a foto",
       "B": "Negar com humor",
-      "C": "Culpar um filtro"
+      "C": "Dizer que a foto foi manipulada"
     }
   },
   "vampire_072": {
@@ -721,7 +721,7 @@
   },
   "vampire_081": {
     "title": "O novo símbolo",
-    "body": "Um símbolo desconhecido aparece nos teus muros. Não é símbolo do clã nem marca conhecida. É outra coisa.",
+    "body": "Um símbolo desconhecido aparece nas suas paredes. Não é nem um sinal do clã nem uma marca conhecida. Caçadores?",
     "choices": {
       "A": "Investigar",
       "B": "Apagar tudo",
@@ -901,7 +901,7 @@
   },
   "vampire_101": {
     "title": "O mercado de antiguidades",
-    "body": "O vendedor diz que isso veio de uma adega. Claro. As adegas sempre levam a culpa.",
+    "body": "O vendedor diz que o objeto veio de um porão antigo, mas a história dele parece inventada.",
     "choices": {
       "A": "Comprar discretamente",
       "B": "Roubá-lo esta noite",
@@ -919,7 +919,7 @@
   },
   "vampire_103": {
     "title": "O cinegrafista insone",
-    "body": "Ele adora sombras, becos e silhuetas. Está a dois passos de filmar a silhueta errada.",
+    "body": "Ele adora filmar sombras e becos à noite. Está a um passo de filmar você ou alguém do seu clã.",
     "choices": {
       "A": "Convencê-lo a parar",
       "B": "Sabotar o equipamento dele",
@@ -1009,7 +1009,7 @@
   },
   "vampire_113": {
     "title": "O ônibus da noite",
-    "body": "Toda noite, janelas cheias de olhos. Os olhos observam. Um dia, vão enxergar.",
+    "body": "Toda noite, os passageiros do ônibus veem a entrada do esconderijo. Mais cedo ou mais tarde, um deles vai notar alguma coisa.",
     "choices": {
       "A": "Mandar mudar a rota",
       "B": "Camuflar a entrada",
@@ -1135,7 +1135,7 @@
   },
   "vampire_127": {
     "title": "O cofre que range",
-    "body": "O cofre nunca fez barulho. Agora geme. E os arquivos têm gosto de segredo.",
+    "body": "O cofre nunca fez barulho. Agora geme. Alguém pode ter mexido nos arquivos.",
     "choices": {
       "A": "Abrir e verificar",
       "B": "Selá-lo",
@@ -1180,7 +1180,7 @@
   },
   "vampire_132": {
     "title": "A chuva ácida",
-    "body": "Não é o sol. É outra coisa. E outra coisa geralmente significa armadilha.",
+    "body": "Está caindo chuva ácida na área. Não é o sol, mas sair continua sendo perigoso.",
     "choices": {
       "A": "Ficar no esconderijo",
       "B": "Buscar a origem",
@@ -1292,7 +1292,7 @@
     "choices": {
       "A": "Aceitar e proteger",
       "B": "Recusar e vigiá-lo",
-      "C": "Substituí-lo"
+      "C": "Substituí-lo por alguém mais confiável"
     }
   },
   "vampire_145": {
@@ -1396,7 +1396,7 @@
   },
   "vampire_156": {
     "title": "O ruído sob a pedra",
-    "body": "Arranhão, respiração, silêncio. As três etapas de um problema que está crescendo.",
+    "body": "Ouve-se um arranhão sob a pedra, depois uma respiração, depois mais nada. Alguma coisa está se movendo atrás da parede.",
     "choices": {
       "A": "Abrir e ver",
       "B": "Selar e esquecer",
@@ -1450,7 +1450,7 @@
   },
   "vampire_162": {
     "title": "A bomba midiática",
-    "body": "O círculo vermelho mira teu rosto. Você sabe que o próximo vai mirar teu esconderijo.",
+    "body": "Um veículo de mídia divulga uma imagem borrada em que seu rosto está marcado com um círculo vermelho. Se a investigação continuar, eles vão acabar localizando seu esconderijo.",
     "choices": {
       "A": "Eliminar a fonte",
       "B": "Criar um escândalo falso em outro lugar",
@@ -1495,7 +1495,7 @@
   },
   "vampire_167": {
     "title": "A armadilha de sal",
-    "body": "É simples, eficaz e humilhante. Em teoria, você não prende um vampiro com sal. Mas desta vez funcionou.",
+    "body": "Uma armadilha de sal bloqueia uma das suas passagens. Alguém conhece seus hábitos melhor do que o esperado.",
     "choices": {
       "A": "Desativá-la e seguir o autor",
       "B": "Mudar de túnel",
@@ -1522,7 +1522,7 @@
   },
   "vampire_170": {
     "title": "A sussurradora",
-    "body": "Ela não foge. Sussurra e parece chamar alguma coisa das sombras. Isso não é normal.",
+    "body": "Ela não foge. Sussurra como se estivesse tentando atrair alguém, ou alguma coisa, da sombra.",
     "choices": {
       "A": "Aproximar-se com calma",
       "B": "Afastá-la pelo medo",
@@ -1612,7 +1612,7 @@
   },
   "vampire_180": {
     "title": "O plano de reforma",
-    "body": "Operários, lâmpadas, plantas e horários. Tudo aquilo que você não pode morder.",
+    "body": "Operários chegam com luzes, plantas e horários. A obra ameaça diretamente os seus acessos.",
     "choices": {
       "A": "Mandar cancelar as obras",
       "B": "Mover os acessos",
@@ -1756,7 +1756,7 @@
   },
   "vampire_196": {
     "title": "Cofre do clã vazio",
-    "body": "O cofre de oferendas está vazio. O clã briga e a situação fica pública.",
+    "body": "O cofre de oferendas está vazio. O clã briga e os boatos começam a sair do esconderijo.",
     "choices": {
       "A": "Devolver o dinheiro e enquadrar todos",
       "B": "Apontar um culpado",
@@ -1954,7 +1954,7 @@
   },
   "vampire_218": {
     "title": "Caça visível demais",
-    "body": "Uma caçada virou espetáculo. Sirenes. Vídeos. Um verdadeiro show gratuito.",
+    "body": "Uma caçada virou um espetáculo público. Sirenes, vídeos e testemunhas agora estão chamando atenção para o clã.",
     "choices": {
       "A": "Punir o responsável",
       "B": "Encobrir o caso",
@@ -2053,7 +2053,7 @@
   },
   "vampire_229": {
     "title": "O pacto das ruas",
-    "body": "Humanos propõem um pacto. Oferecem silêncio em troca de proteção. É comércio.",
+    "body": "Alguns humanos propõem um pacto. Eles oferecem silêncio em troca da sua proteção. É um acordo claro.",
     "choices": {
       "A": "Aceitar e enquadrar",
       "B": "Recusar e impor o medo",
@@ -2224,7 +2224,7 @@
   },
   "vampire_248": {
     "title": "O festival das lanternas",
-    "body": "Um festival ilumina as ruas a noite toda. Zero sombra. Teu território virou um aquário.",
+    "body": "Um festival ilumina as ruas a noite inteira. Seu território fica iluminado demais para caçar com discrição.",
     "choices": {
       "A": "Suspender a caça",
       "B": "Caçar na periferia",
@@ -2296,7 +2296,7 @@
   },
   "vampire_256": {
     "title": "A adega dos humanos",
-    "body": "Uma adega escondida guarda reservas humanas. Quem fez isso. E por que aqui.",
+    "body": "Um porão escondido contém humanos mantidos como prisioneiros. Quem trancou essas pessoas aqui, e por quê?",
     "choices": {
       "A": "Libertar e apagar os rastros",
       "B": "Usar e controlar",
@@ -2323,7 +2323,7 @@
   },
   "vampire_259": {
     "title": "A caça ao drone",
-    "body": "Drones voam pela noite. Procuram calor. Vampiros não esquentam, mas observam.",
+    "body": "Drones voam à noite. Eles procuram fontes de calor. Mesmo que não te detectem bem, ainda podem vigiar os acessos.",
     "choices": {
       "A": "Derrubar os drones",
       "B": "Desviá-los",
@@ -2395,7 +2395,7 @@
   },
   "vampire_267": {
     "title": "A briga pelas partes",
-    "body": "O clã discute a divisão do sangue. Parece reunião de condomínio.",
+    "body": "O clã está brigando pela distribuição de sangue. O conflito já é sério o bastante para ameaçar a ordem no esconderijo.",
     "choices": {
       "A": "Definir uma divisão",
       "B": "Distribuir por mérito",
@@ -2458,7 +2458,7 @@
   },
   "vampire_274": {
     "title": "A investigação particular",
-    "body": "Um detetive particular anda fuçando teu bairro. Ele não tem medo. Isso é novidade.",
+    "body": "Um detetive particular anda investigando seu bairro sem o menor medo. O fato de ele não ter medo o torna mais perigoso.",
     "choices": {
       "A": "Desviá-lo da investigação",
       "B": "Recrutá-lo",
@@ -2530,7 +2530,7 @@
   },
   "vampire_282": {
     "title": "O porão úmido",
-    "body": "O porão do esconderijo pinga por toda parte. Até os caixões já estão reclamando.",
+    "body": "O porão do refúgio pinga por toda parte. A umidade está começando a estragar os caixões.",
     "choices": {
       "A": "Consertar rápido",
       "B": "Mover o estoque",
@@ -2539,7 +2539,7 @@
   },
   "vampire_283": {
     "title": "O vizinho sem cortinas",
-    "body": "Um vizinho nunca dorme e vigia a rua. Ele coleciona detalhes.",
+    "body": "Um vizinho nunca dorme e observa a rua. Ele percebe o menor detalhe.",
     "choices": {
       "A": "Distraí-lo",
       "B": "Mudar teus hábitos",
@@ -2642,7 +2642,7 @@
     "choices": {
       "A": "Roubá-la",
       "B": "Esperar mais",
-      "C": "Enviar humanos"
+      "C": "Enviar humanos para roubar a relíquia"
     }
   },
   "vampire_295": {
@@ -2668,7 +2668,7 @@
     "body": "O clã organiza um bingo para financiar tuas noites. A ideia é horrível e lucrativa.",
     "choices": {
       "A": "Controlar o jogo",
-      "B": "Proibir essa vergonha",
+      "B": "Acabar com esse circo",
       "C": "Ficar com o caixa"
     }
   },
@@ -2863,7 +2863,7 @@
   },
   "vampire_319": {
     "title": "O piano do hall",
-    "body": "Um piano começa a tocar sozinho no hall. Muito elegante. Muito mau sinal.",
+    "body": "Um piano começa a tocar sozinho no saguão. O fenômeno inquieta o clã e pode anunciar perigo.",
     "choices": {
       "A": "Cortar o som",
       "B": "Trazer um ancião",
@@ -3187,7 +3187,7 @@
   },
   "vampire_355": {
     "title": "O tabelião clandestino",
-    "body": "Um tabelião clandestino se oferece para lavar tuas heranças. Isso fede a armadilha.",
+    "body": "Um notário clandestino propõe lavar o seu patrimônio. Isso cheira a armadilha.",
     "choices": {
       "A": "Tentar",
       "B": "Vigiá-lo",
@@ -3200,7 +3200,7 @@
     "choices": {
       "A": "Corromper a obra",
       "B": "Mudar de rota",
-      "C": "Trabalhar à noite"
+      "C": "Passar depois que os operários forem embora"
     }
   },
   "vampire_357": {
@@ -3214,7 +3214,7 @@
   },
   "vampire_358": {
     "title": "O quadro das dívidas",
-    "body": "Alguém expõe as dívidas do clã no hall. O clima fica deliciosamente péssimo.",
+    "body": "Alguém expõe as dívidas do clã no saguão. A tensão sobe na mesma hora em todo o esconderijo.",
     "choices": {
       "A": "Punir o autor",
       "B": "Apagar o quadro",
@@ -3250,7 +3250,7 @@
   },
   "vampire_362": {
     "title": "O novo código",
-    "body": "O clã mudou todos os códigos sem te avisar. Uma bela ideia idiota.",
+    "body": "O clã muda todos os códigos sem te avisar. Essa decisão coloca o esconderijo diretamente em perigo.",
     "choices": {
       "A": "Retomar o controle",
       "B": "Punir os líderes",
@@ -3259,7 +3259,7 @@
   },
   "vampire_363": {
     "title": "O mercado das rosas",
-    "body": "Um mercado de rosas abre à noite. Muito bonito. Muito cheio de testemunhas.",
+    "body": "Um mercado de rosas abre à noite. É lindo, mas há testemunhas demais.",
     "choices": {
       "A": "Mudá-lo de lugar",
       "B": "Se misturar nele",
@@ -3277,7 +3277,7 @@
   },
   "vampire_365": {
     "title": "O motorista do prefeito",
-    "body": "O motorista do prefeito te reconhece numa foto antiga. Ele espera um preço.",
+    "body": "O motorista do prefeito reconhece você numa foto antiga. Ele quer algo em troca.",
     "choices": {
       "A": "Pagá-lo",
       "B": "Fazê-lo mentir",
@@ -3315,7 +3315,7 @@
     "title": "A dívida do rival",
     "body": "Um rival te confessa uma dívida enorme. O clã quer vê-lo cair.",
     "choices": {
-      "A": "Ajudá-lo cobrando caro",
+      "A": "Ajudá-lo, mas por um preço alto",
       "B": "Esmagá-lo",
       "C": "Comprar a lealdade dele"
     }
@@ -3442,13 +3442,13 @@
     "body": "Um bar sem janelas abre a duas ruas daqui. O clã já quer ir.",
     "choices": {
       "A": "Testar o lugar",
-      "B": "Mantê-lo sob vigilância",
+      "B": "Ficar de olho nele",
       "C": "Proibir o local"
     }
   },
   "vampire_384": {
     "title": "O dossiê do prefeito",
-    "body": "Um dossiê sobre o prefeito chega à tua mesa. Tem cheiro de armadilha útil.",
+    "body": "Um dossiê sobre o prefeito chega à sua mesa. Pode ser útil, mas também parece uma armadilha.",
     "choices": {
       "A": "Usá-lo rápido",
       "B": "Verificá-lo antes",
@@ -3497,7 +3497,7 @@
     "choices": {
       "A": "Recebê-lo",
       "B": "Mantê-lo à distância",
-      "C": "Forçá-lo a escolher um lado"
+      "C": "Pressioná-lo a se posicionar"
     }
   },
   "vampire_390": {
@@ -3592,7 +3592,7 @@
   },
   "vampire_400": {
     "title": "O pacto da manhã",
-    "body": "Parte do clã quer uma promessa. Os caçadores querem um sinal. O amanhecer já está chegando.",
+    "body": "Uma parte do clã quer uma promessa. Os caçadores esperam um sinal. A alvorada já está chegando.",
     "choices": {
       "A": "Escolher o clã",
       "B": "Escolher os caçadores",

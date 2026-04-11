@@ -1,4 +1,4 @@
-﻿{
+{
   "vampire_001": {
     "title": "The Organic Blood Bag",
     "body": "A stock of blood has gone missing. Someone has been building reserves without permission.",
@@ -127,7 +127,7 @@
   },
   "vampire_015": {
     "title": "The Neighborhood Pact",
-    "body": "Local gangs want a deal. Protection in exchange for discretion.",
+    "body": "Local gangs want a deal. They offer their silence in exchange for your protection.",
     "choices": {
       "A": "Accept and impose rules",
       "B": "Refuse and scare them",
@@ -185,7 +185,7 @@
     "choices": {
       "A": "Train the novice",
       "B": "Hide him from the clan",
-      "C": "Hide him in a secret shelter"
+      "C": "Hand him over to an elder for training"
     }
   },
   "vampire_022": {
@@ -343,7 +343,7 @@
   },
   "vampire_039": {
     "title": "The Holy Rain",
-    "body": "It is raining water that burns a little. Someone is blessing the clouds, yes.",
+    "body": "It is raining water that burns the skin. Someone has found a way to bless the rain.",
     "choices": {
       "A": "Find the source",
       "B": "Hide underground",
@@ -370,7 +370,7 @@
   },
   "vampire_042": {
     "title": "The Sealed Library",
-    "body": "A library has sealed off one room. The clan says it sings at night.",
+    "body": "A library forbids access to one room. The clan says voices can be heard there at night.",
     "choices": {
       "A": "Force the door",
       "B": "Ask for a permit",
@@ -451,7 +451,7 @@
   },
   "vampire_051": {
     "title": "The Night Train",
-    "body": "A night train arrives empty. The seats are warm. Very warm.",
+    "body": "A night train pulls into the station completely empty. Yet the seats are still warm. Hunters?",
     "choices": {
       "A": "Board the train",
       "B": "Warn the clan",
@@ -568,11 +568,11 @@
   },
   "vampire_064": {
     "title": "The Flooded Cellar",
-    "body": "Your secret cellar is flooded. The coffins are floating. The mood is ridiculous.",
+    "body": "Your secret cellar is flooded. The coffins are floating, and the situation is becoming impossible to hide.",
     "choices": {
       "A": "Save the reserves",
       "B": "Change lairs",
-      "C": "Turn it into a secret attraction"
+      "C": "Turn the cellar into a trap for intruders"
     }
   },
   "vampire_065": {
@@ -635,7 +635,7 @@
     "choices": {
       "A": "Take the photo down",
       "B": "Deny it with humor",
-      "C": "Blame a filter"
+      "C": "Claim the photo was doctored"
     }
   },
   "vampire_072": {
@@ -721,7 +721,7 @@
   },
   "vampire_081": {
     "title": "The New Symbol",
-    "body": "An unknown symbol appears on your walls. Neither the clan's mark nor any known sign. Something else.",
+    "body": "An unknown symbol appears on your walls. It is neither a clan sign nor a known mark. Hunters?",
     "choices": {
       "A": "Investigate",
       "B": "Erase everything",
@@ -901,7 +901,7 @@
   },
   "vampire_101": {
     "title": "The Antiques Market",
-    "body": "The seller says it came from a cellar. Of course. Cellars always make a convenient excuse.",
+    "body": "The seller claims the item comes from an old cellar, but his story sounds made up.",
     "choices": {
       "A": "Buy it discreetly",
       "B": "Steal it tonight",
@@ -919,7 +919,7 @@
   },
   "vampire_103": {
     "title": "The Insomniac Cameraman",
-    "body": "He loves shadows, alleys, silhouettes. He is one step away from filming the wrong silhouette.",
+    "body": "He loves filming shadows and alleyways at night. He is one step away from filming you, or one of yours.",
     "choices": {
       "A": "Convince him to stop",
       "B": "Sabotage his equipment",
@@ -1009,7 +1009,7 @@
   },
   "vampire_113": {
     "title": "The Night Bus",
-    "body": "Every night, windows full of eyes. The eyes watch. One day, they will see.",
+    "body": "Every night, the bus passengers can see the entrance to the hideout. Sooner or later, one of them will notice something.",
     "choices": {
       "A": "Have the route changed",
       "B": "Camouflage the entrance",
@@ -1135,7 +1135,7 @@
   },
   "vampire_127": {
     "title": "The Creaking Chest",
-    "body": "The chest never used to make noise. Now it groans. And archives taste like secrets.",
+    "body": "The chest never used to make noise. Now it groans. Someone may have searched the archives.",
     "choices": {
       "A": "Open it and check",
       "B": "Seal it shut",
@@ -1180,7 +1180,7 @@
   },
   "vampire_132": {
     "title": "The Acid Rain",
-    "body": "It is not sunlight. It is something else. And something else usually means a trap.",
+    "body": "Acid rain is falling over the area. It isn’t the sun, but going out is still dangerous.",
     "choices": {
       "A": "Stay in the lair",
       "B": "Search for the source",
@@ -1292,7 +1292,7 @@
     "choices": {
       "A": "Accept and protect him",
       "B": "Refuse and keep watch on him",
-      "C": "Replace him"
+      "C": "Replace him with someone more reliable"
     }
   },
   "vampire_145": {
@@ -1396,7 +1396,7 @@
   },
   "vampire_156": {
     "title": "The Sound Beneath the Stone",
-    "body": "Scratching, breath, silence. The three stages of a problem that is growing.",
+    "body": "A scratching sound comes from beneath the stone, then a breath, then nothing. Something is moving behind the wall.",
     "choices": {
       "A": "Open it and see",
       "B": "Seal it and forget it",
@@ -1450,7 +1450,7 @@
   },
   "vampire_162": {
     "title": "The Media Bomb",
-    "body": "The red circle points at your face. You know the next red circle will point at your lair.",
+    "body": "A media outlet broadcasts a blurry image where your face is circled in red. If the investigation continues, they will eventually locate your hideout.",
     "choices": {
       "A": "Remove the source",
       "B": "Create a fake scandal elsewhere",
@@ -1495,7 +1495,7 @@
   },
   "vampire_167": {
     "title": "The Salt Trap",
-    "body": "Simple, effective, humiliating. In theory, you do not trap a vampire with salt. This time, though, it worked.",
+    "body": "A salt trap blocks one of your routes. Someone knows your habits better than expected.",
     "choices": {
       "A": "Disarm it and follow its maker",
       "B": "Change tunnels",
@@ -1522,7 +1522,7 @@
   },
   "vampire_170": {
     "title": "The Whisperer",
-    "body": "She does not run away. She whispers and seems to be calling something from the shadows. That is not normal.",
+    "body": "She does not run away. She whispers as if she is trying to draw someone, or something, out of the shadows.",
     "choices": {
       "A": "Approach her gently",
       "B": "Drive her away through fear",
@@ -1612,7 +1612,7 @@
   },
   "vampire_180": {
     "title": "The Renovation Plan",
-    "body": "Workers, lamps, plans, schedules. Everything you cannot bite.",
+    "body": "Workers are arriving with lights, plans, and schedules. The construction directly threatens your access routes.",
     "choices": {
       "A": "Have the work canceled",
       "B": "Move the access points",
@@ -1756,7 +1756,7 @@
   },
   "vampire_196": {
     "title": "The Empty Clan Chest",
-    "body": "The offering chest is empty. The clan is fighting and it is becoming public.",
+    "body": "The offering chest is empty. The clan is arguing, and rumors are starting to leak out of the hideout.",
     "choices": {
       "A": "Return the money and restore order",
       "B": "Name someone responsible",
@@ -1895,7 +1895,7 @@
     "choices": {
       "A": "Listen and decide",
       "B": "Delay it again",
-      "C": "Let a spokesperson handle it"
+      "C": "Let a spokesperson speak"
     }
   },
   "vampire_212": {
@@ -1954,7 +1954,7 @@
   },
   "vampire_218": {
     "title": "Hunt Too Visible",
-    "body": "A hunt turned into a spectacle. Sirens. Videos. A full free show.",
+    "body": "A hunt turned into a public spectacle. Sirens, videos, and witnesses are now drawing attention to the clan.",
     "choices": {
       "A": "Punish the one responsible",
       "B": "Cover it up",
@@ -2053,7 +2053,7 @@
   },
   "vampire_229": {
     "title": "The Streets Pact",
-    "body": "Humans propose a pact. They offer silence in exchange for protection. Business, in other words.",
+    "body": "Humans offer a pact. They offer their silence in exchange for your protection. It is a clear bargain.",
     "choices": {
       "A": "Accept and supervise it",
       "B": "Refuse and impose fear",
@@ -2224,7 +2224,7 @@
   },
   "vampire_248": {
     "title": "The Lantern Festival",
-    "body": "A festival lights the streets all night long. No shadows at all. Your territory turns into an aquarium.",
+    "body": "A festival lights up the streets all night. Your territory becomes too brightly lit for discreet hunting.",
     "choices": {
       "A": "Suspend the hunt",
       "B": "Hunt on the outskirts",
@@ -2296,7 +2296,7 @@
   },
   "vampire_256": {
     "title": "The Humans' Cellar",
-    "body": "A hidden cellar contains human reserves. Who did this. And why here.",
+    "body": "A hidden cellar contains humans being held prisoner. Who locked them up here, and why?",
     "choices": {
       "A": "Free them and erase the traces",
       "B": "Use them and control the situation",
@@ -2323,7 +2323,7 @@
   },
   "vampire_259": {
     "title": "The Drone Hunt",
-    "body": "Drones fly at night. They seek heat. Vampires do not run hot, but they do watch.",
+    "body": "Drones fly at night. They are looking for heat sources. Even if they cannot detect you clearly, they can still watch the entrances.",
     "choices": {
       "A": "Shoot down the drones",
       "B": "Redirect them",
@@ -2395,7 +2395,7 @@
   },
   "vampire_267": {
     "title": "The Share Dispute",
-    "body": "The clan is arguing over blood distribution. It feels like a homeowners' meeting.",
+    "body": "The clan is fighting over blood distribution. The conflict is serious enough to threaten order in the hideout.",
     "choices": {
       "A": "Set a fixed distribution",
       "B": "Distribute by merit",
@@ -2458,7 +2458,7 @@
   },
   "vampire_274": {
     "title": "The Private Investigation",
-    "body": "A private detective is snooping around your neighborhood. He is not afraid. That is new.",
+    "body": "A private detective is digging around your neighborhood without the slightest fear. The fact that he is not afraid makes him more dangerous.",
     "choices": {
       "A": "Lead him away from the case",
       "B": "Recruit him",
@@ -2530,7 +2530,7 @@
   },
   "vampire_282": {
     "title": "The Damp Basement",
-    "body": "The basement of the lair drips everywhere. Even the coffins are starting to complain.",
+    "body": "Water is dripping everywhere in the hideout’s basement. The damp is starting to damage the coffins.",
     "choices": {
       "A": "Repair it quickly",
       "B": "Move the stock",
@@ -2539,7 +2539,7 @@
   },
   "vampire_283": {
     "title": "The Neighbor Without Curtains",
-    "body": "A neighbor never sleeps and watches the street. He collects details.",
+    "body": "A neighbor never sleeps and watches the street. He notices every little detail.",
     "choices": {
       "A": "Distract him",
       "B": "Change your habits",
@@ -2642,7 +2642,7 @@
     "choices": {
       "A": "Steal it",
       "B": "Wait a little longer",
-      "C": "Send humans"
+      "C": "Send humans to steal the relic"
     }
   },
   "vampire_295": {
@@ -2668,7 +2668,7 @@
     "body": "The clan organizes a lottery to fund your nights. The idea is dreadful and profitable.",
     "choices": {
       "A": "Supervise the game",
-      "B": "Ban the embarrassment",
+      "B": "Put an end to this circus",
       "C": "Take the cashbox"
     }
   },
@@ -2863,7 +2863,7 @@
   },
   "vampire_319": {
     "title": "The Hall Piano",
-    "body": "A piano starts playing by itself in the hall. Very elegant. Very bad sign.",
+    "body": "A piano starts playing by itself in the hall. The phenomenon unsettles the clan and may signal danger.",
     "choices": {
       "A": "Cut the sound",
       "B": "Bring in an elder",
@@ -3187,7 +3187,7 @@
   },
   "vampire_355": {
     "title": "The Cellar Notary",
-    "body": "A clandestine notary offers to launder your inheritances. It smells like a trap.",
+    "body": "A shady notary offers to launder your assets. It smells like a trap.",
     "choices": {
       "A": "Take the chance",
       "B": "Watch him",
@@ -3200,7 +3200,7 @@
     "choices": {
       "A": "Bribe the work crew",
       "B": "Change your route",
-      "C": "Work at night"
+      "C": "Pass through after the workers leave"
     }
   },
   "vampire_357": {
@@ -3214,7 +3214,7 @@
   },
   "vampire_358": {
     "title": "The Debt Board",
-    "body": "Someone posts the clan's debts in the hall. The mood becomes delicious.",
+    "body": "Someone posts the clan’s debts in the hall. Tension rises immediately throughout the hideout.",
     "choices": {
       "A": "Punish the culprit",
       "B": "Erase the board",
@@ -3250,7 +3250,7 @@
   },
   "vampire_362": {
     "title": "The New Code",
-    "body": "The clan changes all its codes without warning you. A brilliant stupid idea.",
+    "body": "The clan changes all its codes without warning you. That decision directly puts the hideout in danger.",
     "choices": {
       "A": "Take back control",
       "B": "Punish the leaders",
@@ -3259,7 +3259,7 @@
   },
   "vampire_363": {
     "title": "The Rose Market",
-    "body": "A rose market opens at night. Very beautiful. Very full of witnesses.",
+    "body": "A rose market opens at night. It is beautiful, but there are too many witnesses.",
     "choices": {
       "A": "Have it moved",
       "B": "Blend into it",
@@ -3277,7 +3277,7 @@
   },
   "vampire_365": {
     "title": "The Mayor's Driver",
-    "body": "The mayor's driver recognizes you from an old photo. He expects a price.",
+    "body": "The mayor’s driver recognizes you in an old photo. He wants something in return.",
     "choices": {
       "A": "Pay him",
       "B": "Make him lie",
@@ -3315,7 +3315,7 @@
     "title": "The Rival's Debt",
     "body": "A rival admits to a crushing debt. The clan wants to see him fall.",
     "choices": {
-      "A": "Help him at a price",
+      "A": "Help him, but at a high price",
       "B": "Crush him",
       "C": "Buy his loyalty"
     }
@@ -3442,13 +3442,13 @@
     "body": "A bar without windows opens two streets away. The clan already wants to go.",
     "choices": {
       "A": "Test the place",
-      "B": "Keep an eye on it",
+      "B": "Keep an eye on him",
       "C": "Ban the place"
     }
   },
   "vampire_384": {
     "title": "The Mayor's File",
-    "body": "A file on the mayor lands on your desk. It smells like a useful trap.",
+    "body": "A file on the mayor lands on your desk. It could be useful, but it also looks like a trap.",
     "choices": {
       "A": "Use it quickly",
       "B": "Verify it first",
@@ -3497,7 +3497,7 @@
     "choices": {
       "A": "Receive him",
       "B": "Keep him at a distance",
-      "C": "Force him to choose"
+      "C": "Push him to take a side"
     }
   },
   "vampire_390": {
@@ -3592,7 +3592,7 @@
   },
   "vampire_400": {
     "title": "The Dawn Pact",
-    "body": "Part of the clan wants a promise. The hunters want a sign. Dawn is already near.",
+    "body": "Part of the clan wants a promise. The hunters are waiting for a sign. Dawn is already approaching.",
     "choices": {
       "A": "Choose the clan",
       "B": "Choose the hunters",

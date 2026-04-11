@@ -3,7 +3,7 @@
   "events": {
     "new_world_explorer_ev_001": {
       "title": "Mapa favorable",
-      "body": "Un navegante regresa con un mapa claro. De pronto, la costa parece más pequeña.",
+      "body": "Un navegante regresa con un mapa claro. La costa se vuelve más fácil de controlar.",
       "effect": "Territorios: +5 por carta",
       "duration": "Duración: 5 cartas"
     },
@@ -81,13 +81,13 @@
     },
     "new_world_explorer_ev_014": {
       "title": "Mercado de las islas",
-      "body": "Mercaderes llegados de las islas llenan el puerto de bienes raros y de ideas de margen.",
+      "body": "Comerciantes llegados de las islas llenan el puerto de bienes raros y de nuevas ocasiones de beneficio.",
       "effect": "Riquezas: +5 por carta",
       "duration": "Duración: 6 cartas"
     },
     "new_world_explorer_ev_015": {
       "title": "Fuerte avanzado",
-      "body": "Un pequeño fuerte surge en un lugar bien elegido. La costa parece de pronto más amplia.",
+      "body": "Se levanta un pequeño fuerte en un lugar bien elegido. La costa se vuelve más fácil de defender.",
       "effect": "Territorios: +5 por carta",
       "duration": "Duración: 3 cartas"
     },
@@ -105,7 +105,7 @@
     },
     "new_world_explorer_ev_018": {
       "title": "Tormenta sobre las bodegas",
-      "body": "Una serie de lluvias daña las reservas. El puerto huele a madera mojada y a pérdida clara.",
+      "body": "Una serie de lluvias daña las reservas. Parte de las mercancías se pierde.",
       "effect": "Riquezas: -5 por carta",
       "duration": "Duración: 7 cartas"
     },
@@ -165,7 +165,7 @@
     },
     "new_world_explorer_ev_028": {
       "title": "Enviado descontento",
-      "body": "Un enviado real se marcha con el rostro cerrado y un cuaderno bien lleno. Nada bueno suele cruzar el mar de esa manera.",
+      "body": "Un enviado real se marcha con el rostro cerrado y un cuaderno bien lleno. Su informe puede perjudicarnos en la corte.",
       "effect": "Apoyo real: -5 por carta",
       "duration": "Duración: 6 cartas"
     },

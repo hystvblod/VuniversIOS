@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "hell_king_ev_001": {
@@ -15,14 +15,14 @@
     },
     "hell_king_ev_003": {
       "title": "Mercado das Almas",
-      "body": "Os lances sobem. Os escribas anotam cada suspiro.",
+      "body": "Os lances continuam subindo. Os escribas anotam cada oferta e cada reclamação.",
       "effect": "Ordem: -5 por carta",
       "duration": "Duração: 4 cartas"
     },
     "hell_king_ev_004": {
-      "title": "Festa na Superfície",
+      "title": "Festa no mundo dos homens",
       "body": "Uma noite barulhenta demais lá em cima. As consequências descem rápido.",
-      "effect": "Superfície: +5 por carta",
+      "effect": "Mundo dos homens: +5 por carta",
       "duration": "Duração: 5 cartas"
     },
     "hell_king_ev_005": {
@@ -45,8 +45,8 @@
     },
     "hell_king_ev_008": {
       "title": "Boato na Superfície",
-      "body": "Um boato corre lá em cima. Você já sente a onda chegando.",
-      "effect": "Superfície: -5 por carta",
+      "body": "Um boato corre no mundo dos homens. Você já sente a onda chegando.",
+      "effect": "Mundo dos homens: -5 por carta",
       "duration": "Duração: 5 cartas"
     },
     "hell_king_ev_009": {
@@ -64,13 +64,13 @@
     "hell_king_ev_011": {
       "title": "Bônus de Colheita",
       "body": "Uma colheita de almas inesperada. Você aproveita, claro.",
-      "effect": "Superfície: -5 por carta",
+      "effect": "Mundo dos homens: -5 por carta",
       "duration": "Duração: 3 cartas"
     },
     "hell_king_ev_012": {
       "title": "Carnaval Proibido",
       "body": "Um carnaval improvisado. As risadas sobem, a ordem desce.",
-      "effect": "Superfície: +5 por carta",
+      "effect": "Mundo dos homens: +5 por carta",
       "duration": "Duração: 7 cartas"
     },
     "hell_king_ev_013": {
@@ -100,7 +100,7 @@
     "hell_king_ev_017": {
       "title": "Pequena Revolta",
       "body": "Uma pequena revolta. Nada grave... a não ser que dure.",
-      "effect": "Superfície: +5 por carta",
+      "effect": "Mundo dos homens: +5 por carta",
       "duration": "Duração: 4 cartas"
     },
     "hell_king_ev_018": {
@@ -124,12 +124,12 @@
     "hell_king_ev_021": {
       "title": "Regra do Dia",
       "body": "Nova regra. Ninguém gosta dela, então ela funciona.",
-      "effect": "Superfície: -5 por carta",
+      "effect": "Mundo dos homens: -5 por carta",
       "duration": "Duração: 5 cartas"
     },
     "hell_king_ev_022": {
       "title": "Falta de Estoque",
-      "body": "Está faltando alguma coisa. Ninguém sabe o quê, mas todo mundo entra em pânico.",
+      "body": "Uma falta de estoque obriga os quartéis a se reorganizarem rápido, e essa reorganização fortalece as legiões.",
       "effect": "Legiões: +5 por carta",
       "duration": "Duração: 7 cartas"
     },
@@ -164,9 +164,9 @@
       "duration": "Duração: 4 cartas"
     },
     "hell_king_ev_028": {
-      "title": "Pânico na Superfície",
+      "title": "Pânico no mundo dos homens",
       "body": "Lá em cima, tudo entra em pânico. Aqui embaixo, você lucra.",
-      "effect": "Superfície: -5 por carta",
+      "effect": "Mundo dos homens: -5 por carta",
       "duration": "Duração: 6 cartas"
     },
     "hell_king_ev_029": {

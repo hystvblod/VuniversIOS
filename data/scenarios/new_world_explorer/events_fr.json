@@ -3,7 +3,7 @@
   "events": {
     "new_world_explorer_ev_001": {
       "title": "Carte avantageuse",
-      "body": "Un navigateur revient avec une carte claire. Soudain la côte paraît plus petite.",
+      "body": "Un navigateur revient avec une carte claire. La côte devient plus facile à contrôler.",
       "effect": "Territoires : +5 par carte",
       "duration": "Durée : 5 cartes"
     },
@@ -81,13 +81,13 @@
     },
     "new_world_explorer_ev_014": {
       "title": "Marché des îles",
-      "body": "Des marchands venus des îles remplissent le port de biens rares et d'idées de marge.",
+      "body": "Des marchands venus des îles remplissent le port de biens rares et de nouvelles occasions de profit.",
       "effect": "Richesses : +5 par carte",
       "duration": "Durée : 6 cartes"
     },
     "new_world_explorer_ev_015": {
       "title": "Fort avancé",
-      "body": "Un petit fort sort de terre à un endroit bien choisi. Le rivage paraît soudain plus large.",
+      "body": "Un petit fort sort de terre à un endroit bien choisi. La côte devient plus facile à défendre.",
       "effect": "Territoires : +5 par carte",
       "duration": "Durée : 3 cartes"
     },
@@ -105,7 +105,7 @@
     },
     "new_world_explorer_ev_018": {
       "title": "Tempête sur les cales",
-      "body": "Une série de pluies abîme les stocks. Le port sent le bois mouillé et la perte sèche.",
+      "body": "Une série de pluies abîme les stocks. Une partie des marchandises est perdue.",
       "effect": "Richesses : -5 par carte",
       "duration": "Durée : 7 cartes"
     },
@@ -165,7 +165,7 @@
     },
     "new_world_explorer_ev_028": {
       "title": "Envoyé mécontent",
-      "body": "Un envoyé royal repart avec un visage fermé et un carnet bien rempli. Rien de bon n'aime traverser la mer ainsi.",
+      "body": "Un envoyé royal repart avec un visage fermé et un carnet bien rempli. Son rapport risque de nous nuire à la cour.",
       "effect": "Appui royal : -5 par carte",
       "duration": "Durée : 6 cartes"
     },

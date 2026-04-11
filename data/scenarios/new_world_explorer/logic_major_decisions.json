@@ -1,0 +1,598 @@
+{
+  "version": 1,
+  "roll_every_cards": 5,
+  "trigger_chance": 0.15,
+  "cooldown_cards": 10,
+  "decisions": [
+    {
+      "id": "explorer_major_001",
+      "min_cards_played": 4,
+      "cooldown_cards": 16,
+      "yes": {
+        "gameOver": true
+      },
+      "no": {
+        "setGauge": {
+          "royal_treasury": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_002",
+      "min_cards_played": 5,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "conquered_territory": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "conquered_territory": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_003",
+      "min_cards_played": 6,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "found_wealth": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "royal_treasury": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_004",
+      "min_cards_played": 7,
+      "cooldown_cards": 14,
+      "yes": {
+        "scaleGauge": {
+          "converted_population": 0.5
+        }
+      },
+      "no": {
+        "setGauge": {
+          "converted_population": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_005",
+      "min_cards_played": 8,
+      "cooldown_cards": 14,
+      "yes": {
+        "scaleGauge": {
+          "royal_treasury": 0.5
+        }
+      },
+      "no": {
+        "setGauge": {
+          "royal_treasury": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_006",
+      "min_cards_played": 9,
+      "cooldown_cards": 15,
+      "yes": {
+        "scaleGauge": {
+          "conquered_territory": 0.5
+        }
+      },
+      "no": {
+        "setGauge": {
+          "conquered_territory": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_007",
+      "min_cards_played": 10,
+      "cooldown_cards": 15,
+      "yes": {
+        "gameOver": true
+      },
+      "no": {
+        "setGauge": {
+          "found_wealth": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_008",
+      "min_cards_played": 11,
+      "cooldown_cards": 14,
+      "yes": {
+        "scaleGauge": {
+          "converted_population": 0.5
+        }
+      },
+      "no": {
+        "setGauge": {
+          "converted_population": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_009",
+      "min_cards_played": 12,
+      "cooldown_cards": 15,
+      "yes": {
+        "setGauge": {
+          "royal_treasury": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "royal_treasury": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_010",
+      "min_cards_played": 13,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "royal_treasury": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "royal_treasury": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_011",
+      "min_cards_played": 14,
+      "cooldown_cards": 14,
+      "yes": {
+        "scaleGauge": {
+          "conquered_territory": 0.5
+        }
+      },
+      "no": {
+        "setGauge": {
+          "conquered_territory": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_012",
+      "min_cards_played": 15,
+      "cooldown_cards": 14,
+      "yes": {
+        "scaleGauge": {
+          "found_wealth": 0.5
+        }
+      },
+      "no": {
+        "setGauge": {
+          "found_wealth": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_013",
+      "min_cards_played": 16,
+      "cooldown_cards": 14,
+      "yes": {
+        "scaleGauge": {
+          "converted_population": 0.5
+        }
+      },
+      "no": {
+        "setGauge": {
+          "converted_population": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_014",
+      "min_cards_played": 17,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "royal_treasury": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "royal_treasury": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_015",
+      "min_cards_played": 18,
+      "cooldown_cards": 15,
+      "yes": {
+        "setGauge": {
+          "conquered_territory": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "royal_treasury": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_016",
+      "min_cards_played": 19,
+      "cooldown_cards": 15,
+      "yes": {
+        "gameOver": true
+      },
+      "no": {
+        "setGauge": {
+          "royal_treasury": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_017",
+      "min_cards_played": 20,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "found_wealth": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "found_wealth": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_018",
+      "min_cards_played": 21,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "converted_population": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "converted_population": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_019",
+      "min_cards_played": 22,
+      "cooldown_cards": 15,
+      "yes": {
+        "setGauge": {
+          "royal_treasury": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "royal_treasury": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_020",
+      "min_cards_played": 23,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "conquered_territory": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "conquered_territory": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_021",
+      "min_cards_played": 24,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "found_wealth": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "found_wealth": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_022",
+      "min_cards_played": 25,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "converted_population": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "converted_population": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_023",
+      "min_cards_played": 26,
+      "cooldown_cards": 15,
+      "yes": {
+        "setGauge": {
+          "royal_treasury": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "royal_treasury": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_024",
+      "min_cards_played": 27,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "royal_treasury": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "royal_treasury": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_025",
+      "min_cards_played": 28,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "conquered_territory": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "conquered_territory": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_026",
+      "min_cards_played": 29,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "found_wealth": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "found_wealth": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_027",
+      "min_cards_played": 30,
+      "cooldown_cards": 15,
+      "yes": {
+        "gameOver": true
+      },
+      "no": {
+        "setGauge": {
+          "converted_population": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_028",
+      "min_cards_played": 31,
+      "cooldown_cards": 15,
+      "yes": {
+        "scaleGauge": {
+          "royal_treasury": 0.5
+        }
+      },
+      "no": {
+        "setGauge": {
+          "royal_treasury": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_029",
+      "min_cards_played": 32,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "conquered_territory": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "conquered_territory": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_030",
+      "min_cards_played": 33,
+      "cooldown_cards": 14,
+      "yes": {
+        "scaleGauge": {
+          "found_wealth": 0.5
+        }
+      },
+      "no": {
+        "setGauge": {
+          "found_wealth": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_031",
+      "min_cards_played": 34,
+      "cooldown_cards": 15,
+      "yes": {
+        "setGauge": {
+          "converted_population": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "converted_population": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_032",
+      "min_cards_played": 35,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "royal_treasury": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "royal_treasury": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_033",
+      "min_cards_played": 36,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "conquered_territory": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "conquered_territory": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_034",
+      "min_cards_played": 37,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "found_wealth": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "found_wealth": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_035",
+      "min_cards_played": 38,
+      "cooldown_cards": 15,
+      "yes": {
+        "setGauge": {
+          "converted_population": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "royal_treasury": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_036",
+      "min_cards_played": 39,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "royal_treasury": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "royal_treasury": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_037",
+      "min_cards_played": 40,
+      "cooldown_cards": 14,
+      "yes": {
+        "setGauge": {
+          "conquered_territory": 50
+        }
+      },
+      "no": {
+        "scaleGauge": {
+          "conquered_territory": 0.5
+        }
+      }
+    },
+    {
+      "id": "explorer_major_038",
+      "min_cards_played": 41,
+      "cooldown_cards": 14,
+      "yes": {
+        "scaleGauge": {
+          "found_wealth": 0.5
+        }
+      },
+      "no": {
+        "setGauge": {
+          "found_wealth": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_039",
+      "min_cards_played": 42,
+      "cooldown_cards": 15,
+      "yes": {
+        "scaleGauge": {
+          "converted_population": 0.5
+        }
+      },
+      "no": {
+        "setGauge": {
+          "converted_population": 50
+        }
+      }
+    },
+    {
+      "id": "explorer_major_040",
+      "min_cards_played": 43,
+      "cooldown_cards": 16,
+      "yes": {
+        "gameOver": true
+      },
+      "no": {
+        "setGauge": {
+          "royal_treasury": 50
+        }
+      }
+    }
+  ]
+}
