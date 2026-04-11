@@ -5778,15 +5778,21 @@ body.vr-body-game[data-universe] .vr-gauge-label{
   margin: 0 auto;
 }
 
-.vr-guide-overlay.is-event .vr-guide-line--title{
+.vr-guide-overlay.is-event .vr-guide-line--title,
+.vr-guide-overlay.is-major-choice .vr-guide-line--title,
+.vr-guide-overlay.is-major-result .vr-guide-line--title{
   font-size: clamp(22px, 2.8vw, 30px);
 }
 
-.vr-guide-overlay.is-event .vr-guide-line--lead{
+.vr-guide-overlay.is-event .vr-guide-line--lead,
+.vr-guide-overlay.is-major-choice .vr-guide-line--lead,
+.vr-guide-overlay.is-major-result .vr-guide-line--lead{
   font-size: clamp(17px, 2vw, 22px);
 }
 
-.vr-guide-overlay.is-event .vr-guide-line--body{
+.vr-guide-overlay.is-event .vr-guide-line--body,
+.vr-guide-overlay.is-major-choice .vr-guide-line--body,
+.vr-guide-overlay.is-major-result .vr-guide-line--body{
   font-size: clamp(14px, 1.6vw, 18px);
 }
 
