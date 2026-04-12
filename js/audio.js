@@ -12,7 +12,8 @@
   const AUDIO_BANK = {
     common: {
       death: "assets/audio/common/death_common.m4a",
-      choice: "assets/audio/common/choice.m4a"
+      choice: "assets/audio/common/choice.m4a",
+      gaugeAlarm: "assets/audio/common/critical_alarm_loop.m4a"
     },
 
     ui: {
@@ -54,6 +55,8 @@
     bg: null,
     bgPath: "",
     pendingBgRetry: false,
+    alarm: null,
+    alarmPath: "",
 
     musicEnabled: readBool("vrealms_music_enabled", true),
     sfxEnabled: readBool("vrealms_sfx_enabled", true),
@@ -221,6 +224,29 @@
 
   function getUniverseAudio(universeId) {
     return AUDIO_BANK.universes[resolveUniverseId(universeId)] || null;
+  }
+
+  function ensureAlarm() {
+    if (state.alarm) return state.alarm;
+
+    let a = document.getElementById("vr-gauge-alarm");
+    if (!a) {
+      a = document.createElement("audio");
+      a.id = "vr-gauge-alarm";
+      a.hidden = true;
+      document.body.appendChild(a);
+    }
+
+    a.preload = "auto";
+    a.loop = true;
+    a.autoplay = false;
+    a.playsInline = true;
+    a.setAttribute("playsinline", "");
+    a.setAttribute("webkit-playsinline", "");
+    a.volume = clamp(state.sfxVolume * 0.55, 0, 1);
+
+    state.alarm = a;
+    return a;
   }
 
   function ensureBg() {
@@ -405,6 +431,38 @@
     playPath(path, state.sfxVolume);
   }
 
+  async function startGaugeAlarm() {
+    if (!state.sfxEnabled) return;
+
+    const path = AUDIO_BANK.common.gaugeAlarm || "";
+    if (!path) return;
+
+    const a = ensureAlarm();
+    const absolute = new URL(path, document.baseURI).href;
+
+    if (state.alarmPath !== absolute) {
+      try { a.pause(); } catch (_) {}
+      a.src = path;
+      a.load();
+      state.alarmPath = absolute;
+    }
+
+    a.volume = clamp(state.sfxVolume * 0.55, 0, 1);
+
+    try {
+      const p = a.play();
+      if (p && typeof p.then === "function") {
+        await p;
+      }
+    } catch (_) {}
+  }
+
+  function stopGaugeAlarm() {
+    const a = ensureAlarm();
+    try { a.pause(); } catch (_) {}
+    try { a.currentTime = 0; } catch (_) {}
+  }
+
   function playDeath() {
     if (!state.sfxEnabled) return;
 
@@ -438,6 +496,10 @@
   function setSfxEnabled(enabled) {
     state.sfxEnabled = !!enabled;
     writeBool("vrealms_sfx_enabled", state.sfxEnabled);
+
+    if (!state.sfxEnabled) {
+      stopGaugeAlarm();
+    }
   }
 
   function setMusicVolume(value) {
@@ -453,6 +515,11 @@
   function setSfxVolume(value) {
     state.sfxVolume = clamp(value, 0, 1);
     try { localStorage.setItem("vrealms_sfx_volume", String(state.sfxVolume)); } catch (_) {}
+
+    try {
+      const a = ensureAlarm();
+      a.volume = clamp(state.sfxVolume * 0.55, 0, 1);
+    } catch (_) {}
   }
 
   function init() {
@@ -502,6 +569,9 @@
     playDeath() {
       playDeath();
     },
+
+    startGaugeAlarm,
+    stopGaugeAlarm,
 
     setMusicEnabled,
     setSfxEnabled,

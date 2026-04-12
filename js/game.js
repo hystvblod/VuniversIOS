@@ -552,6 +552,7 @@ function getRankLabel(universeId, reignLength) {
     cardTextsDict: null,
     peekRemaining: 0,
     _peekChoiceActive: null,
+    _criticalAlarmActive: false,
 
     init(universeConfig, lang, cardTextsDict) {
       this.universeConfig = universeConfig;
@@ -560,7 +561,10 @@ function getRankLabel(universeId, reignLength) {
 
       this.peekRemaining = 0;
       this._peekChoiceActive = null;
+      this._criticalAlarmActive = false;
       try { document.body?.classList?.remove("vr-peek-mode"); } catch (_) {}
+      try { document.getElementById("view-game")?.classList?.remove("vr-critical-alarm"); } catch (_) {}
+      try { window.VRAudio?.stopGaugeAlarm?.(); } catch (_) {}
 
       this._ensurePeekStyles();
       this._setupGaugeLabels();
@@ -727,6 +731,59 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-fill,
 body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
   animation-duration: 1.2s;
 }
+
+@keyframes vrCriticalAlarmPulseMedium {
+  0%, 100% {
+    opacity: 0.12;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.52;
+    transform: scale(1.012);
+  }
+}
+
+@keyframes vrCriticalAlarmFlashMedium {
+  0%, 100% {
+    opacity: 0.00;
+  }
+  50% {
+    opacity: 0.14;
+  }
+}
+
+#view-game.vr-critical-alarm::before {
+  background:
+    radial-gradient(circle at center,
+      rgba(255, 0, 0, 0.00) 0%,
+      rgba(255, 0, 0, 0.12) 24%,
+      rgba(255, 0, 0, 0.24) 48%,
+      rgba(190, 0, 0, 0.42) 74%,
+      rgba(80, 0, 0, 0.56) 100%);
+  box-shadow:
+    inset 0 0 50px rgba(255, 0, 0, 0.18),
+    inset 0 0 120px rgba(255, 0, 0, 0.22),
+    inset 0 0 220px rgba(120, 0, 0, 0.30);
+  animation: vrCriticalAlarmPulseMedium 2s ease-in-out infinite;
+}
+
+#view-game.vr-critical-alarm::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 0, 0, 0.00) 0%,
+      rgba(255, 40, 40, 0.06) 20%,
+      rgba(255, 0, 0, 0.12) 50%,
+      rgba(255, 40, 40, 0.06) 80%,
+      rgba(255, 0, 0, 0.00) 100%
+    );
+  animation: vrCriticalAlarmFlashMedium 2s ease-in-out infinite;
+}
 `;
         (document.head || document.documentElement).appendChild(style);
       } catch (_) {}
@@ -777,6 +834,24 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
       });
     },
 
+    _setCriticalAlarmState(isActive) {
+      const active = !!isActive;
+      const wasActive = !!this._criticalAlarmActive;
+
+      try {
+        const viewGame = document.getElementById("view-game");
+        if (viewGame) viewGame.classList.toggle("vr-critical-alarm", active);
+      } catch (_) {}
+
+      if (active && !wasActive) {
+        try { window.VRAudio?.startGaugeAlarm?.(); } catch (_) {}
+      } else if (!active && wasActive) {
+        try { window.VRAudio?.stopGaugeAlarm?.(); } catch (_) {}
+      }
+
+      this._criticalAlarmActive = active;
+    },
+
     _ensureGaugePreviewBars() {
       const gaugeEls = document.querySelectorAll(".vr-gauge");
 
@@ -812,6 +887,8 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
         catch (_) { return false; }
       })();
 
+      let hasCriticalGauge = false;
+
       gaugeEls.forEach((gEl, idx) => {
         const cfg = gaugesCfg[idx];
         const gaugeId = gEl?.dataset?.gaugeId || cfg?.id || null;
@@ -844,11 +921,14 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
 
         if (safeVal <= 10) {
           gEl.classList.add("vr-critical-low");
+          hasCriticalGauge = true;
         } else if (safeVal >= 90) {
           gEl.classList.add("vr-critical-high");
+          hasCriticalGauge = true;
         }
       });
 
+      this._setCriticalAlarmState(hasCriticalGauge);
       try { window.VRTokenUI?.maybeOfferCriticalGauge?.(); } catch (_) {}
       this._clearPeekClasses();
     },
