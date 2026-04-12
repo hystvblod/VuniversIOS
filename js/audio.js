@@ -55,8 +55,13 @@
     bg: null,
     bgPath: "",
     pendingBgRetry: false,
-    alarm: null,
+
+    alarmA: null,
+    alarmB: null,
     alarmPath: "",
+    alarmTimer: null,
+    alarmActive: false,
+    alarmRunId: 0,
 
     musicEnabled: readBool("vrealms_music_enabled", true),
     sfxEnabled: readBool("vrealms_sfx_enabled", true),
@@ -226,29 +231,6 @@
     return AUDIO_BANK.universes[resolveUniverseId(universeId)] || null;
   }
 
-  function ensureAlarm() {
-    if (state.alarm) return state.alarm;
-
-    let a = document.getElementById("vr-gauge-alarm");
-    if (!a) {
-      a = document.createElement("audio");
-      a.id = "vr-gauge-alarm";
-      a.hidden = true;
-      document.body.appendChild(a);
-    }
-
-    a.preload = "auto";
-    a.loop = true;
-    a.autoplay = false;
-    a.playsInline = true;
-    a.setAttribute("playsinline", "");
-    a.setAttribute("webkit-playsinline", "");
-    a.volume = clamp(state.sfxVolume * 0.55, 0, 1);
-
-    state.alarm = a;
-    return a;
-  }
-
   function ensureBg() {
     if (state.bg) return state.bg;
 
@@ -283,6 +265,132 @@
     state.bg.volume = state.musicEnabled ? state.musicVolume : 0;
 
     return a;
+  }
+
+
+  function ensureAlarmPlayers() {
+    if (state.alarmA && state.alarmB) {
+      return { a: state.alarmA, b: state.alarmB };
+    }
+
+    let a = document.getElementById("vr-gauge-alarm-a");
+    let b = document.getElementById("vr-gauge-alarm-b");
+
+    if (!a) {
+      a = document.createElement("audio");
+      a.id = "vr-gauge-alarm-a";
+      a.hidden = true;
+      document.body.appendChild(a);
+    }
+
+    if (!b) {
+      b = document.createElement("audio");
+      b.id = "vr-gauge-alarm-b";
+      b.hidden = true;
+      document.body.appendChild(b);
+    }
+
+    [a, b].forEach((el) => {
+      el.preload = "auto";
+      el.loop = false;
+      el.autoplay = false;
+      el.playsInline = true;
+      el.setAttribute("playsinline", "");
+      el.setAttribute("webkit-playsinline", "");
+      el.volume = 0;
+    });
+
+    state.alarmA = a;
+    state.alarmB = b;
+    return { a, b };
+  }
+
+  function getAlarmTargetVolume() {
+    if (!state.sfxEnabled) return 0;
+    return clamp(state.sfxVolume * 0.55, 0, 1);
+  }
+
+  function clearAlarmTimer() {
+    if (state.alarmTimer) {
+      window.clearTimeout(state.alarmTimer);
+      state.alarmTimer = null;
+    }
+  }
+
+  function stopAndResetAlarmEl(el) {
+    if (!el) return;
+    try { el.pause(); } catch (_) {}
+    try { el.currentTime = 0; } catch (_) {}
+    try { el.volume = 0; } catch (_) {}
+  }
+
+  function fadeAudioVolume(el, from, to, ms) {
+    if (!el) return;
+    const start = clamp(from, 0, 1);
+    const end = clamp(to, 0, 1);
+    const duration = Math.max(0, Number(ms) || 0);
+
+    if (duration <= 0 || start === end) {
+      el.volume = end;
+      return;
+    }
+
+    const steps = Math.max(1, Math.round(duration / 16));
+    const delta = (end - start) / steps;
+    let currentStep = 0;
+
+    const timer = window.setInterval(() => {
+      currentStep += 1;
+      if (currentStep >= steps) {
+        window.clearInterval(timer);
+        try { el.volume = end; } catch (_) {}
+        return;
+      }
+      try {
+        el.volume = clamp(start + (delta * currentStep), 0, 1);
+      } catch (_) {}
+    }, Math.max(10, Math.floor(duration / steps)));
+  }
+
+  function scheduleNextAlarmLoop(runId, currentEl, nextEl) {
+    if (!state.alarmActive) return;
+    if (runId !== state.alarmRunId) return;
+    if (!currentEl || !nextEl) return;
+
+    const crossfadeMs = 220;
+    const durationSec = Number(currentEl.duration || 0);
+    const waitMs =
+      Number.isFinite(durationSec) && durationSec > 0
+        ? Math.max(300, Math.round(durationSec * 1000) - crossfadeMs - 30)
+        : 1200;
+
+    clearAlarmTimer();
+
+    state.alarmTimer = window.setTimeout(async () => {
+      if (!state.alarmActive) return;
+      if (runId !== state.alarmRunId) return;
+
+      const target = getAlarmTargetVolume();
+
+      try {
+        nextEl.currentTime = 0;
+        nextEl.volume = 0;
+        const p = nextEl.play();
+        if (p && typeof p.then === "function") await p;
+      } catch (_) {
+        return;
+      }
+
+      fadeAudioVolume(nextEl, 0, target, crossfadeMs);
+      fadeAudioVolume(currentEl, Number(currentEl.volume || target), 0, crossfadeMs);
+
+      window.setTimeout(() => {
+        if (runId !== state.alarmRunId) return;
+        stopAndResetAlarmEl(currentEl);
+      }, crossfadeMs + 40);
+
+      scheduleNextAlarmLoop(runId, nextEl, currentEl);
+    }, waitMs);
   }
 
   async function tryPlayBg(opts = {}) {
@@ -431,43 +539,75 @@
     playPath(path, state.sfxVolume);
   }
 
+  function playDeath() {
+    if (!state.sfxEnabled) return;
+
+    duckBackground(1200, 0.22);
+    playPath(AUDIO_BANK.common.death, Math.min(1, state.sfxVolume + 0.08));
+  }
+
+
   async function startGaugeAlarm() {
     if (!state.sfxEnabled) return;
 
     const path = AUDIO_BANK.common.gaugeAlarm || "";
     if (!path) return;
 
-    const a = ensureAlarm();
     const absolute = new URL(path, document.baseURI).href;
+    const { a, b } = ensureAlarmPlayers();
+    const target = getAlarmTargetVolume();
 
-    if (state.alarmPath !== absolute) {
-      try { a.pause(); } catch (_) {}
-      a.src = path;
-      a.load();
-      state.alarmPath = absolute;
+    if (state.alarmActive && state.alarmPath === absolute) {
+      return;
     }
 
-    a.volume = clamp(state.sfxVolume * 0.55, 0, 1);
+    state.alarmActive = true;
+    state.alarmRunId += 1;
+    const runId = state.alarmRunId;
+    state.alarmPath = absolute;
+
+    clearAlarmTimer();
+
+    [a, b].forEach((el) => {
+      if (el.dataset.absSrc !== absolute) {
+        stopAndResetAlarmEl(el);
+        el.src = path;
+        el.load();
+        el.dataset.absSrc = absolute;
+      } else {
+        stopAndResetAlarmEl(el);
+      }
+    });
+
+    a.volume = 0;
+    b.volume = 0;
 
     try {
       const p = a.play();
-      if (p && typeof p.then === "function") {
-        await p;
-      }
-    } catch (_) {}
+      if (p && typeof p.then === "function") await p;
+    } catch (_) {
+      return;
+    }
+
+    fadeAudioVolume(a, 0, target, 180);
+    scheduleNextAlarmLoop(runId, a, b);
   }
 
   function stopGaugeAlarm() {
-    const a = ensureAlarm();
-    try { a.pause(); } catch (_) {}
-    try { a.currentTime = 0; } catch (_) {}
-  }
+    state.alarmActive = false;
+    state.alarmRunId += 1;
+    clearAlarmTimer();
 
-  function playDeath() {
-    if (!state.sfxEnabled) return;
+    const { a, b } = ensureAlarmPlayers();
+    const fadeMs = 220;
 
-    duckBackground(1200, 0.22);
-    playPath(AUDIO_BANK.common.death, Math.min(1, state.sfxVolume + 0.08));
+    fadeAudioVolume(a, Number(a.volume || 0), 0, fadeMs);
+    fadeAudioVolume(b, Number(b.volume || 0), 0, fadeMs);
+
+    window.setTimeout(() => {
+      stopAndResetAlarmEl(a);
+      stopAndResetAlarmEl(b);
+    }, fadeMs + 40);
   }
 
   function setMusicEnabled(enabled) {
@@ -516,9 +656,14 @@
     state.sfxVolume = clamp(value, 0, 1);
     try { localStorage.setItem("vrealms_sfx_volume", String(state.sfxVolume)); } catch (_) {}
 
+    const target = getAlarmTargetVolume();
     try {
-      const a = ensureAlarm();
-      a.volume = clamp(state.sfxVolume * 0.55, 0, 1);
+      if (state.alarmA && !state.alarmA.paused) {
+        state.alarmA.volume = Math.min(state.alarmA.volume || target, target);
+      }
+      if (state.alarmB && !state.alarmB.paused) {
+        state.alarmB.volume = Math.min(state.alarmB.volume || target, target);
+      }
     } catch (_) {}
   }
 
