@@ -210,7 +210,29 @@
     }
 
     .vr-langText{
-      display:none !important;
+      display:flex !important;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      min-height:32px;
+      font-size:clamp(10px,2.5vw,12px);
+      font-weight:800;
+      line-height:1.1;
+      color:rgba(255,255,255,.96);
+      text-align:center;
+      word-break:break-word;
+    }
+
+    .vr-langText > div:first-child{
+      font-size:12px;
+      font-weight:900;
+      letter-spacing:.3px;
+    }
+
+    .vr-langText > div:last-child{
+      font-size:10px;
+      font-weight:700;
+      opacity:.92;
     }
 
     /* ===== SECTIONS ===== */
