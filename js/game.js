@@ -5108,12 +5108,15 @@ function resetUIState() {
 
     const size = Math.max(100, Math.min(165, Math.round(rect.height * 1.7)));
 
-    const anchorX = rect.left + (rect.width * 0.26);
-    const anchorY = rect.top + (rect.height * 0.58);
-
     hand.style.width = `${size}px`;
-    hand.style.left = `${Math.round(window.scrollX + anchorX - (size * 0.50))}px`;
-    hand.style.top = `${Math.round(window.scrollY + anchorY - (size * 0.72))}px`;
+
+    hand.style.left = `${Math.round(
+      window.scrollX + rect.left + (rect.width * 0.22) - (size * 0.30)
+    )}px`;
+
+    hand.style.top = `${Math.round(
+      window.scrollY + rect.top + (rect.height * 0.50) - (size * 0.42)
+    )}px`;
   }
 
   function clearIntroTimers() {
