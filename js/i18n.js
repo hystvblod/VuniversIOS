@@ -20,7 +20,7 @@
     { code: "fr", ui: "Français" },
     { code: "de", ui: "Deutsch" },
     { code: "es", ui: "Español" },
-    { code: "eslatam", ui: "Es Latam" },
+    { code: "eslatam", ui: "Español LATAM" },
     { code: "pt", ui: "Português" },
     { code: "ptbr", ui: "Português BR" },
     { code: "it", ui: "Italiano" },
