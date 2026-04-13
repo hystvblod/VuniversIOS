@@ -682,54 +682,32 @@ body.vr-peek-mode .vr-gauge-preview{
   clip-path:inset(calc(100% - var(--vr-pct, 0%)) 0 0 0);
 }
 
-@keyframes vrGaugeCriticalLowSoft {
-  0%, 100% {
-    transform: translateZ(0) scale(1);
-    filter: brightness(1) drop-shadow(0 0 0 rgba(255,255,255,0));
-    opacity: 1;
-  }
-  50% {
-    transform: translateZ(0) scale(1.035);
-    filter: brightness(1.12) drop-shadow(0 0 10px rgba(255,255,255,.18));
-    opacity: .96;
-  }
+@keyframes vrGaugeCriticalShake {
+  0%, 100% { transform: translate3d(0,0,0) rotate(0deg); }
+  20% { transform: translate3d(-1px,0,0) rotate(-0.35deg); }
+  40% { transform: translate3d(1px,0,0) rotate(0.35deg); }
+  60% { transform: translate3d(-1.5px,0,0) rotate(-0.5deg); }
+  80% { transform: translate3d(1.5px,0,0) rotate(0.5deg); }
 }
 
-@keyframes vrGaugeCriticalHighSoft {
-  0%, 100% {
-    transform: translateZ(0) scale(1);
-    filter: brightness(1) saturate(1);
-    opacity: 1;
-  }
-  50% {
-    transform: translateZ(0) scale(1.04);
-    filter: brightness(1.14) saturate(1.06);
-    opacity: .95;
-  }
+.vr-gauge.vr-critical-low,
+.vr-gauge.vr-critical-high{
+  transform-origin: 50% 50%;
+  animation: vrGaugeCriticalShake 220ms linear infinite;
+  will-change: transform;
 }
 
 .vr-gauge.vr-critical-low .vr-gauge-fill,
-.vr-gauge.vr-critical-low .vr-gauge-frame{
-  transform-origin: 50% 50%;
-  animation: vrGaugeCriticalLowSoft 1.55s ease-in-out infinite;
-}
-
+.vr-gauge.vr-critical-low .vr-gauge-frame,
 .vr-gauge.vr-critical-high .vr-gauge-fill,
 .vr-gauge.vr-critical-high .vr-gauge-frame{
-  transform-origin: 50% 50%;
-  animation: vrGaugeCriticalHighSoft 1.45s ease-in-out infinite;
+  animation: none !important;
+  filter: drop-shadow(0 0 7px rgba(255, 60, 60, .38));
 }
 
 .vr-gauge.vr-critical-low .vr-gauge-value,
 .vr-gauge.vr-critical-high .vr-gauge-value{
   opacity: 1;
-}
-
-body.vr-peek-mode .vr-gauge.vr-critical-low .vr-gauge-fill,
-body.vr-peek-mode .vr-gauge.vr-critical-low .vr-gauge-frame,
-body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-fill,
-body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
-  animation-duration: 1.2s;
 }
 
 @keyframes vrCriticalAlarmPulseMedium {
