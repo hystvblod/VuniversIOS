@@ -4592,6 +4592,11 @@ body.vr-peek-mode .vr-gauge-preview{
           animation: vrIntroHandSwipe 1s cubic-bezier(.4,0,.2,1) infinite;
         }
 
+        #vr-intro-hand.is-visible.is-choice-swipe{
+          animation: vrIntroHandChoiceSwipe 1.28s cubic-bezier(.4,0,.2,1) infinite !important;
+          transform-origin: 24% 46%;
+        }
+
         body.vr-body-game .vr-hud-item{
           overflow: visible !important;
         }
@@ -4947,6 +4952,17 @@ body.vr-peek-mode .vr-gauge-preview{
           50%{ transform: translate3d(-16px,0,0) rotate(-10deg) scale(.97); opacity:.92; }
         }
 
+        @keyframes vrIntroHandChoiceSwipe{
+          0%,100%{
+            transform: translate3d(0,0,0) rotate(-6deg) scale(1);
+            opacity:1;
+          }
+          50%{
+            transform: translate3d(28px,0,0) rotate(-3deg) scale(.98);
+            opacity:.96;
+          }
+        }
+
         @keyframes vrIntroHintZoom{
           0%,100%{ transform:scale(1); }
           50%{ transform:scale(1.08); }
@@ -5027,6 +5043,8 @@ function resetUIState() {
     hand.alt = "";
     hand.draggable = false;
     hand.dataset.bound = "0";
+    hand.dataset.anchor = "";
+    hand.dataset.choiceId = "";
     document.body.appendChild(hand);
     return hand;
   }
@@ -5034,8 +5052,22 @@ function resetUIState() {
   function hideIntroHand() {
     const hand = document.getElementById("vr-intro-hand");
     if (!hand) return;
-    hand.classList.remove("is-visible");
+    hand.classList.remove("is-visible", "is-choice-swipe");
     hand.style.display = "none";
+  }
+
+  function syncVisibleIntroHand() {
+    const hand = document.getElementById("vr-intro-hand");
+    if (!hand || !hand.classList.contains("is-visible")) return;
+
+    if (hand.dataset.anchor === "jeton") {
+      positionIntroHandOnJeton();
+      return;
+    }
+
+    if (hand.dataset.anchor === "choice") {
+      positionIntroHandOnChoice(hand.dataset.choiceId || "A");
+    }
   }
 
   function positionIntroHandOnJeton() {
@@ -5060,6 +5092,24 @@ function resetUIState() {
     hand.style.width = `${size}px`;
     hand.style.left = `${Math.round((rect.left - hostRect.left) - (size * 0.46))}px`;
     hand.style.top = `${Math.round((rect.top - hostRect.top) + (rect.height * 0.46))}px`;
+  }
+
+  function positionIntroHandOnChoice(choiceId = "A") {
+    const btn = getChoiceButton(choiceId);
+    if (!btn) return;
+
+    const hand = ensureIntroHand();
+
+    if (hand.parentElement !== document.body) {
+      document.body.appendChild(hand);
+    }
+
+    const rect = btn.getBoundingClientRect();
+    const size = Math.max(64, Math.min(92, Math.round(rect.height * 0.92)));
+
+    hand.style.width = `${size}px`;
+    hand.style.left = `${Math.round(window.scrollX + rect.left - (size * 0.10))}px`;
+    hand.style.top = `${Math.round(window.scrollY + rect.top + (rect.height * 0.18) - (size * 0.32))}px`;
   }
 
   function clearIntroTimers() {
@@ -5143,6 +5193,7 @@ function resetUIState() {
       btn.classList.add("vr-intro-tilt");
     }
 
+    showIntroHandOnChoiceSwipe("A");
     showSwipeHint("Swipe");
   }
 
@@ -5152,32 +5203,64 @@ function resetUIState() {
 
     const hand = ensureIntroHand();
 
-    const syncHand = () => {
-      const current = document.getElementById("vr-intro-hand");
-      if (!current || !current.classList.contains("is-visible")) return;
-      positionIntroHandOnJeton();
-    };
-
     if (hand.dataset.bound !== "1") {
-      window.addEventListener("resize", syncHand, { passive: true });
-      window.addEventListener("orientationchange", syncHand, { passive: true });
+      window.addEventListener("resize", syncVisibleIntroHand, { passive: true });
+      window.addEventListener("orientationchange", syncVisibleIntroHand, { passive: true });
 
       if (window.visualViewport) {
-        window.visualViewport.addEventListener("resize", syncHand, { passive: true });
-        window.visualViewport.addEventListener("scroll", syncHand, { passive: true });
+        window.visualViewport.addEventListener("resize", syncVisibleIntroHand, { passive: true });
+        window.visualViewport.addEventListener("scroll", syncVisibleIntroHand, { passive: true });
       }
 
       hand.dataset.bound = "1";
     }
+
+    hand.dataset.anchor = "jeton";
+    hand.dataset.choiceId = "";
+    hand.classList.remove("is-choice-swipe");
 
     positionIntroHandOnJeton();
     hand.style.display = "block";
     hand.classList.add("is-visible");
 
     requestAnimationFrame(() => {
-      positionIntroHandOnJeton();
+      syncVisibleIntroHand();
       requestAnimationFrame(() => {
-        positionIntroHandOnJeton();
+        syncVisibleIntroHand();
+      });
+    });
+  }
+
+  function showIntroHandOnChoiceSwipe(choiceId = "A") {
+    const btn = getChoiceButton(choiceId);
+    if (!btn) return;
+
+    const hand = ensureIntroHand();
+
+    if (hand.dataset.bound !== "1") {
+      window.addEventListener("resize", syncVisibleIntroHand, { passive: true });
+      window.addEventListener("orientationchange", syncVisibleIntroHand, { passive: true });
+
+      if (window.visualViewport) {
+        window.visualViewport.addEventListener("resize", syncVisibleIntroHand, { passive: true });
+        window.visualViewport.addEventListener("scroll", syncVisibleIntroHand, { passive: true });
+      }
+
+      hand.dataset.bound = "1";
+    }
+
+    hand.dataset.anchor = "choice";
+    hand.dataset.choiceId = String(choiceId || "A");
+    hand.classList.add("is-choice-swipe");
+
+    positionIntroHandOnChoice(choiceId);
+    hand.style.display = "block";
+    hand.classList.add("is-visible");
+
+    requestAnimationFrame(() => {
+      syncVisibleIntroHand();
+      requestAnimationFrame(() => {
+        syncVisibleIntroHand();
       });
     });
   }
@@ -5361,6 +5444,7 @@ function resetUIState() {
       clearIntroTimers();
       hideSwipeHint();
       hideGaugeHint();
+      hideIntroHand();
 
       const btn = getChoiceButton("A");
       if (btn) {
