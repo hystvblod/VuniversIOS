@@ -2021,6 +2021,7 @@
         value.fr ??
         value.de ??
         value.es ??
+        value.eslatam ??
         value.it ??
         value.pt ??
         value.ptbr ??
@@ -2035,7 +2036,7 @@
     function vrAdminLooksLikeLangMap(obj) {
       if (!obj || typeof obj !== "object" || Array.isArray(obj)) return false;
       const keys = Object.keys(obj).map(k => vrAdminNormalizeLang(k));
-      const known = ["fr", "en", "de", "es", "it", "pt", "ptbr", "ko", "ja", "id"];
+      const known = ["fr", "en", "de", "es", "eslatam", "it", "pt", "ptbr", "ko", "ja", "id"];
       return keys.some(k => known.includes(k));
     }
 
