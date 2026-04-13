@@ -4625,10 +4625,10 @@ body.vr-peek-mode .vr-gauge-preview{
           display: block !important;
           min-height: auto !important;
           width: 100% !important;
-          max-width: clamp(170px, 46vw, 250px) !important;
-          margin: 0 auto 10px !important;
+          max-width: clamp(200px, 52vw, 320px) !important;
+          margin: 0 auto 12px !important;
           text-align: center !important;
-          line-height: 1.06 !important;
+          line-height: 1.08 !important;
           overflow-wrap: break-word !important;
           word-break: normal !important;
           hyphens: auto !important;
@@ -4638,10 +4638,10 @@ body.vr-peek-mode .vr-gauge-preview{
         #vr-card-main.is-intro-rich-card .vr-intro-rewards-copy{
           display: block !important;
           width: 100% !important;
-          max-width: clamp(170px, 50vw, 260px) !important;
+          max-width: clamp(200px, 56vw, 340px) !important;
           margin: 0 auto !important;
-          font-size: clamp(12px, 3.1vw, 15px) !important;
-          line-height: 1.24 !important;
+          font-size: clamp(14px, 3.5vw, 18px) !important;
+          line-height: 1.28 !important;
           text-align: center !important;
           overflow-wrap: break-word !important;
           word-break: normal !important;
@@ -4674,21 +4674,21 @@ body.vr-peek-mode .vr-gauge-preview{
 
         @media (max-width: 540px){
           #vr-card-main.is-intro-rich-card{
-            width: min(88vw, 460px) !important;
-            padding: 16px 20px 20px !important;
-            background-size: 94% 94% !important;
+            width: min(92vw, 500px) !important;
+            padding: 18px 22px 22px !important;
+            background-size: 96% 96% !important;
           }
 
           #vr-card-main.is-intro-rich-card .vr-card-title{
-            max-width: 72% !important;
-            margin-bottom: 8px !important;
+            max-width: 78% !important;
+            margin-bottom: 10px !important;
           }
 
           #vr-card-main.is-intro-rich-card .vr-card-text,
           #vr-card-main.is-intro-rich-card .vr-intro-rewards-copy{
-            max-width: 72% !important;
-            font-size: 12.5px !important;
-            line-height: 1.22 !important;
+            max-width: 78% !important;
+            font-size: 14px !important;
+            line-height: 1.26 !important;
           }
         }
 

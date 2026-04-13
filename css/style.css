@@ -2021,9 +2021,9 @@ body[data-universe="intro"].vr-body-game #view-game .vr-choice-label{
 }
 
 body.vr-body-game[data-universe="intro"]{
-  --vr-card-w: clamp(388px, 98vw, 1040px);
+  --vr-card-w: clamp(420px, 99vw, 1120px);
 
-  --vr-scn-h: clamp(198px, 23.5svh, 356px);
+  --vr-scn-h: clamp(228px, 26svh, 410px);
   --vr-choice-h: clamp(96px, 12.9svh, 178px);
 
   --vr-scn-inset-top: 10.5%;
@@ -2037,8 +2037,8 @@ body.vr-body-game[data-universe="intro"]{
   --vr-choice-inset-left: 11%;
   --vr-choice-safe: 74%;
 
-  --vr-font-scn-title: clamp(21px, 3.2vmin, 34px);
-  --vr-font-scn-text:  clamp(16px, 2.6vmin, 25px);
+  --vr-font-scn-title: clamp(24px, 3.7vmin, 40px);
+  --vr-font-scn-text:  clamp(18px, 3.0vmin, 30px);
   --vr-font-choice:    clamp(15px, 2.5vmin, 24px);
 
   --vr-topbar-h: calc(clamp(56px, 11vw, 90px) + env(safe-area-inset-top) + 8px);
@@ -2355,9 +2355,9 @@ body[data-universe="intro"] .vr-gauge[data-gauge-id="legacy"] .vr-gauge-preview{
 
 @media (max-width: 480px){
   body.vr-body-game[data-universe="intro"]{
-    --vr-card-w: 98.4vw;
+    --vr-card-w: 98.8vw;
 
-    --vr-scn-h: clamp(176px, 24svh, 248px);
+    --vr-scn-h: clamp(190px, 26svh, 280px);
     --vr-choice-h: clamp(86px, 12.5svh, 132px);
 
     --vr-scn-inset-top: 10%;
@@ -2371,8 +2371,8 @@ body[data-universe="intro"] .vr-gauge[data-gauge-id="legacy"] .vr-gauge-preview{
     --vr-choice-inset-left: 12%;
     --vr-choice-safe: 76%;
 
-    --vr-font-scn-title: clamp(19px, 5vw, 24px);
-    --vr-font-scn-text: clamp(14.8px, 4.05vw, 18.5px);
+    --vr-font-scn-title: clamp(20px, 5.4vw, 27px);
+    --vr-font-scn-text: clamp(15.8px, 4.4vw, 20px);
     --vr-font-choice: clamp(14px, 3.7vw, 18px);
 
     --vr-intro-hud-w: 96vw;
