@@ -4958,7 +4958,7 @@ body.vr-peek-mode .vr-gauge-preview{
             opacity:1;
           }
           50%{
-            transform: translate3d(40px,0,0) rotate(-3deg) scale(.98);
+            transform: translate3d(36px,0,0) rotate(-3deg) scale(.98);
             opacity:.96;
           }
         }
@@ -5105,28 +5105,15 @@ function resetUIState() {
     }
 
     const rect = btn.getBoundingClientRect();
-    const vw = Math.max(window.innerWidth || 0, document.documentElement.clientWidth || 0);
 
-    let size;
+    const size = Math.max(100, Math.min(165, Math.round(rect.height * 1.7)));
 
-    if (vw <= 380) {
-      size = Math.round(rect.height * 1.35);
-    } else if (vw <= 520) {
-      size = Math.round(rect.height * 1.55);
-    } else if (vw <= 900) {
-      size = Math.round(rect.height * 1.85);
-    } else {
-      size = Math.round(rect.height * 2.05);
-    }
-
-    size = Math.max(96, Math.min(170, size));
-
-    const offsetX = Math.round(size * 0.28);
-    const offsetY = Math.round(size * 0.22);
+    const anchorX = rect.left + (rect.width * 0.26);
+    const anchorY = rect.top + (rect.height * 0.58);
 
     hand.style.width = `${size}px`;
-    hand.style.left = `${Math.round(window.scrollX + rect.left + offsetX)}px`;
-    hand.style.top = `${Math.round(window.scrollY + rect.top + rect.height - size + offsetY)}px`;
+    hand.style.left = `${Math.round(window.scrollX + anchorX - (size * 0.50))}px`;
+    hand.style.top = `${Math.round(window.scrollY + anchorY - (size * 0.72))}px`;
   }
 
   function clearIntroTimers() {
