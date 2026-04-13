@@ -7363,6 +7363,19 @@ window.VRGuideMentor = {
     }
   },
 
+  _setBackgroundShake(level = "") {
+    const { view } = this._els();
+    if (!view) return;
+
+    view.classList.remove("vr-guide-bg-shake-event", "vr-guide-bg-shake-major");
+
+    if (level === "event") {
+      view.classList.add("vr-guide-bg-shake-event");
+    } else if (level === "major") {
+      view.classList.add("vr-guide-bg-shake-major");
+    }
+  },
+
   _open(universeId, lines, opts = {}) {
     const { overlay, image, nextBtn } = this._els();
     if (!overlay || !image) return Promise.resolve();
@@ -7376,6 +7389,12 @@ window.VRGuideMentor = {
     image.alt = universeId;
 
     const actionMode = String(opts.actionMode || (opts.isEvent ? "event" : "default"));
+    const shakeLevel =
+      actionMode === "event"
+        ? "event"
+        : (actionMode === "major-choice" || actionMode === "major-result")
+          ? "major"
+          : "";
     const isEventPopup = actionMode === "event";
 
     overlay.__vrGuideMajorYes = null;
@@ -7393,6 +7412,7 @@ window.VRGuideMentor = {
     overlay.classList.add("is-visible");
     overlay.classList.remove("is-final");
     overlay.setAttribute("aria-hidden", "false");
+    this._setBackgroundShake(shakeLevel);
 
     clearTimeout(this._hideTimer);
     clearTimeout(this._finalTimer);
@@ -7567,6 +7587,7 @@ window.VRGuideMentor = {
     overlay.classList.remove("is-visible", "is-event", "is-major-choice", "is-major-result");
     overlay.setAttribute("aria-hidden", "true");
     this._setActionMode("default");
+    this._setBackgroundShake("");
 
     const layer = overlay.querySelector(".vr-guide-confetti-layer");
     if (layer) {
