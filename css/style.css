@@ -5801,6 +5801,40 @@ body.vr-body-game[data-universe] .vr-gauge-label{
   border-color: rgba(255,255,255,0.16);
 }
 
+@keyframes vrGuideBgShakeEventLoop{
+  0%   { transform: translate3d(0, 0, 0); }
+  12%  { transform: translate3d(-1px, 0.35px, 0); }
+  24%  { transform: translate3d(1px, -0.35px, 0); }
+  36%  { transform: translate3d(-0.8px, 0.25px, 0); }
+  48%  { transform: translate3d(0.8px, -0.25px, 0); }
+  60%  { transform: translate3d(-0.7px, 0.2px, 0); }
+  72%  { transform: translate3d(0.7px, -0.2px, 0); }
+  84%  { transform: translate3d(-0.5px, 0.15px, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+@keyframes vrGuideBgShakeMajorLoop{
+  0%   { transform: translate3d(0, 0, 0); }
+  12%  { transform: translate3d(-1.8px, 0.55px, 0); }
+  24%  { transform: translate3d(1.8px, -0.55px, 0); }
+  36%  { transform: translate3d(-1.5px, 0.45px, 0); }
+  48%  { transform: translate3d(1.5px, -0.45px, 0); }
+  60%  { transform: translate3d(-1.2px, 0.35px, 0); }
+  72%  { transform: translate3d(1.2px, -0.35px, 0); }
+  84%  { transform: translate3d(-0.8px, 0.2px, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+#view-game.vr-guide-bg-shake-event > *:not(.vr-guide-overlay):not(.vr-popup):not(.vr-ending-overlay):not(.vr-token-gauge-overlay){
+  animation: vrGuideBgShakeEventLoop 0.95s ease-in-out infinite;
+  will-change: transform;
+}
+
+#view-game.vr-guide-bg-shake-major > *:not(.vr-guide-overlay):not(.vr-popup):not(.vr-ending-overlay):not(.vr-token-gauge-overlay){
+  animation: vrGuideBgShakeMajorLoop 0.82s ease-in-out infinite;
+  will-change: transform;
+}
+
 @media (max-width: 600px){
   .vr-guide-popup{
     top: 30%;
