@@ -4603,16 +4603,16 @@ body.vr-peek-mode .vr-gauge-preview{
         }
 
         #vr-card-main.is-intro-rich-card{
-          width: min(500px, 88vw) !important;
+          width: min(620px, 94vw) !important;
           min-height: auto !important;
           height: auto !important;
           margin: 0 auto !important;
           padding:
-            clamp(18px, 4.2vw, 24px)
-            clamp(24px, 6.2vw, 36px)
-            clamp(22px, 5vw, 30px) !important;
+            clamp(24px, 5.2vw, 34px)
+            clamp(30px, 7.4vw, 52px)
+            clamp(28px, 5.8vw, 40px) !important;
           box-sizing: border-box !important;
-          background-size: 96% 96% !important;
+          background-size: 100% 100% !important;
           background-position: center !important;
           background-repeat: no-repeat !important;
           display: flex !important;
@@ -4626,10 +4626,11 @@ body.vr-peek-mode .vr-gauge-preview{
           display: block !important;
           min-height: auto !important;
           width: 100% !important;
-          max-width: clamp(200px, 52vw, 320px) !important;
-          margin: 0 auto 12px !important;
+          max-width: clamp(260px, 62vw, 420px) !important;
+          margin: 0 auto 14px !important;
           text-align: center !important;
-          line-height: 1.08 !important;
+          line-height: 1.1 !important;
+          font-size: clamp(24px, 4.2vw, 36px) !important;
           overflow-wrap: break-word !important;
           word-break: normal !important;
           hyphens: auto !important;
@@ -4639,10 +4640,10 @@ body.vr-peek-mode .vr-gauge-preview{
         #vr-card-main.is-intro-rich-card .vr-intro-rewards-copy{
           display: block !important;
           width: 100% !important;
-          max-width: clamp(200px, 56vw, 340px) !important;
+          max-width: clamp(250px, 66vw, 460px) !important;
           margin: 0 auto !important;
-          font-size: clamp(14px, 3.5vw, 18px) !important;
-          line-height: 1.28 !important;
+          font-size: clamp(17px, 3.9vw, 24px) !important;
+          line-height: 1.34 !important;
           text-align: center !important;
           overflow-wrap: break-word !important;
           word-break: normal !important;
@@ -4675,21 +4676,22 @@ body.vr-peek-mode .vr-gauge-preview{
 
         @media (max-width: 540px){
           #vr-card-main.is-intro-rich-card{
-            width: min(92vw, 500px) !important;
-            padding: 18px 22px 22px !important;
-            background-size: 96% 96% !important;
+            width: min(96vw, 560px) !important;
+            padding: 22px 24px 24px !important;
+            background-size: 100% 100% !important;
           }
 
           #vr-card-main.is-intro-rich-card .vr-card-title{
-            max-width: 78% !important;
-            margin-bottom: 10px !important;
+            max-width: 84% !important;
+            margin-bottom: 12px !important;
+            font-size: clamp(21px, 5.8vw, 28px) !important;
           }
 
           #vr-card-main.is-intro-rich-card .vr-card-text,
           #vr-card-main.is-intro-rich-card .vr-intro-rewards-copy{
-            max-width: 78% !important;
-            font-size: 14px !important;
-            line-height: 1.26 !important;
+            max-width: 84% !important;
+            font-size: clamp(15.5px, 4.5vw, 19px) !important;
+            line-height: 1.3 !important;
           }
         }
 
