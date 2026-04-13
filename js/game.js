@@ -4958,7 +4958,7 @@ body.vr-peek-mode .vr-gauge-preview{
             opacity:1;
           }
           50%{
-            transform: translate3d(28px,0,0) rotate(-3deg) scale(.98);
+            transform: translate3d(40px,0,0) rotate(-3deg) scale(.98);
             opacity:.96;
           }
         }
@@ -5105,11 +5105,28 @@ function resetUIState() {
     }
 
     const rect = btn.getBoundingClientRect();
-    const size = Math.max(64, Math.min(92, Math.round(rect.height * 0.92)));
+    const vw = Math.max(window.innerWidth || 0, document.documentElement.clientWidth || 0);
+
+    let size;
+
+    if (vw <= 380) {
+      size = Math.round(rect.height * 1.35);
+    } else if (vw <= 520) {
+      size = Math.round(rect.height * 1.55);
+    } else if (vw <= 900) {
+      size = Math.round(rect.height * 1.85);
+    } else {
+      size = Math.round(rect.height * 2.05);
+    }
+
+    size = Math.max(96, Math.min(170, size));
+
+    const offsetX = Math.round(size * 0.28);
+    const offsetY = Math.round(size * 0.22);
 
     hand.style.width = `${size}px`;
-    hand.style.left = `${Math.round(window.scrollX + rect.left - (size * 0.10))}px`;
-    hand.style.top = `${Math.round(window.scrollY + rect.top + (rect.height * 0.18) - (size * 0.32))}px`;
+    hand.style.left = `${Math.round(window.scrollX + rect.left + offsetX)}px`;
+    hand.style.top = `${Math.round(window.scrollY + rect.top + rect.height - size + offsetY)}px`;
   }
 
   function clearIntroTimers() {
