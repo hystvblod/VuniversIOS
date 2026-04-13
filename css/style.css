@@ -2021,25 +2021,25 @@ body[data-universe="intro"].vr-body-game #view-game .vr-choice-label{
 }
 
 body.vr-body-game[data-universe="intro"]{
-  --vr-card-w: clamp(420px, 99vw, 1120px);
+  --vr-card-w: clamp(480px, 99vw, 1240px);
 
-  --vr-scn-h: clamp(228px, 26svh, 410px);
-  --vr-choice-h: clamp(96px, 12.9svh, 178px);
+  --vr-scn-h: clamp(270px, 31svh, 500px);
+  --vr-choice-h: clamp(102px, 13.8svh, 196px);
 
-  --vr-scn-inset-top: 10.5%;
-  --vr-scn-inset-right: 11.5%;
-  --vr-scn-inset-bottom: 15.5%;
-  --vr-scn-inset-left: 11.5%;
+  --vr-scn-inset-top: 10%;
+  --vr-scn-inset-right: 10.5%;
+  --vr-scn-inset-bottom: 14%;
+  --vr-scn-inset-left: 10.5%;
 
-  --vr-choice-inset-top: 18%;
-  --vr-choice-inset-right: 11%;
-  --vr-choice-inset-bottom: 18%;
-  --vr-choice-inset-left: 11%;
-  --vr-choice-safe: 74%;
+  --vr-choice-inset-top: 16%;
+  --vr-choice-inset-right: 10%;
+  --vr-choice-inset-bottom: 16%;
+  --vr-choice-inset-left: 10%;
+  --vr-choice-safe: 78%;
 
-  --vr-font-scn-title: clamp(24px, 3.7vmin, 40px);
-  --vr-font-scn-text:  clamp(18px, 3.0vmin, 30px);
-  --vr-font-choice:    clamp(15px, 2.5vmin, 24px);
+  --vr-font-scn-title: clamp(28px, 4.3vmin, 48px);
+  --vr-font-scn-text:  clamp(20px, 3.35vmin, 34px);
+  --vr-font-choice:    clamp(16px, 2.7vmin, 26px);
 
   --vr-topbar-h: calc(clamp(56px, 11vw, 90px) + env(safe-area-inset-top) + 8px);
 
@@ -2355,25 +2355,25 @@ body[data-universe="intro"] .vr-gauge[data-gauge-id="legacy"] .vr-gauge-preview{
 
 @media (max-width: 480px){
   body.vr-body-game[data-universe="intro"]{
-    --vr-card-w: 98.8vw;
+    --vr-card-w: 99vw;
 
-    --vr-scn-h: clamp(190px, 26svh, 280px);
-    --vr-choice-h: clamp(86px, 12.5svh, 132px);
+    --vr-scn-h: clamp(210px, 29svh, 320px);
+    --vr-choice-h: clamp(92px, 13.2svh, 146px);
 
-    --vr-scn-inset-top: 10%;
-    --vr-scn-inset-right: 10.8%;
-    --vr-scn-inset-bottom: 15%;
-    --vr-scn-inset-left: 10.8%;
+    --vr-scn-inset-top: 9.5%;
+    --vr-scn-inset-right: 10%;
+    --vr-scn-inset-bottom: 14%;
+    --vr-scn-inset-left: 10%;
 
-    --vr-choice-inset-top: 16%;
-    --vr-choice-inset-right: 12%;
-    --vr-choice-inset-bottom: 16%;
-    --vr-choice-inset-left: 12%;
-    --vr-choice-safe: 76%;
+    --vr-choice-inset-top: 15%;
+    --vr-choice-inset-right: 11%;
+    --vr-choice-inset-bottom: 15%;
+    --vr-choice-inset-left: 11%;
+    --vr-choice-safe: 80%;
 
-    --vr-font-scn-title: clamp(20px, 5.4vw, 27px);
-    --vr-font-scn-text: clamp(15.8px, 4.4vw, 20px);
-    --vr-font-choice: clamp(14px, 3.7vw, 18px);
+    --vr-font-scn-title: clamp(22px, 6vw, 30px);
+    --vr-font-scn-text: clamp(17px, 4.9vw, 22px);
+    --vr-font-choice: clamp(14.5px, 3.9vw, 19px);
 
     --vr-intro-hud-w: 96vw;
     --vr-intro-hud-value-size: clamp(11px, 2.8vw, 14px);
