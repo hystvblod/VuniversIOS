@@ -1,0 +1,3602 @@
+{
+  "nw_001": {
+    "title": "Puerto natural",
+    "body": "Una bahía perfecta puede convertirse en nuestra puerta de entrada o en una simple escala.",
+    "choices": {
+      "A": "Construir allí un fuerte",
+      "B": "Abrir allí un mercado",
+      "C": "Mantenerla en secreto"
+    }
+  },
+  "nw_002": {
+    "title": "Impuesto del rey",
+    "body": "La corte reclama su parte incluso antes de que el dinero entre de verdad.",
+    "choices": {
+      "A": "Pagar sin discutir",
+      "B": "Retrasar el pago",
+      "C": "Enviar regalos en su lugar"
+    }
+  },
+  "nw_003": {
+    "title": "Intérprete astuto",
+    "body": "Nuestro intérprete simplifica los tratados cuando le conviene.",
+    "choices": {
+      "A": "Conservarlo porque es útil",
+      "B": "Reemplazarlo rápido",
+      "C": "Vigilarlo de cerca"
+    }
+  },
+  "nw_004": {
+    "title": "Mina escondida",
+    "body": "Un guía habla de una mina tierra adentro, en una zona peligrosa.",
+    "choices": {
+      "A": "Enviar soldados",
+      "B": "Enviar un equipo de extracción",
+      "C": "Comprar solo el secreto"
+    }
+  },
+  "nw_005": {
+    "title": "Aldea aliada",
+    "body": "Una aldea vecina propone su paz a cambio de herramientas y respeto.",
+    "choices": {
+      "A": "Aceptar la alianza",
+      "B": "Tomar la zona sin esperar",
+      "C": "Rechazar cortésmente"
+    }
+  },
+  "nw_006": {
+    "title": "Tripulación exigente",
+    "body": "Los marineros piden una comida de verdad en lugar del pescado que se sirve todos los días.",
+    "choices": {
+      "A": "Pagar una gran comida",
+      "B": "Prometer algo mejor después",
+      "C": "Comprar localmente e invitar a la gente del puerto"
+    }
+  },
+  "nw_007": {
+    "title": "Fuerte o mercado",
+    "body": "No tenemos ni suficientes hombres ni suficiente dinero para hacerlo todo.",
+    "choices": {
+      "A": "Primero el fuerte",
+      "B": "Primero el mercado",
+      "C": "No hacer nada por ahora"
+    }
+  },
+  "nw_008": {
+    "title": "Mapas vendidos",
+    "body": "Un cartógrafo quiere vender nuestras rutas al mejor postor.",
+    "choices": {
+      "A": "Pagarle por su silencio",
+      "B": "Denunciarlo ante el rey",
+      "C": "Dejarlo vender bajo control"
+    }
+  },
+  "nw_009": {
+    "title": "Bandera demasiado pronto",
+    "body": "Plantar nuestros colores aquí sería glorioso o muy imprudente.",
+    "choices": {
+      "A": "Plantar la bandera",
+      "B": "Esperar un acuerdo",
+      "C": "Plantarla y luego ofrecer presentes"
+    }
+  },
+  "nw_010": {
+    "title": "Cosecha local",
+    "body": "Las cosechas son buenas. Todos quieren su parte antes de que caiga la noche.",
+    "choices": {
+      "A": "Comprar para la corona",
+      "B": "Dejar que el mercado decida",
+      "C": "Compartir con la aldea"
+    }
+  },
+  "nw_011": {
+    "title": "Ruta interior",
+    "body": "Un sendero hacia el interior promete tierras y trampas en cantidades iguales.",
+    "choices": {
+      "A": "Trazar la ruta",
+      "B": "Enviar un grupo pequeño",
+      "C": "Quedarse en la costa"
+    }
+  },
+  "nw_012": {
+    "title": "Mensajero herido",
+    "body": "El mensajero real cae del caballo con nuestras órdenes encima. Nuestra credibilidad está en juego.",
+    "choices": {
+      "A": "Atender al mensajero",
+      "B": "Leer nosotros mismos las órdenes",
+      "C": "Escribir otro informe"
+    }
+  },
+  "nw_013": {
+    "title": "Bahía pirata",
+    "body": "Una bahía discreta les gusta tanto a los comerciantes honestos como a los demás.",
+    "choices": {
+      "A": "Poner una guarnición allí",
+      "B": "Cobrar impuestos a todos los barcos",
+      "C": "Hacerse de la vista gorda"
+    }
+  },
+  "nw_014": {
+    "title": "Escuela de la corte",
+    "body": "El gobernador quiere una escuela para conectar mejor el puerto y la aldea.",
+    "choices": {
+      "A": "Financiarla",
+      "B": "Encargarla a la aldea",
+      "C": "Decir que no es urgente"
+    }
+  },
+  "nw_015": {
+    "title": "Monopolio de la sal",
+    "body": "La sal local vale mucho y ya atrae muchas ambiciones.",
+    "choices": {
+      "A": "Crear un monopolio",
+      "B": "Dejar que se venda libremente",
+      "C": "Firmar un acuerdo compartido"
+    }
+  },
+  "nw_016": {
+    "title": "Noble inútil",
+    "body": "Un noble exige escolta para visitar una playa aislada.",
+    "choices": {
+      "A": "Darle una escolta",
+      "B": "Hacerlo esperar",
+      "C": "Mandarlo con una escolta pequeña"
+    }
+  },
+  "nw_017": {
+    "title": "Guía desaparecido",
+    "body": "Nuestro mejor guía se esfumó con una bolsa muy visible.",
+    "choices": {
+      "A": "Perseguirlo",
+      "B": "Pagar a otro guía",
+      "C": "Olvidar el asunto"
+    }
+  },
+  "nw_018": {
+    "title": "Mercado flotante",
+    "body": "Unos vendedores llegan en canoa y prefieren hablar de precios antes que de política.",
+    "choices": {
+      "A": "Comprar en grandes cantidades",
+      "B": "Cobrar impuestos al mercado",
+      "C": "Invitar a los vendedores al puerto"
+    }
+  },
+  "nw_019": {
+    "title": "Pozo común",
+    "body": "El pozo del campamento también interesa a la aldea vecina y a sus cántaros.",
+    "choices": {
+      "A": "Compartir el agua",
+      "B": "Reservar el agua para el campamento",
+      "C": "Cobrar por el acceso"
+    }
+  },
+  "nw_020": {
+    "title": "Marinero ladrón",
+    "body": "Se sospecha que un marinero roba de las reservas.",
+    "choices": {
+      "A": "Castigarlo en público",
+      "B": "Darle una oportunidad",
+      "C": "Ocultar la historia"
+    }
+  },
+  "nw_021": {
+    "title": "Templo de la costa",
+    "body": "Un pequeño templo cerca del puerto es importante para la aldea.",
+    "choices": {
+      "A": "Respetarlo públicamente",
+      "B": "Usarlo como depósito",
+      "C": "Ofrecer aceite al templo"
+    }
+  },
+  "nw_022": {
+    "title": "Bosque útil",
+    "body": "La madera local puede alimentar nuestras obras o molestar a todo el mundo.",
+    "choices": {
+      "A": "Talar ampliamente",
+      "B": "Talar poco y pagar",
+      "C": "Comprar madera en otro lugar"
+    }
+  },
+  "nw_023": {
+    "title": "Peaje del río",
+    "body": "Un jefe local exige un derecho de paso sobre el río.",
+    "choices": {
+      "A": "Pagar el peaje",
+      "B": "Pasar por la fuerza",
+      "C": "Negociar un reparto"
+    }
+  },
+  "nw_024": {
+    "title": "Rumor de revuelta",
+    "body": "Los rumores de revuelta se extienden por el puerto.",
+    "choices": {
+      "A": "Enviar a la guardia",
+      "B": "Bajar un impuesto",
+      "C": "Invitar a los jefes a conversar"
+    }
+  },
+  "nw_025": {
+    "title": "Caja real vacía",
+    "body": "La caja del fuerte está casi vacía.",
+    "choices": {
+      "A": "Imponer un nuevo impuesto",
+      "B": "Vender existencias",
+      "C": "Pedir un plazo al rey"
+    }
+  },
+  "nw_026": {
+    "title": "Cala secreta",
+    "body": "Una cala escondida sería ideal para un depósito secreto o una vía de escape.",
+    "choices": {
+      "A": "Esconder un tesoro allí",
+      "B": "Construir un puesto allí",
+      "C": "No tocar nada"
+    }
+  },
+  "nw_027": {
+    "title": "Fiesta local",
+    "body": "La aldea prepara una fiesta. Estamos invitados u observados, quizá ambas cosas.",
+    "choices": {
+      "A": "Ir con regalos",
+      "B": "Ir con soldados",
+      "C": "No ir"
+    }
+  },
+  "nw_028": {
+    "title": "Explorador ambicioso",
+    "body": "Un explorador quiere más hombres para ir muy lejos y volver rico.",
+    "choices": {
+      "A": "Darle hombres",
+      "B": "Darle pocos hombres",
+      "C": "Mantenerlo en el campamento"
+    }
+  },
+  "nw_029": {
+    "title": "Mercader extranjero",
+    "body": "Un mercader venido de lejos propone un pacto discreto y rentable.",
+    "choices": {
+      "A": "Firmar rápido",
+      "B": "Cobrarle impuestos altos",
+      "C": "Rechazarlo"
+    }
+  },
+  "nw_030": {
+    "title": "Faro local",
+    "body": "Un faro modesto ya guía la bahía mejor que nuestros mapas.",
+    "choices": {
+      "A": "Repararlo a nuestro costo",
+      "B": "Tomarlo para la corona",
+      "C": "Dejarlo en manos de la aldea"
+    }
+  },
+  "nw_031": {
+    "title": "Ganado errante",
+    "body": "Unas bestias andan cerca de nuestros campos y ya tientan a los marineros hambrientos.",
+    "choices": {
+      "A": "Comprar el rebaño",
+      "B": "Confiscarlo",
+      "C": "Devolverlo al jefe"
+    }
+  },
+  "nw_032": {
+    "title": "Mapa manipulado",
+    "body": "Un nuevo mapa agranda nuestras tierras sin mover una sola piedra.",
+    "choices": {
+      "A": "Enviarlo al rey",
+      "B": "Corregirlo",
+      "C": "Guardar la versión falsa para nosotros"
+    }
+  },
+  "nw_033": {
+    "title": "Pesca cerrada",
+    "body": "Los pescadores locales piden dos días sin barcas en su zona.",
+    "choices": {
+      "A": "Aceptar su pausa",
+      "B": "Pescar de todos modos",
+      "C": "Abrir otra zona"
+    }
+  },
+  "nw_034": {
+    "title": "Puerto ralentizado",
+    "body": "Un cansancio general ralentiza el puerto. Nada grave, pero todo se retrasa.",
+    "choices": {
+      "A": "Pagar atención médica",
+      "B": "Cerrar el mercado",
+      "C": "Actuar como si nada pasara"
+    }
+  },
+  "nw_035": {
+    "title": "Casa del jefe",
+    "body": "El jefe local acepta una visita, pero no una lección.",
+    "choices": {
+      "A": "Ir con presentes",
+      "B": "Ir con mapas",
+      "C": "Ir con guardias"
+    }
+  },
+  "nw_036": {
+    "title": "Joven guía del puerto",
+    "body": "Un joven del puerto conoce todos los muelles y todos los atajos.",
+    "choices": {
+      "A": "Pagarle como guía",
+      "B": "Dejarlo en paz",
+      "C": "Orientarlo hacia un aprendizaje seguro"
+    }
+  },
+  "nw_037": {
+    "title": "Campana sin dueño",
+    "body": "Una campana vieja está tirada en la plaza y todos la reclaman.",
+    "choices": {
+      "A": "Ofrecerla al fuerte",
+      "B": "Venderla",
+      "C": "Devolverla a la aldea"
+    }
+  },
+  "nw_038": {
+    "title": "Tesoro enterrado",
+    "body": "Unos obreros juran haber visto oro bajo una piedra vieja.",
+    "choices": {
+      "A": "Excavar por la fuerza",
+      "B": "Excavar discretamente",
+      "C": "Vender el rumor"
+    }
+  },
+  "nw_039": {
+    "title": "Ruta de las colinas",
+    "body": "Una ruta hacia las colinas ayudaría al comercio, pero aumentaría el riesgo de ataques.",
+    "choices": {
+      "A": "Asegurar la ruta",
+      "B": "Cobrar por la ruta",
+      "C": "Entregar la ruta a los locales"
+    }
+  },
+  "nw_040": {
+    "title": "Ron de contrabando",
+    "body": "Un barril de ron de contrabando circula en secreto durante la noche.",
+    "choices": {
+      "A": "Confiscar el ron",
+      "B": "Vender el ron nosotros mismos",
+      "C": "Dejarlo pasar a cambio de un favor"
+    }
+  },
+  "nw_041": {
+    "title": "Canal lodoso",
+    "body": "Excavar un canal ahorraría tiempo y vaciaría la bolsa.",
+    "choices": {
+      "A": "Financiar el canal",
+      "B": "Hacer que la aldea lo excave",
+      "C": "Abandonar la idea"
+    }
+  },
+  "nw_042": {
+    "title": "Loro indiscreto",
+    "body": "El loro del puerto repite nuestros secretos mejor que nuestros escribas.",
+    "choices": {
+      "A": "Comprarlo",
+      "B": "Hacerlo callar",
+      "C": "Quedárselo como diversión"
+    }
+  },
+  "nw_043": {
+    "title": "Marea ideal",
+    "body": "La marea perfecta puede servir para un desembarco o para un convoy de especias.",
+    "choices": {
+      "A": "Desembarcar hombres",
+      "B": "Desembarcar mercancías",
+      "C": "Esperar la próxima marea"
+    }
+  },
+  "nw_044": {
+    "title": "Artesano local",
+    "body": "Un artesano fabrica mejor que nuestros talleres y más rápido que nuestras quejas.",
+    "choices": {
+      "A": "Contratarlo para la corona",
+      "B": "Comprar su producción",
+      "C": "Ayudarlo a abrir una tienda"
+    }
+  },
+  "nw_045": {
+    "title": "Granja expuesta",
+    "body": "Una granja cerca del fuerte atrae tanto el comercio como a los ladrones.",
+    "choices": {
+      "A": "Poner guardias allí",
+      "B": "Moverla cerca del puerto",
+      "C": "Dejarla en manos de los campesinos"
+    }
+  },
+  "nw_046": {
+    "title": "Dos jefes",
+    "body": "Dos jefes vecinos piden nuestro apoyo contra su rival común.",
+    "choices": {
+      "A": "Apoyar al más fuerte",
+      "B": "Apoyar al más calmado",
+      "C": "No apoyar a nadie"
+    }
+  },
+  "nw_047": {
+    "title": "Barco costero averiado",
+    "body": "Un pequeño bote del puerto hace agua frente a los ojos de todos.",
+    "choices": {
+      "A": "Repararlo",
+      "B": "Comprarlo por casi nada",
+      "C": "Dejar que se hunda"
+    }
+  },
+  "nw_048": {
+    "title": "Temporada de lluvias",
+    "body": "La temporada de lluvias puede bloquear los caminos y ralentizar todo el puerto.",
+    "choices": {
+      "A": "Reforzar los caminos",
+      "B": "Almacenar y esperar",
+      "C": "Seguir como si nada"
+    }
+  },
+  "nw_049": {
+    "title": "Tela colorida",
+    "body": "Una tela local muy codiciada podría dar grandes ganancias.",
+    "choices": {
+      "A": "Comprar todo el stock",
+      "B": "Cobrar impuestos a las ventas",
+      "C": "Regalar rollos a los jefes"
+    }
+  },
+  "nw_050": {
+    "title": "Baliza rota",
+    "body": "La baliza del cabo se cayó, y eso vuelve más peligrosa la entrada a la bahía.",
+    "choices": {
+      "A": "Levantarla rápido",
+      "B": "Cobrar a los barcos",
+      "C": "Posponer la reparación"
+    }
+  },
+  "nw_051": {
+    "title": "Obras del muelle",
+    "body": "El muelle cruje. Puede aguantar un poco más o nada en absoluto.",
+    "choices": {
+      "A": "Repararlo a lo grande",
+      "B": "Repararlo apenas",
+      "C": "Cerrar el muelle por un tiempo"
+    }
+  },
+  "nw_052": {
+    "title": "Espía hablador",
+    "body": "Un hombre habla nuestra lengua con demasiada facilidad para ser un simple mercader.",
+    "choices": {
+      "A": "Voltearlo a nuestro favor",
+      "B": "Expulsarlo",
+      "C": "Dejarlo hablar para escucharlo"
+    }
+  },
+  "nw_053": {
+    "title": "Impuesto de los pontones",
+    "body": "Los pontones privados crecen rápido cuando el oro circula todavía más rápido.",
+    "choices": {
+      "A": "Cobrar impuesto a cada pontón",
+      "B": "Comprar los pontones",
+      "C": "Dejar que crezcan libremente"
+    }
+  },
+  "nw_054": {
+    "title": "Estandarte local",
+    "body": "La aldea quiere que su estandarte ondee junto al nuestro.",
+    "choices": {
+      "A": "Aceptar",
+      "B": "Rechazar",
+      "C": "Aceptar a cambio de un impuesto"
+    }
+  },
+  "nw_055": {
+    "title": "Manantial salado",
+    "body": "Un manantial da agua extraña pero útil para conservar alimentos.",
+    "choices": {
+      "A": "Explotarlo",
+      "B": "Guardarlo para el campamento",
+      "C": "Ofrecerlo al mercado"
+    }
+  },
+  "nw_056": {
+    "title": "Desertor útil",
+    "body": "Un hombre de un reino rival quiere vendernos sus planes.",
+    "choices": {
+      "A": "Comprar sus planes",
+      "B": "Entregarlo al rey",
+      "C": "Usarlo y luego esconderlo"
+    }
+  },
+  "nw_057": {
+    "title": "Granero común",
+    "body": "La aldea propone un granero común para pasar la mala temporada.",
+    "choices": {
+      "A": "Financiar el granero",
+      "B": "Dejar que la aldea lo haga sola",
+      "C": "Tomar el granero para el fuerte"
+    }
+  },
+  "nw_058": {
+    "title": "Botes rápidos",
+    "body": "Las canoas locales corren mejor que nuestras pesadas barcas de servicio.",
+    "choices": {
+      "A": "Comprar algunas",
+      "B": "Copiarlas",
+      "C": "Prohibirlas cerca del fuerte"
+    }
+  },
+  "nw_059": {
+    "title": "Pólvora negra",
+    "body": "Las reservas de pólvora bajan y los informes ya son alarmantes.",
+    "choices": {
+      "A": "Comprar caro",
+      "B": "Reducir los disparos",
+      "C": "Vender una parte al vecino"
+    }
+  },
+  "nw_060": {
+    "title": "Plaza del mercado",
+    "body": "La plaza central puede convertirse en una zona de venta o de control.",
+    "choices": {
+      "A": "Poner allí a nuestros guardias",
+      "B": "Hacer una feria",
+      "C": "Dejarla a la aldea"
+    }
+  },
+  "nw_061": {
+    "title": "Mineros cansados",
+    "body": "Los mineros quieren un bono antes de bajar aún más profundo.",
+    "choices": {
+      "A": "Pagar el bono",
+      "B": "Prometer después",
+      "C": "Reemplazar a los más ruidosos"
+    }
+  },
+  "nw_062": {
+    "title": "Correo del rey",
+    "body": "El rey pide un gesto fuerte para marcar nuestra presencia aquí.",
+    "choices": {
+      "A": "Construir una torre",
+      "B": "Enviar un cofre bien lleno",
+      "C": "Organizar un gran desfile"
+    }
+  },
+  "nw_063": {
+    "title": "Mercader de mapas",
+    "body": "Un hombre vende mapas de lugares que no hemos visto.",
+    "choices": {
+      "A": "Comprar su lote",
+      "B": "Arrestarlo",
+      "C": "Tomarlo como explorador"
+    }
+  },
+  "nw_064": {
+    "title": "Lugar de descanso",
+    "body": "Los obreros piden un lugar digno para honrar a quienes se perdieron en la obra.",
+    "choices": {
+      "A": "Pagar el terreno",
+      "B": "Dejar que la aldea se encargue",
+      "C": "Posponer la decisión"
+    }
+  },
+  "nw_065": {
+    "title": "Hierbas raras",
+    "body": "Unas hierbas locales curan bien y se venden todavía mejor.",
+    "choices": {
+      "A": "Crear un comercio",
+      "B": "Reservarlas al campamento",
+      "C": "Ofrecerlas a las aldeas vecinas"
+    }
+  },
+  "nw_066": {
+    "title": "Pontón rival",
+    "body": "Un mercader rival construye su pontón más rápido que nuestras decisiones.",
+    "choices": {
+      "A": "Cobrarle impuestos altos",
+      "B": "Comprar su pontón",
+      "C": "Dejarlo actuar y observar"
+    }
+  },
+  "nw_067": {
+    "title": "Frontera borrosa",
+    "body": "La frontera del norte depende sobre todo de quién habla más fuerte.",
+    "choices": {
+      "A": "Trazarla nosotros mismos",
+      "B": "Invitar a los jefes a trazarla",
+      "C": "Dejarla borrosa por ahora"
+    }
+  },
+  "nw_068": {
+    "title": "Reserva de granos",
+    "body": "Nuestras reservas de granos aseguran un invierno tranquilo o una ganancia muy buena.",
+    "choices": {
+      "A": "Vender una parte",
+      "B": "Guardar todo",
+      "C": "Prestarle a la aldea"
+    }
+  },
+  "nw_069": {
+    "title": "Islote vecino",
+    "body": "Un pequeño islote domina la bahía. Es bonito y muy estratégico.",
+    "choices": {
+      "A": "Construir una torre allí",
+      "B": "Construir un almacén allí",
+      "C": "Dejarlo neutral"
+    }
+  },
+  "nw_070": {
+    "title": "Contador creativo",
+    "body": "El contador manipula las cifras para esconder ciertos problemas.",
+    "choices": {
+      "A": "Conservarlo por útil",
+      "B": "Reemplazarlo",
+      "C": "Ponerlo bajo vigilancia"
+    }
+  },
+  "nw_071": {
+    "title": "Caza prohibida",
+    "body": "La aldea prohíbe la caza en una zona rica en animales.",
+    "choices": {
+      "A": "Respetar la prohibición",
+      "B": "Ignorarla",
+      "C": "Pagar un permiso limitado"
+    }
+  },
+  "nw_072": {
+    "title": "Taberna ruidosa",
+    "body": "La taberna del puerto da buenas ganancias, pero ahoga la disciplina.",
+    "choices": {
+      "A": "Cobrarle impuestos",
+      "B": "Cerrar temprano",
+      "C": "Comprarla"
+    }
+  },
+  "nw_073": {
+    "title": "Campo común",
+    "body": "Tierras vacías cerca del fuerte pueden alimentar a nuestros hombres o a los de ellos.",
+    "choices": {
+      "A": "Tomarlas para el fuerte",
+      "B": "Compartirlas",
+      "C": "Alquilarlas"
+    }
+  },
+  "nw_074": {
+    "title": "Náufragos útiles",
+    "body": "Llegan náufragos con herramientas y costumbres dudosas.",
+    "choices": {
+      "A": "Reclutarlos",
+      "B": "Despojarlos",
+      "C": "Ayudarlos a partir"
+    }
+  },
+  "nw_075": {
+    "title": "Corte de justicia",
+    "body": "El puerto quiere un lugar de verdad para resolver disputas antes de que aparezcan los cuchillos.",
+    "choices": {
+      "A": "Construir un tribunal",
+      "B": "Dejar que el jefe juzgue",
+      "C": "Hacer que nuestros soldados juzguen"
+    }
+  },
+  "nw_076": {
+    "title": "Convoy lento",
+    "body": "Un convoy de metales avanza tan lento que atrae la atención de todos los ladrones.",
+    "choices": {
+      "A": "Agregar una escolta",
+      "B": "Dividirlo en lotes pequeños",
+      "C": "Venderlo allí mismo"
+    }
+  },
+  "nw_077": {
+    "title": "Puertas del fuerte",
+    "body": "Las puertas del fuerte son hermosas, pesadas y se abren demasiado seguido.",
+    "choices": {
+      "A": "Reforzarlas",
+      "B": "Cobrar un derecho de entrada",
+      "C": "Dejarlas como están"
+    }
+  },
+  "nw_078": {
+    "title": "Sal de contrabando",
+    "body": "La sal desaparece de los almacenes a simple vista.",
+    "choices": {
+      "A": "Castigar con dureza",
+      "B": "Bajar el impuesto",
+      "C": "Comprar el stock escondido"
+    }
+  },
+  "nw_079": {
+    "title": "Guía orgulloso",
+    "body": "Nuestro guía se niega a caminar si no se reconoce su valor.",
+    "choices": {
+      "A": "Darle un bono",
+      "B": "Reemplazarlo",
+      "C": "Halagarlo y viajar ligero"
+    }
+  },
+  "nw_080": {
+    "title": "Aldea en transición",
+    "body": "El jefe de la aldea vecina ya no está. Todos esperan nuestro gesto.",
+    "choices": {
+      "A": "Apoyar a un sucesor",
+      "B": "Dejar que la aldea elija",
+      "C": "Tomar la zona antes de que termine el duelo"
+    }
+  },
+  "nw_081": {
+    "title": "Oficina del puerto",
+    "body": "La oficina del puerto está desbordada de papeles y funciona mal.",
+    "choices": {
+      "A": "Pagar más escribas",
+      "B": "Simplificar las reglas",
+      "C": "Vender los puestos al mejor postor"
+    }
+  },
+  "nw_082": {
+    "title": "Tesoro del templo",
+    "body": "El templo guarda un cofre antiguo que nadie abre sin temblar.",
+    "choices": {
+      "A": "Dejarlo cerrado",
+      "B": "Pedir abrirlo juntos",
+      "C": "Tomarlo en nombre del rey"
+    }
+  },
+  "nw_083": {
+    "title": "Compañía rival",
+    "body": "Otra compañía europea propone un acuerdo que parece arriesgado.",
+    "choices": {
+      "A": "Firmar un pacto corto",
+      "B": "Venderles un paso",
+      "C": "Mantenerlos lejos del puerto"
+    }
+  },
+  "nw_084": {
+    "title": "Molino bloqueado",
+    "body": "El molino del puerto está bloqueado por una piedra y por una disputa.",
+    "choices": {
+      "A": "Reparar el molino",
+      "B": "Arbitrar la disputa",
+      "C": "Comprar el molino"
+    }
+  },
+  "nw_085": {
+    "title": "Bandera local",
+    "body": "Una aldea quiere izar su bandera durante nuestro desfile oficial.",
+    "choices": {
+      "A": "Aceptar",
+      "B": "Negarse rotundamente",
+      "C": "Aceptar a cambio de un homenaje público"
+    }
+  },
+  "nw_086": {
+    "title": "Honda del grumete",
+    "body": "El grumete tiene muy buena puntería y ya quiere dirigir un pequeño grupo de exploradores.",
+    "choices": {
+      "A": "Darle una oportunidad",
+      "B": "Decirle que espere",
+      "C": "Ponerlo al servicio de las reservas"
+    }
+  },
+  "nw_087": {
+    "title": "Arrecife útil",
+    "body": "Un arrecife protege la bahía. También puede arruinar un desembarco.",
+    "choices": {
+      "A": "Señalarlo solo para nosotros",
+      "B": "Señalarlo para todos",
+      "C": "No cambiar nada"
+    }
+  },
+  "nw_088": {
+    "title": "Casa de especias",
+    "body": "Una casa del puerto quiere nuestra protección contra una banda local.",
+    "choices": {
+      "A": "Protegerla",
+      "B": "Cobrarle por la protección",
+      "C": "Dejarla arreglárselas sola"
+    }
+  },
+  "nw_089": {
+    "title": "Campo de añil",
+    "body": "El añil local vale mucho, pero ocupa el lugar de cultivos que alimentan mejor.",
+    "choices": {
+      "A": "Sembrar más añil",
+      "B": "Mantener cultivos mixtos",
+      "C": "Negarse a expandirlo"
+    }
+  },
+  "nw_090": {
+    "title": "Torre vieja",
+    "body": "Una vieja torre de la costa puede servir como puesto o derrumbarse sobre alguien.",
+    "choices": {
+      "A": "Restaurarla",
+      "B": "Desmontarla y vender la piedra",
+      "C": "Cerrarla y olvidarla"
+    }
+  },
+  "nw_091": {
+    "title": "Mercado nocturno",
+    "body": "El mercado nocturno vende de todo, incluso lo que perdimos ayer.",
+    "choices": {
+      "A": "Legalizarlo y cobrar impuestos",
+      "B": "Cerrarlo",
+      "C": "Vigilarlo en silencio"
+    }
+  },
+  "nw_092": {
+    "title": "Claro sagrado",
+    "body": "Un claro considerado sagrado bloquea nuestra mejor ruta de carretas.",
+    "choices": {
+      "A": "Rodear el claro",
+      "B": "Abrir la ruta de todos modos",
+      "C": "Proponer otro lugar sagrado"
+    }
+  },
+  "nw_093": {
+    "title": "Cofre desaparecido",
+    "body": "Un cofre desapareció entre el muelle y el fuerte, pero nadie quiere admitir nada.",
+    "choices": {
+      "A": "Revisar a todo el mundo",
+      "B": "Ofrecer una recompensa",
+      "C": "Compensar en silencio"
+    }
+  },
+  "nw_094": {
+    "title": "Tierras fértiles",
+    "body": "Una llanura fértil puede alimentar al puerto o enriquecer a tres notables.",
+    "choices": {
+      "A": "Crear granjas reales",
+      "B": "Vender las tierras",
+      "C": "Repartir lotes"
+    }
+  },
+  "nw_095": {
+    "title": "Taller de armas",
+    "body": "Un herrero quiere abrir un taller para nuestras hojas y para las de nuestros vecinos.",
+    "choices": {
+      "A": "Financiar el taller",
+      "B": "Autorizarlo con impuesto",
+      "C": "Prohibirlo"
+    }
+  },
+  "nw_096": {
+    "title": "Jefe herido",
+    "body": "Un jefe aliado está herido. Su familia ya nos mira con desconfianza.",
+    "choices": {
+      "A": "Enviar un médico",
+      "B": "Enviar oro",
+      "C": "Mantener distancia"
+    }
+  },
+  "nw_097": {
+    "title": "Impuesto al oro",
+    "body": "El oro circula mejor cuando todos olvidan el impuesto oficial.",
+    "choices": {
+      "A": "Aumentar los controles",
+      "B": "Bajar el impuesto",
+      "C": "Cerrar un ojo a cambio de un pago"
+    }
+  },
+  "nw_098": {
+    "title": "Entrada del fuerte",
+    "body": "El fuerte crece. Hay que decidir quién entra y quién espera afuera.",
+    "choices": {
+      "A": "Abrir a los comerciantes",
+      "B": "Abrir a los aliados locales",
+      "C": "Abrir solo a los soldados"
+    }
+  },
+  "nw_099": {
+    "title": "Torre de vigilancia",
+    "body": "Una torre de vigilancia permite ver a lo lejos, pero cuesta mucho construirla y mantenerla.",
+    "choices": {
+      "A": "Construirla al norte",
+      "B": "Construirla en el puerto",
+      "C": "Posponer la obra"
+    }
+  },
+  "nw_100": {
+    "title": "Bahía sin dueño",
+    "body": "La bahía más hermosa de la costa todavía no pertenece a nadie.",
+    "choices": {
+      "A": "Tomarla en nombre del rey",
+      "B": "Crear una ciudad abierta allí",
+      "C": "Firmar un pacto con las aldeas"
+    }
+  },
+  "nw_101": {
+    "title": "Barcas demasiado lentas",
+    "body": "Nuestras barcas avanzan demasiado lento y todo el puerto se da cuenta.",
+    "choices": {
+      "A": "Comprar velas nuevas",
+      "B": "Entrenar mejores remeros",
+      "C": "Alquilar barcas locales"
+    }
+  },
+  "nw_102": {
+    "title": "Pez gigante",
+    "body": "Un pez muy grande bloquea la entrada del puerto.",
+    "choices": {
+      "A": "Cazarlo en grupo",
+      "B": "Venderlo en pedazos",
+      "C": "Hacer una fiesta alrededor"
+    }
+  },
+  "nw_103": {
+    "title": "Escriba dormido",
+    "body": "El escriba del muelle sella todo, menos los documentos correctos.",
+    "choices": {
+      "A": "Reemplazarlo rápido",
+      "B": "Despertarlo con un bono",
+      "C": "Simplificar los papeles"
+    }
+  },
+  "nw_104": {
+    "title": "Mercado bajo la lluvia",
+    "body": "El mercado sigue pese a la lluvia, pero los puestos casi están bajo el agua.",
+    "choices": {
+      "A": "Construir techos",
+      "B": "Mover el mercado al fuerte",
+      "C": "Dejar que cada quien se arregle"
+    }
+  },
+  "nw_105": {
+    "title": "Tambor de la costa",
+    "body": "Un tambor local convoca a la aldea más rápido que nuestra campana.",
+    "choices": {
+      "A": "Comprar el tambor",
+      "B": "Hacer sonar nuestra campana más fuerte",
+      "C": "Prestar el tambor para las fiestas"
+    }
+  },
+  "nw_106": {
+    "title": "Bolsa agujereada",
+    "body": "El responsable de la caja pierde demasiadas monedas y nadie sabe exactamente dónde desaparecen.",
+    "choices": {
+      "A": "Revisar la caja con él, moneda por moneda",
+      "B": "Darle un ayudante para controlarlo todo",
+      "C": "No decir nada durante un mes"
+    }
+  },
+  "nw_107": {
+    "title": "Red prodigiosa",
+    "body": "Un pescador saca más peces que nuestras reservas de sal.",
+    "choices": {
+      "A": "Comprar su secreto",
+      "B": "Dejarlo vender libremente",
+      "C": "Invitarlo al fuerte"
+    }
+  },
+  "nw_108": {
+    "title": "Muelle abarrotado",
+    "body": "El muelle está lleno de cajas, cabras y excusas.",
+    "choices": {
+      "A": "Ordenar con guardias",
+      "B": "Ampliar el muelle",
+      "C": "Crear reglas simples"
+    }
+  },
+  "nw_109": {
+    "title": "Oráculo del puerto",
+    "body": "Un viejo marinero predice la marea y a veces también los precios.",
+    "choices": {
+      "A": "Pagarle por sus consejos",
+      "B": "Ignorarlo",
+      "C": "Escucharlo en público"
+    }
+  },
+  "nw_110": {
+    "title": "Cerdos del campamento",
+    "body": "Los cerdos del campamento comen mejor que algunos soldados.",
+    "choices": {
+      "A": "Vender una parte",
+      "B": "Alimentar mejor a los hombres",
+      "C": "Cerrar el corral"
+    }
+  },
+  "nw_111": {
+    "title": "Río terco",
+    "body": "El río cambió de curso, y eso complica los desplazamientos y el intercambio.",
+    "choices": {
+      "A": "Excavar un canal pequeño",
+      "B": "Seguir el nuevo curso",
+      "C": "Dejar que los locales guíen"
+    }
+  },
+  "nw_112": {
+    "title": "Madera aromática",
+    "body": "Una madera rara vale mucho y ya atrae la atención del tesoro.",
+    "choices": {
+      "A": "Venderla lejos",
+      "B": "Reservarla para los barcos",
+      "C": "Ofrecerla a los jefes vecinos"
+    }
+  },
+  "nw_113": {
+    "title": "Guardia hablador",
+    "body": "Un guardia cuenta nuestros planes entre dos tragos.",
+    "choices": {
+      "A": "Trasladarlo al muro norte",
+      "B": "Pagarle para que calle",
+      "C": "Mandarlo a bromear a otro lado"
+    }
+  },
+  "nw_114": {
+    "title": "Carro roto",
+    "body": "El único gran carro del puerto se mantiene solo por pura voluntad.",
+    "choices": {
+      "A": "Repararlo",
+      "B": "Comprar dos carros locales",
+      "C": "Seguir cargando a mano un tiempo más"
+    }
+  },
+  "nw_115": {
+    "title": "Pabellón nuevo",
+    "body": "Un pabellón limpio le daría porte al fuerte tan cansado.",
+    "choices": {
+      "A": "Izarlo mañana",
+      "B": "Bordarlo con la aldea",
+      "C": "Conservar el viejo trapo"
+    }
+  },
+  "nw_116": {
+    "title": "Especias perdidas",
+    "body": "Una caja de especias huele fuerte, pero sigue sin aparecer.",
+    "choices": {
+      "A": "Registrar todos los muelles",
+      "B": "Recomprar la caja discretamente",
+      "C": "Vender el misterio"
+    }
+  },
+  "nw_117": {
+    "title": "Puente de cuerda",
+    "body": "Un puente de cuerda acortaría la ruta, pero seguiría siendo peligroso.",
+    "choices": {
+      "A": "Reforzarlo",
+      "B": "Cobrar el paso",
+      "C": "Dejarlo a los locales"
+    }
+  },
+  "nw_118": {
+    "title": "Miel local",
+    "body": "La miel local se pega a los dedos y a las ideas de ganancia.",
+    "choices": {
+      "A": "Comprar todas las jarras",
+      "B": "Cobrar impuestos a las ventas",
+      "C": "Regalar miel a la aldea"
+    }
+  },
+  "nw_119": {
+    "title": "Sendero confuso",
+    "body": "El sendero hacia las colinas existe más en los relatos que en la realidad.",
+    "choices": {
+      "A": "Enviar gente a señalizar",
+      "B": "Pagar a un rastreador local",
+      "C": "Esperar una temporada más clara"
+    }
+  },
+  "nw_120": {
+    "title": "Venta real",
+    "body": "Objetos gastados del fuerte podrían valer más de lo que todavía sirven.",
+    "choices": {
+      "A": "Venderlo todo",
+      "B": "Vender solo lo sobrante",
+      "C": "Guardar todo por orgullo"
+    }
+  },
+  "nw_121": {
+    "title": "Marineros celosos",
+    "body": "Los marineros del rey envidian las canoas locales, que son más rápidas.",
+    "choices": {
+      "A": "Comprar también canoas",
+      "B": "Organizar una carrera",
+      "C": "Prohibir las comparaciones"
+    }
+  },
+  "nw_122": {
+    "title": "Huerto vecino",
+    "body": "Un huerto cercano da frutas y también ideas de asentamiento.",
+    "choices": {
+      "A": "Firmar un acuerdo de cosecha",
+      "B": "Tomar el huerto",
+      "C": "Comprar solo el excedente"
+    }
+  },
+  "nw_123": {
+    "title": "Barco pintado",
+    "body": "Un barco local pintado con colores vivos atrae toda la atención del muelle.",
+    "choices": {
+      "A": "Comprarlo para el fuerte",
+      "B": "Alquilarlo para el comercio",
+      "C": "Aplaudirlo de lejos"
+    }
+  },
+  "nw_124": {
+    "title": "Jefe gourmet",
+    "body": "Al jefe vecino le encanta nuestro pan, pero detesta nuestros grandes discursos.",
+    "choices": {
+      "A": "Invitarlo a cenar",
+      "B": "Venderle el pan caro",
+      "C": "Mandarle solo la receta"
+    }
+  },
+  "nw_125": {
+    "title": "Almacén vacío",
+    "body": "Nuestro almacén está casi vacío, y eso empieza a causar un verdadero problema de abastecimiento.",
+    "choices": {
+      "A": "Llenarlo con compras",
+      "B": "Alquilarlo a los comerciantes",
+      "C": "Cerrarlo para ahorrar"
+    }
+  },
+  "nw_126": {
+    "title": "Cuerda escasa",
+    "body": "La buena cuerda falta y la mala se rompe en el peor momento.",
+    "choices": {
+      "A": "Comprar a precio alto",
+      "B": "Formar cordeleros locales",
+      "C": "Posponer las obras"
+    }
+  },
+  "nw_127": {
+    "title": "Cangrejo sagrado",
+    "body": "Los cangrejos invaden el depósito y nadie se atreve a tocarlos.",
+    "choices": {
+      "A": "Ahuyentarlos rápido",
+      "B": "Pedir consejo a la aldea",
+      "C": "Mover el depósito"
+    }
+  },
+  "nw_128": {
+    "title": "Mercader encantador",
+    "body": "Un mercader parece tan amable que desconfiamos aún más de él.",
+    "choices": {
+      "A": "Firmar un pequeño acuerdo",
+      "B": "Ponerlo bajo vigilancia",
+      "C": "Ponerlo a competir"
+    }
+  },
+  "nw_129": {
+    "title": "Techo del fuerte",
+    "body": "El techo del fuerte gotea por todos lados.",
+    "choices": {
+      "A": "Rehacerlo con madera nueva",
+      "B": "Reparar solo lo peor",
+      "C": "Poner cubetas por todas partes"
+    }
+  },
+  "nw_130": {
+    "title": "Acuerdo de pesca",
+    "body": "Dos aldeas quieren la misma zona de pesca y también nuestra opinión.",
+    "choices": {
+      "A": "Repartir los días",
+      "B": "Vender la zona al mejor postor",
+      "C": "Quedarnos la zona"
+    }
+  },
+  "nw_131": {
+    "title": "Humo sospechoso",
+    "body": "Un humo extraño sube desde las colinas, y no viene de nuestra cocina.",
+    "choices": {
+      "A": "Enviar exploradores",
+      "B": "Invitar a los jefes a dar explicaciones",
+      "C": "Ignorar el humo"
+    }
+  },
+  "nw_132": {
+    "title": "Barco sin remos",
+    "body": "Llega un barco nuevo sin remos y con demasiada confianza.",
+    "choices": {
+      "A": "Comprar remos",
+      "B": "Revenderlo de inmediato",
+      "C": "Dárselo a la aldea"
+    }
+  },
+  "nw_133": {
+    "title": "Posada del muelle",
+    "body": "Se abre una posada en el puerto y promete atraer viajeros, rumores y gastos.",
+    "choices": {
+      "A": "Cobrarle impuestos",
+      "B": "Hospedar allí a nuestros visitantes",
+      "C": "Comprarla"
+    }
+  },
+  "nw_134": {
+    "title": "Mapa mojado",
+    "body": "Nuestro mejor mapa fue dañado por el agua.",
+    "choices": {
+      "A": "Copiarlo rápido",
+      "B": "Comprar un mapa local",
+      "C": "Navegar de memoria"
+    }
+  },
+  "nw_135": {
+    "title": "Tomates del campamento",
+    "body": "La huerta del campamento por fin logra producir algo redondo.",
+    "choices": {
+      "A": "Vender el excedente",
+      "B": "Compartir la cosecha",
+      "C": "Reservarla para los oficiales"
+    }
+  },
+  "nw_136": {
+    "title": "Paseo del noble",
+    "body": "Un noble quiere visitar los pantanos con botas blancas.",
+    "choices": {
+      "A": "Acompañarlo",
+      "B": "Desanimarlo con la verdad",
+      "C": "Pasearlo solo por el puerto"
+    }
+  },
+  "nw_137": {
+    "title": "Gaviotas ladronas",
+    "body": "Las gaviotas del muelle roban más pan que los niños.",
+    "choices": {
+      "A": "Proteger las reservas",
+      "B": "Vender el pan más caro",
+      "C": "Alimentar a las gaviotas en otro lugar"
+    }
+  },
+  "nw_138": {
+    "title": "Tierra roja",
+    "body": "Una tierra roja promete buenos ladrillos y botas muy sucias.",
+    "choices": {
+      "A": "Abrir una ladrillera",
+      "B": "Dejar que los locales produzcan",
+      "C": "Reservar la zona al fuerte"
+    }
+  },
+  "nw_139": {
+    "title": "Sabor de la sal",
+    "body": "La sal local es excelente y nuestros cocineros se vuelven arrogantes.",
+    "choices": {
+      "A": "Vender esa sal lejos",
+      "B": "Guardar la mejor en el fuerte",
+      "C": "Compartir una parte con los vecinos"
+    }
+  },
+  "nw_140": {
+    "title": "Canoa discreta",
+    "body": "Una pequeña canoa llega cada noche sin parecer apurada jamás.",
+    "choices": {
+      "A": "Seguirla",
+      "B": "Cobrarle en secreto",
+      "C": "Usarla para nuestros mensajes"
+    }
+  },
+  "nw_141": {
+    "title": "Pozo profundo",
+    "body": "El nuevo pozo da agua clara y muchas opiniones.",
+    "choices": {
+      "A": "Reservarlo para el fuerte",
+      "B": "Compartirlo",
+      "C": "Cobrar por cada cántaro"
+    }
+  },
+  "nw_142": {
+    "title": "Harina escasa",
+    "body": "La harina falta y los panaderos esperan una ayuda que no llega.",
+    "choices": {
+      "A": "Comprar un lote de emergencia",
+      "B": "Bajar las raciones de los soldados",
+      "C": "Negociar con la aldea"
+    }
+  },
+  "nw_143": {
+    "title": "Dique agrietado",
+    "body": "Un dique cruje y el mar ya empuja con fuerza contra él.",
+    "choices": {
+      "A": "Repararlo rápido",
+      "B": "Reparar solo el paso",
+      "C": "Esperar la marea baja"
+    }
+  },
+  "nw_144": {
+    "title": "Joya encontrada",
+    "body": "Una joya encontrada en la playa hace brillar todas las miradas.",
+    "choices": {
+      "A": "Venderla",
+      "B": "Ofrecérsela al jefe vecino",
+      "C": "Guardarla en el tesoro"
+    }
+  },
+  "nw_145": {
+    "title": "Viña del sur",
+    "body": "Una viña local da un vino ligero, pero provoca largas discusiones.",
+    "choices": {
+      "A": "Comprar la cosecha",
+      "B": "Invitar a los jefes a probarlo",
+      "C": "Reservar los barriles para el fuerte"
+    }
+  },
+  "nw_146": {
+    "title": "Arena útil",
+    "body": "La arena de la bahía sirve para las obras mejor que nuestros humores.",
+    "choices": {
+      "A": "Explotarla",
+      "B": "Dejar que la aldea la venda",
+      "C": "Bloquear el acceso"
+    }
+  },
+  "nw_147": {
+    "title": "Carpintero orgulloso",
+    "body": "El mejor carpintero quiere más dinero y más elogios.",
+    "choices": {
+      "A": "Pagar el aumento",
+      "B": "Formar a dos aprendices",
+      "C": "Dejarlo ir"
+    }
+  },
+  "nw_148": {
+    "title": "Comida del puerto",
+    "body": "La comida común del puerto puede calmar las quejas o alimentarlas.",
+    "choices": {
+      "A": "Pagar la comida",
+      "B": "Cobrar cada lugar",
+      "C": "Cancelar a última hora"
+    }
+  },
+  "nw_149": {
+    "title": "Pay local",
+    "body": "Un pay local gusta mucho siempre que se le encuentre un nombre real.",
+    "choices": {
+      "A": "Comprar la receta",
+      "B": "Dejar que la aldea viva de eso",
+      "C": "Cobrar impuesto al pay"
+    }
+  },
+  "nw_150": {
+    "title": "Lodo de la obra",
+    "body": "La obra avanza menos rápido que el lodo sobre nuestras botas.",
+    "choices": {
+      "A": "Poner tablas",
+      "B": "Esperar el sol",
+      "C": "Pagar más obreros"
+    }
+  },
+  "nw_151": {
+    "title": "Pontón inclinado",
+    "body": "El nuevo pontón ya está inclinado. Si no se refuerza, pronto será peligroso.",
+    "choices": {
+      "A": "Consolidarlo",
+      "B": "Limitar su uso",
+      "C": "Alquilarlo de todos modos"
+    }
+  },
+  "nw_152": {
+    "title": "Perro del muelle",
+    "body": "Un perro local cuida mejor las cajas que dos hombres despiertos.",
+    "choices": {
+      "A": "Adoptarlo para el fuerte",
+      "B": "Dejarlo con los comerciantes",
+      "C": "Alimentarlo para todo el puerto"
+    }
+  },
+  "nw_153": {
+    "title": "Remeros ausentes",
+    "body": "La mitad de los remeros encontró una excusa para evitar el mar.",
+    "choices": {
+      "A": "Pagar un bono",
+      "B": "Reclutar en la aldea",
+      "C": "Reducir las salidas"
+    }
+  },
+  "nw_154": {
+    "title": "Pimienta discreta",
+    "body": "Pimienta de contrabando circula discretamente bajo el muelle.",
+    "choices": {
+      "A": "Aumentar las inspecciones",
+      "B": "Cobrar menos impuestos",
+      "C": "Comprar la red"
+    }
+  },
+  "nw_155": {
+    "title": "Muro de piedra",
+    "body": "Un muro de piedra tranquilizaría al campamento y vaciaría la caja.",
+    "choices": {
+      "A": "Construirlo",
+      "B": "Reforzar solo la entrada",
+      "C": "Seguir posponiéndolo"
+    }
+  },
+  "nw_156": {
+    "title": "Feria de las islas",
+    "body": "Comerciantes de las islas quieren una feria llena de ruido y olores.",
+    "choices": {
+      "A": "Recibir la feria",
+      "B": "Cobrar por cada puesto",
+      "C": "Rechazar la feria"
+    }
+  },
+  "nw_157": {
+    "title": "Sol brutal",
+    "body": "El calor vacía las fuerzas más rápido que las cantimploras.",
+    "choices": {
+      "A": "Comprar telas de sombra",
+      "B": "Acortar las jornadas",
+      "C": "Hacer que todos aguanten"
+    }
+  },
+  "nw_158": {
+    "title": "Clavo faltante",
+    "body": "Las obras del muelle se detienen por un clavo que nadie encuentra.",
+    "choices": {
+      "A": "Comprar un stock completo",
+      "B": "Mandarlo forjar allí mismo",
+      "C": "Esperar a un barco"
+    }
+  },
+  "nw_159": {
+    "title": "Ensenada tranquila",
+    "body": "Una ensenada natural podría resguardar pequeños barcos con seguridad.",
+    "choices": {
+      "A": "Hacer allí un puerto auxiliar",
+      "B": "Guardarla para el ejército",
+      "C": "Dejarla a los pescadores"
+    }
+  },
+  "nw_160": {
+    "title": "Botas perdidas",
+    "body": "Las botas del campamento desaparecen todo el tiempo, tragadas por el lodo o perdidas en el desorden.",
+    "choices": {
+      "A": "Contar todo el stock",
+      "B": "Mandarlas hacer localmente",
+      "C": "Dejar que los hombres se arreglen"
+    }
+  },
+  "nw_161": {
+    "title": "Piedra grabada",
+    "body": "Una piedra grabada intriga al puerto más que nuestras órdenes de la mañana.",
+    "choices": {
+      "A": "Mostrársela al rey",
+      "B": "Dejarla en la aldea",
+      "C": "Cobrarles a los curiosos"
+    }
+  },
+  "nw_162": {
+    "title": "Ahumadero nuevo",
+    "body": "Un ahumadero permitiría conservar el pescado más tiempo que nuestras promesas.",
+    "choices": {
+      "A": "Construirlo",
+      "B": "Encargárselo a la aldea",
+      "C": "No cambiar nada"
+    }
+  },
+  "nw_163": {
+    "title": "Vecino apurado",
+    "body": "Un vecino quiere un tratado rápido incluso antes del café.",
+    "choices": {
+      "A": "Firmar un acuerdo simple",
+      "B": "Pedir un tributo",
+      "C": "Hacerlo esperar"
+    }
+  },
+  "nw_164": {
+    "title": "Mástil roto",
+    "body": "Un barco pierde su mástil en el puerto con un estruendo que alerta a todos.",
+    "choices": {
+      "A": "Ayudar a repararlo",
+      "B": "Comprar el barco",
+      "C": "Reservar el muelle para los nuestros"
+    }
+  },
+  "nw_165": {
+    "title": "Arroz abundante",
+    "body": "El arroz local crece tan bien que hasta los ratones engordan.",
+    "choices": {
+      "A": "Comprar todo el arroz",
+      "B": "Guardarlo para el invierno",
+      "C": "Compartir una parte"
+    }
+  },
+  "nw_166": {
+    "title": "Oficina demasiado ordenada",
+    "body": "El nuevo jefe de oficina acomoda todo, incluso lo que haría falta encontrar rápido.",
+    "choices": {
+      "A": "Confiar en él",
+      "B": "Revisar sus cuentas",
+      "C": "Ponerle un local al lado"
+    }
+  },
+  "nw_167": {
+    "title": "Marea corta",
+    "body": "La marea baja rápido y nuestros grandes barcos ya se están quejando.",
+    "choices": {
+      "A": "Descargar de urgencia",
+      "B": "Usar canoas",
+      "C": "Esperar hasta mañana"
+    }
+  },
+  "nw_168": {
+    "title": "Paja del fuerte",
+    "body": "La paja del fuerte atrae el fuego y a los ratones con el mismo talento.",
+    "choices": {
+      "A": "Reemplazarla",
+      "B": "Venderla",
+      "C": "Dársela a los criadores"
+    }
+  },
+  "nw_169": {
+    "title": "Aldea burlona",
+    "body": "La aldea se ríe de nuestros cascos, demasiado calientes y demasiado brillantes.",
+    "choices": {
+      "A": "Mandar a forjar unos más ligeros",
+      "B": "Reír con ellos",
+      "C": "Imponer silencio"
+    }
+  },
+  "nw_170": {
+    "title": "Ruta de la sal",
+    "body": "Una ruta de la sal podría enriquecer la bahía o agotar a nuestros guardias.",
+    "choices": {
+      "A": "Abrirla y cobrar impuestos",
+      "B": "Mantenerla militar",
+      "C": "Encargársela a comerciantes"
+    }
+  },
+  "nw_171": {
+    "title": "Zapatero hablador",
+    "body": "El zapatero conoce todos los secretos del puerto y habla demasiado.",
+    "choices": {
+      "A": "Pagarle por su información",
+      "B": "Contratarlo en el fuerte",
+      "C": "Dejarlo hablar"
+    }
+  },
+  "nw_172": {
+    "title": "Canastas rotas",
+    "body": "Las canastas del mercado están demasiado dañadas para transportar bien las piñas.",
+    "choices": {
+      "A": "Comprar canastas nuevas",
+      "B": "Mandarlas tejer allí mismo",
+      "C": "Cobrar impuestos de todos modos"
+    }
+  },
+  "nw_173": {
+    "title": "Días de descanso",
+    "body": "Los obreros piden un día de descanso antes de volver al trabajo.",
+    "choices": {
+      "A": "Conceder el descanso",
+      "B": "Pagar un bono para seguir",
+      "C": "Negarse rotundamente"
+    }
+  },
+  "nw_174": {
+    "title": "Clarín nuevo",
+    "body": "Un clarín nuevo haría más ruido que estrategia.",
+    "choices": {
+      "A": "Encargar un clarín nuevo",
+      "B": "Dejarlo para el desfile",
+      "C": "Venderle la idea al noble"
+    }
+  },
+  "nw_175": {
+    "title": "Caja de herramientas",
+    "body": "Por fin llega una caja de herramientas completa, sin la llave de la propia caja.",
+    "choices": {
+      "A": "Forzar la cerradura",
+      "B": "Pagarle al cerrajero local",
+      "C": "Revender la caja cerrada"
+    }
+  },
+  "nw_176": {
+    "title": "Caña de azúcar",
+    "body": "La caña de azúcar crece bien y ya hace soñar a los contadores.",
+    "choices": {
+      "A": "Crear un gran campo",
+      "B": "Mantener un cultivo pequeño",
+      "C": "Negarse a expandirlo"
+    }
+  },
+  "nw_177": {
+    "title": "Hamaca oficial",
+    "body": "Un oficial quiere hamacas para que los hombres por fin duerman bien.",
+    "choices": {
+      "A": "Comprarlas",
+      "B": "Reservarlas para los heridos",
+      "C": "Negarse a esa idea"
+    }
+  },
+  "nw_178": {
+    "title": "Remo de oro",
+    "body": "Un remo decorado circula por el campamento, pero no sirve para nada.",
+    "choices": {
+      "A": "Dárselo al mejor remero",
+      "B": "Venderlo en el mercado",
+      "C": "Exhibirlo en el fuerte"
+    }
+  },
+  "nw_179": {
+    "title": "Campo inundado",
+    "body": "Un campo cerca del puerto bebe más agua de la esperada.",
+    "choices": {
+      "A": "Excavar zanjas",
+      "B": "Mover los cultivos",
+      "C": "Compensar a los campesinos"
+    }
+  },
+  "nw_180": {
+    "title": "Barco cantor",
+    "body": "Una tripulación canta tan fuerte que todo el puerto ya conoce nuestros horarios.",
+    "choices": {
+      "A": "Hacerlos callar",
+      "B": "Hacerlos cantar en el mercado",
+      "C": "Cambiar los horarios"
+    }
+  },
+  "nw_181": {
+    "title": "Pesas alteradas",
+    "body": "Algunas pesas del mercado están alteradas.",
+    "choices": {
+      "A": "Confiscar las pesas falsas",
+      "B": "Crear una balanza pública",
+      "C": "Cobrar a los comerciantes culpables"
+    }
+  },
+  "nw_182": {
+    "title": "Faro pequeño",
+    "body": "Un pequeño faro privado guía mejor que nuestro gran discurso.",
+    "choices": {
+      "A": "Comprarlo",
+      "B": "Subvencionarlo",
+      "C": "Dejarlo libre"
+    }
+  },
+  "nw_183": {
+    "title": "Café de los muelles",
+    "body": "Se abre un rincón de café y las decisiones se toman allí antes que en la oficina.",
+    "choices": {
+      "A": "Enviar allí a un oficial",
+      "B": "Cobrar impuesto al café",
+      "C": "Invitar la primera ronda"
+    }
+  },
+  "nw_184": {
+    "title": "Ancla robada",
+    "body": "Un ancla desaparece y de pronto todos miran hacia el mar.",
+    "choices": {
+      "A": "Revisar el puerto",
+      "B": "Comprar otra ancla",
+      "C": "Ofrecer una recompensa"
+    }
+  },
+  "nw_185": {
+    "title": "Bodega demasiado llena",
+    "body": "La bodega del barco real está tan llena que la organización empieza a ceder.",
+    "choices": {
+      "A": "Descargar rápido",
+      "B": "Vender una parte allí mismo",
+      "C": "Reservar la carga para el rey"
+    }
+  },
+  "nw_186": {
+    "title": "Bambú ingenioso",
+    "body": "El bambú local sirve para todo y se vuelve indispensable muy rápido.",
+    "choices": {
+      "A": "Comprar un gran stock",
+      "B": "Dejar que los artesanos lo manejen",
+      "C": "Reservar el bambú para el fuerte"
+    }
+  },
+  "nw_187": {
+    "title": "Rivales educados",
+    "body": "Dos rivales quieren nuestro apoyo con una sonrisa demasiado perfecta.",
+    "choices": {
+      "A": "Apoyar al más confiable",
+      "B": "Venderles nuestros víveres",
+      "C": "Mantenernos neutrales"
+    }
+  },
+  "nw_188": {
+    "title": "Libros húmedos",
+    "body": "Los registros del puerto se mojan y pierden la memoria.",
+    "choices": {
+      "A": "Copiarlos",
+      "B": "Cobrarles una copia a los comerciantes",
+      "C": "Simplificar los registros"
+    }
+  },
+  "nw_189": {
+    "title": "Plaza con sombra",
+    "body": "Una plaza sombreada podría atraer ventas y calmar los ánimos.",
+    "choices": {
+      "A": "Hacer allí el mercado",
+      "B": "Poner allí a la guardia",
+      "C": "Entregársela a la aldea"
+    }
+  },
+  "nw_190": {
+    "title": "Perlas discretas",
+    "body": "Las perlas circulan más en los bolsillos que en la caja.",
+    "choices": {
+      "A": "Comprar el lote en el puerto",
+      "B": "Aumentar los controles",
+      "C": "Autorizar un mercado oficial"
+    }
+  },
+  "nw_191": {
+    "title": "Canoa real",
+    "body": "Una canoa ofrecida al rey causaría buena impresión y dañaría el presupuesto.",
+    "choices": {
+      "A": "Enviarla",
+      "B": "Quedársela aquí",
+      "C": "Mostrarla y luego venderla"
+    }
+  },
+  "nw_192": {
+    "title": "Piedras del muelle",
+    "body": "El muelle de tierra se traga las ruedas con mucho apetito.",
+    "choices": {
+      "A": "Poner adoquines",
+      "B": "Cobrar a los carros grandes",
+      "C": "Dejar que el lodo decida"
+    }
+  },
+  "nw_193": {
+    "title": "Granero caliente",
+    "body": "El granero se calienta demasiado y el stock de grano empieza a dañarse.",
+    "choices": {
+      "A": "Ventilar el granero",
+      "B": "Vender rápido el stock",
+      "C": "Prestar una parte a la aldea"
+    }
+  },
+  "nw_194": {
+    "title": "Calle comercial",
+    "body": "Una calle del puerto quiere hacerse rica antes siquiera de estar limpia.",
+    "choices": {
+      "A": "Pavimentarla",
+      "B": "Poner guardias allí",
+      "C": "Dejar que los comerciantes paguen"
+    }
+  },
+  "nw_195": {
+    "title": "Marca del rey",
+    "body": "El rey quiere su símbolo en todas partes, incluso en las cajas de nabos.",
+    "choices": {
+      "A": "Marcar todas las cajas",
+      "B": "Marcar solo el fuerte",
+      "C": "Pedir una versión local"
+    }
+  },
+  "nw_196": {
+    "title": "Cabra del mercado",
+    "body": "Una cabra local se come los puestos con un verdadero sentido de la elección.",
+    "choices": {
+      "A": "Venderla rápido",
+      "B": "Devolverla a su dueño",
+      "C": "Quedárnosla para limpiar"
+    }
+  },
+  "nw_197": {
+    "title": "Madera flotante",
+    "body": "La orilla trae madera flotante sin pedir salario.",
+    "choices": {
+      "A": "Guardarla para el fuerte",
+      "B": "Venderla a los artesanos",
+      "C": "Repartirla en la aldea"
+    }
+  },
+  "nw_198": {
+    "title": "Vela rasgada",
+    "body": "Una gran vela se rasga antes del cruce más sencillo.",
+    "choices": {
+      "A": "Encargar una vela nueva",
+      "B": "Repararla localmente",
+      "C": "Posponer la salida"
+    }
+  },
+  "nw_199": {
+    "title": "Mercaderes apurados",
+    "body": "Los mercaderes quieren abrir antes del amanecer y cerrar antes de nuestros controles.",
+    "choices": {
+      "A": "Aceptar a cambio de un impuesto",
+      "B": "Limitar los horarios",
+      "C": "Probar una apertura corta"
+    }
+  },
+  "nw_200": {
+    "title": "Colina del puerto",
+    "body": "Una colina cercana domina todo el puerto y ya sueña con una torre.",
+    "choices": {
+      "A": "Construir allí un puesto",
+      "B": "Hacer allí un mercado alto",
+      "C": "Hacer allí una fiesta común"
+    }
+  },
+  "nw_201": {
+    "title": "Campana oxidada",
+    "body": "La campana del puerto suena mal y nadie sabe si es una alerta real.",
+    "choices": {
+      "A": "Reemplazarla",
+      "B": "Repararla localmente",
+      "C": "Cambiar la alerta por un silbato"
+    }
+  },
+  "nw_202": {
+    "title": "Plátanos demasiado maduros",
+    "body": "Unos plátanos demasiado maduros abarrotan el muelle y apestan el aire alrededor.",
+    "choices": {
+      "A": "Venderlos rápido",
+      "B": "Secarlos",
+      "C": "Dárselos a la aldea"
+    }
+  },
+  "nw_203": {
+    "title": "Niebla burlona",
+    "body": "Una niebla espesa oculta el puerto y hace difícil hacer cumplir las órdenes.",
+    "choices": {
+      "A": "Encender más fogatas",
+      "B": "Suspender las salidas",
+      "C": "Contratar guías"
+    }
+  },
+  "nw_204": {
+    "title": "Caja sin nombre",
+    "body": "Llega una caja sin marca, sin papeles y sin explicación.",
+    "choices": {
+      "A": "Abrirla",
+      "B": "Cobrarle impuesto",
+      "C": "Hacerla pública"
+    }
+  },
+  "nw_205": {
+    "title": "Fila larga",
+    "body": "Se forma una larga fila en el muelle y todos juran tener prioridad.",
+    "choices": {
+      "A": "Crear un orden claro",
+      "B": "Cobrar por la prioridad",
+      "C": "Dejar que el puerto se organice solo"
+    }
+  },
+  "nw_206": {
+    "title": "Barco barnizado",
+    "body": "Un barco local está tan barnizado que se nota su casco brillante incluso antes que sus velas.",
+    "choices": {
+      "A": "Comprarlo para desfile",
+      "B": "Alquilarlo para comercio",
+      "C": "Copiar su estilo"
+    }
+  },
+  "nw_207": {
+    "title": "Ola traicionera",
+    "body": "Una ola baja moja las cargas cuando el puerto se siente orgulloso.",
+    "choices": {
+      "A": "Elevar las reservas",
+      "B": "Construir un borde",
+      "C": "Vender rápido lo que se seque"
+    }
+  },
+  "nw_208": {
+    "title": "Letrero torcido",
+    "body": "El letrero del muelle señala tres direcciones y ninguna ayuda.",
+    "choices": {
+      "A": "Hacer uno nuevo",
+      "B": "Preguntar a los locales",
+      "C": "Quitar el letrero"
+    }
+  },
+  "nw_209": {
+    "title": "Trampa perforada",
+    "body": "Las trampas para pescado pierden más capturas que los propios pescadores.",
+    "choices": {
+      "A": "Comprar trampas nuevas",
+      "B": "Mandarlas reparar allí mismo",
+      "C": "Cambiar de zona"
+    }
+  },
+  "nw_210": {
+    "title": "Silbato del puerto",
+    "body": "El nuevo silbato alerta mal a los guardias y sobre todo molesta a los habitantes.",
+    "choices": {
+      "A": "Reservarlo para emergencias",
+      "B": "Entrenar a los guardias",
+      "C": "Volver a la campana"
+    }
+  },
+  "nw_211": {
+    "title": "Jardín inundado",
+    "body": "El jardín del campamento está empapado y cubierto de agua estancada después de la lluvia.",
+    "choices": {
+      "A": "Abrir canales pequeños",
+      "B": "Mover los sembradíos",
+      "C": "Compartir el terreno"
+    }
+  },
+  "nw_212": {
+    "title": "Viento en contra",
+    "body": "El viento empuja claramente nuestras velas en la dirección equivocada.",
+    "choices": {
+      "A": "Esperar",
+      "B": "Reforzar con remos",
+      "C": "Usar canoas"
+    }
+  },
+  "nw_213": {
+    "title": "Lluvia nocturna",
+    "body": "La lluvia de la noche convierte el campamento en un coro de gotas.",
+    "choices": {
+      "A": "Reforzar los techos",
+      "B": "Mover los sacos",
+      "C": "Dormir bajo techo en el fuerte"
+    }
+  },
+  "nw_214": {
+    "title": "Calabazas gigantes",
+    "body": "Calabazas gigantes invaden la huerta y se quedan con todo el espacio.",
+    "choices": {
+      "A": "Venderlas",
+      "B": "Regalarlas",
+      "C": "Hacer reservas"
+    }
+  },
+  "nw_215": {
+    "title": "Sol sobre el alquitrán",
+    "body": "El alquitrán del muelle se derrite un poco y las botas guardan recuerdos.",
+    "choices": {
+      "A": "Trabajar más temprano",
+      "B": "Poner tablas",
+      "C": "Posponer las carretas"
+    }
+  },
+  "nw_216": {
+    "title": "Tierra demasiado seca",
+    "body": "La tierra se agrieta y hasta las semillas dudan.",
+    "choices": {
+      "A": "Excavar un pozo",
+      "B": "Reducir los cultivos",
+      "C": "Comprarles a los vecinos"
+    }
+  },
+  "nw_217": {
+    "title": "Campo voraz",
+    "body": "Un campo devora nuestros sacos de semillas más rápido de lo que promete.",
+    "choices": {
+      "A": "Invertir todavía más",
+      "B": "Probar una parcela pequeña",
+      "C": "Abandonarlo"
+    }
+  },
+  "nw_218": {
+    "title": "Nido en la torre",
+    "body": "Unos pájaros hicieron su nido en la torre y estorban la vigilancia.",
+    "choices": {
+      "A": "Mover el nido",
+      "B": "Dejarlo",
+      "C": "Cobrar por la vista"
+    }
+  },
+  "nw_219": {
+    "title": "Hierbas altas",
+    "body": "Las hierbas cerca del fuerte esconden más cosas que nuestros registros.",
+    "choices": {
+      "A": "Cortarlo todo",
+      "B": "Dejar una parte",
+      "C": "Encargar el terreno"
+    }
+  },
+  "nw_220": {
+    "title": "Cosecha demasiado pronta",
+    "body": "Unos obreros quieren cosechar rápido antes de que cambie el tiempo.",
+    "choices": {
+      "A": "Cosechar ahora",
+      "B": "Esperar dos días",
+      "C": "Compartir el riesgo"
+    }
+  },
+  "nw_221": {
+    "title": "Tienda agujereada",
+    "body": "La gran tienda deja pasar el viento por todas partes. Protege mal al campamento.",
+    "choices": {
+      "A": "Coserla de nuevo",
+      "B": "Comprar otra",
+      "C": "Reunir todo dentro del fuerte"
+    }
+  },
+  "nw_222": {
+    "title": "Olla enojada",
+    "body": "La gran olla quema el fondo y también el humor del cocinero.",
+    "choices": {
+      "A": "Reemplazarla",
+      "B": "Formar a un ayudante",
+      "C": "Cocinar más simple"
+    }
+  },
+  "nw_223": {
+    "title": "Soldados descalzos",
+    "body": "Han desaparecido unas botas y los soldados se echan la culpa unos a otros.",
+    "choices": {
+      "A": "Encargar botas",
+      "B": "Comprar localmente",
+      "C": "Limitar las patrullas"
+    }
+  },
+  "nw_224": {
+    "title": "Vigía distraído",
+    "body": "El vigía mira el mar, pero se olvida del muelle.",
+    "choices": {
+      "A": "Cambiarlo",
+      "B": "Ponerle apoyo",
+      "C": "Pagarle mejor"
+    }
+  },
+  "nw_225": {
+    "title": "Banco roto",
+    "body": "El banco de la oficina cede bajo los visitantes más pesados.",
+    "choices": {
+      "A": "Repararlo",
+      "B": "Reemplazarlo por dos asientos",
+      "C": "Hacerlos esperar afuera"
+    }
+  },
+  "nw_226": {
+    "title": "Cantimplora olvidada",
+    "body": "Los obreros olvidan sus cantimploras y terminan quejándose cada vez más.",
+    "choices": {
+      "A": "Repartir cantimploras",
+      "B": "Hacer una reserva de agua",
+      "C": "Castigar los olvidos"
+    }
+  },
+  "nw_227": {
+    "title": "Linternas caras",
+    "body": "Las linternas cuestan más que la sonrisa de un mercader.",
+    "choices": {
+      "A": "Comprarlas de todos modos",
+      "B": "Fabricarlas allí mismo",
+      "C": "Iluminar menos"
+    }
+  },
+  "nw_228": {
+    "title": "Manta local",
+    "body": "Una manta local abriga y cuesta menos que nuestras quejas.",
+    "choices": {
+      "A": "Comprar muchas",
+      "B": "Dejar que cada quien se equipe",
+      "C": "Dárselas a los heridos"
+    }
+  },
+  "nw_229": {
+    "title": "Remos mal guardados",
+    "body": "Los remos del depósito se pierden en su propio desorden.",
+    "choices": {
+      "A": "Ordenarlos por tamaño",
+      "B": "Nombrar a un responsable",
+      "C": "Cobrar por los préstamos"
+    }
+  },
+  "nw_230": {
+    "title": "Fila en el pozo",
+    "body": "La fila en el pozo se alarga cada mañana. El acceso al agua se vuelve demasiado lento.",
+    "choices": {
+      "A": "Abrir un segundo punto de agua",
+      "B": "Hacer pasar primero al campamento",
+      "C": "Organizar turnos"
+    }
+  },
+  "nw_231": {
+    "title": "Canción de la aldea",
+    "body": "Una canción local se burla del fuerte y todo el mundo conoce el coro.",
+    "choices": {
+      "A": "Reír con ellos",
+      "B": "Invitar a los cantores",
+      "C": "Silenciar la plaza"
+    }
+  },
+  "nw_232": {
+    "title": "Regalo estorboso",
+    "body": "Un jefe vecino ofrece un gran tambor que ocupa mucho espacio y no sirve de mucho.",
+    "choices": {
+      "A": "Aceptarlo",
+      "B": "Revenderlo",
+      "C": "Prestarlo para las fiestas"
+    }
+  },
+  "nw_233": {
+    "title": "Baile de la noche",
+    "body": "La aldea invita al campamento a un baile que quizá valga más que un tratado.",
+    "choices": {
+      "A": "Ir",
+      "B": "Enviar poca gente",
+      "C": "Rechazar cortésmente"
+    }
+  },
+  "nw_234": {
+    "title": "Jefe tardón",
+    "body": "El jefe vecino siempre llega tarde, pero siempre sonriendo.",
+    "choices": {
+      "A": "Esperarlo",
+      "B": "Empezar sin él",
+      "C": "Mandarle un recordatorio"
+    }
+  },
+  "nw_235": {
+    "title": "Vendedor de mapas",
+    "body": "Un vendedor local promete mapas correctos y una sonrisa bien cobrada.",
+    "choices": {
+      "A": "Comprarles mapas",
+      "B": "Probarlo primero",
+      "C": "Dejarlo vender"
+    }
+  },
+  "nw_236": {
+    "title": "Pesca compartida",
+    "body": "La aldea propone una jornada de pesca compartida para calmar dos disputas.",
+    "choices": {
+      "A": "Aceptar",
+      "B": "Cobrar por el uso",
+      "C": "Dejar a nuestros hombres en el fuerte"
+    }
+  },
+  "nw_237": {
+    "title": "Traducción dudosa",
+    "body": "Nuestro intérprete a veces convierte un saludo en un debate.",
+    "choices": {
+      "A": "Buscarle un ayudante",
+      "B": "Hablar más simple",
+      "C": "Reemplazarlo"
+    }
+  },
+  "nw_238": {
+    "title": "Sombrero oficial",
+    "body": "Los jefes vecinos se ríen de nuestro gran sombrero ceremonial.",
+    "choices": {
+      "A": "Conservarlo con orgullo",
+      "B": "Simplificarlo",
+      "C": "Regalar sombreros"
+    }
+  },
+  "nw_239": {
+    "title": "Camino compartido",
+    "body": "El campamento y la aldea usan el mismo camino y el mismo polvo.",
+    "choices": {
+      "A": "Ensancharlo",
+      "B": "Fijar horarios",
+      "C": "Dejar el paso libre"
+    }
+  },
+  "nw_240": {
+    "title": "Rumor de regalo",
+    "body": "Un rumor anuncia un regalo real que todavía no existe.",
+    "choices": {
+      "A": "Desmentirlo rápido",
+      "B": "Dejar que sueñen un poco",
+      "C": "Preparar un pequeño regalo real"
+    }
+  },
+  "nw_241": {
+    "title": "Mono del granero",
+    "body": "Un mono roba el grano con una eficacia temible.",
+    "choices": {
+      "A": "Ahuyentarlo",
+      "B": "Cerrar mejor el granero",
+      "C": "Mostrárselo a los visitantes"
+    }
+  },
+  "nw_242": {
+    "title": "Patos del muelle",
+    "body": "Unos patos ocupan el muelle y estorban el paso.",
+    "choices": {
+      "A": "Moverlos",
+      "B": "Hacer una pequeña poza",
+      "C": "Venderlos"
+    }
+  },
+  "nw_243": {
+    "title": "Burro famoso",
+    "body": "Un burro local carga tan bien que todo el mundo habla de él.",
+    "choices": {
+      "A": "Alquilarlo",
+      "B": "Comprar otro burro",
+      "C": "Dejarlo en la aldea"
+    }
+  },
+  "nw_244": {
+    "title": "Loro hablador",
+    "body": "Un loro repite las órdenes antes de que resulten útiles.",
+    "choices": {
+      "A": "Venderlo",
+      "B": "Mantenerlo lejos de la oficina",
+      "C": "Regalarlo"
+    }
+  },
+  "nw_245": {
+    "title": "Tortuga terca",
+    "body": "Una tortuga cruza el patio todos los días y estorba el paso.",
+    "choices": {
+      "A": "Moverla",
+      "B": "Dejarla",
+      "C": "Hacerla la mascota"
+    }
+  },
+  "nw_246": {
+    "title": "Cabra trepadora",
+    "body": "Una cabra se sube a las cajas y siempre elige las más caras.",
+    "choices": {
+      "A": "Amarrarla",
+      "B": "Devolver la cabra",
+      "C": "Proteger las reservas"
+    }
+  },
+  "nw_247": {
+    "title": "Gato del depósito",
+    "body": "Un gato del depósito caza bien a los ratones, pero duerme durante las cuentas.",
+    "choices": {
+      "A": "Alimentarlo",
+      "B": "Adoptar dos gatos",
+      "C": "Dejarlo libre"
+    }
+  },
+  "nw_248": {
+    "title": "Garza ladrona",
+    "body": "Una garza roba los pescados pequeños del mercado con una calma insultante.",
+    "choices": {
+      "A": "Ahuyentarla",
+      "B": "Mover las bateas",
+      "C": "Cobrar por el lugar"
+    }
+  },
+  "nw_249": {
+    "title": "Mosquitos campeones",
+    "body": "Los mosquitos del pantano invaden el campamento cada noche.",
+    "choices": {
+      "A": "Comprar telas mosquiteras",
+      "B": "Hacer más humo",
+      "C": "Salir de la zona por la noche"
+    }
+  },
+  "nw_250": {
+    "title": "Caballo nervioso",
+    "body": "El caballo del mensajero se asusta hasta con una cubeta vacía.",
+    "choices": {
+      "A": "Reemplazarlo",
+      "B": "Calmarlo con un entrenador",
+      "C": "Darle un trayecto corto"
+    }
+  },
+  "nw_251": {
+    "title": "Orilla resbalosa",
+    "body": "La nueva orilla resbala más de lo que sirve.",
+    "choices": {
+      "A": "Poner arena seca",
+      "B": "Cerrar por un tiempo",
+      "C": "Hacer pasar las canoas"
+    }
+  },
+  "nw_252": {
+    "title": "Escalera del muelle",
+    "body": "La escalera del muelle pierde un peldaño con cada lluvia fuerte.",
+    "choices": {
+      "A": "Hacerla de nuevo",
+      "B": "Reparar la parte baja",
+      "C": "Instalar una cuerda"
+    }
+  },
+  "nw_253": {
+    "title": "Torre de observación",
+    "body": "Una pequeña torre ofrecería una gran vista, pero costaría mucho construirla y vigilarla.",
+    "choices": {
+      "A": "Construirla",
+      "B": "Levantar una plataforma simple",
+      "C": "Usar la colina"
+    }
+  },
+  "nw_254": {
+    "title": "Cuerda mojada",
+    "body": "Las cuerdas mojadas son demasiado pesadas para manejarlas.",
+    "choices": {
+      "A": "Secarlas bajo techo",
+      "B": "Comprar nuevas",
+      "C": "Limitar las cargas"
+    }
+  },
+  "nw_255": {
+    "title": "Pequeña esclusa",
+    "body": "Una pequeña esclusa podría calmar el agua del estanque.",
+    "choices": {
+      "A": "Construirla",
+      "B": "Probar una de madera",
+      "C": "Renunciar"
+    }
+  },
+  "nw_256": {
+    "title": "Estacas mal puestas",
+    "body": "Unas estacas se mueven en el lodo y ya no sostienen bien.",
+    "choices": {
+      "A": "Volver a clavarlas",
+      "B": "Traer a un experto local",
+      "C": "Cambiar de lugar"
+    }
+  },
+  "nw_257": {
+    "title": "Barril rodando",
+    "body": "Un barril baja solo por el muelle porque está mal calzado.",
+    "choices": {
+      "A": "Bloquear las pendientes",
+      "B": "Apilar de otra forma",
+      "C": "Vender el barril rápido"
+    }
+  },
+  "nw_258": {
+    "title": "Grúa improvisada",
+    "body": "Una grúa improvisada levanta las cajas y también nuestra preocupación.",
+    "choices": {
+      "A": "Reforzarla",
+      "B": "Comprar una estructura de verdad",
+      "C": "Cargar a mano"
+    }
+  },
+  "nw_259": {
+    "title": "Camino de tablas",
+    "body": "Un camino de tablas evitaría muchas caídas ridículas.",
+    "choices": {
+      "A": "Instalarlo",
+      "B": "Hacer que los mercaderes lo paguen",
+      "C": "Reservarlo para el campamento"
+    }
+  },
+  "nw_260": {
+    "title": "Llave del depósito",
+    "body": "La llave del depósito cambia de bolsillo más rápido que las cuentas.",
+    "choices": {
+      "A": "Hacer una copia",
+      "B": "Nombrar a un solo guardián",
+      "C": "Dejarlo abierto de día"
+    }
+  },
+  "nw_261": {
+    "title": "Jabón local",
+    "body": "Un jabón local huele bien y limpia mejor que nuestros discursos.",
+    "choices": {
+      "A": "Comprar para el campamento",
+      "B": "Venderlo en el mercado",
+      "C": "Regalar jabones"
+    }
+  },
+  "nw_262": {
+    "title": "Tela brillante",
+    "body": "Una tela brillante atrae miradas y quizá también monedas.",
+    "choices": {
+      "A": "Comprarla para revender",
+      "B": "Reservarla para los jefes",
+      "C": "Dejar que la aldea la venda"
+    }
+  },
+  "nw_263": {
+    "title": "Conchas pulidas",
+    "body": "Unas conchas pulidas les gustan más a los visitantes que a nuestros soldados.",
+    "choices": {
+      "A": "Comerciarlas",
+      "B": "Decorar el fuerte",
+      "C": "Regalarlas"
+    }
+  },
+  "nw_264": {
+    "title": "Herramienta milagrosa",
+    "body": "Un artesano presume de una herramienta que corta todo, excepto el precio.",
+    "choices": {
+      "A": "Comprarla",
+      "B": "Probarla",
+      "C": "Capacitar a nuestros artesanos"
+    }
+  },
+  "nw_265": {
+    "title": "Aroma a humo",
+    "body": "Una madera ahumada le da a las carnes un éxito casi insolente.",
+    "choices": {
+      "A": "Vender esa especialidad",
+      "B": "Servirla a los jefes",
+      "C": "Guardar el secreto"
+    }
+  },
+  "nw_266": {
+    "title": "Piedra ligera",
+    "body": "Una piedra clara aligera los muros y también los brazos.",
+    "choices": {
+      "A": "Explotarla",
+      "B": "Dejar que los artesanos la usen",
+      "C": "Reservar la cantera"
+    }
+  },
+  "nw_267": {
+    "title": "Pluma rara",
+    "body": "Una pluma rara les gusta tanto a los escribas que se olvidan de la tinta.",
+    "choices": {
+      "A": "Comprar el lote",
+      "B": "Cobrarle impuesto",
+      "C": "Ofrecerla a la oficina"
+    }
+  },
+  "nw_268": {
+    "title": "Cerámica resistente",
+    "body": "Una cerámica local por fin resiste las manos apuradas.",
+    "choices": {
+      "A": "Encargar una gran cantidad",
+      "B": "Dejar que el mercado siga",
+      "C": "Reservarla para el campamento"
+    }
+  },
+  "nw_269": {
+    "title": "Cubetas bien hechas",
+    "body": "Unas cubetas locales contienen el agua mejor que nuestros modelos viejos.",
+    "choices": {
+      "A": "Cambiar todo el stock",
+      "B": "Comprar pocas para probar",
+      "C": "Dejar que cada quien elija"
+    }
+  },
+  "nw_270": {
+    "title": "Tinta local",
+    "body": "Una tinta local seca rápido y ensucia con gran talento.",
+    "choices": {
+      "A": "Adoptarla",
+      "B": "Revenderla",
+      "C": "Quedarnos con nuestra vieja tinta"
+    }
+  },
+  "nw_271": {
+    "title": "Pequeño impuesto",
+    "body": "Un pequeño impuesto en el muelle daría ingresos sin hacer demasiado ruido.",
+    "choices": {
+      "A": "Imponerlo",
+      "B": "Probarlo una semana",
+      "C": "Renunciar"
+    }
+  },
+  "nw_272": {
+    "title": "Pelea de mercado",
+    "body": "Dos vendedores se pelean por el mejor rincón de sombra del mercado.",
+    "choices": {
+      "A": "Marcar los lugares",
+      "B": "Cobrar por el mejor rincón",
+      "C": "Separarlos lejos"
+    }
+  },
+  "nw_273": {
+    "title": "Contrato arrugado",
+    "body": "Llega un contrato arrugado, húmedo y muy discutido.",
+    "choices": {
+      "A": "Hacerlo de nuevo bien",
+      "B": "Hacer que todos lo validen",
+      "C": "Tirarlo"
+    }
+  },
+  "nw_274": {
+    "title": "Guardia demasiado celoso",
+    "body": "Un guardia revisa todo, hasta las canastas vacías y los ánimos.",
+    "choices": {
+      "A": "Calmarlo",
+      "B": "Mantenerlo en su puesto",
+      "C": "Moverlo al muro"
+    }
+  },
+  "nw_275": {
+    "title": "Noche sin ronda",
+    "body": "La ronda nocturna a veces se olvida.",
+    "choices": {
+      "A": "Doblar la ronda",
+      "B": "Pagar un bono nocturno",
+      "C": "Cerrar el puerto más temprano"
+    }
+  },
+  "nw_276": {
+    "title": "Balanza del rey",
+    "body": "La gran balanza oficial impresiona, pero bloquea medio mercado.",
+    "choices": {
+      "A": "Dejarla para grandes lotes",
+      "B": "Crear una fila especial",
+      "C": "Guardarla"
+    }
+  },
+  "nw_277": {
+    "title": "Fila de espera",
+    "body": "La fila de la oficina ya llega casi hasta la cocina.",
+    "choices": {
+      "A": "Abrir una segunda oficina",
+      "B": "Cobrar por urgencia",
+      "C": "Simplificar los papeles"
+    }
+  },
+  "nw_278": {
+    "title": "Puerta entreabierta",
+    "body": "La puerta del depósito suele quedar entreabierta por costumbre o descuido.",
+    "choices": {
+      "A": "Cambiar la cerradura",
+      "B": "Poner un vigilante",
+      "C": "Dejarla así durante el día"
+    }
+  },
+  "nw_279": {
+    "title": "Oficina de la sal",
+    "body": "La sal pasa por demasiadas manos antes de llegar a las cuentas.",
+    "choices": {
+      "A": "Reducir los pasos",
+      "B": "Crear una oficina dedicada",
+      "C": "Dejarlo en manos de la aldea"
+    }
+  },
+  "nw_280": {
+    "title": "Derecho de paso",
+    "body": "Las carretas quieren pasar rápido y pagar despacio.",
+    "choices": {
+      "A": "Imponer un derecho claro",
+      "B": "Poner una tarifa ligera",
+      "C": "Dejar pasar sin impuesto"
+    }
+  },
+  "nw_281": {
+    "title": "Barca compartida",
+    "body": "Dos mercaderes quieren la misma barca en la misma mañana.",
+    "choices": {
+      "A": "Fijar un horario",
+      "B": "Alquilar una segunda barca",
+      "C": "Vender la prioridad"
+    }
+  },
+  "nw_282": {
+    "title": "Mula cansada",
+    "body": "La mula del depósito casi ya no avanza.",
+    "choices": {
+      "A": "Reemplazarla",
+      "B": "Aligerarle la carga",
+      "C": "Mandarla a curar"
+    }
+  },
+  "nw_283": {
+    "title": "Rueda chueca",
+    "body": "Una rueda chueca hace tambalear toda la carreta.",
+    "choices": {
+      "A": "Cambiarla",
+      "B": "Repararla en la aldea",
+      "C": "Reducir la carga"
+    }
+  },
+  "nw_284": {
+    "title": "Carga demasiado pesada",
+    "body": "Una carga demasiado pesada amenaza con romper más cosas que el humor.",
+    "choices": {
+      "A": "Dividirla",
+      "B": "Reforzar la carreta",
+      "C": "Venderla allí mismo"
+    }
+  },
+  "nw_285": {
+    "title": "Carga frágil",
+    "body": "Llegan unas cerámicas finas con la fragilidad de un vidrio carísimo.",
+    "choices": {
+      "A": "Llevarlas a mano",
+      "B": "Amortiguar el transporte",
+      "C": "Revender una parte"
+    }
+  },
+  "nw_286": {
+    "title": "Salida antes del amanecer",
+    "body": "Un convoy quiere partir antes del amanecer para aprovechar el fresco.",
+    "choices": {
+      "A": "Aceptar",
+      "B": "Enviar una guardia",
+      "C": "Esperar al día"
+    }
+  },
+  "nw_287": {
+    "title": "Barco vacío",
+    "body": "Un barco se va casi vacío y eso hiere nuestro orgullo.",
+    "choices": {
+      "A": "Cargarlo a bajo precio",
+      "B": "Alquilarlo a otros",
+      "C": "Retenerlo en el puerto"
+    }
+  },
+  "nw_288": {
+    "title": "Sendero acortado",
+    "body": "Un sendero corto cruza un terreno que en realidad no pertenece a nadie.",
+    "choices": {
+      "A": "Comprar el paso",
+      "B": "Negociar el uso",
+      "C": "Seguir por la ruta vieja"
+    }
+  },
+  "nw_289": {
+    "title": "Pórtico nuevo",
+    "body": "Un pórtico de carga haría las maniobras menos ridículas.",
+    "choices": {
+      "A": "Construirlo",
+      "B": "Hacer que los mercaderes lo paguen",
+      "C": "Alquilar un pórtico local"
+    }
+  },
+  "nw_290": {
+    "title": "Mano de obra móvil",
+    "body": "Los obreros cambian de obra a la menor complicación.",
+    "choices": {
+      "A": "Pagar mejor a los confiables",
+      "B": "Formar un equipo fijo",
+      "C": "Dejarlos circular"
+    }
+  },
+  "nw_291": {
+    "title": "Fiesta de la bandera",
+    "body": "La nueva bandera merece una fiesta, pero las finanzas ya están por los suelos.",
+    "choices": {
+      "A": "Hacer una pequeña fiesta",
+      "B": "Hacer algo grande",
+      "C": "Posponerla"
+    }
+  },
+  "nw_292": {
+    "title": "Discurso demasiado largo",
+    "body": "El discurso del comandante dura más que una marea lenta.",
+    "choices": {
+      "A": "Acortarlo",
+      "B": "Leerlo en la plaza",
+      "C": "Dejarlo para la oficina"
+    }
+  },
+  "nw_293": {
+    "title": "Medalla local",
+    "body": "La aldea propone una medalla tejida para los más útiles.",
+    "choices": {
+      "A": "Adoptarla",
+      "B": "Crear la nuestra",
+      "C": "Premiar con monedas"
+    }
+  },
+  "nw_294": {
+    "title": "Delantal del jefe",
+    "body": "El cocinero jefe quiere un delantal bordado muy lujoso.",
+    "choices": {
+      "A": "Regalárselo",
+      "B": "Dejar que lo pague él",
+      "C": "Prometerlo para después"
+    }
+  },
+  "nw_295": {
+    "title": "Estandarte bordado",
+    "body": "Un estandarte bordado por la aldea se vería muy bien en el fuerte.",
+    "choices": {
+      "A": "Encargarlo",
+      "B": "Negociarlo a cambio de ayuda",
+      "C": "Quedarnos con el viejo"
+    }
+  },
+  "nw_296": {
+    "title": "Banco de honor",
+    "body": "La plaza quiere un banco de honor para los visitantes importantes.",
+    "choices": {
+      "A": "Mandarlo construir",
+      "B": "Financiar la mitad",
+      "C": "Dejar que la aldea se encargue"
+    }
+  },
+  "nw_297": {
+    "title": "Desfile mojado",
+    "body": "La lluvia amenaza el pequeño desfile previsto en el muelle.",
+    "choices": {
+      "A": "Mantenerlo",
+      "B": "Pasarlo al fuerte",
+      "C": "Cancelarlo"
+    }
+  },
+  "nw_298": {
+    "title": "Corona de hojas",
+    "body": "Una corona de hojas se vuelve la moda entre los jefes del puerto.",
+    "choices": {
+      "A": "Seguir la moda",
+      "B": "Regalar algunas",
+      "C": "Ignorarla"
+    }
+  },
+  "nw_299": {
+    "title": "Plaza del rey",
+    "body": "Proponen renombrar la plaza del mercado con el nombre del rey.",
+    "choices": {
+      "A": "Aceptar",
+      "B": "Elegir un nombre doble",
+      "C": "Negarse"
+    }
+  },
+  "nw_300": {
+    "title": "Día del puerto",
+    "body": "Un día sin impuestos llenaría el muelle de gente y de ruido.",
+    "choices": {
+      "A": "Lanzar la idea",
+      "B": "Hacer medio día",
+      "C": "Mantener el régimen normal"
+    }
+  },
+  "nw_301": {
+    "title": "Carretilla real",
+    "body": "La vieja carretilla del muelle rechina más fuerte que el comandante.",
+    "choices": {
+      "A": "Comprar dos carretillas",
+      "B": "Reparar la vieja",
+      "C": "Alquilar una en la aldea"
+    }
+  },
+  "nw_302": {
+    "title": "Lluvia sobre los registros",
+    "body": "Los papeles de la oficina se mojan y se arruinan.",
+    "choices": {
+      "A": "Copiarlos bajo techo",
+      "B": "Mover la oficina",
+      "C": "Reducir el papeleo"
+    }
+  },
+  "nw_303": {
+    "title": "Cala tranquila",
+    "body": "Una cala tranquila podría servir de pequeño muelle o refugio.",
+    "choices": {
+      "A": "Hacer allí un pequeño muelle",
+      "B": "Reservarla para uso militar",
+      "C": "Abrirla a los pescadores"
+    }
+  },
+  "nw_304": {
+    "title": "Frijoles demasiado orgullosos",
+    "body": "Los frijoles del campamento crecen tan bien que el mercado local empieza a resentirlo.",
+    "choices": {
+      "A": "Venderlos rápido",
+      "B": "Guardarlos en el campamento",
+      "C": "Regalarlos a la aldea"
+    }
+  },
+  "nw_305": {
+    "title": "Cuerda de emergencia",
+    "body": "La última buena cuerda del depósito ya ha vivido demasiado.",
+    "choices": {
+      "A": "Comprar un gran rollo",
+      "B": "Trenzarla allí mismo",
+      "C": "Esperar la entrega"
+    }
+  },
+  "nw_306": {
+    "title": "Mercader insistente",
+    "body": "Un mercader quiere firmar incluso antes de sentarse.",
+    "choices": {
+      "A": "Firmar un acuerdo corto",
+      "B": "Ponerlo a prueba un mes",
+      "C": "Hacerlo esperar"
+    }
+  },
+  "nw_307": {
+    "title": "Arena negra",
+    "body": "Una arena oscura atrae miradas tanto como ideas de ganancia.",
+    "choices": {
+      "A": "Venderla lejos",
+      "B": "Guardarla para nuestras obras",
+      "C": "Ofrecerla a los jefes"
+    }
+  },
+  "nw_308": {
+    "title": "Ventana de la oficina",
+    "body": "A la oficina le falta aire y los escribas trabajan mal allí.",
+    "choices": {
+      "A": "Ampliarla",
+      "B": "Abrirla por la mañana",
+      "C": "Dejarla como está"
+    }
+  },
+  "nw_309": {
+    "title": "Árbol inclinado",
+    "body": "Un árbol del muelle se inclina peligrosamente sobre el paso.",
+    "choices": {
+      "A": "Cortarlo",
+      "B": "Sostenerlo",
+      "C": "Hacer un banco con él"
+    }
+  },
+  "nw_310": {
+    "title": "Palanganas vacías",
+    "body": "Las palanganas del campamento desaparecieron más rápido que las excusas.",
+    "choices": {
+      "A": "Comprar nuevas",
+      "B": "Pedírselas al alfarero local",
+      "C": "Reducir el reparto"
+    }
+  },
+  "nw_311": {
+    "title": "Sandalias locales",
+    "body": "Las sandalias locales aguantan mejor el lodo que nuestras orgullosas botas.",
+    "choices": {
+      "A": "Comprarlas para el campamento",
+      "B": "Dejar que cada quien elija",
+      "C": "Dárselas a los obreros"
+    }
+  },
+  "nw_312": {
+    "title": "Roca útil",
+    "body": "Una gran roca junto al agua podría aprovecharse.",
+    "choices": {
+      "A": "Tallarle escalones",
+      "B": "Poner un puesto encima",
+      "C": "Dejarla para los pescadores"
+    }
+  },
+  "nw_313": {
+    "title": "Noche demasiado clara",
+    "body": "Las fogatas del campamento brillan tanto que hasta los cangrejos nos ven llegar.",
+    "choices": {
+      "A": "Reducir las fogatas",
+      "B": "Mover las rondas",
+      "C": "Conservar la luz"
+    }
+  },
+  "nw_314": {
+    "title": "Mesa de cuentas",
+    "body": "La mesa de la oficina se tambalea y vuelve el trabajo pesado.",
+    "choices": {
+      "A": "Reemplazarla",
+      "B": "Calzarla mejor",
+      "C": "Llevar las cuentas afuera"
+    }
+  },
+  "nw_315": {
+    "title": "Pesca nocturna",
+    "body": "Unos pescadores quieren salir después de la puesta del sol.",
+    "choices": {
+      "A": "Autorizarla",
+      "B": "Cobrar por las capturas",
+      "C": "Prohibirla"
+    }
+  },
+  "nw_316": {
+    "title": "Puesto brillante",
+    "body": "Un puesto nuevo atrae a todo el mercado y también mucha envidia.",
+    "choices": {
+      "A": "Alquilarlo caro",
+      "B": "Reservarlo para el fuerte",
+      "C": "Dejar que el vendedor brille"
+    }
+  },
+  "nw_317": {
+    "title": "Gallo del campamento",
+    "body": "El gallo despierta a todo el mundo menos a los más útiles.",
+    "choices": {
+      "A": "Conservarlo",
+      "B": "Venderlo",
+      "C": "Regalarlo a la aldea"
+    }
+  },
+  "nw_318": {
+    "title": "Tapetes de junco",
+    "body": "Unos tapetes de junco hacen los pisos menos tristes y menos resbalosos.",
+    "choices": {
+      "A": "Comprarlos",
+      "B": "Dejar que el mercado los venda",
+      "C": "Ponerlos en la oficina"
+    }
+  },
+  "nw_319": {
+    "title": "Barca con fuga",
+    "body": "Una barca hace agua casi en cada salida.",
+    "choices": {
+      "A": "Repararla",
+      "B": "Revenderla",
+      "C": "Prestársela a los pescadores"
+    }
+  },
+  "nw_320": {
+    "title": "Ramo oficial",
+    "body": "La sala del fuerte huele más a polvo que a la visita que se viene.",
+    "choices": {
+      "A": "Comprar flores",
+      "B": "Pedírselas a la aldea",
+      "C": "Dejar la sala vacía"
+    }
+  },
+  "nw_321": {
+    "title": "Cangrejos del camino",
+    "body": "El sendero del muelle está lleno de cangrejos muy poco cooperativos.",
+    "choices": {
+      "A": "Despejar el paso",
+      "B": "Tomar un desvío",
+      "C": "Vender los cangrejos"
+    }
+  },
+  "nw_322": {
+    "title": "Piedra caliente",
+    "body": "Una piedra plana guarda el calor mejor que nuestros fogones.",
+    "choices": {
+      "A": "Cocinar con la piedra",
+      "B": "Construir un fogón",
+      "C": "Dejar la piedra"
+    }
+  },
+  "nw_323": {
+    "title": "Puerta del mercado",
+    "body": "La puerta del mercado atasca las cajas y también los ánimos.",
+    "choices": {
+      "A": "Ensáncharla",
+      "B": "Poner un guardia",
+      "C": "Dejar la entrada libre"
+    }
+  },
+  "nw_324": {
+    "title": "Manantial discreto",
+    "body": "Un pequeño manantial corre detrás de la hierba sin presumir.",
+    "choices": {
+      "A": "Protegerlo",
+      "B": "Llevar al campamento hasta él",
+      "C": "Compartirlo"
+    }
+  },
+  "nw_325": {
+    "title": "Canoa pintada",
+    "body": "Una canoa colorida da más de qué hablar que un tratado.",
+    "choices": {
+      "A": "Alquilarla",
+      "B": "Copiar la decoración",
+      "C": "Comprarla"
+    }
+  },
+  "nw_326": {
+    "title": "Carreta de sal",
+    "body": "La carreta de sal amenaza con terminar en un montón blanco sobre el camino.",
+    "choices": {
+      "A": "Reforzarla",
+      "B": "Repartir la carga",
+      "C": "Hacerla pasar después"
+    }
+  },
+  "nw_327": {
+    "title": "Techo del taller",
+    "body": "El techo del taller gotea sobre las herramientas más caras.",
+    "choices": {
+      "A": "Hacerlo de nuevo",
+      "B": "Poner una lona",
+      "C": "Mover las herramientas"
+    }
+  },
+  "nw_328": {
+    "title": "Centinela enfermo",
+    "body": "El centinela tose más de lo que vigila.",
+    "choices": {
+      "A": "Darle descanso",
+      "B": "Buscar un reemplazo",
+      "C": "Reducir la ronda"
+    }
+  },
+  "nw_329": {
+    "title": "Fuego demasiado grande",
+    "body": "La gran fogata de la noche impresiona, pero devora la madera.",
+    "choices": {
+      "A": "Reducirla",
+      "B": "Cocinar más para vender",
+      "C": "Mostrársela a los jefes"
+    }
+  },
+  "nw_330": {
+    "title": "Jarras alineadas",
+    "body": "Una fila de jarras da ganas de llenar diez más.",
+    "choices": {
+      "A": "Guardar más",
+      "B": "Venderlas",
+      "C": "Dárselas al campamento"
+    }
+  },
+  "nw_331": {
+    "title": "Vidrio de colores",
+    "body": "Unos pedazos de vidrio brillante hacen girar todas las cabezas.",
+    "choices": {
+      "A": "Comprarlos",
+      "B": "Ofrecerlos a la oficina",
+      "C": "Dejarlos en el mercado"
+    }
+  },
+  "nw_332": {
+    "title": "Mástil de desfile",
+    "body": "Un gran mástil le daría al puerto un aire muy oficial.",
+    "choices": {
+      "A": "Levantarlo",
+      "B": "Hacer algo más simple",
+      "C": "Cancelar el desfile"
+    }
+  },
+  "nw_333": {
+    "title": "Oficina de madera",
+    "body": "Al muelle le falta un verdadero rincón seco para firmar sin dramas.",
+    "choices": {
+      "A": "Mandarla construir",
+      "B": "Alquilar un cuarto local",
+      "C": "Mantener la oficina actual"
+    }
+  },
+  "nw_334": {
+    "title": "Hierbas medicinales",
+    "body": "Un curandero presume de unas hierbas que huelen fuerte y tranquilizan bien.",
+    "choices": {
+      "A": "Comprarlas",
+      "B": "Cultivarlas",
+      "C": "Ofrecerlas a los curanderos"
+    }
+  },
+  "nw_335": {
+    "title": "Pay salado",
+    "body": "Un pay del puerto casi se vendería solo.",
+    "choices": {
+      "A": "Venderlo",
+      "B": "Servirlo a los invitados",
+      "C": "Guardar la receta"
+    }
+  },
+  "nw_336": {
+    "title": "Lluvia fina",
+    "body": "Una lluvia ligera molesta un poco a todos sin detener realmente nada.",
+    "choices": {
+      "A": "Seguir trabajando",
+      "B": "Meter a los hombres bajo techo",
+      "C": "Poner lonas"
+    }
+  },
+  "nw_337": {
+    "title": "Cuerda roja",
+    "body": "Una cuerda teñida de rojo se ve de lejos, pero no es más útil.",
+    "choices": {
+      "A": "Dejarla para el muelle",
+      "B": "Venderla",
+      "C": "Ofrecerla a la plaza"
+    }
+  },
+  "nw_338": {
+    "title": "Rada profunda",
+    "body": "Una zona profunda puede recibir barcos más grandes que nuestras costumbres.",
+    "choices": {
+      "A": "Recibir allí grandes barcos",
+      "B": "Mantenerla en secreto",
+      "C": "Abrirla a todos"
+    }
+  },
+  "nw_339": {
+    "title": "Sacos mal cerrados",
+    "body": "Los sacos del depósito están mal cerrados y pierden su contenido.",
+    "choices": {
+      "A": "Comprar buenos amarres",
+      "B": "Capacitar a los cargadores",
+      "C": "Vender rápido las reservas"
+    }
+  },
+  "nw_340": {
+    "title": "Pasillo embarrado",
+    "body": "Un pasillo del campamento tiene tanto lodo que uno pierde fácilmente las sandalias.",
+    "choices": {
+      "A": "Poner grava",
+      "B": "Cerrar el pasillo",
+      "C": "Usar otro camino"
+    }
+  },
+  "nw_341": {
+    "title": "Fruta estrella",
+    "body": "Una fruta local gusta tanto que se habla más de ella que del rey.",
+    "choices": {
+      "A": "Venderla lejos",
+      "B": "Reservarla para el fuerte",
+      "C": "Compartirla"
+    }
+  },
+  "nw_342": {
+    "title": "Tambor mojado",
+    "body": "El tambor del puerto suena mal. Las señales se vuelven difíciles de entender.",
+    "choices": {
+      "A": "Ponerlo a secar",
+      "B": "Comprar otro",
+      "C": "Volver a la campana"
+    }
+  },
+  "nw_343": {
+    "title": "Mesa torcida",
+    "body": "Una mesa de clasificación se inclina tanto que todos los sacos caen del mismo lado.",
+    "choices": {
+      "A": "Enderezarla",
+      "B": "Encargar una nueva",
+      "C": "Clasificar de pie"
+    }
+  },
+  "nw_344": {
+    "title": "Pequeño molino",
+    "body": "Un pequeño molino podría ahorrar muchos brazos.",
+    "choices": {
+      "A": "Construirlo",
+      "B": "Probar uno pequeño",
+      "C": "Comprar la harina"
+    }
+  },
+  "nw_345": {
+    "title": "Derecho del muelle",
+    "body": "Un impuesto ligero haría rechinar lo justo.",
+    "choices": {
+      "A": "Fijarlo",
+      "B": "Bajarlo un poco",
+      "C": "Eliminarlo"
+    }
+  },
+  "nw_346": {
+    "title": "Hamacas públicas",
+    "body": "Unas hamacas en el puerto harían caer menos a los hombres cansados.",
+    "choices": {
+      "A": "Instalarlas",
+      "B": "Reservarlas para el campamento",
+      "C": "Alquilarlas"
+    }
+  },
+  "nw_347": {
+    "title": "Mercado cubierto",
+    "body": "El mercado necesita un techo desde hace tiempo.",
+    "choices": {
+      "A": "Construirlo",
+      "B": "Empezar en pequeño",
+      "C": "Dejarlo al aire libre"
+    }
+  },
+  "nw_348": {
+    "title": "Escalera perdida",
+    "body": "Siempre falta una escalera cuando la altura se vuelve urgente.",
+    "choices": {
+      "A": "Comprar una",
+      "B": "Fabricarla allí mismo",
+      "C": "Posponer los trabajos altos"
+    }
+  },
+  "nw_349": {
+    "title": "Miel ahumada",
+    "body": "Una miel ahumada sorprende a todos y gusta demasiado rápido.",
+    "choices": {
+      "A": "Venderla",
+      "B": "Regalarla",
+      "C": "Guardar un poco para el fuerte"
+    }
+  },
+  "nw_350": {
+    "title": "Camino del faro",
+    "body": "El camino al faro lastima los tobillos y las ganas de subir.",
+    "choices": {
+      "A": "Repararlo",
+      "B": "Hacer que lo mantengan los locales",
+      "C": "Cerrarlo de noche"
+    }
+  },
+  "nw_351": {
+    "title": "Guantes de trabajo",
+    "body": "Las manos de los obreros están tan dañadas que hay que actuar.",
+    "choices": {
+      "A": "Repartir guantes",
+      "B": "Venderlos a precio de costo",
+      "C": "Dejar que cada quien se arregle"
+    }
+  },
+  "nw_352": {
+    "title": "Espiga dorada",
+    "body": "Una espiga muy resistente le da ideas de grandeza al granero.",
+    "choices": {
+      "A": "Mostrársela al rey",
+      "B": "Sembrarla por todas partes",
+      "C": "Compartirla"
+    }
+  },
+  "nw_353": {
+    "title": "Perro del jefe",
+    "body": "Al perro del jefe vecino le encanta nuestra comida y nuestros pasillos.",
+    "choices": {
+      "A": "Alimentarlo",
+      "B": "Mantenerlo lejos del muelle",
+      "C": "Pasearlo por el campamento"
+    }
+  },
+  "nw_354": {
+    "title": "Reserva de madera",
+    "body": "La pila de madera baja más rápido que las quejas del cocinero.",
+    "choices": {
+      "A": "Aumentarla",
+      "B": "Vender un poco",
+      "C": "Compartirla"
+    }
+  },
+  "nw_355": {
+    "title": "Puerta estrecha",
+    "body": "La pequeña puerta del depósito deja pasar mal las cajas grandes.",
+    "choices": {
+      "A": "Abrirla más",
+      "B": "Hacer pasar por turnos",
+      "C": "Dejarla así"
+    }
+  },
+  "nw_356": {
+    "title": "Vendedor hablador",
+    "body": "Un vendedor atrae a tanta gente que se oye menos al puerto que a él.",
+    "choices": {
+      "A": "Ponerlo en el centro",
+      "B": "Cobrarle impuestos",
+      "C": "Contratarlo"
+    }
+  },
+  "nw_357": {
+    "title": "Caseta de herramientas",
+    "body": "Los martillos viajan demasiado y regresan poco.",
+    "choices": {
+      "A": "Construirla",
+      "B": "Usar una sala del fuerte",
+      "C": "Dejar las herramientas en el depósito"
+    }
+  },
+  "nw_358": {
+    "title": "Gran espejo",
+    "body": "Un espejo enorme llega al muelle con más orgullo que prudencia.",
+    "choices": {
+      "A": "Comprarlo",
+      "B": "Alquilarlo para la visita",
+      "C": "Dejarlo ir"
+    }
+  },
+  "nw_359": {
+    "title": "Patrulla lenta",
+    "body": "La patrulla de la tarde avanza demasiado despacio.",
+    "choices": {
+      "A": "Dar un bono",
+      "B": "Cambiar la ruta",
+      "C": "Reducir el recorrido"
+    }
+  },
+  "nw_360": {
+    "title": "Orilla empinada",
+    "body": "Una orilla útil es demasiado empinada para las botas del campamento.",
+    "choices": {
+      "A": "Abrir un paso",
+      "B": "Prohibir el acceso",
+      "C": "Usar cuerdas"
+    }
+  },
+  "nw_361": {
+    "title": "Linterna azul",
+    "body": "Una linterna azul ilumina mejor que las que usamos ahora.",
+    "choices": {
+      "A": "Adoptarla en el muelle",
+      "B": "Venderla como curiosidad",
+      "C": "Regalársela a los jefes"
+    }
+  },
+  "nw_362": {
+    "title": "Horno del puerto",
+    "body": "El horno del muelle calienta mal y molesta bien.",
+    "choices": {
+      "A": "Repararlo",
+      "B": "Construir otro",
+      "C": "Comprar en la aldea"
+    }
+  },
+  "nw_363": {
+    "title": "Ropa al viento",
+    "body": "La ropa de los marineros convierte el muelle en un bosque de sábanas.",
+    "choices": {
+      "A": "Crear un espacio dedicado",
+      "B": "Prohibirlo en el muelle",
+      "C": "Cobrar por el lugar"
+    }
+  },
+  "nw_364": {
+    "title": "Remo nuevo",
+    "body": "Un remo bien hecho da ganas de cambiar todo el stock.",
+    "choices": {
+      "A": "Comprar diez",
+      "B": "Probar dos",
+      "C": "Quedarnos con los viejos"
+    }
+  },
+  "nw_365": {
+    "title": "Fiesta del pescado",
+    "body": "Una fiesta del pescado llenaría el puerto de olores y monedas.",
+    "choices": {
+      "A": "Lanzarla",
+      "B": "Limitarla al puerto",
+      "C": "Cancelarla"
+    }
+  },
+  "nw_366": {
+    "title": "Muelles silenciosos",
+    "body": "El muelle está tan tranquilo que casi parece que se nos escapó algo.",
+    "choices": {
+      "A": "Enviar músicos",
+      "B": "Bajar los impuestos un día",
+      "C": "Dejar la calma"
+    }
+  },
+  "nw_367": {
+    "title": "Piedra lisa",
+    "body": "Una piedra pulida resbala poco y cuesta menos que una herida.",
+    "choices": {
+      "A": "Pavimentar la entrada",
+      "B": "Venderla en bloques",
+      "C": "Decorar la plaza"
+    }
+  },
+  "nw_368": {
+    "title": "Ropa de lluvia",
+    "body": "La guardia termina empapada antes de llegar a la mitad del día.",
+    "choices": {
+      "A": "Comprar para la guardia",
+      "B": "Venderles a los obreros",
+      "C": "Esperar el sol"
+    }
+  },
+  "nw_369": {
+    "title": "Sendero de cabras",
+    "body": "Un pequeño sendero de cabras sube mejor que nuestra gran ruta.",
+    "choices": {
+      "A": "Seguirlo",
+      "B": "Señalizarlo",
+      "C": "Cerrarlo"
+    }
+  },
+  "nw_370": {
+    "title": "Oficina auxiliar",
+    "body": "La oficina principal ya se desborda sobre los bancos y los nervios.",
+    "choices": {
+      "A": "Abrirla",
+      "B": "Atender un día sí y otro no",
+      "C": "Quedarnos con una sola oficina"
+    }
+  },
+  "nw_371": {
+    "title": "Redes secas",
+    "body": "Unas redes bien secas casi valen más que un buen discurso.",
+    "choices": {
+      "A": "Guardarlas",
+      "B": "Venderlas",
+      "C": "Prestarlas"
+    }
+  },
+  "nw_372": {
+    "title": "Muro pintado",
+    "body": "Un muro colorido atrae más a la gente que uno muy recto.",
+    "choices": {
+      "A": "Dejar el mural",
+      "B": "Pintar el símbolo del rey",
+      "C": "Borrar el muro"
+    }
+  },
+  "nw_373": {
+    "title": "Pan redondo",
+    "body": "Un pan nuevo ya circula más rápido que las noticias del puerto.",
+    "choices": {
+      "A": "Venderlo en todas partes",
+      "B": "Guardarlo para el campamento",
+      "C": "Regalarlo a los vecinos"
+    }
+  },
+  "nw_374": {
+    "title": "Paquete frágil",
+    "body": "El paquete parece tan frágil que da miedo moverlo.",
+    "choices": {
+      "A": "Llevarlo a mano",
+      "B": "Guardarlo en el fuerte",
+      "C": "Revenderlo"
+    }
+  },
+  "nw_375": {
+    "title": "Jaula vacía",
+    "body": "Una jaula se queda vacía en el depósito y no sirve para nada.",
+    "choices": {
+      "A": "Llenarla con gallinas",
+      "B": "Venderla",
+      "C": "Regalarla"
+    }
+  },
+  "nw_376": {
+    "title": "Canoa vieja",
+    "body": "Una canoa vieja todavía aguanta, pero parece sobrevivir más por milagro que por solidez.",
+    "choices": {
+      "A": "Repararla",
+      "B": "Desarmarla",
+      "C": "Prestarla"
+    }
+  },
+  "nw_377": {
+    "title": "Arrecife cercano",
+    "body": "Un arrecife muy cercano puede ayudar a la pesca, pero también puede dificultar las maniobras de los barcos.",
+    "choices": {
+      "A": "Señalarlo",
+      "B": "Mantenerlo en secreto",
+      "C": "Aprovecharlo para la pesca"
+    }
+  },
+  "nw_378": {
+    "title": "Sábanas del campamento",
+    "body": "Las sábanas del campamento están gastadas y sucias.",
+    "choices": {
+      "A": "Cambiarlas",
+      "B": "Lavarlas en la aldea",
+      "C": "Reservar las nuevas para los heridos"
+    }
+  },
+  "nw_379": {
+    "title": "Sello real",
+    "body": "El gran sello real vuelve más importantes los documentos oficiales, pero ralentiza todas las filas.",
+    "choices": {
+      "A": "Sellarlo todo",
+      "B": "Sellar solo los contratos",
+      "C": "Guardar el sello bajo llave"
+    }
+  },
+  "nw_380": {
+    "title": "Jardín de especias",
+    "body": "El jardín detrás del fuerte ya huele a dinero.",
+    "choices": {
+      "A": "Ampliarlo",
+      "B": "Venderlo en bolsitas",
+      "C": "Compartirlo"
+    }
+  },
+  "nw_381": {
+    "title": "Tabla rota",
+    "body": "Una tabla rota siempre elige el peor momento.",
+    "choices": {
+      "A": "Cambiarla",
+      "B": "Repararla rápido",
+      "C": "Cerrar el paso"
+    }
+  },
+  "nw_382": {
+    "title": "Escriba veloz",
+    "body": "Un escriba copia tan rápido que podrían darle más trabajo.",
+    "choices": {
+      "A": "Darle más trabajo",
+      "B": "Buscarle un ayudante",
+      "C": "Dejarlo a su ritmo"
+    }
+  },
+  "nw_383": {
+    "title": "Pontón privado",
+    "body": "Un mercader construyó su pequeño pontón sin esperar nuestro humor.",
+    "choices": {
+      "A": "Prohibirlo",
+      "B": "Cobrarle impuestos",
+      "C": "Alquilarlo"
+    }
+  },
+  "nw_384": {
+    "title": "Barril dulce",
+    "body": "Un barril muy dulce atrae a los curiosos y a los ladrones.",
+    "choices": {
+      "A": "Venderlo",
+      "B": "Servirlo en la mesa",
+      "C": "Guardarlo para el invierno"
+    }
+  },
+  "nw_385": {
+    "title": "Caja de jabón",
+    "body": "Una caja de jabón huele a limpieza y a negocio.",
+    "choices": {
+      "A": "Comprarla",
+      "B": "Revenderla",
+      "C": "Dársela al campamento"
+    }
+  },
+  "nw_386": {
+    "title": "Terreno plano",
+    "body": "Un terreno bien plano sería ideal para un depósito o un mercado.",
+    "choices": {
+      "A": "Hacer allí un depósito",
+      "B": "Hacer allí el mercado",
+      "C": "Dejarlo libre"
+    }
+  },
+  "nw_387": {
+    "title": "Sombra de la higuera",
+    "body": "La sombra de una gran higuera ya vale por tres bancos.",
+    "choices": {
+      "A": "Poner un banco",
+      "B": "Reservar la sombra para la oficina",
+      "C": "Dejar que todos vengan"
+    }
+  },
+  "nw_388": {
+    "title": "Guardia empapado",
+    "body": "El guardia de la puerta está empapado de pies a cabeza.",
+    "choices": {
+      "A": "Darle una capa",
+      "B": "Cambiarlo de puesto",
+      "C": "Dejar que termine el turno"
+    }
+  },
+  "nw_389": {
+    "title": "Poste del camino",
+    "body": "Un solo poste marca el camino cuando harían falta cinco.",
+    "choices": {
+      "A": "Poner más",
+      "B": "Mandar a pintarlos",
+      "C": "Dejar que guíen los conocedores"
+    }
+  },
+  "nw_390": {
+    "title": "Mercado de la mañana",
+    "body": "El mercado quiere abrir antes que la oficina.",
+    "choices": {
+      "A": "Abrir más temprano",
+      "B": "Probarlo un día",
+      "C": "Mantener el horario actual"
+    }
+  },
+  "nw_391": {
+    "title": "Piedra marcada",
+    "body": "Una piedra grabada atrae miradas que no habíamos pedido.",
+    "choices": {
+      "A": "Mostrarla",
+      "B": "Guardarla en el fuerte",
+      "C": "Dejarla donde está"
+    }
+  },
+  "nw_392": {
+    "title": "Ola alta",
+    "body": "Una ola más alta de lo normal golpea el muelle con seguridad.",
+    "choices": {
+      "A": "Elevar el muelle",
+      "B": "Descargar más lejos",
+      "C": "Esperar a que el mar se calme"
+    }
+  },
+  "nw_393": {
+    "title": "Oficina de quejas",
+    "body": "Las quejas se amontonan como sacos mal acomodados.",
+    "choices": {
+      "A": "Abrirla",
+      "B": "Atender un día por semana",
+      "C": "Ignorar las quejas"
+    }
+  },
+  "nw_394": {
+    "title": "Paja fresca",
+    "body": "Una paja nueva les haría bien a los animales y también a las narices.",
+    "choices": {
+      "A": "Comprarla",
+      "B": "Venderla",
+      "C": "Dársela a los establos"
+    }
+  },
+  "nw_395": {
+    "title": "Barco vecino",
+    "body": "Un barco venido de un puerto vecino duda si comerciar con nosotros.",
+    "choices": {
+      "A": "Hacer comercio",
+      "B": "Vigilarlo",
+      "C": "Invitarlo al puerto"
+    }
+  },
+  "nw_396": {
+    "title": "Pérgola pública",
+    "body": "Una pérgola daría sombra a la plaza y calma a las filas.",
+    "choices": {
+      "A": "Construirla",
+      "B": "Hacer que la paguen",
+      "C": "Encargársela a la aldea"
+    }
+  },
+  "nw_397": {
+    "title": "Estaca faltante",
+    "body": "Un hueco en la cerca basta para poner nervioso a todo el muelle.",
+    "choices": {
+      "A": "Reemplazarla",
+      "B": "Reforzar todo el borde",
+      "C": "Cerrar la zona"
+    }
+  },
+  "nw_398": {
+    "title": "Tocado local",
+    "body": "Un tocado local gusta tanto que ya quieren usarlo en el fuerte.",
+    "choices": {
+      "A": "Comprar algunos para la visita",
+      "B": "Regalarlos a los jefes",
+      "C": "Dejar que siga la moda"
+    }
+  },
+  "nw_399": {
+    "title": "Sacos de harina",
+    "body": "A los sacos de harina no les gusta ni el agua ni las demoras.",
+    "choices": {
+      "A": "Ponerlos bajo techo",
+      "B": "Venderlos rápido",
+      "C": "Repartirlos"
+    }
+  },
+  "nw_400": {
+    "title": "Torre de la costa",
+    "body": "Una torre junto al agua permitiría verlo todo, pero costaría una fortuna.",
+    "choices": {
+      "A": "Construirla",
+      "B": "Levantar una plataforma",
+      "C": "Usar la colina"
+    }
+  }
+}

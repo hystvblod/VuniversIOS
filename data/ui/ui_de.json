@@ -167,13 +167,7 @@
     "settings_licenses_label": "Lizenzen",
     "settings_open_licenses_aria": "Lizenzen öffnen",
     "faq_q14": "Gibt es Geheimnisse in der App?",
-    "faq_a14": "Manchmal reagieren manche Stellen auf ziemlich absurde Ideen. Zum Beispiel, wenn man ladybugcometome in das Namensfeld eingibt... oder baudelaire, ohne überhaupt vom Lieblingsdichter zu sprechen.",
-    "update": {
-      "title": "Update verfügbar",
-      "body": "Eine neue Version der App ist verfügbar.",
-      "later": "Später",
-      "now": "Aktualisieren"
-    }
+    "faq_a14": "Manchmal reagieren manche Stellen auf ziemlich absurde Ideen. Zum Beispiel, wenn man ladybugcometome in das Namensfeld eingibt... oder baudelaire, ohne überhaupt vom Lieblingsdichter zu sprechen."
   },
   "gauges": {
     "hell_king": {
@@ -416,7 +410,7 @@
     "loading": "Lädt...",
     "unavailable": "Nicht verfügbar",
     "reward_jeton_x1": "x1",
-    "reward_vcoins_x300": "x300",
+    "reward_vcoins_x100": "x100",
     "pack_jetons_12": "12",
     "pack_jetons_30": "30",
     "pack_vcoins_100": "100",
@@ -823,5 +817,11 @@
       "gold": "Kommandant",
       "crystal": "Vertreter der Krone"
     }
+  },
+  "update": {
+    "title": "Update verfügbar",
+    "body": "Eine neue Version der App ist verfügbar.",
+    "later": "Später",
+    "now": "Aktualisieren"
   }
 }

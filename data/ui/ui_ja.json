@@ -166,13 +166,7 @@
     "settings_licenses_label": "ライセンス",
     "settings_open_licenses_aria": "ライセンスを開く",
     "faq_q14": "このアプリに秘密はあるの？",
-    "faq_a14": "ときどき、ちょっと変わった発想に反応する場所があります。たとえば名前欄に ladybugcometome と入力したり……あるいは baudelaire と入れてみたり。お気に入りの詩人の話をしなくても、です。",
-    "update": {
-      "title": "アップデートがあります",
-      "body": "アプリの新しいバージョンが利用できます。",
-      "later": "あとで",
-      "now": "アップデート"
-    }
+    "faq_a14": "ときどき、ちょっと変わった発想に反応する場所があります。たとえば名前欄に ladybugcometome と入力したり……あるいは baudelaire と入れてみたり。お気に入りの詩人の話をしなくても、です。"
   },
   "gauges": {
     "hell_king": {
@@ -415,7 +409,7 @@
     "loading": "読み込み中...",
     "unavailable": "利用不可",
     "reward_jeton_x1": "x1",
-    "reward_vcoins_x300": "x300",
+    "reward_vcoins_x100": "x100",
     "pack_jetons_12": "12",
     "pack_jetons_30": "30",
     "pack_vcoins_100": "100",
@@ -814,5 +808,11 @@
       "gold": "司令官",
       "crystal": "王冠の代理人"
     }
+  },
+  "update": {
+    "title": "アップデートがあります",
+    "body": "アプリの新しいバージョンが利用できます。",
+    "later": "あとで",
+    "now": "アップデート"
   }
 }

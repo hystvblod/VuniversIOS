@@ -166,13 +166,7 @@
     "settings_licenses_label": "Licences",
     "settings_open_licenses_aria": "Ouvrir les licences",
     "faq_q14": "Il existe des secrets dans l’app ?",
-    "faq_a14": "Parfois, certains endroits réagissent à des idées un peu absurdes. Comme taper ladybugcometome dans la barre de pseudo... ou baudelaire, sans même parler de son poète préféré.",
-    "update": {
-      "title": "Mise à jour disponible",
-      "body": "Une nouvelle version de l’application est disponible.",
-      "later": "Plus tard",
-      "now": "Mettre à jour"
-    }
+    "faq_a14": "Parfois, certains endroits réagissent à des idées un peu absurdes. Comme taper ladybugcometome dans la barre de pseudo... ou baudelaire, sans même parler de son poète préféré."
   },
   "gauges": {
     "hell_king": {
@@ -222,7 +216,7 @@
       "undo_done": "Retour -3 effectué",
       "gauge_set_50": "Jauge remise à 50%",
       "peek_on": "Peek activé : 15 prochaines décisions",
-      "no_tokens_offer": "Tu n’as plus de jeton. Regarde une pub pour en gagner 1 ou ouvre la boutique.",
+      "no_tokens_offer": "Tu n'as plus de jeton. Regarde une pub pour en gagner 1 ou ouvre la boutique.",
       "gauge_warning": "Attention, une jauge est presque au seuil. Utilise un jeton si besoin."
     },
     "undo": {
@@ -416,7 +410,7 @@
     "loading": "Chargement...",
     "unavailable": "Indisponible",
     "reward_jeton_x1": "x1",
-    "reward_vcoins_x300": "x300",
+    "reward_vcoins_x100": "x100",
     "pack_jetons_12": "12",
     "pack_jetons_30": "30",
     "pack_vcoins_100": "100",
@@ -823,5 +817,11 @@
       "gold": "Commandant",
       "crystal": "Représentant de la Couronne"
     }
+  },
+  "update": {
+    "title": "Mise à jour disponible",
+    "body": "Une nouvelle version de l’application est disponible.",
+    "later": "Plus tard",
+    "now": "Mettre à jour"
   }
 }

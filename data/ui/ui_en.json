@@ -167,13 +167,7 @@
     "settings_licenses_label": "Licenses",
     "settings_open_licenses_aria": "Open licenses",
     "faq_q14": "Are there secrets in the app?",
-    "faq_a14": "Sometimes, certain places react to slightly absurd ideas. Like typing ladybugcometome in the username field... or baudelaire, without even mentioning someone's favorite poet.",
-    "update": {
-      "title": "Update available",
-      "body": "A new version of the app is available.",
-      "later": "Later",
-      "now": "Update"
-    }
+    "faq_a14": "Sometimes, certain places react to slightly absurd ideas. Like typing ladybugcometome in the username field... or baudelaire, without even mentioning someone's favorite poet."
   },
   "gauges": {
     "hell_king": {
@@ -416,7 +410,7 @@
     "loading": "Loading...",
     "unavailable": "Unavailable",
     "reward_jeton_x1": "x1",
-    "reward_vcoins_x300": "x300",
+    "reward_vcoins_x100": "x100",
     "pack_jetons_12": "12",
     "pack_jetons_30": "30",
     "pack_vcoins_100": "100",
@@ -823,5 +817,11 @@
       "gold": "Commander",
       "crystal": "Representative of the Crown"
     }
+  },
+  "update": {
+    "title": "Update available",
+    "body": "A new version of the app is available.",
+    "later": "Later",
+    "now": "Update"
   }
 }
