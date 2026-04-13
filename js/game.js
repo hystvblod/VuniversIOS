@@ -5106,17 +5106,14 @@ function resetUIState() {
 
     const rect = btn.getBoundingClientRect();
 
-    const size = Math.max(100, Math.min(165, Math.round(rect.height * 1.7)));
+    const size = Math.max(100, Math.min(165, Math.round(rect.height * 1.65)));
+
+    const anchorX = rect.left + (rect.width * 0.20);
+    const anchorY = rect.top + (rect.height * 0.72);
 
     hand.style.width = `${size}px`;
-
-    hand.style.left = `${Math.round(
-      window.scrollX + rect.left + (rect.width * 0.22) - (size * 0.30)
-    )}px`;
-
-    hand.style.top = `${Math.round(
-      window.scrollY + rect.top + (rect.height * 0.50) - (size * 0.42)
-    )}px`;
+    hand.style.left = `${Math.round(window.scrollX + anchorX - (size * 0.22))}px`;
+    hand.style.top = `${Math.round(window.scrollY + anchorY - (size * 0.36))}px`;
   }
 
   function clearIntroTimers() {
@@ -5195,13 +5192,27 @@ function resetUIState() {
     hideGaugeHint();
 
     const btn = getChoiceButton("A");
+    const hand = ensureIntroHand();
+
     if (btn) {
-      btn.classList.remove("vr-intro-pulse", "vr-intro-dim", "vr-intro-hide");
-      btn.classList.add("vr-intro-tilt");
+      btn.classList.remove("vr-intro-pulse", "vr-intro-dim", "vr-intro-hide", "vr-intro-tilt");
+      void btn.offsetWidth;
     }
 
-    showIntroHandOnChoiceSwipe("A");
-    showSwipeHint("Swipe");
+    if (hand) {
+      hand.classList.remove("is-visible", "is-choice-swipe");
+      hand.style.display = "none";
+      void hand.offsetWidth;
+    }
+
+    requestAnimationFrame(() => {
+      if (btn) {
+        btn.classList.add("vr-intro-tilt");
+      }
+
+      showIntroHandOnChoiceSwipe("A");
+      showSwipeHint("Swipe");
+    });
   }
 
   function showIntroHandOnJeton() {
