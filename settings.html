@@ -166,10 +166,11 @@
     .vr-langBtn{
       width:100%;
       display:flex;
+      flex-direction:column;
       align-items:center;
-      justify-content:center;
-      gap:0;
-      padding:10px 6px;
+      justify-content:flex-start;
+      gap:7px;
+      padding:10px 4px 8px;
       border-radius:14px;
       border:0 !important;
       background:transparent !important;
@@ -210,29 +211,16 @@
     }
 
     .vr-langText{
-      display:flex !important;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      min-height:32px;
-      font-size:clamp(10px,2.5vw,12px);
+      display:block !important;
+      width:100%;
+      min-height:24px;
+      font-size:10px;
       font-weight:800;
-      line-height:1.1;
+      line-height:1.15;
       color:rgba(255,255,255,.96);
       text-align:center;
+      white-space:normal;
       word-break:break-word;
-    }
-
-    .vr-langText > div:first-child{
-      font-size:12px;
-      font-weight:900;
-      letter-spacing:.3px;
-    }
-
-    .vr-langText > div:last-child{
-      font-size:10px;
-      font-weight:700;
-      opacity:.92;
     }
 
     /* ===== SECTIONS ===== */
@@ -769,21 +757,14 @@
 
         const txt = document.createElement("div");
         txt.className = "vr-langText";
-
-        const code = document.createElement("div");
-        code.textContent = L.ui;
-
-        const name = document.createElement("div");
-        name.textContent = t(L.nameKey) || L.ui;
-
-        txt.appendChild(code);
-        txt.appendChild(name);
+        txt.textContent = t(L.nameKey) || L.ui;
 
         btn.appendChild(flag);
         btn.appendChild(txt);
 
+        const langName = t(L.nameKey) || L.ui;
         const ariaTpl = t("ui.settings_choose_lang_aria");
-        btn.setAttribute("aria-label", ariaTpl ? ariaTpl.replace("{code}", L.ui) : L.ui);
+        btn.setAttribute("aria-label", ariaTpl ? ariaTpl.replace("{code}", langName) : langName);
 
         btn.addEventListener("click", () => setLanguage(L.code, { showMsg:true }));
         grid.appendChild(btn);
