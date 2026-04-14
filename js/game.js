@@ -949,6 +949,12 @@ body.vr-peek-mode .vr-gauge-preview{
       this._resetChoiceCards();
       this._clearPeek();
       this.updateGauges();
+
+      try {
+        const activeFx = window.VREngine?._getActiveCardFx?.() || {};
+        window.VRCardFx?.applyEffects?.(activeFx);
+      } catch (_) {}
+
       try { window.VRIntroTutorial?.onCardShown?.(cardLogic); } catch (_) {}
     },
 
@@ -2832,7 +2838,8 @@ body.vr-peek-mode .vr-gauge-preview{
       .map((row) => ({
         id: row.id,
         remainingCards: Math.max(0, asInt(row.remainingCards, 0)),
-        perCardDelta: (row.perCardDelta && typeof row.perCardDelta === "object") ? clone(row.perCardDelta) : {}
+        perCardDelta: (row.perCardDelta && typeof row.perCardDelta === "object") ? clone(row.perCardDelta) : {},
+        uiEffects: (row.uiEffects && typeof row.uiEffects === "object") ? clone(row.uiEffects) : {}
       }))
       .filter((row) => row.remainingCards > 0);
 
@@ -2881,6 +2888,12 @@ body.vr-peek-mode .vr-gauge-preview{
     return {};
   }
 
+  function getUiEffects(ev) {
+    const fx = ev?.effects?.ui_effects || ev?.ui_effects;
+    if (fx && typeof fx === "object" && !Array.isArray(fx)) return clone(fx);
+    return {};
+  }
+
   function getEventDuration(ev) {
     return Math.max(0, asInt(ev?.duration_cards, ev?.duration || 0));
   }
@@ -2902,7 +2915,8 @@ body.vr-peek-mode .vr-gauge-preview{
         next.push({
           id: row.id,
           remainingCards: remaining,
-          perCardDelta: clone(delta)
+          perCardDelta: clone(delta),
+          uiEffects: (row.uiEffects && typeof row.uiEffects === "object") ? clone(row.uiEffects) : {}
         });
       }
     });
@@ -3091,6 +3105,27 @@ body.vr-peek-mode .vr-gauge-preview{
     return id;
   };
 
+  engine._getActiveCardFx = function () {
+    ensureEventState(this);
+
+    const merged = {
+      reverse_message: false,
+      reverse_choices: false,
+      hide_vowels_message: false,
+      hide_vowels_choices: false
+    };
+
+    (this._activeEvents || []).forEach((row) => {
+      const fx = (row?.uiEffects && typeof row.uiEffects === "object") ? row.uiEffects : {};
+      if (fx.reverse_message) merged.reverse_message = true;
+      if (fx.reverse_choices) merged.reverse_choices = true;
+      if (fx.hide_vowels_message) merged.hide_vowels_message = true;
+      if (fx.hide_vowels_choices) merged.hide_vowels_choices = true;
+    });
+
+    return merged;
+  };
+
   engine._triggerRandomEvent = async function () {
     ensureEventState(this);
     if (this._eventShowing) return false;
@@ -3109,12 +3144,14 @@ body.vr-peek-mode .vr-gauge-preview{
       }
 
       const perCardDelta = getPerCardDelta(ev);
+      const uiEffects = getUiEffects(ev);
       const durationCards = getEventDuration(ev);
-      if (Object.keys(perCardDelta).length && durationCards > 0) {
+      if ((Object.keys(perCardDelta).length || Object.keys(uiEffects).length) && durationCards > 0) {
         this._activeEvents.push({
           id,
           remainingCards: durationCards,
-          perCardDelta: clone(perCardDelta)
+          perCardDelta: clone(perCardDelta),
+          uiEffects: clone(uiEffects)
         });
       }
 
@@ -3559,6 +3596,18 @@ body.vr-peek-mode .vr-gauge-preview{
         const current = Number(window.VRState?.getGaugeValue?.(gaugeId) ?? 50);
         const next = clamp(current * Number(factor || 1), 0, 100);
         try { window.VRState?.setGaugeValue?.(gaugeId, next); } catch (_) {}
+      });
+    }
+
+    if (outcome.ui_effects && typeof outcome.ui_effects === "object") {
+      const duration = Math.max(1, asInt(outcome.ui_effects_duration, 12));
+      if (!Array.isArray(this._activeEvents)) this._activeEvents = [];
+
+      this._activeEvents.push({
+        id: `major_ui_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
+        remainingCards: duration,
+        perCardDelta: {},
+        uiEffects: clone(outcome.ui_effects)
       });
     }
 
@@ -7780,6 +7829,97 @@ window.addEventListener("resize", () => {
   try { window.VRGuideMentor?.refresh?.(); } catch (_) {}
 });
 
+
+window.VRCardFx = {
+  _reverseLettersOnly(str) {
+    return [...String(str || "")].reverse().join("");
+  },
+
+  _hideVowels(str) {
+    return String(str || "").replace(
+      /[aeiouyàâäéèêëîïôöùûüÿAEIOUYÀÂÄÉÈÊËÎÏÔÖÙÛÜŸ]/g,
+      "\u200B"
+    );
+  },
+
+  _readOriginal(el) {
+    if (!el) return "";
+    if (el.dataset.vrFxOriginalHtml === undefined) {
+      el.dataset.vrFxOriginalHtml = el.innerHTML;
+    }
+    if (el.dataset.vrFxOriginalText === undefined) {
+      el.dataset.vrFxOriginalText = el.textContent;
+    }
+    return el.dataset.vrFxOriginalText || "";
+  },
+
+  _resetOne(el) {
+    if (!el) return;
+    if (el.dataset.vrFxOriginalHtml !== undefined) {
+      el.innerHTML = el.dataset.vrFxOriginalHtml;
+    } else if (el.dataset.vrFxOriginalText !== undefined) {
+      el.textContent = el.dataset.vrFxOriginalText;
+    }
+    el.style.direction = "";
+    el.style.unicodeBidi = "";
+    el.style.textAlign = "";
+    el.style.wordBreak = "";
+    el.style.letterSpacing = "";
+  },
+
+  resetCardFx() {
+    [
+      document.getElementById("card-title"),
+      document.getElementById("card-text"),
+      document.getElementById("choice-A"),
+      document.getElementById("choice-B"),
+      document.getElementById("choice-C")
+    ].forEach((el) => this._resetOne(el));
+  },
+
+  applyEffects(effects) {
+    const fx = (effects && typeof effects === "object") ? effects : {};
+    this.resetCardFx();
+
+    const titleEl = document.getElementById("card-title");
+    const bodyEl = document.getElementById("card-text");
+    const choiceAEl = document.getElementById("choice-A");
+    const choiceBEl = document.getElementById("choice-B");
+    const choiceCEl = document.getElementById("choice-C");
+    const choiceEls = [choiceAEl, choiceBEl, choiceCEl].filter(Boolean);
+
+    const reverseMessage = !!fx.reverse_message;
+    const reverseChoices = !!fx.reverse_choices;
+    const hideVowelsMessage = !!fx.hide_vowels_message;
+    const hideVowelsChoices = !!fx.hide_vowels_choices;
+
+    if (reverseMessage || hideVowelsMessage) {
+      [titleEl, bodyEl].filter(Boolean).forEach((el) => {
+        let text = this._readOriginal(el);
+        if (reverseMessage) text = this._reverseLettersOnly(text);
+        if (hideVowelsMessage) text = this._hideVowels(text);
+        el.textContent = text;
+        el.style.direction = "ltr";
+        el.style.unicodeBidi = "normal";
+        el.style.textAlign = "right";
+        el.style.wordBreak = "break-word";
+      });
+    }
+
+    if (reverseChoices || hideVowelsChoices) {
+      choiceEls.forEach((el) => {
+        let text = this._readOriginal(el);
+        if (reverseChoices) text = this._reverseLettersOnly(text);
+        if (hideVowelsChoices) text = this._hideVowels(text);
+        el.textContent = text;
+        el.style.direction = "ltr";
+        el.style.unicodeBidi = "normal";
+        el.style.textAlign = "right";
+        el.style.wordBreak = "break-word";
+      });
+    }
+  }
+};
 
 window.VRGame = {
   currentUniverse: null,

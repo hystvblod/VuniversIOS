@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "hell_king_ev_001": {
@@ -37,7 +37,6 @@
       "effect": "Keteraturan : +5 per kartu",
       "duration": "Durasi : 4 kartu"
     },
-
     "hell_king_ev_007": {
       "title": "Perjanjian Menguntungkan",
       "body": "Sebuah perjanjian membawa banyak keuntungan. Tapi semua orang ingin bagiannya.",
@@ -62,7 +61,6 @@
       "effect": "Legiun : +5 per kartu",
       "duration": "Durasi : 6 kartu"
     },
-
     "hell_king_ev_011": {
       "title": "Bonus Panen",
       "body": "Panen jiwa yang tak terduga. Tentu saja kamu ambil.",
@@ -123,7 +121,6 @@
       "effect": "Jiwa : -5 per kartu",
       "duration": "Durasi : 6 kartu"
     },
-
     "hell_king_ev_021": {
       "title": "Aturan Hari Ini",
       "body": "Aturan baru. Tidak ada yang menyukainya, jadi itu berhasil.",
@@ -139,50 +136,50 @@
     "hell_king_ev_023": {
       "title": "Tawaran Menggiurkan",
       "body": "Sebuah tawaran brilian. Kamu tahu ada sesuatu yang disembunyikan. Tapi tetap kamu ambil.",
-      "effect": "Jiwa : +5 per kartu",
-      "duration": "Durasi : 4 kartu"
+      "effect": "Efek: pesan kartu muncul tanpa huruf vokal",
+      "duration": "Durasi: 5 kartu"
     },
     "hell_king_ev_024": {
       "title": "Negosiasi Kilat",
       "body": "Satu jabat tangan, tiga tanda tangan, lalu semua beralih ke hal lain.",
-      "effect": "Keteraturan : -5 per kartu",
-      "duration": "Durasi : 6 kartu"
+      "effect": "Efek: pesan kartu muncul tanpa huruf vokal",
+      "duration": "Durasi: 5 kartu"
     },
     "hell_king_ev_025": {
       "title": "Mutasi Mendadak",
       "body": "Unit-unit dipindahkan. Itu mengatur ulang segalanya, termasuk suasana hati.",
-      "effect": "Legiun : -5 per kartu",
-      "duration": "Durasi : 3 kartu"
+      "effect": "Efek: pilihan muncul tanpa huruf vokal",
+      "duration": "Durasi: 5 kartu"
     },
     "hell_king_ev_026": {
       "title": "Berita Acara",
       "body": "Sebuah laporan resmi jatuh. Tidak ada yang tertawa.",
-      "effect": "Keteraturan : +5 per kartu",
-      "duration": "Durasi : 5 kartu"
+      "effect": "Efek: pilihan muncul tanpa huruf vokal",
+      "duration": "Durasi: 5 kartu"
     },
     "hell_king_ev_027": {
       "title": "Hadiah Ritual",
       "body": "Yang setia diberi hadiah. Yang lain memandang dengan sinis.",
-      "effect": "Jiwa : +5 per kartu",
-      "duration": "Durasi : 4 kartu"
+      "effect": "Efek: pesan kartu muncul terbalik",
+      "duration": "Durasi: 5 kartu"
     },
     "hell_king_ev_028": {
       "title": "Panik di Permukaan",
       "body": "Di atas sana, semua panik. Di bawah, kamulah yang menanggungnya.",
-      "effect": "Permukaan : -5 per kartu",
-      "duration": "Durasi : 6 kartu"
+      "effect": "Efek: pesan kartu muncul terbalik",
+      "duration": "Durasi: 5 kartu"
     },
     "hell_king_ev_029": {
       "title": "Uji Kekuatan",
       "body": "Tes kecil. Ego besar. Hasilnya... campur aduk.",
-      "effect": "Legiun : -5 per kartu",
-      "duration": "Durasi : 3 kartu"
+      "effect": "Efek: pilihan muncul terbalik",
+      "duration": "Durasi: 5 kartu"
     },
     "hell_king_ev_030": {
       "title": "Catatan Internal",
       "body": "Sebuah catatan beredar. Pada akhirnya, itu selalu sampai ke meja yang salah.",
-      "effect": "Keteraturan : +5 per kartu",
-      "duration": "Durasi : 7 kartu"
+      "effect": "Efek: pilihan muncul terbalik",
+      "duration": "Durasi: 5 kartu"
     }
   }
 }

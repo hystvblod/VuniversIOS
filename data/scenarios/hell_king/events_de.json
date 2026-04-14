@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "hell_king_ev_001": {
@@ -136,50 +136,50 @@
     "hell_king_ev_023": {
       "title": "Verlockendes Angebot",
       "body": "Ein glänzendes Angebot. Du weißt, dass ein Haken daran ist. Du nimmst es trotzdem.",
-      "effect": "Seelen: +5 pro Karte",
-      "duration": "Dauer: 4 Karten"
+      "effect": "Effekt: Der Kartentext erscheint ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "hell_king_ev_024": {
       "title": "Schnellverhandlung",
       "body": "Ein Händedruck, drei Unterschriften, und weiter geht's.",
-      "effect": "Ordnung: -5 pro Karte",
-      "duration": "Dauer: 6 Karten"
+      "effect": "Effekt: Der Kartentext erscheint ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "hell_king_ev_025": {
       "title": "Überraschende Versetzung",
       "body": "Einheiten werden verlegt. Das ordnet alles neu, auch die Stimmungen.",
-      "effect": "Legionen: -5 pro Karte",
-      "duration": "Dauer: 3 Karten"
+      "effect": "Effekt: Die Antworten erscheinen ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "hell_king_ev_026": {
       "title": "Protokollvermerk",
       "body": "Ein Vermerk flattert herein. Niemand findet das lustig.",
-      "effect": "Ordnung: +5 pro Karte",
+      "effect": "Effekt: Die Antworten erscheinen ohne Vokale",
       "duration": "Dauer: 5 Karten"
     },
     "hell_king_ev_027": {
       "title": "Rituelle Belohnung",
       "body": "Die Loyalen werden belohnt. Die anderen schauen schief.",
-      "effect": "Seelen: +5 pro Karte",
-      "duration": "Dauer: 4 Karten"
+      "effect": "Effekt: Der Kartentext wird rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "hell_king_ev_028": {
       "title": "Panik an der Oberfläche",
       "body": "Dort oben gerät alles in Aufruhr. Hier unten kassierst du.",
-      "effect": "Oberfläche: -5 pro Karte",
-      "duration": "Dauer: 6 Karten"
+      "effect": "Effekt: Der Kartentext wird rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "hell_king_ev_029": {
       "title": "Kraftprobe",
       "body": "Kleiner Test. Große Egos. Ergebnis... gemischt.",
-      "effect": "Legionen: -5 pro Karte",
-      "duration": "Dauer: 3 Karten"
+      "effect": "Effekt: Die Antworten werden rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "hell_king_ev_030": {
       "title": "Interne Notiz",
       "body": "Eine Notiz macht die Runde. Sie landet immer im falschen Büro.",
-      "effect": "Ordnung: +5 pro Karte",
-      "duration": "Dauer: 7 Karten"
+      "effect": "Effekt: Die Antworten werden rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     }
   }
 }

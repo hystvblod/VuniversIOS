@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "hell_king_ev_001": {
@@ -136,50 +136,50 @@
     "hell_king_ev_023": {
       "title": "Tempting Offer",
       "body": "A brilliant offer. You know there's a catch. You take it anyway.",
-      "effect": "Souls: +5 per card",
-      "duration": "Duration: 4 cards"
+      "effect": "Effect: the card message appears without vowels",
+      "duration": "Duration: 5 cards"
     },
     "hell_king_ev_024": {
       "title": "Fast Negotiation",
       "body": "A handshake, three signatures, and on to the next thing.",
-      "effect": "Order: -5 per card",
-      "duration": "Duration: 6 cards"
+      "effect": "Effect: the card message appears without vowels",
+      "duration": "Duration: 5 cards"
     },
     "hell_king_ev_025": {
       "title": "Surprise Transfer",
       "body": "Units are moved around. It reorganizes everything, including tempers.",
-      "effect": "Legions: -5 per card",
-      "duration": "Duration: 3 cards"
+      "effect": "Effect: the choices appear without vowels",
+      "duration": "Duration: 5 cards"
     },
     "hell_king_ev_026": {
       "title": "Citation",
       "body": "A write-up lands on the desk. Nobody laughs.",
-      "effect": "Order: +5 per card",
+      "effect": "Effect: the choices appear without vowels",
       "duration": "Duration: 5 cards"
     },
     "hell_king_ev_027": {
       "title": "Ritual Reward",
       "body": "The loyal are rewarded. The others glare.",
-      "effect": "Souls: +5 per card",
-      "duration": "Duration: 4 cards"
+      "effect": "Effect: the card message appears reversed",
+      "duration": "Duration: 5 cards"
     },
     "hell_king_ev_028": {
       "title": "Surface Panic",
       "body": "Up above, panic spreads. Down below, you cash in.",
-      "effect": "Surface: -5 per card",
-      "duration": "Duration: 6 cards"
+      "effect": "Effect: the card message appears reversed",
+      "duration": "Duration: 5 cards"
     },
     "hell_king_ev_029": {
       "title": "Test of Strength",
       "body": "Small test. Big egos. Result... mixed.",
-      "effect": "Legions: -5 per card",
-      "duration": "Duration: 3 cards"
+      "effect": "Effect: the choices appear reversed",
+      "duration": "Duration: 5 cards"
     },
     "hell_king_ev_030": {
       "title": "Internal Memo",
       "body": "A memo circulates. It always ends up on the wrong desk.",
-      "effect": "Order: +5 per card",
-      "duration": "Duration: 7 cards"
+      "effect": "Effect: the choices appear reversed",
+      "duration": "Duration: 5 cards"
     }
   }
 }

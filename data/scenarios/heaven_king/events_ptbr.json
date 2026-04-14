@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "heaven_king_ev_001": {
@@ -136,50 +136,50 @@
     "heaven_king_ev_023": {
       "title": "Mãos Juntas",
       "body": "Os apelos sinceros sobem com calor. É simples, humilde e muito eficaz.",
-      "effect": "Orações: +5 por carta",
-      "duration": "Duração: 4 cartas"
+      "effect": "Efeito: a mensagem da carta aparece sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "heaven_king_ev_024": {
       "title": "Onda de Autonomia",
       "body": "Os mortais querem decidir sozinhos. O céu fica entre a admiração e um pequeno tique nervoso.",
-      "effect": "Livre-arbítrio: -5 por carta",
-      "duration": "Duração: 6 cartas"
+      "effect": "Efeito: a mensagem da carta aparece sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "heaven_king_ev_025": {
       "title": "Templo Meio Vazio",
       "body": "Os locais de culto estão ficando um pouco mais vazios. Não é grave, mas a queda é visível.",
-      "effect": "Culto: -5 por carta",
-      "duration": "Duração: 3 cartas"
+      "effect": "Efeito: as escolhas aparecem sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "heaven_king_ev_026": {
       "title": "Grande Despertar Interior",
       "body": "As consciências se iluminam, as decisões se endireitam, e o destino precisa dividir o palco.",
-      "effect": "Livre-arbítrio: +5 por carta",
+      "effect": "Efeito: as escolhas aparecem sem vogais",
       "duration": "Duração: 5 cartas"
     },
     "heaven_king_ev_027": {
       "title": "Coro de Corações Sinceros",
       "body": "As orações sobem sem cenário, sem pose, só verdadeiras. O céu adora quando tudo é sóbrio.",
-      "effect": "Orações: +5 por carta",
-      "duration": "Duração: 4 cartas"
+      "effect": "Efeito: a mensagem da carta aparece invertida",
+      "duration": "Duração: 5 cartas"
     },
     "heaven_king_ev_028": {
       "title": "Pausa Celestial",
       "body": "As intervenções ficam mais raras por um tempo. O céu escolhe dar mais autonomia.",
-      "effect": "Intervenção: -5 por carta",
-      "duration": "Duração: 6 cartas"
+      "effect": "Efeito: a mensagem da carta aparece invertida",
+      "duration": "Duração: 5 cartas"
     },
     "heaven_king_ev_029": {
       "title": "Rito Um Pouco Longo Demais",
       "body": "O culto se prolonga demais e a atenção diminui.",
-      "effect": "Culto: -5 por carta",
-      "duration": "Duração: 3 cartas"
+      "effect": "Efeito: as escolhas aparecem invertidas",
+      "duration": "Duração: 5 cartas"
     },
     "heaven_king_ev_030": {
       "title": "Impulso Livre",
       "body": "O mundo segue em frente sozinho de forma impressionante. Para o céu, isso é ao mesmo tempo bonito e frustrante.",
-      "effect": "Livre-arbítrio: +5 por carta",
-      "duration": "Duração: 7 cartas"
+      "effect": "Efeito: as escolhas aparecem invertidas",
+      "duration": "Duração: 5 cartas"
     }
   }
 }

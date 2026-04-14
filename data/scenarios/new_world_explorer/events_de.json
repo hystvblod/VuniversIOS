@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "new_world_explorer_ev_001": {
@@ -136,50 +136,50 @@
     "new_world_explorer_ev_023": {
       "title": "Gesicherte Bucht",
       "body": "Die Bucht ist besser gehalten, besser überwacht und viel leichter zu beanspruchen.",
-      "effect": "Gebiete: +5 pro Karte",
-      "duration": "Dauer: 4 Karten"
+      "effect": "Effekt: Der Kartentext erscheint ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "new_world_explorer_ev_024": {
       "title": "Beleidigter Tempel",
       "body": "Ein heiliger Ort wird aus Ungeschick oder Stolz gestört. Die Türen schließen sich sofort.",
-      "effect": "Bekehrte Bevölkerung: -5 pro Karte",
-      "duration": "Dauer: 6 Karten"
+      "effect": "Effekt: Der Kartentext erscheint ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "new_world_explorer_ev_025": {
       "title": "Feuchtes Lagerhaus",
       "body": "Die Feuchtigkeit dringt in die Vorräte ein. Ein Teil des Bestands verliert seinen Wert, noch bevor er verkauft wird.",
-      "effect": "Reichtümer: -5 pro Karte",
-      "duration": "Dauer: 3 Karten"
+      "effect": "Effekt: Die Antworten erscheinen ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "new_world_explorer_ev_026": {
       "title": "Fest der Mission",
       "body": "Ein großes religiöses Fest versammelt den Hafen und mehrere Dörfer. Der Moment ist gut gewählt und gut geführt.",
-      "effect": "Bekehrte Bevölkerung: +5 pro Karte",
+      "effect": "Effekt: Die Antworten erscheinen ohne Vokale",
       "duration": "Dauer: 5 Karten"
     },
     "new_world_explorer_ev_027": {
       "title": "Ufervertrag",
       "body": "Eine einfache Vereinbarung legt endlich fest, wer was an der Küste behält. Das ist weniger ruhmreich als eine Flagge, aber viel solider.",
-      "effect": "Gebiete: +5 pro Karte",
-      "duration": "Dauer: 4 Karten"
+      "effect": "Effekt: Der Kartentext wird rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "new_world_explorer_ev_028": {
       "title": "Unzufriedener Gesandter",
       "body": "Ein königlicher Gesandter reist mit verschlossener Miene und einem gut gefüllten Notizbuch ab. Nichts Gutes überquert so gern das Meer.",
-      "effect": "Königliche Unterstützung: -5 pro Karte",
-      "duration": "Dauer: 6 Karten"
+      "effect": "Effekt: Der Kartentext wird rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "new_world_explorer_ev_029": {
       "title": "Enttäuschende Mine",
       "body": "Die Mine, die man für rentabel hielt, verursacht vor allem Verluste und Erschöpfung.",
-      "effect": "Reichtümer: -5 pro Karte",
-      "duration": "Dauer: 3 Karten"
+      "effect": "Effekt: Die Antworten werden rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "new_world_explorer_ev_030": {
       "title": "Woche der Taufen",
       "body": "Die Mission erlebt eine sehr gut besuchte Woche. Selbst die Vorsichtigsten kommen, um genauer hinzusehen.",
-      "effect": "Bekehrte Bevölkerung: +5 pro Karte",
-      "duration": "Dauer: 7 Karten"
+      "effect": "Effekt: Die Antworten werden rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     }
   }
 }

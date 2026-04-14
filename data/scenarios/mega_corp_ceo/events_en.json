@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "mega_corp_ceo_ev_001": {
@@ -136,50 +136,50 @@
     "mega_corp_ceo_ev_023": {
       "title": "Target Exceeded",
       "body": "A key indicator beats expectations. Investors love it when numbers do the work for you.",
-      "effect": "Investors: +5 per card",
-      "duration": "Duration: 4 cards"
+      "effect": "Effect: the card message appears without vowels",
+      "duration": "Duration: 5 cards"
     },
     "mega_corp_ceo_ev_024": {
       "title": "Ambiguous Clause",
       "body": "An old clause suddenly draws fresh attention. Lawyers start frowning one after another.",
-      "effect": "Regulators: -5 per card",
-      "duration": "Duration: 6 cards"
+      "effect": "Effect: the card message appears without vowels",
+      "duration": "Duration: 5 cards"
     },
     "mega_corp_ceo_ev_025": {
       "title": "Brutal Reorganization",
       "body": "The new org chart moves fast. So do the employees, but mostly toward the exit.",
-      "effect": "Employees: -5 per card",
-      "duration": "Duration: 3 cards"
+      "effect": "Effect: the choices appear without vowels",
+      "duration": "Duration: 5 cards"
     },
     "mega_corp_ceo_ev_026": {
       "title": "Certification Obtained",
       "body": "An important certification finally comes through. It is official, stamped, and very convenient to show everywhere.",
-      "effect": "Regulators: +5 per card",
+      "effect": "Effect: the choices appear without vowels",
       "duration": "Duration: 5 cards"
     },
     "mega_corp_ceo_ev_027": {
       "title": "Applauded Dividend",
       "body": "The announced payout calms quite a few nerves. The market's love stays self-interested, but it comes back fast.",
-      "effect": "Investors: +5 per card",
-      "duration": "Duration: 4 cards"
+      "effect": "Effect: the card message appears reversed",
+      "duration": "Duration: 5 cards"
     },
     "mega_corp_ceo_ev_028": {
       "title": "Unfortunate Photo",
       "body": "An image taken at the wrong moment goes viral. The internet turns it into a joke.",
-      "effect": "Brand Image: -5 per card",
-      "duration": "Duration: 6 cards"
+      "effect": "Effect: the card message appears reversed",
+      "duration": "Duration: 5 cards"
     },
     "mega_corp_ceo_ev_029": {
       "title": "Too Many Meetings",
       "body": "Schedules overflow and teams hit saturation. Nobody knows when the real work is supposed to start anymore.",
-      "effect": "Employees: -5 per card",
-      "duration": "Duration: 3 cards"
+      "effect": "Effect: the choices appear reversed",
+      "duration": "Duration: 5 cards"
     },
     "mega_corp_ceo_ev_030": {
       "title": "Regulatory Red Carpet",
       "body": "Authorities cite your group as an example. That is rare, so it pays off greatly in credibility.",
-      "effect": "Regulators: +5 per card",
-      "duration": "Duration: 7 cards"
+      "effect": "Effect: the choices appear reversed",
+      "duration": "Duration: 5 cards"
     }
   }
 }

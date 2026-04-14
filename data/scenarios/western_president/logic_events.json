@@ -94,7 +94,6 @@
         }
       }
     },
-
     {
       "id": "west_president_ev_011",
       "duration_cards": 3,
@@ -185,7 +184,6 @@
         }
       }
     },
-
     {
       "id": "west_president_ev_021",
       "duration_cards": 5,
@@ -206,28 +204,28 @@
     },
     {
       "id": "west_president_ev_023",
-      "duration_cards": 4,
+      "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "defense": -5
+        "ui_effects": {
+          "hide_vowels_message": true
         }
       }
     },
     {
       "id": "west_president_ev_024",
-      "duration_cards": 6,
+      "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "diplomacy": -5
+        "ui_effects": {
+          "hide_vowels_message": true
         }
       }
     },
     {
       "id": "west_president_ev_025",
-      "duration_cards": 3,
+      "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "opinion": 5
+        "ui_effects": {
+          "hide_vowels_choices": true
         }
       }
     },
@@ -235,44 +233,44 @@
       "id": "west_president_ev_026",
       "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "economy": 5
+        "ui_effects": {
+          "hide_vowels_choices": true
         }
       }
     },
     {
       "id": "west_president_ev_027",
-      "duration_cards": 4,
+      "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "defense": 5
+        "ui_effects": {
+          "reverse_message": true
         }
       }
     },
     {
       "id": "west_president_ev_028",
-      "duration_cards": 6,
+      "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "diplomacy": 5
+        "ui_effects": {
+          "reverse_message": true
         }
       }
     },
     {
       "id": "west_president_ev_029",
-      "duration_cards": 3,
+      "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "opinion": -5
+        "ui_effects": {
+          "reverse_choices": true
         }
       }
     },
     {
       "id": "west_president_ev_030",
-      "duration_cards": 7,
+      "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "economy": -5
+        "ui_effects": {
+          "reverse_choices": true
         }
       }
     }

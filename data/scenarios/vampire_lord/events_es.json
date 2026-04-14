@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "vampire_lord_ev_001": {
@@ -136,50 +136,50 @@
     "vampire_lord_ev_023": {
       "title": "Banco nocturno",
       "body": "Un acuerdo discreto con una red nocturna abastece las bodegas. Las reservas por fin vuelven a subir.",
-      "effect": "Sangre: +5 por carta",
-      "duration": "Duración: 4 cartas"
+      "effect": "Efecto: el mensaje de la carta aparece sin vocales",
+      "duration": "Duración: 5 cartas"
     },
     "vampire_lord_ev_024": {
       "title": "Cazadora metódica",
       "body": "Una cazadora muy seria cartografía tus hábitos. Avanza sin ruido y sin errores.",
-      "effect": "Cazadores: +5 por carta",
-      "duration": "Duración: 6 cartas"
+      "effect": "Efecto: el mensaje de la carta aparece sin vocales",
+      "duration": "Duración: 5 cartas"
     },
     "vampire_lord_ev_025": {
       "title": "Orden discutido",
       "body": "Parte del clan considera tus reglas demasiado duras. Los murmullos regresan.",
-      "effect": "Clan: -5 por carta",
-      "duration": "Duración: 3 cartas"
+      "effect": "Efecto: las opciones aparecen sin vocales",
+      "duration": "Duración: 5 cartas"
     },
     "vampire_lord_ev_026": {
       "title": "Perro distraído",
       "body": "El perro de los cazadores es llevado por otra pista. Su equipo busca en el lugar equivocado.",
-      "effect": "Cazadores: -5 por carta",
+      "effect": "Efecto: las opciones aparecen sin vocales",
       "duration": "Duración: 5 cartas"
     },
     "vampire_lord_ev_027": {
       "title": "Reserva fría",
       "body": "Las bodegas aguantan bien y el stock sigue perfecto. Una noche así casi merece una sonrisa.",
-      "effect": "Sangre: +5 por carta",
-      "duration": "Duración: 4 cartas"
+      "effect": "Efecto: el mensaje de la carta aparece al revés",
+      "duration": "Duración: 5 cartas"
     },
     "vampire_lord_ev_028": {
       "title": "Testigo nervioso",
       "body": "Un testigo humano habla demasiado rápido con demasiada gente. La discreción recibe un golpe.",
-      "effect": "Discreción: -5 por carta",
-      "duration": "Duración: 6 cartas"
+      "effect": "Efecto: el mensaje de la carta aparece al revés",
+      "duration": "Duración: 5 cartas"
     },
     "vampire_lord_ev_029": {
       "title": "Duelo aplazado",
       "body": "Un duelo de orgullo sigue envenenando el refugio. El clan se divide en lugar de cazar.",
-      "effect": "Clan: -5 por carta",
-      "duration": "Duración: 3 cartas"
+      "effect": "Efecto: las opciones aparecen al revés",
+      "duration": "Duración: 5 cartas"
     },
     "vampire_lord_ev_030": {
       "title": "Silencio de los fieles",
       "body": "Los fieles obedecen y callan. Nada se filtra, nada sobresale.",
-      "effect": "Discreción: +5 por carta",
-      "duration": "Duración: 7 cartas"
+      "effect": "Efecto: las opciones aparecen al revés",
+      "duration": "Duración: 5 cartas"
     }
   }
 }

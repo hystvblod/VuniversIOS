@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "heaven_king_ev_001": {
@@ -136,50 +136,50 @@
     "heaven_king_ev_023": {
       "title": "Folded Hands",
       "body": "Sincere calls rise warmly. It is simple, humble, and very effective.",
-      "effect": "Prayers: +5 per card",
-      "duration": "Duration: 4 cards"
+      "effect": "Effect: the card message appears without vowels",
+      "duration": "Duration: 5 cards"
     },
     "heaven_king_ev_024": {
       "title": "Wave of Autonomy",
       "body": "Mortals want to decide alone. Heaven hesitates between admiration and a small nervous twitch.",
-      "effect": "Free will: -5 per card",
-      "duration": "Duration: 6 cards"
+      "effect": "Effect: the card message appears without vowels",
+      "duration": "Duration: 5 cards"
     },
     "heaven_king_ev_025": {
       "title": "Half-Empty Temple",
       "body": "Places of worship are becoming a little emptier. It is not serious, but the decline is visible.",
-      "effect": "Worship: -5 per card",
-      "duration": "Duration: 3 cards"
+      "effect": "Effect: the choices appear without vowels",
+      "duration": "Duration: 5 cards"
     },
     "heaven_king_ev_026": {
       "title": "Great Inner Awakening",
       "body": "Consciences brighten, decisions steady themselves, and destiny has to share the stage.",
-      "effect": "Free will: +5 per card",
+      "effect": "Effect: the choices appear without vowels",
       "duration": "Duration: 5 cards"
     },
     "heaven_king_ev_027": {
       "title": "Choir of Sincere Hearts",
       "body": "Prayers rise without decoration, without posture, just true. Heaven loves it when it stays simple.",
-      "effect": "Prayers: +5 per card",
-      "duration": "Duration: 4 cards"
+      "effect": "Effect: the card message appears reversed",
+      "duration": "Duration: 5 cards"
     },
     "heaven_king_ev_028": {
       "title": "Heavenly Pause",
       "body": "Interventions become rarer for a while. Heaven chooses to leave more room for autonomy.",
-      "effect": "Intervention: -5 per card",
-      "duration": "Duration: 6 cards"
+      "effect": "Effect: the card message appears reversed",
+      "duration": "Duration: 5 cards"
     },
     "heaven_king_ev_029": {
       "title": "A Rite Slightly Too Long",
       "body": "The ceremony goes on for too long and attention begins to drop.",
-      "effect": "Worship: -5 per card",
-      "duration": "Duration: 3 cards"
+      "effect": "Effect: the choices appear reversed",
+      "duration": "Duration: 5 cards"
     },
     "heaven_king_ev_030": {
       "title": "Free Momentum",
       "body": "The world is moving forward on its own in an impressive way. For heaven, it is both beautiful and frustrating.",
-      "effect": "Free will: +5 per card",
-      "duration": "Duration: 7 cards"
+      "effect": "Effect: the choices appear reversed",
+      "duration": "Duration: 5 cards"
     }
   }
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "hell_king_ev_001": {
@@ -136,50 +136,50 @@
     "hell_king_ev_023": {
       "title": "Oferta Tentadora",
       "body": "Uma oferta brilhante. Sabes que esconde alguma coisa. Aceitas na mesma.",
-      "effect": "Almas: +5 por carta",
-      "duration": "Duração: 4 cartas"
+      "effect": "Efeito: a mensagem da carta aparece sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "hell_king_ev_024": {
       "title": "Negociação Expresso",
       "body": "Um aperto de mão, três assinaturas e siga para outra.",
-      "effect": "Ordem: -5 por carta",
-      "duration": "Duração: 6 cartas"
+      "effect": "Efeito: a mensagem da carta aparece sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "hell_king_ev_025": {
       "title": "Transferência Surpresa",
       "body": "Deslocam-se unidades. Isso reorganiza tudo, incluindo os humores.",
-      "effect": "Legiões: -5 por carta",
-      "duration": "Duração: 3 cartas"
+      "effect": "Efeito: as escolhas aparecem sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "hell_king_ev_026": {
       "title": "Auto de Ocorrência",
       "body": "Cai um auto. Não faz rir ninguém.",
-      "effect": "Ordem: +5 por carta",
+      "effect": "Efeito: as escolhas aparecem sem vogais",
       "duration": "Duração: 5 cartas"
     },
     "hell_king_ev_027": {
       "title": "Recompensa Ritual",
       "body": "Recompensam-se os leais. Os outros olham de lado.",
-      "effect": "Almas: +5 por carta",
-      "duration": "Duração: 4 cartas"
+      "effect": "Efeito: a mensagem da carta aparece invertida",
+      "duration": "Duração: 5 cartas"
     },
     "hell_king_ev_028": {
       "title": "Pânico à Superfície",
       "body": "Lá em cima, instala-se o pânico. Cá em baixo, tu encaixas.",
-      "effect": "Superfície: -5 por carta",
-      "duration": "Duração: 6 cartas"
+      "effect": "Efeito: a mensagem da carta aparece invertida",
+      "duration": "Duração: 5 cartas"
     },
     "hell_king_ev_029": {
       "title": "Teste de Força",
       "body": "Pequeno teste. Grandes egos. Resultado... misto.",
-      "effect": "Legiões: -5 por carta",
-      "duration": "Duração: 3 cartas"
+      "effect": "Efeito: as escolhas aparecem invertidas",
+      "duration": "Duração: 5 cartas"
     },
     "hell_king_ev_030": {
       "title": "Nota Interna",
       "body": "Uma nota circula. Vai sempre parar ao gabinete errado.",
-      "effect": "Ordem: +5 por carta",
-      "duration": "Duração: 7 cartas"
+      "effect": "Efeito: as escolhas aparecem invertidas",
+      "duration": "Duração: 5 cartas"
     }
   }
 }

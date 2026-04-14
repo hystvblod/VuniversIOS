@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "heaven_king_ev_001": {
@@ -136,50 +136,50 @@
     "heaven_king_ev_023": {
       "title": "Gefaltete Hände",
       "body": "Aufrichtige Bitten steigen mit Wärme empor. Es ist schlicht, demütig und sehr wirksam.",
-      "effect": "Gebete: +5 pro Karte",
-      "duration": "Dauer: 4 Karten"
+      "effect": "Effekt: Der Kartentext erscheint ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "heaven_king_ev_024": {
       "title": "Welle der Selbstständigkeit",
       "body": "Die Sterblichen wollen allein entscheiden. Der Himmel schwankt zwischen Bewunderung und einem kleinen nervösen Zucken.",
-      "effect": "Freier Wille: -5 pro Karte",
-      "duration": "Dauer: 6 Karten"
+      "effect": "Effekt: Der Kartentext erscheint ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "heaven_king_ev_025": {
       "title": "Halbleerer Tempel",
       "body": "Die Kultorte leeren sich etwas. Es ist nicht gravierend, aber der Rückgang ist sichtbar.",
-      "effect": "Kult: -5 pro Karte",
-      "duration": "Dauer: 3 Karten"
+      "effect": "Effekt: Die Antworten erscheinen ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "heaven_king_ev_026": {
       "title": "Großes inneres Erwachen",
       "body": "Das Gewissen hellt sich auf, Entscheidungen richten sich auf, und das Schicksal muss die Bühne teilen.",
-      "effect": "Freier Wille: +5 pro Karte",
+      "effect": "Effekt: Die Antworten erscheinen ohne Vokale",
       "duration": "Dauer: 5 Karten"
     },
     "heaven_king_ev_027": {
       "title": "Chor aufrichtiger Herzen",
       "body": "Gebete steigen auf, ohne Dekor, ohne Pose, einfach echt. Der Himmel liebt es, wenn es schlicht bleibt.",
-      "effect": "Gebete: +5 pro Karte",
-      "duration": "Dauer: 4 Karten"
+      "effect": "Effekt: Der Kartentext wird rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "heaven_king_ev_028": {
       "title": "Himmlische Pause",
       "body": "Eingriffe werden eine Zeit lang seltener. Der Himmel entscheidet sich, mehr Autonomie zu lassen.",
-      "effect": "Intervention: -5 pro Karte",
-      "duration": "Dauer: 6 Karten"
+      "effect": "Effekt: Der Kartentext wird rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "heaven_king_ev_029": {
       "title": "Etwas zu langer Ritus",
       "body": "Der Kult dauert zu lange an und die Aufmerksamkeit lässt nach.",
-      "effect": "Kult: -5 pro Karte",
-      "duration": "Dauer: 3 Karten"
+      "effect": "Effekt: Die Antworten werden rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "heaven_king_ev_030": {
       "title": "Freier Schwung",
       "body": "Die Welt entwickelt sich auf beeindruckende Weise von selbst weiter. Für den Himmel ist das zugleich schön und frustrierend.",
-      "effect": "Freier Wille: +5 pro Karte",
-      "duration": "Dauer: 7 Karten"
+      "effect": "Effekt: Die Antworten werden rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     }
   }
 }
