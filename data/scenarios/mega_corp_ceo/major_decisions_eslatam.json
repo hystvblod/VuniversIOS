@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "corp_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "No",
       "preview_hint": "Usar una ficha para ver los efectos",
       "outcome_yes_title": "Mala decisión",
-      "outcome_yes_body": "Anuncias algo que no podrás cumplir. La confianza de los inversionistas se divide por dos.",
+      "outcome_yes_body": "Anuncias algo que no podrás cumplir. La confianza de los inversionistas se divide por dos. Durante 12 cartas, el mensaje de la carta aparece sin vocales.",
       "outcome_no_title": "Buena decisión",
-      "outcome_no_body": "Mantienes tu credibilidad y los inversionistas vuelven a 50."
+      "outcome_no_body": "Mantienes tu credibilidad y los inversionistas vuelven a 50. Durante 12 cartas, el mensaje de la carta aparece sin vocales."
     },
     "corp_major_003": {
       "title": "Recorte brutal de personal",
@@ -30,9 +30,9 @@
       "no_label": "No",
       "preview_hint": "Usar una ficha para ver los efectos",
       "outcome_yes_title": "Mala decisión",
-      "outcome_yes_body": "Abandonas a los equipos. Los empleados caen a la mitad.",
+      "outcome_yes_body": "Abandonas a los equipos. Los empleados caen a la mitad. Durante 12 cartas, las opciones aparecen sin vocales.",
       "outcome_no_title": "Buena decisión",
-      "outcome_no_body": "Bloqueas ese desastre y los empleados vuelven a 50."
+      "outcome_no_body": "Bloqueas ese desastre y los empleados vuelven a 50. Durante 12 cartas, las opciones aparecen sin vocales."
     },
     "corp_major_004": {
       "title": "Campaña engañosa",
@@ -41,9 +41,9 @@
       "no_label": "No",
       "preview_hint": "Usar una ficha para ver los efectos",
       "outcome_yes_title": "Mala decisión",
-      "outcome_yes_body": "Apruebas una campaña engañosa. La imagen de marca se divide por dos.",
+      "outcome_yes_body": "Apruebas una campaña engañosa. La imagen de marca se divide por dos. Durante 12 cartas, el mensaje de la carta aparece al revés.",
       "outcome_no_title": "Buena decisión",
-      "outcome_no_body": "Rechazas esa mentira y la imagen de marca vuelve a 50."
+      "outcome_no_body": "Rechazas esa mentira y la imagen de marca vuelve a 50. Durante 12 cartas, el mensaje de la carta aparece al revés."
     },
     "corp_major_005": {
       "title": "Inspección anunciada",
@@ -52,9 +52,9 @@
       "no_label": "No",
       "preview_hint": "Usar una ficha para ver los efectos",
       "outcome_yes_title": "Mala decisión",
-      "outcome_yes_body": "Prefieres esconder en lugar de corregir. Los reguladores te sancionan y la relación con ellos cae a la mitad.",
+      "outcome_yes_body": "Prefieres esconder en lugar de corregir. Los reguladores te sancionan y la relación con ellos cae a la mitad. Durante 12 cartas, las opciones aparecen al revés.",
       "outcome_no_title": "Buena decisión",
-      "outcome_no_body": "Impones una verdadera puesta en orden. Los reguladores vuelven a 50."
+      "outcome_no_body": "Impones una verdadera puesta en orden. Los reguladores vuelven a 50. Durante 12 cartas, las opciones aparecen al revés."
     },
     "corp_major_006": {
       "title": "Anuncio demasiado optimista",
