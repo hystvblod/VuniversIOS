@@ -552,6 +552,7 @@ function getRankLabel(universeId, reignLength) {
     cardTextsDict: null,
     peekRemaining: 0,
     _peekChoiceActive: null,
+    _criticalAlarmActive: false,
 
     init(universeConfig, lang, cardTextsDict) {
       this.universeConfig = universeConfig;
@@ -560,7 +561,10 @@ function getRankLabel(universeId, reignLength) {
 
       this.peekRemaining = 0;
       this._peekChoiceActive = null;
+      this._criticalAlarmActive = false;
       try { document.body?.classList?.remove("vr-peek-mode"); } catch (_) {}
+      try { document.getElementById("view-game")?.classList?.remove("vr-critical-alarm"); } catch (_) {}
+      try { window.VRAudio?.stopGaugeAlarm?.(); } catch (_) {}
 
       this._ensurePeekStyles();
       this._setupGaugeLabels();
@@ -678,42 +682,27 @@ body.vr-peek-mode .vr-gauge-preview{
   clip-path:inset(calc(100% - var(--vr-pct, 0%)) 0 0 0);
 }
 
-@keyframes vrGaugeCriticalLowSoft {
-  0%, 100% {
-    transform: translateZ(0) scale(1);
-    filter: brightness(1) drop-shadow(0 0 0 rgba(255,255,255,0));
-    opacity: 1;
-  }
-  50% {
-    transform: translateZ(0) scale(1.035);
-    filter: brightness(1.12) drop-shadow(0 0 10px rgba(255,255,255,.18));
-    opacity: .96;
-  }
+@keyframes vrGaugeCriticalShake {
+  0%, 100% { transform: translate3d(0,0,0) rotate(0deg); }
+  20% { transform: translate3d(-1px,0,0) rotate(-0.35deg); }
+  40% { transform: translate3d(1px,0,0) rotate(0.35deg); }
+  60% { transform: translate3d(-1.5px,0,0) rotate(-0.5deg); }
+  80% { transform: translate3d(1.5px,0,0) rotate(0.5deg); }
 }
 
-@keyframes vrGaugeCriticalHighSoft {
-  0%, 100% {
-    transform: translateZ(0) scale(1);
-    filter: brightness(1) saturate(1);
-    opacity: 1;
-  }
-  50% {
-    transform: translateZ(0) scale(1.04);
-    filter: brightness(1.14) saturate(1.06);
-    opacity: .95;
-  }
+.vr-gauge.vr-critical-low,
+.vr-gauge.vr-critical-high{
+  transform-origin: 50% 50%;
+  animation: vrGaugeCriticalShake 220ms linear infinite;
+  will-change: transform;
 }
 
 .vr-gauge.vr-critical-low .vr-gauge-fill,
-.vr-gauge.vr-critical-low .vr-gauge-frame{
-  transform-origin: 50% 50%;
-  animation: vrGaugeCriticalLowSoft 1.55s ease-in-out infinite;
-}
-
+.vr-gauge.vr-critical-low .vr-gauge-frame,
 .vr-gauge.vr-critical-high .vr-gauge-fill,
 .vr-gauge.vr-critical-high .vr-gauge-frame{
-  transform-origin: 50% 50%;
-  animation: vrGaugeCriticalHighSoft 1.45s ease-in-out infinite;
+  animation: none !important;
+  filter: drop-shadow(0 0 7px rgba(255, 60, 60, .38));
 }
 
 .vr-gauge.vr-critical-low .vr-gauge-value,
@@ -721,11 +710,57 @@ body.vr-peek-mode .vr-gauge-preview{
   opacity: 1;
 }
 
-body.vr-peek-mode .vr-gauge.vr-critical-low .vr-gauge-fill,
-body.vr-peek-mode .vr-gauge.vr-critical-low .vr-gauge-frame,
-body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-fill,
-body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
-  animation-duration: 1.2s;
+@keyframes vrCriticalAlarmPulseMedium {
+  0%, 100% {
+    opacity: 0.12;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.52;
+    transform: scale(1.012);
+  }
+}
+
+@keyframes vrCriticalAlarmFlashMedium {
+  0%, 100% {
+    opacity: 0.00;
+  }
+  50% {
+    opacity: 0.14;
+  }
+}
+
+#view-game.vr-critical-alarm::before {
+  background:
+    radial-gradient(circle at center,
+      rgba(255, 0, 0, 0.00) 0%,
+      rgba(255, 0, 0, 0.12) 24%,
+      rgba(255, 0, 0, 0.24) 48%,
+      rgba(190, 0, 0, 0.42) 74%,
+      rgba(80, 0, 0, 0.56) 100%);
+  box-shadow:
+    inset 0 0 50px rgba(255, 0, 0, 0.18),
+    inset 0 0 120px rgba(255, 0, 0, 0.22),
+    inset 0 0 220px rgba(120, 0, 0, 0.30);
+  animation: vrCriticalAlarmPulseMedium 1.65s ease-in-out infinite;
+}
+
+#view-game.vr-critical-alarm::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 0, 0, 0.00) 0%,
+      rgba(255, 40, 40, 0.06) 20%,
+      rgba(255, 0, 0, 0.12) 50%,
+      rgba(255, 40, 40, 0.06) 80%,
+      rgba(255, 0, 0, 0.00) 100%
+    );
+  animation: vrCriticalAlarmFlashMedium 1.65s ease-in-out infinite;
 }
 `;
         (document.head || document.documentElement).appendChild(style);
@@ -777,6 +812,24 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
       });
     },
 
+    _setCriticalAlarmState(isActive) {
+      const active = !!isActive;
+      const wasActive = !!this._criticalAlarmActive;
+
+      try {
+        const viewGame = document.getElementById("view-game");
+        if (viewGame) viewGame.classList.toggle("vr-critical-alarm", active);
+      } catch (_) {}
+
+      if (active && !wasActive) {
+        try { window.VRAudio?.startGaugeAlarm?.(); } catch (_) {}
+      } else if (!active && wasActive) {
+        try { window.VRAudio?.stopGaugeAlarm?.(); } catch (_) {}
+      }
+
+      this._criticalAlarmActive = active;
+    },
+
     _ensureGaugePreviewBars() {
       const gaugeEls = document.querySelectorAll(".vr-gauge");
 
@@ -812,6 +865,8 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
         catch (_) { return false; }
       })();
 
+      let hasCriticalGauge = false;
+
       gaugeEls.forEach((gEl, idx) => {
         const cfg = gaugesCfg[idx];
         const gaugeId = gEl?.dataset?.gaugeId || cfg?.id || null;
@@ -844,11 +899,14 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
 
         if (safeVal <= 10) {
           gEl.classList.add("vr-critical-low");
+          hasCriticalGauge = true;
         } else if (safeVal >= 90) {
           gEl.classList.add("vr-critical-high");
+          hasCriticalGauge = true;
         }
       });
 
+      this._setCriticalAlarmState(hasCriticalGauge);
       try { window.VRTokenUI?.maybeOfferCriticalGauge?.(); } catch (_) {}
       this._clearPeekClasses();
     },
@@ -891,6 +949,12 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
       this._resetChoiceCards();
       this._clearPeek();
       this.updateGauges();
+
+      try {
+        const activeFx = window.VREngine?._getActiveCardFx?.() || {};
+        window.VRCardFx?.applyEffects?.(activeFx);
+      } catch (_) {}
+
       try { window.VRIntroTutorial?.onCardShown?.(cardLogic); } catch (_) {}
     },
 
@@ -2774,7 +2838,8 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
       .map((row) => ({
         id: row.id,
         remainingCards: Math.max(0, asInt(row.remainingCards, 0)),
-        perCardDelta: (row.perCardDelta && typeof row.perCardDelta === "object") ? clone(row.perCardDelta) : {}
+        perCardDelta: (row.perCardDelta && typeof row.perCardDelta === "object") ? clone(row.perCardDelta) : {},
+        uiEffects: (row.uiEffects && typeof row.uiEffects === "object") ? clone(row.uiEffects) : {}
       }))
       .filter((row) => row.remainingCards > 0);
 
@@ -2823,6 +2888,12 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
     return {};
   }
 
+  function getUiEffects(ev) {
+    const fx = ev?.effects?.ui_effects || ev?.ui_effects;
+    if (fx && typeof fx === "object" && !Array.isArray(fx)) return clone(fx);
+    return {};
+  }
+
   function getEventDuration(ev) {
     return Math.max(0, asInt(ev?.duration_cards, ev?.duration || 0));
   }
@@ -2844,7 +2915,8 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
         next.push({
           id: row.id,
           remainingCards: remaining,
-          perCardDelta: clone(delta)
+          perCardDelta: clone(delta),
+          uiEffects: (row.uiEffects && typeof row.uiEffects === "object") ? clone(row.uiEffects) : {}
         });
       }
     });
@@ -3033,6 +3105,27 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
     return id;
   };
 
+  engine._getActiveCardFx = function () {
+    ensureEventState(this);
+
+    const merged = {
+      reverse_message: false,
+      reverse_choices: false,
+      hide_vowels_message: false,
+      hide_vowels_choices: false
+    };
+
+    (this._activeEvents || []).forEach((row) => {
+      const fx = (row?.uiEffects && typeof row.uiEffects === "object") ? row.uiEffects : {};
+      if (fx.reverse_message) merged.reverse_message = true;
+      if (fx.reverse_choices) merged.reverse_choices = true;
+      if (fx.hide_vowels_message) merged.hide_vowels_message = true;
+      if (fx.hide_vowels_choices) merged.hide_vowels_choices = true;
+    });
+
+    return merged;
+  };
+
   engine._triggerRandomEvent = async function () {
     ensureEventState(this);
     if (this._eventShowing) return false;
@@ -3051,12 +3144,14 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
       }
 
       const perCardDelta = getPerCardDelta(ev);
+      const uiEffects = getUiEffects(ev);
       const durationCards = getEventDuration(ev);
-      if (Object.keys(perCardDelta).length && durationCards > 0) {
+      if ((Object.keys(perCardDelta).length || Object.keys(uiEffects).length) && durationCards > 0) {
         this._activeEvents.push({
           id,
           remainingCards: durationCards,
-          perCardDelta: clone(perCardDelta)
+          perCardDelta: clone(perCardDelta),
+          uiEffects: clone(uiEffects)
         });
       }
 
@@ -3501,6 +3596,18 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
         const current = Number(window.VRState?.getGaugeValue?.(gaugeId) ?? 50);
         const next = clamp(current * Number(factor || 1), 0, 100);
         try { window.VRState?.setGaugeValue?.(gaugeId, next); } catch (_) {}
+      });
+    }
+
+    if (outcome.ui_effects && typeof outcome.ui_effects === "object") {
+      const duration = Math.max(1, asInt(outcome.ui_effects_duration, 12));
+      if (!Array.isArray(this._activeEvents)) this._activeEvents = [];
+
+      this._activeEvents.push({
+        id: `major_ui_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
+        remainingCards: duration,
+        perCardDelta: {},
+        uiEffects: clone(outcome.ui_effects)
       });
     }
 
@@ -4370,7 +4477,12 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
   const INTRO_REWARD_VCOINS = 200;
   const INTRO_REWARD_TOKENS = 1;
   const INTRO_LOW_GAUGE_VALUE = 8;
+<<<<<<< HEAD
   const INTRO_HAND_SRC = "assets/img/ui/hand2.webp";
+=======
+  const INTRO_HAND_SRC_JETON = "assets/img/ui/hand.webp";
+  const INTRO_HAND_SRC_CHOICE = "assets/img/ui/hand2.webp";
+>>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
 
   let enabled = false;
   let currentCardId = "";
@@ -4534,21 +4646,26 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
           animation: vrIntroHandSwipe 1s cubic-bezier(.4,0,.2,1) infinite;
         }
 
+        #vr-intro-hand.is-visible.is-choice-swipe{
+          animation: vrIntroHandChoiceSwipe 1.28s cubic-bezier(.4,0,.2,1) infinite !important;
+          transform-origin: 24% 46%;
+        }
+
         body.vr-body-game .vr-hud-item{
           overflow: visible !important;
         }
 
         #vr-card-main.is-intro-rich-card{
-          width: min(500px, 88vw) !important;
+          width: min(620px, 94vw) !important;
           min-height: auto !important;
           height: auto !important;
           margin: 0 auto !important;
           padding:
-            clamp(18px, 4.2vw, 24px)
-            clamp(24px, 6.2vw, 36px)
-            clamp(22px, 5vw, 30px) !important;
+            clamp(24px, 5.2vw, 34px)
+            clamp(30px, 7.4vw, 52px)
+            clamp(28px, 5.8vw, 40px) !important;
           box-sizing: border-box !important;
-          background-size: 96% 96% !important;
+          background-size: 100% 100% !important;
           background-position: center !important;
           background-repeat: no-repeat !important;
           display: flex !important;
@@ -4562,10 +4679,11 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
           display: block !important;
           min-height: auto !important;
           width: 100% !important;
-          max-width: clamp(170px, 46vw, 250px) !important;
-          margin: 0 auto 10px !important;
+          max-width: clamp(260px, 62vw, 420px) !important;
+          margin: 0 auto 14px !important;
           text-align: center !important;
-          line-height: 1.06 !important;
+          line-height: 1.1 !important;
+          font-size: clamp(24px, 4.2vw, 36px) !important;
           overflow-wrap: break-word !important;
           word-break: normal !important;
           hyphens: auto !important;
@@ -4575,10 +4693,10 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
         #vr-card-main.is-intro-rich-card .vr-intro-rewards-copy{
           display: block !important;
           width: 100% !important;
-          max-width: clamp(170px, 50vw, 260px) !important;
+          max-width: clamp(250px, 66vw, 460px) !important;
           margin: 0 auto !important;
-          font-size: clamp(12px, 3.1vw, 15px) !important;
-          line-height: 1.24 !important;
+          font-size: clamp(17px, 3.9vw, 24px) !important;
+          line-height: 1.34 !important;
           text-align: center !important;
           overflow-wrap: break-word !important;
           word-break: normal !important;
@@ -4611,21 +4729,22 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
 
         @media (max-width: 540px){
           #vr-card-main.is-intro-rich-card{
-            width: min(88vw, 460px) !important;
-            padding: 16px 20px 20px !important;
-            background-size: 94% 94% !important;
+            width: min(96vw, 560px) !important;
+            padding: 22px 24px 24px !important;
+            background-size: 100% 100% !important;
           }
 
           #vr-card-main.is-intro-rich-card .vr-card-title{
-            max-width: 72% !important;
-            margin-bottom: 8px !important;
+            max-width: 84% !important;
+            margin-bottom: 12px !important;
+            font-size: clamp(21px, 5.8vw, 28px) !important;
           }
 
           #vr-card-main.is-intro-rich-card .vr-card-text,
           #vr-card-main.is-intro-rich-card .vr-intro-rewards-copy{
-            max-width: 72% !important;
-            font-size: 12.5px !important;
-            line-height: 1.22 !important;
+            max-width: 84% !important;
+            font-size: clamp(15.5px, 4.5vw, 19px) !important;
+            line-height: 1.3 !important;
           }
         }
 
@@ -4889,6 +5008,17 @@ body.vr-peek-mode .vr-gauge.vr-critical-high .vr-gauge-frame{
           50%{ transform: translate3d(-16px,0,0) rotate(-10deg) scale(.97); opacity:.92; }
         }
 
+        @keyframes vrIntroHandChoiceSwipe{
+          0%,100%{
+            transform: translate3d(0,0,0) rotate(-6deg) scale(1);
+            opacity:1;
+          }
+          50%{
+            transform: translate3d(36px,0,0) rotate(-3deg) scale(.98);
+            opacity:.96;
+          }
+        }
+
         @keyframes vrIntroHintZoom{
           0%,100%{ transform:scale(1); }
           50%{ transform:scale(1.08); }
@@ -4965,10 +5095,12 @@ function resetUIState() {
 
     hand = document.createElement("img");
     hand.id = "vr-intro-hand";
-    hand.src = INTRO_HAND_SRC;
+    hand.src = INTRO_HAND_SRC_JETON;
     hand.alt = "";
     hand.draggable = false;
     hand.dataset.bound = "0";
+    hand.dataset.anchor = "";
+    hand.dataset.choiceId = "";
     document.body.appendChild(hand);
     return hand;
   }
@@ -4976,8 +5108,22 @@ function resetUIState() {
   function hideIntroHand() {
     const hand = document.getElementById("vr-intro-hand");
     if (!hand) return;
-    hand.classList.remove("is-visible");
+    hand.classList.remove("is-visible", "is-choice-swipe");
     hand.style.display = "none";
+  }
+
+  function syncVisibleIntroHand() {
+    const hand = document.getElementById("vr-intro-hand");
+    if (!hand || !hand.classList.contains("is-visible")) return;
+
+    if (hand.dataset.anchor === "jeton") {
+      positionIntroHandOnJeton();
+      return;
+    }
+
+    if (hand.dataset.anchor === "choice") {
+      positionIntroHandOnChoice(hand.dataset.choiceId || "A");
+    }
   }
 
   function positionIntroHandOnJeton() {
@@ -5002,6 +5148,28 @@ function resetUIState() {
     hand.style.width = `${size}px`;
     hand.style.left = `${Math.round((rect.left - hostRect.left) - (size * 0.46))}px`;
     hand.style.top = `${Math.round((rect.top - hostRect.top) + (rect.height * 0.46))}px`;
+  }
+
+  function positionIntroHandOnChoice(choiceId = "A") {
+    const btn = getChoiceButton(choiceId);
+    if (!btn) return;
+
+    const hand = ensureIntroHand();
+
+    if (hand.parentElement !== document.body) {
+      document.body.appendChild(hand);
+    }
+
+    const rect = btn.getBoundingClientRect();
+
+    const size = Math.max(100, Math.min(165, Math.round(rect.height * 1.65)));
+
+    const anchorX = rect.left + (rect.width * 0.20);
+    const anchorY = rect.top + (rect.height * 0.72);
+
+    hand.style.width = `${size}px`;
+    hand.style.left = `${Math.round(window.scrollX + anchorX - (size * 0.22))}px`;
+    hand.style.top = `${Math.round(window.scrollY + anchorY - (size * 0.36))}px`;
   }
 
   function clearIntroTimers() {
@@ -5080,12 +5248,27 @@ function resetUIState() {
     hideGaugeHint();
 
     const btn = getChoiceButton("A");
+    const hand = ensureIntroHand();
+
     if (btn) {
-      btn.classList.remove("vr-intro-pulse", "vr-intro-dim", "vr-intro-hide");
-      btn.classList.add("vr-intro-tilt");
+      btn.classList.remove("vr-intro-pulse", "vr-intro-dim", "vr-intro-hide", "vr-intro-tilt");
+      void btn.offsetWidth;
     }
 
-    showSwipeHint("Swipe");
+    if (hand) {
+      hand.classList.remove("is-visible", "is-choice-swipe");
+      hand.style.display = "none";
+      void hand.offsetWidth;
+    }
+
+    requestAnimationFrame(() => {
+      if (btn) {
+        btn.classList.add("vr-intro-tilt");
+      }
+
+      showIntroHandOnChoiceSwipe("A");
+      showSwipeHint("Swipe");
+    });
   }
 
   function showIntroHandOnJeton() {
@@ -5093,33 +5276,67 @@ function resetUIState() {
     if (!btn) return;
 
     const hand = ensureIntroHand();
-
-    const syncHand = () => {
-      const current = document.getElementById("vr-intro-hand");
-      if (!current || !current.classList.contains("is-visible")) return;
-      positionIntroHandOnJeton();
-    };
+    hand.src = INTRO_HAND_SRC_JETON;
 
     if (hand.dataset.bound !== "1") {
-      window.addEventListener("resize", syncHand, { passive: true });
-      window.addEventListener("orientationchange", syncHand, { passive: true });
+      window.addEventListener("resize", syncVisibleIntroHand, { passive: true });
+      window.addEventListener("orientationchange", syncVisibleIntroHand, { passive: true });
 
       if (window.visualViewport) {
-        window.visualViewport.addEventListener("resize", syncHand, { passive: true });
-        window.visualViewport.addEventListener("scroll", syncHand, { passive: true });
+        window.visualViewport.addEventListener("resize", syncVisibleIntroHand, { passive: true });
+        window.visualViewport.addEventListener("scroll", syncVisibleIntroHand, { passive: true });
       }
 
       hand.dataset.bound = "1";
     }
+
+    hand.dataset.anchor = "jeton";
+    hand.dataset.choiceId = "";
+    hand.classList.remove("is-choice-swipe");
 
     positionIntroHandOnJeton();
     hand.style.display = "block";
     hand.classList.add("is-visible");
 
     requestAnimationFrame(() => {
-      positionIntroHandOnJeton();
+      syncVisibleIntroHand();
       requestAnimationFrame(() => {
-        positionIntroHandOnJeton();
+        syncVisibleIntroHand();
+      });
+    });
+  }
+
+  function showIntroHandOnChoiceSwipe(choiceId = "A") {
+    const btn = getChoiceButton(choiceId);
+    if (!btn) return;
+
+    const hand = ensureIntroHand();
+    hand.src = INTRO_HAND_SRC_CHOICE;
+
+    if (hand.dataset.bound !== "1") {
+      window.addEventListener("resize", syncVisibleIntroHand, { passive: true });
+      window.addEventListener("orientationchange", syncVisibleIntroHand, { passive: true });
+
+      if (window.visualViewport) {
+        window.visualViewport.addEventListener("resize", syncVisibleIntroHand, { passive: true });
+        window.visualViewport.addEventListener("scroll", syncVisibleIntroHand, { passive: true });
+      }
+
+      hand.dataset.bound = "1";
+    }
+
+    hand.dataset.anchor = "choice";
+    hand.dataset.choiceId = String(choiceId || "A");
+    hand.classList.add("is-choice-swipe");
+
+    positionIntroHandOnChoice(choiceId);
+    hand.style.display = "block";
+    hand.classList.add("is-visible");
+
+    requestAnimationFrame(() => {
+      syncVisibleIntroHand();
+      requestAnimationFrame(() => {
+        syncVisibleIntroHand();
       });
     });
   }
@@ -5303,6 +5520,7 @@ function resetUIState() {
       clearIntroTimers();
       hideSwipeHint();
       hideGaugeHint();
+      hideIntroHand();
 
       const btn = getChoiceButton("A");
       if (btn) {
@@ -7305,6 +7523,19 @@ window.VRGuideMentor = {
     }
   },
 
+  _setBackgroundShake(level = "") {
+    const { view } = this._els();
+    if (!view) return;
+
+    view.classList.remove("vr-guide-bg-shake-event", "vr-guide-bg-shake-major");
+
+    if (level === "event") {
+      view.classList.add("vr-guide-bg-shake-event");
+    } else if (level === "major") {
+      view.classList.add("vr-guide-bg-shake-major");
+    }
+  },
+
   _open(universeId, lines, opts = {}) {
     const { overlay, image, nextBtn } = this._els();
     if (!overlay || !image) return Promise.resolve();
@@ -7318,6 +7549,12 @@ window.VRGuideMentor = {
     image.alt = universeId;
 
     const actionMode = String(opts.actionMode || (opts.isEvent ? "event" : "default"));
+    const shakeLevel =
+      actionMode === "event"
+        ? "event"
+        : (actionMode === "major-choice" || actionMode === "major-result")
+          ? "major"
+          : "";
     const isEventPopup = actionMode === "event";
 
     overlay.__vrGuideMajorYes = null;
@@ -7335,6 +7572,7 @@ window.VRGuideMentor = {
     overlay.classList.add("is-visible");
     overlay.classList.remove("is-final");
     overlay.setAttribute("aria-hidden", "false");
+    this._setBackgroundShake(shakeLevel);
 
     clearTimeout(this._hideTimer);
     clearTimeout(this._finalTimer);
@@ -7509,6 +7747,7 @@ window.VRGuideMentor = {
     overlay.classList.remove("is-visible", "is-event", "is-major-choice", "is-major-result");
     overlay.setAttribute("aria-hidden", "true");
     this._setActionMode("default");
+    this._setBackgroundShake("");
 
     const layer = overlay.querySelector(".vr-guide-confetti-layer");
     if (layer) {
@@ -7594,6 +7833,97 @@ window.addEventListener("resize", () => {
   try { window.VRGuideMentor?.refresh?.(); } catch (_) {}
 });
 
+
+window.VRCardFx = {
+  _reverseLettersOnly(str) {
+    return [...String(str || "")].reverse().join("");
+  },
+
+  _hideVowels(str) {
+    return String(str || "").replace(
+      /[aeiouyàâäéèêëîïôöùûüÿAEIOUYÀÂÄÉÈÊËÎÏÔÖÙÛÜŸ]/g,
+      "\u200B"
+    );
+  },
+
+  _readOriginal(el) {
+    if (!el) return "";
+    if (el.dataset.vrFxOriginalHtml === undefined) {
+      el.dataset.vrFxOriginalHtml = el.innerHTML;
+    }
+    if (el.dataset.vrFxOriginalText === undefined) {
+      el.dataset.vrFxOriginalText = el.textContent;
+    }
+    return el.dataset.vrFxOriginalText || "";
+  },
+
+  _resetOne(el) {
+    if (!el) return;
+    if (el.dataset.vrFxOriginalHtml !== undefined) {
+      el.innerHTML = el.dataset.vrFxOriginalHtml;
+    } else if (el.dataset.vrFxOriginalText !== undefined) {
+      el.textContent = el.dataset.vrFxOriginalText;
+    }
+    el.style.direction = "";
+    el.style.unicodeBidi = "";
+    el.style.textAlign = "";
+    el.style.wordBreak = "";
+    el.style.letterSpacing = "";
+  },
+
+  resetCardFx() {
+    [
+      document.getElementById("card-title"),
+      document.getElementById("card-text"),
+      document.getElementById("choice-A"),
+      document.getElementById("choice-B"),
+      document.getElementById("choice-C")
+    ].forEach((el) => this._resetOne(el));
+  },
+
+  applyEffects(effects) {
+    const fx = (effects && typeof effects === "object") ? effects : {};
+    this.resetCardFx();
+
+    const titleEl = document.getElementById("card-title");
+    const bodyEl = document.getElementById("card-text");
+    const choiceAEl = document.getElementById("choice-A");
+    const choiceBEl = document.getElementById("choice-B");
+    const choiceCEl = document.getElementById("choice-C");
+    const choiceEls = [choiceAEl, choiceBEl, choiceCEl].filter(Boolean);
+
+    const reverseMessage = !!fx.reverse_message;
+    const reverseChoices = !!fx.reverse_choices;
+    const hideVowelsMessage = !!fx.hide_vowels_message;
+    const hideVowelsChoices = !!fx.hide_vowels_choices;
+
+    if (reverseMessage || hideVowelsMessage) {
+      [titleEl, bodyEl].filter(Boolean).forEach((el) => {
+        let text = this._readOriginal(el);
+        if (reverseMessage) text = this._reverseLettersOnly(text);
+        if (hideVowelsMessage) text = this._hideVowels(text);
+        el.textContent = text;
+        el.style.direction = "ltr";
+        el.style.unicodeBidi = "normal";
+        el.style.textAlign = "right";
+        el.style.wordBreak = "break-word";
+      });
+    }
+
+    if (reverseChoices || hideVowelsChoices) {
+      choiceEls.forEach((el) => {
+        let text = this._readOriginal(el);
+        if (reverseChoices) text = this._reverseLettersOnly(text);
+        if (hideVowelsChoices) text = this._hideVowels(text);
+        el.textContent = text;
+        el.style.direction = "ltr";
+        el.style.unicodeBidi = "normal";
+        el.style.textAlign = "right";
+        el.style.wordBreak = "break-word";
+      });
+    }
+  }
+};
 
 window.VRGame = {
   currentUniverse: null,

@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "new_world_explorer_ev_001": {
@@ -136,50 +136,56 @@
     "new_world_explorer_ev_023": {
       "title": "Secured Bay",
       "body": "The bay is better held, better watched, and much easier to claim.",
-      "effect": "Territories: +5 per card",
-      "duration": "Duration: 4 cards"
+      "effect": "Effect: the card message appears without vowels",
+      "duration": "Duration: 5 cards"
     },
     "new_world_explorer_ev_024": {
       "title": "Offended Temple",
       "body": "A sacred place is disturbed through clumsiness or pride. The doors close at once.",
-      "effect": "Converted Population: -5 per card",
-      "duration": "Duration: 6 cards"
+      "effect": "Effect: the card message appears without vowels",
+      "duration": "Duration: 5 cards"
     },
     "new_world_explorer_ev_025": {
       "title": "Damp Warehouse",
       "body": "Humidity spreads through the reserves. Part of the stock loses value before it is even sold.",
-      "effect": "Wealth: -5 per card",
-      "duration": "Duration: 3 cards"
+      "effect": "Effect: the choices appear without vowels",
+      "duration": "Duration: 5 cards"
     },
     "new_world_explorer_ev_026": {
       "title": "Mission Festival",
       "body": "A great religious celebration gathers the harbor and several villages. The moment is well chosen and well managed.",
-      "effect": "Converted Population: +5 per card",
+      "effect": "Effect: the choices appear without vowels",
       "duration": "Duration: 5 cards"
     },
     "new_world_explorer_ev_027": {
       "title": "Shore Treaty",
       "body": "A simple agreement finally settles who keeps what along the coast. It is less glorious than a flag, but far more solid.",
-      "effect": "Territories: +5 per card",
-      "duration": "Duration: 4 cards"
+      "effect": "Effect: the card message appears reversed",
+      "duration": "Duration: 5 cards"
     },
     "new_world_explorer_ev_028": {
       "title": "Displeased Envoy",
+<<<<<<< HEAD
       "body": "A royal envoy leaves with a closed face and a very full notebook. His report may harm us at court.",
       "effect": "Royal Support: -5 per card",
       "duration": "Duration: 6 cards"
+=======
+      "body": "A royal envoy leaves with a closed face and a very full notebook. Nothing good likes to cross the sea like that.",
+      "effect": "Effect: the card message appears reversed",
+      "duration": "Duration: 5 cards"
+>>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
     },
     "new_world_explorer_ev_029": {
       "title": "Disappointing Mine",
       "body": "The mine that was thought to be profitable is mainly producing losses and exhaustion.",
-      "effect": "Wealth: -5 per card",
-      "duration": "Duration: 3 cards"
+      "effect": "Effect: the choices appear reversed",
+      "duration": "Duration: 5 cards"
     },
     "new_world_explorer_ev_030": {
       "title": "Week of Baptisms",
       "body": "The mission enjoys a very busy week. Even the most cautious come to look more closely.",
-      "effect": "Converted Population: +5 per card",
-      "duration": "Duration: 7 cards"
+      "effect": "Effect: the choices appear reversed",
+      "duration": "Duration: 5 cards"
     }
   }
 }

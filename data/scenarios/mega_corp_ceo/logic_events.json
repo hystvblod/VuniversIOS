@@ -204,28 +204,28 @@
     },
     {
       "id": "mega_corp_ceo_ev_023",
-      "duration_cards": 4,
+      "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "investors": 5
+        "ui_effects": {
+          "hide_vowels_message": true
         }
       }
     },
     {
       "id": "mega_corp_ceo_ev_024",
-      "duration_cards": 6,
+      "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "regulators": -5
+        "ui_effects": {
+          "hide_vowels_message": true
         }
       }
     },
     {
       "id": "mega_corp_ceo_ev_025",
-      "duration_cards": 3,
+      "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "employees": -5
+        "ui_effects": {
+          "hide_vowels_choices": true
         }
       }
     },
@@ -233,44 +233,44 @@
       "id": "mega_corp_ceo_ev_026",
       "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "regulators": 5
+        "ui_effects": {
+          "hide_vowels_choices": true
         }
       }
     },
     {
       "id": "mega_corp_ceo_ev_027",
-      "duration_cards": 4,
+      "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "investors": 5
+        "ui_effects": {
+          "reverse_message": true
         }
       }
     },
     {
       "id": "mega_corp_ceo_ev_028",
-      "duration_cards": 6,
+      "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "brand_image": -5
+        "ui_effects": {
+          "reverse_message": true
         }
       }
     },
     {
       "id": "mega_corp_ceo_ev_029",
-      "duration_cards": 3,
+      "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "employees": -5
+        "ui_effects": {
+          "reverse_choices": true
         }
       }
     },
     {
       "id": "mega_corp_ceo_ev_030",
-      "duration_cards": 7,
+      "duration_cards": 5,
       "effects": {
-        "per_card": {
-          "regulators": 5
+        "ui_effects": {
+          "reverse_choices": true
         }
       }
     }

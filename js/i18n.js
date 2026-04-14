@@ -14,12 +14,13 @@
   // ✅ on ne charge PLUS "cards" / "endings" ici
   // (les cartes et les fins sont chargées par le moteur: events-loader + VREndings)
   const UI_BUNDLES = ["ui"];
-  const SUPPORTED_LANGS = ["en", "fr", "de", "es", "pt", "ptbr", "it", "ko", "ja", "id"];
+  const SUPPORTED_LANGS = ["en", "fr", "de", "es", "eslatam", "pt", "ptbr", "it", "ko", "ja", "id"];
   const LANGUAGE_CHOICES = [
     { code: "en", ui: "English" },
     { code: "fr", ui: "Français" },
     { code: "de", ui: "Deutsch" },
     { code: "es", ui: "Español" },
+    { code: "eslatam", ui: "Español LATAM" },
     { code: "pt", ui: "Português" },
     { code: "ptbr", ui: "Português BR" },
     { code: "it", ui: "Italiano" },
@@ -32,6 +33,19 @@
     en: `<svg viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#fff"/><g fill="#b22234"><rect y="0" width="30" height="1.538"/><rect y="3.076" width="30" height="1.538"/><rect y="6.152" width="30" height="1.538"/><rect y="9.228" width="30" height="1.538"/><rect y="12.304" width="30" height="1.538"/><rect y="15.38" width="30" height="1.538"/><rect y="18.456" width="30" height="1.544"/></g><rect width="12.6" height="10.77" fill="#3c3b6e"/><g fill="#fff" opacity="0.95"><circle cx="1.8" cy="1.6" r=".35"/><circle cx="3.6" cy="1.6" r=".35"/><circle cx="5.4" cy="1.6" r=".35"/><circle cx="7.2" cy="1.6" r=".35"/><circle cx="9.0" cy="1.6" r=".35"/><circle cx="10.8" cy="1.6" r=".35"/><circle cx="2.7" cy="2.8" r=".35"/><circle cx="4.5" cy="2.8" r=".35"/><circle cx="6.3" cy="2.8" r=".35"/><circle cx="8.1" cy="2.8" r=".35"/><circle cx="9.9" cy="2.8" r=".35"/><circle cx="1.8" cy="4.0" r=".35"/><circle cx="3.6" cy="4.0" r=".35"/><circle cx="5.4" cy="4.0" r=".35"/><circle cx="7.2" cy="4.0" r=".35"/><circle cx="9.0" cy="4.0" r=".35"/><circle cx="10.8" cy="4.0" r=".35"/><circle cx="2.7" cy="5.2" r=".35"/><circle cx="4.5" cy="5.2" r=".35"/><circle cx="6.3" cy="5.2" r=".35"/><circle cx="8.1" cy="5.2" r=".35"/><circle cx="9.9" cy="5.2" r=".35"/><circle cx="1.8" cy="6.4" r=".35"/><circle cx="3.6" cy="6.4" r=".35"/><circle cx="5.4" cy="6.4" r=".35"/><circle cx="7.2" cy="6.4" r=".35"/><circle cx="9.0" cy="6.4" r=".35"/><circle cx="10.8" cy="6.4" r=".35"/><circle cx="2.7" cy="7.6" r=".35"/><circle cx="4.5" cy="7.6" r=".35"/><circle cx="6.3" cy="7.6" r=".35"/><circle cx="8.1" cy="7.6" r=".35"/><circle cx="9.9" cy="7.6" r=".35"/><circle cx="1.8" cy="8.8" r=".35"/><circle cx="3.6" cy="8.8" r=".35"/><circle cx="5.4" cy="8.8" r=".35"/><circle cx="7.2" cy="8.8" r=".35"/><circle cx="9.0" cy="8.8" r=".35"/><circle cx="10.8" cy="8.8" r=".35"/></g></svg>`,
     de: `<svg viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="6.67" y="0" fill="#111"/><rect width="30" height="6.67" y="6.67" fill="#d11f2e"/><rect width="30" height="6.66" y="13.34" fill="#f4c300"/></svg>`,
     es: `<svg viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="5" y="0" fill="#c8102e"/><rect width="30" height="10" y="5" fill="#f4c300"/><rect width="30" height="5" y="15" fill="#c8102e"/></svg>`,
+    eslatam: `<svg viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <rect width="30" height="20" fill="#ffffff"/>
+  <g transform="translate(7.2 1.65) scale(0.06)">
+    <path
+      d="M 143.9 157.2 L 130.3 148.1 L 115.0 123.2 L 119.3 113.0 L 115.9 108.3 L 127.1 94.0 L 124.0 80.9 L 120.0 79.1 L 116.1 84.1 L 102.1 76.2 L 96.7 66.3 L 49.9 51.7 L 21.6 14.0 L 16.4 13.3 L 31.3 38.4 L 16.1 24.1 L 18.7 21.6 L 10.0 10.0 L 41.1 12.3 L 48.6 19.6 L 57.3 19.2 L 63.0 28.0 L 68.5 29.5 L 66.9 41.1 L 76.4 52.1 L 87.1 48.8 L 88.6 43.8 L 98.0 42.2 L 92.5 58.7 L 108.7 60.5 L 107.5 72.7 L 112.2 78.9 L 119.9 77.1 L 127.9 79.9 L 133.6 72.8 L 142.8 68.8 L 143.0 78.7 L 148.1 69.6 L 153.2 74.3 L 171.7 74.1 L 178.3 79.4 L 180.4 72.7 L 180.9 80.7 L 185.4 83.7 L 186.3 82.2 L 184.3 77.9 L 187.0 76.2 L 185.4 74.0 L 192.3 76.7 L 191.8 79.7 L 197.6 79.0 L 203.1 82.7 L 205.8 88.8 L 214.3 92.4 L 225.7 95.2 L 231.7 100.0 L 235.2 107.8 L 243.8 116.3 L 250.0 124.7 L 249.9 141.1 L 241.5 149.4 L 237.5 164.9 L 234.6 179.4 L 223.3 184.8 L 209.0 189.3 L 204.1 198.5 L 191.8 213.9 L 185.6 222.2 L 171.9 227.2 L 169.1 231.5 L 160.4 235.5 L 160.0 240.5 L 155.7 245.3 L 158.9 249.3 L 150.8 255.7 L 153.0 257.0 L 152.3 261.5 L 142.8 268.3 L 125.3 261.8 L 123.2 250.7 L 129.0 240.4 L 126.6 239.1 L 131.2 228.6 L 132.8 224.2 L 137.6 202.8 L 142.5 185.5 L 142.2 168.0 L 135.6 161.0 Z"
+      fill="none"
+      stroke="#174e6a"
+      stroke-width="12"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+</svg>`,
     pt: `<svg viewBox="0 0 30 20" aria-hidden="true"><rect width="12" height="20" x="0" y="0" fill="#1a7f3b"/><rect width="18" height="20" x="12" y="0" fill="#c8102e"/><circle cx="12" cy="10" r="4.5" fill="#f4c300" opacity="0.95"/></svg>`,
     ptbr: `<svg viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#1a7f3b"/><path d="M15 3 L26 10 L15 17 L4 10 Z" fill="#f4c300"/><circle cx="15" cy="10" r="4" fill="#1f4fbf"/></svg>`,
     it: `<svg viewBox="0 0 30 20" aria-hidden="true"><rect width="10" height="20" x="0" y="0" fill="#1a7f3b"/><rect width="10" height="20" x="10" y="0" fill="#ffffff"/><rect width="10" height="20" x="20" y="0" fill="#c8102e"/></svg>`,

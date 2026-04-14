@@ -135,51 +135,57 @@
     },
     "west_president_ev_023": {
       "title": "Fuite dans les procédures",
+<<<<<<< HEAD
       "body": "Un document sensible circule, une procédure interne se retrouve commentée publiquement, et la sécurité nationale paraît soudain bien mal protégée.",
       "effect": "Défense : -5 par carte",
       "duration": "Durée : 4 cartes"
+=======
+      "body": "Un document circule, une méthode se retrouve commentée en direct, et soudain la sécurité nationale a l’air très bavarde.",
+      "effect": "Effet : le message de la carte s'affiche sans voyelles",
+      "duration": "Durée : 5 cartes"
+>>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
     },
     "west_president_ev_024": {
       "title": "Guerre des petits mots",
       "body": "Des déclarations piquantes s’accumulent entre capitales. Rien de dramatique. Juste assez pour rendre chaque appel pénible.",
-      "effect": "Diplomatie : -5 par carte",
-      "duration": "Durée : 6 cartes"
+      "effect": "Effet : le message de la carte s'affiche sans voyelles",
+      "duration": "Durée : 5 cartes"
     },
     "west_president_ev_025": {
       "title": "Rassemblement populaire",
       "body": "Le pays retrouve un peu de souffle. Des foules se réunissent sans panique, sans scandale, juste avec l’envie d’y croire encore.",
-      "effect": "Opinion publique : +5 par carte",
-      "duration": "Durée : 3 cartes"
+      "effect": "Effet : les choix s'affichent sans voyelles",
+      "duration": "Durée : 5 cartes"
     },
     "west_president_ev_026": {
       "title": "Relance industrielle",
       "body": "Les chaînes repartent, les usines embauchent, et le mot souveraineté redevient soudain rentable.",
-      "effect": "Économie : +5 par carte",
+      "effect": "Effet : les choix s'affichent sans voyelles",
       "duration": "Durée : 5 cartes"
     },
     "west_president_ev_027": {
       "title": "Frontières sous contrôle",
       "body": "La surveillance se resserre, les incidents baissent, et les rapports du matin cessent enfin de provoquer des tics nerveux.",
-      "effect": "Défense : +5 par carte",
-      "duration": "Durée : 4 cartes"
+      "effect": "Effet : le message de la carte s'affiche à l'envers",
+      "duration": "Durée : 5 cartes"
     },
     "west_president_ev_028": {
       "title": "Apaisement international",
       "body": "Les tensions redescendent, les tons deviennent plus mesurés, et ton ministère des Affaires étrangères recommence à dormir un peu.",
-      "effect": "Diplomatie : +5 par carte",
-      "duration": "Durée : 6 cartes"
+      "effect": "Effet : le message de la carte s'affiche à l'envers",
+      "duration": "Durée : 5 cartes"
     },
     "west_president_ev_029": {
       "title": "Conférence de presse ratée",
       "body": "Une phrase de travers, un regard mal interprété, et tout le monde décide que tu voulais dire le pire. La politique est un sport cruel.",
-      "effect": "Opinion publique : -5 par carte",
-      "duration": "Durée : 3 cartes"
+      "effect": "Effet : les choix s'affichent à l'envers",
+      "duration": "Durée : 5 cartes"
     },
     "west_president_ev_030": {
       "title": "Choc extérieur sur le commerce",
       "body": "Un partenaire ralentit, un autre taxe, un troisième hésite. En quelques jours, la mécanique économique tousse sérieusement.",
-      "effect": "Économie : -5 par carte",
-      "duration": "Durée : 7 cartes"
+      "effect": "Effet : les choix s'affichent à l'envers",
+      "duration": "Durée : 5 cartes"
     }
   }
 }

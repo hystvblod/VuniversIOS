@@ -135,51 +135,57 @@
     },
     "west_president_ev_023": {
       "title": "Leak in the Procedures",
+<<<<<<< HEAD
       "body": "A sensitive document is circulating, an internal procedure is being discussed publicly, and national security suddenly looks badly protected.",
       "effect": "Defense: -5 per card",
       "duration": "Duration: 4 cards"
+=======
+      "body": "A document is circulating, a method is being commented on live, and suddenly national security sounds very talkative.",
+      "effect": "Effect: the card message appears without vowels",
+      "duration": "Duration: 5 cards"
+>>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
     },
     "west_president_ev_024": {
       "title": "War of Little Words",
       "body": "Sharp remarks are piling up between capitals. Nothing dramatic. Just enough to make every call painful.",
-      "effect": "Diplomacy: -5 per card",
-      "duration": "Duration: 6 cards"
+      "effect": "Effect: the card message appears without vowels",
+      "duration": "Duration: 5 cards"
     },
     "west_president_ev_025": {
       "title": "Popular Gathering",
       "body": "The country gets a little of its breath back. Crowds gather without panic, without scandal, simply with the desire to believe again.",
-      "effect": "Public Opinion: +5 per card",
-      "duration": "Duration: 3 cards"
+      "effect": "Effect: the choices appear without vowels",
+      "duration": "Duration: 5 cards"
     },
     "west_president_ev_026": {
       "title": "Industrial Recovery",
       "body": "Assembly lines restart, factories hire, and the word sovereignty suddenly becomes profitable again.",
-      "effect": "Economy: +5 per card",
+      "effect": "Effect: the choices appear without vowels",
       "duration": "Duration: 5 cards"
     },
     "west_president_ev_027": {
       "title": "Borders Under Control",
       "body": "Surveillance tightens, incidents decrease, and the morning reports finally stop causing nervous tics.",
-      "effect": "Defense: +5 per card",
-      "duration": "Duration: 4 cards"
+      "effect": "Effect: the card message appears reversed",
+      "duration": "Duration: 5 cards"
     },
     "west_president_ev_028": {
       "title": "International Easing",
       "body": "Tensions are going down, tones are becoming more measured, and your foreign ministry is finally sleeping a little again.",
-      "effect": "Diplomacy: +5 per card",
-      "duration": "Duration: 6 cards"
+      "effect": "Effect: the card message appears reversed",
+      "duration": "Duration: 5 cards"
     },
     "west_president_ev_029": {
       "title": "Botched Press Conference",
       "body": "One wrong sentence, one badly read look, and everyone decides you meant the worst. Politics is a cruel sport.",
-      "effect": "Public Opinion: -5 per card",
-      "duration": "Duration: 3 cards"
+      "effect": "Effect: the choices appear reversed",
+      "duration": "Duration: 5 cards"
     },
     "west_president_ev_030": {
       "title": "External Trade Shock",
       "body": "One partner slows down, another imposes taxes, a third hesitates. In just a few days, the economic machine starts coughing badly.",
-      "effect": "Economy: -5 per card",
-      "duration": "Duration: 7 cards"
+      "effect": "Effect: the choices appear reversed",
+      "duration": "Duration: 5 cards"
     }
   }
 }

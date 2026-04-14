@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "new_world_explorer_ev_001": {
@@ -136,50 +136,56 @@
     "new_world_explorer_ev_023": {
       "title": "Baía segura",
       "body": "A baía está melhor controlada, melhor vigiada e muito mais fácil de reivindicar.",
-      "effect": "Territórios: +5 por carta",
-      "duration": "Duração: 4 cartas"
+      "effect": "Efeito: a mensagem da carta aparece sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "new_world_explorer_ev_024": {
       "title": "Templo ofendido",
       "body": "Um lugar sagrado é perturbado por desleixo ou por orgulho. As portas fecham-se de imediato.",
-      "effect": "População convertida: -5 por carta",
-      "duration": "Duração: 6 cartas"
+      "effect": "Efeito: a mensagem da carta aparece sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "new_world_explorer_ev_025": {
       "title": "Armazém húmido",
       "body": "A humidade ganha terreno nas reservas. Parte do stock perde valor antes sequer de ser vendido.",
-      "effect": "Riquezas: -5 por carta",
-      "duration": "Duração: 3 cartas"
+      "effect": "Efeito: as escolhas aparecem sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "new_world_explorer_ev_026": {
       "title": "Festa da missão",
       "body": "Uma grande festa religiosa reúne o porto e várias aldeias. O momento é bem escolhido e bem conduzido.",
-      "effect": "População convertida: +5 por carta",
+      "effect": "Efeito: as escolhas aparecem sem vogais",
       "duration": "Duração: 5 cartas"
     },
     "new_world_explorer_ev_027": {
       "title": "Tratado da margem",
       "body": "Um acordo simples fixa finalmente quem guarda o quê na costa. É menos glorioso do que uma bandeira, mas muito mais sólido.",
-      "effect": "Territórios: +5 por carta",
-      "duration": "Duração: 4 cartas"
+      "effect": "Efeito: a mensagem da carta aparece invertida",
+      "duration": "Duração: 5 cartas"
     },
     "new_world_explorer_ev_028": {
       "title": "Enviado descontente",
+<<<<<<< HEAD
       "body": "Um enviado real parte com um rosto fechado e um caderno bem cheio. O seu relatório pode prejudicar-nos na corte.",
       "effect": "Apoio real: -5 por carta",
       "duration": "Duração: 6 cartas"
+=======
+      "body": "Um enviado real parte com um rosto fechado e um caderno bem cheio. Nada de bom gosta de atravessar o mar assim.",
+      "effect": "Efeito: a mensagem da carta aparece invertida",
+      "duration": "Duração: 5 cartas"
+>>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
     },
     "new_world_explorer_ev_029": {
       "title": "Mina decepcionante",
       "body": "A mina que se julgava rentável produz sobretudo perdas e fadiga.",
-      "effect": "Riquezas: -5 por carta",
-      "duration": "Duração: 3 cartas"
+      "effect": "Efeito: as escolhas aparecem invertidas",
+      "duration": "Duração: 5 cartas"
     },
     "new_world_explorer_ev_030": {
       "title": "Semana dos baptismos",
       "body": "A missão vive uma semana muito participada. Até os mais prudentes vêm ver mais de perto.",
-      "effect": "População convertida: +5 por carta",
-      "duration": "Duração: 7 cartas"
+      "effect": "Efeito: as escolhas aparecem invertidas",
+      "duration": "Duração: 5 cartas"
     }
   }
 }

@@ -135,51 +135,57 @@
     },
     "west_president_ev_023": {
       "title": "Kebocoran dalam prosedur",
+<<<<<<< HEAD
       "body": "Sebuah dokumen sensitif beredar, prosedur internal dibahas secara terbuka, dan keamanan nasional tiba-tiba terlihat sangat kurang terlindungi.",
       "effect": "Pertahanan: -5 per kartu",
       "duration": "Durasi: 4 kartu"
+=======
+      "body": "Sebuah dokumen beredar, sebuah metode dibahas langsung, dan tiba-tiba keamanan nasional terlihat terlalu banyak bicara.",
+      "effect": "Efek: pesan kartu muncul tanpa huruf vokal",
+      "duration": "Durasi: 5 kartu"
+>>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
     },
     "west_president_ev_024": {
       "title": "Perang kata-kata kecil",
       "body": "Pernyataan tajam menumpuk di antara ibu kota. Tidak ada yang dramatis. Hanya cukup untuk membuat setiap panggilan terasa menyakitkan.",
-      "effect": "Diplomasi: -5 per kartu",
-      "duration": "Durasi: 6 kartu"
+      "effect": "Efek: pesan kartu muncul tanpa huruf vokal",
+      "duration": "Durasi: 5 kartu"
     },
     "west_president_ev_025": {
       "title": "Perkumpulan rakyat",
       "body": "Negara mendapatkan sedikit napas kembali. Kerumunan berkumpul tanpa panik, tanpa skandal, hanya dengan keinginan untuk tetap percaya.",
-      "effect": "Opini publik: +5 per kartu",
-      "duration": "Durasi: 3 kartu"
+      "effect": "Efek: pilihan muncul tanpa huruf vokal",
+      "duration": "Durasi: 5 kartu"
     },
     "west_president_ev_026": {
       "title": "Kebangkitan industri",
       "body": "Lini produksi kembali berjalan, pabrik merekrut, dan kata kedaulatan tiba-tiba kembali menghasilkan keuntungan.",
-      "effect": "Ekonomi: +5 per kartu",
+      "effect": "Efek: pilihan muncul tanpa huruf vokal",
       "duration": "Durasi: 5 kartu"
     },
     "west_president_ev_027": {
       "title": "Perbatasan terkendali",
       "body": "Pengawasan diperketat, insiden menurun, dan laporan pagi akhirnya berhenti memicu kedutan gugup.",
-      "effect": "Pertahanan: +5 per kartu",
-      "duration": "Durasi: 4 kartu"
+      "effect": "Efek: pesan kartu muncul terbalik",
+      "duration": "Durasi: 5 kartu"
     },
     "west_president_ev_028": {
       "title": "Meredanya ketegangan internasional",
       "body": "Ketegangan menurun, nada bicara menjadi lebih terukur, dan kementerian luar negerimu akhirnya bisa tidur sedikit lagi.",
-      "effect": "Diplomasi: +5 per kartu",
-      "duration": "Durasi: 6 kartu"
+      "effect": "Efek: pesan kartu muncul terbalik",
+      "duration": "Durasi: 5 kartu"
     },
     "west_president_ev_029": {
       "title": "Konferensi pers yang gagal",
       "body": "Satu kalimat yang meleset, satu tatapan yang salah dibaca, dan semua orang langsung memutuskan bahwa kamu bermaksud yang paling buruk. Politik memang olahraga yang kejam.",
-      "effect": "Opini publik: -5 per kartu",
-      "duration": "Durasi: 3 kartu"
+      "effect": "Efek: pilihan muncul terbalik",
+      "duration": "Durasi: 5 kartu"
     },
     "west_president_ev_030": {
       "title": "Guncangan eksternal pada perdagangan",
       "body": "Satu mitra melambat, yang lain mengenakan pajak, yang ketiga ragu-ragu. Dalam beberapa hari saja, mesin ekonomi mulai batuk serius.",
-      "effect": "Ekonomi: -5 per kartu",
-      "duration": "Durasi: 7 kartu"
+      "effect": "Efek: pilihan muncul terbalik",
+      "duration": "Durasi: 5 kartu"
     }
   }
 }

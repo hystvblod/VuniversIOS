@@ -2021,25 +2021,25 @@ body[data-universe="intro"].vr-body-game #view-game .vr-choice-label{
 }
 
 body.vr-body-game[data-universe="intro"]{
-  --vr-card-w: clamp(388px, 98vw, 1040px);
+  --vr-card-w: clamp(480px, 99vw, 1240px);
 
-  --vr-scn-h: clamp(198px, 23.5svh, 356px);
-  --vr-choice-h: clamp(96px, 12.9svh, 178px);
+  --vr-scn-h: clamp(270px, 31svh, 500px);
+  --vr-choice-h: clamp(102px, 13.8svh, 196px);
 
-  --vr-scn-inset-top: 10.5%;
-  --vr-scn-inset-right: 11.5%;
-  --vr-scn-inset-bottom: 15.5%;
-  --vr-scn-inset-left: 11.5%;
+  --vr-scn-inset-top: 10%;
+  --vr-scn-inset-right: 10.5%;
+  --vr-scn-inset-bottom: 14%;
+  --vr-scn-inset-left: 10.5%;
 
-  --vr-choice-inset-top: 18%;
-  --vr-choice-inset-right: 11%;
-  --vr-choice-inset-bottom: 18%;
-  --vr-choice-inset-left: 11%;
-  --vr-choice-safe: 74%;
+  --vr-choice-inset-top: 16%;
+  --vr-choice-inset-right: 10%;
+  --vr-choice-inset-bottom: 16%;
+  --vr-choice-inset-left: 10%;
+  --vr-choice-safe: 78%;
 
-  --vr-font-scn-title: clamp(21px, 3.2vmin, 34px);
-  --vr-font-scn-text:  clamp(16px, 2.6vmin, 25px);
-  --vr-font-choice:    clamp(15px, 2.5vmin, 24px);
+  --vr-font-scn-title: clamp(28px, 4.3vmin, 48px);
+  --vr-font-scn-text:  clamp(20px, 3.35vmin, 34px);
+  --vr-font-choice:    clamp(16px, 2.7vmin, 26px);
 
   --vr-topbar-h: calc(clamp(56px, 11vw, 90px) + env(safe-area-inset-top) + 8px);
 
@@ -2355,25 +2355,25 @@ body[data-universe="intro"] .vr-gauge[data-gauge-id="legacy"] .vr-gauge-preview{
 
 @media (max-width: 480px){
   body.vr-body-game[data-universe="intro"]{
-    --vr-card-w: 98.4vw;
+    --vr-card-w: 99vw;
 
-    --vr-scn-h: clamp(176px, 24svh, 248px);
-    --vr-choice-h: clamp(86px, 12.5svh, 132px);
+    --vr-scn-h: clamp(210px, 29svh, 320px);
+    --vr-choice-h: clamp(92px, 13.2svh, 146px);
 
-    --vr-scn-inset-top: 10%;
-    --vr-scn-inset-right: 10.8%;
-    --vr-scn-inset-bottom: 15%;
-    --vr-scn-inset-left: 10.8%;
+    --vr-scn-inset-top: 9.5%;
+    --vr-scn-inset-right: 10%;
+    --vr-scn-inset-bottom: 14%;
+    --vr-scn-inset-left: 10%;
 
-    --vr-choice-inset-top: 16%;
-    --vr-choice-inset-right: 12%;
-    --vr-choice-inset-bottom: 16%;
-    --vr-choice-inset-left: 12%;
-    --vr-choice-safe: 76%;
+    --vr-choice-inset-top: 15%;
+    --vr-choice-inset-right: 11%;
+    --vr-choice-inset-bottom: 15%;
+    --vr-choice-inset-left: 11%;
+    --vr-choice-safe: 80%;
 
-    --vr-font-scn-title: clamp(19px, 5vw, 24px);
-    --vr-font-scn-text: clamp(14.8px, 4.05vw, 18.5px);
-    --vr-font-choice: clamp(14px, 3.7vw, 18px);
+    --vr-font-scn-title: clamp(22px, 6vw, 30px);
+    --vr-font-scn-text: clamp(17px, 4.9vw, 22px);
+    --vr-font-choice: clamp(14.5px, 3.9vw, 19px);
 
     --vr-intro-hud-w: 96vw;
     --vr-intro-hud-value-size: clamp(11px, 2.8vw, 14px);
@@ -5778,21 +5778,61 @@ body.vr-body-game[data-universe] .vr-gauge-label{
   margin: 0 auto;
 }
 
-.vr-guide-overlay.is-event .vr-guide-line--title{
+.vr-guide-overlay.is-event .vr-guide-line--title,
+.vr-guide-overlay.is-major-choice .vr-guide-line--title,
+.vr-guide-overlay.is-major-result .vr-guide-line--title{
   font-size: clamp(22px, 2.8vw, 30px);
 }
 
-.vr-guide-overlay.is-event .vr-guide-line--lead{
+.vr-guide-overlay.is-event .vr-guide-line--lead,
+.vr-guide-overlay.is-major-choice .vr-guide-line--lead,
+.vr-guide-overlay.is-major-result .vr-guide-line--lead{
   font-size: clamp(17px, 2vw, 22px);
 }
 
-.vr-guide-overlay.is-event .vr-guide-line--body{
+.vr-guide-overlay.is-event .vr-guide-line--body,
+.vr-guide-overlay.is-major-choice .vr-guide-line--body,
+.vr-guide-overlay.is-major-result .vr-guide-line--body{
   font-size: clamp(14px, 1.6vw, 18px);
 }
 
 .vr-guide-overlay.is-final .vr-guide-bubble-text{
   background: rgba(12, 16, 32, 0.92);
   border-color: rgba(255,255,255,0.16);
+}
+
+@keyframes vrGuideBgShakeEventLoop{
+  0%   { transform: translate3d(0, 0, 0); }
+  12%  { transform: translate3d(-1px, 0.35px, 0); }
+  24%  { transform: translate3d(1px, -0.35px, 0); }
+  36%  { transform: translate3d(-0.8px, 0.25px, 0); }
+  48%  { transform: translate3d(0.8px, -0.25px, 0); }
+  60%  { transform: translate3d(-0.7px, 0.2px, 0); }
+  72%  { transform: translate3d(0.7px, -0.2px, 0); }
+  84%  { transform: translate3d(-0.5px, 0.15px, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+@keyframes vrGuideBgShakeMajorLoop{
+  0%   { transform: translate3d(0, 0, 0); }
+  12%  { transform: translate3d(-1.8px, 0.55px, 0); }
+  24%  { transform: translate3d(1.8px, -0.55px, 0); }
+  36%  { transform: translate3d(-1.5px, 0.45px, 0); }
+  48%  { transform: translate3d(1.5px, -0.45px, 0); }
+  60%  { transform: translate3d(-1.2px, 0.35px, 0); }
+  72%  { transform: translate3d(1.2px, -0.35px, 0); }
+  84%  { transform: translate3d(-0.8px, 0.2px, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+#view-game.vr-guide-bg-shake-event > *:not(.vr-guide-overlay):not(.vr-popup):not(.vr-ending-overlay):not(.vr-token-gauge-overlay){
+  animation: vrGuideBgShakeEventLoop 0.95s ease-in-out infinite;
+  will-change: transform;
+}
+
+#view-game.vr-guide-bg-shake-major > *:not(.vr-guide-overlay):not(.vr-popup):not(.vr-ending-overlay):not(.vr-token-gauge-overlay){
+  animation: vrGuideBgShakeMajorLoop 0.82s ease-in-out infinite;
+  will-change: transform;
 }
 
 @media (max-width: 600px){

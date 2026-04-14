@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "new_world_explorer_ev_001": {
@@ -136,50 +136,56 @@
     "new_world_explorer_ev_023": {
       "title": "Teluk yang aman",
       "body": "Teluk itu kini lebih terjaga, lebih diawasi, dan jauh lebih mudah untuk diklaim.",
-      "effect": "Wilayah: +5 per kartu",
-      "duration": "Durasi: 4 kartu"
+      "effect": "Efek: pesan kartu muncul tanpa huruf vokal",
+      "duration": "Durasi: 5 kartu"
     },
     "new_world_explorer_ev_024": {
       "title": "Kuil yang tersinggung",
       "body": "Sebuah tempat suci terganggu karena keteledoran atau kesombongan. Pintu-pintu langsung tertutup.",
-      "effect": "Populasi yang berpindah keyakinan: -5 per kartu",
-      "duration": "Durasi: 6 kartu"
+      "effect": "Efek: pesan kartu muncul tanpa huruf vokal",
+      "duration": "Durasi: 5 kartu"
     },
     "new_world_explorer_ev_025": {
       "title": "Gudang lembap",
       "body": "Kelembapan merambah persediaan. Sebagian stok kehilangan nilainya bahkan sebelum dijual.",
-      "effect": "Kekayaan: -5 per kartu",
-      "duration": "Durasi: 3 kartu"
+      "effect": "Efek: pilihan muncul tanpa huruf vokal",
+      "duration": "Durasi: 5 kartu"
     },
     "new_world_explorer_ev_026": {
       "title": "Perayaan misi",
       "body": "Sebuah perayaan besar keagamaan mengumpulkan pelabuhan dan beberapa desa. Momennya dipilih dengan baik dan dijalankan dengan baik.",
-      "effect": "Populasi yang berpindah keyakinan: +5 per kartu",
+      "effect": "Efek: pilihan muncul tanpa huruf vokal",
       "duration": "Durasi: 5 kartu"
     },
     "new_world_explorer_ev_027": {
       "title": "Perjanjian pesisir",
       "body": "Sebuah kesepakatan sederhana akhirnya menetapkan siapa yang menjaga apa di pantai. Tidak segemilang bendera, tetapi jauh lebih kokoh.",
-      "effect": "Wilayah: +5 per kartu",
-      "duration": "Durasi: 4 kartu"
+      "effect": "Efek: pesan kartu muncul terbalik",
+      "duration": "Durasi: 5 kartu"
     },
     "new_world_explorer_ev_028": {
       "title": "Utusan yang kecewa",
+<<<<<<< HEAD
       "body": "Seorang utusan kerajaan pergi dengan wajah tertutup dan buku catatan yang penuh. Laporannya bisa merugikan kita di istana.",
       "effect": "Dukungan kerajaan: -5 per kartu",
       "duration": "Durasi: 6 kartu"
+=======
+      "body": "Seorang utusan kerajaan pergi dengan wajah tertutup dan buku catatan yang penuh. Tidak ada hal baik yang suka menyeberangi laut seperti itu.",
+      "effect": "Efek: pesan kartu muncul terbalik",
+      "duration": "Durasi: 5 kartu"
+>>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
     },
     "new_world_explorer_ev_029": {
       "title": "Tambang yang mengecewakan",
       "body": "Tambang yang dianggap menguntungkan itu justru lebih banyak menghasilkan kerugian dan kelelahan.",
-      "effect": "Kekayaan: -5 per kartu",
-      "duration": "Durasi: 3 kartu"
+      "effect": "Efek: pilihan muncul terbalik",
+      "duration": "Durasi: 5 kartu"
     },
     "new_world_explorer_ev_030": {
       "title": "Minggu pembaptisan",
       "body": "Misi mengalami satu minggu yang sangat ramai. Bahkan mereka yang paling berhati-hati datang untuk melihat lebih dekat.",
-      "effect": "Populasi yang berpindah keyakinan: +5 per kartu",
-      "duration": "Durasi: 7 kartu"
+      "effect": "Efek: pilihan muncul terbalik",
+      "duration": "Durasi: 5 kartu"
     }
   }
 }

@@ -136,50 +136,50 @@
     "vampire_lord_ev_023": {
       "title": "Night Bank",
       "body": "A discreet deal with a nocturnal network supplies the cellars. Stocks finally rise again.",
-      "effect": "Blood: +5 per card",
-      "duration": "Duration: 4 cards"
+      "effect": "Effect: the card message appears without vowels",
+      "duration": "Duration: 5 cards"
     },
     "vampire_lord_ev_024": {
       "title": "Methodical Huntress",
       "body": "A very serious huntress maps your habits. She moves without noise and without mistakes.",
-      "effect": "Hunters: +5 per card",
-      "duration": "Duration: 6 cards"
+      "effect": "Effect: the card message appears without vowels",
+      "duration": "Duration: 5 cards"
     },
     "vampire_lord_ev_025": {
       "title": "Contested Order",
       "body": "Your rules are judged too harsh by part of the clan. The whispers return.",
-      "effect": "Clan: -5 per card",
-      "duration": "Duration: 3 cards"
+      "effect": "Effect: the choices appear without vowels",
+      "duration": "Duration: 5 cards"
     },
     "vampire_lord_ev_026": {
       "title": "Distracted Dog",
       "body": "The hunters' dog is led onto another trail. Their team searches in the wrong place.",
-      "effect": "Hunters: -5 per card",
+      "effect": "Effect: the choices appear without vowels",
       "duration": "Duration: 5 cards"
     },
     "vampire_lord_ev_027": {
       "title": "Cold Reserve",
       "body": "The cellars hold steady and the stock remains perfect. A night like this almost deserves a smile.",
-      "effect": "Blood: +5 per card",
-      "duration": "Duration: 4 cards"
+      "effect": "Effect: the card message appears reversed",
+      "duration": "Duration: 5 cards"
     },
     "vampire_lord_ev_028": {
       "title": "Nervous Witness",
       "body": "A human witness talks too fast to too many people. Secrecy takes a hit.",
-      "effect": "Secrecy: -5 per card",
-      "duration": "Duration: 6 cards"
+      "effect": "Effect: the card message appears reversed",
+      "duration": "Duration: 5 cards"
     },
     "vampire_lord_ev_029": {
       "title": "Postponed Duel",
       "body": "A duel of pride is still poisoning the lair. The clan divides instead of hunting.",
-      "effect": "Clan: -5 per card",
-      "duration": "Duration: 3 cards"
+      "effect": "Effect: the choices appear reversed",
+      "duration": "Duration: 5 cards"
     },
     "vampire_lord_ev_030": {
       "title": "Silence of the Faithful",
       "body": "The faithful obey and stay quiet. Nothing leaks, nothing sticks out.",
-      "effect": "Secrecy: +5 per card",
-      "duration": "Duration: 7 cards"
+      "effect": "Effect: the choices appear reversed",
+      "duration": "Duration: 5 cards"
     }
   }
 }

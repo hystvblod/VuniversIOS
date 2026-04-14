@@ -135,51 +135,57 @@
     },
     "west_president_ev_023": {
       "title": "Vazamento nos procedimentos",
+<<<<<<< HEAD
       "body": "Um documento sensível está circulando, um procedimento interno passou a ser comentado publicamente, e a segurança nacional de repente parece muito mal protegida.",
       "effect": "Defesa: -5 por carta",
       "duration": "Duração: 4 cartas"
+=======
+      "body": "Um documento circula, um método aparece comentado ao vivo, e de repente a segurança nacional parece falante demais.",
+      "effect": "Efeito: a mensagem da carta aparece sem vogais",
+      "duration": "Duração: 5 cartas"
+>>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
     },
     "west_president_ev_024": {
       "title": "Guerra das pequenas palavras",
       "body": "Declarações afiadas se acumulam entre capitais. Nada dramático. Só o bastante para tornar cada ligação desagradável.",
-      "effect": "Diplomacia: -5 por carta",
-      "duration": "Duração: 6 cartas"
+      "effect": "Efeito: a mensagem da carta aparece sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "west_president_ev_025": {
       "title": "Reunião popular",
       "body": "O país recupera um pouco do fôlego. Multidões se reúnem sem pânico, sem escândalo, apenas com vontade de continuar acreditando.",
-      "effect": "Opinião pública: +5 por carta",
-      "duration": "Duração: 3 cartas"
+      "effect": "Efeito: as escolhas aparecem sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "west_president_ev_026": {
       "title": "Retomada industrial",
       "body": "As linhas voltam a funcionar, as fábricas contratam, e a palavra soberania de repente volta a dar lucro.",
-      "effect": "Economia: +5 por carta",
+      "effect": "Efeito: as escolhas aparecem sem vogais",
       "duration": "Duração: 5 cartas"
     },
     "west_president_ev_027": {
       "title": "Fronteiras sob controle",
       "body": "A vigilância se reforça, os incidentes diminuem, e os relatórios da manhã finalmente deixam de provocar tiques nervosos.",
-      "effect": "Defesa: +5 por carta",
-      "duration": "Duração: 4 cartas"
+      "effect": "Efeito: a mensagem da carta aparece invertida",
+      "duration": "Duração: 5 cartas"
     },
     "west_president_ev_028": {
       "title": "Calmaria internacional",
       "body": "As tensões diminuem, os tons ficam mais moderados, e seu ministério das Relações Exteriores volta a dormir um pouco.",
-      "effect": "Diplomacia: +5 por carta",
-      "duration": "Duração: 6 cartas"
+      "effect": "Efeito: a mensagem da carta aparece invertida",
+      "duration": "Duração: 5 cartas"
     },
     "west_president_ev_029": {
       "title": "Coletiva de imprensa fracassada",
       "body": "Uma frase torta, um olhar mal interpretado, e todo mundo decide que você quis dizer o pior. A política é um esporte cruel.",
-      "effect": "Opinião pública: -5 por carta",
-      "duration": "Duração: 3 cartas"
+      "effect": "Efeito: as escolhas aparecem invertidas",
+      "duration": "Duração: 5 cartas"
     },
     "west_president_ev_030": {
       "title": "Choque externo no comércio",
       "body": "Um parceiro desacelera, outro taxa, um terceiro hesita. Em poucos dias, a engrenagem econômica começa a tossir seriamente.",
-      "effect": "Economia: -5 por carta",
-      "duration": "Duração: 7 cartas"
+      "effect": "Efeito: as escolhas aparecem invertidas",
+      "duration": "Duração: 5 cartas"
     }
   }
 }
