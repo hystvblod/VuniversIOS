@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "new_world_explorer_ev_001": {
@@ -136,50 +136,50 @@
     "new_world_explorer_ev_023": {
       "title": "Baie sécurisée",
       "body": "La baie est mieux tenue, mieux surveillée, et beaucoup plus facile à revendiquer.",
-      "effect": "Territoires : +5 par carte",
-      "duration": "Durée : 4 cartes"
+      "effect": "Effet : le message de la carte s'affiche sans voyelles",
+      "duration": "Durée : 5 cartes"
     },
     "new_world_explorer_ev_024": {
       "title": "Temple offensé",
       "body": "Un lieu sacré est bousculé par maladresse ou par orgueil. Les portes se ferment aussitôt.",
-      "effect": "Population convertie : -5 par carte",
-      "duration": "Durée : 6 cartes"
+      "effect": "Effet : le message de la carte s'affiche sans voyelles",
+      "duration": "Durée : 5 cartes"
     },
     "new_world_explorer_ev_025": {
       "title": "Entrepôt humide",
       "body": "L'humidité gagne les réserves. Une partie du stock perd sa valeur avant même d'être vendue.",
-      "effect": "Richesses : -5 par carte",
-      "duration": "Durée : 3 cartes"
+      "effect": "Effet : les choix s'affichent sans voyelles",
+      "duration": "Durée : 5 cartes"
     },
     "new_world_explorer_ev_026": {
       "title": "Fête de la mission",
       "body": "Une grande fête religieuse rassemble le port et plusieurs villages. Le moment est bien choisi et bien tenu.",
-      "effect": "Population convertie : +5 par carte",
+      "effect": "Effet : les choix s'affichent sans voyelles",
       "duration": "Durée : 5 cartes"
     },
     "new_world_explorer_ev_027": {
       "title": "Traité de rive",
       "body": "Un accord simple fixe enfin qui garde quoi sur la côte. C'est moins glorieux qu'un drapeau, mais bien plus solide.",
-      "effect": "Territoires : +5 par carte",
-      "duration": "Durée : 4 cartes"
+      "effect": "Effet : le message de la carte s'affiche à l'envers",
+      "duration": "Durée : 5 cartes"
     },
     "new_world_explorer_ev_028": {
       "title": "Envoyé mécontent",
       "body": "Un envoyé royal repart avec un visage fermé et un carnet bien rempli. Rien de bon n'aime traverser la mer ainsi.",
-      "effect": "Appui royal : -5 par carte",
-      "duration": "Durée : 6 cartes"
+      "effect": "Effet : le message de la carte s'affiche à l'envers",
+      "duration": "Durée : 5 cartes"
     },
     "new_world_explorer_ev_029": {
       "title": "Mine décevante",
       "body": "La mine qu’on pensait rentable produit surtout des pertes et de la fatigue.",
-      "effect": "Richesses : -5 par carte",
-      "duration": "Durée : 3 cartes"
+      "effect": "Effet : les choix s'affichent à l'envers",
+      "duration": "Durée : 5 cartes"
     },
     "new_world_explorer_ev_030": {
       "title": "Semaine des baptêmes",
       "body": "La mission connaît une semaine très suivie. Même les plus prudents viennent regarder de plus près.",
-      "effect": "Population convertie : +5 par carte",
-      "duration": "Durée : 7 cartes"
+      "effect": "Effet : les choix s'affichent à l'envers",
+      "duration": "Durée : 5 cartes"
     }
   }
 }

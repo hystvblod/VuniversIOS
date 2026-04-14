@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "west_president_ev_001": {
@@ -136,50 +136,50 @@
     "west_president_ev_023": {
       "title": "Fuga nelle procedure",
       "body": "Un documento circola, un metodo finisce commentato in diretta e all’improvviso la sicurezza nazionale sembra molto loquace.",
-      "effect": "Difesa: -5 per carta",
-      "duration": "Durata: 4 carte"
+      "effect": "Effetto: il messaggio della carta appare senza vocali",
+      "duration": "Durata: 5 carte"
     },
     "west_president_ev_024": {
       "title": "Guerra di piccole parole",
       "body": "Si accumulano dichiarazioni pungenti tra capitali. Nulla di drammatico. Solo abbastanza da rendere ogni chiamata penosa.",
-      "effect": "Diplomazia: -5 per carta",
-      "duration": "Durata: 6 carte"
+      "effect": "Effetto: il messaggio della carta appare senza vocali",
+      "duration": "Durata: 5 carte"
     },
     "west_president_ev_025": {
       "title": "Raduno popolare",
       "body": "Il paese ritrova un po’ di respiro. Le folle si riuniscono senza panico, senza scandalo, solo con la voglia di continuare a crederci.",
-      "effect": "Opinione pubblica: +5 per carta",
-      "duration": "Durata: 3 carte"
+      "effect": "Effetto: le scelte appaiono senza vocali",
+      "duration": "Durata: 5 carte"
     },
     "west_president_ev_026": {
       "title": "Rilancio industriale",
       "body": "Le linee ripartono, le fabbriche assumono e la parola sovranità torna improvvisamente a essere redditizia.",
-      "effect": "Economia: +5 per carta",
+      "effect": "Effetto: le scelte appaiono senza vocali",
       "duration": "Durata: 5 carte"
     },
     "west_president_ev_027": {
       "title": "Frontiere sotto controllo",
       "body": "La sorveglianza si stringe, gli incidenti diminuiscono e i rapporti del mattino smettono finalmente di provocare tic nervosi.",
-      "effect": "Difesa: +5 per carta",
-      "duration": "Durata: 4 carte"
+      "effect": "Effetto: il messaggio della carta appare al contrario",
+      "duration": "Durata: 5 carte"
     },
     "west_president_ev_028": {
       "title": "Calma internazionale",
       "body": "Le tensioni scendono, i toni diventano più misurati e il tuo ministero degli Esteri ricomincia finalmente a dormire un po’.",
-      "effect": "Diplomazia: +5 per carta",
-      "duration": "Durata: 6 carte"
+      "effect": "Effetto: il messaggio della carta appare al contrario",
+      "duration": "Durata: 5 carte"
     },
     "west_president_ev_029": {
       "title": "Conferenza stampa fallita",
       "body": "Una frase sbagliata, uno sguardo letto male, e tutti decidono che volevi dire il peggio. La politica è uno sport crudele.",
-      "effect": "Opinione pubblica: -5 per carta",
-      "duration": "Durata: 3 carte"
+      "effect": "Effetto: le scelte appaiono al contrario",
+      "duration": "Durata: 5 carte"
     },
     "west_president_ev_030": {
       "title": "Shock esterno sul commercio",
       "body": "Un partner rallenta, un altro tassa, un terzo esita. In pochi giorni, il meccanismo economico comincia a tossire sul serio.",
-      "effect": "Economia: -5 per carta",
-      "duration": "Durata: 7 carte"
+      "effect": "Effetto: le scelte appaiono al contrario",
+      "duration": "Durata: 5 carte"
     }
   }
 }

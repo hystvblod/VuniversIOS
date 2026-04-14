@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "heaven_king_ev_001": {
@@ -136,50 +136,50 @@
     "heaven_king_ev_023": {
       "title": "Mani Giunte",
       "body": "Gli appelli sinceri salgono con calore. È semplice, umile e molto efficace.",
-      "effect": "Preghiere: +5 per carta",
-      "duration": "Durata: 4 carte"
+      "effect": "Effetto: il messaggio della carta appare senza vocali",
+      "duration": "Durata: 5 carte"
     },
     "heaven_king_ev_024": {
       "title": "Ondata di Autonomia",
       "body": "I mortali vogliono decidere da soli. Il cielo esita tra ammirazione e un piccolo tic nervoso.",
-      "effect": "Libero arbitrio: -5 per carta",
-      "duration": "Durata: 6 carte"
+      "effect": "Effetto: il messaggio della carta appare senza vocali",
+      "duration": "Durata: 5 carte"
     },
     "heaven_king_ev_025": {
       "title": "Tempio Mezzo Vuoto",
       "body": "I luoghi di culto si svuotano un po’. Non è grave, ma il calo è visibile.",
-      "effect": "Culto: -5 per carta",
-      "duration": "Durata: 3 carte"
+      "effect": "Effetto: le scelte appaiono senza vocali",
+      "duration": "Durata: 5 carte"
     },
     "heaven_king_ev_026": {
       "title": "Grande Risveglio Interiore",
       "body": "Le coscienze si illuminano, le decisioni si raddrizzano, e il destino deve condividere la scena.",
-      "effect": "Libero arbitrio: +5 per carta",
+      "effect": "Effetto: le scelte appaiono senza vocali",
       "duration": "Durata: 5 carte"
     },
     "heaven_king_ev_027": {
       "title": "Coro di Cuori Sinceri",
       "body": "Le preghiere salgono senza scenografia, senza posa, solo vere. Il cielo adora quando tutto resta sobrio.",
-      "effect": "Preghiere: +5 per carta",
-      "duration": "Durata: 4 carte"
+      "effect": "Effetto: il messaggio della carta appare al contrario",
+      "duration": "Durata: 5 carte"
     },
     "heaven_king_ev_028": {
       "title": "Pausa Celeste",
       "body": "Gli interventi si fanno più rari per un certo periodo. Il cielo sceglie di lasciare più autonomia.",
-      "effect": "Intervento: -5 per carta",
-      "duration": "Durata: 6 carte"
+      "effect": "Effetto: il messaggio della carta appare al contrario",
+      "duration": "Durata: 5 carte"
     },
     "heaven_king_ev_029": {
       "title": "Rito un Po' Troppo Lungo",
       "body": "Il culto si prolunga troppo e l’attenzione cala.",
-      "effect": "Culto: -5 per carta",
-      "duration": "Durata: 3 carte"
+      "effect": "Effetto: le scelte appaiono al contrario",
+      "duration": "Durata: 5 carte"
     },
     "heaven_king_ev_030": {
       "title": "Slancio Libero",
       "body": "Il mondo avanza da solo in modo impressionante. Per il cielo è qualcosa di bello e frustrante allo stesso tempo.",
-      "effect": "Libero arbitrio: +5 per carta",
-      "duration": "Durata: 7 carte"
+      "effect": "Effetto: le scelte appaiono al contrario",
+      "duration": "Durata: 5 carte"
     }
   }
 }

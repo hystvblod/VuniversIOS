@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "mega_corp_ceo_ev_001": {
@@ -136,50 +136,50 @@
     "mega_corp_ceo_ev_023": {
       "title": "Obiettivo superato",
       "body": "Un indicatore chiave supera le aspettative. Gli investitori adorano quando sono i numeri a fare il lavoro per te.",
-      "effect": "Investitori: +5 per carta",
-      "duration": "Durata: 4 carte"
+      "effect": "Effetto: il messaggio della carta appare senza vocali",
+      "duration": "Durata: 5 carte"
     },
     "mega_corp_ceo_ev_024": {
       "title": "Clausola ambigua",
       "body": "Una vecchia clausola attira all'improvviso una nuova attenzione. I giuristi aggrottano la fronte in serie.",
-      "effect": "Autorità di controllo: -5 per carta",
-      "duration": "Durata: 6 carte"
+      "effect": "Effetto: il messaggio della carta appare senza vocali",
+      "duration": "Durata: 5 carte"
     },
     "mega_corp_ceo_ev_025": {
       "title": "Riorganizzazione brutale",
       "body": "Il nuovo organigramma corre veloce. Anche i dipendenti, ma più verso l'uscita.",
-      "effect": "Dipendenti: -5 per carta",
-      "duration": "Durata: 3 carte"
+      "effect": "Effetto: le scelte appaiono senza vocali",
+      "duration": "Durata: 5 carte"
     },
     "mega_corp_ceo_ev_026": {
       "title": "Certificazione ottenuta",
       "body": "Una certificazione importante arriva finalmente. È ufficiale, timbrata e molto pratica da mostrare ovunque.",
-      "effect": "Autorità di controllo: +5 per carta",
+      "effect": "Effetto: le scelte appaiono senza vocali",
       "duration": "Durata: 5 carte"
     },
     "mega_corp_ceo_ev_027": {
       "title": "Dividendo applaudito",
       "body": "Il pagamento annunciato calma parecchi nervi. L'amore del mercato resta interessato, ma torna in fretta.",
-      "effect": "Investitori: +5 per carta",
-      "duration": "Durata: 4 carte"
+      "effect": "Effetto: il messaggio della carta appare al contrario",
+      "duration": "Durata: 5 carte"
     },
     "mega_corp_ceo_ev_028": {
       "title": "Foto sfortunata",
       "body": "Un’immagine scattata nel momento sbagliato diventa virale. Internet la trasforma in una battuta.",
-      "effect": "Immagine del marchio: -5 per carta",
-      "duration": "Durata: 6 carte"
+      "effect": "Effetto: il messaggio della carta appare al contrario",
+      "duration": "Durata: 5 carte"
     },
     "mega_corp_ceo_ev_029": {
       "title": "Troppe riunioni",
       "body": "Le agende traboccano e i team vanno in saturazione. Nessuno sa più quando inizi il vero lavoro.",
-      "effect": "Dipendenti: -5 per carta",
-      "duration": "Durata: 3 carte"
+      "effect": "Effetto: le scelte appaiono al contrario",
+      "duration": "Durata: 5 carte"
     },
     "mega_corp_ceo_ev_030": {
       "title": "Tappeto rosso normativo",
       "body": "Le autorità citano il tuo gruppo come esempio. È raro, quindi rende moltissimo in credibilità.",
-      "effect": "Autorità di controllo: +5 per carta",
-      "duration": "Durata: 7 carte"
+      "effect": "Effetto: le scelte appaiono al contrario",
+      "duration": "Durata: 5 carte"
     }
   }
 }

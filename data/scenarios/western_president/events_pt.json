@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "west_president_ev_001": {
@@ -136,50 +136,50 @@
     "west_president_ev_023": {
       "title": "Fuga nos procedimentos",
       "body": "Um documento circula, um método é comentado em direto, e de repente a segurança nacional parece muito faladora.",
-      "effect": "Defesa: -5 por carta",
-      "duration": "Duração: 4 cartas"
+      "effect": "Efeito: a mensagem da carta aparece sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "west_president_ev_024": {
       "title": "Guerra das pequenas palavras",
       "body": "Acumulam-se declarações mordazes entre capitais. Nada de dramático. Apenas o suficiente para tornar cada chamada penosa.",
-      "effect": "Diplomacia: -5 por carta",
-      "duration": "Duração: 6 cartas"
+      "effect": "Efeito: a mensagem da carta aparece sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "west_president_ev_025": {
       "title": "Ajuntamento popular",
       "body": "O país recupera algum fôlego. Multidões reúnem-se sem pânico, sem escândalo, apenas com vontade de voltar a acreditar.",
-      "effect": "Opinião pública: +5 por carta",
-      "duration": "Duração: 3 cartas"
+      "effect": "Efeito: as escolhas aparecem sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "west_president_ev_026": {
       "title": "Relançamento industrial",
       "body": "As linhas voltam a arrancar, as fábricas contratam, e a palavra soberania volta subitamente a ser rentável.",
-      "effect": "Economia: +5 por carta",
+      "effect": "Efeito: as escolhas aparecem sem vogais",
       "duration": "Duração: 5 cartas"
     },
     "west_president_ev_027": {
       "title": "Fronteiras sob controlo",
       "body": "A vigilância aperta, os incidentes diminuem, e os relatórios da manhã deixam finalmente de provocar tiques nervosos.",
-      "effect": "Defesa: +5 por carta",
-      "duration": "Duração: 4 cartas"
+      "effect": "Efeito: a mensagem da carta aparece invertida",
+      "duration": "Duração: 5 cartas"
     },
     "west_president_ev_028": {
       "title": "Apaziguamento internacional",
       "body": "As tensões descem, os tons tornam-se mais medidos, e o teu ministério dos Negócios Estrangeiros volta a dormir um pouco.",
-      "effect": "Diplomacia: +5 por carta",
-      "duration": "Duração: 6 cartas"
+      "effect": "Efeito: a mensagem da carta aparece invertida",
+      "duration": "Duração: 5 cartas"
     },
     "west_president_ev_029": {
       "title": "Conferência de imprensa falhada",
       "body": "Uma frase torta, um olhar mal interpretado, e toda a gente decide que querias dizer o pior. A política é um desporto cruel.",
-      "effect": "Opinião pública: -5 por carta",
-      "duration": "Duração: 3 cartas"
+      "effect": "Efeito: as escolhas aparecem invertidas",
+      "duration": "Duração: 5 cartas"
     },
     "west_president_ev_030": {
       "title": "Choque externo no comércio",
       "body": "Um parceiro abranda, outro impõe taxas, um terceiro hesita. Em poucos dias, a máquina económica começa a tossir a sério.",
-      "effect": "Economia: -5 por carta",
-      "duration": "Duração: 7 cartas"
+      "effect": "Efeito: as escolhas aparecem invertidas",
+      "duration": "Duração: 5 cartas"
     }
   }
 }

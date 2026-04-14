@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "mega_corp_ceo_ev_001": {
@@ -136,50 +136,50 @@
     "mega_corp_ceo_ev_023": {
       "title": "Ziel übertroffen",
       "body": "Ein Schlüsselindikator übertrifft die Erwartungen. Investoren lieben es, wenn Zahlen die Arbeit für dich machen.",
-      "effect": "Investoren: +5 pro Karte",
-      "duration": "Dauer: 4 Karten"
+      "effect": "Effekt: Der Kartentext erscheint ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "mega_corp_ceo_ev_024": {
       "title": "Mehrdeutige Klausel",
       "body": "Eine alte Klausel zieht plötzlich neue Aufmerksamkeit auf sich. Die Juristen runzeln reihenweise die Stirn.",
-      "effect": "Aufsichtsbehörden: -5 pro Karte",
-      "duration": "Dauer: 6 Karten"
+      "effect": "Effekt: Der Kartentext erscheint ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "mega_corp_ceo_ev_025": {
       "title": "Brutale Reorganisation",
       "body": "Das neue Organigramm geht schnell. Die Mitarbeitenden auch, aber eher Richtung Ausgang.",
-      "effect": "Mitarbeitende: -5 pro Karte",
-      "duration": "Dauer: 3 Karten"
+      "effect": "Effekt: Die Antworten erscheinen ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "mega_corp_ceo_ev_026": {
       "title": "Zertifizierung erhalten",
       "body": "Eine wichtige Zertifizierung kommt endlich an. Sie ist offiziell, abgestempelt und sehr praktisch, um sie überall zu zeigen.",
-      "effect": "Aufsichtsbehörden: +5 pro Karte",
+      "effect": "Effekt: Die Antworten erscheinen ohne Vokale",
       "duration": "Dauer: 5 Karten"
     },
     "mega_corp_ceo_ev_027": {
       "title": "Bejubelte Dividende",
       "body": "Die angekündigte Auszahlung beruhigt viele Nerven. Die Liebe des Marktes bleibt eigennützig, aber sie kehrt schnell zurück.",
-      "effect": "Investoren: +5 pro Karte",
-      "duration": "Dauer: 4 Karten"
+      "effect": "Effekt: Der Kartentext wird rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "mega_corp_ceo_ev_028": {
       "title": "Unglückliches Foto",
       "body": "Ein im falschen Moment aufgenommenes Bild geht viral. Das Internet macht einen Witz daraus.",
-      "effect": "Markenimage: -5 pro Karte",
-      "duration": "Dauer: 6 Karten"
+      "effect": "Effekt: Der Kartentext wird rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "mega_corp_ceo_ev_029": {
       "title": "Zu viele Meetings",
       "body": "Die Kalender laufen über und die Teams sind gesättigt. Niemand weiß noch, wann die echte Arbeit anfangen soll.",
-      "effect": "Mitarbeitende: -5 pro Karte",
-      "duration": "Dauer: 3 Karten"
+      "effect": "Effekt: Die Antworten werden rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "mega_corp_ceo_ev_030": {
       "title": "Regulatorischer roter Teppich",
       "body": "Die Behörden nennen deinen Konzern als Beispiel. Das ist selten und zahlt stark auf die Glaubwürdigkeit ein.",
-      "effect": "Aufsichtsbehörden: +5 pro Karte",
-      "duration": "Dauer: 7 Karten"
+      "effect": "Effekt: Die Antworten werden rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     }
   }
 }

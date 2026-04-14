@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "mega_corp_ceo_ev_001": {
@@ -136,50 +136,50 @@
     "mega_corp_ceo_ev_023": {
       "title": "Objetivo superado",
       "body": "Um indicador-chave supera as expectativas. Os investidores adoram quando os números fazem o trabalho por ti.",
-      "effect": "Investidores: +5 por carta",
-      "duration": "Duração: 4 cartas"
+      "effect": "Efeito: a mensagem da carta aparece sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "mega_corp_ceo_ev_024": {
       "title": "Cláusula ambígua",
       "body": "Uma cláusula antiga atrai de repente uma nova atenção. Os juristas franzem o sobrolho em cadeia.",
-      "effect": "Reguladores: -5 por carta",
-      "duration": "Duração: 6 cartas"
+      "effect": "Efeito: a mensagem da carta aparece sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "mega_corp_ceo_ev_025": {
       "title": "Reorganização brutal",
       "body": "O novo organigrama avança depressa. Os funcionários também, mas mais para a saída.",
-      "effect": "Funcionários: -5 por carta",
-      "duration": "Duração: 3 cartas"
+      "effect": "Efeito: as escolhas aparecem sem vogais",
+      "duration": "Duração: 5 cartas"
     },
     "mega_corp_ceo_ev_026": {
       "title": "Certificação obtida",
       "body": "Uma certificação importante chega finalmente. É oficial, carimbada e muito prática para mostrar em todo o lado.",
-      "effect": "Reguladores: +5 por carta",
+      "effect": "Efeito: as escolhas aparecem sem vogais",
       "duration": "Duração: 5 cartas"
     },
     "mega_corp_ceo_ev_027": {
       "title": "Dividendo aplaudido",
       "body": "O pagamento anunciado acalma muitos nervos. O amor do mercado continua interesseiro, mas volta depressa.",
-      "effect": "Investidores: +5 por carta",
-      "duration": "Duração: 4 cartas"
+      "effect": "Efeito: a mensagem da carta aparece invertida",
+      "duration": "Duração: 5 cartas"
     },
     "mega_corp_ceo_ev_028": {
       "title": "Fotografia infeliz",
       "body": "Uma imagem captada no pior momento torna-se viral. A internet transforma-a numa piada.",
-      "effect": "Imagem da marca: -5 por carta",
-      "duration": "Duração: 6 cartas"
+      "effect": "Efeito: a mensagem da carta aparece invertida",
+      "duration": "Duração: 5 cartas"
     },
     "mega_corp_ceo_ev_029": {
       "title": "Reuniões a mais",
       "body": "As agendas transbordam e as equipas saturam. Já ninguém sabe quando começa o trabalho real.",
-      "effect": "Funcionários: -5 por carta",
-      "duration": "Duração: 3 cartas"
+      "effect": "Efeito: as escolhas aparecem invertidas",
+      "duration": "Duração: 5 cartas"
     },
     "mega_corp_ceo_ev_030": {
       "title": "Passadeira vermelha regulatória",
       "body": "As autoridades citam o teu grupo como exemplo. É raro e rende muito em credibilidade.",
-      "effect": "Reguladores: +5 por carta",
-      "duration": "Duração: 7 cartas"
+      "effect": "Efeito: as escolhas aparecem invertidas",
+      "duration": "Duração: 5 cartas"
     }
   }
 }

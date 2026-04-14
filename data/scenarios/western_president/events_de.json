@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "west_president_ev_001": {
@@ -136,50 +136,50 @@
     "west_president_ev_023": {
       "title": "Leck in den Verfahren",
       "body": "Ein Dokument zirkuliert, eine Methode wird live kommentiert und plötzlich wirkt die nationale Sicherheit erstaunlich gesprächig.",
-      "effect": "Verteidigung: -5 pro Karte",
-      "duration": "Dauer: 4 Karten"
+      "effect": "Effekt: Der Kartentext erscheint ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "west_president_ev_024": {
       "title": "Krieg der kleinen Worte",
       "body": "Zwischen den Hauptstädten häufen sich spitze Erklärungen. Nichts Dramatisches. Gerade genug, um jeden Anruf unerquicklich zu machen.",
-      "effect": "Diplomatie: -5 pro Karte",
-      "duration": "Dauer: 6 Karten"
+      "effect": "Effekt: Der Kartentext erscheint ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "west_president_ev_025": {
       "title": "Volksversammlung",
       "body": "Das Land findet etwas Luft zurück. Menschen kommen zusammen, ohne Panik, ohne Skandal, einfach nur mit dem Wunsch, noch daran zu glauben.",
-      "effect": "Öffentliche Meinung: +5 pro Karte",
-      "duration": "Dauer: 3 Karten"
+      "effect": "Effekt: Die Antworten erscheinen ohne Vokale",
+      "duration": "Dauer: 5 Karten"
     },
     "west_president_ev_026": {
       "title": "Industrieller Aufschwung",
       "body": "Die Produktionslinien laufen wieder an, die Fabriken stellen ein und das Wort Souveränität wird plötzlich wieder rentabel.",
-      "effect": "Wirtschaft: +5 pro Karte",
+      "effect": "Effekt: Die Antworten erscheinen ohne Vokale",
       "duration": "Dauer: 5 Karten"
     },
     "west_president_ev_027": {
       "title": "Grenzen unter Kontrolle",
       "body": "Die Überwachung wird verschärft, Zwischenfälle gehen zurück und die morgendlichen Berichte lösen endlich keine nervösen Zuckungen mehr aus.",
-      "effect": "Verteidigung: +5 pro Karte",
-      "duration": "Dauer: 4 Karten"
+      "effect": "Effekt: Der Kartentext wird rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "west_president_ev_028": {
       "title": "Internationale Entspannung",
       "body": "Die Spannungen nehmen ab, der Ton wird gemäßigter und dein Außenministerium schläft wieder ein wenig besser.",
-      "effect": "Diplomatie: +5 pro Karte",
-      "duration": "Dauer: 6 Karten"
+      "effect": "Effekt: Der Kartentext wird rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "west_president_ev_029": {
       "title": "Misslungene Pressekonferenz",
       "body": "Ein schiefer Satz, ein falsch gedeuteter Blick und schon entscheidet jeder, dass du das Schlimmste gemeint hast. Politik ist ein grausamer Sport.",
-      "effect": "Öffentliche Meinung: -5 pro Karte",
-      "duration": "Dauer: 3 Karten"
+      "effect": "Effekt: Die Antworten werden rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     },
     "west_president_ev_030": {
       "title": "Externer Schock für den Handel",
       "body": "Ein Partner verlangsamt sich, ein anderer erhebt Zölle, ein dritter zögert. Innerhalb weniger Tage beginnt die wirtschaftliche Maschine ernsthaft zu husten.",
-      "effect": "Wirtschaft: -5 pro Karte",
-      "duration": "Dauer: 7 Karten"
+      "effect": "Effekt: Die Antworten werden rückwärts angezeigt",
+      "duration": "Dauer: 5 Karten"
     }
   }
 }

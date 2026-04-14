@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "new_world_explorer_ev_001": {
@@ -136,50 +136,50 @@
     "new_world_explorer_ev_023": {
       "title": "Baia protetta",
       "body": "La baia è meglio controllata, meglio sorvegliata, e molto più facile da rivendicare.",
-      "effect": "Territori : +5 per carta",
-      "duration": "Durata : 4 carte"
+      "effect": "Effetto: il messaggio della carta appare senza vocali",
+      "duration": "Durata: 5 carte"
     },
     "new_world_explorer_ev_024": {
       "title": "Tempio offeso",
       "body": "Un luogo sacro viene urtato per goffaggine o per orgoglio. Le porte si chiudono subito.",
-      "effect": "Popolazione convertita : -5 per carta",
-      "duration": "Durata : 6 carte"
+      "effect": "Effetto: il messaggio della carta appare senza vocali",
+      "duration": "Durata: 5 carte"
     },
     "new_world_explorer_ev_025": {
       "title": "Magazzino umido",
       "body": "L umidità invade le riserve. Una parte della scorta perde valore ancora prima di essere venduta.",
-      "effect": "Ricchezze : -5 per carta",
-      "duration": "Durata : 3 carte"
+      "effect": "Effetto: le scelte appaiono senza vocali",
+      "duration": "Durata: 5 carte"
     },
     "new_world_explorer_ev_026": {
       "title": "Festa della missione",
       "body": "Una grande festa religiosa riunisce il porto e diversi villaggi. Il momento è ben scelto e ben gestito.",
-      "effect": "Popolazione convertita : +5 per carta",
-      "duration": "Durata : 5 carte"
+      "effect": "Effetto: le scelte appaiono senza vocali",
+      "duration": "Durata: 5 carte"
     },
     "new_world_explorer_ev_027": {
       "title": "Trattato della riva",
       "body": "Un accordo semplice stabilisce finalmente chi tiene cosa sulla costa. È meno glorioso di una bandiera, ma molto più solido.",
-      "effect": "Territori : +5 per carta",
-      "duration": "Durata : 4 carte"
+      "effect": "Effetto: il messaggio della carta appare al contrario",
+      "duration": "Durata: 5 carte"
     },
     "new_world_explorer_ev_028": {
       "title": "Inviato scontento",
       "body": "Un inviato reale riparte con il volto chiuso e un taccuino ben pieno. Nulla di buono ama attraversare il mare in questo modo.",
-      "effect": "Appoggio reale : -5 per carta",
-      "duration": "Durata : 6 carte"
+      "effect": "Effetto: il messaggio della carta appare al contrario",
+      "duration": "Durata: 5 carte"
     },
     "new_world_explorer_ev_029": {
       "title": "Miniera deludente",
       "body": "La miniera che si pensava redditizia produce soprattutto perdite e stanchezza.",
-      "effect": "Ricchezze : -5 per carta",
-      "duration": "Durata : 3 carte"
+      "effect": "Effetto: le scelte appaiono al contrario",
+      "duration": "Durata: 5 carte"
     },
     "new_world_explorer_ev_030": {
       "title": "Settimana dei battesimi",
       "body": "La missione vive una settimana molto seguita. Perfino i più prudenti vengono a guardare più da vicino.",
-      "effect": "Popolazione convertita : +5 per carta",
-      "duration": "Durata : 7 carte"
+      "effect": "Effetto: le scelte appaiono al contrario",
+      "duration": "Durata: 5 carte"
     }
   }
 }

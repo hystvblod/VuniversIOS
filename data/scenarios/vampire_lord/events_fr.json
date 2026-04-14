@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "events": {
     "vampire_lord_ev_001": {
@@ -136,50 +136,50 @@
     "vampire_lord_ev_023": {
       "title": "Banque de nuit",
       "body": "Un accord discret avec un réseau nocturne alimente les caves. Les stocks remontent enfin.",
-      "effect": "Sang : +5 par carte",
-      "duration": "Durée : 4 cartes"
+      "effect": "Effet : le message de la carte s'affiche sans voyelles",
+      "duration": "Durée : 5 cartes"
     },
     "vampire_lord_ev_024": {
       "title": "Chasseuse méthodique",
       "body": "Une chasseuse très sérieuse cartographie tes habitudes. Elle avance sans bruit et sans erreur.",
-      "effect": "Chasseurs : +5 par carte",
-      "duration": "Durée : 6 cartes"
+      "effect": "Effet : le message de la carte s'affiche sans voyelles",
+      "duration": "Durée : 5 cartes"
     },
     "vampire_lord_ev_025": {
       "title": "Ordre contesté",
       "body": "Tes règles sont jugées trop dures par une partie du clan. Les murmures reviennent.",
-      "effect": "Clan : -5 par carte",
-      "duration": "Durée : 3 cartes"
+      "effect": "Effet : les choix s'affichent sans voyelles",
+      "duration": "Durée : 5 cartes"
     },
     "vampire_lord_ev_026": {
       "title": "Chien distrait",
       "body": "Le chien des chasseurs est emmené sur une autre piste. Leur équipe cherche au mauvais endroit.",
-      "effect": "Chasseurs : -5 par carte",
+      "effect": "Effet : les choix s'affichent sans voyelles",
       "duration": "Durée : 5 cartes"
     },
     "vampire_lord_ev_027": {
       "title": "Réserve froide",
       "body": "Les caves tiennent bien et le stock reste parfait. Ce genre de nuit mérite presque un sourire.",
-      "effect": "Sang : +5 par carte",
-      "duration": "Durée : 4 cartes"
+      "effect": "Effet : le message de la carte s'affiche à l'envers",
+      "duration": "Durée : 5 cartes"
     },
     "vampire_lord_ev_028": {
       "title": "Témoin nerveux",
       "body": "Un témoin humain parle trop vite à trop de monde. La discrétion prend un coup.",
-      "effect": "Discrétion : -5 par carte",
-      "duration": "Durée : 6 cartes"
+      "effect": "Effet : le message de la carte s'affiche à l'envers",
+      "duration": "Durée : 5 cartes"
     },
     "vampire_lord_ev_029": {
       "title": "Duel reporté",
       "body": "Un duel d'orgueil empoisonne encore le repaire. Le clan se divise au lieu de chasser.",
-      "effect": "Clan : -5 par carte",
-      "duration": "Durée : 3 cartes"
+      "effect": "Effet : les choix s'affichent à l'envers",
+      "duration": "Durée : 5 cartes"
     },
     "vampire_lord_ev_030": {
       "title": "Silence des fidèles",
       "body": "Les fidèles obéissent et se taisent. Rien ne fuit, rien ne dépasse.",
-      "effect": "Discrétion : +5 par carte",
-      "duration": "Durée : 7 cartes"
+      "effect": "Effet : les choix s'affichent à l'envers",
+      "duration": "Durée : 5 cartes"
     }
   }
 }
