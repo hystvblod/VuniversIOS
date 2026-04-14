@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "corp_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "나쁜 결정",
-      "outcome_yes_body": "지킬 수 없는 약속을 발표한다. 투자자들의 신뢰가 반으로 줄어든다.",
+      "outcome_yes_body": "지킬 수 없는 약속을 발표한다. 투자자들의 신뢰가 반으로 줄어든다. 12장 동안 카드 메시지가 모음 없이 표시됩니다.",
       "outcome_no_title": "좋은 결정",
-      "outcome_no_body": "너는 신뢰를 지키고 투자자들이 50으로 돌아온다."
+      "outcome_no_body": "너는 신뢰를 지키고 투자자들이 50으로 돌아온다. 12장 동안 카드 메시지가 모음 없이 표시됩니다."
     },
     "corp_major_003": {
       "title": "거친 구조조정",
@@ -30,9 +30,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "나쁜 결정",
-      "outcome_yes_body": "너는 팀을 버린다. 직원 지표가 절반으로 떨어진다.",
+      "outcome_yes_body": "너는 팀을 버린다. 직원 지표가 절반으로 떨어진다. 12장 동안 선택지가 모음 없이 표시됩니다.",
       "outcome_no_title": "좋은 결정",
-      "outcome_no_body": "너는 이 파괴를 막고 직원들이 50으로 돌아온다."
+      "outcome_no_body": "너는 이 파괴를 막고 직원들이 50으로 돌아온다. 12장 동안 선택지가 모음 없이 표시됩니다."
     },
     "corp_major_004": {
       "title": "거짓 캠페인",
@@ -41,9 +41,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "나쁜 결정",
-      "outcome_yes_body": "너는 거짓 캠페인을 승인한다. 브랜드 이미지가 반으로 줄어든다.",
+      "outcome_yes_body": "너는 거짓 캠페인을 승인한다. 브랜드 이미지가 반으로 줄어든다. 12장 동안 카드 메시지가 거꾸로 표시됩니다.",
       "outcome_no_title": "좋은 결정",
-      "outcome_no_body": "너는 그 거짓을 거부하고 브랜드 이미지가 50으로 돌아온다."
+      "outcome_no_body": "너는 그 거짓을 거부하고 브랜드 이미지가 50으로 돌아온다. 12장 동안 카드 메시지가 거꾸로 표시됩니다."
     },
     "corp_major_005": {
       "title": "예고된 점검",
@@ -52,9 +52,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "나쁜 결정",
-      "outcome_yes_body": "너는 고치기보다 숨기는 쪽을 택한다. 규제 당국이 제재를 내리고 관계가 절반으로 떨어진다.",
+      "outcome_yes_body": "너는 고치기보다 숨기는 쪽을 택한다. 규제 당국이 제재를 내리고 관계가 절반으로 떨어진다. 12장 동안 선택지가 거꾸로 표시됩니다.",
       "outcome_no_title": "좋은 결정",
-      "outcome_no_body": "너는 진짜 정비를 강행한다. 규제 당국이 50으로 돌아온다."
+      "outcome_no_body": "너는 진짜 정비를 강행한다. 규제 당국이 50으로 돌아온다. 12장 동안 선택지가 거꾸로 표시됩니다."
     },
     "corp_major_006": {
       "title": "지나치게 낙관적인 발표",

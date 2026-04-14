@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "explorer_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "좋은 결정",
-      "outcome_yes_body": "너는 가장 중요한 것을 다진다. 영토가 50으로 돌아온다.",
+      "outcome_yes_body": "너는 가장 중요한 것을 다진다. 영토가 50으로 돌아온다. 12장 동안 카드 메시지가 모음 없이 표시됩니다.",
       "outcome_no_title": "나쁜 결정",
-      "outcome_no_body": "너는 너무 넓게 퍼진다. 통제 중인 영토가 반으로 줄어든다."
+      "outcome_no_body": "너는 너무 넓게 퍼진다. 통제 중인 영토가 반으로 줄어든다. 12장 동안 카드 메시지가 모음 없이 표시됩니다."
     },
     "explorer_major_003": {
       "title": "잃어버린 화물",
@@ -30,9 +30,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "좋은 결정",
-      "outcome_yes_body": "너는 핵심을 지켜낸다. 부가 50으로 돌아온다.",
+      "outcome_yes_body": "너는 핵심을 지켜낸다. 부가 50으로 돌아온다. 12장 동안 선택지가 모음 없이 표시됩니다.",
       "outcome_no_title": "나쁜 결정",
-      "outcome_no_body": "너는 너무 많은 손실을 방치한다. 부가 절반으로 떨어진다."
+      "outcome_no_body": "너는 너무 많은 손실을 방치한다. 부가 절반으로 떨어진다. 12장 동안 선택지가 모음 없이 표시됩니다."
     },
     "explorer_major_004": {
       "title": "강제 개종",
@@ -41,9 +41,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "나쁜 결정",
-      "outcome_yes_body": "너는 공포가 지배하게 둔다. 개종한 인구가 반으로 줄어든다.",
+      "outcome_yes_body": "너는 공포가 지배하게 둔다. 개종한 인구가 반으로 줄어든다. 12장 동안 카드 메시지가 거꾸로 표시됩니다.",
       "outcome_no_title": "좋은 결정",
-      "outcome_no_body": "너는 이 잔혹함을 거부하고 개종한 인구가 50으로 돌아온다."
+      "outcome_no_body": "너는 이 잔혹함을 거부하고 개종한 인구가 50으로 돌아온다. 12장 동안 카드 메시지가 거꾸로 표시됩니다."
     },
     "explorer_major_005": {
       "title": "왕에게 더 요구하기",
@@ -52,9 +52,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "나쁜 결정",
-      "outcome_yes_body": "너는 너무 이르게 요구한다. 왕의 지원이 절반으로 떨어진다.",
+      "outcome_yes_body": "너는 너무 이르게 요구한다. 왕의 지원이 절반으로 떨어진다. 12장 동안 선택지가 거꾸로 표시됩니다.",
       "outcome_no_title": "좋은 결정",
-      "outcome_no_body": "너는 때를 기다리며 왕의 신뢰를 지킨다. 왕의 지원이 50으로 돌아온다."
+      "outcome_no_body": "너는 때를 기다리며 왕의 신뢰를 지킨다. 왕의 지원이 50으로 돌아온다. 12장 동안 선택지가 거꾸로 표시됩니다."
     },
     "explorer_major_006": {
       "title": "전선을 넘어 나아가기",

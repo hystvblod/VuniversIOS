@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "western_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Schlechte Entscheidung",
-      "outcome_yes_body": "Du wählst Aggressivität und die öffentliche Meinung wird halbiert.",
+      "outcome_yes_body": "Du wählst Aggressivität und die öffentliche Meinung wird halbiert. Für 12 Karten erscheint der Kartentext ohne Vokale.",
       "outcome_no_title": "Gute Entscheidung",
-      "outcome_no_body": "Du lehnst diesen einfachen Ton ab und die öffentliche Meinung kehrt auf 50 zurück."
+      "outcome_no_body": "Du lehnst diesen einfachen Ton ab und die öffentliche Meinung kehrt auf 50 zurück. Für 12 Karten erscheint der Kartentext ohne Vokale."
     },
     "western_major_003": {
       "title": "Brutale Steuererhöhung",
@@ -30,9 +30,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Schlechte Entscheidung",
-      "outcome_yes_body": "Du unterschreibst eine brutale Erhöhung und die Wirtschaft fällt auf die Hälfte.",
+      "outcome_yes_body": "Du unterschreibst eine brutale Erhöhung und die Wirtschaft fällt auf die Hälfte. Für 12 Karten erscheinen die Antworten ohne Vokale.",
       "outcome_no_title": "Gute Entscheidung",
-      "outcome_no_body": "Du stoppst diese steuerliche Panik und die Wirtschaft kehrt auf 50 zurück."
+      "outcome_no_body": "Du stoppst diese steuerliche Panik und die Wirtschaft kehrt auf 50 zurück. Für 12 Karten erscheinen die Antworten ohne Vokale."
     },
     "western_major_004": {
       "title": "Überlastete Armee",
@@ -41,9 +41,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Gute Entscheidung",
-      "outcome_yes_body": "Du verhinderst den Zusammenbruch. Die Verteidigung kehrt auf 50 zurück.",
+      "outcome_yes_body": "Du verhinderst den Zusammenbruch. Die Verteidigung kehrt auf 50 zurück. Für 12 Karten wird der Kartentext rückwärts angezeigt.",
       "outcome_no_title": "Schlechte Entscheidung",
-      "outcome_no_body": "Die Kräfte brechen innerlich zusammen. Die Verteidigung wird halbiert."
+      "outcome_no_body": "Die Kräfte brechen innerlich zusammen. Die Verteidigung wird halbiert. Für 12 Karten wird der Kartentext rückwärts angezeigt."
     },
     "western_major_005": {
       "title": "Heikler Gipfel",
@@ -52,9 +52,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Schlechte Entscheidung",
-      "outcome_yes_body": "Du lässt die Provokation zu und die Diplomatie fällt auf die Hälfte.",
+      "outcome_yes_body": "Du lässt die Provokation zu und die Diplomatie fällt auf die Hälfte. Für 12 Karten werden die Antworten rückwärts angezeigt.",
       "outcome_no_title": "Gute Entscheidung",
-      "outcome_no_body": "Du verweigerst diese Demütigung und die Diplomatie kehrt auf 50 zurück."
+      "outcome_no_body": "Du verweigerst diese Demütigung und die Diplomatie kehrt auf 50 zurück. Für 12 Karten werden die Antworten rückwärts angezeigt."
     },
     "western_major_006": {
       "title": "Beliebtes Versprechen",

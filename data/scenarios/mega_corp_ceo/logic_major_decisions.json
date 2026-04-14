@@ -24,12 +24,20 @@
       "yes": {
         "scaleGauge": {
           "investors": 0.5
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_message": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "setGauge": {
           "investors": 50
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_message": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {
@@ -39,12 +47,20 @@
       "yes": {
         "scaleGauge": {
           "employees": 0.5
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_choices": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "setGauge": {
           "employees": 50
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_choices": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {
@@ -54,12 +70,20 @@
       "yes": {
         "scaleGauge": {
           "brand_image": 0.5
-        }
+        },
+        "ui_effects": {
+          "reverse_message": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "setGauge": {
           "brand_image": 50
-        }
+        },
+        "ui_effects": {
+          "reverse_message": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {
@@ -69,12 +93,20 @@
       "yes": {
         "scaleGauge": {
           "regulators": 0.5
-        }
+        },
+        "ui_effects": {
+          "reverse_choices": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "setGauge": {
           "regulators": 50
-        }
+        },
+        "ui_effects": {
+          "reverse_choices": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {

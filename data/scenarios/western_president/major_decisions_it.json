@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "western_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Cattiva decisione",
-      "outcome_yes_body": "Scegli l'aggressività e l'opinione pubblica si dimezza.",
+      "outcome_yes_body": "Scegli l'aggressività e l'opinione pubblica si dimezza. Per 12 carte, il messaggio della carta appare senza vocali.",
       "outcome_no_title": "Buona decisione",
-      "outcome_no_body": "Rifiuti questo tono facile e l'opinione pubblica torna a 50."
+      "outcome_no_body": "Rifiuti questo tono facile e l'opinione pubblica torna a 50. Per 12 carte, il messaggio della carta appare senza vocali."
     },
     "western_major_003": {
       "title": "Aumento brutale delle tasse",
@@ -30,9 +30,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Cattiva decisione",
-      "outcome_yes_body": "Firmi un aumento brutale e l'economia crolla della metà.",
+      "outcome_yes_body": "Firmi un aumento brutale e l'economia crolla della metà. Per 12 carte, le scelte appaiono senza vocali.",
       "outcome_no_title": "Buona decisione",
-      "outcome_no_body": "Blocchi questo panico fiscale e l'economia torna a 50."
+      "outcome_no_body": "Blocchi questo panico fiscale e l'economia torna a 50. Per 12 carte, le scelte appaiono senza vocali."
     },
     "western_major_004": {
       "title": "Esercito sovraccarico",
@@ -41,9 +41,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Buona decisione",
-      "outcome_yes_body": "Eviti il crollo. La difesa torna a 50.",
+      "outcome_yes_body": "Eviti il crollo. La difesa torna a 50. Per 12 carte, il messaggio della carta appare al contrario.",
       "outcome_no_title": "Cattiva decisione",
-      "outcome_no_body": "Le forze cedono dall'interno. La difesa si dimezza."
+      "outcome_no_body": "Le forze cedono dall'interno. La difesa si dimezza. Per 12 carte, il messaggio della carta appare al contrario."
     },
     "western_major_005": {
       "title": "Vertice fragile",
@@ -52,9 +52,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Cattiva decisione",
-      "outcome_yes_body": "Lasci passare la provocazione e la diplomazia crolla della metà.",
+      "outcome_yes_body": "Lasci passare la provocazione e la diplomazia crolla della metà. Per 12 carte, le scelte appaiono al contrario.",
       "outcome_no_title": "Buona decisione",
-      "outcome_no_body": "Rifiuti questa umiliazione e la diplomazia torna a 50."
+      "outcome_no_body": "Rifiuti questa umiliazione e la diplomazia torna a 50. Per 12 carte, le scelte appaiono al contrario."
     },
     "western_major_006": {
       "title": "Promessa popolare",

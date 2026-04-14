@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "vampire_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "좋은 결정",
-      "outcome_yes_body": "너는 침착함을 강요하고 피가 안정적인 수준으로 돌아온다.",
+      "outcome_yes_body": "너는 침착함을 강요하고 피가 안정적인 수준으로 돌아온다. 12장 동안 카드 메시지가 모음 없이 표시됩니다.",
       "outcome_no_title": "나쁜 결정",
-      "outcome_no_body": "사냥이 잘못 흘러간다. 피 비축량이 반으로 줄어든다."
+      "outcome_no_body": "사냥이 잘못 흘러간다. 피 비축량이 반으로 줄어든다. 12장 동안 카드 메시지가 모음 없이 표시됩니다."
     },
     "vampire_major_003": {
       "title": "가짜 은신처",
@@ -30,9 +30,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "좋은 결정",
-      "outcome_yes_body": "너는 위협을 다른 곳으로 돌린다. 사냥꾼의 압박이 50으로 돌아온다.",
+      "outcome_yes_body": "너는 위협을 다른 곳으로 돌린다. 사냥꾼의 압박이 50으로 돌아온다. 12장 동안 선택지가 모음 없이 표시됩니다.",
       "outcome_no_title": "나쁜 결정",
-      "outcome_no_body": "그들은 방해 없이 전진한다. 사냥꾼들이 더 많은 영역을 장악한다."
+      "outcome_no_body": "그들은 방해 없이 전진한다. 사냥꾼들이 더 많은 영역을 장악한다. 12장 동안 선택지가 모음 없이 표시됩니다."
     },
     "vampire_major_004": {
       "title": "클랜 지도자 처벌",
@@ -41,9 +41,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "좋은 결정",
-      "outcome_yes_body": "너는 누구도 클랜 위에 있지 않다는 걸 상기시킨다. 클랜이 50으로 돌아온다.",
+      "outcome_yes_body": "너는 누구도 클랜 위에 있지 않다는 걸 상기시킨다. 클랜이 50으로 돌아온다. 12장 동안 카드 메시지가 거꾸로 표시됩니다.",
       "outcome_no_title": "나쁜 결정",
-      "outcome_no_body": "약함이 드러난다. 클랜은 결속의 절반을 잃는다."
+      "outcome_no_body": "약함이 드러난다. 클랜은 결속의 절반을 잃는다. 12장 동안 카드 메시지가 거꾸로 표시됩니다."
     },
     "vampire_major_005": {
       "title": "흔적 지우기",
@@ -52,9 +52,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "좋은 결정",
-      "outcome_yes_body": "너는 제때 단서를 닫아버린다. 은밀함이 50으로 돌아온다.",
+      "outcome_yes_body": "너는 제때 단서를 닫아버린다. 은밀함이 50으로 돌아온다. 12장 동안 선택지가 거꾸로 표시됩니다.",
       "outcome_no_title": "나쁜 결정",
-      "outcome_no_body": "단서가 계속 쌓인다. 은밀함이 절반으로 떨어진다."
+      "outcome_no_body": "단서가 계속 쌓인다. 은밀함이 절반으로 떨어진다. 12장 동안 선택지가 거꾸로 표시됩니다."
     },
     "vampire_major_006": {
       "title": "너무 눈에 띄는 연회",

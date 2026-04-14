@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "heaven_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Cattiva decisione",
-      "outcome_yes_body": "Instauri la paura al posto della fede. Le preghiere si dimezzano.",
+      "outcome_yes_body": "Instauri la paura al posto della fede. Le preghiere si dimezzano. Per 12 carte, il messaggio della carta appare senza vocali.",
       "outcome_no_title": "Buona decisione",
-      "outcome_no_body": "Rifiuti questa brutalità e le preghiere tornano a 50."
+      "outcome_no_body": "Rifiuti questa brutalità e le preghiere tornano a 50. Per 12 carte, il messaggio della carta appare senza vocali."
     },
     "heaven_major_003": {
       "title": "Nuovo culto",
@@ -30,9 +30,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Cattiva decisione",
-      "outcome_yes_body": "Sostieni una deriva spettacolare. Il culto perde metà della sua forza.",
+      "outcome_yes_body": "Sostieni una deriva spettacolare. Il culto perde metà della sua forza. Per 12 carte, le scelte appaiono senza vocali.",
       "outcome_no_title": "Buona decisione",
-      "outcome_no_body": "Riporti la fede verso qualcosa di stabile. Il culto torna a 50."
+      "outcome_no_body": "Riporti la fede verso qualcosa di stabile. Il culto torna a 50. Per 12 carte, le scelte appaiono senza vocali."
     },
     "heaven_major_004": {
       "title": "Libero arbitrio ridotto",
@@ -41,9 +41,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Cattiva decisione",
-      "outcome_yes_body": "Dai troppo controllo. Il libero arbitrio si dimezza.",
+      "outcome_yes_body": "Dai troppo controllo. Il libero arbitrio si dimezza. Per 12 carte, il messaggio della carta appare al contrario.",
       "outcome_no_title": "Buona decisione",
-      "outcome_no_body": "Rifiuti questa deriva e il libero arbitrio torna a 50."
+      "outcome_no_body": "Rifiuti questa deriva e il libero arbitrio torna a 50. Per 12 carte, il messaggio della carta appare al contrario."
     },
     "heaven_major_005": {
       "title": "Miracoli a catena",
@@ -52,9 +52,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Cattiva decisione",
-      "outcome_yes_body": "Banalizzi l'intervento divino. Gli interventi si dimezzano.",
+      "outcome_yes_body": "Banalizzi l'intervento divino. Gli interventi si dimezzano. Per 12 carte, le scelte appaiono al contrario.",
       "outcome_no_title": "Buona decisione",
-      "outcome_no_body": "Conservi la rarità e il senso. Gli interventi tornano a 50."
+      "outcome_no_body": "Conservi la rarità e il senso. Gli interventi tornano a 50. Per 12 carte, le scelte appaiono al contrario."
     },
     "heaven_major_006": {
       "title": "Fede contro controllo",

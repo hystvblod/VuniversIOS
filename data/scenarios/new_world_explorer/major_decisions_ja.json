@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "explorer_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "いいえ",
       "preview_hint": "効果を見るにはトークンを使う",
       "outcome_yes_title": "良い決断",
-      "outcome_yes_body": "お前は重要なものを固めた。領土は50に戻る。",
+      "outcome_yes_body": "お前は重要なものを固めた。領土は50に戻る。 12枚のカードの間、カードのメッセージは母音なしで表示される。",
       "outcome_no_title": "悪い決断",
-      "outcome_no_body": "お前は手を広げすぎた。支配下の領土は半減する。"
+      "outcome_no_body": "お前は手を広げすぎた。支配下の領土は半減する。 12枚のカードの間、カードのメッセージは母音なしで表示される。"
     },
     "explorer_major_003": {
       "title": "失われた積み荷",
@@ -30,9 +30,9 @@
       "no_label": "いいえ",
       "preview_hint": "効果を見るにはトークンを使う",
       "outcome_yes_title": "良い決断",
-      "outcome_yes_body": "お前は大事なものを守った。富は50に戻る。",
+      "outcome_yes_body": "お前は大事なものを守った。富は50に戻る。 12枚のカードの間、選択肢は母音なしで表示される。",
       "outcome_no_title": "悪い決断",
-      "outcome_no_body": "損失を出しすぎた。富は半減する。"
+      "outcome_no_body": "損失を出しすぎた。富は半減する。 12枚のカードの間、選択肢は母音なしで表示される。"
     },
     "explorer_major_004": {
       "title": "強制改宗",
@@ -41,9 +41,9 @@
       "no_label": "いいえ",
       "preview_hint": "効果を見るにはトークンを使う",
       "outcome_yes_title": "悪い決断",
-      "outcome_yes_body": "お前は恐怖に支配させた。改宗した住民は半減する。",
+      "outcome_yes_body": "お前は恐怖に支配させた。改宗した住民は半減する。 12枚のカードの間、カードのメッセージは逆向きで表示される。",
       "outcome_no_title": "良い決断",
-      "outcome_no_body": "お前はその残酷さを拒んだ。改宗した住民は50に戻る。"
+      "outcome_no_body": "お前はその残酷さを拒んだ。改宗した住民は50に戻る。 12枚のカードの間、カードのメッセージは逆向きで表示される。"
     },
     "explorer_major_005": {
       "title": "王にさらに求める",
@@ -52,9 +52,9 @@
       "no_label": "いいえ",
       "preview_hint": "効果を見るにはトークンを使う",
       "outcome_yes_title": "悪い決断",
-      "outcome_yes_body": "求めるのが早すぎた。王の支援は半減する。",
+      "outcome_yes_body": "求めるのが早すぎた。王の支援は半減する。 12枚のカードの間、選択肢は逆向きで表示される。",
       "outcome_no_title": "良い決断",
-      "outcome_no_body": "お前は時を待ち、王の信頼を保った。王の支援は50に戻る。"
+      "outcome_no_body": "お前は時を待ち、王の信頼を保った。王の支援は50に戻る。 12枚のカードの間、選択肢は逆向きで表示される。"
     },
     "explorer_major_006": {
       "title": "前線を越えて進む",

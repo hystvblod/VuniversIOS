@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "hell_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "You launch the assault too early. The legions are cut in half.",
+      "outcome_yes_body": "You launch the assault too early. The legions are cut in half. For 12 cards, the card message appears without vowels.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You impose real preparation. The legions return to 50."
+      "outcome_no_body": "You impose real preparation. The legions return to 50. For 12 cards, the card message appears without vowels."
     },
     "hell_major_003": {
       "title": "Major Cleanup in the Administration",
@@ -30,9 +30,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Good decision",
-      "outcome_yes_body": "You restore simple rules. Order in Hell returns to 50.",
+      "outcome_yes_body": "You restore simple rules. Order in Hell returns to 50. For 12 cards, the choices appear without vowels.",
       "outcome_no_title": "Bad decision",
-      "outcome_no_body": "The chaos continues. Order in Hell is cut in half."
+      "outcome_no_body": "The chaos continues. Order in Hell is cut in half. For 12 cards, the choices appear without vowels."
     },
     "hell_major_004": {
       "title": "Sorting the Souls",
@@ -41,9 +41,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Good decision",
-      "outcome_yes_body": "You avoid an even bigger disaster. Damned souls return to 50.",
+      "outcome_yes_body": "You avoid an even bigger disaster. Damned souls return to 50. For 12 cards, the card message appears reversed.",
       "outcome_no_title": "Bad decision",
-      "outcome_no_body": "You let the situation rot. The available souls drop by half."
+      "outcome_no_body": "You let the situation rot. The available souls drop by half. For 12 cards, the card message appears reversed."
     },
     "hell_major_005": {
       "title": "Terror Operation",
@@ -52,9 +52,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "The operation becomes uncontrollable. Your influence on Earth is cut in half.",
+      "outcome_yes_body": "The operation becomes uncontrollable. Your influence on Earth is cut in half. For 12 cards, the choices appear reversed.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You refuse the escalation. Your influence on Earth returns to 50."
+      "outcome_no_body": "You refuse the escalation. Your influence on Earth returns to 50. For 12 cards, the choices appear reversed."
     },
     "hell_major_006": {
       "title": "Court of Sycophants",

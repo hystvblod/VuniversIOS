@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "hell_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Schlechte Entscheidung",
-      "outcome_yes_body": "Du startest den Angriff zu früh. Die Legionen werden halbiert.",
+      "outcome_yes_body": "Du startest den Angriff zu früh. Die Legionen werden halbiert. Für 12 Karten erscheint der Kartentext ohne Vokale.",
       "outcome_no_title": "Gute Entscheidung",
-      "outcome_no_body": "Du erzwingst eine echte Vorbereitung. Die Legionen kehren auf 50 zurück."
+      "outcome_no_body": "Du erzwingst eine echte Vorbereitung. Die Legionen kehren auf 50 zurück. Für 12 Karten erscheint der Kartentext ohne Vokale."
     },
     "hell_major_003": {
       "title": "Großreinemachen in der Verwaltung",
@@ -30,9 +30,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Gute Entscheidung",
-      "outcome_yes_body": "Du führst wieder einfache Regeln ein. Die infernale Ordnung kehrt auf 50 zurück.",
+      "outcome_yes_body": "Du führst wieder einfache Regeln ein. Die infernale Ordnung kehrt auf 50 zurück. Für 12 Karten erscheinen die Antworten ohne Vokale.",
       "outcome_no_title": "Schlechte Entscheidung",
-      "outcome_no_body": "Das Chaos geht weiter. Die infernale Ordnung wird halbiert."
+      "outcome_no_body": "Das Chaos geht weiter. Die infernale Ordnung wird halbiert. Für 12 Karten erscheinen die Antworten ohne Vokale."
     },
     "hell_major_004": {
       "title": "Sortierung der Seelen",
@@ -41,9 +41,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Gute Entscheidung",
-      "outcome_yes_body": "Du verhinderst ein noch größeres Desaster. Die verdammten Seelen kehren auf 50 zurück.",
+      "outcome_yes_body": "Du verhinderst ein noch größeres Desaster. Die verdammten Seelen kehren auf 50 zurück. Für 12 Karten wird der Kartentext rückwärts angezeigt.",
       "outcome_no_title": "Schlechte Entscheidung",
-      "outcome_no_body": "Du lässt die Lage verrotten. Die verfügbaren Seelen fallen auf die Hälfte."
+      "outcome_no_body": "Du lässt die Lage verrotten. Die verfügbaren Seelen fallen auf die Hälfte. Für 12 Karten wird der Kartentext rückwärts angezeigt."
     },
     "hell_major_005": {
       "title": "Terroroperation",
@@ -52,9 +52,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Schlechte Entscheidung",
-      "outcome_yes_body": "Die Operation gerät außer Kontrolle. Dein Einfluss auf die Erde wird halbiert.",
+      "outcome_yes_body": "Die Operation gerät außer Kontrolle. Dein Einfluss auf die Erde wird halbiert. Für 12 Karten werden die Antworten rückwärts angezeigt.",
       "outcome_no_title": "Gute Entscheidung",
-      "outcome_no_body": "Du verweigerst diese Eskalation. Der Einfluss auf die Erde kehrt auf 50 zurück."
+      "outcome_no_body": "Du verweigerst diese Eskalation. Der Einfluss auf die Erde kehrt auf 50 zurück. Für 12 Karten werden die Antworten rückwärts angezeigt."
     },
     "hell_major_006": {
       "title": "Hof der Schmeichler",

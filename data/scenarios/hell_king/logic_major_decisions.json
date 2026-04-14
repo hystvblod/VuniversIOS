@@ -24,12 +24,20 @@
       "yes": {
         "scaleGauge": {
           "legions": 0.5
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_message": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "setGauge": {
           "legions": 50
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_message": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {
@@ -39,12 +47,20 @@
       "yes": {
         "setGauge": {
           "order": 50
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_choices": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "scaleGauge": {
           "order": 0.5
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_choices": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {
@@ -54,12 +70,20 @@
       "yes": {
         "setGauge": {
           "souls": 50
-        }
+        },
+        "ui_effects": {
+          "reverse_message": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "scaleGauge": {
           "souls": 0.5
-        }
+        },
+        "ui_effects": {
+          "reverse_message": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {
@@ -69,12 +93,20 @@
       "yes": {
         "scaleGauge": {
           "surface": 0.5
-        }
+        },
+        "ui_effects": {
+          "reverse_choices": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "setGauge": {
           "surface": 50
-        }
+        },
+        "ui_effects": {
+          "reverse_choices": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {

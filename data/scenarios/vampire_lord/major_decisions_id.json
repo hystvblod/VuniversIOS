@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "vampire_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan bagus",
-      "outcome_yes_body": "Kamu memaksakan ketenangan dan darah kembali ke tingkat yang stabil.",
+      "outcome_yes_body": "Kamu memaksakan ketenangan dan darah kembali ke tingkat yang stabil. Selama 12 kartu, pesan kartu muncul tanpa huruf vokal.",
       "outcome_no_title": "Keputusan buruk",
-      "outcome_no_body": "Perburuan berakhir buruk. Cadangan darahmu terbagi dua."
+      "outcome_no_body": "Perburuan berakhir buruk. Cadangan darahmu terbagi dua. Selama 12 kartu, pesan kartu muncul tanpa huruf vokal."
     },
     "vampire_major_003": {
       "title": "Persembunyian palsu",
@@ -30,9 +30,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan bagus",
-      "outcome_yes_body": "Kamu mengalihkan ancaman. Tekanan dari para pemburu kembali ke 50.",
+      "outcome_yes_body": "Kamu mengalihkan ancaman. Tekanan dari para pemburu kembali ke 50. Selama 12 kartu, pilihan muncul tanpa huruf vokal.",
       "outcome_no_title": "Keputusan buruk",
-      "outcome_no_body": "Mereka maju tanpa hambatan. Para pemburu semakin mendekat."
+      "outcome_no_body": "Mereka maju tanpa hambatan. Para pemburu semakin mendekat. Selama 12 kartu, pilihan muncul tanpa huruf vokal."
     },
     "vampire_major_004": {
       "title": "Menghukum pemimpin klan",
@@ -41,9 +41,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan bagus",
-      "outcome_yes_body": "Kamu mengingatkan bahwa tidak ada seorang pun yang berada di atas klan. Klan kembali ke 50.",
+      "outcome_yes_body": "Kamu mengingatkan bahwa tidak ada seorang pun yang berada di atas klan. Klan kembali ke 50. Selama 12 kartu, pesan kartu muncul terbalik.",
       "outcome_no_title": "Keputusan buruk",
-      "outcome_no_body": "Kelemahan terlihat jelas. Klan kehilangan setengah kekompakannya."
+      "outcome_no_body": "Kelemahan terlihat jelas. Klan kehilangan setengah kekompakannya. Selama 12 kartu, pesan kartu muncul terbalik."
     },
     "vampire_major_005": {
       "title": "Menghapus jejak",
@@ -52,9 +52,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan bagus",
-      "outcome_yes_body": "Kamu menutup jejak tepat waktu. Kerahasiaan kembali ke 50.",
+      "outcome_yes_body": "Kamu menutup jejak tepat waktu. Kerahasiaan kembali ke 50. Selama 12 kartu, pilihan muncul terbalik.",
       "outcome_no_title": "Keputusan buruk",
-      "outcome_no_body": "Petunjuk terus bertambah. Kerahasiaan turun setengah."
+      "outcome_no_body": "Petunjuk terus bertambah. Kerahasiaan turun setengah. Selama 12 kartu, pilihan muncul terbalik."
     },
     "vampire_major_006": {
       "title": "Perjamuan yang terlalu mencolok",

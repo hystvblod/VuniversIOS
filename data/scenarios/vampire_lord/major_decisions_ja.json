@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "vampire_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "いいえ",
       "preview_hint": "効果を見るにはトークンを使う",
       "outcome_yes_title": "良い決断",
-      "outcome_yes_body": "お前は冷静さを取り戻させ、血は安定した水準に戻る。",
+      "outcome_yes_body": "お前は冷静さを取り戻させ、血は安定した水準に戻る。 12枚のカードの間、カードのメッセージは母音なしで表示される。",
       "outcome_no_title": "悪い決断",
-      "outcome_no_body": "狩りは失敗に終わる。血の備蓄は半減する。"
+      "outcome_no_body": "狩りは失敗に終わる。血の備蓄は半減する。 12枚のカードの間、カードのメッセージは母音なしで表示される。"
     },
     "vampire_major_003": {
       "title": "偽の隠れ家",
@@ -30,9 +30,9 @@
       "no_label": "いいえ",
       "preview_hint": "効果を見るにはトークンを使う",
       "outcome_yes_title": "良い決断",
-      "outcome_yes_body": "お前は脅威をそらした。狩人たちの圧力は50に戻る。",
+      "outcome_yes_body": "お前は脅威をそらした。狩人たちの圧力は50に戻る。 12枚のカードの間、選択肢は母音なしで表示される。",
       "outcome_no_title": "悪い決断",
-      "outcome_no_body": "奴らは妨げなく前進する。狩人たちはさらに勢いを増す。"
+      "outcome_no_body": "奴らは妨げなく前進する。狩人たちはさらに勢いを増す。 12枚のカードの間、選択肢は母音なしで表示される。"
     },
     "vampire_major_004": {
       "title": "一族の長を罰する",
@@ -41,9 +41,9 @@
       "no_label": "いいえ",
       "preview_hint": "効果を見るにはトークンを使う",
       "outcome_yes_title": "良い決断",
-      "outcome_yes_body": "お前は誰も一族の上には立てないと示した。一族は50に戻る。",
+      "outcome_yes_body": "お前は誰も一族の上には立てないと示した。一族は50に戻る。 12枚のカードの間、カードのメッセージは逆向きで表示される。",
       "outcome_no_title": "悪い決断",
-      "outcome_no_body": "弱さが露わになる。一族の結束は半減する。"
+      "outcome_no_body": "弱さが露わになる。一族の結束は半減する。 12枚のカードの間、カードのメッセージは逆向きで表示される。"
     },
     "vampire_major_005": {
       "title": "痕跡を消す",
@@ -52,9 +52,9 @@
       "no_label": "いいえ",
       "preview_hint": "効果を見るにはトークンを使う",
       "outcome_yes_title": "良い決断",
-      "outcome_yes_body": "お前は間に合ううちに痕跡を閉ざした。隠密性は50に戻る。",
+      "outcome_yes_body": "お前は間に合ううちに痕跡を閉ざした。隠密性は50に戻る。 12枚のカードの間、選択肢は逆向きで表示される。",
       "outcome_no_title": "悪い決断",
-      "outcome_no_body": "証拠は積み重なっていく。隠密性は半減する。"
+      "outcome_no_body": "証拠は積み重なっていく。隠密性は半減する。 12枚のカードの間、選択肢は逆向きで表示される。"
     },
     "vampire_major_006": {
       "title": "目立ちすぎる宴",

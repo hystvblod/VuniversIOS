@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "hell_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "No",
       "preview_hint": "Usar una ficha para ver los efectos",
       "outcome_yes_title": "Mala decisión",
-      "outcome_yes_body": "Lanzas el asalto demasiado pronto. Las legiones se reducen a la mitad.",
+      "outcome_yes_body": "Lanzas el asalto demasiado pronto. Las legiones se reducen a la mitad. Durante 12 cartas, el mensaje de la carta aparece sin vocales.",
       "outcome_no_title": "Buena decisión",
-      "outcome_no_body": "Impones una preparación real. Las legiones vuelven a 50."
+      "outcome_no_body": "Impones una preparación real. Las legiones vuelven a 50. Durante 12 cartas, el mensaje de la carta aparece sin vocales."
     },
     "hell_major_003": {
       "title": "Gran limpieza en la administración",
@@ -30,9 +30,9 @@
       "no_label": "No",
       "preview_hint": "Usar una ficha para ver los efectos",
       "outcome_yes_title": "Buena decisión",
-      "outcome_yes_body": "Restableces reglas simples. El orden infernal vuelve a 50.",
+      "outcome_yes_body": "Restableces reglas simples. El orden infernal vuelve a 50. Durante 12 cartas, las opciones aparecen sin vocales.",
       "outcome_no_title": "Mala decisión",
-      "outcome_no_body": "El caos continúa. El orden infernal se reduce a la mitad."
+      "outcome_no_body": "El caos continúa. El orden infernal se reduce a la mitad. Durante 12 cartas, las opciones aparecen sin vocales."
     },
     "hell_major_004": {
       "title": "Clasificación de las almas",
@@ -41,9 +41,9 @@
       "no_label": "No",
       "preview_hint": "Usar una ficha para ver los efectos",
       "outcome_yes_title": "Buena decisión",
-      "outcome_yes_body": "Evitas un desastre aún mayor. Las almas condenadas vuelven a 50.",
+      "outcome_yes_body": "Evitas un desastre aún mayor. Las almas condenadas vuelven a 50. Durante 12 cartas, el mensaje de la carta aparece al revés.",
       "outcome_no_title": "Mala decisión",
-      "outcome_no_body": "Dejas que la situación se pudra. Las almas disponibles caen a la mitad."
+      "outcome_no_body": "Dejas que la situación se pudra. Las almas disponibles caen a la mitad. Durante 12 cartas, el mensaje de la carta aparece al revés."
     },
     "hell_major_005": {
       "title": "Operación de terror",
@@ -52,9 +52,9 @@
       "no_label": "No",
       "preview_hint": "Usar una ficha para ver los efectos",
       "outcome_yes_title": "Mala decisión",
-      "outcome_yes_body": "La operación se vuelve incontrolable. Tu influencia sobre la Tierra se reduce a la mitad.",
+      "outcome_yes_body": "La operación se vuelve incontrolable. Tu influencia sobre la Tierra se reduce a la mitad. Durante 12 cartas, las opciones aparecen al revés.",
       "outcome_no_title": "Buena decisión",
-      "outcome_no_body": "Rechazas la escalada. La influencia sobre la Tierra vuelve a 50."
+      "outcome_no_body": "Rechazas la escalada. La influencia sobre la Tierra vuelve a 50. Durante 12 cartas, las opciones aparecen al revés."
     },
     "hell_major_006": {
       "title": "Corte de aduladores",

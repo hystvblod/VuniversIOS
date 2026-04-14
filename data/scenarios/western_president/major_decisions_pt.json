@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "western_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "Não",
       "preview_hint": "Usar uma ficha para ver os efeitos",
       "outcome_yes_title": "Má decisão",
-      "outcome_yes_body": "Escolhes a agressividade e a opinião pública fica reduzida a metade.",
+      "outcome_yes_body": "Escolhes a agressividade e a opinião pública fica reduzida a metade. Durante 12 cartas, a mensagem da carta aparece sem vogais.",
       "outcome_no_title": "Boa decisão",
-      "outcome_no_body": "Recusas esse tom fácil e a opinião pública volta a 50."
+      "outcome_no_body": "Recusas esse tom fácil e a opinião pública volta a 50. Durante 12 cartas, a mensagem da carta aparece sem vogais."
     },
     "western_major_003": {
       "title": "Aumento brutal dos impostos",
@@ -30,9 +30,9 @@
       "no_label": "Não",
       "preview_hint": "Usar uma ficha para ver os efeitos",
       "outcome_yes_title": "Má decisão",
-      "outcome_yes_body": "Assinas um aumento brutal e a economia cai para metade.",
+      "outcome_yes_body": "Assinas um aumento brutal e a economia cai para metade. Durante 12 cartas, as escolhas aparecem sem vogais.",
       "outcome_no_title": "Boa decisão",
-      "outcome_no_body": "Bloqueias esse pânico fiscal e a economia volta a 50."
+      "outcome_no_body": "Bloqueias esse pânico fiscal e a economia volta a 50. Durante 12 cartas, as escolhas aparecem sem vogais."
     },
     "western_major_004": {
       "title": "Exército sobrecarregado",
@@ -41,9 +41,9 @@
       "no_label": "Não",
       "preview_hint": "Usar uma ficha para ver os efeitos",
       "outcome_yes_title": "Boa decisão",
-      "outcome_yes_body": "Evitas a quebra. A defesa volta a 50.",
+      "outcome_yes_body": "Evitas a quebra. A defesa volta a 50. Durante 12 cartas, a mensagem da carta aparece invertida.",
       "outcome_no_title": "Má decisão",
-      "outcome_no_body": "As forças quebram por dentro. A defesa fica reduzida a metade."
+      "outcome_no_body": "As forças quebram por dentro. A defesa fica reduzida a metade. Durante 12 cartas, a mensagem da carta aparece invertida."
     },
     "western_major_005": {
       "title": "Cimeira frágil",
@@ -52,9 +52,9 @@
       "no_label": "Não",
       "preview_hint": "Usar uma ficha para ver os efeitos",
       "outcome_yes_title": "Má decisão",
-      "outcome_yes_body": "Deixas passar a provocação e a diplomacia cai para metade.",
+      "outcome_yes_body": "Deixas passar a provocação e a diplomacia cai para metade. Durante 12 cartas, as escolhas aparecem invertidas.",
       "outcome_no_title": "Boa decisão",
-      "outcome_no_body": "Recusas essa humilhação e a diplomacia volta a 50."
+      "outcome_no_body": "Recusas essa humilhação e a diplomacia volta a 50. Durante 12 cartas, as escolhas aparecem invertidas."
     },
     "western_major_006": {
       "title": "Promessa popular",

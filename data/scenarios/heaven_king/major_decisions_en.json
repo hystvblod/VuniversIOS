@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "heaven_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "You replace faith with fear. Prayers are cut in half.",
+      "outcome_yes_body": "You replace faith with fear. Prayers are cut in half. For 12 cards, the card message appears without vowels.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You reject this brutality and prayers return to 50."
+      "outcome_no_body": "You reject this brutality and prayers return to 50. For 12 cards, the card message appears without vowels."
     },
     "heaven_major_003": {
       "title": "New Cult",
@@ -30,9 +30,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "You support a dangerous spectacle. The cult drops by half.",
+      "outcome_yes_body": "You support a dangerous spectacle. The cult drops by half. For 12 cards, the choices appear without vowels.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You refocus faith on something stable. The cult returns to 50."
+      "outcome_no_body": "You refocus faith on something stable. The cult returns to 50. For 12 cards, the choices appear without vowels."
     },
     "heaven_major_004": {
       "title": "Reduced Free Will",
@@ -41,9 +41,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "You give too much control. Free will is cut in half.",
+      "outcome_yes_body": "You give too much control. Free will is cut in half. For 12 cards, the card message appears reversed.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You reject this drift and free will returns to 50."
+      "outcome_no_body": "You reject this drift and free will returns to 50. For 12 cards, the card message appears reversed."
     },
     "heaven_major_005": {
       "title": "Miracles in Series",
@@ -52,9 +52,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "You make divine intervention feel ordinary. Interventions are cut in half.",
+      "outcome_yes_body": "You make divine intervention feel ordinary. Interventions are cut in half. For 12 cards, the choices appear reversed.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You preserve rarity and meaning. Interventions return to 50."
+      "outcome_no_body": "You preserve rarity and meaning. Interventions return to 50. For 12 cards, the choices appear reversed."
     },
     "heaven_major_006": {
       "title": "Faith Versus Control",

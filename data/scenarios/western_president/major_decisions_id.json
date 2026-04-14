@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "western_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan buruk",
-      "outcome_yes_body": "Kamu memilih sikap agresif dan opini publik terbagi dua.",
+      "outcome_yes_body": "Kamu memilih sikap agresif dan opini publik terbagi dua. Selama 12 kartu, pesan kartu muncul tanpa huruf vokal.",
       "outcome_no_title": "Keputusan bagus",
-      "outcome_no_body": "Kamu menolak nada yang terlalu mudah itu dan opini publik kembali ke 50."
+      "outcome_no_body": "Kamu menolak nada yang terlalu mudah itu dan opini publik kembali ke 50. Selama 12 kartu, pesan kartu muncul tanpa huruf vokal."
     },
     "western_major_003": {
       "title": "Kenaikan pajak yang brutal",
@@ -30,9 +30,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan buruk",
-      "outcome_yes_body": "Kamu menandatangani kenaikan mendadak dan ekonomi turun setengah.",
+      "outcome_yes_body": "Kamu menandatangani kenaikan mendadak dan ekonomi turun setengah. Selama 12 kartu, pilihan muncul tanpa huruf vokal.",
       "outcome_no_title": "Keputusan bagus",
-      "outcome_no_body": "Kamu menghentikan kepanikan fiskal ini dan ekonomi kembali ke 50."
+      "outcome_no_body": "Kamu menghentikan kepanikan fiskal ini dan ekonomi kembali ke 50. Selama 12 kartu, pilihan muncul tanpa huruf vokal."
     },
     "western_major_004": {
       "title": "Tentara kelelahan",
@@ -41,9 +41,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan bagus",
-      "outcome_yes_body": "Kamu mencegah kehancuran. Pertahanan kembali ke 50.",
+      "outcome_yes_body": "Kamu mencegah kehancuran. Pertahanan kembali ke 50. Selama 12 kartu, pesan kartu muncul terbalik.",
       "outcome_no_title": "Keputusan buruk",
-      "outcome_no_body": "Pasukan retak dari dalam. Pertahanan terbagi dua."
+      "outcome_no_body": "Pasukan retak dari dalam. Pertahanan terbagi dua. Selama 12 kartu, pesan kartu muncul terbalik."
     },
     "western_major_005": {
       "title": "KTT yang rapuh",
@@ -52,9 +52,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan buruk",
-      "outcome_yes_body": "Kamu membiarkan provokasi itu terjadi dan diplomasi turun setengah.",
+      "outcome_yes_body": "Kamu membiarkan provokasi itu terjadi dan diplomasi turun setengah. Selama 12 kartu, pilihan muncul terbalik.",
       "outcome_no_title": "Keputusan bagus",
-      "outcome_no_body": "Kamu menolak penghinaan ini dan diplomasi kembali ke 50."
+      "outcome_no_body": "Kamu menolak penghinaan ini dan diplomasi kembali ke 50. Selama 12 kartu, pilihan muncul terbalik."
     },
     "western_major_006": {
       "title": "Janji populer",

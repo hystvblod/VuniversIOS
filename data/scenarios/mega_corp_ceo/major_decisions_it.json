@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "corp_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Cattiva decisione",
-      "outcome_yes_body": "Annunci qualcosa che non potrai mantenere. La fiducia degli investitori si dimezza.",
+      "outcome_yes_body": "Annunci qualcosa che non potrai mantenere. La fiducia degli investitori si dimezza. Per 12 carte, il messaggio della carta appare senza vocali.",
       "outcome_no_title": "Buona decisione",
-      "outcome_no_body": "Resti credibile e gli investitori tornano a 50."
+      "outcome_no_body": "Resti credibile e gli investitori tornano a 50. Per 12 carte, il messaggio della carta appare senza vocali."
     },
     "corp_major_003": {
       "title": "Piano sociale brutale",
@@ -30,9 +30,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Cattiva decisione",
-      "outcome_yes_body": "Abbandoni le squadre. I dipendenti crollano della metà.",
+      "outcome_yes_body": "Abbandoni le squadre. I dipendenti crollano della metà. Per 12 carte, le scelte appaiono senza vocali.",
       "outcome_no_title": "Buona decisione",
-      "outcome_no_body": "Blocchi questo danno e i dipendenti tornano a 50."
+      "outcome_no_body": "Blocchi questo danno e i dipendenti tornano a 50. Per 12 carte, le scelte appaiono senza vocali."
     },
     "corp_major_004": {
       "title": "Campagna ingannevole",
@@ -41,9 +41,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Cattiva decisione",
-      "outcome_yes_body": "Approvi una campagna ingannevole. L'immagine del marchio si dimezza.",
+      "outcome_yes_body": "Approvi una campagna ingannevole. L'immagine del marchio si dimezza. Per 12 carte, il messaggio della carta appare al contrario.",
       "outcome_no_title": "Buona decisione",
-      "outcome_no_body": "Rifiuti questa menzogna e l'immagine del marchio torna a 50."
+      "outcome_no_body": "Rifiuti questa menzogna e l'immagine del marchio torna a 50. Per 12 carte, il messaggio della carta appare al contrario."
     },
     "corp_major_005": {
       "title": "Ispezione annunciata",
@@ -52,9 +52,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Cattiva decisione",
-      "outcome_yes_body": "Preferisci nascondere invece di correggere. Le autorità ti sanzionano e il rapporto con loro crolla della metà.",
+      "outcome_yes_body": "Preferisci nascondere invece di correggere. Le autorità ti sanzionano e il rapporto con loro crolla della metà. Per 12 carte, le scelte appaiono al contrario.",
       "outcome_no_title": "Buona decisione",
-      "outcome_no_body": "Imponi una vera rimessa in ordine. Le autorità di regolamentazione tornano a 50."
+      "outcome_no_body": "Imponi una vera rimessa in ordine. Le autorità di regolamentazione tornano a 50. Per 12 carte, le scelte appaiono al contrario."
     },
     "corp_major_006": {
       "title": "Annuncio troppo ottimista",

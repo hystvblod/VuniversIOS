@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "explorer_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "No",
       "preview_hint": "Usar una ficha para ver los efectos",
       "outcome_yes_title": "Buena decisión",
-      "outcome_yes_body": "Consolidas lo esencial. Los territorios vuelven a 50.",
+      "outcome_yes_body": "Consolidas lo esencial. Los territorios vuelven a 50. Durante 12 cartas, el mensaje de la carta aparece sin vocales.",
       "outcome_no_title": "Mala decisión",
-      "outcome_no_body": "Te estiras demasiado. Los territorios controlados se reducen a la mitad."
+      "outcome_no_body": "Te estiras demasiado. Los territorios controlados se reducen a la mitad. Durante 12 cartas, el mensaje de la carta aparece sin vocales."
     },
     "explorer_major_003": {
       "title": "Cargamento perdido",
@@ -30,9 +30,9 @@
       "no_label": "No",
       "preview_hint": "Usar una ficha para ver los efectos",
       "outcome_yes_title": "Buena decisión",
-      "outcome_yes_body": "Salvas lo esencial. Las riquezas vuelven a 50.",
+      "outcome_yes_body": "Salvas lo esencial. Las riquezas vuelven a 50. Durante 12 cartas, las opciones aparecen sin vocales.",
       "outcome_no_title": "Mala decisión",
-      "outcome_no_body": "Dejas escapar demasiadas pérdidas. Las riquezas caen a la mitad."
+      "outcome_no_body": "Dejas escapar demasiadas pérdidas. Las riquezas caen a la mitad. Durante 12 cartas, las opciones aparecen sin vocales."
     },
     "explorer_major_004": {
       "title": "Conversiones forzadas",
@@ -41,9 +41,9 @@
       "no_label": "No",
       "preview_hint": "Usar una ficha para ver los efectos",
       "outcome_yes_title": "Mala decisión",
-      "outcome_yes_body": "Dejas que el miedo gobierne. La población convertida se reduce a la mitad.",
+      "outcome_yes_body": "Dejas que el miedo gobierne. La población convertida se reduce a la mitad. Durante 12 cartas, el mensaje de la carta aparece al revés.",
       "outcome_no_title": "Buena decisión",
-      "outcome_no_body": "Rechazas esta brutalidad y la población convertida vuelve a 50."
+      "outcome_no_body": "Rechazas esta brutalidad y la población convertida vuelve a 50. Durante 12 cartas, el mensaje de la carta aparece al revés."
     },
     "explorer_major_005": {
       "title": "Exigir más al rey",
@@ -52,9 +52,9 @@
       "no_label": "No",
       "preview_hint": "Usar una ficha para ver los efectos",
       "outcome_yes_title": "Mala decisión",
-      "outcome_yes_body": "Pides demasiado pronto. El apoyo real cae a la mitad.",
+      "outcome_yes_body": "Pides demasiado pronto. El apoyo real cae a la mitad. Durante 12 cartas, las opciones aparecen al revés.",
       "outcome_no_title": "Buena decisión",
-      "outcome_no_body": "Ganas tiempo y mantienes la confianza del rey. El apoyo real vuelve a 50."
+      "outcome_no_body": "Ganas tiempo y mantienes la confianza del rey. El apoyo real vuelve a 50. Durante 12 cartas, las opciones aparecen al revés."
     },
     "explorer_major_006": {
       "title": "Ir más allá de las líneas",

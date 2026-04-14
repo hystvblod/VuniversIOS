@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "heaven_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton verwenden, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Schlechte Entscheidung",
-      "outcome_yes_body": "Du setzt Angst an die Stelle des Glaubens. Die Gebete werden halbiert.",
+      "outcome_yes_body": "Du setzt Angst an die Stelle des Glaubens. Die Gebete werden halbiert. Für 12 Karten erscheint der Kartentext ohne Vokale.",
       "outcome_no_title": "Gute Entscheidung",
-      "outcome_no_body": "Du lehnst diese Brutalität ab und die Gebete kehren auf 50 zurück."
+      "outcome_no_body": "Du lehnst diese Brutalität ab und die Gebete kehren auf 50 zurück. Für 12 Karten erscheint der Kartentext ohne Vokale."
     },
     "heaven_major_003": {
       "title": "Neuer Kult",
@@ -30,9 +30,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton verwenden, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Schlechte Entscheidung",
-      "outcome_yes_body": "Du unterstützt eine spektakuläre Fehlentwicklung. Der Kult fällt auf die Hälfte.",
+      "outcome_yes_body": "Du unterstützt eine spektakuläre Fehlentwicklung. Der Kult fällt auf die Hälfte. Für 12 Karten erscheinen die Antworten ohne Vokale.",
       "outcome_no_title": "Gute Entscheidung",
-      "outcome_no_body": "Du richtest den Glauben wieder auf etwas Stabiles aus. Der Kult kehrt auf 50 zurück."
+      "outcome_no_body": "Du richtest den Glauben wieder auf etwas Stabiles aus. Der Kult kehrt auf 50 zurück. Für 12 Karten erscheinen die Antworten ohne Vokale."
     },
     "heaven_major_004": {
       "title": "Eingeschränkter freier Wille",
@@ -41,9 +41,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton verwenden, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Schlechte Entscheidung",
-      "outcome_yes_body": "Du gibst zu viel Kontrolle. Der freie Wille wird halbiert.",
+      "outcome_yes_body": "Du gibst zu viel Kontrolle. Der freie Wille wird halbiert. Für 12 Karten wird der Kartentext rückwärts angezeigt.",
       "outcome_no_title": "Gute Entscheidung",
-      "outcome_no_body": "Du lehnst diese Fehlentwicklung ab und der freie Wille kehrt auf 50 zurück."
+      "outcome_no_body": "Du lehnst diese Fehlentwicklung ab und der freie Wille kehrt auf 50 zurück. Für 12 Karten wird der Kartentext rückwärts angezeigt."
     },
     "heaven_major_005": {
       "title": "Wunder in Serie",
@@ -52,9 +52,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton verwenden, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Schlechte Entscheidung",
-      "outcome_yes_body": "Du machst das göttliche Eingreifen banal. Die Eingriffe werden halbiert.",
+      "outcome_yes_body": "Du machst das göttliche Eingreifen banal. Die Eingriffe werden halbiert. Für 12 Karten werden die Antworten rückwärts angezeigt.",
       "outcome_no_title": "Gute Entscheidung",
-      "outcome_no_body": "Du bewahrst Seltenheit und Sinn. Die Eingriffe kehren auf 50 zurück."
+      "outcome_no_body": "Du bewahrst Seltenheit und Sinn. Die Eingriffe kehren auf 50 zurück. Für 12 Karten werden die Antworten rückwärts angezeigt."
     },
     "heaven_major_006": {
       "title": "Glaube gegen Kontrolle",

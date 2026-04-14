@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "vampire_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "Não",
       "preview_hint": "Usar um token para ver os efeitos",
       "outcome_yes_title": "Boa decisão",
-      "outcome_yes_body": "Você impõe calma e o sangue volta a um nível estável.",
+      "outcome_yes_body": "Você impõe calma e o sangue volta a um nível estável. Durante 12 cartas, a mensagem da carta aparece sem vogais.",
       "outcome_no_title": "Má decisão",
-      "outcome_no_body": "A caça dá errado. Suas reservas de sangue são reduzidas pela metade."
+      "outcome_no_body": "A caça dá errado. Suas reservas de sangue são reduzidas pela metade. Durante 12 cartas, a mensagem da carta aparece sem vogais."
     },
     "vampire_major_003": {
       "title": "Falso refúgio",
@@ -30,9 +30,9 @@
       "no_label": "Não",
       "preview_hint": "Usar um token para ver os efeitos",
       "outcome_yes_title": "Boa decisão",
-      "outcome_yes_body": "Você desvia a ameaça. A pressão dos caçadores volta para 50.",
+      "outcome_yes_body": "Você desvia a ameaça. A pressão dos caçadores volta para 50. Durante 12 cartas, as escolhas aparecem sem vogais.",
       "outcome_no_title": "Má decisão",
-      "outcome_no_body": "Eles avançam sem obstáculos. Os caçadores ganham ainda mais terreno."
+      "outcome_no_body": "Eles avançam sem obstáculos. Os caçadores ganham ainda mais terreno. Durante 12 cartas, as escolhas aparecem sem vogais."
     },
     "vampire_major_004": {
       "title": "Punir um líder do clã",
@@ -41,9 +41,9 @@
       "no_label": "Não",
       "preview_hint": "Usar um token para ver os efeitos",
       "outcome_yes_title": "Boa decisão",
-      "outcome_yes_body": "Você lembra que ninguém está acima do clã. O clã volta para 50.",
+      "outcome_yes_body": "Você lembra que ninguém está acima do clã. O clã volta para 50. Durante 12 cartas, a mensagem da carta aparece invertida.",
       "outcome_no_title": "Má decisão",
-      "outcome_no_body": "A fraqueza fica visível. O clã perde metade da coesão."
+      "outcome_no_body": "A fraqueza fica visível. O clã perde metade da coesão. Durante 12 cartas, a mensagem da carta aparece invertida."
     },
     "vampire_major_005": {
       "title": "Apagar os rastros",
@@ -52,9 +52,9 @@
       "no_label": "Não",
       "preview_hint": "Usar um token para ver os efeitos",
       "outcome_yes_title": "Boa decisão",
-      "outcome_yes_body": "Você fecha as pistas a tempo. A discrição volta para 50.",
+      "outcome_yes_body": "Você fecha as pistas a tempo. A discrição volta para 50. Durante 12 cartas, as escolhas aparecem invertidas.",
       "outcome_no_title": "Má decisão",
-      "outcome_no_body": "As pistas se acumulam. A discrição cai pela metade."
+      "outcome_no_body": "As pistas se acumulam. A discrição cai pela metade. Durante 12 cartas, as escolhas aparecem invertidas."
     },
     "vampire_major_006": {
       "title": "Banquete chamativo demais",

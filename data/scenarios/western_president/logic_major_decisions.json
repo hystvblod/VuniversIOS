@@ -24,12 +24,20 @@
       "yes": {
         "scaleGauge": {
           "opinion": 0.5
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_message": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "setGauge": {
           "opinion": 50
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_message": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {
@@ -39,12 +47,20 @@
       "yes": {
         "scaleGauge": {
           "economy": 0.5
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_choices": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "setGauge": {
           "economy": 50
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_choices": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {
@@ -54,12 +70,20 @@
       "yes": {
         "setGauge": {
           "defense": 50
-        }
+        },
+        "ui_effects": {
+          "reverse_message": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "scaleGauge": {
           "defense": 0.5
-        }
+        },
+        "ui_effects": {
+          "reverse_message": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {
@@ -69,12 +93,20 @@
       "yes": {
         "scaleGauge": {
           "diplomacy": 0.5
-        }
+        },
+        "ui_effects": {
+          "reverse_choices": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "setGauge": {
           "diplomacy": 50
-        }
+        },
+        "ui_effects": {
+          "reverse_choices": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {

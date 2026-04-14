@@ -24,12 +24,20 @@
       "yes": {
         "setGauge": {
           "conquered_territory": 50
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_message": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "scaleGauge": {
           "conquered_territory": 0.5
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_message": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {
@@ -39,12 +47,20 @@
       "yes": {
         "setGauge": {
           "found_wealth": 50
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_choices": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "scaleGauge": {
           "royal_treasury": 0.5
-        }
+        },
+        "ui_effects": {
+          "hide_vowels_choices": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {
@@ -54,12 +70,20 @@
       "yes": {
         "scaleGauge": {
           "converted_population": 0.5
-        }
+        },
+        "ui_effects": {
+          "reverse_message": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "setGauge": {
           "converted_population": 50
-        }
+        },
+        "ui_effects": {
+          "reverse_message": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {
@@ -69,12 +93,20 @@
       "yes": {
         "scaleGauge": {
           "royal_treasury": 0.5
-        }
+        },
+        "ui_effects": {
+          "reverse_choices": true
+        },
+        "ui_effects_duration": 12
       },
       "no": {
         "setGauge": {
           "royal_treasury": 50
-        }
+        },
+        "ui_effects": {
+          "reverse_choices": true
+        },
+        "ui_effects_duration": 12
       }
     },
     {

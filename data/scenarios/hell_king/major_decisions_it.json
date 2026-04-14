@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "hell_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Cattiva decisione",
-      "outcome_yes_body": "Lanci l'assalto troppo presto. Le legioni vengono dimezzate.",
+      "outcome_yes_body": "Lanci l'assalto troppo presto. Le legioni vengono dimezzate. Per 12 carte, il messaggio della carta appare senza vocali.",
       "outcome_no_title": "Buona decisione",
-      "outcome_no_body": "Imponi una vera preparazione. Le legioni tornano a 50."
+      "outcome_no_body": "Imponi una vera preparazione. Le legioni tornano a 50. Per 12 carte, il messaggio della carta appare senza vocali."
     },
     "hell_major_003": {
       "title": "Grande pulizia nell'amministrazione",
@@ -30,9 +30,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Buona decisione",
-      "outcome_yes_body": "Ripristini regole semplici. L'ordine infernale torna a 50.",
+      "outcome_yes_body": "Ripristini regole semplici. L'ordine infernale torna a 50. Per 12 carte, le scelte appaiono senza vocali.",
       "outcome_no_title": "Cattiva decisione",
-      "outcome_no_body": "Il caos continua. L'ordine infernale viene dimezzato."
+      "outcome_no_body": "Il caos continua. L'ordine infernale viene dimezzato. Per 12 carte, le scelte appaiono senza vocali."
     },
     "hell_major_004": {
       "title": "Smistamento delle anime",
@@ -41,9 +41,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Buona decisione",
-      "outcome_yes_body": "Eviti un disastro ancora più grande. Le anime dannate tornano a 50.",
+      "outcome_yes_body": "Eviti un disastro ancora più grande. Le anime dannate tornano a 50. Per 12 carte, il messaggio della carta appare al contrario.",
       "outcome_no_title": "Cattiva decisione",
-      "outcome_no_body": "Lasci peggiorare la situazione. Le anime disponibili crollano della metà."
+      "outcome_no_body": "Lasci peggiorare la situazione. Le anime disponibili crollano della metà. Per 12 carte, il messaggio della carta appare al contrario."
     },
     "hell_major_005": {
       "title": "Operazione di terrore",
@@ -52,9 +52,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Cattiva decisione",
-      "outcome_yes_body": "L'operazione diventa incontrollabile. La tua influenza sulla Terra viene dimezzata.",
+      "outcome_yes_body": "L'operazione diventa incontrollabile. La tua influenza sulla Terra viene dimezzata. Per 12 carte, le scelte appaiono al contrario.",
       "outcome_no_title": "Buona decisione",
-      "outcome_no_body": "Rifiuti l'escalation. L'influenza sulla Terra torna a 50."
+      "outcome_no_body": "Rifiuti l'escalation. L'influenza sulla Terra torna a 50. Per 12 carte, le scelte appaiono al contrario."
     },
     "hell_major_006": {
       "title": "Corte degli adulatori",

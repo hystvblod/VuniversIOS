@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "western_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "You choose aggression and public opinion is cut in half.",
+      "outcome_yes_body": "You choose aggression and public opinion is cut in half. For 12 cards, the card message appears without vowels.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You reject that easy tone and public opinion returns to 50."
+      "outcome_no_body": "You reject that easy tone and public opinion returns to 50. For 12 cards, the card message appears without vowels."
     },
     "western_major_003": {
       "title": "Sharp Tax Increase",
@@ -30,9 +30,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "You sign a brutal increase and the economy drops by half.",
+      "outcome_yes_body": "You sign a brutal increase and the economy drops by half. For 12 cards, the choices appear without vowels.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You block this tax panic and the economy returns to 50."
+      "outcome_no_body": "You block this tax panic and the economy returns to 50. For 12 cards, the choices appear without vowels."
     },
     "western_major_004": {
       "title": "Overworked Army",
@@ -41,9 +41,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Good decision",
-      "outcome_yes_body": "You avoid a breakdown. Defense returns to 50.",
+      "outcome_yes_body": "You avoid a breakdown. Defense returns to 50. For 12 cards, the card message appears reversed.",
       "outcome_no_title": "Bad decision",
-      "outcome_no_body": "The forces crack from within. Defense is cut in half."
+      "outcome_no_body": "The forces crack from within. Defense is cut in half. For 12 cards, the card message appears reversed."
     },
     "western_major_005": {
       "title": "Fragile Summit",
@@ -52,9 +52,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "You let the provocation happen and diplomacy drops by half.",
+      "outcome_yes_body": "You let the provocation happen and diplomacy drops by half. For 12 cards, the choices appear reversed.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You refuse this humiliation and diplomacy returns to 50."
+      "outcome_no_body": "You refuse this humiliation and diplomacy returns to 50. For 12 cards, the choices appear reversed."
     },
     "western_major_006": {
       "title": "Popular Promise",

@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "vampire_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Buona decisione",
-      "outcome_yes_body": "Imponi calma e il sangue torna a un livello stabile.",
+      "outcome_yes_body": "Imponi calma e il sangue torna a un livello stabile. Per 12 carte, il messaggio della carta appare senza vocali.",
       "outcome_no_title": "Cattiva decisione",
-      "outcome_no_body": "La caccia va male. Le tue riserve di sangue si dimezzano."
+      "outcome_no_body": "La caccia va male. Le tue riserve di sangue si dimezzano. Per 12 carte, il messaggio della carta appare senza vocali."
     },
     "vampire_major_003": {
       "title": "Falso rifugio",
@@ -30,9 +30,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Buona decisione",
-      "outcome_yes_body": "Allontani la minaccia. La pressione dei cacciatori torna a 50.",
+      "outcome_yes_body": "Allontani la minaccia. La pressione dei cacciatori torna a 50. Per 12 carte, le scelte appaiono senza vocali.",
       "outcome_no_title": "Cattiva decisione",
-      "outcome_no_body": "Avanzano senza ostacoli. I cacciatori guadagnano ancora terreno."
+      "outcome_no_body": "Avanzano senza ostacoli. I cacciatori guadagnano ancora terreno. Per 12 carte, le scelte appaiono senza vocali."
     },
     "vampire_major_004": {
       "title": "Punire un capo del clan",
@@ -41,9 +41,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Buona decisione",
-      "outcome_yes_body": "Ricordi che nessuno è al di sopra del clan. Il clan torna a 50.",
+      "outcome_yes_body": "Ricordi che nessuno è al di sopra del clan. Il clan torna a 50. Per 12 carte, il messaggio della carta appare al contrario.",
       "outcome_no_title": "Cattiva decisione",
-      "outcome_no_body": "La debolezza si vede. Il clan perde metà della sua coesione."
+      "outcome_no_body": "La debolezza si vede. Il clan perde metà della sua coesione. Per 12 carte, il messaggio della carta appare al contrario."
     },
     "vampire_major_005": {
       "title": "Cancellare le tracce",
@@ -52,9 +52,9 @@
       "no_label": "No",
       "preview_hint": "Usa un gettone per vedere gli effetti",
       "outcome_yes_title": "Buona decisione",
-      "outcome_yes_body": "Chiudi le piste in tempo. La discrezione torna a 50.",
+      "outcome_yes_body": "Chiudi le piste in tempo. La discrezione torna a 50. Per 12 carte, le scelte appaiono al contrario.",
       "outcome_no_title": "Cattiva decisione",
-      "outcome_no_body": "Gli indizi si accumulano. La discrezione crolla della metà."
+      "outcome_no_body": "Gli indizi si accumulano. La discrezione crolla della metà. Per 12 carte, le scelte appaiono al contrario."
     },
     "vampire_major_006": {
       "title": "Banchetto troppo vistoso",

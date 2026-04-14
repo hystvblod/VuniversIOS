@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "western_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "いいえ",
       "preview_hint": "効果を見るにはトークンを使う",
       "outcome_yes_title": "悪い決断",
-      "outcome_yes_body": "お前は攻撃的な姿勢を選び、世論は半減する。",
+      "outcome_yes_body": "お前は攻撃的な姿勢を選び、世論は半減する。 12枚のカードの間、カードのメッセージは母音なしで表示される。",
       "outcome_no_title": "良い決断",
-      "outcome_no_body": "お前は安易な強硬姿勢を拒み、世論は50に戻る。"
+      "outcome_no_body": "お前は安易な強硬姿勢を拒み、世論は50に戻る。 12枚のカードの間、カードのメッセージは母音なしで表示される。"
     },
     "western_major_003": {
       "title": "急激な増税",
@@ -30,9 +30,9 @@
       "no_label": "いいえ",
       "preview_hint": "効果を見るにはトークンを使う",
       "outcome_yes_title": "悪い決断",
-      "outcome_yes_body": "お前は急激な増税に署名し、経済は半減する。",
+      "outcome_yes_body": "お前は急激な増税に署名し、経済は半減する。 12枚のカードの間、選択肢は母音なしで表示される。",
       "outcome_no_title": "良い決断",
-      "outcome_no_body": "お前はこの財政的なパニックを止め、経済は50に戻る。"
+      "outcome_no_body": "お前はこの財政的なパニックを止め、経済は50に戻る。 12枚のカードの間、選択肢は母音なしで表示される。"
     },
     "western_major_004": {
       "title": "疲弊した軍",
@@ -41,9 +41,9 @@
       "no_label": "いいえ",
       "preview_hint": "効果を見るにはトークンを使う",
       "outcome_yes_title": "良い決断",
-      "outcome_yes_body": "お前は崩壊を防いだ。防衛は50に戻る。",
+      "outcome_yes_body": "お前は崩壊を防いだ。防衛は50に戻る。 12枚のカードの間、カードのメッセージは逆向きで表示される。",
       "outcome_no_title": "悪い決断",
-      "outcome_no_body": "軍は内側から崩れ始める。防衛は半減する。"
+      "outcome_no_body": "軍は内側から崩れ始める。防衛は半減する。 12枚のカードの間、カードのメッセージは逆向きで表示される。"
     },
     "western_major_005": {
       "title": "危うい首脳会談",
@@ -52,9 +52,9 @@
       "no_label": "いいえ",
       "preview_hint": "効果を見るにはトークンを使う",
       "outcome_yes_title": "悪い決断",
-      "outcome_yes_body": "お前は挑発を見逃し、外交は半減する。",
+      "outcome_yes_body": "お前は挑発を見逃し、外交は半減する。 12枚のカードの間、選択肢は逆向きで表示される。",
       "outcome_no_title": "良い決断",
-      "outcome_no_body": "お前はその侮辱を拒み、外交は50に戻る。"
+      "outcome_no_body": "お前はその侮辱を拒み、外交は50に戻る。 12枚のカードの間、選択肢は逆向きで表示される。"
     },
     "western_major_006": {
       "title": "人気取りの約束",
@@ -305,8 +305,6 @@
       "preview_hint": "効果を見るにはトークンを使う",
       "outcome_yes_title": "良い決断",
       "outcome_yes_body": "お前はこの戦線を開くことを拒み、防衛は50に戻る。",
-      "outcome_no_title": "大惨事",
-      "outcome_no_body": "お前は国全体を同時に分散させてしまう。ゲームオーバー。",
       "outcome_no_title": "良い決断",
       "outcome_no_body": "お前はこの戦線を開くことを拒み、防衛は50に戻る。"
     },

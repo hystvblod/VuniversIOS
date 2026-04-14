@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "corp_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan buruk",
-      "outcome_yes_body": "Kamu mengumumkan sesuatu yang tidak akan bisa kamu penuhi. Kepercayaan investor terbagi dua.",
+      "outcome_yes_body": "Kamu mengumumkan sesuatu yang tidak akan bisa kamu penuhi. Kepercayaan investor terbagi dua. Selama 12 kartu, pesan kartu muncul tanpa huruf vokal.",
       "outcome_no_title": "Keputusan bagus",
-      "outcome_no_body": "Kamu tetap kredibel dan para investor kembali ke 50."
+      "outcome_no_body": "Kamu tetap kredibel dan para investor kembali ke 50. Selama 12 kartu, pesan kartu muncul tanpa huruf vokal."
     },
     "corp_major_003": {
       "title": "PHK besar-besaran yang brutal",
@@ -30,9 +30,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan buruk",
-      "outcome_yes_body": "Kamu meninggalkan tim begitu saja. Karyawan turun setengah.",
+      "outcome_yes_body": "Kamu meninggalkan tim begitu saja. Karyawan turun setengah. Selama 12 kartu, pilihan muncul tanpa huruf vokal.",
       "outcome_no_title": "Keputusan bagus",
-      "outcome_no_body": "Kamu menghentikan kerusakan ini dan karyawan kembali ke 50."
+      "outcome_no_body": "Kamu menghentikan kerusakan ini dan karyawan kembali ke 50. Selama 12 kartu, pilihan muncul tanpa huruf vokal."
     },
     "corp_major_004": {
       "title": "Kampanye bohong",
@@ -41,9 +41,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan buruk",
-      "outcome_yes_body": "Kamu menyetujui kampanye yang menyesatkan. Citra merek terbagi dua.",
+      "outcome_yes_body": "Kamu menyetujui kampanye yang menyesatkan. Citra merek terbagi dua. Selama 12 kartu, pesan kartu muncul terbalik.",
       "outcome_no_title": "Keputusan bagus",
-      "outcome_no_body": "Kamu menolak kebohongan itu dan citra merek kembali ke 50."
+      "outcome_no_body": "Kamu menolak kebohongan itu dan citra merek kembali ke 50. Selama 12 kartu, pesan kartu muncul terbalik."
     },
     "corp_major_005": {
       "title": "Inspeksi yang diumumkan",
@@ -52,9 +52,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan buruk",
-      "outcome_yes_body": "Kamu memilih menyembunyikan daripada memperbaiki. Regulator memberi sanksi dan hubungan dengan mereka turun setengah.",
+      "outcome_yes_body": "Kamu memilih menyembunyikan daripada memperbaiki. Regulator memberi sanksi dan hubungan dengan mereka turun setengah. Selama 12 kartu, pilihan muncul terbalik.",
       "outcome_no_title": "Keputusan bagus",
-      "outcome_no_body": "Kamu memaksakan perbaikan yang sungguh-sungguh. Regulator kembali ke 50."
+      "outcome_no_body": "Kamu memaksakan perbaikan yang sungguh-sungguh. Regulator kembali ke 50. Selama 12 kartu, pilihan muncul terbalik."
     },
     "corp_major_006": {
       "title": "Pengumuman terlalu optimistis",

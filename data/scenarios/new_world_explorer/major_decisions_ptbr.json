@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "explorer_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "Não",
       "preview_hint": "Usar um token para ver os efeitos",
       "outcome_yes_title": "Boa decisão",
-      "outcome_yes_body": "Você consolida o essencial. Os territórios voltam para 50.",
+      "outcome_yes_body": "Você consolida o essencial. Os territórios voltam para 50. Durante 12 cartas, a mensagem da carta aparece sem vogais.",
       "outcome_no_title": "Má decisão",
-      "outcome_no_body": "Você se estica demais. Os territórios controlados são reduzidos pela metade."
+      "outcome_no_body": "Você se estica demais. Os territórios controlados são reduzidos pela metade. Durante 12 cartas, a mensagem da carta aparece sem vogais."
     },
     "explorer_major_003": {
       "title": "Carga perdida",
@@ -30,9 +30,9 @@
       "no_label": "Não",
       "preview_hint": "Usar um token para ver os efeitos",
       "outcome_yes_title": "Boa decisão",
-      "outcome_yes_body": "Você salva o essencial. As riquezas voltam para 50.",
+      "outcome_yes_body": "Você salva o essencial. As riquezas voltam para 50. Durante 12 cartas, as escolhas aparecem sem vogais.",
       "outcome_no_title": "Má decisão",
-      "outcome_no_body": "Você deixa perdas demais acontecerem. As riquezas caem pela metade."
+      "outcome_no_body": "Você deixa perdas demais acontecerem. As riquezas caem pela metade. Durante 12 cartas, as escolhas aparecem sem vogais."
     },
     "explorer_major_004": {
       "title": "Conversões forçadas",
@@ -41,9 +41,9 @@
       "no_label": "Não",
       "preview_hint": "Usar um token para ver os efeitos",
       "outcome_yes_title": "Má decisão",
-      "outcome_yes_body": "Você deixa o medo mandar. A população convertida é reduzida pela metade.",
+      "outcome_yes_body": "Você deixa o medo mandar. A população convertida é reduzida pela metade. Durante 12 cartas, a mensagem da carta aparece invertida.",
       "outcome_no_title": "Boa decisão",
-      "outcome_no_body": "Você recusa essa brutalidade e a população convertida volta para 50."
+      "outcome_no_body": "Você recusa essa brutalidade e a população convertida volta para 50. Durante 12 cartas, a mensagem da carta aparece invertida."
     },
     "explorer_major_005": {
       "title": "Exigir mais do rei",
@@ -52,9 +52,9 @@
       "no_label": "Não",
       "preview_hint": "Usar um token para ver os efeitos",
       "outcome_yes_title": "Má decisão",
-      "outcome_yes_body": "Você pede cedo demais. O apoio real cai pela metade.",
+      "outcome_yes_body": "Você pede cedo demais. O apoio real cai pela metade. Durante 12 cartas, as escolhas aparecem invertidas.",
       "outcome_no_title": "Boa decisão",
-      "outcome_no_body": "Você ganha tempo e mantém a confiança do rei. O apoio real volta para 50."
+      "outcome_no_body": "Você ganha tempo e mantém a confiança do rei. O apoio real volta para 50. Durante 12 cartas, as escolhas aparecem invertidas."
     },
     "explorer_major_006": {
       "title": "Ir além das linhas",

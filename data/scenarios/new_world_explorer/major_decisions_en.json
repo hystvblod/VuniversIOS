@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "explorer_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Good decision",
-      "outcome_yes_body": "You consolidate what matters most. Territories return to 50.",
+      "outcome_yes_body": "You consolidate what matters most. Territories return to 50. For 12 cards, the card message appears without vowels.",
       "outcome_no_title": "Bad decision",
-      "outcome_no_body": "You stretch yourself too thin. Controlled territories are cut in half."
+      "outcome_no_body": "You stretch yourself too thin. Controlled territories are cut in half. For 12 cards, the card message appears without vowels."
     },
     "explorer_major_003": {
       "title": "Lost Cargo",
@@ -30,9 +30,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Good decision",
-      "outcome_yes_body": "You save what matters most. Riches return to 50.",
+      "outcome_yes_body": "You save what matters most. Riches return to 50. For 12 cards, the choices appear without vowels.",
       "outcome_no_title": "Bad decision",
-      "outcome_no_body": "You let too many losses slip away. Riches drop by half."
+      "outcome_no_body": "You let too many losses slip away. Riches drop by half. For 12 cards, the choices appear without vowels."
     },
     "explorer_major_004": {
       "title": "Forced Conversions",
@@ -41,9 +41,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "You let fear rule. The converted population is cut in half.",
+      "outcome_yes_body": "You let fear rule. The converted population is cut in half. For 12 cards, the card message appears reversed.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You refuse this brutality and the converted population returns to 50."
+      "outcome_no_body": "You refuse this brutality and the converted population returns to 50. For 12 cards, the card message appears reversed."
     },
     "explorer_major_005": {
       "title": "Demand More from the King",
@@ -52,9 +52,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "You ask too early. Royal support drops by half.",
+      "outcome_yes_body": "You ask too early. Royal support drops by half. For 12 cards, the choices appear reversed.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You hold back and keep the king's trust. Royal support returns to 50."
+      "outcome_no_body": "You hold back and keep the king's trust. Royal support returns to 50. For 12 cards, the choices appear reversed."
     },
     "explorer_major_006": {
       "title": "Go Beyond the Lines",

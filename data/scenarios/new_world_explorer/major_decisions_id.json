@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "explorer_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan bagus",
-      "outcome_yes_body": "Kamu memperkuat yang paling penting. Wilayah kembali ke 50.",
+      "outcome_yes_body": "Kamu memperkuat yang paling penting. Wilayah kembali ke 50. Selama 12 kartu, pesan kartu muncul tanpa huruf vokal.",
       "outcome_no_title": "Keputusan buruk",
-      "outcome_no_body": "Kamu menyebar terlalu jauh. Wilayah yang dikuasai terbagi dua."
+      "outcome_no_body": "Kamu menyebar terlalu jauh. Wilayah yang dikuasai terbagi dua. Selama 12 kartu, pesan kartu muncul tanpa huruf vokal."
     },
     "explorer_major_003": {
       "title": "Muatan hilang",
@@ -30,9 +30,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan bagus",
-      "outcome_yes_body": "Kamu menyelamatkan yang paling penting. Kekayaan kembali ke 50.",
+      "outcome_yes_body": "Kamu menyelamatkan yang paling penting. Kekayaan kembali ke 50. Selama 12 kartu, pilihan muncul tanpa huruf vokal.",
       "outcome_no_title": "Keputusan buruk",
-      "outcome_no_body": "Kamu membiarkan kerugian terlalu besar. Kekayaan turun setengah."
+      "outcome_no_body": "Kamu membiarkan kerugian terlalu besar. Kekayaan turun setengah. Selama 12 kartu, pilihan muncul tanpa huruf vokal."
     },
     "explorer_major_004": {
       "title": "Pertobatan paksa",
@@ -41,9 +41,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan buruk",
-      "outcome_yes_body": "Kamu membiarkan ketakutan memerintah. Jumlah penduduk yang bertobat terbagi dua.",
+      "outcome_yes_body": "Kamu membiarkan ketakutan memerintah. Jumlah penduduk yang bertobat terbagi dua. Selama 12 kartu, pesan kartu muncul terbalik.",
       "outcome_no_title": "Keputusan bagus",
-      "outcome_no_body": "Kamu menolak kekejaman ini dan jumlah penduduk yang bertobat kembali ke 50."
+      "outcome_no_body": "Kamu menolak kekejaman ini dan jumlah penduduk yang bertobat kembali ke 50. Selama 12 kartu, pesan kartu muncul terbalik."
     },
     "explorer_major_005": {
       "title": "Meminta lebih kepada raja",
@@ -52,9 +52,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan buruk",
-      "outcome_yes_body": "Kamu meminta terlalu cepat. Dukungan kerajaan turun setengah.",
+      "outcome_yes_body": "Kamu meminta terlalu cepat. Dukungan kerajaan turun setengah. Selama 12 kartu, pilihan muncul terbalik.",
       "outcome_no_title": "Keputusan bagus",
-      "outcome_no_body": "Kamu menahan diri dan menjaga kepercayaan raja. Dukungan kerajaan kembali ke 50."
+      "outcome_no_body": "Kamu menahan diri dan menjaga kepercayaan raja. Dukungan kerajaan kembali ke 50. Selama 12 kartu, pilihan muncul terbalik."
     },
     "explorer_major_006": {
       "title": "Pergi melampaui garis",

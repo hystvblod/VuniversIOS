@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "vampire_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Good decision",
-      "outcome_yes_body": "You impose calm and blood returns to a stable level.",
+      "outcome_yes_body": "You impose calm and blood returns to a stable level. For 12 cards, the card message appears without vowels.",
       "outcome_no_title": "Bad decision",
-      "outcome_no_body": "The hunt goes badly. Your blood reserves are cut in half."
+      "outcome_no_body": "The hunt goes badly. Your blood reserves are cut in half. For 12 cards, the card message appears without vowels."
     },
     "vampire_major_003": {
       "title": "False Refuge",
@@ -30,9 +30,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Good decision",
-      "outcome_yes_body": "You divert the threat. Hunter pressure returns to 50.",
+      "outcome_yes_body": "You divert the threat. Hunter pressure returns to 50. For 12 cards, the choices appear without vowels.",
       "outcome_no_title": "Bad decision",
-      "outcome_no_body": "They move forward without resistance. The hunters gain even more ground."
+      "outcome_no_body": "They move forward without resistance. The hunters gain even more ground. For 12 cards, the choices appear without vowels."
     },
     "vampire_major_004": {
       "title": "Punish a Clan Leader",
@@ -41,9 +41,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Good decision",
-      "outcome_yes_body": "You remind everyone that no one is above the clan. The clan returns to 50.",
+      "outcome_yes_body": "You remind everyone that no one is above the clan. The clan returns to 50. For 12 cards, the card message appears reversed.",
       "outcome_no_title": "Bad decision",
-      "outcome_no_body": "Weakness shows. The clan loses half its cohesion."
+      "outcome_no_body": "Weakness shows. The clan loses half its cohesion. For 12 cards, the card message appears reversed."
     },
     "vampire_major_005": {
       "title": "Erase the Traces",
@@ -52,9 +52,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Good decision",
-      "outcome_yes_body": "You close the trails in time. Discretion returns to 50.",
+      "outcome_yes_body": "You close the trails in time. Discretion returns to 50. For 12 cards, the choices appear reversed.",
       "outcome_no_title": "Bad decision",
-      "outcome_no_body": "The clues keep piling up. Discretion drops by half."
+      "outcome_no_body": "The clues keep piling up. Discretion drops by half. For 12 cards, the choices appear reversed."
     },
     "vampire_major_006": {
       "title": "Banquet Too Visible",

@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "corp_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "You announce something you will not be able to deliver. Investor confidence is cut in half.",
+      "outcome_yes_body": "You announce something you will not be able to deliver. Investor confidence is cut in half. For 12 cards, the card message appears without vowels.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You stay credible and investors return to 50."
+      "outcome_no_body": "You stay credible and investors return to 50. For 12 cards, the card message appears without vowels."
     },
     "corp_major_003": {
       "title": "Brutal Layoff Plan",
@@ -30,9 +30,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "You abandon your teams. Employees drop by half.",
+      "outcome_yes_body": "You abandon your teams. Employees drop by half. For 12 cards, the choices appear without vowels.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You stop this damage and employees return to 50."
+      "outcome_no_body": "You stop this damage and employees return to 50. For 12 cards, the choices appear without vowels."
     },
     "corp_major_004": {
       "title": "Misleading Campaign",
@@ -41,9 +41,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "You approve a misleading campaign. Brand image is cut in half.",
+      "outcome_yes_body": "You approve a misleading campaign. Brand image is cut in half. For 12 cards, the card message appears reversed.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You refuse that lie and brand image returns to 50."
+      "outcome_no_body": "You refuse that lie and brand image returns to 50. For 12 cards, the card message appears reversed."
     },
     "corp_major_005": {
       "title": "Inspection Incoming",
@@ -52,9 +52,9 @@
       "no_label": "No",
       "preview_hint": "Use a token to see the effects",
       "outcome_yes_title": "Bad decision",
-      "outcome_yes_body": "You choose to hide instead of fix. The regulators sanction you and the relationship drops by half.",
+      "outcome_yes_body": "You choose to hide instead of fix. The regulators sanction you and the relationship drops by half. For 12 cards, the choices appear reversed.",
       "outcome_no_title": "Good decision",
-      "outcome_no_body": "You impose a real cleanup. Regulators return to 50."
+      "outcome_no_body": "You impose a real cleanup. Regulators return to 50. For 12 cards, the choices appear reversed."
     },
     "corp_major_006": {
       "title": "Overly Optimistic Announcement",

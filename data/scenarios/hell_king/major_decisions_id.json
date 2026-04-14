@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "hell_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan buruk",
-      "outcome_yes_body": "Kamu memulai serangan terlalu cepat. Legiun terbagi dua.",
+      "outcome_yes_body": "Kamu memulai serangan terlalu cepat. Legiun terbagi dua. Selama 12 kartu, pesan kartu muncul tanpa huruf vokal.",
       "outcome_no_title": "Keputusan bagus",
-      "outcome_no_body": "Kamu memaksakan persiapan yang sungguh-sungguh. Legiun kembali ke 50."
+      "outcome_no_body": "Kamu memaksakan persiapan yang sungguh-sungguh. Legiun kembali ke 50. Selama 12 kartu, pesan kartu muncul tanpa huruf vokal."
     },
     "hell_major_003": {
       "title": "Pembersihan besar di administrasi",
@@ -30,9 +30,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan bagus",
-      "outcome_yes_body": "Kamu menetapkan aturan yang sederhana lagi. Ketertiban neraka kembali ke 50.",
+      "outcome_yes_body": "Kamu menetapkan aturan yang sederhana lagi. Ketertiban neraka kembali ke 50. Selama 12 kartu, pilihan muncul tanpa huruf vokal.",
       "outcome_no_title": "Keputusan buruk",
-      "outcome_no_body": "Kekacauan terus berlanjut. Ketertiban neraka terpotong setengah."
+      "outcome_no_body": "Kekacauan terus berlanjut. Ketertiban neraka terpotong setengah. Selama 12 kartu, pilihan muncul tanpa huruf vokal."
     },
     "hell_major_004": {
       "title": "Penyortiran jiwa",
@@ -41,9 +41,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan bagus",
-      "outcome_yes_body": "Kamu mencegah bencana yang lebih besar. Jiwa terkutuk kembali ke 50.",
+      "outcome_yes_body": "Kamu mencegah bencana yang lebih besar. Jiwa terkutuk kembali ke 50. Selama 12 kartu, pesan kartu muncul terbalik.",
       "outcome_no_title": "Keputusan buruk",
-      "outcome_no_body": "Kamu membiarkan situasi membusuk. Jumlah jiwa yang tersedia turun setengah."
+      "outcome_no_body": "Kamu membiarkan situasi membusuk. Jumlah jiwa yang tersedia turun setengah. Selama 12 kartu, pesan kartu muncul terbalik."
     },
     "hell_major_005": {
       "title": "Operasi teror",
@@ -52,9 +52,9 @@
       "no_label": "Tidak",
       "preview_hint": "Gunakan satu token untuk melihat efek",
       "outcome_yes_title": "Keputusan buruk",
-      "outcome_yes_body": "Operasi menjadi tak terkendali. Pengaruhmu di Bumi terbagi dua.",
+      "outcome_yes_body": "Operasi menjadi tak terkendali. Pengaruhmu di Bumi terbagi dua. Selama 12 kartu, pilihan muncul terbalik.",
       "outcome_no_title": "Keputusan bagus",
-      "outcome_no_body": "Kamu menolak eskalasi. Pengaruh di Bumi kembali ke 50."
+      "outcome_no_body": "Kamu menolak eskalasi. Pengaruh di Bumi kembali ke 50. Selama 12 kartu, pilihan muncul terbalik."
     },
     "hell_major_006": {
       "title": "Istana para penjilat",

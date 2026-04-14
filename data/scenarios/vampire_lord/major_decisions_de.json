@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "vampire_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Gute Entscheidung",
-      "outcome_yes_body": "Du erzwingst Ruhe, und das Blut kehrt auf ein stabiles Niveau zurück.",
+      "outcome_yes_body": "Du erzwingst Ruhe, und das Blut kehrt auf ein stabiles Niveau zurück. Für 12 Karten erscheint der Kartentext ohne Vokale.",
       "outcome_no_title": "Schlechte Entscheidung",
-      "outcome_no_body": "Die Jagd läuft schief. Deine Blutreserven werden halbiert."
+      "outcome_no_body": "Die Jagd läuft schief. Deine Blutreserven werden halbiert. Für 12 Karten erscheint der Kartentext ohne Vokale."
     },
     "vampire_major_003": {
       "title": "Falsches Versteck",
@@ -30,9 +30,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Gute Entscheidung",
-      "outcome_yes_body": "Du lenkst die Bedrohung um. Der Druck der Jäger kehrt auf 50 zurück.",
+      "outcome_yes_body": "Du lenkst die Bedrohung um. Der Druck der Jäger kehrt auf 50 zurück. Für 12 Karten erscheinen die Antworten ohne Vokale.",
       "outcome_no_title": "Schlechte Entscheidung",
-      "outcome_no_body": "Sie rücken ungehindert vor. Die Jäger gewinnen weiter an Boden."
+      "outcome_no_body": "Sie rücken ungehindert vor. Die Jäger gewinnen weiter an Boden. Für 12 Karten erscheinen die Antworten ohne Vokale."
     },
     "vampire_major_004": {
       "title": "Einen Clanchef bestrafen",
@@ -41,9 +41,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Gute Entscheidung",
-      "outcome_yes_body": "Du erinnerst alle daran, dass niemand über dem Clan steht. Der Clan kehrt auf 50 zurück.",
+      "outcome_yes_body": "Du erinnerst alle daran, dass niemand über dem Clan steht. Der Clan kehrt auf 50 zurück. Für 12 Karten wird der Kartentext rückwärts angezeigt.",
       "outcome_no_title": "Schlechte Entscheidung",
-      "outcome_no_body": "Die Schwäche wird sichtbar. Der Clan verliert die Hälfte seines Zusammenhalts."
+      "outcome_no_body": "Die Schwäche wird sichtbar. Der Clan verliert die Hälfte seines Zusammenhalts. Für 12 Karten wird der Kartentext rückwärts angezeigt."
     },
     "vampire_major_005": {
       "title": "Spuren beseitigen",
@@ -52,9 +52,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Gute Entscheidung",
-      "outcome_yes_body": "Du schließt die Spuren rechtzeitig. Die Diskretion kehrt auf 50 zurück.",
+      "outcome_yes_body": "Du schließt die Spuren rechtzeitig. Die Diskretion kehrt auf 50 zurück. Für 12 Karten werden die Antworten rückwärts angezeigt.",
       "outcome_no_title": "Schlechte Entscheidung",
-      "outcome_no_body": "Die Hinweise häufen sich. Die Diskretion fällt auf die Hälfte."
+      "outcome_no_body": "Die Hinweise häufen sich. Die Diskretion fällt auf die Hälfte. Für 12 Karten werden die Antworten rückwärts angezeigt."
     },
     "vampire_major_006": {
       "title": "Zu auffälliges Bankett",

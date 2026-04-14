@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "explorer_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Gute Entscheidung",
-      "outcome_yes_body": "Du sicherst das Wesentliche. Die Gebiete kehren auf 50 zurück.",
+      "outcome_yes_body": "Du sicherst das Wesentliche. Die Gebiete kehren auf 50 zurück. Für 12 Karten erscheint der Kartentext ohne Vokale.",
       "outcome_no_title": "Schlechte Entscheidung",
-      "outcome_no_body": "Du dehnst dich zu weit aus. Die kontrollierten Gebiete werden halbiert."
+      "outcome_no_body": "Du dehnst dich zu weit aus. Die kontrollierten Gebiete werden halbiert. Für 12 Karten erscheint der Kartentext ohne Vokale."
     },
     "explorer_major_003": {
       "title": "Verlorene Ladung",
@@ -30,9 +30,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Gute Entscheidung",
-      "outcome_yes_body": "Du rettest das Wesentliche. Die Reichtümer kehren auf 50 zurück.",
+      "outcome_yes_body": "Du rettest das Wesentliche. Die Reichtümer kehren auf 50 zurück. Für 12 Karten erscheinen die Antworten ohne Vokale.",
       "outcome_no_title": "Schlechte Entscheidung",
-      "outcome_no_body": "Du lässt zu viele Verluste zu. Die Reichtümer fallen auf die Hälfte."
+      "outcome_no_body": "Du lässt zu viele Verluste zu. Die Reichtümer fallen auf die Hälfte. Für 12 Karten erscheinen die Antworten ohne Vokale."
     },
     "explorer_major_004": {
       "title": "Erzwungene Bekehrungen",
@@ -41,9 +41,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Schlechte Entscheidung",
-      "outcome_yes_body": "Du lässt die Angst herrschen. Die bekehrte Bevölkerung wird halbiert.",
+      "outcome_yes_body": "Du lässt die Angst herrschen. Die bekehrte Bevölkerung wird halbiert. Für 12 Karten wird der Kartentext rückwärts angezeigt.",
       "outcome_no_title": "Gute Entscheidung",
-      "outcome_no_body": "Du lehnst diese Brutalität ab, und die bekehrte Bevölkerung kehrt auf 50 zurück."
+      "outcome_no_body": "Du lehnst diese Brutalität ab, und die bekehrte Bevölkerung kehrt auf 50 zurück. Für 12 Karten wird der Kartentext rückwärts angezeigt."
     },
     "explorer_major_005": {
       "title": "Mehr vom König verlangen",
@@ -52,9 +52,9 @@
       "no_label": "Nein",
       "preview_hint": "Einen Jeton benutzen, um die Auswirkungen zu sehen",
       "outcome_yes_title": "Schlechte Entscheidung",
-      "outcome_yes_body": "Du forderst zu früh zu viel. Die königliche Unterstützung fällt auf die Hälfte.",
+      "outcome_yes_body": "Du forderst zu früh zu viel. Die königliche Unterstützung fällt auf die Hälfte. Für 12 Karten werden die Antworten rückwärts angezeigt.",
       "outcome_no_title": "Gute Entscheidung",
-      "outcome_no_body": "Du wartest ab und bewahrst das Vertrauen des Königs. Die königliche Unterstützung kehrt auf 50 zurück."
+      "outcome_no_body": "Du wartest ab und bewahrst das Vertrauen des Königs. Die königliche Unterstützung kehrt auf 50 zurück. Für 12 Karten werden die Antworten rückwärts angezeigt."
     },
     "explorer_major_006": {
       "title": "Jenseits der Linien vordringen",

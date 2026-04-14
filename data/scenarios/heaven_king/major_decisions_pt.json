@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "heaven_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "Não",
       "preview_hint": "Usar uma ficha para ver os efeitos",
       "outcome_yes_title": "Má decisão",
-      "outcome_yes_body": "Instalas o medo no lugar da fé. As preces são reduzidas a metade.",
+      "outcome_yes_body": "Instalas o medo no lugar da fé. As preces são reduzidas a metade. Durante 12 cartas, a mensagem da carta aparece sem vogais.",
       "outcome_no_title": "Boa decisão",
-      "outcome_no_body": "Recusas esta brutalidade e as preces voltam a 50."
+      "outcome_no_body": "Recusas esta brutalidade e as preces voltam a 50. Durante 12 cartas, a mensagem da carta aparece sem vogais."
     },
     "heaven_major_003": {
       "title": "Novo culto",
@@ -30,9 +30,9 @@
       "no_label": "Não",
       "preview_hint": "Usar uma ficha para ver os efeitos",
       "outcome_yes_title": "Má decisão",
-      "outcome_yes_body": "Apoias um desvio espetacular. O culto cai para metade.",
+      "outcome_yes_body": "Apoias um desvio espetacular. O culto cai para metade. Durante 12 cartas, as escolhas aparecem sem vogais.",
       "outcome_no_title": "Boa decisão",
-      "outcome_no_body": "Reorientas a fé para algo estável. O culto volta a 50."
+      "outcome_no_body": "Reorientas a fé para algo estável. O culto volta a 50. Durante 12 cartas, as escolhas aparecem sem vogais."
     },
     "heaven_major_004": {
       "title": "Livre-arbítrio reduzido",
@@ -41,9 +41,9 @@
       "no_label": "Não",
       "preview_hint": "Usar uma ficha para ver os efeitos",
       "outcome_yes_title": "Má decisão",
-      "outcome_yes_body": "Dás controlo a mais. O livre-arbítrio é reduzido a metade.",
+      "outcome_yes_body": "Dás controlo a mais. O livre-arbítrio é reduzido a metade. Durante 12 cartas, a mensagem da carta aparece invertida.",
       "outcome_no_title": "Boa decisão",
-      "outcome_no_body": "Recusas este desvio e o livre-arbítrio volta a 50."
+      "outcome_no_body": "Recusas este desvio e o livre-arbítrio volta a 50. Durante 12 cartas, a mensagem da carta aparece invertida."
     },
     "heaven_major_005": {
       "title": "Milagres em série",
@@ -52,9 +52,9 @@
       "no_label": "Não",
       "preview_hint": "Usar uma ficha para ver os efeitos",
       "outcome_yes_title": "Má decisão",
-      "outcome_yes_body": "Banalizas a intervenção divina. As intervenções são reduzidas a metade.",
+      "outcome_yes_body": "Banalizas a intervenção divina. As intervenções são reduzidas a metade. Durante 12 cartas, as escolhas aparecem invertidas.",
       "outcome_no_title": "Boa decisão",
-      "outcome_no_body": "Preservas a raridade e o sentido. As intervenções voltam a 50."
+      "outcome_no_body": "Preservas a raridade e o sentido. As intervenções voltam a 50. Durante 12 cartas, as escolhas aparecem invertidas."
     },
     "heaven_major_006": {
       "title": "Fé contra controlo",

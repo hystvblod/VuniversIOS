@@ -45,13 +45,8 @@
     },
     "hell_king_ev_008": {
       "title": "Rumeur en Haut",
-<<<<<<< HEAD
       "body": "Une rumeur circule dans le monde des hommes. Tu sens déjà la vague.",
       "effect": "Monde des hommes : -5 par carte",
-=======
-      "body": "Une rumeur circule à la surface. Tu sens déjà la vague.",
-      "effect": "Surface : -5 par carte",
->>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
       "duration": "Durée : 5 cartes"
     },
     "hell_king_ev_009": {
@@ -69,21 +64,13 @@
     "hell_king_ev_011": {
       "title": "Bonus de Récolte",
       "body": "Une récolte d’âmes inattendue. Tu prends, évidemment.",
-<<<<<<< HEAD
       "effect": "Monde des hommes : -5 par carte",
-=======
-      "effect": "Surface : -5 par carte",
->>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
       "duration": "Durée : 3 cartes"
     },
     "hell_king_ev_012": {
       "title": "Carnaval Interdit",
       "body": "Un carnaval improvisé. Les rires montent, l’ordre descend.",
-<<<<<<< HEAD
       "effect": "Monde des hommes : +5 par carte",
-=======
-      "effect": "Surface : +5 par carte",
->>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
       "duration": "Durée : 7 cartes"
     },
     "hell_king_ev_013": {
@@ -113,11 +100,7 @@
     "hell_king_ev_017": {
       "title": "Émeute Minuscule",
       "body": "Une petite émeute. Pas grave… sauf si ça dure.",
-<<<<<<< HEAD
       "effect": "Monde des hommes : +5 par carte",
-=======
-      "effect": "Surface : +5 par carte",
->>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
       "duration": "Durée : 4 cartes"
     },
     "hell_king_ev_018": {
@@ -127,135 +110,76 @@
       "duration": "Durée : 7 cartes"
     },
     "hell_king_ev_019": {
-<<<<<<< HEAD
       "title": "Accalmie administrative",
       "body": "Pendant quelques jours, les bureaux tournent enfin sans blocage ni panique.",
-=======
-      "title": "Accalmie Administratives",
-      "body": "Tout fonctionne. C’est suspect, mais agréable.",
->>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
       "effect": "Ordre : +5 par carte",
       "duration": "Durée : 3 cartes"
     },
     "hell_king_ev_020": {
       "title": "Soirée VIP",
-<<<<<<< HEAD
       "body": "Un dîner très sélect réunit les puissants. Les alliances se nouent autour de la table.",
-=======
-      "body": "Un dîner très select. Les alliances se font au dessert.",
->>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
       "effect": "Âmes : -5 par carte",
       "duration": "Durée : 6 cartes"
     },
     "hell_king_ev_021": {
       "title": "Règlement du Jour",
-<<<<<<< HEAD
       "body": "Une nouvelle règle complique les pactes et freine certaines corruptions dans le monde des hommes.",
       "effect": "Monde des hommes : -5 par carte",
-=======
-      "body": "Nouvelle règle. Personne ne l’aime, donc elle marche.",
-      "effect": "Surface : -5 par carte",
->>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
       "duration": "Durée : 5 cartes"
     },
     "hell_king_ev_022": {
       "title": "Rupture de Stock",
-<<<<<<< HEAD
       "body": "Une rupture de stock oblige les casernes à se réorganiser vite, et cette remise en ordre renforce les légions.",
-=======
-      "body": "On manque de quelque chose. Personne ne sait de quoi, mais on panique.",
->>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
       "effect": "Légions : +5 par carte",
       "duration": "Durée : 7 cartes"
     },
     "hell_king_ev_023": {
       "title": "Offre Tentante",
       "body": "Une offre brillante. Tu sais que ça cache un truc. Tu prends quand même.",
-<<<<<<< HEAD
-      "effect": "Âmes : +5 par carte",
-      "duration": "Durée : 4 cartes"
-=======
       "effect": "Effet : le message de la carte s'affiche sans voyelles",
       "duration": "Durée : 5 cartes"
->>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
     },
     "hell_king_ev_024": {
       "title": "Négociation Express",
       "body": "Une poignée de main, trois signatures, et on passe à autre chose.",
-<<<<<<< HEAD
-      "effect": "Ordre : -5 par carte",
-      "duration": "Durée : 6 cartes"
-=======
       "effect": "Effet : le message de la carte s'affiche sans voyelles",
       "duration": "Durée : 5 cartes"
->>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
     },
     "hell_king_ev_025": {
       "title": "Mutation Surprise",
       "body": "On déplace des unités. Ça réorganise tout, y compris les humeurs.",
-<<<<<<< HEAD
-      "effect": "Légions : -5 par carte",
-      "duration": "Durée : 3 cartes"
-=======
       "effect": "Effet : les choix s'affichent sans voyelles",
       "duration": "Durée : 5 cartes"
->>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
     },
     "hell_king_ev_026": {
       "title": "Procès-Verbal",
       "body": "Un PV tombe. Ça ne fait rire personne.",
-<<<<<<< HEAD
-      "effect": "Ordre : +5 par carte",
-=======
       "effect": "Effet : les choix s'affichent sans voyelles",
->>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
       "duration": "Durée : 5 cartes"
     },
     "hell_king_ev_027": {
       "title": "Récompense Rituelle",
       "body": "On récompense les loyaux. Les autres regardent de travers.",
-<<<<<<< HEAD
-      "effect": "Âmes : +5 par carte",
-      "duration": "Durée : 4 cartes"
+      "effect": "Effet : le message de la carte s'affiche à l'envers",
+      "duration": "Durée : 5 cartes"
     },
     "hell_king_ev_028": {
       "title": "Panique dans le monde des hommes",
       "body": "Là-haut, ça s’affole. En bas, tu encaisses.",
-      "effect": "Monde des hommes : -5 par carte",
-      "duration": "Durée : 6 cartes"
-=======
       "effect": "Effet : le message de la carte s'affiche à l'envers",
       "duration": "Durée : 5 cartes"
-    },
-    "hell_king_ev_028": {
-      "title": "Panique de Surface",
-      "body": "Là-haut, ça s’affole. En bas, tu encaisses.",
-      "effect": "Effet : le message de la carte s'affiche à l'envers",
-      "duration": "Durée : 5 cartes"
->>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
     },
     "hell_king_ev_029": {
       "title": "Test de Force",
       "body": "Petit test. Gros ego. Résultat… mitigé.",
-<<<<<<< HEAD
-      "effect": "Légions : -5 par carte",
-      "duration": "Durée : 3 cartes"
+      "effect": "Effet : les choix s'affichent à l'envers",
+      "duration": "Durée : 5 cartes"
     },
     "hell_king_ev_030": {
       "title": "Note Interne",
       "body": "Une note claire circule enfin dans les bons bureaux et remet un peu d’ordre.",
-      "effect": "Ordre : +5 par carte",
-      "duration": "Durée : 7 cartes"
-=======
       "effect": "Effet : les choix s'affichent à l'envers",
       "duration": "Durée : 5 cartes"
-    },
-    "hell_king_ev_030": {
-      "title": "Note Interne",
-      "body": "Une note circule. Elle finit toujours au mauvais bureau.",
-      "effect": "Effet : les choix s'affichent à l'envers",
-      "duration": "Durée : 5 cartes"
->>>>>>> 2a33b7375e318b2b5d24d10eab0d418096b11e9b
     }
   }
 }

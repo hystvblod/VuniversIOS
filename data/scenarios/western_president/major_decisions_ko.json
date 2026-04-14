@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "decisions": {
     "western_major_001": {
@@ -19,9 +19,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "나쁜 결정",
-      "outcome_yes_body": "너는 공격적인 태도를 택하고 여론이 반으로 갈라진다.",
+      "outcome_yes_body": "너는 공격적인 태도를 택하고 여론이 반으로 갈라진다. 12장 동안 카드 메시지가 모음 없이 표시됩니다.",
       "outcome_no_title": "좋은 결정",
-      "outcome_no_body": "너는 그 쉬운 어조를 거부하고 여론이 50으로 돌아온다."
+      "outcome_no_body": "너는 그 쉬운 어조를 거부하고 여론이 50으로 돌아온다. 12장 동안 카드 메시지가 모음 없이 표시됩니다."
     },
     "western_major_003": {
       "title": "급격한 세금 인상",
@@ -30,9 +30,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "나쁜 결정",
-      "outcome_yes_body": "너는 급격한 인상안에 서명하고 경제가 절반으로 무너진다.",
+      "outcome_yes_body": "너는 급격한 인상안에 서명하고 경제가 절반으로 무너진다. 12장 동안 선택지가 모음 없이 표시됩니다.",
       "outcome_no_title": "좋은 결정",
-      "outcome_no_body": "너는 이 세금 공황을 막고 경제가 50으로 돌아온다."
+      "outcome_no_body": "너는 이 세금 공황을 막고 경제가 50으로 돌아온다. 12장 동안 선택지가 모음 없이 표시됩니다."
     },
     "western_major_004": {
       "title": "지친 군대",
@@ -41,9 +41,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "좋은 결정",
-      "outcome_yes_body": "너는 붕괴를 막는다. 국방이 50으로 돌아온다.",
+      "outcome_yes_body": "너는 붕괴를 막는다. 국방이 50으로 돌아온다. 12장 동안 카드 메시지가 거꾸로 표시됩니다.",
       "outcome_no_title": "나쁜 결정",
-      "outcome_no_body": "군이 내부에서부터 무너진다. 국방이 반으로 갈라진다."
+      "outcome_no_body": "군이 내부에서부터 무너진다. 국방이 반으로 갈라진다. 12장 동안 카드 메시지가 거꾸로 표시됩니다."
     },
     "western_major_005": {
       "title": "불안한 정상회담",
@@ -52,9 +52,9 @@
       "no_label": "아니오",
       "preview_hint": "효과를 보려면 토큰을 사용하세요",
       "outcome_yes_title": "나쁜 결정",
-      "outcome_yes_body": "너는 도발을 허용하고 외교가 절반으로 무너진다.",
+      "outcome_yes_body": "너는 도발을 허용하고 외교가 절반으로 무너진다. 12장 동안 선택지가 거꾸로 표시됩니다.",
       "outcome_no_title": "좋은 결정",
-      "outcome_no_body": "너는 그 굴욕을 거부하고 외교가 50으로 돌아온다."
+      "outcome_no_body": "너는 그 굴욕을 거부하고 외교가 50으로 돌아온다. 12장 동안 선택지가 거꾸로 표시됩니다."
     },
     "western_major_006": {
       "title": "인기성 약속",
