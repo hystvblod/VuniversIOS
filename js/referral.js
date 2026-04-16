@@ -9,10 +9,11 @@
 
   const INVITE_BASE_URL = "https://hystvblod.github.io/vuniverse-invite/invite.html";
 
-  const INDEX_SHARE_PROMPT_STATE_KEY = "vrealms_referral_index_share_state_v1";
-  const INDEX_SHARE_PROMPT_QUEUE_KEY = "vrealms_referral_index_share_queue_v1";
+  const INDEX_SHARE_PROMPT_STATE_KEY = "vrealms_referral_index_share_state_v2";
+  const INDEX_SHARE_PROMPT_QUEUE_KEY = "vrealms_referral_index_share_queue_v2";
   const INDEX_SHARE_PROMPT_MIN_RUNS = 12;
   const INDEX_SHARE_PROMPT_MIN_MS = 3 * 24 * 60 * 60 * 1000;
+  const INDEX_SHARE_PROMPT_MAX_SHOWS = 2;
 
   function t(key, fallback) {
     try {
@@ -176,13 +177,15 @@
       return {
         completedRuns: Math.max(0, Number(parsed.completedRuns || 0) || 0),
         lastShownRun: Math.max(0, Number(parsed.lastShownRun || 0) || 0),
-        lastShownAt: Math.max(0, Number(parsed.lastShownAt || 0) || 0)
+        lastShownAt: Math.max(0, Number(parsed.lastShownAt || 0) || 0),
+        shownCount: Math.max(0, Number(parsed.shownCount || 0) || 0)
       };
     } catch (_) {
       return {
         completedRuns: 0,
         lastShownRun: 0,
-        lastShownAt: 0
+        lastShownAt: 0,
+        shownCount: 0
       };
     }
   }
@@ -192,7 +195,8 @@
       localStorage.setItem(INDEX_SHARE_PROMPT_STATE_KEY, JSON.stringify({
         completedRuns: Math.max(0, Number(state?.completedRuns || 0) || 0),
         lastShownRun: Math.max(0, Number(state?.lastShownRun || 0) || 0),
-        lastShownAt: Math.max(0, Number(state?.lastShownAt || 0) || 0)
+        lastShownAt: Math.max(0, Number(state?.lastShownAt || 0) || 0),
+        shownCount: Math.max(0, Number(state?.shownCount || 0) || 0)
       }));
     } catch (_) {}
   }
@@ -206,6 +210,7 @@
 
   function canShowIndexSharePrompt(state) {
     const st = state || readIndexSharePromptState();
+    if (Math.max(0, Number(st.shownCount || 0) || 0) >= INDEX_SHARE_PROMPT_MAX_SHOWS) return false;
     if (!st.lastShownRun && !st.lastShownAt) return true;
 
     const enoughRuns =
@@ -227,6 +232,7 @@
     const state = readIndexSharePromptState();
     state.lastShownRun = Math.max(0, Number(state.completedRuns || 0) || 0);
     state.lastShownAt = Date.now();
+    state.shownCount = Math.max(0, Number(state.shownCount || 0) || 0) + 1;
     writeIndexSharePromptState(state);
     return state;
   }
