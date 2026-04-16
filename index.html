@@ -1943,13 +1943,17 @@
       }
 
       (async function boot() {
-        setTimeout(() => {
-          try { window.bootstrapAuthAndProfile?.({ skipProfileFetch: true }); } catch (_) {}
-        }, 0);
+        try {
+          await window.bootstrapAuthAndProfile?.({ skipProfileFetch: true });
+        } catch (_) {}
 
         try {
           window.__vrIndexInitPromise = window.__vrIndexInitPromise || window.VUserData?.init?.() || null;
           await window.__vrIndexInitPromise;
+        } catch (_) {}
+
+        try {
+          await window.VUserData?.refresh?.();
         } catch (_) {}
 
         try {
@@ -1963,10 +1967,13 @@
 
         try {
           const u = window.VUserData?.load?.() || {};
-          if (!((u.username || "").toString().trim())) openPopup();
-        } catch (_) {
-          openPopup();
-        }
+          const hasUserId = !!String(u.user_id || "").trim();
+          const hasUsername = !!String(u.username || "").trim();
+
+          if (hasUserId && !hasUsername) {
+            openPopup();
+          }
+        } catch (_) {}
       })();
     })();
   </script>
