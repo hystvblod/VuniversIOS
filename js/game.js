@@ -253,7 +253,7 @@ function getRankProgressLabel(universeId, reignLength) {
   return target ? `${Math.min(v, target)}/${target}` : `${v}`;
 }
 
-const VR_REFERRAL_ENDING_MILESTONE_KEY = "vrealms_referral_ending_milestone_v1";
+const VR_REFERRAL_ENDING_MILESTONE_KEY = "vrealms_referral_ending_milestone_v2";
 const VR_REFERRAL_ENDING_MIN_RUNS = 12;
 const VR_REFERRAL_ENDING_MIN_MS = 3 * 24 * 60 * 60 * 1000;
 
@@ -2913,10 +2913,17 @@ body.vr-peek-mode .vr-gauge-preview{
           const skipBecauseRewardAd = !!this._pendingEndClaimed;
 
           try { window.VRCrossPromo?.notifyCompletedRun?.(); } catch (_) {}
+
+          let queuedReferralShare = false;
           try {
-            window.VRCrossPromo?.queuePostGamePromoForIndex?.(skipBecauseRewardAd);
+            queuedReferralShare = !!window.VReferral?.maybeQueueIndexSharePrompt?.();
           } catch (_) {}
-          try { window.VReferral?.maybeQueueIndexSharePrompt?.(); } catch (_) {}
+
+          if (!queuedReferralShare) {
+            try {
+              window.VRCrossPromo?.queuePostGamePromoForIndex?.(skipBecauseRewardAd);
+            } catch (_) {}
+          }
 
           try { await window.VRAds?.maybeShowInterstitialOnReturnToIndex?.(); } catch (_) {}
           try { prepareMusicPromptOnNextIndex(this.universeId); } catch (_) {}
