@@ -250,7 +250,92 @@ function getRankTargetFromState(universeId, reignLength) {
 function getRankProgressLabel(universeId, reignLength) {
   const v = Math.max(0, Number(reignLength || 0));
   const target = getRankTargetFromState(universeId, reignLength);
-  return `${Math.min(v, target)}/${target}`;
+  return target ? `${Math.min(v, target)}/${target}` : `${v}`;
+}
+
+const VR_REFERRAL_ENDING_MILESTONE_KEY = "vrealms_referral_ending_milestone_v1";
+const VR_REFERRAL_ENDING_MIN_RUNS = 12;
+const VR_REFERRAL_ENDING_MIN_MS = 3 * 24 * 60 * 60 * 1000;
+
+function vrReferralReadEndingState() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(VR_REFERRAL_ENDING_MILESTONE_KEY) || "{}");
+    const milestones = parsed?.milestones && typeof parsed.milestones === "object" ? parsed.milestones : {};
+    return {
+      completedRuns: Math.max(0, asInt(parsed?.completedRuns, 0)),
+      lastShownRun: Math.max(0, asInt(parsed?.lastShownRun, 0)),
+      lastShownAt: Math.max(0, Number(parsed?.lastShownAt || 0)),
+      milestones: {
+        35: { shownCount: Math.max(0, asInt(milestones?.[35]?.shownCount ?? milestones?.["35"]?.shownCount, 0)) },
+        60: { shownCount: Math.max(0, asInt(milestones?.[60]?.shownCount ?? milestones?.["60"]?.shownCount, 0)) }
+      }
+    };
+  } catch (_) {
+    return {
+      completedRuns: 0,
+      lastShownRun: 0,
+      lastShownAt: 0,
+      milestones: {
+        35: { shownCount: 0 },
+        60: { shownCount: 0 }
+      }
+    };
+  }
+}
+
+function vrReferralWriteEndingState(state) {
+  try {
+    localStorage.setItem(VR_REFERRAL_ENDING_MILESTONE_KEY, JSON.stringify({
+      completedRuns: Math.max(0, asInt(state?.completedRuns, 0)),
+      lastShownRun: Math.max(0, asInt(state?.lastShownRun, 0)),
+      lastShownAt: Math.max(0, Number(state?.lastShownAt || 0)),
+      milestones: {
+        35: { shownCount: Math.max(0, asInt(state?.milestones?.[35]?.shownCount, 0)) },
+        60: { shownCount: Math.max(0, asInt(state?.milestones?.[60]?.shownCount, 0)) }
+      }
+    }));
+  } catch (_) {}
+}
+
+function vrReferralRegisterCompletedRun() {
+  const state = vrReferralReadEndingState();
+  state.completedRuns += 1;
+  vrReferralWriteEndingState(state);
+  return state;
+}
+
+function vrReferralEndingCadenceOk(state) {
+  const st = state || vrReferralReadEndingState();
+  if (!st.lastShownRun && !st.lastShownAt) return true;
+
+  const enoughRuns = (Math.max(0, asInt(st.completedRuns, 0)) - Math.max(0, asInt(st.lastShownRun, 0))) >= VR_REFERRAL_ENDING_MIN_RUNS;
+  const enoughTime = (Date.now() - Math.max(0, Number(st.lastShownAt || 0))) >= VR_REFERRAL_ENDING_MIN_MS;
+  return enoughRuns && enoughTime;
+}
+
+function vrReferralPickEndingMilestone(reignLength) {
+  const reign = Math.max(0, asInt(reignLength, 0));
+  const state = vrReferralReadEndingState();
+  if (!vrReferralEndingCadenceOk(state)) return null;
+
+  const shown35 = Math.max(0, asInt(state?.milestones?.[35]?.shownCount, 0));
+  const shown60 = Math.max(0, asInt(state?.milestones?.[60]?.shownCount, 0));
+
+  if (reign >= 60 && shown60 < 2) return { threshold: 60, state };
+  if (reign >= 35 && shown35 < 2) return { threshold: 35, state };
+  return null;
+}
+
+function vrReferralMarkEndingMilestoneShown(threshold, state) {
+  const next = state || vrReferralReadEndingState();
+  const key = String(threshold) === "60" ? 60 : 35;
+  const entry = next.milestones[key] || { shownCount: 0 };
+  entry.shownCount = Math.max(0, asInt(entry.shownCount, 0)) + 1;
+  next.milestones[key] = entry;
+  next.lastShownRun = Math.max(0, asInt(next.completedRuns, 0));
+  next.lastShownAt = Date.now();
+  vrReferralWriteEndingState(next);
+  return next;
 }
 
 function getRankLabel(universeId, reignLength) {
@@ -2581,6 +2666,54 @@ body.vr-peek-mode .vr-gauge-preview{
         if (rewardValueEl) rewardValueEl.textContent = `+${safeAmount}`;
       };
 
+      const endingReferralReward = Number(window.REFERRAL_INVITE_VCOINS || 200);
+      const endingReferralMilestone = vrReferralPickEndingMilestone(Number(this.session?.reignLength || 0));
+      if (endingReferralMilestone) {
+        vrReferralMarkEndingMilestoneShown(endingReferralMilestone.threshold, endingReferralMilestone.state);
+      }
+
+      const renderEndingReferralNudge = () => {
+        const textEl = document.getElementById("ending-text");
+        if (!textEl) return;
+
+        let box = document.getElementById("vr-ending-referral-nudge");
+        if (!endingReferralMilestone) {
+          if (box) box.remove();
+          return;
+        }
+
+        if (!box) {
+          box = document.createElement("div");
+          box.id = "vr-ending-referral-nudge";
+          box.style.cssText = [
+            "margin:6px 0 2px",
+            "padding:12px 14px",
+            "border-radius:16px",
+            "background:linear-gradient(180deg, rgba(126,195,255,.16), rgba(84,133,255,.12))",
+            "border:1px solid rgba(126,195,255,.28)",
+            "text-align:left"
+          ].join(";");
+          textEl.insertAdjacentElement("afterend", box);
+        }
+
+        box.innerHTML = `
+          <div style="font-size:15px;font-weight:900;line-height:1.3;margin-bottom:6px;">${t('referral.milestone_inline_title', 'Bravo, vu ton score, mesure-toi à tes amis.')}</div>
+          <div style="font-size:14px;line-height:1.5;color:rgba(255,255,255,.92);margin-bottom:10px;">${t('referral.milestone_inline_body', 'Vois s’ils peuvent faire mieux que toi. Partage l’application et gagne des VCoins quand une invitation est validée.')}</div>
+          <button id="vr-ending-referral-invite-btn" type="button" style="width:100%;min-height:46px;border:0;border-radius:14px;background:linear-gradient(135deg,#70b7ff,#4a80ff);color:#fff;font-weight:900;font-size:15px;cursor:pointer;box-shadow:0 12px 26px rgba(74,128,255,.28);display:flex;align-items:center;justify-content:center;gap:10px;">
+            <span>${t('referral.invite_and_earn_btn', '') || t('referral.invite_btn', 'Inviter')}</span>
+            <img src="assets/img/ui/vcoins.webp" alt="" draggable="false" style="width:22px;height:22px;object-fit:contain;">
+            <span>+${endingReferralReward}</span>
+          </button>
+        `;
+
+        const inviteBtn = document.getElementById("vr-ending-referral-invite-btn");
+        if (inviteBtn) {
+          inviteBtn.onclick = async () => {
+            try { await window.VReferral?.shareInvite?.(); } catch (_) {}
+          };
+        }
+      };
+
       const getLiveTokenCount = () => {
         try {
           return Math.max(
@@ -2644,6 +2777,7 @@ body.vr-peek-mode .vr-gauge-preview{
 
       renderEndingReward(this._pendingEndReward);
       syncEndingButtons();
+      renderEndingReferralNudge();
       this._saveRunSoft();
 
       if (doubleBtn) {
@@ -2752,22 +2886,13 @@ body.vr-peek-mode .vr-gauge-preview{
           }
 
           const skipBecauseRewardAd = !!this._pendingEndClaimed;
-          const reignLength = Number(this.session?.reignLength || 0);
-          let referralPopupShown = false;
-          try {
-            referralPopupShown = await vrReferralMaybeShowGameShareFlow(reignLength);
-          } catch (_) {
-            referralPopupShown = false;
-          }
 
           try { window.VRCrossPromo?.notifyCompletedRun?.(); } catch (_) {}
-          if (!referralPopupShown) {
-            try {
-              await window.VRCrossPromo?.maybeShowPostGamePromo?.({
-                skipBecauseRewardAd: skipBecauseRewardAd
-              });
-            } catch (_) {}
-          }
+          try {
+            await window.VRCrossPromo?.maybeShowPostGamePromo?.({
+              skipBecauseRewardAd: skipBecauseRewardAd
+            });
+          } catch (_) {}
 
           window.VREndings.hideEnding();
           this.restartRun();
@@ -2786,20 +2911,12 @@ body.vr-peek-mode .vr-gauge-preview{
           }
 
           const skipBecauseRewardAd = !!this._pendingEndClaimed;
-          const reignLength = Number(this.session?.reignLength || 0);
-          let referralPopupShown = false;
-          try {
-            referralPopupShown = await vrReferralMaybeShowGameShareFlow(reignLength);
-          } catch (_) {
-            referralPopupShown = false;
-          }
 
           try { window.VRCrossPromo?.notifyCompletedRun?.(); } catch (_) {}
-          if (!referralPopupShown) {
-            try {
-              window.VRCrossPromo?.queuePostGamePromoForIndex?.(skipBecauseRewardAd);
-            } catch (_) {}
-          }
+          try {
+            window.VRCrossPromo?.queuePostGamePromoForIndex?.(skipBecauseRewardAd);
+          } catch (_) {}
+          try { window.VReferral?.maybeQueueIndexSharePrompt?.(); } catch (_) {}
 
           try { await window.VRAds?.maybeShowInterstitialOnReturnToIndex?.(); } catch (_) {}
           try { prepareMusicPromptOnNextIndex(this.universeId); } catch (_) {}
@@ -7941,258 +8058,6 @@ window.VRCardFx = {
   }
 };
 
-const VR_REFERRAL_INVITE_REWARD = Number(window.REFERRAL_INVITE_VCOINS || 200);
-const VR_REFERRAL_MILESTONE_STATE_KEY = "vrealms_referral_milestone_popup_v1";
-const VR_REFERRAL_SHARE_STATE_KEY = "vrealms_referral_share_popup_v1";
-const VR_REFERRAL_PROMPT_MIN_RUNS = 12;
-const VR_REFERRAL_PROMPT_MIN_MS = 3 * 24 * 60 * 60 * 1000;
-
-function vrReferralT(key, fallback, vars) {
-  let out = "";
-  try {
-    out = window.VRI18n?.t?.(key) || "";
-  } catch (_) {}
-  if (!out || out === key) out = typeof fallback === "string" ? fallback : "";
-  if (vars && out) {
-    Object.keys(vars).forEach((k) => {
-      out = out.split("{" + k + "}").join(String(vars[k]));
-    });
-  }
-  return out;
-}
-
-function vrReferralReadMilestoneState() {
-  try {
-    const parsed = JSON.parse(localStorage.getItem(VR_REFERRAL_MILESTONE_STATE_KEY) || "{}");
-    const milestones = parsed?.milestones && typeof parsed.milestones === "object" ? parsed.milestones : {};
-    return {
-      completedRuns: Math.max(0, asInt(parsed?.completedRuns, 0)),
-      lastShownRun: Math.max(0, asInt(parsed?.lastShownRun, 0)),
-      lastShownAt: Math.max(0, Number(parsed?.lastShownAt || 0)),
-      milestones: {
-        35: { shownCount: Math.max(0, asInt(milestones?.[35]?.shownCount ?? milestones?.["35"]?.shownCount, 0)) },
-        60: { shownCount: Math.max(0, asInt(milestones?.[60]?.shownCount ?? milestones?.["60"]?.shownCount, 0)) }
-      }
-    };
-  } catch (_) {
-    return {
-      completedRuns: 0,
-      lastShownRun: 0,
-      lastShownAt: 0,
-      milestones: {
-        35: { shownCount: 0 },
-        60: { shownCount: 0 }
-      }
-    };
-  }
-}
-
-function vrReferralWriteMilestoneState(state) {
-  try {
-    localStorage.setItem(VR_REFERRAL_MILESTONE_STATE_KEY, JSON.stringify({
-      completedRuns: Math.max(0, asInt(state?.completedRuns, 0)),
-      lastShownRun: Math.max(0, asInt(state?.lastShownRun, 0)),
-      lastShownAt: Math.max(0, Number(state?.lastShownAt || 0)),
-      milestones: {
-        35: { shownCount: Math.max(0, asInt(state?.milestones?.[35]?.shownCount, 0)) },
-        60: { shownCount: Math.max(0, asInt(state?.milestones?.[60]?.shownCount, 0)) }
-      }
-    }));
-  } catch (_) {}
-}
-
-function vrReferralReadShareState() {
-  try {
-    const parsed = JSON.parse(localStorage.getItem(VR_REFERRAL_SHARE_STATE_KEY) || "{}");
-    return {
-      completedRuns: Math.max(0, asInt(parsed?.completedRuns, 0)),
-      lastShownRun: Math.max(0, asInt(parsed?.lastShownRun, 0)),
-      lastShownAt: Math.max(0, Number(parsed?.lastShownAt || 0))
-    };
-  } catch (_) {
-    return {
-      completedRuns: 0,
-      lastShownRun: 0,
-      lastShownAt: 0
-    };
-  }
-}
-
-function vrReferralWriteShareState(state) {
-  try {
-    localStorage.setItem(VR_REFERRAL_SHARE_STATE_KEY, JSON.stringify({
-      completedRuns: Math.max(0, asInt(state?.completedRuns, 0)),
-      lastShownRun: Math.max(0, asInt(state?.lastShownRun, 0)),
-      lastShownAt: Math.max(0, Number(state?.lastShownAt || 0))
-    }));
-  } catch (_) {}
-}
-
-function vrReferralRegisterCompletedRun() {
-  const milestoneState = vrReferralReadMilestoneState();
-  milestoneState.completedRuns += 1;
-  vrReferralWriteMilestoneState(milestoneState);
-
-  const shareState = vrReferralReadShareState();
-  shareState.completedRuns += 1;
-  vrReferralWriteShareState(shareState);
-
-  return {
-    milestoneState,
-    shareState
-  };
-}
-
-function vrReferralHasCadence(state) {
-  if (!state) return false;
-  if (!state.lastShownRun && !state.lastShownAt) return true;
-  const enoughRuns = (Math.max(0, asInt(state.completedRuns, 0)) - Math.max(0, asInt(state.lastShownRun, 0))) >= VR_REFERRAL_PROMPT_MIN_RUNS;
-  const enoughTime = (Date.now() - Math.max(0, Number(state.lastShownAt || 0))) >= VR_REFERRAL_PROMPT_MIN_MS;
-  return enoughRuns && enoughTime;
-}
-
-function vrReferralPickMilestone(reignLength) {
-  const reign = Math.max(0, asInt(reignLength, 0));
-  const state = vrReferralReadMilestoneState();
-  if (!vrReferralHasCadence(state)) return null;
-
-  const shown35 = Math.max(0, asInt(state?.milestones?.[35]?.shownCount, 0));
-  const shown60 = Math.max(0, asInt(state?.milestones?.[60]?.shownCount, 0));
-
-  if (reign >= 35 && shown35 < 2) return { threshold: 35, state };
-  if (reign >= 60 && shown60 < 2) return { threshold: 60, state };
-  return null;
-}
-
-function vrReferralMarkMilestoneShown(threshold, state) {
-  const next = state || vrReferralReadMilestoneState();
-  const key = String(threshold) === "60" ? 60 : 35;
-  const entry = next.milestones[key] || { shownCount: 0 };
-  entry.shownCount = Math.max(0, asInt(entry.shownCount, 0)) + 1;
-  next.milestones[key] = entry;
-  next.lastShownRun = Math.max(0, asInt(next.completedRuns, 0));
-  next.lastShownAt = Date.now();
-  vrReferralWriteMilestoneState(next);
-  return next;
-}
-
-function vrReferralMarkShareShown(state) {
-  const next = state || vrReferralReadShareState();
-  next.lastShownRun = Math.max(0, asInt(next.completedRuns, 0));
-  next.lastShownAt = Date.now();
-  vrReferralWriteShareState(next);
-  return next;
-}
-
-function vrReferralShowPopup(kind, threshold) {
-  return new Promise((resolve) => {
-    let root = document.getElementById("vr-referral-run-popup");
-
-    if (!root) {
-      root = document.createElement("div");
-      root.id = "vr-referral-run-popup";
-      root.style.cssText = [
-        "position:fixed",
-        "inset:0",
-        "z-index:100260",
-        "display:none",
-        "align-items:center",
-        "justify-content:center",
-        "padding:18px",
-        "background:rgba(5,10,18,.72)",
-        "backdrop-filter:blur(10px)"
-      ].join(";");
-
-      root.innerHTML = `
-        <div role="dialog" aria-modal="true" style="position:relative;width:min(460px,94vw);border-radius:24px;padding:20px 18px;background:linear-gradient(180deg, rgba(22,31,54,.98), rgba(12,18,34,.98));border:1px solid rgba(255,255,255,.12);box-shadow:0 22px 56px rgba(0,0,0,.42);color:#fff;overflow:hidden;">
-          <button id="vr-referral-run-popup-close" type="button" style="position:absolute;top:12px;right:12px;width:38px;height:38px;border-radius:12px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06);color:#fff;font-weight:900;font-size:18px;cursor:pointer;">×</button>
-          <div style="padding-right:42px;">
-            <div id="vr-referral-run-popup-title" style="font-size:24px;font-weight:900;line-height:1.15;margin-bottom:10px;"></div>
-            <div id="vr-referral-run-popup-body" style="font-size:14px;line-height:1.5;color:rgba(255,255,255,.9);margin-bottom:14px;"></div>
-          </div>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:12px 14px;border-radius:16px;background:linear-gradient(180deg, rgba(126,195,255,.18), rgba(84,133,255,.16));border:1px solid rgba(126,195,255,.28);margin-bottom:14px;">
-            <span style="font-weight:900;">${vrReferralT("referral.invite_and_earn_title", "Invite and earn:")}</span>
-            <img src="assets/img/ui/vcoins.webp" alt="" draggable="false" style="width:24px;height:24px;object-fit:contain;">
-            <span style="font-weight:900;">+${VR_REFERRAL_INVITE_REWARD}</span>
-          </div>
-          <div style="display:flex;gap:10px;flex-wrap:wrap;">
-            <button id="vr-referral-run-popup-invite" type="button" style="flex:1 1 220px;min-height:48px;border:0;border-radius:16px;background:linear-gradient(135deg,#70b7ff,#4a80ff);color:#fff;font-weight:900;font-size:15px;cursor:pointer;box-shadow:0 12px 26px rgba(74,128,255,.34);"></button>
-            <button id="vr-referral-run-popup-later" type="button" style="flex:1 1 120px;min-height:48px;border:1px solid rgba(255,255,255,.14);border-radius:16px;background:rgba(255,255,255,.06);color:#fff;font-weight:800;font-size:14px;cursor:pointer;"></button>
-          </div>
-        </div>
-      `;
-
-      document.body.appendChild(root);
-    }
-
-    const titleEl = document.getElementById("vr-referral-run-popup-title");
-    const bodyEl = document.getElementById("vr-referral-run-popup-body");
-    const closeBtn = document.getElementById("vr-referral-run-popup-close");
-    const laterBtn = document.getElementById("vr-referral-run-popup-later");
-    const inviteBtn = document.getElementById("vr-referral-run-popup-invite");
-
-    if (titleEl) {
-      titleEl.textContent = kind === "milestone"
-        ? vrReferralT("referral.milestone_popup_title", "Great run — you are already above average.")
-        : vrReferralT("referral.share_popup_title", "Enjoying VUniverse?");
-    }
-
-    if (bodyEl) {
-      bodyEl.textContent = kind === "milestone"
-        ? vrReferralT("referral.milestone_popup_body", "You just reached {threshold} cards in one run. Challenge your friends, share the app and earn VCoins if an invite is validated.", { threshold: threshold })
-        : vrReferralT("referral.share_popup_body", "Share the app with people close to you, help them discover the game and earn VCoins when an invite is validated.");
-    }
-
-    if (inviteBtn) inviteBtn.textContent = vrReferralT("referral.invite_btn", "Invite");
-    if (laterBtn) laterBtn.textContent = vrReferralT("common.later", "Later");
-
-    const close = () => {
-      root.style.display = "none";
-      root.onclick = null;
-      if (closeBtn) closeBtn.onclick = null;
-      if (laterBtn) laterBtn.onclick = null;
-      if (inviteBtn) inviteBtn.onclick = null;
-      document.removeEventListener("keydown", onKeyDown);
-      resolve(true);
-    };
-
-    const onKeyDown = (e) => {
-      if (e.key === "Escape") close();
-    };
-
-    root.onclick = (e) => {
-      if (e.target === root) close();
-    };
-    if (closeBtn) closeBtn.onclick = close;
-    if (laterBtn) laterBtn.onclick = close;
-    if (inviteBtn) {
-      inviteBtn.onclick = async () => {
-        try { await window.VReferral?.shareInvite?.(); } catch (_) {}
-        close();
-      };
-    }
-
-    root.style.display = "flex";
-    document.addEventListener("keydown", onKeyDown);
-    setTimeout(() => inviteBtn?.focus?.(), 0);
-  });
-}
-
-async function vrReferralMaybeShowGameShareFlow(reignLength) {
-  const milestone = vrReferralPickMilestone(reignLength);
-  if (milestone) {
-    vrReferralMarkMilestoneShown(milestone.threshold, milestone.state);
-    await vrReferralShowPopup("milestone", milestone.threshold);
-    return true;
-  }
-
-  const shareState = vrReferralReadShareState();
-  if (!vrReferralHasCadence(shareState)) return false;
-  vrReferralMarkShareShown(shareState);
-  await vrReferralShowPopup("share", 0);
-  return true;
-}
-
 window.VRGame = {
   currentUniverse: null,
   session: { reignLength: 0 },
@@ -8318,6 +8183,7 @@ window.VRGame = {
   async onRunEnded() {
     try {
       vrReferralRegisterCompletedRun();
+      try { window.VReferral?.registerCompletedRun?.(); } catch (_) {}
       const reign = Number(this.session.reignLength || 0);
 
       const sb = window.sb;
