@@ -253,6 +253,11 @@ function getRankProgressLabel(universeId, reignLength) {
   return target ? `${Math.min(v, target)}/${target}` : `${v}`;
 }
 
+function vrReferralAsInt(x, fallback) {
+  const n = Number(x);
+  return Number.isFinite(n) ? Math.trunc(n) : (fallback || 0);
+}
+
 const VR_REFERRAL_ENDING_MILESTONE_KEY = "vrealms_referral_ending_milestone_v2";
 const VR_REFERRAL_ENDING_MIN_RUNS = 12;
 const VR_REFERRAL_ENDING_MIN_MS = 3 * 24 * 60 * 60 * 1000;
@@ -262,12 +267,12 @@ function vrReferralReadEndingState() {
     const parsed = JSON.parse(localStorage.getItem(VR_REFERRAL_ENDING_MILESTONE_KEY) || "{}");
     const milestones = parsed?.milestones && typeof parsed.milestones === "object" ? parsed.milestones : {};
     return {
-      completedRuns: Math.max(0, asInt(parsed?.completedRuns, 0)),
-      lastShownRun: Math.max(0, asInt(parsed?.lastShownRun, 0)),
+      completedRuns: Math.max(0, vrReferralAsInt(parsed?.completedRuns, 0)),
+      lastShownRun: Math.max(0, vrReferralAsInt(parsed?.lastShownRun, 0)),
       lastShownAt: Math.max(0, Number(parsed?.lastShownAt || 0)),
       milestones: {
-        35: { shownCount: Math.max(0, asInt(milestones?.[35]?.shownCount ?? milestones?.["35"]?.shownCount, 0)) },
-        60: { shownCount: Math.max(0, asInt(milestones?.[60]?.shownCount ?? milestones?.["60"]?.shownCount, 0)) }
+        35: { shownCount: Math.max(0, vrReferralAsInt(milestones?.[35]?.shownCount ?? milestones?.["35"]?.shownCount, 0)) },
+        60: { shownCount: Math.max(0, vrReferralAsInt(milestones?.[60]?.shownCount ?? milestones?.["60"]?.shownCount, 0)) }
       }
     };
   } catch (_) {
@@ -286,12 +291,12 @@ function vrReferralReadEndingState() {
 function vrReferralWriteEndingState(state) {
   try {
     localStorage.setItem(VR_REFERRAL_ENDING_MILESTONE_KEY, JSON.stringify({
-      completedRuns: Math.max(0, asInt(state?.completedRuns, 0)),
-      lastShownRun: Math.max(0, asInt(state?.lastShownRun, 0)),
+      completedRuns: Math.max(0, vrReferralAsInt(state?.completedRuns, 0)),
+      lastShownRun: Math.max(0, vrReferralAsInt(state?.lastShownRun, 0)),
       lastShownAt: Math.max(0, Number(state?.lastShownAt || 0)),
       milestones: {
-        35: { shownCount: Math.max(0, asInt(state?.milestones?.[35]?.shownCount, 0)) },
-        60: { shownCount: Math.max(0, asInt(state?.milestones?.[60]?.shownCount, 0)) }
+        35: { shownCount: Math.max(0, vrReferralAsInt(state?.milestones?.[35]?.shownCount, 0)) },
+        60: { shownCount: Math.max(0, vrReferralAsInt(state?.milestones?.[60]?.shownCount, 0)) }
       }
     }));
   } catch (_) {}
@@ -308,18 +313,18 @@ function vrReferralEndingCadenceOk(state) {
   const st = state || vrReferralReadEndingState();
   if (!st.lastShownRun && !st.lastShownAt) return true;
 
-  const enoughRuns = (Math.max(0, asInt(st.completedRuns, 0)) - Math.max(0, asInt(st.lastShownRun, 0))) >= VR_REFERRAL_ENDING_MIN_RUNS;
+  const enoughRuns = (Math.max(0, vrReferralAsInt(st.completedRuns, 0)) - Math.max(0, vrReferralAsInt(st.lastShownRun, 0))) >= VR_REFERRAL_ENDING_MIN_RUNS;
   const enoughTime = (Date.now() - Math.max(0, Number(st.lastShownAt || 0))) >= VR_REFERRAL_ENDING_MIN_MS;
   return enoughRuns && enoughTime;
 }
 
 function vrReferralPickEndingMilestone(reignLength) {
-  const reign = Math.max(0, asInt(reignLength, 0));
+  const reign = Math.max(0, vrReferralAsInt(reignLength, 0));
   const state = vrReferralReadEndingState();
   if (!vrReferralEndingCadenceOk(state)) return null;
 
-  const shown35 = Math.max(0, asInt(state?.milestones?.[35]?.shownCount, 0));
-  const shown60 = Math.max(0, asInt(state?.milestones?.[60]?.shownCount, 0));
+  const shown35 = Math.max(0, vrReferralAsInt(state?.milestones?.[35]?.shownCount, 0));
+  const shown60 = Math.max(0, vrReferralAsInt(state?.milestones?.[60]?.shownCount, 0));
 
   if (reign >= 60 && shown60 < 2) return { threshold: 60, state };
   if (reign >= 35 && shown35 < 2) return { threshold: 35, state };
@@ -330,9 +335,9 @@ function vrReferralMarkEndingMilestoneShown(threshold, state) {
   const next = state || vrReferralReadEndingState();
   const key = String(threshold) === "60" ? 60 : 35;
   const entry = next.milestones[key] || { shownCount: 0 };
-  entry.shownCount = Math.max(0, asInt(entry.shownCount, 0)) + 1;
+  entry.shownCount = Math.max(0, vrReferralAsInt(entry.shownCount, 0)) + 1;
   next.milestones[key] = entry;
-  next.lastShownRun = Math.max(0, asInt(next.completedRuns, 0));
+  next.lastShownRun = Math.max(0, vrReferralAsInt(next.completedRuns, 0));
   next.lastShownAt = Date.now();
   vrReferralWriteEndingState(next);
   return next;
