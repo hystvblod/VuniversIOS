@@ -2780,9 +2780,7 @@ body.vr-peek-mode .vr-gauge-preview{
 
           try { window.VRCrossPromo?.notifyCompletedRun?.(); } catch (_) {}
           try {
-            await window.VRCrossPromo?.maybeShowPostGamePromo?.({
-              skipBecauseRewardAd: skipBecauseRewardAd
-            });
+            window.VRCrossPromo?.queuePostGamePromoForIndex?.(skipBecauseRewardAd);
           } catch (_) {}
 
           try { await window.VRAds?.maybeShowInterstitialOnReturnToIndex?.(); } catch (_) {}
