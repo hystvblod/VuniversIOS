@@ -738,6 +738,14 @@
       return showLowVcoinsPopupNow();
     }
 
+    if (context === "post_game") {
+      return maybeShowPostGamePromo({ skipBecauseRewardAd: false });
+    }
+
+    if (context === "post_game_skip_rewarded") {
+      return maybeShowPostGamePromo({ skipBecauseRewardAd: true });
+    }
+
     return false;
   }
 
@@ -978,6 +986,17 @@
       notifyCompletedRun: notifyCompletedRun,
       canShowPostGamePromo: canShowPostGamePromo,
       maybeShowPostGamePromo: maybeShowPostGamePromo,
+      queuePostGamePromoForIndex(skipBecauseRewardAd) {
+        try {
+          sessionStorage.setItem(
+            "vr_crosspromo_context",
+            skipBecauseRewardAd ? "post_game_skip_rewarded" : "post_game"
+          );
+          return true;
+        } catch (_) {
+          return false;
+        }
+      },
       async openOrInstall(appId) {
         const app = APPS[appId];
         if (!app) return false;
