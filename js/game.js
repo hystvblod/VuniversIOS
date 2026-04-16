@@ -2671,7 +2671,7 @@ body.vr-peek-mode .vr-gauge-preview{
         if (rewardValueEl) rewardValueEl.textContent = `+${safeAmount}`;
       };
 
-      const endingReferralReward = Number(window.REFERRAL_INVITE_VCOINS || 200);
+      const endingReferralReward = Number(window.REFERRAL_INVITE_VCOINS || 300);
       const endingReferralMilestone = vrReferralPickEndingMilestone(Number(this.session?.reignLength || 0));
       if (endingReferralMilestone) {
         vrReferralMarkEndingMilestoneShown(endingReferralMilestone.threshold, endingReferralMilestone.state);
@@ -2702,17 +2702,38 @@ body.vr-peek-mode .vr-gauge-preview{
         }
 
         box.innerHTML = `
-          <div style="font-size:15px;font-weight:900;line-height:1.3;margin-bottom:6px;">${t('referral.milestone_inline_title', 'Bravo, vu ton score, mesure-toi à tes amis.')}</div>
-          <div style="font-size:14px;line-height:1.5;color:rgba(255,255,255,.92);margin-bottom:10px;">${t('referral.milestone_inline_body', 'Vois s’ils peuvent faire mieux que toi. Partage l’application et gagne des VCoins quand une invitation est validée.')}</div>
-          <button id="vr-ending-referral-invite-btn" type="button" style="width:100%;min-height:46px;border:0;border-radius:14px;background:linear-gradient(135deg,#70b7ff,#4a80ff);color:#fff;font-weight:900;font-size:15px;cursor:pointer;box-shadow:0 12px 26px rgba(74,128,255,.28);display:flex;align-items:center;justify-content:center;gap:10px;">
-            <span>${t('referral.invite_and_earn_btn', '') || t('referral.invite_btn', 'Inviter')}</span>
+          <div style="font-size:15px;font-weight:900;line-height:1.3;margin-bottom:6px;text-align:center;">${t('referral.milestone_inline_title', 'Bravo, vu ton score, mesure-toi à tes amis.')}</div>
+          <div style="font-size:14px;line-height:1.5;color:rgba(255,255,255,.92);margin-bottom:12px;text-align:center;">${t('referral.milestone_inline_body', 'Vois s’ils peuvent faire mieux que toi. Partage l’application et gagne des VCoins quand une invitation est validée.')}</div>
+
+          <div style="display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:12px;">
+            <span style="font-weight:900;font-size:17px;">${t('referral.invite_and_earn_btn', 'Inviter et gagner')}</span>
             <img src="assets/img/ui/vcoins.webp" alt="" draggable="false" style="width:22px;height:22px;object-fit:contain;">
-            <span>+${endingReferralReward}</span>
-          </button>
+            <span style="font-weight:900;font-size:18px;">+${endingReferralReward}</span>
+          </div>
+
+          <div style="display:flex;justify-content:center;">
+            <button id="vr-ending-referral-invite-btn" type="button" style="min-width:150px;min-height:46px;border:0;border-radius:999px;background:linear-gradient(135deg,#70b7ff,#4a80ff);color:#fff;font-weight:900;font-size:16px;cursor:pointer;box-shadow:0 12px 26px rgba(74,128,255,.28);padding:0 18px;">
+              ${t('referral.invite_btn', 'Inviter')}
+            </button>
+          </div>
         `;
 
         const inviteBtn = document.getElementById("vr-ending-referral-invite-btn");
         if (inviteBtn) {
+          if (inviteBtn?.animate) {
+            inviteBtn.animate(
+              [
+                { transform: "scale(1)", boxShadow: "0 12px 26px rgba(74,128,255,.28)" },
+                { transform: "scale(1.04)", boxShadow: "0 16px 34px rgba(74,128,255,.46)" },
+                { transform: "scale(1)", boxShadow: "0 12px 26px rgba(74,128,255,.28)" }
+              ],
+              {
+                duration: 1400,
+                iterations: Infinity,
+                easing: "ease-in-out"
+              }
+            );
+          }
           inviteBtn.onclick = async () => {
             try { await window.VReferral?.shareInvite?.(); } catch (_) {}
           };
