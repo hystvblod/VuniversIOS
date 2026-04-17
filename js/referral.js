@@ -7,7 +7,7 @@
   const LOCAL_INVITER_CREDITS_KEY = "vuniverse_referral_local_inviter_credits_v1";
   const LOCAL_INVITER_LIMIT = 5;
 
-  const INVITE_BASE_URL = "https://hystvblod.github.io/vuniverse-invite/invite.html";
+  const INVITE_BASE_URL = "https://vboldcompany.github.io/vunvierse-invite/invite.html";
 
   const INDEX_SHARE_PROMPT_STATE_KEY = "vrealms_referral_index_share_state_v2";
   const INDEX_SHARE_PROMPT_QUEUE_KEY = "vrealms_referral_index_share_queue_v2";
